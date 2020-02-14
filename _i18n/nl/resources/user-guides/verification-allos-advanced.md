@@ -37,12 +37,12 @@ In dit gedeelte leggen we uit hoe je de Monero-ondertekeningssleutel ophaalt, co
 
 ### 2.1. Ondertekeningssleutel ophalen
 
-Op Windows of een Mac: ga naar [Fluffypony's GPG-sleutel](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de Monero-binaries ondertekent, en sla de pagina op als `fluffypony.asc` in je homedirectory.
+Op Windows of een Mac: ga naar [Fluffypony's GPG-sleutel](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de Monero-binaries ondertekent, en sla de pagina op als `fluffypony.asc` in je homedirectory.
 
 Op Linux kun je de ondertekeningssleutel van Fluffypony downloaden door de volgende opdracht op te geven:
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Ondertekeningssleutel verifiëren

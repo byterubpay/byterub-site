@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
   
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-dev-meeting-note-highlights-2016-10-16).  
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-dev-meeting-note-highlights-2016-10-16).  
 
 ### Logs  
 
@@ -41,7 +41,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<moneromooo>** But yes, 1/1 in general.  
 **\<moneromooo>** So, nobody seems to disagree, I'll write a little thingie about this for the repo. Thanks.  
 **\<moneromooo>** So, I guess... anyone has anything to say about progress, or other dev related stuff ? :)  
-**\<Fireice>** I've got a question to the devs - do you think Monero is mature enough for applications improving usability?  I'm an independent software dev, and I'm thinking of committing about 6 months of full-time work on Monero. First application that I'm thinking of is a lightweight Windows GUI wallet for Monero.  
+**\<Fireice>** I've got a question to the devs - do you think ByteRub is mature enough for applications improving usability?  I'm an independent software dev, and I'm thinking of committing about 6 months of full-time work on ByteRub. First application that I'm thinking of is a lightweight Windows GUI wallet for ByteRub.  
 **\<moneromooo>** Another one, yay! :)  
 **\<moneromooo>** First, read up on what lightweight may involve for monero.  
 **\<_Slack> \<nanoakron>** Do we have a common wiki or other info page for devs to describe things like prefixes e.g. m_ and others  
@@ -59,7 +59,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<hiall>** where is it?  
 **\<moneromooo>** Well, my opinion on that is to follow the existing, but I'm not super bothered about it. I certaonly don't subscribe to the minutiae crap. But I know many disagree :)  
 **\<Fireice>** ok will do, how do i get hold of him?  
-**\<_Slack> \<nanoakron>** Fireice: Take a look at how the existing GUI wallet is coming along at https://github.com/monero-project/monero-core - maybe integration into an existing service such as open bazaar would be cool  
+**\<_Slack> \<nanoakron>** Fireice: Take a look at how the existing GUI wallet is coming along at https://github.com/byterubpay/monero-core - maybe integration into an existing service such as open bazaar would be cool  
 **\<moneromooo>** Fireice: he's around on IRC pretty often.  
 **\<_Slack> \<nanoakron>** hyc: I know :( But standards can be good too  
 **\<moneromooo>** integration would need th plugin system first. That is yet to be design.  
@@ -266,7 +266,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<TedTheFicus>** There is no date, it was just discussed now and testing is being done.  
 **\<moneromooo>** Anyone else want to talk about dev stuff for 6 minutes ?  
 **\<dEBRUYNE>** hiall: Read the backlogs :P  
-**\<_Slack> \<nanoakron>** Thanks @jaquee for all the GUI work. Two other issues I wanted to raise during this meeting were (a) killing dead issues on github and (b) formalising the log levels. WRT log levels, I don’t mind going through the code and changing all log outputs to the correct level if we can agree what those should be, in advance of a better programmer changing the logging subsystem itself. Please see and comment on https://github.com/monero-project/monero  
+**\<_Slack> \<nanoakron>** Thanks @jaquee for all the GUI work. Two other issues I wanted to raise during this meeting were (a) killing dead issues on github and (b) formalising the log levels. WRT log levels, I don’t mind going through the code and changing all log outputs to the correct level if we can agree what those should be, in advance of a better programmer changing the logging subsystem itself. Please see and comment on https://github.com/byterubpay/monero  
 **\<tompole>** Can someone confirm that the languages page has been scrubbed from the GUI?  
 **\<endogenic>** i do want to mention i don't think any normal user would install boost on their own -- and the crash itself wouldn't be acceptable as a graceful failure fmpov as a product guy  
 **\<moneromooo>** I'd leave any level change till after the log system change, let's not waste work.  
@@ -309,7 +309,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<TedTheFicus>** Thanks for all your hard work everyone!  
 **\<moneromooo>** For people wanting to read the kovri meeting 1 a minute, that'll be on #kovri-dev  
 **\<moneromooo>** Thanks all  
-**\<tompole>** Monero doesn't need to be concerned with tending to deadlines that relate to other projects.  
+**\<tompole>** ByteRub doesn't need to be concerned with tending to deadlines that relate to other projects.  
 **\<gingeropolous>** ONWARD MONERO!  
 **\<kali_>** Thanks guys!  
 **\<+hyc>** bye all  

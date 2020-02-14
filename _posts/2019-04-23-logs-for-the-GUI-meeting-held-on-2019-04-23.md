@@ -34,7 +34,7 @@ author: el00ruobuob / dsc
 **\<dEBRUYNE>** selsta: What kind of buildbot changes does 1816 require?  
 **\<selsta>** dEBRUYNE: zbar library has to get installed and to get 1816 to build on macOS seems hacky.  
 **\<dEBRUYNE>** Ah I see, let's not merge that then  
-**\<selsta>** see https://github.com/monero-project/monero-gui/pull/1816#issuecomment-448998772  
+**\<selsta>** see https://github.com/byterubpay/monero-gui/pull/1816#issuecomment-448998772  
 **\<dEBRUYNE>** Should we merge the QT 5.9 PRs?  
 **\<selsta>** yes  
 **\<dEBRUYNE>** Pigeons had success on the Linux buildbots, but has yet to finalize building on mac os x and windows  
@@ -57,11 +57,11 @@ author: el00ruobuob / dsc
 **\<dsc\_>** Next agenda item?  
 **\<dsc\_>** - Discuss pending issues  
 **\<dsc\_>** as in, github issues.  
-**\<selsta>** Anyone experienced https://github.com/monero-project/monero-gui/issues/2074 ?  
+**\<selsta>** Anyone experienced https://github.com/byterubpay/monero-gui/issues/2074 ?  
 **\<dsc\_>** We're you using the debugger from within QtCreator?  
 **\<dsc\_>** Never happened to me  
 **\<selsta>** No debugger.  
-**\<dsc\_>** I want to discuss https://github.com/monero-project/monero-gui/issues/2024  
+**\<dsc\_>** I want to discuss https://github.com/byterubpay/monero-gui/issues/2024  
 **\<luigi1113>** so much text  
 **\<dsc\_>** https://twitter.com/Ben\_Sharp\_/status/1119273759125299200  
 **\<dsc\_>** Complaint from some is "dark mode is to dark"  
@@ -106,7 +106,7 @@ author: el00ruobuob / dsc
 **\<moneromooo>** Ah, it sees it before it gets run ? That's annoying indeed.  
 **\<kinghat>** i think the gui should match the website, so light theme and dark theme option. i only use dark themes if theres an option btw.  
 **\<ErCiccione>** some do, yes, but not all of them  
-**\<ErCiccione>** (for the records: the issue about AV: https://github.com/monero-project/monero-gui/issues/1747)  
+**\<ErCiccione>** (for the records: the issue about AV: https://github.com/byterubpay/monero-gui/issues/1747)  
 **\<dsc\_>** I guess it's a bad idea to have some code in main{} that checks the integrity of the local installation, in order to detect if files imperative to GUIs/CLIs operation have been altered or quarantined, which implies AV fucked with it.  
 **\<moneromooo>** Then maybe we can piss them off by making a "warning" page in the GUI to warn people not use this list of shit AVs ^\_^  
 **\<dsc\_>** Bad idea in the sense that you don't want to waste time on creating such a mechanism.  
@@ -150,7 +150,7 @@ author: el00ruobuob / dsc
 **\<dsc\_>** Go for it  
 **\<dEBRUYNE>** I quite like it, but my only worry is that the DNS involved causes some issues on startup  
 **\<dEBRUYNE>** In the past, we had it enabled and, for some users, the GUI would show a black screen upon startup  
-**\<dEBRUYNE>** Relevant issue -> https://github.com/monero-project/monero-gui/issues/761  
+**\<dEBRUYNE>** Relevant issue -> https://github.com/byterubpay/monero-gui/issues/761  
 **\<dsc\_>** Someone needs to test #2100. I'm not sure how to. The DNS check always returns empty for me.  
 **\<dsc\_>** I can, however, confirm it does indeed do a DNS request  
 **\<dsc\_>** and it always has done this, in the past, as long as I can remember  
@@ -160,7 +160,7 @@ author: el00ruobuob / dsc
 **\<dsc\_>** it was never disabled  
 **\<dsc\_>** Unless it was disabled over at core (wallet api)  
 **\<dsc\_>** which afaik. it has not  
-**\<dEBRUYNE>** What is this PR doing then? https://github.com/monero-project/monero-gui/pull/777  
+**\<dEBRUYNE>** What is this PR doing then? https://github.com/byterubpay/monero-gui/pull/777  
 **\<dEBRUYNE>** :-P  
 **\<dsc\_>** That PR disables a message handler registration :P  
 **\<dsc\_>** which is logging related  

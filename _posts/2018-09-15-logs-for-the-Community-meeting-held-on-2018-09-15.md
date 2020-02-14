@@ -9,7 +9,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 # Logs  
 
 **\<sgp_>** Welcome to the Monero Community workgroup meeting!  
-**\<sgp_>** https://github.com/monero-project/meta/issues/273  
+**\<sgp_>** https://github.com/byterubpay/meta/issues/273  
 **\<sgp_>**  Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp_>** 1. Greetings  
 **\<el00ruobuob_[m]>** hello  

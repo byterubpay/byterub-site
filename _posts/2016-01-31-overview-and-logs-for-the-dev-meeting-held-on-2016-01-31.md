@@ -20,7 +20,7 @@ There is more talk about minor tweaks that should or shouldn't go into the upcom
 
 ## Style guide
 
-In Kovri they've been working with [a style guide](https://github.com/monero-project/kovri/blob/master/CONTRIBUTING.md#style), and fluffypony suggests implementing one in Monero. Basically, this is the way the code is formatted (human formatted).
+In Kovri they've been working with [a style guide](https://github.com/byterubpay/kovri/blob/master/CONTRIBUTING.md#style), and fluffypony suggests implementing one in ByteRub. Basically, this is the way the code is formatted (human formatted).
 
 Its agreed to use the new style with new code, and restyle-as-you-go with old code. Restyling for the sake of restyling is though to be unnecessary. Key points:
 
@@ -70,7 +70,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<xmrpromotions>**  I think typing is fine too.  
 **\<ArticMine>**  This is fine  
 **\<fluffypony>**  agreed  
-**\<fluffypony>**  plus there are people working on Monero that would prefer not to have to use a voice changer just to participate :-P  
+**\<fluffypony>**  plus there are people working on ByteRub that would prefer not to have to use a voice changer just to participate :-P  
 **\<fluffypony>**  ok so there are a few things on the agenda   
 **\<luigi1111>**  I'm sick so my voice is already changed  
 **\<warptangent>**  the format seems to have been working well for kovri too  
@@ -117,8 +117,8 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<moneromooo>**  Great, ty  
 **\<fluffypony>**  great minds think alike  
 **\<fluffypony>**  ok next I'd like us to chat about a style guide  
-**\<fluffypony>**  we've been working on one in Kovri that we can possibly use for Monero  
-**\<fluffypony>**  https://github.com/monero-project/kovri/blob/master/CONTRIBUTING.md#style  
+**\<fluffypony>**  we've been working on one in Kovri that we can possibly use for ByteRub  
+**\<fluffypony>**  https://github.com/byterubpay/kovri/blob/master/CONTRIBUTING.md#style  
 **\<hyc>**  oh, I do have one outstanding - tweak to BlocchainLMDB::get_estimated_batch_size - change batch_safety_factor to get blockchain_import to succeed on 32bit  
 **\<fluffypony>**  not necessary to read the style guide now, just more a general sense of if everyone is comfy with *a* style guide, and if anyone has any particular preferences   
 **\<smooth>**  i have no objection to any reasonable style guide but i do object to re-styling of existing code  
@@ -160,7 +160,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  because it's never "perfect"  
 **\<fluffypony>**  so merge, create issues on Github where something is lacking (eg. new feature, little or no tests - create issues for tests)  
 **\<moneromooo>**  This PR-hell problem's never happened, has it ?  
-**\<fluffypony>**  moneromooo: not in Monero yet, but Bitcoin is chock-full of it  
+**\<fluffypony>**  moneromooo: not in ByteRub yet, but Bitcoin is chock-full of it  
 **\<gingeropolous>**  ^ this is for dev branch, right?  
 **\<moneromooo>**  I think common sense is again a better thing than going the opposite extreme.  
 **\<fluffypony>**  gingeropolous: this is in general  
@@ -337,7 +337,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<smooth>**  it is somewhat hard to come up to speed with the code, i would agree with that  
 **\<fluffypony>**  alright  
 **\<fluffypony>**  last thing so we can wrap up  
-**\<fluffypony>**  I just wanted to deeply thank everyone who has contributed and who continues to contribute to Monero development, whether it is Monero's core, the website, any other peripheral projects  
+**\<fluffypony>**  I just wanted to deeply thank everyone who has contributed and who continues to contribute to ByteRub development, whether it is ByteRub's core, the website, any other peripheral projects  
 **\<fluffypony>**  both on behalf of the core team, and on behalf of the community   
 **\<fluffypony>**  you all do an amazing job, and we've done a truckload of work in 2014 and 2015  
 **\<fluffypony>**  so here's to an amazing 2016  

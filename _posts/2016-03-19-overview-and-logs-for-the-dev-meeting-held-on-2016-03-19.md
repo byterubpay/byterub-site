@@ -51,7 +51,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** neat  
 **\<fluffypony>** also on the topic of stuff-hyc-did-lately  
 **\<fluffypony>** if anyone missed it, we now have a win environment guide up on forum.getmonero.org  
-**\<dEBRUYNE>** ^ https//forum.getmonero.org/5/support//building-monero-v0-9-2-on-winMonero  
+**\<dEBRUYNE>** ^ https//forum.getmonero.org/5/support//building-monero-v0-9-2-on-winByteRub  
 **\<fluffypony>** so that should get us all on the same page with testing etc.  
 **\<hyc>** and one success story replied to it already ;)  
 **\<fluffypony>** we've also dropped support for BDB as the default database, and switched to LMDB as the default  
@@ -117,12 +117,12 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** I was thinking we have a repo, say it's called monero-plugins  
 **\<arnuschky>** audit as well  
 **\<fluffypony>** and then anyone can PR to that repo  
-**\<fluffypony>** and that repo is pulled into the main Monero source as a git submodule  
+**\<fluffypony>** and that repo is pulled into the main ByteRub source as a git submodule  
 **\<fluffypony>** there are two advantages to this  
 **\<fluffypony>** 1. as it gets bigger and harder to deal with, we can step back and other known members of the community can manage that repo  
 **\<fluffypony>** 2. if we come up with a standard set of functionality hooks, then other projects can pull that same repo in  
 **\<fluffypony>** eg. jwinterm's lightwallet  
-**\<fluffypony>** also it means that the compiled Monero binaries have those plugins baked in, and you can't add extra plugins post-compile  
+**\<fluffypony>** also it means that the compiled ByteRub binaries have those plugins baked in, and you can't add extra plugins post-compile  
 **\<fluffypony>** so no need to deal with interpreted code and securing that on disk and in memory  
 **\<hyc>** baked in means no dynamic loading?  
 **\<tewinget>** \<fluffypony> so no need to deal with interpreted code and securing that on disk  <-- if securing an interpreted plugin on disk became an issue, securing the binary would be an issue anyway, so I don't know of that bit matters  
@@ -133,9 +133,9 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** tewinget I mean we can't secure it in the path from random-site-on-the-web down to random-download-folder and eventually into secure-disk-location  
 **\<arnuschky>** fluffypony that would be really great.  
 **\<fluffypony>** ok - I think next steps would be to consider some of the hooks we need to provide to add functionality  
-**\<fluffypony>** we can use the Monero wikia as a collaboration area for that  
+**\<fluffypony>** we can use the ByteRub wikia as a collaboration area for that  
 **\<ArticMine>** It is a good balance for plugins  
-**\<fluffypony>** and then we'll just update the Monero Slack  
+**\<fluffypony>** and then we'll just update the ByteRub Slack  
 **\<arnuschky>** well securing the plugins can always happen by signature - no matter if interpreted or binary  
 **\<fluffypony>** I'm kidding, we don't have a Slack  
 **\<fluffypony>** we're not that cool  
@@ -224,7 +224,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** also #728 was a little contentious  
 **\<fluffypony>** so we created a company called Mixinstream that has hired all the contributors  
 **\<palexander>** heh heh  
-**\<fluffypony>** and gingeropolous has launched Monero Classic  
+**\<fluffypony>** and gingeropolous has launched ByteRub Classic  
 **\<gingeropolous>** ( sorry )  
 **\<fluffypony>** -P  
 **\<fluffypony>** ok so #728 is Ilya's work as part of the GUI effort  
@@ -328,7 +328,7 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE>** MRL-6 is multisig?  
 **\<iam6yearsold>** I will party hard if fork happens with no drama  
 **\<fluffypony>** dEBRUYNE: no  
-**\<fluffypony>** https//github.com/monero-project/research-lab/tree/master/publications/MRL-%-%Difficulty%Adjustment%Algorithms%in%Cryptocurrency%Protocols  
+**\<fluffypony>** https//github.com/byterubpay/research-lab/tree/master/publications/MRL-%-%Difficulty%Adjustment%Algorithms%in%Cryptocurrency%Protocols  
 **\<dEBRUYNE>** oh cool, thanks  
 **\<moneromooo>** How do get cmake to tell you the commands it's running ?  
 **\<luigi>** we have diff, we have db stuff, we have fee stuff  

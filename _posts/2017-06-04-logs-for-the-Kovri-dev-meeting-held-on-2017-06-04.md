@@ -10,7 +10,7 @@ author: dEBRUYNE / fluffypony
 
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46)  
+**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
 **\<anonimal>** 4. Code + ticket discussion / Q & A  
 **\<anonimal>** 5. Any additional meeting items  
 **\<anonimal>** 6. Confirm next meeting date/time  
@@ -30,7 +30,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** I didn't get any more hackerone or VRP work done as I chose to focus on code instead. I think h1 stuff will be done soon though.  
 **\<anonimal>** rehrar: anything, just a general re-cap.  
 **\<anonimal>** Ok, moving on  
-**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46)  
+**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
 **\<rehrar>** Typing  
 **\<rehrar>** Redesigned the getmonero.org custom framework, have semi-started a translation campaign, made a document on how to add and edit pages and translate them, and have done intermittent testing since then, and added a few more languages upon request.  
 **\<anonimal>** Cool cool. How's the monero site coming along so we know when you can do a kovri FFS?  
@@ -94,7 +94,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Anyway, that's distant stuff that we can talk more about later. I can't imagine a lot of code involved either.  
 **\<rehrar>** Sure thing. We'll talk bout it soon.  
 **\<danielesesta>** Good Evening  
-**\<anonimal>** Once anonimal/kovri-site is moved to monero-project/kovri-site, I think I'll move the meta issue there.  
+**\<anonimal>** Once anonimal/kovri-site is moved to byterubpay/kovri-site, I think I'll move the meta issue there.  
 **\<anonimal>** Hello danielesesta.  
 **\<rehrar>** Great to have you join @danielesesta read the backlog. :)  
 **\<anonimal>** Ok so moving onto 5. Any additional meeting items  
@@ -126,7 +126,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** if you wanna help, please contact me, I am a web dev.. I'm building integrations for monero  
 **\<rehrar>** Serhack, I was going to out you in touch with Daniel.  
 **\<rehrar>** I will be making a slack channel soon for web devs.  
-**\<rehrar>** So we can discuss Monero/Kovri needs.  
+**\<rehrar>** So we can discuss ByteRub/Kovri needs.  
 **\<danielesesta>** i think that could be a great use of a i2p browser  
 **\<anonimal>** Nice, I like that idea.  
 **\<danielesesta>** also a great proof of concept  
@@ -136,7 +136,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Ok. Anonimal I've got one thing to ask you.  
 **\<danielesesta>** @serhack sure PM me so we keep in touch here  
 **\<rehrar>** Oh, thank you you two for your contributions, Danielesesta and serhack  
-**\<anonimal>** Ok, so in terms of housekeeping: danielesesta or anyone, would you be willing to open a new issue at https://github.com/monero-project/meta/issues explaining your idea/proposal so we can all have a point of contact and collaboration? Or is there a better alternative?  
+**\<anonimal>** Ok, so in terms of housekeeping: danielesesta or anyone, would you be willing to open a new issue at https://github.com/byterubpay/meta/issues explaining your idea/proposal so we can all have a point of contact and collaboration? Or is there a better alternative?  
 **\* anonimal** would usually refer to the kovri repo but that's better for code issues  
 **\<serhack>** forum :)  
 **\<anonimal>** Hmm, well, the forum doesn't email me notifications (I've tried everything)  

@@ -1250,7 +1250,7 @@ La structure de données pour ces appels diffère de celle des appels JSON RPC. 
 
 Remarque : Il est recommandé d'utiliser JSON RPC lorsque l'alternative existe, plutôt que les méthodes suivantes. Par exemple, la méthode recommandée pour obtenir la hauteur d'un nœud est via la méthode JSON RPC [get_info](#getinfo) ou [get_last_block_header](#get_last_block_header), plutôt que [getheight](#getheight) ci-dessous.
 
-Pour les appels qui se terminent par **.bin**, les données sont échangées sous forme d'objets sérialisés binaire, comme définit dans le [Core RPC Server](https://github.com/monero-project/monero/blob/master/src/rpc/core_rpc_server_commands_defs.h).
+Pour les appels qui se terminent par **.bin**, les données sont échangées sous forme d'objets sérialisés binaire, comme définit dans le [Core RPC Server](https://github.com/byterubpay/monero/blob/master/src/rpc/core_rpc_server_commands_defs.h).
 
 
 ### **/get_height**

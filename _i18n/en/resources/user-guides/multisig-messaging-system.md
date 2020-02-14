@@ -93,7 +93,7 @@ The MMS also manages a single list of *messages* per wallet: All messages you se
 
 ## Getting the MMS
 
-Right now, at the time of writing this manual (year-end 2018), the MMS is only available as part of the latest Monero code (`master` branch on Monero's [GitHub repository](https://github.com/monero-project/monero)). To use it, you have to check out that source code and compile it yourself. Doing so is easiest on a Linux system.
+Right now, at the time of writing this manual (year-end 2018), the MMS is only available as part of the latest Monero code (`master` branch on Monero's [GitHub repository](https://github.com/byterubpay/monero)). To use it, you have to check out that source code and compile it yourself. Doing so is easiest on a Linux system.
 
 With the next hardfork in Spring 2019 the MMS will become an integral standard part of the Monero software: You install Monero, you have it.
 

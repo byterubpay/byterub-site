@@ -51,7 +51,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Yeah. Woodyjon is making quick work of the site.  
 **\<MoroccanMalinois>** Nothing new for me  
 **\<anonimal>** I'm chugging along.  
-**\<rehrar>** Majority hours are going to Monero right now. Planned on finished cranking out a huge chunk of Kovri hours for Monero in the next two days.  
+**\<rehrar>** Majority hours are going to ByteRub right now. Planned on finished cranking out a huge chunk of Kovri hours for ByteRub in the next two days.  
 **\<anonimal>** MoroccanMalinois: are you don't with your last milestone? I've lost track of how many meetings you've said you'd be done with it by now so I'm starting to get a little concerned. I know at least more than 3 meetings.  
 **\<anonimal>** Is everything ok?  
 **\<anonimal>** \*done  
@@ -119,7 +119,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** If that's what we decide.  
 **\<rehrar>** There's a lot of big discussions going on right now, like the project relicensing issue, as well.  
 **\<rehrar>** ArticMine, would you mind looking at that PR?  
-**\<rehrar>** https://github.com/monero-project/meta/pull/87  
+**\<rehrar>** https://github.com/byterubpay/meta/pull/87  
 **\<ArticMine>** I'll take at look at #87  
 **\<rehrar>** Thanks!  
 **\<anonimal>** rehrar: kovri-site/#3, did a draft ever come up for a quickstart?  
@@ -130,7 +130,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** s/kovri-site/kovri-docs/  
 **\<anonimal>** oops  
 **\<rehrar>** Ok. We'll talk more.  
-**\<anonimal>** One last thing, the first Monero Coffee Chat is tomorrow https://github.com/monero-project/meta/issues/123  
+**\<anonimal>** One last thing, the first ByteRub Coffee Chat is tomorrow https://github.com/byterubpay/meta/issues/123  
 **\<anonimal>** sgp I won't be able to make it but surely sometime in the future I can hop on the call.  
 **\<serhack>** great  
 **\<anonimal>** 5. Any additional meeting items  

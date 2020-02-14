@@ -31,4 +31,4 @@ Nominał jest prawidłowym opisem ilości waluty. Często jest on podjednostką 
 
 ### Szczegółowe informacje
 
-Pomoc w zakresie wkładów z użyciem przedrostków SI została [dodana do bazy kodów Monero](https://github.com/monero-project/monero/pull/1826) 3 marca 2017 roku przez [Moneromooo](https://github.com/moneromooo-monero). Najmniejsza jednostka Monero (10^-12 XMR) została pierwotnie nazwana tacoshi na cześć użytkownika [Tacotime] (https://bitcointalk.org/index.php?action=profile;u=19270), współautora Monero we wczesnej fazie, i następnie przemianowana dla łatwiejszego użycia i konsekwencji.
+Pomoc w zakresie wkładów z użyciem przedrostków SI została [dodana do bazy kodów Monero](https://github.com/byterubpay/monero/pull/1826) 3 marca 2017 roku przez [Moneromooo](https://github.com/moneromooo-monero). Najmniejsza jednostka Monero (10^-12 XMR) została pierwotnie nazwana tacoshi na cześć użytkownika [Tacotime] (https://bitcointalk.org/index.php?action=profile;u=19270), współautora Monero we wczesnej fazie, i następnie przemianowana dla łatwiejszego użycia i konsekwencji.

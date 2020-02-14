@@ -58,7 +58,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** LOL  
 **\<fluffypony>** Nice catch  
 **\<hyc>** lol  
-**\<fluffypony>** breaking: Monero contributor works for free!  
+**\<fluffypony>** breaking: ByteRub contributor works for free!  
 **\<hyc>** just tuning in, was teaking my ARM code  
 **\<tewinget>** god dammit.  
 **\<fluffypony>** Instant delivery!  
@@ -258,7 +258,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** 1. fee changes (lower min-fee, bind it to the inverse of the block median as suggested by ArticMine)  
 **\<fluffypony>** 2. ideally, if anyone is up for it, we seriously need our DNSSEC check expanded to *actually* check from the root cert down, at the moment it's relying on the DNS server to send back a "secure" flag, which is breaking it on lots of routers  
 **\<MalMen>** tewinget can you point me to the list of 0qm commands that you have already?  
-**\<fluffypony>** and we rely on DNSSEC for MoneroSeeds and MoneroPulse  
+**\<fluffypony>** and we rely on DNSSEC for ByteRubSeeds and ByteRubPulse  
 **\<MalMen>** I have some sugestion  
 **\<ArticMine>** moneromooo is coding the fee changes  
 **\<fluffypony>** there's some time pressure on that, but it's not a huge piece of work, so if anyone is up for it then that would be appreciated  

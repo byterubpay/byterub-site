@@ -68,7 +68,7 @@ author: dEBRUYNE / fluffypony
 **\<hotoatmeal>** yeah  
 **\<i-a>** :(  
 **\<hotoatmeal>** but in terms of mathematical purity / elegance... I really want that kind of solution to work :)  
-**\<hotoatmeal>** jbdatko: https://github.com/monero-project/monero/pull/3095  
+**\<hotoatmeal>** jbdatko: https://github.com/byterubpay/monero/pull/3095  
 **\<i-a>** Ok, another question: If device did he whole scanning. How much memory we need on the device? I think that downlink from peers is usually slower than USB, so limitations is more in memory requirement at the device.  
 **\<m2049r[m]>** how big of a problem would it be to reveal the viewkey to the client?  
 **\<luigi1111>** Not memory  
@@ -325,7 +325,7 @@ author: dEBRUYNE / fluffypony
 **\<m2049r[m]>** including convesion from/to 256-bit scalars or the mult by itself?  
 **\<luigi1111w>** including  
 **\<cslashm>** m2049r[m]: hotoatmeal: Yes All secret value are passed encrypted from device to PC. When PC need perform operation with those values, there are retransmitted to the device  
-**\<luigi1111w>** https://github.com/monero-project/monero/blob/master/src/crypto/crypto.cpp#L127  
+**\<luigi1111w>** https://github.com/byterubpay/monero/blob/master/src/crypto/crypto.cpp#L127  
 **\<luigi1111w>** if you can match that  
 **\<m2049r[m]>** ok - like the operation need to make a public key out of a secret key (eg. viewkey)?  
 **\<luigi1111w>** yes  
@@ -334,7 +334,7 @@ author: dEBRUYNE / fluffypony
 **\<m2049r[m]>** will do that tomorrow and get back with results.  
 **\<luigi1111w>** cool  
 **\<luigi1111w>** might as well do arbitrary base too if it's not much more work  
-**\<luigi1111w>** https://github.com/monero-project/monero/blob/master/src/crypto/crypto.cpp#L127  
+**\<luigi1111w>** https://github.com/byterubpay/monero/blob/master/src/crypto/crypto.cpp#L127  
 **\<luigi1111w>** you can use any valid point for the pubkey param  
 **\<luigi1111w>** I can give you one in hex if you want  
 **\<luigi1111w>** or you can just gen one from the above function  

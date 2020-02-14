@@ -46,4 +46,4 @@ The Monero dev community
 Appendix:
 
 An upgrade process PDF that may be useful for you can be found here:
-https://github.com/monero-project/meta/files/2775745/Upgrade.Process.pdf
+https://github.com/byterubpay/meta/files/2775745/Upgrade.Process.pdf

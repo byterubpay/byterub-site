@@ -10,7 +10,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/318  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/318  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<oneiric\_>** o/  
@@ -24,8 +24,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** d=  
 **\<Xeagu\_\_>** Welcome rehrar  
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** An enormous discussion on Monero’s PoW occurred in this issue. It’s a long read: https://github.com/monero-project/meta/issues/316  
-**\<sgp\_>** A meeting has been scheduled for 24 March @ 17:00 UTC. Please read the other materials before participating in the meeting, since many ideas have already been discussed: https://github.com/monero-project/meta/issues/315#issuecomment-473538744  
+**\<sgp\_>** An enormous discussion on Monero’s PoW occurred in this issue. It’s a long read: https://github.com/byterubpay/meta/issues/316  
+**\<sgp\_>** A meeting has been scheduled for 24 March @ 17:00 UTC. Please read the other materials before participating in the meeting, since many ideas have already been discussed: https://github.com/byterubpay/meta/issues/315#issuecomment-473538744  
 **\<sgp\_>** h4sh3d created a new Rust Monero library: https://github.com/monero-rs/monero-rs  
 **\<sgp\_>** Monero had a successful network upgrade. Spent output lists are available on https://moneroblackball.com, though network impact was essentially 0, and you should make your own anyway.  
 **\<sgp\_>** There was an issue with the Ledger client. It is fixed with new versions.  
@@ -40,7 +40,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** I been working with people to get the OSticket/LiveHelperChat thing up. Someone got it to work. I'm impressed.  
 **\<parasew[m]>** vienna/austria monero group getting active again after winter hibernation. we had a lot of afk things to do but had a great monero austria meetup. meetups will be more frequently now and we are setting up some workshops in the near future.  
 **\<rehrar>** parasew[m]: read my thingy  
-**\<sgp\_>** if only there was a tool that allowed people to brag/complain about what they did that day.....  :p  https://github.com/monero-project/meta/issues/311  
+**\<sgp\_>** if only there was a tool that allowed people to brag/complain about what they did that day.....  :p  https://github.com/byterubpay/meta/issues/311  
 **\<oneiric\_>** work continues on tini2p  
 **\<dEBRUYNE>** Trezor integration has been PRed to the GUI repo  
 **\<el00ruobuob\_[m]>** sgp\_, shouldn't we start testing humhub online, to see if it suits us?  
@@ -78,7 +78,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I hope we keep the update fatigue to a minimum  
 **\<sgp\_>** 3. CCS updates (previously FFS updates)  
 **\<sgp\_>** The new CCS has been deployed! Check it out at https://ccs.getmonero.org  
-**\<sgp\_>** v1docq47’s proposal was previously in funding required in the FFS, and it needs to be moved out of ideas to funding required in the CCS: https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/32  
+**\<sgp\_>** v1docq47’s proposal was previously in funding required in the FFS, and it needs to be moved out of ideas to funding required in the CCS: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/32  
 **\<sgp\_>** CCS proposals still needing funding:  
 **\<sgp\_>** el00ruobuob’s proposal still needs funding (16.31 / 45): https://ccs.getmonero.org/proposals/el00ruobuob-january-to-march-part-time-for-a-new-quarter.html  
 **\<sgp\_>** a. Sarang’s proposal still needs funding (215 / 638): https://ccs.getmonero.org/proposals/sarang-2019-q2.html  
@@ -86,7 +86,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** (I didn't have time to write my proposal -my last one is expired - i will do it after i'm done with the guide for Pootle)  
 **\<sgp\_>** ok, none then. We discussed it a lot in the past  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** b. pwrcycle-Defcon\_Monero\_Party\_2019: https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/33  
+**\<sgp\_>** b. pwrcycle-Defcon\_Monero\_Party\_2019: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/33  
 **\<sgp\_>** pwrcycle: any comments?  
 **\<pwrcycle>** lets have fun  
 **\<Xeagu\_\_>** I support fun  
@@ -132,7 +132,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** sure  
 **\<midipoet>** i like parties  
 **\<midipoet>** cowbell or no cowbell  
-**\<sgp\_>** c. Xeagu: Get Xeagu to the Konferenco! https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/42  
+**\<sgp\_>** c. Xeagu: Get Xeagu to the Konferenco! https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/42  
 **\<sgp\_>** Xeagu\_\_: any comments?  
 **\<Xeagu\_\_>** Not really sure what else I can add  
 **\<Xeagu\_\_>** Vote yes!  
@@ -174,11 +174,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<midipoet>** so again, what would you speak about?  
 **\<Xeagu\_\_>** Some might call me a Con Artist.  
 **\<sgp\_>** I'm going to keep moving on. Leave further comments in the Gitlab issue. And keep the discussions as civil as possible please  
-**\<sgp\_>** d. Monero Outreach quarterly and ongoing task funding https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/45  
+**\<sgp\_>** d. Monero Outreach quarterly and ongoing task funding https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/45  
 **\<sgp\_>** Is anyone here from the Outreach workgroup?  
 **\<midipoet>** "Cryptocurreny: the long con". Not a bad speech title  
 **\<sgp\_>** all right then, we can move on  
-**\<sgp\_>** e. mooo's april coding: https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/46  
+**\<sgp\_>** e. mooo's april coding: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/46  
 **\<sgp\_>** hard no from me on this one  
 **\<dsc\_>** same  
 **\<el00ruobuob\_[m]>** What do we need a dev for?  
@@ -194,7 +194,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** o wow, missed a comma, created a useless superhero name  
 **\<sgp\_>** 4. Workgroup report  
 **\<sgp\_>** a. Hardware workgroup  
-**\<sgp\_>** Michael outlined a number of discussion topics of potential interest. Please ask questions on any of these topics: https://github.com/monero-project/meta/issues/318#issuecomment-473528693  
+**\<sgp\_>** Michael outlined a number of discussion topics of potential interest. Please ask questions on any of these topics: https://github.com/byterubpay/meta/issues/318#issuecomment-473528693  
 **\<sgp\_>** msvb-mob msvb-lab  
 **\<oneiric\_>** after 1-2 years, how close to a working prototype board?  
 **\<msvb-mob>** Hi, so this is the part where Monero hardware gets reported.  
@@ -247,7 +247,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<oneiric\_>** no worries, i would like to contribute, so maybe i can help with a guide  
 **\<sgp\_>** b. Defcon workgroup  
 **\<oneiric\_>** is assembly something possible with minimal hw / electronics tools?  
-**\<sgp\_>** Nothing to say except there is a meeting 6 April at 17:00 UTC: https://github.com/monero-project/meta/issues/317  
+**\<sgp\_>** Nothing to say except there is a meeting 6 April at 17:00 UTC: https://github.com/byterubpay/meta/issues/317  
 **\<sgp\_>** Do any workgroups have something to report?  
 **\<ErCiccione[m]>** o/  
 **\<sarang>** MRL continues to do things :/  

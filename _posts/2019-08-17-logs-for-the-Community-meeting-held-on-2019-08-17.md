@@ -12,7 +12,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Hello everyone, welcome back to the typical meeting schedule   
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/382  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/382  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<JOhNKmus>** Hello  
@@ -61,7 +61,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** \*GIFS  
 **\<sgp\_>** link?  
 **\<rehrar>** grabbing, sec  
-**\<rehrar>** https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/88  
+**\<rehrar>** https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/88  
 **\<sgp\_>** any comments on this one? looks a little expensive to me, but they have a history of making them and interest  
 **\<sgp\_>** deadline is 2019-09-01  
 **\<rehrar>** I don't really think it's necessary, but that's just me  

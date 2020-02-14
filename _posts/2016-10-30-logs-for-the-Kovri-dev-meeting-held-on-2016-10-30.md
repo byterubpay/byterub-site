@@ -13,7 +13,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** 1. Greetings  
 **\<meeting-bot> [anonimal]** 2. Brief review of what's been completed since the previous meeting  
 **\<meeting-bot> [anonimal]** 3. @fluffypony's request for finished logo  
-**\<meeting-bot> [anonimal]** 4. ∫alti as Monero project  
+**\<meeting-bot> [anonimal]** 4. ∫alti as ByteRub project  
 **\<meeting-bot> [anonimal]** 5. [libqtoopie](https://github.com/EinMByte/qtoopie/issues/1)  
 **\<meeting-bot> [anonimal]** 6. Preparing for pre-alpha release  
 **\<meeting-bot> [anonimal]** 7. Code + ticket discussion / Q & A  
@@ -42,7 +42,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [i2p-relay] {-Slack} \<nanoakron>** How’s the documentation looking to make that learning curve more shallow for future developers?  
 **\<meeting-bot> [anonimal]** (e.g., favourite book, long walks on the beach, etc.)  
 **\<meeting-bot> [anonimal]** nanoakron: moneropedia. We can talk more about that at the end of the meeting too.  
-**\<meeting-bot> [olark]** Have been programming for the last 3-4 years on and off. Just getting back into C++ have followed Monero and Kovri for the last year or so and figured I should stop procrastinating and help move things forward.  
+**\<meeting-bot> [olark]** Have been programming for the last 3-4 years on and off. Just getting back into C++ have followed ByteRub and Kovri for the last year or so and figured I should stop procrastinating and help move things forward.  
 **\<fluffypony>** olark: http://i.imgur.com/9AQYqBr.png  
 **\<meeting-bot> [olark]** Also long time i2p user, so I know what's up.  
 **\<meeting-bot> [anonimal]** lol, badge of honor.  
@@ -76,7 +76,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** either uploading somewhere or ric@getmonero.org  
 **\<pero>** i thought i 'submitted' the final one last weekend - i'd like to make one tiny half pixel change if i can  
 **\<meeting-bot> [anonimal]** sornros: we can answer more after the meeting  
-**\<fluffypony>** sornros: it already is being - https://github.com/monero-project/kovri  
+**\<fluffypony>** sornros: it already is being - https://github.com/byterubpay/kovri  
 **\<pero>** i'll email it to both fluffypony and anonimal shortly  
 **\<meeting-bot> [anonimal]** Anything else on 3.?  
 **\<sornros>** thanks  
@@ -84,7 +84,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** no that's anonimal, tks  
 **\<pero>** http://imgur.com/a/xCaZV fyi  
 **\<fluffypony>** that's it  
-**\<meeting-bot> [anonimal]** 4. ∫alti as Monero project  
+**\<meeting-bot> [anonimal]** 4. ∫alti as ByteRub project  
 **\<fluffypony>** pero: ok perfect - if you can send it to me after the pixel change  
 **\<meeting-bot> [EinMByte]** sure  
 **\<pero>** half-pixel :P  
@@ -96,7 +96,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** I'm thinking we consider brushing aside the deprecation issue for now and someone can pick it up in the future?  
 **\<PowerFlower>** hi sorry for being late -_- I hope its not too late. Simple question: Will be the GUI released before the next XMR core release in ?Januaray?  
 **\<meeting-bot> [EinMByte]** It depends what exactly we want to achieve  
-**\<meeting-bot> [anonimal]** If we *can* do that now, we could move it into monero-project and it will gain more attention.  
+**\<meeting-bot> [anonimal]** If we *can* do that now, we could move it into byterubpay and it will gain more attention.  
 **\<fluffypony>** PowerFlower: this is the Kovri meeting, you'll have to hold that question for later  
 **\<PowerFlower>** okay :)  
 **\<meeting-bot> [anonimal]** EinMByte: well, the easy stuff for starters re: profile. We can do that, right?  
@@ -223,12 +223,12 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** iDunk: you're welcome, thanks for the notice and for actively testing :)  
 **\<meeting-bot> [iDunk]** np :)  
 **\<meeting-bot> [anonimal]** PowerFlower: kovri questions, yes  
-**\<fluffypony>** ok let's close up the Kovri meeting and then PowerFlower can ask their Monero question :-P  
+**\<fluffypony>** ok let's close up the Kovri meeting and then PowerFlower can ask their ByteRub question :-P  
 **\<meeting-bot> [anonimal]** Oh, those kinds of questions.  
 **\<meeting-bot> [anonimal]** Ok, 9. Confirm next meeting date/time  
 **\<meeting-bot> [anonimal]** Same time, two weeks?  
 **\<meeting-bot> [olark]** Sounds good.  
 **\<fluffypony>** yes  
 **\<meeting-bot> [anonimal]** Alright, thank you EinMByte and everyone else here for making the meeting.  
-**\<fluffypony>** meeting bot going down to switch back to the Monero stuf  
+**\<fluffypony>** meeting bot going down to switch back to the ByteRub stuf  
 **\<meeting-bot> [anonimal]** Thanks fluffypony  

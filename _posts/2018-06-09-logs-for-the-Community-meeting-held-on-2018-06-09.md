@@ -12,7 +12,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** All right, community meeting time!  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/241  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/241  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<cryptochangement>** hey everyone  

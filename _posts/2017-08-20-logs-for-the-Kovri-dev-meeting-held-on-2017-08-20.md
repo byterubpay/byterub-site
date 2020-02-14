@@ -25,7 +25,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<anonimal>** We had the 96boards webcast this past Thursday, so that was certainly a highlight.  
 **\<anonimal>** It was nice to have that done since I had started coordinating it toward the beginning of this year.  
-**\<rehrar>** I continued work on the new Kovri logo, but that has been put on hold indefinitely. I switched gears and started working on the Reddits. Got good amounts of work done and we are fixing to release the Monero subreddit new CSS here pretty soon. Kovri isn't far behind it. Then recently I'm also working on redoing the website a bit. Just a small restructure. Putting together some new wires for the pages.  
+**\<rehrar>** I continued work on the new Kovri logo, but that has been put on hold indefinitely. I switched gears and started working on the Reddits. Got good amounts of work done and we are fixing to release the ByteRub subreddit new CSS here pretty soon. Kovri isn't far behind it. Then recently I'm also working on redoing the website a bit. Just a small restructure. Putting together some new wires for the pages.  
 **\<anonimal>** I've finally back to NTCP work (yay). Various fixes and rewriting. Now working on a phaser implementation and separating messaging from session code.  
 **\<ajs>** I passed along information to Pigeons about the irc server set up. He is looking into putting it up on a vps.  
 **\<anonimal>** I've noticed various little issues along the way that will be fixed along the way  
@@ -106,12 +106,12 @@ author: dEBRUYNE / fluffypony
 **\<bigreddmachine>** Yes. I've had a busy summer so had to tick off some low hanging fruit with episodes. But I really think a talk with you (and any other key contribs) would be super.  
 **\<bigreddmachine>** Maybe time it to be right around alpha release date?  
 **\<anonimal>** Ok sure. Do you have a link to previous episodes (I didn't know you did them regularly/semi-regularly)?  
-**\<bigreddmachine>** MoneroMonitor.com  
+**\<bigreddmachine>** ByteRubMonitor.com  
 **\<i2p-relay> {-pigeons}** cool I didn't know about that one.  
 **\<bigreddmachine>** Some probably more interesting that others to this crowd :)  
 **\<anonimal>** Wow cool!  
 **\<anonimal>** Do we have a podcast section on the monero site?  
-**\<bigreddmachine>** Not sure. The Monero Missives were once the pseudo-official podcast  
+**\<bigreddmachine>** Not sure. The ByteRub Missives were once the pseudo-official podcast  
 **\<bigreddmachine>** But that's at least a year defunct now.  
 **\<anonimal>** It would be nice to have links to things like this so they don't get flushed down the memory hole.  
 **\<anonimal>** I'm not sure where they'd go though. Somewhere in the community section I imagine.  

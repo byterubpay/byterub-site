@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-10-22
-summary: Discussion of open PRs and issues, MoneroIdent, Kovri & TOR, v0.11.0.1 (point) release, dedicated Monero hardware wallet, and miscellaneous
+summary: Discussion of open PRs and issues, ByteRubIdent, Kovri & TOR, v0.11.0.1 (point) release, dedicated ByteRub hardware wallet, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-10-22).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-10-22).  
 
 # Logs  
 
@@ -65,7 +65,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** for those that haven't seen it  
 **\<fluffypony>** https://twitter.com/moneroident  
 **\<fluffypony>** https://dotnetrussell.com/index.php/2017/10/21/locating-monero-users-via-transaction-broadcasts/  
-**\<fluffypony>** https://github.com/DotNetRussell/MoneroUserScraper  
+**\<fluffypony>** https://github.com/DotNetRussell/ByteRubUserScraper  
 **\<fluffypony>** it's literally just netstat  
 **\<moneromooo>** It'd be easier to just run print\_cn or print\_pl.  
 **\<fluffypony>** and then it excludes some nodes that he decided are "server nodes" (whatever that means)  
@@ -73,7 +73,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** moneromooo: too sophisticated  
 **\<fluffypony>** lol  
 **\<endogenic>** Lol  
-**\<fluffypony>** that said, I have received several messages from people who are quite concerned that Monero is not private  
+**\<fluffypony>** that said, I have received several messages from people who are quite concerned that ByteRub is not private  
 **\<surae>** well  
 **\<fluffypony>** oh - there's also this fun article: https://bitsonline.com/monero-exploit-threatens-privacy/  
 **\<fluffypony>** lol  
@@ -123,7 +123,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<moneromooo>** fluffypony: is that takes time, I'm against it. It's just wasting time for something which wasn't in good faith to begin with.  
 **\<surae>** fluffypony: what refutation would get them to stop publishing node IPs?  
 **\<moneromooo>** Or, at least, I won't waste my own time on it.  
-**\<rehrar>** The only valid criticsm I think they have (but correct me if I'm wrong) is that in a country where Monero is 100% outlawed, the government could see an IP address connecting to the Monero network (can't see if/when transactions are sent though), and that person could get in trouble. But that's the only information they have, no?  
+**\<rehrar>** The only valid criticsm I think they have (but correct me if I'm wrong) is that in a country where ByteRub is 100% outlawed, the government could see an IP address connecting to the ByteRub network (can't see if/when transactions are sent though), and that person could get in trouble. But that's the only information they have, no?  
 **\<Yohkii>** Just make a bot that does the same to verge, including where transactions come and go  
 **\<Yohkii>** less effort  
 **\<rbrunner>** Wouldn't they happily go on and publish Tor IP's anyway, people would not know these  
@@ -147,7 +147,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** yes  
 **\<pigeons>** which transactions came from which nodes/ips affects privacy more than knowing you run monero. if you relayed a block first, yeah it could make your pool a traget, but there are other mitigations for that  
 **\<moneromooo>** Just post the URL in #monero  
-**\<rbrunner>** I have a hunch the Verge people will use the log of this meeting to show that "Monero devs are in panic"...  
+**\<rbrunner>** I have a hunch the Verge people will use the log of this meeting to show that "ByteRub devs are in panic"...  
 **\<fluffypony>** rbrunner: lol  
 **\<endogenic>** Is this issue within sarang’s wheelhouse? I know he was looking into working on kovri  
 **\<gingeropolous>** pigeons, yeah I get that. but this "criticism" doesn't even address that.  
@@ -170,9 +170,9 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<msvb-lab>** So I wanted to be consistent there.  
 **\<msvb-lab>** Speaking of esperanto, before the hardware story fades into the sunset, here's a new topic.  
 **\<msvb-lab>** We tried and failed to give RFC-HWALLET-1 an esperanto name, so will rename our repository 'Sekura' to rfchwallet, okay?  
-**\<msvb-lab>** github.com/monero-project/rfchwallet  
+**\<msvb-lab>** github.com/byterubpay/rfchwallet  
 **\<endogenic>** I enjoy naming. I’ll let you know later if i have some suggestions  
-**\<msvb-lab>** We need a person to handle surveying a number of related Monero groups in order to get a good name that doesn't conflict in any way.  
+**\<msvb-lab>** We need a person to handle surveying a number of related ByteRub groups in order to get a good name that doesn't conflict in any way.  
 **\<msvb-lab>** No person is able to take this role, so if it appears it will be much later after risk of failure drops.  
 **\<msvb-lab>** endogenic: Thanks  
 **\<msvb-lab>** 73.  
@@ -182,7 +182,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<endogenic>** 👷  
 **\<hyc>** one of the hardest problems in CS. good man  
 **\<msvb-lab>** Report on a privacy conference CCC puts on which I did a workshop at today after the meeting finishes.  
-**\<msvb-lab>** There was Monero activity and considerable interest...  
+**\<msvb-lab>** There was ByteRub activity and considerable interest...  
 **\<endogenic>** Now we just need to let them in on kovri and...  
 **\<hyc>** next?  
 **\<endogenic>** I think monero-hardware would be a better venue  
@@ -205,7 +205,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** moneromooo: it'll be tomorrow - but I'll do the merges now and start building  
 **\<fluffypony>** rehrar: yes  
 **\<moneromooo>** OK, thanks.  
-**\<redfish>** regarding https://github.com/monero-project/monero/issues/2545#issuecomment-337374284  
+**\<redfish>** regarding https://github.com/byterubpay/monero/issues/2545#issuecomment-337374284  
 **\<redfish>** just wanted to put in a vote for db-safe to be the default during sync as well  
 **\<fluffypony>** hyc: thoughts? ^^  
 **\<redfish>** (i ended up running a node for months with a corrupt blockchain DB)  
@@ -213,7 +213,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<hyc>** it'll beat most drives to shit. and be slow.  
 **\<redfish>** we can add to the readme in the "Running monerod" section, that "you have an option to speed up, if you can be confident that the node will not fail while synching"  
 **\<hyc>** I mean, most consumer storage devices will probably see premature death.  
-**\<rbrunner>** Death by Monero :)  
+**\<rbrunner>** Death by ByteRub :)  
 **\<redfish>** hyc: why? it won't matter after sync, and sync is temporary  
 **\<hyc>** ?  
 **\<redfish>** didn't you say daemon is in db-safe mode after sync completes, already.  

@@ -32,7 +32,7 @@ Monero denomination names add SI prefixes after dropping the initial "mo" for ea
 
 ### In-depth Information
 
-Support for input using SI prefixes was [added to the Monero codebase](https://github.com/monero-project/monero/pull/1826) on March 3, 2017 by [Moneromooo](https://github.com/moneromooo-monero). The smallest unit of Monero (10^-12 XMR) was originally called a tacoshi in honor of user [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270), an early Monero contributor and was later renamed for ease of use and consistancy.
+Support for input using SI prefixes was [added to the Monero codebase](https://github.com/byterubpay/monero/pull/1826) on March 3, 2017 by [Moneromooo](https://github.com/moneromooo-monero). The smallest unit of Monero (10^-12 XMR) was originally called a tacoshi in honor of user [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270), an early Monero contributor and was later renamed for ease of use and consistancy.
 
 ### Monerod Implementation
 

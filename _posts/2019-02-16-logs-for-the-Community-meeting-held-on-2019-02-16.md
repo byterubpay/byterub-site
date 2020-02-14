@@ -10,7 +10,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/306  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/306  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** Lots of good discussions today  
 **\<sgp\_>** 1. Greetings  
@@ -95,7 +95,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<oneiric\_>** progress continues on tini2p, there will be a dev meeting on the 21st  
 **\<oneiric\_>** will be at 18:00 UTC in #tini2p-dev  
 **\<oneiric\_>** that's all  
-**\<sgp\_>** oneiric\_: can you post a quick notification here? https://github.com/monero-project/meta/issues  
+**\<sgp\_>** oneiric\_: can you post a quick notification here? https://github.com/byterubpay/meta/issues  
 **\<oneiric\_>** will do  
 **\<oneiric\_>** will cross-post the meeting agenda  
 **\<el00ruobuob>** oneiric\_, if you want me to post the meeting log on the website, i can do it  

@@ -39,12 +39,12 @@ Cette rubrique couvre le téléchargement de la clef de signature Monero, la vé
 
 ### 2.1. Obtenir la Clef de Signature
 
-Sur Windows et Mac, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires Monero et sauvegardez la page sous `fluffypony.asc` dans votre répertoire utilisateur.
+Sur Windows et Mac, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires Monero et sauvegardez la page sous `fluffypony.asc` dans votre répertoire utilisateur.
 
 Sur Linux, vous pouvez télécharger la clef de signature de Fluffypony en tapant la commande suivante :
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Vérifier la Clef de Signature

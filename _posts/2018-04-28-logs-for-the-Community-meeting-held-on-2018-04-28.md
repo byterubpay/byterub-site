@@ -16,7 +16,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** 0. Introduction  
 **\<midipoet>** hey hey  
 **\<ErCiccione>** Welcome everyone to this Monero Community Meeting!  
-**\<ErCiccione>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/214  
+**\<ErCiccione>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/214  
 **\<ErCiccione>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support, so... let's begin!  
 **\<ErCiccione>** 1. Greetings  
 **\<msvb-lab>** Hello.  
@@ -33,7 +33,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrscott[m]>** Hello  
 **\<onodera>** can anyone tell me what kind of stuff gets discussed here?  
 **\<midipoet>** hi everyone  
-**\<ErCiccione>** onodera: agenda on GitHub: https://github.com/monero-project/meta/issues/214  
+**\<ErCiccione>** onodera: agenda on GitHub: https://github.com/byterubpay/meta/issues/214  
 **\<serhack>** onodera: this is the community meeting for the Monero Community workgroup. Here we are going to discuss about community updates and ideas!  
 **\<ErCiccione>** lot of people today. good!  
 **\<endogenic>** onodera: exactly!  

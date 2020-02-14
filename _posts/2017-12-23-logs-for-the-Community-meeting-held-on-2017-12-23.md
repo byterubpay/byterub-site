@@ -9,15 +9,15 @@ author: dEBRUYNE / fluffypony
 # Logs  
 
 **\<sgp>** 0. Introduction  
-**\<sgp>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/148  
-**\<sgp>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting!  
+**\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/148  
+**\<sgp>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
 **\<rehrar>** Ye  
 **\<ErCiccione>** hi ya  
 **\<rehrar>** Perfect. Let's continue.  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the Monero Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** There are several FFS updates.  
 **\<sgp>** a. RFC-HWALLET-1 project progress  
@@ -49,7 +49,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** I have taken on the initiative of organizing the Malware Response Workgroup. If you are interested, please go to #monero-malware-respon  
 **\<sgp>** I have updated the Taiga wiki project with several help guides for web mining, system mining, and ransomware https://taiga.getmonero.org/project/sgp-monero-malware-response-workgroup/wiki/home  
 **\<sgp>** These are still drafts, but it shows the general idea  
-**\<sgp>** The goals of this project are to help those with compromised machines and to show others that many Monero community members discourage and help limit malware.  
+**\<sgp>** The goals of this project are to help those with compromised machines and to show others that many ByteRub community members discourage and help limit malware.  
 **\<sgp>** We can use volunteers now to help review these documents, and later to help people  
 **\<sgp>** Any questions?  
 **\<ErCiccione>** looks quite today. (pinging: @serhack @needmoney90 dEBRUYNE gingeropulous)  
@@ -89,7 +89,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Anything else you want to discuss about this idea?  
 **\<ErCiccione>** lol, no should be enough.  
 **\<sgp>** Ok @netg  
-**\<sgp>** I think everyone agrees Monero should be more accessible  
+**\<sgp>** I think everyone agrees ByteRub should be more accessible  
 **\<netg>** i dont know  
 **\<netg>** kali linux or tor project  
 **\<netg>** they lead their space 100% but they arent to super accessible  
@@ -105,7 +105,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Have you looked at the meetup kit materials? Do you think those are good material for new users?  
 **\<netg>** mainstream usage or usage by a educated, sophisticated crowd  
 **\<sgp>** I think both  
-**\<rehrar>** Monero has to be for everyone. There is no other option.  
+**\<rehrar>** ByteRub has to be for everyone. There is no other option.  
 **\<sgp>** Different wallets can tailor expereinces to different target audiences  
 **\<rehrar>** Otherwise it simply becomes another tool for the rich, who historically are the educated.  
 **\<sgp>** Or only a tool for the malicious :(  
@@ -120,18 +120,18 @@ author: dEBRUYNE / fluffypony
 **\<netg>** yeah fuck , i mean monero historically always choosed the  best approach and design  
 **\<netg>** even if it was alot of work  
 **\<netg>** maybe we should stay in that tradition  
-**\<rehrar>** I see Monero as carrying on the touch Bitcoin dropped.  
-**\<ErCiccione>** i agree it will worth it, even just for the public image of Monero  
+**\<rehrar>** I see ByteRub as carrying on the touch Bitcoin dropped.  
+**\<ErCiccione>** i agree it will worth it, even just for the public image of ByteRub  
 **\<netg>** rehrar: obvious, thats the reason why alot of old school bitcoin supporters switched to monero , instantly after reading about it  
 **\<sgp>** Any other questions?  
-**\<netg>** When will Monero been moon? :)  
+**\<netg>** When will ByteRub been moon? :)  
 **\<netg>** \-en  
 **\<rehrar>** Yesterday  
 **\<sgp>** Hasn't it already? :)  
 **\<rehrar>** You missed it. Sorry. :(  
 **\<netg>** "cant tell you, the moons privacy needs to be respected"  
 **\<sgp>** 6. Confirm next meeting date/time  
-**\<sgp>** The next Monero Coffee Chat will be two weeks from today on 6 January. We need to decide when to have the next meeting. I suggest moving the next meeting to 13 January and then continuing biweekly from there to avoid another conflict in February.  
+**\<sgp>** The next ByteRub Coffee Chat will be two weeks from today on 6 January. We need to decide when to have the next meeting. I suggest moving the next meeting to 13 January and then continuing biweekly from there to avoid another conflict in February.  
 **\<rehrar>** Devs want to keep dev and community meetings on different weeks.  
 **\<sgp>** Hmm, not sure what to do then  
 **\<rehrar>** What conflict is in Feb?@  
@@ -144,4 +144,4 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Ok, let's plan for the next meeting to be two weeks from today on 6 January at 17:00 UTC  
 **\<ErCiccione>** agreed  
 **\<sgp>** 7. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  

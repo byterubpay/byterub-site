@@ -37,7 +37,7 @@ When RingCT gets merged, will be a good time to merge other database formats. DB
 
 ## Dev Branch
 
-This has become the bastard child of Monero development apparently. Lines 82 - 167 encompass discussion on this topic. The goal is "to merge back to the dev branch" Ultimately the decision is to hack at it for a bit and reevalauate in next meeting. 
+This has become the bastard child of ByteRub development apparently. Lines 82 - 167 encompass discussion on this topic. The goal is "to merge back to the dev branch" Ultimately the decision is to hack at it for a bit and reevalauate in next meeting. 
 
 > <moneromooo> What I'll do it hack at it to make it work better, really. All that's needed is time without the problem of a release coming too quick.
 
@@ -145,13 +145,13 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<fluffypony>** ArticMine: you mean in terms of functional tests or automated tests?  
 **\<ArticMine>** both  
 **\<xmrpromotions>** what is the minumum time allowable between freeze date and fork date? I know the desire is 6 months but what is the margin of error?  
-**\<fluffypony>** xmrpromotions: for planned forks, given how small Monero is, we could probably get away with a month or two  
+**\<fluffypony>** xmrpromotions: for planned forks, given how small ByteRub is, we could probably get away with a month or two  
 **\<fluffypony>** but likely for the last time  
 **\<dEBRUYNE>** \<fluffypony> moneromooo: I know - if we need to we can push the fork date <= I am in favor of this as well  
 **\<fluffypony>** it'll become harder and harder to do stuff like that, so if we're making an exception on a planned fork let's make it the last time  
 **\<dEBRUYNE>** we don´t necessarily need to stick to a certain date for something that important  
 **\<dEBRUYNE>** Agree fluffypony  
-**\<fluffypony>** the larger issue here is that the 0MQ stuff was pushed prematurely because OranJuice couldn't work on Monero any longer  
+**\<fluffypony>** the larger issue here is that the 0MQ stuff was pushed prematurely because OranJuice couldn't work on ByteRub any longer  
 **\<fluffypony>** in future I don't expect stuff like that will happen  
 **\<dEBRUYNE>** Same issue with smart mining right?  
 **\<smooth>** i still think we can consider dumping the dev branch. i think we need to be open minded about whether its state will hurt development rather than help it  
@@ -262,8 +262,8 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<fluffypony>** btw hyc, you may find this of interest: https://github.com/niXman/mingw-builds  
 **\<dEBRUYNE>** othe: Thanks for clarifying that  
 **\<bookies>** are all issues on getmonero.org sorted on github? meaning I saw some that are probably old and might be resolved.  
-**\<fluffypony>** bookies: you mean for the site, or for Monero itself?  
-**\<bookies>** https://github.com/monero-project/monero-site  
+**\<fluffypony>** bookies: you mean for the site, or for ByteRub itself?  
+**\<bookies>** https://github.com/byterubpay/monero-site  
 **\<hyc>** fluffypony: heh, ok. are we going to tell people they need to build their own compiler before they can build win32?  
 **\<fluffypony>** bookies: I haven't checked - there may very well be some old ones that are sorted  
 **\<bookies>** ty  

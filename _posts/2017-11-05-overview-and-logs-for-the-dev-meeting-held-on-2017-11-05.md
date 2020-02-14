@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-11-05
-summary: Discussion of open PRs and issues, Bulletproofs, Monero Research Lab, MyMonero, Kovri, multisig, and miscellaneous
+summary: Discussion of open PRs and issues, Bulletproofs, ByteRub Research Lab, MyByteRub, Kovri, multisig, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
@@ -15,7 +15,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** DST is dumb  
 **\<suraeNoether>** world's. worst. policy.  
 **\<rehrar>** ye  
-**\<rehrar>** https://github.com/monero-project/meta/issues/133  
+**\<rehrar>** https://github.com/byterubpay/meta/issues/133  
 **\<sarang>** It got even worse when the U.S. congress decided to change when DST happened  
 **\<rehrar>** 1. Greetings  
 **\<sarang>** I was working at a government time lab that had to deal with that crap  
@@ -137,7 +137,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** oh yes and can we have flare for sarang and surae on reddit? i might miss their comments w/o having pressed the friend button :P  
 **\* endogenic** continues going down holiday wishlist…  
 **\<dEBRUYNE>** endogenic: Sure, if they want a custom flair they can message u/shy  
-**\<dEBRUYNE>** endogenic: Do you want to give an update on MyMonero?  
+**\<dEBRUYNE>** endogenic: Do you want to give an update on MyByteRub?  
 **\<endogenic>** hmm  
 **\<endogenic>** sure  
 **\<serhack>** great  
@@ -155,7 +155,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** cryptocompare?  
 **\<serhack>** ye  
 **\<endogenic>** they seemed really cool from their site  
-**\<tficharmers>** endogenic: cheers, but just to confirm that I haven’t looked at the gui for a while. I have spent the last few months on Moneroforcash.com  
+**\<tficharmers>** endogenic: cheers, but just to confirm that I haven’t looked at the gui for a while. I have spent the last few months on ByteRubforcash.com  
 **\<rehrar>** Ok. Anything more endogenic?  
 **\<endogenic>** oh i meant "semi recently" :P  
 **\<endogenic>** you submitted that whole high lvl design review thing  
@@ -163,7 +163,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** yeah i mean i guess everyone probably already knows that the last update I heard from fp was that Apple said they received the MDC DUNS number but there was an issue in their developer portal or some such so he had to email them and is waiting to hear  
 **\<rehrar>** We can do ticket discussion if you want in my absence.  
 **\<endogenic>** MDC DUNS number mind you  
-**\<endogenic>** MyMonero DUNS number still no status on  
+**\<endogenic>** MyByteRub DUNS number still no status on  
 **\<endogenic>** on receipt of \*  
 **\<hyc>** mooo should probably take over for ticket discussion  
 **\<endogenic>** anyway anyone's free to take the floor  
@@ -200,7 +200,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** https://imgur.com/a/iRcAw  
 **\<serhack>** my latest job, I am working in redesign monero payment box  
 **\<sgp>** @endogenic can you elaborate further?  
-**\<endogenic>** sgp: i figure you might have a number of programmer friends who are interested in Monero or privacy etc  
+**\<endogenic>** sgp: i figure you might have a number of programmer friends who are interested in ByteRub or privacy etc  
 **\<endogenic>** aren't there applications of programmatic access to multisig functions?  
 **\<moneromooo>** Can you rephrase that ?  
 **\<sgp>** I haven't really looked into running a hackathon before but one of my firends has done well in many of them  

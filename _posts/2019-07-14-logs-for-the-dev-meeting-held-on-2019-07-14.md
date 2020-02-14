@@ -23,7 +23,7 @@ author: el00ruobuob / rehrar
 **\<xmrmatterbridge> \<rehrar>** moneromooo, it's my SASL. Broken for some reason. Will fix later.   
 **\<xmrmatterbridge> \<rehrar>** Anyways. Greetings is done.   
 **\<xmrmatterbridge> \<rehrar>** So 2. What's been completed since previous meeting.   
-**\<jtgrassie>** woodser: inc/exc PR moneromooo mentioned https://github.com/monero-project/monero/pull/5598  
+**\<jtgrassie>** woodser: inc/exc PR moneromooo mentioned https://github.com/byterubpay/monero/pull/5598  
 **\<xmrmatterbridge> \<rehrar>** Anyone have an update? CLI stuff? GUI stuff?  
 **\<dsc\_>** This week ill work closely with Selsta on things concerning GUI  
 **\<moneromooo>** More work on share-rpc. More work on banning subnets. Mostly.  

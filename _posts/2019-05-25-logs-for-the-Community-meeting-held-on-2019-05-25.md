@@ -98,7 +98,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** we also have a brand new proposal from a guy wanting us to pay to get onto his e-commerce site  
 **\<rehrar>** fresh this morning  
 **\<rehrar>** to his credit, he formatted the proposal properly, which is more than I can say for some Monero regulars :D  
-**\<rehrar>** https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/72  
+**\<rehrar>** https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/72  
 **\<rehrar>** but barring that, is there any updates in terms of CCS stuff that anyone wants to give (if you're funded)  
 **\<rehrar>** no, ok  
 **\<rehrar>** 3. workgroup stuff  
@@ -169,8 +169,8 @@ author: el00ruobuob / rehrar
 **\<msvb-mob>** The answer is that the trunk (head or main according to Git) is the safer long term choice but more advanced. The revstm branch is more complete, but not as good.  
 **\<rehrar>** I see. And is the trunk able to interact with Monero in the way we'd like it to?  
 **\<rehrar>** or is that still a ways off?  
-**\<msvb-mob>** This is better: https://github.com/monero-project/kastelo/tree/master/hardware/breakneck/  
-**\<msvb-mob>** ...but this is tested: https://github.com/monero-project/kastelo/tree/revstm/hardware/breakneck/  
+**\<msvb-mob>** This is better: https://github.com/byterubpay/kastelo/tree/master/hardware/breakneck/  
+**\<msvb-mob>** ...but this is tested: https://github.com/byterubpay/kastelo/tree/revstm/hardware/breakneck/  
 **\<msvb-mob>** The trunk has no firmware, so it's impossible to answer. But logically (estimation) it will do all revstm (STM32L476RET6) can do but better.  
 **\<rehrar>** fascinating.  
 **\<rehrar>** Anyone else have questions?  

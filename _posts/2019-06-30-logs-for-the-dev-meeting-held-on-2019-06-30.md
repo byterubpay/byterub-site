@@ -196,7 +196,7 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** Bittrex, Bitfinex, and Binance  
 **\<rehrar>** moneromooo: can you PM me a link to it  
 **\<vtnerd\_\_>** moneromooo: I will look at it this week  
-**\<moneromooo>** https://github.com/monero-project/monero/pull/5357  
+**\<moneromooo>** https://github.com/byterubpay/monero/pull/5357  
 **\<moneromooo>** Thanks  
 **\<rehrar>** thank you  
 **\<rehrar>** dEBRUYNE: what do you want to discuss regarding 0.14.1.1?  
@@ -209,7 +209,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** or this is new? what's going into it?  
 **\<moneromooo>** The BSD patch and the patch list above.  
 **\<rehrar>** ah, k  
-**\<dEBRUYNE>** moneromooo: All right. Does this need a release v0.14 equivalent? https://github.com/monero-project/monero/pull/5705  
+**\<dEBRUYNE>** moneromooo: All right. Does this need a release v0.14 equivalent? https://github.com/byterubpay/monero/pull/5705  
 **\<dEBRUYNE>** rehrar: new release  
 **\<moneromooo>** I dunno, ask TheCharlatan about this one.  
 **\<dEBRUYNE>** All right  

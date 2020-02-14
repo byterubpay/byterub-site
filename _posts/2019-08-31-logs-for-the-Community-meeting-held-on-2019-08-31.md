@@ -11,7 +11,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/387  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/387  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<ErCiccione[m]>** Hi folks  
@@ -34,7 +34,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Anything else worthy of mention before proceeding? Thanks for sharing  
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** ErCiccione posted a new idea:  
-**\<sgp\_>** “ErCiccione: Installation and configuration of Weblate, the new localization platform” https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/94  
+**\<sgp\_>** “ErCiccione: Installation and configuration of Weblate, the new localization platform” https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/94  
 **\<sgp\_>** thanks for being here ErCiccione to discuss it  
 **\<ErCiccione>** :)  
 **\<ErCiccione>** it's the proposal i made some time ago during a community meeting (after a dedicated localization workgroup meeting). Now weblate is basically ready. I only need a merged pr then we will start with the testing  
@@ -87,7 +87,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** would anyone else like to share?  
 **\<ErCiccione>** cool  
 **\<ErCiccione>** i'm making some very needed changes and updates to the website, don't know what will be new for next update but i will write a post on reddit.  
-**\<ErCiccione>** some of the MR still need to be reviewed, so please take a look at https://repo.getmonero.org/monero-project/monero-site/merge\_requests  
+**\<ErCiccione>** some of the MR still need to be reviewed, so please take a look at https://repo.getmonero.org/byterubpay/monero-site/merge\_requests  
 **\<ErCiccione>** i also want to introduce a labelling system i had in mind to prioritize issues.  
 **\<ErCiccione>** oh, since we are all here, would be ok for everybody if the "meeting logs" link of the website shows all meting log and not just dev meetings?  
 **\<sgp\_>** imo yes  

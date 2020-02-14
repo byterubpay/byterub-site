@@ -13,7 +13,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<serhack>** Hi everybody  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/205  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/205  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** haiguiz  
@@ -102,7 +102,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** All right ErCiccione, I'll keep that in mind. I may assign you to do the one in two weeks depending on how my travel is going. I'll let you know in advance  
 **\<ErCiccione>** Ok sgp\_, no problem for me  
 **\<sgp\_>** The second announcement is that I have made a calendar that you can use to track community workgroup events. I have currently made it on Google Calendar, but you can import it on nearly any calendar tool to receive real-time updates. Never miss an event again! https://calendar.google.com/calendar/embed?src=ehrenhofer.org\_9da4c9gde3f8gbj89vosf76ua4%40group.calendar.google.com  
-**\<sgp\_>** I hope to offer or have the Core Team offer a calendar tool for workgroups in the future. If your workgroup would benefit from this, let us know in the Github issue https://github.com/monero-project/meta/issues/206  
+**\<sgp\_>** I hope to offer or have the Core Team offer a calendar tool for workgroups in the future. If your workgroup would benefit from this, let us know in the Github issue https://github.com/byterubpay/meta/issues/206  
 **\<rehrar>** I've done research into an open source, self hosted version  
 **\<rehrar>** there's not many good options honestly  
 **\<sgp\_>** Yeah, there are only a few  

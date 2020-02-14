@@ -10,7 +10,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/323  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/323  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<parasew[m]>** hello!  
@@ -56,7 +56,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** el00ruobuob: JANUARY TO MARCH (PART TIME FOR A NEW QUARTER) (16.66/45 XMR): https://ccs.getmonero.org/proposals/el00ruobuob-january-to-march-part-time-for-a-new-quarter.html  
 **\<sgp\_>** Funds short for all of these: 936.98 XMR (about 45,000 USD)  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** Monero Outreach quarterly and ongoing task funding (asking 84 XMR: https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/45  
+**\<sgp\_>** Monero Outreach quarterly and ongoing task funding (asking 84 XMR: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/45  
 **\<rehrar>** oh wait no  
 **\<rehrar>** that's not for discussion  
 **\<rehrar>** that belongs in WiP but something needs to be changed  
@@ -85,7 +85,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** Fin.  
 **\<dsc\_>** GUI update  
 **\<dsc\_>** Currently I'm implementing a white theme for the GUI. Will take a while to complete (ETA: 2 weeks). I also finished a redesign of the history page, now called transactions. Not only does it perform well when the user has a lot of historic data, it's also an improvement to UX.  
-**\<dsc\_>** kneuffelbund, designer of the GUI, did some IRL testing with \*real\* people and made notes. He is now designing/tweaking the wizards. https://github.com/monero-project/monero-gui/issues/2040  
+**\<dsc\_>** kneuffelbund, designer of the GUI, did some IRL testing with \*real\* people and made notes. He is now designing/tweaking the wizards. https://github.com/byterubpay/monero-gui/issues/2040  
 **\<dsc\_>** Me, Selsta and rbrunner7 worked on `monero://` URI support on Windows/Linux/OSX. Selsta is working on xmr\<->fiat conversions and xiphon is afaik. working on a decentralized node-o-matic.  
 **\<dsc\_>** Currently we are investigating a migration to Qt 5.9.7, which should give \*some\* extra performance and allow us to use newer Qt features.  
 **\<dsc\_>** After next point release, I will most likely focus on either i2p/tor integrations or android support.  

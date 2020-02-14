@@ -124,11 +124,11 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** piwik  
 **\<rehrar>** but if not, it's not needed  
 **\<anonimal>** re: video, yes. We simply don't upload the video and instead serve the file directly.  
-**\<rehrar>** similar to how Monero is doing it, right? Or am I misunderstanding?  
+**\<rehrar>** similar to how ByteRub is doing it, right? Or am I misunderstanding?  
 **\<anonimal>** Who needs the analytics and for what purpose?  
 **\<anonimal>** IIRC monero-site recently started google analytics. I saw the merged PR you submitted.  
 **\<rehrar>** *shrug* I wasn't going to include any, but was just mentioning the option since it was brought up. I don't think it's needed tbh, but I've been wrong before.  
-**\<rehrar>** oh sorry for confusion. My 'similar to how Monero is doing it" statement referred to the videos  
+**\<rehrar>** oh sorry for confusion. My 'similar to how ByteRub is doing it" statement referred to the videos  
 **\<rehrar>** which are not on any service, they are just on the same server and when the video is clicked it just pulls the file and stuff. Not pulled from YouTube or anywhere  
 **\<anonimal>** Ok  
 **\<rehrar>** Almost done, I promise. :P  

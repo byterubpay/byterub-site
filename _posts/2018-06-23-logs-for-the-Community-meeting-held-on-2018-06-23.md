@@ -10,7 +10,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** Meeting time!  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/246  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/246  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<el00ruobuob\_[m]>** Hi guys!  
@@ -40,7 +40,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob\_[m]>** Zero to monero released on the website  
 **\<sgp\_>** el00ruobuob do you have a link handy?  
 **\<el00ruobuob\_[m]>** not merged yet  
-**\<el00ruobuob\_[m]>** https://github.com/monero-project/monero-site/pull/772  
+**\<el00ruobuob\_[m]>** https://github.com/byterubpay/monero-site/pull/772  
 **\<sgp\_>** All right. There's a pull request to organize important works like these into a library. Great idea imo  
 **\<sgp\_>** Anything else?  
 **\<el00ruobuob\_[m]>** rehrar idea to be honest  
@@ -159,7 +159,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** in the "community" part, should the translation completely respect the channels that are there? or is there the possibility to \*add\* local channels? e.g. the italian translation might add the #monero-it channel, telegram group, etc... so italians can find the italian community.  
 **\<sgp\_>** rehrar I must have mixed them up  
 **\<el00ruobuob\_[m]>** vp11, i did it  
-**\<el00ruobuob\_[m]>** in https://github.com/monero-project/monero-site/pull/773  
+**\<el00ruobuob\_[m]>** in https://github.com/byterubpay/monero-site/pull/773  
 **\<el00ruobuob\_[m]>** added the monero-fr channel  
 **\<el00ruobuob\_[m]>** only on french page  
 **\<rottensalty07>** msvb-lab: Out of curiosity only... What is the DEFCON project specifically looking for in journalism?  
@@ -203,7 +203,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rottensalty07>** msvb-lab: On an unrelated note, did the DEFCON meeting agree on anything regarding other cryptocurrencies talks? It's pegged. The same back-room meetup I attend to, happens to have the connections with Zcash people and reporters doing internships...  
 **\<vp11>** I don't know what people use in Romania, maybe it's Telegram. so it would make sense to have a Romanian Monero channel in Telegram.  
 **\<ErCiccione>** yes, but you are a single, not an open source project vp11, i think our choice on this matter is important :)  
-**\<el00ruobuob\_[m]>** discussions for hangouts page to be continued here https://github.com/monero-project/monero-site/issues/775  
+**\<el00ruobuob\_[m]>** discussions for hangouts page to be continued here https://github.com/byterubpay/monero-site/issues/775  
 **\<sgp\_>** ErCiccioen you can choose to organize your group in a Mattermost group and force your contributors to use it, but this channel should reach as far as possible  
 **\<msvb-lab>** rottensalty07: I think there was neither agreement nor disagreement about the topic. Try posting to the mailing list, if you don't want to wait until next week's meeting.  
 **\<vp11>** the best example that I have for that is the Brazilian community. I tried very hard to push for IRC there. right now there are 9 people in the #monero-br (3 are bots) but 200+ people in WhatsApp.  

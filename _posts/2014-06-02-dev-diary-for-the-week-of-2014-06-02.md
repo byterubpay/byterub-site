@@ -14,7 +14,7 @@ author: Riccardo Spagni (fluffypony)
 
 **Core:** initial work has begun on documenting the code and on providing architecture overviews. This will be a relatively lengthy project, but will provide us with a more useful codebase that has had more eyes on it.
 
-**Crypto:** we have also begun an initial foray into examining the underlying cryptographic and mathematic principles of the CryptoNote protocol, and ensuring that it has been correctly implemented in the reference code (Bytecoin - upon which Monero is based). We will reveal more details as this project progresses.
+**Crypto:** we have also begun an initial foray into examining the underlying cryptographic and mathematic principles of the CryptoNote protocol, and ensuring that it has been correctly implemented in the reference code (Bytecoin - upon which ByteRub is based). We will reveal more details as this project progresses.
 
 **Crypto:** DGA has done an incredible job of optimising the PoW hashing code, and has vastly improved the speed at which it operates. This makes syncing the blockchain faster, as well as improves the speed at which miners can run and pools can verify work.
 

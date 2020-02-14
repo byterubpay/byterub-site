@@ -1,20 +1,20 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-09-03
-summary: Discussion of open PRs and issues, MyMonero, RuffCT, serhack's integrations, upcoming release + scheduled protocol upgrade, dedicated hardware wallet, Monero Revuo, and miscellaneous
+summary: Discussion of open PRs and issues, MyByteRub, RuffCT, serhack's integrations, upcoming release + scheduled protocol upgrade, dedicated hardware wallet, ByteRub Revuo, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-09-03).   
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-09-03).   
 
 # Logs  
 
 **\<moneromooo>** fluffypony can't make the meeting, so I'll be prodding people.  
 **\<moneromooo>** First thing is the release is soon, if you want to test the release branch, please feel free.  
-**\<moneromooo>** https://github.com/monero-project/monero/tree/release-v0.11.0.0  
+**\<moneromooo>** https://github.com/byterubpay/monero/tree/release-v0.11.0.0  
 **\<moneromooo>** There are a couple patches still unmerged, but they shouldn't impact any testing.  
 **\<moneromooo>** Pony will likely start building later today, or maybe tomorrow.  
 **\<moneromooo>** Other than that, I guess we'll go through people to see what they're up to.  
@@ -115,7 +115,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<msvb-lab>** https://forum.getmonero.org/7/open-tasks/88160/monero-firmware-for-ledger-wallet/  
 **\<msvb-lab>** ...is for a firmware port but:  
 **\<msvb-lab>** https://forum.getmonero.org/7/open-tasks/88149/dedicated-monero-hardware-wallet/  
-**\<msvb-lab>** is the main effort towards a dedicated Monero hardware wallet.  
+**\<msvb-lab>** is the main effort towards a dedicated ByteRub hardware wallet.  
 **\<msvb-lab>** This is just a brief mention, because we've had discussion already last week on dev, this week on community.  
 **\<dEBRUYNE>** \<hyc> is the GUI frozen for release now? are those binaries in that reddit thread basically final? \<= Jaquee said he wanted to focus on fixing bugs that were reported by people using those bins  
 **\<dEBRUYNE>** So basically that + bug fixes  
@@ -126,7 +126,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<moneromooo>** Please go ahead.  
 **\<Jaquee>** dEBRUYNE hyc: code freeze was done aug 23rd afaik. (one week after monero code freeze)  
 **\<rehrar>** https://drive.google.com/file/d/0B0vhnWCa9J5QYW1yc2lRNWE2NzA/view?usp=sharing  
-**\<rehrar>** This is the recent Monero Revuo that will be published soon.  
+**\<rehrar>** This is the recent ByteRub Revuo that will be published soon.  
 **\<rehrar>** Just want to get any last opinions on the development section. Anything else major been done that I've missed?  
 **\<serhack>** Great work @rehrar  
 **\<serhack>** Android wallet @rehrar ?  

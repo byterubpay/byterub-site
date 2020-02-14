@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2016-08-28
-summary: Trezor and other hardware wallets for Monero, brief update on 0MQ and the official GUI, hardfork schedule
+summary: Trezor and other hardware wallets for ByteRub, brief update on 0MQ and the official GUI, hardfork schedule
 tags: [dev diaries, core, crypto, 0mq]
 author: dEBRUYNE / fluffypony
 ---
 
 ### Overview 
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-08-28)
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-08-28)
 
 ### Logs
 
@@ -23,7 +23,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<hyc>** lol. I'm on cider today  
 **\<fluffypony>** ok so  
 **\<fluffypony>** in today's news  
-**\<fluffypony>** nothing happened with the Monero price  
+**\<fluffypony>** nothing happened with the ByteRub price  
 **\<fluffypony>** and so we focus on dev  
 **\<hyc>** lol  
 **\<fluffypony>** let's start with a quick check of open PRs  
@@ -46,7 +46,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<NoodleDoodle>** The trezor firmware itself should be easier, except it's split into 5 or 6 repos  
 **\<fluffypony>** ok cool  
 **\<NoodleDoodle>** I should be able to do it.  
-**\<fluffypony>** NoodleDoodle: do you want us to host it on the monero-project Github in its own repo, obvs giving you collab access, to make it more "formal" and part of the core project?  
+**\<fluffypony>** NoodleDoodle: do you want us to host it on the byterubpay Github in its own repo, obvs giving you collab access, to make it more "formal" and part of the core project?  
 **\<tewinget>** late, but here  
 **\<NoodleDoodle>** Sure, anything. I actually started on keepkey awhile back as well, although it's not as complete as trezor.  
 **\<fluffypony>** ok cool  
@@ -90,7 +90,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** but we'd have to make that decision by the next dev meeting pretty much at the latest  
 **\<fluffypony>** which means  
 **\<fluffypony>** next week Tue / Wed or so we'll push out binaries for 0.10-beta  
-**\<fluffypony>** 0.10 will be called Wolfram Warptangent, in honour of the Monero contributor that passed away  
+**\<fluffypony>** 0.10 will be called Wolfram Warptangent, in honour of the ByteRub contributor that passed away  
 **\<tewinget>** well the 6-month window is a "no earlier than", but at the same time since it's basically just miners doing the voting, idk how doing it earlier pans out.  
 **\* tewinget** approves the name.  
 **\<ArticMine>** Does that include the GUI?  
@@ -160,7 +160,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** gingeropolous: this one, or generally?  
 **\<gingeropolous>** generally  
 **\<gingeropolous>** and this one  
-**\<fluffypony>** generally, the Monero Forum post + all other posts that talk about the mandatory hard forks  
+**\<fluffypony>** generally, the ByteRub Forum post + all other posts that talk about the mandatory hard forks  
 **\<tewinget>** gingeropolous: plans are probably in /usr/share/doc, not in /etc  
 **\<fluffypony>** I agree that the Readme shoudl include it  
 **\<hyc>** seems to me like we have a lot of profiling and tuning to do before ringCT will play for real  
@@ -169,7 +169,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** this one is dev meeting specific, we'll have a summary post after that and solicit feedback from the non-dev community  
 **\<fluffypony>** hyc: we do have new contributors, so we might be able to get through the tuning stuff faster  
 **\<hyc>** cool  
-**\<fluffypony>** I'm no fan of pushing it too hard, because it means I have to get MyMonero working with RingCT, but it's doable  
+**\<fluffypony>** I'm no fan of pushing it too hard, because it means I have to get MyByteRub working with RingCT, but it's doable  
 **\<gingeropolous>** yeah, I know there's the forum posts.. but considering fork early, fork often is kind of our thing, it should / could be ... more prominent  
 **\<gingeropolous>** ah screw it. time to by moneroforks.whatever  
 **\<fluffypony>** gingeropolous: do you want to PR a change to the readme?  
@@ -202,10 +202,10 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** OH!  
 **\<fluffypony>** before I forget  
 **\<fluffypony>** the big thing I wanted to discuss  
-**\<fluffypony>** https://github.com/monero-project/bitmonero/issues/80  
+**\<fluffypony>** https://github.com/byterubpay/bitmonero/issues/80  
 **\<fluffypony>** that's going to happen before the bins are pushed  
 **\<fluffypony>** so if anyone has any final thoughts on that, you'd best comment on the issue, else suck it up later :-P  
-**\<fluffypony>** I'd also like us to start refactoring the parts that have CryptoNote in the name to be Monero instead  
+**\<fluffypony>** I'd also like us to start refactoring the parts that have CryptoNote in the name to be ByteRub instead  
 **\<tewinget>** something something \`sed\`  
 **\<fluffypony>** as RingCT + several thousand commits puts us quite far beyond the reference protocol  
 **\<moneromooo>** Renaming things for the fun of it ? I'd rather not.  

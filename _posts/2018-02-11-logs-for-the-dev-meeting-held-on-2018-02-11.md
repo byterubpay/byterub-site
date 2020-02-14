@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2018-02-11
-summary: Discussion of open PRs and issues, Bulletproofs and auditing, March HF, slight PoW tweak, dedicated Monero hardware wallet, and miscellaneous
+summary: Discussion of open PRs and issues, Bulletproofs and auditing, March HF, slight PoW tweak, dedicated ByteRub hardware wallet, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
@@ -15,7 +15,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** hi folks  
 **\<vtnerd>** jtgrassie  
 **\<sgp>** Hi  
-**\<rehrar>** Agenda: https://github.com/monero-project/meta/issues/174  
+**\<rehrar>** Agenda: https://github.com/byterubpay/meta/issues/174  
 **\<rehrar>** Jaquee medusa dsc  
 **\<rehrar>** kenshi84 MoroccanMalinois anyone else?  
 **\<MoroccanMalinois>** hi  
@@ -222,7 +222,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** floor is yours  
 **\<msvb-mob>** I'll be advertising planning work for the Las Vegas events of August once in a while, anyone interested can look at:  
 **\<msvb-mob>** https://taiga.getmonero.org/project/michael-vegas-august-2018  
-**\<msvb-mob>** m2049r[m] made a more or less incredible contribution to the greater Monero community by a first release (today) of a Monerujo-hw firmware.  
+**\<msvb-mob>** m2049r[m] made a more or less incredible contribution to the greater ByteRub community by a first release (today) of a Monerujo-hw firmware.  
 **\<msvb-mob>** https://github.com/m2049r/monerujo-hw/  
 **\<rehrar>** woohoo!  
 **\<msvb-mob>** We want to do the most we can with the firmware (on our own self grown hardware) and a few questions are arising about how far we can take a testnet approach to new users.  
@@ -262,7 +262,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** If not, meeting over. :) Thanks everyone for coming.  
 **\<ArticMine>** I would suggest also keeping it through the time changes  
 **\<msvb-mob>** rehrar: Most excellent moderation, thank you.  
-**\<sgp>** Not really meeting-worthy, but I would like to add the Monero Coffee Chats to the getmonero website  
+**\<sgp>** Not really meeting-worthy, but I would like to add the ByteRub Coffee Chats to the getmonero website  
 **\<msvb-mob>** rehrar: If possible, would you please fork and pull request your source logos to the /documents/graphics/logo/ directory?  
 **\<msvb-mob>** rehrar: Logo sources, as long as their formats are Opensource we don't need bitmaps.  
 **\<rehrar>** Ok, I'll get to that as soon as I can  

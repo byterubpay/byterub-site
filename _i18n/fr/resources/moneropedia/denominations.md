@@ -31,7 +31,7 @@ Les noms des coupures de Monero ajoutent le préfixe SI après suppression du "m
 
 ### Informations détaillées
 
-Le support des entrées utilisant le préfixe SI à [été ajouté au code de Monero](https://github.com/monero-project/monero/pull/1826) le 3 Mars 2017 par [Moneromooo](https://github.com/moneromooo-monero). La plus petite unité de Monero (10^-12 XMR) était initialement appelée un tacoshi en l'honeur de l'utilisateur [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270), un contributeur de Monero de la première heure et fut plus tard renommé pour simplicité d'usage et uniformité.
+Le support des entrées utilisant le préfixe SI à [été ajouté au code de Monero](https://github.com/byterubpay/monero/pull/1826) le 3 Mars 2017 par [Moneromooo](https://github.com/moneromooo-monero). La plus petite unité de Monero (10^-12 XMR) était initialement appelée un tacoshi en l'honeur de l'utilisateur [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270), un contributeur de Monero de la première heure et fut plus tard renommé pour simplicité d'usage et uniformité.
 
 ### Implementation dans monerod
 

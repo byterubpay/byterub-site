@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-05-21).  
+An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-05-21).  
 
 # Logs  
 
@@ -82,7 +82,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<moneromooo>** 3 and 4 are toop spammy for being much use in general usage.  
 **\<moneromooo>** Yes.  
 **\<moneromooo>** rehrar: free free if you have something to say/show.  
-**\<rehrar>** Anyways, Monero test site here: http://45.32.161.183/ mobile responsive now and a brand new mobile navigation.  
+**\<rehrar>** Anyways, ByteRub test site here: http://45.32.161.183/ mobile responsive now and a brand new mobile navigation.  
 **\<rehrar>** Kovri test site: http://45.32.171.42/ completely integrated into the Jekyll. The custom CSS framework was ported without issue. This bodes well for my further work on getmonero.org.  
 **\<moneromooo>** Looks clean.  
 **\<Jaquee>** hi. a bit late to meeting. i'm working on lightwallet integration in cli and gui  

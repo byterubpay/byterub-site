@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Kovri Dev Meeting Held on 2017-04-09
-summary: Brief review of what has been completed since last meeting, Monero HackerOne Bounty, website discussion, and code & open tickets discussion
+summary: Brief review of what has been completed since last meeting, ByteRub HackerOne Bounty, website discussion, and code & open tickets discussion
 tags: [dev diaries, i2p, crypto]
 author: dEBRUYNE / fluffypony
 ---
@@ -10,8 +10,8 @@ author: dEBRUYNE / fluffypony
 
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** 3. Preparation for [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46)  
-**\<anonimal>** 4. Status of [Monero HackerOne umbrella and bounty](https://github.com/monero-project/meta/issues/39)  
+**\<anonimal>** 3. Preparation for [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
+**\<anonimal>** 4. Status of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39)  
 **\<anonimal>** 5. Code + ticket discussion / Q & A  
 **\<anonimal>** 6. Any additional meeting items  
 **\<anonimal>** 7. Confirm next meeting date/time  
@@ -42,7 +42,7 @@ author: dEBRUYNE / fluffypony
 **\<bigreddmachine>** 1 of two issues i'm tracking are finished, second is still a ways off  
 **\<guzzi>** Review client context implimenting raii  
 **\<bigreddmachine>** and no dev docs yet  
-**\<moroccanmalinois>** Looking at reload server tunnels https://github.com/monero-project/kovri/blob/master/src/client/context.cc#L321  
+**\<moroccanmalinois>** Looking at reload server tunnels https://github.com/byterubpay/kovri/blob/master/src/client/context.cc#L321  
 **\<anonimal>** Excellent, that all sounds good. Anything else before we move onto 3.?  
 **\<i2p-relay> {-olark}** I have been slowly evaluating what will be needed to replace supercop with tweetnacl  
 **\<anonimal>** (well, I'm hoping FF will move faster but it sounds like they're at least *moving*)  
@@ -58,7 +58,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Ok, moving forward,  
 **\<i2p-relay> {-olark}** I will find the time. I have been neglecting kovri :(  
 **\<anonimal>** Yes, come back soon ;)  
-**\<anonimal>** 3. Preparation for [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46)  
+**\<anonimal>** 3. Preparation for [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
 **\<anonimal>** Speaking of neglecting, I hope we don't let this opportunity slip by ^  
 **\<anonimal>** Does anyone know of any effect voice masking software? Military grade (if there is such a thing).  
 **\<anonimal>** \*effective  
@@ -156,7 +156,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** (defeats the fun of interviews/speeches/conferences?)  
 **\<anonimal>** Ok, we'll talk more later.  
 **\<i2p-relay> [endogenic]** hehe seems a little creepy  
-**\<anonimal>** 4. Status of [Monero HackerOne umbrella and bounty](https://github.com/monero-project/meta/issues/39)  
+**\<anonimal>** 4. Status of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39)  
 **\<moneromooo>** Copy and "paste" words from movies, paste them one by one to make up sentences. Like the old words cut off from a newspaper :D  
 **\<anonimal>** lol moneromooo, not serial-killer-like in any way whatsoever...  
 **\<anonimal>** re: 4. We have hackerone.com/monero !  
@@ -191,7 +191,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Any news the website front?  
 **\<i2p-relay> {-pigeons}** No I am the holdup there  
 **\<anonimal>** Ok. ETA on resolving any holdups?  
-**\<bigreddmachine>** shoot, i was just about to ask about that. didn't realize we had monero-project/kovri-site. how can i help?  
+**\<bigreddmachine>** shoot, i was just about to ask about that. didn't realize we had byterubpay/kovri-site. how can i help?  
 **\<ajs>** have backed up work that has been done and waiting for access to a server  
 **\<anonimal>** Btw rehrar popped in recently and said him and/or his wife would give a try a logo redesign.  
 **\<rehrar>** Hi. Yes. :D  
@@ -221,7 +221,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> [pero]** the request was for the files to be emailed  
 **\<i2p-relay> [pero]** and your 'troll' remark is uncalled for and rude?  
 **\<i2p-relay> [pero]** wtf is that  
-**\<anonimal>** pero you have two options: 1. being kicked from this channel for disrupting a meeting or 2. venting into https://github.com/monero-project/kovri/pull/488 for all the world to see.  
+**\<anonimal>** pero you have two options: 1. being kicked from this channel for disrupting a meeting or 2. venting into https://github.com/byterubpay/kovri/pull/488 for all the world to see.  
 **\<i2p-relay> [bigreddmachine]** ty ajs. will this be affected by the re-design that rehrar is doing?  
 **\<rehrar>** Well, I think ideally the redesign that is done for getmonero.org should have an influence on the Kovri website (just influence, not dictate)  
 **\<rehrar>** and the logo redesign I will propose (just a proposal) I think definitely should have a larger influence on the website  

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2018-02-03
-summary: Community highlights, Monero Integrations, Monero outreach initiative, Forum Funding System updates, RFC-HWALLET-1, Localization workgroup, open ideas, and miscellaneous
+summary: Community highlights, ByteRub Integrations, ByteRub outreach initiative, Forum Funding System updates, RFC-HWALLET-1, Localization workgroup, open ideas, and miscellaneous
 tags: [dev diaries, community, crypto]
 author: dEBRUYNE / fluffypony
 ---
@@ -10,31 +10,31 @@ author: dEBRUYNE / fluffypony
 
 **\<sgp>** Meeting time!  
 **\<sgp>** 0. Introduction  
-**\<sgp>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/170  
-**\<sgp>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting!  
+**\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/170  
+**\<sgp>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
 **\<xmrscott[m]>** Salutations  
 **\<ErCiccione>** Hi  
 **\<rehrar>** This guy  
 **\<sgp>** @pigeons the mattermost relay is down  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the Monero Observer: http://monero-observer.com/  
-**\<sgp>** 3. Monero Integrations improvements  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** 3. ByteRub Integrations improvements  
 **\<sgp>** cryptochangements asked to speak for a few minutes about improvements they have made to existing integrations.  
 **\<cryptochangement>** ok i just got here  
 **\<cryptochangement>** didnt know mattermost was down  
 **\<sgp>** perfect timing :)  
-**\<cryptochangement>** okay so basically, I just wanted to share that I have improved on the wordpress plugin from serhack's last FFS and made it easier for merchants to accept Monero  
+**\<cryptochangement>** okay so basically, I just wanted to share that I have improved on the wordpress plugin from serhack's last FFS and made it easier for merchants to accept ByteRub  
 **\<cryptochangement>** basically it allows people to use their viewkey with a block explorer instead of an rpc waller  
 **\<cryptochangement>** \*wallet  
-**\<cryptochangement>** here is the reddit post I made with a video demo: https://www.reddit.com/r/Monero/comments/7tkpfu/accepting_monero_with_monerointegrations_just_got/  
+**\<cryptochangement>** here is the reddit post I made with a video demo: https://www.reddit.com/r/ByteRub/comments/7tkpfu/accepting_monero_with_monerointegrations_just_got/  
 **\<cryptochangement>** and several more new merchants have already started using the upgraded version  
 **\<cryptochangement>** there is still some concern about using a node that is not yours to validate 0 confirmation transactions which I'm still looking into, but IMO you should really just stick to the "small amounts only" rule when accepting 0 conf transactions.  
 **\<cryptochangement>** Any questions?  
 **\<cryptochangement>** otherwise we can move on :)  
 **\<sgp>** Thanks cryptochangement  
-**\<sgp>** 4. Monero outreach initiative  
+**\<sgp>** 4. ByteRub outreach initiative  
 **\<sgp>** Rehrar asked to discuss his idea about an outreach initiative for this workgroup.  
 **\<rehrar>** yeah, and my IRC is being stupid. sec.  
 **\<rehrar>** I'll just type from MM.  
@@ -42,55 +42,55 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangements>** ok cool  
 **\<rehrar>** Alright, so the basic idea of this Outreach, is that we get a small subgroup of interested community members to make a list, identifying other exciting open-source projects. They don't have to be crypto or privacy created. Mostly stuff that is trying to change the world.  
 **\<rehrar>** We then do what I'm calling a  
-**\<rehrar>** 'Monero bomb' of this project (sorry, pressed enter by accident)  
-**\<rehrar>** Where a bunch of us Monero people go to them, see what they need, and do it. Things like translations, website work, infographics, whatever.  
-**\<rehrar>** Then we disappear into the night. They've just got "Monero'd"  
-**\<rehrar>** The ultimate goal of something like this being to build bridges of relationship with the open source community at large, and solidify Monero's place there.  
+**\<rehrar>** 'ByteRub bomb' of this project (sorry, pressed enter by accident)  
+**\<rehrar>** Where a bunch of us ByteRub people go to them, see what they need, and do it. Things like translations, website work, infographics, whatever.  
+**\<rehrar>** Then we disappear into the night. They've just got "ByteRub'd"  
+**\<rehrar>** The ultimate goal of something like this being to build bridges of relationship with the open source community at large, and solidify ByteRub's place there.  
 **\<rehrar>** In its purest form, open-source is a more-or-less altruistic way to see the world change, and empower people with software, rich and poor.  
 **\<rehrar>** In its purest form, it's not about the money.  
 **\<rehrar>** Cryptocurrency is very strange, in that, for most projects, it's all about the money, despite being open source. It's a weird bastardization. But you see with the launch of Bitcoin, it was about changing the world by providing a better money, not about making money.  
-**\<rehrar>** I like to think Monero subscribes to being like that. We're not about getting rich. We're about changing the world, and there's a lot of other projects that are trying to do that in small ways too  
+**\<rehrar>** I like to think ByteRub subscribes to being like that. We're not about getting rich. We're about changing the world, and there's a lot of other projects that are trying to do that in small ways too  
 **\<ArticMine>** This seems to me to e a very worthwhile project  
-**\<rehrar>** Monero can show them some love, get our word out there and help them spread theirs at the same time.  
-**\<rehrar>** We can help them get set up with Monero donations, etc. etc. etc. What we can accomplish for them is only limited by the skills of the volunteers we have.  
+**\<rehrar>** ByteRub can show them some love, get our word out there and help them spread theirs at the same time.  
+**\<rehrar>** We can help them get set up with ByteRub donations, etc. etc. etc. What we can accomplish for them is only limited by the skills of the volunteers we have.  
 **\<cryptochangement>** sounds good, it would be awesome if we could get the coordination for that  
-**\<rehrar>** This also gives a project for the many people who want to help Monero, but don't know how cuz they can't code.  
+**\<rehrar>** This also gives a project for the many people who want to help ByteRub, but don't know how cuz they can't code.  
 **\<rehrar>** Either way, that's my idea.  
 **\<rehrar>** If we like it, I can start work on it.  
-**\<ArticMine>** Of course we can look at Monero as a multi-billion dollar crypto-currency with an elaborate security model based entirely upon software freedom  
+**\<ArticMine>** Of course we can look at ByteRub as a multi-billion dollar crypto-currency with an elaborate security model based entirely upon software freedom  
 **\<cryptochangement>** I for one like it  
 **\<cryptochangement>** looks like a small crowd today  
 **\<sgp>** @rehrar I think the most difficult part would be finding enough participants  
 **\<rehrar>** This is true.  
-**\<rehrar>** Which is kind of sad, since Monero community is so big, but that's the way it goes with anything, I think.  
+**\<rehrar>** Which is kind of sad, since ByteRub community is so big, but that's the way it goes with anything, I think.  
 **\<cryptochangement>** I think we could easily find enough people in time, but coordinating volunteers to do stuff like that all together in a short-ish amount of time would probably be the bigger challenge  
 **\<sgp>** Maybe a mailing list would help more than subreddit posts. Not sure  
-**\<ArticMine>** There is also a lack of awareness in the Monero community as a whole as to the critical role Free Software and software freedom play in Monero  
+**\<ArticMine>** There is also a lack of awareness in the ByteRub community as a whole as to the critical role Free Software and software freedom play in ByteRub  
 **\<rehrar>** We can have a 'sign up sheet' where people sign up to receive emails about stuff. They say their skills, and once a month we have a new project to help.  
 **\<cryptochangement>** the problem with a r/ post is that most people over there are just scrolling by with short attention spans  
 **\<rehrar>** \^ ArticMine  
-**\<rehrar>** Most people don't really understand open source as a whole. They know Monero IS open source, but they don't know the ideals of open source, and how it tries to change the world  
+**\<rehrar>** Most people don't really understand open source as a whole. They know ByteRub IS open source, but they don't know the ideals of open source, and how it tries to change the world  
 **\<cryptochangement>** the 'sign up sheet' sounds like a good idea tho  
 **\<sgp>** @rehrar sounds good, as long as you include clear projects for beginners to work on  
 **\<rehrar>** Then maybe we can have a sticky in the Community subreddit of the project we're helping this month  
 **\<rehrar>** final though from me:  
 **\<cryptochangement>** the community subbreddit is nice, but pretty small :/  
 **\<rehrar>** even if all this accomplishes is tiny bits of help (financial or otherwise) toward a project, the other thing it accomplishes is spreading the word of open-source as a whole to our community, and generating awareness for other projects that some in the community might find useful  
-**\<rehrar>** it's pretty easy to 'catch the vision' of Monero, when you catch the vision of open source as well.  
+**\<rehrar>** it's pretty easy to 'catch the vision' of ByteRub, when you catch the vision of open source as well.  
 **\<ArticMine>** ^^ This is critical  
 **\<rehrar>** In the end, isn't that the goal of the Community workgroup?  
 **\<rehrar>** We try to make a better community  
 **\<rehrar>** and a better community, is a community that 'gets it'  
 **\<sgp>** Yes, at least imo  
-**\<ArticMine>** It can be part of the role of the Monero Community  
+**\<ArticMine>** It can be part of the role of the ByteRub Community  
 **\<rehrar>** so it makes sense that our subreddit and stuff is small  
 **\<rehrar>** cuz not many people 'get it' ;)  
 **\<sgp>** @rehrar part of it is me mostly using the subreddit only for announcements  
-**\<rehrar>** Either way, once again, it will make an outward focus for Monero instead of just an inward ones, which will set us apart from other crypto projects.  
+**\<rehrar>** Either way, once again, it will make an outward focus for ByteRub instead of just an inward ones, which will set us apart from other crypto projects.  
 **\<rehrar>** *bows* thank you  
 **\<cryptochangement>** *applauds*  
 **\<rehrar>** (my rant for the meeting)  
-**\<ArticMine>** To me it is a recognition o the debt Monero own the FLOSS communities  
+**\<ArticMine>** To me it is a recognition o the debt ByteRub own the FLOSS communities  
 **\<ArticMine>** owes  
 **\<sgp>** Yeah, I think it's a good project to have  
 **\<serhack>** hi :)  
@@ -131,7 +131,7 @@ author: dEBRUYNE / fluffypony
 **\<michael>** Five minutes.  
 **\<sgp>** Ok, we can move to open ideas time until you are ready. Just jump in whenever  
 **\<sgp>** I have an thought!  
-**\<sgp>** I'm surprised we haven't discussed the possible overlap between /r/MoneroCommunity and /r/moonero before. Most large communities have fun making content (eg: dogecoin)  
+**\<sgp>** I'm surprised we haven't discussed the possible overlap between /r/ByteRubCommunity and /r/moonero before. Most large communities have fun making content (eg: dogecoin)  
 **\<cryptochangement>** *waits suspensfully for sgp's thought*  
 **\<cryptochangement>** thats an interesting way of looking at it  
 **\<sgp>** Would encouraging people to make memes encourage people to contribute in other ways? Are we actually harming the community by having these two groups separate?  
@@ -146,7 +146,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** Finally online, with a charged battery.  
 **\<msvb-mob>** serhack: The secure elements lock secrets away from rogue firmware.  
 **\<msvb-mob>** serhack: I don't know what a private element is.  
-**\<serhack>** Monero is focused on privacy, I think the hardware wallet should be focused on the same goal  
+**\<serhack>** ByteRub is focused on privacy, I think the hardware wallet should be focused on the same goal  
 **\<rehrar>** it is, serhack, no worries  
 **\<rehrar>** the secure element is an actual piece of hardware  
 **\<serhack>** Right.  
@@ -158,7 +158,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** Any other hardware team questions?  
 **\<ArticMine>** Yes this avoids proprietary attacks  
 **\<sgp>** Thanks @msvb-mob for your update  
-**\<msvb-mob>** ArticMine: Documents state 'copyright The Monero Project.'  
+**\<msvb-mob>** ArticMine: Documents state 'copyright The ByteRub Project.'  
 **\<msvb-mob>** sgp: You're welcome.  
 **\<ArticMine>** You need a copyright which is then linked to a FLOSS or certain CC license  
 **\<msvb-mob>** Yes, the CERN Opensource Hardware (OSH) license.  
@@ -171,6 +171,6 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** It seems to me this is on the right track  
 **\<sgp>** Ok, since it seems quiet today, we can wrap up the meeting  
 **\<sgp>** 7. Confirm next meeting date/time  
-**\<sgp>** The next community meeting will be two weeks from today on 17 February. The next Coffee Chat will be next week on 10 February: https://github.com/monero-project/meta/issues/173  
+**\<sgp>** The next community meeting will be two weeks from today on 17 February. The next Coffee Chat will be next week on 10 February: https://github.com/byterubpay/meta/issues/173  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  

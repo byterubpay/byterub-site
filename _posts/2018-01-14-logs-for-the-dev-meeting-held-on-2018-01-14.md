@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Logs  
 
-**\<rehrar>** https://github.com/monero-project/meta/issues/157  
+**\<rehrar>** https://github.com/byterubpay/meta/issues/157  
 **\<rehrar>** Here's the agenda.  
 **\<rehrar>** We kinda did greetings, but if anyone else is present, please say "hi"  
 **\<gingeropolous>** hi  
@@ -37,7 +37,7 @@ author: dEBRUYNE / fluffypony
 **\<vtnerd>** after a discussion with luigi1111, I should be proposing an optimization for wallet scanning that mymonero is using - want to test with a standard wallet to give real world perf numbers before PR  
 **\<vtnerd>** ah sorry ArticMine  
 **\<rehrar>** no, go ahead vtnerd :) anyone and everyone with an update feel free to let us know  
-**\<vtnerd>** ok, this optimization is separate from the ASM work in monero-project/supercop (still pending a PR), so it works with standard ref10 (i.e. all platforms)  
+**\<vtnerd>** ok, this optimization is separate from the ASM work in byterubpay/supercop (still pending a PR), so it works with standard ref10 (i.e. all platforms)  
 **\<vtnerd>** it will require a few changes to src/crypto.{h|c} so be on the lookout for that PR  
 **\<gingeropolous>** is this just for your standard refresh? or related to remote viewkey scanning... or both?  
 **\<vtnerd>** this is specifically for scanning receiving outputs on a primary address  
@@ -46,7 +46,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Alright. Thanks. :) Anyone else? If not we'll move on.  
 **\<rehrar>** Ye, that's next.  
 **\<moneromooo>** Things of note since last time: build hardening (currently breaks static builds though), DNSSEC fix on windows, DB and sync hang fixes, secure memory wiping (wip), misc code review and fixes, updates now use HTTPS and can resume downloads  
-**\<ArticMine>** In brief I attended BTC awards CIS and participated in the coins panel. There were two other coins present Dash, ZenCash. Overall it went very well and provided exposure to Monero among the CIS (Commonwealth of Independent state)  crypto communities  
+**\<ArticMine>** In brief I attended BTC awards CIS and participated in the coins panel. There were two other coins present Dash, ZenCash. Overall it went very well and provided exposure to ByteRub among the CIS (Commonwealth of Independent state)  crypto communities  
 **\<endogenic>** medusa: last i heard MRL was looking for people to review and audit bulletproofs  
 **\<endogenic>** sarang would be able to give you more information  
 **\<ArticMine>** That is my brief update  
@@ -69,7 +69,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Yeah, so we naturally moved onto third item on the agenda, which is code freeze, March hard fork. Bulletproof is the biggest one. Everyone's thoughts?  
 **\<binaryFate>** beyond code review, sarang what is your opinion on the need of review of the math itself? I'm worried the paper has little time to go through peer-review. But maybe match checks out so obviously that it's not needed.  
 **\<sarang>** The math is solid. Additional peer review is always a welcome thing, though with diminishing returns over time  
-**\<binaryFate>** (talking about the BP paper -- not the Monero specific implementation)  
+**\<binaryFate>** (talking about the BP paper -- not the ByteRub specific implementation)  
 **\<sarang>** yes  
 **\<sarang>** In the meantime, moneromooo and I have been working on some additional optimizations for proof verification that are independent of the math or specific proof implementation  
 **\<ferretinjapan>** I guess thats the thing, how much "value adding" is an additional audit for now justified?  
@@ -308,13 +308,13 @@ author: dEBRUYNE / fluffypony
 **\<DaveyJones>** rbunner i don't think so ... most people arn't even schooled on default vs 0.25x fee  
 **\<sarang>** hyc: line 5, I'd say "are confident" instead of "are pretty confident"  
 **\<hyc>** sarang: ok  
-**\<endogenic>** hyc: maybe capitalize 'Java' and add a 'Therefore, ' before "The Monero Project"  
+**\<endogenic>** hyc: maybe capitalize 'Java' and add a 'Therefore, ' before "The ByteRub Project"  
 **\<rbrunner>** Yes, how will they understand how that works if it get more complicated?  
 **\<rbrunner>** That's my fear, basically  
 **\<endogenic>** oops  
-**\<endogenic>** "mainnet. The Monero Project"  
+**\<endogenic>** "mainnet. The ByteRub Project"  
 **\<rehrar>** I'm torn tbh. I see both sides.  
-**\<pebx>** @ArticMine what bitcoin does is one of the major reasons, why people are looking into Monero... fees are one thing the average bitcoin user is always confused about  
+**\<pebx>** @ArticMine what bitcoin does is one of the major reasons, why people are looking into ByteRub... fees are one thing the average bitcoin user is always confused about  
 **\<DaveyJones>** basically they don't need to understand most of people moaning about tax fee's are people just count the $ value of the fee... not how it was achieved  
 **\<endogenic>** otherwise looks great, tyvm!  
 **\<DaveyJones>** so they basically dont care about the mechanism but the price  
@@ -403,7 +403,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** rerhrar: it was, but last time i asked dEBRUYNE he said more or less around February. i guess i'll just wait to know more  
 **\<binaryFate>** rbrunner what point?  
 **\<sgp>** I think it's a good idea  
-**\<rbrunner>** The good decentralization of Monero  
+**\<rbrunner>** The good decentralization of ByteRub  
 **\<binaryFate>** ErCiccione as long as hard fork date still somewhat open and discussed, I think it's fair to assume code freeze will not happen soon. That's probably the most you can get now.  
 **\<sgp>** I think some localization stuff is low-risk though and could be merged a bit later as long as the binaries can be built with sufficient time. Not my deceion though  
 **\<Billy>** I do think we need to resolve the BP issue ASAP.  It needs a special meeting because these general meetings aren't going to do it.  

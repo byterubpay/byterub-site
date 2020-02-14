@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-12-03
-summary: Discussion of open PRs and issues, Bulletproofs, Monero Research Lab, RNGs, 0MQ, and miscellaneous
+summary: Discussion of open PRs and issues, Bulletproofs, ByteRub Research Lab, RNGs, 0MQ, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-12-03).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-12-03).  
 
 # Logs  
 
@@ -51,7 +51,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<* hotoatmeal** was about to ask  
 **\<sarang>** So we'll continue moving forward with porting and testing  
 **\<manifest>** serhack here?  
-**\<dEBRUYNE>** A typical Monero transaction has 2 ins + 2 outs  
+**\<dEBRUYNE>** A typical ByteRub transaction has 2 ins + 2 outs  
 **\<serhack>** yep manifest  
 **\<manifest>** i was wondering who was the m8 that was gonna work on the go-library since i started on it myself a little bit swell  
 **\<fluffypony>** dEBRUYNE: this would also be a major cost-saving for pool payments  
@@ -160,7 +160,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** ok so I think if they haven't hit entropy attrition problems over the past few years it's unlikely we will - thoughts?  
 **\<moneromooo>** Let me rephrase:  
 **\<moneromooo>** Bitcoin has two RNGs: a good one using HW, and a... hmmm, less good ? one similar to our keccak based one  
-**\<moneromooo>** Using the keccak based one does not deplete entropy nearly as fast as using the good one. Monero can use a lot of entropy (eg, range proofs).  
+**\<moneromooo>** Using the keccak based one does not deplete entropy nearly as fast as using the good one. ByteRub can use a lot of entropy (eg, range proofs).  
 **\<moneromooo>** Therefore, I'm wondering whether using the good one all the time is worse than not.  
 **\<hotoatmeal>** moneromooo: ok, I'll pick up the vector vs unique\_ptr part of that later this month  
 **\<moneromooo>** Thanks  

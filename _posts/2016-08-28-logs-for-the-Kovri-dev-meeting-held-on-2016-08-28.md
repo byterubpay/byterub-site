@@ -74,7 +74,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Alright, thanks solmar.  
 **\<meeting-bot> [anonimal]** 3. Code + ticket discussion / Q & A  
 **\<meeting-bot> [anonimal]** I'll open  
-**\<meeting-bot> [fluffypony]** some of the design decisions in Kovri were influenced by Monero, so no getting away from it, Monero devs ;)  
+**\<meeting-bot> [fluffypony]** some of the design decisions in Kovri were influenced by ByteRub, so no getting away from it, ByteRub devs ;)  
 **\<meeting-bot> [anonimal]** Question: WHEN WILL MONERO DEVS START TAKING KOVRI SERIOUSLY?  
 **\<meeting-bot> [anonimal]** 10 months in now since our november 1st meeting,  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** Define "taking seriously" ? Send patches ?  
@@ -104,7 +104,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** 4. Discuss #282  
 **\<meeting-bot> [fluffypony]** ok so  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** There was a designer guy asking whether help was wanted. He seemed to be after paid work though.  
-**\<meeting-bot> [fluffypony]** with the Monero logo we used 99designs  
+**\<meeting-bot> [fluffypony]** with the ByteRub logo we used 99designs  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** eherdesign in #monero  
 **\<meeting-bot> [fluffypony]** moneromooo: I looked at his stuff, it wasn't mind-blowing  
 **\<meeting-bot> [fluffypony]** I'd like to move to use 99designs again  
@@ -113,12 +113,12 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** unless anyone feel we must go for a higher 99designs reward  
 **\<othe>** i would also sponsor that  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** * hopes it won't be some shady looking concept  
-**\<meeting-bot> [i2p-relay] {-ArticMine}** It worked very well for Monero so I say yeas with the same package  
+**\<meeting-bot> [i2p-relay] {-ArticMine}** It worked very well for ByteRub so I say yeas with the same package  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** yes  
 **\<meeting-bot> [solmar]** maidsafe also appears to be having success with 99designs so i think it is a good idea  
 **\<meeting-bot> [fluffypony]** ok - I'll set that up now - do we have any ideas as to what we want to convey?  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** Well I have to leave now  
-**\<meeting-bot> [fluffypony]** do we want it to be inspired by the Monero logo, like the MRL logo is?  
+**\<meeting-bot> [fluffypony]** do we want it to be inspired by the ByteRub logo, like the MRL logo is?  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** The essential qualities of garlic.  
 **\<meeting-bot> [fluffypony]** (ref: https://lab.getmonero.org/logo.png)  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** ^ great logo  
@@ -126,7 +126,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** groeg: yes plz, can you PM it to me?  
 **\<cjd>** you'll want to pm it to fluffypony, not to the bot  
 **\<cjd>** he's in this irc  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Actually... you could rotate the Monero logo 90% clockwise and arrange colors a bit so it looks like a K. With kind of a hidden M.  
+**\<meeting-bot> [i2p-relay] {-moneromooo}** Actually... you could rotate the ByteRub logo 90% clockwise and arrange colors a bit so it looks like a K. With kind of a hidden M.  
 **\<groeg>** newbie using IRC, looking up how to pm ...  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** groeg: /query NICKHERE  
 **\<meeting-bot> [fluffypony]** thanks groeg, got it  
@@ -161,7 +161,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** http://paulkieschedesign.com/blog/wp-content/uploads/2011/12/shandong-logo.jpg <- perfect  
 **\<meeting-bot> [anonimal]** "Eat kovri today"  
 **\<meeting-bot> [fluffypony]** the name, not the logo  
-**\<meeting-bot> [fluffypony]** so for a previous April 1 we renamed Monero to DarkFlarb, so I move that for next year April 1 we rename Kovri to Shandong  
+**\<meeting-bot> [fluffypony]** so for a previous April 1 we renamed ByteRub to DarkFlarb, so I move that for next year April 1 we rename Kovri to Shandong  
 **\<meeting-bot> [fluffypony]** ShanDong  
 **\<meeting-bot> [anonimal]** The ShanDong I2P Router project... hmm...  
 **\<meeting-bot> [anonimal]** fluffypony: how do we keep track of #282?  
@@ -251,7 +251,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** which is affecting that and the other one  
 **\<meeting-bot> [fluffypony]** (the increased attention means an increase of people poking at our infrastructure, hence the move)  
 **\<meeting-bot> [anonimal]** Ah, ok. How is content coming along? Did you get that rough draft finished?  
-**\<meeting-bot> [fluffypony]** should be done by next meeting, and I'll push the Kovri page to the Monero website in the next week so that we can open it up to the community to work on it  
+**\<meeting-bot> [fluffypony]** should be done by next meeting, and I'll push the Kovri page to the ByteRub website in the next week so that we can open it up to the community to work on it  
 **\<meeting-bot> [fluffypony]** it's in a sub-section of its own  
 **\<meeting-bot> [fluffypony]** so it can have as much content as required  
 **\<meeting-bot> [EinMByte]** nice, didn't know we were getting a website  
@@ -325,7 +325,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [EinMByte]** We can discuss some of the more technical things separately  
 **\<guzzi>** 1 mo fine.  i will be on irc for technical things.  still playing catch up.  
 **\<meeting-bot> [fluffypony]** ok  
-**\<meeting-bot> [fluffypony]** then we do it in 4 weeks, same time as the meeting after next Monero dev meeting?  
+**\<meeting-bot> [fluffypony]** then we do it in 4 weeks, same time as the meeting after next ByteRub dev meeting?  
 **\<meeting-bot> [solmar]** 1 month is fine  
 **\<meeting-bot> [solmar]** i'll be around as often as i can  
 **\<meeting-bot> [anonimal]** Same time is fine with me.  

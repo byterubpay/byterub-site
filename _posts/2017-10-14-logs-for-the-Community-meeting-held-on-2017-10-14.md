@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2017-10-14
-summary: Community highlights, Forum Funding System updates, Monero Coffee Chat debrief, Monero meetups & meetup kit, open ideas time, and miscellaneous
+summary: Community highlights, Forum Funding System updates, ByteRub Coffee Chat debrief, ByteRub meetups & meetup kit, open ideas time, and miscellaneous
 tags: [community]
 author: dEBRUYNE / fluffypony
 ---
@@ -14,7 +14,7 @@ author: dEBRUYNE / fluffypony
 **\<parasew[m]>** hey all! (travelling, so only online for 10more minutes!)  
 **\<nevvton>** Hi all  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the Monero Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
 **\<sgp>** I think we will just refer to the Observer from now on, since it covers this section nicely. Make sure to contribute to the FFS https://forum.getmonero.org/8/funding-required/88453/monero-observer-weekly-recap-for-all-things-monero-weekly-newsletter  
 **\<ArticMine>** hi  
 **\<rehrar>** Yo yo  
@@ -23,15 +23,15 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** Oh community meeting! Hi everyone  
 **\<sgp>** (the part about Kasisto was supposed to be under item 3)  
 **\<rupee>** o/  
-**\<rehrar>** It's a bit of a shame. The Monero community just funded tons of stuff before these two FFS's, so I think everyone's a little 'gived out'  
+**\<rehrar>** It's a bit of a shame. The ByteRub community just funded tons of stuff before these two FFS's, so I think everyone's a little 'gived out'  
 **\<sgp>** Welcome everyone making their way in  
 **\<serhack>** Thanks sgp  
 **\<sgp>** Yeah, there was a huge push a few weeks ago and things are quieter now  
-**\<sgp>** 4. Monero Coffee Chat debrief  
-**\<sgp>** Last Saturday, we hosted the first Monero Coffee Chat. I want to speak for a few minutes about how it went.  
-**\<sgp>** You can see the GitHub issue here: https://github.com/monero-project/meta/issues/123  
+**\<sgp>** 4. ByteRub Coffee Chat debrief  
+**\<sgp>** Last Saturday, we hosted the first ByteRub Coffee Chat. I want to speak for a few minutes about how it went.  
+**\<sgp>** You can see the GitHub issue here: https://github.com/byterubpay/meta/issues/123  
 **\<sgp>** You can see the video here: https://www.youtube.com/watch?v=EcKgnjqSXpA  
-**\<monerobux>** [ Monero Coffee Chat - 2017.10.07 - YouTube ] - www.youtube.com  
+**\<monerobux>** [ ByteRub Coffee Chat - 2017.10.07 - YouTube ] - www.youtube.com  
 **\<sgp>** The livestreaming did not work as expected. We used Jitsi instead of Hangouts to address several privacy concerns. Jitsi is open-source and has many of the same features as Hangouts, except for some reason I could not get the livestreaming function to work properly the day of the event.  
 **\<sgp>** (before I continue, let's have serhack and msvb-lab talk about their progress if they want)  
 **\<msvb-lab>** sgp: Thanks, we've made some progress on RFC-HWALLET-1.  
@@ -50,7 +50,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** I think you can cryptochangements  
 **\<vP11>** nice progress, I'll keep an eye on these projects :)  
 **\<msvb-lab>** Whoever has access to the taiga server config, please contact me to work out a problem sending email to the admins (me and Ivan.)  
-**\<msvb-lab>** That's all, any questions about a future Monero hardware wallet?  
+**\<msvb-lab>** That's all, any questions about a future ByteRub hardware wallet?  
 **\<sgp>** @cryptochangement feel free  
 **\<nevvton>** good work!! Platine looks great  
 **\<sgp>** @msvb-lab not really, though I'm excited :)  
@@ -88,7 +88,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** It doesn't matter how often PRs are sent for updating pages if they don't get merged and put up on the site. fluffypony is on vacation, I know, and he will be getting back very soon, so hopefully things will pick up a bit.  
 **\<cryptochangement>** okay so to give a quick update on magento: Right now the github repo hasnt seen activity in a while (sorry for keeping you guys in the dark) but i should be pushing loads of commits to the repo this weekend and ill probably make a reddit update about it (since i wasnt able to get everything done before this meeting) about it being functional as a "demo". Right now there are only  
 **\<cryptochangement>** 2 "mechanical" pieces that still need to be finished "behind the scenes" before it is *really* ready but the big eye-sore is the gateway design. Right now it is pretty bland (basically the payment box and a white background), so ill probably be looking to reddit for some design inspiration.  
-**\<serhack>** Cryptochangements: we should start to think about a New design for Monero Payment Box  
+**\<serhack>** Cryptochangements: we should start to think about a New design for ByteRub Payment Box  
 **\<sgp>** We have a growing number of people in the community who are good at design. The Monera made our student group's latest Meetup poster, for instance  
 **\<serhack>** @krokbaltsar is a good designer :)  
 **\<cryptochangement>** yeah, the Monera is amazing with that kind of thing  
@@ -105,10 +105,10 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** awesome! is it cool if i PM you on reddit? (or IRC if that works for you)?  
 **\<nevvton>** in case of additional help for designs I could also contribute..  
 **\<serhack>** Great, there are a Lot of designers  
-**\<sgp>** Last Saturday, we hosted the first Monero Coffee Chat. I want to speak for a few minutes about how it went.  
-**\<sgp>** You can see the GitHub issue here: https://github.com/monero-project/meta/issues/123  
+**\<sgp>** Last Saturday, we hosted the first ByteRub Coffee Chat. I want to speak for a few minutes about how it went.  
+**\<sgp>** You can see the GitHub issue here: https://github.com/byterubpay/meta/issues/123  
 **\<sgp>** You can see the video here: https://www.youtube.com/watch?v=EcKgnjqSXpA  
-**\<monerobux>** [ Monero Coffee Chat - 2017.10.07 - YouTube ] - www.youtube.com  
+**\<monerobux>** [ ByteRub Coffee Chat - 2017.10.07 - YouTube ] - www.youtube.com  
 **\<sgp>** The livestreaming did not work as expected. We used Jitsi instead of Hangouts to address several privacy concerns. Jitsi is open-source and has many of the same features as Hangouts, except for some reason I could not get the livestreaming function to work properly the day of the event.  
 **\<sgp>** I had previously tested it earlier with just two members and it worked.  
 **\<sgp>** In desperation, I quickly set up OBS with the default settings and did a very simple screen-capture. Apparently, the default quality is around 720p, and I should have tweaked with the audio settings more if I had more time. Nevertheless, we have a recording of the event, which in my opinion is better than no recording.  
@@ -116,7 +116,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** We simply invited those who wanted to watch to the Jitsi room at the time, which worked fine for this meeting, but I have concerns for the future. There is no way to permanently mute people (they can unmute), and there is no way to ban people. They can just rejoin. I’m afraid that someone down the line will ruin this for everyone.  
 **\<sgp>** Thus, I will continue working to find a way to reliably livestream the event to YouTube. People can comment there without disrupting the conversation.  
 **\<sgp>** I would like to thank those who participated in the first event. Endogenic, erciccione, violentlypeaceful, john\_alan, rehrar, ArticMine, and others I may have forgotten. If you would like to be involved in the next one, please message me and I will keep you in mind.  
-**\<sgp>** The next Monero Coffee Chat is tentatively on 4 November https://github.com/monero-project/meta/issues/127  
+**\<sgp>** The next ByteRub Coffee Chat is tentatively on 4 November https://github.com/byterubpay/meta/issues/127  
 **\<msvb-lab>** sgp: Anyway to download the coffee chat so we don't have to use Youtube?  
 **\<sgp>** Yeah, I can send you the file if you want  
 **\<sgp>** PM me with what medium you prefer  
@@ -129,12 +129,12 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** Make italian community great (again?)  
 **\<nevvton>** :)  
 **\<sgp>** Well if anyone has any feedback, please let me know. I'm happy to make changes  
-**\<sgp>** 5. Monero meetups  
+**\<sgp>** 5. ByteRub meetups  
 **\<ErCiccione>** hehehe @serhack, if we can find an easy way i will be happy to translate for you if you wish. My spoken english is not great but hey..:D  
 **\<msvb-lab>** sgp: There are a couple events coming up (as we may talk about later) and it's common to have live coffee chat like sessions on site. Do you think we should try that?  
-**\<sgp>** There's an increasing chance every day that there's a Monero community near you.  
+**\<sgp>** There's an increasing chance every day that there's a ByteRub community near you.  
 **\<sgp>** @msvb-lab good idea, we can coordinate that with the event organizers  
-**\<sgp>** My group Crypto@UMN is hosting a Monero meetup on 20 October in Minneapolis. This event is open to students and the wider community. Free food and drinks will be provided. More details here: https://gopherlink.umn.edu/event/1581653  
+**\<sgp>** My group Crypto@UMN is hosting a ByteRub meetup on 20 October in Minneapolis. This event is open to students and the wider community. Free food and drinks will be provided. More details here: https://gopherlink.umn.edu/event/1581653  
 **\<sgp>** A stream of Justin Smith’s talk at Bitcoin Munich should be posted shortly, according to the event organizers. Here are some photos: https://secure.meetupstatic.com/photos/event/8/4/2/b/highres_465273835.jpeg https://secure.meetupstatic.com/photos/event/8/4/2/e/highres_465273838.jpeg  
 **\<sgp>** RIAT in Vienna would like to discuss some exciting updates for December. I just got an email from them about an hour ago with lots of exciting stuff!  
 **\<sgp>** \^nevvton  
@@ -173,9 +173,9 @@ author: dEBRUYNE / fluffypony
 **\<nevvton>** wrapping up things that all of us took efforts upon, discuss future (upcoming) trends etc.. as to say we would like people to come to vienna  
 **\<nevvton>** and turn it into a session, from 13th to 17th - with talks, lectures, workshops...  
 **\<serhack>** We should do something in christmas  
-**\<serhack>** For Monero  
+**\<serhack>** For ByteRub  
 **\<rehrar>** secret santa  
-**\<sgp>** I'm glad to hear Monero will be well-represented at the 34C3. Feel free to ask at any time for what you need, even outside meeting time.  
+**\<sgp>** I'm glad to hear ByteRub will be well-represented at the 34C3. Feel free to ask at any time for what you need, even outside meeting time.  
 **\<nevvton>** generally also this time could be used In order to prepare CCC related topics .. so it might be a good opportunity to stop by in advance  
 **\<serhack>** Serhack is thinking  
 **\<nevvton>** thank you  
@@ -183,7 +183,7 @@ author: dEBRUYNE / fluffypony
 **\<nevvton>** (puh' my fingers..)  
 **\<msvb-lab>** nevvton: Some folks travelling from far need a lot of time before the 13-17 meeting to decide.  
 **\<nevvton>** generally -- just for more adequate info -- of course we can help finding a cheap fare to host people here.. (we have some community run beds) so -- in order to not have expenses explode..  
-**\<msvb-lab>** Maybe we should already promote the 'Monero December' meeting(s) on events.getmonero.org or whatever that page is.  
+**\<msvb-lab>** Maybe we should already promote the 'ByteRub December' meeting(s) on events.getmonero.org or whatever that page is.  
 **\<nevvton>** yes..  
 **\<nevvton>** thats what parasew also encouraged.. would be great to have an update on the event site  
 **\<msvb-lab>** I'm already planning on being there and will buy my train ticket once December comes online at the ticket office.  
@@ -192,7 +192,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** isnt there an events page on getmonero that could use some love anyways?  
 **\<rehrar>** scroll up  
 **\<nevvton>** if anyone would want to get earlier in December or stay longer (for instance until CCC) it is also possible...  
-**\<msvb-lab>** nevvton: Write a bug on the Github monero-project/monero-site bug tracker to insert the text you want, like describing how to get there and so on.  
+**\<msvb-lab>** nevvton: Write a bug on the Github byterubpay/monero-site bug tracker to insert the text you want, like describing how to get there and so on.  
 **\<nevvton>** okay.. thats a great idea!!  
 **\<msvb-lab>** Then we can see about doing a coffee table chat live on site and stuff like that...  
 **\<nevvton>** yes  
@@ -201,9 +201,9 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** I'm going to spend the last few minutes covering the last meeting item, but of course feel free to continue discussions after the meeting  
 **\<nevvton>** (next week or so)  
 **\<sgp>** This is all very exciting. Thanks for your efforts  
-**\<sgp>** Last item: 6. Monero Meetup Kit  
-**\<sgp>** Just a brief update. Though my FFS has not yet moved on, I have recently purchased all the materials for the Monero Meetup Kit https://forum.getmonero.org/6/ideas/88374/monero-meetup-kit  
-**\<sgp>** Each kit will include 100 Monero logo stickers, 50 webcam covers with the Monero logo, about 2 each of various other community-designed stickers, 50 flyers, and $20 in activity paper wallets.  
+**\<sgp>** Last item: 6. ByteRub Meetup Kit  
+**\<sgp>** Just a brief update. Though my FFS has not yet moved on, I have recently purchased all the materials for the ByteRub Meetup Kit https://forum.getmonero.org/6/ideas/88374/monero-meetup-kit  
+**\<sgp>** Each kit will include 100 ByteRub logo stickers, 50 webcam covers with the ByteRub logo, about 2 each of various other community-designed stickers, 50 flyers, and $20 in activity paper wallets.  
 **\<sgp>** The webcam covers are the most expensive part of the kit, but I think they are worth the cost. Here is how they will look: https://i.imgur.com/zu0rDE2.png  
 **\<sgp>** I will create an application for groups who would like a free kit. Expect this around the end of this month, when the webcam covers come in. To simplify things, I prefer to only ship in the US. I can do something later if this is a success  
 **\<ErCiccione>** very nice!  
@@ -264,7 +264,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** selsta: The official announcement will appear on getmonero.org/community/events/  
 **\<msvb-lab>** It is a event being put on by users nevvton and parasew and hosted by RIAT.  
 **\<selsta>** msvb-lab: I live there :p  
-**\<msvb-lab>** Kind of a 'Monero December' month long focus session.  
+**\<msvb-lab>** Kind of a 'ByteRub December' month long focus session.  
 **\<msvb-lab>** selsta: It's not at metalab as far as I know.  
 **\<msvb-lab>** Probably someplace in a university or research institute, and I hope this get's cleared up once they advertise on the events page.  
 **\<msvb-lab>** selsta: Are you on board, if we have meetings on the weekend 15-17 December?  

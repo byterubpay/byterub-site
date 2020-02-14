@@ -11,7 +11,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<anonimal>** 3. Contributor FFS check-in / status  
-**\<anonimal>** 4. Open Meta issue review https://github.com/monero-project/meta/issues  
+**\<anonimal>** 4. Open Meta issue review https://github.com/byterubpay/meta/issues  
 **\<anonimal>** 5. Code + ticket discussion / Q & A  
 **\<anonimal>** 6. Any additional meeting items  
 **\<anonimal>** 7. Confirm next meeting date/time  
@@ -24,9 +24,9 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** yes  
 **\<anonimal>** Hi fluffypony  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** On my end: testnet development and related collab with MoroccanMalinois and lazygravy + SSU/Ident collab/PR review with MoroccanMalinois (and related research/development), rehrar collab for his site related work, some collab with serhack/ericcion Italian translations for kovri-site, email + PR collab + R&D with rbrunner on the windows InnoSetup installers, Monero project work (monero svn to git for  
+**\<anonimal>** On my end: testnet development and related collab with MoroccanMalinois and lazygravy + SSU/Ident collab/PR review with MoroccanMalinois (and related research/development), rehrar collab for his site related work, some collab with serhack/ericcion Italian translations for kovri-site, email + PR collab + R&D with rbrunner on the windows InnoSetup installers, ByteRub project work (monero svn to git for  
 **\<anonimal>** unbound), work with pigeons on setting up kovri.i2p (now online!), answer various IRC/reddit Q&A + related collab.  
-**\<rehrar>** This past week was launching the Monero website. Now that's basically done.  
+**\<rehrar>** This past week was launching the ByteRub website. Now that's basically done.  
 **\<anonimal>** Some various things here and there, I2P/Tor family node research and more.  
 **\<anonimal>** Some French + Russian kovri-site translations are in the works, they are in the PR pit.  
 **\<anonimal>** Same with kovri repo, I have yet to review the new MM PR's.  
@@ -41,7 +41,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** lol  
 **\<i2p-relay> {-fluffypony}** leave it to the community to review  
 **\<anonimal>** With the exception of this intermittent week, point 2 shows that I've been active and busy, that I can say the least.  
-**\<anonimal>** Alright, moving on. 4. Open Meta issue review https://github.com/monero-project/meta/issues  
+**\<anonimal>** Alright, moving on. 4. Open Meta issue review https://github.com/byterubpay/meta/issues  
 **\<anonimal>** Starting from the top down, #80  
 **\<anonimal>** rehrar, any news on that front?  
 **\<anonimal>** #77 and #78, fluffypony what do you think?  
@@ -53,7 +53,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** This week is all Kovri for me.  
 **\<rehrar>** I'll be writing the brief tomorrow and presenting it  
 **\<anonimal>** fluffypony: well, not for me: it would be helpful because of the sometimes very large notification lists I get in github.  
-**\<rehrar>** I'll also be importing the tech from the new Monero website to Kovri. That which is applicable.  
+**\<rehrar>** I'll also be importing the tech from the new ByteRub website to Kovri. That which is applicable.  
 **\<anonimal>** Awesome rehrar  
 **\<anonimal>** fluffypony: is it too much?  
 **\<i2p-relay> {-fluffypony}** I don't mind activating it, it's your call :)  
@@ -68,7 +68,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** On 4 there is Project licensing #85 impacts kovri  
 **\<serhack>** Oh okay  
 **\<ArticMine>** Was opened to get feedback  
-**\<rehrar>** Kovri doesn't have to have the same license as Monero, right?  
+**\<rehrar>** Kovri doesn't have to have the same license as ByteRub, right?  
 **\<anonimal>** ArticMine: I took a quick look at that earlier this week, will look again now.  
 **\<i2p-relay> {-fluffypony}** rehrar not necessarily, but might be better if we did  
 **\<moneromooo>** kovri's library part will be used by monero at some point.  
@@ -150,7 +150,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** I would give it at least two weeks  
 **\<ArticMine>** Once we see discussion / comments  
 **\<rehrar>** K. Going to be crossing soon, so I'm out for now. Cya all Kovri Peeps.  
-**\<ArticMine>** It was promoted by a Monero dependency going to a copyleft  
+**\<ArticMine>** It was promoted by a ByteRub dependency going to a copyleft  
 **\<anonimal>** Ok  
 **\<anonimal>** 7. Confirm next meeting date/time  
 **\<anonimal>** Same time, two weeks from now?  

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Kovri Dev Meeting Held on 2017-03-26
-summary: Brief review of what has been completed since last meeting, Monero HackerOne Bounty, and code & open tickets discussion
+summary: Brief review of what has been completed since last meeting, ByteRub HackerOne Bounty, and code & open tickets discussion
 tags: [dev diaries, i2p, crypto]
 author: dEBRUYNE / fluffypony
 ---
@@ -11,7 +11,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<i2p-relay> {-vtnerd}** oh I guess there is one more thing. the backend was going to hopefully push updates to connected clients  
-**\<anonimal>** 3. Monero HackerOne Bounty https://www.reddit.com/r/Monero/comments/5zmywx/monero_bounty_for_hackerone/  
+**\<anonimal>** 3. ByteRub HackerOne Bounty https://www.reddit.com/r/ByteRub/comments/5zmywx/monero_bounty_for_hackerone/  
 **\<i2p-relay> {-fluffypony}** ok anonimal, all yours  
 **\<anonimal>** 3. Code + ticket discussion / Q & A  
 **\<anonimal>** 4. Any additional meeting items  
@@ -48,13 +48,13 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** What should be easy? None of that looks easy...  
 **\<anonimal>** Anyway, we'll save that for later. Anything else on point 2.?  
 **\<guzzi>** Relatively easy from db perspective. Difficult from kovri perspective yes  
-**\<anonimal>** 3. Monero HackerOne Bounty https://www.reddit.com/r/Monero/comments/5zmywx/monero_bounty_for_hackerone/  
+**\<anonimal>** 3. ByteRub HackerOne Bounty https://www.reddit.com/r/ByteRub/comments/5zmywx/monero_bounty_for_hackerone/  
 **\<anonimal>** fluffypony: ^ thoughts?  
 **\<i2p-relay> {-fluffypony}** so my thoughts is that we should just do a general fund across all the projects  
 **\<i2p-relay> {-fluffypony}** because HackerOne let's us basically apportion stuff as needed  
 **\<i2p-relay> {-fluffypony}** so we don't have to give out the entire bounty for some stupid XSS attack  
-**\<anonimal>** Ok. I'll have to talk with them about setting up Monero. Do we include the GUI into /monero or create /monero-gui? We can probably wrap it into /monero if needed. Do we create /monero-site ?  
-**\<i2p-relay> {-fluffypony}** anonimal: everything goes under the Monero umbrella / bounty, right?  
+**\<anonimal>** Ok. I'll have to talk with them about setting up ByteRub. Do we include the GUI into /monero or create /monero-gui? We can probably wrap it into /monero if needed. Do we create /monero-site ?  
+**\<i2p-relay> {-fluffypony}** anonimal: everything goes under the ByteRub umbrella / bounty, right?  
 **\<i2p-relay> {-fluffypony}** just that each actual sub project can be represented  
 **\<anonimal>** I'm speaking purely about H1 accounts.  
 **\<anonimal>** We do whatever we want with fund management.  
@@ -66,7 +66,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** In other words, it's not very decentralized in terms of who controls accounts.  
 **\<i2p-relay> {-fluffypony}** anonimal: doesn't really matter if it's compromised, because there's no money there?  
 **\<anonimal>** fluffypony: it's about access to reports. If we don't care about who has access to reports, then there's not much reason to use HackerOne  
-**\<i2p-relay> {-fluffypony}** mooneroo: for the monero-project GitHub account the core team all have the password, because there's no easy way to share that control otherwise - could we not do the same for H1?  
+**\<i2p-relay> {-fluffypony}** mooneroo: for the byterubpay GitHub account the core team all have the password, because there's no easy way to share that control otherwise - could we not do the same for H1?  
 **\<anonimal>** I mean, there are features/benefits, but access to vulnerabilities is a big issue.  
 **\<i2p-relay> {-fluffypony}** amongst maintainers I mean  
 **\<anonimal>** pinging mooneroo or moneromooo?  
@@ -75,7 +75,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** whoops  
 **\<i2p-relay> {-fluffypony}** I meant anonimal  
 **\<i2p-relay> {-fluffypony}** sorry ignore typo  
-**\<i2p-relay> {-fluffypony}** anonimal: for the monero-project GitHub account the core team all have the password, because there's no easy way to share that control otherwise - could we not do the same for H1?  
+**\<i2p-relay> {-fluffypony}** anonimal: for the byterubpay GitHub account the core team all have the password, because there's no easy way to share that control otherwise - could we not do the same for H1?  
 **\<i2p-relay> {-fluffypony}** moneromooo: would be among maintainers  
 **\<i2p-relay> {-fluffypony}** lol  
 **\<i2p-relay> {-fluffypony}** the core team have passwords for stuff like this as a fallback  
@@ -158,7 +158,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 4. Code + ticket discussion / Q & A  
 **\<anonimal>** Damn, well, I could easily spend 20-30 minutes on this point because we haven't had a meeting in so long.  
 **\* anonimal** grabs link instead  
-**\<anonimal>** Ok, here we are https://github.com/monero-project/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha  
+**\<anonimal>** Ok, here we are https://github.com/byterubpay/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha  
 **\<moroccanmalinois>** A little question about the reload : what is supposed to happen if no param changed ?  
 **\<anonimal>** #187 isn't as obvious as I had hoped. I'll have to approach it differently, from the basics, and start by actually getting some unit-tests for ntcp.  
 **\<moroccanmalinois>** if the user didn't specified a port, should it get a new random one ?  

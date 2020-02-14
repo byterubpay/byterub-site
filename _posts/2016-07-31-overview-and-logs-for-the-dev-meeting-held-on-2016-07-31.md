@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2016-07-31
-summary: Monero Project repository, and brief update on Ring CT
+summary: ByteRub Project repository, and brief update on Ring CT
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
@@ -17,7 +17,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** I was wondering the same thing  
 **\<i2p-relay> {-anonimal}** Kovri meeting at 17:00. I thought we were meeting at 16:00.  
 **\<i2p-relay> {-anonimal}** fluffypony: ^  
-**\<ArticMine>** For Monero  
+**\<ArticMine>** For ByteRub  
 **\<i2p-relay> {-anonimal}** Yes  
 **\<i2p-relay> {-anonimal}** * disappointed  
 **\<luigi1112>** Maybe he died  
@@ -55,7 +55,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** ArcticMine will you comment in issue or I can copy/paste?  
 **\<ArticMine>** You can copy past, I may comment.  
 **\<ArticMine>** copy/paste  
-**\<i2p-relay> {-anonimal}** K, done. I also like monero-project/organization.  
+**\<i2p-relay> {-anonimal}** K, done. I also like byterubpay/organization.  
 **\<ArticMine>** That is also good  
 **\<i2p-relay> {-anonimal}** Kovri end-user documentation proposal is in open tasks  
 **\<ArticMine>** Actually better than my original idea  
@@ -63,9 +63,9 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** The problem with the forum is that its somewhat obscure and I don't get emailed notifications.  
 **\<i2p-relay> {-anonimal}** So obscurity = less funding. No notifications = more babysitting.  
 **\<i2p-relay> {-anonimal}** An org repo can help with things like this, imho.  
-**\<redfish>** maybe monero-project/org  
+**\<redfish>** maybe byterubpay/org  
 **\<ArticMine>** org can be confused with .org Just a thought  
-**\<i2p-relay> {-anonimal}** Agreed. How about https://github.com/monero-project/community  
+**\<i2p-relay> {-anonimal}** Agreed. How about https://github.com/byterubpay/community  
 **\<i2p-relay> {-anonimal}** Or is that too vague?  
 **\<ArticMine>** I thing community is too broad.  
 **\<i2p-relay> {-anonimal}** Kovri meeting in 3 minutes.  

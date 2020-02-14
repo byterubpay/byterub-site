@@ -51,7 +51,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Link? What kind of assistance? I'd be happy to help.  
 **\<meeting-bot> [fluffypony]** I'll have to find it and send it to you post-meeting  
 **\<meeting-bot> [anonimal]** Ok. Anything else on 2.?  
-**\<meeting-bot> [fluffypony]** oh found it, nevermind: https://www.reddit.com/r/Monero/comments/4qywbx/what_are_moneros_pain_points_marketing_design/d4x34p3  
+**\<meeting-bot> [fluffypony]** oh found it, nevermind: https://www.reddit.com/r/ByteRub/comments/4qywbx/what_are_moneros_pain_points_marketing_design/d4x34p3  
 **\<meeting-bot> [fluffypony]** nein  
 **\<meeting-bot> [anonimal]** fluffypony: Thanks, I'll look into it later.  
 **\<meeting-bot> [anonimal]** Moving on,  
@@ -157,7 +157,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** but at least it's there and we can encourage it  
 **\<meeting-bot> [EinMByte]** ^  
 **\<meeting-bot> [anonimal]** Ok, good point on the encouragement.  
-**\<meeting-bot> [fluffypony]** hey - we managed to get most Monero contributors to GPG sign commits, so it is doable :)  
+**\<meeting-bot> [fluffypony]** hey - we managed to get most ByteRub contributors to GPG sign commits, so it is doable :)  
 **\<meeting-bot> [anonimal]** Great, done.  
 **\<meeting-bot> [anonimal]** While we're on 4., this is off-the-cuff,  
 **\<meeting-bot> [anonimal]** but bitmonero is working with only 1 branch now.  

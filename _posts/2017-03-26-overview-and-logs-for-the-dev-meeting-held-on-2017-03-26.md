@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-03-26).  
+An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-03-26).  
 
 ### Logs  
 
@@ -49,7 +49,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** and fireice-uk updated the funding costs based on current pricing  
 **\<fluffypony>** obviously there are some consensus-critical aspects to it, so I think it's worth discussing  
 **\<moneromooo>** Wasn't this a wallet thing ?  
-**\<btcltcxmrmaximal>** https://github.com/monero-project/monero/issues/1828  
+**\<btcltcxmrmaximal>** https://github.com/byterubpay/monero/issues/1828  
 **\<xmreric>** Yes. Speedup on Intel/AMD processors, which is helpful considering RingCT has slowed sync down.  
 **\<fireice-uk>** it is a wallet thing (unless you want to use it somewhere else)  
 **\<hyc>** ringCT has slowed wallet sync?  
@@ -200,7 +200,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<samsunggalaxyplayer>** That's what I proposed #602 for  
 **\<samsunggalaxyplayer>** People who do not want to run a full node  
 **\<pero>** i had a kind of mostly trustless idea for this  
-**\<fluffypony>** people that don't want to run a full node at all have to then use something like the MyMonero apps using the MyMonero backend instead of their own  
+**\<fluffypony>** people that don't want to run a full node at all have to then use something like the MyByteRub apps using the MyByteRub backend instead of their own  
 **\<fluffypony>** or Exodus or Coinomi or whatever else exists  
 **\<pero>** that would poll multiple nodes for the same outputs and verify them  
 **\<pero>** and store those locally  
@@ -230,13 +230,13 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<gingeropolous>** it will be synchronizing its own copy of the blockchain  
 **\<fluffypony>** @xmreric that's the most likely outcome  
 **\<hyc>** that is trickier  
-**\<fluffypony>** people *are* going to use MyMonero / Exodus / Coinomi even if we have a magical remote node model that doesn't vampire the network  
+**\<fluffypony>** people *are* going to use MyByteRub / Exodus / Coinomi even if we have a magical remote node model that doesn't vampire the network  
 **\<guzzi>** It could even hold part of the chain and randomly ask for missing parts  
 **\<hyc>** block data sync'd this way will need to be stored differently than from regular syncing  
 **\<pigeons>** peopl are going to use worse options than those even  
 **\<fluffypony>** hyc: agreed  
 **\<fluffypony>** pigeons: store on an exchange :-P  
-**\<samsunggalaxyplayer>** I like the pre-sync as well. But until we have MyMonero/Edodus/Coinomi, people will use a remote node in an inefficient way  
+**\<samsunggalaxyplayer>** I like the pre-sync as well. But until we have MyByteRub/Edodus/Coinomi, people will use a remote node in an inefficient way  
 **\<fluffypony>** @samsunggalaxyplayer then let's not make it easier by having a drop-down  
 **\<gingeropolous>** ^  
 **\<Jaquee>** why not make it easy while waiting for a better solution?  
@@ -259,12 +259,12 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<samsunggalaxyplayer>** Summary: for smart syncing with fluffy's "pre-sync" approach, against anything that makes using a remote node easier  
 **\<guzzi>** For ppl who want to use a phone could it never sync?  
 **\<cryptocomicon>** sounds like we need a monero node appliance, like the wifi router that everyone has in their house / flat  
-**\<samsunggalaxyplayer>** I agree #602 is a short-term solution. I think it's better than telling people to go to MoneroWorld to get a random node, but if we have a better solution going forward, that's preferable  
+**\<samsunggalaxyplayer>** I agree #602 is a short-term solution. I think it's better than telling people to go to ByteRubWorld to get a random node, but if we have a better solution going forward, that's preferable  
 **\<johnalan>** Good idea  
 **\<hyc>** yes but wifi routers tend to be 32bit  
 **\<jacobjeweler>** Thats why i think installer for windows and adding .deb to apt repositories will have it so people can be guided through an install and proper installation can be verified  
 **\<guzzi>** And always use a random?  
-**\<fluffypony>** guzzi: phone would be MyMonero + your own node / MyMonero backend OR Exodus OR Coinomi  
+**\<fluffypony>** guzzi: phone would be MyByteRub + your own node / MyByteRub backend OR Exodus OR Coinomi  
 **\<gingeropolous>** and they're not cheap  
 **\<guzzi>** Ok thanks  
 **\<jacobjeweler>** Adoption rate will increase full node usage  

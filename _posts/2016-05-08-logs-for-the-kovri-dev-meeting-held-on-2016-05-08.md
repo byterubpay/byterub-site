@@ -43,7 +43,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 1.54 should work though  
 **\* anonimal** triple checks  
 **\<fluffypony>** I can't use 1.54  
-**\<fluffypony>** incompatible with Monero  
+**\<fluffypony>** incompatible with ByteRub  
 **\<psi>** monero needs .56 or higher ?  
 **\<fluffypony>** .55 or higher  
 **\<psi>** kk  
@@ -60,7 +60,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** don't stress, ours are always by the seat of our pants  
 **\* anonimal** opening tickets  
 **\<anonimal>** Hmf, I need to work with the bsd a bit more before posting.  
-**\<anonimal>** Anyway, https://github.com/monero-project/kovri/issues/175  
+**\<anonimal>** Anyway, https://github.com/byterubpay/kovri/issues/175  
 **\<anonimal>** I'm only sitting with this again since I left off < 24 hours or so ago so,  
 **\<anonimal>** I haven't drawn any conclusions yet.  
 **\<anonimal>** Has anyone seen this before? #monero-dev?  

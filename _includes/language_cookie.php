@@ -6,7 +6,7 @@ $lang = "en"; // fallback to English
 // match on a language we don't know about anyway.
 if (substr(realpath(dirname(__FILE__)), -3, 1) == "/")
 	$lang = substr(realpath(dirname(__FILE__)), -2);
-// apply to all Monero subdomains, expire in a month
+// apply to all ByteRub subdomains, expire in a month
 //setcookie("MONERO_LANG", $lang, time()+2592000, "/", ".getmonero.org");
 setcookie("MONERO_LANG", $lang, time()+2592000, "/");
 ?>

@@ -33,7 +33,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** - New contributor dadude (welcome, dadude)  
 **\<i2p-relay> {-anonimal}** One more note:  
 **\<i2p-relay> {-anonimal}** My full-time funding proposal was fully funded in a record ~2-3 days https://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread  
-**\<i2p-relay> {-anonimal}** Absolutely unbelievable and I'm so thankful and proud to be a part of this community. The latest reddit thread I think is here https://www.reddit.com/r/Monero/comments/579t3a/kovri_dev_funded_congrats_everyone/  
+**\<i2p-relay> {-anonimal}** Absolutely unbelievable and I'm so thankful and proud to be a part of this community. The latest reddit thread I think is here https://www.reddit.com/r/ByteRub/comments/579t3a/kovri_dev_funded_congrats_everyone/  
 **\<i2p-relay> {-anonimal}** Huge note: this doesn't mean we don't need more contributors, so please let's continue to get the word out there about kovri and get more people on board so we can grow stronger.  
 **\<i2p-relay> {-anonimal}** Anything else on 2.?  
 **\<_Slack>** Action: anonimal sees dadude typing  
@@ -51,10 +51,10 @@ author: dEBRUYNE / fluffypony
 **\<sdgsdug9sd>** whats the expected date for release of i2p?  
 **\<i2p-relay> {-anonimal}** sdgsdug9sd: checkout our roadmap  
 **\<sdgsdug9sd>** link?  
-**\<i2p-relay> {-anonimal}** github.com/monero-project/kovri/wiki \<--something like that, whatever wiki url is  
+**\<i2p-relay> {-anonimal}** github.com/byterubpay/kovri/wiki \<--something like that, whatever wiki url is  
 **\<i2p-relay> {-anonimal}** We set a date of nov. 1st for first pre-alpha release. I'd rather push the date to the 0.1.1 release and move 0.1.1 to next year.  
-**\<_Slack> {dadude}** https://github.com/monero-project/kovri/wiki/Roadmap  
-**\<ArticMine>** https://github.com/monero-project/kovri/wiki/Roadmap  
+**\<_Slack> {dadude}** https://github.com/byterubpay/kovri/wiki/Roadmap  
+**\<ArticMine>** https://github.com/byterubpay/kovri/wiki/Roadmap  
 **\<i2p-relay> {-anonimal}** (like I said, barely any codebase work in 2 weeks)  
 **\<i2p-relay> {-anonimal}** Ok, let's move to 3. and we can add other items/open questions to 6.  
 **\<i2p-relay> {-anonimal}** 3. libclient API discussion (#351)  
@@ -102,7 +102,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** moneromooo: ok, scenario question: what if we *can* get a reliable connection but syncing has to wait for it but will be notified "try again in X minutes". Will that break monero?  
 **\<i2p-relay> {-EinMByte}** with streaming it doesn't really matter  
 **\<i2p-relay> {-EinMByte}** datagrams are limited in size, though  
-**\<ArticMine>** but does this set a limit on the blocksize in Monero?  
+**\<ArticMine>** but does this set a limit on the blocksize in ByteRub?  
 **\<moneromooo>** I think that, for now, that connection will be dropped, and another attempted. But that doesn't seem too hard to change.  
 **\<moneromooo>** ArticMine: no, the 200 is the number of blocks. Though if one block is 100 MB in the future... I guess it needs to be downloaded without interruption.  
 **\<i2p-relay> {-EinMByte}** dropping and re-attempting sounds like a good strategy  

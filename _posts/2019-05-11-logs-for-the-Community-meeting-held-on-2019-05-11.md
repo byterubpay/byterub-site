@@ -13,7 +13,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<serhack>** Hi :)  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/343  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/343  
 **\<midipoet>** hey hey  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. The calendar functionality will unfortunately be shut down soon, so I’m working on another calendar option.  
 **\<sgp\_>** 1. Greetings  
@@ -36,10 +36,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** xiphon part time coding (3 months) (74.18/111 XMR): https://ccs.getmonero.org/proposals/xiphon-part-time.html  
 **\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup – March (51.50/144 XMR): https://ccs.getmonero.org/proposals/ErCiccione-localizations.html  
 **\<sgp\_>** CCS Proposals in ideas that were previously discussed:  
-**\<sgp\_>** Monero currency and blockchain statistics hub (20 XMR): https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/58  
+**\<sgp\_>** Monero currency and blockchain statistics hub (20 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/58  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** BtcPayServer Monero Integration (180 XMR): https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/63  
-**\<sgp\_>** Funding To Produce, Write And Record An Entirely Original Rap/Hip-Hop Anthem Exclusively For Monero (18 XMR): https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/65  
+**\<sgp\_>** BtcPayServer Monero Integration (180 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/63  
+**\<sgp\_>** Funding To Produce, Write And Record An Entirely Original Rap/Hip-Hop Anthem Exclusively For Monero (18 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/65  
 **\<sgp\_>** Let's start with the BtcPay one  
 **\<sgp\_>** Any comments?  
 **\<el00ruobuob>** I like the idea, but has the guy ever contribute?  
@@ -80,7 +80,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Any other comments on any of these proposals?  
 **\<ErCiccione>** just a note about the "statistics hub proposal"  
 **\<sgp\_>** go ahead  
-**\<el00ruobuob>** There is also a gingeropolous fiber proposal: https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/62/diffs  
+**\<el00ruobuob>** There is also a gingeropolous fiber proposal: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/62/diffs  
 **\<ErCiccione>** the guy answered to some criticism rised about his proposal on gitlab, i suggested to come talk about it in a community meeting or just to come here and discuss during a random day  
 **\<ErCiccione>** I hope he will come because he seems to be genuine about the proposal  
 **\<sgp\_>** thanks for pointing them here  

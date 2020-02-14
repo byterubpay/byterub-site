@@ -12,7 +12,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Community workgroup meeting time  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/337  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/337  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** hi guiz  
@@ -48,8 +48,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** xiphon: made a fix, and it'll be live soon  
 **\<sgp\_>** oh, I see  
 **\<sgp\_>** interesting background  
-**\<ErCiccione>** this is the related issue: https://repo.getmonero.org/monero-project/ccs-proposals/issues/4  
-**\<sgp\_>** Korean Translations GUI & CLI https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/56  
+**\<ErCiccione>** this is the related issue: https://repo.getmonero.org/byterubpay/ccs-proposals/issues/4  
+**\<sgp\_>** Korean Translations GUI & CLI https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/56  
 **\<Xeagu\_\_>** Yeah waiting on approval still  
 **\<sgp\_>** after much discussion, it seems most people are not comfortable working through an intermediary to fund someone the community has never spoken to before  
 **\<Xeagu\_\_>** sgp\_: the core team has not reached consensus yet  
@@ -89,7 +89,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<Xeagu\_\_>** Whoever demands that I do my work "their" way even if my work sufficiently meets the needs of the project goals.  
 **\<rehrar>** yes, let's move on  
 **\<rehrar>** I'm quickly losing patience  
-**\<sgp\_>** Monero currency and blockchain statistics hub https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/58  
+**\<sgp\_>** Monero currency and blockchain statistics hub https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/58  
 **\<Xeagu\_\_>** We can attach these logs to the proposal comments  
 **\<ErCiccione>** Xeagu\_\_ get a job and some dignity, we have work to do.  
 **\<sgp\_>** this other proposal is not very detailed, but I appreciate the user taking the effort to create something of interest  
@@ -215,7 +215,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<Xeagu\_\_>** A change to the GUI wallet is off topic in discussion about GUI changes?  
 **\<selsta>** We are still trying to get Qt 5.9 running.  
 **\<selsta>** Other than that, this release is going to be awesome.  
-**\<el00ruobuob\_[m]>** GUI meeting logs are here for those who are interested: https://repo.getmonero.org/monero-project/monero-site/blob/bc2d7e6691bb47e6e3fc09f25ffa7fba67360035/\_posts/2019-04-23-logs-for-the-GUI-meeting-held-on-2019-04-23.md  
+**\<el00ruobuob\_[m]>** GUI meeting logs are here for those who are interested: https://repo.getmonero.org/byterubpay/monero-site/blob/bc2d7e6691bb47e6e3fc09f25ffa7fba67360035/\_posts/2019-04-23-logs-for-the-GUI-meeting-held-on-2019-04-23.md  
 **\<sgp\_>** That's not specific the GUI, it uses the same code as the CLI Xeagu\_\_  
 **\<sgp\_>** ty el00ruobuob\_[m]  
 **\<el00ruobuob\_[m]>** yw  

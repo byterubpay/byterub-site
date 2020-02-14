@@ -120,12 +120,12 @@ author: el00ruobuob / rehrar
 **\<selsta>** yes  
 **\<rehrar>** yeah, I'd just like to hear a mini-report if someone wanted to give it  
 **\<rehrar>** it can get into the meeting logs and normies can review them alter for funsies  
-**\<selsta>** https://github.com/monero-project/monero-gui/releases/tag/v0.14.0.0  
+**\<selsta>** https://github.com/byterubpay/monero-gui/releases/tag/v0.14.0.0  
 **\<ErCiccione[m]>** most important thing is that looks and feels great  
 **\<ErCiccione[m]>** the new wizards and mode are great  
 **\<rehrar>** ok, great  
 **\<ErCiccione[m]>** you can get the binaries from buildbot in my last PR, which was the last one with all the translations  
-**\<ErCiccione[m]>** https://github.com/monero-project/monero-gui/pull/1991  
+**\<ErCiccione[m]>** https://github.com/byterubpay/monero-gui/pull/1991  
 **\<rbrunner>** Nice  
 **\<rehrar>** Was there any other comments about the lead up to this fork at all? GUI? CLI? Testing? Other?  
 **\<selsta>** sorry, I’m kinda busy. Basically what ErCiccione[m] said. Release notes that I posted above are a good overview of what’s new.  

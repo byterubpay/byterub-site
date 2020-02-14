@@ -77,12 +77,12 @@ author: el00ruobuob / rehrar
 **\<moneromooo>** Did any exchange/merchant switch from long payment ids since... half a year ago, say ?  
 **\<dEBRUYNE>** I think some smaller ones did, but the big ones (Bittrex, Bitfinex, Binance) did not  
 **\<dEBRUYNE>** rehrar: sure  
-**\<dEBRUYNE>** smooth: https://github.com/monero-project/meta/issues/356#issuecomment-500187077 & https://github.com/monero-project/meta/issues/356#issuecomment-501168062  
-**\<dEBRUYNE>** binaryFate: https://github.com/monero-project/meta/issues/356#issuecomment-499968785  
+**\<dEBRUYNE>** smooth: https://github.com/byterubpay/meta/issues/356#issuecomment-500187077 & https://github.com/byterubpay/meta/issues/356#issuecomment-501168062  
+**\<dEBRUYNE>** binaryFate: https://github.com/byterubpay/meta/issues/356#issuecomment-499968785  
 **\<rehrar>** at the end of the thread in particular, ArticMine brings up his revised opinion about potentially looking at removing tx\_extra  
-**\<dEBRUYNE>** ArticMine: https://github.com/monero-project/meta/issues/356#issuecomment-501347185  
+**\<dEBRUYNE>** ArticMine: https://github.com/byterubpay/meta/issues/356#issuecomment-501347185  
 **\<ErCiccione[m]>** some big ones like kraken already use subadresses moneromooo, iirc  somebody as a list of the status of some exhanges and services  
-**\<dEBRUYNE>** https://github.com/monero-project/meta/issues/356#issuecomment-499936642 & https://github.com/monero-project/meta/issues/356#issuecomment-499948904  
+**\<dEBRUYNE>** https://github.com/byterubpay/meta/issues/356#issuecomment-499936642 & https://github.com/byterubpay/meta/issues/356#issuecomment-499948904  
 **\<rbrunner>** Yeah, but it would be interesting to see whether somebody \*switched\*  
 **\<ErCiccione[m]>** maybe sgp\_?  
 **\<dEBRUYNE>** rehrar: As far as I can see, people don't like temporary banning payment IDs by parsing tx\_extra  

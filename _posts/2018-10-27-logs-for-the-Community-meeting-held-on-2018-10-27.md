@@ -10,7 +10,7 @@ author: el00ruobuob / rehrar
 
 **\<rehrar>** 0. Introduction  
 **\<rehrar>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<rehrar>** ink to agenda on GitHub: https://github.com/monero-project/meta/issues/286  
+**\<rehrar>** ink to agenda on GitHub: https://github.com/byterubpay/meta/issues/286  
 **\<rehrar>** \*Link  
 **\<rehrar>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar:  
 **<rehrar>** https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  

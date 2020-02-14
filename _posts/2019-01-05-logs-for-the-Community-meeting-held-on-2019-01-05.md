@@ -10,7 +10,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/297  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/297  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** ye  
@@ -241,7 +241,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Anonimal posted an update here: https://paste.debian.net/plain/1058561  
 **\<sgp\_>** I wrote a comment regarding the issue, which anonimal responded to here: https://www.reddit.com/r/Monero/comments/acgr0q/anominal\_statement\_on\_secreta\_and\_kovri/edan760/?context=10000  
 **\<monerobux>** [REDDIT] Anominal statement on Secreta and Kovri (https://paste.debian.net/plain/1058561) to r/Monero | 81 points (92.0%) | 78 comments | Posted by qertoip | Created at 2019-01-04 - 09:58:59  
-**\<sgp\_>** anonimal added a few more comments in the GitHub issue for this meeting: https://github.com/monero-project/meta/issues/297  
+**\<sgp\_>** anonimal added a few more comments in the GitHub issue for this meeting: https://github.com/byterubpay/meta/issues/297  
 **\<sgp\_>** To get a quick preface out of the way before discussion, the Community Workgroup discusses relevant items of community interest. Anonimal’s recent update is of important community interest. Furthermore, his recent FFS update, wherein he is asking the community to pay for his work on Sekreta, certainly is of community interest. We have historically discussed all FFS proposals and important payouts here.  
 **\<sgp\_>** While we ask for others to be present at these meetings if they are available, they are not required to show up, and we can have discussions in the meantime in their absence. They are welcome to discuss and share their point of view through other means, which it seems like they already have. I feel that we absolutely should discuss an important recent community development here.  
 **\<sgp\_>** We have a few Kovri contributors here, including oneiric\_ and Sean.  

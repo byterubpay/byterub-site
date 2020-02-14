@@ -291,7 +291,7 @@ author: el00ruobuob / rehrar
 **\<needmonero90>** Is Gui considered core?  
 **\<needmonero90>** Or is it it's own thing  
 **\<hyc>** dEBRUYNE: now that randomx has quieted down I'll get to rebasing that gitian PR of mine  
-**\<ErCiccione[m]>** needmonero90:  that's actually a good question. See https://github.com/monero-project/meta/issues/384  
+**\<ErCiccione[m]>** needmonero90:  that's actually a good question. See https://github.com/byterubpay/meta/issues/384  
 **\<selsta>** Please no renaming discussion.  
 **\<selsta>** The github issue is a better place for that.  
 **\<rehrar>** alright everyone, we'll officially break for today  

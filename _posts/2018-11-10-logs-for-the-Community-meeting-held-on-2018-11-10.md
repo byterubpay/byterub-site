@@ -12,7 +12,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sarang>** hi  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/288  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/288  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** yo yo  
@@ -315,7 +315,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** Okay yes, we're finishing a fifth generation wallet after migrating from STM32 to CEC1702 (the CEC is a true secure MCU with immutable boot at on chip Ed25519.)  
 **\<BlackLotus64>** Wow nice  
 **\<msvb-mob>** I'm sending the order out for board prototypes of this generation in a few days probably, and the most recent design files are online:  
-**\<msvb-mob>** https://github.com/monero-project/kastelo/tree/master/hardware/breakneck/  
+**\<msvb-mob>** https://github.com/byterubpay/kastelo/tree/master/hardware/breakneck/  
 **\<msvb-mob>** Along with this, we may produce a 35C3 badge so that is a second board order.  
 **\<msvb-mob>** Other tools are not worth mentioning.  
 **\<msvb-mob>** That's all.  

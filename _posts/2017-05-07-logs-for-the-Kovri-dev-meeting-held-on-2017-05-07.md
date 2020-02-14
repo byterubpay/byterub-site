@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Kovri Dev Meeting Held on 2017-05-07
-summary: Brief review of what has been completed since last meeting, Monero HackerOne Bounty, 96boards OpenHours showcase, website discussion, and code & open tickets discussion
+summary: Brief review of what has been completed since last meeting, ByteRub HackerOne Bounty, 96boards OpenHours showcase, website discussion, and code & open tickets discussion
 tags: [dev diaries, i2p, crypto]
 author: dEBRUYNE / fluffypony
 ---
@@ -10,9 +10,9 @@ author: dEBRUYNE / fluffypony
 
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46) (@fluffypony @danrmiller location status)  
-**\<anonimal>** 4. Status (again) of [Monero HackerOne umbrella and bounty](https://github.com/monero-project/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
-**\<anonimal>** 5. Open forum for https://github.com/monero-project/kovri/issues/630  
+**\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46) (@fluffypony @danrmiller location status)  
+**\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
+**\<anonimal>** 5. Open forum for https://github.com/byterubpay/kovri/issues/630  
 **\<anonimal>** 6. Website status (@rehrar @bigreddmachine @alvinjoelsantos @danrmiller)  
 **\<anonimal>** 7. @EinMByte ...where is he? Github repo privilege discussion  
 **\<anonimal>** 8. Code + ticket discussion / Q & A  
@@ -47,7 +47,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Yes, please.  
 **\<anonimal>** Ok, anything else on 2.?  
 **\<i2p-relay> {-fluffypony}** no  
-**\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46) (@fluffypony @danrmiller location status)  
+**\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46) (@fluffypony @danrmiller location status)  
 **\<anonimal>** Is pigeons still in Africa? This point was moved from last meeting.  
 **\<i2p-relay> {-pigeons}** i returned yesterday  
 **\<moneromooo>** Are you suggesting pigeons migrate ?  
@@ -80,7 +80,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** oh lol  
 **\<i2p-relay> {-fluffypony}** pa@spagni.net  
 **\<anonimal>** Alright, anything else on this point before moving on?  
-**\<anonimal>** 4. Status (again) of [Monero HackerOne umbrella and bounty](https://github.com/monero-project/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
+**\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
 **\<anonimal>** I've sent a VRP to monero, it's been merged. I believe we're funded at ~500 XMR, which is great.  
 **\<anonimal>** Any questions?  
 **\<anonimal>** We just need to launch after submitting VRP to the GUI (and site?)  
@@ -96,7 +96,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** agreed  
 **\<i2p-relay> {-fluffypony}** we can continue to increase it as necessary  
 **\<anonimal>** Ok. Moving on,  
-**\<anonimal>** 5. Open forum for https://github.com/monero-project/kovri/issues/630  
+**\<anonimal>** 5. Open forum for https://github.com/byterubpay/kovri/issues/630  
 **\<anonimal>** Comments needed before we move on this.  
 **\<i2p-relay> {-fluffypony}** I agree with MoroccanMalinois, but I think it's manageable if we set a severity  
 **\<i2p-relay> {-fluffypony}** and some caveats  

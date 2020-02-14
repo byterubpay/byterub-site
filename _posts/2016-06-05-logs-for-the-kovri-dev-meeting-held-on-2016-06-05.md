@@ -10,9 +10,9 @@ author: dEBRUYNE / fluffypony
 
 **\<fluffypony>** ok so I think let's move on to Kovri - anonimal, the floor is yours  
 **\<meeting-bot> [anonimal]** Thanks fluffypony, I need about 30-60 seconds.  
-**\<fluffypony>** ok whilst you're doing that, there are two committers to the Monero StackExchange proposal that are just shy of 200+ rep on the Bitcoin StackExchange  
+**\<fluffypony>** ok whilst you're doing that, there are two committers to the ByteRub StackExchange proposal that are just shy of 200+ rep on the Bitcoin StackExchange  
 **\<fluffypony>** so they need some upvotes if you have rep on the BTC StackExchange  
-**\<meeting-bot> [anonimal]** https://github.com/monero-project/kovri/issues/179  
+**\<meeting-bot> [anonimal]** https://github.com/byterubpay/kovri/issues/179  
 **\<meeting-bot> [anonimal]** 17:00 (UTC)  
 **\<fluffypony>** http://bitcoin.stackexchange.com/users/35760/dontmindme  
 **\<meeting-bot> [anonimal]** 1. Follow up on I2P StackExchange  
@@ -29,7 +29,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** 34/100 committers with 200+ offsite rep  
 **\<fluffypony>** but considering the small number of total committers (78/100) that's pretty impressive  
 **\<moneromooo>** I will have 200 tomorrow, probably. 1% more.  
-**\<fluffypony>** I would like to encourage anyone that has committed to the i2p and Monero proposals to please try drum up 200+ rep on one of the other Stacks by asking and answering questions  
+**\<fluffypony>** I would like to encourage anyone that has committed to the i2p and ByteRub proposals to please try drum up 200+ rep on one of the other Stacks by asking and answering questions  
 **\<meeting-bot> [anonimal]** Good, I was about to ask what else we could do.  
 **\<meeting-bot> [anonimal]** I'll start banging.  
 **\<fluffypony>** it's REALLY easy to get that much rep, the fastest way I've found is answering questions  
@@ -52,7 +52,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** nothing from my side  
 **\<meeting-bot> [anonimal]** 2. fluffypony, last meeting we talked about website content,  
 **\<meeting-bot> [anonimal]** I sent a draft. Status?  
-**\<fluffypony>** I have a content dump from anonimal - I've started with a page to the Monero site, and hope to have it PR'd by next weekend  
+**\<fluffypony>** I have a content dump from anonimal - I've started with a page to the ByteRub site, and hope to have it PR'd by next weekend  
 **\<fluffypony>** I go to Berlin on Tue and then back to Amsterdam on Wed, and then back to Johannesburg on Thur, so there will be plenty of bored-in-the-plane opportunities to work on it  
 **\<meeting-bot> [anonimal]** Ok, I hope to get a chance to review anything because what I sent really was a 'dump' ;)  
 **\<fluffypony>** oh yeah definitely, plus you can always PR changes to the site, we merge everything there :-P  
@@ -81,14 +81,14 @@ author: dEBRUYNE / fluffypony
 **\<nobbynoob>** so no coding or stuff, but posting content about xmr, its development etc?  
 **\<xmrpromotions>** here is the example someone gave me: https://quitter.se/social details here: https://gnu.io/social/about/  
 **\<meeting-bot> [anonimal]** Can twitter posts be cross-posted?  
-**\<xmrpromotions>** we are talking about Kovri now but yes we could use it for Monero too  
+**\<xmrpromotions>** we are talking about Kovri now but yes we could use it for ByteRub too  
 **\<fluffypony>** maybe not automatically, anonimal, but certainly manually  
 **\<meeting-bot> [anonimal]** "If you build it, they will come".  
 **\<meeting-bot> [anonimal]** Why not baby steps for now: get it up and running, and we'll get on it and start using it?  
 **\<fluffypony>** agreed  
 **\<meeting-bot> [anonimal]** xmrpromotions: ETA on when it can be physically online?  
-**\<fluffypony>** xmrpromotions: shout if you need me to host it on one of the Monero infrastructure servers  
-**\<meeting-bot> * anonimal** side-channels fluffypony for preparations of 3. https://scan.coverity.com/projects/monero-project-kovri?tab=overview  
+**\<fluffypony>** xmrpromotions: shout if you need me to host it on one of the ByteRub infrastructure servers  
+**\<meeting-bot> * anonimal** side-channels fluffypony for preparations of 3. https://scan.coverity.com/projects/byterubpay-kovri?tab=overview  
 **\<xmrpromotions>** I have not made any efforts to do that yet but my impression is pretty quick. All I did since last meeting was read the basic description of it and look at a few examples of how it has been deployed  
 **\<meeting-bot> [anonimal]** Can it be up by next meeting?  
 **\<xmrpromotions>** I think that is realistic.  
@@ -100,7 +100,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Ok moving on to 3.  
 **\<meeting-bot> [anonimal]** "No builds were successfully analyzed yet."  
 **\<meeting-bot> [anonimal]** So, it looks like more Coverity setup issues.  
-**\<xmrpromotions>** thank you. I just dont want to spread myself too thin. The Deep web SE shutting down concerned me. We need to learn from that and ensure I2P and Monero SE metrics are all continually high enough during private beta  
+**\<xmrpromotions>** thank you. I just dont want to spread myself too thin. The Deep web SE shutting down concerned me. We need to learn from that and ensure I2P and ByteRub SE metrics are all continually high enough during private beta  
 **\<fluffypony>** anonimal: argh. it's like they're trying to irritate me.  
 **\<meeting-bot> [anonimal]** xmrpromotions: good point, I will work on my rep.  
 **\<meeting-bot> [anonimal]** fluffypony: seriously, I have no idea why its so problematic.  
@@ -167,7 +167,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> * anonimal** quickly pulls up  
 **\<meeting-bot> [anonimal]** Ok, 4 new tickets opened since last meeting. All by yours truly.  
 **\<meeting-bot> [anonimal]** Joyous #187 and #191.  
-**\<meeting-bot> [anonimal]** Would any of the talented Monero devs be interested in diving into Kovri?  
+**\<meeting-bot> [anonimal]** Would any of the talented ByteRub devs be interested in diving into Kovri?  
 **\<meeting-bot> [anonimal]** I think those two tickets would be a great intro into the project (not being sarcastic).  
 **\<fluffypony>** lol @ 191  
 **\<fluffypony>** "but that is not the real problem"  
@@ -224,7 +224,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** which will be the 19th, by my calendar  
 **\<meeting-bot> [anonimal]** Ok. I was hoping to talk more code but devs seem to be away.  
 **\<meeting-bot> [anonimal]** C++ nerd stuff. Boost enthusiasts.  
-**\<meeting-bot> [anonimal]** alla Monero.  
+**\<meeting-bot> [anonimal]** alla ByteRub.  
 **\<fluffypony>** let's flip it around for next meeting and do that first  
 **\<meeting-bot> [anonimal]** Anyway, next time then or during the week.  
 **\<meeting-bot> [anonimal]** Ok, sounds great.  

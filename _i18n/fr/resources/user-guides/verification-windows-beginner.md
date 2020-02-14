@@ -101,7 +101,7 @@ Cette rubrique couvre le téléchargement de la clef de signature Monero, la vé
 
 ### 2.1. Télécharger la Clef de Signature
 
-Dans un navigateur internet, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires Monero. Faites un clic droit sur la page et choisissez `Enregistrer sous...`.
+Dans un navigateur internet, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires Monero. Faites un clic droit sur la page et choisissez `Enregistrer sous...`.
 
 ![clic droit getkey](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 

@@ -16,7 +16,7 @@ global:
   outdatedMax: This page is outdated. We do not recommend using it. Instead, please see the
   outdatedVersion: English version
   outdatedMin: This page has been updated since the translation. You can use this version, but it may be incomplete.
-  upgrade: To continue using Monero, make sure your software is up-to-date with the November 30th network upgrade.
+  upgrade: To continue using ByteRub, make sure your software is up-to-date with the November 30th network upgrade.
   moreinfo: More info
   lang_tag: "@lang_tag_ar"
 
@@ -99,25 +99,25 @@ hangouts:
   irc_para: مجتمع مونيرو ينتفع بالعديد من قنوان الدردشه IRC كل منها لغرض معين. بعضها للعمل, وبعضها للإلتقاء بالمجتمع, سوف تجد أشهرهم في الأسفل.
   irc_channels:
   - channel: monero
-    description: This channel is used to discuss all things Monero related.
+    description: This channel is used to discuss all things ByteRub related.
   - channel: monero-community
-    description: This channel is for the Monero community to congretate and discuss ideas.
+    description: This channel is for the ByteRub community to congretate and discuss ideas.
   - channel: monero-dev
     description: The many contributors and developers come here to discuss dev-y things.
   - channel: monero-markets
-    description: We use this channel to talk about the price of Monero and other coins.
+    description: We use this channel to talk about the price of ByteRub and other coins.
   - channel: monero-offtopic
-    description: Chatting with other Monero users about things not related to Monero.
+    description: Chatting with other ByteRub users about things not related to ByteRub.
   - channel: monero-otc
-    description: Over the counter Monero. Come here to purchase XMR from your fellow Moneron.
+    description: Over the counter ByteRub. Come here to purchase XMR from your fellow ByteRubn.
   - channel: monero-pools
     description: This is the place for mining questions and discussion.
   - channel: monero-research-lab
     description: Research into financial privacy with cryptocurrency.
   - channel: monero-translations
-    description: Localizing Monero into other languages.
+    description: Localizing ByteRub into other languages.
   - channel: monero-hardware
-    description: Building hardware wallets to keep your Monero safe.
+    description: Building hardware wallets to keep your ByteRub safe.
   - channel: monero-site
     description: Where the development of this website is coordinated
   - channel: kovri
@@ -146,7 +146,7 @@ team:
   thanks: شكر خاص
 
 downloads:
-  intro: On this page you can find and download the latest version available of the Monero software, as well as hardware, light and mobile wallets.
+  intro: On this page you can find and download the latest version available of the ByteRub software, as well as hardware, light and mobile wallets.
   choose: Choose your download
   gui: GUI Wallet
   cli: CLI Wallet
@@ -157,9 +157,9 @@ downloads:
   hardware: Hardware Wallets
   gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive XMR.
   simplemode: Simple mode
-  simplemode1: Created for less technical users who only want to use Monero in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
+  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
   advancedmode: Advanced mode
-  advancedmode1: With all the advanced features you could need. Ideal for seasoned Monero users who prefer to have full control of their wallet and node
+  advancedmode1: With all the advanced features you could need. Ideal for seasoned ByteRub users who prefer to have full control of their wallet and node
   merchantpage: Merchant page
   merchantpage1: Receive XMR for your business, easily
   hwcompatible: Compatible with hardware wallets
@@ -169,7 +169,7 @@ downloads:
   pruning: Blockchain pruning
   pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
   langs: "<b>30+ languages</b> available"
-  cli_intro: The CLI wallet gives you the total control over your Monero node and funds. Highly customizable and includes various analysis tools, as well as an HTTP RPC and 0MQ interface.
+  cli_intro: The CLI wallet gives you the total control over your ByteRub node and funds. Highly customizable and includes various analysis tools, as well as an HTTP RPC and 0MQ interface.
   currentversion: Current Version
   sourcecode: Source Code
   showissues: Show known issues for this release
@@ -187,28 +187,28 @@ downloads:
   transacttor: Transactions over Tor/I2P
   transacttor1: For an additional layer of privacy
   bootstrapnode: Bootstrap node
-  bootstrapnode1: Use a remote node while downloading the blockchain locally, this will allow you to use Monero immediately and switch to your local node once it's completely synced
+  bootstrapnode1: Use a remote node while downloading the blockchain locally, this will allow you to use ByteRub immediately and switch to your local node once it's completely synced
   rpc: RPC Wallet and Daemon
   rpc1: included in the archive
   payforrpc: Pay-for-RPC
   payforrpc1: A new feature that allows node operators to get rewarded when their node is used
   verify: Verify
-  verify1: You are strongly advised to verify the hashes of the archive you downloaded. This will confirm that the files you downloaded perfectly match the files uploaded by the Monero development workgroup. Please don't underestimate this step, a corrupted archive could result in lost funds. Always verify your downloads!
+  verify1: You are strongly advised to verify the hashes of the archive you downloaded. This will confirm that the files you downloaded perfectly match the files uploaded by the ByteRub development workgroup. Please don't underestimate this step, a corrupted archive could result in lost funds. Always verify your downloads!
   showhash: Show hashes to verify your download
   showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getmonero.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
   showhash2: in the source code
   showhash3: "Two guides are available to guide you through the verification process:"
-  hardware1: The Monero community has funded a
+  hardware1: The ByteRub community has funded a
   hardware2: Dedicated Hardware Wallet (Kastelo)
   hardware3: which is now in progress. Moreover, since CLI 0.12.1 and GUI 0.12.3 Ledger has
-  hardware4: integrated Monero into their hardware wallets.
-  hardware5: Trezor model T supports Monero since version 0.14.1.
+  hardware4: integrated ByteRub into their hardware wallets.
+  hardware5: Trezor model T supports ByteRub since version 0.14.1.
   mobilelight1: The following are mobile or light wallets that are deemed safe by respected members of the community. If there is a wallet that is not on here, you can request the community check it out. Go to our
   mobilelight2: Hangouts
   mobilelight3:  page to see where we are.
   installer: Installer
 
-monero-project:
+byterubpay:
   kovri: مشروع كوفري يستخدم تقنيه التشفير بين الطرفين فلا يحتاج الراسل او المستلم بأي معامله مونيرو الكشف عن عنوان الip الخاص به إلي الجهه الأخري أو أي طرف تالت يراقب المعامله ( سلسله الكتل ). ويتم ذلك من خلال نفس التقنيه التي يعمل من خلالها الإنترنت المُظلم, i2p ( بروتوكول الإنترنت الخفي ). هذا المشروع حالياً قيد التطوير ولم يتم دمجه مع مونيرو بعد .
   kovri_button: زياره موقع كوفري .
   openalias: يقوم مشروع OpenAlias بتبسيط الدفع بالعملات الرقميه من خلال تقنيه FQDNs ( أسماء نطاقات مؤهله بالكامل مثال example.openalias.org ) لعناوين محافظ مونيرو بطريقه تحافظ علي خصوصيه الجميع . المشروع قيد التنفيذ وقد تم دمجه بالفعل بالعديد من محافظ مونيرو .
@@ -234,19 +234,19 @@ press-kit:
     - name: "Quick-Facts Sheet"
       url_file: "http://www.monerooutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
       abstract: >
-        A quick and easy to read document to know everything about Monero: history, key differentiating factors, technical fundamentals, and features in development.<br>
-        See <a target="_blank" href="https://www.monerooutreach.org/index.php">Monero Outreach</a> website for more information.
+        A quick and easy to read document to know everything about ByteRub: history, key differentiating factors, technical fundamentals, and features in development.<br>
+        See <a target="_blank" href="https://www.monerooutreach.org/index.php">ByteRub Outreach</a> website for more information.
   marketing:
   - category: Marketing Material
     publications:
-    - name: "The 'Don't buy Monero' sticker"
+    - name: "The 'Don't buy ByteRub' sticker"
       url_file: "https://github.com/monero-ecosystem/dont-buy-monero-sticker"
       abstract: >
-        Spread Monero everywhere with the help of this sticker. Available in multiple languages and formats (vectors included).
+        Spread ByteRub everywhere with the help of this sticker. Available in multiple languages and formats (vectors included).
     - name: Guerrilla Toolkit
       url_file: "https://www.monerooutreach.org/guerrilla-toolkit.php"
       abstract: >
-        A document created by the Monero Outreach workgroup containing materials and tips for an effective guerrilla marketing campaign.
+        A document created by the ByteRub Outreach workgroup containing materials and tips for an effective guerrilla marketing campaign.
 
 accepting:
   title: تعليمات واجهه سطر الاوامر
@@ -333,10 +333,10 @@ faq:
   a12-1: في مونيرو, كل ناتج معامله مربوط بشكل فريد بصوره مفتاح التي لا يمكن إنشاؤها إلا بواسطه المالك لهذا الناتج. صور المفاتيح التي تستخدم أكثر من مره يتم رفضها بواسطه المُعدنين كمعامله مُتكرره ولا يمكن إضافتها في كتله سليمه. عندما يتم إستلام معامله جديده يتحقق المعدنين من أن صوره المفتاح لا توجد بالفعل في معامله سابقه للتأكد من أنها ليست مُعامله مُتكرره.
   a12-2: يمكننا أيضاً معرفه أن كميه المعاملات سليمه علي الرغم من أن قيمه المعاملات المُرسله وناتجها مُشفرين ( مُشفرين لكل الناس عدا المُستلم ). لأن الكميه مُشفره عن طريق التزامات بيدرسن (Pedersen commitments) ما يعني ذلك أنه لا يُوجد مُلاحظ يمكنه معرفه المُدخلات والمُخرجات لكن يمكن عمل عمليات حسابيه علي إلتزامات بيدرسن لتأكيد أنه لم يتم إنشاء أي مونيرو من الهواء .
   a12-3: طالما أن كميه المُخرجات المُشفره التي أنشأتها تُساوي نتيجه جميع المُدخلات التي يتم صرفها ( والتي تحوي مُخرج للمُستلم وآخر وهو الباقي ويعود لك و ايضاً رسوم المعامله وهي غير مشفره) بذلك تكون المعامله صحيحه ولم يتم إصدار أي مونيرو من الهواء. إلتزامات بيدرسن تعني أنه يمكن التأكد من أن مجموع النواتج مُتساوي. لكن القيمه الفرديه لكل عمليه جمع وحدها و المدخلات و المُخرجات وحدها لا يمكن تحديدها.
-  q13: Is Monero magic and protect my privacy no matter what I do ?
-  a13: Monero is not magic. If you use Monero but give your name and address to another party, the other party will not magically forget your name and address. If you give out your secret keys, others will know what you've done. If you get compromised, others will be able to keylog you. If you use a weak password, others will be able to brute force your keys file. If you backup your seed in the cloud, you'll be poorer soon.
-  q14: Is Monero 100% anonymous ?
-  a14: There is no such thing as 100% anonymous. If nothing else, your anonymity set is the set of people using Monero. Some people don't use Monero. Monero may also have bugs. Even if not, ways may exist to infer some information through Monero's privacy layers, either now or later. Attacks only get better. If you wear a seatbelt, you can still die in a car crash. Use common sense, prudence and defense in depth.
+  q13: Is ByteRub magic and protect my privacy no matter what I do ?
+  a13: ByteRub is not magic. If you use ByteRub but give your name and address to another party, the other party will not magically forget your name and address. If you give out your secret keys, others will know what you've done. If you get compromised, others will be able to keylog you. If you use a weak password, others will be able to brute force your keys file. If you backup your seed in the cloud, you'll be poorer soon.
+  q14: Is ByteRub 100% anonymous ?
+  a14: There is no such thing as 100% anonymous. If nothing else, your anonymity set is the set of people using ByteRub. Some people don't use ByteRub. ByteRub may also have bugs. Even if not, ways may exist to infer some information through ByteRub's privacy layers, either now or later. Attacks only get better. If you wear a seatbelt, you can still die in a car crash. Use common sense, prudence and defense in depth.
 
 mining:
   intro1: مونيرو هو عمله رقميه تعتمد علي طريقه خوارزميه تأكيد-العمل  في التعدين لتحقيق الموافقه الإجماعيه الموزعه . أدناه ستجد المعلومات والموارد اللازمه للبدأ في التعدين.
@@ -408,7 +408,7 @@ what-is-monero:
   grassroots_para5: مونيرو ليس بشركه, تم تطويره بواسطه خبراء التشفير والأنظمه الموزعه من جميع انحاء العالم الذين تبرّعوا بجُهدهم ووقتِهم او تم تمويلهم من قبل تبرعات المجتمع. يعني ذلك أن مونيرو لا يُمكن أن يتم إيقافه من طرف أي دوله ولا يخضع لقيود قانونيه معينه.
   electronic: مونيرو هو النقد الإلكتروني الذي يتيح معاملات سريعه وغير مكلفه من وإلي أي مكان في العالم.
   electronic_para1: لا يوجد فترات إنتظار لعده أيام أو مخاطره عمليات رد المدفوعات الإحتياليه. مونيرو آمن من " ضوابط راس المال" - وهي التدابير التي تحد من تدفق العملات التقليديه, تجدها أحياناً إلي حد مخيف في الدول التي تعاني من عدم الإستقرار الإقتصادي.
-  videos: Monero Videos (English)
+  videos: ByteRub Videos (English)
 
 about:
   history: لمحه تاريخيه
@@ -455,8 +455,8 @@ user-guides:
   view-only: كيفيه عمل محفظه رؤيه فقط
   prove-payment: كيفيه إثبات إتمام معامله
   restore-from-keys: إستعاده محفظه من المفاتيح
-  nicehash: How to mine Monero XMR without a mining equipment
-  ledger-wallet-cli: How to generate a Ledger Monero wallet with the CLI (monero-wallet-cli)
+  nicehash: How to mine ByteRub XMR without a mining equipment
+  ledger-wallet-cli: How to generate a Ledger ByteRub wallet with the CLI (monero-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor
 
@@ -475,7 +475,7 @@ research-lab:
   read-paper: قراءة البحث
   summary: Summary
   mrlhtp: Understanding ge_fromfe_frombytes_vartime
-  mrlhtp_summary: Monero uses a unique hash function that transforms scalars into elliptic curve points. It is useful for creating key images, in particular. This document, authored by Shen Noether, translates its code implementation (the ge_fromfe_frombytes_vartime() function) into mathematical expressions.
+  mrlhtp_summary: ByteRub uses a unique hash function that transforms scalars into elliptic curve points. It is useful for creating key images, in particular. This document, authored by Shen Noether, translates its code implementation (the ge_fromfe_frombytes_vartime() function) into mathematical expressions.
   mrl1: ملاحظه علي التتبع في برتوكول كريبتونوت ( CryptoNote )  2.0
   mrl1_abstract: هذه النشره البحثيه تصف هجوماً جديراً بالإهتمام في نظام إخفاء الهويه القائم علي توقيعات-الطوق. نستخدم بروتوكول كريبتونوت (CryptoNote) 2.0 الذي تم نشره ظاهرياً بواسطه نيكولاس فان سابريرهاجن في 2012. لقد تم إثبات سابقًا أن التعتيم علي إمكانية التتبع لزوج مفتاح لمرة واحدة يعتمد على عدم إمكانية الوصول إلى كافة المفاتيح المستخدمة في إنشاء توقيع-الطوق. ويتيح ذلك إمكانيه التتبع بين توقيعات-الطوق, مسبباً خساره فادحه في التعتيم علي التتبع في الشبكه كلها إذا تم إختيار عناصر ضعيفه او إذ كان المهاجم يمتلك جزء كبير من الشبكه. التوقعيات مازلات تستخدم مره واحده, ولذلك, اي هجوم مماثل لن يقوم بالضروره بإنتهاك خصوصيه المستخدمين. وبالرغم من هذا, يمكن لمثل هذا الهجوم أن يضعف مقاومه بروتوكول كريبتونوت (CryptoNote) أمام تحليل سلسله الكتل. هذه النشره البحثيه لم تخضع للمراجعه, ولا تعكس سوي نتائج التحقيق الداخلي.
   mrl2: التزييف في العملات الرقميه التي تستخدم بروتوكول كريبتونوت (CryptoNote) بإستخدام ثغره شجره ميركل (Merkle Tree)
@@ -486,18 +486,18 @@ research-lab:
   mrl4_abstract: قد حددنا العديد من هجمات التحليل المتاحه ضد بروتوكول كريبتونوت (CryptoNote 2.0) التي تهدف إضعاف عدم إمكانيه التتبع.نقوم بتحليل الحلول الممكنه, ومناقشه مزاياها وعيوبها, ونوصي بالتحسينات اللازمه لبروتوكول مونيرو التي ستقوم بمقاومه تتبع سلسله الكتل علي المدي الطويل. تشمل هذه التحسينات علي مستوي البروتوكول والشبكه أقل عدد لدمج توقيعات-الطوق (n = 2) , علي مستوي البروتوكول رفع هذه القيمه بعد سنتين إلي ( n = 4 ) , وعلي مستوي المحفظه (n = 4) في هذه الأثناء. ننصح أيضاً بنظام الند إلي الند في إرسال مخرجات معامله مونيرو. نناقش أيضاً طريقه إختيار غير موحده تعتمد علي العمر للتخفيف من هجمات تحليل سلسله الكتل الذي تم تحديده هنا. ولكننا لا نقدم أي توصيات رسميه بشأن دمجها لمجموعه متنوعه من الأسباب. ونناقش أيضاً بالتفصيل الأثار المترتبه علي هذه التحسينات. هذا البحث لم يتم مراجعته ولا يعكس سوي نتائج التحقيق الداخلي.
   mrl5: المعاملات السريه لتوقيعات الطوق
   mrl5_abstract: يُقدم هذا المقال طريقه إخفاء كميه المعاملات في العمله الرقميه اللامركزيه مونيرو . كالبتكوين تعتمد عمله مونيرو علي التوزيع من خلال عمليه إثبات-العمل (التعدين). بروتوكول مونيرو الأساسي مبني علي CryptoNote والذي يستهدم توقعيات-الطوق و مفاتيح المره الواحده لإخفاء واجهه و مصدر المعاملات. مؤخراً, تم مناقشه ودمج أسلوب إخفاء المعاملات بواسطه مُطور البتكوين جورج ماكسويل. في هذا المقال يتم وصف نوع جديد من نظام توقيعات-الطوق وهو توقيع مجهول متعدد الطبقات ويسمح بإخفاء مبلغ المعاملات ومصدرها ووِجهتها بكافئه معقوله . بعض ملحقات البروتوكول متوفره مثال (Aggregate Schnorr Range Proofs) و توقيعات-الطوق المزدوجه (Ring Multisignature).يود الكاتب ذكر أن  المسودات المبكره لهذا تم نشرها علي قناه مونيرو والبتكوين عبر ال IRC . تم تسجيل المسودات بسلسله الكتل [14] توضح أنه قد بدأ العمل في صيف 2015 وإكتمل في أوائل شهر أكتوبر 2015 كما تتوفر نسخه إلكترونيه في http://eprint.iacr.org/2015/1098.
-  mrl6: An Efficient Implementation of Monero Subaddresses
-  mrl6_abstract: Users of the Monero cryptocurrency who wish to reuse wallet addresses in an unlinkable way must maintain separate wallets, which necessitates scanning incoming transactions for each one. We document a new address scheme that allows a user to maintain a single master wallet address and generate an arbitary number of unlinkable subaddresses. Each transaction needs to be scanned only once to determine if it is destinated for any of the user’s subaddresses. The scheme additionally supports multiple outputs to other subaddresses, and is as efficient as traditional wallet transactions.
+  mrl6: An Efficient Implementation of ByteRub Subaddresses
+  mrl6_abstract: Users of the ByteRub cryptocurrency who wish to reuse wallet addresses in an unlinkable way must maintain separate wallets, which necessitates scanning incoming transactions for each one. We document a new address scheme that allows a user to maintain a single master wallet address and generate an arbitary number of unlinkable subaddresses. Each transaction needs to be scanned only once to determine if it is destinated for any of the user’s subaddresses. The scheme additionally supports multiple outputs to other subaddresses, and is as efficient as traditional wallet transactions.
   mrl7: Sets of Spent Outputs
-  mrl7_abstract: This technical note generalizes the concept of spend outputs using basic set theory. The definition captures a variety of earlier work on identifying such outputs. We quantify the effects of this analysis on the Monero blockchain and give a brief overview of mitigations.
+  mrl7_abstract: This technical note generalizes the concept of spend outputs using basic set theory. The definition captures a variety of earlier work on identifying such outputs. We quantify the effects of this analysis on the ByteRub blockchain and give a brief overview of mitigations.
   mrl8: Dual Linkable Ring Signatures
-  mrl8_abstract: This bulletin describes a modification to Monero's linkable ring signature scheme that permits dual-key outputs as ring members. Key images are tied to both output one-time public keys in a dual, preventing both keys in that transaction from being spent separately. This method has applications to non-interactive refund transactions. We discuss the security implications of the scheme.
+  mrl8_abstract: This bulletin describes a modification to ByteRub's linkable ring signature scheme that permits dual-key outputs as ring members. Key images are tied to both output one-time public keys in a dual, preventing both keys in that transaction from being spent separately. This method has applications to non-interactive refund transactions. We discuss the security implications of the scheme.
   mrl9: Thring Signatures and their Applications to Spender-Ambiguous Digital Currencies
   mrl9_abstract: We present threshold ring multi-signatures (thring signatures) for collaborative computation of ring signatures, present a game of existential forgery for thring signatures, and discuss uses of thring signatures in digital currencies that include spender-ambiguous cross-chain atomic swaps for confidential amounts without a trusted setup. We present an implementation of thring signatures that we call linkable spontaneous threshold anonymous group signatures, and prove the implementation existentially unforgeable.
   mrl10: Discrete Logarithm Equality Across Groups
   mrl10_abstract: This technical note describes an algorithm used to prove knowledge of the same discrete logarithm across different groups. The scheme expresses the common value as a scalar representation of bits, and uses a set of ring signatures to prove each bit is a valid value that is the same (up to an equivalence) across both scalar groups.
   mrl11: Compact linkable ring signatures and applications
-  mrl11_abstract: We describe an efficient linkable ring signature scheme, compact linkable spontaneous anonymous group (CLSAG) signatures, for use in confidential transactions. Compared to the existing signature scheme used in Monero, CLSAG signatures are both smaller and more efficient to generate and verify for ring sizes of interest. We generalize the construction and show how it can be used to produce signatures with coins of different type in the same transaction.
+  mrl11_abstract: We describe an efficient linkable ring signature scheme, compact linkable spontaneous anonymous group (CLSAG) signatures, for use in confidential transactions. Compared to the existing signature scheme used in ByteRub, CLSAG signatures are both smaller and more efficient to generate and verify for ring sizes of interest. We generalize the construction and show how it can be used to produce signatures with coins of different type in the same transaction.
   iacr2020018: "Triptych: logarithmic-sized linkable ring signatures with applications"
   iacr2020018_abstract: Ring signatures are a common construction used to provide signer ambiguity among a non-interactive set of public keys specified at the time of signing. Unlike early approaches where signature size is linear in the size of the signer anonymity set, current optimal solutions either require centralized trusted setups or produce signatures logarithmic in size. However, few also provide linkability, a property used to determine whether the signer of a message has signed any previous message, possibly with restrictions on the anonymity set choice. Here we introduce Triptych, a family of linkable ring signatures without trusted setup that is based on generalizations of zero-knowledge proofs of knowledge of commitment openings to zero. We demonstrate applications of Triptych in signer-ambiguous transaction protocols by extending the construction to openings of parallel commitments in independent anonymity sets. Signatures are logarithmic in the anonymity set size and, while verification complexity is linear, collections of proofs can be efficiently verified in batches. We show that for anonymity set sizes practical for use in distributed protocols, Triptych offers competitive performance with a straightforward construction.
   cryptonote: الورقه البيضاء لكريبتونوت (CryptoNote)
@@ -549,35 +549,35 @@ library:
   books:
   - category: Books
     publications:
-    - name: "Zero to Monero"
-      file: "Zero-to-Monero-1-0-0.pdf"
+    - name: "Zero to ByteRub"
+      file: "Zero-to-ByteRub-1-0-0.pdf"
       abstract: >
-        A comprehensive conceptual (and technical) explanation of Monero.<br>
-        We endeavor to teach anyone who knows basic algebra and simple computer science concepts like the ‘bit representation’ of a number not only how Monero works at a deep and comprehensive level, but also how useful and beautiful cryptography can be.
-    - name: "Mastering Monero"
+        A comprehensive conceptual (and technical) explanation of ByteRub.<br>
+        We endeavor to teach anyone who knows basic algebra and simple computer science concepts like the ‘bit representation’ of a number not only how ByteRub works at a deep and comprehensive level, but also how useful and beautiful cryptography can be.
+    - name: "Mastering ByteRub"
       file: "https://masteringmonero.com/free-download.html"
       abstract: >
-        A guide through the seemingly complex world of Monero.<br>
+        A guide through the seemingly complex world of ByteRub.<br>
         It includes:
         <ul><li>A broad introduction to blockchains and the importance of privacy - ideal for non-technical users.</li>
-        <li>Discussion of Bitcoin’s shortcomings and specific solutions provided by Monero.</li>
-        <li>User stories (illustrating how Monero protects your privacy), analogies, examples, legal/ethical discussions, and code snippets illustrating key technical concepts.</li>
-        <li>Details of the Monero decentralized network, peer-to-peer architecture, transaction lifecycle, and security principles.</li>
-        <li>Introductions to technical foundations of Monero, intended for developers, engineers, software architects, and curious users.</li>
+        <li>Discussion of Bitcoin’s shortcomings and specific solutions provided by ByteRub.</li>
+        <li>User stories (illustrating how ByteRub protects your privacy), analogies, examples, legal/ethical discussions, and code snippets illustrating key technical concepts.</li>
+        <li>Details of the ByteRub decentralized network, peer-to-peer architecture, transaction lifecycle, and security principles.</li>
+        <li>Introductions to technical foundations of ByteRub, intended for developers, engineers, software architects, and curious users.</li>
         <li>New developments such as Kovri, Bulletproofs, Multisignature, Hardware Wallets, etc.</li></ul>
-        See <a href="https://masteringmonero.com/">Mastering Monero</a> website for info about full version.
+        See <a href="https://masteringmonero.com/">Mastering ByteRub</a> website for info about full version.
   - category: Magazines
     publications:
-    - name: "Revuo Monero Q4 2017"
+    - name: "Revuo ByteRub Q4 2017"
       file: "Revuo-2017-Q4.pdf"
       abstract: >
-        Quarterly Monero magazine, Q4 2017 edition.<br>
-        In this issue, updates about: development, Monero Research Lab, Kovri, and community.
-    - name: "Revuo Monero Q3 2017"
-      file: "Monero-Revuo-3Q-2017.pdf"
+        Quarterly ByteRub magazine, Q4 2017 edition.<br>
+        In this issue, updates about: development, ByteRub Research Lab, Kovri, and community.
+    - name: "Revuo ByteRub Q3 2017"
+      file: "ByteRub-Revuo-3Q-2017.pdf"
       abstract: >
-        Quarterly Monero magazine, Q3 2017 edition.<br>
-        In this issue, updates about: development, Monero Research Lab, Kovri, community, Hardware, and Monerujo.
+        Quarterly ByteRub magazine, Q3 2017 edition.<br>
+        In this issue, updates about: development, ByteRub Research Lab, Kovri, community, Hardware, and Monerujo.
 
 moneropedia:
   add_new_button: Add New Entry

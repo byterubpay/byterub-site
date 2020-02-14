@@ -12,7 +12,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** community meeting starting now  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/374  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/374  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.    
 **\<sgp\_>** 1. Greetings  
 **\<rottensox>** o/  
@@ -30,7 +30,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** CCS proposals in ideas to be discussed (one by one):  
-**\<sgp\_>** “v1docq47: video creation / translations into russian (august – january)” (37.8 XMR) https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/84  
+**\<sgp\_>** “v1docq47: video creation / translations into russian (august – january)” (37.8 XMR) https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/84  
 **\<rehrar>** sure  
 **\<sgp\_>** lh1008 indicated support on Gitlab, I also support  
 **\<el00ruobuob\_[m]>** v1docq47 seems to have done a huge amount of work on his previous FFS, i vote for.  
@@ -39,7 +39,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** ne  
 **\<pwrcycle>** I just read the FSS, but seems good to me. I vote yes.  
 **\<sgp\_>** great  
-**\<sgp\_>** second one: “A Monero Tip Bot for Telegram” (13 XMR) https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/86  
+**\<sgp\_>** second one: “A Monero Tip Bot for Telegram” (13 XMR) https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/86  
 **\<rehrar>** he updated prices  
 **\<rehrar>** seems more reasonable now  
 **\<rehrar>** I say sure  
@@ -69,7 +69,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** any final comments? seems like this is a reasonable question to address first  
 **\<parasew[m]>** bot might be the same that is the one of the CCS in question. i asked in monero germany tg  
 **\<sgp\_>** please comment on gitlab when you get more info  
-**\<sgp\_>** third idea: “rehrar-sarang WCC” (30 XMR) https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/87  
+**\<sgp\_>** third idea: “rehrar-sarang WCC” (30 XMR) https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/87  
 **\<parasew[m]>** yes sure  
 **\<rehrar>** I vote yes  
 **\<rehrar>** er  
@@ -122,7 +122,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** better account support, better balance card, etc  
 **\<sgp\_>** any GUI questions? I may be able to answer them  
 **\<selsta>** better balance card is work in progress  
-**\<sgp\_>** https://github.com/monero-project/monero-gui/issues/2298  
+**\<sgp\_>** https://github.com/byterubpay/monero-gui/issues/2298  
 **\<selsta>** v0.14.1.2 GUI will also come out soon after CLI.  
 **\<ArticMine>** One question is ow fees are displayed  
 **\<sgp\_>** selsta: will there be any UX changes, or just bundled with the latest daemon?  

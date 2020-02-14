@@ -14,9 +14,9 @@ Please note that the CLI Windows 32-bit, ARMv8, DragonflyBSD 64-bit, and FreeBSD
 
 Alternatively, you can use the Github link:  
 
-**CLI:** https://github.com/monero-project/monero/releases/tag/v0.12.0.0  
+**CLI:** https://github.com/byterubpay/monero/releases/tag/v0.12.0.0  
 
-**GUI:** https://github.com/monero-project/monero-gui/releases/tag/v0.12.0.0  
+**GUI:** https://github.com/byterubpay/monero-gui/releases/tag/v0.12.0.0  
 
 --------------  
 
@@ -26,19 +26,19 @@ Alternatively, you can use the Github link:
 
 # General information about the scheduled network upgrade  
 
-Approximately on the 6th of April there will be a scheduled network upgrade on the Monero network. To be sufficiently prepared, a user, service, merchant, pool operator, or exchange should run CLI v0.12.0.0 or GUI v0.12.0.0. The scheduled network upgrade introduces two major changes. First, a PoW tweak to curb any potential threat of ASICs and preserve ASIC resistance. As a result, miners will have to update their miners (i.e. mining software). Second, the minimum ring size is bumped to 7 (mixin 6). Therefore, pool operators need to ensure that payouts use a minimum ring size of 7 (mixin 6), otherwise they will get rejected by the network.  
+Approximately on the 6th of April there will be a scheduled network upgrade on the ByteRub network. To be sufficiently prepared, a user, service, merchant, pool operator, or exchange should run CLI v0.12.0.0 or GUI v0.12.0.0. The scheduled network upgrade introduces two major changes. First, a PoW tweak to curb any potential threat of ASICs and preserve ASIC resistance. As a result, miners will have to update their miners (i.e. mining software). Second, the minimum ring size is bumped to 7 (mixin 6). Therefore, pool operators need to ensure that payouts use a minimum ring size of 7 (mixin 6), otherwise they will get rejected by the network.  
 
 More information about the PoW tweak can be found here:  
 
 https://getmonero.org/2018/02/11/PoW-change-and-key-reuse.html  
 
-https://github.com/monero-project/monero/pull/3253  
+https://github.com/byterubpay/monero/pull/3253  
 
-In addition, more information about the minimum ring size bump can be found [here](https://github.com/monero-project/monero/issues/3035). Lastly, both changes have been discussed extensively in the last few dev meetings, which can be read here:  
+In addition, more information about the minimum ring size bump can be found [here](https://github.com/byterubpay/monero/issues/3035). Lastly, both changes have been discussed extensively in the last few dev meetings, which can be read here:  
 
 https://monerobase.com/wiki/Category:DevMeeting  
 
-Due to variance the scheduled network upgrade will take place on or around the 6th of April. There is, however, no specific date as the hard fork will be triggered by a specific blockheight. The specific blockheight for the hardfork can be found [here](https://github.com/monero-project/monero/blob/master/src/cryptonote_core/blockchain.cpp#L110-L111). That is:  
+Due to variance the scheduled network upgrade will take place on or around the 6th of April. There is, however, no specific date as the hard fork will be triggered by a specific blockheight. The specific blockheight for the hardfork can be found [here](https://github.com/byterubpay/monero/blob/master/src/cryptonote_core/blockchain.cpp#L110-L111). That is:  
 
 > // version 7 starts from block 1546000, which is on or around the 6th of April, 2018. Fork time finalised on 2018-03-17.  
 
@@ -50,7 +50,7 @@ First and foremost, we encourage users to check the integrity of the binaries an
 
 If you are using the CLI you ought to perform the following steps:  
 
-1. Download the new binaries from [the official website](https://getmonero.org/downloads/) or [Github](https://github.com/monero-project/monero/releases/tag/v0.12.0.0).  
+1. Download the new binaries from [the official website](https://getmonero.org/downloads/) or [Github](https://github.com/byterubpay/monero/releases/tag/v0.12.0.0).  
 
 2. Extract the new binaries to a new directory of your liking.  
 
@@ -62,7 +62,7 @@ Note that a blockchain resync is **not** needed. Thus, if you open `monerod-v.0.
 
 If you are using the GUI you ought to perform the following steps:  
 
-1. Download the new binaries from [the official website](https://getmonero.org/downloads/) or [Github](https://github.com/monero-project/monero-gui/releases/tag/v0.12.0.0).  
+1. Download the new binaries from [the official website](https://getmonero.org/downloads/) or [Github](https://github.com/byterubpay/monero-gui/releases/tag/v0.12.0.0).  
 
 2. Extract the new binaries to a new directory of your liking.  
 
@@ -74,9 +74,9 @@ If you are using the GUI you ought to perform the following steps:
 
 You don't have to do anything. However, if you want to restore a wallet after the scheduled network upgrade, you need to use the new binaries.  
 
-**MyMonero:**  
+**MyByteRub:**  
 
-You don't have to do anything, as MyMonero will be properly upgraded in advance of the scheduled network upgrade.  
+You don't have to do anything, as MyByteRub will be properly upgraded in advance of the scheduled network upgrade.  
 
 **Mobile wallets:**  
 
@@ -92,10 +92,10 @@ Your pool operator should upgrade to the new version. In addition, you should up
 
 # A call for community action  
 
-It's in our best interest that the upcoming scheduled network upgrade transits as smoothly as possible. Therefore, it is imperative that we, as community, contact economically sensitive nodes (exchanges and services) and inform them about the new version, the upcoming scheduled network upgrade, and that they should run v0.12.0.0 to be sufficiently prepared. A list of exchanges that have integrated Monero can be found here:  
+It's in our best interest that the upcoming scheduled network upgrade transits as smoothly as possible. Therefore, it is imperative that we, as community, contact economically sensitive nodes (exchanges and services) and inform them about the new version, the upcoming scheduled network upgrade, and that they should run v0.12.0.0 to be sufficiently prepared. A list of exchanges that have integrated ByteRub can be found here:  
 
 https://coinmarketcap.com/currencies/monero/#markets  
 
-In addition, services that have integrated Monero are, for example, XMR.to, Evercoin, Shapeshift, and Changelly.  
+In addition, services that have integrated ByteRub are, for example, XMR.to, Evercoin, Shapeshift, and Changelly.  
 
 Lastly, if you have any questions or need any assistance with upgrading, please leave a comment in this thread and the community and I will help you out.  

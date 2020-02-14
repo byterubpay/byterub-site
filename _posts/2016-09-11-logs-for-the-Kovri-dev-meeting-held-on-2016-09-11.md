@@ -36,14 +36,14 @@ author: dEBRUYNE / fluffypony
 **\<MalMen>** please continue :D  
 **\<hyc>** I think the stylized Ks are more preofessional  
 **\<Kermit_>** As a designer 146 it also brand recognition with xmr  
-**\<fluffypony>** #146 is more in the spirit of the Monero logo, I'll definitely agree with that  
+**\<fluffypony>** #146 is more in the spirit of the ByteRub logo, I'll definitely agree with that  
 **\<fluffypony>** and yeah, the brand recognition aspect is +1  
 **\<i2p-relay> {-guzzi}** #239  
 **\<tooquick_4u>** #146  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** I kinda like https://images-contests.99static.com/wYofliD7HjSVmkBoYhGS4CyMeNc=/188x0:1464x1276/500x500/top/smart/99designs-contests-attachments/75/75384/attachment\_75384769, the variants of https://images-contests.99static.com/Gs4VClupDwKJEGKvaX7I40TLckg=/0x0:1156x1156/500x500/top/smart/99designs-contests-  
 **\<meeting-bot>** attachments/75/75381/attachment\_75381142  
 **\<tewinget>** wait, isn't 99designs basically spec-work?  
-**\<meeting-bot> [i2p-relay] {-ArticMine}** Kovri logo Do we want a variant of the Monero logo or something entirely different?  
+**\<meeting-bot> [i2p-relay] {-ArticMine}** Kovri logo Do we want a variant of the ByteRub logo or something entirely different?  
 **\<meeting-bot> [anonimal]** But why get washed in with more corporatism? We're at a juncture to break some molds here.  
 **\<fluffypony>** tewinget: yes  
 **\<tewinget>** eww  
@@ -63,17 +63,17 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** hyc: 254/253, the person was probably drinking pepsi at the time.  
 **\<pero>** in 25x and 99  
 **\<tewinget>** 24{7,8} aren't half bad.  
-**\<hyc>** lol. 219 has that Monero tie-in with the garlic  
+**\<hyc>** lol. 219 has that ByteRub tie-in with the garlic  
 **\<pero>** i like #239 but the kerning is awful from a typography perspective  
 **\<meeting-bot> [guzzi]** why the halloween colors anyway?  
 **\<fluffypony>** bear in mind, too, that we can change it later on  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** anonimal: https://paste.fedoraproject.org/426683/14736136/  
 **\<meeting-bot> [anonimal]** moneromooo: thanks  
-**\<fluffypony>** guzzi: the orange? coz of the Monero logo's colours, I'd guess  
+**\<fluffypony>** guzzi: the orange? coz of the ByteRub logo's colours, I'd guess  
 **\<ferretinjapan>** 246 is a nice mix of both 146 and 239 imo  
 **\<meeting-bot> [anonimal]** fluffypony: how much *can* we change after we pick one?  
 **\<fluffypony>** anonimal: we can always pay them more to make more changes  
-**\<fluffypony>** we also made changes to the Monero logo after delivery  
+**\<fluffypony>** we also made changes to the ByteRub logo after delivery  
 **\<fluffypony>** to fix the kerning  
 **\<meeting-bot> [guzzi]** got it  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** Not sure what numbers these map to, no numbers in the URLs  
@@ -90,7 +90,7 @@ author: dEBRUYNE / fluffypony
 **\<MalMen>** between 146 and 239 for me  
 **\<hyc>** 236-237 I have to exclude, there's a Circle-K convenience store chain in California that looks like that  
 **\<ferretinjapan>** why not make it 146 and just go a different color, it would still feel monero-ish  
-**\<Flyfree10>** is this where the meeting for Monero is?  
+**\<Flyfree10>** is this where the meeting for ByteRub is?  
 **\<MalMen>** 239 is nice because it bring the "onion" that is easly recognised by tor users  
 **\<lurker>** i think keep it simple whilst linking to monero and its a winner 239 is good but if at anypoint the logo is just to be used it is not always instantly recognisable whereas the 146 is  
 **\<moneromooo>** Flyfree10: finished  
@@ -99,7 +99,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** e.g., artist probably wasn't thinking on that level  
 **\<moneromooo>** Hmm. Wordy I guess. There will be logs from dEBRUYNE, most likely.  
 **\<hyc>** I'm gonna go with 239  
-**\<tewinget>** Flyfree10: Kovri meeting in-progress, wait a bit and Monero dev meeting minutes will be on reddit I'm sure.  
+**\<tewinget>** Flyfree10: Kovri meeting in-progress, wait a bit and ByteRub dev meeting minutes will be on reddit I'm sure.  
 **\<hyc>** if you think the typography needs to be touched up, cool, but overall it looks classy and it still has the garlic without being over the top  
 **\<fluffypony>** ok  
 **\<meeting-bot> [anonimal]** Alright, I'm seeing a lot of #239 (also my top pick)  
@@ -110,7 +110,7 @@ author: dEBRUYNE / fluffypony
 **\<ferretinjapan>** yeah i think the garlic just looks confusing.  
 **\<meeting-bot> [anonimal]** So should we do a vote of "anything \*not* 239"?  
 **\<hyc>** yeah. it's close enough. several of the others leave me wondering WTH they are.  
-**\<\_Slack> <xmr\_eric>** The one option I'm not seeing is a direct copy of the Monero (M). I did a quick mockup: https://i.imgur.com/8wIh8Hb.png  
+**\<\_Slack> <xmr\_eric>** The one option I'm not seeing is a direct copy of the ByteRub (M). I did a quick mockup: https://i.imgur.com/8wIh8Hb.png  
 **\<meeting-bot> [anonimal]** Strong opinions on \*not* 239?  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** Well... "I use kovri, that's a privacy program for that onion type thing"  
 **\<meeting-bot> [anonimal]** How can we improve #239?  
@@ -130,14 +130,14 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** pero: good point  
 **\<MalMen>** anonimal at the begining I didnt like the colors of monero too, but grown on me  
 **\<hyc>** yeh that's why I don't like 246. the tuft at the top of the logo reminds me too much of the tor onion  
-**\<ferretinjapan>** 239 isnt horrible, but it definitely doesn't feel like it has a connection to Monero  
-**\<ferretinjapan>** other than the color, it doesn't really feel like it's closely bound to the Monero project.  
+**\<ferretinjapan>** 239 isnt horrible, but it definitely doesn't feel like it has a connection to ByteRub  
+**\<ferretinjapan>** other than the color, it doesn't really feel like it's closely bound to the ByteRub project.  
 **\<lurker>** agree ferretinjapan  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** There are common law trademarks by "use in commerce" in both cases  
 **\<ferretinjapan>** If that's intentional then awesome, but otherwise, people may not even connect monero and kovri together as being sister projects.  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** Then... we could superimpose: 239 with added arms on top of the monero M, trying to hide it :D  
 **\<pero>** i think my the minimal pacmans from 88 and 81 arent bad either  
-**\<fluffypony>** anonimal: what are your thoughts on the "connection to Monero" thing - do we want it to be more tightly coupled or not?  
+**\<fluffypony>** anonimal: what are your thoughts on the "connection to ByteRub" thing - do we want it to be more tightly coupled or not?  
 **\<hyc>** then xmr\_eric's would be fine  
 **\<meeting-bot> [anonimal]** fluffypony ferretinjapan lurker: if the artists can somehow come up with a better idea other than slapping a big K in the style of monero onto the garlic, then I'm open to new ideas  
 **\<meeting-bot> [guzzi]** fluffypony i agree if there needs to be aconnection to monero that is important to discussion on 239  
@@ -163,7 +163,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Let's decide on 1 and see how we can improve it.  
 **\<tewinget>** I think maybe since there are so many opinions we shelf this for now, make a shortlist of 10 or so, and discuss among just those at a later time.  
 **\<meeting-bot> [anonimal]** I'm voting #239  
-**\<meeting-bot> [guzzi]** we ef have two camps here.  use a letter like Monero logo or -- somethinge else00  
+**\<meeting-bot> [guzzi]** we ef have two camps here.  use a letter like ByteRub logo or -- somethinge else00  
 **\<fluffypony>** we have 8 days to make a decision, tewinget  
 **\<hyc>** shrink them down to 16x16 favicons, most of them will look like garbage  
 **\<fluffypony>** tbh I kinda like #239 too  
@@ -259,11 +259,11 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Hi pigeons  
 **\<fluffypony>** oh  
 **\<fluffypony>** lol  
-**\<fluffypony>** anonimal sorry, it was at the beginning of the Monero meeting  
+**\<fluffypony>** anonimal sorry, it was at the beginning of the ByteRub meeting  
 **\<meeting-bot> [anonimal]** My fault then, I came in late  
 **\<meeting-bot> [anonimal]** When are we throwing out travis?  
 **\<pigeons>** Hi. Im just getting everything started, but feel free to chat with me anytime and ill show you what were doing and yuo can tellme about the needs  
-**\<fluffypony>** anonimal: we'll probably break the chassis on Monero first  
+**\<fluffypony>** anonimal: we'll probably break the chassis on ByteRub first  
 **\<fluffypony>** and setup IRC hooks etc.  
 **\<fluffypony>** and then adding Kovri will be a snap  
 **\<meeting-bot> [anonimal]** Awesome and awesome, thanks pigeons and fluffypony  
@@ -291,7 +291,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [EinMByte]** Currently working on a (partial) fix of #342  
 **\<meeting-bot> [anonimal]** You're not assigned to #342, I can add you unless you wanted to add yourself  
 **\<meeting-bot> [EinMByte]** I'll assign  
-**\<meeting-bot> [anonimal]** https://github.com/monero-project/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha+assignee%3AEinMByte  
+**\<meeting-bot> [anonimal]** https://github.com/byterubpay/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha+assignee%3AEinMByte  
 **\<meeting-bot> [anonimal]** Ok  
 **\<meeting-bot> [EinMByte]** So to be clear, the backtrace you posted 4 hours ago is what I fixed  
 **\<meeting-bot> [EinMByte]** (but not yet pushed because unforseen issues)  
@@ -299,7 +299,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [EinMByte]** Yes  
 **\<meeting-bot> [EinMByte]** Won't touch the client issue for now  
 **\<meeting-bot> [anonimal]** Yay client  
-**\<meeting-bot> [anonimal]** https://github.com/monero-project/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha+assignee%3Aanonimal  
+**\<meeting-bot> [anonimal]** https://github.com/byterubpay/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha+assignee%3Aanonimal  
 **\<meeting-bot> [anonimal]** That covers a small fraction of what I'll end up fixing / working on  
 **\<meeting-bot> [EinMByte]** For #187 (NTCP core issues), the main thing left to fix is the inbound NTCP  
 **\<meeting-bot> [anonimal]** I just don't assign myself in case someone else wants to grab something  

@@ -46,7 +46,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** but last thing to discuss I guess is the blockchain and statistics hub  
 **\<rehrar>** has that been covered before?  
 **\<lh1008[m]>** For travala and keyi, they can recieve all the support from the community for integration.  
-**\<rehrar>** https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/58  
+**\<rehrar>** https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/58  
 **\<rehrar>** lh1008[m]: are you saying you are in favor of merging these requests?  
 **\<ErCiccione[m]>** i suggested to the guy of the hub to come speak here in a meeting. He didn;t answer  
 **\<lh1008[m]>** \<rehrar "lh1008: are you saying you are i"> No, against. Sorry was not clear.  
@@ -143,7 +143,7 @@ author: el00ruobuob / rehrar
 **\<midipoet>** yeyyeyeyah  
 **\<rehrar>** alrighty, thanks for this  
 **\<rehrar>** May I ask everyone to briefly review this comment on the meeting issue?  
-**\<rehrar>** https://github.com/monero-project/meta/issues/353#issuecomment-500110823  
+**\<rehrar>** https://github.com/byterubpay/meta/issues/353#issuecomment-500110823  
 **\<rehrar>** binaryFate: are you here?  
 **\<rehrar>** perhaps not  
 **\<rehrar>** once people have reviewed this comment, please make your thoughts known  

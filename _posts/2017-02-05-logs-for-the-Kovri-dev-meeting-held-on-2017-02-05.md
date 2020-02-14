@@ -40,11 +40,11 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-olark}** The i2pd situation was interesting to say the least :p  
 **\<anonimal>** Or more aptly titled: "why2pd".  
 **\<Slack> [endogenic]** Total kovri noob here. Not looked at the code yet. Is there any significant future use case for kovri libraries? Is it worth doing upfront? *sits back down*  
-**\<anonimal>** Monero. That's the biggest future use-case so far.  
+**\<anonimal>** ByteRub. That's the biggest future use-case so far.  
 **\<i2p-relay> {-olark}** I would like to see a future where kovri would be the go to i2p router for implementing into applications  
 **\<i2p-relay> {-olark}** Instead of tor  
 **\<i2p-relay> {-olark}** blegh  
-**\<i2p-relay> {-olark}** Monero obviously first though ;)  
+**\<i2p-relay> {-olark}** ByteRub obviously first though ;)  
 **\<hyc>** makes sense. tor was created for the gov't after all  
 **\<i2p-relay> {-olark}** Yep  
 **\<DaveyJones>** if it will do good for cash/monero i guess those use cases will follow by time  
@@ -71,7 +71,7 @@ author: dEBRUYNE / fluffypony
 **\<Slack> [needmultisig90]** neat  
 **\<anonimal>** needmultisig90 wants to head up the packaging front. needmultisig90: if you aren't watching the meta repo, I highly recommend that.  
 **\<Slack> [needmultisig90]** link pls  
-**\<anonimal>** https://github.com/monero-project/meta  
+**\<anonimal>** https://github.com/byterubpay/meta  
 **\<anonimal>** If you review the issues, you'll see where are on packaging.  
 **\<anonimal>** where we are  
 **\<Slack> [needmultisig90]** Added, will do  
@@ -163,7 +163,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [EinMByte]** Alright. Might do some additional refactoring, since I never completely finished that  
 **\<i2p-relay> {-guzzi}** oh i see just skimmed  
 **\<i2p-relay> {-olark}** Not so much a question but a new development that pertains to both kovri and monero :)  
-**\<i2p-relay> {-olark}** Something I have been thinking about while I was looking at Monero's ring signatures.  
+**\<i2p-relay> {-olark}** Something I have been thinking about while I was looking at ByteRub's ring signatures.  
 **\<anonimal>** EinMByte: that sounds great  
 **\* anonimal** will look at issue tracker after meeting  
 **\<anonimal>** Ok, anymore on 3. Code + ticket discussion / Q & A ?  
@@ -190,7 +190,7 @@ author: dEBRUYNE / fluffypony
 **\* anonimal** wanted to ask that in monero's meeting on the topic of github security  
 **\<moneromooo>** "subscription" ?  
 **\<meeting-bot> [EinMByte]** By the way, if anyone needs access to the salti repo, please tell me  
-**\<anonimal>** moneromooo: https://github.com/monero-project/kovri/blob/master/pkg/client/address_book/hosts.txt  
+**\<anonimal>** moneromooo: https://github.com/byterubpay/kovri/blob/master/pkg/client/address_book/hosts.txt  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** My take is that any browser / OS that supports DRM is vulnerable to an attack against anonymity / IP obfuscation  
 **\<meeting-bot> [EinMByte]** As with many features like DRM, it's best that they're just enabled  
 **\<moneromooo>** Thanks.  

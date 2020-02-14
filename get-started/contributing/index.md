@@ -20,7 +20,7 @@ permalink: /get-started/contributing/index.html
                     </div>
                     <div class="row start-xs">
                         <h3>{% t contributing.develop %}</h3>
-                        <p>{% t contributing.develop_para1 %} <a href="https://github.com/monero-project">{% t contributing.develop_para2 %}</a> {% t contributing.develop_para3 %} <a href="https://github.com/monero-project/monero/issues">{% t contributing.develop_para4 %}</a></p>
+                        <p>{% t contributing.develop_para1 %} <a href="https://github.com/byterubpay">{% t contributing.develop_para2 %}</a> {% t contributing.develop_para3 %} <a href="https://github.com/byterubpay/monero/issues">{% t contributing.develop_para4 %}</a></p>
                         <h3>{% t contributing.full-node %}</h3>
                         <p>{% t contributing.full-node_para %}</p>
                         <h3>{% t contributing.mine %}</h3>

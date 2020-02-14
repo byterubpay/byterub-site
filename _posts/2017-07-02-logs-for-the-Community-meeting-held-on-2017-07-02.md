@@ -9,13 +9,13 @@ author: dEBRUYNE / fluffypony
 # Logs  
 
 **\<rehrar>** Alright, does everyone have their shrimp tacos?  
-**\<rehrar>**  Introduction Greetings Marketing discussion Monero site - final thoughts Updating social media pages Monero slogan Community Q&A: forced discussion by topic  
+**\<rehrar>**  Introduction Greetings Marketing discussion ByteRub site - final thoughts Updating social media pages ByteRub slogan Community Q&A: forced discussion by topic  
 **\<rehrar>** a. GUI/CLI  
 **\<rehrar>** b. Kovri  
 **\<rehrar>** c. Recent developments  
 **\<rehrar>** d. Roadmap Confirm next meeting date/time Conclusion  
 **\<rehrar>** oops fail  
-**\<rehrar>** https://github.com/monero-project/meta/issues/82  
+**\<rehrar>** https://github.com/byterubpay/meta/issues/82  
 **\<rehrar>** here is the agenda for today  
 **\<rehrar>** it's 12:30 so we can go ahead and get started  
 **\<rehrar>** 0. Introductions  
@@ -33,7 +33,7 @@ author: dEBRUYNE / fluffypony
 **\<CryptoSiD>** is this channel a safe space for liberals  
 **\<CryptoSiD>** :D  
 **\<rehrar>** Ok, pero has suggested we shuffle some things around cuz he has to go soon  
-**\<rehrar>** So we're going to start with 3. Monero site - final thoughts  
+**\<rehrar>** So we're going to start with 3. ByteRub site - final thoughts  
 **\<serhack>** Okay  
 **\<rehrar>** for those who don't know, here is the link to the test server: http://45.32.161.183/  
 **\<serhack>** First of all: I can tell that rehrar have done a good job!  
@@ -89,7 +89,7 @@ author: dEBRUYNE / fluffypony
 **\<CryptoSiD>** rehrar suggestion for the website, a "dark" version  
 **\<serhack>** we can't post merchants that sell drugs  
 **\<ArticMine>** We can go as is then then use the process to add a lot more content  
-**\<hyc>** oh hey. MoneroDirect should read "(non-US only)" - it is not Euro only.  
+**\<hyc>** oh hey. ByteRubDirect should read "(non-US only)" - it is not Euro only.  
 **\<netg>** what site are you talking about?  
 **\<ArticMine>** Change can be proposed vis the pr process  
 **\<CryptoSiD>** http://45.32.161.183/get-started/what-is-monero/  
@@ -102,7 +102,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** like...the website has a dark color scheme?  
 **\<netg>** going to be getmonero.org later?  
 **\<pero>** id also like to flag this  
-**\<pero>** https://github.com/monero-project/monero-site/issues/290  
+**\<pero>** https://github.com/byterubpay/monero-site/issues/290  
 **\<CryptoSiD>** yeah exactly  
 **\<rehrar>** yes netg  
 **\<pero>** need someone to do that server-side most likely  
@@ -160,9 +160,9 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** I would focus on god content and let Google do its thing  
 **\<pero>** yea  
 **\<netg>** +100  
-**\<sgp>** Last meeting, we discussed the transition of Monero Marketing to Monero Community, and it was met with general agreement. The logic is that most interested people want to spend time working on improving Monero, and only a few are primarily interested in marketing. In the past, the project received criticism from many Monero community members who are against marketing.  
+**\<sgp>** Last meeting, we discussed the transition of ByteRub Marketing to ByteRub Community, and it was met with general agreement. The logic is that most interested people want to spend time working on improving ByteRub, and only a few are primarily interested in marketing. In the past, the project received criticism from many ByteRub community members who are against marketing.  
 **\<rehrar>** you can take this point, we'll see how things continue :)  
-**\<sgp>** Some people have since voiced their concerns that the marketing project is being closed until further notice. They feel that marketing should live alongside community. I personally feel that the community involved only in marketing is too small, and those interested in marketing will be welcomed to share their ideas on Monero Community. However, if there are enough people interested in a separate marketing community, please express your  
+**\<sgp>** Some people have since voiced their concerns that the marketing project is being closed until further notice. They feel that marketing should live alongside community. I personally feel that the community involved only in marketing is too small, and those interested in marketing will be welcomed to share their ideas on ByteRub Community. However, if there are enough people interested in a separate marketing community, please express your  
 interest below. If it is strong enough, we may develop both communities simultaneously.  
 **\<serhack>** https://trends.google.com/trends/explore?q=monero  
 **\<pero>** there might be a seo arms race vs other shitcoins but odds are we just wont win that anyway if they decide to spend $ manipulating  
@@ -172,9 +172,9 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<netg>** no to generic stuff  
 **\<serhack>** and http://www.alexa.com/siteinfo/getmonero.org#trafficstats  
 **\<sgp>** Let's move the discussion to #2 for now. We can talk about the other stuff later if there is time  
-**\<rehrar>** Well from my understanding, we're going to be moving to a work-group oriented approach. Where there are different work groups for different aspects of Monero.  
+**\<rehrar>** Well from my understanding, we're going to be moving to a work-group oriented approach. Where there are different work groups for different aspects of ByteRub.  
 **\<netg>** like we had 2 years ago  
-**\<sgp>** I know fluffypony is in favor of keeping Monero Marketing separate. Does anyone have any strong opinions either way on this?  
+**\<sgp>** I know fluffypony is in favor of keeping ByteRub Marketing separate. Does anyone have any strong opinions either way on this?  
 **\<netg>** hhe  
 **\<hyc>** makes sense to me for marketing to be closely integrated with community  
 **\<rehrar>** Development is obviously one, Community is another, Marketing can be another, and even third-party development can be separate if we wanted  
@@ -186,17 +186,17 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<quickbasic>** Community is more important than marketing... A strong community will market itself organically.  
 **\<netg>** erg1: +10  
 **\<hyc>** fair enough. then I don't know what the distinction is btw Community and Marketing in our context.  
-**\<rehrar>** while I understand and agree to a point with what ArticMine and quickbasic are saying, I think there is a place for focused effort to go into making quality Monero content  
+**\<rehrar>** while I understand and agree to a point with what ArticMine and quickbasic are saying, I think there is a place for focused effort to go into making quality ByteRub content  
 **\<pigeons>** Even though I understand the broader and more benign definition of marketing, i worry about having a focus on that and the type of participants it attracts  
 **\<sgp>** @hyc for now with the current community size, I expect them to all fit nicely in one subreddit/channel at the moment  
 **\<rehrar>** may I give an example that I had given previously in markets about what strong marketing can be?  
 **\<hyc>** sgp: that's kinda what I thought  
 **\<ArticMine>** If we focus on community we will get the best markeing  
 **\<serhack>** I think we should spread monero as money like "Accept payment with monero" or something like this.  
-**\<rehrar>** Imagine a video that is made. Format doesn't matter. Graphics like Savandra or a talking head or whatever. Talking about privacy, why it's important, and the issues we face today that are privacy oriented. We don't even have to mention Monero. It's just privacy education.  
+**\<rehrar>** Imagine a video that is made. Format doesn't matter. Graphics like Savandra or a talking head or whatever. Talking about privacy, why it's important, and the issues we face today that are privacy oriented. We don't even have to mention ByteRub. It's just privacy education.  
 **\<erg1>** pigeons: yes, I agree.  My problem with "marketers" (promoters) is motivation.  Typically they only want to pump the price.  Far different than spreading the word on improving people's lives.  
 **\<ArticMine>** Those kind of things can be irritating  
-**\<rehrar>** At the very end, we have the Monero logo animation thing for three seconds.  
+**\<rehrar>** At the very end, we have the ByteRub logo animation thing for three seconds.  
 **\<quickbasic>** @rehrar I agree that there should be focused content with the purpose of marketing, but I believe it happens as result of leave communities.  
 **\<rehrar>** The end. Marketing can be educational in nature, but still come from us.  
 **\<quickbasic>** \*large  
@@ -207,13 +207,13 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<ArticMine>** Focus on customer service / support  
 **\<xmrscott>** Not to detract, but would here be a good place to also highlight the monero-support channel with all this multi channel discussion?  
 **\<netg>** dont accept people with their own agendas (pushing their private sites, their ego whatever)  
-**\<sgp>** Based on the discussion, it seems like Monero Marketing will currently stay a part of Monero Community unless there is an active movement and community to separate it. If someone wants to do this, let us know by PM, in monero-community or monero, and /r/MoneroCommunty or /r/Monero  
+**\<sgp>** Based on the discussion, it seems like ByteRub Marketing will currently stay a part of ByteRub Community unless there is an active movement and community to separate it. If someone wants to do this, let us know by PM, in monero-community or monero, and /r/ByteRubCommunty or /r/ByteRub  
 **\<hyc>** sounds fine  
 **\<ArticMine>** I agree  
-**\<sgp>** Moving on to #3: Monero Site – final thoughts  
+**\<sgp>** Moving on to #3: ByteRub Site – final thoughts  
 **\<hyc>** and agreed about developing more educational material  
-**\<sgp>** The new Monero website is nearing completion. We would like for you to share your final ideas. The new website is currently live at http://45.32.161.183/  
-**\<rehrar>** I still have hold of the Monero Marketing subreddit in case it needs to revive for whatever reason, so there's no big deal on whatever decision we make right now  
+**\<sgp>** The new ByteRub website is nearing completion. We would like for you to share your final ideas. The new website is currently live at http://45.32.161.183/  
+**\<rehrar>** I still have hold of the ByteRub Marketing subreddit in case it needs to revive for whatever reason, so there's no big deal on whatever decision we make right now  
 **\<rehrar>** already done the Site sgp  
 **\<sgp>** Some text can be updated, and we would like people to make improvements to the website. The guide for updating the repository is here https://github.com/rehrar/monero-site-framework/blob/master/website-documentation.md  
 **\<sgp>** (ok sorry)  
@@ -229,28 +229,28 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<floam412>** cryptochangement, agreed  
 **\<rehrar>** cryptochangement: shoot me a message, what doesn't work well?  
 **\<quickbasic>** Works okay on Chrome and Firefox mobile for me.  
-**\<sgp>** Monero has a Facebook and a Twitter page. https://www.facebook.com/monerocurrency/ & https://twitter.com/monerocurrency  
-**\<sgp>** They publish some great content overall, but I want to focus today on the background image for these sites. It’s basically just a web and explains nothing specific to Monero.  
-**\<sgp>** For anyone interested in a simple task, try making a simple background image and submit it to /r/MoneroCommunity or monero-community.  
-**\<sgp>** We will have further discussion about how these social sites can be used in the future, so if anyone is interested in how social media can be used to make Monero conversations more effective, please let any of the moderators (or create a post for the entire community to see) after the meeting.  
+**\<sgp>** ByteRub has a Facebook and a Twitter page. https://www.facebook.com/monerocurrency/ & https://twitter.com/monerocurrency  
+**\<sgp>** They publish some great content overall, but I want to focus today on the background image for these sites. It’s basically just a web and explains nothing specific to ByteRub.  
+**\<sgp>** For anyone interested in a simple task, try making a simple background image and submit it to /r/ByteRubCommunity or monero-community.  
+**\<sgp>** We will have further discussion about how these social sites can be used in the future, so if anyone is interested in how social media can be used to make ByteRub conversations more effective, please let any of the moderators (or create a post for the entire community to see) after the meeting.  
 **\<floam412>** maybe it was because I was using the default safari, but it came up in two small columns  
 **\<floam412>** the text that is  
 **\<cryptochangement>** rehrar it is purely a formatting issue that can be discussed after the meeting if thats easier  
 **\<pigeons>** xmrscott: yes good point support is and important community aspect  
-**\<sgp>** 5. Monero slogan  
-**\<sgp>** The Monero slogan is “secure private untraceable fungible”. I don’t think this is extremely effective, and there has been a lot of discussion in the community to change this slogan of sorts. I want this to be a quick brainstorming session to come up with a new one.  
-**\<ArticMine>** Facebook can be used to promote Monero but Monero should not be used to promote Facebook  
+**\<sgp>** 5. ByteRub slogan  
+**\<sgp>** The ByteRub slogan is “secure private untraceable fungible”. I don’t think this is extremely effective, and there has been a lot of discussion in the community to change this slogan of sorts. I want this to be a quick brainstorming session to come up with a new one.  
+**\<ArticMine>** Facebook can be used to promote ByteRub but ByteRub should not be used to promote Facebook  
 **\<sgp>** The slogan needs to appeal to 3 distinct groups: 1) those who care about privacy and have never used cryptocurrency, 2) those who don’t care about privacy and usually use credit, 3) those who have used Bitcoin before. It is hard to appeal to these groups.  
 **\<hyc>** What's the difference btw @monerocurrency and @moneroalert  
-**\<rehrar>** Monero: Facebook approved  
+**\<rehrar>** ByteRub: Facebook approved  
 **\<serhack>** rehrar ehehehe  
 **\<erg1>** "Mind your own business!"  
-**\<sgp>** @ArticMine I agree. We can use Monero as a tool for spreading the word about Monero, though obviously not encourage people to use Facebook  
+**\<sgp>** @ArticMine I agree. We can use ByteRub as a tool for spreading the word about ByteRub, though obviously not encourage people to use Facebook  
 **\<sgp>** In my opinion, the best replacement is “your safe money”. It’s not especially good, but I like using the word “safe” because it is a positive word that can mean something different to everyone. A privacy fanatic would consider safe to mean private, and someone who doesn’t care about privacy might see it as cool for its decentralization.  
-**\<serhack>** Monero, your bank, your privacy  
+**\<serhack>** ByteRub, your bank, your privacy  
 **\<sgp>** Anyway, it’s brainstorming time with those thoughts in mind!  
 **\<sgp>** share your thoughts  
-**\<rehrar>** Monero is digital cash. Meet Monero.  
+**\<rehrar>** ByteRub is digital cash. Meet ByteRub.  
 **\<rehrar>** dash.org  
 **\<rbrunner>** Anybody likes my idea to hold a little contest to decide on a slogan?  
 **\<cryptochangement>** spg i personally like "secure" better than "safe" because i think it fits monero better  
@@ -261,7 +261,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<netg>** with later voting the new one  
 **\<quickbasic>** Safe is better because it groks different for different people IMO.  
 **\<ArticMine>** They end up promoting Facebook  
-**\<ordtrogen>** @serhack: "Your Monero, your bank, your privacy"?  
+**\<ordtrogen>** @serhack: "Your ByteRub, your bank, your privacy"?  
 **\<pigeons>** and no change should be one of the options to choose  
 **\<serhack>** ordtrogen: nice  
 **\<hyc>** "Your money or your life"  
@@ -280,7 +280,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** We don't need to entirely replace the other slogan, but I think coming up with a new one that may or may not be used is a good thing  
 **\<ordtrogen>** otoh do any fiat currencies have slogans?  
 **\<hyc>** eh. short memorable taglines are helpful  
-**\<floam412>** "Monero: a private digital bank to do transact how you deem fit"  
+**\<floam412>** "ByteRub: a private digital bank to do transact how you deem fit"  
 **\<ordtrogen>** (not that we need to take after them)  
 **\<erg1>** I'm getting more comfortable with the current one, but "private" and "untraceable" seem somewhat redundant.  
 **\<floam412>** to transact\*  
@@ -297,7 +297,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<ordtrogen>** Ah, that's tru  
 **\<hyc>** or something  
 **\<cryptochangement>** floam412 fiat doesnt have to try to stand out from others becuase it is the only one accepted  
-**\<rehrar>** Monero: The first fungible digital currency  
+**\<rehrar>** ByteRub: The first fungible digital currency  
 **\<hyc>** E Pluribus Unum is the original USD slogan  
 **\<rehrar>** Yeah, let's do an Esparanto one  
 **\<ordtrogen>** Swedish "krona" used to have (in latin) "Hinc robur et securitas"  
@@ -321,7 +321,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<gingeropolous>** Next generation digital money  
 **\<hyc>** anyway, the more important point is fungibility, not privacy  
 **\<rehrar>** We still got plenty of time  
-**\<floam412>** "Monero: secure your funds with crypto moon math"  
+**\<floam412>** "ByteRub: secure your funds with crypto moon math"  
 **\<ArticMine>** Digital money for all  
 **\<ordtrogen>** Google translate says: "tie la forto kaj sekureco"  
 **\<cryptochangement>** hyc a lot of people dont even know what "fungible" means though  
@@ -338,7 +338,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<ArticMine>** and risto  
 **\<netg>** and a mailinglist, documentsharing on google docs  
 **\<netg>** etc.  
-**\<sgp>** I will make threads on /r/MoneroCommunity for more ideas, and the discussion can obviously continue later on in monero-community  
+**\<sgp>** I will make threads on /r/ByteRubCommunity for more ideas, and the discussion can obviously continue later on in monero-community  
 **\<sgp>** Moving on  
 **\<sgp>** 6. Community Q&A – forced discussion by topic  
 **\<sgp>** In this section, we will allow for Q&A by topic. When the topic comes up, please ask to be called on to ask a question. Each question will be answered individually before moving on to another person’s question. Please wait until you are called on to ask questions for organizational reasons.  
@@ -368,9 +368,9 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** Anyone have a question? Remember, don't ask it yet :p  
 **\<rehrar>** teacher   
 **\<sgp>** @rehrar lol yeah?  
-**\<rehrar>** I just want to get a general feel about Monero's understanding of Kovri, since it's pretty important.  
+**\<rehrar>** I just want to get a general feel about ByteRub's understanding of Kovri, since it's pretty important.  
 **\<rehrar>** Can I ask everyone present to give a 1-10 answer (1 being least and 10 being greatest)  
-**\<rehrar>** on how well they understand Kovri, what it is, and how it will help Monero  
+**\<rehrar>** on how well they understand Kovri, what it is, and how it will help ByteRub  
 **\<serhack>** 4  
 **\<ArticMine>** 9  
 **\<floam412>** 7  
@@ -411,8 +411,8 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<moneromooo>** At some point, yes.  
 **\<floam412>** like could/would it possibly be used to be a sort of "browser"?  
 **\<sgp>** That way the client can push the transaction broadcast out to other nodes with I2P  
-**\<XMRenthusiast>** Esperanto help offered today: https://www.reddit.com/r/Monero/comments/6ksny0/question_how_do_i_contribute_to_the_guis/  
-**\<rehrar>** The official idea is to route all Monero traffic (at least that comes from official wallets?) through the I2P network using Kovri  
+**\<XMRenthusiast>** Esperanto help offered today: https://www.reddit.com/r/ByteRub/comments/6ksny0/question_how_do_i_contribute_to_the_guis/  
+**\<rehrar>** The official idea is to route all ByteRub traffic (at least that comes from official wallets?) through the I2P network using Kovri  
 **\<ArticMine>** Transactions via I2P Blocks via IPv4 by default  
 **\<netg>** stupid idea  
 **\<sgp>** @rehrar I would say most broadcast data through I2P  
@@ -459,7 +459,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<rehrar>** netg, I may be in touch with you soon then, when I get translations up and running later  
 **\<XMRenthusiast>** we have this as a good starting point: https://lafudoci.gitbooks.io/monero-xmr/content/  
 **\<hyc>** great  
-**\<xmrscott>** Agrees, Monero isn't overly useful if the official docs aren't in Chinese  
+**\<xmrscott>** Agrees, ByteRub isn't overly useful if the official docs aren't in Chinese  
 **\<hyc>** that's traditional Chinese, not Simplified  
 **\<sgp>** @hyc thanks  
 **\<hyc>** still a good starting point  
@@ -501,7 +501,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<rehrar>** some people don't like that it's too official  
 **\<rehrar>** so maybe we can discuss it at the next meeting  
 **\<rehrar>** I will be rewriting a bit this week, but suggestions are welcome  
-**\<erg1>** "Monero: putting the Fun in Fungibility!"  
+**\<erg1>** "ByteRub: putting the Fun in Fungibility!"  
 **\<rehrar>** Anyways, sorry. If there are no other questions I would like to move on to 7 and try something different  
 **\<sgp>** @rehrar sure, make a post asking people to look over your new version before the next meeting  
 **\<sgp>** Yeah, move on  
@@ -513,7 +513,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<ArticMine>** Could we do this after the Kovri meeting?  
 **\<rehrar>** this is actually going to be a bit of a vote type thing  
 **\<rehrar>** ArticMine: that's what we're going to do  
-**\<rehrar>** we're going to have our very first Monero Community vote  
+**\<rehrar>** we're going to have our very first ByteRub Community vote  
 **\<rehrar>** voting is done via o/  
 **\<rehrar>** Option 1: Move the Community meeting to the same biweekly schedule as dev and Kovri meetings  
 **\<rehrar>** the pros are we get everything done in one day  

@@ -17,7 +17,7 @@ permalink: /press-kit/index.html
                     </div>
                 </div>
                 <div class="row center-xs">
-                    <img src="/press-kit/symbols/monero-symbol-480.png" alt="Monero Symbol" class="symbol-logo">
+                    <img src="/press-kit/symbols/monero-symbol-480.png" alt="ByteRub Symbol" class="symbol-logo">
                 </div>
                 <div class="row center-xs press">
                     <div class="col-md-6">
@@ -47,7 +47,7 @@ permalink: /press-kit/index.html
                 </div>
                 <div class="row center-xs">
                    <div class="col-xs-12">
-                       <img src="/press-kit/logos/monero-logo-480.png" alt="Monero Logo" class="monero-symbol-logo">
+                       <img src="/press-kit/logos/monero-logo-480.png" alt="ByteRub Logo" class="monero-symbol-logo">
                    </div>
                 </div>
                 <div class="row center-xs press">

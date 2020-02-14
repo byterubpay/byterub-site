@@ -11,7 +11,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Let's get the meeting started  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/257  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/257  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<suraeNoether>** howdy~  
@@ -242,7 +242,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<OsrsNeedsF2P>** The first is to really appeal to the other person and bring them over. Fighting and name calling is fun, but it doesn't win anyone over.  
 **\<rehrar>** sgp\_ can you link github issue for Diffusive?  
 **\<OsrsNeedsF2P>** The second is to absolutely make sure it does not affect the rest of the community.  
-**\<vp11>** Diffusive, https://github.com/monero-project/meta/issues/257  
+**\<vp11>** Diffusive, https://github.com/byterubpay/meta/issues/257  
 **\<Diffusive>** Thanks.  
 **\<vp11>** let's make it a private server on runescape with custom quests about monero :) jokes aside, since r/MoneroMarketing is just a redirect, I see no issue in giving it to OsrsNeedsF2P. he has shilled monero on r/Monero and r/CryptoCurrency a few times and has the potential to shill more. let's give the guy some ammo.  
 **\<sgp\_>** thanks vp11  

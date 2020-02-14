@@ -10,7 +10,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/298  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/298  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<rehrar>** HI GUIZ  
 **\<sgp\_>** This will probably be a relatively long meeting, so hang in there!  
@@ -26,7 +26,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<\_Slack> \<sean>** Hey  
 **\<sgp\_>** 2. Community highlights  
 **\<ErCiccione>** Hi  
-**\<sgp\_>** knaccc opened this excellent GitHub issue on I2P-java. I recommend reading it and participating in the discussion. We will mention another meeting on Kovri and Monero’s network privacy in a few minutes: https://github.com/monero-project/monero/issues/5070  
+**\<sgp\_>** knaccc opened this excellent GitHub issue on I2P-java. I recommend reading it and participating in the discussion. We will mention another meeting on Kovri and Monero’s network privacy in a few minutes: https://github.com/byterubpay/monero/issues/5070  
 **\<lurkinandlearnin>** Salutations  
 **\<sgp\_>** Breaking Monero episodes 3 (0-decoy and chain reactions), 4 (chain splits), and 5 (input selection algorithm) were released: https://www.youtube.com/watch?v=WOyC6OB6ezA&list=PLsSYUeVwrHBnAUre2G\_LYDsdo-tD0ov-y  
 **\<monerobux>** [ Breaking Monero Episode 01: Introduction - YouTube ] - www.youtube.com  
@@ -237,9 +237,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<lurkinandlearnin>** Yes just something for people to think about before some future meeting I guess  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 2 February at 17:00 UTC. I will be speaking at the Monero NYC meetup during this time, so I will unfortunately not be able to attend. I'm looking for others to run it (hint: rehrar, ErCiccione :))  
 **\<sgp\_>** The next Monero Coffee Chat will take place next Saturday on 26 January at 17:00 UTC. Apologies for needing to reschedule this one.  
-**\<sgp\_>** We will have a discussion on the future of payment IDs on 25 Friday at 17:00 UTC. Please be present if you would like to take place in this discussion. We would like to make a decision during this meeting, so please prepare your arguments ahead of time or include them in the GitHub issue: https://github.com/monero-project/meta/issues/299  
+**\<sgp\_>** We will have a discussion on the future of payment IDs on 25 Friday at 17:00 UTC. Please be present if you would like to take place in this discussion. We would like to make a decision during this meeting, so please prepare your arguments ahead of time or include them in the GitHub issue: https://github.com/byterubpay/meta/issues/299  
 **\<rehrar>** sure  
-**\<sgp\_>** ErCiccione is planning a meeting on Kovri and the state of Monero network privacy. Please participate in knaccc’s GitHub comment here: https://github.com/monero-project/monero/issues/5070. Furthermore, please fill out ErCiccione’s Doodle to schedule the meeting time ASAP: https://doodle.com/poll/a5592wfdsc6yretv  
+**\<sgp\_>** ErCiccione is planning a meeting on Kovri and the state of Monero network privacy. Please participate in knaccc’s GitHub comment here: https://github.com/byterubpay/monero/issues/5070. Furthermore, please fill out ErCiccione’s Doodle to schedule the meeting time ASAP: https://doodle.com/poll/a5592wfdsc6yretv  
 **\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 10. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  

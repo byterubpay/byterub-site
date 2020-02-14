@@ -1,6 +1,6 @@
 email: dev@getmonero.org
-name: Monero
-description: Monero is a digital currency that is secure, private, and untraceable.
+name: ByteRub
+description: ByteRub is a digital currency that is secure, private, and untraceable.
 keywords: "monero, xmr, bitmonero, cryptocurrency"
 baseurl: "https://getmonero.org"
 url: "https://getmonero.org"

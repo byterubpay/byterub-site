@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Logs for the Kovri Dev Meeting Held on 2016-10-02
-summary: Brief review of what has been completed since last meeting, Salti (a Firefox extension similiar to the Tor Browser Bundle), Kovri Logo, code & open tickets discussion, Kovri API discussion, Kovri and Monero integration
+summary: Brief review of what has been completed since last meeting, Salti (a Firefox extension similiar to the Tor Browser Bundle), Kovri Logo, code & open tickets discussion, Kovri API discussion, Kovri and ByteRub integration
 tags: [dev diaries, i2p, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 ### Overview
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-and-kovri-dev-meeting-note-highlights-2016-10-02)
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-and-kovri-dev-meeting-note-highlights-2016-10-02)
 
 ### Logs
 
@@ -278,7 +278,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<meeting-bot> [EinMByte]** Can you create the issue? If so, let's move on to 7  
 **\<meeting-bot> [anonimal]** Done, #385  
 **\<meeting-bot> [anonimal]** 7. API discussion with #monero-dev (#350 #351)  
-**\<meeting-bot> [EinMByte]** Monero developers here?  
+**\<meeting-bot> [EinMByte]** ByteRub developers here?  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** Yes  
 **\<meeting-bot> [EinMByte]** What I mainly want is a clear set of requirements for the API  
 **\<meeting-bot> [i2p-relay] {-moneromooo}** Oh I see. Oh. Hmm.  
@@ -407,7 +407,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<meeting-bot> [i2p-relay] {-moneromooo}** IIRC that p2p code is also kinda new and unfinished.  
 **\<fluffypony>** so I don't know if we should waste much time on analysis of it, or rather look at i2p as a ZMTP transport  
 **\<fluffypony>** which could be a VERY nice generalised solution  
-**\<fluffypony>** that isn't Monero-specific  
+**\<fluffypony>** that isn't ByteRub-specific  
 **\<meeting-bot> [anonimal]** Ok, I'll add API for first thing next meeting.  
 **\<meeting-bot> [anonimal]** Anything else for 7.?  
 **\<fluffypony>** nope  

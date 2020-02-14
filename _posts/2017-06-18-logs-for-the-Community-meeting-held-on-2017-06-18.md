@@ -18,17 +18,17 @@ author: Justin Ehrenhofer (sgp_) / afighttilldeath / el00ruobuob
 **\<sgp\_>** Ok, starting the meeting!  
 **\<sgp\_>** 0. Introduction  
 **\<ArticMine>** So we are starting the meeting  
-**\<sgp\_>** My friends @rehrar and @dEBRUYNE_1 and I would like to welcome you to the very first Monero Community meeting!  
+**\<sgp\_>** My friends @rehrar and @dEBRUYNE_1 and I would like to welcome you to the very first ByteRub Community meeting!  
 **\<pumppp>** \*grabs popcorn  
 **\<bgmrkbtc>** yay!  
 **\<ArticMine>** hi  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/79  
-**\AUTOMATED RESPONSE\_>** Community Meeting: 18 June 2017 18:30 UTC · Issue #79 · monero-project/meta  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/79  
+**\AUTOMATED RESPONSE\_>** Community Meeting: 18 June 2017 18:30 UTC · Issue #79 · byterubpay/meta  
 Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculator to convert UTC to your time zone. GMT 18:30 ICT (Bangkok) 01:30 EDT (New York) 14:30 CDT (Dallas) 13:30 PDT (San...  
 **\<rehrar>** What up peeps?  
 **\<serhack>** Hello  
 **\<magic\_circle>** Hi!  
-**\<sgp\_>** Monero Community meetings intend to be a discussion place for anything going on in the Monero Community. We plan to use this meeting and future meetings to encourage the community to share ideas and provide support.  
+**\<sgp\_>** ByteRub Community meetings intend to be a discussion place for anything going on in the ByteRub Community. We plan to use this meeting and future meetings to encourage the community to share ideas and provide support.  
 **\<cryptochangements>** Hey errybody  
 **\<ajs>** Sup  
 **\<serhack>** Nice sgp_  
@@ -45,10 +45,10 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<gym7rjm>** Hi, I'm here too  
 **\<dEBRUYNE>** urza[m]: If you need help, feel free to PM me  
 **\<rehrar>** The idea for these community meetings arose from the fact that there is no place for the community to share their thoughts and ideas. We have dev meetings, and we'd rather not take up their time as they have important code stuff to go over.  
-**\<rehrar>** But at the same time, Monero is nothing without the community. So we organized these meetings, and we will be collecting feedback on them afterwards.  
+**\<rehrar>** But at the same time, ByteRub is nothing without the community. So we organized these meetings, and we will be collecting feedback on them afterwards.  
 **\<vdo>** ack  
-**\<serhack>** Monero is based on community  
-**\<rehrar>** We want to improve this to a place where the community can have a voice as to the happenings of Monero  
+**\<serhack>** ByteRub is based on community  
+**\<rehrar>** We want to improve this to a place where the community can have a voice as to the happenings of ByteRub  
 **\<rehrar>** So feel free to participate. This meeting will be a bit informative in nature. SGP got some stuff planned.  
 **\<rehrar>** take it away dude  
 **\<gingeropolous>** semantics, but there's a place (#monero, anywhere)... there's just not a time when everyones online together :)  
@@ -65,11 +65,11 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<0ak3y22>** Hi  
 **\<thefuzzstone>** @dEBRUYNE -- +1  
 **\<sgp\_>** Ok, moving on. Thanks everyone for coming  
-**\<sgp\_>** 2. Explanation of Monero Community Values and Goals  
-**\<sgp\_>** Monero is more than just an open-source project. It’s a project of extreme significance. It is the best implementation of privacy in digital money today.  
-**\<sgp\_>** For Monero to be truly impactful, a lot of work still needs to happen. Developers will always be needed to improve Monero’s efficiency, speed, and privacy. New communities in different languages must form. And of course, more people need to use Monero, if only to increase the anonymity set.  
-**\<sgp\_>** With more interest in Monero brings more development. This means more eyes auditing the code, more people giving local presentations about Monero, and more people understanding the underlying technology. Most importantly, it gives these people a choice of digital economic freedom.  
-**\<sgp\_>** The goals of this unofficial, casual group are still to be determined. However, the ultimate goal is providing Monero with the resources needed to be technologically advanced and adopted by a significant number of people. We hope to organize more individual campaigns in the future, such as one to market Kovri.  
+**\<sgp\_>** 2. Explanation of ByteRub Community Values and Goals  
+**\<sgp\_>** ByteRub is more than just an open-source project. It’s a project of extreme significance. It is the best implementation of privacy in digital money today.  
+**\<sgp\_>** For ByteRub to be truly impactful, a lot of work still needs to happen. Developers will always be needed to improve ByteRub’s efficiency, speed, and privacy. New communities in different languages must form. And of course, more people need to use ByteRub, if only to increase the anonymity set.  
+**\<sgp\_>** With more interest in ByteRub brings more development. This means more eyes auditing the code, more people giving local presentations about ByteRub, and more people understanding the underlying technology. Most importantly, it gives these people a choice of digital economic freedom.  
+**\<sgp\_>** The goals of this unofficial, casual group are still to be determined. However, the ultimate goal is providing ByteRub with the resources needed to be technologically advanced and adopted by a significant number of people. We hope to organize more individual campaigns in the future, such as one to market Kovri.  
 **\<sgp\_>** Anything unclear or contentious?  
 **\<bgmrkbtc>** nope  
 **\<p0nziph0ne>** nö  
@@ -78,13 +78,13 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<antw081>** agreed  
 **\<Diffusive>** right  
 **\<pumppp>** Kovri meaning?  
-**\<bgmrkbtc>** "Monero’s efficiency, speed, and privacy" noticed usability isn't listed, are these things you just pulled out of your head as exampleS?  
+**\<bgmrkbtc>** "ByteRub’s efficiency, speed, and privacy" noticed usability isn't listed, are these things you just pulled out of your head as exampleS?  
 **\<rehrar>** I will be talking about Kovri later in the meeting pumppp :)  
-**\<Diffusive>** Kovri is the implementation of i2p on Monero  
+**\<Diffusive>** Kovri is the implementation of i2p on ByteRub  
 **\<sgp\_>** @bgmrkbtc good catch. I simply forgot it  
 **\<bgmrkbtc>** nice  
 **\<Diffusive>** Hides your IP...  
-**\<sgp\_>** Yes, Monero should be easy to use  
+**\<sgp\_>** Yes, ByteRub should be easy to use  
 **\<pumppp>** Cool @rehrar  
 **\<ArticMine>** and universal  
 **\<bgmrkbtc>** usability i think is most imporatant (assuming devs believe code is ready to scale)  
@@ -97,7 +97,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<sgp\_>** https://forum.getmonero.org/8/funding-required/87757/funding-for-a-monero-subforum-on-the-largest-chinese-btc-forum-8btc  
 **\<vdo>** I arrived late one more time! what happens with the overfunded xmr?  
 **\<serhack>** thanks community  
-**\<Diffusive>** it's awesome that people are fully into Monero, supporting initiatives  
+**\<Diffusive>** it's awesome that people are fully into ByteRub, supporting initiatives  
 **\<rbrunner>** 你好  
 **\<antw081>** overfund goes to general dev fund i think  
 **\<ally>** hen hao  
@@ -119,15 +119,15 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<rehrar>** but that's not up to me, I guess. :)  
 **\<sgp\_>** @pumppp news later about that  
 **\<pumppp>** +1  
-**\<sgp\_>** I want to discuss some local activity going on with Monero in June and July. It is important that local communities exist to discuss Monero. These groups make it easier for new members to learn about Monero in a more personal setting.  
+**\<sgp\_>** I want to discuss some local activity going on with ByteRub in June and July. It is important that local communities exist to discuss ByteRub. These groups make it easier for new members to learn about ByteRub in a more personal setting.  
 **\<sgp\_>** There should be a meeting next week in Edinburgh, UK on June 22 or 23. The meetup is approaching quickly, and I still need to plan the last details. If anyone knows someone from this area, please let me know after the meeting. There were some logistical issues when trying to coordinate with their local Bitcoin group that only became apparent after I had committed to going there :/  
 **\<bgmrkbtc>** what do you envision from local meetups? just sit and discuss? or presentations?  
 **\<dEBRUYNE>** Imo it'd be prudent to sent back overfunded XMR to the core-team's donation address, such that they can contribute in future proposals as well  
 **\<sgp\_>** There will be a meetup in Dublin, Ireland on June 26. I am still choosing the location https://www.meetup.com/Bitcoin-Dublin/events/240152422/ (edited)  
 **\<sgp\_>** There will be a meetup in Barcelona, Spain on July 10.  
 **\<sgp\_>** There will be a meetup in Brussels, Belgium on July 12 https://www.meetup.com/Blockchain-Brussels/events/240786181/ (edited)  
-**\<thefuzzstone>** Yep, agree about local communities (I'm form Monero-RU team), at July at /r/Monero will be publish our next report about our work  
-**\<sgp\_>** There will be a meetup in Berlin, Germany on July 13 https://www.meetup.com/Monero-Berlin/events/240704245/ (edited)  
+**\<thefuzzstone>** Yep, agree about local communities (I'm form ByteRub-RU team), at July at /r/ByteRub will be publish our next report about our work  
+**\<sgp\_>** There will be a meetup in Berlin, Germany on July 13 https://www.meetup.com/ByteRub-Berlin/events/240704245/ (edited)  
 **\<rehrar>** The new website will have an Events page where all of these can be put on and updated easily, btw. :)  
 **\<sgp\_>** And those are all I know about for now :)  
 **\<Skorpion7777>** Meetup in berlin. Thats awesome!  
@@ -139,7 +139,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<serhack>** yeah Beispielhaft  
 **\<bgmrkbtc>** it is important to have meetups be as regular as possible, it just takes 2 people to meet up at the same spot on a regular basis to form a community  
 **\<pumppp>** @rehrar, Soon what?  
-**\<rehrar>** Monero is an initiative-based project. If we want meetups in the US, someone can organize  
+**\<rehrar>** ByteRub is an initiative-based project. If we want meetups in the US, someone can organize  
 **\<Diffusive>** @rehrar, will be cool to have it, Mozilla have something similar, since i'm part of that community i can ask them about the soft  
 **\<rehrar>** anyone can do it  
 **\<sgp\_>** @vdo that's a different Barcelona meetup. I'm talking to a different Barcelona group and they are getting the details finalized  
@@ -152,34 +152,34 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<pumppp>** @rehrar, That's great, shiny new armour  
 **\<Diffusive>** Soon(tm)  
 **\<rehrar>** ^  
-**\<sgp\_>** If you live in a city that has not had a local Monero meetup yet, seriously just start one yourself. I will write a guide around the end of the summer explaining some of the tricks I have used, but it’s easy and beneficial to meet at a bar once a month and talk.  
+**\<sgp\_>** If you live in a city that has not had a local ByteRub meetup yet, seriously just start one yourself. I will write a guide around the end of the summer explaining some of the tricks I have used, but it’s easy and beneficial to meet at a bar once a month and talk.  
 **\<sgp\_>** It doesn't need to be anything formal to start  
-**\<rehrar>** You don't even have to talk about Monero.  
+**\<rehrar>** You don't even have to talk about ByteRub.  
 **\<ally>** About the meetups, are they bitcoin meetups with a monero section or all-monero  
 **\<ally>** ?  
 **\<rehrar>** Dash is the only topic that is banned  
-**\<sgp\_>** So take the pressure off and just have fun talking with people about Monero!  
+**\<sgp\_>** So take the pressure off and just have fun talking with people about ByteRub!  
 **\<pumppp>** @rehrar, Lol  
 **\<Diffusive>** kek  
 **\<bgmrkbtc>** @rehrar lol  
 **\<greycrasan>** on the world map of nodes i saw one more node in my country besides me :D  
 **\<Diffusive>** zca$h is allowed?  
-**\<sgp\_>** @ally most of these meetups are about Monero at a Bitcoin/Blockchain meetup, but soem are at dedicated Monero groups (like the Berlin one)  
+**\<sgp\_>** @ally most of these meetups are about ByteRub at a Bitcoin/Blockchain meetup, but soem are at dedicated ByteRub groups (like the Berlin one)  
 **\<rehrar>** only if it's praise Diffusive  
 **\<greycrasan>** i want to meet that other guy  
 **\<cryptochangements>** Diffusive sure if you want to tell people not to do  
 **\<rehrar>** serious answer  
-**\<sgp\_>** Unless anyone else has any Monero events to share, we can move on  
+**\<sgp\_>** Unless anyone else has any ByteRub events to share, we can move on  
 **\<rehrar>** we obviously have no way or desire to control your conversations that you have when you come together  
 **\<bgmrkbtc>** Looking forward to that guide @sgp_  
 **\<pumppp>** I see there isn't much of any Mondeo events in Asia?  
 **\<rehrar>** @ajs, we can talk about Houston :) if someone else comes from that section  
-**\<pumppp>** Monero*  
+**\<pumppp>** ByteRub*  
 **\<sgp\_>** @pumppp not yet!  
 **\<ArticMine>** The 8BTC proposal may help with that  
 **\<gym7rjm>** AsianHouseShrew is from Singapore and mentioned he was trying to get something together  
 **\<pumppp>** Ok , soon  
-**\<sgp\_>** There definitely should be though. With the new FFS proposal and new translations coming in, it should be easier to get people interested in Monero  
+**\<sgp\_>** There definitely should be though. With the new FFS proposal and new translations coming in, it should be easier to get people interested in ByteRub  
 **\<cryptochangements>** Anyone know how soon the 8BTC thing will be implemented?  
 **\<Diffusive>** pumppp i hope with that FFS of the 8BTC will be more in Asia  
 **\<sgp\_>** @cryptochangements no idea, sorry  
@@ -192,28 +192,28 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<Diffusive>** I can do speaks at teach events, but about the teach, so i'll look into it  
 **\<Diffusive>** tech*  
 **\<rehrar>** Aight dudes, Kovri.  
-**\<rehrar>** https://github.com/monero-project/kovri  
-**\<sgp\_>** To those who don't know, Kovri will hide the transaction broadcast for Monero in I2P (similar to Tor). It will protect your IP and increase censorship resistance  
+**\<rehrar>** https://github.com/byterubpay/kovri  
+**\<sgp\_>** To those who don't know, Kovri will hide the transaction broadcast for ByteRub in I2P (similar to Tor). It will protect your IP and increase censorship resistance  
 **\<rehrar>** Kovri is a fork of i2pd, and is a C++ implementation of the Java I2P router  
 **\<bgmrkbtc>** so it will be directly integrated into monero? or work on top of it?  
 **\<rehrar>** They will be integrated into each other  
 **\<bgmrkbtc>** nice  
-**\<rehrar>** so Kovri will help the I2P network and I2P will help Monero  
+**\<rehrar>** so Kovri will help the I2P network and I2P will help ByteRub  
 **\<bgmrkbtc>** would that slow down the monero network?  
 **\<rehrar>** basically, when you send a transaction, I2P will hide your IP address, increasing privacy  
-**\<rehrar>** and in turn, Monero wallets will act as I2P nodes  
+**\<rehrar>** and in turn, ByteRub wallets will act as I2P nodes  
 **\<cryptochangements>** So will there be a general API for kovri that monero uses or will there be extra work to get it to work specifically with monero?  
 **\<rehrar>** increasing the security of both networks  
 **\<bgmrkbtc>** also, why I2p rather than tor?  
 **\<vdo>** at some point, kovri will be bundled with monero and it will be mandatory, right?  
-**\<Diffusive>** Monero will work on top of Kovri  
+**\<Diffusive>** ByteRub will work on top of Kovri  
 **\<rehrar>** That's a good question. They're two different protocols, and @anonimal breaks it down pretty well  
 **\<BonAmiko>** Isn't I2P currently weak due to low usage?  
 **\<pumppp>** Tor has loopholes  
 **\<rehrar>** Tor has some elements of centralization, such as DNS  
 **\<rehrar>** hold up, lemme grab the link  
 **\<sgp\_>** Lots of great questions, everyone  
-**\<Diffusive>** Kovri will have an API that will work with other software or standalone, and the same with Monero.  
+**\<Diffusive>** Kovri will have an API that will work with other software or standalone, and the same with ByteRub.  
 **\<ArticMine>** The transactions are sent over I2P  
 **\<pumppp>** Kovri ETA ?  
 **\<rehrar>** https://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread  
@@ -223,13 +223,13 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<ArticMine>** but the node synchronizes over clear net to avoid attacks  
 **\<bgmrkbtc>** so IP addresses of all nodes could be collected?  
 **\<rehrar>** I2P also has a few differences from Tor. They're not the same, and they don't access the same hidden services  
-**\<sgp\_>** There will be an API for Kovri that any project can use, _including_ (but not limited to) Monero  
-**\<ArticMine>** So the Monero node has to act as a router  
+**\<sgp\_>** There will be an API for Kovri that any project can use, _including_ (but not limited to) ByteRub  
+**\<ArticMine>** So the ByteRub node has to act as a router  
 **\<pumppp>** @Diffusive, Does that mean kovri can be used with other Altcoins too?  
 **\<rehrar>** But here's the cool thing. And the reason I'm super excited about Kovri.  
-**\<rehrar>** Kovri will not just be for Monero  
-**\<Diffusive>** The only privacy weak point of Monero is just that, your IP is used when sent to the tx  
-**\<rehrar>** anyone can download it and use it, even if they have never heard of Monero  
+**\<rehrar>** Kovri will not just be for ByteRub  
+**\<Diffusive>** The only privacy weak point of ByteRub is just that, your IP is used when sent to the tx  
+**\<rehrar>** anyone can download it and use it, even if they have never heard of ByteRub  
 **\<bgmrkbtc>** kovri plug in for browser? rather than stand along browser?  
 **\<Olufunmilayo>** can you still use tor instead of i2p if you @wanted to or will tor use with monero be impossible?  
 **\<bgmrkbtc>** \*alone  
@@ -237,7 +237,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<Diffusive>** pumppp, yes, you can work with Kovri in another stuff, just like Tor or i2pd  
 **\<bgmrkbtc>** so kovri is like the final piece of the privacy puzzle for now?  
 **\<rehrar>** Kovri is unlike anything I've encountered in the cryptospace, because it's the only semi-alturistic offering I've ever seen from a crypto project  
-**\<rehrar>** Anyone will be able to use the Kovri router, regardless of Monero usage  
+**\<rehrar>** Anyone will be able to use the Kovri router, regardless of ByteRub usage  
 **\<Diffusive>** Remember that when you use this kind of software you're redirecting the traffic to SOCKS, you can control just an app like Firefox, to work with it and the other with your normal network  
 **\<pumppp>** @rehrar, Anyone apart from XMR community working on kovri?  
 **\<rehrar>** and given enough time, a browser bundle and more is not out of the question  
@@ -252,7 +252,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<rehrar>** everyone is free to go to #kovri and ask questions  
 **\<Beispielhaft>** btw is this an offical cooperation with the i2p guys?  
 **\<ally>**  
-**\<sgp\_>** @bgmrkbtc alpha release soon^TM , but you can download some test binaries now. Alpha will let you connect to I2P network, but not have any integration with Monero  
+**\<sgp\_>** @bgmrkbtc alpha release soon^TM , but you can download some test binaries now. Alpha will let you connect to I2P network, but not have any integration with ByteRub  
 **\<rehrar>** We're not on bad terms, to my knowledge  
 **\<gym7rjm>** @rehrar thx Ill go ask in #kovri  
 **\<rehrar>** yeah, feel free to go to getkovri.org  
@@ -266,7 +266,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<Diffusive>** gethhh, people want full privacy.  
 **\<fluffypony>** gethhh: too paranoid??  
 **\<sgp\_>** @gym7rjm yes, traffic can be limited. With the help of fluffy blocks, bandwidth usage should only increase by a little bit  
-**\<rehrar>** We want there to be ZERO weak points in the privacy of Monero  
+**\<rehrar>** We want there to be ZERO weak points in the privacy of ByteRub  
 **\<fluffypony>** have you met my friend, the state-grade attacker?  
 **\<gethhh APP>** well I see it as an option for some people not mandatory  
 **\<rehrar>** And if there is a weakness, we want to find a solution  
@@ -279,11 +279,11 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<Diffusive>** There's a hackerone too  
 **\<Diffusive>** For monero  
 **\<rehrar>** again, for more info, see getkovri.org or ask questions in #kovri  
-**\<sgp\_>** To prevent this from getting too side-tracked (though it is good discussion), let's limit the Q&A until the end and let @rehrar get back to how Kovri can help the Monero community  
-**\<rehrar>** it's honestly one of the most exciting projects, and I'm thrilled that Monero is tackling this big thing  
+**\<sgp\_>** To prevent this from getting too side-tracked (though it is good discussion), let's limit the Q&A until the end and let @rehrar get back to how Kovri can help the ByteRub community  
+**\<rehrar>** it's honestly one of the most exciting projects, and I'm thrilled that ByteRub is tackling this big thing  
 **\<cryptochangements>** ^ +1  
 **\<Diffusive>** Remember that there's a Kovri meetup too.  
-**\<rehrar>** Because Kovri is being offered not just as a Monero thing, any coin can take it and implement it  
+**\<rehrar>** Because Kovri is being offered not just as a ByteRub thing, any coin can take it and implement it  
 **\<joelsolo99>** My opinion is that if Kovri isn't mandatory then using it would seem suspicious  
 **\<rehrar>** it's actually made to be quite light-weight, and so is good to build applications on top of  
 **\<pumppp>** @rehrar, I will only accept XMR as completely private when it makes me invisible when I log into the wallet  
@@ -320,7 +320,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<rehrar>** is very important  
 **\<rehrar>** and strengthening the I2P network is a great endeavor  
 **\<bgmrkbtc>** i like the idea of monero nodes helping i2p network  
-**\<rehrar>** With this project, Monero is advocating for more and better privacy options around the globe  
+**\<rehrar>** With this project, ByteRub is advocating for more and better privacy options around the globe  
 **\<rehrar>** and with that I'm done. :)  
 **\<bgmrkbtc>** and not just in the currency field  
 **\<pero>** shill  
@@ -354,7 +354,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<Diffusive>** it works with Jekyll  
 **\<vdo>** Diffusive: there's linguist-qt5  
 **\<vdo>** for the gui  
-**\<sgp\_>** @thefuzzstone ask @rehrar after the meeting for how you can help with the Kovri site, but it will be very similar to the Monero site since they use the same framework  
+**\<sgp\_>** @thefuzzstone ask @rehrar after the meeting for how you can help with the Kovri site, but it will be very similar to the ByteRub site since they use the same framework  
 **\<Diffusive>** For the website, at Mozilla we've done something similar, getting the strings and making into jekyll tranlations strings.  
 **\<sgp\_>** Now that leads us to the most important part...............  
 **\<sgp\_>** 6. Organization Announcement  
@@ -363,7 +363,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<rehrar>** it's beyond huge  
 **\<Diffusive>** Pump it baby  
 **\<rehrar>** earth shattering  
-**\<sgp\_>** Monero Marketing is rebranding. We feel that marketing doesn’t explain what our mission is. Thus, /r/MoneroMarketing will be migrating to /r/MoneroCommunity.  
+**\<sgp\_>** ByteRub Marketing is rebranding. We feel that marketing doesn’t explain what our mission is. Thus, /r/ByteRubMarketing will be migrating to /r/ByteRubCommunity.  
 **\<antw081>** .MAJOR  
 **\<serhack>** oh  
 **\<unknownids>** lol.  
@@ -374,10 +374,10 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<ally>** that  
 **\<vdo>** +1 to that  
 **\<vdo>** monero is against crypto marketing imho  
-**\<sgp\_>** You may notice this meeting is the Monero Community meeting, not the Monero Marketing meeting. So, this shouldn’t be incredibly shocking to anyone here.  
+**\<sgp\_>** You may notice this meeting is the ByteRub Community meeting, not the ByteRub Marketing meeting. So, this shouldn’t be incredibly shocking to anyone here.  
 **\<rehrar>** the slack and irc are relayed into each other  as other channels  
 **\<serhack>** oh good!  
-**\<sgp\_>** Monero Community will continue marketing efforts (in a way, we will be marketing Kovri to other cryptocurrencies, even if we are only suggesting an improvement to their technology).  
+**\<sgp\_>** ByteRub Community will continue marketing efforts (in a way, we will be marketing Kovri to other cryptocurrencies, even if we are only suggesting an improvement to their technology).  
 **\<Diffusive>** i don't feel slack is nice for a privacy project xD  
 **\<rehrar>** I'm looking into Matter Most Diffusive  
 **\<rehrar>** open source version  
@@ -389,9 +389,9 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<Diffusive>** Telegram is nice, can i have the link to join?  
 **\<serhack>** rehrar: I am a sysadmin too  
 **\<Diffusive>** I use it for my other comms  
-**\<sgp\_>** At the end of the day, the only argument supporting Monero Marketing is alliteration. However, we would like to hear your thoughts below.  
+**\<sgp\_>** At the end of the day, the only argument supporting ByteRub Marketing is alliteration. However, we would like to hear your thoughts below.  
 **\<pumppp>** Diffusive https://t.me/bitmonero  
-**\<rbrunner>** Don't forget to link to /r/MoneroCommunity from /r/Monero (sidebar, listing of Monero-related reddits)  
+**\<rbrunner>** Don't forget to link to /r/ByteRubCommunity from /r/ByteRub (sidebar, listing of ByteRub-related reddits)  
 **\<serhack>** I think I can setup mattermost for Kovri and monero  
 **\<rehrar>** I happen to like alliteration  
 **\<sgp\_>** Sounds like everyone was in support of it though  
@@ -415,16 +415,16 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<serhack>** we need a vps for mattermost  
 **\<ally>** I prefer Community to Marketing  
 **\<Diffusive>** how about moneroworld?  
-**\<rehrar>** in an ideal Monero world, the community is doing all the marketing, so they grow together actually  
+**\<rehrar>** in an ideal ByteRub world, the community is doing all the marketing, so they grow together actually  
 **\<tamfire>** I have a few low tier servers laying around for what its worth  
 **\<serhack>** how many people are we?  
 **\<vdo>** but it's important to remark that profit is not the goal, is a medium  
 **\<ArticMine>** Community growth is the most effective from of marketing  
 **\<gym7rjm>** cool I like it. lets stop arguing about "Marketing" semantics and work to grow the community!  
-**\<dEBRUYNE>** <rbrunner> Don't forget to link to /r/MoneroCommunity from /r/Monero (sidebar, listing of Monero-related reddits) <= I'll add it tomorrow  
+**\<dEBRUYNE>** <rbrunner> Don't forget to link to /r/ByteRubCommunity from /r/ByteRub (sidebar, listing of ByteRub-related reddits) <= I'll add it tomorrow  
 **\<cryptochangements>** ^  
 **\<Diffusive>** I like the idea  
-**\<antw081>** Monero Community Fund?  
+**\<antw081>** ByteRub Community Fund?  
 **\<sgp\_>** no  
 **\<sgp\_>** Will still use the FFS on a project-by-project basis  
 **\<Diffusive>** FFS to fund a VPS to have the Mm on  
@@ -441,7 +441,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<rehrar>** ye pero  
 **\<pero>** can the monero corporation hire some mods for the reddit please  
 **\<serhack>** I can help with setupping mattermost and developing web integrations  
-**\<sgp\_>** Any last thoughts on the move to /r/MoneroCommunity and use of IRC #monero-community?  
+**\<sgp\_>** Any last thoughts on the move to /r/ByteRubCommunity and use of IRC #monero-community?  
 **\<pero>** thanks  
 **\<serhack>** my first milestone is almost finished  
 **\<pumppp>** @\_Slack> <sgp\_, Community is free marketing  
@@ -455,14 +455,14 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<pumppp>** Gj*  
 **\<Diffusive>** The monero foundation  
 **\<sgp\_>** 7. Open Idea Sharing and Discussion  
-**\<\x\>** Monero Enterprise Alliance  
-**\<gym7rjm>** I have a new topic I would like to introduce... An idea that I've been working on the last month or so - Monero Integration on ATM  
+**\<\x\>** ByteRub Enterprise Alliance  
+**\<gym7rjm>** I have a new topic I would like to introduce... An idea that I've been working on the last month or so - ByteRub Integration on ATM  
 **\<sgp\_>** As the title suggests, it’s time to openly discuss ideas you have! In the future, this portion will probably take up a greater proportion of the total meeting time. We needed to get some first-time stuff out of the way for this one :p  
-**\<Diffusive>** Direct competitor of Monero Enterprice Aliance.  
+**\<Diffusive>** Direct competitor of ByteRub Enterprice Aliance.  
 **\<rehrar>** future meetings will probably err towards more open ideas sharing  
 **\<Diffusive>** gym7rjm, i see it far far away  
 **\<rehrar>** you can come prepared to share something, or wing it if you have ideas  
-**\<gym7rjm>** I've been speaking with the CEO of Lamassu Bitcion ATM's about the possibility of integrating Monero  
+**\<gym7rjm>** I've been speaking with the CEO of Lamassu Bitcion ATM's about the possibility of integrating ByteRub  
 **\<bgmrkbtc>** @gym7rjm I agree, most BTMs work against monero though as they need at least a phone number  
 **\<pero>** <pero> can the monero corporation hire some mods for the reddit please  
 **\<rehrar>** this is a place to make your ideas heard! BEcause we know the best ideas come from the community  
@@ -563,10 +563,10 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<serhack>** I need the numbers of users on slack  
 **\<rehrar>** I'll work on setting it up per  
 **\<rehrar>** \*pero  
-**\<Diffusive>** People just don't use other subreddits, they always go to /r/Monero  
+**\<Diffusive>** People just don't use other subreddits, they always go to /r/ByteRub  
 **\<cryptochangements>** I don't think a new support sub would be very effective because most noobs just go to the main sub  
 **\<serhack>** 500? 1000?  
-**\<Diffusive>** To the outsiders /r/Monero is the ONLY sub  
+**\<Diffusive>** To the outsiders /r/ByteRub is the ONLY sub  
 **\<pero>** yes did you not listen  
 **\<pero>** tech support question go there  
 **\<antw081>** need a bot on main sub, to redirect  
@@ -609,7 +609,7 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<rehrar>** One thing I want to say about the next meeting  
 **\<bgmrkbtc>** do we have people that aren't the devs managing the community?  
 **\<rehrar>** there was a person or two that was disappointed about the time, which is very late for people across the world  
-**\<rehrar>** this does not have to the the only Monero Community meeting  
+**\<rehrar>** this does not have to the the only ByteRub Community meeting  
 **\<pumppp>** MONTERO rocks  
 **\<gym7rjm>** @SGP I had an actual big idea I @wanted to discuss... got no attention and was not discussed... if you want these meetings to be useful you need to keep stuff on track otherwise Reddit is the better venue for focused community discussion  
 **\<rehrar>** if there is a person in Asia that wants to run a meeting in parallel with this one  
@@ -627,11 +627,11 @@ Location Freenode | OFTC | Slack | Irc2P #monero Time Use this timezone calculat
 **\<Diffusive>** 10mints dedicated to this, 20 to this and so.  
 **\<sgp\_>** We will do our best to pick the best time for everyone, though if use in Asia increases, a second meeting could be a good idea  
 **\<sgp\_>** 9. Conclusion  
-**\<sgp\_>** That’s all, folks! Thanks for making it through the first ever Monero Community meeting! You rock! _fist bump_  
+**\<sgp\_>** That’s all, folks! Thanks for making it through the first ever ByteRub Community meeting! You rock! _fist bump_  
 **\<bgmrkbtc>** thanks for hosting this!  
 **\<pumppp>** :rocket::rocket:  
 **\<sgp\_>** Make sure to join #monero-community!  
-**\<sgp\_>** And /r/MoneroCommunity  
+**\<sgp\_>** And /r/ByteRubCommunity  
 **\<TinusMars>** will do  
 **\<bgmrkbtc>** only 8 people there so far!  
 **\<ajs>** Thanks for the hard work sgp  

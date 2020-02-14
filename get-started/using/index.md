@@ -16,7 +16,7 @@ permalink: /get-started/using/index.html
                     <div class="row middle-xs">
                         <div class="col-lg-7 col-md-6 col-sm-8 col-xs-8  why-text">
                             <h2>{% t using.learn %}</h2>
-                            <p>{% t using.learn_para1 %} <a href="{{site.baseurl}}/get-started/what-is-monero/">{% t using.learn_para2 %}</a> {% t using.learn_para3 %} <a href="https://github.com/monero-project">{% t using.learn_para4 %}</a> {% t using.learn_para5 %}</p>
+                            <p>{% t using.learn_para1 %} <a href="{{site.baseurl}}/get-started/what-is-monero/">{% t using.learn_para2 %}</a> {% t using.learn_para3 %} <a href="https://github.com/byterubpay">{% t using.learn_para4 %}</a> {% t using.learn_para5 %}</p>
                         </div>
                         <div class="col-lg-5 col-md-6 col-sm-4 col-xs-4 center-xs">
                             <img src="/img/learn-about-monero.png" alt="Learn online, read or talk to people" class="main-icon">

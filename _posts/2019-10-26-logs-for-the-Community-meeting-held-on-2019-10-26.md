@@ -12,7 +12,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Meeting time  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/405  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/405  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Fun fact: you are awesome :)  
 **\<sgp\_>** 1. Greetings  
 **\<el00ruobuob\_[m]>** Hello!  
@@ -54,8 +54,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Ziphon’s request was overfunded! https://ccs.getmonero.org/proposals/xiphon-part-time-2.html  
 **\<sgp\_>** \*xiphon  
 **\<sgp\_>** Ideas (to be discussed):  
-**\<sgp\_>** WIP: Norwegian translation (3 XMR): https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/102, and  
-**\<sgp\_>** moneromooo, from November 2019 (395 XMR): https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/103  
+**\<sgp\_>** WIP: Norwegian translation (3 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/102, and  
+**\<sgp\_>** moneromooo, from November 2019 (395 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/103  
 **\<needmonero90>** Xiphon\*  
 **\<needmonero90>** Oh you corrected my nad  
 **\<needmonero90>** Bad  
@@ -135,7 +135,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needmonero90>** I believe there was some discussion on renaming the GUI?  
 **\<needmonero90>** idk where that went  
 **\<needmonero90>** some people thought "Monero GUI" was too clinical/technical, and wanted something "warmer" for new users (my words)  
-**\<sgp\_>** needmonero90: I'm going to table that discussion for this meeting, but here is the relevant naming discussion that xmrscott[m] is championing: https://github.com/monero-project/meta/issues/384  
+**\<sgp\_>** needmonero90: I'm going to table that discussion for this meeting, but here is the relevant naming discussion that xmrscott[m] is championing: https://github.com/byterubpay/meta/issues/384  
 **\<thunderosa>** I'll just chime in with wanting to banish anything "graphical interface" because the public has never seen a non-graphical interface.  
 **\<needmonero90>** wasn't trying to discuss it, just find the discussion point :)  
 **\<thunderosa>** It's inside reality vs outside reality.  

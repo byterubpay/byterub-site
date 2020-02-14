@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-dev-meeting-note-highlights-2016-11-13).  
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-dev-meeting-note-highlights-2016-11-13).  
 
 ### Logs  
 
@@ -24,8 +24,8 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<@fluffypony>** pigeons: how goes it  
 **\<pigeons>** good  
 **\<@fluffypony>** pigeons: do you want to tell people about the new repo we're using for issues?  
-**\<pigeons>** github.com/monero-project/meta  
-**\<Softich>** https://github.com/monero-project/meta  
+**\<pigeons>** github.com/byterubpay/meta  
+**\<Softich>** https://github.com/byterubpay/meta  
 **\<_Slack> \<nanoakron>** Please explain?  
 **\<Softich>** for the lazy  
 **\<pigeons>** for stuff realted to build machines, build infrastructure, etc  
@@ -308,7 +308,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<+moneromooo>** There was a all RAM db being worked on, though I'm not sure it still is.  
 **\<_Slack> \<nanoakron>** So has the compiler been smart enough to strip the selection stuff or is there still bloat and overhead that could be trimmed?  
 **\<_Slack> \<nanoakron>** Appeal to authority is only a fallacy when the authority is not relevant to the issue at hand  
-**\<@ArticMine>** There was at one point the idea that Monero could use different databases in the future.  
+**\<@ArticMine>** There was at one point the idea that ByteRub could use different databases in the future.  
 **\<+moneromooo>** You actually might make a good argument by removing it all and see whether performance figures support you bloat claim.  
 **\<_Slack> \<nanoakron>** I'll try that  
 **\<+moneromooo>** Now, the threshold where an improvement becomes larger than the loss of generality is pretty subjective too.  

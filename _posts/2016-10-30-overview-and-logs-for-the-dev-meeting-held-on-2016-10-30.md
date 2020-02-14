@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monerokovri-dev-meeting-note-highlights-2016-10-30).  
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monerokovri-dev-meeting-note-highlights-2016-10-30).  
 
 ### Logs
 
@@ -105,9 +105,9 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<Slack> \<nanoakron>** Would you think about the logging system in that case? The crypto currently works well enough  
 **\<moneromooo>** The main problem is choosing the best one. And that needs people who know them. The pony does I think.  
 **\<revler1082>** logging or crypto? or both?  
-**\<Slack> \<nanoakron>** Moneromooo, do you have any thoughts on where revler can best help after fluffy blocks are finished?  
+**\<Slack> \<nanoakron>** ByteRubmooo, do you have any thoughts on where revler can best help after fluffy blocks are finished?  
 **\<moneromooo>** We'll need some crypto lib with a good PRNG, to replace the keccak construction we use now.  
-**\<Slack> \<nanoakron>** https://github.com/monero-project/monero/issues/1271  
+**\<Slack> \<nanoakron>** https://github.com/byterubpay/monero/issues/1271  
 **\<Slack> \<nanoakron>** That’s what we’re referencing here revler - already some good discussion to review there  
 **\<moneromooo>** Wherever revler1082 is comfortable, really. If the previous bit changed was network stuff, then maybe more of it ?  
 **\<Slack> \<nanoakron>** What do you think the issues are with current network code?  
@@ -163,7 +163,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** pero raises a good point  
 **\<fluffypony>** I can flag them instead  
 **\<moneromooo>** If people don't search the bugs list, they'll file a dupe whether it's closed or open, no ?  
-**\<Slack> \<nanoakron>** Take https://github.com/monero-project/monero/issues/1256 as an example  
+**\<Slack> \<nanoakron>** Take https://github.com/byterubpay/monero/issues/1256 as an example  
 **\<Slack> \<nanoakron>** May be a dupe, may not be...  
 **\<moneromooo>** I'm fine with bugs being opened when in doubt.  
 **\<Slack> \<nanoakron>** @moneromooo - yes they will  

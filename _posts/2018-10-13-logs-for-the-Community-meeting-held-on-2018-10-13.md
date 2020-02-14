@@ -11,7 +11,7 @@ author: rehrar / SamsungGalaxyPlayer
 **\<rehrar>** 0. Introduction  
 **\<parasew[m]>** hi!  
 **\<rehrar>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<rehrar>** Link to agenda on Github: https://github.com/monero-project/meta/issues/283  
+**\<rehrar>** Link to agenda on Github: https://github.com/byterubpay/meta/issues/283  
 **\<rehrar>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<xmrmatterbridge> \<txmr>** hi  
 **\<rehrar>** Stay up to date with the latest events by subscribing to this calendar (just a sec)  
@@ -143,7 +143,7 @@ author: rehrar / SamsungGalaxyPlayer
 **\<rehrar>** a. Localization workgroup  
 **\<ErCiccione>** ok, good  
 **\<ErCiccione>** so, we are all set for 0.13. I worked with the GUI devs everyday for one week, some days even 10 hours straight working on translations, but we finally got most of the languages ready  
-**\<ErCiccione>** the related issue can be found here: https://github.com/monero-project/monero-gui/issues/1582  
+**\<ErCiccione>** the related issue can be found here: https://github.com/byterubpay/monero-gui/issues/1582  
 **\<ErCiccione>** as for every hard fork, i'm tired as fuck, but quite satisfied, since, again, all the major languages, and almost all the other ones got proerly translated  
 **\<ErCiccione>** everything is basically ready for 0.13 when talking about translations, i also already synced all the language files to the code  
 **\<ErCiccione>** don't remember if i said that last meeting, but i finally got shell access for translate.getmonero.org  

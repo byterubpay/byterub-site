@@ -19,7 +19,7 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** 13 open right now  
 **\<dEBRUYNE>** all right  
 **\<hyc>** moneromooo already reviewed PR#806  
-**\<dEBRUYNE>** Oh yeah this is easier to spot -> https://github.com/monero-project/bitmonero/pulls  
+**\<dEBRUYNE>** Oh yeah this is easier to spot -> https://github.com/byterubpay/bitmonero/pulls  
 **\<dEBRUYNE>** :-P  
 **\<hyc>** yep  
 **\<dEBRUYNE>** smooth and moneromooo had a little chat about 818 & 819 earlier today  
@@ -54,11 +54,11 @@ author: dEBRUYNE / fluffypony
 **\<moneromooo>** I think it was just extra complexity htat might not be worth it.  
 **\<hyc>** my point - the current pool code calls getblocktemplate 1/second but doesn't do anything with the response if the height is the same as before  
 **\<hyc>** the pool code ought to just call getblockcount in that case, which executes in 0ms  
-**\<dEBRUYNE>** smooth commented on #810 -> https://github.com/monero-project/bitmonero/pull/810  
+**\<dEBRUYNE>** smooth commented on #810 -> https://github.com/byterubpay/bitmonero/pull/810  
 **\* DaveyJones**: quotes deBRUYNE from yesterday : dEBRUYNE pages othe, NoodleDoodle, smooth, tewinget, binaryFate  
 **\<fluffypony>** so then the pool code is bad, right ?  
 **\<hyc>** yeah, in my perspective anyway  
-**\<xmrpromotions>** No comment on the code for https://github.com/monero-project/bitmonero/pull/794 but is there some way we can reach out to the family of warptangent to let them know we are very greatful for his contributions?  
+**\<xmrpromotions>** No comment on the code for https://github.com/byterubpay/bitmonero/pull/794 but is there some way we can reach out to the family of warptangent to let them know we are very greatful for his contributions?  
 **\<smooth>** i added a comment to 810  
 **\<dEBRUYNE>** ^ His dad commented in the thread  
 **\<fluffypony>** xmrpromotions: they're already speaking to us, and we've let them know  
@@ -135,12 +135,12 @@ author: dEBRUYNE / fluffypony
 **\<smooth>** you can either delete/rename it (and therefore resync) or convert it  
 **\<fluffypony>** smooth: because in background mode / windows service mode you won't know that it's dying  
 **\<smooth>** you'll know its not working, there must be some way to indicate a reason  
-**\<fluffypony>** so practically: I have Bitcoin and Monero on a Windows node  
+**\<fluffypony>** so practically: I have Bitcoin and ByteRub on a Windows node  
 **\<smooth>** maybe leave a message file behind and the cli can report the message  
 **\<moneromooo>** system("xmessage \"help\"")  
 **\<fluffypony>** and at some point the Bitcoin DB got corrupted (multiple times)  
 **\<fluffypony>** I have the service set to restart on fail, and eventually restart the whole machine  
-**\<fluffypony>** so it was restarting the machine every 15 minutes, and since I was only using the Monero node on it I had no idea  
+**\<fluffypony>** so it was restarting the machine every 15 minutes, and since I was only using the ByteRub node on it I had no idea  
 **\<gingeropolous>** right, so the overarching question is monero's philosophy on un-managed nodes  
 **\<gingeropolous>** (perhaps)  
 **\<hyc>** if truly no one is monitoring, then the daemon can do its conversion in however many hours it takes and no one will be bothered  

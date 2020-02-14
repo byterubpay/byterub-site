@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-07-23
-summary: Discussion of open PRs and issues, 0MQ, MyMonero/OpenMonero daemon integration, Surae's research, multisig, and miscellaneous
+summary: Discussion of open PRs and issues, 0MQ, MyByteRub/OpenByteRub daemon integration, Surae's research, multisig, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
@@ -31,7 +31,7 @@ There is no overview for this week.
 **\<rbrunner>** Grüezi mitenand  
 **\<rehrar>** it seems fluffypony isn't here to run the meeting, or he's on his way. Anyone heard from him?  
 **\<tewinget>** negative  
-**\<rehrar>** well, I'm obviously not a dev, so I can't help with the conversation, but the agenda is here: https://github.com/monero-project/meta/issues/97 it's pretty normal  
+**\<rehrar>** well, I'm obviously not a dev, so I can't help with the conversation, but the agenda is here: https://github.com/byterubpay/meta/issues/97 it's pretty normal  
 **\<vtnerd>** fluffypony is in las vegas according to his tweets  
 **\<rehrar>** right, he's at defcon  
 **\<rehrar>** probably gambling  
@@ -315,7 +315,7 @@ There is no overview for this week.
 **\<gingeropolous>** oh is it meeting time?  
 **\<moneromooo>** kovri's  
 **\<ArticMine>** So next meeting in two weeks?  
-**\<serhack>** Moneromoo  
+**\<serhack>** ByteRubmoo  
 **\<serhack>** Sorry  
 **\<serhack>** I was eating  
 **\<serhack>** Okay  
@@ -324,14 +324,14 @@ There is no overview for this week.
 **\<serhack>** My progress are: wordpress plugin is almost completed, I'm developing the verifying (if transaction is okay), I'm also starting the development of Prestashop plugins  
 **\<serhack>** After that, I will write another FFS (I will request like 40 xmr or less)  
 **\<serhack>** I would create some stickers based on https://m.imgur.com/QcdyyWn  
-**\<serhack>** I will publish plugins on codecanyon.com, every funds will be helpful for Monero Project  
+**\<serhack>** I will publish plugins on codecanyon.com, every funds will be helpful for ByteRub Project  
 **\<serhack>** What do you think moneromoo?  
 **\<moneromooo>** Cool, thanks for the overview  
 **\<pero>** dEBRUYNE: was it codecanyon.com you blacklisted from the subreddit? ;p  
 **\<dEBRUYNE>** .net I think, but that probably doesn't matter haha  
 **\<serhack>** Your welcome, moneromoo  
 **\<dEBRUYNE>** I can unblacklist it   
-**\<serhack>** Everyone should know Monero Community  
+**\<serhack>** Everyone should know ByteRub Community  
 **\<serhack>** Fantastic community!  
 **\<gingeropolous>** opinions? If I could even figure out how to code into monero a "remote node" support flag, would it be merged? it would be a daemon load flag that would do the appropriate rpc stuff and also modify some p2p metadata to essentially broadcast its openness  
 **\<serhack>** Cheers!  

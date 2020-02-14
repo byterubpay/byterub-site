@@ -98,7 +98,7 @@
 
 ### 2.1. Загрузка ключа подписи
 
-Используя веб-браузер, необходимо открыть [Fluffypony's GPG key](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), который используется для подписи двоичных файлов Monero, а затем правой кнопкой мыши щелкнуть по странице и выбрать `Save Page As` [Сохранить страницу как].
+Используя веб-браузер, необходимо открыть [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), который используется для подписи двоичных файлов Monero, а затем правой кнопкой мыши щелкнуть по странице и выбрать `Save Page As` [Сохранить страницу как].
 
 ![getkey right click](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 

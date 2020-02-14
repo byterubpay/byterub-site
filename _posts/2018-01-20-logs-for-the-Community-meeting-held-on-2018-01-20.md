@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Logs  
 
-**\<rehrar>** For newcomers, or those who don't know. The community meeting is a place where individuals or groups interested in making the Monero community a better, more helpful, more welcoming, and fun place can congregate and throw ideas around.  
+**\<rehrar>** For newcomers, or those who don't know. The community meeting is a place where individuals or groups interested in making the ByteRub community a better, more helpful, more welcoming, and fun place can congregate and throw ideas around.  
 **\<rehrar>** We've already sort of gone through 1. Greetings, but if there is anyone else out there in the peanut gallery that wants to say 'hi' and show your presence, by all means do so.  
 **\<keledoro>** Heya!  
 **\* ErCiccione** here but sick and getting worse, not going to be very communicative :(  
@@ -17,12 +17,12 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** howdy y'all  
 **\<rehrar>** 2. Community highlights  
 **\<vdo>** on mobile but here  
-**\<rehrar>** You can see the Monero Observer for a good breakdown of what's happened in the past two bits of time since we've had our last meeting.  
+**\<rehrar>** You can see the ByteRub Observer for a good breakdown of what's happened in the past two bits of time since we've had our last meeting.  
 **\<ErCiccione>** rehrar: lol. yeah, that germ spreader  
 **\<rehrar>** But is there anything anyone wants to highlight in particular about the past couple weeks in regards to cool stuff our community (not necessarily just this workgroup) has done?  
-**\<msvb-mob>** The Monero Observer is where? It sounds like revuo but is not.  
+**\<msvb-mob>** The ByteRub Observer is where? It sounds like revuo but is not.  
 **\<rehrar>** http://monero-observer.com/  
-**\<rehrar>** Observer is here, and covers more the day to day of Monero  
+**\<rehrar>** Observer is here, and covers more the day to day of ByteRub  
 **\<serhack>** We are going to reach 100k subreddit users :O  
 **\<cryptochangements>** the new Cake Wallet is out, and the dev intends to release source so that's exciting  
 **\<rehrar>** The Revuo is coming! Promise. Just had to push back a bit since anonimal has been sick, but we're working on the Kovri part (the last part) this weekend hopefully.  
@@ -30,22 +30,22 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** hopefully he'll show :) He got on the mattermost  
 **\<suraeNoether>** the community sent me to attend the conference RealWorldCrypto in Zurich, where I met up with Fluffypony, andytoshi, Peter Wuille (spelling?)  
 **\<suraeNoether>** and is sending me and sarang to BPASE18 next week, too  
-**\<onetwo22>** http://monero-observer.com/Monero%20Observer%20-%20Vol%2001%20No%2020.html  
+**\<onetwo22>** http://monero-observer.com/ByteRub%20Observer%20-%20Vol%2001%20No%2020.html  
 **\<rehrar>** brief four sentences on your time in Zurich suraeNoether?  
 **\<suraeNoether>** which is a really fantastic thing our community has done  
-**\<monerodesigns>** oh, I'm featured in the Monero Observer :) nice. didn't even know this exists. cool project  
+**\<monerodesigns>** oh, I'm featured in the ByteRub Observer :) nice. didn't even know this exists. cool project  
 **\<rehrar>** oyoy, alright, we'll move on then :)  
 **\<suraeNoether>** I attended Andrew Poelstra's talk (andytoshi) on MimbleWimble and scriptless scripts, which was the first talk of the conference that had any serious math in it, terrifying the venture capitalists. Fluffypony and I met up with several of the team members at Digital BitBox, a hardware wallet company that is doing some truly fantastic work, as well as the Operations Manager from Globee. The week was  
-**\<suraeNoether>** productive, as andytoshi and I were able to discuss in person at least one idea I had for a rather crude refund transaction mechanism that could work in Monero. It was an honor to meet so many members of the cryptocurrency community, and it was fantastic to make new friends!  
+**\<suraeNoether>** productive, as andytoshi and I were able to discuss in person at least one idea I had for a rather crude refund transaction mechanism that could work in ByteRub. It was an honor to meet so many members of the cryptocurrency community, and it was fantastic to make new friends!  
 **\<rehrar>** \^ thank you so much suraeNoether  
 **\* suraeNoether** thumbs up  
-**\<dEBRUYNE>** suraeNoether: BitBox is a hw wallet right? Did they have any intention to add Monero?  
+**\<dEBRUYNE>** suraeNoether: BitBox is a hw wallet right? Did they have any intention to add ByteRub?  
 **\<msvb-mob>** Shift Devices is now local to Zurich.  
 **\<serhack>** cool suraeNoether!  
 **\<suraeNoether>** dEBRUYNE: yes, monero stickers everywhere~  
 **\<emesik>** transaction refund? sounds interesting  
 **\<rehrar>** 3. FFS updates  
-**\<msvb-mob>** dEBRUYNE: They want to add Monero and have no plans to add Monero (at the same time.)  
+**\<msvb-mob>** dEBRUYNE: They want to add ByteRub and have no plans to add ByteRub (at the same time.)  
 **\<rehrar>** Start with hardware wallet? msvb-mob, you wanna give us a thing or two?  
 **\<msvb-mob>** Okay.  
 **\<suraeNoether>** msvb-mob +1 yep exactly  
@@ -62,7 +62,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** Any questions?  
 **\<rehrar>** will we pull this off? or are we just a bunch of kids trying to play with the big boys?  
 **\<rehrar>** but that may be for another time  
-**\<rehrar>** serhack, my man. You wanted to speak a few words about Mastering Monero?  
+**\<rehrar>** serhack, my man. You wanted to speak a few words about Mastering ByteRub?  
 **\<serhack>** oh, I thought about monero integrations too  
 **\<rehrar>** do both  
 **\<serhack>** Anyway for monero integrations, I am still working with cryptochangements for opencart gateway payment  
@@ -71,14 +71,14 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangements>** \*yet  
 **\<serhack>** okay, let's talk about mastering monero now  
 **\<cryptochangements>** sounds good  
-**\<serhack>** I asked for FFS about Mastering Monero https://forum.getmonero.org/6/ideas/89797/mastering-monero-ffs  
+**\<serhack>** I asked for FFS about Mastering ByteRub https://forum.getmonero.org/6/ideas/89797/mastering-monero-ffs  
 **\<serhack>** At the moment, I have two chapters finished and the third is almost finished (exactly 47 pages)  
-**\<serhack>** if you wanna tl;dr : Mastering Monero will be a book about the Monero world  
-**\<serhack>** from Kovri to RingCT, mastering monero will have the answer for your questions about Monero!  
+**\<serhack>** if you wanna tl;dr : Mastering ByteRub will be a book about the ByteRub world  
+**\<serhack>** from Kovri to RingCT, mastering monero will have the answer for your questions about ByteRub!  
 **\<serhack>** https://masteringmonero.com  
 **\<serhack>** any questions?  
 **\<rehrar>** You looking for illustrators?  
-**\<rehrar>** for both infographics as well as general Monero illustrations?  
+**\<rehrar>** for both infographics as well as general ByteRub illustrations?  
 **\<serhack>** At the moment, I have baltsar as designer  
 **\<zbert>** How many chapters are planned for now?  
 **\<rehrar>** ok  
@@ -90,7 +90,7 @@ author: dEBRUYNE / fluffypony
 **\<monerodesigns>** who is the target audience?  
 **\<monerodesigns>** everyman? or a crypto geek?  
 **\<emesik>** from the summary it looks like addressing a broad audience  
-**\<serhack>**  expect the audience to be a mix of new, non-technical users and people who are more familiar with Monero and more technically advanced.  
+**\<serhack>**  expect the audience to be a mix of new, non-technical users and people who are more familiar with ByteRub and more technically advanced.  
 **\<serhack>** I \*  
 **\<rehrar>** alright, further questions can be fielded to serhack after the meeting, we've got more updates people  
 **\<serhack>** emesik: sure!  
@@ -149,27 +149,27 @@ author: dEBRUYNE / fluffypony
 **\<emesik>** multisig for example, or libwallet  
 **\<emesik>** the code is here: https://github.com/emesik/monero-python  
 **\<amiuhle>** Good to see a tests folder there :+1:  
-**\<emesik>** and good news, the module is going to be ahead of Monero itself, already handling accounts and subaddresses  
+**\<emesik>** and good news, the module is going to be ahead of ByteRub itself, already handling accounts and subaddresses  
 **\<emesik>** any questions?  
 **\<rehrar>** this conglomerate of passionate individuals is honestly the most inspiring thing. It may even inspire me to get involved and do something.  
 **\<rehrar>** thank you emesik for the update!  
-**\<rehrar>** Just a fun FFS to look at. If you liked the Monero Cat comics, the guy who made them opened a FFS proposal to make more (bigger): https://forum.getmonero.org/6/ideas/89764/i-d-like-to-develop-a-new-webcomic-series-starring-monerocat-and-the-justice-league-of-crypto  
+**\<rehrar>** Just a fun FFS to look at. If you liked the ByteRub Cat comics, the guy who made them opened a FFS proposal to make more (bigger): https://forum.getmonero.org/6/ideas/89764/i-d-like-to-develop-a-new-webcomic-series-starring-monerocat-and-the-justice-league-of-crypto  
 **\<rehrar>** feel free to read it through and comment on it  
 **\<rehrar>** Alright, we can move into 5. Open ideas time  
-**\<rehrar>** This is a time where we as a community workgroup put our heads together and throw ideas out there about how to improve Monero, the community, and more.  
+**\<rehrar>** This is a time where we as a community workgroup put our heads together and throw ideas out there about how to improve ByteRub, the community, and more.  
 **\<rehrar>** So, have at it. Any ideas or things you want to say?  
-**\<monerodesigns>** ok, i don't know if this is the best time, I just wanted to say hi... I'm the guy behind the Monero Designs wallpapers and those pizzaboy images...  
+**\<monerodesigns>** ok, i don't know if this is the best time, I just wanted to say hi... I'm the guy behind the ByteRub Designs wallpapers and those pizzaboy images...  
 **\<monerodesigns>** and I just wanted to say thanks to everyone for the cool feedback and everything  
-**\<serhack>** Hi monerodesigns and welcome to Monero community!  
+**\<serhack>** Hi monerodesigns and welcome to ByteRub community!  
 **\<monerodesigns>** I have a couple of new ideas in the works... if there's ever anyone that wants to reach out or anything, I'm very excited about monero... been following the project since january last year  
-**\<serhack>** I would like to mark a little thing: Mastering Monero is basically a Monero Marketing Campaign by a book  
+**\<serhack>** I would like to mark a little thing: Mastering ByteRub is basically a ByteRub Marketing Campaign by a book  
 **\<serhack>** so if you have any ideas about marketing, please let us know!  
 **\<emesik>** #dontbuymonero stickers on your local ATM ;)  
 **\<monerodesigns>** anyway, just wanted to say that what made me start doing this was a reddit post a couple of months ago about how there aren't any posters like there are for bitcoin  
 **\<monerodesigns>** that's it, rant over :)  
 **\<emesik>** monerodesigns: coul you paste a link to your works, please?  
 **\<monerodesigns>** i think what the community is doing now is the best thing it can be doing... just making others aware of this awesome project, without any hype or anything  
-**\<cryptochangements>** gingeropolous made this reddit post https://www.reddit.com/r/Monero/comments/7rn6el/moneroworld_remote_nodes_geo_lists/?utm_source=reddit-android about moneroworld remote nodes. in there he mentions funding powerful servers for nodes. It looks like the general donation fund on moneroworld.com is where we can direct donations for anybody thay wants to.  
+**\<cryptochangements>** gingeropolous made this reddit post https://www.reddit.com/r/ByteRub/comments/7rn6el/moneroworld_remote_nodes_geo_lists/?utm_source=reddit-android about moneroworld remote nodes. in there he mentions funding powerful servers for nodes. It looks like the general donation fund on moneroworld.com is where we can direct donations for anybody thay wants to.  
 **\<monerodesigns>** monerodesigns.com (the website is a mess... this is just something I'm doing on the side... lol)  
 **\<emesik>** monerodesigns: thx!  
 **\<emesik>** I like them!  

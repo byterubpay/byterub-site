@@ -37,12 +37,12 @@
 
 ### 2.1. إحصل علي مفتاح التوقيع
 
-علي ويندوز أو ماك إذهب إلي [Fluffypony's GPG key](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc) لتحميل المُفتاح المُستخدم في توقيع الملفات وقم بحفظه بإسم `fluffypony.asc` في مجلدك الرئيسي.
+علي ويندوز أو ماك إذهب إلي [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc) لتحميل المُفتاح المُستخدم في توقيع الملفات وقم بحفظه بإسم `fluffypony.asc` في مجلدك الرئيسي.
 
 في ليُنكس يمكنك تحميل ملف مفتاح التوقيع من خلال الأمر التالي :
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. تأكد من مفتاح التوقيع

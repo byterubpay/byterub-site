@@ -122,14 +122,14 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 
 ## License
 
-Copyright (c) 2017 The Monero Project
+Copyright (c) 2017 The ByteRub Project
 
 ## Language
 
-The "Monero Site Maintainer Team" is defined in this document as the following users:
+The "ByteRub Site Maintainer Team" is defined in this document as the following users:
 - fluffypony
 - anonimal
 
 ### Development Process
 
-- Maintainers MUST NOT merge pull requests in less than 168 hours (1 week) unless deemed urgent by the Monero Site Maintainer Team
+- Maintainers MUST NOT merge pull requests in less than 168 hours (1 week) unless deemed urgent by the ByteRub Site Maintainer Team

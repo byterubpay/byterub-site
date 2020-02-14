@@ -123,7 +123,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** dsc provided an update for the GUI yesterday in -community, which I'll just paste  
 **\<dEBRUYNE> \<dsc\_>** GUI update  
 **\<dEBRUYNE> \<dsc\_>** Currently I'm implementing a white theme for the GUI. Will take a while to complete (ETA: 2 weeks). I also finished a redesign of the history page, now called transactions. Not only does it perform well when the user has a lot of historic data, it's also an improvement to UX.  
-**\<dEBRUYNE> \<dsc\_>** kneuffelbund, designer of the GUI, did some IRL testing with \*real\* people and made notes. He is now designing/tweaking the wizards. https://github.com/monero-project/monero-gui/issues/2040  
+**\<dEBRUYNE> \<dsc\_>** kneuffelbund, designer of the GUI, did some IRL testing with \*real\* people and made notes. He is now designing/tweaking the wizards. https://github.com/byterubpay/monero-gui/issues/2040  
 **\<dEBRUYNE> \<dsc\_>** Me, Selsta and rbrunner7 worked on `monero://` URI support on Windows/Linux/OSX. Selsta is working on xmr\<->fiat conversions and xiphon is afaik. working on a decentralized node-o-matic.  
 **\<dEBRUYNE> \<dsc\_>** Currently we are investigating a migration to Qt 5.9.7, which should give \*some\* extra performance and allow us to use newer Qt features.  
 **\<dEBRUYNE> \<dsc\_>** After next point release, I will most likely focus on either i2p/tor integrations or android support.  
@@ -192,7 +192,7 @@ author: el00ruobuob / dEBRUYNE
 **\<vtnerd>** sgp\_ I posted an update that unfortunately, I will be changing the DB format to fix a bug. no one has contacted me indicating they are using it, and therefore need code to upgrade the DB, so I should push those changes out  
 **\<sarang>** the call it the embargo timer  
 **\<vtnerd>** it is also probably worth breaking that review into at least one other PR to make it easier to review. otherwise, after the next push I'll do, it would be considered stable if anyone was willing to run it  
-**\<dEBRUYNE>** vtnerd: Talking about lightservers, have you seen knaccc's proposal to improve privacy? https://github.com/monero-project/monero/issues/5145  
+**\<dEBRUYNE>** vtnerd: Talking about lightservers, have you seen knaccc's proposal to improve privacy? https://github.com/byterubpay/monero/issues/5145  
 **\<vtnerd>** it seems like most people won't run it until has builds \_somewhere\_, so yeah I dunno  
 **\<knaccc>** it's more random thoughts than a proposal :) it's far from a perfect solution  
 **\<vtnerd>** I'm not sure what knacc was proposing with that really. Limiting the leaks of subaddress info I guess?  

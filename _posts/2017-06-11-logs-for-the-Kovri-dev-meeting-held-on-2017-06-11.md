@@ -10,8 +10,8 @@ author: dEBRUYNE / fluffypony
 
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46)  
-**\<anonimal>** 4. Moving `anonimal/kovri-site` and `anonimal/kovri-docs` to `monero-project` #74  
+**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
+**\<anonimal>** 4. Moving `anonimal/kovri-site` and `anonimal/kovri-docs` to `byterubpay` #74  
 **\<anonimal>** 5. Resolve FFS RFC for @moroccanmalinois  
 **\<anonimal>** 6. Code + ticket discussion / Q & A  
 **\<anonimal>** 7. Any additional meeting items  
@@ -37,7 +37,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** In all a very collaborative and active IRC week. Did I miss anything?  
 **\<anonimal>** Oh, yes, guzzi quit and left his FFS unfinished. MoroccanMalinois is stepping up to finish his FFS work (we'll talk more in point 5).  
 **\<anonimal>** Moving on to 3.?  
-**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46)  
+**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
 **\<anonimal>** I think we're rescheduled (or will be) for July 20th or 27th  
 **\<anonimal>** I'll keep everyone apprised.  
 **\<anonimal>** Details are in the meta issue.  
@@ -47,9 +47,9 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** Robert indicated that next month would suit  
 **\<anonimal>** Ok  
 **\<anonimal>** Anything else on 3.?  
-**\<anonimal>** 4. Moving `anonimal/kovri-site` and `anonimal/kovri-docs` to `monero-project` #74  
+**\<anonimal>** 4. Moving `anonimal/kovri-site` and `anonimal/kovri-docs` to `byterubpay` #74  
 **\<i2p-relay> {-fluffypony}** I can create empty repos for that now before I leave  
-**\<anonimal>** fluffypony: what do you think about this? ^ https://github.com/monero-project/meta/issues/74  
+**\<anonimal>** fluffypony: what do you think about this? ^ https://github.com/byterubpay/meta/issues/74  
 **\<i2p-relay> {-fluffypony}** I think that's good  
 **\<rehrar>** Sorry. Here. Checking backlog. I'm out and a guy I know decided to give me a 15 minute talk on WW2  
 **\<anonimal>** fluffypony: alright, cool  
@@ -74,7 +74,7 @@ author: dEBRUYNE / fluffypony
 **\<MoroccanMalinois>** :)  
 **\<moneromooo>** MoroccanMalinois == good guy to have  
 **\<moneromooo>** (or gal)  
-**\<anonimal>** https://www.reddit.com/r/Monero/comments/6g1q8b/request_for_replacement_assistant_kovri_developer/  
+**\<anonimal>** https://www.reddit.com/r/ByteRub/comments/6g1q8b/request_for_replacement_assistant_kovri_developer/  
 **\<anonimal>** Nothing but positive reviews it seems.  
 **\<MoroccanMalinois>** Thank u very much mooo  
 **\<anonimal>** So, everyone is in agreement?  
@@ -113,7 +113,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** on that note I have to take my leave, chat later  
 **\<anonimal>** Thanks fluffypony. Godspeed.  
 **\<anonimal>** endogenic: lol alright, you have a point ;)  
-**\<anonimal>** https://github.com/monero-project/meta/issues/63  
+**\<anonimal>** https://github.com/byterubpay/meta/issues/63  
 **\<anonimal>** So, ^ create formalized FFS process  
 **\<i2p-relay> {-fluffypony}** o/  
 **\<endogenic>** \o fp!  
@@ -168,10 +168,10 @@ author: dEBRUYNE / fluffypony
 **\<moneromooo>** tbh, I'd keep it fairly generic, and keep in mind some FFSes aren't coding.  
 **\<rehrar>** if we're just talking about FFS's for Kovri, then sure, let's talk  
 **\<rehrar>** I wouldn't mind writing up a draft and presenting it to everyone. :)  
-**\<anonimal>** rehrar: https://github.com/monero-project/meta/blob/master/FFS  
+**\<anonimal>** rehrar: https://github.com/byterubpay/meta/blob/master/FFS  
 **\<johnalan>** sorry gents gotta dash (no pun intended)  
 **\<rehrar>** I'll fork and do some amends for review.  
-**\<ArticMine>** I would prefer this to be applied to FFS across the Monero project, not just Kovri  
+**\<ArticMine>** I would prefer this to be applied to FFS across the ByteRub project, not just Kovri  
 **\<anonimal>** ^  
 **\* anonimal** was just typing that  
 **\<rehrar>** This is actually pretty important for me, as I'm designing the new FFS interface for the new website. Have a meeting with Fluffy on Monday about some technical aspects, but getting this hammered down too would be very helpful.  
@@ -197,15 +197,15 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Anything else on 6.?  
 **\<anonimal>** 7. Any additional meeting items  
 **\<rehrar>** I have something. So I've discussed with anonimal what it would be like for me to put in a FFS as a 'general staffer' of Kovri. There's a lot of work that needs to be done that isn't coding related. Website maintenance, reddit moderation and theme design, trying to get other developers interested, etc. I'd like some feedback from others on what the thoughts of something like this are instead of FFS for each project. Basically, bei  
-**\<rehrar>** from moneromooo and others as well since there's a possibility of me doing something like this for Monero as well (I had a discussion with dEBRUYNE who supported the idea)  
+**\<rehrar>** from moneromooo and others as well since there's a possibility of me doing something like this for ByteRub as well (I had a discussion with dEBRUYNE who supported the idea)  
 **\<moneromooo>** This got cut: "Basically, bei [...] from moneromooo".  
 **\<rehrar>** sec  
 **\<rehrar>** Basically, being paid on a per hour basis 10ish/wk  
 **\<rehrar>** 10ish hours I mean  
-**\<ArticMine>** Maybe doing the FFS for Monero as a whole including Kovri  
-**\<rehrar>** that's what I was thinking yes. 10 hours/wk for Monero and 10 for Kovri or something like that in one FFS  
+**\<ArticMine>** Maybe doing the FFS for ByteRub as a whole including Kovri  
+**\<rehrar>** that's what I was thinking yes. 10 hours/wk for ByteRub and 10 for Kovri or something like that in one FFS  
 **\<rehrar>** I would outline the goals for each project  
-**\<rehrar>** Would this be something that would be useful? Creating content for Monero (like the reddit posts and helping people get plugged in) is something that's super fun for me and I love to do  
+**\<rehrar>** Would this be something that would be useful? Creating content for ByteRub (like the reddit posts and helping people get plugged in) is something that's super fun for me and I love to do  
 **\<rehrar>** and I would love to be able to devote dedicated time for it  
 **\<endogenic>** the reddit posts could be something of a black hole  
 **\<rehrar>** and Kovri, well, it's my favorite and the reason I'm here  
@@ -255,7 +255,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I find two things contribute here. Text is horrible for conveying meaning, and coders are not always (there are exceptions, don't kill me) super socially adept :D  
 **\<rehrar>** but mostly the first  
 **\<rehrar>** seriously, being in person has its advantages  
-**\<endogenic>** let's all move to the Monero Corporate Headquarters  
+**\<endogenic>** let's all move to the ByteRub Corporate Headquarters  
 **\<anonimal>** endogenic: you whacked me across the face with an epiphany stick with "could have been more strict with guzzi early on but didn't want to based on some shred of idealism about him"  
 **\<endogenic>** in Beverly Hills  
 **\<endogenic>** anonimal: i keep getting whacked by the same stick and hope that i get it into my thick skull one of these days :P  
@@ -303,4 +303,4 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Same time, two weeks from today?  
 **\<serhack>** okay  
 **\<anonimal>** Same as monero's?  
-**\<ArticMine>** After the Monero meeting  
+**\<ArticMine>** After the ByteRub meeting  

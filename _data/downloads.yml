@@ -22,7 +22,7 @@ gui:
      icon: icon-linux
      vers: 
    - platform: Source Code
-     link: https://github.com/monero-project/monero-gui
+     link: https://github.com/byterubpay/monero-gui
      icon: icon-github
      
 
@@ -80,5 +80,5 @@ cli:
      icon: icon-freebsd
      vers:
    - platform: Source Code
-     link: https://github.com/monero-project/monero
+     link: https://github.com/byterubpay/monero
      icon: icon-github

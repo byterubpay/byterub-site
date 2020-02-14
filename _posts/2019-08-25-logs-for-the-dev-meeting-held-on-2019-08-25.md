@@ -49,7 +49,7 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** IPv6 support got merged  
 **\<rehrar-mob>** Cool deal.  
 **\<dEBRUYNE>** Also a few improvements to the deterministic build process  
-**\<sarang>** I'd like additional review on a slightly older MLSAG PR: https://github.com/monero-project/monero/pull/5707  
+**\<sarang>** I'd like additional review on a slightly older MLSAG PR: https://github.com/byterubpay/monero/pull/5707  
 **\<dEBRUYNE>** Bunch of new tests got added too  
 **\<sarang>** (recently updated)  
 **\<dEBRUYNE>** ^ Perhaps luigi1111 can have another look at that?  

@@ -84,7 +84,7 @@ author: dEBRUYNE / fluffypony
 **\<jollymort>** there's SE chat, though - which nobody uses  
 **\<fluffypony>** jollymort: some of the questions on GitHub issues are perfect for SE  
 **\<jollymort>** sure  
-**\<fluffypony>** https://github.com/monero-project/monero/issues/1751 as an example  
+**\<fluffypony>** https://github.com/byterubpay/monero/issues/1751 as an example  
 **\<hyc>** monero clone?  
 **\<fluffypony>** hyc: probably, I thought that too  
 **\<fluffypony>** but that's a good question for SE  

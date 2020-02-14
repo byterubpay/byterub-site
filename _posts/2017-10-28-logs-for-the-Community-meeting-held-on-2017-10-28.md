@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2017-10-28
-summary: Community highlights, Forum Funding System updates, Monero meetup kit, 34C3, RFC-HWALLET-1, Monero integrations, upcoming meetups, community survey, and miscellaneous
+summary: Community highlights, Forum Funding System updates, ByteRub meetup kit, 34C3, RFC-HWALLET-1, ByteRub integrations, upcoming meetups, community survey, and miscellaneous
 tags: [community]
 author: dEBRUYNE / fluffypony
 ---
@@ -10,20 +10,20 @@ author: dEBRUYNE / fluffypony
 
 **\<sgp>** Meeting is starting  
 **\<sgp>** 0. Introduction  
-**\<sgp>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/132  
-**\<sgp>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting!  
+**\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/132  
+**\<sgp>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
 **\<vp11>** hey there lovely people  
 **\<erciccione>** hi  
 **\<xmrscott[m]>** Salutations  
 **\<endogenic>** o/  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the Monero Observer: http://monero-observer.com/  
-**\<sgp>** The Monero Observer’s FFS proposal has been fully-funded!  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** The ByteRub Observer’s FFS proposal has been fully-funded!  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** There are several FFS updates.  
-**\<sgp>** a. Monero Meetup Kit  
+**\<sgp>** a. ByteRub Meetup Kit  
 **\<sgp>** I don’t have anything to add here except that it is now in Funding Required: https://forum.getmonero.org/8/funding-required/88374/monero-meetup-kit  
 **\<sgp>** b. 34C3 congress preparations  
 **\<sgp>** @msvb-lab would you like to comment about this?  
@@ -50,7 +50,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Yeah  
 **\<msvb-lab>** We don't have anything concrete about 34C3 (the end of year large conferernce in Leipzig.)  
 **\<sgp>** Then you can talk about the hardware wallet after too  
-**\<msvb-lab>** Just want to announce we'll be present as Monero in the Cryptocurrency assembly.  
+**\<msvb-lab>** Just want to announce we'll be present as ByteRub in the Cryptocurrency assembly.  
 **\<msvb-lab>** The hardware wallet forum post mandates that we do progress status reports in monero-dev meetings.  
 **\<msvb-lab>** ...but we moved away from them, so the question is if we're at home here?  
 **\<sgp>** I say you can have some, but don't get too technical here  
@@ -62,7 +62,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** https://taiga.getmonero.org/media/attachments/1/e/2/5/ee5db3efec91a39cab0f35f243f54513ac8437d56bd18cc8e5a2910f7c4c/assembled_flashed.jpg  
 **\<msvb-lab>** Photos are good for non technical discussion fodder, no?  
 **\<vp11>** cool pic  
-**\<msvb-lab>** A question, does anyone know where the source code went for the last state of Trezor Monero firmware port?  
+**\<msvb-lab>** A question, does anyone know where the source code went for the last state of Trezor ByteRub firmware port?  
 **\<sgp>** Photos are especially good  
 **\<vp11>** yeah, photos are great!  
 **\<msvb-lab>** Like this post basically killed the Trezor port:  
@@ -103,8 +103,8 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Yup :)  
 **\<sgp>** @msvb-lab anything else you want to discuss before we move on?  
 **\<msvb-lab>** sgp: No, thanks for giving me the chance to speak.  
-**\<sgp>** d. Monero Integrations  
-**\<sgp>** Serhack is busy today, but you can see the latest update on the work here: https://www.reddit.com/r/Monero/comments/7938pb/monero_integrations_update_10/  
+**\<sgp>** d. ByteRub Integrations  
+**\<sgp>** Serhack is busy today, but you can see the latest update on the work here: https://www.reddit.com/r/ByteRub/comments/7938pb/monero_integrations_update_10/  
 **\<serhack>** Hey :)  
 **\<sgp>** Oh, apparently he can still drop by!  
 **\<sgp>** @serhack anything else you want to add?  
@@ -113,7 +113,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Cool. Everyone read the linked update if interested  
 **\<sgp>** 4. Upcoming Meetups  
 **\<rehrar>** Yay  
-**\<sgp>** There will be a Monero Meetup in LA on November 7th: https://www.meetup.com/preview/Monero-Los-Angeles/events/242968913  
+**\<sgp>** There will be a ByteRub Meetup in LA on November 7th: https://www.meetup.com/preview/ByteRub-Los-Angeles/events/242968913  
 **\<sgp>** Does anyone know of other events coming up?  
 **\<serhack>** A secret project is cooming soon  
 **\<dEBRUYNE>** msvb-lab: there's these two too: https://github.com/jedigras/noodledoodle_xmr_trezor/commits/master & https://github.com/jedigras/trezor-xmr/commits/master  
@@ -121,10 +121,10 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** Expect a b ... ops :)  
 **\<sgp>** I'll let serhack discuss it when he's ready, but it will require many volunteers  
 **\<sgp>** 5. Community Survey  
-**\<sgp>** xmr\_eric posted the results from his third survey, with over 500 responses: https://www.reddit.com/r/Monero/comments/794v43/monero_community_survey_3_results_over_500/  
+**\<sgp>** xmr\_eric posted the results from his third survey, with over 500 responses: https://www.reddit.com/r/ByteRub/comments/794v43/monero_community_survey_3_results_over_500/  
 **\<sgp>** I want to take a few minutes and discuss the results.  
 **\<serhack>** Yeah @sgp.  Not now  
-**\<serhack>** Monero community is awesome  
+**\<serhack>** ByteRub community is awesome  
 **\<sgp>** We have a lot of active people!  
 **\<notcreative>** anyone know if there is an official remote note that I can connect to rather than local copy?  
 **\<sgp>** Did anyone find any of the results surprising?  
@@ -165,12 +165,12 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** sgp: Cool, no that's most precicely what I had in mind.  
 **\<sgp>** Great  
 **\<msvb-lab>** Good to see that others have covered the need.  
-**\<vp11>** as I said yesterday, I'll donate the getmonero.com.br domain for the Monero Project once we get the localisation project for the website going. just wanted to say it here to make it official and logged on github :)  
+**\<vp11>** as I said yesterday, I'll donate the getmonero.com.br domain for the ByteRub Project once we get the localisation project for the website going. just wanted to say it here to make it official and logged on github :)  
 **\<vp11>** I'll use another domain for the brazilian community initiative  
 **\<sgp>** @vp11 keeping yourself accountable :P  
 **\<sgp>** I can't wait until the website is localized. Lots of work being done  
-**\<sgp>** Can anyone make a plush Monero cat? I would totally buy one https://www.reddit.com/r/xmrtrader/comments/791w4r/daily_discussion_friday_october_27th/doystjw/  
-**\<sgp>** Also a Monero sweater  
+**\<sgp>** Can anyone make a plush ByteRub cat? I would totally buy one https://www.reddit.com/r/xmrtrader/comments/791w4r/daily_discussion_friday_october_27th/doystjw/  
+**\<sgp>** Also a ByteRub sweater  
 **\<msvb-lab>** We don't really have a mascot do we? Maybe it should be a cat.  
 **\<vp11>** msvb-lab, we kinda have  
 **\<vp11>** it's monero cat  
@@ -179,9 +179,9 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** From an old Bitcointalk post  
 **\<msvb-lab>** Wow, very nice.  
 **\<sgp>** From hitbtc lmao https://bitcointalk.org/index.php?topic=583449.msg7527905#msg7527905  
-**\<vp11>** msvb-lab, there's even comics about Monero Cat, come on man.  
-**\<vp11>** https://www.reddit.com/r/Monero/comments/78wctn/who_is_monero_cat_episode_6_for_oct_26_is_out/  
-**\<vp11>** I want a Monero sweater, gonna ask my mother to make me one.  
+**\<vp11>** msvb-lab, there's even comics about ByteRub Cat, come on man.  
+**\<vp11>** https://www.reddit.com/r/ByteRub/comments/78wctn/who_is_monero_cat_episode_6_for_oct_26_is_out/  
+**\<vp11>** I want a ByteRub sweater, gonna ask my mother to make me one.  
 **\<sgp>** I created this really long post earlier this week: https://steemit.com/monero/@sgp/7yjqso-a-monero-introduction-for-beginners  
 **\<sgp>** Does anyone have constructive criticism of it?  
 **\<vp11>** only destructive ;) not really, I thought it was a good read.  
@@ -197,10 +197,10 @@ author: dEBRUYNE / fluffypony
 **\<vp11>** love you all guys :)  
 **\<sgp>** 7. Confirm next meeting date/time  
 **\<sgp>** The next meeting will two weeks from today on 10 November at 17:00 UTC.  
-**\<sgp>** Keep in mind that the second Monero Coffee Chat is next Saturday 4 November  
+**\<sgp>** Keep in mind that the second ByteRub Coffee Chat is next Saturday 4 November  
 **\<msvb-lab>** Thanks for moderating sgp[m], see you all later.  
 **\<sgp>** In future discussions, I would like to focus the conversation around using social media and getting some new faces involved here  
 **\<vp11>** nice, do we already know what platform we will be using next time?  
 **\<sgp>** I've been in dicussion with Jitsi and they're convinced our bug is incredibly rare, so we will use that again. However, it will actually be streamed to YouTube this time for most people to view  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  

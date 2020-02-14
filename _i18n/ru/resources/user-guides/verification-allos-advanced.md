@@ -37,12 +37,12 @@
 
 ### 2.1. Получение ключа подписи
 
-Для Windows или Mac можно взять [GPG ключ Fluffypony](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), оторый он использует для подписи двоичных файлов Monero, и сохранить страницу как `fluffypony.asc` в вашей исходной, «домашней» директории.
+Для Windows или Mac можно взять [GPG ключ Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), оторый он использует для подписи двоичных файлов Monero, и сохранить страницу как `fluffypony.asc` в вашей исходной, «домашней» директории.
 
 Для Linux можно загрузить ключ подписи Fluffypony, используя следующую команду:
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Верификация ключа подписи

@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-dev-meeting-note-highlights-and-transcript-2016-11-27).   
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-dev-meeting-note-highlights-and-transcript-2016-11-27).   
 
 ### Logs  
 
@@ -47,8 +47,8 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** moneromooo shot down bug after bug  
 **\<fluffypony>** kenshi84 started working on one-time addresses without using the integrated address format we currently have  
 **\<fluffypony>** @NanoAkron also fixed some errant armv8 things  
-**\<fluffypony>** and then on the Monero Core side tons of fixes, small and large, primarily by moneromooo and Jaquee  
-**\<fluffypony>** abrkn also had their first PR merged to Monero Core, so welcome to a new contributor  
+**\<fluffypony>** and then on the ByteRub Core side tons of fixes, small and large, primarily by moneromooo and Jaquee  
+**\<fluffypony>** abrkn also had their first PR merged to ByteRub Core, so welcome to a new contributor  
 **\<fluffypony>** xmr-eric also had a pair of PRs, so he's almost at 5 PRs which is excellent  
 **\<fluffypony>** as it stands right now there is a weird segfault occurring occasionally, at least on macOS  
 **\<fluffypony>** and possibly other operating systems  
@@ -69,14 +69,14 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** in the meantime  
 **\<fluffypony>** pigeons is setting up links to built binaries on the buildbot infrastructure  
 **\<fluffypony>** and I'll set forwarders up or something for those  
-**\<fluffypony>** so that people will be able to grab nightlies of both Monero and Monero Core  
+**\<fluffypony>** so that people will be able to grab nightlies of both ByteRub and ByteRub Core  
 **\<fluffypony>** this is not a small amount of work, but it should make it a LOT easier for non-developers to test  
 **\<fluffypony>** and we need ongoing functional testing, over and above test suite regressions  
 **\<fluffypony>** speaking of which; the next step on that is to run and publish performance test data on a per-PR basis  
 **\<fluffypony>** so we can spot performance improvements / regressions  
 **\<fluffypony>** last thing that I want to open the floor to  
 **\<fluffypony>** is issue 1271  
-**\<fluffypony>** https://github.com/monero-project/monero/issues/1271  
+**\<fluffypony>** https://github.com/byterubpay/monero/issues/1271  
 **\<fluffypony>** opened by paragonie-scott  
 **\<fluffypony>** currently we hit /dev/urandom for a random seed, basically  
 **\<fluffypony>** and then use the Keccak sponge function for random numbers thereafter  
@@ -98,13 +98,13 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** haveged would still be of benefit there as it affects the chain from /dev/random -> /dev/urandom  
 **\<moneromooo>** There's a tendency for security researchers to hype every small thing too, fwiw.  
 **\<hyc>** hitting /dev/urandom every time leaves an obvious footprint. I suppose it's more of an issue for closed-source s/w  
-**\<fluffypony>** hyc: yeah - for Monero a root user would be able to trivially trap for any obfuscation we add  
+**\<fluffypony>** hyc: yeah - for ByteRub a root user would be able to trivially trap for any obfuscation we add  
 **\<hyc>** IME, reverse engineering closed source, it's harder to break a PRNG n a binary with no symbols and no syscalls  
 **\<hyc>** but yeah, not relevant for open source  
 **\<ArticMine>** Yes but we are not implementing DRM here  
 **\<i2p-relay> {-anonimal}** * was responding to fluffypony's ping for kovri, what wasn't an endorsement or argument for/against anything for monero  
 **\<i2p-relay> {-anonimal}** s/what/that/  
-**\<fluffypony>** anonimal: sure, but it's advantageous if Kovri and Monero use the same lib  
+**\<fluffypony>** anonimal: sure, but it's advantageous if Kovri and ByteRub use the same lib  
 **\<hyc>** less code to maintain, yeah  
 **\<hyc>** bigger impact if a flaw is found  
 **\<fluffypony>** (for functions TweetNaCl doesn't have, or where performance greater than TweetNaCl's is required)  
@@ -237,7 +237,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<hyc>** title bar included  
 **\<fluffypony>** we don't want it looking like it's from 1995 tho :-P  
 **\<hyc>** we don't want it looking different from everything else on their desktop  
-**\<fluffypony>** I'd prefer that the Monero Core app is consistent across platforms  
+**\<fluffypony>** I'd prefer that the ByteRub Core app is consistent across platforms  
 **\<hyc>** it was a pretty jarring experience for me running it on windows  
 **\<pero>** well it's just a titlebar  
 **\<fluffypony>** ok let's discuss it later, meeting bot coming online  

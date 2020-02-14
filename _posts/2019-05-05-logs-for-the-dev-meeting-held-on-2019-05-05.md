@@ -30,12 +30,12 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** Also QT 5.9.7 allows us to use more features etc.  
 **\<dEBRUYNE>** An update popup was also implemented, it basically checks whether a new version is available and shows a little pop up if yes  
 **\<dEBRUYNE>** Fiat pricing will also be merged soon^tm, note that it will be turned off by default  
-**\<dEBRUYNE>** Update popup can be seen here fwiw -> https://github.com/monero-project/monero-gui/pull/2100  
+**\<dEBRUYNE>** Update popup can be seen here fwiw -> https://github.com/byterubpay/monero-gui/pull/2100  
 **\<dEBRUYNE>** Other than that, the usual lots of optimizations and bug fixes :P  
 **\<dEBRUYNE>** We're essentially ready for the upcoming release too  
 **\<dEBRUYNE>** Just need to merge a few remaining PRs, wait for the translations, and do some testing  
 **\<dEBRUYNE>** That's kind of it I guess :p  
-**\<dEBRUYNE>** Oh one more thing, for 0.15 we'll be revamping the send page / flow to make it more intuitive -> https://github.com/monero-project/monero-gui/issues/2148  
+**\<dEBRUYNE>** Oh one more thing, for 0.15 we'll be revamping the send page / flow to make it more intuitive -> https://github.com/byterubpay/monero-gui/issues/2148  
 **\<rbrunner>** Looks like it will be a interesting release  
 **\<rehrar>** Awesome. And where's the core software in the process of point release? they are planning to have one, right?  
 **\<rehrar>** oh, well moneromooo did kind of state at the start  

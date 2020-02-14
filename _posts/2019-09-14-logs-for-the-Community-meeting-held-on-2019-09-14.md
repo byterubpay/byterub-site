@@ -11,7 +11,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We   would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/391  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/391  
 **\<rehrar>** I will be in and out  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
@@ -38,7 +38,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needmonero90>** Oh  
 **\<sgp\_>** needmonero90: I see, it already has impacted some advertising posts  
 **\<needmonero90>** We'll see how it turns out  
-**\<sgp\_>** There is a partially-filled CCS proposal I want to mention for completeness, but we do not need to discuss it in my opinion since it is incomplete: https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/97  
+**\<sgp\_>** There is a partially-filled CCS proposal I want to mention for completeness, but we do not need to discuss it in my opinion since it is incomplete: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/97  
 **\<sgp\_>** on a related payment gateway note, there were recent updates to btcpayserver for monero  
 **\<sgp\_>** none live yet, but work is ongoing :)  
 **\<dginovker>** Just used btcpayserver for the first time today. It's very good :O  
@@ -153,12 +153,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** i2p-zero has reproduceable builds luckily (experimental)  
 **\<sgp\_>** let me get part d) of updates out, then we can be in open ideas  
 **\<sgp\_>** d. Monero Research Lab  
-**\<sgp\_>** Sarang opened his most recent funding proposal. Surae Noether published his monthly update. https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/89#note\_7255  
+**\<sgp\_>** Sarang opened his most recent funding proposal. Surae Noether published his monthly update. https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/89#note\_7255  
 **\<sgp\_>** we should see more work from surae since he is back from vacation now  
 **\<sgp\_>** with any luck, another episode of breaking monero if we get our acts together  
 **\<sgp\_>** 5. Open ideas time  
 **\<sgp\_>** It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
-**\<xmrscott[m]>** Rebranding of "GUI" to something else: https://github.com/monero-project/meta/issues/384  
+**\<xmrscott[m]>** Rebranding of "GUI" to something else: https://github.com/byterubpay/meta/issues/384  
 **\<rehrar>** yes  
 **\<xmrscott[m]>** This was discussed for about an hour roughly a month ago, the issue contains a rough form of going about making that happen  
 **\<sgp\_>** blockfolio could be used for unofficial polling, but we need a selection of names first for people to choose from  
@@ -184,7 +184,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrscott[m]>** Sure  
 **\<dginovker>** This might be more suitable for a research meeting, but I was talking to an IOTA guy and they were saying they had QC resistance through Lamport signatures. Does anyone have thoughts on this? https://crypto.stackexchange.com/questions/8931/quantum-resistance-of-lamport-signatures  
 **\<sgp\_>** definitely seems like an MRL open ideas question dginovker :)  
-**\<sgp\_>** this was merged during the meeting btw: https://github.com/monero-project/monero-gui/pull/2370  
+**\<sgp\_>** this was merged during the meeting btw: https://github.com/byterubpay/monero-gui/pull/2370  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 28 September at 17:00 UTC. The next Coffee Chat will be on 21 September at 16:00 UTC.  
 **\<sgp\_>** 7. Conclusion  

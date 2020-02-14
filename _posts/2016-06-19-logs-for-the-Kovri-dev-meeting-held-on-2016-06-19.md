@@ -9,7 +9,7 @@ author: dEBRUYNE / fluffypony
 ### Logs
 
 **\<fluffypony>** ok I guess we move on to Kovri - anonimal, the floor is yours  
-**\<meeting-bot> [anominal]** From agenda https://github.com/monero-project/kovri/issues/192  
+**\<meeting-bot> [anominal]** From agenda https://github.com/byterubpay/kovri/issues/192  
 **\<meeting-bot> [anominal]** 17:00 (UTC)  
 **\<meeting-bot> [anominal]** 1. Greetings  
 **\<meeting-bot> [anominal]** 2. Brief review of what's been completed since the previous meeting  
@@ -86,7 +86,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** once you go Kovri you never go...uh...something that rhymes with Kovri  
 **\<meeting-bot> [anominal]** lol  
 **\<meeting-bot> [anominal]** That's a tough one....  
-**\<fluffypony>** https://github.com/monero-project/kovri/issues/210 <- for reference  
+**\<fluffypony>** https://github.com/byterubpay/kovri/issues/210 <- for reference  
 **\<meeting-bot> [anominal]** Remaining tickets are mostly all hard-core. I'll see what I can get into before the next meeting. Obviously the big ones would be nice if I can make the time.  
 **\<meeting-bot> [anominal]** I may pick at #191 or #187 because I get irritated with severely broken things.  
 **\<meeting-bot> [anominal]** Or who knows what, the world is full of mysterious and discovery.  
@@ -129,7 +129,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** maybe we must switch to manual Coverity  
 **\<fluffypony>** and just do it once every two weeks  
 **\<meeting-bot> [anominal]** Sounds fair, I'll give it shot before next meeting.  
-**\<meeting-bot> * anonimal** before I forget, opens https://github.com/monero-project/kovri/issues/assigned/fluffypony  
+**\<meeting-bot> * anonimal** before I forget, opens https://github.com/byterubpay/kovri/issues/assigned/fluffypony  
 **\<meeting-bot> [anominal]** fluffypony: Any updates on #27?  
 **\<meeting-bot> * anonimal** knows you've been busy, simply curious  
 **\<fluffypony>** anonimal: no - also, we're switching providers  
@@ -251,7 +251,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** lol  
 **\<meeting-bot> [anominal]** We should invest in one. The writing is on the wall.  
 **\<meeting-bot> [anominal]** Last call for 6.  
-**\<fluffypony>** new project for the Monero Research Lab to tackle  
+**\<fluffypony>** new project for the ByteRub Research Lab to tackle  
 **\<meeting-bot> [EinMByte]** But, as I've also told fluffypony, please do fund other programmers  
 **\<meeting-bot> [anominal]** Agreed.  
 **\<meeting-bot> [EinMByte]** Apparently you first need the programmer (before getting the money) so let's go find some C++ programmers  

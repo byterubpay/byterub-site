@@ -10,7 +10,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/328  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/328  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** What up, kids?  
@@ -49,8 +49,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** CCS proposals still needing funding:  
 **\<sgp\_>** “ErCiccione: Coordinator of the Localization Workgroup – March” (0 / 144 XMR) https://ccs.getmonero.org/proposals/ErCiccione-localizations.html  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** “knueffelbund GUI design for Q2 2019” https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/54  
-**\<sgp\_>** “xiphon part time coding” https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/55  
+**\<sgp\_>** “knueffelbund GUI design for Q2 2019” https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/54  
+**\<sgp\_>** “xiphon part time coding” https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/55  
 **\<rehrar>** #givexiphonmoney  
 **\<sgp\_>** Does anyone else have a CCS update, or comments about any of these CCS proposals?  
 **\<dEBRUYNE>** Imo we can move those proposals to funding required  
@@ -131,7 +131,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<ErCiccione>** I'm done. For the records, we always need translators at: translate.getmonero.org/projects  
 **\<sgp\_>** It’s official: Monero has its OWN Defcon village this year in a larger space.  
 **\<sgp\_>** I’m working with rehrar, xmrscott, msvb-lab, and the riat team to help coordinate planning. If you have any questions, please contact rehrar. He’s the glue holding this project together. You can ask us in #monero-defcon  
-**\<sgp\_>** You can see the logs of the previous meeting here: https://github.com/monero-project/meta/issues/317  
+**\<sgp\_>** You can see the logs of the previous meeting here: https://github.com/byterubpay/meta/issues/317  
 **\<sgp\_>** c. GUI workgroup  
 **\<el00ruobuob\_[m]>** Do you need me to post those logs on the Wesite sgp\_?  
 **\<sgp\_>** As the GUI team has been increasingly become its own workgroup, I've asked dsc\_ to speak during this section about their progress  
@@ -144,7 +144,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** aight, so as many of us might recall, Purism wants to put a Monero wallet into their upcoming phone line (and down the road laptops as well) by default  
 **\<rehrar>** dsc\_ has alraedy opened an issue a while ago about what it might look like to have a GUI that is specifically for mobile  
 **\<rehrar>** dsc\_: can you post that link here?  
-**\<dsc\_>** https://github.com/monero-project/monero-gui/issues/2026  
+**\<dsc\_>** https://github.com/byterubpay/monero-gui/issues/2026  
 **\<rehrar>** he also says (and he is here to correct me in the event I'm an idiot) that it is doable within a reasonable time frame, but obviously at the expense of other GUI things  
 **\<rehrar>** I personally think this is a super exciting thing that we shouldn't miss out on. Purism is quite known in the privacy community, and I have had several conversatiosn (email, voice and video chat, etc) with the CEO  
 **\<rehrar>** and he is excited about Monero over Bitcoin for privacy reasons and blah blah blah stuff we know  
@@ -188,7 +188,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Thanks dsc\_  
 **\<sgp\_>** We're going to be over today unfortunately, but we need to have a discussion about the Moneroversary  
 **\<sgp\_>** 5. Moneroversary  
-**\<sgp\_>** Monero’s 5th anniversary is this week on Thursday the 18! I’ve been helping organize the occasion to make it a meaningful event for all. You can see the current event information here: https://github.com/monero-project/meta/issues/324  
+**\<sgp\_>** Monero’s 5th anniversary is this week on Thursday the 18! I’ve been helping organize the occasion to make it a meaningful event for all. You can see the current event information here: https://github.com/byterubpay/meta/issues/324  
 **\<sgp\_>** I will summarize the current events as follows:  
 **\<sgp\_>** riat is having an all-day event in Vienna.  
 **\<sgp\_>** Two events will be livestreamed  
@@ -279,7 +279,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 7. Confirm next meeting date/time  
 **\<parasew>** sgp\_: yes ok will take into account that there might not be a lot of participation from external other groups, so we will make sure there is moderation and cake excellence.  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 27 April at 17:00 UTC.  
-**\<sgp\_>** Be there for the Moneroversary on 18 April: https://github.com/monero-project/meta/issues/324  
+**\<sgp\_>** Be there for the Moneroversary on 18 April: https://github.com/byterubpay/meta/issues/324  
 **\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_>** 8. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  

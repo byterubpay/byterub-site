@@ -98,7 +98,7 @@ Esta sección cubrirá la descarga de la clave de firma Monero, verificar que la
 
 ### 2.1. Descargar Clave de Firma
 
-En un navegador web, ve a [Fluffypony's GPG key](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), que utiliza para firmar los binarios Monero. Haz clic derecho en la página y selecciona `Guardar página como`.
+En un navegador web, ve a [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), que utiliza para firmar los binarios Monero. Haz clic derecho en la página y selecciona `Guardar página como`.
 
 ![getkey right click](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 

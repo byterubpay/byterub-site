@@ -3,7 +3,7 @@
   merchants:
     - name: "#monero-otc (OTC)"
       url: https://webchat.freenode.net?channels=%23monero-otc
-    - name: AgoraDesk - P2P OTC trading platform, includes Monero options
+    - name: AgoraDesk - P2P OTC trading platform, includes ByteRub options
       url: https://agoradesk.com
     - name: Alfacashier
       url: https://www.alfacashier.com/
@@ -63,7 +63,7 @@
       url: https://liberalcoins.com/
     - name: LocalCoin.is - LLC/XMR
       url: https://localcoin.is/
-    - name: LocalMonero (P2P exchange)
+    - name: LocalByteRub (P2P exchange)
       url: https://localmonero.co/
     - name: Magnetic Exchange
       url: https://magneticexchange.com
@@ -75,7 +75,7 @@
       url: https://rexi.cc
     - name: ShapeShift (Instant)
       url: https://shapeshift.io/
-    - name: SideShift AI - A rapid coin swap that fully supports Monero
+    - name: SideShift AI - A rapid coin swap that fully supports ByteRub
       url: https://sideshift.ai
     - name: SimpleSwap
       url: https://simpleswap.io
@@ -92,11 +92,11 @@
 - category: Block Explorers
   id: block-explorers
   merchants:
-    - name: MoneroBlocks
+    - name: ByteRubBlocks
       url: https://moneroblocks.info
-    - name: MoneroExplorer
+    - name: ByteRubExplorer
       url: https://moneroexplorer.com/
-    - name: MoneroVision
+    - name: ByteRubVision
       url: https://monerovision.com
     - name: xmrchain.net
       url: https://xmrchain.net/
@@ -115,7 +115,7 @@
       url: https://globee.com/
     - name: Living Room of Satoshi
       url: https://www.livingroomofsatoshi.com/?sc=xmr
-    - name: Monero WooCommerce Extension (PHP)
+    - name: ByteRub WooCommerce Extension (PHP)
       url: https://github.com/monero-integrations/monerowp
     - name: MyCryptoCheckout
       url: https://mycryptocheckout.com
@@ -126,42 +126,42 @@
 - category: Libraries and Helpers
   id: libraries
   merchants:
-    - name: Monero Integrations (eCommerce plugins)
+    - name: ByteRub Integrations (eCommerce plugins)
       url: http://monerointegrations.com/
     - name: monero-nodejs (Node.js)
       url: https://github.com/PsychicCat/monero-nodejs
-    - name: MoneroApi.Net (.NET)
-      url: https://github.com/Jojatekok/MoneroApi.Net
+    - name: ByteRubApi.Net (.NET)
+      url: https://github.com/Jojatekok/ByteRubApi.Net
     - name: moneronjs (NodeJS)
       url: https://github.com/netmonk/moneronjs
-    - name: Monero Payments Library (PHP)
+    - name: ByteRub Payments Library (PHP)
       url: https://github.com/monero-integrations/monerophp
-    - name: Monero-PHP (PHP)
+    - name: ByteRub-PHP (PHP)
       url: https://github.com/PsychicCat/monero-php
-    - name: MoneroPy (Python)
-      url: https://github.com/bigreddmachine/MoneroPy
+    - name: ByteRubPy (Python)
+      url: https://github.com/bigreddmachine/ByteRubPy
     - name: monero-python (Python)
       url: https://github.com/emesik/monero-python
-    - name: PHP-Monero (PHP)
-      url: https://github.com/MalMen/PHP-Monero
+    - name: PHP-ByteRub (PHP)
+      url: https://github.com/MalMen/PHP-ByteRub
     - name: python-monero (Python)
       url: https://github.com/tippero/python-monero
     - name: xmr-integration (PHP)
       url: https://github.com/TheKoziTwo/xmr-integration
-    - name: Monero Utilities (golang)
+    - name: ByteRub Utilities (golang)
       url: https://github.com/paxos-bankchain/moneroutil
 - category: Tools
   id: tools
   merchants:
     - name: Cryptoradar (Marketplace comparison website)
       url: https://cryptoradar.co/buy-monero
-    - name: MoneroBase Price Charts and Tools
+    - name: ByteRubBase Price Charts and Tools
       url: https://monerobase.com
-    - name: MoneroNotify - Transaction Notification Service
+    - name: ByteRubNotify - Transaction Notification Service
       url: https://xmrnotify.com
     - name: nestorgames
       url: http://www.nestorgames.com
-    - name: Offline Monero address generator
+    - name: Offline ByteRub address generator
       url: https://moneroaddress.org/
 - category: Services
   id: services
@@ -202,7 +202,7 @@
       url: mailto:kiah.morante@gmail.com
     - name: Evolution Host - Hosting services
       url: https://evolution-host.com/
-    - name: ExchangeRates - compares the prices of Monero and other cryptocurrencies across exchanges
+    - name: ExchangeRates - compares the prices of ByteRub and other cryptocurrencies across exchanges
       url: https://exchangerates.pro/
     - name: Farmer ALP, LLC, Arizona
       url: mailto:farmeralp@gmail.com
@@ -231,10 +231,10 @@
     - name: Marcos Aguayo - Programmer and Web Developer
       url: https://marcosaguayo.com/
     - name: MSvB Hardware Design (using a secure element)
-      url: mailto:monerodev+sitesvcs@encambio.com?subject=Monero%20Services%20Hardware%20Design%20Request
+      url: mailto:monerodev+sitesvcs@encambio.com?subject=ByteRub%20Services%20Hardware%20Design%20Request
     - name: Monovm
       url: https://monovm.com/
-    - name: MyMonero Web-based Wallet
+    - name: MyByteRub Web-based Wallet
       url: https://mymonero.com
     - name: NiceVPS - VPS and web hosting
       url: https://nicevps.net/
@@ -264,7 +264,7 @@
       url: https://www.webbdo.se/webbhotell/
     - name: Whattheserver - Web hosting
       url: https://Whattheserver.me
-    - name: XMR.to Monero to Bitcoin Payment Service
+    - name: XMR.to ByteRub to Bitcoin Payment Service
       url: https://xmr.to/
 - category: Goods
   id: goods
@@ -289,7 +289,7 @@
       url: https://cryptoclothing.org/
     - name: Crypto homes
       url: https://www.cryptohomes.me
-    - name: Cryptonic Physical Monero & Bitcoin coins
+    - name: Cryptonic Physical ByteRub & Bitcoin coins
       url: https://cryptonic.net
     - name: Digital gift cards
       url: https://giftoff.com/
@@ -331,11 +331,11 @@
       url: https://store.mobair.se/
     - name: Mobisun - Portable solar panels
       url: https://www.mobisun.com/
-      name: Monero.style - Monero themed merchandise for everybody
+      name: ByteRub.style - ByteRub themed merchandise for everybody
       url: https://monero.style/
-    - name: MoneroApparel - Merchandise
+    - name: ByteRubApparel - Merchandise
       url: https://moneroapparel.com/
-    - name: Monerobox - Monero plug-and-play full nodes
+    - name: ByteRubbox - ByteRub plug-and-play full nodes
       url: https://monerobox.store/
     - name: Mushroom cultures, mushroom growing supplies, seeds
       url: https://www.vesp.co/Fungible
@@ -370,9 +370,9 @@
   merchants:
     - name: Crypto Games
       url: https://www.crypto-games.net/
-    - name: Minko.to - The Monero Plinko. Provably fair on-chain game.
+    - name: Minko.to - The ByteRub Plinko. Provably fair on-chain game.
       url: https://minko.to
-    - name: Monero.win - Bet on the Monero Blockchain
+    - name: ByteRub.win - Bet on the ByteRub Blockchain
       url: https://monero.win/
     - name: SafeDice
       url: https://safedice.com

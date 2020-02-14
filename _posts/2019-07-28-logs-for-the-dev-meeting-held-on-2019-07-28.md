@@ -52,8 +52,8 @@ author: el00ruobuob / rehrar
 **\<dsc\_>** The fact we package i2p-zero is a convienence feature. I'm also 'integrating' support for Tor but we wont be packaging that. That's basically running Tor and using socks proxy at :9050  
 **\<rehrar>** we GUI people are scrubs  
 **\<xmrmatterbridge> \<xmr-romine>** is there already some doc about running monerod over tor ?  
-**\<dsc\_>** https://github.com/monero-project/monero/blob/master/ANONYMITY\_NETWORKS.md  
-**\<dEBRUYNE>** https://github.com/monero-project/monero/blob/master/ANONYMITY\_NETWORKS.md & https://github.com/monero-project/monero#using-tor  
+**\<dsc\_>** https://github.com/byterubpay/monero/blob/master/ANONYMITY\_NETWORKS.md  
+**\<dEBRUYNE>** https://github.com/byterubpay/monero/blob/master/ANONYMITY\_NETWORKS.md & https://github.com/byterubpay/monero#using-tor  
 **\<xmrmatterbridge> \<xmr-romine>** thanks guys  
 **\<rehrar>** hyc any update on randomx audit?  
 **\<rehrar>** The last one?  
@@ -85,8 +85,8 @@ author: el00ruobuob / rehrar
 **\<vtnerd\_\_>** it keeps state in a file that it might re-use, so you'd have to a cold restart  
 **\<dsc\_>** vtnerd\_\_: fair enough  
 **\<rehrar>** alright, anything else?  
-**\<dEBRUYNE>** vtnerd\_\_: I was wondering if you intend to pick this up somewhere in the future? https://github.com/monero-project/monero/pull/2317  
-**\<vtnerd\_\_>** see https://github.com/monero-project/supercop/pull/2  
+**\<dEBRUYNE>** vtnerd\_\_: I was wondering if you intend to pick this up somewhere in the future? https://github.com/byterubpay/monero/pull/2317  
+**\<vtnerd\_\_>** see https://github.com/byterubpay/supercop/pull/2  
 **\<vtnerd\_\_>** this one and the next one after that PR is a bit rough because its x86 ASM  
 **\<rehrar>** that was a hilarious conversation to witness  
 **\<rehrar>** person 1: i was wondering if git link  
@@ -115,7 +115,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** nice!  
 **\<rehrar>** does anyone have anything else that they want to discuss?  
 **\<hyc>** since they've been opening github issues as they arose, there's not likely to be anything in the report we haven't already seen  
-**\<ErCiccione>** yep! https://github.com/monero-project/meta/issues/236#issuecomment-515669422  
+**\<ErCiccione>** yep! https://github.com/byterubpay/meta/issues/236#issuecomment-515669422  
 **\<ErCiccione>** GitHub is starting to censor people coming from countries under US sanctions, we should definitely migrate away  
 **\<ErCiccione>** i don't know how the core team feel about it  
 **\<rehrar>** do people here have any thoughts about the Github/Gitlab thing, especially in light of the recent Github things?  

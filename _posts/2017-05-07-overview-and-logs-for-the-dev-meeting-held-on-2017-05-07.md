@@ -1,21 +1,21 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-05-07
-summary: Sub / disposable addresses, smart mining GUI, 0MQ, and MyMonero-in-tree discussion
+summary: Sub / disposable addresses, smart mining GUI, 0MQ, and MyByteRub-in-tree discussion
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 ### Overview  
 
-An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-05-07).  
+An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-05-07).  
 
 ### Logs  
 
 **\<fluffypony>** 1. Greetings  
 **\<fluffypony>** 2. Brief review of what's been completed since the previous meeting  
 **\<fluffypony>** 3. Code + ticket discussion / Q & A  
-**\<fluffypony>** 4. MyMonero-in-tree discussion  
+**\<fluffypony>** 4. MyByteRub-in-tree discussion  
 **\<fluffypony>** 5. Any additional meeting items  
 **\<fluffypony>** 6. Confirm next meeting date/time  
 **\<fluffypony>** so let's start with 1. Greetings (aka roll call)  
@@ -70,7 +70,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** as long as the parallel MRL write-up is there  
 **\<fluffypony>** I'd like to discuss 1998  
 **\<fluffypony>** the PR, not the year  
-**\<fluffypony>** https://github.com/monero-project/monero/pull/1998  
+**\<fluffypony>** https://github.com/byterubpay/monero/pull/1998  
 **\<fluffypony>** at this point in time I'm still swaying towards prevent-user-stupidity-by-default  
 **\<fluffypony>** at the slight inconvenience for a power user / sysadmin who might go "omg really" and then add the flag  
 **\<fluffypony>** I know vtnerd feels the same way, which is why he added it in the first place  
@@ -147,14 +147,14 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** so we can discuss it then  
 **\<sgp>** ok  
 **\<fluffypony>** ok so  
-**\<fluffypony>** 4. MyMonero-in-tree discussion  
-**\<fluffypony>** so basically this is about nose-covering and making sure I'm not abusing my position as a maintainer and member of the Monero Core Team  
-**\<fluffypony>** currently MyMonero has a working API (largely unspecced to be sure), two client implementations (website and app), two server implementations (the live backend and OpenMonero), with a third one coming  
+**\<fluffypony>** 4. MyByteRub-in-tree discussion  
+**\<fluffypony>** so basically this is about nose-covering and making sure I'm not abusing my position as a maintainer and member of the ByteRub Core Team  
+**\<fluffypony>** currently MyByteRub has a working API (largely unspecced to be sure), two client implementations (website and app), two server implementations (the live backend and OpenByteRub), with a third one coming  
 **\<fluffypony>** I'd like to make sure there is general acceptance and buy-in that the API can be implemented as the general API for lightweight wallets (ie. wallet that use remote viewkey scanning)  
 **\<hyc>** is it carved in stone now  
 **\<hyc>** if we need to tweak it we can still do that?  
 **\<redlion>** is the license unrestricted?  
-**\<fluffypony>** and that MyMonero-written or MyMonero-derived code is generally acceptable to be merged into the source tree (ie. the open-source backend implementation that vtnerd is working on)  
+**\<fluffypony>** and that MyByteRub-written or MyByteRub-derived code is generally acceptable to be merged into the source tree (ie. the open-source backend implementation that vtnerd is working on)  
 **\<fluffypony>** redlion: BSD 3-clause  
 **\<fluffypony>** hyc: as long as mWo12 changes it, and we match the changes in the live backend and the new backend then yse  
 **\<fluffypony>** yes  
@@ -184,7 +184,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** Jaquee has begun working on client integration in the CLI and GUI  
 **\<moneromooo>** "client integration" ?  
 **\<vtnerd>** you mean for light-wallets?  
-**\<fluffypony>** that will mean that both CLI and GUI will be able to run in lightweight / remote-scanner / MyMonero mode  
+**\<fluffypony>** that will mean that both CLI and GUI will be able to run in lightweight / remote-scanner / MyByteRub mode  
 **\<fluffypony>** moneromooo: as opposed to implementing the server protocol  
 **\<hyc>** sounds good  
 **\<moneromooo>** Oh, mymonero client integration ?  
@@ -195,34 +195,34 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<hyc>** but I'm still missing why we need old wallet-rpc if this mymonero api exists  
 **\<jollymort>** it's literally my monero :)  
 **\<fluffypony>** hyc: wallet-rpc is completely different  
-**\<johnalan>** so the core GUI will be able to interact with MyMonero backend too?  
+**\<johnalan>** so the core GUI will be able to interact with MyByteRub backend too?  
 **\<vtnerd>** for people that want to run VPS node but keep their viewkey ?  
 **\<moneromooo>** Yes, would be nice to see what bits are needed where, and the actual API (even if roughly).  
 **\<fluffypony>** it provides an API for integrators  
 **\<fluffypony>** @johnalan yes  
 **\<fluffypony>** so basically  
-**\<johnalan>** is this needed with the MyMonero Desktop wallet?  
+**\<johnalan>** is this needed with the MyByteRub Desktop wallet?  
 **\<ArticMine>** With what as the backed / server  
 **\<moneromooo>** That can be posted later though, :49 now.  
 **\<ArticMine>** monerod?  
 **\<fluffypony>** lightweight wallets will have 3 server options:  
-**\<fluffypony>** 1. OpenMonero  
+**\<fluffypony>** 1. OpenByteRub  
 **\<fluffypony>** 2. the new in-source backend that vtnerd is working on  
-**\<fluffypony>** 3. the live MyMonero backend  
+**\<fluffypony>** 3. the live MyByteRub backend  
 **\<fluffypony>** it will also have multiple client options:  
 **\<hyc>** afaik the main difference btw an ordinary wallet and mymomero is you tell mymonero your viewkey  
-**\<fluffypony>** 1. OpenMonero's web wallet (clone of the current MyMonero web wallet)  
+**\<fluffypony>** 1. OpenByteRub's web wallet (clone of the current MyByteRub web wallet)  
 **\<hyc>** and the ordinary wallet has all your keys  
-**\<fluffypony>** 2. the MyMonero applications  
+**\<fluffypony>** 2. the MyByteRub applications  
 **\<fluffypony>** 3. monero-wallet-cli  
 **\<fluffypony>** 4. monero-wallet-rpc  
-**\<fluffypony>** 5. the Monero GUI  
+**\<fluffypony>** 5. the ByteRub GUI  
 **\<fluffypony>** hyc: monero-wallet-rpc can still use this on the backend  
 **\<fluffypony>** so it's unrelated  
 **\<hyc>** ok  
 **\<ArticMine>** ok  
 **\<jollymort>** about #2011 - you could modify it to (median)+0.6% for it to be mine-worthy, or even have the wallet check for fee setting and then it would be matched like 1: +0.6%, 2: +2.4%, 3: +12%, 4:+100%  
-**\<fluffypony>** also this will mean that the GUI / CLI may end up supporting the MyMonero 13-word seed derivation by virtue of the integration effort  
+**\<fluffypony>** also this will mean that the GUI / CLI may end up supporting the MyByteRub 13-word seed derivation by virtue of the integration effort  
 **\<fluffypony>** does anyone have a fundamental issue with that ?  
 **\<ArticMine>** no  
 **\<fluffypony>** I mean, I do, because I don't want to be abusing my position, but it is what it is :-P  
@@ -249,7 +249,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** but with 25 word seed, not 13  
 **\<fluffypony>** we have 7 minutes left - so I'd like to move on to the last item  
 **\<shuannelson>** awesome!  
-**\<fluffypony>** we can discuss MyMonero more after the meeting  
+**\<fluffypony>** we can discuss MyByteRub more after the meeting  
 **\<redlion>** @shaunnelson, I think it's just that the CLI/GUI won't create 13-word seeds, but will accept already created ones  
 **\<hyc>** yeah sounds fine  
 **\<fluffypony>** 5. Any additional meeting items  

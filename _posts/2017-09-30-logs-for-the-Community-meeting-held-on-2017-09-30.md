@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2017-09-30
-summary: Community highlights, Forum Funding System updates, Monero Q&A sessions, Monero support, Monero meetups, Taiga projects, open ideas time, and miscellaneous
+summary: Community highlights, Forum Funding System updates, ByteRub Q&A sessions, ByteRub support, ByteRub meetups, Taiga projects, open ideas time, and miscellaneous
 tags: [community]
 author: dEBRUYNE / fluffypony
 ---
@@ -9,9 +9,9 @@ author: dEBRUYNE / fluffypony
 # Logs  
 
 **\<rehrar>** 0. Introduction  
-**\<rehrar>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<rehrar>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/121  
-**\<rehrar>** Monero Community meetings intend to be a discussion place for  anything going on in the Monero Community. We plan to use this meeting  and future meetings to encourage the community to share ideas and  provide support.  
+**\<rehrar>** We would like to welcome everyone to this ByteRub Community Meeting!  
+**\<rehrar>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/121  
+**\<rehrar>** ByteRub Community meetings intend to be a discussion place for  anything going on in the ByteRub Community. We plan to use this meeting  and future meetings to encourage the community to share ideas and  provide support.  
 **\<rehrar>** Justin is at a Gophers football game today, so we can 'boo' him later.  
 **\<endogenic>** boo sgp  
 **\<rehrar>** 1. Greetings (who all's here?)  
@@ -24,18 +24,18 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** boo  
 **\<serhack>** hi  
 **\<rehrar>** 2. Community highlights  
-**\<rehrar>** For a great weekly summary, please read the Monero Observer: http://monero-observer.com/  
+**\<rehrar>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
 **\<rehrar>** btw, he opened up a FFS to get compensated for his great work, and we should push to get it moved to Funding Required  
 **\<rehrar>** I can't link to it because the getmonero forum is down. I have nothing to do with the forum, so unfortunately I can't do anything about it. :/  
-**\<rehrar>** Ledger has been making integration progress:  https://www.reddit.com/r/Monero/comments/72rh39/ledger_hardware_wallet_monero_integration_some/  
-**\<rehrar>** Monero was featured on the IBTimes  http://www.ibtimes.com/monero-rises-dark-web-why-cryptocurrency-users-want-more-privacy-2584390  
+**\<rehrar>** Ledger has been making integration progress:  https://www.reddit.com/r/ByteRub/comments/72rh39/ledger_hardware_wallet_monero_integration_some/  
+**\<rehrar>** ByteRub was featured on the IBTimes  http://www.ibtimes.com/monero-rises-dark-web-why-cryptocurrency-users-want-more-privacy-2584390  
 **\<rehrar>** The Monerujo android wallet made it to the Google Play Store:  https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet  
 **\<rehrar>** CoinHive took the world by storm. CoinHive is an in-browser  JavaScript miner that was deployed on ThePirateBay and Showtime, among  other sites https://coinhive.com/blog/status-report  
-**\<rehrar>** Mike posted the latest episode of the Monero Monitor featuring John  Tromp on Cuckoo Cycle and John McAfee on Monero  https://moneromonitor.com/episodes/2017-09-26-Episode-014.html  
+**\<rehrar>** Mike posted the latest episode of the ByteRub Monitor featuring John  Tromp on Cuckoo Cycle and John McAfee on ByteRub  https://moneromonitor.com/episodes/2017-09-26-Episode-014.html  
 **\<rehrar>** Does anyone else have a highlight to share?  
 **\<vP11>** i'd like to say a few words on a project that i've been working  
 **\<rehrar>** g'head  
-**\<vP11>** I'd like to announce a side-project called Monero Brasil. It's a community hub to introduce Monero to brazilians and other portuguese-speaking regions. I'll make a reddit post after the meeting with everything I accomplished so far and whatever else I have in the pipeline.  
+**\<vP11>** I'd like to announce a side-project called ByteRub Brasil. It's a community hub to introduce ByteRub to brazilians and other portuguese-speaking regions. I'll make a reddit post after the meeting with everything I accomplished so far and whatever else I have in the pipeline.  
 **\<vP11>** the community hub consists of a website, facebook page, twitter and a whatsapp group (most used chat platform in Latin America).  
 **\<vP11>** i wanted to announce this here before posting because I'd like firstly to thank you for being an amazing community that gave me inspiration to do it. secondly because you guys are pretty much experts on community management, so I'll be looking for your feedback later to improve the community hub even more.  
 **\<vP11>** that will be all, thanks :)  
@@ -50,15 +50,15 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Maybe as a part of next meeting, we can go through the current Ideas and Open Tasks and give comments on them?  
 **\<msvb-lab>** Good idea, as there is some action there in comments too.  
 **\<vP11>** I agree. and for now the forum is offline so make sure to save the links and go there later  
-**\<rehrar>** 4. Monero Q&A sessions  
-**\<rehrar>** We are pleased to announce that several members of the community have  stepped up to have monthly livestreamed Monero Q&A sessions. These  will be outlined similarly to the Kovri OpenHours showcase  https://www.youtube.com/watch?v=b0k5lTMFXBA  
+**\<rehrar>** 4. ByteRub Q&A sessions  
+**\<rehrar>** We are pleased to announce that several members of the community have  stepped up to have monthly livestreamed ByteRub Q&A sessions. These  will be outlined similarly to the Kovri OpenHours showcase  https://www.youtube.com/watch?v=b0k5lTMFXBA  
 **\<rehrar>** The first event will be on 7 October at 16:00 UTC, a week from today.  Justin (sgp) will host the first meeting. Everyone is welcome to  participate, and several community members will be there.  
 **\<rehrar>** Each session could feature different people. Justin may be able to  make it to one session but not another, for instance. The same goes for  all the other contributors.  
-**\<rehrar>** Again, these meetings are mostly informal. We hope that they can  bring a level of accessibility, openness, and humanness to many Monero  community members. Those who have questions can have them accurately  answered live.  
+**\<rehrar>** Again, these meetings are mostly informal. We hope that they can  bring a level of accessibility, openness, and humanness to many ByteRub  community members. Those who have questions can have them accurately  answered live.  
 **\<rehrar>** We would like to hear your thoughts on this initiative!  
-**\<vP11>** That's very cool. Very nice a idea to get people to know more about Monero and also to feel "closer" to the developers and community members.  
+**\<vP11>** That's very cool. Very nice a idea to get people to know more about ByteRub and also to feel "closer" to the developers and community members.  
 **\<ajs>** interesting idea  
-**\<vP11>** We can openly invite people from other communities or "pseudo-celebrities" to join and ask questions about Monero, etc, get their questions answered live.  
+**\<vP11>** We can openly invite people from other communities or "pseudo-celebrities" to join and ask questions about ByteRub, etc, get their questions answered live.  
 **\<vP11>** Cool idea really  
 **\<ArticMine>** Very good idea  
 **\<endogenic>** i'm gonna try to make it on the 7th, fwiw :)  
@@ -70,10 +70,10 @@ author: dEBRUYNE / fluffypony
 **\<needmultisig90>** Im interested in participating as well  
 **\<needmultisig90>** Other than that, none from me  
 **\<rehrar>** ok  
-**\<rehrar>** 5. Monero Support  
+**\<rehrar>** 5. ByteRub Support  
 **\<rehrar>** There has been some discussion on this point, specifically after the community meeting last time.  
-**\<rehrar>** About whether we are big enough for us to necessarily try sending support questions to Monero Support  
-**\<rehrar>** Thoughts on this? Is there a desire to have less support questions on the official forum? Should we be pushing for Monero Support?  
+**\<rehrar>** About whether we are big enough for us to necessarily try sending support questions to ByteRub Support  
+**\<rehrar>** Thoughts on this? Is there a desire to have less support questions on the official forum? Should we be pushing for ByteRub Support?  
 **\<rehrar>** official forum = official reddit  
 **\<needmultisig90>** I think in the first few weeks of the sub, we should have all new threads linked into monero  
 **\<needmultisig90>** Gets exposure to the people who can respond, and would in theory mean no one needs to actively watch it  
@@ -81,7 +81,7 @@ author: dEBRUYNE / fluffypony
 **\<needmultisig90>** I do too  
 **\<needmultisig90>** Have for a while  
 **\<pero>** well that was a critical tenet behind the idea  
-**\<vP11>** i don't know, i think i like having some questions directly on the r/Monero because some "support questions" bring discussions about important subjects  
+**\<vP11>** i don't know, i think i like having some questions directly on the r/ByteRub because some "support questions" bring discussions about important subjects  
 **\<pero>** but the main sub mods dont seem to agree  
 **\<vP11>** but small, common questions should be redirected  
 **\<needmultisig90>** Support questions are a lot of noise over signal  
@@ -89,11 +89,11 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** vP11 there are some good questions but most of them are just "halp missing coins!!! am i screwed???" and all you have to do is tell them to wait for them to sync  
 **\<vP11>** cryptochangement, I agree  
 **\<vP11>** I guess the moderators need to judge case by case, if a support question is really just another of the same, then redirect it  
-**\<vP11>** otherwise, let it live in r/Monero  
+**\<vP11>** otherwise, let it live in r/ByteRub  
 **\<pero>** if there isnt buy in from the mods in rmonero then it's just a waste of effort imo  
-**\<vP11>** in the angle that people will keep going to r/Monero to ask questions because it's the biggest sub?  
+**\<vP11>** in the angle that people will keep going to r/ByteRub to ask questions because it's the biggest sub?  
 **\<needmultisig90>** There is buy in from myself and debruyne, if the rule got passed at a community level  
-**\<xmrmatterbridge> \<sgp>** for /r/monero: "the GUI needs to be easier to use. here's why" for /r/Monerosupport "I need help connecting to a remote node"  
+**\<xmrmatterbridge> \<sgp>** for /r/monero: "the GUI needs to be easier to use. here's why" for /r/ByteRubsupport "I need help connecting to a remote node"  
 **\<needmultisig90>** I can pull up logs if needed  
 **\<dEBRUYNE>** Buy in somewhere in the future that is, fwiw  
 **\<needmultisig90>** Yes  
@@ -102,7 +102,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Can we try a little vote thingy? Just to get people's opinions?  
 **\<pero>** sure we discussed it 10 times ;p  
 **\<rehrar>** Yeah, let's do that.  
-**\<rehrar>** I will say three different statements about the Monero Support, when you agree with a statement  
+**\<rehrar>** I will say three different statements about the ByteRub Support, when you agree with a statement  
 **\<rehrar>** raise your hand o/  
 **\<rehrar>** One will be positive, one will be negative, and one will be 'at a later time'  
 **\<dEBRUYNE> \<pero>** pretty sure debruyne told me he isnt down \<= To clarify. I said i'd be down for it somewhere in the future, when r/monero is bigger  
@@ -111,7 +111,7 @@ author: dEBRUYNE / fluffypony
 **\<xmrmatterbridge> \<sgp>** o/  
 **\<vP11>** o\> (half)  
 **\<cryptochangement>** o/  
-**\<rehrar>** 2. I don't think Monero Support is necessary  
+**\<rehrar>** 2. I don't think ByteRub Support is necessary  
 **\<ErCiccione>** i'll be alone but o/  
 **\<rehrar>** 3. I am in favor of /r/monerosupport, but not at this present time  
 **\<msvb-lab>** o/  
@@ -126,10 +126,10 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** It's obviously not an official vote :P It's just to get a rough idea.  
 **\<rehrar>** Ok, we'll table that for now. For the time being, we are getting a few questions here and there  
 **\<rehrar>** if you have the time and/or desire, please pop by and answer some that come up  
-**\<rehrar>** moving on: 6. Monero meetups  
+**\<rehrar>** moving on: 6. ByteRub meetups  
 **\<needmultisig90>** Wait  
 **\<needmultisig90>** Addendum  
-**\<rehrar>** Monero meetups are *stops*  
+**\<rehrar>** ByteRub meetups are *stops*  
 **\<rehrar>** g'head nm90  
 **\<needmultisig90>** Can we get a relay bot for new threads in /r/monerosupport into monero?  
 **\<needmultisig90>** I think that would dramatically increase response time and engagement  
@@ -141,10 +141,10 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** ok then  
 **\<needmultisig90>** I hear no dissent, so ill just do it then  
 **\<rehrar>** :D Meetups  
-**\<rehrar>** There's an increasing chance every day that there's a Monero community near you.  
-**\<rehrar>** Justin's group Crypto@UMN is hosting a Monero meetup on 20 October in  Minneapolis. This event is open to students and the wider community.  Free food and drinks will be provided. More details here:  https://gopherlink.umn.edu/event/1581653  
+**\<rehrar>** There's an increasing chance every day that there's a ByteRub community near you.  
+**\<rehrar>** Justin's group Crypto@UMN is hosting a ByteRub meetup on 20 October in  Minneapolis. This event is open to students and the wider community.  Free food and drinks will be provided. More details here:  https://gopherlink.umn.edu/event/1581653  
 **\<rehrar>** There were also meetups in Berlin and Silicon Valley, but I don't have deets  
-**\<rehrar>** binaryFate is looking for an organizer to take over the Monero London responsibilities.  
+**\<rehrar>** binaryFate is looking for an organizer to take over the ByteRub London responsibilities.  
 **\<needmultisig90>** 1 sec  
 **\<needmultisig90>** https://www.meetup.com/San-Mateo-Cryptocurrency-Meetup/  
 **\<needmultisig90>** Meetup is on the 1st, and every 2 weeks (sundays) after  
@@ -153,17 +153,17 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Cool. I can add that to the events page on the webste  
 **\<rehrar>** Any other meetups, either reporting on one that happened or announcing one in the future?  
 **\<ArticMine>** There are now monthly meetups in Toronto  
-**\<ArticMine>** https://www.meetup.com/Toronto-Monero-Meetup/  
+**\<ArticMine>** https://www.meetup.com/Toronto-ByteRub-Meetup/  
 **\<binaryFate>** For London, more precisely a team of organizers. I know too well how a single person can be a bottleneck. I'm discussing with some folks already, looks cool  
 **\<msvb-lab>** Not sure if it qualifies as a meetup (whatever that is) but RIAT in Vienna is organizing one or more meetings in Vienna. A date hasn't been set but it will be early or mid December.  
 **\<rehrar>** Awesome stuff.  
-**\<msvb-lab>** The meetings will welcome all Monero community members and at least one topic on the agenda will be planning a larger Monero presence at the 34C3 in December.  
+**\<msvb-lab>** The meetings will welcome all ByteRub community members and at least one topic on the agenda will be planning a larger ByteRub presence at the 34C3 in December.  
 **\<binaryFate>** last year we were 3 :)  
 **\<rehrar>** I'd like to announce and idea that ajs and I have been popping back and forth between us, for comment  
 **\<rehrar>** We were thinking of hosting a Privacy conference somewhere in the Southwest America (like Dallas).  
 **\<rehrar>** It's a big dream, and would require a lot of work, but we can see about raising some funds through FFS for space, and inviting different people in the field to join.  
-**\<ArticMine>** So Monero and privacy?  
-**\<rehrar>** Privacy Conference, powered by Monero.  
+**\<ArticMine>** So ByteRub and privacy?  
+**\<rehrar>** Privacy Conference, powered by ByteRub.  
 **\<rehrar>** But yeah, basically  
 **\<rehrar>** Oh, and we're looking for sometime summer next year.  
 **\<vP11>** interesting. privacy is a top that is getting hotter and hotter. i might see why people would go into a conference with a focus on privacy and it would be cool to have monero on it.  
@@ -172,15 +172,15 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** It is doable  
 **\<msvb-lab>** Might be worth doing some basic 'how to protect your privacy' (EFF like workshop) or 'How does Tor work' at the privacy conference.  
 **\<rehrar>** exactly msvb-lab  
-**\<msvb-lab>** rehrar: Since it will be easy to cover Monero centric topics, but there won't be buy in from EFF and Tor probably.  
+**\<msvb-lab>** rehrar: Since it will be easy to cover ByteRub centric topics, but there won't be buy in from EFF and Tor probably.  
 **\<rehrar>** There can be some things for privacy noobs and veterans alike  
 **\<rehrar>** We can always invite. Never hurts to ask. Worst we get is a 'no', and we have someone else show the basics.  
 **\<rehrar>** Best we get is a 'yes' and we get more big names.  
 **\<rehrar>** *shrug* just an idea :)  
 **\<msvb-lab>** That's right, John McAffee should be invited too.  
 **\<ArticMine>** ... and the FSF  
-**\<flyasaphoenix[m]>** Offer discount for tix purchased with Monero :p  
-**\<rehrar>** Doing something like this would also set Monero apart further from other coins (not that we already aren't). It puts Monero as an advocate for privacy on a larger scale.  
+**\<flyasaphoenix[m]>** Offer discount for tix purchased with ByteRub :p  
+**\<rehrar>** Doing something like this would also set ByteRub apart further from other coins (not that we already aren't). It puts ByteRub as an advocate for privacy on a larger scale.  
 **\<msvb-lab>** Invite Richard Stallman.  
 **\<rehrar>** Anyways, topic in the works. To be continued. Moving on.  
 **\<ajs>** was thinking of sending out a call for papers on privacy issues from different areas of study.. law, social, political, economic, cryptography and maybe publish a peer reviewed journal  
@@ -200,26 +200,26 @@ author: dEBRUYNE / fluffypony
 **\<needmultisig90>** Im personally biased towards inclusion for financial reasons, and will refrain from participating  
 **\<needmultisig90>** I dont believe my opinion is impartial here.  
 **\<rehrar>** but we are working on integrating with mattermost so that when there is an update to the project, it will make a post in MatterMost about it (in your chosen channel)  
-**\<rehrar>** regarding Aeon, I think the biggest question is, do the values and ideals of the coin match with that of Monero?  
-**\<rehrar>** if the answer is no, then it should be removed. Doesn't matter who runs it, or how many Monero community members are also a part of it.  
+**\<rehrar>** regarding Aeon, I think the biggest question is, do the values and ideals of the coin match with that of ByteRub?  
+**\<rehrar>** if the answer is no, then it should be removed. Doesn't matter who runs it, or how many ByteRub community members are also a part of it.  
 **\<msvb-lab>** What's the history that led to Aeon's preferred status?  
 **\<ErCiccione>** rehrar i don't think that's the right question to make since we have /r/BTC  
-**\<xeagu>** I posted a thread earlier that is relevant to the discussion of /r/aeon being on the sidebar. Tldr, I laid out a set of principles that I believe align with the Monero Community. Maybe I go a little too far by including Bitcoin and Litecoin - what do you think?  
-**\<xeagu>** https://www.reddit.com/r/Monero/comments/73g7aq/monero_community/  
-**\<bigreddmachine>** @needmultisig90 it's not even that Aeon is favored over other cryptonote coins, it's that it is favored over other coins, period. It's not part of the Monero Project, and therefore should be treated the exact same way as everything else. Bitcoin makes the sidebar because it is the first, the biggest, and there's near unanimous agreement that one of the various forms of Bitcoin is King.  
+**\<xeagu>** I posted a thread earlier that is relevant to the discussion of /r/aeon being on the sidebar. Tldr, I laid out a set of principles that I believe align with the ByteRub Community. Maybe I go a little too far by including Bitcoin and Litecoin - what do you think?  
+**\<xeagu>** https://www.reddit.com/r/ByteRub/comments/73g7aq/monero_community/  
+**\<bigreddmachine>** @needmultisig90 it's not even that Aeon is favored over other cryptonote coins, it's that it is favored over other coins, period. It's not part of the ByteRub Project, and therefore should be treated the exact same way as everything else. Bitcoin makes the sidebar because it is the first, the biggest, and there's near unanimous agreement that one of the various forms of Bitcoin is King.  
 **\<rehrar>** ErCiccione I don't necessarily agree with that either ;)  
 **\<cryptochangement>** msvb-lab: it is a lot older than most other monero/cryptonote clones, it isnt bytecoin (scammy pre-mine) and it is it maintained by smooth  
 **\<rehrar>** msvb-lab: it's run by Core Team member smooth, and a big overlap of community  
 **\<bigreddmachine>** But everything else - including Aeon - should be treated the same. If aeon makes the cut, I can think of a dozen other coins more deserving of making the cut.  
 **\<rehrar>** ^  
-**\<rehrar>** It would be a different matter if Aeon was under the Monero Project umbrella, but it's not  
-**\<xmrmatterbridge> \<sgp>** This also extends to the Monero StackExchange  
+**\<rehrar>** It would be a different matter if Aeon was under the ByteRub Project umbrella, but it's not  
+**\<xmrmatterbridge> \<sgp>** This also extends to the ByteRub StackExchange  
 **\<xeagu>** I make the claim that we decide what coins can be added to the sidebar based on their community and not necessarily technical similarities  
 **\<ErCiccione>** I think the most important thing now is decide the criterias of that sidebar. Make no sense to me refuse /r/aeon but leave /r/BTC  
 **\<ArticMine>** There has to be some kind of objective criteria  
 **\<ajs>** could we add Verge? ;)  
 **\<needmultisig90>** Pls  
-**\<bigreddmachine>** StackExchange had a discussion and said that cryptonote questions that are also relevant to Monero are on topic. That community made that decision.  
+**\<bigreddmachine>** StackExchange had a discussion and said that cryptonote questions that are also relevant to ByteRub are on topic. That community made that decision.  
 **\<rehrar>** :D ajs  
 **\<needmultisig90>** No  
 **\<cryptochangement>** we need to get a cut of that "payed shill fund" first  
@@ -242,14 +242,14 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** ok well, good discussion everyone, we're running short on time  
 **\<rehrar>** so we'll move on  
 **\<rehrar>** 9. Confirm next meeting date/time  
-**\<bigreddmachine>** Rehrar! Aeon has always been off topic in r/Monero, and then unilaterally was made on topic by a r/Monero mod changing the sidebar. If you want to hold a vote, feel free to figure out how to do that secretly and fairly. But unless there's massive consensus among all r/Monero then it's off topic.  
-**\<cryptochangement>** i would say that r/Bitcoin is still relevent since its what most people all now about and bitcoin itself is still pretty important... but i dont want to get into a politcal war that will spawn Monero Cash  
+**\<bigreddmachine>** Rehrar! Aeon has always been off topic in r/ByteRub, and then unilaterally was made on topic by a r/ByteRub mod changing the sidebar. If you want to hold a vote, feel free to figure out how to do that secretly and fairly. But unless there's massive consensus among all r/ByteRub then it's off topic.  
+**\<cryptochangement>** i would say that r/Bitcoin is still relevent since its what most people all now about and bitcoin itself is still pretty important... but i dont want to get into a politcal war that will spawn ByteRub Cash  
 **\<rehrar>** The next meeting will two weeks from today on 30 September at 17:00  UTC. It will be the Saturday before the dev meetings. This meeting time  seems to work out for most people.  
 **\<rehrar>** 10. Conclusion  
-**\<rehrar>** That’s all! Thanks for attending this Monero Community meeting, and  we hope to see you on /r/MoneroCommunity and #monero-community. Take  care, and know that change starts with YOU.  
+**\<rehrar>** That’s all! Thanks for attending this ByteRub Community meeting, and  we hope to see you on /r/ByteRubCommunity and #monero-community. Take  care, and know that change starts with YOU.  
 **\<rehrar>** Gather your things, close your briefcases, and start the after-meeting office chatter. We're done.  
 **\<vP11>** nice one :) thank you all  
-**\<vP11>** hey guys, I gotta go. thank you all for the meeting and make sure to give me your feedback here: https://www.reddit.com/r/Monero/comments/73gbqr/monero_brasil_news_community_hub/  
+**\<vP11>** hey guys, I gotta go. thank you all for the meeting and make sure to give me your feedback here: https://www.reddit.com/r/ByteRub/comments/73gbqr/monero_brasil_news_community_hub/  
 **\<needmultisig90>** Good meeting  
 **\<vP11>** i'll be checking it tomorrow or later tonight :) have a nice weekend!  
 **\<cryptochangement>** good meeting all  

@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2016-10-02
-summary: Review and discussion of Open PRs, brief update on Ring CT, the official GUI, and Trezor for Monero
+summary: Review and discussion of Open PRs, brief update on Ring CT, the official GUI, and Trezor for ByteRub
 tags: [dev diaries, core, crypto, 0mq]
 author: dEBRUYNE / fluffypony
 ---
 
 ### Overview
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-and-kovri-dev-meeting-note-highlights-2016-10-02)
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-and-kovri-dev-meeting-note-highlights-2016-10-02)
 
 ### Logs
 
@@ -111,7 +111,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<patthehuman>** no my apologies for being new but can you elaborate on what 1082 is  
 **\<fluffypony>** or actually moneromooo: can you give everyone a brief overview of what 1082 does  
 **\<fluffypony>** oh sorry patthehuman - PR = pull request  
-**\<fluffypony>** so PR 1082 = https://github.com/monero-project/monero/pull/1082  
+**\<fluffypony>** so PR 1082 = https://github.com/byterubpay/monero/pull/1082  
 **\<patthehuman>** yeah im familiar with PR's (worst part of my work day lol)  
 **\<moneromooo>** Ah, as the comment says, really.  
 **\<moneromooo>** It just tries to avoid the case where someone sends money just after receiving it.  
@@ -143,7 +143,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<dEBRUYNE>** Yeah, he has fixed all issues opened by medusa_ as far as I know  
 **\<fluffypony>** ok great  
 **\<medusa_>** yes im here  
-**\<dEBRUYNE>** Except -> https://github.com/monero-project/monero-core/issues/29  
+**\<dEBRUYNE>** Except -> https://github.com/byterubpay/monero-core/issues/29  
 **\<dEBRUYNE>** but that's more of a feature, which should be implemented later  
 **\<fluffypony>** oh cool - medusa_ how are you finding it now that most of the issues have been fixed?  
 **\<dEBRUYNE>** could*  
@@ -179,11 +179,11 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<dEBRUYNE>** No ArticMine, there isn't a window yet to see your seed  
 **\<dEBRUYNE>** after the initial wizard  
 **\<fluffypony>** ArticMine: no - it just doesn't display the seed again after the wizard  
-**\<fluffypony>** and given how many MyMonero support emails I get where people didn't write down their seed...  
+**\<fluffypony>** and given how many MyByteRub support emails I get where people didn't write down their seed...  
 **\<dEBRUYNE>** Should be fairly trivial to add though  
 **\<fluffypony>** ok so that's about it from my side - tewinget isn't around to give us a 0MQ update  
 **\<fluffypony>** hyc I don't think has started tinkering with the walletDB stuff  
-**\<fluffypony>** also the forum - I know, I'm working on it, moved all broken deps into monero-project repos to better manage them and am fixing the last few niggly issues  
+**\<fluffypony>** also the forum - I know, I'm working on it, moved all broken deps into byterubpay repos to better manage them and am fixing the last few niggly issues  
 **\<dEBRUYNE>** fluffypony: re: GUI, preferably we would have a tab that displays viewkey/seed/spendkey, the tab could be named Private Keys or something, with a big fat warning label :P  
 **\<dEBRUYNE>** Like I said, should be fairly trivial to add  
 **\<fluffypony>** dEBRUYNE: good idea - open an issue for it and let Ilya do it asap :)  

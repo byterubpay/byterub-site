@@ -13,7 +13,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** 2. Brief review of what's been completed since the previous meeting  
 **\<i2p-relay> {-anonimal}** 5. Code + ticket discussion / Q & A  
 **\<i2p-relay> {-anonimal}** 3. Preparing for alpha release  
-**\<i2p-relay> {-anonimal}** 4. Moving meeting agenda issues from monero-project/kovri to monero-project/meta  
+**\<i2p-relay> {-anonimal}** 4. Moving meeting agenda issues from byterubpay/kovri to byterubpay/meta  
 **\<i2p-relay> {-anonimal}** 6. Any additional meeting items  
 **\<i2p-relay> {-anonimal}** Hi  
 **\<i2p-relay> {-anonimal}** 7. Confirm next meeting date/time  
@@ -26,7 +26,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** - ARMv7/8 and Win32/64 builds are now online! Static builds online!  
 **\<i2p-relay> {-anonimal}** - Win32/64 run-time is now available after patching an upstream issue  
 **\<i2p-relay> {-anonimal}** - ARMv7 has a non-Kovri runtime issue, ARMv8 box still needs testing  
-**\<i2p-relay> {-anonimal}** - Much build-related work with pigeons, partly noted in monero-project/meta  
+**\<i2p-relay> {-anonimal}** - Much build-related work with pigeons, partly noted in byterubpay/meta  
 **\<i2p-relay> {-anonimal}** - Setup kovri per-platform IRC clients for testing, say hi to them in #kovri-dev  
 **\<i2p-relay> {-anonimal}** Code:  
 **\<i2p-relay> {-anonimal}** - Resolved all Coverity defects (details in #263)!  
@@ -50,7 +50,7 @@ author: dEBRUYNE / fluffypony
 **\<guzzi>** Here fyi  
 **\<i2p-relay> {-anonimal}** Oh good, hi guzzi (I PM'd you earlier)  
 **\<guzzi>** Ok  
-**\<i2p-relay> {-anonimal}** So, 3. looking at https://github.com/monero-project/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha  
+**\<i2p-relay> {-anonimal}** So, 3. looking at https://github.com/byterubpay/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha  
 **\<i2p-relay> {-anonimal}** A few of these can be moved to next milestone (they aren't urgent),  
 **\<i2p-relay> {-anonimal}** If I can't resolve the rest by Dec 1st. in addition to everything else that needs attention, then maybe Dec. 14th at the latest.  
 **\<i2p-relay> {-anonimal}** Really there are only a few key issues that *must* be resolved for an alpha release and they are, IMHO:  
@@ -78,13 +78,13 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** guzzi: well, I wouldn't say critical because it doesn't effect all routers and it certainly hasn't effect the OSX instances  
 **\<guzzi>** Ok understood  
 **\<i2p-relay> {-anonimal}** And there's always the option to disable ssu at run-time, but yes I think it should be resolved.  
-**\<i2p-relay> {-anonimal}** fluffypony hinted at *not* having a release before 33C3 but he may be trying to get out of https://github.com/monero-project/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha+assignee%3Afluffypony  
+**\<i2p-relay> {-anonimal}** fluffypony hinted at *not* having a release before 33C3 but he may be trying to get out of https://github.com/byterubpay/kovri/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.1.0-alpha+assignee%3Afluffypony  
 **\* guzzi** needs to find out what ssu is before i  
 **\<i2p-relay> {-anonimal}** ;)  
 **\* guzzi** open my mouth  
 **\<i2p-relay> {-olark}** Semi-Secure UDP  
 **\<guzzi>** Thanks  
-**\<i2p-relay> {-anonimal}** guzzi: checkout the new Moneropedia entries I made that are now live on the website  
+**\<i2p-relay> {-anonimal}** guzzi: checkout the new ByteRubpedia entries I made that are now live on the website  
 **\<i2p-relay> {-anonimal}** guzzi: link is in README.md  
 **\<i2p-relay> {-anonimal}** (on current HEAD)  
 **\<guzzi>** Awesome  
@@ -104,9 +104,9 @@ author: dEBRUYNE / fluffypony
 **\<guzzi>** No  
 **\<i2p-relay> {-anonimal}** olark: ?  
 **\<i2p-relay> {-olark}** We can keep moving along.  
-**\<i2p-relay> {-anonimal}** 4. Moving meeting agenda issues from monero-project/kovri to monero-project/meta  
-**\<i2p-relay> {-anonimal}** So, as this meeting has proven, no one else in Monero looks at the meeting agendas I prepare for every meeting :)  
-**\<i2p-relay> {-anonimal}** With the creation of monero-project/meta, I think it would be better to not clutter the kovri repo with meeting agendas.  
+**\<i2p-relay> {-anonimal}** 4. Moving meeting agenda issues from byterubpay/kovri to byterubpay/meta  
+**\<i2p-relay> {-anonimal}** So, as this meeting has proven, no one else in ByteRub looks at the meeting agendas I prepare for every meeting :)  
+**\<i2p-relay> {-anonimal}** With the creation of byterubpay/meta, I think it would be better to not clutter the kovri repo with meeting agendas.  
 **\<guzzi>** Agree 100%  
 **\<i2p-relay> {-anonimal}** I would hope that more monero people get inolved with meeting agenda preparation and start using the meta repo too.  
 **\<i2p-relay> {-anonimal}** I'd like to move agendas to meta from now on. guzzi is on board. Anyone else?  
@@ -238,7 +238,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** I must've misunderstood the timing discussion  
 **\<i2p-relay> {-anonimal}** fluffypony: apologies accepted! Are #monero-dev meetings now at 17:00 or 18:00  
 **\<i2p-relay> {-anonimal}** (fluffypony: we're idling on 7. Confirm next meeting date/time)  
-**\<i2p-relay> {-fluffypony}** anonimal: let's update after the Monero meeting  
+**\<i2p-relay> {-fluffypony}** anonimal: let's update after the ByteRub meeting  
 **\<i2p-relay> {-anonimal}** Alright, I'll start with 17:00  
 **\<i2p-relay> {-anonimal}** Meeting in two weeks.  
 **\<i2p-relay> {-anonimal}** Thanks everyone!  

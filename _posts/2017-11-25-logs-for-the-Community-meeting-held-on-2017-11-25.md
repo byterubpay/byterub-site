@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2017-11-25
-summary: Community highlights, Forum Funding System updates, RFC-HWALLET-1, Monero integrations, Malware Response Workgroup, Monero Coffee Chat, and miscellaneous
+summary: Community highlights, Forum Funding System updates, RFC-HWALLET-1, ByteRub integrations, Malware Response Workgroup, ByteRub Coffee Chat, and miscellaneous
 tags: [community]
 author: dEBRUYNE / fluffypony
 ---
 
 # Logs  
 
-**\<sgp>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/137  
-**\<sgp>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting!  
+**\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/137  
+**\<sgp>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
 **\<rehrar>** What up kids?  
 **\<cryptochangement>** hey all!  
@@ -18,14 +18,14 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Don't be shy :)  
 **\<msvb-lab>** Hello.  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the Monero Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** To those who haven't heard of the FFS before, it stands for the "Forum Funding System"  
 **\<sgp>** a. RFC-HWALLET-1 project progress  
 **\<sgp>** msvb-lab: do you have any updates you want to talk about?  
 **\<serhack>** hii :)  
 **\<msvb-lab>** Sorry, delay...  
-**\<msvb-lab>** We had a great Munich Monero meeting, where we mostly talked about forming a local group, regular meetings, the (nearby) Vienna event(s) of December, and the hardware team's efforts (with a few boards passed around.)  
+**\<msvb-lab>** We had a great Munich ByteRub meeting, where we mostly talked about forming a local group, regular meetings, the (nearby) Vienna event(s) of December, and the hardware team's efforts (with a few boards passed around.)  
 **\<msvb-lab>** As far as hardware goes, there's nothing organised to say. Lots of ordering of parts and waiting for them to arrive, some porting of designs to the EDA CAD application we're using.  
 **\<msvb-lab>** Laser cutter considerations, and so on.  
 **\<msvb-lab>** Any questions about hardware wallets?  
@@ -35,7 +35,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
 **\<msvb-lab>** ErCiccione: We had about twenty people there, and passed around artwork from Deborah.  
 **\<msvb-lab>** So we've definitely reached critical mass in Munich, Berlin was there long ago.  
-**\<serhack>** great, this is Monero community  
+**\<serhack>** great, this is ByteRub community  
 **\<sgp>** msvb-lab: learning about these three designs would be a good read. If you want to work with me on writing something about these, I think the community would appreciate it  
 **\<cryptochangement>** yes we would :)  
 **\<serhack>** sgp: ;)  
@@ -47,7 +47,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Ok, good to know  
 **\<sgp>** Anything else on the hardware wallet front?  
 **\<msvb-lab>** Not from me.  
-**\<sgp>** b. Monero Integrations  
+**\<sgp>** b. ByteRub Integrations  
 **\<sgp>** cryptochangement, want to take it from here?  
 **\<cryptochangement>** serhack, you wanna go first?  
 **\<serhack>** yes, thanks  
@@ -60,7 +60,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** thats fair :p  
 **\<serhack>** https://imgur.com/a/MUV72  
 **\<serhack>** this is the new payment box  
-**\<serhack>** third, I have already contacted OpenBazaar team for implementing Monero  
+**\<serhack>** third, I have already contacted OpenBazaar team for implementing ByteRub  
 **\<serhack>** We should wait for multisig  
 **\<serhack>** that's all from me, go cryptochangements :)  
 **\<cryptochangement>** Okay so good news here  
@@ -79,7 +79,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** So if I'm a vendor who wants to be able to 'Bitpay' with XMR, which github should I look at?  
 **\<serhack>** no offense to you msvb lab  
 **\<cryptochangement>** msvb-lab: they all have the same design/setup they are just for different cms  
-**\<serhack>** The goal of Monero integrations is removing the middleman  
+**\<serhack>** The goal of ByteRub integrations is removing the middleman  
 **\<msvb-lab>** Oh, that makes sense.  
 **\<cryptochangement>** globee is actually close to bitpay... because they actually use bitpay  
 **\<msvb-lab>** I thought there was a more complex architecture. So for three different vendors with three different CMSs, they will be served by referring to the correct implementation.  
@@ -133,7 +133,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Great thanks  
 **\<ErCiccione>** endogenic, your turn  
 **\<endogenic>** so i've been speaking with sgp and some members of the monero research lab about educational hackathons, and we think a corporate sponsored kovri hackathon could be brilliant (basically, you must build something using kovri plus one or more of the libraries from the sponsors)  
-**\<endogenic>** so I'd like to encourage everyone in the Monero community who is interested in getting involved with kovri or hackathons to get in touch with sgp and/or the noethers and chat with them about how you'd like to be involved  
+**\<endogenic>** so I'd like to encourage everyone in the ByteRub community who is interested in getting involved with kovri or hackathons to get in touch with sgp and/or the noethers and chat with them about how you'd like to be involved  
 **\<endogenic>** doesn' have to be corp sponsored but it's probably a good idea  
 **\<endogenic>** they buy the food too :P  
 **\<endogenic>** and they supply venue, often  
@@ -216,7 +216,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** yeah, much better this way  
 **\<sgp>** rehrar that's what I'm thinking  
 **\<rehrar>** The task force team can be working on this instead of on-demand support  
-**\<rehrar>** This is very in the spirit of The Monero Project, which is all about providing tools and resources for people to take back what's theirs  
+**\<rehrar>** This is very in the spirit of The ByteRub Project, which is all about providing tools and resources for people to take back what's theirs  
 **\<sgp>** I just think on-demand support is overkill. It would literally tell people the info on the page we would make  
 **\<mattcode>** I don't think we should be writing things like cleanup guides, because all of the different pieces of malware and server configurations make that impossible.  
 **\<sgp>** Oh, you want to provide that level of support?  
@@ -225,7 +225,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** lel  
 **\<pigeons>** yes  
 **\<rehrar>** they can redirect payment to me instead  
-**\<mattcode>** I think the best thing would just be explaining that it's not the Monero project, the pool operator or the miner developer that has hacked your server.  
+**\<mattcode>** I think the best thing would just be explaining that it's not the ByteRub project, the pool operator or the miner developer that has hacked your server.  
 **\<sgp>** mattcode, are you happy with me making a Mattermost workgroup chat so that we can discuss this further after the meeting?  
 **\<pigeons>** yes help them waste less time  
 **\<mattcode>** sgp: sure  
@@ -233,11 +233,11 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** +1 sgp  
 **\<sgp>** Anything else you want to discuss during the meeting?  
 **\<sgp>** We are going over today, sorry  
-**\<sgp>** 5. Monero Coffee Chat  
-**\<sgp>** The next Monero Coffee Chat will be next Saturday on 2 December https://github.com/monero-project/meta/issues/139  
+**\<sgp>** 5. ByteRub Coffee Chat  
+**\<sgp>** The next ByteRub Coffee Chat will be next Saturday on 2 December https://github.com/byterubpay/meta/issues/139  
 **\<sgp>** During the Coffee Chat, we will go through Taiga so that people become more aware and more familiar with it.  
 **\<sgp>** It would be nice if the website is refreshed before then so that the Mattermost/Taiga announcement gets published.  
-**\<sgp>** Beyond this, the format of the Monero Coffee Chat will be about the same. If anyone would like to participate, please send me a PM. Otherwise, you can always join us on YouTube.  
+**\<sgp>** Beyond this, the format of the ByteRub Coffee Chat will be about the same. If anyone would like to participate, please send me a PM. Otherwise, you can always join us on YouTube.  
 **\<rehrar>** Twas lonely last time with just me and sgp and fp (for a bit)  
 **\<sgp>** Skipping open ideas time for now, but of course #monero-community can always function as open ideas time even outside meeting time  
 **\<sgp>** Yes, it was a bit lonely :)  
@@ -246,7 +246,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** 7. Confirm next meeting date/time  
 **\<sgp>** The next meeting will two weeks from today on 9 December at 17:00 UTC.  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
 **\<sgp>** Now, we can continue conversations from endogenic, mattcode, and rehrar  
 **\<rehrar>** endogenic watchoo wanna debate?  
 **\<endogenic>** well so just about the kovri thing real quick  
@@ -260,7 +260,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** even charity donation for example is thought to return to oneself  
 **\<sgp>** mattcode can you create an account on Mattermost please? https://mattermost.getmonero.org  
 **\<endogenic>** in monero, it's just supposed to be a little more concrete  
-**\<cryptochangement>** now that we are in open tiem, i should probably mention that i posted our FFS update to reddit too so people can see it there: https://www.reddit.com/r/Monero/comments/7fgl4o/monero_integrations_update_12/  
+**\<cryptochangement>** now that we are in open tiem, i should probably mention that i posted our FFS update to reddit too so people can see it there: https://www.reddit.com/r/ByteRub/comments/7fgl4o/monero_integrations_update_12/  
 **\<sgp>** #monero-vulne-response  
 **\<endogenic>** one thing at at time guys  
 **\<cryptochangement>** sgp: vulne or vuln?  
@@ -282,16 +282,16 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Of course, having a few people who can help out is both convenient and very generous  
 **\<sgp>** But if for some reason these people lost interest, the community should be able to raise significant money from many small donors  
 **\<ErCiccione>** i read somwhere the idea of a mining pool managed by the community, where a percent go to the FFS project. doesn't sound too crazy if there's somebody willing to manage everything  
-**\<msvb-lab>** ErCiccione: Don't forget promoting the Monero donation address, which could make the third leg of the tuple (many|wealthy|donation.)  
+**\<msvb-lab>** ErCiccione: Don't forget promoting the ByteRub donation address, which could make the third leg of the tuple (many|wealthy|donation.)  
 **\<msvb-lab>** Like Kovri does at the bottom of their website.  
-**\<msvb-lab>** That could be instrumental for folks that generally appreciate Monero and would donate but don't hang out enough to stay informed.  
+**\<msvb-lab>** That could be instrumental for folks that generally appreciate ByteRub and would donate but don't hang out enough to stay informed.  
 **\<serhack>** a "donate now" popup box before downloading?  
-**\<sgp>** Most mining pools who donate  do so to the Monero project itself  
+**\<sgp>** Most mining pools who donate  do so to the ByteRub project itself  
 **\<sgp>** Which in turn often donates to FFS projects  
 **\<ErCiccione>** sgp sure, but with a pool you can give the choice to reserve part of your hashrate and decide to put it directly tu support ffs (maybe with subaddresses might be possible to choose the single ffs)  
 **\<sgp>** Perhaps  
 **\<ErCiccione>** msv-lab: true, but that is mostly everywhere (wallet, website, reddit ecc)  
-**\<sgp>** We could change how/when Monero asks for donations  
+**\<sgp>** We could change how/when ByteRub asks for donations  
 **\<ErCiccione>** what happens if somebody makes a donation directly to the address of the FFS wallet with no payment id? because if it's possible to evenly distribute that amount to all the actives ffs, we could just spread that address if people doesn't care of the proposal itself, but would like to contribute  
 **\<ErCiccione>** an ipothetical 'community pool' could point to that address, distributing equally the mined moneros  
 **\<mattcode>** doesn't money from the general development fund make its way into FFS requests?  
@@ -300,8 +300,8 @@ author: dEBRUYNE / fluffypony
 **\<monerobux>** ErCiccione meant to say: mattcode: yes, sgp pointed that early, but with a pool you move that choice directly to whom is willing to donate (i mean to send the money directly to fund community's FFS)  
 **\<ErCiccione>** so nice of you monerobux  
 **\<ErCiccione>** :)  
-**\<rehrar>** Sorry, out of the house atm. But we need to remember two factors. One, some people like to choose which proposals their XMR goes to. This ensures that Monero evolves in the way they desire.  
-**\<rehrar>** These people will not like the General Fund option, as the General Fund is managed by the Core Team to spend on whatever they see fit that benefits Monero (obviously coming to consensus within themselves)  
+**\<rehrar>** Sorry, out of the house atm. But we need to remember two factors. One, some people like to choose which proposals their XMR goes to. This ensures that ByteRub evolves in the way they desire.  
+**\<rehrar>** These people will not like the General Fund option, as the General Fund is managed by the Core Team to spend on whatever they see fit that benefits ByteRub (obviously coming to consensus within themselves)  
 **\<rehrar>** There are some people who prefer to choose things themselves, and not trust anyone, even the Core Team. And that's fine.  
 **\<rehrar>** We're not trying to get everyone to donate to EVERY proposal.  
 **\<rehrar>** We're trying to get people to donate to what they believe in.  

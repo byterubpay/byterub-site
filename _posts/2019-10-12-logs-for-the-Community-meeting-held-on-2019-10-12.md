@@ -12,7 +12,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** yes indeed  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/400  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/400  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Fun fact: we’ve been doing these since issue #79.  
 **\<sgp\_>** 1. Greetings  
 **\<OsrsNeedsF2P>** I like fun facts  
@@ -104,7 +104,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** btw  
 **\<ErCiccione[m]>** moneromooo proposed to change the header of the website adding "A Reasonably" before "Private Digital Currency  
 **\<ErCiccione[m]>** "  
-**\<ErCiccione[m]>** see: https://repo.getmonero.org/monero-project/monero-site/merge\_requests/1136  
+**\<ErCiccione[m]>** see: https://repo.getmonero.org/byterubpay/monero-site/merge\_requests/1136  
 **\<rehrar>** down  
 **\<ErCiccione[m]>** the thing is that that particular header was discussed quite a lot before it was chosen, so i thought was best to discuss that here  
 **\<sgp\_>** I'm also ok with "a reasonably private digital currency for all"  
@@ -153,7 +153,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** got it, I'll check  
 **\<ErCiccione[m]>** sgp\_: yes, user guides and dev guides need to be updated. I would totally support a CCS with that goal  
 **\<sgp\_>** oh for sure  
-**\<ErCiccione[m]>** or anybody who wish to pick up some of the issues labelled help needed: https://repo.getmonero.org/monero-project/monero-site/issues?label\_name%5B%5D=%E2%9B%91%EF%B8%8F++help+needed  
+**\<ErCiccione[m]>** or anybody who wish to pick up some of the issues labelled help needed: https://repo.getmonero.org/byterubpay/monero-site/issues?label\_name%5B%5D=%E2%9B%91%EF%B8%8F++help+needed  
 **\<el00ruobuob>** done sgp\_   
 **\<ErCiccione[m]>** that's basically it. Please comment on mooo's issue about that header, because if we want to change it completely, that should be an entire different discussion  
 **\<sgp\_>** Thanks ErCiccione[m]  

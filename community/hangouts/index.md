@@ -19,10 +19,10 @@ permalink: /community/hangouts/index.html
                 <a href="https://www.facebook.com/monerocurrency/" target="_blank" rel="noreferrer noopener"><div class="social-icon facebook"></div></a>
             </li>
             <li>
-                <a href="https://github.com/monero-project" target="_blank" rel="noreferrer noopener"><div class="social-icon github"></div></a>
+                <a href="https://github.com/byterubpay" target="_blank" rel="noreferrer noopener"><div class="social-icon github"></div></a>
             </li>
             <li>
-                <a href="https://repo.getmonero.org/users/monero-project/projects" target="_blank" rel="noreferrer noopener"><div class="social-icon gitlab"></div></a>
+                <a href="https://repo.getmonero.org/users/byterubpay/projects" target="_blank" rel="noreferrer noopener"><div class="social-icon gitlab"></div></a>
             </li>
         </ul>
     </section>

@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-10-01
-summary: Discussion of open PRs and issues, Monerujo Android wallet, MRL, Forum Funding System redesign, licensing, Monero & CCC (34C3), Purism, and miscellaneous
+summary: Discussion of open PRs and issues, Monerujo Android wallet, MRL, Forum Funding System redesign, licensing, ByteRub & CCC (34C3), Purism, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-10-01).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-10-01).  
 
 # Logs  
 
-**\<rehrar>** Here's the agenda for today: https://github.com/monero-project/meta/issues/122  
+**\<rehrar>** Here's the agenda for today: https://github.com/byterubpay/meta/issues/122  
 **\<endogenic>** to get you present  
 **\<rehrar>** 1. Greetings  
 **\<DaveyJones>** vtnerd it's just so people that might be interested don't miss it on a lazy sunday ^ ^  
@@ -61,7 +61,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<vtnerd>** well the point de-compression is separate from curve25519  
 **\<vtnerd>** so we could actually do both  
 **\<surae>** yeesh  
-**\<bigreddmachine>** vtnerd, I thought amd64-51-30k is built into both supercop and nacl, and that Monero uses supercop?  
+**\<bigreddmachine>** vtnerd, I thought amd64-51-30k is built into both supercop and nacl, and that ByteRub uses supercop?  
 **\<vtnerd>** basically for every output we currently decompress (y, xbit) into -\>(x,y,z,t)  
 **\<vtnerd>** that only needs to be done once  
 **\<vtnerd>** monero does not use supercop, its all embedded. its some re-arranged version of ref10 from supercop  
@@ -107,7 +107,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** Alright, can we move on to the next point? It may not take super long because of the absences, but we'll see. We'  
 **\<parasew[m]>** sarang: very good idea imho, also points more to community efforts  
 **\<rehrar>** Oops.  
-**\<ArticMine>** I have an item https://github.com/monero-project/meta/issues/85  
+**\<ArticMine>** I have an item https://github.com/byterubpay/meta/issues/85  
 **\<ArticMine>** Project licensing. This needs input from devs and the community  
 **\<parasew[m]>** wow, this is a rather huge topic  
 **\<ArticMine>** It is about informing So the conversation can take place in GitHub  
@@ -116,11 +116,11 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<ArticMine>** That is one of the issues  
 **\<moneromooo>** There is no relicensing AFAIK.  
 **\<moneromooo>** LMDB itself is relicensing. Not monero.  
-**\<ArticMine>** But it impact Monero  
+**\<ArticMine>** But it impact ByteRub  
 **\<moneromooo>** And monero can use the same licence as it used before.  
 **\<rehrar>** Right, so the conversation has since turned into a couple different questions:  
-**\<rehrar>** 1. Should Monero relicense to a dual license?  
-**\<rehrar>** 2. Should Monero have dependencies that are not completely permissive  
+**\<rehrar>** 1. Should ByteRub relicense to a dual license?  
+**\<rehrar>** 2. Should ByteRub have dependencies that are not completely permissive  
 **\<sarang>** ah ok  
 **\<rehrar>** as is my understanding anyway  
 **\<moneromooo>** 2 is leading.  
@@ -136,21 +136,21 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** No? Alright. Then we can move on to the next point: Purism integration  
 **\<rehrar>** This is something that's happened recently that's very exciting that I wanted to share with you all and get dev opinions on.  
 **\<rehrar>** for those who don't know, https://puri.sm is a company that sells open source laptops (hardware and software) and is currently doing a crowdfunding campaign for mobile phones also  
-**\<rehrar>** a member of the Reddit community contacted them asking if they would accept Monero for their goods (they accept BTC now)  
+**\<rehrar>** a member of the Reddit community contacted them asking if they would accept ByteRub for their goods (they accept BTC now)  
 **\<rehrar>** and they were pretty enthusiastic about the idea. I followed up with them, and spoke with the founder and CEO, Todd, and had a video conference with him  
 **\<xmrmatterbridge> \<sgp>** Awesome!  
-**\<rehrar>** he is not only interested in accepting Monero for their laptops and phones, but also integrating Monero into their Debian based operating system (PureOS) by default  
+**\<rehrar>** he is not only interested in accepting ByteRub for their laptops and phones, but also integrating ByteRub into their Debian based operating system (PureOS) by default  
 **\<endogenic>** nice  
-**\<rehrar>** we spoke at length about different cryptos, and he believes that Monero aligns the closest with Purism beliefs of digital privacy rights  
+**\<rehrar>** we spoke at length about different cryptos, and he believes that ByteRub aligns the closest with Purism beliefs of digital privacy rights  
 **\<parasew[m]>** very nice!  
-**\<rehrar>** He also says that many of his devs also push to Debian, so he had discussed with me that if they integate Monero into PureOS, they would see about trying to push into Debian as well  
-**\<ArticMine>** This is excellent. The one thing to watch is that Monero as a software dependency can become stale real fast  
+**\<rehrar>** He also says that many of his devs also push to Debian, so he had discussed with me that if they integate ByteRub into PureOS, they would see about trying to push into Debian as well  
+**\<ArticMine>** This is excellent. The one thing to watch is that ByteRub as a software dependency can become stale real fast  
 **\<ArticMine>** So we have to work very closely with out downstream on this  
 **\<endogenic>** that's a great point  
 **\<ferretinjapan>** sweet!  
 **\<rehrar>** Yes, I've spoken with ArticMine about these things, and have since emailed Todd about the concerns. Waiting to hear back from him.  
-**\<rehrar>** Sometime soon he is hoping to make a Purism press release about the Monero integration. I'll be helping with that, so be looking out for it.  
-**\<rehrar>** It would be helpful from anyone in the community with PureOS to test the Monero GUI on it and see if there's any issues.  
+**\<rehrar>** Sometime soon he is hoping to make a Purism press release about the ByteRub integration. I'll be helping with that, so be looking out for it.  
+**\<rehrar>** It would be helpful from anyone in the community with PureOS to test the ByteRub GUI on it and see if there's any issues.  
 **\<rehrar>** https://pureos.net/  
 **\<ArticMine>** Unfortunately I have to leave early today  
 **\<sarang>** This is a great development  
@@ -173,7 +173,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** I'll leave this open for a couple of minutes.  
 **\<bigreddmachine>** anyone know how many eyes have looked at monerujo? wondering if it's been audited or anything, as I've seen people start recommending it  
 **\<moneromooo>** Probably an even number.  
-**\<parasew[m]>** just as a final note: 2 events in december - "Monero Month" in Vienna with the preparations of ccc and monero meetup, monero vienna workgroup ( seperately discussed in #monero-ccc )  
+**\<parasew[m]>** just as a final note: 2 events in december - "ByteRub Month" in Vienna with the preparations of ccc and monero meetup, monero vienna workgroup ( seperately discussed in #monero-ccc )  
 **\<bigreddmachine>** :)  
 **\<parasew[m]>** and CCC itself: we need a prototype programm for the 34C3, planned is to create a joint larger meta-assemby with bitcoin-assembly and riat-assembly.  
 **\<parasew[m]>** if anyone cares to help plan, etc. also in #monero-ccc  

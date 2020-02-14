@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview 
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-08-14)
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-08-14)
 
 ### Logs
 
@@ -193,7 +193,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<JjegrUseinob>** https://getmonero.org/blog/tags/dev%20diaries  
 **\<JjegrUseinob>** i said last meeting  
 **\<JjegrUseinob>** pr was merged already  
-**\<JjegrUseinob>** https://github.com/monero-project/monero-site/pull/135  
+**\<JjegrUseinob>** https://github.com/byterubpay/monero-site/pull/135  
 * hellocccc has quit (Ping timeout: 264 seconds)  
 **\<fluffypony>** JjegrUseinob: there are issues that have to be fixed  
 **\<fluffypony>** eg.  
@@ -243,7 +243,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<JjegrUseinob>** i thought that monero had a social contract that largely supported flexibility this year for rct fork  
 **\<gingeropolous>** but im on the fence as well... I still think we're small enough of a thing that we could pull it off  
 **\<dEBRUYNE>** It was discussed before that if we would deviate from the schedule, we would only deviate once for RCT  
-**\<fluffypony>** Monero Classic is going to have weekly hard forks  
+**\<fluffypony>** ByteRub Classic is going to have weekly hard forks  
 **\<moneromooo>** Yes. Hardforks every two months, maybe many of them not actiually changing anything... would allow easy scheduling of changes without havinhg to wait forecer.  
 **\<fluffypony>** :-P  
 **\<fluffypony>** JjegrUseinob is right though  

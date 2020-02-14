@@ -10,7 +10,7 @@ author: dEBRUYNE / fluffypony
 
 **\<anonimal>** ping fluffypony we missed you in #monero-dev  
 **\<anonimal>** I'll proceed with the meeting as planned but the bulk of the agenda is picking on your assigned issues.  
-**\<anonimal>** https://github.com/monero-project/kovri/issues/216  
+**\<anonimal>** https://github.com/byterubpay/kovri/issues/216  
 **\<anonimal>** Meeting Agenda: Sunday, July 31st, 17:00 UTC  
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
@@ -52,7 +52,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** - Kovri End-User Documentation Proposal - #256  
 **\<anonimal>** - 9 new opened issues, 7 new closed issues  
 **\<anonimal>** - Creation of @kovri@quitter.se  
-**\<anonimal>** - I've also spent some time with bitmonero/monero-project  
+**\<anonimal>** - I've also spent some time with bitmonero/byterubpay  
 **\<anonimal>** That's all from me for 2. Anyone else?  
 **\<anonimal>** Ok, guess not.  
 **\<anonimal>** fluffypony fluffypony fluffypony fluffypony   
@@ -77,7 +77,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Ok.  
 **\<anonimal>** Moving on to 3.  
 **\<anonimal>** "Discuss Kovri logo"  
-**\<anonimal>** Who did Monero's logo?  
+**\<anonimal>** Who did ByteRub's logo?  
 **\* anonimal:** asked in #monero-dev, no response  
 **\<anonimal>** Any thoughts on a logo for Kovri?  
 **\<anonimal>** How about a nude porn star holding a letter 'K'?  

@@ -8,9 +8,9 @@ author: dEBRUYNE / fluffypony
 
 # Logs  
 
-**\<rehrar>** Heyo everyone! It's 18:30 UTC, so it's time to start. I'd like to extend a huge welcome to our third Monero community meeting!  
-**\<rehrar>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/86  
-**\<rehrar>** Monero Community meetings intend to be a discussion place for anything going on in the Monero Community. We plan to use this meeting and future meetings to encourage the community to share ideas and provide support.  
+**\<rehrar>** Heyo everyone! It's 18:30 UTC, so it's time to start. I'd like to extend a huge welcome to our third ByteRub community meeting!  
+**\<rehrar>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/86  
+**\<rehrar>** ByteRub Community meetings intend to be a discussion place for anything going on in the ByteRub Community. We plan to use this meeting and future meetings to encourage the community to share ideas and provide support.  
 **\<rehrar>** Note: this meeting may go over, since there are many topics to discuss today. If you must leave early, you will only miss the open idea and forced discussion time.  
 **\<rehrar>** that was 0. Introduction btw  
 **\<rehrar>** 1. Greetings  
@@ -47,7 +47,7 @@ author: dEBRUYNE / fluffypony
 **\<pero>** have the meeting elsewhere; moderate #monero; deprecate this channel  
 **\<rehrar>** Some of the proposed channels include: #monero, #monero-community, #monero-meta, #monero-chat, and #monero-support.  
 **\<reymonero>** maybe just a monero-meetings should be created and used exclusively as such?  
-**\<thrmo>** disagree pero, #Monero is where the community should meet and thats where more people can be reached  
+**\<thrmo>** disagree pero, #ByteRub is where the community should meet and thats where more people can be reached  
 **\<thrmo>** it seems evident to me that the meetings should be there.  
 **\<pero>** why would we monopolize that channel for a few hours  
 **\<pero>** if the meeting can be held elsewhere  
@@ -69,7 +69,7 @@ author: dEBRUYNE / fluffypony
 **\<pero>** thats just rude  
 **\<reymonero>** General protocol is to ask specific questions in the moment and off topic after the meeting  
 **\<pero>** and odds are the question wont be seen/answered  
-**\<rehrar>** Besides, the point of Monero Community meetings isn't to engage everyone, but the people who want to be a part of improving the Monero community experience. At least in my opinion.  
+**\<rehrar>** Besides, the point of ByteRub Community meetings isn't to engage everyone, but the people who want to be a part of improving the ByteRub community experience. At least in my opinion.  
 **\<rehrar>** Everyone is welcome for sure, but it's not necessarily a meeting for everyone, if you catch my meaning.  
 **\<reymonero>** \^  
 **\<Febo>** actualy there were moments when people were anoying on #monero and even when asked to join other sub monero IRCs more apropriate for their talk they ignored that. But I only remeber few such moments. We have lots sub IRC and they should be forwarded there if not, they should be temp baned.  
@@ -87,7 +87,7 @@ author: dEBRUYNE / fluffypony
 **\<reymonero>** Idea of work groups?  
 **\<shillosopher>** just askin  
 **\<rehrar>** A work group is a small group where people can get together for different purposes and with different goals. There can be a design work group, a marketing work group, a web development work group, etc. Basically a mini-community where newcomers can easily identify where they can help and can get started  
-**\<rehrar>** each work group can have their own goals and things that they want to accomplish. Monero Community, long term, is a work group where people can come together with goals for managing an excellent community experience  
+**\<rehrar>** each work group can have their own goals and things that they want to accomplish. ByteRub Community, long term, is a work group where people can come together with goals for managing an excellent community experience  
 **\<reymonero>** ohh i see.. i thought you meant idea.. you mean the scale of groups we have here?  
 **\<rehrar>** I am currently playing point person on identifying open-source self-hosted software that will help faciliate this. Things like MatterMost, Taiga, Weblate, etc  
 **\<rehrar>** The idea is that each work group can have a space to discuss things that need to be done.  
@@ -131,13 +131,13 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** thanks man, you do bomb  
 **\<rehrar>** any others?  
 **\<rehrar>** ok then!  
-**\<rehrar>** 3. Monero slogan – final discussion of ideas  
-**\<rehrar>**   Two weeks ago, the community discussed several thoughts for a new slogan. People voiced their opinion during the meeting and on this Reddit post: https://www.reddit.com/r/MoneroCommunity/comments/6kz1ha/monero_slogan/  
-**\<rehrar>**  The top two submissions by votes are “Sine secretum non libertas. No freedom without privacy.” and “Privacy matters. Monero.” There may be some concerns that the first slogan may be catering only to libertarians, which is only one of the target demographics.  
+**\<rehrar>** 3. ByteRub slogan – final discussion of ideas  
+**\<rehrar>**   Two weeks ago, the community discussed several thoughts for a new slogan. People voiced their opinion during the meeting and on this Reddit post: https://www.reddit.com/r/ByteRubCommunity/comments/6kz1ha/monero_slogan/  
+**\<rehrar>**  The top two submissions by votes are “Sine secretum non libertas. No freedom without privacy.” and “Privacy matters. ByteRub.” There may be some concerns that the first slogan may be catering only to libertarians, which is only one of the target demographics.  
 **\<rehrar>**  We have posted a poll here, which I would like to give everyone a moment to answer. It will help gauge whether people like the current options: http://www.strawpoll.me/13447047  
 **\<pero>** theyre both bad  
-**\<dEBRUYNE>** Wrt the second slogan, I'd like to suggest to amend it with "use", so it becomes, "Privacy matters, use Monero"  
-**\<rbrunner>** My little contribution: a long list of all submissions: https://www.reddit.com/r/MoneroCommunity/comments/6kz1ha/monero_slogan/djz7f38/  
+**\<dEBRUYNE>** Wrt the second slogan, I'd like to suggest to amend it with "use", so it becomes, "Privacy matters, use ByteRub"  
+**\<rbrunner>** My little contribution: a long list of all submissions: https://www.reddit.com/r/ByteRubCommunity/comments/6kz1ha/monero_slogan/djz7f38/  
 **\<dEBRUYNE>** I don't like it without use, it sounds a little stiff  
 **\<pero>** should maybe hire a pro  
 **\<pero>** instead of design-by-reddit  
@@ -224,22 +224,22 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** IMO secure/private/untraceable only appeals to paranoid fringe.  
 **\<gingeropolous>** \^  
 **\<shillosopher>** hyc agreed  
-**\<hyc>** Also IMO, Monero is the only actual *currency* in the crypto space currently  
+**\<hyc>** Also IMO, ByteRub is the only actual *currency* in the crypto space currently  
 **\<pero>** so it's not particularly good  
-**\<4matter>** Monero: Truly Anonymous  
+**\<4matter>** ByteRub: Truly Anonymous  
 **\<rehrar>** as an action step for this point, what does everyone think of putting something out on reddit (and other places) asking if there is a professional slogan maker in our midst? That way things dont just stay in the theoretical.  
 **\<vdo>** I don't like that\^  
 **\<rbrunner>** Can't do harm, can it?  
 **\<rehrar>** This way, we're moving forward in a way that is reasonable, while still being cautious  
-**\<hyc>** and we should be highlighting that. Monero is money. Bitcoin isn't. ETH isn't.  
+**\<hyc>** and we should be highlighting that. ByteRub is money. Bitcoin isn't. ETH isn't.  
 **\<ajs>** Through there was already a post  
 **\<pero>** i agree with hyc  
 **\<vdo>** a (better) slogan should come from the community eventually  
 **\<4matter>** good point hyc  
-**\<gingeropolous>** Monero. The first digital currency.  
+**\<gingeropolous>** ByteRub. The first digital currency.  
 **\<ajs>** \*Thought  
 **\<moneromooo>** So we move to another problem. How to get everyone to move into the paranoid fringe ?  
-**\<reymonero>** Monero is money. Bitcoin isn't.  
+**\<reymonero>** ByteRub is money. Bitcoin isn't.  
 **\<gingeropolous>** that should go over well  
 **\<reymonero>** sounds great  
 **\<moneromooo>** I suggest making the NSA spy on everyone, then leak it.  
@@ -265,23 +265,23 @@ author: dEBRUYNE / fluffypony
 **\<gingeropolous>** pigeons, :)  
 **\<reymonero>** yup  
 **\<4matter>** pigeons FTW  
-**\<jonathancross>** Monero: no ceremonies, no dev tax, no BS.  
+**\<jonathancross>** ByteRub: no ceremonies, no dev tax, no BS.  
 **\<shillosopher>** having a nice slogan or w/e does not mean we need to push it hard anywhere  
 **\<rbrunner>** Just giving adjectives is too techy  
 **\<vdo>** Moar bitcoin that bitcoin  
 **\<pigeons>** yes monero should have a good slogan shillosopher I agree  
-**\<4matter>** Monero: Nothing to look at.  
+**\<4matter>** ByteRub: Nothing to look at.  
 **\<hyc>** Moneyfor the digital age  
 **\<reymonero>** lol  
-**\<frantzm>** Monero: currency with fluffy ponies included  
+**\<frantzm>** ByteRub: currency with fluffy ponies included  
 **\<rehrar>** I like that hyc  
-**\<shillosopher>** Monero: Its like it doesn't even exist  
+**\<shillosopher>** ByteRub: Its like it doesn't even exist  
 **\<reymonero>** hyc sounds good  
 **\<rehrar>** I had come up with something similar: Private money for a digital world  
 **\<rbrunner>** It's sometimes also called a "claim". We should go ahead and boldly claim something  
-**\<gingeropolous>** Monero - the only digital money that functions as money  
+**\<gingeropolous>** ByteRub - the only digital money that functions as money  
 **\<gingeropolous>** theres a claim  
-**\<4matter>** Monero: Cash 2.0  
+**\<4matter>** ByteRub: Cash 2.0  
 **\<rbrunner>** Yesss  
 **\<rehrar>** alright, shall we put this to rest for now? we can pick it up later. Or we can keep going.  
 **\<reymonero>** yes  
@@ -290,17 +290,17 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** alrighty, let's move on  
 **\<rehrar>** as always, the discussion can continue past the meeting end, and in /r/monerocommunity  
 **\<rehrar>** 4. User guides  
-**\<rehrar>**   sgp created this post a little while back, and many people followed through to make user guides! https://www.reddit.com/r/MoneroCommunity/comments/6m6eil/we_need_more_user_guides/  
-**\<rehrar>** Even if there are many user guides available by trusted community members on different sites, it is important to also have documentation on the Monero website. Examples of this include the Moneropedia, which is more likely to be cited by news sites than a contributed site.  
+**\<rehrar>**   sgp created this post a little while back, and many people followed through to make user guides! https://www.reddit.com/r/ByteRubCommunity/comments/6m6eil/we_need_more_user_guides/  
+**\<rehrar>** Even if there are many user guides available by trusted community members on different sites, it is important to also have documentation on the ByteRub website. Examples of this include the ByteRubpedia, which is more likely to be cited by news sites than a contributed site.  
 **\<rehrar>** To wrap up this short section, please contribute to user guides! Examples including smart mining in the GUI, connecting to a remote node in the GUI, and updating the guide to prove a payment was made.  
 **\<rehrar>** I've created a simple easy-to-follow (at least I think) way to make User Guides in the new website  
-**\<rehrar>** there's actually lots of things you can do here: https://github.com/monero-project/monero-site/blob/master/README.md  
+**\<rehrar>** there's actually lots of things you can do here: https://github.com/byterubpay/monero-site/blob/master/README.md  
 **\<rehrar>** anyways, that's that  
 **\<rehrar>** 6. Upcoming events  
-**\<rehrar>** Over the next 2 weeks, sgp will have talks in Helsinki, Stockholm, and Oslo. I do not know of other Monero events at this time. Please follow /r/MoneroCommunity to see postings of these events.  
+**\<rehrar>** Over the next 2 weeks, sgp will have talks in Helsinki, Stockholm, and Oslo. I do not know of other ByteRub events at this time. Please follow /r/ByteRubCommunity to see postings of these events.  
 **\<rehrar>** He's also looking for someone from the Paris area to contact him, since he hopes to work with them to on a presentation.  
 **\<rehrar>** He's sorry he couldn't be here btw  
-**\<rehrar>** If you have any events about Monero coming up, let us know. Otherwise, we can move on to the next topic.  
+**\<rehrar>** If you have any events about ByteRub coming up, let us know. Otherwise, we can move on to the next topic.  
 **\<reymonero>** o/  
 **\<rehrar>** yes reymonero?  
 **\<reymonero>** just a suggestion... would it be preferable for people to create a presentation that we could all use rather than individual presentations?  
@@ -319,7 +319,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** \^ that sounds good  
 **\<rehrar>** Alright. Who wants another fun discussion-y topic that we can disagree on?  
 **\<rehrar>**  7. What to name the GUI/repo (#674)  
-**\<rehrar>** There is a longstanding discussion over what to name the GUI and repo: https://github.com/monero-project/monero-core/issues/674  
+**\<rehrar>** There is a longstanding discussion over what to name the GUI and repo: https://github.com/byterubpay/monero-core/issues/674  
 **\<moneromooo>** How about... jaqueeeeeee ?  
 **\<rbrunner>** Thorny issue  
 **\<pero>** +1 jaqueeeeeeeeeee  
@@ -361,7 +361,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I personally liked Kerna  
 **\<reymonero>** sorry i'll stop  
 **\<reymonero>** kerna sounds good  
-**\<ordtrogen>** Monero Core ?  
+**\<ordtrogen>** ByteRub Core ?  
 **\<rehrar>** or Vidi (Esperanto for View)  
 **\<needmultisig90>** Montero  
 **\<reymonero>** Konero  
@@ -370,7 +370,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** alright, moving on. Feel free to reply to the Issue  
 **\<needmultisig90>** Romano?  
 **\<reymonero>** o/  
-**\<rehrar>**  8. FFS formalization  I have started the process of making the FFS process more formalized. You can track the progress here: https://github.com/monero-project/meta/pull/87  
+**\<rehrar>**  8. FFS formalization  I have started the process of making the FFS process more formalized. You can track the progress here: https://github.com/byterubpay/meta/pull/87  
 **\<hyc>** The comparison to Mozilla / Firefox is apt  
 **\<rehrar>** anonimal has already made some good comments that I will be implementing soon  
 **\<rehrar>** yes reymonero  
@@ -393,7 +393,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** thanks  
 **\<reymonero>** Great!  
 **\<rehrar>** anyone have anything to discuss? Make your voice heard.  
-**\<jonathancross>** As far as the name of the GUI... I'd like to suggest that for most people, the GUI == Monero Wallet.  
+**\<jonathancross>** As far as the name of the GUI... I'd like to suggest that for most people, the GUI == ByteRub Wallet.  
 **\<mugatu>** I heard XMR is ded  
 **\<mugatu>** is this true?  
 **\<reymonero>** yes  
@@ -401,7 +401,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** mugatu totally. Who needs privacy am i right?  
 **\<mugatu>** rehrar seems sketchy  
 **\<reymonero>** If someone says it is, it must be correct  
-**\<hyc>** Monero was created by DARPA, Israel and ... oh wait, that's Zcash  
+**\<hyc>** ByteRub was created by DARPA, Israel and ... oh wait, that's Zcash  
 **\<rehrar>** I'm a bad actor  
 **\<ordtrogen>** hand!  
 **\<rehrar>** yes ordtrogen?  
@@ -412,7 +412,7 @@ author: dEBRUYNE / fluffypony
 **\<needmultisig90>** Oh, im planning on making a romano meetup in silicon valley again  
 **\<rehrar>** he's in slack as sgp  
 **\<rehrar>** cool, thanks nm  
-**\<rbrunner>** Just a little one-shot reminder: On reddit, /r/Monero-Community still is not mentioned on /r/monero, in the "RELATED SUBREDDITS" sidebar section  
+**\<rbrunner>** Just a little one-shot reminder: On reddit, /r/ByteRub-Community still is not mentioned on /r/monero, in the "RELATED SUBREDDITS" sidebar section  
 **\<needmultisig90>** Ill add it to xmrtrader too  
 **\<rehrar>** alright kids, if there's nothing else:   10. Confirm next meeting date/time  
 **\<rehrar>** The next meeting will happen in two weeks on 16 July. Same time (18:30 UTC). Look for another meta issue about it on GitHub. It will not be delayed another week.  
@@ -441,8 +441,8 @@ author: dEBRUYNE / fluffypony
 **\<pero>** it needs a more apt name  
 **\<rehrar>** #monero-make-everything-better  
 **\<hyc>** #monero-meta  
-**\<rbrunner>** Uh, it was already moved on from /r/Monero-Marketing ...  
-**\<reymonero>** Monero. Its bitcoin. Just better  
+**\<rbrunner>** Uh, it was already moved on from /r/ByteRub-Marketing ...  
+**\<reymonero>** ByteRub. Its bitcoin. Just better  
 **\<rehrar>** Marketing will become a work group on its own down the road  
 **\<pero>** to something even worse  
 **\<rehrar>** probably... :P  

@@ -68,7 +68,7 @@ author: el00ruobuob / rehrar
 **\<hyc>** god only knows why someone thought "hey let's make a gui but not call it the gui!"  
 **\<dEBRUYNE>** I can give some further updates on the GUI once mooo is done with the core stuff :p  
 **\<rehrar>** Can we all agree between us present that core means CLI tools and daemon?  
-**\<ErCiccione[m]>** isn't just linked hyc? IIRC it should still take you to the GUI  if you look for monero-project/monero-core  
+**\<ErCiccione[m]>** isn't just linked hyc? IIRC it should still take you to the GUI  if you look for byterubpay/monero-core  
 **\<rehrar>** and GUI means GUI?  
 **\<jwinterm>** most applications with GUIs are not called by their function+GUI, probably  
 **\<ErCiccione[m]>** i confirm monero-core still points to monero-gui  
@@ -94,7 +94,7 @@ author: el00ruobuob / rehrar
 **\<jwinterm>** hyc: not too many apps spring to mind that meet that criterion  
 **\<dEBRUYNE>** Like selsta said, we should be ready in time for 0.14.1.0  
 **\<dEBRUYNE>** There will be a revamped history page as well as a revamped address book  
-**\<dEBRUYNE>** Xiphon has also posted a ffs to work on some stuff such as optimizing the communication between the wallet and the daemon and implementing a decentralized remote node scanner -> https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/55  
+**\<dEBRUYNE>** Xiphon has also posted a ffs to work on some stuff such as optimizing the communication between the wallet and the daemon and implementing a decentralized remote node scanner -> https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/55  
 **\<dEBRUYNE>** For the latter feature, we'll have to wait a bit before nodes will start using the --public-node flag  
 **\<dEBRUYNE>** Oh there will also be fiat pricing (the feature will be turned off by default)  
 **\<dEBRUYNE>** And we've started discussing how to easily integrate i2p-zero and tor  

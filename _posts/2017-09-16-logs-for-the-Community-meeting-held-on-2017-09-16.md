@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2017-09-16
-summary: Community highlights, Forum Funding System discussions, workgroups and resources, Monero support, translations, open ideas time, and miscellaneous
+summary: Community highlights, Forum Funding System discussions, workgroups and resources, ByteRub support, translations, open ideas time, and miscellaneous
 tags: [community]
 author: dEBRUYNE / fluffypony
 ---
@@ -10,10 +10,10 @@ author: dEBRUYNE / fluffypony
 
 **\<sgp>** Starting the meeting (on the correct channel this time)  
 **\<sgp>** 0. Introduction  
-**\<sgp>** We would like to welcome everyone to this Monero Community Meeting  
-**\<sgp>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/115  
+**\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting  
+**\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/115  
 **\<serhack>** Hey  
-**\<sgp>** Monero Community meetings intend to be a discussion place for anything going on in the Monero Community. We plan to use this meeting and future meetings to encourage the community to share ideas and provide support.  
+**\<sgp>** ByteRub Community meetings intend to be a discussion place for anything going on in the ByteRub Community. We plan to use this meeting and future meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
 **\<cryptochangement>** hey all!  
 **\<msvb-lab>** Hi folks.  
@@ -33,13 +33,13 @@ author: dEBRUYNE / fluffypony
 **\<erciccione>** yeee good job all  
 **\<serhack>** Great work!  
 **\<cryptochangement>** woo hoo!  
-**\<hrumag>** Good news, now we have also Monero Cash :) (joking)  
+**\<hrumag>** Good news, now we have also ByteRub Cash :) (joking)  
 **\<sgp>** This fork upped the minimum ringsize to 5, brought mandatory RinCT, and a ton of other improvements  
 **\<QuickBASIC>** 🎉  
 **\<sgp>** \*RingCT  
-**\<serhack>** thanks to devs, Monero is more secure than yesterday  
-**\<sgp>** TheMonera came out of seemingly nowhere and posted some amazing Monero posters on their website: https://www.themonera.art/  
-**\<sgp>** There were Monero meetups in Berlin, Silicon Valley, and Sheffield. I also learned that Monero Austria is still going strong and had a recent meeting in Linz (thanks @parasew!)  
+**\<serhack>** thanks to devs, ByteRub is more secure than yesterday  
+**\<sgp>** TheMonera came out of seemingly nowhere and posted some amazing ByteRub posters on their website: https://www.themonera.art/  
+**\<sgp>** There were ByteRub meetups in Berlin, Silicon Valley, and Sheffield. I also learned that ByteRub Austria is still going strong and had a recent meeting in Linz (thanks @parasew!)  
 **\<parasew>** yay!  
 **\<cryptochangement>** thats pretty awesome  
 **\<sgp>** Does anyone else have some highlight they would like to add?  
@@ -70,14 +70,14 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** I'm going to move on to the next topic to keep the meeting on schedule :)  
 **\<serhack>** :)  
 **\<sgp>** 3. FFS updates  
-**\<sgp>** For those new to the Monero community, the FFS stands for the Forum Funding System. It’s like a GoFundMe with Monero, where people can pitch ideas and receive payment when set tasks are completed.  
+**\<sgp>** For those new to the ByteRub community, the FFS stands for the Forum Funding System. It’s like a GoFundMe with ByteRub, where people can pitch ideas and receive payment when set tasks are completed.  
 **\<sgp>** There are several FFS updates, and Riccardo moved a bunch right before this meeting: https://twitter.com/fluffypony/status/909095290531143681  
 **\<sgp>** My FFS for my meetup talks has moved to funding required: https://forum.getmonero.org/8/funding-required/88081/justin-s-local-meetup-talks-proposal-3  
 **\<sgp>** moneromooo posted their FFS for October-December: https://forum.getmonero.org/8/funding-required/88298/mooo-full-time-october-december  
 **\<cryptochangement>** its also a bit more controlled than gofundme so funds dont get released until "milestones" are hit  
 **\<sgp>** rehrar is expanding his community role by spending more time on Kovri (moved to funding required): https://forum.getmonero.org/6/ideas/88390/assistant-for-kovri-project-management  
 **\<rehrar>** oh dang! So has mine! :D  
-**\<sgp>** Following the enthusiasm and suggestions form the last meeting, I have created a FFS for the Monero Meetup Kit: https://forum.getmonero.org/6/ideas/88374/monero-meetup-kit  
+**\<sgp>** Following the enthusiasm and suggestions form the last meeting, I have created a FFS for the ByteRub Meetup Kit: https://forum.getmonero.org/6/ideas/88374/monero-meetup-kit  
 **\<sgp>** anonimal already offered some excellent advice when he suggested including Kovri stickers and pamphlets in the box too.  
 **\<sgp>** However, there are two that we would like to highlight during this meeting. The first is the second integrations FFS proposal: https://forum.getmonero.org/6/ideas/88414/monero-integrations-second-ffs  
 **\<endogenic>** rehrar++  
@@ -112,9 +112,9 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** And prestashop is a cms powered on e-shop features  
 **\<msvb-lab>** Prestashop is stand alone, oh nice.  
 **\<serhack>** ;)  
-**\<parasew>** here was an overview of systems and integrations on reddit from yesterday https://www.reddit.com/r/Monero/comments/704igy/shoutout_to_serhack_and_the_monero_integrations/dn1k2ob/  
+**\<parasew>** here was an overview of systems and integrations on reddit from yesterday https://www.reddit.com/r/ByteRub/comments/704igy/shoutout_to_serhack_and_the_monero_integrations/dn1k2ob/  
 **\<0ak3y22>** magento is the main one  
-**\<serhack>** What do you think about developing an e-shop only for Monero?  
+**\<serhack>** What do you think about developing an e-shop only for ByteRub?  
 **\<0ak3y22>** i would accept monero if it got magento  
 **\<serhack>** Is that cool?  
 **\<ajs>** like a shopping cart  
@@ -150,9 +150,9 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** ok, thanks rehrar. you could also pm me if you want  
 **\<sgp>** @cryptochangement I'm going to move on to another discussion now, ok?  
 **\<cryptochangement>** sounds good  
-**\<sgp>** The second FFS proposal being discussed is the dedicated Monero hardware wallet. Community feedback was gathered during the last meeting, and it has now moved on to Funding Required: https://forum.getmonero.org/8/funding-required/88149/dedicated-monero-hardware-wallet  
+**\<sgp>** The second FFS proposal being discussed is the dedicated ByteRub hardware wallet. Community feedback was gathered during the last meeting, and it has now moved on to Funding Required: https://forum.getmonero.org/8/funding-required/88149/dedicated-monero-hardware-wallet  
 **\<sgp>** I now would like to ask msvb-lab to speak more about this proposal.  
-**\<msvb-lab>** One month of prestart research has yielded a proposal to contribute (fund, provide ideas, anything else) to Monero's first dedicated hardware wallet:  
+**\<msvb-lab>** One month of prestart research has yielded a proposal to contribute (fund, provide ideas, anything else) to ByteRub's first dedicated hardware wallet:  
 **\<msvb-lab>** I wrote the proposal, will devote a half year's work, and can answer questions now... Any ideas, questions, or opinions?  
 **\<sgp>** It's a large and respectable undertaking  
 **\<quickbasic>** What is it going to do that Ledger won't be able to?  
@@ -172,11 +172,11 @@ author: dEBRUYNE / fluffypony
 **\<pero>** i used to share an office with a former c level exec there so just have anecdotal info  
 **\<msvb-lab>** We can't answer them here, but I'm usually around on IRC and tomorrow again during the dev meeting.  
 **\<smauginjapan>** msvb-lab, I agree with hyc, I think the goal is to not necessarily have as many features as possible, but instead concentrate on bulletproof security.  
-**\<selsta>** imo Ledger is still a company and they can decide not support Monero at any time  
+**\<selsta>** imo Ledger is still a company and they can decide not support ByteRub at any time  
 **\<rehrar>** excellent point selsta  
 **\<msvb-lab>** selsta: Yes, that's another problem with not having control but...  
 **\<msvb-lab>** Lets not bash Ledger too much, they are doing a great job.  
-**\<msvb-lab>** We need Ledger, Trezor, and all the others on board and working with Monero just as we do our own dedicated wallet as well.  
+**\<msvb-lab>** We need Ledger, Trezor, and all the others on board and working with ByteRub just as we do our own dedicated wallet as well.  
 **\<selsta>** (just as an example as they are the “alternative”)  
 **\<sgp>** Anything else, or can we keep moving?  
 **\<smauginjapan>** an open hardware wallet is an equaliser to potential shennanigans by other companies .  
@@ -186,17 +186,17 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** https://forum.getmonero.org/8/funding-required/88149/dedicated-monero-hardware-wallet/  
 **\<sgp>** 4. Workgroups and Resources  
 **\<msvb-lab>** ...if you want to donate. Or more questions, come back for tomorrow's dev meeting.  
-**\<sgp>** This is a big announcement that has been in the works for quite some time. Rehrar will give a brief word on what workgroups are, and some exciting new resources that the Monero Project is offering for free to budding workgroups.  
+**\<sgp>** This is a big announcement that has been in the works for quite some time. Rehrar will give a brief word on what workgroups are, and some exciting new resources that the ByteRub Project is offering for free to budding workgroups.  
 **\<msvb-lab>** Same time, but the -dev IRC channel.  
 **\<rehrar>** Hey everyone. So we got some big stuff to talk about.  
-**\<rehrar>** I'll be submtting a document to the Monero Project Meta repo soon about Workgroups and what they are  
+**\<rehrar>** I'll be submtting a document to the ByteRub Project Meta repo soon about Workgroups and what they are  
 **\<rehrar>** for now, I'd just like to paste some relevant portions of the document to answer the questions of what workgroups are, and why we need them:  
-**\<rehrar>** "Because Monero does not have a central structure in which to manage every project that comes from individuals or groups, Monero has a great strength (which can also be considered a weakness is some circumstances) of being an initiative-based project. This means that if something is not being done, and an individual or group would like it to be done, they should do it instead of wait for others to do it."  
-**\<rehrar>** "The Monero Project thrives when the community is given the freedom to work on projects that they have both passion and ability for, and is at its worst when everyone expects everyone else to get things done (often for free)."  
-**\<rehrar>** "A Monero Workgroup is defined as a grassroots initiative by an individual or group with the intent of furthering The Monero Project."  
-**\<rehrar>** "Monero Workgroups can take many forms. Some might be formal, with a defined leadership, bylaws, and dues, and others might be informal, with a fluid membership and loosely defined goals. Each workgroup is free to make their own goals and structures, and doesn't need anyone's permission to operate, or even exist."  
-**\<rehrar>** A big example of a functioning workgroup is the Monero Community Workgroup (you're at the meeting held by this workgroup right now)  
-**\<rehrar>** There was another workgroup in the past with a bit more of a formalized structure called the Monero Economic Workgroup, which you can read about in this thread: https://bitcointalk.org/index.php?topic=776479.0  
+**\<rehrar>** "Because ByteRub does not have a central structure in which to manage every project that comes from individuals or groups, ByteRub has a great strength (which can also be considered a weakness is some circumstances) of being an initiative-based project. This means that if something is not being done, and an individual or group would like it to be done, they should do it instead of wait for others to do it."  
+**\<rehrar>** "The ByteRub Project thrives when the community is given the freedom to work on projects that they have both passion and ability for, and is at its worst when everyone expects everyone else to get things done (often for free)."  
+**\<rehrar>** "A ByteRub Workgroup is defined as a grassroots initiative by an individual or group with the intent of furthering The ByteRub Project."  
+**\<rehrar>** "ByteRub Workgroups can take many forms. Some might be formal, with a defined leadership, bylaws, and dues, and others might be informal, with a fluid membership and loosely defined goals. Each workgroup is free to make their own goals and structures, and doesn't need anyone's permission to operate, or even exist."  
+**\<rehrar>** A big example of a functioning workgroup is the ByteRub Community Workgroup (you're at the meeting held by this workgroup right now)  
+**\<rehrar>** There was another workgroup in the past with a bit more of a formalized structure called the ByteRub Economic Workgroup, which you can read about in this thread: https://bitcointalk.org/index.php?topic=776479.0  
 **\<rehrar>** shoot we got monerobux in here?   
 **\<pero>** yes thanks to the monerobux advancement workgroup  
 **\<serhack>** Good rehrar  
@@ -206,18 +206,18 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** sounds awesome  
 **\<msvb-lab>** Cool, heard about Mattermost.  
 **\<rehrar>** First: Mattermost  
-**\<rehrar>** You can access Mattermost at https://mattermost.getmonero.org at any  time. You can think of it as an open-sourced, self-hosted Slack  alternative. And while we do have a slack, we would like to encourage  the community to sign up here and begin using it over slack. This way,  The Monero Project has control over the data and conversations, and not  some third-party. We want to distance ourselves from using proprietary  software  
+**\<rehrar>** You can access Mattermost at https://mattermost.getmonero.org at any  time. You can think of it as an open-sourced, self-hosted Slack  alternative. And while we do have a slack, we would like to encourage  the community to sign up here and begin using it over slack. This way,  The ByteRub Project has control over the data and conversations, and not  some third-party. We want to distance ourselves from using proprietary  software  
 **\<rehrar>**  as much as possible. Of course, it is relayed to IRC.  
 **\<xmrmatterbridge> \<sgp>** Hey everyone! (from Mattermost)  
-**\<rehrar>** In the same way, we are also unveiling the Monero Taiga instance,  which can be accessed at https://taiga.getmonero.org. Taiga is an  open-sourced, self-hosted agile development environment. Put simply, it  can be used like GitHub for non-coders to make projects, make goals for  those projects, assign people to teams and to fulfill tasks, and more.  It's a great resource, and will even integrate with Mattermost soon.  
+**\<rehrar>** In the same way, we are also unveiling the ByteRub Taiga instance,  which can be accessed at https://taiga.getmonero.org. Taiga is an  open-sourced, self-hosted agile development environment. Put simply, it  can be used like GitHub for non-coders to make projects, make goals for  those projects, assign people to teams and to fulfill tasks, and more.  It's a great resource, and will even integrate with Mattermost soon.  
 **\<ArticMine>** This all sounds great  
 **\<xmrmatterbridge> \<serhack>** hey  
-**\<rehrar>** You'll find the Monerujo (android mobile wallet) already on there, as well as Revuo Monero and Kovri  
+**\<rehrar>** You'll find the Monerujo (android mobile wallet) already on there, as well as Revuo ByteRub and Kovri  
 **\<Xil3>** very nice  
 **\<cryptochangement>** great  
 **\<rehrar>** You can learn more about Agile Development in videos like this: https://www.youtube.com/watch?v=R8dYLbJiTUE  
 **\<rehrar>** and with a bit of research, you can use a lot of cool stuff that Taiga has to offer  
-**\<serhack>** Monero Integrations too  
+**\<serhack>** ByteRub Integrations too  
 **\<rehrar>** I'll be making write-ups for both of these environments soon  
 **\<rehrar>** We could go on and talk about the specifics about any of these things  for a while, so in the interest of moving the meeting along, we'll  instead answer any questions that anybody has about these two new  environments after the meeting.  
 **\<sgp>** Very exciting resources for the community  
@@ -227,23 +227,23 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** and they all integrate with each other, and you can have one, or both on, and turn them off at will  
 **\<pero>** taiga is a pm tool that's made to work with agile/scrum/kanban pm methodologies  
 **\<rehrar>** You can make and manage your own projects.  
-**\<rehrar>** Basically, we're empowering and enabling the community to take charge of the direction Monero is going.  
+**\<rehrar>** Basically, we're empowering and enabling the community to take charge of the direction ByteRub is going.  
 **\<rehrar>** Alright, let's move on.  
-**\<rehrar>** 5. Monero Support  
+**\<rehrar>** 5. ByteRub Support  
 **\<serhack>** A lot  of news  
-**\<rehrar>** Not everyone knows, but we have a subreddit for Monero Support that  we would like to start utilizing. You can go to  https://reddit.com/r/monerosupport and help by answering or asking  questions. This is in the effort of keeping the Monero ecosystem  understandable, uncluttered, and user-friendly. Please subscribe and lend a helping hand when somebody comes in with a question.  
-**\<rehrar>** The transition will take some time, since there are many more people  on /r/Monero than /r/MoneroSupport. However, we are confident that the  community is large enough for there to be two distinct subreddits.  
-**\<rehrar>** We would like to reference StackExchange as often as possible in this  subreddit. These two resources will work together. You can almost think  of Monero Support as a less formal StackExchange.  
-**\<rehrar>** End goal: a cleaner Monero Reddit ecosystem for everyone. :)  
+**\<rehrar>** Not everyone knows, but we have a subreddit for ByteRub Support that  we would like to start utilizing. You can go to  https://reddit.com/r/monerosupport and help by answering or asking  questions. This is in the effort of keeping the ByteRub ecosystem  understandable, uncluttered, and user-friendly. Please subscribe and lend a helping hand when somebody comes in with a question.  
+**\<rehrar>** The transition will take some time, since there are many more people  on /r/ByteRub than /r/ByteRubSupport. However, we are confident that the  community is large enough for there to be two distinct subreddits.  
+**\<rehrar>** We would like to reference StackExchange as often as possible in this  subreddit. These two resources will work together. You can almost think  of ByteRub Support as a less formal StackExchange.  
+**\<rehrar>** End goal: a cleaner ByteRub Reddit ecosystem for everyone. :)  
 **\<cryptochangement>** get ready to answer blockhain sync questions everyone!  
 **\<rehrar>** Unless there's any thoughts on that, we'll move on as we're running short on time  
 **\<rehrar>** 6. Translations  
 **\<rehrar>** Erciccione started #monero-translations to help people with, well, translations. If you have other languages at your disposal, consider dropping by and saying hello.  
 **\<erciccione>** yep, i have a couple of things to say that i just wrote down  
-**\<rehrar>** As an update on software, Monero Translations is trying a few different open-source, self-hosted (can you tell we like that kinda stuff) alternatives to Transifex  
+**\<rehrar>** As an update on software, ByteRub Translations is trying a few different open-source, self-hosted (can you tell we like that kinda stuff) alternatives to Transifex  
 **\<rehrar>** sure, go for it  
 **\<serhack>** Great @erciccione  
-**\<erciccione>** thanks, as rehrar was saying the Monero Localization WorkGroup is formed, our home is at monero-translations (IRC, Slack). I encurage everybody interested in translating monero to ask there for both help (github issues, info, ecc) aswell for coordinating  
+**\<erciccione>** thanks, as rehrar was saying the ByteRub Localization WorkGroup is formed, our home is at monero-translations (IRC, Slack). I encurage everybody interested in translating monero to ask there for both help (github issues, info, ecc) aswell for coordinating  
 **\<erciccione>** During the last weeks we checked about 5-6 platforms, but only two of them had all the requirements we needed (many platforms had problems with static websites, markdown or QT). This two were Transifex and Weblate  
 **\<erciccione>** The common feeling was to avoid Transifex since is closed source, so last week i started setting up a test instance for weblate, but i found some issues that neither rehrar or serhack could solve, so  
 **\<parasew>** erciccione, this sounds amazing. i have a few people who wanted to translate, will send them along.  
@@ -261,9 +261,9 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** The next meeting will two weeks from today on 30 September at 17:00 UTC. It will be the Saturday before the dev meetings. This meeting time seems to work out for most people.  
 **\<sgp>** 9. Conclusion  
 **\<parasew>** i will install pootle and report back  
-**\<sgp>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and monero-community. Take care, and know that change starts with YOU.  
 **\<sgp>** (side discussions can now continue, or if anyone has any open ideas to discuss)  
-**\<hyc>** question - is bitcointalk Monero Support forum still supported? https://bitcointalk.org/index.php?topic=652305.0;topicseen  
+**\<hyc>** question - is bitcointalk ByteRub Support forum still supported? https://bitcointalk.org/index.php?topic=652305.0;topicseen  
 **\<erciccione>** thanks parasew, we can talk about it in monero-translations  
 **\<parasew>** erciccione sure! i am just a bit sick so lets move it to the coming days :)  
 **\<hyc>** it seems overall the community has shifted entirely to reddit.  
@@ -291,14 +291,14 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** https://moneroinfo.org/  
 **\<msvb-lab>** ...portions of:  
 **\<msvb-lab>** https://getmonero.org/resources/user-guides/securely_purchase.html  
-**\<msvb-lab>** And it would be nice to get a Monero version of:  
+**\<msvb-lab>** And it would be nice to get a ByteRub version of:  
 **\<msvb-lab>** http://learnmeabitcoin.com/guide/  
 **\<smauginjapan>** tlehman101, I'm not saying it shouldn't be done mind you, I'm just saying it shouldn't be done around people whose real identities are known ;)  
 **\<pigeons>** you can'tstop people from using monero but you don't have to encourage things that are problematic  
 **\<msvb-lab>** smauginjapan: I have mixed feelings about the amount, because it is large to fund machines (rather than humans) and raises pressure to get the job done (potential for sleepless nights and health damage.)  
-**\<smauginjapan>** Monero is all about privacy after all  
+**\<smauginjapan>** ByteRub is all about privacy after all  
 **\<msvb-lab>** ...but the amount is accurate so there's no path to improvement.  
-**\<hyc>** Monero is for everyone. we can write docs for everyone to learn how to use it. we don't aim the docs at one specific group.  
+**\<hyc>** ByteRub is for everyone. we can write docs for everyone to learn how to use it. we don't aim the docs at one specific group.  
 **\<smauginjapan>** msvb-lab, heh, yeah, it's a big undertaking, but you shouldn't feel alone though.  
 **\<hyc>** after that, it's up to individuals to be smart enough to realize that it benefits them to use it.  
 **\<msvb-lab>** smauginjapan: The positive part of mixed feelings is obviously that the individual tasks before the project succeeds are very challenging, interesting, and rewarding.  
@@ -312,7 +312,7 @@ author: dEBRUYNE / fluffypony
 **\<pero>** yea im sure you have a reason i'd agree with - just curious what it is ;p  
 **\<hyc>** at this point 99% of incoming questions have been answered before  
 **\<dEBRUYNE>** pero: "Kind of ambivalent on this since it's a two sided coin. Yes, it'll give this subreddit a cleaner look. However, it's more likely that their questions won't get answered as there are way more people browsing this sub. Moreover, I think it's beneficial to give newcomers a warm welcome by helping them out with their issues. If their questions don't get answered it may result in a negative experience and deterring them from getting   
-**\<dEBRUYNE>** involved with Monero. Furthermore, bear in mind that most of us also once started as noobs. I'll just leave this thread open to gauge the community's opinion.  
+**\<dEBRUYNE>** involved with ByteRub. Furthermore, bear in mind that most of us also once started as noobs. I'll just leave this thread open to gauge the community's opinion.  
 **\<dEBRUYNE>** "  
 **\<pigeons>** yeah it can be real helpful and useful to have SE answers to point to for reference and consistency  
 **\<pero>** hmmm - well r/monerosupport was my idea  
@@ -406,4 +406,4 @@ author: dEBRUYNE / fluffypony
 **\<pero>** the main sub is way past 'large enough' imo  
 **\* pero** vanishes  
 **\<dEBRUYNE>** I personally think it's not a good idea at this point. I'll leave it at that for now  
-**\<antw081>** We should just hire someone to curate a "daily best of r/Monero" for pero so he doesn't have to browser through the regular r/Monero and be offended at the newbie support questions :P  
+**\<antw081>** We should just hire someone to curate a "daily best of r/ByteRub" for pero so he doesn't have to browser through the regular r/ByteRub and be offended at the newbie support questions :P  

@@ -8,13 +8,13 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-03-12).  
+An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-03-12).  
 
 ### Logs  
 
 **\<fluffypony>** 1. Greetings    
 **\<fluffypony>** ok cool  
-**\<fluffypony>** agenda is at https://github.com/monero-project/meta/issues/51  
+**\<fluffypony>** agenda is at https://github.com/byterubpay/meta/issues/51  
 **\<fluffypony>** so to start, 1. Greetings  
 **\<fluffypony>** hi  
 **\<iDunk>** Hi  
@@ -22,14 +22,14 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** so mostly fiddly bits as we get ready for the 0.10.2.2 tag and release  
 **\<fluffypony>** but we'll discuss that more in 4  
 **\<fluffypony>** so 3. A discussion of PR 1816, & perhaps a more general discussion of C++ templating etc.  
-**\<fluffypony>** relevant link: https://github.com/monero-project/monero/pull/1816  
+**\<fluffypony>** relevant link: https://github.com/byterubpay/monero/pull/1816  
 **\<fluffypony>** so part of the ongoing discussion happening there is "how much C++11 do we adopt"  
 **\<fluffypony>** and part of the discussion I wanted to have today is "how maintainable is C++11 for us"  
 **\<moneromooo>** Maybe it's a bit less about C++11 and more about making things overcomplex.  
 **\<fluffypony>** yes  
 **\<moneromooo>** A bit of both I guess.  
 **\<fluffypony>** so if I may, I thought I'd give my largely uninformed opinion, and then I'd particularly like to hear what hyc and moneromooo and tewinget and others feel  
-**\<fluffypony>** I feel that a lot of this ties into our long-term goals as developers and contributors to the Monero Project, and where we'd like to take things  
+**\<fluffypony>** I feel that a lot of this ties into our long-term goals as developers and contributors to the ByteRub Project, and where we'd like to take things  
 **\<fluffypony>** some of this code complexity leads to easier management later on, but requires a steep learning curve now  
 **\<hyc>** I'm not up on the latest in C++. so when it comes to deciding what features to adopt, I'll stay out of it  
 **\<fluffypony>** or requires things to be a little harder to manage now, but this leads to an easier to manage set of classes / functions / etc. later on  
@@ -59,7 +59,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<binaryFate>** I and prolly many others have no grasp of the actual usage of epee in code base. What sort of workload are we talking about to replicate?  
 **\<binaryFate>** ball park  
 **\<moneromooo>** Shitloads :)  
-**\<fluffypony>** 0MQ's kinda a bad example, moneromooo - tewinget has had stuff on his plate that has interrupted his ability to work on Monero  
+**\<fluffypony>** 0MQ's kinda a bad example, moneromooo - tewinget has had stuff on his plate that has interrupted his ability to work on ByteRub  
 **\<moneromooo>** Besides you have to have both work in the same binary if you want to fork from one to the other at some point.  
 **\<fluffypony>** but in principle, yeah, this is a multi-year project  
 **\<binaryFate>** ok...  
@@ -74,7 +74,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** what if we have a new project whose focus is to build libraries out  
 **\<fluffypony>** so maybe it starts with a consensus library that can validate txs and blocks, and knows how to build txs and blocks  
 **\<endogenic>** that’s almost exactly what i was typing  
-**\<fluffypony>** and then the main Monero project uses that  
+**\<fluffypony>** and then the main ByteRub project uses that  
 **\<hyc>** sounds reasonble  
 **\<fluffypony>** and eventually the project becomes a collection of files that can be dropped because they're no longer needed, and just dumb interfaces that hook into libs  
 **\<i2p-relay> {-olark}** A slow transition would be ideal  
@@ -143,7 +143,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** moneromooo: no I was asking if that's what you meant, you said "suprious" :)  
 **\<moneromooo>** Or if you require "proper C++", then you should require "proper C" when comparing maintainability of both.  
 **\<moneromooo>** Oh yes, spurious.  
-**\<fluffypony>** well look, I'd like Monero to become a collection of well written, well documented libraries, with bindings in many languages  
+**\<fluffypony>** well look, I'd like ByteRub to become a collection of well written, well documented libraries, with bindings in many languages  
 **\<hyc>** yes, fine.  
 **\<endogenic>** spurious arguments really get a pony going  
 **\<moneromooo>** :D  
@@ -202,7 +202,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** before I get to hyc's question  
 **\<moneromooo>** That seems to assume a non adversarial system.  
 **\<bigreddmachine>** fluffypony: so a fork lets you make sure it's compatible for everything to date, but if a corner case came up later, the old version wouldn't matter?  
-**\<fluffypony>** since vtnerd is playing around with the library stuff (conceptually), any objection to him working on this? we kinda want the library stuff for the lightweight remote wallet tool (ie. open-source MyMonero-like stuff)  
+**\<fluffypony>** since vtnerd is playing around with the library stuff (conceptually), any objection to him working on this? we kinda want the library stuff for the lightweight remote wallet tool (ie. open-source MyByteRub-like stuff)  
 **\<fluffypony>** bigreddmachine: if you don't do it at a fork height then the old version might be widely deployed  
 **\<bigreddmachine>** yep, okay makes sense, thanks  
 **\<Slack> \<nanoakron>** moneromooo I’m not seeing any INFO messages about ‘synchronised OK’ or ‘new block candidate’ etc. at log-level 1  
@@ -315,11 +315,11 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<ArticMine>** Without an increase in the default fee  
 **\<Slack> \<nanoakron>** What we don’t want is to be stuck in some philosophical rut like a certain other cryptocurrency…we need agreement (which I’m pretty sure we all have) that an algorithmic determination of block size is better than a human one  
 **\<Slack> \<jollymort>** we have that, but we made a unintended anomaly  
-**\<Slack> \<jollymort>** exibit: https://raw.githubusercontent.com/JollyMort/monero-research/master/Monero%20Dynamic%20Block%20Size%20and%20Dynamic%20Minimum%20Fee/Images/Fig3.1-7.png  
+**\<Slack> \<jollymort>** exibit: https://raw.githubusercontent.com/JollyMort/monero-research/master/ByteRub%20Dynamic%20Block%20Size%20and%20Dynamic%20Minimum%20Fee/Images/Fig3.1-7.png  
 **\<Slack> \<jollymort>** no wait, wrong chart  
 **\<ArticMine>** an increase in tx size to ~13000 bytes from ~500 bytes  
 **\<Slack> \<nanoakron>** Yes, and a binomial distribution thereof  
-**\<Slack> \<jollymort>** this one: https://raw.githubusercontent.com/JollyMort/monero-research/master/Monero%20Dynamic%20Block%20Size%20and%20Dynamic%20Minimum%20Fee/Images/Fig3.1-6.png  
+**\<Slack> \<jollymort>** this one: https://raw.githubusercontent.com/JollyMort/monero-research/master/ByteRub%20Dynamic%20Block%20Size%20and%20Dynamic%20Minimum%20Fee/Images/Fig3.1-6.png  
 **\<Slack> \<jollymort>** the spike was introduced solely by RCT  
 **\<Snipa>** The user simulator I have isn't particularly complex.  I may see about writing a more complex one in the future if it's something we need.  
 **\<Slack> \<jollymort>** the green one was pre-RCT  

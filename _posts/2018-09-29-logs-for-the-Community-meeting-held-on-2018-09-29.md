@@ -12,7 +12,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>** yeah it is wild, keep an eye on that too  
 **\<sgp_>**  0. Introduction  
 **\<sgp_>**  We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp_>**  Link to agenda on GitHub: https://github.com/monero-project/meta/issues/280  
+**\<sgp_>**  Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/280  
 **\<sgp_>**  Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp_>**  1. Greetings  
 **\<el00ruobuob_[m]>** Hello!  
@@ -126,7 +126,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>** ^ rehrar let's have ErCiccione talk first, then we can cover this during open ideas time  
 **\<rehrar>** I'll probably be willing to help out there, but for the more technical things, I'll refer them to #monero-dev unless someone really wants to see it there ASAP and is willing to help 'em out  
 **\<rehrar>** oh, alright  
-**\<ErCiccione>** so, localizations in the next weeks will be focused on the upcoming release. i already opened a Pull Request on monero GUI (https://github.com/monero-project/monero-gui/pull/1572) to refresh all language files. When that one will be merged i will make a call for translators, as it happened for 0.12. Hopefully the PR will be merged soon, but it cointains a lot of changes, so let's hope somebody review it ASAP  
+**\<ErCiccione>** so, localizations in the next weeks will be focused on the upcoming release. i already opened a Pull Request on monero GUI (https://github.com/byterubpay/monero-gui/pull/1572) to refresh all language files. When that one will be merged i will make a call for translators, as it happened for 0.12. Hopefully the PR will be merged soon, but it cointains a lot of changes, so let's hope somebody review it ASAP  
 **\<ErCiccione>** btw, all languages will have just a bunch of new strings (about 11), so it will be an easy and quick job for translators  
 **\<dEBRUYNE>** sgp_: thanks  
 **\<ErCiccione>** also. The localization workgroup recently started to tace care of the documents of the outreach workgroup. you can find them along with instructions here: https://github.com/monero-ecosystem/outreach-docs  

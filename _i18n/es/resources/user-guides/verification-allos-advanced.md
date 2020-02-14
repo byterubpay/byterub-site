@@ -37,12 +37,12 @@ Esta sección cubre la obtención de la clave de firma Monero, asegurar que sea 
 
 ### 2.1. Obtener Clave de Firma
 
-En Windows o Mac, ve a la [clave GPG de Fluffypony](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), que utiliza para firmar los binarios Monero, y guarda la página como `fluffypony.asc` en tu directorio de inicio.
+En Windows o Mac, ve a la [clave GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), que utiliza para firmar los binarios Monero, y guarda la página como `fluffypony.asc` en tu directorio de inicio.
 
 En Linux, puedes descargar la clave de firma de Fluffypony utilizando el siguiente comando:
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Verificar Clave de Firma

@@ -12,7 +12,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** let us start    
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/367  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/367  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<el00ruobuob\_[m]>** Hi!  
@@ -42,7 +42,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** CCS proposals still needing funding:  
 **\<sgp\_>** NONE! (btw rehrar the page looks weird with 0 proposals)  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** “Increase the Adoption of Monero at Avantpay|19 Conference” (250 XMR) https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/81  
+**\<sgp\_>** “Increase the Adoption of Monero at Avantpay|19 Conference” (250 XMR) https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/81  
 **\<rehrar>** I'll add it again to my mountain of stuff  
 **\<sgp\_>** low priority :)  
 **\<dEBRUYNE>** I guess Surae's proposal is coming soon  

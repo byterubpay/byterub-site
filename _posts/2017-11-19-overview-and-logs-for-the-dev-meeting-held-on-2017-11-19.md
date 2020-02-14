@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-11-19
-summary: Discussion of open PRs and issues, Bulletproofs, Monero Research Lab, Monero integrations, dedicated Monero hardware wallet, multisig, and miscellaneous
+summary: Discussion of open PRs and issues, Bulletproofs, ByteRub Research Lab, ByteRub integrations, dedicated ByteRub hardware wallet, multisig, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-11-19).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-11-19).  
 
 # Logs  
 
@@ -84,7 +84,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<msvb-lab>** I'll mark our forum proposal milestone 1 as concluded today probably.  
 **\<msvb-lab>** We now have an open call to any interested in a hardware wallet, become part of the project and possibly test a prototype. See:  
 **\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/wiki/preview/  
-**\<msvb-lab>** I'll demonstrate our two current working protoypes at this week's first ever Monero Munich meeting.  
+**\<msvb-lab>** I'll demonstrate our two current working protoypes at this week's first ever ByteRub Munich meeting.  
 **\<msvb-lab>** That's all, any questions?  
 **\<sgp>** What do you expect those who receive the prototypes to test?  
 **\<msvb-lab>** Very weak expectations, hopefully each finds their own way to contribute and strengthen the project.  
@@ -102,7 +102,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** oh, right! so sorry.  
 **\<rehrar>** Anybody working on GUI have stuff to talk about.  
 **\<unknownids>** ping Jaquee ?  
-**\<endogenic>** so i've been chatting with mooo, Jaquee, and vtnerd recently about integrating MyMonero with the native mainline libwallet  
+**\<endogenic>** so i've been chatting with mooo, Jaquee, and vtnerd recently about integrating MyByteRub with the native mainline libwallet  
 **\<Jaquee>** sorry. i'm on the run  
 **\<endogenic>** signs point to integrating with wallet\_api  
 **\<endogenic>** I may end up tackling a small portion of factoring wallet2  
@@ -130,7 +130,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** yes, can you link your thread dsc?  
 **\<dsc>** sure  
 **\<rehrar>** The one you made a few days ago.  
-**\<dsc>** https://www.reddit.com/r/Monero/comments/7dvwq0/contributing_to_monero_as_an_ux_developer_short/  
+**\<dsc>** https://www.reddit.com/r/ByteRub/comments/7dvwq0/contributing_to_monero_as_an_ux_developer_short/  
 **\<rehrar>** in the comments there are the various proposals for redesigning the GUI. Are there any thoughts on any of those?  
 **\<rehrar>** well, first dsc you wanted to say something, go ahead. :)  
 **\<dsc>** No I was finished :P  
@@ -139,9 +139,9 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<dEBRUYNE>** rehrar: Basically we're first kind of going for the dark theme, which will have a light mode as well  
 **\<dEBRUYNE>** Because it's most trivial to implement  
 **\<dEBRUYNE>** (only requires minor changes to the current design)  
-**\<rehrar>** https://github.com/monero-project/monero-core/issues/419  
-**\<rehrar>** https://github.com/monero-project/monero-core/issues/869  
-**\<rehrar>** https://github.com/monero-project/monero-core/issues/949  
+**\<rehrar>** https://github.com/byterubpay/monero-core/issues/419  
+**\<rehrar>** https://github.com/byterubpay/monero-core/issues/869  
+**\<rehrar>** https://github.com/byterubpay/monero-core/issues/949  
 **\<dEBRUYNE>** Some screenshots -> https://i.imgur.com/89YFUj7.png  
 **\<rehrar>** for those interested  
 **\<rehrar>** Ok. Cool deal!  
@@ -187,7 +187,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<dsc>** alright  
 **\<rehrar>** I think luigi is out for a few days, so be patient. (:  
 **\<rehrar>** Alrighty, shall we move on?  
-**\<rehrar>** FFS Formalization: https://github.com/monero-project/meta/pull/87  
+**\<rehrar>** FFS Formalization: https://github.com/byterubpay/meta/pull/87  
 **\<serhack>** Is there meeting?  
 **\<hyc>** serhack started 40 minutes ago  
 **\<rehrar>** we probably don't have time for a large discussion (if at all), but I just wanted to encourage the devs to take a look at the PR  
@@ -220,13 +220,13 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** If anyone has anything, speak up. :)  
 **\<moneromooo>** If anyone wants to test multisig, feel free. PR 2134.  
 **\<gingeropolous>** is there a set date for the next code freeze?  
-**\<serhack>** A little update by me about Monero Integrations  
+**\<serhack>** A little update by me about ByteRub Integrations  
 **\<rehrar>** go for it serhack  
-**\<serhack>** So we (I and cryptochangements) are going to release Magento Plugin, In the past few weeks, we worked on a new cool payment box for Monero Integrations.  
+**\<serhack>** So we (I and cryptochangements) are going to release Magento Plugin, In the past few weeks, we worked on a new cool payment box for ByteRub Integrations.  
 **\<serhack>**  
 **\<serhack>** I am currently working on OpenCart too so I think we can release Magento payment box the next week..  
 **\<serhack>**  
-**\<serhack>** I have talked to OpenBazaar too and they have told me that Monero + Openbazaar would be nice.. it will be a difficult task but I think I can do it  
+**\<serhack>** I have talked to OpenBazaar too and they have told me that ByteRub + Openbazaar would be nice.. it will be a difficult task but I think I can do it  
 **\<serhack>** you can go on, rehrar  
 **\<moneromooo>** Everytime I read OpenBazaar, it makes me want to punch that scammer from a few years back...  
 **\<rehrar>** alright, thanks man :)  

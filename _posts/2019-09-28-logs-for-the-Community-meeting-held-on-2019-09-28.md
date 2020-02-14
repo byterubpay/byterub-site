@@ -12,9 +12,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Meeting time  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/391  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/391  
 **\<sgp\_>** wait jk  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/396  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/396  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<xmrmatterbridge> \<el00ruobuob>** o/  
@@ -26,7 +26,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** welcome everyone. thanks for being here!  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** See Monero weekly highlights at https://revuo-monero.com/  
-**\<sgp\_>** There was an initial "policy & regulation" meeting here earlier this week: https://github.com/monero-project/meta/issues/392  
+**\<sgp\_>** There was an initial "policy & regulation" meeting here earlier this week: https://github.com/byterubpay/meta/issues/392  
 **\<sgp\_>** Head to #monero-compliance to join that initiative  
 **\<sgp\_>** Of course, the most important news is that 0.15 is expected on October 31, with the scheduled protocol upgrade on November 30. Here are some of the major changes: https://www.reddit.com/r/Monero/comments/d9lbji/what\_are\_some\_of\_the\_major\_notable\_changes\_coming/  
 **\<monerobux>** [REDDIT] What are some of the major notable changes coming to Monero this Oct 2019 for v0.15? (self.Monero) | 31 points (80.0%) | 16 comments | Posted by patoshii | Created at 2019-09-26 - 15:38:56  
@@ -38,7 +38,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<monerobux>** [REDDIT] Reaching out to the exchanges / Network Upgrade / v0.15 (self.Monero) | 26 points (90.0%) | 4 comments | Posted by mishka1984 | Created at 2019-09-28 - 02:37:16  
 **\<sgp\_>** Does anyone have community (non-workgroup) updates to share?  
 **\<sgp\_>** 3. CCS updates  
-**\<sgp\_>** Monero Wiki October 2019 (5.2 XMR): https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/98  
+**\<sgp\_>** Monero Wiki October 2019 (5.2 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/98  
 **\<sgp\_>** All ideas in funding required have been fully funded.  
 **\<sgp\_>** Any comments on this new proposal in ideas?  
 **\<xmrmatterbridge> \<rehrar>** hmmm  

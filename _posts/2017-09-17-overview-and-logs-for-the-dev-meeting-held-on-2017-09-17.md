@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-09-17
-summary: Discussion of open PRs and issues, release schedule, 0MQ, multisig, 0MQ, unit testing, luigi1111 as maintainer, MyMonero, MRL, and miscellaneous
+summary: Discussion of open PRs and issues, release schedule, 0MQ, multisig, 0MQ, unit testing, luigi1111 as maintainer, MyByteRub, MRL, and miscellaneous
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-09-17).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-09-17).  
 
 # Logs  
 
@@ -50,7 +50,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** nothing major  
 **\<surae>** heh  
 **\<hyc>** I heard we spawned XMRclassic  
-**\<fluffypony>** Monero ABC  
+**\<fluffypony>** ByteRub ABC  
 **\<surae>** i used XMRcash at a coffee shop, but my card was declined :(  
 **\<fluffypony>** inb4 XCash  
 **\<fluffypony>** on the topic of the release, and now is as good a time to talk about it as any  
@@ -137,7 +137,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** ok  
 **\<fluffypony>** moneromooo: is it waiting on code or MRL stuff?  
 **\<luigi1111>** yes  
-**\<knaccc>** I just wanted to point out, in case it had slipped through the cracks, that kenshi84 has partially implemented subaddresses in the GUI but there are wireframe mockups he wasn't able to implement because he's not used Qt much before. The mockups suggested to be implemented are here https://github.com/monero-project/monero-core/pull/793#issuecomment-314477091  
+**\<knaccc>** I just wanted to point out, in case it had slipped through the cracks, that kenshi84 has partially implemented subaddresses in the GUI but there are wireframe mockups he wasn't able to implement because he's not used Qt much before. The mockups suggested to be implemented are here https://github.com/byterubpay/monero-core/pull/793#issuecomment-314477091  
 **\<moneromooo>** It's waiting on me making core tests for it, and cleaning up.  
 **\<moneromooo>** And the core tests are a massive pita.  
 **\<fluffypony>** moneromooo: ok cool  
@@ -172,7 +172,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<parasew>** will definitely start implementing tests, its in a way comforting :)  
 **\<fluffypony>** I wonder if we couldn't build a little web API that people could submit test results to  
 **\<i2p-relay> {-lightfighter}** fluffypony: i'd be happy to start working on test docs. is the GTest primer a good place to start?  
-**\<moneromooo>** https://github.com/monero-project/monero/issues ?  
+**\<moneromooo>** https://github.com/byterubpay/monero/issues ?  
 **\<vtnerd>** boost has some such framework, but I dont know much about it  
 **\<parasew>** on another note: in the current gui-release, the mining has issues -- other people also reported at monero meetup.  
 **\<vtnerd>** various members run machines on various processors / platforms  
@@ -181,7 +181,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<dEBRUYNE>** parasew: Already reported on monero-core github repository  
 **\<parasew>** fluffypony ofc, will pass that on.  
 **\<parasew>** dEBRUYNE which issue?  
-**\<dEBRUYNE>** https://github.com/monero-project/monero-core/issues/877  
+**\<dEBRUYNE>** https://github.com/byterubpay/monero-core/issues/877  
 **\<parasew>** dEBRUYNE ty, will also have a look!  
 **\<fluffypony>** let's give some thought to a reportable web API that can collate test results, we'll figure out a nice way of doing it  
 **\<hyc>** a web tool sounds like a great idea. I don't know of one at the moment.  
@@ -221,7 +221,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** so moving on  
 **\<fluffypony>** 5. Maintainer: migrating luigi1111 from backup maintainer to lead maintainer on GUI and site  
 **\<moneromooo>** Does he agree to ? :)  
-**\<fluffypony>** well, moneromooo, luigi1111 has gone full-time crypto since he's made millions from the Monero ICO  
+**\<fluffypony>** well, moneromooo, luigi1111 has gone full-time crypto since he's made millions from the ByteRub ICO  
 **\<dEBRUYNE>** No we forced him :P  
 **\<hyc>** lol  
 **\<fluffypony>** so he can merge from atop the mountain in his Lambo  
@@ -237,7 +237,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<hyc>** but that reminds me we need to move forward on deterministic builds  
 **\<fluffypony>** rehrar: pulling on the site is still manual in case the repo gets compromised  
 **\<rehrar>** Right.  
-**\<surae>** is this marking a fundamental shift in the power dynamics of Monero?  
+**\<surae>** is this marking a fundamental shift in the power dynamics of ByteRub?  
 **\<rehrar>** So will he do that manual task too, or is that still you?  
 **\<fluffypony>** which would be embarrassing, but not as embarrassing as the site being compromised via the repo  
 **\<fluffypony>** rehrar: still me, but it takes me ten seconds  
@@ -253,7 +253,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<scoobybejesus>** Mooo and other FFS to fund, perhaps  
 **\<hyc>** app store progress?  
 **\<serhack>** Ffs?  
-**\<fluffypony>** MyMonero Google account is ready  
+**\<fluffypony>** MyByteRub Google account is ready  
 **\<fluffypony>** waiting on our D-U-N-S number for Apple  
 **\<fluffypony>** or as endogenic joked, we're waiting on our DUNCE number  
 **\<serhack>** How many monero have we collected for ffs?  
@@ -296,7 +296,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<moneromooo>** I'm pretty sure it won't.  
 **\<Jaquee>** no i havent  
 **\<hyc>** it's worth checking. I also see responsiveness issues in current 0.11, monerod spawns too many threads during verification  
-**\<aerbax>** With regards to the MyMonero AppStore deployments.  If Google/Android is ready, are there any ongoing issues that would prevent a release?  
+**\<aerbax>** With regards to the MyByteRub AppStore deployments.  If Google/Android is ready, are there any ongoing issues that would prevent a release?  
 **\<dEBRUYNE>** I think they want to release all platforms in conjunction  
 **\<Jaquee>** are we using the same DUNS/account for monero apps?  
 **\<fluffypony>** Jaquee: no, completely separate one  
@@ -307,11 +307,11 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** parasew: yes, check previous meeting logs  
 **\<parasew>** fluffypony ok, will do :)  
 **\<msvb-lab>** What's the main reason for one mobile platform release to wait until others are ready?  
-**\<fluffypony>** Jaquee: we registered "Monero Distribution Company" as the name  
+**\<fluffypony>** Jaquee: we registered "ByteRub Distribution Company" as the name  
 **\<serhack>** Fluffypony: I have an android phone, can I test mymonero ? Can you send me an apk?  
-**\<fluffypony>** msvb-lab: on the Monero GUI side, nothing, we can push it into the Google Play store whenever  
+**\<fluffypony>** msvb-lab: on the ByteRub GUI side, nothing, we can push it into the Google Play store whenever  
 **\<moneromooo>** Are we done with the dev stuff ?  
-**\<fluffypony>** on the MyMonero side we're still busy adding some stuff  
+**\<fluffypony>** on the MyByteRub side we're still busy adding some stuff  
 **\<msvb-lab>** Additional meeting items: Might be worth mentioning that both mattermost.getmonero.org and taiga.getmonero.org are quite bad ans.  
 **\<fluffypony>** mostly porting stuff from the iOS app to the JS app  
 **\<hyc>** coming up to top of the hour  

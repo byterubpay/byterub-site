@@ -55,11 +55,11 @@ author: dEBRUYNE / fluffypony
 **\<saddam>** moneromooo: I want to decrypt it manually so I can detect transactions sent to an integrated address of mine in the tx pool. Is there another way to do it?  
 **\<fluffypony>** then next weekend I'll be at Bitcoin in Use in Arnhem, Netherlands  
 **\<moneromooo>** How will you know it's an integrated address of yours in the first place ?  
-**\<fluffypony>** and there will be several other Monero-er-ains there as well  
+**\<fluffypony>** and there will be several other ByteRub-er-ains there as well  
 **\<fluffypony>** including some devs, most notably hyc  
 **\<xmrpromotions>** a few ppl told me they want to meet you there:)  
 **\<saddam>** oh it's the meeting, sorry. I'll wait to discuss that later moneromooo  
-**\<fluffypony>** if anyone else is going to be there please let me know, we can do a Monero supper on the Saturday or something  
+**\<fluffypony>** if anyone else is going to be there please let me know, we can do a ByteRub supper on the Saturday or something  
 **\<fluffypony>** next up is a chat about documentation  
 **\<fluffypony>** wallet42 has raised the idea of opening up the wiki on Github  
 **\<xmrpromotions>** https://twitter.com/Falkvinge/status/731833882102910977 wants to meet you too  
@@ -72,12 +72,12 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** and the other downside is that we have tons of scattered documentation right now  
 **\<fluffypony>** so my thinking is that the wiki is a good idea for documentation, BUT then we need to kill off all these other sources of info  
 **\<dEBRUYNE>** ^ I don't mind putting part of it together  
-**\<fluffypony>** so the Monero wikia has to be shuttered and that info moved over  
+**\<fluffypony>** so the ByteRub wikia has to be shuttered and that info moved over  
 **\<ArticMine>** There is information all over BCT  
-**\<dEBRUYNE>** we could put the guides from Moneroexamples over there too, but he doesn't necessarily have to shutdown his "source" imo  
+**\<dEBRUYNE>** we could put the guides from ByteRubexamples over there too, but he doesn't necessarily have to shutdown his "source" imo  
 **\<fluffypony>** same goes for dev guides etc. on the website - we should instead spend the effort writing a small Ruby plugin for the site that pulls in info from the wiki and formats it appropriately  
 **\<fluffypony>** then the wiki becomes a primary source of info  
-**\<fluffypony>** dEBRUYNE: yeah we could do the same thing with MoneroExamples  
+**\<fluffypony>** dEBRUYNE: yeah we could do the same thing with ByteRubExamples  
 **\<fluffypony>** just have a plugin that grabs it from his repos and formats it  
 **\<fluffypony>** if anyone has an issue with this speak now or forever hold your peace  
 **\<i2p-relay>** {-anonimal} Such consolidation sounds like a good idea.  
@@ -101,7 +101,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** then one can develop a paper  
 **\<dEBRUYNE>** all right  
 **\<ArticMine>** Along the lined of my prior post on BCT regarding the adaptive block limit and penalty function. There are issues with respect to to many options in fees with RingCT  
-**\<dEBRUYNE>** Is anyone willing to work on adding Monero to Bitsquare? Afaik it's only a few minor tweaks in the UI code, see issue here -> https://github.com/bitsquare/bitsquare/issues/392 | I might be able to try if I got some more time, emphasis on try though  
+**\<dEBRUYNE>** Is anyone willing to work on adding ByteRub to Bitsquare? Afaik it's only a few minor tweaks in the UI code, see issue here -> https://github.com/bitsquare/bitsquare/issues/392 | I might be able to try if I got some more time, emphasis on try though  
 **\<fluffypony>** anonimal: thanks, lol  
 **\<moneromooo>** To th UI of... ?  
 **\<dEBRUYNE>** Bitsquare itself  

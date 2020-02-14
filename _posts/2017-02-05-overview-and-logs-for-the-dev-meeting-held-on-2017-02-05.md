@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-dev-meeting-note-highlights-and-transcript-2017-02-05).    
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-dev-meeting-note-highlights-and-transcript-2017-02-05).    
 
 ### Logs  
 
@@ -214,7 +214,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<moneromooo>** Yes. That's what I do when I fix a trivial thing in a PR of mine.  
 **\<Slack> [nanoakron]** That’s what I do with mine  
 **\<hyc>** and yes, I usually rebase my PRs on latest master  
-**\<fluffypony>** on the topic of Github, pigeons has a Gitlab mirror running on our (Monero's) hardware, so we're reasonably resilient to weirdness  
+**\<fluffypony>** on the topic of Github, pigeons has a Gitlab mirror running on our (ByteRub's) hardware, so we're reasonably resilient to weirdness  
 **\<moneromooo>** Not a recent one. I found one, but it's a very odd behavior on a single VM.  
 **\<moneromooo>** A mirror isn't really a good protection against this I think.  
 **\<fluffypony>** ok so new rule is that people submitting PRs should be asked to rebase + force-push if a merge commit exists in their PR  
@@ -300,7 +300,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<hyc>** nanoakron: use a longer delay before reusing old pages.  
 **\<DaveyJones>** if you got something to tell ^^  
 **\<Slack> [nanoakron]** @hyc Ok. At least there’s a potential way through it.  
-**\<i2p-relay> {-olark}** I opened an issue to start discussing alternatives to the ringsize increase in September 2017 that negates a lot of possible attack vectors on ring signatures and still ensure a 'true' strength of ringsize 4 at minimum for all transactions. It is here https://github.com/monero-project/monero/issues/1673 I think it requires serious consideration moving forward. I won't go too much into it and  
+**\<i2p-relay> {-olark}** I opened an issue to start discussing alternatives to the ringsize increase in September 2017 that negates a lot of possible attack vectors on ring signatures and still ensure a 'true' strength of ringsize 4 at minimum for all transactions. It is here https://github.com/byterubpay/monero/issues/1673 I think it requires serious consideration moving forward. I won't go too much into it and  
 **\<i2p-relay> {-olark}** just let everyone read the writeup :p  
 **\<Slack> [nanoakron]** @olark I’d like knaccc to contribute too with his modelling of churn  
 **\<Slack> [xmr-eric]** I like the idea of a static ringsize  
@@ -319,7 +319,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<hyc>** knaccc: cool, is that written anywhere?  
 **\<Slack> [nanoakron]** @xmr-eric and if you see bugs, please bring them up on github  
 **\<fluffypony>** ok anonimal the floor is yours  
-**\<Slack> [jollymort]** also, opened discussion on multiple PID / TX : ) https://github.com/monero-project/monero/issues/1659  
+**\<Slack> [jollymort]** also, opened discussion on multiple PID / TX : ) https://github.com/byterubpay/monero/issues/1659  
 **\<knaccc>** hyc only in my IRC logs. Summary is that the churn only works if you're churning with pure ringct trees, doesn't work if there are non-ringCT transactions mixed in  
 **\<hyc>** thx  
 **\<meeting-bot> [i2p-relay] {-anonimal}** I have 2 minutes to prepare  

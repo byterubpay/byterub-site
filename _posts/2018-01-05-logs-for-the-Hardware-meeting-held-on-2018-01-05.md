@@ -134,7 +134,7 @@ author: dEBRUYNE / fluffypony
 **\<luigi1111w>** aren't we the same person  
 **\<msvb-lab>** luigi1111w, yes you and the other luigi are the same person. Look in the mirror.  
 **\<sarang>** I always figured luigi1111 was some kind of secret society  
-**\<rehrar>** https://github.com/monero-project/meta/issues/136 is a good starting point  
+**\<rehrar>** https://github.com/byterubpay/meta/issues/136 is a good starting point  
 **\<i-a>** The wallet must be secure by design, please lets use secure elements only to enhance allready secure design.  
 **\<rehrar>** with the addition of changing the repo name to "Kastelo"  
 **\<rehrar>** alright, moving on.  
@@ -237,7 +237,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** It's useless for storing value.  
 **\<msvb-lab>** rehrar: Do you have comments or questions for revuo?  
 **\<rehrar>** I'm starting to block it out, so not yet.  
-**\<rehrar>** Last month was completely monopolized with multilingual implementations on Kovri and Monero websites  
+**\<rehrar>** Last month was completely monopolized with multilingual implementations on Kovri and ByteRub websites  
 **\<rehrar>** *cough* luigi1111w almost time to merge?  
 **\<rehrar>** I'll be back here in like two days though :P  
 **\<rehrar>** I wish I had questions for this meeting, but I'm sorry that I don't atm.  
@@ -266,13 +266,13 @@ author: dEBRUYNE / fluffypony
 **\<tat>** msvb-lab: i make about 3 a day, i work as a software developer in my day job.  
 **\<rehrar>** lesson = https://try.github.io/levels/1/challenges/1  
 **\<msvb-lab>** So if I want to make changes to the sekura/kastelo official repository, I first clone it to my own GitHub user account (I must be signed in to already.)  
-**\<msvb-lab>** https://github.com/monero-project/sekura/  
+**\<msvb-lab>** https://github.com/byterubpay/sekura/  
 **\<sebgus>** I'm here!  
 **\<msvb-lab>** I clone it in the usual way.  
 **\<msvb-lab>** Since I like the command line, for me this is:  
 **\<m2049r[m]>** i another question; qhats the status of the self-destruct idea?  
 **\<m2049r[m]>** have  
-**\<msvb-lab>** \$ git clone https://github.com/monero-project/sekura.git  
+**\<msvb-lab>** \$ git clone https://github.com/byterubpay/sekura.git  
 **\<msvb-lab>** cd sekura  
 **\<msvb-lab>** Now I make changes:  
 **\<msvb-lab>** \$ vim weirdolameness.txt  
@@ -286,7 +286,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** Now comes the specific part...  
 **\<rehrar>** I'm sure we'd be happy to lend a hand  
 **\<msvb-lab>** I navigate to the official repository:  
-**\<msvb-lab>** https://github.com/monero-project/sekura/  
+**\<msvb-lab>** https://github.com/byterubpay/sekura/  
 **\<msvb-lab>** and click next to 'Branch' on the left side the button 'New pull request.'  
 **\<msvb-lab>** That means, click the 'New pull request' button.  
 **\<msvb-lab>** Can somebody else explain the rest, I actually can't remember what follows.  
@@ -297,8 +297,8 @@ author: dEBRUYNE / fluffypony
 **\<tat>** The smaller a pull request the betterm usually one change at a time. It is easyer for people to review those changes.  
 **\<msvb-lab>** rehrar: Yes, let's close the door.  
 **\<msvb-lab>** Anyway, regarding PR, please read:  
-**\<msvb-lab>** https://github.com/monero-project/sekura/blob/master/CONTRIBUTING.md  
-**\<msvb-lab>** https://github.com/monero-project/sekura/blob/master/PULL_REQUEST_TEMPLATE.md  
+**\<msvb-lab>** https://github.com/byterubpay/sekura/blob/master/CONTRIBUTING.md  
+**\<msvb-lab>** https://github.com/byterubpay/sekura/blob/master/PULL_REQUEST_TEMPLATE.md  
 **\<rehrar>** I think it's about time to wrap up so we can move on in this little ordeal we call life  
 **\<rehrar>** Thanks for a fun, if not somewhat chaotic, hardware meeting  
 **\<msvb-lab>** Kerchunck. Gavel landed.  

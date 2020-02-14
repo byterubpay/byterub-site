@@ -11,7 +11,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<sgp\_1>** All right, meeting time  
 **\<sgp\_1>**  0. Introduction  
 **\<sgp\_1>**  We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_1>**  Link to agenda on GitHub: https://github.com/monero-project/meta/issues/271  
+**\<sgp\_1>**  Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/271  
 **\<sgp\_1>**  Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
 **\<sgp\_1>**  1. Greetings  
 **\<xmrmatterbridge> \<cryptochangements>** Hey everyone  
@@ -46,7 +46,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<el00ruobuob\_[m]>** i asked for feedback on github  
 **\<el00ruobuob\_[m]>** about monero-integrations integration to the user-guides  
 **\<el00ruobuob\_[m]>** any votes here are welcome  
-**\<el00ruobuob\_[m]>** https://github.com/monero-project/monero-site/issues/852  
+**\<el00ruobuob\_[m]>** https://github.com/byterubpay/monero-site/issues/852  
 **\<xmrmatterbridge> \<cryptochangements>** I vote 100% in favor  
 **\<midipoet>** has that Rasberry Pi code been community vetted?  
 **\<xmrmatterbridge> \<cryptochangements>** I'll comment on github, even if I may be a little biased lol  

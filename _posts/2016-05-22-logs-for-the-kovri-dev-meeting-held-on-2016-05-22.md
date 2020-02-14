@@ -11,13 +11,13 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** ok starting the meeting relay for the Kovri meeting  
 **\<meeting-bot> [anonimal]** Hello.  
 **\<fluffypony>** anonimal: all yours :)  
-**\<i2p-relay> {-anonimal}** From https://github.com/monero-project/kovri/issues/177  
+**\<i2p-relay> {-anonimal}** From https://github.com/byterubpay/kovri/issues/177  
 **\<i2p-relay> {-anonimal}** Proposed meeting items:  
 **\<i2p-relay> {-anonimal}** 17:00 (UTC)  
 **\<i2p-relay> {-anonimal}** 1. Review assigned open tickets: status, code ideas (if applicable), etc.  
 **\<i2p-relay> {-anonimal}** 2. Any additional meeting items  
 **\<i2p-relay> {-anonimal}** 3. Confirm next meeting date/time  
-**\<i2p-relay> {-anonimal}** Starting with 1., as discussed in private with fluffypony, let's tackle https://github.com/monero-project/kovri/issues/assigned/fluffypony  
+**\<i2p-relay> {-anonimal}** Starting with 1., as discussed in private with fluffypony, let's tackle https://github.com/byterubpay/kovri/issues/assigned/fluffypony  
 **\<fluffypony>** hokay - should we do them one at a time ?  
 **\<meeting-bot> [anonimal]** Sure, #105.  
 **\<fluffypony>** sec, just opening it up  
@@ -37,7 +37,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Is it something worth pursuing?  
 **\<ArticMine>** My initial instinct is yes  
 **\<fluffypony>** tbh I had hardly heard about GNU Social till you brought it up  
-**\<xmrpromotions>** Are there more details I can read about it? https://github.com/monero-project/kovri/issues/105  
+**\<xmrpromotions>** Are there more details I can read about it? https://github.com/byterubpay/kovri/issues/105  
 **\<fluffypony>** but I think in terms of providing a more freedom-friendly social presence it's advantageous  
 **\<fluffypony>** plus if we can spend the energy maintaining a Facebook page we can definitely justify this... :-P  
 **\<ArticMine>** Way better than a Facebook page  
@@ -55,7 +55,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** ok  
 **\<meeting-bot> [anonimal]** #46  
 **\<meeting-bot> [anonimal]** The Kovri website.  
-**\<fluffypony>** #46 - does anyone have any strong opinions on whether it should be a page on the Monero website, or a separate site that matches the Monero site's look and feel (maybe with different colours), or a completely unrelated site ?  
+**\<fluffypony>** #46 - does anyone have any strong opinions on whether it should be a page on the ByteRub website, or a separate site that matches the ByteRub site's look and feel (maybe with different colours), or a completely unrelated site ?  
 **\<fluffypony>** anonimal: and your input on this would be appreciated too  
 **\<fluffypony>** I think the relay is wonky  
 **\<meeting-bot> [anonimal]** What's the time-cost in terms of managing two sites?  
@@ -64,11 +64,11 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Can anyone read this?  
 **\<meeting-bot> [anonimal]** Ok, so could we start small with a page on the website, or maybe subdomain/ and if things get bigger move onto another site?  
 **\<fluffypony>** that would be my recommendation  
-**\<fluffypony>** we start with a sub-section on the Monero site  
+**\<fluffypony>** we start with a sub-section on the ByteRub site  
 **\<fluffypony>** and forward the kovri site through to it  
 **\<fluffypony>** if we feel the need later on we can create a separate site on its own  
 **\<meeting-bot> [anonimal]** Ok, sounds good to me. Anyone else?  
-**\<xmrpromotions>** Of the three options mentioned a separate site that matches the Monero site's look and feel may help draw a wider audience than a page on the Monero site while at the same time anyone who visits the Kovri page knows that Monero is associated with it  
+**\<xmrpromotions>** Of the three options mentioned a separate site that matches the ByteRub site's look and feel may help draw a wider audience than a page on the ByteRub site while at the same time anyone who visits the Kovri page knows that ByteRub is associated with it  
 **\<xmrpromotions>** It seems like a judgement call to me. Either plan sounds reasonable  
 **\<fluffypony>** restarting meeting bot  
 **\<fluffypony>** in fact, if you want to write up some content for me I'll do it on the plane on Tuesday  
@@ -76,7 +76,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** in fact, if I say in fact again I'll summon the in-fact-bot  
 **\<meeting-bot> [anonimal]** Ok, ideas for content? I can blabber but ideas are welcome.  
 **\<meeting-bot> [anonimal]** ping in-fact-bot  
-**\<xmrpromotions>** Any thoughts on creating a stackexchange proposal for I2P? Tor has a page now https://area51.stackexchange.com/proposals/56447/tor and we should be able to reach the commitment stage quickly with the same supporters behind the Monero proposal?  
+**\<xmrpromotions>** Any thoughts on creating a stackexchange proposal for I2P? Tor has a page now https://area51.stackexchange.com/proposals/56447/tor and we should be able to reach the commitment stage quickly with the same supporters behind the ByteRub proposal?  
 **\<fluffypony>** xmrpromotions: we'd have to run it past zzz, at the very least  
 **\<meeting-bot> [fluffypony]** zzz ^^  
 **\<xmrpromotions>** sorry for off topic idea. I can table it for later if appropriate  
@@ -86,11 +86,11 @@ author: dEBRUYNE / fluffypony
 **\<xmrpromotions>** I will take the initiative on that  
 **\<meeting-bot> [anonimal]** AFAICT all i2p-related dev (including Kovri) is in a bit of a dry spell so, priorities.  
 **\<meeting-bot> [anonimal]** I like the idea though.  
-**\<fluffypony>** anonimal: the advantage is that we can basically get everyone who's committed to the Monero proposal to also back an i2p proposal  
+**\<fluffypony>** anonimal: the advantage is that we can basically get everyone who's committed to the ByteRub proposal to also back an i2p proposal  
 **\<fluffypony>** but now is the time to do so  
 **\<fluffypony>** whilst everyone's excited  
 **\<meeting-bot> [anonimal]** Ok, so what's the next step?  
-**\<xmrpromotions>** If the I2P communty supports it. As fluffypony said now is the time as the synergy will help both I2P and Monero proposals pass faster for REP related reasons  
+**\<xmrpromotions>** If the I2P communty supports it. As fluffypony said now is the time as the synergy will help both I2P and ByteRub proposals pass faster for REP related reasons  
 **\<fluffypony>** so basically next step on the website is let's get a bit of content and I'll put it together on the plane on Tuesday  
 **\<fluffypony>** next step on the StackExchange proposal is to wait for feedback from zzz  
 **\<xmrpromotions>** sounds good. I wont act until I hear confirmation that zzz is ready to proceed  
@@ -104,8 +104,8 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** or no steps beyond pulling it and rebuilding the Jekyll site  
 **\<meeting-bot> [anonimal]** Ok great, I'll paste a note in ticket.  
 **\<meeting-bot> [anonimal]** Moving on, #43.  
-**\<fluffypony>** ok - can we just use the Monero addresses, or do we want separate addresses?  
-**\<meeting-bot> [anonimal]** I'm fine with Monero addresses.  
+**\<fluffypony>** ok - can we just use the ByteRub addresses, or do we want separate addresses?  
+**\<meeting-bot> [anonimal]** I'm fine with ByteRub addresses.  
 **\<fluffypony>** ok then they're avialable here, anonimal: http://donate.getmonero.org  
 **\<fluffypony>** *available  
 **\<meeting-bot> [anonimal]** Ok. Also, I can apply for FFS when needed or include my address somewhere or we can simply put a note in README to donate to either. Sound fair?  

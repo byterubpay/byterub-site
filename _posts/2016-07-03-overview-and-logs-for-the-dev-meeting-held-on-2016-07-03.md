@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview (by Aerbax)
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-07-03)
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-07-03)
 
 ### Logs
 
@@ -23,11 +23,11 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<fluffypony>** first things first, small administrative update  
 **\<fluffypony>** we've re-applied for funding from the OTF, but for Kovri (given their previous response)  
 **\<fluffypony>** it's the start of the process, but who knows, maybe we have a bit of funding to work on both   
-**\<fluffypony>** as Monero represents an example integration   
+**\<fluffypony>** as ByteRub represents an example integration   
 **\<fluffypony>** then the open issues are creeping up, there are a bunch I'm going to be closing as solved  
 **\<fluffypony>** #754 is an interesting onw  
 **\<fluffypony>** *one  
-**\<fluffypony>** https://github.com/monero-project/bitmonero/issues/754  
+**\<fluffypony>** https://github.com/byterubpay/bitmonero/issues/754  
 **\<moneromooo>** We don't care now, since rct.  
 **\<fluffypony>** good point  
 **\<fluffypony>** ok so then it can be closed as wontfix  
@@ -44,8 +44,8 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<hyc>** what renames?  
 **\<moneromooo>** I don't think this would conflict much, if at all.  
 **\<gingeropolous>** bitmonerod --> monero and stuff like that prolly  
-**\<fluffypony>** hyc: https://github.com/monero-project/bitmonero/issues/80  
-**\<fluffypony>** this in particular: https://github.com/monero-project/bitmonero/issues/80#issuecomment-223596750  
+**\<fluffypony>** hyc: https://github.com/byterubpay/bitmonero/issues/80  
+**\<fluffypony>** this in particular: https://github.com/byterubpay/bitmonero/issues/80#issuecomment-223596750  
 **\<hyc>** ah  
 **\<fluffypony>** moneromooo: do you want me to PR changes to your branch then? will save you a rebase?  
 **\<moneromooo>** Sure.  

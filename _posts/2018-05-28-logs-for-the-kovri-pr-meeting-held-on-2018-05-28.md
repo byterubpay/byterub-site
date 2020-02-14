@@ -444,4 +444,4 @@ author: selsta / anonimal
 **\<anonimal>** Cool, thanks selsta. Will you PR to monero-site do the logging?  
 **\<selsta>** i can PR this meeting, haven’t had time for the old ones  
 **\<anonimal>** Awesome  
-**\<anonimal>** Thanks everyone. Next PR meeting on June 7th, same time. https://github.com/monero-project/meta/issues/203  
+**\<anonimal>** Thanks everyone. Next PR meeting on June 7th, same time. https://github.com/byterubpay/meta/issues/203  

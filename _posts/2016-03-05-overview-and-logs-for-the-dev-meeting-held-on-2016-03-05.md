@@ -12,7 +12,7 @@ Open pull requests mostly just DB stuff by warptangent and hyc, and will be merg
 
 Fees are fine. Too soon for adjustment. Talk of "magic number automation" - fees will autoadjust one day! ArcticMine takes on researching / developing a proposal for automatically adjusting fees.
 
-Dev Branch - the buck stops here. Moneromoo is waiting for 0.9.2 to be tagged "so that no new patches go there". So once we have 0.9.2, dev branch goes upstream (to master).
+Dev Branch - the buck stops here. ByteRubmoo is waiting for 0.9.2 to be tagged "so that no new patches go there". So once we have 0.9.2, dev branch goes upstream (to master).
 
 We need a library that plays well with HTTPS and support authentication and is compatible with our license.
 

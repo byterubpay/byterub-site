@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2017-08-13
-summary: Monero Meetups, Serhack's web integrations, PoW discussion, eSport sponsoring, and miscellaneous
+summary: ByteRub Meetups, Serhack's web integrations, PoW discussion, eSport sponsoring, and miscellaneous
 tags: [community]
 author: dEBRUYNE / fluffypony
 ---
@@ -10,10 +10,10 @@ author: dEBRUYNE / fluffypony
 
 **\<sgp>** Meeting is starting  
 **\<sgp>** 0. Introduction  
-**\<sgp>** We would like to welcome everyone to this Monero Community Meeting  
+**\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting  
 **\<cryptochangement>** hello all  
-**\<sgp>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/105  
-**\<sgp>** Monero Community meetings intend to be a discussion place for anything going on in the Monero Community. We plan to use this meeting and future meetings to encourage the community to share ideas and provide support.  
+**\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/105  
+**\<sgp>** ByteRub Community meetings intend to be a discussion place for anything going on in the ByteRub Community. We plan to use this meeting and future meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
 **\<serhack>** hello  
 **\<rehrar>** Yo yo  
@@ -40,7 +40,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** About development  
 **\<serhack>** - Implemented a verifying payment script - Implemented the 70% of Woocommerce extension (missing: translations, some improvements on User Interface and User Experience) - Implemented the 40% of Prestashop plugin (missing: translations, User interface, solid backend) Until september I will complete the 90% two plugins (probably missing: translations by community)  
 **\<serhack>** Business part: - I've tried to contact Automattic, company of Woocommerce, and I've asked them if they were able to put our integrations under "Trusted extension" list. They answered me after two days: "Hello [..], currently our market is closed [..]". No way, I think they have special contracts with company like paypal and strype :( - I'm trying to submit the Woocommerce Payment Gateway to Wordpress.org list , I have to improve my librar  
-because I discovered that cURL is very very slow with wordpress. - I will try to sell the integrations on markets like Codecanyon by Envato. Please pay attention: I won't sell "plugins", but I will sell "Business support" in order to support other sub-projects by community (like Monero mobile wallet) - There is an option that will increase payments by Monero: every user that will pay by XMR will receive a discount on e-shop of merchant. Merchant ca  
+because I discovered that cURL is very very slow with wordpress. - I will try to sell the integrations on markets like Codecanyon by Envato. Please pay attention: I won't sell "plugins", but I will sell "Business support" in order to support other sub-projects by community (like ByteRub mobile wallet) - There is an option that will increase payments by ByteRub: every user that will pay by XMR will receive a discount on e-shop of merchant. Merchant ca  
 select if he/she wants to incentivate monero as payment.  
 **\<serhack>** this is the huge text that I wrote yesterday  
 **\<serhack>** what do you think? I can show you some screenshots  
@@ -68,7 +68,7 @@ select if he/she wants to incentivate monero as payment.
 **\<serhack>** that will explain why monero should be use for business  
 **\<cryptochangement>** great!  
 **\<sgp>** 4. What to name the Q3 release (#2265)  
-**\<sgp>** The time is almost up to decide the name for the release for the upcoming fork next month! https://github.com/monero-project/monero/issues/2265  
+**\<sgp>** The time is almost up to decide the name for the release for the upcoming fork next month! https://github.com/byterubpay/monero/issues/2265  
 **\<serhack>** nice point sgp  
 **\<sgp>** Please comment on GitHub with your ideas. It seems like “Helium Hydra” has reached rough consensus, so make the to say whether you agree or disagree before it’s too late!  
 **\<serhack>** I think it's important  
@@ -78,11 +78,11 @@ select if he/she wants to incentivate monero as payment.
 **\<sgp>** Agreed :)  
 **\<sgp>** Anyway, if you have a better one, head to GitHub and let people know  
 **\<sgp>** 5. Community highlights  
-**\<sgp>** In this new segment, I would like to thank the efforts by Monero community members that have gone above and beyond. While this can include development, I want to make sure to cover some of the other things happening in the community that may have gone under the radar.  
-**\<sgp>** Over the past month, I have noticed a significant increase in the number of posts showing Monero in a positive light in /r/CryptoCurrency. Examples include the following: https://www.reddit.com/r/CryptoCurrency/comments/6oir0o , https://www.reddit.com/r/CryptoCurrency/comments/6rcr1d , https://www.reddit.com/r/CryptoCurrency/comments/6svt4u , https://www.reddit.com/r/CryptoCurrency/comments/6rnlag  
-**\<sgp>** I would like to especially thank /u/xmronadaily, /u/afighttilldeath, /u/denk0815, and /u/lethos3 for stirring up the conversation there. Of course, countless other Monero community members hang out in /r/CryptoCurrency and have contributed in all of the linked comment threads, but these users specifically have gone above and beyond to build the Monero community.  
+**\<sgp>** In this new segment, I would like to thank the efforts by ByteRub community members that have gone above and beyond. While this can include development, I want to make sure to cover some of the other things happening in the community that may have gone under the radar.  
+**\<sgp>** Over the past month, I have noticed a significant increase in the number of posts showing ByteRub in a positive light in /r/CryptoCurrency. Examples include the following: https://www.reddit.com/r/CryptoCurrency/comments/6oir0o , https://www.reddit.com/r/CryptoCurrency/comments/6rcr1d , https://www.reddit.com/r/CryptoCurrency/comments/6svt4u , https://www.reddit.com/r/CryptoCurrency/comments/6rnlag  
+**\<sgp>** I would like to especially thank /u/xmronadaily, /u/afighttilldeath, /u/denk0815, and /u/lethos3 for stirring up the conversation there. Of course, countless other ByteRub community members hang out in /r/CryptoCurrency and have contributed in all of the linked comment threads, but these users specifically have gone above and beyond to build the ByteRub community.  
 **\<sgp>** Of course, dEBRUYNE overachieved by adding labels to everything on GitHub.  
-**\<sgp>** Thanks to /u/Riiume for starting the first weekly Monero “Tracking” Challenge! To those who are up for a (hopefully impossible) challenge, make sure to check it out! There is a sizable monetary reward associated with it: http://www.monerotrackingchallenge.com/  
+**\<sgp>** Thanks to /u/Riiume for starting the first weekly ByteRub “Tracking” Challenge! To those who are up for a (hopefully impossible) challenge, make sure to check it out! There is a sizable monetary reward associated with it: http://www.monerotrackingchallenge.com/  
 **\<dEBRUYNE>** I haven't gone through all of them yet :)  
 **\<sgp>** There are only 1 or 2 days left!  
 **\<sgp>** Ok, @dEBRUYNE, quite a few things  
@@ -90,8 +90,8 @@ select if he/she wants to incentivate monero as payment.
 **\<JollyMort[m]>** tracking challenge is good marketing considering it's impossible to determine the address :D  
 **\<dEBRUYNE>** If anyone has recommendations on which one to add to a particular issue, please PM me  
 **\<sgp>** @jollymort fingers crossed  
-**\<sgp>** /u/digitaltreegames has posted several accurate articles about Monero on their website and has maintained strong and positive communication with the Monero community. See the two articles about Monero here: http://thecryptotrading.com/quick-beginners-guide-to-monero-xmr/ , http://thecryptotrading.com/monero-news-august-2017/  
-**\<sgp>** /u/zhizhongzhiwai has been working hard without donations to build the Monero Chinese community from scratch. He has updated the community through every part of the process. Monero needs local experts in different parts of the world to step up and build these communities.  
+**\<sgp>** /u/digitaltreegames has posted several accurate articles about ByteRub on their website and has maintained strong and positive communication with the ByteRub community. See the two articles about ByteRub here: http://thecryptotrading.com/quick-beginners-guide-to-monero-xmr/ , http://thecryptotrading.com/monero-news-august-2017/  
+**\<sgp>** /u/zhizhongzhiwai has been working hard without donations to build the ByteRub Chinese community from scratch. He has updated the community through every part of the process. ByteRub needs local experts in different parts of the world to step up and build these communities.  
 **\<moneromooo>** I'm not sure whether that's known or not, but... There's a neverending stream of snake oil in cryptography. Companies peddling shit "patented", "military grade" cryptosystems that are plain crap. A common gimmick is to issue a competition to break those, and, invariably, nobody bothers spending the time to do so.  
 **\<4matter>** it would be great if he hosted a monero meetup in china too  
 **\<4matter>** i PM'd him on reddit...but no response...so if anyone talks to him, mention it  
@@ -107,14 +107,14 @@ select if he/she wants to incentivate monero as payment.
 **\<sgp>** @4matter yes :)  
 **\<sgp>** Thanks everyone  
 **\<sgp>** 6. Proof of Work discussion  
-**\<sgp>** I do not want to take much public comment here, but there is a very important issue on GitHub. The discussion will determine what to do with Monero’s Proof of Work. Monero uses the CryptoNight PoW algorithm, and some people have suggested switching to a different algorithm as soon as possible while potential conflicts are smaller. Please join this discussion if you are interested: https://github.com/monero-project/research-lab/issues/12  
+**\<sgp>** I do not want to take much public comment here, but there is a very important issue on GitHub. The discussion will determine what to do with ByteRub’s Proof of Work. ByteRub uses the CryptoNight PoW algorithm, and some people have suggested switching to a different algorithm as soon as possible while potential conflicts are smaller. Please join this discussion if you are interested: https://github.com/byterubpay/research-lab/issues/12  
 **\<serhack>** S-G-P  
 **\<ArticMine>** I second that  
-**\<sgp>** This comment in particular gives the high-level options available https://github.com/monero-project/research-lab/issues/12#issuecomment-320586397  
+**\<sgp>** This comment in particular gives the high-level options available https://github.com/byterubpay/research-lab/issues/12#issuecomment-320586397  
 **\<sgp>** Super serious stuff here, so please review the info, even if you only understand some parts of it  
 **\<sgp>** 7. Overwatch sponsorship discussion  
-**\<sgp>** @4matter has contacted someone who is interested in possibly being sponsored by Monero. @4matter, the floor is yours to discuss this development :)  
-**\<sgp>** \*by the Monero community  
+**\<sgp>** @4matter has contacted someone who is interested in possibly being sponsored by ByteRub. @4matter, the floor is yours to discuss this development :)  
+**\<sgp>** \*by the ByteRub community  
 **\<4matter>** great...thanks...rehrar is here too  
 **\<sgp>** Not from the core team :)  
 **\<rehrar>** Oh, I think I'm supposed to soak here. :P  
@@ -138,11 +138,11 @@ select if he/she wants to incentivate monero as payment.
 **\<sn0wmonster>** i highly recommend not clowning around with casuals in casual environments. whatever they need to know, they already know because of bitcoin,  
 **\<rehrar>** One if the things that can be discussed here. :)  
 **\<sgp>** @sn0wmonster what channels do you feel are proper?  
-**\<sn0wmonster>** and any hateful ignorant opinions they have, they will think worse of Monero (because terrorism!)  
+**\<sn0wmonster>** and any hateful ignorant opinions they have, they will think worse of ByteRub (because terrorism!)  
 **\<sn0wmonster>** sgp, frankly, it's already being used in the proper communities  
 **\<sn0wmonster>** it just needs to grow organically  
 **\<4matter>** thoughtful input, sn0wmonster  
-**\<serhack>** I can confirm that there is a sort of terrorism about Monero  
+**\<serhack>** I can confirm that there is a sort of terrorism about ByteRub  
 **\<4matter>** ok back on topic...  
 **\<rehrar>** Does anybody have any other initial thoughts about the initiative?  
 **\<rehrar>** Before I continue?  
@@ -150,9 +150,9 @@ select if he/she wants to incentivate monero as payment.
 **\<moneromax>** and how do we propose to measure ROI?  
 **\<4matter>** 30 million people play Overwatch  
 **\<4matter>** approx.  
-**\<cryptochangement>** I personally think that the pro-gaming community has a lot of people that would be interested in BTC/Monero so if we are going to do a sponsorship, this would actually be a pretty good audience  
+**\<cryptochangement>** I personally think that the pro-gaming community has a lot of people that would be interested in BTC/ByteRub so if we are going to do a sponsorship, this would actually be a pretty good audience  
 **\<sn0wmonster>** for 9 years i've wqatched bitcoiners embarrass themselves with sponsorships, advertisements, and in the end, NEWS was the only real seller.  
-**\<sn0wmonster>** If you want to promote Monero, start thinking like stock traders  
+**\<sn0wmonster>** If you want to promote ByteRub, start thinking like stock traders  
 **\<sn0wmonster>** contact the news outlets and give them interviews  
 **\<sn0wmonster>** tell them stories, give them exclusives  
 **\<ffnopeg>** how big/small is Overwatch compared to Dota or LoL? I guess those other cannot be sponsored by monero  
@@ -180,7 +180,7 @@ select if he/she wants to incentivate monero as payment.
 **\<moneromax>** I think the main danger may be "promotion fatigue", where people get tired of throwing money at stuff with no measurable ROI.  
 **\<4matter>** how would you measure ROI then moneromax  
 **\<DaveyJones>** also sn0wmonster is right ... you can be sure 99,9 % of all real PRO players are already covered  
-**\<rehrar>** Good discussion btw. :) Although it goes back to the tired conversation of whether Monero should market or not.  
+**\<rehrar>** Good discussion btw. :) Although it goes back to the tired conversation of whether ByteRub should market or not.  
 **\<4matter>** DJ, 30 million eyeballs is not small  
 **\<moneromooo>** 60  
 **\<moneromax>** I don't claim to be an ROI-measuring genius, but there are specialists in that.  
@@ -188,7 +188,7 @@ select if he/she wants to incentivate monero as payment.
 **\<rehrar>** Can I take the floor again?  
 **\<rehrar>** Thanks  
 **\<4matter>** sorry  
-**\<sn0wmonster>** Monero is not a product, you don't market it like one  
+**\<sn0wmonster>** ByteRub is not a product, you don't market it like one  
 **\<DaveyJones>** sure but sponsoring the nascar car that only drives in the back ... its not worth it besides the jerking off ... see dogecoin  
 **\<4matter>** ok give rehrar the floor  
 **\<rehrar>** Here's the thing. I think the community should decide. It doesn't hurt to bring the proposal to the community and see the response. This is only a small subset of the community.  
@@ -207,7 +207,7 @@ select if he/she wants to incentivate monero as payment.
 **\<rehrar>** Ooooh DaveyJones that's a cool idea.  
 **\<4matter>** how are you sure sgp?  
 **\<pigeons>** maybe someone wants to start an esports league that takes or pays monero, thats cool for someone to do, but "the monero community" sponsoring something, yuk  
-**\<rehrar>** The Monero Community is not a brand that has certain standards. It's a lot of people that all have different opinions.  
+**\<rehrar>** The ByteRub Community is not a brand that has certain standards. It's a lot of people that all have different opinions.  
 **\<4matter>** ok so the owner of this Overwatch team we are considering ALSO is invested in http://corp.skillz.com  
 **\<sgp>** I suppose I'm hopeful. Do you have an idea what you should do before we bring this up again? When is the deadline?  
 **\<ArticMine>** We need to stay away from any formal sponsorships that are "official"  
@@ -215,11 +215,11 @@ select if he/she wants to incentivate monero as payment.
 **\<ArticMine>** Money by is very nature needs to be neutral  
 **\<cryptochangement>** rehrar the onyl problem i see with the "lets just give it a go" idea is that it seems like a lot of people feel obligated to support FFSs because they cant help on github. its good to see support byut we dont want people blindely throwing their money at this  
 **\<4matter>** why articmine? lol  
-**\<Link>** I think promoting Monero to communities that are most likely to benefit Monero would be the smartest approach. e.g. techies, libertarians, privacy advocates, etc.  
+**\<Link>** I think promoting ByteRub to communities that are most likely to benefit ByteRub would be the smartest approach. e.g. techies, libertarians, privacy advocates, etc.  
 **\<rehrar>** That's another thing. This probably will not be handled by FFS.  
 **\<rehrar>** I mean, it could for sure.  
 **\<Link>** Promoting through e-sports might be useful, but probably not the best return for the money invested  
-**\<ArticMine>** ... because I may want to use Monero on the competitive network  
+**\<ArticMine>** ... because I may want to use ByteRub on the competitive network  
 **\<rehrar>** But this isn't typically what FFS is used for.  
 **\<4matter>** so the 8btc had a great ROI?  
 **\<4matter>** LMAO  
@@ -264,7 +264,7 @@ select if he/she wants to incentivate monero as payment.
 **\<cryptochangement>** moooving on...  
 **\<sgp>** 8. Open ideas time (but not 8btc, Overwatch, and FFS)  
 **\<sgp>** It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
-**\<sn0wmonster>** **\<rehrar>** The Monero Community is not a brand that has certain standards. It's a lot of people that all have different opinions.  
+**\<sn0wmonster>** **\<rehrar>** The ByteRub Community is not a brand that has certain standards. It's a lot of people that all have different opinions.  
 **\<sgp>** Any other ideas from how to better the community?  
 **\<moneromax>** I was going to just PM a few folks about this, but...  
 **\<sn0wmonster>** and yet its using the official #monero registered project namespace for a meeting?  
@@ -273,10 +273,10 @@ select if he/she wants to incentivate monero as payment.
 **\<JollyMort[m]>** as if nothing happens unless someone funds it  
 **\<JollyMort[m]>** offering money for anything can only bring in some actors to sucker the money away from the communitiy  
 **\<sgp>** @keledoro followed up with me about his idea to contact some people, and we are working together on this. I will respond to him tomorrow  
-**\<moneromax>** there was a recent topic by /u/ViolentlyPeaceful regarding a Monero Marketing hub.  
+**\<moneromax>** there was a recent topic by /u/ViolentlyPeaceful regarding a ByteRub Marketing hub.  
 **\<serhack>** +1  
-**\<sn0wmonster>** my opinion is that bitcoin succeeded because the banks understand it. Monero needs exposure, not advertising. there's a difference.  
-**\<serhack>** We should have a Monero marketing hub  
+**\<sn0wmonster>** my opinion is that bitcoin succeeded because the banks understand it. ByteRub needs exposure, not advertising. there's a difference.  
+**\<serhack>** We should have a ByteRub marketing hub  
 **\<cryptochangement>** JollyMort[m] most people on reddit aren't developers so a lot of them see it as their only option to contribute, even if that isnt necissarily true  
 **\<pero>** can anyone pastebin the log for me please?  
 **\<sn0wmonster>** get exchanges to start using it (there are several already), make youtube videos explaining the difference between bitcoin and monero, focusing on the defacto-privacy model  
@@ -285,7 +285,7 @@ select if he/she wants to incentivate monero as payment.
 **\<pigeons>** and promote those things  
 **\<JollyMort[m]>** sure, but if you give the impression you want to throw money...  
 **\<pigeons>** not monero  
-**\<sgp>** Imo, we need to be cautious of marketing, but I don't think all marketing is bad. At the end of the day, none of you can stop me from advertising Monero on TV :p  
+**\<sgp>** Imo, we need to be cautious of marketing, but I don't think all marketing is bad. At the end of the day, none of you can stop me from advertising ByteRub on TV :p  
 **\<sn0wmonster>** use keywords that attract anarchocapitalists, preppers, anti-gov, libertarians, etc  
 **\<moneromax>** I think Discourse is much nicer forum software than Reddit or forum.getmonero.org.  
 **\<cryptochangement>** anybody got a "Don't buy monero" sign for sgp??  
@@ -307,8 +307,8 @@ select if he/she wants to incentivate monero as payment.
 **\<pero>** can anyone pastebin the log for me please?  
 **\<serhack>** yes sn0wmonster  
 **\<pero>** got it thx  
-**\<sn0wmonster>** anyway, who has contacted exchanges about getting Monero added?  
-**\<sn0wmonster>** and what exchanges did they contact? is Monero a registered company that does that sort of thing or is it relying on the community to do it?  
+**\<sn0wmonster>** anyway, who has contacted exchanges about getting ByteRub added?  
+**\<sn0wmonster>** and what exchanges did they contact? is ByteRub a registered company that does that sort of thing or is it relying on the community to do it?  
 **\<sn0wmonster>** is this something fluffypony tends to handle?  
 **\<pigeons>** no  
 **\<sgp>** @sn0wmonster contacting more local news is something that should be prioritized. We need more resources explaining how to do this effectively  
@@ -320,9 +320,9 @@ select if he/she wants to incentivate monero as payment.
 **\<moneromooo>** pigeons has a point.  
 **\<serhack>** cryptocurrency in italy is like a "mysterious world"  
 **\<JollyMort[m]>** and for the PoW discussion, it's mostly concern trolling and some 3-day accounts in that discussion  
-**\<moneromax>** As much as I hate all the pontificating I hear elsewhere about "governance", herding Monero cats is super hard.  
+**\<moneromax>** As much as I hate all the pontificating I hear elsewhere about "governance", herding ByteRub cats is super hard.  
 **\<sgp>** I think university newspapers are the low-hanging fruit that are more open to ideas like this  
-**\<sn0wmonster>** sgp: agreed. i already write copy for the #Neo900 project and my own #taskhive (decentralized p2p freelancer marketplace application i will be using Monero as the default payment method for), i don't mind helping to write poignant copy for Monero to exchanges and news outlets  
+**\<sn0wmonster>** sgp: agreed. i already write copy for the #Neo900 project and my own #taskhive (decentralized p2p freelancer marketplace application i will be using ByteRub as the default payment method for), i don't mind helping to write poignant copy for ByteRub to exchanges and news outlets  
 **\<sn0wmonster>** serhack, crypto in peru is nonexistent. Paypal is only now making the move from "obvious scam because not physical cash" to "okay maybe i can us eit for only $1 at a time"  
 **\<cryptochangement>** sgp university newspapers is genious!  
 **\<sn0wmonster>** there is no point in focusing marketing crypto to second-world, third-world or closed-minded countries.  
@@ -339,10 +339,10 @@ select if he/she wants to incentivate monero as payment.
 **\<JollyMort[m]>** then they can become leaders  
 **\<sgp>** Maybe I can talk to the BEN members about their successes with that  
 **\<JollyMort[m]>** and so on  
-**\<sn0wmonster>** Monero is not bitcoin, that is it's greatest strength  
+**\<sn0wmonster>** ByteRub is not bitcoin, that is it's greatest strength  
 **\<JollyMort[m]>** sheeple will be the last  
 **\<DaveyJones>** sth like "paid" stories but those stories are about the benefits only no selling  
-**\<sn0wmonster>** when people ask "what about \_\_\_\_?", the answer is "Monero is not bitcoin".  
+**\<sn0wmonster>** when people ask "what about \_\_\_\_?", the answer is "ByteRub is not bitcoin".  
 **\<JollyMort[m]>** you don't market to sheeple, you market to shepards :)  
 **\<sn0wmonster>** you market to wolves actually, the shephards just learn it because they have to be ahead of the wolves  
 **\<JollyMort[m]>** cryptonaire- did some impact with paid PR from his pocket  
@@ -352,23 +352,23 @@ select if he/she wants to incentivate monero as payment.
 **\<sn0wmonster>** lead by example and be proud, not shaky and greedy like a crack addict  
 **\<sgp>** 5 more minutes. Make your final thoughts heard!  
 **\<moneromax>** hey, another slogan idea:  "free money!" (as in freedom)  
-**\<sn0wmonster>** there is zero excuse for a "sponsorship of events" other than a money grab. if you want the world using Monero, tell the world, don't 'sell it'  
+**\<sn0wmonster>** there is zero excuse for a "sponsorship of events" other than a money grab. if you want the world using ByteRub, tell the world, don't 'sell it'  
 **\<sn0wmonster>** it is the only lightweight private coin  
 **\<serhack>** this is a great meeting :)  
-**\<sn0wmonster>** everything else is a ton of overhead (zcash?????), an unproven and unconventional fork, and no where near as slick as Monero  
-**\<sn0wmonster>** Monero attracted me because of open transactions  
+**\<sn0wmonster>** everything else is a ton of overhead (zcash?????), an unproven and unconventional fork, and no where near as slick as ByteRub  
+**\<sn0wmonster>** ByteRub attracted me because of open transactions  
 **\<sgp>** I used the slogan "Safe money for everyone" in the final copy of my presentation (which you should definitely check out!)  
 **\<sn0wmonster>** when you have people who understand accounting making accounting currency software, that's a blessing  
-**\<ProkhorZ>** @sgp Gideon Gallasch from the Blockchainhotel in Essen asked me if Monero wanted to sponsor his conference.  
+**\<ProkhorZ>** @sgp Gideon Gallasch from the Blockchainhotel in Essen asked me if ByteRub wanted to sponsor his conference.  
 **\<sn0wmonster>** it's an additional blessing that they appreciate class  
 **\<sn0wmonster>** don't ruin it people  
 **\<cryptochangement>** sn0wmonster the only problem with that is, sadly not all that many people know about cryptocurrencies. If you just think about yourself as better than everyone else who is "ignorant" because they are uninformed you will have a real problem. I can say with confidence that i only know maybe 4 people at most who have heard about "that bitcoin thing", which is why people need to be e  
 **\<sgp>** @ProkhorZ wow. Really?  
 **\<cryptochangement>** ducated as the word spreads  
 **\<ProkhorZ>** I dont know whether that would be worth it  
-**\<moneromax>** funny how everyone is asking Monero for money, rather than offering to donate.  
+**\<moneromax>** funny how everyone is asking ByteRub for money, rather than offering to donate.  
 **\<JollyMort[m]>** cryptochangement thing is those "ignorant" people follow some other more influential people  
-**\<sn0wmonster>** cryptochangement, so educate them. what is Monero's logo on a car going to do?  
+**\<sn0wmonster>** cryptochangement, so educate them. what is ByteRub's logo on a car going to do?  
 **\<sgp>** The conference costs several hundred for each seat. They need more money?  
 **\<JollyMort[m]>** you don't want to waste energy  
 **\<JollyMort[m]>** so focus on trend-setters  
@@ -395,5 +395,5 @@ select if he/she wants to incentivate monero as payment.
 **\<cryptochangement>** sgp sounds good to me!  
 **\<sgp>** We will evaluate whether this is a good decision in a few weeks  
 **\<sgp>** 10. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and monero-community. Take care, and know that change starts with YOU.  
 **\<sgp>** Good discussions all around  

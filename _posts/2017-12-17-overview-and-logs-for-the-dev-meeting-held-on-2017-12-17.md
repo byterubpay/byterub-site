@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-12-17).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-12-17).  
 
 # Logs  
 
@@ -257,7 +257,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rbrunner>** March: Only with BP live on mainnet you would ever get bright and bad people interested to break something  
 **\<suraeNoether>** i have the reversed preference as fluffypony, plus i would like the authors to review the implementation in either case  
 **\<suraeNoether>** i think sarang has the same preference as fluffypony though  
-**\<vtnerd>** uh, so before meeting adjourns I'd like to prod https://github.com/monero-project/supercop/pull/1  
+**\<vtnerd>** uh, so before meeting adjourns I'd like to prod https://github.com/byterubpay/supercop/pull/1  
 **\<moneromooo>** What we'd need is for people who may review it to tell is now when they would, and how much time they'd need... Not gonna happen most likely.  
 **\<vtnerd>** unedited supercop code is all that is now  
 **\<luigi1111w>** cool  
@@ -285,7 +285,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** next meeting would be Dec 31  
 **\<fluffypony>** but I don't think anyone wants that  
 **\<fluffypony>** so push out to Jan 14?  
-**\<rehrar>** Monero New Year party?  
+**\<rehrar>** ByteRub New Year party?  
 **\<msvb-mob>** If we do one week later, we synced again with community meetings.  
 **\<luigi1111w>** is that what we want?  
 **\<luigi1111w>** ok with both  

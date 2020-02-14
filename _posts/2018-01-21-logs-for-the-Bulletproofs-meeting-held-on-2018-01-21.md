@@ -9,7 +9,7 @@ author: dEBRUYNE / fluffypony
 # Logs  
 
 **\<rehrar>** heyo everyone! Meeting time.  
-**\<rehrar>** https://github.com/monero-project/meta/issues/161  
+**\<rehrar>** https://github.com/byterubpay/meta/issues/161  
 **\<rbrunner>** Hi, was already afraid nobody around or wrong time :)  
 **\<rehrar>** this meeting is all about Bulletproofs, and discussing when/how, audit stuff, finance stuff, and more  
 **\<rehrar>** fluffypony smooth ArticMine luigi1111 luigi1111w hyc (said he can't be here though) moneromooo gingeropolous endogenic anonimal  
@@ -139,7 +139,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** And we can't say who did the review. They can do a more public audit but they said it'd be a lot more $ and time  
 **\<dEBRUYNE>** assuming we have infinite funding available \<= not infinite, but if the community can raise 450k $ for globee, I am sure we can raise a few hunderd k $ for this too  
 **\<sarang>** Again, I'm working with them and their lawyers to get as much public as possible  
-**\<rehrar>** And it gives 'poking power' to naysayers of Monero who say that we don't release the name of people who did the audit. It could have been Joe Schmoe  
+**\<rehrar>** And it gives 'poking power' to naysayers of ByteRub who say that we don't release the name of people who did the audit. It could have been Joe Schmoe  
 **\<rbrunner>** Why do they work so secretly? In a few words ...?  
 **\<sarang>** Fortunately all of the OSTIF quotes will be for fully public audits  
 **\<sarang>** rbrunner: it's not working in secret  
@@ -151,7 +151,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Fortunately they won't be the only option, just the first to prepare a quote and contract  
 **\<suraeNoether>** sgp: moving HF dates is not on the table, in my mind. 6 months of data on the blockchain is marginal in the long run; delaying HFs sets an unfortunate precedent.  
 **\<sarang>** I think the community will appreciate the openness of an OSTIF group  
-**\<rehrar>** but because Monero always prides itself in doing most things in the open, I think we should try the other more public options first  
+**\<rehrar>** but because ByteRub always prides itself in doing most things in the open, I think we should try the other more public options first  
 **\<sarang>** and/or Buenz and/or Maxwell  
 **\<sarang>** rehrar: I agree  
 **\<rbrunner>** Agree also  
@@ -217,8 +217,8 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** if we are going to assume the march HF is out the window, then we can spend another few weeks working out the details on that  
 **\<pebx>** suraeNoether I think we trust you that you don't fake a message from fluffy...  
 **\<sarang>** It shows that we have a plan for BPs, and also for future big changes that need audits  
-**\<rehrar>** Monero Auditing Interest Department So Audits Frequently get Done or MAIDSAFE for short  
-**\<rbrunner>** Monero security fund, or so  
+**\<rehrar>** ByteRub Auditing Interest Department So Audits Frequently get Done or MAIDSAFE for short  
+**\<rbrunner>** ByteRub security fund, or so  
 **\<Maxithi>** MAIDSAFE lol  
 **\<rehrar>** oops, fail on that last letter though  
 **\<suraeNoether>** pebx: heh, well he basically said we shouldn't worry about the optics of pushing it back or about the added blockchain space. in the long run, those things become quite marginal  
@@ -261,12 +261,12 @@ author: dEBRUYNE / fluffypony
 **\<pebx>** i can say you as of telegram: people are really expecting BP or at least lower fees... but lowering the fees manually is in my opinion some kind of doctoring around without a real scop  
 **\<sgp>** I'm saying your argument of needing to stick with precedent should be more flexible  
 **\<pebx>** \*scope  
-**\<rbrunner>** Well, the reaction on the Monero subreddit in face of a move into September was surprisingly subdued  
-**\<rehrar>** delaying until September has other benefits not related to the Monero implementation  
+**\<rbrunner>** Well, the reaction on the ByteRub subreddit in face of a move into September was surprisingly subdued  
+**\<rehrar>** delaying until September has other benefits not related to the ByteRub implementation  
 **\<suraeNoether>** sgp and you are using precedents of previous moving HF schedules to show why it's not a big deal to move HFs... but the entire point is *these precedents need to be avoided*  
 **\<rehrar>** it lets the BP paper itself have more time in existence  
 **\<sarang>** And the audits specifically are not testing the BP math/paper  
-**\<rehrar>** and there may be some people interested in reviewing the paper itself (Without carin about the Monero implementation) that would be useful to us  
+**\<rehrar>** and there may be some people interested in reviewing the paper itself (Without carin about the ByteRub implementation) that would be useful to us  
 **\<sarang>** It's way out of scope for those groups  
 **\<sgp>** Why? If there's a legitimate reason to, what's the harm?  
 **\<suraeNoether>** just the code  
@@ -311,7 +311,7 @@ author: dEBRUYNE / fluffypony
 **\<thrmo>** second B  
 **\<rehrar>** we are responsible for people's money, freedom, and lives, remember?  
 **\<iDunk>** I'm for C.  
-**\<suraeNoether>** any concerns about getting BPs implemented *quickly* are not thinking about what Monero is going to look like in 2022  
+**\<suraeNoether>** any concerns about getting BPs implemented *quickly* are not thinking about what ByteRub is going to look like in 2022  
 **\<Maxithi>** Mind to make a quick run up to explain in one sentence A, B and C?  
 **\<thrmo>** suraeNoether, B doesn't have to be quickly  
 **\<sarang>** The real downside in a March/Sept is the blockchain size  
@@ -358,13 +358,13 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** one thing i want to make perfectly clear to everyone in this room  
 **\<endogenic>** thrmo: what necessitates breaking the existing schedule?  
 **\<thrmo>** dEBRUYNE, fluffy mentioned it several times iirc (and others) that eventually the scheduled would be changed and the rate of HFs diminished.  
-**\<Maxithi>** Double Blob https://github.com/monero-project/monero/issues/3154  
+**\<Maxithi>** Double Blob https://github.com/byterubpay/monero/issues/3154  
 **\<gingeropolous>** u make a transaction with a borromean and a bullet proof. You only work with the borromean for n months. Eventually, bulletproofs are trusted. You can then prune the borromean from the chain.  
 **\<dEBRUYNE>** thrmo: Then we'd change to once a year probably  
 **\<dEBRUYNE>** and either march or september would be thrown out  
 **\<suraeNoether>** gingeropolous: ah, there could be some security issues with that  
 **\<endogenic>** thrmo: he mentioned that in the context of monero stabilizing in the future didnt he  
-**\<rehrar>** thrmo, this is true when we get to a point that Monero has so many users that HFs become more and more difficult to pull off, not as a result of new tech as I understand it  
+**\<rehrar>** thrmo, this is true when we get to a point that ByteRub has so many users that HFs become more and more difficult to pull off, not as a result of new tech as I understand it  
 **\<thrmo>** endogenic, unnecessary blockchain growth for one, and why exactly do we NEED to hardfork in march?  
 **\<gingeropolous>** in various conversations it seems that the issues aren't as severe as they seem.  
 **\<endogenic>** thrmo: a hard fork causes blockchain growth?  
@@ -373,15 +373,15 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** gingeropolous: it would take more time for us to vet the double blob technique than it would for us to audit the BP code alone and push it. :P  
 **\<rehrar>** suraeNoether, what did you want to make perfectly clear?  
 **\<thrmo>** rehrar, why do you need to fork for that?  
-**\<suraeNoether>** so what i wanted to make clear: if you are hoping to get BPs implemented before September in order to get a price bump, or to avoid a price crash in Monero...  
-**\<gingeropolous>** suraeNoether, perhaps.. but here I tried to fully explain it: https://github.com/monero-project/monero/issues/3154  
+**\<suraeNoether>** so what i wanted to make clear: if you are hoping to get BPs implemented before September in order to get a price bump, or to avoid a price crash in ByteRub...  
+**\<gingeropolous>** suraeNoether, perhaps.. but here I tried to fully explain it: https://github.com/byterubpay/monero/issues/3154  
 **\<medusa>** we usually use the fork to roll out cleints, so we just have 1 version to support  
 **\<gingeropolous>** and furthermore, this isn't going to be the last time some amazing tech comes through to reduce transaction size  
 **\<endogenic>** thrmo: changing the existing schedule needs to be justified more than not doing so in the absence of a problem making it necessary, and people agree that bulletproofs and its implementation needs to be audited right?  
 **\<thrmo>** medusa, i know, it doesn't need to be that though.  
 **\<rehrar>** can I speak bluntly?  
 **\<gingeropolous>** so it'd be great if we had a mechanism to transition to fresh tech without wondering if the whole thing'll come crashing down  
-**\<suraeNoether>** then your logic is already flawed... if you think Monero will hit 10,000 USD faster if we get BPs implemented in June instead of September, you are... well, i can't say for sure that you are wrong, but your logic circuits may need some dusting.  
+**\<suraeNoether>** then your logic is already flawed... if you think ByteRub will hit 10,000 USD faster if we get BPs implemented in June instead of September, you are... well, i can't say for sure that you are wrong, but your logic circuits may need some dusting.  
 **\<endogenic>** agree surae  
 **\<endogenic>** also fees  
 **\<thrmo>** endogenic, I do agree too, I just don't think that adherence to the schedule is as a big thing as it's been portrayed.  
@@ -491,7 +491,7 @@ author: dEBRUYNE / fluffypony
 **\<pebx>** okay, so i'm still for delaying the hf to april or may but then with bp  
 **\<rehrar>** last question, should we still have dev meeting next week, or push to three weeks from now?  
 **\<pebx>** otherwise some sumo will have it before monero  
-**\<janeropicasso>** Hi guys I'm new been reading along. I'd just like to say one thing. I think keeping an eye on the long term view is much better than any short term benefits unless the situation is dire. In my experience hard deadlines on things never work. Security, Privacy and Untraceability is what separates Monero high tx fees can wait.  
+**\<janeropicasso>** Hi guys I'm new been reading along. I'd just like to say one thing. I think keeping an eye on the long term view is much better than any short term benefits unless the situation is dire. In my experience hard deadlines on things never work. Security, Privacy and Untraceability is what separates ByteRub high tx fees can wait.  
 **\<iDunk>** I don't see this as a dev meeting.  
 **\<pebx>** i would be for a dev meeting next week, but who i am...  
 **\<rehrar>** alright, I'll make an issue for it on the Githubz  
@@ -537,11 +537,11 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** nothing else from me on this meeting?  
 **\<rehrar>** sarang even with availability of general funds, I'd like to try at least some with FFS. It's just good 'marketing'.  
 **\<pebx>** but i wouldn't like to rush it either into march if it's not ready to be released...  
-**\<rehrar>** Monero raises grassroots money for review  
+**\<rehrar>** ByteRub raises grassroots money for review  
 **\<sarang>** In that case we should at least set a goal amount for this review fund  
 **\<pebx>** that's a good point rehrar  
 **\<sgp>** Is $50k a good goal?  
-**\<rehrar>** So much is said in that Monero crowdfunds two full time researchers, two full time coders, and other stuff  
+**\<rehrar>** So much is said in that ByteRub crowdfunds two full time researchers, two full time coders, and other stuff  
 **\<rehrar>** I think add a zero to that sgp  
 **\<rehrar>** if this will be used for multiple reviews over multiple years  
 **\<sarang>** $50K would fund a pro audit and maybe one individual  
@@ -687,7 +687,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** So realistically the community has decided that single-output is a waste of time because multi-output is basically done and the community wants it audited  
 **\<sarang>** Given the desire for an audit, it makes sense to jump straight to multi and have the fee discussion surrounding it  
 **\<sgp>** Ok, makes sense  
-**\<sgp>** So it's basically just a question of whether Monero hardforks soon after the code is complete and reviewed or in September  
+**\<sgp>** So it's basically just a question of whether ByteRub hardforks soon after the code is complete and reviewed or in September  
 **\<sgp>** For some reason I still thought single and multi-output would be rolled out separately  
 **\<sarang>** Single doesn't require that the fee structure be switched away from size-based, but that's about it  
 **\<sarang>** Might as well pay for only one audit  

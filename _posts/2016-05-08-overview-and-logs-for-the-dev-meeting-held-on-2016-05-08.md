@@ -86,7 +86,7 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** up to a given refresh height it only syncs hashes  
 **\<fluffypony>** moneromooo: we can carry on chatting about the bits you missed after the kovri meeting, if that's ok ?  
 **\<moneromooo>** Sure.  
-**\<fluffypony>** ok back to the Monero side  
+**\<fluffypony>** ok back to the ByteRub side  
 **\<fluffypony>** moneromooo: have you had a chance to read the meeting backlog ?  
 **\<moneromooo>** I did.  
 **\<fluffypony>** ok - thoughts on 0MQ / dev branch?  

@@ -10,10 +10,10 @@ author: dEBRUYNE / fluffypony
 
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46)  
+**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
 **\<anonimal>** 4. Contributor FFS check-in / status  
-**\<anonimal>** 5. Community's progress with addendum / revision to https://github.com/monero-project/meta/issues/63  
-**\<anonimal>** 6. Open Meta issue review https://github.com/monero-project/meta/issues  
+**\<anonimal>** 5. Community's progress with addendum / revision to https://github.com/byterubpay/meta/issues/63  
+**\<anonimal>** 6. Open Meta issue review https://github.com/byterubpay/meta/issues  
 **\<anonimal>** 7. Code + ticket discussion / Q & A  
 **\<anonimal>** 8. Any additional meeting items  
 **\<anonimal>** 9. Confirm next meeting date/time  
@@ -35,10 +35,10 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Hi endogenic  
 **\<rehrar>** brief review for me  
 **\<endogenic>** lol hi anonimal :)  
-**\<rehrar>** I finished the Monero website, so we can start identifying features we want ported to the Kovri website  
-**\<rehrar>** with Monero website mostly done (and hopefully up soon) I will shift focus to Kovri website  
+**\<rehrar>** I finished the ByteRub website, so we can start identifying features we want ported to the Kovri website  
+**\<rehrar>** with ByteRub website mostly done (and hopefully up soon) I will shift focus to Kovri website  
 **\<rehrar>** so we can start having a discussion in-depth about things we want  
-**\<rehrar>** I know I mentioned porting the FAQ tech from the Monero website to Kovri and I think it was received ok  
+**\<rehrar>** I know I mentioned porting the FAQ tech from the ByteRub website to Kovri and I think it was received ok  
 **\<anonimal>** Ok. Note: I think we should continue to try and keep as many features/ideas/bugs in the issue tracker.  
 **\<rehrar>** will do  
 **\<rehrar>** I'll put my web ideas up there  
@@ -46,7 +46,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Ok, thanks. Anything else on 2.?  
 **\<i2p-relay> {-pigeons}** I'm going to talk with anonimal after the meeting about some questions about i2p tunnels and kovri.i2p will be up soon  
 **\<anonimal>** Excellent :)  
-**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46)  
+**\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
 **\<anonimal>** It looks like we're officially scheduled for July 20th, 16:00 UTC  
 **\<anonimal>** I haven't seen the official confirmation email yet, and no word from FP, but I'm suspecting that we'll be go-for-launch.  
 **\<anonimal>** I'll post details in the open issue as they come.  
@@ -72,7 +72,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Any other thoughts on 4.?  
 **\<MoroccanMalinois>** :) thanks. I enjoy how it's going on so far  
 **\<anonimal>** Good to hear.  
-**\<anonimal>** 5. Community's progress with addendum / revision to https://github.com/monero-project/meta/issues/63  
+**\<anonimal>** 5. Community's progress with addendum / revision to https://github.com/byterubpay/meta/issues/63  
 **\<rehrar>** I'm on that this week. Tomorrow actually.  
 **\<rehrar>** I've been writing extensive documentation for the new website, and that's pretty much all done.  
 **\<rehrar>** So I will be drafting documentation for FFS including terms, formatting, and theory.  
@@ -82,7 +82,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** http://45.32.161.183/resources/user-guides/  
 **\<rehrar>** so I thought I'd just put it in there from the get-go, but I can start it off in the meta repo  
 **\<rehrar>** there's already one in the meta repo  
-**\<rehrar>** https://github.com/monero-project/meta/blob/master/FFS  
+**\<rehrar>** https://github.com/byterubpay/meta/blob/master/FFS  
 **\<rehrar>** So I'll probably start working in there  
 **\<rehrar>** and then port to the User Guides once it's done  
 **\<rehrar>** done = approved  
@@ -92,7 +92,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I'll use the current one as a base and get into specifics regarding licensing and community expectations  
 **\<anonimal>** Cool, that all sounds good rehrar. Anyone else on 5.? I have not looked/worked on the document since I created this meeting item.  
 **\<rehrar>** if there's anything that anyone thinks is important, throw it up on the issue  
-**\<anonimal>** Moving on, 6. Open Meta issue review https://github.com/monero-project/meta/issues  
+**\<anonimal>** Moving on, 6. Open Meta issue review https://github.com/byterubpay/meta/issues  
 **\* anonimal** was hoping FP was around for #77, #78  
 **\<rehrar>** Shot a message to FP regarding new Kovri logo, waiting for response  
 **\<rehrar>** #80  
@@ -106,19 +106,19 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** moneromooo: yep. It was instinct for me to type getkovri.net because of geti2p.net  
 **\<moneromooo>** Cool. Ignore me then ^\_^  
 **\<anonimal>** fluffypony ^ getkovri.net?  
-**\<rehrar>** I'll find a domain name seller and ask them to take Monero  
+**\<rehrar>** I'll find a domain name seller and ask them to take ByteRub  
 **\<anonimal>** Ok  
 **\* anonimal** looks through open issues  
-**\<rehrar>** regarding https://github.com/monero-project/meta/issues/43 I will be working on an action plan this week  
-**\<rehrar>** it will probably a Monero and Kovri hybrid  
+**\<rehrar>** regarding https://github.com/byterubpay/meta/issues/43 I will be working on an action plan this week  
+**\<rehrar>** it will probably a ByteRub and Kovri hybrid  
 **\<rehrar>** but I'll make specific sections for each  
 **\<rehrar>** there's tons of fun ideas spinning around in my mind  
-**\<rehrar>** I'll probably lean towards a Kovri focus since I think it needs more help than Monero  
+**\<rehrar>** I'll probably lean towards a Kovri focus since I think it needs more help than ByteRub  
 **\<anonimal>** Awesome awesome. I'd love to see what you come up with.  
 **\<ArticMine>** I would get kovri.org  
 **\<ArticMine>** before it gets taken  
 **\<anonimal>** If anyone here gets it now, I'm sure they can be reimbursed.  
-**\<rehrar>** I'll buy. But are the domains owned by a Monero specific account that I should transfer to?  
+**\<rehrar>** I'll buy. But are the domains owned by a ByteRub specific account that I should transfer to?  
 **\<serhack>** I think I can get getkovri.net  
 **\<rehrar>** if there isn't would it be wise to have an accounts@getmonero.org type of email that the domains and other things can be attributed to? or would that be too centralized?  
 **\<rehrar>** the Core team would have the password to it, ofc. I don't know what the current setup is.  
@@ -128,10 +128,10 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** okay  
 **\<serhack>** let me check  
 **\* anonimal** stays out of this one  
-**\<rehrar>** serhack, you can nab them and get reimbursed with Monero, as I know you're trying to get some more (afaik)  
+**\<rehrar>** serhack, you can nab them and get reimbursed with ByteRub, as I know you're trying to get some more (afaik)  
 **\<rehrar>** both getkovri.net and kovri.org if available  
 **\<ArticMine>** Just registered kovri.org  
-**\<anonimal>** ajs: I haven't forgotten about you! https://github.com/monero-project/meta/issues/27  
+**\<anonimal>** ajs: I haven't forgotten about you! https://github.com/byterubpay/meta/issues/27  
 **\<rehrar>** ArticMine is boss  
 **\<anonimal>** Thank you ArticMine  
 **\<Olufunmilayo>** might I suggest also .com so to have all 3 top levels for each domain name? this would aid in preventing someone setting up .com and serving malicious code or ..ect  
@@ -167,8 +167,8 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** anonimal: where can I talk with you privatly?  
 **\<anonimal>** iDunk: ah!  
 **\<serhack>** irc?  
-**\<rehrar>** at the very least, we can ask that they accpet Monero  
-**\<rehrar>** I will purchase their rugs with Monero  
+**\<rehrar>** at the very least, we can ask that they accpet ByteRub  
+**\<rehrar>** I will purchase their rugs with ByteRub  
 **\<anonimal>** serhack: for secure privacy, yes: use OTR on IRC.  
 **\<anonimal>** rehrar: lol yes do it!  
 **\<anonimal>** ajs: if you're around, I'll be happy to talk more about #27  
@@ -177,7 +177,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Thank you for helping, rehrar  
 **\<rehrar>** alright, no worries man.  
 **\<rehrar>** no worries other man  
-**\<anonimal>** rehrar: what do you think of this https://github.com/monero-project/meta/issues/24  
+**\<anonimal>** rehrar: what do you think of this https://github.com/byterubpay/meta/issues/24  
 **\<anonimal>** How effective do you think it would be?  
 **\<rehrar>** I was just looking at that. I know nothing about GNU social  
 **\<rehrar>** I'll give it some research this week  
@@ -186,7 +186,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** We had a test run a long while ago. Someone started hosting a test server but then seemed to abandon it. The service didn't catch on for our community but then again I think no one knew about it.  
 **\<anonimal>** Ok, sounds good.  
 **\<anonimal>** Any thoughts on #81?  
-**\<anonimal>** needmultisig90: https://github.com/monero-project/meta/issues/81  
+**\<anonimal>** needmultisig90: https://github.com/byterubpay/meta/issues/81  
 **\<anonimal>** Well, we're running out of time. Any other comments/questions about open meta issues?  
 **\<rehrar>** Nah. Not for now.  
 **\<anonimal>** 7. Code + ticket discussion / Q & A  

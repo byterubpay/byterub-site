@@ -74,7 +74,7 @@ permalink: /downloads/index.html
                   </div>
                   <div class="col-md-4 col-sm-4 col-xs-4 desktop-only">
                     <ul>
-                      <li class="downloads"><span class="icon-github"></span><a class="orange" href="https://github.com/monero-project/monero-gui">{% t downloads.sourcecode %}</a></li>
+                      <li class="downloads"><span class="icon-github"></span><a class="orange" href="https://github.com/byterubpay/monero-gui">{% t downloads.sourcecode %}</a></li>
                     </ul>
                   </div>
                   <div class="mobile-only">
@@ -105,7 +105,7 @@ permalink: /downloads/index.html
                     <p>{% t downloads.verify1 %} <i>{% t downloads.verify2 %}</i></p><br>
                     <details>
                     <summary>{% t downloads.showhash %}</summary>
-                     <p>{% t downloads.showhash1 %} <a href="https://getmonero.org/downloads/hashes.txt">getmonero.org/downloads/hashes.txt</a> {% t downloads.showhash2 %} <a href="https://github.com/monero-project/monero/blob/master/utils/gpg_keys/fluffypony.asc">{% t downloads.showhash3 %}</a>.</p>
+                     <p>{% t downloads.showhash1 %} <a href="https://getmonero.org/downloads/hashes.txt">getmonero.org/downloads/hashes.txt</a> {% t downloads.showhash2 %} <a href="https://github.com/byterubpay/monero/blob/master/utils/gpg_keys/fluffypony.asc">{% t downloads.showhash3 %}</a>.</p>
                      <p>{% t downloads.showhash4 %} <a href="{{site.baseurl}}/resources/user-guides/verification-windows-beginner.html">{% t user-guides.verify-windows %}</a> - <a href="{{site.baseurl}}/resources/user-guides/verification-allos-advanced.html">{% t user-guides.verify-allos %}</a>.</p>
                      <dl>
                     {% for entry in item.downloads %}
@@ -165,7 +165,7 @@ permalink: /downloads/index.html
                   <div class="col-md-4 col-sm-4 col-xs-4 desktop-only">
                     <ul>
                       <li class="downloads"><span class="icon-freebsd"></span><a class="orange" href="https://downloads.getmonero.org/cli/freebsd64">FreeBSD 64-bit</a></li>
-                      <li class="downloads"><span class="icon-github"></span><a class="orange" href="https://github.com/monero-project/monero">{% t downloads.sourcecode %}</a></li>
+                      <li class="downloads"><span class="icon-github"></span><a class="orange" href="https://github.com/byterubpay/monero">{% t downloads.sourcecode %}</a></li>
                     </ul>
                   </div>
                   <div class="mobile-only">
@@ -199,7 +199,7 @@ permalink: /downloads/index.html
                 <p>{% t downloads.verify1 %} <i>{% t downloads.verify2 %}</i></p><br>
                   <details>
                     <summary>{% t downloads.showhash %}</summary>
-                     <p>{% t downloads.showhash1 %} <a href="https://getmonero.org/downloads/hashes.txt">getmonero.org/downloads/hashes.txt</a> {% t downloads.showhash2 %} <a href="https://github.com/monero-project/monero/blob/master/utils/gpg_keys/fluffypony.asc">{% t downloads.showhash3 %}</a>.</p>
+                     <p>{% t downloads.showhash1 %} <a href="https://getmonero.org/downloads/hashes.txt">getmonero.org/downloads/hashes.txt</a> {% t downloads.showhash2 %} <a href="https://github.com/byterubpay/monero/blob/master/utils/gpg_keys/fluffypony.asc">{% t downloads.showhash3 %}</a>.</p>
                      <p>{% t downloads.showhash4 %} <a href="{{site.baseurl}}/resources/user-guides/verification-windows-beginner.html">{% t user-guides.verify-windows %}</a> - <a href="{{site.baseurl}}/resources/user-guides/verification-allos-advanced.html">{% t user-guides.verify-allos %}</a>.</p>
                       <dl>
                      {% for entry in item.downloads %}
@@ -244,7 +244,7 @@ permalink: /downloads/index.html
                         </div>
                         <div class="row mob-wallets center-xs">
                           <a href="https://www.ledger.com/monero-wallet/"><img src="/img/ledger.png"></a>
-                          <a href="https://wiki.trezor.io/Monero_(XMR)"><img src="/img/trezor.png"></a>
+                          <a href="https://wiki.trezor.io/ByteRub_(XMR)"><img src="/img/trezor.png"></a>
                         </div>                    
                 </div>
             </section>
@@ -259,7 +259,7 @@ permalink: /downloads/index.html
                         <div class="row between-xs mob-wallets">
                                 <a href="https://cakewallet.io"><img style="height: 115px;"  src="/img/cakewallet.png" alt="Cake Wallet Logo"></a>
                                 <a href="https://monerujo.io"><img style="height: 115px;" src="/img/Monerujo-wallet.png" alt="Monerujo Logo"></a>
-                                <a href="https://mymonero.com"><img src="/img/mymonero.png" alt="MyMonero Logo"></a>
+                                <a href="https://mymonero.com"><img src="/img/mymonero.png" alt="MyByteRub Logo"></a>
                                 <a href="https://edge.app/"><img style="height: 115px;" src="/img/edge-wallet.png" alt="Edge Logo"></a>
                         </div>
                 </div>

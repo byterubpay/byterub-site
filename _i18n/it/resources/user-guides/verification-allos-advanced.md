@@ -37,12 +37,12 @@ This section will cover getting the Monero signing key, making sure it is correc
 
 ### 2.1. Get Signing Key
 
-On Windows or Mac, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), which he uses to sign the Monero binaries, and save the page as `fluffypony.asc` to your home directory.
+On Windows or Mac, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), which he uses to sign the Monero binaries, and save the page as `fluffypony.asc` to your home directory.
 
 On Linux, you can download Fluffypony's signing key by issuing the following command:
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Verify Signing Key

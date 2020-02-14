@@ -8,13 +8,13 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2018-01-28).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2018-01-28).  
 
 # Logs  
 
 **\<hyc>** meeting time  
 **\<rehrar>** ye  
-**\<rehrar>** agenda: https://github.com/monero-project/meta/issues/166  
+**\<rehrar>** agenda: https://github.com/byterubpay/meta/issues/166  
 **\<rehrar>** as always, start with 1. Greetings  
 **\<sarang>** yo  
 **\<msvb-lab>** Hi there.  
@@ -54,15 +54,15 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\* sarang** will be quiet now  
 **\<rehrar>** Anyone else? :) GUI have anything?  
 **\<medusa>** the GUI project has merged sub addresses. also we removed the ability for the user to generate payment ids and integrated addresses  
-**\<medusa>** in addition, there is a new monerod start up flag, called --boostrap daemon https://github.com/monero-project/monero/pull/3165  
+**\<medusa>** in addition, there is a new monerod start up flag, called --boostrap daemon https://github.com/byterubpay/monero/pull/3165  
 **\<hyc>** ^^ this looks very good. I wonder if the GUI should use that by default  
 **\<medusa>** the GUi will make use of this too, so there dont exist several implementations of the same thing  
 **\<gingeropolous>** is that supplanting Jaquee 's thing?  
-**\<medusa>** PR is allready here hyc https://github.com/monero-project/monero-gui/pull/1091  
+**\<medusa>** PR is allready here hyc https://github.com/byterubpay/monero-gui/pull/1091  
 **\<medusa>** gingeropolous:as far as i understand it, yes  
 **\<rehrar>** I'll repaste xmrscott[m]'s message so people who don't want to click don't have to  
 **\<rehrar>** David Mirza Ahmad, president of Subgraph OS, has put together a byte-for-byte matching Debian package and is requesting comment on some final pieces: "There some decisions to make for us, like: where does the blockchain data go? Do we start the daemon with systemd by default (feeling like no, as it can be started in GUI)? Appreciate thoughts on this." No one has provided comments on these matters so if anyone here could do so it woul  
-**\<rehrar>** d be appreciated. https://github.com/monero-project/monero/issues/2395  
+**\<rehrar>** d be appreciated. https://github.com/byterubpay/monero/issues/2395  
 **\<rehrar>** \^  
 **\<pebx>** thanks for the update medusa! this looks very good. we shouldn't forget that GUI is the interface to the rest of the world...  
 **\<msvb-lab>** rehrar: Byte for byte matching, you mean as in reproducible build? Gitian?  
@@ -77,7 +77,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<hyc>** unknowable  
 **\<rehrar>** bam  
 **\<hyc>** distro release schedules are seldom anywhere near upstream release cycles  
-**\<ArticMine>** My concern is stale Monero in the distro  
+**\<ArticMine>** My concern is stale ByteRub in the distro  
 **\<hyc>** yes  
 **\<hyc>** it's a frequent occurrence in distro packages  
 **\<ArticMine>** With a six month hard for cycle  
@@ -168,7 +168,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<pebx>** dEBRUYNE my point is, that at some point fees can get insane like they have been / are in bitcoin  
 **\<ArticMine>** Then if it is merged that is all  
 **\<gingeropolous>** ^^  
-**\<medusa>** this one no ? https://github.com/monero-project/monero/pull/3123  
+**\<medusa>** this one no ? https://github.com/byterubpay/monero/pull/3123  
 **\<smooth>** yes. lets move on: rehrar>** Alright. Moving on then! 4. Code + ticket discussion / Q & A  
 **\<rbrunner>** I have a little thing: The Windows installer missed the Fall releases. But surely the March release is a perfect opportunity to finally put it into service ...?  
 **\<hyc>** yeah sounds like we're fine for now on fee  

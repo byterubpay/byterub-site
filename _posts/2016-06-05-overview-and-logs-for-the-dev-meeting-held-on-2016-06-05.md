@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony / Aerbax
 
 ### Overview
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-06-05)
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-06-05)
 
 ### Logs
 

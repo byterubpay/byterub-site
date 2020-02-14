@@ -11,7 +11,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Meeting time :)  
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/221  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/221  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<ArticMine>** Hi  
@@ -29,7 +29,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Circle added Monero: https://blog.circle.com/2018/05/07/circle-invest-welcomes-monero/  
 **\<sgp\_>** M5M400, the admin of supportXMR, sponsored the race car driver Niklas Makschin. He will include the Monero logo prominently on his car: https://www.reddit.com/r/Monero/comments/8gqsd7/i\_really\_liked\_fluffys\_yacht\_sail\_sponsoring\_but/  
 **\<monerobux>** [REDDIT] I really liked fluffy's yacht sail sponsoring, but I am more into racecars... (self.Monero) | 68 points (93.0%) | 28 comments | Posted by M5M400 | Created at 2018-05-03 - 14:30:43  
-**\<sgp\_>** I introduced a GitHub issue to deprecate standalone payment IDs: https://github.com/monero-project/monero/issues/3772  
+**\<sgp\_>** I introduced a GitHub issue to deprecate standalone payment IDs: https://github.com/byterubpay/monero/issues/3772  
 **\<sgp\_>** Does anyone else have community updates to share?  
 **\<ErCiccione>** GUI frozen and being translated. Soon out  
 **\<rehrar>** point release soon then?  
@@ -92,7 +92,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Take it away, ErCiccione!  
 **\<ErCiccione>** ook  
 **\<ErCiccione>** so, as said, the GUI is frozen and we are busy translating it, you can find the related issue on github here:  
-**\<ErCiccione>** https://github.com/monero-project/monero-gui/issues/1377  
+**\<ErCiccione>** https://github.com/byterubpay/monero-gui/issues/1377  
 **\<ErCiccione>** 10 languages have already been PRd many other are being worked on as we speak, and some are still in need of translators  
 **\<ErCiccione>** now that my PR with the updates to the language files have been merged, i will write a guide on reddit with some instructions for non techy people  
 **\<cryptochange>** Translate all the things!  

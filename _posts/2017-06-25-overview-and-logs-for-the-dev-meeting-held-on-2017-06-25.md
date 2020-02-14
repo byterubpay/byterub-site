@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Overview and Logs for the Dev Meeting Held on 2017-06-25
-summary: MyMonero/OpenMonero lightwallet support for the GUI, multisig, subaddresses, 0MQ, increasing default ring size
+summary: MyByteRub/OpenByteRub lightwallet support for the GUI, multisig, subaddresses, 0MQ, increasing default ring size
 tags: [dev diaries, core, crypto]
 author: dEBRUYNE / fluffypony
 ---
 
 # Overview  
 
-An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-06-25).  
+An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-06-25).  
 
 # Logs  
 
@@ -107,7 +107,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<moneromooo>** Well, as for me, I added some fuzz testing. Turns out erikd had also started looking at that as well.  
 **\<moneromooo>** It's running on GCC, not CLANG, though.  
 **\<moneromooo>** Anyone else ?  
-**\<knaccc>** kenshi84 has done fantastic work on implementing the subaddress scheme. There is now the concept of a wallet containing multiple "accounts", each with multiple "addresses" (a.k.a. subaddresses). It's now only a cat's whisker away from being ready for code review. https://github.com/monero-project/monero/pull/2056  
+**\<knaccc>** kenshi84 has done fantastic work on implementing the subaddress scheme. There is now the concept of a wallet containing multiple "accounts", each with multiple "addresses" (a.k.a. subaddresses). It's now only a cat's whisker away from being ready for code review. https://github.com/byterubpay/monero/pull/2056  
 **\<moneromooo>** Very nice stuff ^\_^  
 **\<medusa>** cool  
 **\<Jaquee>** ^^  
@@ -138,7 +138,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<pero>** there isnt consensus?  
 **\<knaccc>** i've suggested 20, surae said he doesn't have a problem with that, but not much other commentary.  
 **\<moneromooo>** I've not seen olarks for a while. Anyone has ?  
-**\<knaccc>** the thread went dead https://github.com/monero-project/monero/issues/1673  
+**\<knaccc>** the thread went dead https://github.com/byterubpay/monero/issues/1673  
 **\<pero>** maybe we should schedule a townhall type irc meeting  
 **\<pero>** instead of intermittent back and forth in the ticket  
 **\<knaccc>** other people just need to make their opinions known, not that many people have done so  

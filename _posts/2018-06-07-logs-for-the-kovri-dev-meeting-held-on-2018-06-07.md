@@ -126,7 +126,7 @@ author: selsta / anonimal
 **\<rehrar>** \*way  
 **\<rehrar>** I do indeed have a table as well, sitting in my branch of kovri docs  
 **\<rehrar>** I can PR it right this second for proof  
-**\<anonimal>** I ended up having to do the docs myself. https://github.com/monero-project/kovri-docs/pull/48  
+**\<anonimal>** I ended up having to do the docs myself. https://github.com/byterubpay/kovri-docs/pull/48  
 **\<anonimal>** It's June. This kind of stuff needed to be done Q1.  
 **\<anonimal>** The user-guide could use improving though.  
 **\<anonimal>** Anyway, whatever. What's done is done.  
@@ -149,9 +149,9 @@ author: selsta / anonimal
 **\<anonimal>** I have no clue where pigeons is.  
 **\<anonimal>** I can't develop on BSD nor windows. These meta issue tickets are piling up.  
 **\<anonimal>** The alpha will be a sum result of what the community can handle.  
-**\<anonimal>** s/I can't develop on BSD nor windows/I can't develop on BSD nor windows because of https://github.com/monero-project/meta/issues/178 and https://github.com/monero-project/meta/issues/238  
+**\<anonimal>** s/I can't develop on BSD nor windows/I can't develop on BSD nor windows because of https://github.com/byterubpay/meta/issues/178 and https://github.com/byterubpay/meta/issues/238  
 **\<rehrar>** I'll ping pigeons right now  
-**\<anonimal>** These shouldn't be issues. This is why we need to move on https://github.com/monero-project/meta/issues/237  
+**\<anonimal>** These shouldn't be issues. This is why we need to move on https://github.com/byterubpay/meta/issues/237  
 **\<anonimal>** I'm already donating my time. If I wasn't donating that, then I'd be donating my money.  
 **\<rehrar>** hmmm...ok. Do you think it's worthwhile to have us kovri people set up some stuff and maintain them?  
 **\<anonimal>** That's the point of #237, or at least one of the points.  

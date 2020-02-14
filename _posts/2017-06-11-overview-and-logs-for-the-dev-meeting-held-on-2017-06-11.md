@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-06-11).  
+An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-06-11).  
 
 # Logs  
 
@@ -68,7 +68,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** or label them  
 **\<fluffypony>** or remove labels  
 **\<johnalan>** ^^^  
-**\<fluffypony>** but now, through the power of a bot operating deep within the Monero infrastructure, we will languish NO MORE!  
+**\<fluffypony>** but now, through the power of a bot operating deep within the ByteRub infrastructure, we will languish NO MORE!  
 **\<fluffypony>** for from \<insert future date when pigeons is done> the power of this bot will be unleashed  
 **\<fluffypony>** and a group of contributors will be ordained as having Issue Privileges and/or Label Privileges  
 **\<fluffypony>** and they will be able to @mention the bot on GitHub issue comments  
@@ -161,7 +161,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<dternyak>** yeah  
 **\<johnalan>** I am very excited about both  
 **\<moneromooo>** https://github.com/moneromooo-monero/bitmonero/commits/mswip  
-**\<fluffypony>** official - MyMonero isn't cool enough to have dev meetings  
+**\<fluffypony>** official - MyByteRub isn't cool enough to have dev meetings  
 **\<johnalan>** but yup I meant official  
 **\<endogenic>** ^  
 **\<endogenic>** lol i love your commit msgs  
@@ -177,8 +177,8 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<johnalan>** so on gui/mymonero mobile - any updates?  
 **\<fluffypony>** Jaquee ^^  
 **\<fluffypony>** or MoroccanMalinois maybe?  
-**\<xmr-eric>** I still think we need to decide on a name for the GUI. https://github.com/monero-project/monero-core/issues/674  
-**\<xmr-eric>** Monero Kerna still seems fun  
+**\<xmr-eric>** I still think we need to decide on a name for the GUI. https://github.com/byterubpay/monero-core/issues/674  
+**\<xmr-eric>** ByteRub Kerna still seems fun  
 **\<johnalan>** you can call it Mary if you like, I just want it  
 **\<johnalan>** :)  
 **\<endogenic>** not a huge fan of that  

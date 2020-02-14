@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-07-09).  
+An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-07-09).  
 
 # Logs  
 
@@ -56,7 +56,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<hyc>** phototypesetter-ready copy or go home  
 **\<fluffypony>** lol  
 **\<fluffypony>** ok everything else is still WIP  
-**\<hyc>** Is this a good time to mention, https://github.com/monero-project/meta/issues/85 still hasn't gotten much feedback  
+**\<hyc>** Is this a good time to mention, https://github.com/byterubpay/meta/issues/85 still hasn't gotten much feedback  
 **\<hyc>** which is a bit surprising, considering the intensity of the IRC chat  
 **\<ArticMine>** Yes this needs feedback  
 **\<ArticMine>** Project licensing  
@@ -139,7 +139,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<pero>** maybe 2 weeks isnt that bad to have it coincide with the dev meetings - but not all FFS work is dev wwork  
 **\<pero>** yea precisely tewinget  
 **\<fluffypony>** milestones are the reporting periods  
-**\<mattcode>** The Monero Enterprise Alliance needs to promote agility in the workplace, so we should all sprint every two weeks.  
+**\<mattcode>** The ByteRub Enterprise Alliance needs to promote agility in the workplace, so we should all sprint every two weeks.  
 **\<fluffypony>** mattcode: hence the creation of MEAT  
 **\<tewinget>** we know how fluffypony loves his MEAT.  
 **\<pero>** well i typically insert checkpoints before milestones in projects  
@@ -167,7 +167,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<endogenic>** voting is a tricky concept  
 **\<moneromooo>** OTOH, decision ought to be in the hands of the donators for that particular project. Maybe I need to code some voting thing where one can prove they paid to a ffs...  
 **\<pero>** another thing with better defined scope/schedule/budget  
-**\<rehrar>** And that's a good point Moneromooo, should a person who didn't donate have any sway in the vote?  
+**\<rehrar>** And that's a good point ByteRubmooo, should a person who didn't donate have any sway in the vote?  
 **\<pero>** is that we can manage what happens when 'contractors' go over budget  
 **\<pero>** tweinget and rehrar surely went much over what they estimated  
 **\<endogenic>** i don't think voting should be used, personally, unless it's limited to people who are actually qualified  

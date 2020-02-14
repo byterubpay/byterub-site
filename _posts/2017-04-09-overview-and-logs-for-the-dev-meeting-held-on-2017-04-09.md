@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-04-09).  
+An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-04-09).  
 
 ### Logs  
 
@@ -30,7 +30,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** I'm planning on merging PRs over the next couple of days  
 **\<fluffypony>** are there any that are don't-merge-yet?  
 **\<vtnerd1112>** The one I have outstanding for bin2hex  
-**\<xmr\_eric>** Before merging the PR to name Monero GUI back to Monero Core, I thought it would be good to have a discussion here about that. But perhaps that can be saved for the end of today's meeting.  
+**\<xmr\_eric>** Before merging the PR to name ByteRub GUI back to ByteRub Core, I thought it would be good to have a discussion here about that. But perhaps that can be saved for the end of today's meeting.  
 **\<moneromooo>** Oh, I'd kinda forgot-ish about that one...  
 **\<Jaquee>** #658 and #667 obviously  
 **\<vtnerd1112>** It's currently unmergeable and I don't know if anyone looked at it recently  
@@ -42,9 +42,9 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<endogenic>** lol  
 **\<fluffypony>** luigi1112: yes  
 **\<fluffypony>** /nick fluffypony1112  
-**\<xmr\_eric>** Ok, well I'd like to hear from Jaquee. But my thoughts are that we rename Monero GUI back to Monero Core. Gingeropolous originally named it back to Monero GUI at the time, which was a decent idea, but I think in the end the central Monero software that the public is going to use should be called Core  
+**\<xmr\_eric>** Ok, well I'd like to hear from Jaquee. But my thoughts are that we rename ByteRub GUI back to ByteRub Core. Gingeropolous originally named it back to ByteRub GUI at the time, which was a decent idea, but I think in the end the central ByteRub software that the public is going to use should be called Core  
 **\<fluffypony>** @xmr\_eric that was among the reasons for calling it Core initially  
-**\<xmr\_eric>** I spent some time yesterday trying to find a word other than Core to differentiate ourselves from Bitcoin, like Monero Essentials or something, but none really work as well.  
+**\<xmr\_eric>** I spent some time yesterday trying to find a word other than Core to differentiate ourselves from Bitcoin, like ByteRub Essentials or something, but none really work as well.  
 **\<xmr\_eric>** Right. I think we should go back to that.  
 **\<fluffypony>** also because I think that the current monero repo will become libmonero  
 **\<pero>** and then monero-cli?  
@@ -57,10 +57,10 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** Jaquee: what are your thoughts on GUI vs. Core  
 **\<Jaquee>** libwallet API is only used by gui for now. so i'm thining it could be moved to gui repo.  
 **\<Jaquee>** i would prefer GUI  
-**\<Jaquee>** https://github.com/monero-project/monero-core/issues/663  
+**\<Jaquee>** https://github.com/byterubpay/monero-core/issues/663  
 **\<endogenic>** how about 'official' instead of 'core'? cause it'll be specified as the official 'gui', cli etc  
 **\<xmr\_eric>** This isn't just naming the repo, this is naming the piece of software the repo produces  
-**\<bigreddmachine>** As for names, I assume "Monero Qt" is out? That was once the standard for cryptocurrency wallets but seems to have lost favor.  
+**\<bigreddmachine>** As for names, I assume "ByteRub Qt" is out? That was once the standard for cryptocurrency wallets but seems to have lost favor.  
 **\<xmr\_eric>** Essentially, it is branding  
 **\<pero>** if we're going to have lib and cli, and those seems like the optimal nomenclature for those, then i think the logical one for the gui is gui  
 **\<Jaquee>** +1  
@@ -72,7 +72,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<pero>** yea but core is kind of confusing since core seems to be lib  
 **\<fluffypony>** pero: I was thinking more like libmonero, monero-tools, monero-core  
 **\<bigreddmachine>** pero: i'd argue the optimal name for a gui should *not* have "gui" in the name. They aren't called FireFox GUI, Chrome GUI, Word GUI, etc  
-**\<gingeropolous>** just Monero  
+**\<gingeropolous>** just ByteRub  
 **\<xmr\_eric>** No, but the point is Core is a word that people will begin to associate with that piece of software  
 **\<hrumag2>** gingeropulos I agree  
 **\<xmr\_eric>** What does Linux mean?  
@@ -82,12 +82,12 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<jwinterm>** bigreddmachine: there's no lynx like version of firefox or chrome tho  
 **\<jwinterm>** that I'm aware of  
 **\<hrumag2>** To the public I mean  
-**\<xmr\_eric>** The problem with naming it just Monero is that no other piece of software gets to be called Monero  
+**\<xmr\_eric>** The problem with naming it just ByteRub is that no other piece of software gets to be called ByteRub  
 **\<xmr\_eric>** Which I'm ok with  
 **\<pero>** yes i can see reason in that argument bigreddmachine  
-**\<hyc>** MoneroUser  
+**\<hyc>** ByteRubUser  
 **\<xmr\_eric>** But it isn't good from a nomenclature standpoint  
-**\<bigreddmachine>** "Monero Wallet"?  
+**\<bigreddmachine>** "ByteRub Wallet"?  
 **\<pero>** what's monero-tools fluffypony ? the cli?  
 **\<fluffypony>** pero: yes  
 **\<fluffypony>** especially since they ship with the GUI  
@@ -97,12 +97,12 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** ok let's table this for the next meeting, we can open a thread or discuss it further under an existing one  
 **\<fluffypony>** s/thread/issue  
 **\<xmr\_eric>** Great  
-**\<hrumag2>** At least "Monero node", "Monero wallet cli", "Monero wallet gui"  
+**\<hrumag2>** At least "ByteRub node", "ByteRub wallet cli", "ByteRub wallet gui"  
 **\<gingeropolous>** moneromooo, I like this bike shed. It can fit many bikes  
 **\<fluffypony>** and then we'll make a decision at the next meeting  
 **\<Jaquee>** sounds good  
 **\<anonimal>** Two cents: 2 repos: libmonero and monero. monero has optional cli build alongside gui.  
-**\<fluffypony>** ok so 4. GetMonero.org redesign discussion  
+**\<fluffypony>** ok so 4. GetByteRub.org redesign discussion  
 **\<fluffypony>** rehrar wanted to show us the designs and get our input on it  
 **\<rehrar>** I don't want to take much time. Just want to get a special opinion from all the devs about the two proposed designs.  
 **\<rehrar>** If you haven't seen them already, you can find them here  
@@ -113,7 +113,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** The idea will be to redesign the current website and also to make an assets document that will have the HTML and CSS framework that we make so anyone can easily make more pages.  
 **\<i2p-relay> {-olark}** Will these sites still be usable with javascript disabled?  
 **\<rehrar>** No JavaScript will be used.  
-**\<anonimal>** https://github.com/monero-project/monero-site/issues/245  
+**\<anonimal>** https://github.com/byterubpay/monero-site/issues/245  
 **\<rehrar>** All in Jekyll  
 **\<rehrar>** Sorry, thank you anonimal  
 **\<vertp>** design 1 - draft 3 is the most popular on reddit. Most people are asking to add some of the community sponsored youtube vids to the homepage as well.  
@@ -126,7 +126,7 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<pero>** first one with some tweaks  
 **\<pero>** erm  
 **\<endogenic>** i agree, maybe some pretty-fication to #2  
-**\<aerbax>** I think it's important to include one of the Monero introductory videos on the frontpage of whatever design is chosen.  
+**\<aerbax>** I think it's important to include one of the ByteRub introductory videos on the frontpage of whatever design is chosen.  
 **\<pero>** second one\*  
 **\<i2p-relay> {-olark}** Ok  
 **\<endogenic>** cause it's an OSS / tech project after all  
@@ -150,16 +150,16 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** I agree.  
 **\<anonimal>** Site's goals? It's a website.  
 **\<pero>** yes the goal of providing information  
-**\<rehrar>** Monero is a unique project, and having a standard site is doing Monero a disservice imo.  
+**\<rehrar>** ByteRub is a unique project, and having a standard site is doing ByteRub a disservice imo.  
 **\<fluffypony>** @rehrar the world background and the different sections are nice  
 **\<fluffypony>** backgrounds for different sections I mean  
 **\<rehrar>** I agree that design 2 is a bit sterilized.  
 **\<anonimal>** Old people need to be able to use this too. Old people don't like to read most of the time because fonts are too small and if they are computer illiterate they don't know how to zoom.  
 **\<anonimal>** Technical illiteracy = most of planet earth.  
-**\<xmr\_eric>** Websites are absolutely about a main goal first. That's what good design is about. Funneling people into a path that they already want to go. Eg "What is this Monero thing?"  
+**\<xmr\_eric>** Websites are absolutely about a main goal first. That's what good design is about. Funneling people into a path that they already want to go. Eg "What is this ByteRub thing?"  
 **\<pero>** that argument is pointless anonimal  
 **\<pero>** old people that are actively using the internet have learned how to deal with those issues  
-**\<fluffypony>** anonimal: old people aren't going to use Monero, they'll use some L2 or L3 system on top of it  
+**\<fluffypony>** anonimal: old people aren't going to use ByteRub, they'll use some L2 or L3 system on top of it  
 **\<anonimal>** pero this is a dev meeting, feel free to leave anytime.  
 **\<anonimal>** You are not a dev.  
 **\<pero>** else they wouldnt be using it  
@@ -169,8 +169,8 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<rehrar>** If the overwhelming majority thinks design 1 even after draft 3 of design 2 then I will probably go with it  
 **\<fluffypony>** moneromooo: this is specifically to get dev input on the design  
 **\<rehrar>** But we're going to add some color to the design 2.  
-**\<hrumag2>** I think it should be given more underlining about how to buy Monero. Where do you think to put the link?  
-**\<rehrar>** Monero just has very...Specific branding colors. XD  
+**\<hrumag2>** I think it should be given more underlining about how to buy ByteRub. Where do you think to put the link?  
+**\<rehrar>** ByteRub just has very...Specific branding colors. XD  
 **\<fluffypony>** @rehrar let's see what you come up with on design 2 and then see  
 **\<rehrar>** Aight. Will do.  
 **\<fluffypony>** hrumag2: no, definitely not, that sort of funnel makes us liable  
@@ -194,10 +194,10 @@ An overview [can be found on MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** moneromooo: yep I'll be closing issues in the next few days too  
 **\<moneromooo>** Thanks.  
 **\<fluffypony>** anything else?  
-**\<bigreddmachine>** I have a Q: What is the "correct" way to propose an improvement / protocol change to Monero? Bitcoin has the BIP system, whereas for Monero things are basically handled via GitHub issues in the main repo. That means that, though discussions are documented permanently, they can be difficult to find and track over time. Is Monero getting to where it is big enough and has enough contributors that maybe we s  
+**\<bigreddmachine>** I have a Q: What is the "correct" way to propose an improvement / protocol change to ByteRub? Bitcoin has the BIP system, whereas for ByteRub things are basically handled via GitHub issues in the main repo. That means that, though discussions are documented permanently, they can be difficult to find and track over time. Is ByteRub getting to where it is big enough and has enough contributors that maybe we s  
 **\<bigreddmachine>** hould have a BIP-like process?  
 **\<fluffypony>** bigreddmachine: easiest way is just for us to have a label on Github (for consensus-critical changes)  
-**\<i2p-relay> {-olark}** I have a few things I would like to talk about regarding https://github.com/monero-project/monero/issues/1673 I should post another update soon  
+**\<i2p-relay> {-olark}** I have a few things I would like to talk about regarding https://github.com/byterubpay/monero/issues/1673 I should post another update soon  
 **\<i2p-relay> {-olark}** I can wait  
 **\<bigreddmachine>** fluffypony: but is that the ideal way to do it? after getting merged, closed, etc, those discussions are very tough to find. Something like BIP is a much better long-term place for those discussions  
 **\<fluffypony>** bigreddmachine: I think that changes should be written up as an MRL paper  

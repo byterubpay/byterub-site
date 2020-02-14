@@ -58,7 +58,7 @@ author: el00ruobuob / dEBRUYNE
 **\<hyc>** we don't care if it's ASICs or FPGAs, if it's not CPUs or GPUs it's a threat  
 **\<gingeropolous>** ^, agreed, but ... it'd be nice to get specific  
 **\<moneromooo>** Changing the algorithm to prevent a 51% makes sense to me. That is a definite, explicit improvement.  
-**\<dEBRUYNE>** One more note I forgot to add, tevador recently changed some parameters for RandomX, which significantly improved verification time -> https://github.com/monero-project/meta/issues/316#issuecomment-475651654  
+**\<dEBRUYNE>** One more note I forgot to add, tevador recently changed some parameters for RandomX, which significantly improved verification time -> https://github.com/byterubpay/meta/issues/316#issuecomment-475651654  
 **\<gingeropolous>** is this the 4 gb to 1 gb switch?  
 **\<oneiric\_>** if it was fpga, reaction should be different than a big cpu farm swatiching over  
 **\<fluffypony>** that makes me happy  
@@ -254,7 +254,7 @@ author: el00ruobuob / dEBRUYNE
 **\<ferretinjapan>** oneiric\_, not everyone in this room is on the same side. Theres plenty of sceptics alreay here.  
 **\<midipoet>** is paying a HW deisgn house to design an ASIC out of the question?  
 **\<dEBRUYNE>** One more thing we have to keep in mind is that we cannot stop the network and have to decide on what to do in October within a few months. Would people prefer another tweak or implementing RandomX (it is probably ready by then)?  
-**\<oneiric\_>** ok, maybe what i said is coming off wrong. i didn't mean any devs didn't know how to use blake2b, that's dumb. i was saying whoever does the audit shouldn't be associated with monero-project at all  
+**\<oneiric\_>** ok, maybe what i said is coming off wrong. i didn't mean any devs didn't know how to use blake2b, that's dumb. i was saying whoever does the audit shouldn't be associated with byterubpay at all  
 **\<rbrunner>** Any idea of cost of that ASIC design? six figures?  
 **\<fluffypony>** midipoet: they'd charge us for tape-out probably  
 **\<dEBRUYNE>** I personally think the tweaks ought to stop, hence my preference for RandomX  
@@ -447,7 +447,7 @@ author: el00ruobuob / dEBRUYNE
 **\<needmoney90>** barring emergency forks  
 **\<needmoney90>** we can maybe get one more off  
 **\<dEBRUYNE>** tevador: Yes, no changes  
-**\<dEBRUYNE>** Reintroducing tweaks reintroduces the same risks smooth described here -> https://github.com/monero-project/monero/issues/3387#issue-304296870  
+**\<dEBRUYNE>** Reintroducing tweaks reintroduces the same risks smooth described here -> https://github.com/byterubpay/monero/issues/3387#issue-304296870  
 **\<xmrmatterbridge> \<learninandlurkin>** I think it is clear that even a perfect CPU favouring algorithm would eventually need to be changed, because CPUs will eventually change  
 **\<dEBRUYNE>** Which we're trying to get away from with a long-term algorithm  
 **\<ArticMine>** This is an example why 2x or even 10x may not be a failure. 100x Yes that is a failure  
@@ -960,7 +960,7 @@ author: el00ruobuob / dEBRUYNE
 **\<hyc>** dEBRUYNE: +1 with that modification  
 **\<rbrunner>** Agree more or less  
 **\<sech1>** yes, it doesn't have to be fixed at SHA3  
-**\<sgp\_>** I added a summary of our thoughts a little over a week ago here: https://github.com/monero-project/meta/issues/316#issuecomment-472589586  
+**\<sgp\_>** I added a summary of our thoughts a little over a week ago here: https://github.com/byterubpay/meta/issues/316#issuecomment-472589586  
 **\<ph4r05>** moneromooo: to be sure, I set it to null now  
 **\<ferretinjapan>** sgp\_, not that I think QCs will be viable for a long time (if ever) but if we wanted to hedge against the possibility, RandomX would probably be much better than SHA3.  
 **\<sgp\_>** You can substitute "SHA3" for "an ASIC-friendly algorithm" in it  

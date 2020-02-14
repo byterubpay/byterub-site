@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-This GPG-signed message exists to confirm the SHA256 sums on Monero binaries.
+This GPG-signed message exists to confirm the SHA256 sums on ByteRub binaries.
 
 Please verify the signature against the signature for fluffypony in the
 source code repository (/utils/gpg_keys).

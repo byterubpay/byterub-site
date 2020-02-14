@@ -99,7 +99,7 @@
 
 ### 2.1. تنزيل مفتاح التوقيع
 
-في متصفح الويب إذهب إلي [Fluffypony's GPG key](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc) لتنزيل المفتاح المُستخدم في توقيع ملفات تثبيت مونيرو. ثم قم بحفظ الصفحه عن طريق النقر بزر الفاره الأيمن وإختيار `Save Page As`.
+في متصفح الويب إذهب إلي [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc) لتنزيل المفتاح المُستخدم في توقيع ملفات تثبيت مونيرو. ثم قم بحفظ الصفحه عن طريق النقر بزر الفاره الأيمن وإختيار `Save Page As`.
 
 ![getkey right click](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 

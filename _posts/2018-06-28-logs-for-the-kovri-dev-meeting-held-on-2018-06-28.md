@@ -38,9 +38,9 @@ author: selsta / anonimal
 **\<oneiric\_>** monerorus is a new contributor to the kovri site, and translated the site into Russian.  
 **\<oneiric\_>** el00ruobuob is a new contributor to the Kovri site, and translated the site into French.  
 **\<oneiric\_>** For details see merged PRs on github:  
-**\<oneiric\_>** kovri: https://github.com/monero-project/kovri/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+is%3Amerged  
-**\<oneiric\_>** kovri-site: https://github.com/monero-project/kovri-site/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+is%3Amerged  
-**\<oneiric\_>** kovri-docs: https://github.com/monero-project/kovri-docs/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+is%3Amerged  
+**\<oneiric\_>** kovri: https://github.com/byterubpay/kovri/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+is%3Amerged  
+**\<oneiric\_>** kovri-site: https://github.com/byterubpay/kovri-site/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+is%3Amerged  
+**\<oneiric\_>** kovri-docs: https://github.com/byterubpay/kovri-docs/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+is%3Amerged  
 **\<anonimal>** lol, thanks oneiric\_  
 **\<anonimal>** Also see open PRs.  
 **\<oneiric\_>** lol, no problem anonimal  

@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-08-20).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-08-20).  
 
 # Logs  
 
@@ -223,15 +223,15 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<msvb-lab>** https://forum.getmonero.org/7/open-tasks/88149/dedicated-monero-hardware-wallet/  
 **\<hyc>** and was announced here a few hours earlier  
 **\<msvb-lab>** https://forum.getmonero.org/7/open-tasks/88160/monero-firmware-for-ledger-wallet/  
-**\<endogenic>** sn0wmonster: https://github.com/monero-project/meta/issues  
-**\<fluffypony>** sn0wmonster: https://www.reddit.com/r/Monero/comments/6uvu94/dev_kovri_meetings_later_today_1700_1800_utc/  
+**\<endogenic>** sn0wmonster: https://github.com/byterubpay/meta/issues  
+**\<fluffypony>** sn0wmonster: https://www.reddit.com/r/ByteRub/comments/6uvu94/dev_kovri_meetings_later_today_1700_1800_utc/  
 **\<DaveyJones>** shhh listen to othe and msvb-lab  
 **\<sn0wmonster>** i didn't say it wasn't known, i said the *chatlog* had no introduction that the meeting had started really  
 **\<endogenic>** sn0wmonster: it did though ?  
 **\<JollyMort[m]>** i'm saying it had :) first post by fluffypony with the agenda 0. .. 1. .. 2.. ...  
 **\<JollyMort[m]>** maybe you missed it  
 **\<msvb-lab>** DaveyJones: Rather than listen, please speak whoever is interested in hardware crypto and border searches.  
-**\<rehrar>** but it didn't have the Monero symbol  
+**\<rehrar>** but it didn't have the ByteRub symbol  
 **\<endogenic>** msvb-lab: doesn't quite seem like a dev item tho  
 **\<hyc>** yeah, I think we can put that meeting announcement topic to rest.  
 **\<DaveyJones>** msvb-lab they cannot speak if they don`t listen :D  
@@ -242,7 +242,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<iDunk>** Yw :)  
 **\<JollyMort[m]>** it's still missing features  
 **\<moneromooo>** If someone feels like syncing, please try the sync-standby3 branch :)  
-**\<endogenic>** msvb-lab: no need to post-pone. maybe bring it up in #Monero ?  
+**\<endogenic>** msvb-lab: no need to post-pone. maybe bring it up in #ByteRub ?  
 **\<dEBRUYNE>** rehrar, endogenic: If there's room left, why not give msvb-lab the floor for a few minutes?  
 **\<moneromooo>** It may not be code per se, but it's tech. I think it's fine here. Still 10 minutes.  
 **\<othe>** I'll just sponsor it, its hilarious that there's no secure way to store xmr.  
@@ -258,18 +258,18 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<surae>** if possible  
 **\<surae>** cat's out of the bag, but i mean  
 **\<msvb-lab>** hyc: One deals with dedicated hardware design, the other with porting to existing hardware.  
-**\<fluffypony>** msvb-lab: https://www.reddit.com/r/Monero/comments/6thv8j/ledger_hardware_wallet_monero_integration/ \<- this is from 6 days ago  
+**\<fluffypony>** msvb-lab: https://www.reddit.com/r/ByteRub/comments/6thv8j/ledger_hardware_wallet_monero_integration/ \<- this is from 6 days ago  
 **\<endogenic>** 2quick4u fyi  
 **\<msvb-lab>** fluffypony: That's probably Cedric's document Blue-something, quite good.  
 **\<dEBRUYNE>** \<msvb-lab> hyc: One deals with dedicated hardware design, the other with porting to existing hardware. \<= Even though the former would be pretty cool, the latter is probably more beneficial  
 **\<JollyMort[m]>** and debruyne out the link then; i feel like simply removing stuff from the logs goes against some principle on transparency  
-**\<hyc>** looks to me like Ledger has done the hard part of figuring out the division of labor between hw wallet and Monero libraries  
+**\<hyc>** looks to me like Ledger has done the hard part of figuring out the division of labor between hw wallet and ByteRub libraries  
 **\<Jaquee>** ledger said alpha around end of september iirc.  
 **\<fluffypony>** I don't think there's value in doubling up on the Ledger effort  
 **\<hyc>** ^^ agreed  
 **\<dEBRUYNE>** What about porting to Trezor and Keepkey though?  
 **\<Jaquee>** +1  
-**\<msvb-lab>** There have been firmware ports (to Trezor) before that have not met Monero's feature set (RingCT) or unmaintained.  
+**\<msvb-lab>** There have been firmware ports (to Trezor) before that have not met ByteRub's feature set (RingCT) or unmaintained.  
 **\<dEBRUYNE>** Perhaps msvb-lab is interested in finishing noodle's code?  
 **\<fluffypony>** msvb-lab: Trezor was more complicated than that  
 **\<msvb-lab>** I just hope if Cedric completes the port, that there is maintenance after that.  
@@ -290,7 +290,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** msvb-lab: I'd support effort on a dedicated HW wallet  
 **\<JollyMort[m]>** chip design etc? that sounds good  
 **\<JollyMort[m]>** especially if all the schematics are published  
-**\<msvb-lab>** Something that interests me is adding Monero specific features to a dedicated wallet, and make it as border search proof as possible (not supported by Ledger.)  
+**\<msvb-lab>** Something that interests me is adding ByteRub specific features to a dedicated wallet, and make it as border search proof as possible (not supported by Ledger.)  
 **\<JollyMort[m]>** so anyone can buy the parts and build it  
 **\<hyc>** lol. I'm not soldering surface-mount chips by myself.  
 **\<msvb-lab>** JollyMort[m]: Everything would be designed with KiCad and published in a github or similar.  
@@ -451,7 +451,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<dEBRUYNE>** fluffypony: I think sarang was rewriting the proposal, but I am not sure if he has finished yet  
 **\<fluffypony>** ok  
 **\<pizzasushibeer>** If the community is willing to fund, it I see nothing wrong with moving proposal to funding required (after any more required clarifications are made)  
-**\<sn0wmonster>** i think i'm gonna bother these guys to make a patch for their box for Monero http://bitseed.org/  
+**\<sn0wmonster>** i think i'm gonna bother these guys to make a patch for their box for ByteRub http://bitseed.org/  
 **\<sn0wmonster>** wrong channel  
 **\<pizzasushibeer>** I would help contribute to the hardware wallet proposal. Im sure others agree  
 **\<pigeons>** if pero's questions aren't answered maybe post a forum reply reminding him that so sarang can see clearly its outstanding still  
@@ -478,10 +478,10 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<fluffypony>** rehrar: why?  
 **\<moneromooo>** It's a good, if small, incentive for people to support monero.  
 **\<moneromooo>** And for connecting monero spenders with monero earners.  
-**\<rehrar>** As Monero grows it will become gigantic eventually, but maybe that's not a huge issue.  
+**\<rehrar>** As ByteRub grows it will become gigantic eventually, but maybe that's not a huge issue.  
 **\<rehrar>** Just my thoughts.  
 **\<hyc>** success problems are nice to have. we're not there yet  
-**\<moneromooo>** Oh, sure. Once Monero's world reserve currency, it can go :)  
+**\<moneromooo>** Oh, sure. Once ByteRub's world reserve currency, it can go :)  
 **\<DaveyJones>** \^ but only then  
 **\<dEBRUYNE>** fluffypony: All right, seems cool. That'd also relieve you from some "low hanging fruit" work  
 **\<dEBRUYNE>** Which still can be quite time consuming  

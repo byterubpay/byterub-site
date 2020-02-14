@@ -98,7 +98,7 @@ This section will cover downloading the Monero signing key, verifying that the k
 
 ### 2.1. Download Signing Key
 
-In a web browser, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), which he uses for signing the Monero binaries. Right click on the page, choose `Save Page As`.
+In a web browser, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), which he uses for signing the Monero binaries. Right click on the page, choose `Save Page As`.
 
 ![getkey right click](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 

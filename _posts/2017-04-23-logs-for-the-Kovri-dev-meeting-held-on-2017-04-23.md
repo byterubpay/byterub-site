@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Kovri Dev Meeting Held on 2017-04-23
-summary: Brief review of what has been completed since last meeting, Monero HackerOne Bounty, 96boards OpenHours showcase, Github repo privilege discussion, website discussion, and code & open tickets discussion
+summary: Brief review of what has been completed since last meeting, ByteRub HackerOne Bounty, 96boards OpenHours showcase, Github repo privilege discussion, website discussion, and code & open tickets discussion
 tags: [dev diaries, i2p, crypto]
 author: dEBRUYNE / fluffypony
 ---  
@@ -10,23 +10,23 @@ author: dEBRUYNE / fluffypony
 
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46) (@fluffypony @danrmiller location status, @anonimal "de-anon consideration" status)  
-**\<anonimal>** 4. Status (again) of [Monero HackerOne umbrella and bounty](https://github.com/monero-project/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
+**\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46) (@fluffypony @danrmiller location status, @anonimal "de-anon consideration" status)  
+**\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
 **\<anonimal>** 5. Website status (@rehrar @bigreddmachine @alvinjoelsantos @danrmiller)  
 **\<anonimal>** 6. Code + ticket discussion / Q & A  
 **\<anonimal>** 7. Any additional meeting items  
 **\<anonimal>** 8. Confirm next meeting date/time  
 **\<anonimal>** Hello. It looks like fluffypony is MIA.  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** https://github.com/monero-project/kovri/pulse/monthly \<-- #615 to #629, in particular #627  
+**\<anonimal>** https://github.com/byterubpay/kovri/pulse/monthly \<-- #615 to #629, in particular #627  
 **\<anonimal>** Anything else before we move onto 3.?  
-**\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / Monero](https://github.com/monero-project/meta/issues/46) (@fluffypony @danrmiller location status, @anonimal "de-anon consideration" status)  
+**\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46) (@fluffypony @danrmiller location status, @anonimal "de-anon consideration" status)  
 **\<anonimal>** fluffypony is MIA, I think pigeons is MIA, I'm not de-anoning for the time being.  
 **\<anonimal>** Anything else on 3.?  
 **\<guzzijones12>** on 2 i am working on removing the global client context.  
 **\<anonimal>** Whatever your strategy is, the same strategy *should* apply to core context, just FYI.  
 **\* anonimal** we can talk more in 6.  
-**\<anonimal>** 4. Status (again) of [Monero HackerOne umbrella and bounty](https://github.com/monero-project/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
+**\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
 **\<anonimal>** fluffypony needs to move this to funding required https://forum.getmonero.org/6/ideas/87597/monero-bounty-for-hackerone  
 **\<anonimal>** We can't move forward until that happens.  
 **\<anonimal>** I've submitted a VRP to monero/#1995  
@@ -62,11 +62,11 @@ author: dEBRUYNE / fluffypony
 **\<johnalan>** ;)  
 **\<johnalan>** hows the Kovri site?  
 **\<johnalan>** any news on that end?  
-**\<rehrar>** Well, I showed the design for it, which was based off of the chosen Monero design.  
-**\<rehrar>** I've been making Monero wires.  
+**\<rehrar>** Well, I showed the design for it, which was based off of the chosen ByteRub design.  
+**\<rehrar>** I've been making ByteRub wires.  
 **\<rehrar>** The Kovri site should be easier since there's not as much info.  
 **\<johnalan>** cool - great work  
-**\<rehrar>** Because of that, I'd like to make custom pages for each Kovri page based on the same CSS framework that will be developed for Monero.  
+**\<rehrar>** Because of that, I'd like to make custom pages for each Kovri page based on the same CSS framework that will be developed for ByteRub.  
 **\<rehrar>** The goal for both sites is to make upkeep and adding/editing pages as simple as possible. As simple as copy and pasting out of a HTML/css assets document to construct the blocks of pages.  
 **\<johnalan>** fab  
 **\<johnalan>** sounds good my man  

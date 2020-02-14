@@ -12,7 +12,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** Kovri meeting start, all yours  
 **\<i2p-relay> {-meeting-bot} [anonimal]** 1. Greetings  
 **\<i2p-relay> {-meeting-bot} [anonimal]** 2. Brief review of what's been completed since the previous meeting  
-**\<i2p-relay> {-meeting-bot} [anonimal]** 3. Status of alpha release preparations - https://github.com/monero-project/kovri/issues?utf8=%E2%9C%93&q=is%3Aopen%20is%3Aissue%20milestone%3A0.1.0-alpha%20  
+**\<i2p-relay> {-meeting-bot} [anonimal]** 3. Status of alpha release preparations - https://github.com/byterubpay/kovri/issues?utf8=%E2%9C%93&q=is%3Aopen%20is%3Aissue%20milestone%3A0.1.0-alpha%20  
 **\<i2p-relay> {-meeting-bot} [anonimal]** 4. Code + ticket discussion / Q & A  
 **\<i2p-relay> {-meeting-bot} [anonimal]** 5. Any additional meeting items  
 **\<i2p-relay> {-meeting-bot} [anonimal]** 6. Confirm next meeting date/time  
@@ -52,14 +52,14 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-meeting-bot} [anonimal]** I'd love to dwell on the work accomplished over the past two weeks but I think we can move on, any objections?  
 **\<i2p-relay> {-guzzi}** onward  
 **\<i2p-relay> {-fluffypony}** let's move on  
-**\<i2p-relay> {-meeting-bot} [anonimal]** 3. Status of alpha release preparations - https://github.com/monero-project/kovri/issues?utf8=%E2%9C%93&q=is%3Aopen%20is%3Aissue%20milestone%3A0.1.0-alpha%20  
+**\<i2p-relay> {-meeting-bot} [anonimal]** 3. Status of alpha release preparations - https://github.com/byterubpay/kovri/issues?utf8=%E2%9C%93&q=is%3Aopen%20is%3Aissue%20milestone%3A0.1.0-alpha%20  
 **\<i2p-relay> {-meeting-bot} \* anonimal** clicks  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Ok, don't be alarmed, but it's actually not a lot if you look carefully.  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Some of these can even be moved to next milestone if needed.  
 **\<i2p-relay> {-meeting-bot} [anonimal]** fluffypony: can you give a status on 33c3 and your thoughts on a release (like we spoke about earlier)?  
 **\<i2p-relay> {-fluffypony}** yes  
 **\<i2p-relay> {-fluffypony}** so our original plan was to co-host an assembly with i2p at 33C3  
-**\<i2p-relay> {-fluffypony}** basically hosting an i2p + Monero table  
+**\<i2p-relay> {-fluffypony}** basically hosting an i2p + ByteRub table  
 **\<i2p-relay> {-fluffypony}** and then have the Kovri alpha ready by then  
 **\<i2p-relay> {-fluffypony}** unfortunately this year's congress ticketing setup has been a mess  
 **\<i2p-relay> {-fluffypony}** through no fault of their own, this is the most popular CCC ever  
@@ -116,7 +116,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-meeting-bot} [anonimal]** As for "release", I can simply throw the bundle together in nightly releases.  
 **\<i2p-relay> {-meeting-bot} [anonimal]** I think what people really want is something that "feels" released.  
 **\<i2p-relay> {-meeting-bot} [anonimal]** The title means nothing really.  
-**\<i2p-relay> {-fluffypony}** we can couple nightlies with the Monero nightlies  
+**\<i2p-relay> {-fluffypony}** we can couple nightlies with the ByteRub nightlies  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Sounds fair.  
 **\<i2p-relay> {-fluffypony}** on the list of alpha issues  
 **\<i2p-relay> {-fluffypony}** we've made progress on the Zoho setup  
@@ -168,7 +168,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** the new hosting infrastructure is for site  
 **\<i2p-relay> {-fluffypony}** both are running parralel-ish  
 **\<i2p-relay> {-fluffypony}** parallel-ish  
-**\<i2p-relay> {-meeting-bot} [anonimal]** https://github.com/monero-project/kovri/issues/46#issuecomment-242990742  
+**\<i2p-relay> {-meeting-bot} [anonimal]** https://github.com/byterubpay/kovri/issues/46#issuecomment-242990742  
 **\<i2p-relay> {-meeting-bot} [vertp]** Is there a new site going up to replace getmonero?  
 **\<i2p-relay> {-meeting-bot} [anonimal]** lol, time will fly.  
 **\<i2p-relay> {-meeting-bot} [vertp]** Oh, kovri. sorry  
@@ -251,7 +251,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** kk  
 **\<i2p-relay> {-meeting-bot} [anonimal]** 6. Confirm next meeting date/time  
 **\<i2p-relay> {-fluffypony}** meeting bot going down  
-**\<i2p-relay> {-olark}** I agree. TweetNaCl is definitely something to consider. Will take more consideration, but I think could be very useful for both Kovri and Monero.  
+**\<i2p-relay> {-olark}** I agree. TweetNaCl is definitely something to consider. Will take more consideration, but I think could be very useful for both Kovri and ByteRub.  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Same time, two weeks?  
 **\<i2p-relay> {-fluffypony}** oh after 6  
 **\<i2p-relay> {-olark}** Sounds good.  

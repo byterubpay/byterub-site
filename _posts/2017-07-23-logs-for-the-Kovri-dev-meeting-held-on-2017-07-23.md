@@ -12,7 +12,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<anonimal>** 3. Contributor FFS check-in / status  
 **\<anonimal>** 4. Meta Issue #27 : Where should we officially host the IRC server?  
-**\<anonimal>** 5. Open Meta issue review https://github.com/monero-project/meta/issues  
+**\<anonimal>** 5. Open Meta issue review https://github.com/byterubpay/meta/issues  
 **\<anonimal>** 6. Code + ticket discussion / Q & A  
 **\<anonimal>** 7. Any additional meeting items  
 **\<anonimal>** 8. Confirm next meeting date/time  
@@ -72,7 +72,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Nyet  
 **\<rehrar>** Нет  
 **\<anonimal>** 4. Meta Issue #27 : Where should we officially host the IRC server?  
-**\<rehrar>** It's Monero and Kovri right?  
+**\<rehrar>** It's ByteRub and Kovri right?  
 **\* moneromooo** listens  
 **\<anonimal>** This is tricky and requires auth from the core dev team. I don't think we have this written anywhere though we should.  
 **\<anonimal>** Whoever has the kovri privkeys to the irc server, rules the universe.  
@@ -86,7 +86,7 @@ author: dEBRUYNE / fluffypony
 **\<moneromooo>** OK, I've found the reason in #27.  
 **\<moneromooo>** It's just the I2P part.  
 **\<pigeons1[m]>** I'm assuming an irc server connected only to irc2p wouldnt be a bad resources and maintenance load, unlike a public ircd  
-**\<anonimal>** lol oh yeah, I gave more reasons https://github.com/monero-project/meta/issues/27#issue-195122544  
+**\<anonimal>** lol oh yeah, I gave more reasons https://github.com/byterubpay/meta/issues/27#issue-195122544  
 **\<anonimal>** pigeons1[m]: yes, I don't think it would be as bad on resources or maintenance compared to a public ircd  
 **\<anonimal>** I think permissions/jailing could be worked out so a 2nd person can ssh into the box to take care of the ircd instance if needed too.  
 **\<anonimal>** And of course exclude them from any access to the kovri/i2p privkeys  
@@ -116,10 +116,10 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Anyway, we can chat more about that after the meeting.  
 **\<anonimal>** Anything else on 4. and the irc2p issue?  
 **\<ajs>** Oops will correct  
-**\<anonimal>** 5. Open Meta issue review https://github.com/monero-project/meta/issues  
+**\<anonimal>** 5. Open Meta issue review https://github.com/byterubpay/meta/issues  
 **\* anonimal** reads  
 **\<rehrar>** #70 is concerning  
-**\<anonimal>** https://github.com/monero-project/meta/issues/46 \<-- the July 27th date has now been officially rescheduled for August 17th  
+**\<anonimal>** https://github.com/byterubpay/meta/issues/46 \<-- the July 27th date has now been officially rescheduled for August 17th  
 **\<anonimal>** 96boards had to reschedule our July 27th date. I got the email re: Aug 17th and it should be a packed show (at least 15 people on the call)  
 **\<anonimal>** So we'll monero it up there.  
 **\* anonimal** checks #70  
@@ -145,7 +145,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** rehrar: I enjoyed those test instances of taiga + mattermost.  
 **\<pigeons1[m]>** :)  
 **\* anonimal** looks forward to going live  
-**\<rehrar>** I'm working on an action plan to talk with some local universities and their CS departments regarding Monero/Kovri and will be handing out information packets if I can talk with some professors.  
+**\<rehrar>** I'm working on an action plan to talk with some local universities and their CS departments regarding ByteRub/Kovri and will be handing out information packets if I can talk with some professors.  
 **\<pigeons1[m]>** I would go over that with surae and surang who have a decent connection to acadamia  
 **\<rehrar>** Maybe even see if they wouldn't be willing to give college credit for a student contributing to the project in a measurable way. I remember when I was in college that professors were looking for opportunities like that in the field (though I was in Biology)  
 **\<rehrar>** I'll talk to them.  
@@ -153,7 +153,7 @@ author: dEBRUYNE / fluffypony
 **\<moneromooo>** s/surang/sarang/  
 **\<rehrar>** You know what they say, shoot for the moon, if you miss you will be in the deep black void of space and die alone. :(  
 **\<rehrar>** Anyone know about opensource.com ?  
-**\<anonimal>** Whoever ends up doing that could also expand into non-CS depts. Monero for all (with a computer).  
+**\<anonimal>** Whoever ends up doing that could also expand into non-CS depts. ByteRub for all (with a computer).  
 **\<rehrar>** They run articles every one in a while, and I was thinking about contacting them for maybe asking about what is needed for a Kovri article.  
 **\<rehrar>** I don't know how much clout it has, but if frequent OSS contributors look at it (or a similar site), then it may bring us to the attention of some potentially interested people.  
 **\<anonimal>** Media interaction is a probably a topic in it's own right. We're out of time though so let's move it to the next meeting or chat more after the meeting.  

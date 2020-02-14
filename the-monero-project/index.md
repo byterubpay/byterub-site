@@ -1,7 +1,7 @@
 ---
 layout: default
 title: titles.themoneroproject
-permalink: /the-monero-project/index.html
+permalink: /the-byterubpay/index.html
 ---
 
 {% t global.lang_tag %}
@@ -15,11 +15,11 @@ permalink: /the-monero-project/index.html
                             <h2>Kovri</h2>
                         </div>
                     </div>
-                    <div class="row start-xs monero-project">
-                        <p>{% t monero-project.kovri %}</p>
+                    <div class="row start-xs byterubpay">
+                        <p>{% t byterubpay.kovri %}</p>
                     </div>
                     <div class="row center-xs">
-                        <p><a href="https://www.kovri.io" class="btn-link btn-fixed">{% t monero-project.kovri_button %}</a></p>
+                        <p><a href="https://www.kovri.io" class="btn-link btn-fixed">{% t byterubpay.kovri_button %}</a></p>
                     </div>
                 </div>
             </div>
@@ -30,11 +30,11 @@ permalink: /the-monero-project/index.html
                             <h2>Open Alias</h2>
                         </div>
                     </div>
-                    <div class="row start-xs monero-project">
-                        <p>{% t monero-project.openalias %}</p>
+                    <div class="row start-xs byterubpay">
+                        <p>{% t byterubpay.openalias %}</p>
                     </div>
                     <div class="row center-xs">
-                        <p><a href="https://www.openalias.org" class="btn-link btn-fixed">{% t monero-project.openalias_button %}</a></p>
+                        <p><a href="https://www.openalias.org" class="btn-link btn-fixed">{% t byterubpay.openalias_button %}</a></p>
                     </div>
                 </div>
             </div>

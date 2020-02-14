@@ -8,11 +8,11 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_2017-08-06).  
+An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-08-06).  
 
 # Logs  
 
-**\<rehrar>** The usual: https://github.com/monero-project/meta/issues/99  
+**\<rehrar>** The usual: https://github.com/byterubpay/meta/issues/99  
 **\<rehrar>** Btw, pony has asked me to make the meeting issues from now on cuz he forget. :)  
 **\<hyc>** ok cool  
 **\<Fymiywtfbtcxmr>** 1st Issue should be min ring size  
@@ -136,7 +136,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<johnalan>** but you have to trust the binary on the store  
 **\<johnalan>** not much you can do  
 **\<endogenic>** johnalan: Apple's acting as the authority there  
-**\<johnalan>** \@endogenic on the my Monero iOS app, are you close to beta test?  
+**\<johnalan>** \@endogenic on the my ByteRub iOS app, are you close to beta test?  
 **\<endogenic>** certainly are  
 **\<luigi1111>** fluffypony fluffypony fluffypony  
 **\<johnalan>** great!  
@@ -164,7 +164,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<johnalan>** it wouldn’t be on the ‘App Store’  
 **\<johnalan>** so that’s where it would be suboptimal  
 **\<endogenic>** anything else completed since last mtg?  
-**\<johnalan>** people need to be able to take a new iphone, open the store and type ‘Monero’  
+**\<johnalan>** people need to be able to take a new iphone, open the store and type ‘ByteRub’  
 **\<hyc>** that can come later. if we want people to beta test now, this is the fast route.  
 **\<johnalan>** fair enough I guess  
 **\<johnalan>** we can just use test flight  
@@ -231,7 +231,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<endogenic>** if you trust them… :P  
 **\<Jaquee>** i also have one  
 **\<serhack>** :0  
-**\<Jaquee>** https://github.com/monero-project/monero-core/pull/780  
+**\<Jaquee>** https://github.com/byterubpay/monero-core/pull/780  
 **\<serhack>** Thanks jaquee  
 **\<Jaquee>** 5 minutes left... i'm wondering about that memory leak in monerod. do we have any clue yet?  
 **\<moneromooo>** I don't think there's really one.  
@@ -260,7 +260,7 @@ An overview can be found on [MoneroBase](https://monerobase.com/wiki/DevMeeting_
 **\<Jaquee>** no?  
 **\<rehrar>** Sec  
 **\<serhack>** @krokbaltsar is a UX designer  
-**\<rehrar>** Monero UX - Persona and Mobile Wallet Concept  https://www.reddit.com/r/Monero/comments/6qkw8e/monero_ux_persona_and_mobile_wallet_concept/  
+**\<rehrar>** ByteRub UX - Persona and Mobile Wallet Concept  https://www.reddit.com/r/ByteRub/comments/6qkw8e/monero_ux_persona_and_mobile_wallet_concept/  
 **\<rehrar>** This one.  
 **\<serhack>** https://www.gustafgarnow.com/monerowallet/  
 **\<serhack>** ^^ best design  

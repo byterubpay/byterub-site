@@ -4079,20 +4079,20 @@ p.hangouts-social {
 
 /**************************MONERO PROJECT***********************/
 
-.monero-project p {
+.byterubpay p {
     height: 14rem;
 }
 
 @media only screen and (max-width: 75rem) {
 
-.monero-project p {
+.byterubpay p {
     height: 15rem;
 }
 
 }
 
 @media only screen and (max-width: 62rem) {
-.monero-project p {
+.byterubpay p {
     height: auto;
 }
 

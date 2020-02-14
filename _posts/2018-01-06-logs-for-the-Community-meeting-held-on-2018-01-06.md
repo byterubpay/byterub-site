@@ -9,9 +9,9 @@ author: dEBRUYNE / fluffypony
 # Logs  
 
 **\<sgp>** 0. Introduction  
-**\<sgp>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/155  
-**\<sgp>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting!  
+**\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/155  
+**\<sgp>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
 **\<rehrar>** oy  
 **\<ErCiccione>** Hi folks  
@@ -21,14 +21,14 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** yo  
 **\<msvb-lab>** Oops, I was on the wrong channel. Hi folks.  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the Monero Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** There are several FFS updates.  
 **\<sgp>** a. RFC-HWALLET-1 project progress  
 **\<sgp>** @msvb-lab, your turn 😅  
 **\<ArticMine>** Hi  
 **\<msvb-lab>** Cool.  
-**\<msvb-lab>** The Monero Hardware had a nice meeting yesterday of our own.  
+**\<msvb-lab>** The ByteRub Hardware had a nice meeting yesterday of our own.  
 **\<msvb-lab>** We chatted on #monero-hardware for about an hour on seventeen topics.  
 **\<msvb-lab>** Highlights of the past couple weeks are:  
 **\<msvb-lab>** Our hardware wallet GitHub repository 'sekura' will be renamed to 'kastelo'.  
@@ -48,8 +48,8 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** but I'll jump right on it  
 **\<msvb-lab>** sarang: That's excellent, very generous as usual of MRL.  
 **\<sgp>** Thanks msvb-lab  
-**\<sgp>** b. Monero Integrations  
-**\<sgp>** Serhack and cryptochangements posted an update: https://www.reddit.com/r/Monero/comments/7o3rx6/serhack_updates_for_the_ebook_and_integrations/  
+**\<sgp>** b. ByteRub Integrations  
+**\<sgp>** Serhack and cryptochangements posted an update: https://www.reddit.com/r/ByteRub/comments/7o3rx6/serhack_updates_for_the_ebook_and_integrations/  
 **\<sgp>** Do any of them want to speak about this now?  
 **\<cryptochangements>** oh crap im late  
 **\<cryptochangements>** is serhack here?  
@@ -96,7 +96,7 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<ErCiccione>** \* there is needing of a lot of clean documentation, thank you for bringing that up  
 **\<ordtrogen>** Oh, a man file is somewhere in the repos?  
 **\<ordtrogen>** CLI or GUI`?  
-**\<dEBRUYNE>** Just dropping this here: https://www.reddit.com/r/Monero/comments/7nl38w/technical_documentation_for_monero/ds2nkfu/  
+**\<dEBRUYNE>** Just dropping this here: https://www.reddit.com/r/ByteRub/comments/7nl38w/technical_documentation_for_monero/ds2nkfu/  
 **\<ordtrogen>** Oh, great  
 **\<ordtrogen>** I don't have time to follow r/monero too much  
 **\<ErCiccione>** dEBRUYNE, uh that looks very good  
@@ -106,10 +106,10 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sgp>** Ok, I'm going to move on. Thanks @dEBRUYNE @ErCiccione  
 **\<sgp>** 4. Fondajo  
 **\<sgp>** After months of progress, I am pleased to announce that I am proceeding with a 501(c)3 nonprofit cryptocurrency foundation called “Fondajo”. I have a great workgroup of people who are helping organize all the documents.  
-**\<sgp>** This cryptocurrency nonprofit will promote education, research, and development. One of its values will be to promote privacy projects. The foundation will still be completely separate from Monero.  
+**\<sgp>** This cryptocurrency nonprofit will promote education, research, and development. One of its values will be to promote privacy projects. The foundation will still be completely separate from ByteRub.  
 **\<sgp>** When the nonprofit is officially incorporated, I will hand over the responsibilities of this workgroup to rehrar. I’m sure that we can use some help from other members who have been active these past several months.  
-**\<sgp>** To be clear, this is not a Monero-specific foundation, but it will support many of Monero'  
-**\<sgp>** \*many of Monero's projects  
+**\<sgp>** To be clear, this is not a ByteRub-specific foundation, but it will support many of ByteRub'  
+**\<sgp>** \*many of ByteRub's projects  
 **\<ArticMine>** This is a US base non profit?  
 **\<sgp>** Yes, US-based  
 **\<sgp>** Which will allow people in the US to make tax-deductible donations  
@@ -131,17 +131,17 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<dEBRUYNE>** I am just talking about their endeavors etc.  
 **\<sgp>** Since this is a 501(c)3, the focus will be entirely on education, research, and (hopefully) development  
 **\<cwcopz>** "Fondajo" sounds like an intersting project. Is there more information available? Is there a official homepage?  
-**\<sgp>** I think it will really help raise money for projects that can benefit Monero and other privacy projects  
+**\<sgp>** I think it will really help raise money for projects that can benefit ByteRub and other privacy projects  
 **\<sarang>** I know suraeNoether has toyed around with the idea of a nonprofit too, so I'll page him here  
 **\<rehrar>** Privacy advocacy!  
 **\<sgp>** cwcopz I have the domain but haven't made a website yet  
-**\<rehrar>** Monero is just one tool in the opsec of a privacy focused person  
+**\<rehrar>** ByteRub is just one tool in the opsec of a privacy focused person  
 **\<cwcopz>** Is there a way to stay up to date? I would like to donate to this project as well.  
 **\<sgp>** Any other questions?  
-**\<sgp>** I want to assure everyone that Fondajo will remain completely separate from Monero itself  
+**\<sgp>** I want to assure everyone that Fondajo will remain completely separate from ByteRub itself  
 **\<ordtrogen>** Did you get the  .co  domain?  
 **\<dEBRUYNE>** Is anyone getting paid?  
-**\<sgp>** @cwcopz I'll put all major updates in /r/Monero and /r/MoneroCommunity  
+**\<sgp>** @cwcopz I'll put all major updates in /r/ByteRub and /r/ByteRubCommunity  
 **\<cwcopz>** Okay, thanks. Sounds promising!  
 **\<sgp>** @dEBRUYNE it's likely there will be overhead for some positions, but I want to keep it minimal  
 **\<dEBRUYNE>** I am personally not a fan of people getting paid in a nonprofit, it should be done altruistically  
@@ -162,7 +162,7 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sarang>** and suraeNoether plans to attend the RWC conference in Zurich with fluffypony  
 **\<sarang>** So we have an open FFS for the usual expenses  
 **\<rehrar>** 5 star hotel, caviar every night, the works  
-**\<sarang>** I'm mainly looking for input from the group about how important y'all feel conferences are for the Monero group  
+**\<sarang>** I'm mainly looking for input from the group about how important y'all feel conferences are for the ByteRub group  
 **\<sarang>** and if FFS should be the preferred way of sending folks to conferences that we agree are worthwhile  
 **\<dEBRUYNE>** sgp, sarang: Let's discuss that another time :P  
 **\<dEBRUYNE>** sarang: conferences are one of the main ways to network  
@@ -170,11 +170,11 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<dEBRUYNE>** As long as they aren't detrimental for day-to-day work  
 **\<dEBRUYNE>** i.e. it leaves no time to work on "normal" stuff  
 **\<rehrar>** To answer the first question: extremely important  
-**\<rehrar>** The Monero Project needs to be a part of a larger conversation  
+**\<rehrar>** The ByteRub Project needs to be a part of a larger conversation  
 **\<sarang>** dEBRUYNE: the conference schedules are usually pretty packed, but BPASE is only 3 days  
 **\<rehrar>** a conversation about privacy, human rights, cryptography, and more  
-**\<rehrar>** going to these conferences is a way for representatives of The Monero Project to be a part of that conversation  
-**\<rehrar>** I think The Monero Project has a unique voice, and unique things to add to such conversations as well, and our perspective will be helpful  
+**\<rehrar>** going to these conferences is a way for representatives of The ByteRub Project to be a part of that conversation  
+**\<rehrar>** I think The ByteRub Project has a unique voice, and unique things to add to such conversations as well, and our perspective will be helpful  
 **\<ErCiccione>** sarang: link of the FFS?  
 **\<sarang>** OK thanks for this perspective  
 **\<rehrar>** https://forum.getmonero.org/8/funding-required/89695/funding-for-noether-brothers-to-attend-stanford-bpase18-conference  
@@ -186,8 +186,8 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sarang>** Nope, just wanted to open the broader conversation  
 **\<sarang>** Appreciate the insights from all of you  
 **\<sgp>** 5. Community materials  
-**\<sgp>** This section of the meeting was inspired by this post: https://www.reddit.com/r/Monero/comments/7obquf/wake_up_we_need_better_marketing_and_better/  
-**\<sgp>** Let’s discuss how the Monero community can better market itself to others and what materials could be beneficial to newcomers.  
+**\<sgp>** This section of the meeting was inspired by this post: https://www.reddit.com/r/ByteRub/comments/7obquf/wake_up_we_need_better_marketing_and_better/  
+**\<sgp>** Let’s discuss how the ByteRub community can better market itself to others and what materials could be beneficial to newcomers.  
 **\<sgp>** Anyone want to begin?  
 **\<cryptochangements>** yesterday i saw a youtube ad for Bitcoin. I think we need one for monero with fluffypony in a lambo  
 **\<cryptochangements>** \s  
@@ -196,9 +196,9 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<Guest93332>** I want to know why is this community not communicated more on the official channels? i only heard about it as an comment on an reddit thread? This here should be more public.  
 **\<sarang>** I find it interesting to watch the top coins by cap... so many that seem to rely on marketing  
 **\<Guest93332>** \*this community chat not ..  
-**\<sgp>** @guest93332 this is a workgroup. You can see what it does in /r/MoneroCommunity  
+**\<sgp>** @guest93332 this is a workgroup. You can see what it does in /r/ByteRubCommunity  
 **\<rehrar>** It's on the Hangouts page and the Footer of the website also  
-**\<sgp>** You're right though that we should probably encourage more people in /r/Monero and elsewhere to participate  
+**\<sgp>** You're right though that we should probably encourage more people in /r/ByteRub and elsewhere to participate  
 **\<Guest93332>** yeah for example - it should be on r/monero  
 **\<rehrar>** like...the Community meeting announcement should be on /r/monero?  
 **\<sgp>** I still think the best marketing is good documentation and beginner resources  
@@ -229,20 +229,20 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<cryptochangements>** and then the marketing ideas all kinda got shunned  
 **\<sarang>** There's a saying that it's orders of magnitude harder to refute BS than to spew it  
 **\<sarang>** We'll always have that working against us for hype  
-**\<rehrar>** I think if we get some Monero merch  
+**\<rehrar>** I think if we get some ByteRub merch  
 **\<rehrar>** and have some giveaways based on competition of content creation  
-**\<rehrar>** then that'd be a fun way to both engage the community, get some Monero marketing type merch out there, and incentivize quality content creation  
+**\<rehrar>** then that'd be a fun way to both engage the community, get some ByteRub marketing type merch out there, and incentivize quality content creation  
 **\<cryptochangements>** sgp: i think we have to figure out what kind of marketing we want to encourage before we can start encouraging marketing at all  
 **\<cryptochangements>** ooo good idea rehrar  
 **\<sgp>** @rehrar I like that idea  
 **\<ErCiccione>** I don't know if i like it, it's not ideal to compensate people for something they should do because they believe in it  
-**\<sgp>** I think a Monero webcam cover is a good incentive. People seem to love them  
+**\<sgp>** I think a ByteRub webcam cover is a good incentive. People seem to love them  
 **\<rehrar>** ErCiccione this is indeed the balance of initiative-based projects  
 **\<rehrar>** people with the most initiative will be (usually) people who believe in the project  
 **\<cwcopz>** sgp Agree. Would buy one as well.  
 **\<rehrar>** this will mean that the 98% who are on board for other reasons will rarely do something that requires their own initiative  
-**\<cryptochangements>** ErCiccione a t-shirt or some webcam covers isnt like a fat cash prize. people who participate would still probably do it bc they like Monero. the incentives just kinda get the ball rolling and make it a little bit more fun  
-**\<rehrar>** and make no mistake, while I do think Monero has a higher number of idealists, as the days pass, and more people join, Monero will be overrun by people who don't see the vision  
+**\<cryptochangements>** ErCiccione a t-shirt or some webcam covers isnt like a fat cash prize. people who participate would still probably do it bc they like ByteRub. the incentives just kinda get the ball rolling and make it a little bit more fun  
+**\<rehrar>** and make no mistake, while I do think ByteRub has a higher number of idealists, as the days pass, and more people join, ByteRub will be overrun by people who don't see the vision  
 **\<cwcopz>** I've created a homepage to show some monero artwork. Can I post the link? It is WIP and at the moment a little bit outdated.  
 **\<rehrar>** in a sense, we have to woo those people to the vision. In part by being a friendly-community and making them want to stick and around and stay, and the more they stay, the more they listen, the more they listen, the more they learn  
 **\<sgp>** Sure  
@@ -257,7 +257,7 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sgp>** @ErCiccione I obviously prefer if everyone does something for free, but if all they need is a free little piece of merch to contribute, it's probably worth it  
 **\<cryptochangements>** unfortunatly rehrar is right. with the huge price pumps most people are here for the money, not the ideals. but im gonna share a secret: I found monero bc it was easy to mine and i was gonna convert it all to BTC. but once i found out monero is way better than BTC i kept my monero and eventually got more involved in the community. Like rehrar said, you kinda gotta woo people over to the id  
 **\<ErCiccione>** i agree @sgp i only want to avoid it becomes a strategy, when we can also make promotional video to ask people to contribute, hackatons and stuff like that  
-**\<rehrar>** there are human elements to the Monero community, and I realize the ideal is that we won't hvae to play to those human elements and the technology will speak for itself  
+**\<rehrar>** there are human elements to the ByteRub community, and I realize the ideal is that we won't hvae to play to those human elements and the technology will speak for itself  
 **\<rehrar>** this is honestly a kind of thinking that conveys a lack of understanding and appreciation for the intricacies of handling the social part of a project  
 **\<cwcopz>** @rehrar I think the same. I am not a coder but possible a way to contribute to monero at all  
 **\<rehrar>** many great projects break down for social reasons  
@@ -313,8 +313,8 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sgp>** I imagine they would bring some of their audience on, yes  
 **\<ErCiccione>** sarang: you are a monero research lab master! deal with it! lol for the gif  
 **\<sgp>** 7. Confirm next meeting date/time  
-**\<sgp>** The next community meeting will be two weeks from today on 20 January. The next Coffee Chat will be next week on 13 January: https://github.com/monero-project/meta/issues/156  
+**\<sgp>** The next community meeting will be two weeks from today on 20 January. The next Coffee Chat will be next week on 13 January: https://github.com/byterubpay/meta/issues/156  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
 **\<sgp>** I hope eveyone was ok with a longer meeting this time. People were open to it in previous meetings  
 **\<sarang>** sgp: please send me a reminder for the chat =p  

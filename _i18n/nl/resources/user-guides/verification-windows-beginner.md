@@ -98,7 +98,7 @@ In dit gedeelte leggen we uit hoe je de Monero-ondertekeningssleutel downloadt, 
 
 ### 2.1. Ondertekeningssleutel downloaden
 
-Ga in een browser naar de [de GPG-sleutel van Fluffypony](https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de Monero-binaries ondertekent. Klik met de rechtermuisknop op de pagina en klik vervolgens op `Pagina opslaan als`.
+Ga in een browser naar de [de GPG-sleutel van Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de Monero-binaries ondertekent. Klik met de rechtermuisknop op de pagina en klik vervolgens op `Pagina opslaan als`.
 
 ![sleutel ophalen contextmenu](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 

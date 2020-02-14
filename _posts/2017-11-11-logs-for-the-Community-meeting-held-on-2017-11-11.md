@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2017-11-11
-summary: Community highlights, Forum Funding System updates, RFC-HWALLET-1, Monero December, upcoming meetups, growing involvement, and miscellaneous
+summary: Community highlights, Forum Funding System updates, RFC-HWALLET-1, ByteRub December, upcoming meetups, growing involvement, and miscellaneous
 tags: [community]
 author: dEBRUYNE / fluffypony
 ---
@@ -10,9 +10,9 @@ author: dEBRUYNE / fluffypony
 
 **\<sgp>** 0. Introduction  
 **\<ArticMine>** hi  
-**\<sgp>** We would like to welcome everyone to this Monero Community Meeting!  
-**\<sgp>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/134  
-**\<sgp>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting!  
+**\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/134  
+**\<sgp>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
 **\<cryptochangement>** hello all!  
 **\<ArticMine>** I jumped the gun  
@@ -26,8 +26,8 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** we just started greetings, you didnt miss anything  
 **\<sarang>** excellent  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the Monero Observer: http://monero-observer.com/  
-**\<rehrar>** sarang: https://github.com/monero-project/meta/issues/134  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<rehrar>** sarang: https://github.com/byterubpay/meta/issues/134  
 **\<sgp>** This publication is funded by community donations  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** There are several FFS updates.  
@@ -38,7 +38,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** or msvb-mob  
 **\<msvb-mob>** sgp: I need a bit of time, can somebody else go first?  
 **\<sgp>** Sure, does anyone else have a FFS update they would like to talk about?  
-**\<msvb-mob>** Uploading photos of the fresh Monero hardware wallet board...  
+**\<msvb-mob>** Uploading photos of the fresh ByteRub hardware wallet board...  
 **\<sgp>** sweet  
 **\<cryptochangement>** i can go first  
 **\<cryptochangement>** alog with serhack if he is here  
@@ -46,19 +46,19 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Sure, go ahead  
 **\<sgp>** cryptochangement  
 **\<cryptochangement>** ok give me a sec to type it all out :p  
-**\<cryptochangement>** okay, so first of all, if you had seen my last update my big complaint (about my own work) was that the paymentbox for the magento2 plugin that is in the works was not at all visually appealing, but thanks to TheMonera we have a much nicer looking design that has been implemented on several of the Monero-Integrations plugins  
+**\<cryptochangement>** okay, so first of all, if you had seen my last update my big complaint (about my own work) was that the paymentbox for the magento2 plugin that is in the works was not at all visually appealing, but thanks to TheMonera we have a much nicer looking design that has been implemented on several of the ByteRub-Integrations plugins  
 **\<cryptochangement>** you can see it here https://imgur.com/a/0buLW  
 **\<cryptochangement>** also  
 **\<serhack>** Hey  
 **\<serhack>** Hello everyone  
-**\<cryptochangement>** the magento2 plugin is currently functional and you can check it out here: https://github.com/monero-project/monero ill have install instructions on the README later today but it is pretty straight forward if you already user composer with magento  
-**\<serhack>** Monero Integrations are going well  
+**\<cryptochangement>** the magento2 plugin is currently functional and you can check it out here: https://github.com/byterubpay/monero ill have install instructions on the README later today but it is pretty straight forward if you already user composer with magento  
+**\<serhack>** ByteRub Integrations are going well  
 **\<serhack>** I would make an announcement  
 **\<serhack>** I have contacted OpenBazaar Team  
-**\<serhack>** And I am trying to implement Monero for Openbazaar  
+**\<serhack>** And I am trying to implement ByteRub for Openbazaar  
 **\<serhack>** It will be a difficult task  
 **\<serhack>** But there is no mission impossible for serhack  
-**\<sgp>** cryptochangement is that the correct GitHub direcotry? That's for the Monero project itself  
+**\<sgp>** cryptochangement is that the correct GitHub direcotry? That's for the ByteRub project itself  
 **\<cryptochangement>** crap wrong link sgp  
 **\<cryptochangement>** https://github.com/monero-integrations/moneromagento  
 **\<cryptochangement>** \^ thats bette  
@@ -74,14 +74,14 @@ author: dEBRUYNE / fluffypony
 **\<ordtrogen>** just wanted to add it looks good  
 **\<sgp>** We can move on to the next topic until msvb-lab/msvb-mob is ready  
 **\<cryptochangement>** yeah, it would adjust as needed. i just grabbed the picture last minute  
-**\<sgp>** 4. Monero December  
+**\<sgp>** 4. ByteRub December  
 **\<sgp>** The RIAT team would like to discuss the events happening in Vienna this December.  
 **\<msvb-mob>** sgp: I think so, Taiga slurping graphic data over slow HTTPS.  
 **\<sgp>** Ok, let's hold off on 4 then and have msvb-mob go  
 **\<msvb-mob>** parasew[m] pablonero[m]: Oh yes, I'm quite interested to hear official plans.  
 **\<serhack>** msvb-mob: you can use imgue  
 **\<serhack>** Imgur  
-**\<msvb-mob>** parasew[m] pablonero[m]: You around to chat about RIAT hosting Monero December?  
+**\<msvb-mob>** parasew[m] pablonero[m]: You around to chat about RIAT hosting ByteRub December?  
 **\<sgp>** It doesn't look like they are in the channel  
 **\<msvb-mob>** Okay, so we finally have some exciting results on the hardware front.  
 **\<sgp>** \o/  
@@ -119,7 +119,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** Oh  
 **\<msvb-mob>** serhack: Actually we do need a reddit representative, if anyone wants to pick up that role.  
 **\<serhack>** Who will post updates about hardware projects?  
-**\<sgp>** Is there anyone here to speak about the Monero events in Vienna?  
+**\<sgp>** Is there anyone here to speak about the ByteRub events in Vienna?  
 **\<vp11>** you really need someone to represent the project on reddit, msvb-mob  
 **\<msvb-mob>** serhack: We're doing that right now, and officially (according to the forum proposal) status reports shouold happen at each dev meeting.  
 **\<serhack>** okay  
@@ -130,7 +130,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** We have 36k readers on reddit  
 **\<vp11>** reddit is a very useful tool and exploring it will benefit everyone :)  
 **\<msvb-mob>** vp11: I'm meeting the Digital Bitbox folks in Zuerich in two weeks, let's not forget them.  
-**\<msvb-mob>** Their two founders are Monero fans.  
+**\<msvb-mob>** Their two founders are ByteRub fans.  
 **\<rehrar>** msvb-mob: I can handle PR for hardware project if you'd like  
 **\<vp11>** indeed! let's not forget anyone then :)  
 **\<sgp>** @msvb-mob do you feel comfortable with someone sharing these updates on Reddit? The logs are posted there anyway  
@@ -142,18 +142,18 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** @rehrar is our hero  
 **\<rehrar>** We'll be in contact.  
 **\<serhack>** I vote for rehrar  
-**\<msvb-mob>** rehrar: By the way, you made an excellent mention of the hardware wallet project in your coffee table chat, and thank you so much for telling people that Monero is not just about XMR but also about Kovir and a bunch of other stuff.  
+**\<msvb-mob>** rehrar: By the way, you made an excellent mention of the hardware wallet project in your coffee table chat, and thank you so much for telling people that ByteRub is not just about XMR but also about Kovir and a bunch of other stuff.  
 **\<msvb-mob>** Right on there.  
 **\<vp11>** the hero we don't deserve, but the one we need.  
 **\<sgp>** Since no one is here to discuss the Vienna events, we will proceed to #5. We can come back if they show up later  
 **\<rehrar>** thanks guys :) sgp, what's next?  
 **\<sgp>** 5. Upcoming Meetups  
-**\<sgp>** Monero Toronto has a meetup on Wednesday 29 November https://www.meetup.com/Toronto-Monero-Meetup/events/242746564/  
-**\<sgp>** Monero London has a meetup on Thursday 16 November https://www.meetup.com/Monero-London/events/244993948/  
+**\<sgp>** ByteRub Toronto has a meetup on Wednesday 29 November https://www.meetup.com/Toronto-ByteRub-Meetup/events/242746564/  
+**\<sgp>** ByteRub London has a meetup on Thursday 16 November https://www.meetup.com/ByteRub-London/events/244993948/  
 **\<msvb-mob>** sgp: I'm quite comfortable in broadcasting in every direction.  
-**\<sgp>** Monero Portugal has several meetups on Wednesday 15 November and Sunday 19 November. Join #monero-pt (IRC only, no relays) or PM /u/M-alMen for details and to confirm attendance https://www.reddit.com/r/Monero/comments/7c59jy/monero_meetup_in_portugal_15_and_19_november_join/  
-**\<sgp>** There will be a Monero meetup in Munich on Wednesday 22 November https://www.reddit.com/r/Monero/comments/7c9dz0/the_first_monero_munich_meetup_takes_place_on/  
-**\<sgp>** There will be more meetups not listed here for many of the groups receiving the Meetup Kits. I will post all these meetups to /r/MoneroCommunity as soon as I receive more details. Keep an eye out for them. List of groups receiving a kit: https://taiga.getmonero.org/project/sgp-monero-meetup-kit/wiki/selected-organizations  
+**\<sgp>** ByteRub Portugal has several meetups on Wednesday 15 November and Sunday 19 November. Join #monero-pt (IRC only, no relays) or PM /u/M-alMen for details and to confirm attendance https://www.reddit.com/r/ByteRub/comments/7c59jy/monero_meetup_in_portugal_15_and_19_november_join/  
+**\<sgp>** There will be a ByteRub meetup in Munich on Wednesday 22 November https://www.reddit.com/r/ByteRub/comments/7c9dz0/the_first_monero_munich_meetup_takes_place_on/  
+**\<sgp>** There will be more meetups not listed here for many of the groups receiving the Meetup Kits. I will post all these meetups to /r/ByteRubCommunity as soon as I receive more details. Keep an eye out for them. List of groups receiving a kit: https://taiga.getmonero.org/project/sgp-monero-meetup-kit/wiki/selected-organizations  
 **\<sgp>** Does anyone know of other events coming up, or would like to speak about one of these?  
 **\<msvb-mob>** You think we can keep our events page up to date?  
 **\<msvb-mob>** None of those cool meetings are advertised.  
@@ -167,12 +167,12 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** msvb-lab people post on Reddit typically  
 **\<rehrar>** onto the site, so I think it shouldn't be a problem if there is a concerted effort to update the Events page  
 **\<sgp>** rehrar is there a simple way for people to simply click a "+" sign and add the details of their event to a template which then becomes a pull request?  
-**\<rehrar>** https://github.com/monero-project/monero-site#90-how-to-make-an-event  
+**\<rehrar>** https://github.com/byterubpay/monero-site#90-how-to-make-an-event  
 **\<vp11>** msvb-mob you gotta go more on reddit, you know you can do it semi-anonymously right? :P  
 **\<msvb-mob>** vp11: I'm just swimming in work and doing full time hw dev, so maintaining presence on IRC is about my max now.  
 **\<sgp>** I'm going to move on, since we can have the discussion of how to use this page better later  
 **\<sgp>** 6. Growing Involvement  
-**\<sgp>** We have seen many new, interested users these past few months. However, this doesn’t necessarily translate into more people who want to help. I think we should have a discussion regarding how we can encourage people to make the switch from being a Monero fan to being a Monero contributor.  
+**\<sgp>** We have seen many new, interested users these past few months. However, this doesn’t necessarily translate into more people who want to help. I think we should have a discussion regarding how we can encourage people to make the switch from being a ByteRub fan to being a ByteRub contributor.  
 **\<sgp>** I think that tools like Tagia will help plan activities and allow people to more easily contribute to these. Especially for those who are not developers. We are using Taiga for the Meetup Kit project to see how it goes.  
 **\<msvb-mob>** vp11: There's no problem with reddit, I hope we get exposure there.  
 **\<sgp>** I think it will be helpful for us to brainstorm some ways to increase involvement.  
@@ -188,16 +188,16 @@ author: dEBRUYNE / fluffypony
 **\<vp11>** Once we have a good foundation it will be easier for people to join the initiatives. Maybe get a bigger exposure of the Taiga platform. I know we've been using it for only a couple of months now (or not even that), but it's a good way for people to see what's going on.  
 **\<msvb-mob>** sgp: Is it possible to do screenscraping during the coffee hour?  
 **\<msvb-mob>** Like a person editing a code file and speaking what it means?  
-**\<vp11>** More exposure of Taiga could be on the Monero website, reddit, and of course mentioning it whenever we can (Coffee Hour, Community Meetings, etc)  
+**\<vp11>** More exposure of Taiga could be on the ByteRub website, reddit, and of course mentioning it whenever we can (Coffee Hour, Community Meetings, etc)  
 **\<sgp>** It should work, though we have not tested it much  
 **\<rehrar>** I'll make a suggestion.  
 **\<cryptochangement>** msvb-mob: thats actually an amazing idea for the coffeechat  
-**\<rehrar>** I think it would be very helpful to have a quarterly 'Monero Workshop'.  
-**\<rehrar>** We want people to get involved, but we want them to also understand what The Monero Project is about, the different projects available, and why Monero is awesome  
-**\<serhack>** Monero Hackathon  
+**\<rehrar>** I think it would be very helpful to have a quarterly 'ByteRub Workshop'.  
+**\<rehrar>** We want people to get involved, but we want them to also understand what The ByteRub Project is about, the different projects available, and why ByteRub is awesome  
+**\<serhack>** ByteRub Hackathon  
 **\<msvb-mob>** cryptochangement: It might require a regular coder to hang out in coffee, but if every week there is a five minute slot dedicated to a hello world level review of a source code file, that might entice folks.  
-**\<rehrar>** Having a completely open three(ish) hour workshop that explains everything I just mentioned (and the privacy tech Monero uses) hosted online would be great for education and outreach  
-**\<msvb-mob>** serhack: Yes a hackathon. That would be best in the location where the most Monero enthusiasts live. Where is that?  
+**\<rehrar>** Having a completely open three(ish) hour workshop that explains everything I just mentioned (and the privacy tech ByteRub uses) hosted online would be great for education and outreach  
+**\<msvb-mob>** serhack: Yes a hackathon. That would be best in the location where the most ByteRub enthusiasts live. Where is that?  
 **\<serhack>** Germany  
 **\<sgp>** serhack that's a discussion that we had in another (maybe research lab?) meeting. I'm seeing if I can host one here in Minnesota  
 **\<vp11>** rehrar that's not only a very good idea, but we can also record these and make them available on YouTube later, so people can "enrol on the fly".  
@@ -205,7 +205,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** :)  
 **\<rehrar>** It's not supposed to be a community interaction thing, but more like a seminar  
 **\<rehrar>** questions can be had at the end of each section, of course  
-**\<rehrar>** Many of us got involved in Monero because we realized how great the Project is, and how solid the technology behind it is  
+**\<rehrar>** Many of us got involved in ByteRub because we realized how great the Project is, and how solid the technology behind it is  
 **\<vp11>** and since it's only quarterly it will also be a good moment to announce the progress on different fronts the development team has been working. I only see benefits.  
 **\<sgp>** I think a seminar is great for people who REALLY want to  learn more and get involved  
 **\<rehrar>** I propose that if we educate the 'fan' about these things, they might not know them after all, that they will be like that inovled too  
@@ -216,10 +216,10 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** If we print a few dozen shirts and consider one shirt to be part of each meetup kit?  
 **\<sgp>** I didn't include shirts in the Meetup Kit though since they are bulky  
 **\<vp11>** for the general public I still believe Taiga is a very good "entrance door". maybe we can tweak it a little bit more, make it easy for people to discern "official projects" from "community projects", but it's a good place to start to get involved.  
-**\<vp11>** otherwise, a quarterly workshop really is a great opportunity for people who wants to get "deep" into Monero  
+**\<vp11>** otherwise, a quarterly workshop really is a great opportunity for people who wants to get "deep" into ByteRub  
 **\<sgp>** I would like to see these thoughts outlined in Taiga  
 **\<serhack>** What are the Official projects?  
-**\<rehrar>** dude, we should have a fun Monero ARG with like, ten XMR at the end of it  
+**\<rehrar>** dude, we should have a fun ByteRub ARG with like, ten XMR at the end of it  
 **\<msvb-mob>** vp11: Some have had complaints about Taiga being nonintuitive, but it might just be a learning curve of Agile.  
 **\<serhack>** Anyway we should share Taiga everywhere  
 **\<vp11>** rehrar I would fund this idea, not even joking  
@@ -282,4 +282,4 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Great  
 **\<serhack>** It's okay for me  
 **\<sgp>** 9. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  

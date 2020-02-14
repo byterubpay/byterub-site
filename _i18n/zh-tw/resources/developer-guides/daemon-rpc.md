@@ -1249,7 +1249,7 @@ The data structure for these calls is different than the JSON RPC calls. Whereas
 
 Note: It is recommended to use JSON RPC where such alternatives exist, rather than the following methods. For example, the recommended way to get a node's height is via the JSON RPC methods [get_info](#getinfo) or [get_last_block_header](#get_last_block_header), rather than [getheight](#getheight) below.
 
-For calls that end with **.bin**, the data is exchanged in the form of binary, serialized objects, as defined in the [Core RPC Server](https://github.com/monero-project/monero/blob/master/src/rpc/core_rpc_server_commands_defs.h).
+For calls that end with **.bin**, the data is exchanged in the form of binary, serialized objects, as defined in the [Core RPC Server](https://github.com/byterubpay/monero/blob/master/src/rpc/core_rpc_server_commands_defs.h).
 
 
 ### **/get_height**

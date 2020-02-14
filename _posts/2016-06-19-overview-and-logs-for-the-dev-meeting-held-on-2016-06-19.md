@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview (by Aerbax)
 
-An overview [can be found on Hello Monero](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-06-19)
+An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-06-19)
 
 ### Logs
 
@@ -17,12 +17,12 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<tewinget>** ack  
 **\<wallet42>** Sup fluffypony  
 **\<fluffypony>** so first things first  
-**\<meeting-bot>** [anonimal] EinMByte: ^ Monero meeting now, Kovri in about an hour or so (just FYI)  
+**\<meeting-bot>** [anonimal] EinMByte: ^ ByteRub meeting now, Kovri in about an hour or so (just FYI)  
 **\<fluffypony>** after the last meeting, which was mostly focused on C4, we bounced some of that around  
-**\<fluffypony>** I think the spirit of C4 is good, and will help keep Monero inclusionary towards new contributors  
+**\<fluffypony>** I think the spirit of C4 is good, and will help keep ByteRub inclusionary towards new contributors  
 **\<fluffypony>** but moneromooo in particular disagreed with some of the specifics  
 **\<fluffypony>** or where C4 is a little vague  
-**\<fluffypony>** so what we're going to do is fork C4 from Unprotocols / yrashk into the Monero repo  
+**\<fluffypony>** so what we're going to do is fork C4 from Unprotocols / yrashk into the ByteRub repo  
 **\<meeting-bot>** [psi] c4?  
 **\<fluffypony>** and we'll tweak it from there, keeping it in step with changes made upstream in Unprotocols  
 **\<fluffypony>** psi: the Collaborative Code Construction Contract, see last meeting's minutes for an intro and discussion  
@@ -65,7 +65,7 @@ An overview [can be found on Hello Monero](https://hellomonero.com/article/moner
 **\<tewinget>** I can say that the few commands I've done don't necessarily conform to any spec like json-rpc, but that's easy to change -- structure is currently placeholder while functionality is implemented  
 **\<tewinget>** oh, one important detail I left out  
 **\<tewinget>** I think it's best if the RPC is straight json.  This comes at a very, very minor cost in speed, but means that implementation in other languages will be far less intimidating for new contributors  
-**\<tewinget>** and I know I don't personally plan to write libMonero for every language out there...  
+**\<tewinget>** and I know I don't personally plan to write libByteRub for every language out there...  
 **\<fluffypony>** oh I agree - the idea behind 0MQ is for a language to use 0MQ bindings and just be able to talk straight to the daemon  
 **\<tewinget>** yup, and this way for any language that has json and zmq bindings, all one needs to do is give the language a cursory understanding of cryptonote structs  
 **\<fluffypony>** if JSON is the way we want to do that that's fine, we can always modify it later to support Google's protobufs or something later on  

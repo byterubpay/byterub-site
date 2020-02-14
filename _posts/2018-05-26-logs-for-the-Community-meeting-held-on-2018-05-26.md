@@ -13,7 +13,7 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** Why would 0.12.1.0 only have auto popping for Windows? :P  
 **\<cryptochangement>** i'm down  
 **\<cryptochangement>** that's precious time  
-**\<rehrar>** https://github.com/monero-project/meta/issues/224  
+**\<rehrar>** https://github.com/byterubpay/meta/issues/224  
 **\<erciccione\_[m]>** solid plan  
 **\<rehrar>** 0. Introduction  
 **\<rehrar>** Hi everyone, welcome to the meeting.  
@@ -104,7 +104,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** I would agree with that.  
 **\<cryptochangement>** the general fund usually contributes to FFSes so why not just move them to the general fund and send a good portion of the reallocated funds to new FFSes that need funding  
 **\<erciccione\_[m]>**  this is why i think we should define what to do with expired/unsuccesfull workflow instead of focusing on what to do with this specific one. what about a separed wallet for failed proposal, and we can decide on meetings where those money should go  
-**\<rehrar>** two formalization proposals available for discussion: https://github.com/monero-project/meta/pull/87 https://github.com/rehrar/meta/pull/1  
+**\<rehrar>** two formalization proposals available for discussion: https://github.com/byterubpay/meta/pull/87 https://github.com/rehrar/meta/pull/1  
 **\<cryptochangement>** erciccione\_: It would need to be made clear to donors that funds get reallocated if a deadline isn't met  
 **\<rehrar>** the second one, by ajs to my repo is the one we worked on together so is the freshest one  
 **\<erciccione\_[m]>** the problem is that people donated for that specific proposal, so i think a feedback from the community would be necessary, before moving those funds and use them for something else  

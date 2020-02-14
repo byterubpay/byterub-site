@@ -14,7 +14,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
 **\<serhack>** Hi!  
 **\<needmonero90>** Hello people  
-**\<sgp\_>** Link to agenda on GitHub: https://github.com/monero-project/meta/issues/380  
+**\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/380  
 **\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<OsrsNeedsF2P>** Hello  
@@ -38,7 +38,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needmonero90>** Kinda, what are the sections again?  
 **\<sgp\_>** yes, they do a lot of great work  
 **\<needmonero90>** I want to talk in the right place  
-**\<sgp\_>** needmonero90: https://github.com/monero-project/meta/issues/380  
+**\<sgp\_>** needmonero90: https://github.com/byterubpay/meta/issues/380  
 **\<sgp\_>** if you're unsure, we should have plenty of time in open ideas  
 **\<needmonero90>** Ah this works actually.  
 **\<needmonero90>** We have a problem.  
@@ -91,7 +91,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
 **\<lh1008[m]>** I suggest to ciber this shortfall with a CCS for it, but start on planning and funding earlier for future events (konferenco, defcon, etc.) Be better prepared for this type of things. Have a bigger budget.  
-**\<sgp\_>** “Telegram bot for Monero-Jobs group” (3 XMR) https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/91  
+**\<sgp\_>** “Telegram bot for Monero-Jobs group” (3 XMR) https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/91  
 **\<lh1008[m]>** Ciber \*cover  
 **\<sgp\_>** Does anyone have comments on this proposal?  
 **\<dsc\_>** looks good to me  
@@ -110,7 +110,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<OsrsNeedsF2P>** >Something like "What would you like to do?" and then there would be three buttons that the user could press: "Request Work", "Offer Work" and "Create Proposal"  
 **\<OsrsNeedsF2P>** We need this for IRC and Reddit too. I know the outreach team wanted to do something like this  
 **\<OsrsNeedsF2P>** This is super useful  
-**\<sgp\_>** “A Monero Tip Bot for Telegram” (13 XMR) https://repo.getmonero.org/monero-project/ccs-proposals/merge\_requests/86  
+**\<sgp\_>** “A Monero Tip Bot for Telegram” (13 XMR) https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/86  
 **\<lh1008[m]>** The 3XMR was what he estimated for his work. He's actually really enthusiastic about it. We will have to see how he delivers of course.  
 **\<sgp\_>** We discussed this similar proposal last week, but I wanted a last call for comments  
 **\<sgp\_>** \*last meeting  
