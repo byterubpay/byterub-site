@@ -34,7 +34,7 @@ author: el00ruobuob / dsc
 **\<dEBRUYNE>** selsta: What kind of buildbot changes does 1816 require?  
 **\<selsta>** dEBRUYNE: zbar library has to get installed and to get 1816 to build on macOS seems hacky.  
 **\<dEBRUYNE>** Ah I see, let's not merge that then  
-**\<selsta>** see https://github.com/byterubpay/monero-gui/pull/1816#issuecomment-448998772  
+**\<selsta>** see https://github.com/byterubpay/byterub-gui/pull/1816#issuecomment-448998772  
 **\<dEBRUYNE>** Should we merge the QT 5.9 PRs?  
 **\<selsta>** yes  
 **\<dEBRUYNE>** Pigeons had success on the Linux buildbots, but has yet to finalize building on mac os x and windows  
@@ -57,11 +57,11 @@ author: el00ruobuob / dsc
 **\<dsc\_>** Next agenda item?  
 **\<dsc\_>** - Discuss pending issues  
 **\<dsc\_>** as in, github issues.  
-**\<selsta>** Anyone experienced https://github.com/byterubpay/monero-gui/issues/2074 ?  
+**\<selsta>** Anyone experienced https://github.com/byterubpay/byterub-gui/issues/2074 ?  
 **\<dsc\_>** We're you using the debugger from within QtCreator?  
 **\<dsc\_>** Never happened to me  
 **\<selsta>** No debugger.  
-**\<dsc\_>** I want to discuss https://github.com/byterubpay/monero-gui/issues/2024  
+**\<dsc\_>** I want to discuss https://github.com/byterubpay/byterub-gui/issues/2024  
 **\<luigi1113>** so much text  
 **\<dsc\_>** https://twitter.com/Ben\_Sharp\_/status/1119273759125299200  
 **\<dsc\_>** Complaint from some is "dark mode is to dark"  
@@ -91,28 +91,28 @@ author: el00ruobuob / dsc
 **\<ErCiccione>** dsc\_: I stopped when all of them basically replied "our system catch it, so it's malware". Also, with the cli now having the background miner option as default, i see even more difficult to get delisted from their lists  
 **\<dsc\_>** Hmm, was afraid of that. Please update #1747 and/or close the issue :)  
 **\<ErCiccione>** I think the only way to not get flagged would be to remove the miner from the GUI, or detach it somehow  
-**\<moneromooo>** Maybe we can detect those and report them to the user as crapware.  
-**\<moneromooo>** Fair's fair/.  
+**\<byterubmooo>** Maybe we can detect those and report them to the user as crapware.  
+**\<byterubmooo>** Fair's fair/.  
 **\<xiphon>** I think the only way to not get flagged would be to remove the AV  
 **\<ErCiccione>** dsc\_: will do.  
-**\<dsc\_>** moneromooo: Agreed 100%  
+**\<dsc\_>** byterubmooo: Agreed 100%  
 **\<dsc\_>** ridiculous stuff  
 **\<dEBRUYNE>** Speaking of background mining, anyone know how to disable it? https://bitcointalk.org/index.php?topic=583449.msg50721098#msg50721098  
 **\<ErCiccione>** yeah, lots of big ones tho  
-**\<moneromooo>** So next time someone asks, please ask them to list a file specific to that AV. I'll add some code to check and warn if found.  
-**\<xiphon>** moneromooo: doesn't make a sense  
+**\<byterubmooo>** So next time someone asks, please ask them to list a file specific to that AV. I'll add some code to check and warn if found.  
+**\<xiphon>** byterubmooo: doesn't make a sense  
 **\<xiphon>** your binary won't run  
 **\<xiphon>** if the user have the AV that reports this binary  
-**\<moneromooo>** Ah, it sees it before it gets run ? That's annoying indeed.  
+**\<byterubmooo>** Ah, it sees it before it gets run ? That's annoying indeed.  
 **\<kinghat>** i think the gui should match the website, so light theme and dark theme option. i only use dark themes if theres an option btw.  
 **\<ErCiccione>** some do, yes, but not all of them  
-**\<ErCiccione>** (for the records: the issue about AV: https://github.com/byterubpay/monero-gui/issues/1747)  
+**\<ErCiccione>** (for the records: the issue about AV: https://github.com/byterubpay/byterub-gui/issues/1747)  
 **\<dsc\_>** I guess it's a bad idea to have some code in main{} that checks the integrity of the local installation, in order to detect if files imperative to GUIs/CLIs operation have been altered or quarantined, which implies AV fucked with it.  
-**\<moneromooo>** Then maybe we can piss them off by making a "warning" page in the GUI to warn people not use this list of shit AVs ^\_^  
+**\<byterubmooo>** Then maybe we can piss them off by making a "warning" page in the GUI to warn people not use this list of shit AVs ^\_^  
 **\<dsc\_>** Bad idea in the sense that you don't want to waste time on creating such a mechanism.  
-**\<dEBRUYNE>** moneromooo: Yes, files get quarantined upon extraction of the binaries (according to users)  
+**\<dEBRUYNE>** byterubmooo: Yes, files get quarantined upon extraction of the binaries (according to users)  
 **\<xiphon>** i think we shoun'd not care about this particular issue  
-**\<moneromooo>** I don't mind spending time writing code that pisses off assholes.  
+**\<byterubmooo>** I don't mind spending time writing code that pisses off assholes.  
 **\<xiphon>** AV behaviour is not under our control  
 **\<ErCiccione>** xiphon: i disagree. It's bad UX  
 **\<xiphon>** it is bad AV  
@@ -121,22 +121,22 @@ author: el00ruobuob / dsc
 **\<dsc\_>** but we should ignore this issue anyhow  
 **\<dEBRUYNE>** Sure, but there is little we can do at this point :P  
 **\<ErCiccione>** btw, that list of AVs is from november, don't know how the situation is now with the last binaries  
-**\<moneromooo>** Oh, it only removes part of the code ?  
+**\<byterubmooo>** Oh, it only removes part of the code ?  
 **\<dsc\_>** Yes only certain files AFAIK.  
 **\<dEBRUYNE>** Yeah not all of them  
 **\<selsta>** AV on macOS blocks it completely.  
-**\<moneromooo>** Is there a list of what it removes and does not remove ?  
+**\<byterubmooo>** Is there a list of what it removes and does not remove ?  
 **\<dEBRUYNE>** Tbh I think it gets quarantined due to integrated miner, but not entirely sure  
-**\<dEBRUYNE>** moneromooo: differs per av -\_-  
-**\<moneromooo>** I could do with a list for all.  
+**\<dEBRUYNE>** byterubmooo: differs per av -\_-  
+**\<byterubmooo>** I could do with a list for all.  
 **\<xiphon>** Any AV works on the file basis  
 **\<ErCiccione>** dEBRUYNE: yes, it's definitely the miner. That's what i was told when i contacted many AV companies (details in the issue)  
-**\<moneromooo>** So we'll have a binary that just does the check, then runs the main one.  
+**\<byterubmooo>** So we'll have a binary that just does the check, then runs the main one.  
 **\<xiphon>** so it removes the whole binary file it thinks is a malware  
 **\<xiphon>** yep, that would work  
-**\<moneromooo>** and if they remove THAT one, it'll obviously look bad since it's just a "warn about crapware" one ^\_^  
+**\<byterubmooo>** and if they remove THAT one, it'll obviously look bad since it's just a "warn about crapware" one ^\_^  
 **\<xiphon>** but i realyl a bad idea  
-**\<moneromooo>** I'm not asking you to do it of course, I will :)  
+**\<byterubmooo>** I'm not asking you to do it of course, I will :)  
 **\<xiphon>** it will still complicate the stuff no matter who will do that  
 **\<selsta>** Probably best to add a warning on the download page.  
 **\<selsta>** And not bother further.  
@@ -150,7 +150,7 @@ author: el00ruobuob / dsc
 **\<dsc\_>** Go for it  
 **\<dEBRUYNE>** I quite like it, but my only worry is that the DNS involved causes some issues on startup  
 **\<dEBRUYNE>** In the past, we had it enabled and, for some users, the GUI would show a black screen upon startup  
-**\<dEBRUYNE>** Relevant issue -> https://github.com/byterubpay/monero-gui/issues/761  
+**\<dEBRUYNE>** Relevant issue -> https://github.com/byterubpay/byterub-gui/issues/761  
 **\<dsc\_>** Someone needs to test #2100. I'm not sure how to. The DNS check always returns empty for me.  
 **\<dsc\_>** I can, however, confirm it does indeed do a DNS request  
 **\<dsc\_>** and it always has done this, in the past, as long as I can remember  
@@ -160,7 +160,7 @@ author: el00ruobuob / dsc
 **\<dsc\_>** it was never disabled  
 **\<dsc\_>** Unless it was disabled over at core (wallet api)  
 **\<dsc\_>** which afaik. it has not  
-**\<dEBRUYNE>** What is this PR doing then? https://github.com/byterubpay/monero-gui/pull/777  
+**\<dEBRUYNE>** What is this PR doing then? https://github.com/byterubpay/byterub-gui/pull/777  
 **\<dEBRUYNE>** :-P  
 **\<dsc\_>** That PR disables a message handler registration :P  
 **\<dsc\_>** which is logging related  
@@ -178,7 +178,7 @@ author: el00ruobuob / dsc
 **\<dsc\_>** Anyone have an update what he/she has been working on?  
 **\<ErCiccione>** all translations for the GUI are reviewed and merged on Pootle. I'm waiting for the next big round of merges, then i will make a call for translators  
 **\<ErCiccione>** as i said before, would be great to have the mergeable merged asap, so to have time to review/submit translations and update the guide  
-**\<ErCiccione>** for the distracted, the guide is here: https://github.com/monero-ecosystem/monero-GUI-guide  
+**\<ErCiccione>** for the distracted, the guide is here: https://github.com/byterub-ecosystem/byterub-GUI-guide  
 **\<ErCiccione>** and help is always appreciated :)  
 **\<selsta>** I’m currently only reviewing PRs.  
 **\<xiphon>** was looking into hardware wallet restorate height bug (already sent a PR)  
@@ -210,22 +210,22 @@ author: el00ruobuob / dsc
 **\<dsc\_>** xmr.to I think/  
 **\<xiphon>** "would you rather have someone else research those addresses" \<- at least this  
 **\<xiphon>** i'm fine with implementing it  
-**\<moneromooo>** Tippero :D  
+**\<byterubmooo>** Tippero :D  
 **\<selsta>** xmr.to uses integrated or subaddress  
 **\<ErCiccione>** is Tippero still alive?  
 **\<dsc\_>** selsta: Ha! busted.  
-**\<dsc\_>** Why are you selling Monero?  
+**\<dsc\_>** Why are you selling ByteRub?  
 **\<dsc\_>** (joking :P)  
-**\<moneromooo>** Yes, I just checked.  
+**\<byterubmooo>** Yes, I just checked.  
 **\<scoobybejesus>** dsc\_> Complaint from some is "dark mode is too dark"   \<\<\< FWIW, i agree.  black and white are both harsh/extremes. instead of white and black themes, i'd suggest light and dark. could potentially avoid inverting images across themes by doing so.  
 **\<selsta>** dsc\_: :P  
-**\<xiphon>** moneromooo: what are your thoughts on having such a temporal check in the monero core wallet codebase?  
+**\<xiphon>** byterubmooo: what are your thoughts on having such a temporal check in the byterub core wallet codebase?  
 **\<xiphon>** that way both cli and gui wallets will act the same in this case  
-**\<xiphon>** or we can expect that monero cli users are more experienced that gui users and have this check only in the gui code  
+**\<xiphon>** or we can expect that byterub cli users are more experienced that gui users and have this check only in the gui code  
 **\<xiphon>** s/that/than  
-**\<moneromooo>** What temporal check ?  
-**\<moneromooo>** You mean checking a list of known addresses that want a long payment id ?  
+**\<byterubmooo>** What temporal check ?  
+**\<byterubmooo>** You mean checking a list of known addresses that want a long payment id ?  
 **\<xiphon>** yep  
-**\<moneromooo>** I think it's a bit shit but maybe the lesser evil.  
-**\<moneromooo>** Though we already talked about this long ago and did not do it, so...  
+**\<byterubmooo>** I think it's a bit shit but maybe the lesser evil.  
+**\<byterubmooo>** Though we already talked about this long ago and did not do it, so...  
 **\<xiphon>** alright, i think we can do this only on the gui side

@@ -11,9 +11,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** all right everyone, meeting time!  
 **\<sarang>** hi  
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/288  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** yo yo  
 **\<el00ruobuob>** Hi!  
@@ -23,12 +23,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** ahoj  
 **\<sgp\_>** hello everyone  
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** You can now read the Monero Moon, a curated weekly newsletter regarding all things Monero. Here is the latest issue which covers October 30-November 7: https://medium.com/@johnfoss/the-monero-moon-issue-9-f05526401aa3  
+**\<sgp\_>** You can now read the ByteRub Moon, a curated weekly newsletter regarding all things ByteRub. Here is the latest issue which covers October 30-November 7: https://medium.com/@johnfoss/the-byterub-moon-issue-9-f05526401aa3  
 **\<sgp\_>** Does anyone else have community updates to share?  
-**\<sgp\_>** this section is a lot shorter when someone else compiles a list of Monero happenings :)  
+**\<sgp\_>** this section is a lot shorter when someone else compiles a list of ByteRub happenings :)  
 **\<vp11>** true, maybe we could cherry pick some that he mentions as well in here  
 **\<sgp\_>** sarang how did the first event in Chicago go? ready for the one later today?  
-**\<ErCiccione>** released new guide for the GUI wallet (version 1.5). Now with translations and a new template. For details: https://github.com/monero-ecosystem/monero-GUI-guide/releases/tag/v1.5  
+**\<ErCiccione>** released new guide for the GUI wallet (version 1.5). Now with translations and a new template. For details: https://github.com/byterub-ecosystem/byterub-GUI-guide/releases/tag/v1.5  
 **\<sgp\_>** vp11 anything in particular you want to highlight?  
 **\<sarang>** Unfortunately many workshop attendees didn't show up... since the attendance list appeared to be full, some other interested persons didn't go  
 **\<sarang>** so it was lower than expected, but still very good  
@@ -43,7 +43,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sarang>** I do not  
 **\<vp11>** sgp\_, I couldn't say. it was just an idea that popped in my head. next time :)  
 **\<sgp\_>** found it sarang https://www.youtube.com/watch?v=CM44dFBeMM0  
-**\<monerobux>** [ Monero Workshop - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ ByteRub Workshop - YouTube ] - www.youtube.com  
 **\<sarang>** sweet  
 **\<sarang>** Here is the meetup link for today's talk: https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/events/255754517/  
 **\<sgp\_>** vp11 sure, I'll do that next time if I remember  
@@ -56,7 +56,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** FFS proposals still needing funding:  
 **\<rehrar>** all the things were funded  
 **\<rehrar>** except some  
-**\<sgp\_>** Surae Noether: First Denver Monero Konferenco, Spring 2019 (asking 591 XMR) https://forum.getmonero.org/8/funding-required/90909/surae-noether-first-denver-monero-konferenco-spring-2019  
+**\<sgp\_>** Surae Noether: First Denver ByteRub Konferenco, Spring 2019 (asking 591 XMR) https://forum.getbyterub.org/8/funding-required/90909/surae-noether-first-denver-byterub-konferenco-spring-2019  
 **\<sgp\_>** Everything else has been funded!  
 **\<sarang>** Hooray! Thanks to all for the support  
 **\<sgp\_>** (except the HackerOne bounty, which is forever ongoing)  
@@ -74,23 +74,23 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** it's up parasew[m]  
 **\<sgp\_>** parasew HackerOne has been up for a while, but the proposal is always open  
 **\<sgp\_>** Proposals in ideas:  
-**\<sgp\_>** Monero Outreach: Round 2 (asking 84 XMR) https://forum.getmonero.org/6/ideas/91054/monero-outreach-round-2  
-**\<sgp\_>** Monero Integrations Update (asking 5 XMR) https://forum.getmonero.org/6/ideas/91045/monero-integrations-update  
+**\<sgp\_>** ByteRub Outreach: Round 2 (asking 84 XMR) https://forum.getbyterub.org/6/ideas/91054/byterub-outreach-round-2  
+**\<sgp\_>** ByteRub Integrations Update (asking 5 XMR) https://forum.getbyterub.org/6/ideas/91045/byterub-integrations-update  
 **\<sgp\_>** ping serhack cryptochangements ^  
 **\<sarang>** Also lots of ideas for making my skin look better  
 **\<rehrar>** should be researched thoroughly and funded immediately imo  
 **\<sgp\_>** Does anyone have comments about these FFS proposals?  
-**\<rehrar>** Monero people can be known as the best skin people in the space  
-**\<el00ruobuob>** Monero Outreach is doing a great job  
-**\<serhack>** At the moment, I am busy with Mastering Monero. I have already had those ideas (unit tests and improving the library) on my TODO list. I would like to contact him :D  
+**\<rehrar>** ByteRub people can be known as the best skin people in the space  
+**\<el00ruobuob>** ByteRub Outreach is doing a great job  
+**\<serhack>** At the moment, I am busy with Mastering ByteRub. I have already had those ideas (unit tests and improving the library) on my TODO list. I would like to contact him :D  
 **\<sarang>** Can anyone give a quick summary of their first proposal's work?  
-**\<el00ruobuob>** And Monero integration are great guides, even if they are missing visibility  
+**\<el00ruobuob>** And ByteRub integration are great guides, even if they are missing visibility  
 **\<rehrar>** serhack: when can those get done? As someone who uses the payment gateway for woocommerce, I view them as quite urgent  
 **\<serhack>** Who knows who riccardo is?  
 **\<rehrar>** the gateway is unusable at the moment  
 **\<sgp\_>** serhack this is my first time seeing this user  
-**\<el00ruobuob>** sarang, for outreach report: https://www.reddit.com/r/Monero/comments/9m6m6o/monero\_outreach\_final\_ffs\_report\_julyseptember/  
-**\<monerobux>** [REDDIT] [Monero Outreach] Final FFS Report (July-September) (self.Monero) | 19 points (100.0%) | 3 comments | Posted by xmrhaelan | Created at 2018-10-07 - 16:59:14  
+**\<el00ruobuob>** sarang, for outreach report: https://www.reddit.com/r/ByteRub/comments/9m6m6o/byterub\_outreach\_final\_ffs\_report\_julyseptember/  
+**\<byterubbux>** [REDDIT] [ByteRub Outreach] Final FFS Report (July-September) (self.ByteRub) | 19 points (100.0%) | 3 comments | Posted by xmrhaelan | Created at 2018-10-07 - 16:59:14  
 **\<sarang>** ty  
 **\<sgp\_>** I hope they add Blockfolio Signal and Coingecko Beam to their scope. I've been handling these for the past few weeks and they could do a much better job  
 **\<sgp\_>** I wonder if johnfoss is interested in helping here. I can reach out  
@@ -103,7 +103,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** Outreach, sure.  
 **\<sgp\_>** ErCiccione they asked me to handle these for the past few weeks. Hopefully they have enough time to take the responsibilities back  
 **\<ErCiccione>** s/been/being  
-**\<monerobux>** ErCiccione meant to say: no wait, they are in the ongoing section. So they should already being taking care of those  
+**\<byterubbux>** ErCiccione meant to say: no wait, they are in the ongoing section. So they should already being taking care of those  
 **\<rehrar>** none of us has heard of this other guy before. I'd like to see some evidence of past contributions  
 **\<rehrar>** or some volunteer work first  
 **\<ErCiccione>** ok got it sgp\_  
@@ -119,7 +119,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** the same was asked of me about the website redesign  
 **\<rehrar>** it's ingrained in the culture, and I don't think it's a bad thing  
 **\<el00ruobuob>** i can't disagree with you rehrar   
-**\<ErCiccione>** rehrar: i agree with you. But that's something strictly code related, i don't think we should ask everybody to commit "spiritually" to monero  
+**\<ErCiccione>** rehrar: i agree with you. But that's something strictly code related, i don't think we should ask everybody to commit "spiritually" to byterub  
 **\<rehrar>** we're not asking for their lives. Just.......  
 **\<rehrar>** proof of work!  
 **\<rehrar>** buh dum tshh  
@@ -132,7 +132,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** it's hard to disagree, but do we want to shove away people who might contribute to the project but have other priorities in life? like, money.  
 **\<ErCiccione>** ^^ that's my point  
 **\<sgp\_>** but for small-ish things like this, I'm not totally against the initiative portion, but I still would like to hear more from this person here or elsewhere  
-**\<ErCiccione>** we shouldn't ask people to contribute to monero only if they are willing to work for free first  
+**\<ErCiccione>** we shouldn't ask people to contribute to byterub only if they are willing to work for free first  
 **\<rehrar>** ErCiccione: that's literally every FOSS project mostly  
 **\<vp11>** it might be a recommendation  
 **\<vp11>** a suggestion, but should it be a deal breaker for using the funding system?  
@@ -204,23 +204,23 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<blacklotus64>** To change the term, well, yes, is not big deal and yes, a poll is always good  
 **\<parasew[m]>** there was "community fund" as a name also, no?  
 **\<rehrar>** ok, with a general consensus achieved here, I will make a reddit post thing  
-**\<nioc>** monero funding  
+**\<nioc>** byterub funding  
 **\<\_Slack> \<intj440>** there was a long and inconclusive subreddit thread on this a while ago, trying to find it  
 **\<el00ruobuob>** Donero?  
 **\<nioc>** sure  :)  
 **\<sgp\_>** thanks intj440, that would be valuable  
-**\<rehrar>** The highest rated one was like the Monero Funding System  
+**\<rehrar>** The highest rated one was like the ByteRub Funding System  
 **\<rehrar>** which is just as bad  
 **\<sgp\_>** eh, a little less bad  
 **\<sgp\_>** but I get your point  
 **\<sarang>** The name should convey that it's for the community to support projects that others can propose  
 **\<vp11>** "Community Funding System"  
-**\<\_Slack> \<intj440>** https://www.reddit.com/r/Monero/comments/74pn84/proposal\_to\_change\_the\_name\_and\_abbreviation\_of/  
-**\<monerobux>** [REDDIT] Proposal to change the name and abbreviation of the FFS (self.Monero) | 31 points (93.0%) | 41 comments | Posted by garlicgambit | Created at 2017-10-06 - 18:42:24  
+**\<\_Slack> \<intj440>** https://www.reddit.com/r/ByteRub/comments/74pn84/proposal\_to\_change\_the\_name\_and\_abbreviation\_of/  
+**\<byterubbux>** [REDDIT] Proposal to change the name and abbreviation of the FFS (self.ByteRub) | 31 points (93.0%) | 41 comments | Posted by garlicgambit | Created at 2017-10-06 - 18:42:24  
 **\<xmrmatterbridge> \<blacklotus64>** So we are looking for something shorter but more descriptive  
 **\<rehrar>** things on the opposite end of the spectrum eh blacklotus64? :D  
-**\<rehrar>** MoneroStarter  
-**\<rehrar>** MoneroGoGo  
+**\<rehrar>** ByteRubStarter  
+**\<rehrar>** ByteRubGoGo  
 **\<ErCiccione>** can we agree on the fact that we want to change name and talk about the actual name next meeting? and go on with this one :P  
 **\<rehrar>** :P  
 **\<rehrar>** sure  
@@ -239,12 +239,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** ah ok, i misunderstood. Sorry  
 **\<ErCiccione>** so  
 **\<ErCiccione>** about the localization workgroup. Bigger news is that pootle is now being tested by the localization workgroup. it still needs some tweaking but it's already functional, and i will make a test PR from the platform very soon  
-**\<ErCiccione>** for now it manages only monero-gui, but soon will also take care of the daemon/cli and monerujo  
+**\<ErCiccione>** for now it manages only byterub-gui, but soon will also take care of the daemon/cli and monerujo  
 **\<sgp\_>** very exciting  
 **\<ErCiccione>** after that we can start to think about using it for static stuff. Like the website. But that's gonna be long and hard  
 **\<ErCiccione>** if you guys want to test it  
 **\<el00ruobuob>** i will soon  
-**\<ErCiccione>** pootle it's on translate.getmonero.org  
+**\<ErCiccione>** pootle it's on translate.getbyterub.org  
 **\<ErCiccione>** you can make an account and suggest new strings  
 **\<xmrmatterbridge> \<blacklotus64>** I've already used for the gui and it makes everything easier  
 **\<ErCiccione>** after some testing i will change all the documentation about how to translate the gui everywhere and will post on reddit  
@@ -258,7 +258,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** ErCiccioen do you want to have these translators appeal for FFS funds donations directly, or do you want to make one proposal for general workgroup funds that you allocate?  
 **\<sarang>** (need to take off for my talk, please mention or dm if needed)  
 **\<rehrar>** bai sarang  
-**\<ErCiccione>** the idea was to open a fund, something like the monero outreach workgroup is starting to do. But for the localization workgroup is much harder to manage, since we take care of many projects in very different formats  
+**\<ErCiccione>** the idea was to open a fund, something like the byterub outreach workgroup is starting to do. But for the localization workgroup is much harder to manage, since we take care of many projects in very different formats  
 **\<ErCiccione>** paying for word like outreach is doing is not possible at all  
 **\<ErCiccione>** so, maybe somebody has some inputs on this  
 **\<ErCiccione>** what i would reward is translations and reviews  
@@ -300,7 +300,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<blacklotus64>** Yes that's OK too  
 **\<vp11>** yea, that sounds alright. brainstorm the details a little bit more  
 **\<vp11>** people are open to that idea  
-**\<ErCiccione>** ok, agreed then. If somebody has proposals or ideas about this, just ping me or come chat on #monero-translations  
+**\<ErCiccione>** ok, agreed then. If somebody has proposals or ideas about this, just ping me or come chat on #byterub-translations  
 **\<xmrmatterbridge> \<blacklotus64>** Sure ErCiccione  
 **\<el00ruobuob>** will do  
 **\<sgp\_>** Moving on, is anyone here able to talk about the Outreach or Hardware workgroups?  
@@ -344,11 +344,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** BlackLotus64: In case you want to help with firmware design, please sign up on taiga (search for hardware wallet there.=  
 **\<BlackLotus64>** msvb-mob I'll take a look, thanks  
 **\<msvb-mob>** Whoever has ideas about a 35C3 badge (not sure there will be time, but it's a possibility) just please give your opinion.  
-**\<msvb-mob>** I guess send to hardware@getmonero.org or something. No Taiga yet for badges.  
+**\<msvb-mob>** I guess send to hardware@getbyterub.org or something. No Taiga yet for badges.  
 **\<msvb-mob>** I need to go folks, person has a network problem I'm responsible for...  
 **\<msvb-mob>** Chao pescados.  
 **\<sgp\_>** thanks msvb-mob  
-**\<parasew[m]>** msvb-mob: as paralelni polis will be 35c3 with the coffee, there could be a modified HCPP badge to pay with monero for coffee :)  
+**\<parasew[m]>** msvb-mob: as paralelni polis will be 35c3 with the coffee, there could be a modified HCPP badge to pay with byterub for coffee :)  
 **\<sgp\_>** lh1008 we spent a large portion of this meeting discussing the Outreach team and its FFS proposal. Do you have any additional updates from the workgroup we should know about?  
 **\<xmrmatterbridge> \<lh1008>** bye  
 **\<sgp\_>** no, come back :p  
@@ -366,7 +366,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew[m]>** i can also give a super quick update on 35c3 if there is someone here who wants some info  
 **\<sgp\_>** one sec parasew  
 **\<sgp\_>** Does anyone have any questions for lh1008? I recommend you read the logs to see what we were saying earlier  
-**\<xmrmatterbridge> \<lh1008>** It has also been quite challenging because the Outreach workgroup is an independent group following decentralized Monero FOSS ethos. So we are looking to work in a nature where most of the contributors feel comfortable with.  
+**\<xmrmatterbridge> \<lh1008>** It has also been quite challenging because the Outreach workgroup is an independent group following decentralized ByteRub FOSS ethos. So we are looking to work in a nature where most of the contributors feel comfortable with.  
 **\<sgp\_>** all right, if there are no questions or further comments, we can move on  
 **\<BlackLotus64>** Do you guys think you will be releasing a magazine soon?  
 **\<BlackLotus64>** About Outreach  
@@ -378,28 +378,28 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<lh1008>** Sure >parasew,...work inside the community most of it has been on a volunteering basis. So we acknowledged that payments were an incentive contributors could receive and get involved with the community.  
 **\<xmrmatterbridge> \<lh1008>** So we are working in some basic payments to reach those contributors that have been doing a lot for the community but not always receiving any type or reward.  
 **\<xmrmatterbridge> \<lh1008>** That would be great >parasew, I will sure get in touch with you.  
-**\<sgp\_>** have you been working with rehrar's Monero Games initiative?  
+**\<sgp\_>** have you been working with rehrar's ByteRub Games initiative?  
 **\<sgp\_>** After this question we should move on  
 **\<el00ruobuob>** is it a general question, or a contribution's question to lh1008 sgp\_ ?  
 **\<xmrmatterbridge> \<lh1008>** No we haven' t reached rehrar yet. I first read about rehrar's initiative two weeks ago. And the payments were something that we were discussing since the first proposal the outreach made.  
 **\<sgp\_>** all right, thanks  
 **\<sgp\_>** parasew, what short update do you have?  
-**\<parasew[m]>** we are currently finishing the architectural plans for the stage which will be ca. 20m2 and will have 50 seats. the stage will have a led/projector (we will know final details on monday) and the talks will be managed with a submission system. we will be sharing with open hardware talks and related content, as i am not sure if we will fill up all the slots with monero content.  
-**\<parasew[m]>** we have a few talks already up on the wiki but it would be great to have more content! so if you plan to come to 35c3 please make sure to enter a talk in the wiki in the meanwhile https://taiga.getmonero.org/project/rehrar-35c3-2/wiki/4-participations  
+**\<parasew[m]>** we are currently finishing the architectural plans for the stage which will be ca. 20m2 and will have 50 seats. the stage will have a led/projector (we will know final details on monday) and the talks will be managed with a submission system. we will be sharing with open hardware talks and related content, as i am not sure if we will fill up all the slots with byterub content.  
+**\<parasew[m]>** we have a few talks already up on the wiki but it would be great to have more content! so if you plan to come to 35c3 please make sure to enter a talk in the wiki in the meanwhile https://taiga.getbyterub.org/project/rehrar-35c3-2/wiki/4-participations  
 **\<parasew[m]>** also, tomorrow will be the second wave for ticket sales, 12:00 CET  
 **\<sgp\_>** thanks for the link to the taiga page  
 **\<sgp\_>** any other questions/updates?  
 **\<xmrmatterbridge> \<lh1008>** thank you all for the opportunity to share more about the outreach team. if anyone wants to join and help us out you are all welcome. this is the telegram chat link https://t.me/joinchat/DM8-zUXYPy2QPEkH5hW3FA  
-**\<sgp\_>** for the sake of time, we will skip the open ideas time. you are always welcome to add your ideas in #monero-community (here) outside of meeting time  
+**\<sgp\_>** for the sake of time, we will skip the open ideas time. you are always welcome to add your ideas in #byterub-community (here) outside of meeting time  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** We will be off next community meeting for US Thanksgiving weekend. The next community meeting therefore will be in 4 weeks on December 8 at 17:00 UTC.  
-**\<sgp\_>** The next Monero Coffee Chat will take place next week on November 17 at 17:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** The next ByteRub Coffee Chat will take place next week on November 17 at 17:00 UTC.  
+**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** Is everyone cool with taking the next meeting off?  
 **\<ErCiccione>** can we just move it to another day?  
 **\<sgp\_>** perhaps the following Tuesday?  
 **\<ErCiccione>** cool for me  
-**\<sgp\_>** I will make a post in r/MoneroCommunity with other possible meeting times  
+**\<sgp\_>** I will make a post in r/ByteRubCommunity with other possible meeting times  
 **\<sgp\_>** 7. Conclusion  
 **\<ErCiccione>** cool. Thanks  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

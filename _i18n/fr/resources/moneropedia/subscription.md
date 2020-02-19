@@ -29,8 +29,8 @@ anonimal.i2p=AQZGLAMpI9Q0l0kmMj1vpJJYK3CjLp~fE3MfvE-e7KMKjI5cPOH6EN8m794uHJ6b09q
 Pour @Kovri, il y a deux types de fichiers de souscriptions : *publique* et *privé*.
 
 Une souscription *publique* :
-- est utilisée lors de l'amorçage pour utiliser les services essentiels (IRC, email, Monero, etc.)
-- est statique et est mise à jour toutes les 12 heures depuis le serveur de @carnet-d'adresses de Monero
+- est utilisée lors de l'amorçage pour utiliser les services essentiels (IRC, email, ByteRub, etc.)
+- est statique et est mise à jour toutes les 12 heures depuis le serveur de @carnet-d'adresses de ByteRub
 - vous permet de partager les souscriptions avec tout le monde car elle est publiquement disponible (quiconque partage la même souscription publique pourra également résoudre le même nom d'hôte vers la même destination que vous)
 
 Une souscription *privée* :

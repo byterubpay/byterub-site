@@ -19,7 +19,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** This guy  
 **\<sgp>** @pigeons the mattermost relay is down  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<sgp>** 3. ByteRub Integrations improvements  
 **\<sgp>** cryptochangements asked to speak for a few minutes about improvements they have made to existing integrations.  
 **\<cryptochangement>** ok i just got here  
@@ -28,7 +28,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** okay so basically, I just wanted to share that I have improved on the wordpress plugin from serhack's last FFS and made it easier for merchants to accept ByteRub  
 **\<cryptochangement>** basically it allows people to use their viewkey with a block explorer instead of an rpc waller  
 **\<cryptochangement>** \*wallet  
-**\<cryptochangement>** here is the reddit post I made with a video demo: https://www.reddit.com/r/ByteRub/comments/7tkpfu/accepting_monero_with_monerointegrations_just_got/  
+**\<cryptochangement>** here is the reddit post I made with a video demo: https://www.reddit.com/r/ByteRub/comments/7tkpfu/accepting_byterub_with_byterubintegrations_just_got/  
 **\<cryptochangement>** and several more new merchants have already started using the upgraded version  
 **\<cryptochangement>** there is still some concern about using a node that is not yours to validate 0 confirmation transactions which I'm still looking into, but IMO you should really just stick to the "small amounts only" rule when accepting 0 conf transactions.  
 **\<cryptochangement>** Any questions?  
@@ -111,7 +111,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** first of all i wanted to apologize to the community, I'm having some personal problems since january. This caused me to work less than i wanted to (and less than what i promised in my ffs) for the localization workgroup  
 **\<ErCiccione>** this means i'll recover that time on march (reclaiming the third milestone one week later)  
 **\<ErCiccione>** but i have also some good news :)  
-**\<ErCiccione>** thanks to rehrar's patch getmonero.org is now ready to be localized, i already set up a guide on taiga and can be found here: https://taiga.getmonero.org/project/erciccione-monero-localization/wiki/translating-monero-website  
+**\<ErCiccione>** thanks to rehrar's patch getbyterub.org is now ready to be localized, i already set up a guide on taiga and can be found here: https://taiga.getbyterub.org/project/erciccione-byterub-localization/wiki/translating-byterub-website  
 **\<ErCiccione>** very soon i will upload on github the itlaian translation, so translator can use that as example for their Pull Requests. Also  
 **\<rehrar>** woohoo!  
 **\<serhack>** that's nice :)  
@@ -173,4 +173,4 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** 7. Confirm next meeting date/time  
 **\<sgp>** The next community meeting will be two weeks from today on 17 February. The next Coffee Chat will be next week on 10 February: https://github.com/byterubpay/meta/issues/173  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

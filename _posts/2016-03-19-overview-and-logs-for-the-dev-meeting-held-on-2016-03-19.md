@@ -11,14 +11,14 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE>** dev meeting in 5 min, FYI  
 **\<hyc>** dingdong  
 **\<gingeropolous>** hello  
-**\<dEBRUYNE>** fluffypony, smooth, othe, ArticMine, luigiw, NoodleDoodle, tewinget, moneromooo  
+**\<dEBRUYNE>** fluffypony, smooth, othe, ArticMine, luigiw, NoodleDoodle, tewinget, byterubmooo  
 **\<floofypony>** there we go  
 **\<dEBRUYNE>** did I forget anyone?  
 **\<tewinget>** oh, hello  
 **\<luigi>** is warptangent around?  
 **\<ArticMine>** Hello  
 **\<hyc>** he's been fighting a flu last we heard  
-**\<moneromooo>** hi  
+**\<byterubmooo>** hi  
 **\<NoodleDoodle>** Hello. I'm here but I'm fighting the apocalypse.  
 **\<NoodleDoodle>** of flus.  
 **\<luigi>** keep doing it  
@@ -50,8 +50,8 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** ok?  
 **\<fluffypony>** neat  
 **\<fluffypony>** also on the topic of stuff-hyc-did-lately  
-**\<fluffypony>** if anyone missed it, we now have a win environment guide up on forum.getmonero.org  
-**\<dEBRUYNE>** ^ https//forum.getmonero.org/5/support//building-monero-v0-9-2-on-winByteRub  
+**\<fluffypony>** if anyone missed it, we now have a win environment guide up on forum.getbyterub.org  
+**\<dEBRUYNE>** ^ https//forum.getbyterub.org/5/support//building-byterub-v0-9-2-on-winByteRub  
 **\<fluffypony>** so that should get us all on the same page with testing etc.  
 **\<hyc>** and one success story replied to it already ;)  
 **\<fluffypony>** we've also dropped support for BDB as the default database, and switched to LMDB as the default  
@@ -101,7 +101,7 @@ author: dEBRUYNE / fluffypony
 **\<iam6yearsold>** for the record I hated the twittter plugin idea I saw a while back  
 **\<ArticMine>** My take permissionless has to be allowed. The end user has to be made aware who is signing and if to trust the plugin  
 **\<fluffypony>** well the Electrum model works well  
-**\<moneromooo>** I agree with ArticMine  
+**\<byterubmooo>** I agree with ArticMine  
 **\<arnuschky>** (inspection in case of central repo, but also self-distribution by plugin devs)  
 **\<fluffypony>** ThomasV will merge basically any plugin, as long as it's not malicious  
 **\<fluffypony>** and plugins are part of the core code, effectively just in a subfolder  
@@ -114,7 +114,7 @@ author: dEBRUYNE / fluffypony
 **\<arnuschky>** are you planning for compiled plugins or interpreted ones? that's quite a differens IMHO  
 **\<fluffypony>** arnuschky so  
 **\<arnuschky>** self-distribution is a mess for compiled ones...  
-**\<fluffypony>** I was thinking we have a repo, say it's called monero-plugins  
+**\<fluffypony>** I was thinking we have a repo, say it's called byterub-plugins  
 **\<arnuschky>** audit as well  
 **\<fluffypony>** and then anyone can PR to that repo  
 **\<fluffypony>** and that repo is pulled into the main ByteRub source as a git submodule  
@@ -183,24 +183,24 @@ author: dEBRUYNE / fluffypony
 **\* smooth** is here  
 **\<fluffypony>** also what if a plugin wants to call a function in the core crypto library, for instance?  
 **\<arnuschky>** design-wise, that's sounds like a nightmare, no?  
-**\<moneromooo>** Oh, so linked directly ? I kinda assumed it was gointg to be RPC based.  
+**\<byterubmooo>** Oh, so linked directly ? I kinda assumed it was gointg to be RPC based.  
 **\<fluffypony>** ok well I think we're getting into an implementation discussion that's outside of the scope of this meeting  
 **\<arnuschky>** I mean, if you don't have a small and defined API, every bigger change in the wallet will break plugins  
 **\<arnuschky>** true )  
 **\<fluffypony>** after the dev meeting we can continue this conversation if you guys want  
 **\<fluffypony>** but let's first circle back around  
 **\<luigi>** this deserves some kind of design thread like ringct imo  
-**\<moneromooo>** Oh, link ?  
-**\<fluffypony>** moneromooo: "this deserves"  
+**\<byterubmooo>** Oh, link ?  
+**\<fluffypony>** byterubmooo: "this deserves"  
 **\<fluffypony>** so nothing yet  
-**\<moneromooo>** "like ringct"  
+**\<byterubmooo>** "like ringct"  
 **\<fluffypony>** oh  
 **\<fluffypony>** I see what you were asking  
 **\<luigi>** oh  
-**\<moneromooo>** Oh  
+**\<byterubmooo>** Oh  
 **\<fluffypony>** OH  
 **\<luigi>** "like ringct is supposed to get"  
-**\<moneromooo>** Fair enough.  
+**\<byterubmooo>** Fair enough.  
 **\<fluffypony>** so basically this is all luigi's fault  
 **\<luigi>** warp was gonna go it!@  
 **\<gingeropolous>** its true. i mis-called out luigi on that one  
@@ -238,7 +238,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** and there's a lot of DRY-violating code because of it  
 **\<fluffypony>** obviously there was some push back, not to prevent merging it  
 **\<fluffypony>** but more to understand the thought process  
-**\<moneromooo>** Define DRY ?  
+**\<byterubmooo>** Define DRY ?  
 **\<iam6yearsold>** DRY violating scares the shit out of me  
 **\<gingeropolous>** https//en.wikipedia.org/wiki/Don%t\_repeat\_yourself  
 **\<gingeropolous>** maybe  
@@ -261,12 +261,12 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** aintnobodygottimeforthat.gif  
 **\<luigi>** utNACK  
 **\<fluffypony>** luigi #networknerd  
-**\<moneromooo>** utACK was not a typo ?  
+**\<byterubmooo>** utACK was not a typo ?  
 **\<luigi>** no  
 **\<luigi>** means untested  
 **\<luigi>** conceptACK or similar  
 **\<fluffypony>** yeah  
-**\<fluffypony>** moneromooo https//lists.linuxfoundation.org/pipermail/bitcoin-dev/-December/71.html  
+**\<fluffypony>** byterubmooo https//lists.linuxfoundation.org/pipermail/bitcoin-dev/-December/71.html  
 **\<fluffypony>** if you're interested  
 **\<hyc>** crap  
 **\<fluffypony>** LOL  
@@ -293,7 +293,7 @@ author: dEBRUYNE / fluffypony
 **\<luigi>** nevermind  
 **\<iam6yearsold>** will there be multiple devs in IRC at time of hard fork this week just in case? I see a few pools still on old cold and probably a few users too  
 **\<fluffypony>** yes we just do a Bitcoin  
-**\<moneromooo>** No chance, there's an infinity of those.  
+**\<byterubmooo>** No chance, there's an infinity of those.  
 **\<fluffypony>** 0.11  
 **\<fluffypony>** iam6yearsold yes, and we've reached out to as many of them as we can  
 **\<luigi>** is 0.10 supposed to be for next hard fork?  
@@ -313,10 +313,10 @@ author: dEBRUYNE / fluffypony
 **\<smooth>** we should also consider what else we should go in the next major version besides ringct (doesn't need to be discussed now)  
 **\<dEBRUYNE>** uh I meant  UTC btw  
 **\<dEBRUYNE>** you muricans with AM/PM  
-**\<Wolf\`>** who got drunk and posted about a party in #monero-dev  
+**\<Wolf\`>** who got drunk and posted about a party in #byterub-dev  
 **\<luigi>** oh  
 **\<luigi>** then america won't be up  
-**\<moneromooo>** The db reorg seems like a good candidate.  
+**\<byterubmooo>** The db reorg seems like a good candidate.  
 **\<luigi>** oh well  
 **\<fluffypony>** smooth agreed  
 **\<dEBRUYNE>** east coast will right?  
@@ -330,10 +330,10 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** dEBRUYNE: no  
 **\<fluffypony>** https//github.com/byterubpay/research-lab/tree/master/publications/MRL-%-%Difficulty%Adjustment%Algorithms%in%Cryptocurrency%Protocols  
 **\<dEBRUYNE>** oh cool, thanks  
-**\<moneromooo>** How do get cmake to tell you the commands it's running ?  
+**\<byterubmooo>** How do get cmake to tell you the commands it's running ?  
 **\<luigi>** we have diff, we have db stuff, we have fee stuff  
-**\<fluffypony**> moneromooo: I normally make VERBOSE=1  
-**\<moneromooo>** Thanks, I was trying V=1  
+**\<fluffypony**> byterubmooo: I normally make VERBOSE=1  
+**\<byterubmooo>** Thanks, I was trying V=1  
 **\<luigi>** I like my V=2  
 **\<fluffypony>** ok - any last things to add  
 **\<fluffypony>** or can we call it?  

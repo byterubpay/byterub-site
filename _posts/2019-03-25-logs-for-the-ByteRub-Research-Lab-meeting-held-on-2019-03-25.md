@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-03-25
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-03-25
 summary: Surae work, Sarang work, Output distribution and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -26,8 +26,8 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** these last two have not passed tests yet; my latest commit is here: https://github.com/b-g-goodell/mrl-skunkworks/tree/matching-powerpuff/Matching  
 **\<suraeNoether>** the simulations are fairly closely linked with our output selection methods, and i'm going to insert more than one output selection method to compare them all  
 **\<sarang>** Excellent. The idea of using the transaction graph to gain heuristic advantage is an annoying consequence of being decoy-based, and having a solid framework will be useful  
-**\<suraeNoether>** the goal is to simulate a blockchain in which someone is churning or otherwise spending in an abnormal pattern,a nd we are going to assess the false pos/false negative rate of trying to de-anonymize this individual, and we are going to compare these to the anonymity set sizes ranging from monero-sized ring signatures to zcash sized snarks  
-**\<suraeNoether>** coding this all up and testing it to make sure it does what we need it to do is taking more time than i had hoped, but now we have the possibility of making some formal recommendations on output selection algorithms and the practicable security of monero's plausible deniability  
+**\<suraeNoether>** the goal is to simulate a blockchain in which someone is churning or otherwise spending in an abnormal pattern,a nd we are going to assess the false pos/false negative rate of trying to de-anonymize this individual, and we are going to compare these to the anonymity set sizes ranging from byterub-sized ring signatures to zcash sized snarks  
+**\<suraeNoether>** coding this all up and testing it to make sure it does what we need it to do is taking more time than i had hoped, but now we have the possibility of making some formal recommendations on output selection algorithms and the practicable security of byterub's plausible deniability  
 **\<sarang>** Yeah, a broader question about output selection and transaction behavior has always been a sticking point IMO  
 **\<suraeNoether>** oh, final update: the DLSAG paper is still being worked on by us and our co-authors but i think we are seeing some movement, and i'll let sarang talk about CLSAG stuff, since that's his bag right now  
 **\<sarang>** Doing churn correctly, selecting outputs safely to avoid linking, etc.  
@@ -42,7 +42,7 @@ author: el00ruobuob / sarang
 **\<sgp\_>** suraeNoether: that discussion sounds interesting. I'm happy to lend a hand there  
 **\<suraeNoether>** sgp\_: neat, let's chat with Isthmus\_ at the end of the meeting  
 **\<sarang>** Any other work or news to share suraeNoether ?  
-**\<suraeNoether>** uhm, monero konferenco update: the schedule is coming really soon(tm) like some time this week  
+**\<suraeNoether>** uhm, byterub konferenco update: the schedule is coming really soon(tm) like some time this week  
 **\<sarang>** Excellent  
 **\<suraeNoether>** we are essentially all full up for speakers, but i'm holding out for a few folks from the electronic frontier foundation, aviv zohar and yonatan sompolinsky (i think one of them are coming) and either benedikt bunz or his coauthor ben... i can't remember his name and i'm looking it up... (i have a verbal commitment that one of these two are coming to present too)  
 **\<suraeNoether>** so if anyone wants to submit an abstract, now is last minute. :D  
@@ -103,14 +103,14 @@ author: el00ruobuob / sarang
 **\<sarang>** So you'd save by avoiding the hash-to-point and by precomputing multiples for the new generator H  
 **\<sarang>** Anyway, I have both versions in the linked code  
 **\<sarang>** Any other questions on CLSAG?  
-**\<moneromooo>** The CN paper does not mention a particular reason for this extra H() ?  
+**\<byterubmooo>** The CN paper does not mention a particular reason for this extra H() ?  
 **\<suraeNoether>** does knowing xG and xH provide an advantage in computing x, assuming G and H have an unknown discrete log wrt each other??  
 **\<sarang>** I am mostly confident that the new format provides the same security, but not completely convinced  
 **\<sarang>** The option still exists to use CLSAG with the current image format  
 **\<sarang>** suraeNoether: that is exactly the case we have now, except H = H(X) is a function of the output key  
 **\<suraeNoether>** let's look into this carefully  
 **\<sarang>** Yes  
-**\<sarang>** moneromooo: likely to avoid the structure associated with xX = (x^2)G  
+**\<sarang>** byterubmooo: likely to avoid the structure associated with xX = (x^2)G  
 **\<sarang>** Anyway: I am also continuing to work on test code for the Lelantus transaction protocol, and also deeper dives into other implementations of the Dandelion++ routing protocol  
 **\<sarang>** I know of proposals/merges for this in Bitcoin, Grin, and Zcoin  
 **\<suraeNoether>** oh i didn't realize you were implementing lelantus  
@@ -149,22 +149,22 @@ author: el00ruobuob / sarang
 **\<oneiric\_>** ooo sounds fancy  
 **\<sarang>** Any general questions or observations on past, current, or ongoing research before we wrap up?  
 **\<OsrsNeedsF2P>** Question regarding inputs. We had some discussions last night, but I wanted to bring up how if you only receive 1 input, you can only send 1 transaction at a time. sweep\_all works, but it would be better if there was more leniency altogether. Can this be done?  
-**\<moneromooo>** It can be done, using the settings I mentioned yesterday.  
+**\<byterubmooo>** It can be done, using the settings I mentioned yesterday.  
 **\<sarang>** Specific qualms with sweep?  
 **\<OsrsNeedsF2P>** sarang: User experience, and only official wallet supports  
-**\<OsrsNeedsF2P>** moneromoo: do you have any suggestions on the parameters you were mentioning?  
+**\<OsrsNeedsF2P>** byterubmoo: do you have any suggestions on the parameters you were mentioning?  
 **\<sarang>** Hmm, I wonder how much of this is a UX issue given the current support  
-**\<moneromooo>** Sure, count to 5, value to 0.  
-**\<moneromooo>** Of course outputs will dwindle to 1 if you're sending large amounts. In that case, split again.  
+**\<byterubmooo>** Sure, count to 5, value to 0.  
+**\<byterubmooo>** Of course outputs will dwindle to 1 if you're sending large amounts. In that case, split again.  
 **\<OsrsNeedsF2P>** Is this a wallet level implementation, or is this something the RPC would handle on its own? (might be a dumb question)  
-**\<moneromooo>** (which can be done at the same time as sending a tx to someone else)  
-**\<moneromooo>** wallet  
-**\<moneromooo>** The RPC would also do.  
-**\<moneromooo>** Oh, speaking of RPC.  
-**\<moneromooo>** https://github.com/byterubpay/monero/pull/5331/commits/c7bfdc356618fd1ccbe0f87fd5009e944cd12e50 will allow people to extract blockchain data (ie, nonces, difficulty, block times, etc) and process them with python.  
+**\<byterubmooo>** (which can be done at the same time as sending a tx to someone else)  
+**\<byterubmooo>** wallet  
+**\<byterubmooo>** The RPC would also do.  
+**\<byterubmooo>** Oh, speaking of RPC.  
+**\<byterubmooo>** https://github.com/byterubpay/byterub/pull/5331/commits/c7bfdc356618fd1ccbe0f87fd5009e944cd12e50 will allow people to extract blockchain data (ie, nonces, difficulty, block times, etc) and process them with python.  
 **\<sarang>** Excellent  
 **\<sarang>** pinging Isthmus\_ and associates, who may be particularly interested in this  
-**\<sarang>** I look forward to testing this moneromooo  
+**\<sarang>** I look forward to testing this byterubmooo  
 **\<sarang>** Any other general questions?  
 **\<sarang>** If not, we'll move to 4. ACTION ITEMS  
 **\<sarang>** This week, I'll continue wrapping up the initial work on CLSAG, continue coding on Lelantus components, and finalize some observations on Dandelion++ routing  

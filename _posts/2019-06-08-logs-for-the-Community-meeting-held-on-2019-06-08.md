@@ -25,17 +25,17 @@ author: el00ruobuob / rehrar
 **\<el00ruobuob\_[m]>** I do want  
 **\<nioc>** yes  
 **\<rehrar>** we need more 'yes's or discussion so we can move this process along :)  
-**\<midipoet>** i think Sarang should work more for Monero  
+**\<midipoet>** i think Sarang should work more for ByteRub  
 **\<lh1008[m]>** \<rehrar "who wants to move Sarang's thing"> yes  
 **\<el00ruobuob\_[m]>** yes yes  
 **\<thunderosa>** yes  
 **\<midipoet>** ^ > yes  
 **\<rehrar>** cool, ok  
 **\<rehrar>** if you haven't yet, please also comment on his thing directly  
-**\<rehrar>** We have two stores asking for money for Monero integration  
+**\<rehrar>** We have two stores asking for money for ByteRub integration  
 **\<rehrar>** Travala and Keyi store  
 **\<rehrar>** what are the thoughts on those two?  
-**\<rehrar>** ccs.getmonero.org/ideas/ for those who want to follow along  
+**\<rehrar>** ccs.getbyterub.org/ideas/ for those who want to follow along  
 **\<el00ruobuob\_[m]>** 1) Community could and will help. 2) I do not approve incentive merchants  
 **\<nioc>** smae  
 **\<ErCiccione[m]>** i left a comment on both. Don't really like them both  
@@ -46,7 +46,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** but last thing to discuss I guess is the blockchain and statistics hub  
 **\<rehrar>** has that been covered before?  
 **\<lh1008[m]>** For travala and keyi, they can recieve all the support from the community for integration.  
-**\<rehrar>** https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/58  
+**\<rehrar>** https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/58  
 **\<rehrar>** lh1008[m]: are you saying you are in favor of merging these requests?  
 **\<ErCiccione[m]>** i suggested to the guy of the hub to come speak here in a meeting. He didn;t answer  
 **\<lh1008[m]>** \<rehrar "lh1008: are you saying you are i"> No, against. Sorry was not clear.  
@@ -90,12 +90,12 @@ author: el00ruobuob / rehrar
 **\<lh1008[m]>** We have had an active github repository with ~20 contributors. Not everyone is inside the compensation model. We highly encourage volunteered work.  
 **\<lh1008[m]>** We have worked 9 different languages and have positively impacted the community.  
 **\<lh1008[m]>** This is a summary from the Outreach Localization workgroup. Maybe @thunderosa can give you more details.  
-**\<ErCiccione[m]>** (the repository he mentioned: https://github.com/monero-ecosystem/outreach-docs)  
+**\<ErCiccione[m]>** (the repository he mentioned: https://github.com/byterub-ecosystem/outreach-docs)  
 **\<thunderosa>** Sure, so the RandomX Press Release has been one of our largest successes  
 **\<thunderosa>** There's another big media outlet about to publish, but we had alot of pickups and good support for Arweave  
 **\<thunderosa>** We're maintaining the RandomX page on our site as a resource through the fork  
 **\<thunderosa>** We did a bunch of materials for MonKon including our first print ad  
-**\<lh1008[m]>** ErCiccione: has been someone invaluable to the group. He has helped us reach translators and organize the repository through the Monero-ecosystem organization. Thank you erciccione ❤  
+**\<lh1008[m]>** ErCiccione: has been someone invaluable to the group. He has helped us reach translators and organize the repository through the ByteRub-ecosystem organization. Thank you erciccione ❤  
 **\<thunderosa>** Russian and Chinese translations are nearly done  
 **\<thunderosa>** A new community calendar is in the works and should be live within a week  
 **\<thunderosa>** I'm sure I'm forgetting some things,..but those have been some recent highlights  
@@ -133,7 +133,7 @@ author: el00ruobuob / rehrar
 **\<msvb-mob>** rehrar: That's all for me, unless there are any general or specific hardware team questions?  
 **\<rehrar>** any questions for michael?  
 **\<midipoet>** on that puzzles thing. dsc\_ has built a pretty damn cool puzzle interface that coould/should be incorporated. i have tried to coordinate with needmoney90, but he is unsure if he is going to DefCon  
-**\<midipoet>** i will try to co-ordinate on #monero-puzzles  
+**\<midipoet>** i will try to co-ordinate on #byterub-puzzles  
 **\<msvb-mob>** midipoet: Thanks a lot, hardware puzzles and challenges is a low hanging fruit that may be cancelled from Defcon if we can't staff the problem unfortunately.  
 **\<needmoney90>** Oh neat it's a meeting  
 **\<midipoet>** needmoney90 lets make puzzles  
@@ -191,13 +191,13 @@ author: el00ruobuob / rehrar
 **\<sarang>** I am going to abstain from any vote, since I am closely aligned to the CLSAG work  
 **\<nioc>** rehrar: was just about to say it's not either or where the $ goes  
 **\<nioc>** el00ruobuob\_[m]: ^^  
-**\<lh1008[m]>** I would donate some to OSFIT because of his efforts and help for the Monero community, give to a privacy oriented project, could be CLSAG.  
+**\<lh1008[m]>** I would donate some to OSFIT because of his efforts and help for the ByteRub community, give to a privacy oriented project, could be CLSAG.  
 **\<nioc>** and there is still 100+ left over in the CCS for the audits  
 **\<rehrar>** is there? from where, nioc?  
 **\<nioc>** besides what OSTIF is holding  
-**\<ErCiccione[m]>** Those are leftover money, i think would be a good idea to make a donation to OSTIF and then donate to another project. I'm not a fun of funding something Monero related with those funds  
+**\<ErCiccione[m]>** Those are leftover money, i think would be a good idea to make a donation to OSTIF and then donate to another project. I'm not a fun of funding something ByteRub related with those funds  
 **\<parasew[m]>** +1 ErCiccione  
-**\<el00ruobuob\_[m]>** But CLSAG is not only monero related  
+**\<el00ruobuob\_[m]>** But CLSAG is not only byterub related  
 **\<el00ruobuob\_[m]>** it's a global step forward for the whole crypto  
 **\<nioc>** rehrar: price had gone up from when the CCS opened for funding and only the extimated required amount was sent to OSTIF  
 **\<Mochi101>** +2 ErCiccione[m]  
@@ -212,7 +212,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** parasew[m]: yes, the CCS tends to receive few donations overall, and many projects rely on some whales to be very generous. And believe me, they are extremely generous and awesome. But we shouldn't overextend on that generosity  
 **\<rehrar>** in short, tragedy of the commons is rampant. Every $ or XMR counts  
 **\<rehrar>** I would be fine with el00ruobuob\_[m]'s proposal  
-**\<ErCiccione[m]>** el00ruobuob\_[m]: As i said, i think would be better to use those leftover funds not for a Monero CCS. Our general fund is not lacking of money, but beside that, i think it's more a principle inthis case.  
+**\<ErCiccione[m]>** el00ruobuob\_[m]: As i said, i think would be better to use those leftover funds not for a ByteRub CCS. Our general fund is not lacking of money, but beside that, i think it's more a principle inthis case.  
 **\<sarang>** It would be nice to have a more complete network of other projects that might be interested in supporting work that could benefit them too  
 **\<ErCiccione[m]>** i still vote for donation to OSTIF + donation to another project. There are two differnet opinions as far as i can see, should we vote?  
 **\<rehrar>** Yes. We can hold a vote here.  
@@ -275,7 +275,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** oops, the first should read: 1, 1, 2.5  
 **\<rehrar>** I'm hearing a lot of support for thirds.  
 **\<rehrar>** Is everyone ok with that?  
-**\<midipoet>** for the record, i also think that OSTIF seem to have been extremely helpful to Monero from a practical perspective.  
+**\<midipoet>** for the record, i also think that OSTIF seem to have been extremely helpful to ByteRub from a practical perspective.  
 **\<rehrar>** thirds means $1,500 each  
 **\<rehrar>** which sounds fine to me  
 **\<Mochi101>** 3rds  
@@ -289,9 +289,9 @@ author: el00ruobuob / rehrar
 **\<rehrar>** Openpriv was mentioned earlier, and I would agree to it  
 **\<ErCiccione[m]>** wow guys, such efficiency in this meeting :P  
 **\<nioc>** we are one  
-**\<rehrar>** they're actually featured in the Revuo Monero this week, as they accept Monero donations  
+**\<rehrar>** they're actually featured in the Revuo ByteRub this week, as they accept ByteRub donations  
 **\<sarang>** I agree with midipoet that working with OSTIF has been invaluable  
-**\<needmoney90>** we can donate to the monero project  
+**\<needmoney90>** we can donate to the byterub project  
 **\<midipoet>** Openpriv 9though not sure why they are merited above anyone else to be honest)  
 **\<ErCiccione[m]>** rehrar: maybe we can postpone the decision on which project? so we have time to gather info/names  
 **\<rehrar>** it should be noted that we will probably table the discussion here, and people can gather some thoughts, unless they had any immediate ones  
@@ -303,7 +303,7 @@ author: el00ruobuob / rehrar
 **\<needmoney90>** do we have build server costs too?  
 **\<rehrar>** so we can read up on it and decide at a later meeting  
 **\<parasew[m]>** +1  
-**\<rehrar>** needmoney90: Monero? I think those are donated by Tari or Globee  
+**\<rehrar>** needmoney90: ByteRub? I think those are donated by Tari or Globee  
 **\<el00ruobuob\_[m]>** i agree rehrar   
 **\<rehrar>** this is a fun problem to have btw  
 **\<rehrar>** the opposite problem of the last time we did audits  

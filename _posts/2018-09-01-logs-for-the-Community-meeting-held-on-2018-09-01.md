@@ -10,9 +10,9 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 
 **\<sgp\_1>** All right, meeting time  
 **\<sgp\_1>**  0. Introduction  
-**\<sgp\_1>**  We would like to welcome everyone to this Monero Community Meeting!  
+**\<sgp\_1>**  We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_1>**  Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/271  
-**\<sgp\_1>**  Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_1>**  ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_1>**  1. Greetings  
 **\<xmrmatterbridge> \<cryptochangements>** Hey everyone  
 **\<el00ruobuob\_[m]>** Hi there!  
@@ -26,33 +26,33 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<\_Slack> \<xmrscott>** Hola  
 **\<sgp\_1>** hopefully he hops on later  
 **\<sgp\_1>**  2. Community highlights  
-**\<sgp\_1>**  anhdres gave a talk about Monero in Spanish at Bitcoin Argentina: https://www.reddit.com/r/MoneroCommunity/comments/9b92t2/i\_gave\_an\_introduction\_to\_monero\_talk\_last\_friday/  
-**\<monerobux>** [REDDIT] I gave an Introduction to Monero talk last friday in the Bitcoin Argentina space (in spanish) (https://www.facebook.com/bitcoinargentina/videos/326676071411351/) to r/MoneroCommunity | 8 points (85.0%) | 3 comments | Posted by anhdres | Created at 2018-08-29 - 13:01:40  
-**\<sgp\_1>**  vp11 has been making progress with r/MoneroSupport. It now tags issues for easier support, and the number of active contributors has been steadily increasing.  
-**\<sgp\_1>**  We had our August Monero Coffee Chat: https://www.youtube.com/watch?v=8dH3R27grLE  
-**\<monerobux>** [ Monero Coffee Chat - 2018.08.18 - YouTube ] - www.youtube.com  
-**\<sgp\_1>**  There was a lot of visible work on the Monero blackball tool. moneromooo PR’ed several updates. I made a blackball database with Monero, Monerov6 (XMC, XMO), MoneroV (XMV), and public pool data available at moneroblackball.com. Another researcher shared some preliminary results of their investigation: https://www.reddit.com/r/Monero/comments/9ayq0c/results\_from\_my\_masters\_thesis\_on\_monero/  
-**\<monerobux>** [REDDIT] Results from my Master's thesis on Monero traceability, another blackball-DB (self.Monero) | 203 points (100.0%) | 37 comments | Posted by oerpli | Created at 2018-08-28 - 13:03:10  
-**\<sgp\_1>** Blackball tools can help you increase the privacy offered by Monero  
-**\<sgp\_1>**  iCryptoNode announced their Raspberry Pi Monero project: https://www.reddit.com/r/Monero/comments/9bg7a3/new\_raspberry\_pi\_monero\_project\_and\_company\_launch/  
-**\<monerobux>** [REDDIT] New Raspberry Pi Monero Project and Company Launch (self.Monero) | 155 points (99.0%) | 66 comments | Posted by jamesishere | Created at 2018-08-30 - 03:37:51  
-**\<sgp\_1>**  An update on the Monero-sponsored racecar: https://www.reddit.com/r/Monero/comments/98uhtb/monero\_sponsered\_racecar\_status\_update/  
-**\<monerobux>** [REDDIT] Monero sponsered racecar - status update (self.Monero) | 115 points (96.0%) | 40 comments | Posted by M5M400 | Created at 2018-08-20 - 15:20:12  
-**\<sgp\_1>**  rehrar published a Defcon Monero village summary: https://www.reddit.com/r/Monero/comments/97ba8q/defcon\_monero\_village\_update\_and\_summary/  
-**\<monerobux>** [REDDIT] Defcon Monero Village Update and Summary (self.Monero) | 114 points (98.0%) | 22 comments | Posted by Rehrar | Created at 2018-08-14 - 19:19:35  
-**\<sgp\_1>**  The Monero Defcon party was featured on Mashable: https://mashable.com/2018/08/14/monero-cryptocurrency-def-con-vegas/  
-**\<sgp\_1>**  Last chance to recommend a name for the Monero 0.13 release: https://forum.getmonero.org/6/ideas/90722/release-name-for-oct-0-13-0-hard-fork  
+**\<sgp\_1>**  anhdres gave a talk about ByteRub in Spanish at Bitcoin Argentina: https://www.reddit.com/r/ByteRubCommunity/comments/9b92t2/i\_gave\_an\_introduction\_to\_byterub\_talk\_last\_friday/  
+**\<byterubbux>** [REDDIT] I gave an Introduction to ByteRub talk last friday in the Bitcoin Argentina space (in spanish) (https://www.facebook.com/bitcoinargentina/videos/326676071411351/) to r/ByteRubCommunity | 8 points (85.0%) | 3 comments | Posted by anhdres | Created at 2018-08-29 - 13:01:40  
+**\<sgp\_1>**  vp11 has been making progress with r/ByteRubSupport. It now tags issues for easier support, and the number of active contributors has been steadily increasing.  
+**\<sgp\_1>**  We had our August ByteRub Coffee Chat: https://www.youtube.com/watch?v=8dH3R27grLE  
+**\<byterubbux>** [ ByteRub Coffee Chat - 2018.08.18 - YouTube ] - www.youtube.com  
+**\<sgp\_1>**  There was a lot of visible work on the ByteRub blackball tool. byterubmooo PR’ed several updates. I made a blackball database with ByteRub, ByteRubv6 (XMC, XMO), ByteRubV (XMV), and public pool data available at byterubblackball.com. Another researcher shared some preliminary results of their investigation: https://www.reddit.com/r/ByteRub/comments/9ayq0c/results\_from\_my\_masters\_thesis\_on\_byterub/  
+**\<byterubbux>** [REDDIT] Results from my Master's thesis on ByteRub traceability, another blackball-DB (self.ByteRub) | 203 points (100.0%) | 37 comments | Posted by oerpli | Created at 2018-08-28 - 13:03:10  
+**\<sgp\_1>** Blackball tools can help you increase the privacy offered by ByteRub  
+**\<sgp\_1>**  iCryptoNode announced their Raspberry Pi ByteRub project: https://www.reddit.com/r/ByteRub/comments/9bg7a3/new\_raspberry\_pi\_byterub\_project\_and\_company\_launch/  
+**\<byterubbux>** [REDDIT] New Raspberry Pi ByteRub Project and Company Launch (self.ByteRub) | 155 points (99.0%) | 66 comments | Posted by jamesishere | Created at 2018-08-30 - 03:37:51  
+**\<sgp\_1>**  An update on the ByteRub-sponsored racecar: https://www.reddit.com/r/ByteRub/comments/98uhtb/byterub\_sponsered\_racecar\_status\_update/  
+**\<byterubbux>** [REDDIT] ByteRub sponsered racecar - status update (self.ByteRub) | 115 points (96.0%) | 40 comments | Posted by M5M400 | Created at 2018-08-20 - 15:20:12  
+**\<sgp\_1>**  rehrar published a Defcon ByteRub village summary: https://www.reddit.com/r/ByteRub/comments/97ba8q/defcon\_byterub\_village\_update\_and\_summary/  
+**\<byterubbux>** [REDDIT] Defcon ByteRub Village Update and Summary (self.ByteRub) | 114 points (98.0%) | 22 comments | Posted by Rehrar | Created at 2018-08-14 - 19:19:35  
+**\<sgp\_1>**  The ByteRub Defcon party was featured on Mashable: https://mashable.com/2018/08/14/byterub-cryptocurrency-def-con-vegas/  
+**\<sgp\_1>**  Last chance to recommend a name for the ByteRub 0.13 release: https://forum.getbyterub.org/6/ideas/90722/release-name-for-oct-0-13-0-hard-fork  
 **\<sgp\_1>**  Does anyone else have community (non-workgroup) updates to share?  
 **\<el00ruobuob\_[m]>** i asked for feedback on github  
-**\<el00ruobuob\_[m]>** about monero-integrations integration to the user-guides  
+**\<el00ruobuob\_[m]>** about byterub-integrations integration to the user-guides  
 **\<el00ruobuob\_[m]>** any votes here are welcome  
-**\<el00ruobuob\_[m]>** https://github.com/byterubpay/monero-site/issues/852  
+**\<el00ruobuob\_[m]>** https://github.com/byterubpay/byterub-site/issues/852  
 **\<xmrmatterbridge> \<cryptochangements>** I vote 100% in favor  
 **\<midipoet>** has that Rasberry Pi code been community vetted?  
 **\<xmrmatterbridge> \<cryptochangements>** I'll comment on github, even if I may be a little biased lol  
 **\<sgp\_1>** midipoet not that I know of but it's open source  
 **\<hyc>** oooo. new workgroup. review other software in the ecosystem  
-**\<hyc>** give a "monero community reviewed" stamp  
+**\<hyc>** give a "byterub community reviewed" stamp  
 **\<midipoet>** thats actually a nice idea for a workgroup  
 **\<sgp\_1>** agreed  
 **\<el00ruobuob\_[m]>** agreed too  
@@ -60,21 +60,21 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<sarang>** Hi, just joined  
 **\<sgp\_1>**  3. FFS updates  
 **\<sgp\_1>**  There are several Forum Funding System (FFS) updates. Workgroup reports now have their own section.  
-**\<sgp\_1>**  rehrar opened a FFS for his tour to speak at several conferences, still in ideas: https://forum.getmonero.org/6/ideas/90717/the-rehrar-tour  
-**\<sgp\_1>**  Brandon opened a FFS for another quarter of research, still in ideas: https://forum.getmonero.org/6/ideas/90730/continued-funding-for-surae-for-another-quarter-september-october-november-2018  
-**\<sgp\_1>**  moneromooo opened a FFS for another quarter of development, still in ideas: https://forum.getmonero.org/6/ideas/90748/moneromooo-coding-october-december  
-**\<sgp\_1>**  A contributor made a flyer and is asking for support to share with other households, still in ideas: https://forum.getmonero.org/6/ideas/90669/anybody-interested-in-participating-in-a-monero-pamphlet-drive  
-**\<sgp\_1>**  violentlypeaceful opened a FFS to translate Monero documentation to Brazilian Portuguese, still in ideas: https://forum.getmonero.org/6/ideas/90652/monero-ecosystem-translation-to-brazilian-portuguese  
+**\<sgp\_1>**  rehrar opened a FFS for his tour to speak at several conferences, still in ideas: https://forum.getbyterub.org/6/ideas/90717/the-rehrar-tour  
+**\<sgp\_1>**  Brandon opened a FFS for another quarter of research, still in ideas: https://forum.getbyterub.org/6/ideas/90730/continued-funding-for-surae-for-another-quarter-september-october-november-2018  
+**\<sgp\_1>**  byterubmooo opened a FFS for another quarter of development, still in ideas: https://forum.getbyterub.org/6/ideas/90748/byterubmooo-coding-october-december  
+**\<sgp\_1>**  A contributor made a flyer and is asking for support to share with other households, still in ideas: https://forum.getbyterub.org/6/ideas/90669/anybody-interested-in-participating-in-a-byterub-pamphlet-drive  
+**\<sgp\_1>**  violentlypeaceful opened a FFS to translate ByteRub documentation to Brazilian Portuguese, still in ideas: https://forum.getbyterub.org/6/ideas/90652/byterub-ecosystem-translation-to-brazilian-portuguese  
 **\<sgp\_1>**  Does anyone else have a FFS update, or comments about any of these FFS proposals?  
 **\<sarang>** I'll be submitting a similar FFS next month  
-**\<el00ruobuob\_[m]>** rehrar, Brandon & Moneromoo to Funding Required, sure! The flyers may be a good idea too.  
+**\<el00ruobuob\_[m]>** rehrar, Brandon & ByteRubmoo to Funding Required, sure! The flyers may be a good idea too.  
 **\<sarang>** For a quarter of research  
 **\<el00ruobuob\_[m]>** I will propose another quarter myself  
 **\<sgp\_1>** All right, we can move on  
 **\<sgp\_1>**  4. Workgroup report  
 **\<sgp\_1>**  This is a new separate section where other workgroups can report on all that they are working on. If you would like for your workgroup to be represented, please contact me at least a few hours before the meeting.  
-**\<sgp\_1>**  a. Monero Malware Response Workgroup  
-**\<sgp\_1>**  The Malware Response workgroup site will be up very soon at mrw.getmonero.org.  
+**\<sgp\_1>**  a. ByteRub Malware Response Workgroup  
+**\<sgp\_1>**  The Malware Response workgroup site will be up very soon at mrw.getbyterub.org.  
 **\<sgp\_1>** rehrar isn't here so he can't share the latest version, but you'll see it soon enough  
 **\<xmrmatterbridge> \<rehrar>** Watchoo want?  
 **\<sgp\_1>** awesome  
@@ -111,7 +111,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<sgp\_1>**  5. Open ideas time  
 **\<sgp\_1>**  It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
 **\<rehrar>** best meeting ever  
-**\<xmrmatterbridge> \<ordtrogen>** Too little time to provide a review, but I thinks there's a theme missing and thats's Monero is actually making it harder for malware in the long run. Malware piggybacking on Monero forces IT security etc to harden their systems.  
+**\<xmrmatterbridge> \<ordtrogen>** Too little time to provide a review, but I thinks there's a theme missing and thats's ByteRub is actually making it harder for malware in the long run. Malware piggybacking on ByteRub forces IT security etc to harden their systems.  
 **\<rehrar>** Here's an idea, buy all of the cypher market shirts to support FOSS  
 **\<rehrar>** I've become the very thing I've sworn to destroy: a shill  
 **\<hyc>** lol  
@@ -131,10 +131,10 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<el00ruobuob\_[m]>** some month ago, we discuss the refactoring of the hangout wabsite page, we have an issue open on this, but no new ideas for a while  
 **\<el00ruobuob\_[m]>** i believe this is something we should work on, especialy when Telegram chats are so active  
 **\<sgp\_1>** oh yes good point  
-**\<rehrar>** I've been hanging on the telegrams for a while. I'm shocked at how little they know about the happenings of Monero. Really.  
+**\<rehrar>** I've been hanging on the telegrams for a while. I'm shocked at how little they know about the happenings of ByteRub. Really.  
 **\<midipoet>** lol  
 **\<rehrar>** No clue about RandomJS, questions about what bulletproofs is, etc.  
-**\<xmrmatterbridge> \<ordtrogen>** you mean the Monero telegrams?  
+**\<xmrmatterbridge> \<ordtrogen>** you mean the ByteRub telegrams?  
 **\<rehrar>** yes ordtrogen  
 **\<el00ruobuob\_[m]>** yep  
 **\<rehrar>** Telegram is for scrubs  
@@ -152,13 +152,13 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 \* binaryFate messaging rehrar  
 **\<sgp\_1>** hey it's me a spammer  
 **\<rehrar>** want a job?  
-**\<rehrar>** Alright, open ideas time still going. Pigeons and I have looked at various infrastructure things to expand. Such as media.getmonero.org where we can upload a lot of videos and keep a lot of Monero info consolidated, having our own Jitsi instance, etc.  
+**\<rehrar>** Alright, open ideas time still going. Pigeons and I have looked at various infrastructure things to expand. Such as media.getbyterub.org where we can upload a lot of videos and keep a lot of ByteRub info consolidated, having our own Jitsi instance, etc.  
 **\<rehrar>** We've got some fun things we're looking at, but there's a concern brought about by anonimal, and he is correct at least in the sense that the discussion should be had  
-**\<rehrar>** at that is that we should discuss the centralization on the getmonero infrastructure, largely headed and financed by the pony, and maintained by pigeons and myself  
-**\<rehrar>** there's a lot of great open source, self-hosted FOSS that Monero could utilize  
+**\<rehrar>** at that is that we should discuss the centralization on the getbyterub infrastructure, largely headed and financed by the pony, and maintained by pigeons and myself  
+**\<rehrar>** there's a lot of great open source, self-hosted FOSS that ByteRub could utilize  
 **\<rehrar>** and I have no issue helping people getting these things up and running, but I think we should see about maybe getting some other volunteers to run certain services?  
 **\<hyc>** what services do people want to use?  
-**\<rehrar>** getmonero already does the getmonero.org website, taiga, mattermost, soon Malware Response, and other stuff  
+**\<rehrar>** getbyterub already does the getbyterub.org website, taiga, mattermost, soon Malware Response, and other stuff  
 **\<rehrar>** hyc there was talk of a Pootle instance which is a translation thingy that would help the translators keep track of strings to be translated and stuff  
 **\<rehrar>** the name of the one used by almost everyone escapes me at the moment  
 **\<sgp\_1>** lists?  
@@ -197,7 +197,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<rehrar>** Taiga has docs, and nobody stops anybody from making their own version  
 **\<rehrar>** el00ruobuob\_[m] we need I2P only :D  
 **\<rehrar>** that was it for me. Just wanted to get a bit of conversation going on this subject.  
-**\<sgp\_1>** each workgroup should own all non-getmonero.org domains. For example, I own moneroblackball.com and monero.coffee  
+**\<sgp\_1>** each workgroup should own all non-getbyterub.org domains. For example, I own byterubblackball.com and byterub.coffee  
 **\<Inge->** A number of community-hosted mirrors could be useful  
 **\<rehrar>** let's apply for a .xmr TLD  
 **\<rehrar>** semi serious here, what would it take I wonder?  
@@ -227,11 +227,11 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<hyc>** yeah  
 \* rgp est maintenant connu sous le nom de rehrar  
 **\<midipoet>** having said that, it may be difficult for some actors to distinguish serious projects  
-**\<Inge->** hyc "and an unknown amount of monero" ...  
+**\<Inge->** hyc "and an unknown amount of byterub" ...  
 **\<el00ruobuob\_[m]>** play clean: talk more about audit wallet to those gov't  
 **\<midipoet>** so approaching government with the mentality of being a serious project with 'pure' goals centred around bettering society/privacy/humanity - i think would be wise  
 **\<hyc>** still not as easy as all that. gov't still pusing for backdoors.  
-**\<midipoet>** yes, understand that. but monero seems to be about control of privacy rather than absolute privacy  
+**\<midipoet>** yes, understand that. but byterub seems to be about control of privacy rather than absolute privacy  
 **\<midipoet>** unless i am wrong  
 **\<hyc>** it's both. if someone chooses to remain private, then they're absolute  
 **\<hyc>** gov't wants magic unlock codes  
@@ -273,8 +273,8 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<hyc>** yes.  
 **\<midipoet>** and most states move at elephants pace  
 **\<hyc>** it's a win-win for us to engage with them, i think  
-**\<binaryFate>** if we can help the narrative that Monero != nefarious to some influencial ears, that would be good from our side  
-**\<rehrar>** then maybe we might be able to get the politicians to hide their corruption using Monero and then we'd be back to square one  
+**\<binaryFate>** if we can help the narrative that ByteRub != nefarious to some influencial ears, that would be good from our side  
+**\<rehrar>** then maybe we might be able to get the politicians to hide their corruption using ByteRub and then we'd be back to square one  
 **\<rehrar>** if they're convinced that is :P  
 **\<binaryFate>** ssshhhh  
 **\<hyc>** not quite square 1. there'd be nod Fed Resv controlling supply.  
@@ -283,7 +283,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<hyc>** ripple  
 **\<midipoet>** oh that a good point  
 **\<binaryFate>** ordtrogen no, that's HCPP in October. CCC is the 2nd largest hacker event in the world, in Germany end of December.  
-**\<rehrar>** but let's be real. We're pretending to be productive while watching Monero pump and waiting for it to overtake IOTA as #10  
+**\<rehrar>** but let's be real. We're pretending to be productive while watching ByteRub pump and waiting for it to overtake IOTA as #10  
 **\<binaryFate>** midipoet yes ethereum  
 **\<binaryFate>** as per the status of the foundation in Switzerland, they could change supply any time. They're doing it now btw.  
 **\<midipoet>** but ethereum isnt strictly a currency?  
@@ -294,11 +294,11 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<midipoet>** about encryption backdoora  
 **\<midipoet>** \*backdoors  
 **\<midipoet>** "The Governments of the Five Eyes encourage information and communications technology service providers to voluntarily establish lawful access solutions to their products and services that they create or operate in our countries"  
-**\<midipoet>** that is basically the view key. so Monero is fine  
+**\<midipoet>** that is basically the view key. so ByteRub is fine  
 **\<hyc>** only fine if the viewkey is accessible.  
 **\<midipoet>** oh i see  
 **\<hyc>** iphones have unlock codes, but FBI wants a bypass if the owner doesn't yield it  
-**\<binaryFate>** Monero is hardly a service provider  
+**\<binaryFate>** ByteRub is hardly a service provider  
 **\<midipoet>** no, but you could argue that the network is  
 **\<midipoet>** a self servicing payments system  
 **\<hyc>** I'm sure they will try to apply this to everything possible. legislative overreach is the norm.  
@@ -332,7 +332,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<ErCiccione>** ok, yes. opened 14 hours ago, didn't see it. sorry folks  
 **\<endogenic>** Inge-: you might also want to share a proof but not share forward (ongoing) access to updated values  
 **\<endogenic>** sarang: ^  
-**\<ErCiccione>** about pootle. it will be hosted on getmonero. I have already contacted pigeons and he is working on it with the pony. i hope we will be able to test it soon  
+**\<ErCiccione>** about pootle. it will be hosted on getbyterub. I have already contacted pigeons and he is working on it with the pony. i hope we will be able to test it soon  
 **\<pigeons>** Hi, I'll get with ErCiccione today and we can finish this up  
 **\<ErCiccione>** great :)  
 **\<Inge->** endogenic: that could perhaps easily be done by moving to a different wallet before spending..  

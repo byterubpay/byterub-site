@@ -10,9 +10,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** Meeting time :)  
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/221  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<ArticMine>** Hi  
 **\<rehrar>** What up?  
@@ -21,21 +21,21 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Welcome all  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** Watch the Coffee Chat from last week: https://www.youtube.com/watch?v=8-CXKJetI-o  
-**\<monerobux>** [ Monero Coffee Chat - 2018.05.05 - YouTube ] - www.youtube.com  
-**\<sgp\_>** A Vienna Italian restaurant accepts Monero: https://www.reddit.com/r/Monero/comments/8flevq/my\_family\_runs\_an\_authentic\_italian\_restaurant\_in/  
-**\<monerobux>** [REDDIT] My family runs an authentic Italian restaurant in Vienna, Austria . After talking about it and explaining them what monero is and why it is better than other crypto coins we decided to accept monero payments starting next week! (https://i.redd.it/c6g3aj35rou01.jpg) to r/Monero | 682 points (95.0%) | 110 comments | Posted by Katsura9000 | Created at 2018-04-28 - 17:37:18  
-**\<sgp\_>** NordVPN now accepts Monero payments: https://www.reddit.com/r/Monero/comments/8gr8lf/nordvpn\_now\_accepting\_xmr\_payments/  
-**\<monerobux>** [REDDIT] NordVPN Now Accepting XMR payments (self.Monero) | 370 points (98.0%) | 58 comments | Posted by thegreenbonsai | Created at 2018-05-03 - 15:31:39  
-**\<sgp\_>** Circle added Monero: https://blog.circle.com/2018/05/07/circle-invest-welcomes-monero/  
-**\<sgp\_>** M5M400, the admin of supportXMR, sponsored the race car driver Niklas Makschin. He will include the Monero logo prominently on his car: https://www.reddit.com/r/Monero/comments/8gqsd7/i\_really\_liked\_fluffys\_yacht\_sail\_sponsoring\_but/  
-**\<monerobux>** [REDDIT] I really liked fluffy's yacht sail sponsoring, but I am more into racecars... (self.Monero) | 68 points (93.0%) | 28 comments | Posted by M5M400 | Created at 2018-05-03 - 14:30:43  
-**\<sgp\_>** I introduced a GitHub issue to deprecate standalone payment IDs: https://github.com/byterubpay/monero/issues/3772  
+**\<byterubbux>** [ ByteRub Coffee Chat - 2018.05.05 - YouTube ] - www.youtube.com  
+**\<sgp\_>** A Vienna Italian restaurant accepts ByteRub: https://www.reddit.com/r/ByteRub/comments/8flevq/my\_family\_runs\_an\_authentic\_italian\_restaurant\_in/  
+**\<byterubbux>** [REDDIT] My family runs an authentic Italian restaurant in Vienna, Austria . After talking about it and explaining them what byterub is and why it is better than other crypto coins we decided to accept byterub payments starting next week! (https://i.redd.it/c6g3aj35rou01.jpg) to r/ByteRub | 682 points (95.0%) | 110 comments | Posted by Katsura9000 | Created at 2018-04-28 - 17:37:18  
+**\<sgp\_>** NordVPN now accepts ByteRub payments: https://www.reddit.com/r/ByteRub/comments/8gr8lf/nordvpn\_now\_accepting\_xmr\_payments/  
+**\<byterubbux>** [REDDIT] NordVPN Now Accepting XMR payments (self.ByteRub) | 370 points (98.0%) | 58 comments | Posted by thegreenbonsai | Created at 2018-05-03 - 15:31:39  
+**\<sgp\_>** Circle added ByteRub: https://blog.circle.com/2018/05/07/circle-invest-welcomes-byterub/  
+**\<sgp\_>** M5M400, the admin of supportXMR, sponsored the race car driver Niklas Makschin. He will include the ByteRub logo prominently on his car: https://www.reddit.com/r/ByteRub/comments/8gqsd7/i\_really\_liked\_fluffys\_yacht\_sail\_sponsoring\_but/  
+**\<byterubbux>** [REDDIT] I really liked fluffy's yacht sail sponsoring, but I am more into racecars... (self.ByteRub) | 68 points (93.0%) | 28 comments | Posted by M5M400 | Created at 2018-05-03 - 14:30:43  
+**\<sgp\_>** I introduced a GitHub issue to deprecate standalone payment IDs: https://github.com/byterubpay/byterub/issues/3772  
 **\<sgp\_>** Does anyone else have community updates to share?  
 **\<ErCiccione>** GUI frozen and being translated. Soon out  
 **\<rehrar>** point release soon then?  
 **\<ErCiccione>** as soon as we finish the translations  
 **\<xmrscott[m]>** Within the next week I believe is the target  
-**\<sgp\_>** ping endogenic, respond if you have MyMonero updates  
+**\<sgp\_>** ping endogenic, respond if you have MyByteRub updates  
 **\<xmrscott[m]>** I know at least 6 or so languages have been updated within the first 24 hours or so of the freeze  
 **\<rafficer>** I will finish another one today, and then contacting reviewers  
 **\<\_Slack> \<serhack>** Hi :)  
@@ -44,26 +44,26 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** I, rehrar the meek, have an update  
 **\<sgp\_>** go ahread rehrar :)  
 **\<ErCiccione>** rafficer: before end of next week, but let's talk about this later :)  
-**\<rehrar>** fund the bulletproofs: https://forum.getmonero.org/8/funding-required/90007/bulletproofs-audit-fundraising  
-**\<rehrar>** explanation here: https://www.reddit.com/r/Monero/comments/8ix9u8/bulletproof\_audit\_needs\_some\_more\_funding\_details/  
-**\<monerobux>** [REDDIT] Bulletproof audit needs some more funding. Details in the comments. (https://forum.getmonero.org/8/funding-required/90007/bulletproofs-audit-fundraising) to r/Monero | 4 points (100.0%) | 1 comments | Posted by Rehrar | Created at 2018-05-12 - 16:51:07  
+**\<rehrar>** fund the bulletproofs: https://forum.getbyterub.org/8/funding-required/90007/bulletproofs-audit-fundraising  
+**\<rehrar>** explanation here: https://www.reddit.com/r/ByteRub/comments/8ix9u8/bulletproof\_audit\_needs\_some\_more\_funding\_details/  
+**\<byterubbux>** [REDDIT] Bulletproof audit needs some more funding. Details in the comments. (https://forum.getbyterub.org/8/funding-required/90007/bulletproofs-audit-fundraising) to r/ByteRub | 4 points (100.0%) | 1 comments | Posted by Rehrar | Created at 2018-05-12 - 16:51:07  
 **\<rafficer>** If the goal wouldn't be met, which auditors will still be able to audit the code?  
-**\<rehrar>** funding bulletproofs is honestly the biggest thing in Monero right now  
+**\<rehrar>** funding bulletproofs is honestly the biggest thing in ByteRub right now  
 **\<rehrar>** which leads me to a little thing to be talked about later in the meeting  
 **\<rehrar>** it's time to kick the community workgroup into gear. Not just hosting meetings every week, but working on community engagement  
 **\<rehrar>** especially in regards to the FFS, but that can be done later  
 **\<rehrar>** (later this meeting)  
 **\<sgp\_>** Shall we move on to the FFS section?  
 **\<sgp\_>** 3. FFS updates  
-**\<sgp\_>** The Kastelo hardware wallet moved to funding required, and it is sitting at about 20% funded: https://forum.getmonero.org/8/funding-required/90126/advancing-monero-hardware-wallet  
-**\<sgp\_>** SerHack can't be present in this meeting but he really will appreciate if the community could give some feedbacks about Mastering Monero draft on Github. (https://github.com/monerobook/monerobook/pulls). Let's improve this community again!  
+**\<sgp\_>** The Kastelo hardware wallet moved to funding required, and it is sitting at about 20% funded: https://forum.getbyterub.org/8/funding-required/90126/advancing-byterub-hardware-wallet  
+**\<sgp\_>** SerHack can't be present in this meeting but he really will appreciate if the community could give some feedbacks about Mastering ByteRub draft on Github. (https://github.com/byterubbook/byterubbook/pulls). Let's improve this community again!  
 **\<sgp\_>** rehrar mentioned that the bulletproof audits need more funding  
-**\<sgp\_>** xmrhaelan announced their intent to work on Monero public relations. You can see community discussion in several threads including this one: https://www.reddit.com/r/Monero/comments/8hcq7u/monero\_public\_relations\_plan/  
-**\<monerobux>** [REDDIT] MONERO PUBLIC RELATIONS PLAN (self.Monero) | 144 points (94.0%) | 59 comments | Posted by xmrhaelan | Created at 2018-05-06 - 03:51:26  
-**\<sgp\_>** They have already started work on Taiga: https://taiga.getmonero.org/project/xmrhaelan-monero-public-relations/  
+**\<sgp\_>** xmrhaelan announced their intent to work on ByteRub public relations. You can see community discussion in several threads including this one: https://www.reddit.com/r/ByteRub/comments/8hcq7u/byterub\_public\_relations\_plan/  
+**\<byterubbux>** [REDDIT] MONERO PUBLIC RELATIONS PLAN (self.ByteRub) | 144 points (94.0%) | 59 comments | Posted by xmrhaelan | Created at 2018-05-06 - 03:51:26  
+**\<sgp\_>** They have already started work on Taiga: https://taiga.getbyterub.org/project/xmrhaelan-byterub-public-relations/  
 **\<sgp\_>** Since this is a large and relevant proposal, I would like to open discussion here regarding this public relations proposal.  
 **\<vp11>** can we oficially change the name from Public Release to Education & Overeach or something like that?  
-**\<sgp\_>** I am in favor of the tasks they have laid out. Making a press kit, and easier point of communication for press, and overall refining Monero's message  
+**\<sgp\_>** I am in favor of the tasks they have laid out. Making a press kit, and easier point of communication for press, and overall refining ByteRub's message  
 **\<rehrar>** (sorry to interject, taiga will be down for thirty minutes starting in fifteen minutes. pigeons and I will be working on it  
 **\<rehrar>** )  
 **\<rehrar>** back to the matter at hand, public relations is fine imo.  
@@ -75,24 +75,24 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Hell, even the Euro needed a "communication strategy". Here's an example for Slovenia: https://bankaslovenije.blob.core.windows.net/publication-files/gdgetGfgsfdggo\_communication\_strategy.pdf  
 **\<sgp\_>** Well, if there's no further discussion on this, we can move on  
 **\<vp11>** I don't think it's a bad idea, even more if the community participate  
-**\<vp11>** a lot of people fear that pr equals "marketing" and quickly jump the gun thinking that Monero will become Dash 2.0  
+**\<vp11>** a lot of people fear that pr equals "marketing" and quickly jump the gun thinking that ByteRub will become Dash 2.0  
 **\<sgp\_>** I'll stay in communication with xmrhaelan to get the most out of their ideas  
 **\<vp11>** community involvement is key  
 **\<ArticMine>** Yes I agree  
 **\<sgp\_>** Yeah, we don't need to make "Dash... Dash... Dash..." videos. But many things are beneficial without being shilly or cringeworthy  
 **\<rehrar>** but for real, we need a music video  
-**\<vp11>** I see no bad in having useful resources and materials about monero easily accessible to interested people.  
+**\<vp11>** I see no bad in having useful resources and materials about byterub easily accessible to interested people.  
 **\<sgp\_>** We also ened to encourage people to be more active  
-**\<sgp\_>** I've started a Monero Meetup in Minneapolis, and we should find easy ways for people to be motivated to do this, and give them the necessary materials to get started  
-**\<ArticMine>** There is a great need for information that supports the use of Monero. There is no need for hiring a hooker to stand by a booth in a show  
-**\<ArticMine>** That is the Monero vs Dash difference here  
-**\<\_Slack> \<sabin.smith>** I'll read through mastering monero again and give feed back  
-**\<rehrar>** #themonerodifference  
+**\<sgp\_>** I've started a ByteRub Meetup in Minneapolis, and we should find easy ways for people to be motivated to do this, and give them the necessary materials to get started  
+**\<ArticMine>** There is a great need for information that supports the use of ByteRub. There is no need for hiring a hooker to stand by a booth in a show  
+**\<ArticMine>** That is the ByteRub vs Dash difference here  
+**\<\_Slack> \<sabin.smith>** I'll read through mastering byterub again and give feed back  
+**\<rehrar>** #thebyterubdifference  
 **\<sgp\_>** a. Localization workgroup Q&A  
 **\<sgp\_>** Take it away, ErCiccione!  
 **\<ErCiccione>** ook  
 **\<ErCiccione>** so, as said, the GUI is frozen and we are busy translating it, you can find the related issue on github here:  
-**\<ErCiccione>** https://github.com/byterubpay/monero-gui/issues/1377  
+**\<ErCiccione>** https://github.com/byterubpay/byterub-gui/issues/1377  
 **\<ErCiccione>** 10 languages have already been PRd many other are being worked on as we speak, and some are still in need of translators  
 **\<ErCiccione>** now that my PR with the updates to the language files have been merged, i will write a guide on reddit with some instructions for non techy people  
 **\<cryptochange>** Translate all the things!  
@@ -142,7 +142,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<TheoStorm>** at a premium price  
 **\<TheoStorm>** so let's say ask 300 USD for a device or so  
 **\<ArticMine>** That is fair. It should be moved from a failed FFS  
-**\<rehrar>** TheoStorm, the deliverable is not a hardware wallet. It's a spec. The Monero Project doesn't want to be responsible for shipping and fulfillment. Trezor is a business so they do. ;)  
+**\<rehrar>** TheoStorm, the deliverable is not a hardware wallet. It's a spec. The ByteRub Project doesn't want to be responsible for shipping and fulfillment. Trezor is a business so they do. ;)  
 **\<TheoStorm>** hmm k, missed that  
 **\<rehrar>** but you're not wrong  
 **\<rehrar>** that's a way to get it done faster  
@@ -171,7 +171,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** but the bad thing is that a day is only 24 hours long and i need to sleep sometimes  
 **\<ErCiccione>** if somebody could give a hand would be extremely appreciated  
 **\<ErCiccione>** especially with this issue  
-**\<ErCiccione>** https://github.com/monero-ecosystem/monero-GUI-guide/issues/20  
+**\<ErCiccione>** https://github.com/byterub-ecosystem/byterub-GUI-guide/issues/20  
 **\<ErCiccione>** since i don't know much about ringdb  
 **\<ErCiccione>** also,  
 **\<sgp\_>** I can take responsibility for the ringdb screen  
@@ -183,27 +183,27 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
 **\<rehrar>** Taiga back online. Updated and maintained.  
 **\<vp11>** So  
-**\<sgp\_>** If everyone else is too shy, I have an idea. I'm really missing the Monero Observer and Monero Monitor. Hopefully we can get these back :/  
-**\<vp11>** I wanted to at least start thinking again about #monero-support and other support channels  
+**\<sgp\_>** If everyone else is too shy, I have an idea. I'm really missing the ByteRub Observer and ByteRub Monitor. Hopefully we can get these back :/  
+**\<vp11>** I wanted to at least start thinking again about #byterub-support and other support channels  
 **\<sgp\_>** ooh good topic vp11  
 **\<vp11>** bearretinjapan and I had a discussion here a few days ago I think  
 **\<vp11>** I believe we may have reached the point where dedicated support channels might make sense if they're correctly enforced (and promoted)  
-**\<sgp\_>** For support, we currently use r/MoneroSupport, r/Monero, and StackExchange. I agree we should get support off r/Monero and onto r/MoneroSupport. Does anyone use #monero-support? I haven't been on in a while  
+**\<sgp\_>** For support, we currently use r/ByteRubSupport, r/ByteRub, and StackExchange. I agree we should get support off r/ByteRub and onto r/ByteRubSupport. Does anyone use #byterub-support? I haven't been on in a while  
 **\<vp11>** we're seeing again and again the same questions repeated multiple times during weeks on reddit  
 **\<vp11>** so even if we have multiple channels and people don't use it, then we might be doing something wrong  
 **\<vp11>** I proposed a "Help" section directly in the GUI, possibly with the answer for common questions and links to the stack exchange answers / other channels  
 **\<vp11>** just brainstorming  
-**\<cryptochangement>** I would love to see r/monero-support be used more  
+**\<cryptochangement>** I would love to see r/byterub-support be used more  
 **\<rehrar>** the GUI should never point to anything external imo  
 **\<rehrar>** all help should be self contained within the app  
-**\<vp11>** I just want people to think a little about it, about how we can make it easier for monero users to find the answers they're looking for without having to ask them over and over on reddit  
+**\<vp11>** I just want people to think a little about it, about how we can make it easier for byterub users to find the answers they're looking for without having to ask them over and over on reddit  
 **\<cryptochangement>** the problem is that the people that *do* use the support end up not getting a response and then just ask in the main channel  
 **\<vp11>** rehrar, if that's the case, then just find a way to insert a FAQ there. maybe even a literal copy/paste of the stack exchange answers.  
-**\<sgp\_>** Yeah, we need more people who are willing to help in r/MoneroSupport  
+**\<sgp\_>** Yeah, we need more people who are willing to help in r/ByteRubSupport  
 **\<rehrar>** correct cryptochangement  
 **\<rehrar>** we need volunteers, consistent ones, to man those stations  
-**\<\_Slack> \<sabin.smith>** I didn't even know there was an r/MoneroSupport  
-**\<vp11>** cryptochangement, that's why I also said "to enforce it". it's both ways, people who want to help might go there but then we need to make sure moderators on r/Monero will be forwarding questions there  
+**\<\_Slack> \<sabin.smith>** I didn't even know there was an r/ByteRubSupport  
+**\<vp11>** cryptochangement, that's why I also said "to enforce it". it's both ways, people who want to help might go there but then we need to make sure moderators on r/ByteRub will be forwarding questions there  
 **\<vp11>** until people learn and that becomes the default  
 **\<rehrar>** pero (may he rest in peace) gave me the place sabin.smith  
 **\<cryptochangement>** I just don't want people asking for help to get sent over there forcefully and then get no help because only people that need help go there  
@@ -212,13 +212,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<cryptochangement>** pretty much  
 **\<vp11>** cryptochangement, it's not so hard I guess to create a support workgroup  
 **\<vp11>** it's always the same 6-8 people helping  
-**\<sgp\_>** We need several call-to-actions. "Want to help Monero but don't know how to code? Help in r/MoneroSupport!"  
+**\<sgp\_>** We need several call-to-actions. "Want to help ByteRub but don't know how to code? Help in r/ByteRubSupport!"  
 **\<\_Slack> \<sabin.smith>** I'll start rembering when I see posts to direct people there.  
 **\<\_Slack> \<sabin.smith>** subscribed  
 **\<rehrar>** ok, and that's something that I wanted to discuss  
 **\<cryptochangement>** sgp\_: that could work  
 **\<rehrar>** we need reddit flairs  
-**\<vp11>** let's organize ourselves to go there and get some support from r/Monero to forward people there  
+**\<vp11>** let's organize ourselves to go there and get some support from r/ByteRub to forward people there  
 **\<rehrar>** and t shirt prizes to volunteers  
 **\<rehrar>** we need to reward people who go above and beyond for the project  
 **\<\_Slack> \<sabin.smith>** good idea  
@@ -232,7 +232,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** one t-shirt per month, that's 12 t-shirts per year, pretty sure we can even FFS that  
 **\<rehrar>** stuff like that  
 **\<rehrar>** heck dude, I'd cover the one t shirt a month  
-**\<vp11>** rehrar you're the mod there on r/MoneroSupport?  
+**\<vp11>** rehrar you're the mod there on r/ByteRubSupport?  
 **\<rehrar>** pero gave it to me, yeah  
 **\<vp11>** let's make it happen brah  
 **\<\_Slack> \<sabin.smith>** Directing people to stackexchange just adds to confusion  
@@ -240,18 +240,18 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** exactly  
 **\<\_Slack> \<sabin.smith>** yeah  
 **\<rehrar>** stackexchange is generally for specialized people  
-**\<bearretinjapan>** vp11, yeah, that's pretty much what we agreed on, Monero needs more concentrated support, lik a renewed effort to keep SE active, more documentatyion in the GUI (and in different languages) and ant other places newbies might end up.  
+**\<bearretinjapan>** vp11, yeah, that's pretty much what we agreed on, ByteRub needs more concentrated support, lik a renewed effort to keep SE active, more documentatyion in the GUI (and in different languages) and ant other places newbies might end up.  
 **\<sgp\_>** I added that after I felt bad no one was answering the questions  
 **\<rehrar>** as we move closer and closer to mass adoption, we need everything that currently exists that's good for techy people as an equivalent to a normie one  
-**\<bearretinjapan>** Google probably doesn't cut it, so people are going to the next likely concentration of users, which is /r/monero but I can already see user patience is flagging there (which is probably a good thing) but there needs to be a fallback.  
+**\<bearretinjapan>** Google probably doesn't cut it, so people are going to the next likely concentration of users, which is /r/byterub but I can already see user patience is flagging there (which is probably a good thing) but there needs to be a fallback.  
 **\<\_Slack> \<sabin.smith>** it would be nice if the gui had a preset of nodes that could be selected by geographical region but I know they get overwhelmed  
 **\<bearretinjapan>** the sticky threads are a decent stopgap, but people really need to be forced there, even with the stickys, I'm still seeing a new thread every hour of a support/question nature.  
 **\<\_Slack> \<sabin.smith>** people don't like to read more than two or three sentences  
-**\<vp11>** so, let's do baby steps. maybe getting r/MoneroSupport alive, trying to forward people there. I think we can brainstorm during the next two weeks on how we could give direct, quick help to common issues in the GUI itself.  
-**\<moneromooo>** No, it would not be nice. It would provide another push for people to do the wrong thing.  
-**\<moneromooo>** Unless it's only used with stoffu's proxying code.  
+**\<vp11>** so, let's do baby steps. maybe getting r/ByteRubSupport alive, trying to forward people there. I think we can brainstorm during the next two weeks on how we could give direct, quick help to common issues in the GUI itself.  
+**\<byterubmooo>** No, it would not be nice. It would provide another push for people to do the wrong thing.  
+**\<byterubmooo>** Unless it's only used with stoffu's proxying code.  
 **\<rehrar>** who wants to be made a mod on the support place?  
-**\<sgp\_>** vp11 yeah, start by 1) direct people to r/MoneroSupport, 2) encouraging participation in r/MoneroSupport and StackExchange, and 3) incentivizing support somehow, even if it's a flar on r/Monero and r/MoneroSupport  
+**\<sgp\_>** vp11 yeah, start by 1) direct people to r/ByteRubSupport, 2) encouraging participation in r/ByteRubSupport and StackExchange, and 3) incentivizing support somehow, even if it's a flar on r/ByteRub and r/ByteRubSupport  
 **\<bearretinjapan>** I really only see SE as being the right kind of environment for genuine support, but the sub needs to be blatantly obvious and unfortunately forceful about directing users there.  
 **\<vp11>** let me be a mod so I can create flairs and label everyone as I like, pls :(  
 **\<vp11>** jokes apart I can totally help on the support part, I learn a lot by helping people  
@@ -268,5 +268,5 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 5. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be two weeks from today on 26 May.  
 **\<sgp\_>** 6. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. A big thanks to ErCiccione for running the previous community meeting in my absense. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. A big thanks to ErCiccione for running the previous community meeting in my absense. Take care, and know that change starts with YOU.  
 **\<rehrar>** kthanksbai  

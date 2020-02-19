@@ -30,7 +30,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** 1. Greetings? :D  
 **\<hyc>** oh yeah, I always forget the social conventions  
 **\<rehrar>** 2. Point release items  
-**\<rehrar>** moneromooo around? dsc\_ too  
+**\<rehrar>** byterubmooo around? dsc\_ too  
 **\<rehrar>** ping the other peoples  
 **\<vtnerd\_\_>** hello  
 **\<selsta>** GUI is almost ready for 0.14.1  
@@ -38,55 +38,55 @@ author: el00ruobuob / rehrar
 **\<rehrar>** and that will have Trezor, yeah?  
 **\<selsta>** yes  
 **\<rehrar>** I don't own one, so it's not a big deal for me, but I'll have an answer for people  
-**\<rehrar>** anyone to do a quick update on Monero Core?  
+**\<rehrar>** anyone to do a quick update on ByteRub Core?  
 **\<rehrar>** also, what is the name for the core software? Can we name it?  
 **\<rehrar>** We've had this discussion a lot of times.  
-**\<jwinterm>** monerod and monero-wallet-cli?  
+**\<jwinterm>** byterubd and byterub-wallet-cli?  
 **\<rehrar>** yes  
 **\<rehrar>** alright, good talk everyone  
 **\<sgp\_>** hello everyone  
 **\<hyc>** point release doesn't get a new name  
 **\<hyc>** it's still Bron Butterfly  
 **\<hyc>** Boron  
-**\<rehrar>** I meant monero core software hc  
+**\<rehrar>** I meant byterub core software hc  
 **\<rehrar>** \*hyc  
 **\<hyc>** oh  
 **\<sgp\_>** More than the "daemon" and "CLI"?  
 **\<hyc>** what's wrong with calling it core?  
 **\<rehrar>** nothing, I guess. I just don't know that there's one thing that people agree on.  
-**\<rehrar>** well, doesn't seem there's anyone around to update on Monero core  
+**\<rehrar>** well, doesn't seem there's anyone around to update on ByteRub core  
 **\<rehrar>** selsta: anything else on the GUI. When expected to be done?  
 **\<rehrar>** if someone wants to update on core whenever they have the time, that'd be cool.  
 **\<hyc>** looks like nothing else then  
-**\<moneromooo>** By core, you mean the GUI or not the GUI ?  
-**\<moneromooo>** It's confusing because some people mean not the GUI now.  
-**\<dEBRUYNE>** the 'monero' repository I guess :P  
-**\<ErCiccione[m]>** well, with rights, since the GUI was called monero-corefor long time  
-**\<dEBRUYNE>** ^ moneromooo  
-**\<hyc>** but it's called monero-gui now so ...  
+**\<byterubmooo>** By core, you mean the GUI or not the GUI ?  
+**\<byterubmooo>** It's confusing because some people mean not the GUI now.  
+**\<dEBRUYNE>** the 'byterub' repository I guess :P  
+**\<ErCiccione[m]>** well, with rights, since the GUI was called byterub-corefor long time  
+**\<dEBRUYNE>** ^ byterubmooo  
+**\<hyc>** but it's called byterub-gui now so ...  
 **\<rehrar>** it made no sense that the GUI was ever called core  
 **\<hyc>** god only knows why someone thought "hey let's make a gui but not call it the gui!"  
 **\<dEBRUYNE>** I can give some further updates on the GUI once mooo is done with the core stuff :p  
 **\<rehrar>** Can we all agree between us present that core means CLI tools and daemon?  
-**\<ErCiccione[m]>** isn't just linked hyc? IIRC it should still take you to the GUI  if you look for byterubpay/monero-core  
+**\<ErCiccione[m]>** isn't just linked hyc? IIRC it should still take you to the GUI  if you look for byterubpay/byterub-core  
 **\<rehrar>** and GUI means GUI?  
 **\<jwinterm>** most applications with GUIs are not called by their function+GUI, probably  
-**\<ErCiccione[m]>** i confirm monero-core still points to monero-gui  
+**\<ErCiccione[m]>** i confirm byterub-core still points to byterub-gui  
 **\<rehrar>** oof. I'll restart the conversation again on github issue or something in regards to naming  
-**\<rehrar>** either way, moneromooo is it possible to tell us where point release is at for CLI/core stufs?  
-**\<dEBRUYNE>** moneromooo: My intention was to let you go first :-P  
+**\<rehrar>** either way, byterubmooo is it possible to tell us where point release is at for CLI/core stufs?  
+**\<dEBRUYNE>** byterubmooo: My intention was to let you go first :-P  
 **\<hyc>** jwinterm: do you find that's true for apps that have both GUI and CLI? particularly if only a CLI existed for a long time?  
-**\<moneromooo>** We've started merging stuff before the customary 10 days wait now. I expect we'll branch soonish.  
-**\<moneromooo>** The only thing I know of that's really needed before a branch is the new fake out selection.  
-**\<moneromooo>** And that's PRed.  
-**\<moneromooo>** A few nice to have are the SSL changes, the second part of the RPC tests, and possibly the pay-for-service but I think that one's unlikely to happen now.  
+**\<byterubmooo>** We've started merging stuff before the customary 10 days wait now. I expect we'll branch soonish.  
+**\<byterubmooo>** The only thing I know of that's really needed before a branch is the new fake out selection.  
+**\<byterubmooo>** And that's PRed.  
+**\<byterubmooo>** A few nice to have are the SSL changes, the second part of the RPC tests, and possibly the pay-for-service but I think that one's unlikely to happen now.  
 **\<rehrar>** cool, thanks  
 **\<ErCiccione[m]>** i will push some translations for the CLI next week, we should have a new language available (hindi)  
-**\<moneromooo>** So if anyone wants something in before the branch, be fast.  
-**\<moneromooo>** And this time, there should be lots of time for translations ^\_^  
+**\<byterubmooo>** So if anyone wants something in before the branch, be fast.  
+**\<byterubmooo>** And this time, there should be lots of time for translations ^\_^  
 **\<rehrar>** maybe I'll PR a pleasant message when opening the wallet so I can get a "contributor" flair or the reddits  
-**\<selsta>** 19:13 \<rehrar> well, doesn't seem there's anyone around to update on Monero core \<-- All features are PRed, only missing review.  
-**\<ErCiccione[m]>** moneromooo: yep, not complaining this time (yet) :D  
+**\<selsta>** 19:13 \<rehrar> well, doesn't seem there's anyone around to update on ByteRub core \<-- All features are PRed, only missing review.  
+**\<ErCiccione[m]>** byterubmooo: yep, not complaining this time (yet) :D  
 **\<rehrar>** nice  
 **\<rehrar>** dEBRUYNE: all you  
 **\<dEBRUYNE>** Let's see  
@@ -94,7 +94,7 @@ author: el00ruobuob / rehrar
 **\<jwinterm>** hyc: not too many apps spring to mind that meet that criterion  
 **\<dEBRUYNE>** Like selsta said, we should be ready in time for 0.14.1.0  
 **\<dEBRUYNE>** There will be a revamped history page as well as a revamped address book  
-**\<dEBRUYNE>** Xiphon has also posted a ffs to work on some stuff such as optimizing the communication between the wallet and the daemon and implementing a decentralized remote node scanner -> https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/55  
+**\<dEBRUYNE>** Xiphon has also posted a ffs to work on some stuff such as optimizing the communication between the wallet and the daemon and implementing a decentralized remote node scanner -> https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/55  
 **\<dEBRUYNE>** For the latter feature, we'll have to wait a bit before nodes will start using the --public-node flag  
 **\<dEBRUYNE>** Oh there will also be fiat pricing (the feature will be turned off by default)  
 **\<dEBRUYNE>** And we've started discussing how to easily integrate i2p-zero and tor  
@@ -115,10 +115,10 @@ author: el00ruobuob / rehrar
 **\<xmrmatterbridge> \<rehrar>** To donate or to put up a proposal?  
 **\<ErCiccione[m]>** just quickly:  
 **\<ErCiccione[m]>** The guide for the GUI is completed, thanks to el00ruobuob, it only needs to be built and translated, but it can be included with next release :)  
-**\<ErCiccione[m]>** https://github.com/monero-ecosystem/monero-GUI-guide  
+**\<ErCiccione[m]>** https://github.com/byterub-ecosystem/byterub-GUI-guide  
 **\<ErCiccione[m]>** reviews and features/suggestions are always welcome  
 **\<ErCiccione[m]>** rehrar: I think it's a great improvement in terms of usability for the community, still needs some tweaking, but i think it's a huge improvement  
-**\<dEBRUYNE>** ErCiccione[m]: Doesn't the ecosystem repo already have the Monero heart logo btw? :P  
+**\<dEBRUYNE>** ErCiccione[m]: Doesn't the ecosystem repo already have the ByteRub heart logo btw? :P  
 **\<ErCiccione[m]>** dEBRUYNE: yes, but i thought would be cool to have a personalized logo. I'd like the Ecosystem Project to grow with time  
 **\<dEBRUYNE>** The hear tlogo kind of grew on me :-P  
 **\<ErCiccione[m]>** eheh i can't deny i would miss it  

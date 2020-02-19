@@ -52,7 +52,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** once the KYC exchange has collected a sample size of deposits from Alice, that KYC exchange can look into the history of these deposits and identify one-time keys that were flagged from earlier.  
 **\<sarang>** right  
 **\<suraeNoether>** unless alice makes an extremely expensive churn, the appearance of these flagged outputs will occur in the history of these deposits more often than chance would dictate if the ring signatures were being randomly created by other users  
-**\<suraeNoether>** there isn't a quick and easy solution to this, and users who are very concerned about their privacy should not send their monero to KYC exchanges  
+**\<suraeNoether>** there isn't a quick and easy solution to this, and users who are very concerned about their privacy should not send their byterub to KYC exchanges  
 **\<sarang>** I think it brings us back to the nature of ring signatures in general  
 **\<sarang>** They're to offer plausible deniability  
 **\<sarang>** but statistics will always be a problem unless ring sizes are very large  
@@ -100,7 +100,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Right, but there is not a definition of "large enough"  
 **\<sarang>** depends on the context  
 **\<sarang>** nor is there a good definition of "plausible deniability"  
-**\<gsee>** When Fluffy spoke at Coinbase, he suggested that maybe they would be more comfortable listing monero and meeting their KYC/AML requirements if they required users to provide their view keys.  Would that damage privacy of others?  
+**\<gsee>** When Fluffy spoke at Coinbase, he suggested that maybe they would be more comfortable listing byterub and meeting their KYC/AML requirements if they required users to provide their view keys.  Would that damage privacy of others?  
 **\<suraeNoether>** gsee not at all, and in fact that's what the view key is sort of for  
 **\<gsee>** what if they also required users to provide key images so to prove a wallet balance?  
 **\<suraeNoether>** that would have pretty nasty consequences: coinbase would have a list of proven-spent transactions, reducing the effective ring sizes of all outputs  
@@ -113,7 +113,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** this means you have R\^(N-1) independent ring signatures, each with R members. and the question is: if Eve knows Alice has A different outputs on the whole blockchain, whcih has B outputs, and if all outputs are selected for ring signatures at uniform randomly, *how likely is it that we see one of Alice's suspicious one-time keys appear in one of these R\^(N-1) ring signatures?*  
 **\<suraeNoether>** how hard is it to *look like a random sequence of transactions?*  
 **\<suraeNoether>** anyway rehrar, i've been looking into it for awhile  
-**\<suraeNoether>** but for now i think we need to put out a statement that monero user keys interested in privacy should not be shared with a KYC exchange in any way  
+**\<suraeNoether>** but for now i think we need to put out a statement that byterub user keys interested in privacy should not be shared with a KYC exchange in any way  
 **\<rehrar>** logistics question for me, the website guy: Do we want to put this and any future bulletins under the MRL page on the website?  
 **\<rehrar>** Or just the repo is good enough with a link to it?  
 **\<scoobybejesus>** When is it time for ByteRubV talk?  I have a question.  Sort of a two-parter.  
@@ -123,11 +123,11 @@ author: dEBRUYNE / fluffypony
 **\<scoobybejesus>** If their key images are a ByteRub-key-image-hashed-with-something-else, does that mean there is no way (discrete log-wise) to "tie" pre-fork ByteRub key images to their respective key images in ByteRubV?  
 **\<scoobybejesus>** Or - maybe a better way to ask - is there even a way to take an existing ByteRub key image, do something to it, have it be useful on the ByteRubV chain as double-spend prevention, while still not being "tied" to the ByteRub key image from whence it came?  
 **\<suraeNoether>** rehrar I'm unsure on that  
-**\<suraeNoether>** scoobybejesus: we thought at first monerov could compute key images differently, but the algebra doesn't appear to work out without allowing double spends  
+**\<suraeNoether>** scoobybejesus: we thought at first byterubv could compute key images differently, but the algebra doesn't appear to work out without allowing double spends  
 **\<suraeNoether>** without some sort of wizardry anyway  
 **\<sarang>** Well with a hash scheme there would be no way to link them, no  
 **\<sarang>** But \^ to what suraeNoether sez  
-**\<suraeNoether>** the only way i know of to safely claim your monerov is to try to fashion the same ring on both chains  
+**\<suraeNoether>** the only way i know of to safely claim your byterubv is to try to fashion the same ring on both chains  
 **\<suraeNoether>** hmm, what about doubly hashing the point P?  
 **\<suraeNoether>** nope, still have the double spend problem  
 **\<sarang>** yup  
@@ -147,14 +147,14 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** because their output is now provably spent and can be removed from any rings referencing it  
 **\<sgp>** And with ringsize 5, you would have to expect \~2/3 of transactions on ByteRubV to use that tool  
 **\<suraeNoether>** sounds about correct. seems like a real easy way to part fools from their money. fluffypony don't we have a public relations firm now?  
-**\<suraeNoether>** monerov is a pretty brilliant social attack. probably not state actors because the result is a public de-anonymization instead of secretly gathering intel, but pretty brilliant  
+**\<suraeNoether>** byterubv is a pretty brilliant social attack. probably not state actors because the result is a public de-anonymization instead of secretly gathering intel, but pretty brilliant  
 **\<suraeNoether>** i could be convinced its the cryptonote guys  
 **\<suraeNoether>** anyway, it is unsafe to use your key images on another chain, period  
 **\<suraeNoether>** if you broadcast your key images in general, you are also opening yourself up to transaction censorship  
-**\<gsee>** ByteRubV might not be state sponsored, but the next one might be.  Or a state may decide to bid up the price of moneroV in order to entice people to spend their moneroV  
+**\<gsee>** ByteRubV might not be state sponsored, but the next one might be.  Or a state may decide to bid up the price of byterubV in order to entice people to spend their byterubV  
 **\<suraeNoether>** yeah, maybe  
 **\<suraeNoether>** it's just, in general, key images are sort of like commitments to a transaction. Opening the commitment, sharing the key image, is part of broadcasting a transaction. it shouldn't be seen as a standalone piece that can be treated separately like a view key  
-**\<suraeNoether>** okay, so today we've spoken about my and sarang's work from this past week briefly, and we discussed the EAE attack (rehrar, pm me, don't make any changes until we've chatted with fluffypony and luigi1111  and moneromooo and others), and the ByteRubV airdrop  
+**\<suraeNoether>** okay, so today we've spoken about my and sarang's work from this past week briefly, and we discussed the EAE attack (rehrar, pm me, don't make any changes until we've chatted with fluffypony and luigi1111  and byterubmooo and others), and the ByteRubV airdrop  
 **\<rehrar>** no changes will be made  
 **\<sgp>** I suppose now's a good time for me to ask if you think it's prudent to increase the ringsize to mitigate the damage of a chain split attack. If the costs are minimal compared to the benefits  
 **\<sarang>** any other updates or questions about other non-pants-on-fire things?  
@@ -169,7 +169,7 @@ author: dEBRUYNE / fluffypony
 **\<andytoshi>** gsee: yes but you'll need provisions or something  
 **\<andytoshi>** oh, no, just a view key + the public blockchain will be enough  
 **\<suraeNoether>** it would probably be sufficient to reveal to an auditor the private transaction key for each transaction, but that reveals a lot more information to the auditor than if you reveal the key images that you've spent  
-**\<moneromooo>** You see all incoming monero along with block heights, and you can scan the chain for the height a key image was spent, if any. So yes. The DB has no index for key image -> height-or-tx though, so slow.  
+**\<byterubmooo>** You see all incoming byterub along with block heights, and you can scan the chain for the height a key image was spent, if any. So yes. The DB has no index for key image -> height-or-tx though, so slow.  
 **\<iDunk>** If he spent from tha wallet, then change would appear as new income.  
 **\<suraeNoether>** i imagine in most *legal* situations gsee, you could merely present a screenshot of your wallet balance  
 **\<suraeNoether>** tbh  
@@ -182,12 +182,12 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** So, what's everyone's priorities for the next week?  
 **\<gsee>** ok. would be great if we could create better tools for the future that would let them verify independently.  Maybe that's not possible without leaking too much info; especially if one auditor becomes widely used.  
 **\<sarang>** Since it's 18:00 now  
-**\<suraeNoether>** mmmultisig brother. talking with a few venues for the monero conference this week.  
+**\<suraeNoether>** mmmultisig brother. talking with a few venues for the byterub conference this week.  
 **\<suraeNoether>** oh i have an idea  
 **\<sarang>** Does anyone see any immediate action items regarding ByteRubV etc?  
 **\<suraeNoether>** i feel like we need to put out a formal announcement on reddit or something  
-**\<sarang>** So we have no formal suggestion on ringsize re: monerov?  
-**\<suraeNoether>** ring size isn't going to help the monerov airdrop problem  
+**\<sarang>** So we have no formal suggestion on ringsize re: byterubv?  
+**\<suraeNoether>** ring size isn't going to help the byterubv airdrop problem  
 **\<sarang>** Yes just confirming  
 **\<sarang>** So our messaging is consistent  
 **\<suraeNoether>** i know we just put out a joint statement on PoW and key re-use  

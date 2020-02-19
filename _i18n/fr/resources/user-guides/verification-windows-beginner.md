@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # Vérifier des binaires : Windows (Débutant)
 
-Les fichiers binaires Monero devrait être vérifiés avant extraction, installation ou utilisation de l'application Monero. C'est l'unique manière de vous assurer que vous utilisez le binaire officiel Monero. Si vous recevez un binaire contrefait (p. ex. hameçonnage, HDM, etc.), suivre ce guide vous évitera de vous faire piéger.
+Les fichiers binaires ByteRub devrait être vérifiés avant extraction, installation ou utilisation de l'application ByteRub. C'est l'unique manière de vous assurer que vous utilisez le binaire officiel ByteRub. Si vous recevez un binaire contrefait (p. ex. hameçonnage, HDM, etc.), suivre ce guide vous évitera de vous faire piéger.
 
-Pour protéger l'intégrité des binaires, l'équipe Monero fournit une liste cryptographiquement signée de tous les hachages [SHA256](https://en.wikipedia.org/wiki/SHA-2). Si le binaire que vous avez téléchargé a été altéré il produira un [hachage différent](https://en.wikipedia.org/wiki/File_verification) de celui fourni dans le fichier.
+Pour protéger l'intégrité des binaires, l'équipe ByteRub fournit une liste cryptographiquement signée de tous les hachages [SHA256](https://en.wikipedia.org/wiki/SHA-2). Si le binaire que vous avez téléchargé a été altéré il produira un [hachage différent](https://en.wikipedia.org/wiki/File_verification) de celui fourni dans le fichier.
 
 Voici un guide pour débutant pour le système d'exploitation Windows qui s'appuiera presque exclusivement sur des interfaces graphiques (GUI). Il couvrira tout le processus d'installation des applications requises, d'import de la clef de signature, de téléchargement des fichiers nécessaires et enfin de vérification de l'authenticité de votre binaire.
 
@@ -95,13 +95,13 @@ Cliquez sur `Fermer`.
 
 ![fin installateur gpg4win](png/verify_binary_windows_beginner/verify-win_gpg4win-install-finish.png)
 
-## 2. Clef de Signature Monero
+## 2. Clef de Signature ByteRub
 
-Cette rubrique couvre le téléchargement de la clef de signature Monero, la vérification que cette clef est correcte et l'import de la clef dans votre trousseau. Le fichier de hachage qui sera utilisé pour vérifier votre binaire est signé cryptographiquement avec la clef de signature Monero. Afin de vérifier la validité de ce fichier vous devez disposer de la variante publique de cette clef de signature.
+Cette rubrique couvre le téléchargement de la clef de signature ByteRub, la vérification que cette clef est correcte et l'import de la clef dans votre trousseau. Le fichier de hachage qui sera utilisé pour vérifier votre binaire est signé cryptographiquement avec la clef de signature ByteRub. Afin de vérifier la validité de ce fichier vous devez disposer de la variante publique de cette clef de signature.
 
 ### 2.1. Télécharger la Clef de Signature
 
-Dans un navigateur internet, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires Monero. Faites un clic droit sur la page et choisissez `Enregistrer sous...`.
+Dans un navigateur internet, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires ByteRub. Faites un clic droit sur la page et choisissez `Enregistrer sous...`.
 
 ![clic droit getkey](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 
@@ -215,7 +215,7 @@ Si vous obtenez une signature **NON VALABLE**, **NE POURSUIVEZ PAS.** Au lieu de
 
 ## 4. Vérification du Fichier Binaire
 
-Cette rubrique couvre le téléchargement du binaire Monero et la vérification de son authenticité.
+Cette rubrique couvre le téléchargement du binaire ByteRub et la vérification de son authenticité.
 
 ### 4.1. Télécharger le Binaire
 
@@ -245,7 +245,7 @@ Allez dans le répertoire `Downloads` avec la commande : `cd Downloads`.
 
 ![cd cmd binaire](png/verify_binary_windows_beginner/verify-win_binary-cmd-cd.png)
 
-Calculez le hachage du binaire Monero avec la commande : `certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256` (Si vous avez téléchargé la version ligne de commande, remplacez par `monero-gui-win-x64-v0.12.0.0.zip` en conséquence).
+Calculez le hachage du binaire ByteRub avec la commande : `certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256` (Si vous avez téléchargé la version ligne de commande, remplacez par `monero-gui-win-x64-v0.12.0.0.zip` en conséquence).
 
 ![certutil cmd binaire](png/verify_binary_windows_beginner/verify-win_binary-cmd-certutil.png)
 
@@ -253,6 +253,6 @@ Comparez le hachage entre l'invite de commande et le fichier de hachage. Ils doi
 
 ![comparer hachages binaire](png/verify_binary_windows_beginner/verify-win_binary-word-cmd-compare.png)
 
-Si votre hachage **EST** identique vous en avez terminé avec la vérification ! Vous avez la certitude que les fichiers Monero sont authentiques. Vous pouvez extraire et installer / utiliser les fichiers normalement.
+Si votre hachage **EST** identique vous en avez terminé avec la vérification ! Vous avez la certitude que les fichiers ByteRub sont authentiques. Vous pouvez extraire et installer / utiliser les fichiers normalement.
 
-Si votre hachage **N'EST PAS** identique, **NE POURSUIVEZ PAS.** Au lieu de cela, supprimez le binaire Monero du répertoire `téléchargements` et retournez à la [rubrique 4.1](#41-télécharger-le-binaire).
+Si votre hachage **N'EST PAS** identique, **NE POURSUIVEZ PAS.** Au lieu de cela, supprimez le binaire ByteRub du répertoire `téléchargements` et retournez à la [rubrique 4.1](#41-télécharger-le-binaire).

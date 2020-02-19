@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview 
 
-An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-08-28)
+An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byterub-bi-weekly-dev-meeting-note-highlights-2016-08-28)
 
 ### Logs
 
@@ -16,10 +16,10 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** hello meeting-bot!  
 **\<meeting-bot> [fluffypony]** hello from the other side!  
 **\<fluffypony>** ok we're on  
-**\<fluffypony>** ArticMine / luigi1111w / othe / smooth / hyc / moneromooo / tewinget / redfish / NoodleDoodle / anyoen I forgot  
-**\<moneromooo>** There's an article about fraud in crypto on the bytecoin blog. Chutzpah, got to admit.  
+**\<fluffypony>** ArticMine / luigi1111w / othe / smooth / hyc / byterubmooo / tewinget / redfish / NoodleDoodle / anyoen I forgot  
+**\<byterubmooo>** There's an article about fraud in crypto on the bytecoin blog. Chutzpah, got to admit.  
 **\<fluffypony>** welcome to the annual "Devs who Drink whilst Developing" meeting  
-**\<fluffypony>** moneromooo: brave of them  
+**\<fluffypony>** byterubmooo: brave of them  
 **\<hyc>** lol. I'm on cider today  
 **\<fluffypony>** ok so  
 **\<fluffypony>** in today's news  
@@ -30,7 +30,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** except for RingCT which we'll get to  
 **\<fluffypony>** redfish: how goes the CMake stuff?  
 **\<NoodleDoodle>** I alive today.  
-**\<moneromooo>** hey :)  
+**\<byterubmooo>** hey :)  
 **\<fluffypony>** and a warm welcome to our special guest, NoodleDoodle  
 **\<fluffypony>** :-P  
 **\<fluffypony>** whilst we wait for the redfishes  
@@ -75,8 +75,8 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** the RingCT PR is now post-review, at least by me, with multiple others having reviewed parts of it  
 **\<fluffypony>** so it's merge time  
 **\<fluffypony>** we haven't set fork heights yet  
-**\<moneromooo>** Wait till I signed commits first.  
-**\<fluffypony>** moneromooo: yes  
+**\<byterubmooo>** Wait till I signed commits first.  
+**\<fluffypony>** byterubmooo: yes  
 **\<fluffypony>** but basically the idea is to run through the testnet forks next week  
 **\<fluffypony>** which means testnet will do the equivalent of September *and* March 2017 forks  
 **\<fluffypony>** in one week  
@@ -100,42 +100,42 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** but it includes the GUI lib changes that are needed  
 **\<fluffypony>** so anyone compiling the GUI will have working beta bins to play with  
 **\<fluffypony>** so I'd please like commitments from as many people as possible to participate in testnet next week  
-**\* moneromooo** commits fluffypony   
+**\* byterubmooo** commits fluffypony   
 **\<fluffypony>** lol  
 **\* tewinget** rejects the unsigned commit  
 **\* iDunk** sees travis ci build fail  
 **\<fluffypony>** git commit -S -am "loony bin"  
-**\<moneromooo>** OK. I'll put in a Pedersen commitment to... something.  
-**\<moneromooo>** When do we set the forks then ?  
+**\<byterubmooo>** OK. I'll put in a Pedersen commitment to... something.  
+**\<byterubmooo>** When do we set the forks then ?  
 **\<tewinget>** at dinner?  
 **\* fluffypony** giggles  
-**\<moneromooo>** For v3, ok. v4 (rct) on monday lunchtime.  
-**\<fluffypony>** moneromooo: for testnet?  
-**\<moneromooo>** Obviously :P  
-**\<moneromooo>** And v5 (rct only) on tuesday.  
+**\<byterubmooo>** For v3, ok. v4 (rct) on monday lunchtime.  
+**\<fluffypony>** byterubmooo: for testnet?  
+**\<byterubmooo>** Obviously :P  
+**\<byterubmooo>** And v5 (rct only) on tuesday.  
 **\<fluffypony>** you mean Monday tomorrow, or Monday next week?  
-**\<moneromooo>** Fine ?  
-**\<moneromooo>** Tomorrow.  
+**\<byterubmooo>** Fine ?  
+**\<byterubmooo>** Tomorrow.  
 **\<fluffypony>** hmmm  
-**\<moneromooo>** Too fast ?  
+**\<byterubmooo>** Too fast ?  
 **\<fluffypony>** yes actually good idea - the actual fork process has been tested on private testnet, and in the previous fork  
 **\<fluffypony>** so we push bins out after the fork  
 **\<fluffypony>** then people can play without needing to fiddle  
 **\<gingeropolous>** and this is still a no-vote fork?  
-**\<moneromooo>** Yes. Screw votes, they were coded by an idiot.  
+**\<byterubmooo>** Yes. Screw votes, they were coded by an idiot.  
 **\<fluffypony>** LOL!  
 **\<fluffypony>** gingeropolous: yeah - we can re-address that in the next 6-12 months, but at the moment it's move-it-or-lose-it  
 **\<gingeropolous>** yeah absolutely  
 **\<fluffypony>** also the schedule is pretty widely known, except for ShapeShift who we'll email and then they'll claim they have no knowledge of the update  
 **\<tewinget>** gingeropolous: plus it's technically never a no-vote fork, as if the miners get pissed off and don't want it, well, they just won't.  >\*\*\_>\*\*  
 **\<gingeropolous>** lol fluffypony  
-**\<fluffypony>** ok so moneromooo, your fork points are fine  
-**\<moneromooo>** So will you merge the PR then build off that, or build off my branch ?  
-**\<moneromooo>** (for the test builds)  
+**\<fluffypony>** ok so byterubmooo, your fork points are fine  
+**\<byterubmooo>** So will you merge the PR then build off that, or build off my branch ?  
+**\<byterubmooo>** (for the test builds)  
 **\<fluffypony>** no, merge  
-**\<moneromooo>** OK  
+**\<byterubmooo>** OK  
 **\<fluffypony>** people must be able to build head on their boxes if they want  
-**\<moneromooo>** (oh, the supreme importance of punctuation)  
+**\<byterubmooo>** (oh, the supreme importance of punctuation)  
 **\* gingeropolous** hides  
 **\<fluffypony>** lol  
 **\<fluffypony>** ok  
@@ -171,7 +171,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<hyc>** cool  
 **\<fluffypony>** I'm no fan of pushing it too hard, because it means I have to get MyByteRub working with RingCT, but it's doable  
 **\<gingeropolous>** yeah, I know there's the forum posts.. but considering fork early, fork often is kind of our thing, it should / could be ... more prominent  
-**\<gingeropolous>** ah screw it. time to by moneroforks.whatever  
+**\<gingeropolous>** ah screw it. time to by byterubforks.whatever  
 **\<fluffypony>** gingeropolous: do you want to PR a change to the readme?  
 **\<fluffypony>** it'll take you from troll-dev status to readme-dev  
 **\<fluffypony>** :-P  
@@ -198,18 +198,18 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<othe>** oh thats not in the place but something that would be cool to have tewinget  
 **\<hyc>** yeah, narrow scope PRs  
 **\<fluffypony>** yeah definitely, hyc  
-**\<moneromooo>** And move the twitter stuff in there, just to be sure.  
+**\<byterubmooo>** And move the twitter stuff in there, just to be sure.  
 **\<fluffypony>** OH!  
 **\<fluffypony>** before I forget  
 **\<fluffypony>** the big thing I wanted to discuss  
-**\<fluffypony>** https://github.com/byterubpay/bitmonero/issues/80  
+**\<fluffypony>** https://github.com/byterubpay/bitbyterub/issues/80  
 **\<fluffypony>** that's going to happen before the bins are pushed  
 **\<fluffypony>** so if anyone has any final thoughts on that, you'd best comment on the issue, else suck it up later :-P  
 **\<fluffypony>** I'd also like us to start refactoring the parts that have CryptoNote in the name to be ByteRub instead  
 **\<tewinget>** something something \`sed\`  
 **\<fluffypony>** as RingCT + several thousand commits puts us quite far beyond the reference protocol  
-**\<moneromooo>** Renaming things for the fun of it ? I'd rather not.  
-**\<moneromooo>** (in the code, I mean. I'm ok with the binaries thing)  
+**\<byterubmooo>** Renaming things for the fun of it ? I'd rather not.  
+**\<byterubmooo>** (in the code, I mean. I'm ok with the binaries thing)  
 **\<tewinget>** btw fluffypony, I \*think\* that the zmq-dev branch is PR-ready, but I'm not comfortable making that call without some testing, so if anyone would like to give it a go (testnet and mainnet are affected identically, so testnet is 100% fine for, well, testing)  
 **\<ArticMine>** It simple reflects the reality of how much the code has changed from the original Cryptonote implementation  
 **\<tewinget>** as I said before, I'd like to polish it up a bit first, but that's not a blocking issue for PR-ing  

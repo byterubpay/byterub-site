@@ -1,14 +1,14 @@
 - category: Exchanges
   id: exchanges
   merchants:
-    - name: "#monero-otc (OTC)"
-      url: https://webchat.freenode.net?channels=%23monero-otc
+    - name: "#byterub-otc (OTC)"
+      url: https://webchat.freenode.net?channels=%23byterub-otc
     - name: AgoraDesk - P2P OTC trading platform, includes ByteRub options
       url: https://agoradesk.com
     - name: Alfacashier
       url: https://www.alfacashier.com/
     - name: Anycoin Direct
-      url: https://anycoindirect.eu/buy/monero
+      url: https://anycoindirect.eu/buy/byterub
     - name: BestChange
       url: https://www.bestchange.com
     - name: Bitci (XMR/BTCI, XMR/TRY, XMR/CHFT)
@@ -64,7 +64,7 @@
     - name: LocalCoin.is - LLC/XMR
       url: https://localcoin.is/
     - name: LocalByteRub (P2P exchange)
-      url: https://localmonero.co/
+      url: https://localbyterub.co/
     - name: Magnetic Exchange
       url: https://magneticexchange.com
     - name: MorphToken
@@ -93,11 +93,11 @@
   id: block-explorers
   merchants:
     - name: ByteRubBlocks
-      url: https://moneroblocks.info
+      url: https://byterubblocks.info
     - name: ByteRubExplorer
-      url: https://moneroexplorer.com/
+      url: https://byterubexplorer.com/
     - name: ByteRubVision
-      url: https://monerovision.com
+      url: https://byterubvision.com
     - name: xmrchain.net
       url: https://xmrchain.net/
 - category: Payment Gateways
@@ -116,7 +116,7 @@
     - name: Living Room of Satoshi
       url: https://www.livingroomofsatoshi.com/?sc=xmr
     - name: ByteRub WooCommerce Extension (PHP)
-      url: https://github.com/monero-integrations/monerowp
+      url: https://github.com/byterub-integrations/byterubwp
     - name: MyCryptoCheckout
       url: https://mycryptocheckout.com
     - name: NOWPayments - Cryptocurrency payment solution
@@ -127,42 +127,42 @@
   id: libraries
   merchants:
     - name: ByteRub Integrations (eCommerce plugins)
-      url: http://monerointegrations.com/
-    - name: monero-nodejs (Node.js)
-      url: https://github.com/PsychicCat/monero-nodejs
+      url: http://byterubintegrations.com/
+    - name: byterub-nodejs (Node.js)
+      url: https://github.com/PsychicCat/byterub-nodejs
     - name: ByteRubApi.Net (.NET)
       url: https://github.com/Jojatekok/ByteRubApi.Net
-    - name: moneronjs (NodeJS)
-      url: https://github.com/netmonk/moneronjs
+    - name: byterubnjs (NodeJS)
+      url: https://github.com/netmonk/byterubnjs
     - name: ByteRub Payments Library (PHP)
-      url: https://github.com/monero-integrations/monerophp
+      url: https://github.com/byterub-integrations/byterubphp
     - name: ByteRub-PHP (PHP)
-      url: https://github.com/PsychicCat/monero-php
+      url: https://github.com/PsychicCat/byterub-php
     - name: ByteRubPy (Python)
       url: https://github.com/bigreddmachine/ByteRubPy
-    - name: monero-python (Python)
-      url: https://github.com/emesik/monero-python
+    - name: byterub-python (Python)
+      url: https://github.com/emesik/byterub-python
     - name: PHP-ByteRub (PHP)
       url: https://github.com/MalMen/PHP-ByteRub
-    - name: python-monero (Python)
-      url: https://github.com/tippero/python-monero
+    - name: python-byterub (Python)
+      url: https://github.com/tippero/python-byterub
     - name: xmr-integration (PHP)
       url: https://github.com/TheKoziTwo/xmr-integration
     - name: ByteRub Utilities (golang)
-      url: https://github.com/paxos-bankchain/moneroutil
+      url: https://github.com/paxos-bankchain/byterubutil
 - category: Tools
   id: tools
   merchants:
     - name: Cryptoradar (Marketplace comparison website)
-      url: https://cryptoradar.co/buy-monero
+      url: https://cryptoradar.co/buy-byterub
     - name: ByteRubBase Price Charts and Tools
-      url: https://monerobase.com
+      url: https://byterubbase.com
     - name: ByteRubNotify - Transaction Notification Service
       url: https://xmrnotify.com
     - name: nestorgames
       url: http://www.nestorgames.com
     - name: Offline ByteRub address generator
-      url: https://moneroaddress.org/
+      url: https://byterubaddress.org/
 - category: Services
   id: services
   merchants:
@@ -231,11 +231,11 @@
     - name: Marcos Aguayo - Programmer and Web Developer
       url: https://marcosaguayo.com/
     - name: MSvB Hardware Design (using a secure element)
-      url: mailto:monerodev+sitesvcs@encambio.com?subject=ByteRub%20Services%20Hardware%20Design%20Request
+      url: mailto:byterubdev+sitesvcs@encambio.com?subject=ByteRub%20Services%20Hardware%20Design%20Request
     - name: Monovm
       url: https://monovm.com/
     - name: MyByteRub Web-based Wallet
-      url: https://mymonero.com
+      url: https://mybyterub.com
     - name: NiceVPS - VPS and web hosting
       url: https://nicevps.net/
     - name: Njalla - privacy-aware domain registration
@@ -257,7 +257,7 @@
     - name: Tuxcon Hosting - Mail and Web Hosting
       url: https://tuxcon.com
     - name: Vpn.surf
-      url: https://vpn.surf/blog/buy-vpn-with-monero/
+      url: https://vpn.surf/blog/buy-vpn-with-byterub/
     - name: VPNtesting
       url: https://www.vpntesting.com/
     - name: Webbdo Hosting (se)
@@ -332,11 +332,11 @@
     - name: Mobisun - Portable solar panels
       url: https://www.mobisun.com/
       name: ByteRub.style - ByteRub themed merchandise for everybody
-      url: https://monero.style/
+      url: https://byterub.style/
     - name: ByteRubApparel - Merchandise
-      url: https://moneroapparel.com/
+      url: https://byterubapparel.com/
     - name: ByteRubbox - ByteRub plug-and-play full nodes
-      url: https://monerobox.store/
+      url: https://byterubbox.store/
     - name: Mushroom cultures, mushroom growing supplies, seeds
       url: https://www.vesp.co/Fungible
     - name: Olympian Bitcoin Store
@@ -373,6 +373,6 @@
     - name: Minko.to - The ByteRub Plinko. Provably fair on-chain game.
       url: https://minko.to
     - name: ByteRub.win - Bet on the ByteRub Blockchain
-      url: https://monero.win/
+      url: https://byterub.win/
     - name: SafeDice
       url: https://safedice.com

@@ -1,6 +1,6 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-Wydobywanie samemu za poomocą oficjalnego Interfejsu Graficznego Użytkownika jest bardzo proste. Jeśli jeszcze go nie ściągnąłeś, wejdź na <a href="{{site.baseurl}}/downloads/">stronę z materiałami do ściągnięcia</a> i wybierz wersję Graficznego Interfejsu Użytkownika dla twojego systemu operacyjnego. Następnie uruchom ustawienia i uzbrój się w cierpliwość podczas synchronizacji Monero z siecią. Powinienieś zobaczyć "Connected" w lewym dolnym rogu.
+Wydobywanie samemu za poomocą oficjalnego Interfejsu Graficznego Użytkownika jest bardzo proste. Jeśli jeszcze go nie ściągnąłeś, wejdź na <a href="{{site.baseurl}}/downloads/">stronę z materiałami do ściągnięcia</a> i wybierz wersję Graficznego Interfejsu Użytkownika dla twojego systemu operacyjnego. Następnie uruchom ustawienia i uzbrój się w cierpliwość podczas synchronizacji ByteRub z siecią. Powinienieś zobaczyć "Connected" w lewym dolnym rogu.
 
 <img src="png/solo_mine_GUI/01.PNG" style="width: 600px;"/>
 
@@ -12,6 +12,6 @@ Teraz powinieneś zobaczyć opcję rozpoczęcia wydobycia. Możesz zmienić licz
 
 <img src="png/solo_mine_GUI/03.PNG" style="width: 600px;"/>
 
-Zacząłeś wydobywanie w sieci, jak widzisz na dole obrazka. W tym przypadku twój komputer dokłada 23 H/s do sieci Monero. Wydobywanie pomaga utrzymać sieć bezpieczną i przy odrobinie szczęścia możesz otrzymać wynagrodzenie za ochronę sieci.
+Zacząłeś wydobywanie w sieci, jak widzisz na dole obrazka. W tym przypadku twój komputer dokłada 23 H/s do sieci ByteRub. Wydobywanie pomaga utrzymać sieć bezpieczną i przy odrobinie szczęścia możesz otrzymać wynagrodzenie za ochronę sieci.
 
 Aby przerwać wydobycie, po prostu kliknij na "Stop mining".

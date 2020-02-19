@@ -19,13 +19,13 @@ It means that increasing the number of outputs in a transaction will, with bulle
 Bulletproofs also have the advantage to allow to prove that multiple committed amounts are in the desired range at once. No need to prove each output to each destination in separate proofs; the whole transaction amounts could be proven in one bigger (but still very small) bulletproof.
 
 ### Thorough audit process and implementation
-As bulletproofs were really new, and the initial implementation made by the group, while thoroughly done, needed a rewrite focused on our specific use-case, implementing bulletproof in Monero was not a simple thing.  
-The code has been written and rewritten to follow the new version of bulletproofs which was still being developed, but once this Monero implementation was finalized, the resulting deployment should be taken with extreme care.  
+As bulletproofs were really new, and the initial implementation made by the group, while thoroughly done, needed a rewrite focused on our specific use-case, implementing bulletproof in ByteRub was not a simple thing.  
+The code has been written and rewritten to follow the new version of bulletproofs which was still being developed, but once this ByteRub implementation was finalized, the resulting deployment should be taken with extreme care.  
 Therefore, the community started an auditing process. Researchers reached out to Benedikt Bünz, lead author of the Bulletproofs paper, and to [OSTIF](https://ostif.org/) an organization which helps open source technologies to improve and secure themselves.  
 OSTIF directed the group to several organizations with the skills required to perform the audit. While one of them asked to be kept unnamed and was therefore put away from the process that needed to be public, two others (QuarksLab & Kudelski Security) were choosen to conduct the audit.  
 Our 3 auditors were funded by the community to check out the if the implementation did not did not contain critical bugs, and if it did not have any exploits.  
-The final reports were released during the summer of 2018, with several useful corrections and fixes suggested, and the final bulletproof implementation has been added first to Monero Stagenet, and then to the main Monero network during the October 2018 network upgrade.
+The final reports were released during the summer of 2018, with several useful corrections and fixes suggested, and the final bulletproof implementation has been added first to ByteRub Stagenet, and then to the main ByteRub network during the October 2018 network upgrade.
 
 Since the bulletproofs deployment, the size of an average transaction has dropped by at least 80%, as well as the transaction fees.
 
-More explanations on Monero's implementation of bulletproofs could be found on youtube fondajo channel in a [conversation with Sarang Noether](https://www.youtube.com/watch?v=6lEWqIMLzUU).
+More explanations on ByteRub's implementation of bulletproofs could be found on youtube fondajo channel in a [conversation with Sarang Noether](https://www.youtube.com/watch?v=6lEWqIMLzUU).

@@ -15,7 +15,7 @@ author: el00ruobuob / surae
 **\<antw081>** FFS he is known to basically hate ByteRub  
 **\<suraeNoether>** allrighty, 1) Greetings everyone, 2) what MRL has been up to, 3) what we plan on getting up to. i know it's a really loose agenda, but hey  
 **\<antw081>** FFS = FYI  
-**\<sarang>** monero loves him too  
+**\<sarang>** byterub loves him too  
 **\<suraeNoether>** so, hi!  
 **\<suraeNoether>** who's all here?  
 **\<rehrar>** Cat of the week, sarang?  
@@ -29,7 +29,7 @@ author: el00ruobuob / surae
 **\<hyc>** 12 monkeys was a pretty good film tho  
 **\<suraeNoether>** allrighty: sarang, what have you been up to?  
 **\<suraeNoether>** https://imgur.com/a/gpv13  
-**\<sarang>** A lot of paper reading to stay up to date and learn, released my monthly report on r/ByteRub and FFS, checking up on moneromooo's recent addition of batch verification to his BP code and tests  
+**\<sarang>** A lot of paper reading to stay up to date and learn, released my monthly report on r/ByteRub and FFS, checking up on byterubmooo's recent addition of batch verification to his BP code and tests  
 **\<sarang>** Trying to stay afloat with Son of ByteRublink  
 **\<sarang>** Seems to be a lot of putting out small fires that idiots start  
 **\<hyc>** Matthew Green all proud of himself about that  
@@ -168,7 +168,7 @@ author: el00ruobuob / surae
 **\<sarang>** not affiliated with anyone  
 **\<sarang>** We often use that work (e.g. BPs)  
 **\<sgp\_[m]>** I think at the moment you all are more responding to other research, changes, and looking into thoughts people have. There's definitely value there, but there's also value in allowing people to be focused on certain projects.  
-**\<koe>** yeah, but the MRL cares about making that stuff apply to Monero  
+**\<koe>** yeah, but the MRL cares about making that stuff apply to ByteRub  
 **\<rehrar>** I may not speak for the community though, since I'm a privacy idealist, and this stuff you guys do gets me excited :D  
 **\<sarang>** sgp\_[m]: definitely  
 **\<suraeNoether>** so, the reason i bring all this up is this  
@@ -231,5 +231,5 @@ author: el00ruobuob / surae
 **\<rehrar>** admiration. A new coin...or...?  
 **\<endogenic>** nobody  
 **\<suraeNoether>** i got a document camera for making whiteboard videos, too, forgot to mention that  
-**\<endogenic>** monero: nobodycoin  
+**\<endogenic>** byterub: nobodycoin  
 **\<suraeNoether>** okay \</meeting>  

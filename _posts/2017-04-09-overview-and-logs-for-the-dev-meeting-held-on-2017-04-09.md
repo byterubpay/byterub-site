@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-04-09).  
+An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-04-09).  
 
 ### Logs  
 
@@ -19,9 +19,9 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** there are some GUI fixes that will go into 0.10.3.2, which we aim to tag and release soon  
 **\<medusa>** before or after the fork ?  
 **\<fluffypony>** which brings us to  
-**\<moneromooo>** There's this bug with not merging destinations, which is overeager in not merging.  
+**\<byterubmooo>** There's this bug with not merging destinations, which is overeager in not merging.  
 **\<fluffypony>** 3. Code + ticket discussion / Q & A  
-**\<fluffypony>** medusa: probably before, due to the thing that moneromooo just pointed out, which is a bit of an annoyance for exchanges  
+**\<fluffypony>** medusa: probably before, due to the thing that byterubmooo just pointed out, which is a bit of an annoyance for exchanges  
 **\<medusa>** allright thats good. i think a possible bugfix release after the fork shoudl be completely seperate too  
 **\<fluffypony>** medusa: is there something you're expecting will break at the fork? :-P  
 **\<medusa>** lets hope nothing is needed \<3  
@@ -31,7 +31,7 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** are there any that are don't-merge-yet?  
 **\<vtnerd1112>** The one I have outstanding for bin2hex  
 **\<xmr\_eric>** Before merging the PR to name ByteRub GUI back to ByteRub Core, I thought it would be good to have a discussion here about that. But perhaps that can be saved for the end of today's meeting.  
-**\<moneromooo>** Oh, I'd kinda forgot-ish about that one...  
+**\<byterubmooo>** Oh, I'd kinda forgot-ish about that one...  
 **\<Jaquee>** #658 and #667 obviously  
 **\<vtnerd1112>** It's currently unmergeable and I don't know if anyone looked at it recently  
 **\<fluffypony>** xmr\_eric - we can discuss it now, it's part of this section anyway  
@@ -46,8 +46,8 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** @xmr\_eric that was among the reasons for calling it Core initially  
 **\<xmr\_eric>** I spent some time yesterday trying to find a word other than Core to differentiate ourselves from Bitcoin, like ByteRub Essentials or something, but none really work as well.  
 **\<xmr\_eric>** Right. I think we should go back to that.  
-**\<fluffypony>** also because I think that the current monero repo will become libmonero  
-**\<pero>** and then monero-cli?  
+**\<fluffypony>** also because I think that the current byterub repo will become libbyterub  
+**\<pero>** and then byterub-cli?  
 **\<fluffypony>** yeah  
 **\<pero>** makes sense  
 **\<Jaquee>** so we end up with 3 repos?  
@@ -57,7 +57,7 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** Jaquee: what are your thoughts on GUI vs. Core  
 **\<Jaquee>** libwallet API is only used by gui for now. so i'm thining it could be moved to gui repo.  
 **\<Jaquee>** i would prefer GUI  
-**\<Jaquee>** https://github.com/byterubpay/monero-core/issues/663  
+**\<Jaquee>** https://github.com/byterubpay/byterub-core/issues/663  
 **\<endogenic>** how about 'official' instead of 'core'? cause it'll be specified as the official 'gui', cli etc  
 **\<xmr\_eric>** This isn't just naming the repo, this is naming the piece of software the repo produces  
 **\<bigreddmachine>** As for names, I assume "ByteRub Qt" is out? That was once the standard for cryptocurrency wallets but seems to have lost favor.  
@@ -70,14 +70,14 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<Jaquee>** do they know what core means?  
 **\<Jaquee>** i don't :P  
 **\<pero>** yea but core is kind of confusing since core seems to be lib  
-**\<fluffypony>** pero: I was thinking more like libmonero, monero-tools, monero-core  
+**\<fluffypony>** pero: I was thinking more like libbyterub, byterub-tools, byterub-core  
 **\<bigreddmachine>** pero: i'd argue the optimal name for a gui should *not* have "gui" in the name. They aren't called FireFox GUI, Chrome GUI, Word GUI, etc  
 **\<gingeropolous>** just ByteRub  
 **\<xmr\_eric>** No, but the point is Core is a word that people will begin to associate with that piece of software  
 **\<hrumag2>** gingeropulos I agree  
 **\<xmr\_eric>** What does Linux mean?  
 **\<jwinterm>** I think core does have a bit of stench to it now  
-**\<hyc>** at worst, monero app  
+**\<hyc>** at worst, byterub app  
 **\<hrumag2>** The application has to be the most atomic  
 **\<jwinterm>** bigreddmachine: there's no lynx like version of firefox or chrome tho  
 **\<jwinterm>** that I'm aware of  
@@ -88,20 +88,20 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<hyc>** ByteRubUser  
 **\<xmr\_eric>** But it isn't good from a nomenclature standpoint  
 **\<bigreddmachine>** "ByteRub Wallet"?  
-**\<pero>** what's monero-tools fluffypony ? the cli?  
+**\<pero>** what's byterub-tools fluffypony ? the cli?  
 **\<fluffypony>** pero: yes  
 **\<fluffypony>** especially since they ship with the GUI  
 **\<sgp>** ^ anyone can make their own wallet  
-**\<moneromooo>** Could we maybe get on with the *dev* meeting...  
+**\<byterubmooo>** Could we maybe get on with the *dev* meeting...  
 **\<fluffypony>** so that seems to make some sense  
 **\<fluffypony>** ok let's table this for the next meeting, we can open a thread or discuss it further under an existing one  
 **\<fluffypony>** s/thread/issue  
 **\<xmr\_eric>** Great  
 **\<hrumag2>** At least "ByteRub node", "ByteRub wallet cli", "ByteRub wallet gui"  
-**\<gingeropolous>** moneromooo, I like this bike shed. It can fit many bikes  
+**\<gingeropolous>** byterubmooo, I like this bike shed. It can fit many bikes  
 **\<fluffypony>** and then we'll make a decision at the next meeting  
 **\<Jaquee>** sounds good  
-**\<anonimal>** Two cents: 2 repos: libmonero and monero. monero has optional cli build alongside gui.  
+**\<anonimal>** Two cents: 2 repos: libbyterub and byterub. byterub has optional cli build alongside gui.  
 **\<fluffypony>** ok so 4. GetByteRub.org redesign discussion  
 **\<fluffypony>** rehrar wanted to show us the designs and get our input on it  
 **\<rehrar>** I don't want to take much time. Just want to get a special opinion from all the devs about the two proposed designs.  
@@ -113,7 +113,7 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** The idea will be to redesign the current website and also to make an assets document that will have the HTML and CSS framework that we make so anyone can easily make more pages.  
 **\<i2p-relay> {-olark}** Will these sites still be usable with javascript disabled?  
 **\<rehrar>** No JavaScript will be used.  
-**\<anonimal>** https://github.com/byterubpay/monero-site/issues/245  
+**\<anonimal>** https://github.com/byterubpay/byterub-site/issues/245  
 **\<rehrar>** All in Jekyll  
 **\<rehrar>** Sorry, thank you anonimal  
 **\<vertp>** design 1 - draft 3 is the most popular on reddit. Most people are asking to add some of the community sponsored youtube vids to the homepage as well.  
@@ -165,9 +165,9 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<pero>** else they wouldnt be using it  
 **\<pero>** lol  
 **\<fluffypony>** so it's also got to serve the target audience  
-**\<moneromooo>** Yeah, maybe we could have dev meeting and monero meeting.  
+**\<byterubmooo>** Yeah, maybe we could have dev meeting and byterub meeting.  
 **\<rehrar>** If the overwhelming majority thinks design 1 even after draft 3 of design 2 then I will probably go with it  
-**\<fluffypony>** moneromooo: this is specifically to get dev input on the design  
+**\<fluffypony>** byterubmooo: this is specifically to get dev input on the design  
 **\<rehrar>** But we're going to add some color to the design 2.  
 **\<hrumag2>** I think it should be given more underlining about how to buy ByteRub. Where do you think to put the link?  
 **\<rehrar>** ByteRub just has very...Specific branding colors. XD  
@@ -188,16 +188,16 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** let's move on to 5. Any additional meeting items  
 **\<fluffypony>** only thing I want to ask is just to find out from Jaquee if he managed to get hold of Qt  
 **\<Jaquee>** no, sorry. i've had a busy week  
-**\<moneromooo>** Well, I had this list of bugs I think can be closed. Which should be greppable with mooo.\*bug.\*clos  
+**\<byterubmooo>** Well, I had this list of bugs I think can be closed. Which should be greppable with mooo.\*bug.\*clos  
 **\<Jaquee>** will take care of that issue in a couple of days  
 **\<fluffypony>** np  
-**\<fluffypony>** moneromooo: yep I'll be closing issues in the next few days too  
-**\<moneromooo>** Thanks.  
+**\<fluffypony>** byterubmooo: yep I'll be closing issues in the next few days too  
+**\<byterubmooo>** Thanks.  
 **\<fluffypony>** anything else?  
 **\<bigreddmachine>** I have a Q: What is the "correct" way to propose an improvement / protocol change to ByteRub? Bitcoin has the BIP system, whereas for ByteRub things are basically handled via GitHub issues in the main repo. That means that, though discussions are documented permanently, they can be difficult to find and track over time. Is ByteRub getting to where it is big enough and has enough contributors that maybe we s  
 **\<bigreddmachine>** hould have a BIP-like process?  
 **\<fluffypony>** bigreddmachine: easiest way is just for us to have a label on Github (for consensus-critical changes)  
-**\<i2p-relay> {-olark}** I have a few things I would like to talk about regarding https://github.com/byterubpay/monero/issues/1673 I should post another update soon  
+**\<i2p-relay> {-olark}** I have a few things I would like to talk about regarding https://github.com/byterubpay/byterub/issues/1673 I should post another update soon  
 **\<i2p-relay> {-olark}** I can wait  
 **\<bigreddmachine>** fluffypony: but is that the ideal way to do it? after getting merged, closed, etc, those discussions are very tough to find. Something like BIP is a much better long-term place for those discussions  
 **\<fluffypony>** bigreddmachine: I think that changes should be written up as an MRL paper  
@@ -215,11 +215,11 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<i2p-relay> {-olark}** Sure  
 **\<i2p-relay> {-olark}** I just wanted to talk about a couple quick things  
 **\<fluffypony>** bigreddmachine: it's subjective - when we changed the block time from 1 min to 2 mins, for eg., the reasons were obvious - yes please do write it up and PR it  
-**\<i2p-relay> {-olark}** What people think about having 3 static ringsizes for monero similar to how we have static fee priorities.  
-**\<i2p-relay> {-olark}** This was an idea moneromooo had brought up in the issue  
+**\<i2p-relay> {-olark}** What people think about having 3 static ringsizes for byterub similar to how we have static fee priorities.  
+**\<i2p-relay> {-olark}** This was an idea byterubmooo had brought up in the issue  
 **\<sgp>** What ringsizes are you proposing?  
 **\<i2p-relay> {-olark}** To protect users from making foolish mistakes reusing irregular ringsizes  
-**\<moneromooo>** I was about to write "I like it", so I now see why I do... :D  
+**\<byterubmooo>** I was about to write "I like it", so I now see why I do... :D  
 **\<fluffypony>** olark: I like it because it removes fingerprinting / metadata leaks  
 **\<i2p-relay> {-olark}** Well if September is mandatory 4 i was thinking like 4, 12, 50 or something similar the details don't matter at this moment but just what people think about having this in place.  
 **\<fluffypony>** I'm fine with it, but 4 is way too small as the minimum, even per the old MRL recommendations  
@@ -227,11 +227,11 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<bigreddmachine>** to clarify - unlike fees, which *could* be changed on the user-end to something else, this will make non-standard ring sizes be against the consensus protocol?  
 **\<i2p-relay> {-olark}** and how this affects the attack in MRL-001  
 **\<fluffypony>** bigreddmachine: yes  
-**\<moneromooo>** We could wait to see luigi1112's final ringct sizes, then see how those vary with increasing mixin.  
-**\<fluffypony>** moneromooo: agreed  
+**\<byterubmooo>** We could wait to see luigi1112's final ringct sizes, then see how those vary with increasing mixin.  
+**\<fluffypony>** byterubmooo: agreed  
 **\<jwinterm>** why only three choices?  
 **\<fluffypony>** jwinterm: so that people actually use the two other than the default  
-**\<moneromooo>** To avoid splitting txes in too many classes.  
+**\<byterubmooo>** To avoid splitting txes in too many classes.  
 **\<sgp>** So how about 10, 20, 50, 100? Something like that. Pending the research of course  
 **\<fluffypony>** you want to get lost in the mix, remember :)  
 **\<vtnerd1112>** So fireice\_uk is working on the rpc download changes before any crypto stuff ... ?  
@@ -239,36 +239,36 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<vtnerd1112>** Oops thought that topic was done  
 **\<sgp>** ^ with what ringsize?  
 **\<fluffypony>** vtnerd1112: yes - we decided in the last meeting that he'd switch milestone orders around  
-**\<moneromooo>** Oh, that ought to be done on 0MQ then.  
+**\<byterubmooo>** Oh, that ought to be done on 0MQ then.  
 **\<i2p-relay> {-olark}** Smooth and myself had come to a conclusion that mixin 4 is fine but if the attack in MRL-001 is made easier with a selection algo like I am suggesting we may need to increase the mandatory ringsizes to protect against an attack like MRL-001  
 **\<fluffypony>** olark: this changes with zipf, right?  
 **\<fluffypony>** ie. a great portion of the ring uses the past day's outputs  
-**\<vtnerd1112>** Ok, pigeons told me mymonero seemed to be under lots of load. Ive got some preliminary work done that he could continue to completion  
-**\<vtnerd1112>** Just enough to give mymonero a bump hopefully  
+**\<vtnerd1112>** Ok, pigeons told me mybyterub seemed to be under lots of load. Ive got some preliminary work done that he could continue to completion  
+**\<vtnerd1112>** Just enough to give mybyterub a bump hopefully  
 **\<fluffypony>** vtnerd1112: that's fine, maybe ping him and tell him that? fireice\_uk never attends dev meetings and is never on IRC  
-**\<moneromooo>** Maybe that's not actually bad.  
+**\<byterubmooo>** Maybe that's not actually bad.  
 **\<i2p-relay> {-olark}** What to increase it to is up in the air obviously. Still have more work to do  
 **\<i2p-relay> {-olark}** fluffypony: Yes. Based on the survey I have done so far roughly 70% of spent outputs are from the past day. Future surveying will be going over 2011-2012 to see if there is any change in the distributions.  
 **\<fluffypony>** ok I'm fine with that - olark, what are your thoughts on writing it up as an MRL paper later on once the discussion is finalised?  
-**\<moneromooo>** I think current min is still 2. We could go to 4 in september, and still increase later.  
+**\<byterubmooo>** I think current min is still 2. We could go to 4 in september, and still increase later.  
 **\<sgp>** I think we should increase it >4 in September  
 **\<bigreddmachine>** -olark: is there a way to see what the distribution looks like for txs not related to mining? i'd guess a lot of the quickness in spending is from pools transfering out coins to miners, but in the future this might be a much smaller proportion  
 **\<xmr\_eric>** Are we still playing around with having a static ringsize?  
-**\<moneromooo>** Pool payment txes are often with more than 2 outputs.  
+**\<byterubmooo>** Pool payment txes are often with more than 2 outputs.  
 **\<sgp>** @xmr\_eric yes  
 **\<xmr\_eric>** Cool  
-**\<fluffypony>** moneromooo: with the new range proofs etc. it might be worthwhile just making the min based on that  
-**\<moneromooo>** Not a guarantee of course. Especially now -\_-  
+**\<fluffypony>** byterubmooo: with the new range proofs etc. it might be worthwhile just making the min based on that  
+**\<byterubmooo>** Not a guarantee of course. Especially now -\_-  
 **\<i2p-relay> {-olark}** fluffypony: Sure I can write an MRL paper once I have more of it fleshed out.  
 **\<fluffypony>** can always use like a 10 output tx as a measuring bar  
-**\<moneromooo>** fluffypony: sounds good  
+**\<byterubmooo>** fluffypony: sounds good  
 **\<gingeropolous>** ^ interesting  
 **\<i2p-relay> {-olark}** xmr\_eric: The idea is having 3 static ringsizes for varying levels of paranoia similar to the different fee priorities we have.  
 **\<xmr\_eric>** Right  
-**\<bigreddmachine>** moneromooo: if we're just looking for a filter on pool txs, we can always use the pools' apis to get txids. my point was those txs might be 50% of all txs now, but 5% two years from now, which impacts the math.  
+**\<bigreddmachine>** byterubmooo: if we're just looking for a filter on pool txs, we can always use the pools' apis to get txids. my point was those txs might be 50% of all txs now, but 5% two years from now, which impacts the math.  
 **\<gingeropolous>** are disposable / one-time addresses happening? I didn't see it make the list of things not to pull in.  
-**\<moneromooo>** That allows me to...  
-**\<moneromooo>** luigi1112: is kenshi84's disposable address patch ready in the theoretical sense, you think ? ie, can I go over it again assuming the math/crypto's final ?  
+**\<byterubmooo>** That allows me to...  
+**\<byterubmooo>** luigi1112: is kenshi84's disposable address patch ready in the theoretical sense, you think ? ie, can I go over it again assuming the math/crypto's final ?  
 **\<fluffypony>** I haven't looked at it in a while, I'll have to re-review the PR to both the MRL and normal repos  
 **\<fluffypony>** ok we need to wrap up - let's discuss it further later on  
 **\<fluffypony>** 6. Confirm next meeting date/time  

@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 #  Vérifier des binaires : Outils CLI pour Linux, Mac ou (Avancé)
 
-Les fichiers binaires Monero devrait être vérifiés avant extraction, installation ou utilisation de l'application Monero. C'est l'unique manière de vous assurer que vous utilisez le binaire officiel Monero. Si vous recevez un binaire contrefait (p. ex. hameçonnage, HDM, etc.), suivre ce guide vous évitera de vous faire piéger.
+Les fichiers binaires ByteRub devrait être vérifiés avant extraction, installation ou utilisation de l'application ByteRub. C'est l'unique manière de vous assurer que vous utilisez le binaire officiel ByteRub. Si vous recevez un binaire contrefait (p. ex. hameçonnage, HDM, etc.), suivre ce guide vous évitera de vous faire piéger.
 
-Pour protéger l'intégrité des binaires, l'équipe Monero fournit une liste cryptographiquement signée de tous les hachages [SHA256](https://en.wikipedia.org/wiki/SHA-2). Si le binaire que vous avez téléchargé a été altéré il produira un [hachage différent](https://en.wikipedia.org/wiki/File_verification) de celui fourni dans le fichier.
+Pour protéger l'intégrité des binaires, l'équipe ByteRub fournit une liste cryptographiquement signée de tous les hachages [SHA256](https://en.wikipedia.org/wiki/SHA-2). Si le binaire que vous avez téléchargé a été altéré il produira un [hachage différent](https://en.wikipedia.org/wiki/File_verification) de celui fourni dans le fichier.
 
 Voici un guide avancé pour les systèmes d'exploitation Linux, Mac et Windows qui s'appuiera sur des lignes de commandes (CLI). Il couvrira tout le processus d'installation des applications requises, d'import de la clef de signature, de téléchargement des fichiers nécessaires et enfin de vérification de l'authenticité de votre binaire.
 
@@ -21,7 +21,7 @@ Voici un guide avancé pour les systèmes d'exploitation Linux, Mac et Windows q
   + [3.2. Vérifier le Fichier de Hachage](#32-vérifier-le-fichier-de-hachage)
 
 ### [4.Télécharger & Vérifier les binaires](#4-télécharger-et-vérifier-les-binaires)
-  + [4.1. Télécharger les binaires Monero](#41-télécharger-les-binaires-monero)
+  + [4.1. Télécharger les binaires ByteRub](#41-télécharger-les-binaires-monero)
   + [4.2. Vérifier les binaires sur Linux et Mac](#42-vérifier-les-binaires-sur-linux-et-mac)
   + [4.3. Vérifier les binaires sur Windows](#43-vérifier-les-binaires-sur-windows)
 
@@ -35,11 +35,11 @@ Voici un guide avancé pour les systèmes d'exploitation Linux, Mac et Windows q
 
 ## 2. Vérifier et Importer la Clef de Signature
 
-Cette rubrique couvre le téléchargement de la clef de signature Monero, la vérification que cette clef est correcte et l'import de la clef dans GnuPG.
+Cette rubrique couvre le téléchargement de la clef de signature ByteRub, la vérification que cette clef est correcte et l'import de la clef dans GnuPG.
 
 ### 2.1. Obtenir la Clef de Signature
 
-Sur Windows et Mac, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires Monero et sauvegardez la page sous `fluffypony.asc` dans votre répertoire utilisateur.
+Sur Windows et Mac, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires ByteRub et sauvegardez la page sous `fluffypony.asc` dans votre répertoire utilisateur.
 
 Sur Linux, vous pouvez télécharger la clef de signature de Fluffypony en tapant la commande suivante :
 
@@ -137,9 +137,9 @@ Si vous voyez **BAD signature** dans la sortie, **NE POURSUIVEZ PAS.** Au lieu d
 
 ## 4. Télécharger et Vérifier les binaires
 
-Cette rubrique couvre le téléchargement du binaire Monero pour votre système d'exploitation, la récupération du hachage `SHA256` de votre téléchargement et la vérification de son authenticité.
+Cette rubrique couvre le téléchargement du binaire ByteRub pour votre système d'exploitation, la récupération du hachage `SHA256` de votre téléchargement et la vérification de son authenticité.
 
-### 4.1. Télécharger les binaires Monero
+### 4.1. Télécharger les binaires ByteRub
 
 Sur Windows et Mac, rendez-vous sur [getmonero.org](https://getmonero.org/fr/downloads/) et téléchargez le fichier correspondant à votre système d'exploitation. enregistrez ce fichier dans votre répertoire utilisateur. **N'extrayez pas les fichiers pour le moment.**
 
@@ -151,7 +151,7 @@ wget -O monero-linux-x64-v0.12.2.0.tar.bz2 https://downloads.getmonero.org/cli/l
 
 ### 4.2. Vérifier les binaires sur Linux et Mac
 
-Les étapes pour Linux et Mac sont les mêmes. Depuis un terminal, récupérez le hachage `SHA256` du binaire Monero téléchargé. A titre d'exemple, ce guide utilisera le binaire GUI `Linux, 64bit`. Remplacez `monero-gui-linux-x64-v0.12.0.0.tar.bz2` par le nom du binaire que vous aurez téléchargé dans la [rubrique 4.1](#41-télécharger-les-binaires-monero).
+Les étapes pour Linux et Mac sont les mêmes. Depuis un terminal, récupérez le hachage `SHA256` du binaire ByteRub téléchargé. A titre d'exemple, ce guide utilisera le binaire GUI `Linux, 64bit`. Remplacez `monero-gui-linux-x64-v0.12.0.0.tar.bz2` par le nom du binaire que vous aurez téléchargé dans la [rubrique 4.1](#41-télécharger-les-binaires-monero).
 
 ```
 shasum -a 256 monero-gui-linux-x64-v0.12.0.0.tar.bz2
@@ -169,7 +169,7 @@ Si votre hachage **N'EST PAS** identique, **NE POURSUIVEZ PAS.** Au lieu de cela
 
 ### 4.3. Vérifier les binaires sur Windows
 
-Depuis un terminal, récupérez le hachage `SHA256` du binaire Monero téléchargé. A titre d'exemple, ce guide utilisera le binaire GUI `Windows, 64bit`. Remplacez `monero-gui-win-x64-v0.12.0.0.zip` par le nom du binaire que vous aurez téléchargé dans la [rubrique 4.1](#41-télécharger-les-binaires-monero).
+Depuis un terminal, récupérez le hachage `SHA256` du binaire ByteRub téléchargé. A titre d'exemple, ce guide utilisera le binaire GUI `Windows, 64bit`. Remplacez `monero-gui-win-x64-v0.12.0.0.zip` par le nom du binaire que vous aurez téléchargé dans la [rubrique 4.1](#41-télécharger-les-binaires-monero).
 
 ```
 certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256

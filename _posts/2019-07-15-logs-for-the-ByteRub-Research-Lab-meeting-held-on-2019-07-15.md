@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-07-15
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-07-15
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -19,7 +19,7 @@ author: el00ruobuob / sarang
 **\<hyc>** hi  
 **\<sarang>** Can you repeat the question?  
 **\<sarang>** (for our logs)  
-**\<suraeNoether>** yes: dEBRUYNE was wondering if I could ask jerry brito about the possibilities of how Monero can work with the NYDFS bitlicense  
+**\<suraeNoether>** yes: dEBRUYNE was wondering if I could ask jerry brito about the possibilities of how ByteRub can work with the NYDFS bitlicense  
 **\<suraeNoether>** the example of Zcash being something that recently been listed on coinbase, etc, indicating that the NYDFS gave their blessing somehow  
 **\<sarang>** This is Zcash's compliance brief: https://z.cash/wp-content/uploads/2019/04/Zcash-Regulatory-Brief.pdf  
 **\<sarang>** You may find it useful  
@@ -169,7 +169,7 @@ author: el00ruobuob / sarang
 **\<sarang>** How so?  
 **\<suraeNoether>** ArticMine: i would almost rather increase fees than ring size at this point :\\  
 **\<ArticMine>** There was a drop in tx size last fork  
-**\<suraeNoether>** sarang i have a question: fill in the blank to complete the analogy. (lelantus protocol) : (monero protocol) :: (2-year old mid-range automobile with no damage) : \_\_\_\_\_\_\_\_  
+**\<suraeNoether>** sarang i have a question: fill in the blank to complete the analogy. (lelantus protocol) : (byterub protocol) :: (2-year old mid-range automobile with no damage) : \_\_\_\_\_\_\_\_  
 **\<sarang>** While bigger rings are generally better, a marginal increase from 11 to 13 will do little to help analysis that already exists  
 **\<sarang>** ...  
 **\<suraeNoether>** 2-year old mid-range refrigerator with no stink?  
@@ -178,7 +178,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Looks cool, pretty functional, not sure what'd happen in practice =p  
 **\<suraeNoether>** how about the weird stretchy-squishy car from Willy Wonka  
 **\<sarang>** lol  
-**\<suraeNoether>** wait, has monero switched with lelantus in your analogy?  
+**\<suraeNoether>** wait, has byterub switched with lelantus in your analogy?  
 **\<gingeropolous>** bumpdaringsize  
 **\<sarang>** erm  
 **\<suraeNoether>** bumpdaringsize.gif  

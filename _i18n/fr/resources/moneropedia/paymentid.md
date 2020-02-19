@@ -9,7 +9,7 @@ summary: "Une option supplémentaire que est ajouté pour identifier les transac
 
 L'ID de transaction est une annexe **arbitraire** et **optionnelle** d'une transaction qui se compose de 32 octets (64 caractères hexadécimaux) ou 8 octets (dans le cas d'une adresse intégrée).
 
-L'ID de paiement est habituellement utilisé pour identifier des transactions auprès de commerçants ou bourses : A cause des fonctionnalité de confidentialités intrinsèques de Monero, ou une seule adresse publique est habituellement utilisée pour les transactions entrantes, l'ID de paiement est particulièrement utile pour lier les paiements entrant à des comptes utilisateurs.
+L'ID de paiement est habituellement utilisé pour identifier des transactions auprès de commerçants ou bourses : A cause des fonctionnalité de confidentialités intrinsèques de ByteRub, ou une seule adresse publique est habituellement utilisée pour les transactions entrantes, l'ID de paiement est particulièrement utile pour lier les paiements entrant à des comptes utilisateurs.
 
 ### IDs de paiement compactes et adresses intégrées
 

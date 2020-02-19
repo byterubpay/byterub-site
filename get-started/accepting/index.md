@@ -10,10 +10,10 @@ permalink: /get-started/accepting/index.html
           <div class="info-block text-adapt">
             <h3>{% t accepting.title_gui %}</h3>
               <p>{% t accepting.gui1 %}</p>
-              <p>{% t accepting.gui2 %} <a href="https://github.com/monero-ecosystem/monero-GUI-guide/blob/master/monero-GUI-guide.md#receive-monero">{% t accepting.guilinkguide %}</a></p>
+              <p>{% t accepting.gui2 %} <a href="https://github.com/byterub-ecosystem/byterub-GUI-guide/blob/master/byterub-GUI-guide.md#receive-byterub">{% t accepting.guilinkguide %}</a></p>
                 <img class="top-margin" src="/img/receive.png" alt="receive page">
               <p>{% t accepting.guiinstructions %}</p>
-              <p>{% t accepting.guimerchant %} <a href="https://github.com/monero-ecosystem/monero-GUI-guide/blob/master/monero-GUI-guide.md#merchant-view">{% t accepting.guilinkguide1 %}</a>.</p>
+              <p>{% t accepting.guimerchant %} <a href="https://github.com/byterub-ecosystem/byterub-GUI-guide/blob/master/byterub-GUI-guide.md#merchant-view">{% t accepting.guilinkguide1 %}</a>.</p>
                 <img class="top-margin" src="/img/merchant_page.png" alt="merchant view">
               <p>{% t accepting.guimerchant1 %}</p>
               <p>{% t accepting.guisteps %}</p>
@@ -38,7 +38,7 @@ permalink: /get-started/accepting/index.html
               <p><i>{% t accepting.clinotes %}</i></p>
             <h3>{% t accepting.merchantstitle %}</h3>
               <p>{% t accepting.merchantsreceive %} <a href="{{ site.baseurl }}/resources/developer-guides/">{% t accepting.merchdevguides %}</a>. {% t accepting.merchantsreceive1 %}</p>
-              <p>{% t accepting.merchantsint %} <a href="https://github.com/monero-integrations">{% t accepting.merchantsintlink %}</a>.</p>
+              <p>{% t accepting.merchantsint %} <a href="https://github.com/byterub-integrations">{% t accepting.merchantsintlink %}</a>.</p>
               <p>{% t accepting.merchantsthirdp %} <a href="{{ site.baseurl }}/community/merchants/">{% t accepting.merchthirdlink %}</a>. {% t accepting.merchantsthirdp1 %}</p>
           </div>
         </div>                

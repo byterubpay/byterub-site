@@ -24,7 +24,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** yes  
 **\<anonimal>** Hi fluffypony  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** On my end: testnet development and related collab with MoroccanMalinois and lazygravy + SSU/Ident collab/PR review with MoroccanMalinois (and related research/development), rehrar collab for his site related work, some collab with serhack/ericcion Italian translations for kovri-site, email + PR collab + R&D with rbrunner on the windows InnoSetup installers, ByteRub project work (monero svn to git for  
+**\<anonimal>** On my end: testnet development and related collab with MoroccanMalinois and lazygravy + SSU/Ident collab/PR review with MoroccanMalinois (and related research/development), rehrar collab for his site related work, some collab with serhack/ericcion Italian translations for kovri-site, email + PR collab + R&D with rbrunner on the windows InnoSetup installers, ByteRub project work (byterub svn to git for  
 **\<anonimal>** unbound), work with pigeons on setting up kovri.i2p (now online!), answer various IRC/reddit Q&A + related collab.  
 **\<rehrar>** This past week was launching the ByteRub website. Now that's basically done.  
 **\<anonimal>** Some various things here and there, I2P/Tor family node research and more.  
@@ -71,14 +71,14 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Kovri doesn't have to have the same license as ByteRub, right?  
 **\<anonimal>** ArticMine: I took a quick look at that earlier this week, will look again now.  
 **\<i2p-relay> {-fluffypony}** rehrar not necessarily, but might be better if we did  
-**\<moneromooo>** kovri's library part will be used by monero at some point.  
+**\<byterubmooo>** kovri's library part will be used by byterub at some point.  
 **\<i2p-relay> {-fluffypony}** I don't see a reason to have different licenses  
 **\<anonimal>** BSD-3, yes I believe so.  
 **\<anonimal>** re: licensing, no matter what, we'd need to adhere to the licenses of all bundled dependencies, right?  
 **\<ArticMine>** Yes  
 **\<ArticMine>** That is part of the issue in 85  
 **\<ArticMine>** I2P is effectively GPL v2  
-**\<moneromooo>** "I2P" ? The Java router ?  
+**\<byterubmooo>** "I2P" ? The Java router ?  
 **\<ArticMine>** Yes java  
 **\<anonimal>** Huh? Java I2P?  
 **\<ArticMine>** java makes I2P GPL v2  
@@ -88,13 +88,13 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Open specification is different than implementation in terms of licensing, right?  
 **\<ArticMine>** but that is why 5 was opened to deal with this discussion  
 **\<ArticMine>** 85  
-**\<anonimal>** If monero goes dual-license, then we must?  
+**\<anonimal>** If byterub goes dual-license, then we must?  
 **\<ArticMine>** Not necessarily  
 **\<anonimal>** Ok. I'll need more thought on this. I can add to the next agenda too. Does anyone have any strong feelings on this now?  
 **\<ArticMine>** I think it is best if we discuss it on Github under 85  
 **\<ArticMine>** Then we can look at it in the next meeting  
 **\<rehrar>** I have strong feelings to go proprietary.  
-**\<moneromooo>** er, we would not do that.  
+**\<byterubmooo>** er, we would not do that.  
 **\<rehrar>** But aside from that let's move on.  
 **\<rehrar>** I kid.  
 **\<anonimal>** ArticMine: ok.  
@@ -131,7 +131,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Oh neat, label bot is online  
 **\<rehrar>** Can we give him a better name?  
 **\<i2p-relay> {-fluffypony}** only in meta right now  
-**\<moneromooo>** Oooh, where is the documentation ?  
+**\<byterubmooo>** Oooh, where is the documentation ?  
 **\<anonimal>** Oh lol, I see, rehrar quoted my kovri comment from March 16th, 2016, heh X)  
 **\<anonimal>** fluffypony: so #12 is applicable but not finished?  
 **\<i2p-relay> {-fluffypony}** yes  

@@ -6,7 +6,7 @@ summary: "Une adresse sur le réseau qui sert comme point de terminaison (soit l
 
 ### Les Bases
 
-Une @destination est l'adresse @interne-au-réseau @I2P du point de terminaison final auquel vous essayé de vous connecter (exemple : un site web, service, ou nœud Monero @I2P). Cela peut aussi inclure une *destination locale* à laquelle d'*autres* homologues doivent se connecter afin de prendre contact pour communiquer (de la même manière que sur le @réseau-en-clair, votre adresse IP est donnée à un site web lorsque vous vous connectez, de sorte qu'il sache *où* renvoyer les informations).
+Une @destination est l'adresse @interne-au-réseau @I2P du point de terminaison final auquel vous essayé de vous connecter (exemple : un site web, service, ou nœud ByteRub @I2P). Cela peut aussi inclure une *destination locale* à laquelle d'*autres* homologues doivent se connecter afin de prendre contact pour communiquer (de la même manière que sur le @réseau-en-clair, votre adresse IP est donnée à un site web lorsque vous vous connectez, de sorte qu'il sache *où* renvoyer les informations).
 
 ### Informations détaillées
 

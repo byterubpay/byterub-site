@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-08-20
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-08-20
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -9,7 +9,7 @@ author: el00ruobuob / surae
 # Logs  
 
 **\<sarang>** lets begin  
-**\<suraeNoether>** fluffypony: knaccc luigi1111 sarang ajs[m] andytoshi anonimal ArticMine binaryFate chachasmooth dEBRUYNE endogenic gingeropolous hyc iDunk isthmuscrypto john\_alan jwinterm knaccc kerber m2049r[m] moneromooo MoroccanMalinois needmoney90 nioc philkode pigeons rehrar[m] rrol[m] scoobybejesus sgp\_1 sgp\_[m] smooth sneurlax stout stoffu UkoeHB unknownids vtnerd waxwing   
+**\<suraeNoether>** fluffypony: knaccc luigi1111 sarang ajs[m] andytoshi anonimal ArticMine binaryFate chachasmooth dEBRUYNE endogenic gingeropolous hyc iDunk isthmuscrypto john\_alan jwinterm knaccc kerber m2049r[m] byterubmooo MoroccanMalinois needmoney90 nioc philkode pigeons rehrar[m] rrol[m] scoobybejesus sgp\_1 sgp\_[m] smooth sneurlax stout stoffu UkoeHB unknownids vtnerd waxwing   
 **\<suraeNoether>** let's hang out for 2 minutes and we'll start  
 **\<sarang>** careful, mass mentions can get you autobanned  
 **\<sgp\_1>** hello  
@@ -19,7 +19,7 @@ author: el00ruobuob / surae
 **\<sarang>** due to all the recent spam  
 **\<scoobybejesus>** hi  
 **\<suraeNoether>** hi everyone  
-**\<sneurlax>** Hey, I have the code to provide mining-pool-reused outputs in the format moneromooo requested up at github.com/sneurlax/xmreuse. I don't know if or how there's a way to add to the blackball database from GET/HTTP calls but that's what I was asked for. I need to update the outputs, I think, and add more pools over the next few days, but it's pretty straightforward...  
+**\<sneurlax>** Hey, I have the code to provide mining-pool-reused outputs in the format byterubmooo requested up at github.com/sneurlax/xmreuse. I don't know if or how there's a way to add to the blackball database from GET/HTTP calls but that's what I was asked for. I need to update the outputs, I think, and add more pools over the next few days, but it's pretty straightforward...  
 **\<sneurlax>** The repo is private at the moment if I recall correctly. Drop github names to invite or I'll make it public whenever y'all say to  
 **\<MoroccanMalinois>** hi  
 **\<suraeNoether>** Welcome to the first post-defcon MRL research meeting. Agenda today is simple. 1) Greetings (done!) 2) Does anyone have any items they want to add to the agenda? 3) Let's catch up on what everyone is doing.   
@@ -56,7 +56,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** where we invite graduate students from across the country to apply. the core team and MRL go through applications and short list us down to 3-5 candidates. then each of those candidates starts their own FFS  
 **\<suraeNoether>** and either the FFS sends funding directly to the students, or sends it directly to their university, leaving all the liability on the student and/or the school  
 **\<stout>** doesn't sound like a solution for the conference problem, but I like the step nonetheless  
-**\<suraeNoether>** this way, grad students who were in the same position sarang and i were in when we first srtarted at MRL can apply, get some funding, and become monero fanatics who will volunteer their time and blood forever. :P  
+**\<suraeNoether>** this way, grad students who were in the same position sarang and i were in when we first srtarted at MRL can apply, get some funding, and become byterub fanatics who will volunteer their time and blood forever. :P  
 **\<suraeNoether>** no, not a solution to the conference problem  
 **\<sarang>** For the conference, outside groups have come forward and expressed interest in managing/funding  
 **\<suraeNoether>** yeah, i think fluffypony is attempting some solutions to that in a roundabout way  
@@ -69,7 +69,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** google forms is criticized as being ... google, obviously  
 **\<sarang>** Cast a wide net for quality applicants  
 **\<suraeNoether>** surveymonky allegedly leaks IP addresses, etc  
-**\<suraeNoether>** my understanding is that thunderosa on reddit has made secure survey software for monero before, so that'd be interseting to look into  
+**\<suraeNoether>** my understanding is that thunderosa on reddit has made secure survey software for byterub before, so that'd be interseting to look into  
 **\<endogenic>** use blockchain  
 **\<sgp\_1>** When using Google you give the info to Google, but only form info is shared with the owner  
 **\<suraeNoether>** as far as advertising and finding sources for job postings, that part is easy. we can literally just send out an advertising email to every single computer science and math department in the US and europe. no problem. that's not hard, and there are lists for things like that.  
@@ -139,7 +139,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** ohhh yeah, still thinking about that, but my last attempt did not work the way i wanted it to. did you have ideas?  
 **\<sarang>** I am still thinking about ways to do it with the new language afforded by the RuPol scheme  
 **\<sarang>** I don't have any solid answers yet  
-**\<sarang>** I think it's important to consider this and other topics that may become more relevant as Monero increases in adoption  
+**\<sarang>** I think it's important to consider this and other topics that may become more relevant as ByteRub increases in adoption  
 **\<sarang>** things like exchange blacklisting, outgoing view, etc.  
 **\<sarang>** I also considered accumulator-based schemes off-chain for the view functionality, but you need to still prove that an output was generated correctly  
 **\<sarang>** Not that a "me too" attitude matters, but it's clear that Zcash is introducing this to encourage exchange adoption  

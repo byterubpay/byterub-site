@@ -1,25 +1,25 @@
 ---
 layout: post
 title: ByteRub Missive for the Week of 2015-02-23
-summary: New website, moved from monero.cc to getmonero.org, MRL-0004 released, ByteRub design and development goals published
-tags: [monero missives, research, usability]
+summary: New website, moved from byterub.cc to getbyterub.org, MRL-0004 released, ByteRub design and development goals published
+tags: [byterub missives, research, usability]
 author: Riccardo Spagni (fluffypony)
-forum: https://forum.getmonero.org/1/news-and-announcements/161/monday-monero-missives-23-february-23rd-2015
+forum: https://forum.getbyterub.org/1/news-and-announcements/161/monday-byterub-missives-23-february-23rd-2015
 ---
 
 We are moving to a new Missive format, it is now in the form of a podcast!
 
 <div class="text-center"><iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3381043/height/600/width/600/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" height="600" width="600" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div>
 
-To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-02-23.mp3).
+To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-02-23.mp3).
 
 A brief summary of the points discussed follows, and a full transcription of the podcast is below.
 
-1. The release of the new website, and the move to [the getmonero.org domain](https://getmonero.org/)
+1. The release of the new website, and the move to [the getbyterub.org domain](https://getbyterub.org/)
 
-2. The publication of [MRL-0004, Improving Obfuscation in the CryptoNote Protocol](https://lab.getmonero.org/pubs/MRL-0004.pdf)
+2. The publication of [MRL-0004, Improving Obfuscation in the CryptoNote Protocol](https://lab.getbyterub.org/pubs/MRL-0004.pdf)
 
-3. ByteRub's [design and development goals](http://getmonero.org/design-goals/)
+3. ByteRub's [design and development goals](http://getbyterub.org/design-goals/)
 
 Dev Diaries and External Projects will resume being covered from next week. Until then!
 
@@ -55,7 +55,7 @@ No I haven't, you know he always calls a lot. His buddy RPC, and API, API is a g
 
 So you're the community liaison let's call it that. So today were going to forego the normal bits that we do at the end of the Missive, we're going to skip the Dev Diary and skip External Projects, because there are 3 major things we need to talk about. Now for our listeners who are not English-speaking and may struggle to understand this, we are asking the community in their own time when they get a chance to transcribe some of the podcast content into written form so that it can be understood better and eventually translated. But obviously that's not high priority, and at your earliest convenience if you have some time and feel like transcribing it the first one out the gate is always a winner. 
 
-So what we'd like to concentrate on are 3 things and the first thing were going to talk about is the new website which has only been like a year in production. There's been a great deal of effort that we've put into this and as everyone knows we started with a design that we built quite early on which is been available in the forum for quite some time. But one of the things we wanted to do is really create a website that was accessible not just a hard-core ByteRub fans or existing users, but to new people that wanted to know what is ByteRub; what does it do; how can I use it; how can I do simple things...how can I accept payments with ByteRub; how can I use ByteRub; how can I run a @node...once I eventually understand what a node is. And so we created this website, and along with the creation of the website we also felt it prudent to move away from the monero.cc domain, which has served us well, but it's time for us to move to something that is a little better suited. So we are moving to getmonero.org which has a long-standing tradition in open source community, Firefox when it first launched also didn't have firefox.org, and so they ran with getfirefox.org for very long time before they eventually started to get other domains that were donated to them. So it's the same with this: the monero.cc domain will forward to getmonero.org, so nothing will change if you have old links or subdomains that are on monero.cc, carry on using them, it will automatically forward you through.
+So what we'd like to concentrate on are 3 things and the first thing were going to talk about is the new website which has only been like a year in production. There's been a great deal of effort that we've put into this and as everyone knows we started with a design that we built quite early on which is been available in the forum for quite some time. But one of the things we wanted to do is really create a website that was accessible not just a hard-core ByteRub fans or existing users, but to new people that wanted to know what is ByteRub; what does it do; how can I use it; how can I do simple things...how can I accept payments with ByteRub; how can I use ByteRub; how can I run a @node...once I eventually understand what a node is. And so we created this website, and along with the creation of the website we also felt it prudent to move away from the byterub.cc domain, which has served us well, but it's time for us to move to something that is a little better suited. So we are moving to getbyterub.org which has a long-standing tradition in open source community, Firefox when it first launched also didn't have firefox.org, and so they ran with getfirefox.org for very long time before they eventually started to get other domains that were donated to them. So it's the same with this: the byterub.cc domain will forward to getbyterub.org, so nothing will change if you have old links or subdomains that are on byterub.cc, carry on using them, it will automatically forward you through.
 
 #### Gingeropolous
 
@@ -73,7 +73,7 @@ Like jargon.
 
 Ja jargon, something like @blockchain or @transaction. Transaction has a familiarity to us because we use cryptocurrency, but a transaction like a credit card transaction is very different to a transaction in digital or cryptocurrency terms. So you can't, we can't make assumptions about what people know. So part of this is we've created something called a ByteRubpedia, which obviously is like Wikipedia but for ByteRub. There are still a lot of room to grow in terms of content, there's a lot of continent needs to be added, but you'll notice that certain things like even on the front page, those 3 green blocks that explain the secure, private, and untraceable nature of ByteRub, you'll notice that there are some words that have got slightly darker text, and when you hover over them or if you're on a mobile device when you tap on them it actually gives you little summary of that term. So hover over "@consensus" or "@accounts" or "@mnemonic-seed" or "@blockchain" or "@transactions", it explains the term to you. So we are trying to create something that is accessible and that people don't get overwhelmed with tons of information.
 
-We've created a lot of content especially in the getting started section that's pretty much done, which means that people who would want to accept ByteRub payments, either by hand or programmatically, there is plenty of information there. And in the knowledge base there is still a lot of stuff we are working on in terms of content, but ByteRubpedia we've already started filling in a lot of that. And the [source code for the website is in a Github repository](https://github.com/byterubpay/monero-site) so you can take a look at it, you can look at the way everything is put together. It's all Markdown, processed through a system called Jekyll, which is what Github pages uses. So you can take a look at the existing ByteRubpedia entries, and you can take a look at the ByteRubpedia entry for account and see how we structured everything in the Markdown. And if you want to contribute content, by adding entries or correcting mistakes we've made, please, please do so.
+We've created a lot of content especially in the getting started section that's pretty much done, which means that people who would want to accept ByteRub payments, either by hand or programmatically, there is plenty of information there. And in the knowledge base there is still a lot of stuff we are working on in terms of content, but ByteRubpedia we've already started filling in a lot of that. And the [source code for the website is in a Github repository](https://github.com/byterubpay/byterub-site) so you can take a look at it, you can look at the way everything is put together. It's all Markdown, processed through a system called Jekyll, which is what Github pages uses. So you can take a look at the existing ByteRubpedia entries, and you can take a look at the ByteRubpedia entry for account and see how we structured everything in the Markdown. And if you want to contribute content, by adding entries or correcting mistakes we've made, please, please do so.
 
 #### Gingeropolous
 
@@ -83,11 +83,11 @@ So there's a way for the community to contribute to this, that's awesome.
 
 Exactly, so along with that there's also we haven't forgotten about internationalization, you notice that when we hit the website for the first time you have to choose a language and at the moment the only language is English. And the reason that we haven't bolted another language just yet is we want to first flesh out the English content, and everything is pretty much ready for us to start adding other languages, but we just want to get English sorted of first and then we will do a call for translations, and will have strings up on Transifex so that people can translate.
 
-So on the byterubpay Github there is a [monero-site](https://github.com/byterubpay/monero-site) repository, and if you notice any issues, if you notice dead links or anything like that, you can open an issue on Github. If there's anything you want to change or add or whatever, then you can clone the repository and fix it on your side and then submit a pull request, which is the same way we work with all of the other projects.
+So on the byterubpay Github there is a [byterub-site](https://github.com/byterubpay/byterub-site) repository, and if you notice any issues, if you notice dead links or anything like that, you can open an issue on Github. If there's anything you want to change or add or whatever, then you can clone the repository and fix it on your side and then submit a pull request, which is the same way we work with all of the other projects.
 
 So one of the reasons that we went this road instead of going for more traditional wiki where anyone can edit it and so on is because the git, and github by extension, format for dealing with changes is just a lot more geared toward consensus, at least that's what we feel. So, for example, if somebody wanted to make a change to an article in ByteRubpedia, they would make the change and submitted it as a Pull Request, and then in the comments section the community can back and forward and say "I think this sentence should be done that way," or "you forgot to highlight the word here so it gets flagged and linked to its definition in ByteRubpedia," and so on. And there can be a general feeling that the change is good or bad. So it just sort of lends itself more towards a community driven project than the one where, like with Wikipedia where it just ends up being refined purely by brute force almost.
 
-Let's go on to [MRL 4](https://lab.getmonero.org/pubs/MRL-0004.pdf)!
+Let's go on to [MRL 4](https://lab.getbyterub.org/pubs/MRL-0004.pdf)!
 
 #### Gingeropolous
 
@@ -95,17 +95,17 @@ We're done with the website?
 
 #### Riccardo
 
-We're done with the website. So the ByteRub Research Lab may have seemed quiet for the past few months and that's because [MRL 4](https://lab.getmonero.org/pubs/MRL-0004.pdf) has been quite a hefty thing to put together. Basically it has been an exercise in trying to pick magic numbers which normally ends badly. But as everyone is aware, or should be aware, our very first ByteRub Research Lab bulletin revealed a weakness in the CryptoNote protocol.
+We're done with the website. So the ByteRub Research Lab may have seemed quiet for the past few months and that's because [MRL 4](https://lab.getbyterub.org/pubs/MRL-0004.pdf) has been quite a hefty thing to put together. Basically it has been an exercise in trying to pick magic numbers which normally ends badly. But as everyone is aware, or should be aware, our very first ByteRub Research Lab bulletin revealed a weakness in the CryptoNote protocol.
 
-Obviously ByteRub is very grateful for the effort that CryptoNote put into the initial cryptography, we are taking this further. And one of the key things we are doing is fixing this massive gaping hole in the CryptoNote protocol. So Gingeropolous, you've read [MRL 4](https://lab.getmonero.org/pubs/MRL-0004.pdf), why don't you tell us a little bit about what you understood and what your take aways were.
+Obviously ByteRub is very grateful for the effort that CryptoNote put into the initial cryptography, we are taking this further. And one of the key things we are doing is fixing this massive gaping hole in the CryptoNote protocol. So Gingeropolous, you've read [MRL 4](https://lab.getbyterub.org/pubs/MRL-0004.pdf), why don't you tell us a little bit about what you understood and what your take aways were.
 
 #### Gingeropolous
 
-Well I did read it a week ago, from what I recall the main sort of meat of [MRL 4](https://lab.getmonero.org/pubs/MRL-0004.pdf) was the whole concept of how anonymous is the actual CryptoNote protocol, and the main thing I think was the take-home was it has to do with the amount of mixins that you put in your transfers. I'm sort of rambling here.
+Well I did read it a week ago, from what I recall the main sort of meat of [MRL 4](https://lab.getbyterub.org/pubs/MRL-0004.pdf) was the whole concept of how anonymous is the actual CryptoNote protocol, and the main thing I think was the take-home was it has to do with the amount of mixins that you put in your transfers. I'm sort of rambling here.
 
 #### Riccardo
 
-You are spot on...there are two different aspects to privacy in ByteRub and that is the unlinkability and the untraceability of transactions. Now when we say unlinkability we are talking about the dual-key stealth addressing that addresses that component; but untraceability is another thing entirely. So, the untraceability is dealt with by ring signatures. As [MRL 1](https://lab.getmonero.org/pubs/MRL-0001.pdf) pointed out there is a potential compromise, and a cascading compromise, to the ununtraceable nature of CryptoNote transactions.
+You are spot on...there are two different aspects to privacy in ByteRub and that is the unlinkability and the untraceability of transactions. Now when we say unlinkability we are talking about the dual-key stealth addressing that addresses that component; but untraceability is another thing entirely. So, the untraceability is dealt with by ring signatures. As [MRL 1](https://lab.getbyterub.org/pubs/MRL-0001.pdf) pointed out there is a potential compromise, and a cascading compromise, to the ununtraceable nature of CryptoNote transactions.
 
 Just to sort-of explain it quite simply: if I create a bunch of transactions, and in each transaction I have my signature along with your signature...so just by chance I happen to mix with your signature, and it's the same denomination I put every single time. And then in 6 months' time you go and spend that output at a mixin 0. Suddenly what you're effectively doing is you are invalidating all of the times that output was used previously. Which means that all of the transactions where you and I, where I used your signature as a ring signature on it, is suddenly like...well, anybody looking can go "hey, this ring signature is part of an output that was spent, and so therefore the other one must be the correct one." So that revelation becomes dangerous especially when owning a certain number of outputs, and the knowing that you control those outputs leads to a cascade or a snowball.
 
@@ -113,7 +113,7 @@ So what we're really trying to move away from his instead of having "unspent" ou
 
 Now the reason that we might need 0 mix transactions, or mixin 0 transactions, is because traditionally in ByteRub there is dust. And dust, when you are using it as an input, will never have anything, or will most likely, not have anything it can mix with. So it presented an interesting problem for us and for the rest of the members of the ByteRub Research Lab. Because not only did we have to devise a scheme that just disallowed mixin 0 transactions, but we also needed to figure out a way to get dust out the system, to maybe do this in a way that dust eventually comes of the system instead of having some sort of magical destroyer of dust go through the blockchain, which is impossible.
 
-So [MRL 4](https://lab.getmonero.org/pubs/MRL-0004.pdf) is something that people can read in their own time, but basically the long and the short of it is that we're going to be moving quite soon to a minimum mixin of 2, and we are going to programmatically lock in that within the next 3 to 5 years that minimum mixing is going to move to 4.
+So [MRL 4](https://lab.getbyterub.org/pubs/MRL-0004.pdf) is something that people can read in their own time, but basically the long and the short of it is that we're going to be moving quite soon to a minimum mixin of 2, and we are going to programmatically lock in that within the next 3 to 5 years that minimum mixing is going to move to 4.
 
 #### Gingeropolous
 
@@ -129,7 +129,7 @@ Okay I got you.
 
 #### Riccardo
 
-And obviously any miner that mines a block with mixin 0 transactions, their block is going to be rejected by the network. The one key, or little thing at the end, which is how to deal with dust, is the way it is proposed in [MRL 4](https://lab.getmonero.org/pubs/MRL-0004.pdf), and this is the way were going to be implementing, it is to allow mixin 0 transactions only under a special set of circumstances. So the protocol will allow mixin 0 @transactions if it uses an input that has nothing else it can mix with, so a dust input essentially, and in its' output it does not create new outputs that cannot be mixed with. So the idea is the wallet  software already picks dust up as it creates transactions, and what we might do is try and prioritize that a little bit to try and flush dust out faster. But over time, and I don't think it's going to take too long, but over a period of time there will be a smattering of a mixin 0 transactions that will be taking dust out of the system but not creating new dust, so eventually they'll be no more dust.
+And obviously any miner that mines a block with mixin 0 transactions, their block is going to be rejected by the network. The one key, or little thing at the end, which is how to deal with dust, is the way it is proposed in [MRL 4](https://lab.getbyterub.org/pubs/MRL-0004.pdf), and this is the way were going to be implementing, it is to allow mixin 0 transactions only under a special set of circumstances. So the protocol will allow mixin 0 @transactions if it uses an input that has nothing else it can mix with, so a dust input essentially, and in its' output it does not create new outputs that cannot be mixed with. So the idea is the wallet  software already picks dust up as it creates transactions, and what we might do is try and prioritize that a little bit to try and flush dust out faster. But over time, and I don't think it's going to take too long, but over a period of time there will be a smattering of a mixin 0 transactions that will be taking dust out of the system but not creating new dust, so eventually they'll be no more dust.
 
 #### Gingeropolous
 
@@ -165,7 +165,7 @@ Gotcha.
 
 So that's basically...the long and short of it is that minimum mixin is going to be implemented on a wallet level quite quickly, and the hard fork will be planned and will happen later.
 
-Okay, so we spoke about the new website, we've spoken about [MRL 4](https://lab.getmonero.org/pubs/MRL-0004.pdf), and now we're going to kinda jump back just to something on the website. Now if you are on getmonero.org and you go to the Knowledge Base menu you will see the section called [Design and Development Goals](https://getmonero.org/design-goals). Now design and developing goals is something will be updating from time to time, but of particular interest to people, and of particular interest to us as well because we created it, are really the things that were going to be doing in the future.
+Okay, so we spoke about the new website, we've spoken about [MRL 4](https://lab.getbyterub.org/pubs/MRL-0004.pdf), and now we're going to kinda jump back just to something on the website. Now if you are on getbyterub.org and you go to the Knowledge Base menu you will see the section called [Design and Development Goals](https://getbyterub.org/design-goals). Now design and developing goals is something will be updating from time to time, but of particular interest to people, and of particular interest to us as well because we created it, are really the things that were going to be doing in the future.
 
 Now we are not what to discuss it in this Missive, because otherwise it really would end up being a 4, 5, 6 hour missive, and frankly...who's got the time for that, ain't nobody got time for that! But there's some key things that were going to be doing, and I think what is quite nice, especially on the development side, is it does show the flow to important things like what needs to be done before we get to the GUI, what needs to be done before we get to IPC. That's not to say this is the absolute order of things, it's just to show some of the fundamentals that need to be put in place.
 
@@ -189,7 +189,7 @@ Well I don't know...when you say refactoring things into libraries I'm sort of..
 
 Kind of...I mean, I think that over the next while we will take some time in future Missives, especially when it's been a quieter week, when we can do some of the stuff and talk about why it's necessary, what it does, and why we did it at all. It's not a matter of us being perfectionists, as has being mentioned, or us wanting ByteRub to be enterprise grade. It's true, we are working very slowly on making ByteRub incredibly robust and incredibly extensible, but a lot of the stuff it's kind of like...if we don't do it now it's never going to be done or it will be done...maybe...in like 10 years.
 
-So...that's our first Missive podcast: [new website](https://getmonero.org); [MRL 4](https://lab.getmonero.org/pubs/MRL-0004.pdf); [design and development goals](https://getmonero.org/design-goals).
+So...that's our first Missive podcast: [new website](https://getbyterub.org); [MRL 4](https://lab.getbyterub.org/pubs/MRL-0004.pdf); [design and development goals](https://getbyterub.org/design-goals).
 
 #### Gingeropolous
 

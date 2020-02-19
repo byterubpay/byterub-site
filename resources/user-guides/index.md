@@ -14,7 +14,7 @@ title: titles.userguides
                             <p><a href="{{site.baseurl}}/resources/user-guides/Offline_Backup.html">{% t user-guides.offline-backup %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/vps_run_node.html">{% t user-guides.vps-node %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/importing_blockchain.html">{% t user-guides.import-blockchain %}</a></p>
-                            <p><a href="{{site.baseurl}}/resources/user-guides/monero_tools.html">{% t user-guides.monero-tools %}</a></p>
+                            <p><a href="{{site.baseurl}}/resources/user-guides/byterub_tools.html">{% t user-guides.byterub-tools %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/securely_purchase.html">{% t user-guides.purchasing-storing %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/verification-allos-advanced.html">{% t user-guides.verify-allos %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/verification-windows-beginner.html">{% t user-guides.verify-windows %}</a></p>
@@ -30,7 +30,7 @@ title: titles.userguides
                             <p><a href="{{site.baseurl}}/resources/user-guides/mine-to-pool.html">{% t user-guides.mine-on-pool %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/solo_mine_GUI.html">{% t user-guides.solo-mine %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/mining_with_xmrig_and_docker.html">{% t user-guides.mine-docker %}</a></p>
-                            <p><a href="{{site.baseurl}}/resources/user-guides/How-to-mine-Monero-XMR-without-a-mining-equipment.html">{% t user-guides.nicehash %}</a></p>
+                            <p><a href="{{site.baseurl}}/resources/user-guides/How-to-mine-ByteRub-XMR-without-a-mining-equipment.html">{% t user-guides.nicehash %}</a></p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ title: titles.userguides
                         <div class="col">
                             <h2>{% t user-guides.wallets %}</h2>
                             <p><a href="{{site.baseurl}}/resources/user-guides/cli_wallet_daemon_isolation_qubes_whonix.html">{% t user-guides.qubes %}</a></p>
-                            <p><a href="{{site.baseurl}}/resources/user-guides/monero-wallet-cli.html">{% t user-guides.cli-wallet %}</a></p>
+                            <p><a href="{{site.baseurl}}/resources/user-guides/byterub-wallet-cli.html">{% t user-guides.cli-wallet %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/remote_node_gui.html">{% t user-guides.remote-node-gui %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/view_only.html">{% t user-guides.view-only %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/prove-payment.html">{% t user-guides.prove-payment %}</a></p>

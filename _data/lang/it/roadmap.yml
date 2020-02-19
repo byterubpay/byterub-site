@@ -3,16 +3,16 @@
     - name: Annuncio su Bitcointalk
       date: 18-04-2014
       status: completed
-    - name: Rinominato da Bitmonero a Monero
+    - name: Rinominato da Bitmonero a ByteRub
       date: 23-04-2014
       status: completed
     - name: Recupero dopo un attacco spam
       date: 04-09-2014
       status: completed
-    - name: Il Monero Research Lab pubblica i Paper 1 e 2
+    - name: Il ByteRub Research Lab pubblica i Paper 1 e 2
       date: 12-09-2014
       status: completed
-    - name: Il Monero Research Lab pubblica il Paper 3
+    - name: Il ByteRub Research Lab pubblica il Paper 3
       date: 25-09-2014
       status: completed
     - name: 0.8.8.6 rilasciata
@@ -20,7 +20,7 @@
       status: completed
 - year: 2015
   accomplishments:
-    - name: Il Monero Research Lab pubblica il Paper 4
+    - name: Il ByteRub Research Lab pubblica il Paper 4
       date: 26-01-2015
       status: completed
 - year: 2016
@@ -28,7 +28,7 @@
     - name: 0.9.0 Hydrogen Helix rilasciata
       date: 01-01-2016
       status: completed
-    - name: Il Monero Research Lab pubblica il Paper 5
+    - name: Il ByteRub Research Lab pubblica il Paper 5
       date: 10-02-2016
       status: completed
     - name: Aggiornamento della rete per richiedere un ringsize minimo di 3 per tutte le transazioni
@@ -84,7 +84,7 @@
     - name: Sottoindirizzi
       date: Ottobre 2017
       status: completed
-    - name: Il Monero Research Lab pubblica il Paper 6
+    - name: Il ByteRub Research Lab pubblica il Paper 6
       date: 03-10-2017
       status: completed
     - name: 0.11.1.0 Helium Hydra rilasciata
@@ -131,7 +131,7 @@
     - name: Versione alpha di Kovri rilasciata
       date: 01-08-2018
       status: completed
-    - name: Getmonero.org Moneropedia pronta per localizzazione
+    - name: Getmonero.org ByteRubpedia pronta per localizzazione
       date: 03-08-2018
       status: completed
     - name: Localizzazione Getmonero.org in Arabo
@@ -155,19 +155,19 @@
     - name: 0.13.0.4 Beryllium Bullet rilasciata
       date: 25-10-2018
       status: completed
-    - name: Il Monero Research Lab pubblica i Paper 8 e 9
+    - name: Il ByteRub Research Lab pubblica i Paper 8 e 9
       date: 01-11-2018
       status: completed
     - name: GUI 0.13.0.4 Beryllium Bullet rilasciata
       date: 19-11-2018
       status: completed
-    - name: Il Monero Research Lab pubblica il Paper 7
+    - name: Il ByteRub Research Lab pubblica il Paper 7
       date: 26-11-2018
       status: completed
-    - name: Il Monero Research Lab pubblica il Paper 10
+    - name: Il ByteRub Research Lab pubblica il Paper 10
       date: 04-12-2018
       status: completed
-    - name: Implementazione del Sistema di Messaggistica Monero (MMS) per automatizzare lo scambio di informazioni fra portafogli multifirma
+    - name: Implementazione del Sistema di Messaggistica ByteRub (MMS) per automatizzare lo scambio di informazioni fra portafogli multifirma
       date: 20-12-2018
       status: completed
 - year: 2019

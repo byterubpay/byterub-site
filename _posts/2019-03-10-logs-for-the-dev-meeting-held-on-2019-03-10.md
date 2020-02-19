@@ -11,7 +11,7 @@ author: el00ruobuob / rehrar
 **\<hyc>** ding  
 **\<rbrunner>** dong  
 **\<rehrar>** oyo  
-**\<moneromooo>** The witch.  
+**\<byterubmooo>** The witch.  
 **\<rehrar>** 1. Greetings  
 **\<el00ruobuob\_[m]>** Hi guys!  
 **\<ArticMine>** hi  
@@ -33,17 +33,17 @@ author: el00ruobuob / rehrar
 **\<ErCiccione[m]>** sarang: i hope so, afaik we never really had a proper discussion about that  
 **\<sarang>** As long as PoW tweaks are in the cards, I presume we'll stick to 6 months though  
 **\<WoomyZoomy>** Why the use of "goto" in bulletproof\_PROVE instead of more common flow controls?  
-**\<sarang>** that's a question for moneromooo  
-**\<moneromooo>** Ah, simplicity.  
+**\<sarang>** that's a question for byterubmooo  
+**\<byterubmooo>** Ah, simplicity.  
 **\<rehrar>** 3. Upcoming point release discussions  
 **\<ErCiccione[m]>** sarang: sure, i was just pointing out that the timing is similar, so we could look at their system for inspiration. I can't find the page right now, but it was very solid, with planty of time for development, freeze and RC releases  
-**\<moneromooo>** They presumably don't have to have misc other software update in sync.  
+**\<byterubmooo>** They presumably don't have to have misc other software update in sync.  
 **\<WoomyZoomy>** Thanks  
 **\<rehrar>** I know I had some questions, and the community at large is a little confused what is coming in the next point release, and if we have a timeline for that or not  
-**\<moneromooo>** Everything that's on master, probably all/most of what's currnetly PRed and that's not super old.  
-**\<moneromooo>** Except maybe the 128 bit diff change.  
+**\<byterubmooo>** Everything that's on master, probably all/most of what's currnetly PRed and that's not super old.  
+**\<byterubmooo>** Except maybe the 128 bit diff change.  
 **\<hyc>** \* current master crashes  
-**\<moneromooo>** Well, nohting says we can't add \*more\* fixes :)  
+**\<byterubmooo>** Well, nohting says we can't add \*more\* fixes :)  
 **\<ErCiccione[m]>** (nextcloud's release schedule: https://docs.nextcloud.com/server/stable/admin\_manual/release\_schedule.html)  
 **\<rehrar>** because I know some features people are excited about (like Trezor, no?) are coming out with that?  
 **\<rehrar>** we just going with "soon"?  
@@ -51,27 +51,27 @@ author: el00ruobuob / rehrar
 **\<el00ruobuob\_[m]>** not too soon, we need a proper code freeze for this point release  
 **\<ErCiccione[m]>** I would love to just have that week of freeze for the GUI this time  
 **\<el00ruobuob\_[m]>** yeah me too  
-**\<moneromooo>** Did the GUI not choose to do a full release already ?  
+**\<byterubmooo>** Did the GUI not choose to do a full release already ?  
 **\<rbrunner>** Should be easier now, with the threat of ASIC domination gone  
-**\<hyc>** yeah, it would be simpler if it was only the monero project. but we have to coordinate with exchanges/mining pools/3rd party miner developers/ etc  
+**\<hyc>** yeah, it would be simpler if it was only the byterub project. but we have to coordinate with exchanges/mining pools/3rd party miner developers/ etc  
 **\<rbrunner>** I think so, GUI was fully released  
-**\<ErCiccione[m]>** moneromooo: yes, but would be good to have always that week for every release. I really need it to sync translations  
+**\<ErCiccione[m]>** byterubmooo: yes, but would be good to have always that week for every release. I really need it to sync translations  
 **\<sarang>** Is the intention to have new output selection for the point release?  
-**\<moneromooo>** If you and suraeNoether are happy with the details, sure.  
+**\<byterubmooo>** If you and suraeNoether are happy with the details, sure.  
 **\<sarang>** It would be nice to have a rough deadline for freeze set  
 **\<sarang>** (and we can discuss output selection at tomorrow's MRL meeting 17:00 UTC)  
 **\<rehrar>** unfortunately hard to do without core?  
-**\<rbrunner>** Maybe also depends on when master will be able to work with the 3 Monero nets again, because basically testing can start only then  
+**\<rbrunner>** Maybe also depends on when master will be able to work with the 3 ByteRub nets again, because basically testing can start only then  
 **\<rehrar>** Alright, was there any other meeting items that someone wanted to discuss?  
 **\<rehrar>** now that we at the other side?  
 **\<rbrunner>** The second hardfork will hardly give any problems, being rather trivial, right?  
-**\<moneromooo>** Likely.  
+**\<byterubmooo>** Likely.  
 **\<sarang>** If this is a good avenue for it, I'd like any opinions on output selection since it is likely to change at the next point release (non consensus, of course)  
 **\<sarang>** We've discussed in MRL at length  
 **\<pigeons>** oh the point release will be a hardfork also?  
 **\<rbrunner>** No, I mean the second hardfork in what, 2 hours or so?  
 **\<pigeons>** when was the first?  
-**\<moneromooo>** Yesterday.  
+**\<byterubmooo>** Yesterday.  
 **\<rbrunner>** er .. yesterday  
 **\<el00ruobuob\_[m]>** most likely 22h rbrunner   
 **\<pigeons>** ok i see i thought i was reading things wrong  
@@ -81,19 +81,19 @@ author: el00ruobuob / rehrar
 **\<ArticMine>** We are more like 15 in blocks now  
 **\<ArticMine>** 15min  
 **\<rbrunner>** But with nicely falling difficulty  
-**\<moneromooo>** If someone can get the master daemon to crash in debug mode with log level 2 and a core, that'd be great :)  
+**\<byterubmooo>** If someone can get the master daemon to crash in debug mode with log level 2 and a core, that'd be great :)  
 **\<rehrar>** does anyone have any comments for sarang?  
-**\<moneromooo>** Because mine ain't.  
+**\<byterubmooo>** Because mine ain't.  
 **\<el00ruobuob\_[m]>** is it the output selection about coinbase transactions highlight by sgp\_ ?  
 **\<hyc>** took quite a while for my debug build to crash but it eventually did. before I removed the ssl patches  
 **\<sarang>** el00ruobuob\_[m]: it will help to address that, but in a more general sense  
-**\<moneromooo>** Did you have a better stack trace, and logs showing what was being done in other threads ?  
+**\<byterubmooo>** Did you have a better stack trace, and logs showing what was being done in other threads ?  
 **\<sarang>** where output selection is poorly weighted by block "density"  
-**\<hyc>** moneromooo: I gave you the stack trace, didn't check other threads unfortunately. I can try spinning that up again.  
+**\<hyc>** byterubmooo: I gave you the stack trace, didn't check other threads unfortunately. I can try spinning that up again.  
 **\<el00ruobuob\_[m]>** i have to confess i don't understand very well this subject sarang  
-**\<moneromooo>** Logs will help here.  
+**\<byterubmooo>** Logs will help here.  
 **\<rehrar>** sarang, maybe discuss tomorrow at the MRL meeting  
-**\<moneromooo>** If another thread deleted some object, it might not show up on the stack trace if it's already done.  
+**\<byterubmooo>** If another thread deleted some object, it might not show up on the stack trace if it's already done.  
 **\<rehrar>** I think we can end here and business as usual can commence if that's alright with everyone.  
 **\<rehrar>** Next weeks is community meeting, and we want to be desynced from them, so next meeting two weeks?  
 **\<hyc>** rehrar: sounds good  

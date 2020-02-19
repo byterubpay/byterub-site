@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-dev-meeting-note-highlights-and-transcript-2016-11-27).   
+An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byterub-dev-meeting-note-highlights-and-transcript-2016-11-27).   
 
 ### Logs  
 
@@ -20,9 +20,9 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<tewinget>** (parameters like bind port/address and such)  
 **\<tewinget>** don't have any rpc security features like user agent and what-not put in yet, that'll come with time.  
 **\<tewinget>** modifications to wallet to use new rpc are "complete", but not working yet.  needs iteration.  was working on that now, but I'm fucking exhausted, hence the not staying up for the meeting.  
-**\<moneromooo>** user-agent was a quick fix anyway. It should not be merged in 0MQ. Proper auth should be done instead.  
+**\<byterubmooo>** user-agent was a quick fix anyway. It should not be merged in 0MQ. Proper auth should be done instead.  
 **\<tewinget>** once I get *that* ironed out, I'll put together some simple documentation on what the rpc calls look like  
-**\<moneromooo>** And ty and good night :)  
+**\<byterubmooo>** And ty and good night :)  
 **\<tewinget>** my python script is a bit broken, but I updated one of the functions to work  
 **\<tewinget>** (because I changed it to be JSON-RPC 2.0 compliant)  
 **\<tewinget>** I'll pastebin that and paste a link here in a sec  
@@ -41,13 +41,13 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** coz, you know, when you've been a maintainer as long as I have, you learn to give things little names otherwise you'll go mad  
 **\<Jaquee>** lol  
 **\<fluffypony>** there have been some major reworks to the threading model, courtesy of vtnerd  
-**\<fluffypony>** who also split part of monero-wallet-cli off into monero-wallet-rpc  
+**\<fluffypony>** who also split part of byterub-wallet-cli off into byterub-wallet-rpc  
 **\<fluffypony>** (which we had previously done on the old dev branch, as you may recall)  
 **\<fluffypony>** gingeropolous started pushing more code than a troll dev should, so he's kinda progressed beyond that  
-**\<fluffypony>** moneromooo shot down bug after bug  
+**\<fluffypony>** byterubmooo shot down bug after bug  
 **\<fluffypony>** kenshi84 started working on one-time addresses without using the integrated address format we currently have  
 **\<fluffypony>** @NanoAkron also fixed some errant armv8 things  
-**\<fluffypony>** and then on the ByteRub Core side tons of fixes, small and large, primarily by moneromooo and Jaquee  
+**\<fluffypony>** and then on the ByteRub Core side tons of fixes, small and large, primarily by byterubmooo and Jaquee  
 **\<fluffypony>** abrkn also had their first PR merged to ByteRub Core, so welcome to a new contributor  
 **\<fluffypony>** xmr-eric also had a pair of PRs, so he's almost at 5 PRs which is excellent  
 **\<fluffypony>** as it stands right now there is a weird segfault occurring occasionally, at least on macOS  
@@ -62,7 +62,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** and then in new, relevant info, Shen has begun a thorough review of the RingCT implementation  
 **\<fluffypony>** and already there are a couple of nigglies, some carried across from his rough implementation  
 **\<fluffypony>** so this means we will have to have a mandatory tagged release out before the Jan hard fork  
-**\<moneromooo>** yay!  
+**\<byterubmooo>** yay!  
 **\<fluffypony>** given that there are 2-3 blockers to the tagged release, and given its nature, we will likely release it alongside the GUI  
 **\<fluffypony>** so that we get a fair degree of pre-fork adoption  
 **\<ArticMine>** That makes a lot of sense  
@@ -76,7 +76,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** so we can spot performance improvements / regressions  
 **\<fluffypony>** last thing that I want to open the floor to  
 **\<fluffypony>** is issue 1271  
-**\<fluffypony>** https://github.com/byterubpay/monero/issues/1271  
+**\<fluffypony>** https://github.com/byterubpay/byterub/issues/1271  
 **\<fluffypony>** opened by paragonie-scott  
 **\<fluffypony>** currently we hit /dev/urandom for a random seed, basically  
 **\<fluffypony>** and then use the Keccak sponge function for random numbers thereafter  
@@ -96,13 +96,13 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** hyc: I agree, but there's also nothing wrong with just hitting /dev/urandom each time  
 **\<i2p-relay> {-anonimal}** Since there is a heavy reliance on crypto, and most of the implementation was already written with crypto++ in mind (though it is more 'abstracted' now), any swap-out of crypto would *not* be worth the benefits gained.  
 **\<fluffypony>** haveged would still be of benefit there as it affects the chain from /dev/random -> /dev/urandom  
-**\<moneromooo>** There's a tendency for security researchers to hype every small thing too, fwiw.  
+**\<byterubmooo>** There's a tendency for security researchers to hype every small thing too, fwiw.  
 **\<hyc>** hitting /dev/urandom every time leaves an obvious footprint. I suppose it's more of an issue for closed-source s/w  
 **\<fluffypony>** hyc: yeah - for ByteRub a root user would be able to trivially trap for any obfuscation we add  
 **\<hyc>** IME, reverse engineering closed source, it's harder to break a PRNG n a binary with no symbols and no syscalls  
 **\<hyc>** but yeah, not relevant for open source  
 **\<ArticMine>** Yes but we are not implementing DRM here  
-**\<i2p-relay> {-anonimal}** * was responding to fluffypony's ping for kovri, what wasn't an endorsement or argument for/against anything for monero  
+**\<i2p-relay> {-anonimal}** * was responding to fluffypony's ping for kovri, what wasn't an endorsement or argument for/against anything for byterub  
 **\<i2p-relay> {-anonimal}** s/what/that/  
 **\<fluffypony>** anonimal: sure, but it's advantageous if Kovri and ByteRub use the same lib  
 **\<hyc>** less code to maintain, yeah  
@@ -111,49 +111,49 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** sure, but we're not protecting ourselves by using libsodium vs. cryptocpp  
 **\<fluffypony>** unless we know in advance that one will have an implementation flawthat the other won't  
 **\<endogenic>** is a C++ dep an issue going into the future with talk of porting to pure C?  
-**\<i2p-relay> {-anonimal}** Can someone give a tl;dr of all crypto schemes required by monero (aside from ed25519, keccak, and any PRNG concern)?  
+**\<i2p-relay> {-anonimal}** Can someone give a tl;dr of all crypto schemes required by byterub (aside from ed25519, keccak, and any PRNG concern)?  
 **\<fluffypony>** blake256, chacha8, groestl, skein, jh, keccak  
 **\<hyc>** cryptonight uses keccak, groestl,  
 **\<hyc>** yeah what fluffy said  
 **\<fluffypony>** lol  
-**\<moneromooo>** There's all the stuff in crypto-ops.c  
-**\<fluffypony>** moneromooo: that's covered by TweetNaCl  
+**\<byterubmooo>** There's all the stuff in crypto-ops.c  
+**\<fluffypony>** byterubmooo: that's covered by TweetNaCl  
 **\<fluffypony>** ie. covered by SUPERCOP  
 **\<hyc>** I presume we're gonna support TLS on rpc connections too?  
-**\<moneromooo>** Do you mean that it'd be still used if we were to change to cryptocpp ?  
+**\<byterubmooo>** Do you mean that it'd be still used if we were to change to cryptocpp ?  
 **\<fluffypony>** hyc: kinda - vtnerd is working on it atm  
 **\<fluffypony>** we're going to have easy instructions on TLS wrappers, and then authentication on the RPC layer  
-**\<fluffypony>** moneromooo: yes  
-**\<moneromooo>** Why change, then ?  
-**\<moneromooo>** If it's only part change, I mean.  
+**\<fluffypony>** byterubmooo: yes  
+**\<byterubmooo>** Why change, then ?  
+**\<byterubmooo>** If it's only part change, I mean.  
 **\<fluffypony>** \<vtnerd> I wanted to mention that I would recommend _not_ adding SSL support directly to the codebase. I think using SSH tunneling or a SSL proxy like hitch would be better. I can write a guide and some basic strategies if you have someone in particular that wants the rpc stream encrypted  
 **\<fluffypony>** \<vtnerd> one of the advantages is not having to configure all of the keys, etc. I'm thinking about adding a warning that can only be suppressed with a CLI option or user-input if someone binds to a non-loopback IP  
 **\<i2p-relay> {-anonimal}** I used that argument for kovri last year, it was quickly shot down by str4d and zzz.  
 **\<vtnerd>** https://github.com/varnish/hitch  
-**\<fluffypony>** moneromooo: to get away from the in-source implementations that are mostly obscure or not massively common  
+**\<fluffypony>** byterubmooo: to get away from the in-source implementations that are mostly obscure or not massively common  
 **\<vtnerd>** i2p-relay: do you recall the arguments against doing it that way?  
 **\<i2p-relay> {-anonimal}** Expecting users to use a guide or 3rd party is probably not a good idea.  
 **\<i2p-relay> {-anonimal}** vtnerd: there may be a log pasted in a closed github issue  
 **\<hyc>** I would just use stunnel, it's already proven and pretty simple  
 **\<i2p-relay> {-anonimal}** Basically what I just said.  
-**\<moneromooo>** It's a lot easier to do the wrong thing thogh.  
+**\<byterubmooo>** It's a lot easier to do the wrong thing thogh.  
 **\<fluffypony>** I think if we can detect and warn users that their behaviour is unsafe, but here's what they can do to fix it, that's enough  
-**\<moneromooo>** The same users that asked a question that I had answers with a red message when bitmonerod stopped, but they had somehow missed ? :)  
+**\<byterubmooo>** The same users that asked a question that I had answers with a red message when bitbyterubd stopped, but they had somehow missed ? :)  
 **\<i2p-relay> {-anonimal}** openssl is a dependency for kovri anyway, implementing tls/ssl sockets is trivial. Are we talking more about than sockets though?  
 **\<vtnerd>** if SSL support is integrated public keys still have to be generated, stored, and then copied remotely ... so its still frustrating  
-**\<fluffypony>** moneromooo: what if it won't start when bound to an external IP, unless you pass a flag to override it?  
+**\<fluffypony>** byterubmooo: what if it won't start when bound to an external IP, unless you pass a flag to override it?  
 **\<hyc>** that's life. we can write a certificate generator/mini-CA  
-**\<moneromooo>** Maybe. I don't know near enough about this to have a useful opinion anyway.  
+**\<byterubmooo>** Maybe. I don't know near enough about this to have a useful opinion anyway.  
 **\<hyc>** I already have one I wrote for OpenLDAP back in 2000 (mini-CA)  
 **\<vtnerd>** CA key still has to be distributed ...  
-**\<moneromooo>** CA key ?  
+**\<byterubmooo>** CA key ?  
 **\<hyc>** CA cert, not key  
 **\<i2p-relay> {-anonimal}** Certs for whom?  
 **\<vtnerd>** its still just a public key  
 **\<i2p-relay> {-anonimal}** Is there an open issue for this with discussion so I catch up?  
 **\<pigeons>** my understanding is that one reason bitcoin is removing integrated tls support from their rpc server is to discourage people from exposing that surface to the internet when they don't have the resources to give it the same review as p2p/etc interfaces  
 **\<hyc>** on a personal node, you only care that your personal clients can connect. you generate your own CA, a server cert for your node, and a client cert for your wallets.  
-**\<pigeons>** but for monero, there is already remote daemon support so perhaps not relevant  
+**\<pigeons>** but for byterub, there is already remote daemon support so perhaps not relevant  
 **\<i2p-relay> {-anonimal}** Oh, personal nodes, ok thanks hyc.  
 **\<hyc>** and you use full cert verification in both directions, to prevent any foreign apps from connecting.  
 **\<fluffypony>** hmmmm  
@@ -172,9 +172,9 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** we're bikeshedding - we need to put a peg in the sand and make a decision, even if it's the wrong decision  
 **\<fluffypony>** I'm in favour of not building things and ripping them out later  
 **\<fluffypony>** but rather not having them until there is an overwhelming demand for it  
-**\<moneromooo>** erf  
+**\<byterubmooo>** erf  
 **\<hyc>** yeah, fine. no built-in TLS support for now  
-**\<moneromooo>** I'd be fine with that plus the --force-plaintext-bind-to-non-local-ip  
+**\<byterubmooo>** I'd be fine with that plus the --force-plaintext-bind-to-non-local-ip  
 **\<fluffypony>** we'll use the fail-on-start method if there are RPC bindings to non-loopback addresses, and we'll have a guide that documents hitch and stunnel  
 **\<vtnerd>** I already have a patch ready that forces a user to confirm if the rpc-bind-ip is not loopback  
 **\<fluffypony>** hyes  
@@ -182,17 +182,17 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** we're trying to avoid interaction on the daemon  
 **\<vtnerd>** the patch has both. Without the flag set it prompts the user  
 **\<vtnerd>** --confirm-external-bind  
-**\<moneromooo>** Maybe test if stdin is tty, fail if not.  
-**\<moneromooo>** Oh, wait, windows. Nevermind.  
+**\<byterubmooo>** Maybe test if stdin is tty, fail if not.  
+**\<byterubmooo>** Oh, wait, windows. Nevermind.  
 **\<hyc>** sounds like just fail without the flag is simpler  
 **\<vtnerd>** definitely. will do then  
 **\<vtnerd>** that is_yes patch is less useful now, but I guess it did cleanup simpler_wallet.cpp some  
-**\<moneromooo>** Next thing. Did shen give an idea when he might have a first pass of things that need fixing ?  
-**\<moneromooo>** I have time to fix, and we're pressed for time :D  
+**\<byterubmooo>** Next thing. Did shen give an idea when he might have a first pass of things that need fixing ?  
+**\<byterubmooo>** I have time to fix, and we're pressed for time :D  
 **\<fluffypony>** othe: ^^  
 **\<fluffypony>** ok  
 **\<fluffypony>** we wait for othe  
-**\<moneromooo>** Later, then.  
+**\<byterubmooo>** Later, then.  
 **\<fluffypony>** in the meantime - anyone want to bring up anything else?  
 **\<fluffypony>** oh - also, if anyone has any strong opinions on the crypto lib we should be using, now is a good time to mention them  
 **\<fluffypony>** my inclination is to cryptocpp for a few reasons  
@@ -210,24 +210,24 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<pero>** but i think if they were thrown into an Advanced top-level tab then there would be less possible confusion for most users  
 **\<pero>** the other thing- what's up with that qt title bar?  
 **\<pero>** isnt that best left for the OS to handle  
-**\<moneromooo>** IIRC, people slightly preferred keeping it.  
+**\<byterubmooo>** IIRC, people slightly preferred keeping it.  
 **\<pero>** i dont think 'preferring' makes it the right decision  
-**\<hyc>** oh, as a point of curiosity - monerod runs quite happily on a phone even on 2G. using --out-peers 2.  
+**\<hyc>** oh, as a point of curiosity - byterubd runs quite happily on a phone even on 2G. using --out-peers 2.  
 **\<hyc>** hardly any bandwidth used.  
 **\<pero>** i have 2 titlebars in gnome  
 **\<pero>** is that the case for all OSs?  
 **\<iDunk>** no  
 **\<fluffypony>** no  
 **\<pero>** doesnt apple have it's buttons on the left side?  
-**\<moneromooo>** I have two too. But then I have a special setup.  
+**\<byterubmooo>** I have two too. But then I have a special setup.  
 **\<fluffypony>** then it's a bug  
-**\<fluffypony>** moneromooo: you *are* special  
+**\<fluffypony>** byterubmooo: you *are* special  
 **\<fluffypony>** :-P  
 **\<fluffypony>** 2 minutes and then I bring up meeting bot, so let's wrap this up  
 **\<Jaquee>** i agree on using the os default  
 **\* fluffypony** hates the OS default  
 **\<pero>** we're also going against OS-specific consistent user experience  
-**\<moneromooo>** ... wat...  
+**\<byterubmooo>** ... wat...  
 **\<Jaquee>** and that we need to work on the ux.  
 **\<pero>** against their design standards  
 **\<Jaquee>** yes  

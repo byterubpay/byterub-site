@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-03-11
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-03-11
 summary: Network upgrade, Point release discussions, MRL work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -48,13 +48,13 @@ author: el00ruobuob / sarang
 **\<sarang>** sure  
 **\<sarang>** We should have a formal recommendation before whatever date is set for the point release code freeze  
 **\<sarang>** Anything else relating to the point upgrade that ought to be discussed?  
-**\<sarang>** ping moneromooo perhaps  
+**\<sarang>** ping byterubmooo perhaps  
 **\<xmrmatterbridge> \<rehrar>** I just want timelines. Nothing to say on content.  
-**\<moneromooo>** hi  
-**\<moneromooo>** What's the question ? :)  
-**\<moneromooo>** I don't know about any date. Depends when we get all the stuff on master ready really.  
+**\<byterubmooo>** hi  
+**\<byterubmooo>** What's the question ? :)  
+**\<byterubmooo>** I don't know about any date. Depends when we get all the stuff on master ready really.  
 **\<sarang>** Anything relating to the next point release you'd like us to discuss?  
-**\<moneromooo>** None that come to mind right now.  
+**\<byterubmooo>** None that come to mind right now.  
 **\<sarang>** ty  
 **\<sarang>** In that case, let's move to 4. ROUNDTABLE  
 **\<sarang>** suraeNoether: care to go first?  
@@ -95,7 +95,7 @@ author: el00ruobuob / sarang
 **\<sarang>** The CCS posting will \_very\_ clearly state the arrangement, so there is no confusion  
 **\<binaryFate>** If you figure out the markdown  
 **\<sarang>** Yes indeed  
-**\<moneromooo>** Technically, it's within the existing rules as stated: one milestone, which consists of "sarang starts working" :)  
+**\<byterubmooo>** Technically, it's within the existing rules as stated: one milestone, which consists of "sarang starts working" :)  
 **\<sarang>** Second, the paper that suraeNoether and I have been collaborating with external researchers on (DLSAG et al.) is in final review now  
 **\<sarang>** We've been asked not to share it before it's released as a preprint, as a courtesy to all authors  
 **\<suraeNoether>** \*nod\*  
@@ -152,10 +152,10 @@ author: el00ruobuob / sarang
 **\<xmrmatterbridge> \<learninandlurkin>** I imagine coinjoining going on would really complicate output selection. Or is there some idea where they work off each other to get rid of heuristics?  
 **\<sarang>** Depends on how timely it is  
 **\<suraeNoether>** learningandlurkin coinjoin brings a whole new nightmare to the party. does everyone bring their own mix-ins? certainly nothing is to stop a malicious party from coinjoining with a bunch of badly selected mix-ins  
-**\<moneromooo>** A ring is one person only. Fake output selection is untouched.  
+**\<byterubmooo>** A ring is one person only. Fake output selection is untouched.  
 **\<sarang>** Well each input signs with its own ring  
 **\<sarang>** ^  
-**\<moneromooo>** That person makes their own ring, yes. Otherwise others would know which is the real out.  
+**\<byterubmooo>** That person makes their own ring, yes. Otherwise others would know which is the real out.  
 **\<sarang>** The benefit is breaking the assumption of one-party control of outputs and the link to the input rings  
 **\<binaryFate>** What about simple attack of using the same 10 decoys as one of the other participants?  
 **\<suraeNoether>** ^  
@@ -168,8 +168,8 @@ author: el00ruobuob / sarang
 **\<sarang>** Anyway: does anyone else wish to share interesting research before we close?  
 **\<xmrmatterbridge> \<learninandlurkin>** Yes it sounds like the interplay between coinjoin and ringsigs will require some diagrams for me to ever understand. Could get complicated.  
 **\<suraeNoether>** i think you would want a commit-and-reveal stage for everyone to see the ring members to prevent malicious ring intersection in the coinjoin  
-**\<sarang>** MoneroCoinJoin: an easy 14-round process!  
-**\<suraeNoether>** isthmus and i have been chatting about methods of extracting the true spend-time distribution from the monero blockchain without knowing exactly which outputs have been spent  
+**\<sarang>** ByteRubCoinJoin: an easy 14-round process!  
+**\<suraeNoether>** isthmus and i have been chatting about methods of extracting the true spend-time distribution from the byterub blockchain without knowing exactly which outputs have been spent  
 **\<suraeNoether>** that's a very nascent conversation, though I think it'll end up being a very straightforward project  
 **\<sarang>** Discussions in #noncesense-research-lab I presume?  
 **\<xmrmatterbridge> \<learninandlurkin>** so, truish spend-time distribution  

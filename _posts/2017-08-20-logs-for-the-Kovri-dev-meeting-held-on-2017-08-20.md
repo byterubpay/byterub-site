@@ -17,7 +17,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Well hello  
 **\<MoroccanMalinois>** hi  
 **\<anonimal>** Just you and me, eh MoroccanMalinois?  
-**\<moneromooo>** I'm here too, but I'm just reading.  
+**\<byterubmooo>** I'm here too, but I'm just reading.  
 **\<rehrar>** I'm here  
 **\<ajs>** here  
 **\<rehrar>** bam, attendance more than doubled  
@@ -110,7 +110,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-pigeons}** cool I didn't know about that one.  
 **\<bigreddmachine>** Some probably more interesting that others to this crowd :)  
 **\<anonimal>** Wow cool!  
-**\<anonimal>** Do we have a podcast section on the monero site?  
+**\<anonimal>** Do we have a podcast section on the byterub site?  
 **\<bigreddmachine>** Not sure. The ByteRub Missives were once the pseudo-official podcast  
 **\<bigreddmachine>** But that's at least a year defunct now.  
 **\<anonimal>** It would be nice to have links to things like this so they don't get flushed down the memory hole.  
@@ -123,7 +123,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Indeed.  
 **\<bigreddmachine>** Anonimal, Securely or no?  
 **\<anonimal>** Either or is fine. Secure by default? Over the months I've tried pinging you on IRC but you weren't around (I just wanted to ask about the podcast).  
-**\<bigreddmachine>** moneromonitor@tutanota.com is a good email  
+**\<bigreddmachine>** byterubmonitor@tutanota.com is a good email  
 **\<bigreddmachine>** Yeah I can't log into irc at work... Got in trouble for that hah  
 **\<anonimal>** oops!  
 **\<anonimal>** Ok, will email you there when needed.  

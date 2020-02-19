@@ -24,8 +24,8 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** Hi  
 **\<i2p-relay> {-iDunk}** hi  
 **\<i2p-relay> {-olark}** Greetings  
-**\<moneromooo>** Hi  
-**\<i2p-relay> {-meeting-bot} [anonimal]** Hi fluffypony guzzi olark iDunk ArticMine moneromooo  
+**\<byterubmooo>** Hi  
+**\<i2p-relay> {-meeting-bot} [anonimal]** Hi fluffypony guzzi olark iDunk ArticMine byterubmooo  
 **\<i2p-relay> {-meeting-bot} [anonimal]** EinMByte is idling as are the others, afaict.  
 **\<i2p-relay> {-meeting-bot} [anonimal]** 2. Brief review of what's been completed since the previous meeting  
 **\<binaryFate>** late greetings. watching.  
@@ -89,16 +89,16 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** look  
 **\<i2p-relay> {-fluffypony}** zzz2 will attest to the fact that part of i2p's network stability is due to the auto-updater  
 **\<i2p-relay> {-fluffypony}** so let's not rush something out that doesn't have that  
-**\<moneromooo>** Do I understand code that will fetch more code and run it on the user's machine ? Unprompted ?  
-**\<moneromooo>** Or merely tell the user there's an update to install at their earliest convenience ?  
-**\<i2p-relay> {-fluffypony}** moneromooo: it's opt-out, yes  
-**\<moneromooo>** That;s not nice.  
-**\<i2p-relay> {-fluffypony}** moneromooo: you could do a decaying prompt  
-**\<moneromooo>** What is this ?  
+**\<byterubmooo>** Do I understand code that will fetch more code and run it on the user's machine ? Unprompted ?  
+**\<byterubmooo>** Or merely tell the user there's an update to install at their earliest convenience ?  
+**\<i2p-relay> {-fluffypony}** byterubmooo: it's opt-out, yes  
+**\<byterubmooo>** That;s not nice.  
+**\<i2p-relay> {-fluffypony}** byterubmooo: you could do a decaying prompt  
+**\<byterubmooo>** What is this ?  
 **\<i2p-relay> {-fluffypony}** prompt the user, if after 15 days they haven't installed it, then install it for them  
 **\<i2p-relay> {-meeting-bot} [anonimal]** The current UI does not provide any useful control to an end-user.  
-**\<moneromooo>** I suppose that's less nasty.  
-**\<i2p-relay> {-fluffypony}** moneromooo: there's just been a spate of bannings on the network, of old clients that aren't updated  
+**\<byterubmooo>** I suppose that's less nasty.  
+**\<i2p-relay> {-fluffypony}** byterubmooo: there's just been a spate of bannings on the network, of old clients that aren't updated  
 **\<i2p-relay> {-fluffypony}** if there's data leakage on older clients it can compromise newer ones  
 **\<i2p-relay> {-fluffypony}** so it's not something to be taken lightly  
 **\<i2p-relay> {-meeting-bot} [anonimal]** So, we could fix that first and then focus on release imho. Really who benefits from a release? Will it be developers? Will developers suddenly become more interested in kovri? Or is it purely for the end-user's benefit?  
@@ -121,9 +121,9 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** on the list of alpha issues  
 **\<i2p-relay> {-fluffypony}** we've made progress on the Zoho setup  
 **\<i2p-relay> {-fluffypony}** it's been a bit of a PITA, but pigeons has figured most of it out  
-**\<i2p-relay> {-fluffypony}** we'll be moving getmonero.org over in the next week or so, and then we can do Kovri emails too  
+**\<i2p-relay> {-fluffypony}** we'll be moving getbyterub.org over in the next week or so, and then we can do Kovri emails too  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Ok, sounds good.  
-**\<i2p-relay> {-meeting-bot} [anonimal]** So, nightly releases for kovri would be slightly different that monero because we have to bundle certificates and other things along with a static binary.  
+**\<i2p-relay> {-meeting-bot} [anonimal]** So, nightly releases for kovri would be slightly different that byterub because we have to bundle certificates and other things along with a static binary.  
 **\<i2p-relay> {-meeting-bot} [pigeons]** I beleive you said currently the make system doesnt have an option yet for a static build, right?  
 **\<i2p-relay> {-meeting-bot} [anonimal]** I could consider it a fair compromise if, instead of both nightly release and official alpha release, to stick focus more on ensuring reliable nightly releases (which would also give me more time to work on more important issues).  
 **\<i2p-relay> {-meeting-bot} [MEATPLOW]** im here for the free food  
@@ -144,7 +144,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-iDunk}** :)  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Ok, how does that sound to everyone? Yay? Nay?  
 **\<i2p-relay> {-iDunk}** Yay  
-**\<moneromooo>** Sounds good to this member of the peanut gallery  
+**\<byterubmooo>** Sounds good to this member of the peanut gallery  
 **\<i2p-relay> {-olark}** Nightly builds are a good compromise imo.  
 **\<i2p-relay> {-olark}** Yay  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Awesome. guzzi, any thoughts?  
@@ -156,7 +156,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-meeting-bot} [anonimal]** Excellent! Moving on,  
 **\<i2p-relay> {-meeting-bot} [anonimal]** 4. Code + ticket discussion / Q & A  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Focusing on those milestone issues,  
-**\<i2p-relay> {-meeting-bot} [anonimal]** fluffypony: I've seen someone pop into #monero-dev from time to time offering webdev, did anything come of that?  
+**\<i2p-relay> {-meeting-bot} [anonimal]** fluffypony: I've seen someone pop into #byterub-dev from time to time offering webdev, did anything come of that?  
 **\<i2p-relay> {-fluffypony}** no, they're mostly put off when they get told they can't use Javascript  
 **\<i2p-relay> {-fluffypony}** :-P  
 **\<i2p-relay> {-meeting-bot} [anonimal]** lol  
@@ -169,10 +169,10 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** both are running parralel-ish  
 **\<i2p-relay> {-fluffypony}** parallel-ish  
 **\<i2p-relay> {-meeting-bot} [anonimal]** https://github.com/byterubpay/kovri/issues/46#issuecomment-242990742  
-**\<i2p-relay> {-meeting-bot} [vertp]** Is there a new site going up to replace getmonero?  
+**\<i2p-relay> {-meeting-bot} [vertp]** Is there a new site going up to replace getbyterub?  
 **\<i2p-relay> {-meeting-bot} [anonimal]** lol, time will fly.  
 **\<i2p-relay> {-meeting-bot} [vertp]** Oh, kovri. sorry  
-**\<i2p-relay> {-meeting-bot} [anonimal]** vertp: good question, fluffypony is getmonero getting work done too?  
+**\<i2p-relay> {-meeting-bot} [anonimal]** vertp: good question, fluffypony is getbyterub getting work done too?  
 **\<i2p-relay> {-fluffypony}** no  
 **\<i2p-relay> {-fluffypony}** same deal  
 **\<i2p-relay> {-fluffypony}** every time someone says "WE MUST REDESIGN THE WEBSITE"  
@@ -180,7 +180,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** and they slink off into the distance  
 **\<i2p-relay> {-meeting-bot} [pero]** website is fine imo  
 **\<i2p-relay> {-meeting-bot} [anonimal]** hahaha  
-**\<i2p-relay> {-meeting-bot} [vertp]** I think getmonero is perfectly fine as is for the record, just was wondering what "this" site was in reference to  
+**\<i2p-relay> {-meeting-bot} [vertp]** I think getbyterub is perfectly fine as is for the record, just was wondering what "this" site was in reference to  
 **\<i2p-relay> {-meeting-bot} [ferretinjapan]** :)  
 **\<i2p-relay> {-fluffypony}** I'm going to write a garbage collector daemon called Waste  
 **\<i2p-relay> {-fluffypony}** and the binary will be wasted  
@@ -190,7 +190,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-meeting-bot} [hyc]** lol  
 **\<i2p-relay> {-meeting-bot} [MrWatcher]** he  
 **\<i2p-relay> {-meeting-bot} \* anonimal** lol, hears drum rimshot  
-**\<moneromooo>** So... next time someone asks about the website, I've got a ready made answer: "slink off"  
+**\<byterubmooo>** So... next time someone asks about the website, I've got a ready made answer: "slink off"  
 **\<i2p-relay> {-fluffypony}** "slink you too, buddy!"  
 **\<i2p-relay> {-meeting-bot} [anonimal]** I think the rest of the issues speak for themselves. One question though,  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Can anyone reproduce #434 on their armv7 device?  
@@ -209,21 +209,21 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** * eyes his beer  
 **\<i2p-relay> {-meeting-bot} [_Slack] \<nanoakron>** Beer? Sacrilege for a South African…although I hear there’s a good craft scene developing.  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Quite glamorous indeed.  
-**\<moneromooo>** I'll mention again that I reaaally hate software that will take it upon itself to download/run stuff.  
+**\<byterubmooo>** I'll mention again that I reaaally hate software that will take it upon itself to download/run stuff.  
 **\<i2p-relay> {-meeting-bot} [anonimal]** Nothing additional from me.  
-**\<i2p-relay> {-fluffypony}** moneromooo I know, but think about the average Kovri user  
+**\<i2p-relay> {-fluffypony}** byterubmooo I know, but think about the average Kovri user  
 **\<i2p-relay> {-fluffypony}** (in the future, not now)  
-**\<moneromooo>** The average kovri user may well be prompted.  
-**\<i2p-relay> {-meeting-bot} [taushet]** moneromooo, so no 30-day trial from McAfee with the Kovri binaries then?  
+**\<byterubmooo>** The average kovri user may well be prompted.  
+**\<i2p-relay> {-meeting-bot} [taushet]** byterubmooo, so no 30-day trial from McAfee with the Kovri binaries then?  
 **\<i2p-relay> {-fluffypony}** LOL  
 **\<i2p-relay> {-meeting-bot} [iDunk]** LOL  
-**\<i2p-relay> {-olark}** Now that fluffypony brang up using TweetNaCl in the monero meeting. Are there any boundaries for Kovri using TweetNaCl functions where possible?  
+**\<i2p-relay> {-olark}** Now that fluffypony brang up using TweetNaCl in the byterub meeting. Are there any boundaries for Kovri using TweetNaCl functions where possible?  
 **\<i2p-relay> {-fluffypony}** and a personal introductory video from McAfee himself ?  
 **\<i2p-relay> {-olark}** I just have recently been fascinated with TweetNaCl, Salsa20 etc that it seems Kovri could benefit from some of those functions.  
 **\<i2p-relay> {-olark}** A compact crypto library for a compact i2p router. Am I right? ;D  
-**\<i2p-relay> {-meeting-bot} [anonimal]** moneromooo: me too. I think as long as it's optional we should be ok.  
-**\<moneromooo>** Excellent. So opt-in :)  
-**\<moneromooo>** (and banned until upgraded is fine as a protection)  
+**\<i2p-relay> {-meeting-bot} [anonimal]** byterubmooo: me too. I think as long as it's optional we should be ok.  
+**\<byterubmooo>** Excellent. So opt-in :)  
+**\<byterubmooo>** (and banned until upgraded is fine as a protection)  
 **\<i2p-relay> {-olark}** Just spitballing anyway.  
 **\<i2p-relay> {-guzzi}** all good for me on #4. i am learning a ton. as fast as I am able to.  
 **\<i2p-relay> {-fluffypony}** olark: yeah definitely  

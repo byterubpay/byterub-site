@@ -2,16 +2,16 @@
 layout: post
 title: Dev Diaries for the Week of 2015-03-23
 summary: Detail on the structure of the new blockchain conversion and import utilities
-tags: [monero missives, dev diaries, blockchaindb, core]
+tags: [byterub missives, dev diaries, blockchaindb, core]
 author: Riccardo Spagni (fluffypony)
-forum: https://forum.getmonero.org/1/news-announcements-and-editorials/245/monday-monero-missives-27-march-23rd-2015
+forum: https://forum.getbyterub.org/1/news-announcements-and-editorials/245/monday-byterub-missives-27-march-23rd-2015
 ---
 
 <div class="text-center"><iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3450222/height/360/width/640/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" height="600" width="600" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div>
 
-To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-03-23.mp3), or [this link to the AAC/MP4](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-03-23.mp4), or [this link to the FLAC](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-03-23.flac).
+To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-03-23.mp3), or [this link to the AAC/MP4](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-03-23.mp4), or [this link to the FLAC](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-03-23.flac).
 
-A brief summary of the points discussed follows, a full transcription of the podcast is outstanding (can be submitted via [Github Issues](https://github.com/byterubpay/monero-site/issues)).
+A brief summary of the points discussed follows, a full transcription of the podcast is outstanding (can be submitted via [Github Issues](https://github.com/byterubpay/byterub-site/issues)).
 
 In this week's podcast we discuss the new blockchain utilities in preparation for their final merge.
 

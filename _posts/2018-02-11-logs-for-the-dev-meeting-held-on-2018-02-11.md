@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Logs  
 
-**\<rehrar>** ArticMine luigi1111 luigi1111w fluffypony smooth hyc moneromooo anonimal vtnerd pigeons endogenic ErCiccione  
+**\<rehrar>** ArticMine luigi1111 luigi1111w fluffypony smooth hyc byterubmooo anonimal vtnerd pigeons endogenic ErCiccione  
 **\<vtnerd>** present  
 **\<ArticMine>** Hi  
 **\<msvb-mob>** Hello.  
@@ -30,20 +30,20 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** suraeNoether sarang  
 **\<rehrar>** 2. Brief review of what's been completed since the previous meeting  
 **\<rehrar>** Anyone have anything to report?  
-**\<moneromooo>** DB crash fix. Misc minor fixes found by coverity. Pool max size. Fluffy blocks on by default. I think that's the main ones.  
-**\<moneromooo>** And I just PR'd my "store prunable and unprunable data separately" patch.  
-**\<moneromooo>** Oh, and the --testnet-xxx options are gone now. No more duplication.  
-**\<moneromooo>** None of that is merged yet, but nothing got merged in two weeks I think.  
-**\<rehrar>** Thanks moneromooo! You are a shining star. Take a bow.  
+**\<byterubmooo>** DB crash fix. Misc minor fixes found by coverity. Pool max size. Fluffy blocks on by default. I think that's the main ones.  
+**\<byterubmooo>** And I just PR'd my "store prunable and unprunable data separately" patch.  
+**\<byterubmooo>** Oh, and the --testnet-xxx options are gone now. No more duplication.  
+**\<byterubmooo>** None of that is merged yet, but nothing got merged in two weeks I think.  
+**\<rehrar>** Thanks byterubmooo! You are a shining star. Take a bow.  
 **\<rehrar>** Anyone else have anything to report? If not we can move on.  
-**\<moneromooo>** Not all by me.  
+**\<byterubmooo>** Not all by me.  
 **\<vtnerd>** I guess I will report for jtgrassie, who looked at the echo off permanently issue with the wallet  
 **\<rehrar>** a bow for your presentation ;)  
-**\<vtnerd>** he has a fix that is similar to moneromooo 's patch, but does trigger immediate shutdown on ctrl-c still  
+**\<vtnerd>** he has a fix that is similar to byterubmooo 's patch, but does trigger immediate shutdown on ctrl-c still  
 **\<luigi1111>** Does that need a resync?  
 **\<vtnerd>** there are still underlying issues in the signal handler, and if I can't figure out a way to unbreak that code easily we may have to go with the somewhat-hack approach until that gets worked out  
 **\<iDunk>** luigi1111: It will convert the db from v1 to v2, AFAIU.  
-**\<moneromooo>** no resync  
+**\<byterubmooo>** no resync  
 **\<luigi1111>** Perfect  
 **\<vtnerd>** and I'm still interested in wallet scanning perf (as usual), and figure out how to do atomic swapping ... if anyone has thoughts on the latter let me know privately for now  
 **\<vtnerd>** or what this is the whats been completed section, whoops  
@@ -57,7 +57,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Yes, a few quick thing  
 **\<sarang>** The BP paper was massively updated to reflect a lot of the optimizations we've been including  
 **\<sarang>** I'm running final checks against that paper (and made a few corrections to the updated paper that have been sent to the authors)  
-**\<moneromooo>** Oh good point, I forgot about more BP stuff ^\_^  
+**\<byterubmooo>** Oh good point, I forgot about more BP stuff ^\_^  
 **\<sarang>** I had also worked up a BP technical note, but the paper update makes that obsolete  
 **\<endogenic>** mooo same  
 **\<sarang>** However,  I think we've made all the optimizations that we want  
@@ -94,45 +94,45 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** alright let's jump into the big one: 3. March hardfork items + code freeze  
 **\<rehrar>** So... code freeze has been "close" for a couple months now  
 **\<rehrar>** when is it? :P  
-**\<moneromooo>** When we pushed all we need,  
-**\<moneromooo>** We need pony back, so we can't discuss this if we don't know that.  
-**\<moneromooo>** One thing we need to discuss before we do though:  
-**\<moneromooo>** We discussed changing PoW slightly, and periodically, in order to further our goal of decentralization - to deter ASIC creation some more.  
-**\<moneromooo>** So we're planning to change PoW before the fork, if the community agrees.  
+**\<byterubmooo>** When we pushed all we need,  
+**\<byterubmooo>** We need pony back, so we can't discuss this if we don't know that.  
+**\<byterubmooo>** One thing we need to discuss before we do though:  
+**\<byterubmooo>** We discussed changing PoW slightly, and periodically, in order to further our goal of decentralization - to deter ASIC creation some more.  
+**\<byterubmooo>** So we're planning to change PoW before the fork, if the community agrees.  
 **\<rehrar>** before March?  
-**\<moneromooo>** Yes. We're still planning on a march fork.  
+**\<byterubmooo>** Yes. We're still planning on a march fork.  
 **\<pigeons>** i would expect changing the PoW before this fork to be at least slightly controversial  
 **\<rehrar>** This seems a bit sudden and soon  
-**\<moneromooo>** Emphasis on *slightly* btw. It's still mostly Cryptonight.  
+**\<byterubmooo>** Emphasis on *slightly* btw. It's still mostly Cryptonight.  
 **\<rehrar>** ah, makes more sense  
 **\<sgp>** I would like to hear a lot more about the changes and what they mean  
 **\<rehrar>** \^  
-**\<rehrar>** can you explain moneromooo?  
+**\<rehrar>** can you explain byterubmooo?  
 **\<endogenic>** what deters ASICs?  
 **\<ErCiccione>** sgp: +1  
 **\<iDunk>** Is this about the parameters tweaks othe suggested ?  
 **\<pigeons>** endogenic: having the work and investment they put in invalidated  
-**\<moneromooo>** Just a few more simple ops in the inner loop. They mean... different hashes.  
+**\<byterubmooo>** Just a few more simple ops in the inner loop. They mean... different hashes.  
 **\<endogenic>** pigeons: how to detect their work?  
 **\<ArticMine>** It keeps ASIC developers off balance  
 **\<endogenic>** or what is it :p  
-**\<moneromooo>** endogenic: it doesn't need to. I have patches for most miners ready.  
-**\<moneromooo>** Those (software) miners just update. Any ASIC can't.  
+**\<byterubmooo>** endogenic: it doesn't need to. I have patches for most miners ready.  
+**\<byterubmooo>** Those (software) miners just update. Any ASIC can't.  
 **\<endogenic>** even if it's modular?  
-**\<moneromooo>** What is a modular ASIC ?  
+**\<byterubmooo>** What is a modular ASIC ?  
 **\<endogenic>** it -> asic  
-**\<msvb-mob>** pigeons moneromooo: We in the hardware team are onboard with PoW changes but cannot recall all hardware wallets worldwide to swap chips.  
+**\<msvb-mob>** pigeons byterubmooo: We in the hardware team are onboard with PoW changes but cannot recall all hardware wallets worldwide to swap chips.  
 **\<endogenic>** modular hardware  
-**\<moneromooo>** You have hardware mining ?  
+**\<byterubmooo>** You have hardware mining ?  
 **\<pigeons>** msvb-mob: I wouldn't expect hardware wallets to need to mine or validate PoW  
 **\<msvb-mob>** Not to make the debate a can of worms, but if anybody has a strategy idea for us hardware folks, let's please consider the probloem offline.  
 **\<pigeons>** just sign i would think  
 **\<rehrar>** msvb-mob, why does a hardware wallet need to do anything with PoW?  
 **\<msvb-mob>** pigeons: Okay, but changing the Cryptonote PoW wouldn't that mean changing transaction operations as well?  
-**\<moneromooo>** No.  
+**\<byterubmooo>** No.  
 **\<pigeons>** transactions don't use PoW  
 **\<pigeons>** bundling them in blocks do  
-**\<msvb-mob>** pigeons rehrar moneromooo: Okay, that's the answer I wanted to hear, thanks.  
+**\<msvb-mob>** pigeons rehrar byterubmooo: Okay, that's the answer I wanted to hear, thanks.  
 **\<rehrar>** you sign the tx and broadcast them to the network, then the miners (separate entities) mine and put them in blocks  
 **\<rehrar>** so you're good, unaffected :)  
 **\<rehrar>** well then, it seems we don't have a lot to discuss on point 3 without the horsey  
@@ -141,13 +141,13 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Any final thoughts on 3?  
 **\<endogenic>** we could just ask him lol  
 **\<endogenic>** that usually works  
-**\<moneromooo>** I did. It didn't.  
+**\<byterubmooo>** I did. It didn't.  
 **\<endogenic>** "we" :p  
 **\<luigi1111>** He should be home by now  
-**\<moneromooo>** Might still think 5 GMT though.  
+**\<byterubmooo>** Might still think 5 GMT though.  
 **\<endogenic>** fluffypony:  
 **\<rehrar>** I let him know yesterday about the time change  
-**\<moneromooo>** Did he reply ? He's been mostly AFK for days.  
+**\<byterubmooo>** Did he reply ? He's been mostly AFK for days.  
 **\<rehrar>** and he responded. Got the message.  
 **\<rehrar>** "ok cool"  
 **\<rehrar>** we can break that down and analyze that sentence if we want  
@@ -178,9 +178,9 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** so i wanted to ask. can we figure out a system for this? like sarang's work but we must understand imho he has to be involved to vet the vetter  
 **\<endogenic>** or it would be the blind leading the blind  
 **\<endogenic>** in a manner of speaking  
-**\<moneromooo>** You just need people to review, don't you. So review, or find people to review.  
+**\<byterubmooo>** You just need people to review, don't you. So review, or find people to review.  
 **\<endogenic>** no  
-**\<moneromooo>** To the first part ?  
+**\<byterubmooo>** To the first part ?  
 **\<rehrar>** It's tough on an open source project. People do many stuff in their free time and aren't getting paid. Perhaps it would be beneficial to get an FFS proposal by some volunteer coders (two or three) to review all PRs?  
 **\<endogenic>** basically. but to both... it is not able to be the solution  
 **\<ErCiccione>** i think the problem here is the same the GUI has. We need more people...  
@@ -221,7 +221,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** Yes please, but just short.  
 **\<rehrar>** floor is yours  
 **\<msvb-mob>** I'll be advertising planning work for the Las Vegas events of August once in a while, anyone interested can look at:  
-**\<msvb-mob>** https://taiga.getmonero.org/project/michael-vegas-august-2018  
+**\<msvb-mob>** https://taiga.getbyterub.org/project/michael-vegas-august-2018  
 **\<msvb-mob>** m2049r[m] made a more or less incredible contribution to the greater ByteRub community by a first release (today) of a Monerujo-hw firmware.  
 **\<msvb-mob>** https://github.com/m2049r/monerujo-hw/  
 **\<rehrar>** woohoo!  
@@ -237,13 +237,13 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** As far as I know, savandra's last video is focusing on the community and that ends his FFS. We can ask him if he'd be willing to do another FFS to make another video for Hardware.  
 **\<rehrar>** alright, any last minute meeting items?  
 **\<rehrar>** alright, next meeting time  
-**\<moneromooo>** No talk about the vulnerability mitigation group ?  
+**\<byterubmooo>** No talk about the vulnerability mitigation group ?  
 **\<rehrar>** oh, sorry. I may have misread all that  
 **\<rehrar>** I thought it was a simple question/answer  
 **\<rehrar>** To follow up on that topic, the Vulnerabliity Mitigation Group is headed by sgp and is on mattermost  
-**\<moneromooo>** What does this do ?  
+**\<byterubmooo>** What does this do ?  
 **\<rehrar>** sgp, you around?  
-**\<moneromooo>** Try to devise workarounds till a fix is in, etc ?  
+**\<byterubmooo>** Try to devise workarounds till a fix is in, etc ?  
 **\<sgp>** Yeah, but are you sure this is the same? Ours is the "malware response workgroup"  
 **\<rehrar>** I think....this is the same, yes.  
 **\<rehrar>** But....maybe not? :P  
@@ -253,7 +253,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** sgp: The 'malware response workgroup' is what I meant when contorting the words above.  
 **\<sgp>** The scope of "my" workgroup is to help those whose computers have been exploited for mining or ransomware  
 **\<msvb-mob>** sgp: Sounds like most primary things about the workgroup have been decided then, good work.  
-**\<endogenic>** sgp: i've been curious about the personal network security consequences of operating a monero node too. would be nice to talk with you about that sometime  
+**\<endogenic>** sgp: i've been curious about the personal network security consequences of operating a byterub node too. would be nice to talk with you about that sometime  
 **\<rehrar>** Alright. We're over the designated time. So let's confirm next day:  
 **\<rehrar>** February 25th. Did this new time work for people?  
 **\<rehrar>** we were short dEBRUYNE and gingeropolous today. :'(  
@@ -262,7 +262,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** If not, meeting over. :) Thanks everyone for coming.  
 **\<ArticMine>** I would suggest also keeping it through the time changes  
 **\<msvb-mob>** rehrar: Most excellent moderation, thank you.  
-**\<sgp>** Not really meeting-worthy, but I would like to add the ByteRub Coffee Chats to the getmonero website  
+**\<sgp>** Not really meeting-worthy, but I would like to add the ByteRub Coffee Chats to the getbyterub website  
 **\<msvb-mob>** rehrar: If possible, would you please fork and pull request your source logos to the /documents/graphics/logo/ directory?  
 **\<msvb-mob>** rehrar: Logo sources, as long as their formats are Opensource we don't need bitmaps.  
 **\<rehrar>** Ok, I'll get to that as soon as I can  

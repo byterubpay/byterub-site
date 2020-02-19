@@ -17,21 +17,21 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** - In case RandomX fails, no further tweaks should be made.  
 **\<dEBRUYNE>** - We need to come up with some heuristics that define failure. In my opinion, the easiest heuristic is ASIC miners taking over the network and thus driving out all other miners, thereby showing a significant efficiency advantage.  
 **\<dEBRUYNE>** If anyone has remarks, please let them hear and let's start :)  
-**\<moneromooo>** Tweaks are no more centralizing and potentially dangerous than randomx.  
-**\<moneromooo>** If you disagree, you get to give arguments for it.  
+**\<byterubmooo>** Tweaks are no more centralizing and potentially dangerous than randomx.  
+**\<byterubmooo>** If you disagree, you get to give arguments for it.  
 **\<hyc>** randomX has been in development longer than 6 months  
 **\<el00ruobuob\_[m]>** "ASIC miners taking over the network" would you use the "unknow hash" metric here?  
 **\<hyc>** and won't be changing every 6 months  
 **\<tevador>** I should add that there are ways in which RandomX could be tweaked in the future if it lasts a few year to match the progress in CPU design  
-**\<fluffypony>** moneromooo: they are highly centralised, they require a small group of people to collaborate on it and dictate what the network should do  
+**\<fluffypony>** byterubmooo: they are highly centralised, they require a small group of people to collaborate on it and dictate what the network should do  
 **\<gingeropolous>** "the easiest heuristic is ASIC miners taking over the network" how will we get evidence of this? there's some thoughts that what we saw recently wasn't asics but some kind of fpga  
 **\<vp11>** It might be hard to define how ASICs are in the network. Maybe if the top CPU in the market not becoming profitable anymore? That would mean no normal user should be profitable do we can assume ASICS are in the network  
 **\<dEBRUYNE>** Also tweaks have to occur every 6 months, whereas RandomX envisions to be a long-term algorithm  
-**\<moneromooo>** I dispute not the claim they are centralized, but the imlication that randomx is better because of it.  
+**\<byterubmooo>** I dispute not the claim they are centralized, but the imlication that randomx is better because of it.  
 **\<gingeropolous>** are the pow forks more or less centralizing than the consensus changes we've been making every 6 months regardless of PoW?  
 **\<dEBRUYNE>** + we can let it get audited  
 **\<dEBRUYNE>** gingeropolous: Definintely more in my opinion  
-**\<fluffypony>** moneromooo: fair - I don't have strong feelings on RandomX  
+**\<fluffypony>** byterubmooo: fair - I don't have strong feelings on RandomX  
 **\<hyc>** re: ASIC miners taking over the network - are we relying on miners to self-report?  
 **\<hyc>** "Hey, my profitability sucks, I'm abandoning XMR and mining something else now"  
 **\<dEBRUYNE>** I don't think we should absolutely rely on that, but we can certainly take it into account as a factor  
@@ -40,10 +40,10 @@ author: el00ruobuob / dEBRUYNE
 **\<sech1>** steep increase in hashrate (and profitability drop) without price changing is a strong indicator of more efficient hardware (ASICs)  
 **\<ArticMine>** I see the reason behind tweaks as key here. Making a hard fork to improve the algorithm makes sense. Changing the algorithm for the sole purpose of breaking ASICs with no improvement is a no no  
 **\<el00ruobuob\_[m]>** the more "unknown" source of hasrate there is, the worst it is.  
-**\<moneromooo>** Ideally all hash rate would have an unknown source.  
+**\<byterubmooo>** Ideally all hash rate would have an unknown source.  
 **\<dEBRUYNE>** ^ I disagree with that one actually  
 **\<dEBRUYNE>** It's an easy metric to be gamed  
-**\<dEBRUYNE>** (was referring to el00ruobuob\_[m], not moneromooo)  
+**\<dEBRUYNE>** (was referring to el00ruobuob\_[m], not byterubmooo)  
 **\<fluffypony>** el00ruobuob\_[m]: profitability is trivially gamed  
 **\<jtgrassie>** "unknown source" is a terrible metric.  
 **\<gingeropolous>** ^  
@@ -57,7 +57,7 @@ author: el00ruobuob / dEBRUYNE
 **\<oneiric\_>** it matters in the approach taken to counteract  
 **\<hyc>** we don't care if it's ASICs or FPGAs, if it's not CPUs or GPUs it's a threat  
 **\<gingeropolous>** ^, agreed, but ... it'd be nice to get specific  
-**\<moneromooo>** Changing the algorithm to prevent a 51% makes sense to me. That is a definite, explicit improvement.  
+**\<byterubmooo>** Changing the algorithm to prevent a 51% makes sense to me. That is a definite, explicit improvement.  
 **\<dEBRUYNE>** One more note I forgot to add, tevador recently changed some parameters for RandomX, which significantly improved verification time -> https://github.com/byterubpay/meta/issues/316#issuecomment-475651654  
 **\<gingeropolous>** is this the 4 gb to 1 gb switch?  
 **\<oneiric\_>** if it was fpga, reaction should be different than a big cpu farm swatiching over  
@@ -66,29 +66,29 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** gingeropolous: 2 GB iirc  
 **\<tevador>** much better on low end hardware  
 **\<hyc>** yes, 4GB to 2GB  
-**\<fluffypony>** moneromooo: out of interest, what would it take to make you comfortable with RandomX?  
+**\<fluffypony>** byterubmooo: out of interest, what would it take to make you comfortable with RandomX?  
 **\<rbrunner>** Yes, 4 GB was crazy  
-**\<moneromooo>** I'm not sure. I also have not looked at it yet.  
-**\<dEBRUYNE>** moneromooo: Whilst I agree, last time the entity had already gained the majority of the hashrate before we set a fork date with a new PoW tweak  
+**\<byterubmooo>** I'm not sure. I also have not looked at it yet.  
+**\<dEBRUYNE>** byterubmooo: Whilst I agree, last time the entity had already gained the majority of the hashrate before we set a fork date with a new PoW tweak  
 **\<dEBRUYNE>** Imo we were just praying at that point they wouldn't do anything malicious  
 **\<needmoney90>** ^  
 **\<needmoney90>** Agree, that was an uncomfortable period of time  
 **\<fluffypony>** yeah  
 **\<gingeropolous>** aye  
-**\<moneromooo>** I'm not necessarily unfomfortable with it per se. I'm more opposed to the claim that it is less centralized and dangerous, at least without good arguments.  
+**\<byterubmooo>** I'm not necessarily unfomfortable with it per se. I'm more opposed to the claim that it is less centralized and dangerous, at least without good arguments.  
 **\<fluffypony>** that said, I don't think RandomX solves the economies of scale problem at all  
 **\<hyc>** ^^ probably true  
-**\<dEBRUYNE>** moneromooo: Arguably it is less centralized because we don't have to change it every 6 months  
+**\<dEBRUYNE>** byterubmooo: Arguably it is less centralized because we don't have to change it every 6 months  
 **\<gingeropolous>** well, for me, the commodity hw PoW has an interesting thing in that scenario, right?  
 **\<fluffypony>** ^^  
 **\<needmoney90>** Switching the PoW at the same time as making consensus changes is basically forcing compulsory adoption of those changes, it centralizes everything with the devs  
 **\<dEBRUYNE>** RandomX envisions to be an algorithm which can sustain ASIC resistance for a long time  
-**\<moneromooo>** You're guessing as much as we did before.  
+**\<byterubmooo>** You're guessing as much as we did before.  
 **\<needmoney90>** I've been thinking about this for a bit now  
 **\<fluffypony>** gingeropolous: there is no such thing  
 **\<ArticMine>** There is a good change it will lead to ASIC co existence rather than domination  
 **\<gingeropolous>** if we supposedly had some massive hr gain and we're locked into randomx, someone could buy a bunch of server time etc.  
-**\<fluffypony>** any "commodity hardware PoW" will cease to be "mostly commodity hardware" within short order if Monero continues to become increasingly valuable. it's a battle that is already lost, give it up.  
+**\<fluffypony>** any "commodity hardware PoW" will cease to be "mostly commodity hardware" within short order if ByteRub continues to become increasingly valuable. it's a battle that is already lost, give it up.  
 **\<gingeropolous>** if its gets to that situation in an asic dominated networ, what then?  
 **\<dEBRUYNE>** ArticMine: Depends on what kind of efficiency gain they get though  
 **\<ArticMine>** That is the fundamental key  
@@ -101,7 +101,7 @@ author: el00ruobuob / dEBRUYNE
 **\<ArticMine>** It also means if I can say 30% of my home heating bill I mine but for only 0.5% why bother  
 **\<ArticMine>** save  
 **\<vp11>** But then, again, ASICS coexistence might even be desirable if they’re not hundreds times faster than the fastest cpu on market  
-**\<moneromooo>** ASICs are good if they do not cause a party to have control over too much of the network hash rate.  
+**\<byterubmooo>** ASICs are good if they do not cause a party to have control over too much of the network hash rate.  
 **\<ArticMine>** It is better than no ASICs  
 **\<midipoet>** can i ask how likely it would be that someone develops an ASIC for SHA-3 with substantial efficiency gaines, before everyone else, patents it, secretely mines with it, and leads us to exactly the same situation with regards the potential for 51%?  
 **\<fluffypony>** gingeropolous: and if a single entity amasses 70% of all the hashrate in existence at 7nm then, frankly, they have enough money to amass 70% of the hashrate regardless of what we do - depressing, but true  
@@ -112,7 +112,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** midipoet: we're pretty close to 7nm, which means that improvements from competitors will be marginal - the braintrust in the big players is substantial  
 **\<gingeropolous>** if its an asic world, its no different than a PoS world  
 **\<sech1>** oneiric\_ FPGA can't be efficient at RandomX, forget it  
-**\<ph4r05>** moneromooo: you are right about the "const size\_t len\_chunks"  
+**\<ph4r05>** byterubmooo: you are right about the "const size\_t len\_chunks"  
 **\<gingeropolous>** asic dominated is PoS, there i said it  
 **\<fluffypony>** gingeropolous: word  
 **\<dEBRUYNE>** fluffypony: Especially with an algorithm such as SHA3  
@@ -131,7 +131,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** oh, yeah  
 **\<fluffypony>** they could just hire a botnet to cause a spike  
 **\<ArticMine>** fluffypony We need to consider 3D chips both on the ASIC and non ASIC side 7 nm is not a limit  
-**\<dEBRUYNE>** fluffypony: Do you think there would be botnets out there that would be vastly bigger than Monero's total hashrate?  
+**\<dEBRUYNE>** fluffypony: Do you think there would be botnets out there that would be vastly bigger than ByteRub's total hashrate?  
 **\<dEBRUYNE>** Because that's what needed to increase the hashrate steeply  
 **\<oneiric\_>** guess my question applies now though, how would one tell the difference b/w fpga and asic being responsible for hash increase?  
 **\<dEBRUYNE>** I am kind of skeptical about that  
@@ -141,7 +141,7 @@ author: el00ruobuob / dEBRUYNE
 **\<oneiric\_>** pre-cnr  
 **\<fluffypony>** dEBRUYNE: no clue, maybe Craig Wright's supercomputer :-P  
 **\<dEBRUYNE>** Hah  
-**\<moneromooo>** Botnets spawn. It might not have existed before.  
+**\<byterubmooo>** Botnets spawn. It might not have existed before.  
 **\<fluffypony>** hyc: could be hiring a few botnets that were doing other things before  
 **\<ArticMine>** INTEL is looking at 3D for this ear  
 **\<ArticMine>** year  
@@ -173,7 +173,7 @@ author: el00ruobuob / dEBRUYNE
 **\<sgp\_>** Can someone link the chart I made? It's a good overview  
 **\<fluffypony>** ArticMine: it's not ASICs necessarily, could just be large custom boards with embedded GPUs suspended in oil, mining on "free" renewable energy in sub-zero climates, which leads to either (1) hashrate is dominated by a single entity, or (2) if commercialised it completely crowds out home miners  
 **\<hyc>** I've been rustling the bushes of CPU/hardware design forums looking for reviewers/auditors  
-**\<xmrmatterbridge> \<learninandlurkin>** But maybe for people who haven't poked their heads into #monero-pow in a while, what's recently been going on? I saw there were some interesting test results from many people  
+**\<xmrmatterbridge> \<learninandlurkin>** But maybe for people who haven't poked their heads into #byterub-pow in a while, what's recently been going on? I saw there were some interesting test results from many people  
 **\<dEBRUYNE>** Would it be preferable if the community hired an audit firm to perform an audit of randomx? We could ask either kudelski or quarkslab  
 **\<tevador>** code includes: reference interpreter (portable, but slow), x86 JIT compiler for fast verification and mining  
 **\<dEBRUYNE>** Additionally, I think wownere is set to implement RandomX on their mainnet, which should yield some test data as well  
@@ -215,7 +215,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** x4-x5 and you can be reasonably sure that all other miners are driven out  
 **\<fluffypony>** jtgrassie: I agree  
 **\<fluffypony>** jtgrassie: a hardware designer, someone who's actually built ASICs from algorithms  
-**\<oneiric\_>** also would prefer outside the monero-sphere  
+**\<oneiric\_>** also would prefer outside the byterub-sphere  
 **\<oneiric\_>** someone known independent from the community  
 **\<ArticMine>** x5 means a 20% rebate on my heating bill in XMR  
 **\<dEBRUYNE>** fluffypony: The problem is to find someone reliable though :-P  
@@ -229,7 +229,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** the underlying hash is Keccak or whatever  
 **\<dEBRUYNE>** tevador can probably clarify  
 **\<tevador>** it uses Blake2b under the hood  
-**\<oneiric\_>** has a pro cryptographer outside monero signed off on that?  
+**\<oneiric\_>** has a pro cryptographer outside byterub signed off on that?  
 **\<fluffypony>** oneiric\_: it's pretty easy to see that internally  
 **\<oneiric\_>** in unique and new ways  
 **\<tevador>** basically we need 2 reviews: one will include only the specification and the other one will review the code for bugs  
@@ -309,7 +309,7 @@ author: el00ruobuob / dEBRUYNE
 **\<hyc>** lol  
 **\<onlycoffee>** didn't randomx change on their nonce grinding suggestion?  
 **\<hyc>** randomX changed nonce approach based on gmaxwell critique  
-**\<ferretinjapan>** rbrunner, that assumes monero is still around in 10 years :P  
+**\<ferretinjapan>** rbrunner, that assumes byterub is still around in 10 years :P  
 **\<onlycoffee>** alright, so they did have some fair criticisms, which I think can be summarized as concerns over non-obvious "shortcuts" in the algorithm  
 **\<hyc>** we're coming up on 50 minutes. what do we need to accomplish in this meeting? action items?  
 **\<tevador>** more like shortcuts in the design of an ASIC  
@@ -344,10 +344,10 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** learninandlurking: if it fails before the precommited date  
 **\<kovri-slack> \<woodser>** I don’t see how we can commit to a date without knowing if it will be necessary  
 **\<ferretinjapan>** fluffypony, indeed, theres always a tradeoff.  
-**\<vp11>** I agree with not precommitting to a date. I think other coins are switching to SHA3 so manufacturers could start hw development without Monero precomitting  
+**\<vp11>** I agree with not precommitting to a date. I think other coins are switching to SHA3 so manufacturers could start hw development without ByteRub precomitting  
 **\<ErCiccione>** oneiric\_: why ignored? i noticed not many in the community seems to be against a cpu-only algo  
 **\<hyc>** I'm with ArticMine, first option  
-**\<moneromooo>** I \*really\* don't like this "centralised" pseudo argument, when the claimed point of centralization is to remove a greater centralization.  
+**\<byterubmooo>** I \*really\* don't like this "centralised" pseudo argument, when the claimed point of centralization is to remove a greater centralization.  
 **\<ferretinjapan>** the thing is you have more flexibility being reactive.  
 **\<ArticMine>** GPU miners win vs ASIC and loose vs CPU. I am not sure they come out as looses with RandomX  
 **\<jtgrassie>** hyc ArticMine +1  
@@ -356,21 +356,21 @@ author: el00ruobuob / dEBRUYNE
 **\<ferretinjapan>** cliff\*  
 **\<oneiric\_>** ErCiccione: i noticed anyone voicing concerns about keeping gpu being ignored, ridiculed, or downvoted  
 **\<dEBRUYNE>** Uh reactive\*  
-**\<fluffypony>** moneromooo: there's serious regulatory risk with having a small group of people dictate changes to the network, at worst we're making sure nobody comes after you or I  
+**\<fluffypony>** byterubmooo: there's serious regulatory risk with having a small group of people dictate changes to the network, at worst we're making sure nobody comes after you or I  
 **\<oneiric\_>** those in control of this community give 0phux bout gpu miners  
-**\<fluffypony>** oneiric\_: you're starting to sound like MoneroCrusher :-P  
+**\<fluffypony>** oneiric\_: you're starting to sound like ByteRubCrusher :-P  
 **\<jtgrassie>** haha  
 **\<oneiric\_>** exactly lol  
-**\<moneromooo>** Are those risks particularly about PoW, or also about any other consensus change, or also about any major non-consensus change ?  
+**\<byterubmooo>** Are those risks particularly about PoW, or also about any other consensus change, or also about any major non-consensus change ?  
 **\<fluffypony>** WHEN DUAL POW  
 **\<oneiric\_>** and it begins  
 **\<ErCiccione>** oneiric\_: that's not what i've seen, but i could have missed it. But we are having meetings and multiple discussions on multiple platforms, and i don't see their voice being silenced.  
 **\<dEBRUYNE>** oneiric\_: As far as I can see, gpuminers are not totally alienated. sech1 estimated a CPU advantage of 2:1 and I think that gap can be closed further by a competent GPU miner developer  
-**\<vp11>** Monero can express the intent to switch to SHA3 keeping the two variables that I don’t know the name an incognito which would let manufacturers get almost everything ready “just in case”. Other coins are switching to SHA3 so I don’t really see that much gain by precommitting to a date  
+**\<vp11>** ByteRub can express the intent to switch to SHA3 keeping the two variables that I don’t know the name an incognito which would let manufacturers get almost everything ready “just in case”. Other coins are switching to SHA3 so I don’t really see that much gain by precommitting to a date  
 **\<dEBRUYNE>** Also GPUs are easier to scale  
 **\<oneiric\_>** didn't say silenced  
-**\<fluffypony>** moneromooo: particularly about PoW because of the need for last-minute changes (or secrecy on tweaks, equally undesireable)  
-**\<dEBRUYNE>** vp11: Do you mean Monero will choose it's own custom parameters for SHA3?  
+**\<fluffypony>** byterubmooo: particularly about PoW because of the need for last-minute changes (or secrecy on tweaks, equally undesireable)  
+**\<dEBRUYNE>** vp11: Do you mean ByteRub will choose it's own custom parameters for SHA3?  
 **\<oneiric\_>** dEBRUYNE: if thats true i'm all for it  
 **\<dEBRUYNE>** will/can  
 **\<fluffypony>** with non-PoW consensus changes we can plan them well in advance  
@@ -386,7 +386,7 @@ author: el00ruobuob / dEBRUYNE
 **\<rbrunner>** I don't understand why people already want to set a fixed successor for RandomX. What if none is needed?  
 **\<xmrmatterbridge> \<learninandlurkin>** fluffypony: could you explalin why not? Surely it lessens the fundamental reliance on "lead" maintainers and devs, and hence lowers the risks you were talking about?  
 **\<kovri-slack> \<woodser>** wouldn’t SHA3 be unecessary if RandomX delivers all our hopes and dreams?  
-**\<moneromooo>** I believe one of the "legal" tests for a decentralized cryptocurrency is that anyone has a chance at mining. Arguably, not trying to fix a party having >> 50% means we stop being such.  
+**\<byterubmooo>** I believe one of the "legal" tests for a decentralized cryptocurrency is that anyone has a chance at mining. Arguably, not trying to fix a party having >> 50% means we stop being such.  
 **\<dEBRUYNE>** rbrunner: Again, in order to be proactive  
 **\<vp11>** Precommitting to a date for me is akin as maybe finding the cure for a disease but kill your patient anyway.  
 **\<dEBRUYNE>** woodser: Yes, but we still need a backup plan in case it fails  
@@ -413,7 +413,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** ferretinjapan: anyone who wants 4 month forks are welcome to fork off  
 **\<fluffypony>** :-P  
 **\<rbrunner>** Lol  
-**\<midipoet>** we could just let ASICS rule Monero, and move the whole community to a brand new implementation of MimbleWimble  
+**\<midipoet>** we could just let ASICS rule ByteRub, and move the whole community to a brand new implementation of MimbleWimble  
 **\<ferretinjapan>** needmoney90, with trying to give a "gentle" ultimatum  
 **\<needmoney90>** the only way to fork that often is to drop the market cap / ecosystem size  
 **\<needmoney90>** go for it  
@@ -423,20 +423,20 @@ author: el00ruobuob / dEBRUYNE
 **\<tevador>** even if there was a 2x ASIC, it doesn't require the same response as a 50x ASIC  
 **\<needmoney90>** If you advocate asic resistance and not a 4-month fork schedule, you're willfully ignoring reality  
 **\<ferretinjapan>** iKnow :) but some people might think I'm opf that mind  
-**\<fluffypony>** midipoet: MW is already coming via Tari, not sure if doubling down on that is helpful - also MW requires interactivity, where Monero does not, it would be a fundamentally different thing  
+**\<fluffypony>** midipoet: MW is already coming via Tari, not sure if doubling down on that is helpful - also MW requires interactivity, where ByteRub does not, it would be a fundamentally different thing  
 **\<dEBRUYNE>** sech1: Yeah that sounds reasonable  
 **\<needmoney90>** this is not counting randomx of course\*  
 **\<ferretinjapan>** needmoney90, aaaand theres the ulimatium :)  
 **\<needmoney90>** RX is our prescription for asic resistance  
-**\<moneromooo>** tevador: if randomx appeared to fail, would you want to continue trying to get a better algorithm, hypothetically ?  
+**\<byterubmooo>** tevador: if randomx appeared to fail, would you want to continue trying to get a better algorithm, hypothetically ?  
 **\<tevador>** depends on how it fails  
 **\<midipoet>** fluffypony: ah i was just joking. i lked the idea od taking all our devs and community and starting on a 2nd/3rd generation tech.  
 **\<needmoney90>** Mcash would be interesting, but they'll run into the same issues if they get big  
 **\<tevador>** I wouldn't consider a 2x more efficient ASIC a failure  
-**\<moneromooo>** If it fails by having a party suddenly seem to get close to 50% of the network hash rate.  
+**\<byterubmooo>** If it fails by having a party suddenly seem to get close to 50% of the network hash rate.  
 **\<needmoney90>** mooo, I think its a "we'll cross that bridge when we get to it" issue  
 **\<tevador>** and we could still make annual PoW upgrade as new CPUs are introduced  
-**\<moneromooo>** I'm not asking to start now :)  
+**\<byterubmooo>** I'm not asking to start now :)  
 **\<dEBRUYNE>** I'd be strongly opposed to an "annual PoW upgrade"  
 **\<ArticMine>** a 2x ASIC is not a RandomX failure Would you accept a 50% rebate payable in XMR on your heating cost by running a peice of software on our computer? 30% 10% 5% 1% .1% This becomes the question  
 **\<dEBRUYNE>** ArticMine: You also have to factor in that not everyone uses their miner for heating  
@@ -447,7 +447,7 @@ author: el00ruobuob / dEBRUYNE
 **\<needmoney90>** barring emergency forks  
 **\<needmoney90>** we can maybe get one more off  
 **\<dEBRUYNE>** tevador: Yes, no changes  
-**\<dEBRUYNE>** Reintroducing tweaks reintroduces the same risks smooth described here -> https://github.com/byterubpay/monero/issues/3387#issue-304296870  
+**\<dEBRUYNE>** Reintroducing tweaks reintroduces the same risks smooth described here -> https://github.com/byterubpay/byterub/issues/3387#issue-304296870  
 **\<xmrmatterbridge> \<learninandlurkin>** I think it is clear that even a perfect CPU favouring algorithm would eventually need to be changed, because CPUs will eventually change  
 **\<dEBRUYNE>** Which we're trying to get away from with a long-term algorithm  
 **\<ArticMine>** This is an example why 2x or even 10x may not be a failure. 100x Yes that is a failure  
@@ -481,11 +481,11 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** ferretinjapan: nobody is suggesting it will never change  
 **\<hyc>** yeah, saying PoW will never change again is a bit shortsighted  
 **\<fluffypony>** but I think planning for it to change regularly vs. planning for it to change infrequently are different  
-**\<moneromooo>** I'd rather pissed off exchanges than a party with 51% of the hash rate.  
+**\<byterubmooo>** I'd rather pissed off exchanges than a party with 51% of the hash rate.  
 **\<ferretinjapan>** ^  
 **\<needmoney90>** Suggesting you want asic resistance and also not being willing/able to fork more than once a year is a direct contradiction  
 **\<needmoney90>** you need to choose one  
-**\<fluffypony>** I also don't think that the Monero protocol should ossify because we need to constantly improve privacy  
+**\<fluffypony>** I also don't think that the ByteRub protocol should ossify because we need to constantly improve privacy  
 **\<fluffypony>** but I do think that PoW should ossify, for reasons that I hope are obvious  
 **\<ArticMine>** The difference is an improvement POW is no different in this respect. Endless tweaks with no improvement in POW is very different  
 **\<needmoney90>** And we can't do the latter  
@@ -521,21 +521,21 @@ author: el00ruobuob / dEBRUYNE
 **\<ArticMine>** If on the other hand the tweak leaves the ASIC advantage at 5x and only bricks the ASICs that is not a valid tweak  
 **\<sgp\_>** Agreed  
 **\<ArticMine>** This is the key difference Intent is critical  
-**\<moneromooo>** It is, if the ASICs were, or were threating to be, at > 50% of the network hash rate.  
+**\<byterubmooo>** It is, if the ASICs were, or were threating to be, at > 50% of the network hash rate.  
 **\<dEBRUYNE>** We also have to weigh off the risks involved with a tweak against the risks of switching to SHA3 at that point  
-**\<moneromooo>** It is a short term fix, but it is one nonetheless.  
+**\<byterubmooo>** It is a short term fix, but it is one nonetheless.  
 **\<xmrmatterbridge> \<learninandlurkin>** MONERO 2039 NETWORK UPGRADE CHANGELOG: 1) Changed to QuantumX to lower the advantage of Quantum ASIC advantage, and slow the encroachment of the Terminator hoards.  
 **\<fluffypony>** LOL  
-**\<ArticMine>** moneromooo then one tweak followed by SHA-3  
+**\<ArticMine>** byterubmooo then one tweak followed by SHA-3  
 **\<dEBRUYNE>** At that point it may be better to just introduce SHA3 in a few months  
 **\<sgp\_>** ArticMine: yes, only as an emergency option to buy ~3 months before SHA3 if needed  
 **\<oneiric\_>** lol skynet is online  
 **\<dEBRUYNE>** It will be sufficient for manufacturers to tape out a device  
 **\<dEBRUYNE>** Reacting to a party gaining the majority of the hashrate with tweaking may also raise the possibility of them acting maliciously  
-**\<moneromooo>** I am far from confident SHA-3 will lead to a healthy non oligopolistic market. Though it might, but that's wholesale speculation.  
+**\<byterubmooo>** I am far from confident SHA-3 will lead to a healthy non oligopolistic market. Though it might, but that's wholesale speculation.  
 **\<midipoet>** ^  
 **\<needmoney90>** I do not disagree mooo  
-**\<moneromooo>** And it loses us the "ease of starting mining", for sure.  
+**\<byterubmooo>** And it loses us the "ease of starting mining", for sure.  
 **\<rbrunner>** Agree  
 **\<midipoet>** at tpd  
 **\<dEBRUYNE>** Don't disagree either, but I think it's a better option than trying to apply band-aid to RandomX in case it fails  
@@ -548,7 +548,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** midipoet: SIA is a poor example, they forked off other manufacturers that made more efficient devices  
 **\<dEBRUYNE>** Also they used a relatively complex algorithm  
 **\<fluffypony>** I'm of the opinion that we need to precommit to a SHA-3 date so that manufacturers start working towards it  
-**\<jwinterm>** moneromooo: I agree, but I think I'm more confident that sha3 will lead to a non-oligopolistic market than I am that randomx will not lead to a single entity producing custom hw leading to that entity controlling 51% of the network hashrate  
+**\<jwinterm>** byterubmooo: I agree, but I think I'm more confident that sha3 will lead to a non-oligopolistic market than I am that randomx will not lead to a single entity producing custom hw leading to that entity controlling 51% of the network hashrate  
 **\<hyc>** fluffypony: there are already other coins using SHA3  
 **\<fluffypony>** hyc: no, there really aren't  
 **\<fluffypony>** Shitcoin #7 doesn't count  
@@ -579,17 +579,17 @@ author: el00ruobuob / dEBRUYNE
 **\<vp11>** Yes, improvements are tweaks if you want, but intent is different. Do you think Bill Gates was right when he said that 640k was enough for everyone? Evolution happens.  
 **\<sgp\_>** dEBRUYNE: ironically I think we understand this better than ASICs given the past actions and observed behaviors  
 **\<fluffypony>** by pre-committing we get rid of the "first to market" race  
-**\<moneromooo>** jwinterm: based on particular reasons ?  
+**\<byterubmooo>** jwinterm: based on particular reasons ?  
 **\<jwinterm>** I think it would be trivial to turnaround an asic for sha-3 in under three months by simply licensing ip  
 **\<dEBRUYNE>** sgp\_: The fact that some people are still advocating for them makes me think we don't  
 **\<sech1>** fluffypony no one is going to work on SHA3 ASIC 2 years in advance, it's an eternity in crypto  
-**\<jwinterm>** based on the experience with cryptonight and tweaks moneromooo mostly  
-**\<moneromooo>** fluffypony: if it's all about being first to market, then we WILL end up with a monopoly.  
+**\<jwinterm>** based on the experience with cryptonight and tweaks byterubmooo mostly  
+**\<byterubmooo>** fluffypony: if it's all about being first to market, then we WILL end up with a monopoly.  
 **\<dEBRUYNE> \<fluffypony>** the arms race is about being first to market \<= I don't think that is necessary a problem in the beginning  
 **\<hyc>** and an eternity in silicon  
 **\<dEBRUYNE>** As long as it doens't lead to a manufacturer dominating  
 **\<tevador>** I don't think we need to precommit to a date for SHA-3 at the moment  
-**\<dEBRUYNE>** moneromooo: most manufacturers have similar tape out times  
+**\<dEBRUYNE>** byterubmooo: most manufacturers have similar tape out times  
 **\<tevador>** 6-month advance notice should be enough if we want to switch in the future  
 **\<fluffypony>** sech1: I know, but I also don't see value in precommitting to a short-term date because then RandomX is largely pointless  
 **\<sgp\_>** dEBRUYNE: I think it's important to distinguish between planned tweaks with the intent of breaking (current) and RandomX improvements. These have very different impacts and implications  
@@ -628,10 +628,10 @@ author: el00ruobuob / dEBRUYNE
 **\<mrantrax>** that would be a waste of time  
 **\<rbrunner>** And what in those arguments speaks for SHA3? Why not piggyback on Bitcoin ASICs?  
 **\<ArticMine>** In case 2 the creator of the 90% takeover starts making the SHA-3 ASIC since they know a head of time that is the fall back  
-**\<moneromooo>** Because someone would have 99% of the hash rate.  
+**\<byterubmooo>** Because someone would have 99% of the hash rate.  
 **\<ferretinjapan>** fluffypony, I'm for 3. otherwise, a miner could decide to game the network by hiring a huge botnet to spike the HR and fake RandomX asics, thus triggering a non-rollbackable switchover. Remember Miners do NOT like RandomX they'll be incentivised to nerf it.  
 **\<fluffypony>** dEBRUYNE: they will start the process of raising money, designing, aiming for 7nm, etc  
-**\<jwinterm>** rbrunner: that puts monero at the mercy of f2pool or whatever  
+**\<jwinterm>** rbrunner: that puts byterub at the mercy of f2pool or whatever  
 **\<vp11>** The same argument against the tweaks in PoW can be used against the tweaks in the protocol. If someone finds a better way to improve RandomX in the future (while we’re on it) we should consider implementing it in a responsible way, the same way we do for the protocol improvements.  
 **\<vp11>** dEBRUYNE:  
 **\<ArticMine>** Out of the frying pan 10x into the fire 100x  
@@ -648,7 +648,7 @@ author: el00ruobuob / dEBRUYNE
 **\<tevador>** there are already SHA-3 designs available, ETH ASIC contains Keccak cores; the only investment would be the tapeout/mask which nobody would do 2 years in advance  
 **\<fluffypony>** vp11: no, I mean that there is expected to not be a "better way to improve RandomX" much, if at all  
 **\<hyc>** the only open question is how efficient you can make a programmable chip  
-**\<moneromooo>** randomx is the best we have. But then 6 months ago (or wahtever) it was somehting else. Years ago it was CN. Maybe a better way will be found in the next year or two. Claiming randomx is the last now does not seem too productive. It might be the last you're willing to countenance, but that is another claim.  
+**\<byterubmooo>** randomx is the best we have. But then 6 months ago (or wahtever) it was somehting else. Years ago it was CN. Maybe a better way will be found in the next year or two. Claiming randomx is the last now does not seem too productive. It might be the last you're willing to countenance, but that is another claim.  
 **\<rbrunner>** There must be some logical contradiction somewhere in using RandomX first and already committing to SHA3  
 **\<hyc>** rbrunner: agreed  
 **\<hyc>** precommit to SHA3 before knowing how well randomX performed is illogical  
@@ -660,7 +660,7 @@ author: el00ruobuob / dEBRUYNE
 **\<ferretinjapan>** And theres incentives for miners to (pardon pun) undermine RandomX  
 **\<fluffypony>** rbrunner: I'm for side-stepping it, but few others are  
 **\<sech1>** fluffypony you can't be 100% sure about that  
-**\<needmoney90>** Moneromooo: it's the last we can realistically use before we succumb to ASICs due to ecosystem size  
+**\<needmoney90>** ByteRubmooo: it's the last we can realistically use before we succumb to ASICs due to ecosystem size  
 **\<sgp\_>** fluffypony: yes, which is why I think it's good to share an intent to switch if it breaks  
 **\<dEBRUYNE>** fluffypony, sech1: Only practice will tell I guess  
 **\<needmoney90>** Even if we find another option or two, the network will be de facto ASIC mined until then. And it would take a lot of time to switch over.  
@@ -668,7 +668,7 @@ author: el00ruobuob / dEBRUYNE
 **\<hyc>** fluffypony: theoretically yes. Even if an ASIC was only 1% more efficient, there is presumably a marketcap value where it becomes profitable to build that ASIC  
 **\<dEBRUYNE>** But it is prudent to have a back up plan in case it fails  
 **\<hyc>** but those outcomes are far away  
-**\<needmoney90>** Moneromooo in years past we had the benefit of being small/flexible, we could adapt rapidly  
+**\<needmoney90>** ByteRubmooo in years past we had the benefit of being small/flexible, we could adapt rapidly  
 **\<needmoney90>** We're kind of a billion dollars now  
 **\<sech1>** fluffypony then we have different definitions of failure  
 **\<tevador>** custom montherboard with a 1.5 efficiency advantage can hardly be called an ASIC  
@@ -681,7 +681,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** ArticMine: 3x - 10x would be sufficient to allow a single manufacturer dominate hashrate  
 **\<needmoney90>** Just pointing out the realoty that even if more asic resistant algos exist, we don't have the luxury of algo hopping more than once a year at this point  
 **\<hyc>** that's really a different argument. it's always true that whatever the mechanism, the one with the deepest pockets can buy the most of them  
-**\<moneromooo>** I don't see that as an impassable obstacle. Pissed off exchanges -> fewer exhanges; someone with > 50% hash rate -> pointless coin.  
+**\<byterubmooo>** I don't see that as an impassable obstacle. Pissed off exchanges -> fewer exhanges; someone with > 50% hash rate -> pointless coin.  
 **\<needmoney90>** Even then is reckless  
 **\<sech1>** custom multi-cpu motherboard with 1.5x efficiency - no sense in keeping it in secret, much more sense in selling it to millions of miners  
 **\<fluffypony>** sech1: no, keep it secret and mine for a while until you've made enough money, then blow off the dust and sell them  
@@ -699,7 +699,7 @@ author: el00ruobuob / dEBRUYNE
 **\<ArticMine>** It did not. What is happening in ETH is the advantage is low 2x -4x  
 **\<ArticMine>** Also while this is going on the CPU do not stay static  
 **\<xmrmatterbridge> \<learninandlurkin>** The barrier to entry for building a botnet is potentially much lower than the one to build an ASIC farm  
-**\<moneromooo>** Is Ethereum mining feasible on CPU ?  
+**\<byterubmooo>** Is Ethereum mining feasible on CPU ?  
 **\<dr-mike>** no.  
 **\<sgp\_>** If you don't mind, would it be all right if I focus the discussion more into a few main topics? We can more reliably debate about the pros and cons under different scenarios and help predict actions. Otherwise this conversation can go on forever.  
 **\<dr-mike>** GPU advantage is well over 10x  
@@ -708,11 +708,11 @@ author: el00ruobuob / dEBRUYNE
 **\<ArticMine>** So you ave co existence GPU / ASIC which also leads to competition between ASIC manufactures. The very thing SHA-3 is trying to engineer  
 **\<ArticMine>** have  
 **\<xmrmatterbridge> \<learninandlurkin>** I think from reading this discussion that longer term plans are pretty much pointless until we've had some audits/reviews/testing of RandomX especially because people are against hard-coding failure by adding a date for SHA-3  
-**\<moneromooo>** Then maybe if RandomX fails (to have small enough of a CPU-to-ASIC efficiciency gap), then switching to Ethereum's hash might be better than SHA-3. We lose a lot of ease of access, but it's still a lot better than ASIC or nohting.  
-**\<moneromooo>** (once Ethereum is PoS, which it apparetnly is not yet)  
+**\<byterubmooo>** Then maybe if RandomX fails (to have small enough of a CPU-to-ASIC efficiciency gap), then switching to Ethereum's hash might be better than SHA-3. We lose a lot of ease of access, but it's still a lot better than ASIC or nohting.  
+**\<byterubmooo>** (once Ethereum is PoS, which it apparetnly is not yet)  
 **\<dr-mike>** Sounds reasonable.  
 **\<dEBRUYNE>** I am skeptical the asic advantage for ETH asics will remain at 2.3x though  
-**\<ArticMine>** moneromooo That is a very interesting option if ETH goes POS  
+**\<ArticMine>** byterubmooo That is a very interesting option if ETH goes POS  
 **\<rbrunner>** Sounds reasonable today. Nobody knows about tomorrow.  
 **\<ArticMine>** So another fall back  
 **\<dr-mike>** dEBRUYNE, Me too.  
@@ -722,36 +722,36 @@ author: el00ruobuob / dEBRUYNE
 **\<xmrmatterbridge> \<learninandlurkin>** (or if ETH just collapses)  
 **\<hyc>** the ASIC companies are lower priority, don't get the same access to chip fabs as the bigger players  
 **\<sgp\_>** hyc: plus the extra purposes of GPU/CPU and more stable market have added value that's hard to calculate  
-**\<moneromooo>** Do you need a GPU to (feasibly) sync the Ethereum blockchain ?  
+**\<byterubmooo>** Do you need a GPU to (feasibly) sync the Ethereum blockchain ?  
 **\<ferretinjapan>** almost seem more rational to do a mashup of multiple POWs as a stopgap to ensure decentralisation if RandomX fails, :P  
-**\<moneromooo>** Or, rather, anyone knows how much verifying a hash on CPU costs ?  
-**\<smooth>** moneromooo: GPU is of no benefit to syncing ETH  
+**\<byterubmooo>** Or, rather, anyone knows how much verifying a hash on CPU costs ?  
+**\<smooth>** byterubmooo: GPU is of no benefit to syncing ETH  
 **\<xmrmatterbridge> \<learninandlurkin>** you need a time machine to feasibly syn the ETH blockchain  
 **\<oneiric\_>** lol  
-**\<tevador>** moneromooo: no, but you need a quad core CPU, 32 GB of RAM and an SSD  
+**\<tevador>** byterubmooo: no, but you need a quad core CPU, 32 GB of RAM and an SSD  
 **\<dEBRUYNE>** ^ Even then syncing will be quite difficilt  
 **\<dEBRUYNE>** difficult\*  
-**\<moneromooo>** It was a bad questiuon. The second question is what I intended :)  
+**\<byterubmooo>** It was a bad questiuon. The second question is what I intended :)  
 **\<asymptotically>** ferretinjapan: i don't think that really works. see DASH or other coins that uses X11  
 **\<ferretinjapan>** asymptotically, was half joking for the record.  
-**\<dr-mike>** moneromooo, Syncing eth chain takes 8 hours on a beefy i7 with a ssd and a 100mbit/s connection. No gpu required.  
+**\<dr-mike>** byterubmooo, Syncing eth chain takes 8 hours on a beefy i7 with a ssd and a 100mbit/s connection. No gpu required.  
 **\<ArticMine>** ... and you need to be near the ETH miners because of the 15 sec block time  
 **\<dr-mike>** tevador, No you dont neewd 32GB ram, 4GB will do.  
-**\<moneromooo>** I'm really interested in "if we had Ethereum's hash in monero, how much would the PoW verification cost". Hence why my first question was bad.  
-**\<moneromooo>** Since ethereum has probably way more blocks than us, if 15 seconds.  
+**\<byterubmooo>** I'm really interested in "if we had Ethereum's hash in byterub, how much would the PoW verification cost". Hence why my first question was bad.  
+**\<byterubmooo>** Since ethereum has probably way more blocks than us, if 15 seconds.  
 **\<tevador>** I think CPU verification of ethash is roughly 4 ms or so  
-**\<moneromooo>** What's CN on a similar CPU ?  
+**\<byterubmooo>** What's CN on a similar CPU ?  
 **\<xmrmatterbridge> \<learninandlurkin>** to be clear, are we discussing ETHs current hash or ProgPow?  
 **\<jwinterm>** ethhash  
 **\<tevador>** CN is 12-15 ms on similar CPU  
-**\<moneromooo>** Thanks.  
-**\<dr-mike>** Why is ProgPow not an option for monero?  
+**\<byterubmooo>** Thanks.  
+**\<dr-mike>** Why is ProgPow not an option for byterub?  
 **\<xmrmatterbridge> \<learninandlurkin>** although feasibly we could steal either as a back up plan once they go PoS  
-**\<moneromooo>** It could be, if randomx fails.  
+**\<byterubmooo>** It could be, if randomx fails.  
 **\<hyc>** dr-mike: GPU-centric  
 **\<oneiric\_>** not-invented-here  
 **\<ArticMine>** if fluffypony were to mine an ETH block at home for me to mine also at home on top of his block there is ~500 msec for the speed of light and switching alone out of 15 sec  
-**\<moneromooo>** (and no other suitable candidate is apparent)  
+**\<byterubmooo>** (and no other suitable candidate is apparent)  
 **\<hyc>** shrouded in controversy  
 **\<dr-mike>** I agree RandomX should be given a chance, if it fails ProgPow is the next best thing.  
 **\<hyc>** oneiric\_: not true, it \*was\* invented here.  
@@ -763,10 +763,10 @@ author: el00ruobuob / dEBRUYNE
 **\<hyc>** rbrunner yes  
 **\<xmrmatterbridge> \<learninandlurkin>** No reason at all, but it's nice to know there are other PoW that can be stolen if RandomX fails and a stopgap is needed  
 **\<dEBRUYNE>** If randomx fails, isn't progpow likely to fail as well?  
-**\<moneromooo>** Progpow targets an arch that's already optimized to be massively parallel.  
+**\<byterubmooo>** Progpow targets an arch that's already optimized to be massively parallel.  
 **\<sgp\_>** learninandlurkin I think that's a good way of looking at it, a stopgap  
 **\<rbrunner>** No shortage of stopgaps. Take basically anything, just different  
-**\<moneromooo>** (though I do not know what it does)  
+**\<byterubmooo>** (though I do not know what it does)  
 **\<dEBRUYNE>** learninandlurkin: not sure why we would need a stopgap at that point though  
 **\<hyc>** rbrunner but progpow claims to fully utilize a GPU, as randomX claims to fully utilize a CPU. progpow actually doesn't use more than ~40% of a GPU tho  
 **\<dEBRUYNE>** Imo it would be better to switch to asics then  
@@ -786,15 +786,15 @@ author: el00ruobuob / dEBRUYNE
 **\<tevador>** it's definitely possible for Oct  
 **\<dr-mike>** When can we have RandomX on a testnet?  
 **\<dEBRUYNE>** If the code is reviewed, is randomx not better than another tweak?  
-**\<moneromooo>** With the large caveat that I did not look at randomx yet, I think I'd prefer a CNv4 tweak about 5 months (rather than 6) after the past march fork first, then randomx.  
+**\<byterubmooo>** With the large caveat that I did not look at randomx yet, I think I'd prefer a CNv4 tweak about 5 months (rather than 6) after the past march fork first, then randomx.  
 **\<crCr62U0>** All those reviewers are mute now.  
-**\<sgp\_>** moneromooo: so you're looking for RandomX addition around January 2020?  
-**\<moneromooo>** Unless randomx is 100% ready.  
-**\<moneromooo>** Yes, sounds plausible.  
+**\<sgp\_>** byterubmooo: so you're looking for RandomX addition around January 2020?  
+**\<byterubmooo>** Unless randomx is 100% ready.  
+**\<byterubmooo>** Yes, sounds plausible.  
 **\<dr-mike>** RandomX must be ready before October.  
 **\<xmrmatterbridge> \<learninandlurkin>** Can we maybe get Outreach to bomb the whole internet with links to RandomX docs, just to get more eyes on it?  
 **\<tevador>** daemon integration will be a bit more work than CNv4  
-**\<dEBRUYNE>** moneromooo: Then it seems imperative for the community to ensure RandomX is 100% ready in october  
+**\<dEBRUYNE>** byterubmooo: Then it seems imperative for the community to ensure RandomX is 100% ready in october  
 **\<sgp\_>** dEBRUYNE: yes, everything would need to be a go  
 **\<dEBRUYNE>** In my opinion, it is achievable, we've got about 6-7 months left  
 **\<oneiric\_>** \< will dedicate some time to RandomX review over the next weeks  
@@ -813,7 +813,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** So we can use 4-5 months for testing and reviewing  
 **\<dr-mike>** It will  happen in the next 2-3 weeks  
 **\<hyc>** afaik ETH has only recently decided to o ahead with audits for progpow  
-**\<moneromooo>** Did it not add loops like a week ago ? That seems like a large change for it to be ready yet.  
+**\<byterubmooo>** Did it not add loops like a week ago ? That seems like a large change for it to be ready yet.  
 **\<oneiric\_>** has the auditor already been selected? if so, who?  
 **\<tevador>** btw is there a need to rewrite RandomX into C for review?  
 **\<tevador>** currently C++  
@@ -823,16 +823,16 @@ author: el00ruobuob / dEBRUYNE
 **\<xmrmatterbridge> \<learninandlurkin>** Are the auditors for ProgPow just Nvidia?  
 **\<oneiric\_>** thanks, look forward to seeing who they select, and reading the audit when it's finished  
 **\<hyc>** tevador: probably not needed. that was just a personal preference of mine  
-**\<dEBRUYNE> \<moneromooo>** Did it not add loops like a week ago ? That seems like a large change for it to be ready yet. \<= tevador, any comment on this?  
-**\<moneromooo>** I'm not asking for it to stop improving btw :)  
+**\<dEBRUYNE> \<byterubmooo>** Did it not add loops like a week ago ? That seems like a large change for it to be ready yet. \<= tevador, any comment on this?  
+**\<byterubmooo>** I'm not asking for it to stop improving btw :)  
 **\<tevador>** not loops, one instruction was modified to jump back in such way that loops are impossible  
-**\<moneromooo>** OK, branches.  
+**\<byterubmooo>** OK, branches.  
 **\<tevador>** it was not a major change from my point of view  
-**\<moneromooo>** I thought it did not have branches before. But admittedly I mostly follow the backlog quickly.  
+**\<byterubmooo>** I thought it did not have branches before. But admittedly I mostly follow the backlog quickly.  
 **\<tevador>** yes, it did not have branches before  
 **\<sech1>** branches were added in respose to critics on HW forum  
 **\<tevador>** now there are branches with a fixed 1/128 probability  
-**\<moneromooo>** OK, so now it has, but in such a way that it is always "safe". Right ?  
+**\<byterubmooo>** OK, so now it has, but in such a way that it is always "safe". Right ?  
 **\<tevador>** it was tuned to have almost no effect on CPU performance  
 **\<hyc>** yes, safe, no loops  
 **\<sech1>** yes, no infinite loops are possible with this type of branches  
@@ -841,19 +841,19 @@ author: el00ruobuob / dEBRUYNE
 **\<sech1>** tevador these branches are even designed to not trigger after they've triggered, loops are simply impossible  
 **\<dr-mike>** rbrunner asking tough questions :)  
 **\<tevador>** the main purupose is to take advantage of the commit/retire stages in CPUs  
-**\<moneromooo>** My understanding is that programs won't be known in advance like what sech1 did with CNR. Correct ?  
+**\<byterubmooo>** My understanding is that programs won't be known in advance like what sech1 did with CNR. Correct ?  
 **\<ferretinjapan>** dr-mike, someones gotta :)  
 **\<tevador>** without this, ASIC could have a simplified pipeline  
-**\<tevador>** moneromooo: 8 random programs per hash  
+**\<tevador>** byterubmooo: 8 random programs per hash  
 **\<tevador>** unique  
-**\<sech1>** moneromooo it can be formally proved that branches are safe in RandomX, we made sure it's easy to do  
-**\<moneromooo>** Are these 8 random programs per hash knowable in advance, or not ?  
+**\<sech1>** byterubmooo it can be formally proved that branches are safe in RandomX, we made sure it's easy to do  
+**\<byterubmooo>** Are these 8 random programs per hash knowable in advance, or not ?  
 **\<sech1>** No, they're generated on the fly  
 **\<oneiric\_>** having a formal verification tool as a deliverable from the audit would be awesome  
 **\<tevador>** no, you have to execute Nth program to find out the code for the N+1st program  
-**\<moneromooo>** Well, that does not necessarily preclude knowing in advance.  
+**\<byterubmooo>** Well, that does not necessarily preclude knowing in advance.  
 **\<tevador>** and the first program is generated from the block header  
-**\<moneromooo>** Right. That does. Thanks.  
+**\<byterubmooo>** Right. That does. Thanks.  
 **\<tevador>** full block header hash  
 **\<needmoney90>** Wait, why do loops matter?  
 **\<rbrunner>** Branches  
@@ -861,10 +861,10 @@ author: el00ruobuob / dEBRUYNE
 **\<rbrunner>** Not loops :)  
 **\<hyc>** loops make runtimes too variable  
 **\<tevador>** it's not so easy to have loops and keep approximately the same runtime per hash  
-**\<moneromooo>** You can't do that (fast) without a hardware insns counter + exception.  
+**\<byterubmooo>** You can't do that (fast) without a hardware insns counter + exception.  
 **\<tevador>** we tried in RandomJS and it was not pretty  
 **\<needmoney90>** This is better suited for -Pow, sorry  
-**\<moneromooo>** "that" being "program state after X instructions[s]".  
+**\<byterubmooo>** "that" being "program state after X instructions[s]".  
 **\<hyc>** yeah we're off in the weeds here  
 **\<needmoney90>** Carry on, I'll speak up if I have something useful to speak of  
 **\<dEBRUYNE>** To sum up this point, people prefer RandomX in october as long as it is ready and audited.  
@@ -880,7 +880,7 @@ author: el00ruobuob / dEBRUYNE
 **\<ArticMine>** yes  
 **\<dEBRUYNE>** Let me switch to another point I'd like to get a bit of a vote on. Like I said, the path of least resistance seems to be either:  
 **\<needmoney90>** It's not just preference, the consensus is pretty much unanimous except for the gpu mining bloc  
-**\<moneromooo>** I think so, the "ready and audited" being a bit subjective I suppose.  
+**\<byterubmooo>** I think so, the "ready and audited" being a bit subjective I suppose.  
 **\<dEBRUYNE>** 1. RandomX -> Switch to SHA3 in case RandomX fails  
 **\<dEBRUYNE>** 2. RandomX -> precommit to SHA3 on a set date  
 **\<jwinterm>** I'd prefer going straight to sha-3 and being done with it, but obviously I'm in minority here with notmike and stoffu  
@@ -904,20 +904,20 @@ author: el00ruobuob / dEBRUYNE
 **\<hyc>** (if ETH has gone PoS by then, we could consider ETHash instead of SHA3. I'm still opposed to pre-committing to SHA3 in any form)  
 **\<jwinterm>** in light of being too vague I'll go 2, probably would go 2 anyway tbh  
 **\<rbrunner>** 1, but with no dedicated successor yet  
-**\<moneromooo>** RandomX, and then (1) if we have another contender ready, switch to that, or (2) if the apparently ASICs seem to be barely getting to 50%, then a tweak, or (3) SHA-3.  
+**\<byterubmooo>** RandomX, and then (1) if we have another contender ready, switch to that, or (2) if the apparently ASICs seem to be barely getting to 50%, then a tweak, or (3) SHA-3.  
 **\<sgp\_>** 1  
-**\<dr-mike>** that sounds better moneromooo  
+**\<dr-mike>** that sounds better byterubmooo  
 **\<ferretinjapan>** yeah, I' like moo's option better. Option M for me.  
 **\<ErCiccione[m]>** 1  
-**\<moneromooo>** And yes, ethhash maybe instead.  
+**\<byterubmooo>** And yes, ethhash maybe instead.  
 **\<sgp\_>** Again, I think the failure is up for some discussion, especially the nature of it. I'm for switching to SHA3 if RandomX catastrophically fails for sure  
 **\<xmrmatterbridge> \<learninandlurkin>** I vote for hyc's last comment  
 **\<dEBRUYNE>** My personal preference is option 1 fwiw  
 **\<ferretinjapan>** I think the consensus is theres not enough of a plan to have a consensus :P  
-**\<xmrmatterbridge> \<learninandlurkin>** actually I vote for this -> \<moneromooo> RandomX, and then (1) if we have another contender ready, switch to that, or (2) if the apparently ASICs seem to be barely getting to 50%, then a tweak, or (3) SHA-3.  
+**\<xmrmatterbridge> \<learninandlurkin>** actually I vote for this -> \<byterubmooo> RandomX, and then (1) if we have another contender ready, switch to that, or (2) if the apparently ASICs seem to be barely getting to 50%, then a tweak, or (3) SHA-3.  
 **\<vtnerd\_\_\_>** Fwiw -> Sha3 precommit (2)  
 **\<ArticMine>** There is a very strong consensus to proceed with RandomX at this point.  
-**\<sgp\_>** Adding to this, there is about a 3 month turnaround time between when a failure is determined and Monero can move to SHA3, if that's the desired action. Monero can generally either use a stopgap for those months or wait it out  
+**\<sgp\_>** Adding to this, there is about a 3 month turnaround time between when a failure is determined and ByteRub can move to SHA3, if that's the desired action. ByteRub can generally either use a stopgap for those months or wait it out  
 **\<sgp\_>** I think the nature of the failure will determine which of the two actions are taken  
 **\<sgp\_>** ASICs control 90%? Stopgap maybe warranted  
 **\<vtnerd\_\_\_>** Randomx by October seems aggressive if daemon integration is complicated. And an x86 only optimized version is unfortunate  
@@ -925,17 +925,17 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** tevador: Would you be able to integrate randomx with the daemon as well?  
 **\<xmrmatterbridge> \<learninandlurkin>** The nature of theoretical failures is the big limitation to planning beyond auditing RandomX REALLY REALLY well  
 **\<hyc>** vtnerd\_\_\_: shouldn't take long to get an ARMv8 version going  
-**\<moneromooo>** And then if we switch to SHA-3 and we end up with a laughing > 50% ASIC manufcaturer, what do we do ? Go home ? Resurrect Cryptonite and ask MRL to find how to make it private ?  
+**\<byterubmooo>** And then if we switch to SHA-3 and we end up with a laughing > 50% ASIC manufcaturer, what do we do ? Go home ? Resurrect Cryptonite and ask MRL to find how to make it private ?  
 **\<vtnerd\_\_\_>** Eh, not April yet so might be doable  
 **\<ferretinjapan>** sgp\_, yeah, "failure" could mean literally anything.  
 **\<ArticMine>** The question I possible see is 1a RandomX if fail SHA-3 vs 1b RandomX if fail ETHhash / ProgPOW if fail SHA-3  
-**\<sgp\_>** moneromooo: the switch to SHA3 should ideally be the final option, at least for a long while. We would probably out of options after that  
-**\<jwinterm>** moneromooo: considering sia and decred each have at least three asic manufacturers and they are lower on the totem pole that seems unlikely, imo  
+**\<sgp\_>** byterubmooo: the switch to SHA3 should ideally be the final option, at least for a long while. We would probably out of options after that  
+**\<jwinterm>** byterubmooo: considering sia and decred each have at least three asic manufacturers and they are lower on the totem pole that seems unlikely, imo  
 **\<vtnerd\_\_\_>** There seems to be plenty of fear driving the decisions which could result in a worse outcome  
 **\<dEBRUYNE>** jwinterm: Plus both of those coins have more complex algorithms  
 **\<jwinterm>** not by much, I think they both use variants of blake, which is another sha3 finalist I think  
-**\<sgp\_>** The intent is that before the SHA3 switch, Monero can have resources that help meet the manufacturers halfway and lower the barriers to entry  
-**\<moneromooo>** jwinterm: ok, 3 still seems not good though, but I suppose beggars can't be choosers...  
+**\<sgp\_>** The intent is that before the SHA3 switch, ByteRub can have resources that help meet the manufacturers halfway and lower the barriers to entry  
+**\<byterubmooo>** jwinterm: ok, 3 still seems not good though, but I suppose beggars can't be choosers...  
 **\<tevador>** if one manufacturer is 2-3x more efficient that's exactly like a RandomX 'failure' situation, at least temporarily  
 **\<jwinterm>** at least four for decred - ffminer, bitmain, innosilicon, and obelisk  
 **\<sgp\_>** tevador: yes, I agree that the mere existence of ASICs isn't necessarily failure  
@@ -944,16 +944,16 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** jwinterm: Thanks for correcting me  
 **\<rbrunner>** Yeah, at some point PoW itself is a failure, even if that insight does not help much  
 **\<ferretinjapan>** sgp\_, SHA3 might not be the best though. Its just the "safest/easiest" right now.  
-**\<moneromooo>** ferretinjapan: for "ease of entry into ASIC manufacturer club" ? If you have better, feel free to list :)  
+**\<byterubmooo>** ferretinjapan: for "ease of entry into ASIC manufacturer club" ? If you have better, feel free to list :)  
 **\<sgp\_>** ferretinjapan: that's why I'm not for a set sunset date. We could say "switch to the best ASIC-friendly PoW algorithm" instead. But we would need to keep making resources for whatever that is to not be caught off-guard  
 **\<DaveyJones>** +1 ^  
-**\<ferretinjapan>** moneromooo, well, my money is on RandomX :P  
+**\<ferretinjapan>** byterubmooo, well, my money is on RandomX :P  
 **\<tevador>** WhatsMiner is about 2x more efficient than Bitmain at SHA256 at 16 nm, so it's not impossible to have one manufacturer dominate even a simple algorithm  
 **\<dEBRUYNE>** Arguably sha256 is relatively mroe complex though :p  
 **\<dEBRUYNE>** more\*  
 **\<nioc>** sgp +1  
 **\<ferretinjapan>** But that said, who knows, QC could put a monkey wrench in SHA3 for all I know, and 5 -10 years later, and we're back here again.  
-**\<moneromooo>** ph4r05: so {} inits to NULL for sure, right ?  
+**\<byterubmooo>** ph4r05: so {} inits to NULL for sure, right ?  
 **\<dEBRUYNE>** To sum up this point, people mostly prefer this course of action -> "RandomX -> Switch to SHA3 in case RandomX fails", where I suppose SHA3 can be substituted by "an asic friendly algorithm"  
 **\<sgp\_>** ferretinjapan: that's possible, which is why it's important to focus on the logic of the decisions rather than the specific implementations as much for these high-level discussions  
 **\<sgp\_>** dEBRUYNE: yes, I think that's mostly fair  
@@ -961,17 +961,17 @@ author: el00ruobuob / dEBRUYNE
 **\<rbrunner>** Agree more or less  
 **\<sech1>** yes, it doesn't have to be fixed at SHA3  
 **\<sgp\_>** I added a summary of our thoughts a little over a week ago here: https://github.com/byterubpay/meta/issues/316#issuecomment-472589586  
-**\<ph4r05>** moneromooo: to be sure, I set it to null now  
+**\<ph4r05>** byterubmooo: to be sure, I set it to null now  
 **\<ferretinjapan>** sgp\_, not that I think QCs will be viable for a long time (if ever) but if we wanted to hedge against the possibility, RandomX would probably be much better than SHA3.  
 **\<sgp\_>** You can substitute "SHA3" for "an ASIC-friendly algorithm" in it  
 **\<dEBRUYNE>** On an administrative note, would people like for me to open a new issue on Github where we can further discuss stuff?  
 **\<ferretinjapan>** Though I could be talking out my backside on that point...  
 **\<dEBRUYNE>** One thing I'd like to see a more in depth discussion on is how to classify failure of RandomX  
-**\<moneromooo>** Cool. It might well be it's for sure, I'm still confused by this construct :) Thanks.  
+**\<byterubmooo>** Cool. It might well be it's for sure, I'm still confused by this construct :) Thanks.  
 **\<hyc>** sure. new issue, summary from today  
 **\<sgp\_>** dEBRUYNE: I recommend focusing the discussion on more specific points. Possibly several issues. Eg: what if RandomX fails day 1 of implementation?  
 **\<sgp\_>** that way we can focus the discussions and cut through the general nonsense  
-**\<moneromooo>** Then gmaxwell gets to laugh mercilessly at us for months :P  
+**\<byterubmooo>** Then gmaxwell gets to laugh mercilessly at us for months :P  
 **\<dEBRUYNE>** The previous ticket had a pretty good signal to noise ratio tbh  
 **\<dEBRUYNE>** Until shortly before the end :p  
 **\<sgp\_>** dEBRUYNE: yes, the last week was useless :(  
@@ -981,7 +981,7 @@ author: el00ruobuob / dEBRUYNE
 **\<sgp\_>** fwiw, at the bottom of the chart I added "emergency tweak to break ASICs." I think we can have a good discussion about that  
 **\<sgp\_>** some more background:  
 **\<dEBRUYNE>** I'd like to conclude the meeting soon fwiw :-P  
-**\<sgp\_>** this situation would be triggered if 1) Monero implemented RandomX, and 2) Monero doesn't have a good ability for a quick ASIC-friendly turnaround  
+**\<sgp\_>** this situation would be triggered if 1) ByteRub implemented RandomX, and 2) ByteRub doesn't have a good ability for a quick ASIC-friendly turnaround  
 **\<dEBRUYNE>** I am goign to call an end to this meetings. Thanks all for coming and participating!  
 **\<dEBRUYNE>** I'll create a new Github issue tomorrow where we can further discuss some stuff in detail  
 **\<sgp\_>** Thanks dEBRUYNE for setting it up  

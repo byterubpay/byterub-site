@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-06-11
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-06-11
 summary: MRL work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -28,7 +28,7 @@ author: el00ruobuob / surae
 **\<endogenic>** i linked it earlier  
 **\<suraeNoether>** Let's see here, in addition to that, I have a script for a white-board video on cryptocurrencies that i am fleshing out. rehrar mentioned he would be willing to help when he gets back, and that could be fun and cool.  
 **\<binaryFate>** I was quite offline last 3 days, didn't see the twitter storm. It's constant-size in space, right? How does it scale for verification time?  
-**\<suraeNoether>**  in the meantime, i'm interested in doing a plausibility analysis of a RLWE-based version of Monero instead of a discrete logarithm-based version, but that's a longer-term thing. I've been taking notes on all the multisig papers i've been reading for a comprehensive literature review that i plan on publishing later this summer, too, and that's coming along nicely (although no links available yet)  
+**\<suraeNoether>**  in the meantime, i'm interested in doing a plausibility analysis of a RLWE-based version of ByteRub instead of a discrete logarithm-based version, but that's a longer-term thing. I've been taking notes on all the multisig papers i've been reading for a comprehensive literature review that i plan on publishing later this summer, too, and that's coming along nicely (although no links available yet)  
 **\<suraeNoether>** binaryFate: it's a lot slower  
 **\<suraeNoether>** same nubmer of exponentiations, but also a linear number of pairings operations  
 **\<binaryFate>** Ok. First time someone comes up with a constant-size scheme without any sort of setup no? Neat even if not usable for us  
@@ -42,7 +42,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** oh, i don't know yet, i just know that most of the frameworks are available to be assembled together carefully  
 **\<suraeNoether>** it's an interesting route of inquiry, but htat's all at this point  
 **\<binaryFate>** How does that relate to plausible deniability (if a ring remains a ring, just using different underlying math)  
-**\<suraeNoether>** binaryFate: the hope is merely to replicate all of monero's current capabilities in a setting where an adversary with a quantum computer is trying to peek in on amounts, or to cheat the system to mint money, or to try to forge signatures.  
+**\<suraeNoether>** binaryFate: the hope is merely to replicate all of byterub's current capabilities in a setting where an adversary with a quantum computer is trying to peek in on amounts, or to cheat the system to mint money, or to try to forge signatures.  
 **\<suraeNoether>** the signatures would still be ring signatures with plausible deniability as we currently have, just built with a scheme with a different hardness assumption  
 **\<suraeNoether>** there's almost no point in having ring signatures in that setting though, even if they are QC-resistant to forgery, becuase a QC computer can enumerate the spending tree and find true spenders very efficiently; a QC-resistant privacy-focused currency, I think, really has to be built on large-anon set technology  
 **\<suraeNoether>** otherwise you could use far less exotic QC-resistant signatures to accomplish the same deal  
@@ -55,10 +55,10 @@ author: el00ruobuob / surae
 **\<suraeNoether>** \</\\meeting  
 **\<suraeNoether>** \<.,>d;fhadlf  
 **\<oneiric\_>** lol, thanks for the information suraeNoether  
-**\<UkoeHB>** here is latest draft https://www.pdf-archive.com/2018/06/11/zero-to-monero-first-edition-v0-20-3/zero-to-monero-first-edition-v0-20-3.pdf  
+**\<UkoeHB>** here is latest draft https://www.pdf-archive.com/2018/06/11/zero-to-byterub-first-edition-v0-20-3/zero-to-byterub-first-edition-v0-20-3.pdf  
 **\<suraeNoether>** thanks UkoeHB   
 **\<suraeNoether>** and thanks to endogenic for throwing that link in earlier  
-**\<UkoeHB>** aiming to close proofreading sunday night, then PR getmonero, for publish ~1 week later  
+**\<UkoeHB>** aiming to close proofreading sunday night, then PR getbyterub, for publish ~1 week later  
 **\<UkoeHB>** unless proofreaders more time, then ill push it out  
 **\<oneiric\_>** really tremendous work coming out of the research lab, as always. much excite for 2018-2019!  
 **\<binaryFate>** thanks suraeNoether for the updates!  

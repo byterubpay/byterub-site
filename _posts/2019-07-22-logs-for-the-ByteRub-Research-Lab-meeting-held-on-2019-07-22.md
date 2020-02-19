@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-07-22
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-07-22
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -14,7 +14,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Let's move on to ROUNDTABLE  
 **\<sarang>** suraeNoether: care to begin?  
 **\<suraeNoether>** sure  
-**\<suraeNoether>** so this weekend i finally posted the konferenco post mortem report, the budget, and markdown'd all the things: https://www.reddit.com/r/Monero/comments/cfsc2m/suraes\_content\_dump\_konferenco\_post\_morto\_budget/  
+**\<suraeNoether>** so this weekend i finally posted the konferenco post mortem report, the budget, and markdown'd all the things: https://www.reddit.com/r/ByteRub/comments/cfsc2m/suraes\_content\_dump\_konferenco\_post\_morto\_budget/  
 **\<suraeNoether>** this includes my research report for the last quarter and my request for funding for Aug, Sep, Oct.  
 **\<suraeNoether>** And isthmus pointed out a property of zcash's shielded pool that i am capable of modeling with my matching simulations, so i've spent a few hours this past weekend trying to get those working (still a wip)  
 **\<suraeNoether>** that's all  
@@ -64,7 +64,7 @@ author: el00ruobuob / sarang
 **\<sarang>** 1. splitting Omniring proofs for better batching  
 **\<sarang>** 2. determining the feasibility/security of retaining key image structure in RCT3 to avoid an output pool split  
 **\<sarang>** And finalizing DEF CON material, of course  
-**\<sarang>** I'll be giving a talk and leading a workshop in the Monero village, as well as staffing an information table  
+**\<sarang>** I'll be giving a talk and leading a workshop in the ByteRub village, as well as staffing an information table  
 **\<sarang>** and also doing a panel discussion in the blockchain village  
 **\<sarang>** suraeNoether: your action items?  
 **\<suraeNoether>** uhm just working on sims  
@@ -79,7 +79,7 @@ author: el00ruobuob / sarang
 **\<kenshamir[m]>** \<sarang "Treating possible spend historie"> ohh right, this is very cool research  
 **\<sarang>** It's one possible metric to examine anonymity  
 **\<sarang>** (but certainly not a complete one)  
-**\<kenshamir[m]>** right, it would be interesting to see how much certainty you can produce from such a graph in terms of monero  
+**\<kenshamir[m]>** right, it would be interesting to see how much certainty you can produce from such a graph in terms of byterub  
 **\<sarang>** Initial estimates show that it's extremely low  
 **\<sarang>** but that assumes no external knowledge  
 **\<suraeNoether>** depends on the size, really.  
@@ -110,7 +110,7 @@ author: el00ruobuob / sarang
 **\<sgp\_>** Joining now and caught up, hello everyone. I agree this matching paper is top priority right now  
 **\<suraeNoether>** a smart churner selects the age they wait between churns from the wallet distribution. then all the outputs in the ring are drawn from the wallet distribution and no timing data is leaked at all  
 **\<kenshamir[m]>** Right, that makes sense  
-**\<suraeNoether>** but any sort of additional data like IP address or timing can be merged together into a big bayesian updating machine and you can develop pretty good (if probabilistic) behavior profiles of users. and this applies to zcash and monero  
+**\<suraeNoether>** but any sort of additional data like IP address or timing can be merged together into a big bayesian updating machine and you can develop pretty good (if probabilistic) behavior profiles of users. and this applies to zcash and byterub  
 **\<kenshamir[m]>** suraeNoether: do you mind going into some detail on how you are simulating?  
 **\<sarang>** So right now it's a balance between determining how many times to churn (to diffuse the graph) and how not to do it badly  
 **\<sarang>** To do this, we need better data (e.g. matching)  

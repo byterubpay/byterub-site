@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="false" version=page.version %}
 ## Operating Systems:  Windows, Linux, Mac
 
-- Retrieve your 25 word @mnemonic-seed that you saved when creating your old Monero @wallet
+- Retrieve your 25 word @mnemonic-seed that you saved when creating your old ByteRub @wallet
 
 ### Account Software:  monero-wallet-cli
 
@@ -18,7 +18,7 @@
 
 - Press enter again and you will be prompted for the 25 word electrum style mnemonic seed that you retrieved earlier
 
--  You will then be prompted with "Restore from specific blockchain height (optional, default 0):" Default will start the restore process from the beginning of the Monero blockchain. If you don't know the specific blockchain height, just hit enter. (Specifying a specific blockchain height will start the restore process from that specific height. This will save a bit of time in scanning, if you know what starting blockchain height your initial funds were transacted for this specific account.)
+-  You will then be prompted with "Restore from specific blockchain height (optional, default 0):" Default will start the restore process from the beginning of the ByteRub blockchain. If you don't know the specific blockchain height, just hit enter. (Specifying a specific blockchain height will start the restore process from that specific height. This will save a bit of time in scanning, if you know what starting blockchain height your initial funds were transacted for this specific account.)
 
 After you have entered the 25 word mnemonic seed and have chosen your specific blockchain height, monero-wallet-cli will generate the same public address and view key as your old wallet and begin the refresh process automatically. (Please be patient as the refresh process may take a while.)
 

@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Logs  
 
-**\<suraeNoether>** Hi everyone! fluffypony, knaccc, luigi1111, anonimal, binaryFate, dEBRUYNE, endogenic, gingeropolous, hyc, JollyMort[m], moneromooo, nioc, smooth, stoffu, vtnerd... anyone else I'm forgetting to ping?  
+**\<suraeNoether>** Hi everyone! fluffypony, knaccc, luigi1111, anonimal, binaryFate, dEBRUYNE, endogenic, gingeropolous, hyc, JollyMort[m], byterubmooo, nioc, smooth, stoffu, vtnerd... anyone else I'm forgetting to ping?  
 **\<hyc>** hola  
 **\<suraeNoether>** 2) I want someone to volunteer to put up meeting logs on either the byterubpay github or my personal github (which would end up on byterubpay after a few weeks) as well as maybe throwing up a vCal as sarang suggested. Anyone want to make this their "thing"? :P  
 **\<suraeNoether>** I can download my logs and upload all the past meetings tomorrow morning after I get home  
@@ -69,7 +69,7 @@ author: dEBRUYNE / fluffypony
 **\<andytoshi>** if you have a coordinating signer that knows the opening of the commitments (which is what it sounds like if it can make a rangeproof) then you can keep doing that with bulletproofs  
 **\<suraeNoether>** silur if you find a link i'd be curious  
 **\<andytoshi>** suraeNoether: in MW the rangeproof keys are used for authentication, that's all  
-**\<andytoshi>** but monero doesn't care about that  
+**\<andytoshi>** but byterub doesn't care about that  
 **\<suraeNoether>** yeah, i'm very ignorant about MW, so I'll change my wording above to "use cases we see in ByteRub right now" as opposed to cryptocurrency in general  
 **\<suraeNoether>** so, anyone else working on any research projects? After I'm done with multisig this month, I plan on going back to spectre and attempting some simulations on random networks  
 **\<suraeNoether>** but that's low priority now that multisig is sooo close.  
@@ -117,7 +117,7 @@ author: dEBRUYNE / fluffypony
 **\<knaccc>** suraeNoether yes  
 **\<andytoshi>** that's the inner product anyway. i haven't worked out the rangeproof, it'll add another small constant  
 **\<suraeNoether>** nice andytoshi  
-**\<knaccc>** ed25519 monero 10k timings  
+**\<knaccc>** ed25519 byterub 10k timings  
 **\<knaccc>** ge\_double\_scalarmult\_base\_vartime  2.282629  
 **\<knaccc>** ge\_scalarmult  2.462409  
 **\<knaccc>** ge\_scalarmult\_base  1.498808  

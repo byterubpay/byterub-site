@@ -9,20 +9,20 @@ author: el00ruobuob / SamsungGalaxyPlayer
 # Logs  
 
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/323  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<parasew[m]>** hello!  
 **\<sgp\_>** huge crowd of 3 people today :p  
 **\<sgp\_>** 2. Community highlights  
 **\<ErCiccione[m]>** 4!  
 **\<dEBRUYNE>** Here too  
-**\<sgp\_>** The Tor project now accepts Monero donations: https://donate.torproject.org/cryptocurrency  
+**\<sgp\_>** The Tor project now accepts ByteRub donations: https://donate.torproject.org/cryptocurrency  
 **\<rehrar>** oh, I'm here  
-**\<sgp\_>** OsrsNeedF2P made an on-chain Monero tip bot, currently only for testnet: https://www.reddit.com/r/MoneroTipsBot/wiki/index  
+**\<sgp\_>** OsrsNeedF2P made an on-chain ByteRub tip bot, currently only for testnet: https://www.reddit.com/r/ByteRubTipsBot/wiki/index  
 **\<rehrar>** sgp\_: just link to the revuo  
-**\<sgp\_>** Monero was listed on KuCoin: https://www.kucoin.com/news/en-monero-xmr-gets-listed-on-kucoin  
+**\<sgp\_>** ByteRub was listed on KuCoin: https://www.kucoin.com/news/en-byterub-xmr-gets-listed-on-kucoin  
 **\<rehrar>** it has everything you just said  
 **\<sgp\_>** oh yeah  
 **\<sgp\_>** rehrar started this initiative  
@@ -31,7 +31,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** but there are also weekly issues  
 **\<ErCiccione[m]>** rehrar: will the new repo be uploaded on the old repo of the revuo in the Ecosystem Project?  
 **\<ErCiccione[m]>** Because right now that repo is basically dead  
-**\<sgp\_>** http://revuo-monero.com/weekly-issue.html  
+**\<sgp\_>** http://revuo-byterub.com/weekly-issue.html  
 **\<sgp\_>** rehrar: is https still broken?  
 **\<rehrar>** oop, forgot to set it up  
 **\<rehrar>** you could be getting fed an illegitimate revuo  
@@ -44,19 +44,19 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** Ok, let me know rehrar. i think would be good to have both there at this point  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
 **\<sgp\_>** 3. CCS updates (previously FFS updates)  
-**\<sgp\_>** rehrar made a few updates to the CCS after receiving some feedback. Check it out at https://ccs.getmonero.org  
+**\<sgp\_>** rehrar made a few updates to the CCS after receiving some feedback. Check it out at https://ccs.getbyterub.org  
 **\<rehrar>** geez, so far it's the rehrar show. Did any of you guys do anything this week?  
 **\<rehrar>** I jest. Relax.  
 **\<sgp\_>** CCS proposals still needing funding:  
-**\<sgp\_>** v1docq47: video creation / translations into russian (february – july) (0.29/46.8 XMR): https://ccs.getmonero.org/proposals/v1docq47-video-creation-translations-into-russian-(february-july).html  
-**\<sgp\_>** Surae Funding for Q2 2019 (156.05/618 XMR): https://ccs.getmonero.org/proposals/surae-mrl-research-q2-2019.html  
-**\<sgp\_>** moneromooo coding, april 2019 (266.60/410 XMR): https://ccs.getmonero.org/proposals/mooo-2019-04.html  
-**\<sgp\_>** Sarang: research funding for 2019 Q2 (423.93/638 XMR): https://ccs.getmonero.org/proposals/sarang-2019-q2.html  
-**\<sgp\_>** Defcon Monero Party 2019 (14.29/57 XMR): https://ccs.getmonero.org/proposals/pwrcycle-Defcon\_Monero\_Party\_2019.html  
-**\<sgp\_>** el00ruobuob: JANUARY TO MARCH (PART TIME FOR A NEW QUARTER) (16.66/45 XMR): https://ccs.getmonero.org/proposals/el00ruobuob-january-to-march-part-time-for-a-new-quarter.html  
+**\<sgp\_>** v1docq47: video creation / translations into russian (february – july) (0.29/46.8 XMR): https://ccs.getbyterub.org/proposals/v1docq47-video-creation-translations-into-russian-(february-july).html  
+**\<sgp\_>** Surae Funding for Q2 2019 (156.05/618 XMR): https://ccs.getbyterub.org/proposals/surae-mrl-research-q2-2019.html  
+**\<sgp\_>** byterubmooo coding, april 2019 (266.60/410 XMR): https://ccs.getbyterub.org/proposals/mooo-2019-04.html  
+**\<sgp\_>** Sarang: research funding for 2019 Q2 (423.93/638 XMR): https://ccs.getbyterub.org/proposals/sarang-2019-q2.html  
+**\<sgp\_>** Defcon ByteRub Party 2019 (14.29/57 XMR): https://ccs.getbyterub.org/proposals/pwrcycle-Defcon\_ByteRub\_Party\_2019.html  
+**\<sgp\_>** el00ruobuob: JANUARY TO MARCH (PART TIME FOR A NEW QUARTER) (16.66/45 XMR): https://ccs.getbyterub.org/proposals/el00ruobuob-january-to-march-part-time-for-a-new-quarter.html  
 **\<sgp\_>** Funds short for all of these: 936.98 XMR (about 45,000 USD)  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** Monero Outreach quarterly and ongoing task funding (asking 84 XMR: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/45  
+**\<sgp\_>** ByteRub Outreach quarterly and ongoing task funding (asking 84 XMR: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/45  
 **\<rehrar>** oh wait no  
 **\<rehrar>** that's not for discussion  
 **\<rehrar>** that belongs in WiP but something needs to be changed  
@@ -68,11 +68,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 4. Workgroup report  
 **\<sgp\_>** a. Localization workgroup  
 **\<ErCiccione[m]>** So,  
-**\<ErCiccione[m]>** Few big news: we have 8 new languages open for translations on Pootle. I explained why i think that's important on reddit https://www.reddit.com/r/Monero/comments/b5d5xg/gui\_wallet\_translatable\_in\_8\_new\_languages\_new/  
-**\<monerobux>** [REDDIT] GUI Wallet translatable in 8 new languages + New guide for Pootle available (self.Monero) | 18 points (87.0%) | 3 comments | Posted by ErCiccione | Created at 2019-03-25 - 16:55:12  
-**\<ErCiccione[m]>** I made a guide with screenshots for pootle: https://github.com/monero-ecosystem/monero-translations/blob/master/pootle.md  
+**\<ErCiccione[m]>** Few big news: we have 8 new languages open for translations on Pootle. I explained why i think that's important on reddit https://www.reddit.com/r/ByteRub/comments/b5d5xg/gui\_wallet\_translatable\_in\_8\_new\_languages\_new/  
+**\<byterubbux>** [REDDIT] GUI Wallet translatable in 8 new languages + New guide for Pootle available (self.ByteRub) | 18 points (87.0%) | 3 comments | Posted by ErCiccione | Created at 2019-03-25 - 16:55:12  
+**\<ErCiccione[m]>** I made a guide with screenshots for pootle: https://github.com/byterub-ecosystem/byterub-translations/blob/master/pootle.md  
 **\<ErCiccione[m]>** I've also been contacted by some kind of organziation who laims to provide translations for free to project they consider worthy  
-**\<ErCiccione[m]>** So, at the moment there should be a team working on translating entirely getmonero.org to turkis  
+**\<ErCiccione[m]>** So, at the moment there should be a team working on translating entirely getbyterub.org to turkis  
 **\<ErCiccione[m]>** The chinese translation of the website is going slow, but i found another person willing to contribute, this will hopefully speed things up  
 **\<ErCiccione[m]>** Next steps for the workgroup:  
 **\<ErCiccione[m]>** Translate as many languages as possible for next GUI release is the first priority, when that is done i will focus on improve pootle and integrate more projects  
@@ -85,11 +85,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** Fin.  
 **\<dsc\_>** GUI update  
 **\<dsc\_>** Currently I'm implementing a white theme for the GUI. Will take a while to complete (ETA: 2 weeks). I also finished a redesign of the history page, now called transactions. Not only does it perform well when the user has a lot of historic data, it's also an improvement to UX.  
-**\<dsc\_>** kneuffelbund, designer of the GUI, did some IRL testing with \*real\* people and made notes. He is now designing/tweaking the wizards. https://github.com/byterubpay/monero-gui/issues/2040  
-**\<dsc\_>** Me, Selsta and rbrunner7 worked on `monero://` URI support on Windows/Linux/OSX. Selsta is working on xmr\<->fiat conversions and xiphon is afaik. working on a decentralized node-o-matic.  
+**\<dsc\_>** kneuffelbund, designer of the GUI, did some IRL testing with \*real\* people and made notes. He is now designing/tweaking the wizards. https://github.com/byterubpay/byterub-gui/issues/2040  
+**\<dsc\_>** Me, Selsta and rbrunner7 worked on `byterub://` URI support on Windows/Linux/OSX. Selsta is working on xmr\<->fiat conversions and xiphon is afaik. working on a decentralized node-o-matic.  
 **\<dsc\_>** Currently we are investigating a migration to Qt 5.9.7, which should give \*some\* extra performance and allow us to use newer Qt features.  
 **\<dsc\_>** After next point release, I will most likely focus on either i2p/tor integrations or android support.  
-**\<sgp\_>** since when is "a while" in Monero "two weeks?" :p  
+**\<sgp\_>** since when is "a while" in ByteRub "two weeks?" :p  
 **\<dsc\_>** I actually expect 1 week but I did +1 week because you know... :P  
 **\<sgp\_>** all these things look cool  
 **\<sgp\_>** which of these are expected for 0.14.1?  
@@ -98,7 +98,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** sgp\_: history page, uri support will make it for sure.  
 **\<dsc\_>** White theme is a rather big change, dont think we want to rush it. Needs to be tested extensively.  
 **\<sgp\_>** Any other questions or other workgroup updates?  
-**\<parasew[m]>** vienna/austria monero is planning a larger meetup and event for "5 years of monero"  
+**\<parasew[m]>** vienna/austria byterub is planning a larger meetup and event for "5 years of byterub"  
 **\<sgp\_>** Wow, that is coming up  
 **\<parasew[m]>** also a few peeps are meeting regularly from now on to work, but more as a closed group rather than as a meetup. m2049r, parasew, nevvton, txmr have been meeting about this yesterday.  
 **\<ErCiccione[m]>** Would be cool to organize some kind of online event for the 5 years  
@@ -127,7 +127,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** sarang: I think now is a good time  
 **\<sarang>** Sure  
 **\<ErCiccione[m]>** Alright  
-**\<sarang>** There had been informal talk a while back about Loki Foundation, an Australian charity supporting the Loki project (a Monero fork), wanting to support MRL research  
+**\<sarang>** There had been informal talk a while back about Loki Foundation, an Australian charity supporting the Loki project (a ByteRub fork), wanting to support MRL research  
 **\<sarang>** The Foundation has offered to complete the rest of my CCS fundraising externally (i.e. not through CCS directly)  
 **\<sarang>** So, unless there are major objections, I'll be asking CCS admins to "freeze" the CCS at its current level, after which the foundation will complete the remaining amount  
 **\<sarang>** This lowers the community burden without changing any of my research goals, methods, or reporting  
@@ -142,17 +142,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** oops not that  
 **\<sgp\_>** 5. Open ideas time  
-**\<dsc\_>** I have VMs available for any Monero contributor/workgroup. Currently I'm offering hosting services for a couple of XMR workgroups. Hit me up if interested.  
+**\<dsc\_>** I have VMs available for any ByteRub contributor/workgroup. Currently I'm offering hosting services for a couple of XMR workgroups. Hit me up if interested.  
 **\<sgp\_>** It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
 **\<sgp\_>** Any ideas to talk about, or are we all thinking about the birthday party  
-**\<jwinterm>** did anyone watch the italian guy monerotalk episode?  
+**\<jwinterm>** did anyone watch the italian guy byterubtalk episode?  
 **\<sgp\_>** not yet  
 **\<jwinterm>** re: voting on the blockchain  
 **\<sgp\_>** I want ErCiccione[m]'s thoughts on it!  
 **\<ErCiccione[m]>** ehm ehm: That's bullshit  
 **\<jwinterm>** I saw his comment, and someone had previously asked me what I thought about voting system, perhaps that it could be used in cases of contentious outcomes to ffs proposals  
-**\<ErCiccione[m]>** https://www.reddit.com/r/Monero/comments/b7bj7b/monero\_talk\_live\_in\_10\_min\_a\_chat\_w\_vincenzo\_di/ejqs2c4/  
-**\<monerobux>** [REDDIT] Monero Talk LIVE in 10 min! A chat w/ Vincenzo Di Nicola to discuss the Italian government’s testing of an online blockchain voting system built on Monero! (https://www.youtube.com/c/monerotalk) to r/Monero | 10 points (92.0%) | 4 comments | Posted by sunchakr | Created at 2019-03-30 - 13:55:24  
+**\<ErCiccione[m]>** https://www.reddit.com/r/ByteRub/comments/b7bj7b/byterub\_talk\_live\_in\_10\_min\_a\_chat\_w\_vincenzo\_di/ejqs2c4/  
+**\<byterubbux>** [REDDIT] ByteRub Talk LIVE in 10 min! A chat w/ Vincenzo Di Nicola to discuss the Italian government’s testing of an online blockchain voting system built on ByteRub! (https://www.youtube.com/c/byterubtalk) to r/ByteRub | 10 points (92.0%) | 4 comments | Posted by sunchakr | Created at 2019-03-30 - 13:55:24  
 **\<jwinterm>** like i2p one for isntance, with stake holders voting how to wind it down  
 **\<sarang>** They contacted me with questions about voting ideas  
 **\<ErCiccione[m]>** They are just doing political propaganda. They have nothing, just making announcements and getting press attention.  
@@ -178,8 +178,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 13 April at 17:00 UTC.  
 **\<sgp\_>** There is a Coffee Chat next week on 6 April at 16:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 7. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<ErCiccione[m]>** Thank you everybody  
 **\<parasew[m]>** bye everybody! talk soon!  

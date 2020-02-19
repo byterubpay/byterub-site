@@ -2,11 +2,11 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # monero-wallet-cli
 
-`monero-wallet-cli` is the wallet software that ships with the Monero tree. It is a console program,
+`monero-wallet-cli` is the wallet software that ships with the ByteRub tree. It is a console program,
 and manages an account. While a bitcoin wallet manages both an account and the blockchain,
-Monero separates these: `monerod` handles the blockchain, and `monero-wallet-cli` handles the account.
+ByteRub separates these: `monerod` handles the blockchain, and `monero-wallet-cli` handles the account.
 
-This guide will show how to perform various operations from the `monero-wallet-cli` UI. The guide assumes you are using the most recent version of Monero and have already created an account according to the other guides.
+This guide will show how to perform various operations from the `monero-wallet-cli` UI. The guide assumes you are using the most recent version of ByteRub and have already created an account according to the other guides.
 
 
 ## Checking your balance
@@ -55,13 +55,13 @@ Replace `RINGSIZE` with the number of outputs you wish to use. **If not specifie
 
 ## Receiving monero
 
-If you have your own Monero address, you just need to give your standard address to someone.
+If you have your own ByteRub address, you just need to give your standard address to someone.
 
 You can find out your address with:
 
     address
 
-Since Monero is anonymous, you won't see the origin address the funds you receive came from. If you
+Since ByteRub is anonymous, you won't see the origin address the funds you receive came from. If you
 want to know, for instance to credit a particular customer, you'll have to tell the sender to use
 a payment ID, which is an arbitrary optional tag which gets attached to a transaction. To make life
 easier, you can generate an address that already includes a random payment ID:
@@ -81,7 +81,7 @@ with that payment id attached, so you can tell payments apart.
 
 If you pay a merchant, and the merchant claims to not have received the funds, you may need
 to prove to a third party you did send the funds - or even to the merchant, if it is a honest
-mistake. Monero is private, so you can't just point to your transaction in the blockchain,
+mistake. ByteRub is private, so you can't just point to your transaction in the blockchain,
 as you can't tell who sent it, and who received it. However, by supplying the per-transaction
 private key to a party, that party can tell whether that transaction sent monero to that
 particular address. Note that storing these per-transaction keys is disabled by default, and

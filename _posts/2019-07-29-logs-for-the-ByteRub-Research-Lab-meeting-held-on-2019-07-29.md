@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-07-29
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-07-29
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -33,7 +33,7 @@ author: el00ruobuob / sarang
 **\<sarang>** -\_\_\_\_-  
 **\<suraeNoether>** i've proven all the theorems necessary to prove that the algorithm in graphtheory.py does what i claim it does, and i'm currently testing that my simulated ledgers are doing what i expect.  
 **\<sarang>** noice  
-**\<sarang>** Will be very neat to see the results, and to see if/how they can work with the analysis that Isthmus et al. are doing on Monero and Zcash  
+**\<sarang>** Will be very neat to see the results, and to see if/how they can work with the analysis that Isthmus et al. are doing on ByteRub and Zcash  
 **\<suraeNoether>** in addition to that, i have a bunch of MAGIC stuff I need to get done, and my discussions with isthmus' digital forensics work are leaning in that direction  
 **\<suraeNoether>** i'm thinking the content of this project may take up more than two papers :\\  
 **\<sarang>** Cool!  
@@ -41,7 +41,7 @@ author: el00ruobuob / sarang
 **\<sarang>** kenshamir[m] has also been working on a Rust implementation of CLSAG/MLSAG using the dalek library  
 **\<suraeNoether>** hyc: i hear grasshoppers are delicious, i wonder if any of those fancy vegas michelin star restaurants are capitalizing on the swarm  
 **\<sarang>** Anything you'd like to share on that, kenshamir[m] ?  
-**\<kenshamir[m]>** Hi, the library is finished, not interopable with monero because it uses a different curve though. The numbers are quite impressive and I believe it is due to the way cLSAG was created  
+**\<kenshamir[m]>** Hi, the library is finished, not interopable with byterub because it uses a different curve though. The numbers are quite impressive and I believe it is due to the way cLSAG was created  
 **\<sarang>** aw shucks  
 **\<sarang>** Will be great to see your MLSAG vs CLSAG numbers at different ring sizes  
 **\<suraeNoether>** i believe there was a question re: ristretto and multi-exp like pippenger right before the meeting that would be relevant here?  
@@ -84,7 +84,7 @@ author: el00ruobuob / sarang
 **\<gingeropolous>** but its not perfect  
 **\<dEBRUYNE>** hyc: Yeah in general, summer constitutes low activity  
 **\<sarang>** It's good for inspiring confidence, as well as the obvious benefits of catching any errors  
-**\<kenshamir[m]>** Can Monero benefit from using bulletproofs for arithmetic circuits?  
+**\<kenshamir[m]>** Can ByteRub benefit from using bulletproofs for arithmetic circuits?  
 **\<dEBRUYNE>** gingeropolous: Didn't we discuss that kind of model for Bulletproofs or RingCT too?  
 **\<sarang>** Likely not, with our current tx model  
 **\<gingeropolous>** yeah dEBRUYNE  

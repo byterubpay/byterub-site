@@ -6,7 +6,7 @@ Descarga la blockchain actual de https://downloads.getmonero.org/blockchain.raw;
 
 ### Paso 2
 
-Busca la dirección de tu monedero de Monero (la carpeta donde has extraído tu monedero). Por ejemplo:
+Busca la dirección de tu monedero de ByteRub (la carpeta donde has extraído tu monedero). Por ejemplo:
 
 `D:\monero-gui-0.10.3.1`
 
@@ -26,7 +26,7 @@ Abre una consola de comandos. Puedes hacerlo presionando Windows+R y escribiendo
 
 ### Paso 5
 
-Ahora necesitas ir desde la consola a la dirección de tu monedero de Monero. Puedes hacer esto escribiendo:
+Ahora necesitas ir desde la consola a la dirección de tu monedero de ByteRub. Puedes hacer esto escribiendo:
 
 `cd C:\DIRECCIÓN\DEL\ARCHIVO\DE\TU\MONEDERO`
 
@@ -34,7 +34,7 @@ Se debería ver como:
 
 `cd D:\monero-gui-0.10.3.1`
 
-Si tu monedero de Monero está en otro disco, puedes utilizar `DriveLetter:`. Por ejemplo, si tu monedero está en el disco D, entones antes de utilizar el comando `cd` debes escribir `D:`.
+Si tu monedero de ByteRub está en otro disco, puedes utilizar `DriveLetter:`. Por ejemplo, si tu monedero está en el disco D, entones antes de utilizar el comando `cd` debes escribir `D:`.
 
 ### Paso 6
 

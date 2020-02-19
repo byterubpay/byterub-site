@@ -1,10 +1,10 @@
 global:
   date: '%Y/%m/%d'
-  monero: ByteRub
+  byterub: ByteRub
   getting_started: Aan de slag
   copyright: Copyright
-  monero_project: Het ByteRubPay
-  sitename: getmonero.org, het ByteRubPay
+  byterub_project: Het ByteRubPay
+  sitename: getbyterub.org, het ByteRubPay
   wiki: ByteRubpedia
   tags: Artikelen per tag
   wikimeta: in de ByteRubpedia, de open encyclopedie van ByteRub-knowhow
@@ -22,7 +22,7 @@ global:
 
 titles:
   index: Start
-  whatismonero: Wat is ByteRub (XMR)?
+  whatisbyterub: Wat is ByteRub (XMR)?
   using: ByteRub gebruiken
   accepting: ByteRub accepteren
   contributing: ByteRub verbeteren
@@ -38,11 +38,11 @@ titles:
   about: Over ByteRub
   roadmap: Planning
   researchlab: ByteRub Research Lab
-  moneropedia: ByteRubpedia
+  byterubpedia: ByteRubpedia
   userguides: Gebruikershandleidingen
   developerguides: Handleidingen voor ontwikkelaars
   technicalspecs: Technische specificaties
-  themoneroproject: Het ByteRubPay
+  thebyterubproject: Het ByteRubPay
   presskit: ByteRub Press Kit
   legal: Juridisch
   ffs: Forum Funding System
@@ -59,19 +59,19 @@ index:
 
 home:
   heading2: Vertrouwelijke digitale valuta
-  monero_is_cash: ByteRub is contant geld voor een verbonden wereld. Het is snel, vertrouwelijk en veilig. Met ByteRub ben je je eigen bank. Je kunt het veilig uitgeven, want niemand anders kan je saldo bekijken of je activiteit volgen.
+  byterub_is_cash: ByteRub is contant geld voor een verbonden wereld. Het is snel, vertrouwelijk en veilig. Met ByteRub ben je je eigen bank. Je kunt het veilig uitgeven, want niemand anders kan je saldo bekijken of je activiteit volgen.
   get_started: Aan de slag
-  why_monero_is_different: Wat ByteRub anders maakt
-  monero_is_secure: ByteRub is veilig
-  monero_is_secure_para: ByteRub is een gedecentraliseerde cryptovaluta, een veilige vorm van digitaal geld, beheerd door een netwerk van gebruikers. Transacties worden bevestigd door verspreide consensus en vervolgens onveranderlijk vastgelegd op de blockchain. Je hoeft geen derde partijen te vertrouwen om je ByteRub veilig te bewaren.
-  monero_is_private: ByteRub is vertrouwelijk
-  monero_is_private_para: ByteRub gebruikt ring-handtekeningen, vertrouwelijke ring-transacties en verborgen adressen om de herkomst, bedragen en bestemmingen van alle transacties te verbergen. ByteRub biedt alle voordelen van een gedecentraliseerde cryptovaluta, zonder de gebruikelijke nadelen op het gebied van privacy.
-  monero_is_untraceable: ByteRub is onvolgbaar
-  monero_is_untraceable_para: Zowel verzendende en ontvangende adressen als overgemaakte bedragen worden standaard versleuteld. Transacties op de ByteRub-blockchain kunnen niet aan een bepaalde gebruiker of identiteit worden gekoppeld.
-  monero_is_fungible: ByteRub is inwisselbaar
-  monero_is_fungible_para1: ByteRub is
-  monero_is_fungible_para2: inwisselbaar
-  monero_is_fungible_para3: (fungibel) omdat het standaard vertrouwelijk is. Er kunnen niet bepaalde eenheden ByteRub worden geblokkeerd door verkopers of exchanges omdat ze betrokken waren bij eerdere transacties.
+  why_byterub_is_different: Wat ByteRub anders maakt
+  byterub_is_secure: ByteRub is veilig
+  byterub_is_secure_para: ByteRub is een gedecentraliseerde cryptovaluta, een veilige vorm van digitaal geld, beheerd door een netwerk van gebruikers. Transacties worden bevestigd door verspreide consensus en vervolgens onveranderlijk vastgelegd op de blockchain. Je hoeft geen derde partijen te vertrouwen om je ByteRub veilig te bewaren.
+  byterub_is_private: ByteRub is vertrouwelijk
+  byterub_is_private_para: ByteRub gebruikt ring-handtekeningen, vertrouwelijke ring-transacties en verborgen adressen om de herkomst, bedragen en bestemmingen van alle transacties te verbergen. ByteRub biedt alle voordelen van een gedecentraliseerde cryptovaluta, zonder de gebruikelijke nadelen op het gebied van privacy.
+  byterub_is_untraceable: ByteRub is onvolgbaar
+  byterub_is_untraceable_para: Zowel verzendende en ontvangende adressen als overgemaakte bedragen worden standaard versleuteld. Transacties op de ByteRub-blockchain kunnen niet aan een bepaalde gebruiker of identiteit worden gekoppeld.
+  byterub_is_fungible: ByteRub is inwisselbaar
+  byterub_is_fungible_para1: ByteRub is
+  byterub_is_fungible_para2: inwisselbaar
+  byterub_is_fungible_para3: (fungibel) omdat het standaard vertrouwelijk is. Er kunnen niet bepaalde eenheden ByteRub worden geblokkeerd door verkopers of exchanges omdat ze betrokken waren bij eerdere transacties.
   downloads: Downloads
   downloads_windows: ByteRub voor Windows
   downloads_mac: ByteRub voor Mac
@@ -81,9 +81,9 @@ home:
   view_all_downloads: Bekijk hier alle beschikbare downloads.
   latest_news: Laatste nieuws
   more_news: Meer nieuws
-  moneropedia: ByteRubpedia
-  moneropedia_para: Wil je de betekenissen van termen en begrippen die in ByteRub worden gebruikt opzoeken? Hier vind je een uitleg in alfabetische volgorde van termen die in de projecten ByteRub en Kovri worden gebruikt.
-  moneropedia_button: ByteRubpedia lezen
+  byterubpedia: ByteRubpedia
+  byterubpedia_para: Wil je de betekenissen van termen en begrippen die in ByteRub worden gebruikt opzoeken? Hier vind je een uitleg in alfabetische volgorde van termen die in de projecten ByteRub en Kovri worden gebruikt.
+  byterubpedia_button: ByteRubpedia lezen
   user_guides: Gebruikershandleidingen
   user_guides_para: Stapsgewijze instructies verdeeld in categoriëen voor allerlei ByteRub-gerelateerde onderwerpen, van het aanmaken van een portemonnee tot het ondersteunen van het netwerk, en zelfs hoe je deze website bewerkt.
   user_guides_button: Gebruikershandleidingen lezen
@@ -98,27 +98,27 @@ hangouts:
   irc: IRC-kanalen
   irc_para: De ByteRub-community gebruikt allerlei IRC-kanalen, voor verschillende doelen. Sommige zijn bedoeld voor werkoverleg, sommige gewoon om te chatten. Hieronder staan de populairste kanalen.
   irc_channels:
-  - kanaal: monero
+  - kanaal: byterub
     description: In dit kanaal bespreken we alle ByteRub-gerelateerde zaken.
-  - channel: monero-community
+  - channel: byterub-community
     description: Hier komt de ByteRub-community bijeen en worden ideeën besproken.
-  - channel: monero-dev
+  - channel: byterub-dev
     description: Hier bespreken onze vele bijdragers en ontwikkelaars het ontwikkelen van ByteRub.
-  - channel: monero-markets
+  - channel: byterub-markets
     description: Hier wordt de prijs van ByteRub en andere coins besproken.
-  - channel: monero-offtopic
+  - channel: byterub-offtopic
     description: Hier kun je met andere ByteRub-gebruikers chatten over dingen die niet met ByteRub te maken hebben.
-  - channel: monero-otc
+  - channel: byterub-otc
     description: OTC = over the counter. Hier kun je onderhands XMR kopen of verkopen.
-  - channel: monero-pools
+  - channel: byterub-pools
     description: Dit is de plek voor vragen en discussie over minen.
-  - channel: monero-research-lab
+  - channel: byterub-research-lab
     description: Onderzoek naar financiële privacy met cryptovaluta.
-  - channel: monero-translations
+  - channel: byterub-translations
     description: Over het lokaliseren van ByteRub in andere talen.
-  - channel: monero-hardware
+  - channel: byterub-hardware
     description: Hardware wallets maken om je ByteRub veilig te bewaren.
-  - channel: monero-site
+  - channel: byterub-site
     description: Where the development of this website is coordinated
   - channel: kovri
     description: In dit kanaal bespreken we alle Kovri-gerelateerde zaken.
@@ -133,7 +133,7 @@ merchants:
     "Disclaimer: deze links worden uitsluitend aangeboden ter informatie en voor het gemak van de lezer; ze vormen geen goedkeuring door de ByteRub-community van enige producten, diensten of standpunten van de vermelde bedrijven, organisaties en personen. De ByteRub-community is niet aansprakelijk voor de juistheid, de wettigheid of de inhoud van deze externe websites. Neem contact op met de beheerder van een externe website voor vragen over de inhoud ervan. Volg altijd het principe *caveat emptor* (let op, koper): je bent zelf verantwoordelijk voor het controleren van verkopers. Wees altijd voorzichtig bij het doen van aankopen op internet."
 
 sponsorships:
-  intro: De volgende bedrijven ondersteunen het ByteRubPay om ons te helpen financiële privacy voor iedereen mogelijk te maken. We zijn dankbaar voor hun bijdragen. Stuur een e-mail naar dev@getmonero.org als je het ByteRubPay wilt sponsoren en op deze pagina vermeld wilt worden.
+  intro: De volgende bedrijven ondersteunen het ByteRubPay om ons te helpen financiële privacy voor iedereen mogelijk te maken. We zijn dankbaar voor hun bijdragen. Stuur een e-mail naar dev@getbyterub.org als je het ByteRubPay wilt sponsoren en op deze pagina vermeld wilt worden.
 
 team:
   core: Kernteam
@@ -180,8 +180,8 @@ downloads:
   helpsupport: Help and Support
   helpsupport1: "A guide with an explanation of every section of the wallet is available:"
   helpsupport2: "See latest release"
-  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #monero-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
-  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #monero or #monero-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #byterub-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #byterub or #byterub-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
   localremote: Local or remote node
   localremote1: Use your own copy of the blockchain or a publicly available one
   transacttor: Transactions over Tor/I2P
@@ -195,7 +195,7 @@ downloads:
   verify: Verify
   verify1: You are strongly advised to verify the hashes of the archive you downloaded. This will confirm that the files you downloaded perfectly match the files uploaded by the ByteRub development workgroup. Please don't underestimate this step, a corrupted archive could result in lost funds. Always verify your downloads!
   showhash: Show hashes to verify your download
-  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getmonero.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
+  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getbyterub.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
   showhash2: in the source code
   showhash3: "Two guides are available to guide you through the verification process:"
   hardware1: The ByteRub community has funded a
@@ -232,19 +232,19 @@ press-kit:
   - category: Persmap
     publications:
     - name: "Quick-Facts Sheet"
-      url_file: "http://www.monerooutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
+      url_file: "http://www.byteruboutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
       abstract: >
         Een vlot leesbaar document waarin de hoofdpunten van ByteRub worden uitgelegd: geschiedenis, unieke eigenschappen, technische basis en functies die nog worden ontwikkeld.<br>
-        Zie de website <a target="_blank" href="https://www.monerooutreach.org/index.php">ByteRub Outreach</a> voor meer informatie.
+        Zie de website <a target="_blank" href="https://www.byteruboutreach.org/index.php">ByteRub Outreach</a> voor meer informatie.
   marketing:
   - category: Marketing Material
     publications:
     - name: "The 'Don't buy ByteRub' sticker"
-      url_file: "https://github.com/monero-ecosystem/dont-buy-monero-sticker"
+      url_file: "https://github.com/byterub-ecosystem/dont-buy-byterub-sticker"
       abstract: >
         Spread ByteRub everywhere with the help of this sticker. Available in multiple languages and formats (vectors included).
     - name: Guerrilla Toolkit
-      url_file: "https://www.monerooutreach.org/guerrilla-toolkit.php"
+      url_file: "https://www.byteruboutreach.org/guerrilla-toolkit.php"
       abstract: >
         A document created by the ByteRub Outreach workgroup containing materials and tips for an effective guerrilla marketing campaign.
 
@@ -254,15 +254,15 @@ accepting:
   basics_para1: ByteRub werkt anders dan je misschien gewend bent van andere cryptovaluta (zie @cryptocurrencies). Voor digitale valuta zoals Bitcoin en de vele altcoins die daarvan zijn afgeleid maken betalingssystemen voor verkopers meestal een nieuw ontvangstadres (@address) voor iedere betaling of gebruiker.
   basics_para2: Maar omdat ByteRub @stealth-addresses heeft, is het niet nodig om afzonderlijke ontvangstadressen te gebruiken voor elke betaling of gebruiker. Je kunt gewoon één adres als rekening (@account) publiceren. Verkopers die betalingen ontvangen geven de klant een "betalings-ID".
   basics_para3: "Een @payment-ID is een hexadecimale tekenreeks van 64 tekens, die normaal gesproken door de verkoper wordt gegenereerd. Een voorbeeld van een betalings-ID is:"
-  controleren: Een betaling opzoeken in monero-wallet-cli
-  checking: Checking for a Payment in monero-wallet-cli
+  controleren: Een betaling opzoeken in byterub-wallet-cli
+  checking: Checking for a Payment in byterub-wallet-cli
   checking_para1: |
-    Als je een betaling wilt opzoeken met monero-wallet-cli, gebruik je de opdracht "payments" gevolgd door de betalings-ID(s) die je wilt opzoeken. Bijvoorbeeld:
+    Als je een betaling wilt opzoeken met byterub-wallet-cli, gebruik je de opdracht "payments" gevolgd door de betalings-ID(s) die je wilt opzoeken. Bijvoorbeeld:
   checking_para2: Uitleg van het geautomatiseerd opzoeken van betalingen volgt hieronder.
   receiving: Stap voor stap een betaling ontvangen
   receiving_list1: Genereer een willekeurige hexadecimale tekenreeks van 64 tekens voor de betaling.
   receiving_list2: Geef de betalings-ID en het ByteRub-adres door aan de persoon door wie je wordt betaald.
-  receiving_list3: Zoek de betaling op met de opdracht "payments" in monero-wallet-cli.
+  receiving_list3: Zoek de betaling op met de opdracht "payments" in byterub-wallet-cli.
   program: Een betaling geautomatiseerd opzoeken
   program_para1: Om met een script een betaling op te zoeken, gebruik je de JSON RPC API call get_payments of get_bulk_payments.
   program_para2: vereist de parameter payment_id met één betalings-ID.
@@ -286,7 +286,7 @@ contributing:
   develop_para3: en de openstaande
   develop_para4: issues.
   full-node: Een volledige node draaien
-  full-node_para: Voer monerod uit met poort 18080 geopend. Als je een volledige node draait, heb je de beste privacy voor je eigen ByteRub-transacties. Het helpt ook om de blockchain te verspreiden naar nieuwe gebruikers.
+  full-node_para: Voer byterubd uit met poort 18080 geopend. Als je een volledige node draait, heb je de beste privacy voor je eigen ByteRub-transacties. Het helpt ook om de blockchain te verspreiden naar nieuwe gebruikers.
   mine: Minen
   mine_para1: Minen zorgt ervoor dat het ByteRub-netwerk gedecentraliseerd en veilig blijft. Minen op de achtergrond kun je inschakelen in de grafische interface en de opdrachtregel-interface van ByteRub. Meer informatie over minen vind je
   mine_para2: hier
@@ -345,7 +345,7 @@ mining:
   support: Ondersteuning
   support_para1: Zie
   support_para2: Ontmoetingsplekken
-  support_para3: /r/moneromining (Engels)
+  support_para3: /r/byterubmining (Engels)
   support_para4: en
   pools: Pools
   pools_para1: Een lijst van betrouwbare ByteRub-pools vind je
@@ -390,7 +390,7 @@ using:
   transact_para1: Je kunt allerlei goederen en diensten kopen met ByteRub. Er staat een lijst op de
   transact_para2: pagina Verkopers.
 
-what-is-monero:
+what-is-byterub:
   need-to-know: Wat je moet weten
   leading: ByteRub is de beste van de cryptovaluta's die zich richten op vertrouwelijke en censuurbestendige transacties.
   leading_para1: De meeste bestaande cryptovaluta, zoals Bitcoin en Ethereum, hebben transparante blockchains, zodat de hele wereld transacties openlijk kan verifiëren en volgen. Bovendien kunnen verzend- en ontvangstadressen voor die transacties mogelijk worden gekoppeld aan de echte identiteit van mensen.
@@ -442,7 +442,7 @@ user-guides:
   offline-backup: Een offline back-up maken
   vps-node: Een node op een VPS draaien
   import-blockchain: De ByteRub-blockchain importeren
-  monero-tools: ByteRub-tools
+  byterub-tools: ByteRub-tools
   purchasing-storing: ByteRub kopen en veilig opslaan
   verify-allos: Binaries verifiëren op een opdrachtregel in Linux, Mac of Windows (geavanceerd)
   verify-windows: Binaries verifiëren in Windows (voor beginners)
@@ -458,7 +458,7 @@ user-guides:
   prove-payment: Betalingen bewijzen
   restore-from-keys: Portemonnee herstellen met sleutels
   nicehash: ByteRub (XMR) minen zonder miningapparatuur
-  ledger-wallet-cli: Een ByteRub-portemonnee op een Ledger maken met de opdrachtregel (monero-wallet-cli)
+  ledger-wallet-cli: Een ByteRub-portemonnee op een Ledger maken met de opdrachtregel (byterub-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor
 
@@ -557,7 +557,7 @@ library:
         Een uitgebreide conceptuele en technische uitleg van ByteRub.<br>
         We proberen voor iedereen die elementaire algebra en eenvoudige informaticabegrippen zoals de weergave van cijfers in bits begrijpt, diepgaand en compleet uit te leggen hoe ByteRub werkt en hoe nuttig en mooi cryptografie kan zijn.
     - name: "Mastering ByteRub"
-      file: "https://masteringmonero.com/free-download.html"
+      file: "https://masteringbyterub.com/free-download.html"
       abstract: >
         Een handleiding tot de schijnbaar ingewikkelde wereld van ByteRub.<br>
         Met onder meer:
@@ -567,7 +567,7 @@ library:
         <li>Details over het gedecentraliseerde netwerk van ByteRub, de architectuur van het peer-to-peernetwerk, de levenscyclus van een transactie en beveilingsprincipes.</li>
         <li>Inleiding tot de technische grondslagen van ByteRub, bedoeld voor ontwikkelaars, programmeurs, software-architecten en nieuwsgierige gebruikers.</li>
         <li>Nieuwe ontwikkelingen zoals Kovri, Bulletproofs, multisignature, hardware wallets etc.</li></ul>
-        Zie de website <a href="https://masteringmonero.com/">Mastering ByteRub</a> voor informatie over de volledige versie.
+        Zie de website <a href="https://masteringbyterub.com/">Mastering ByteRub</a> voor informatie over de volledige versie.
   - category: Tijdschriften
     publications:
     - name: "Revuo ByteRub Q4 2017"
@@ -581,7 +581,7 @@ library:
         Kwartaalblad over ByteRub, derde kwartaal 2017.<br>
         In dit nummer nieuws over: ontwikkeling, ByteRub Research Lab, Kovri, community, hardware en Monerujo.
 
-moneropedia:
+byterubpedia:
   add_new_button: Nieuw trefwoord toevoegen
   add_new_text1: Wil je een trefwoord bewerken of een nieuw trefwoord toevoegen?
   add_new_link: Open dan een issue op de GitLab-repository van deze website

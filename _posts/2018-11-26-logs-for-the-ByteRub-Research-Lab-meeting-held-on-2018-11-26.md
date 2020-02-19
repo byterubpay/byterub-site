@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-11-26
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-11-26
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -57,7 +57,7 @@ author: el00ruobuob / surae
 **\<sarang>** FWIW  
 **\<evenlessmoney>** The block size adjustment algorithm has been on my mind in recent weeks. I was asked in another chat what the biggest caveats were with the dynamic block size, and after thinking about it, I concluded that a motivated attacker could pay the extra fee to bump the block size, and then maintain a perpetual low cost flood of transactions to bloat the utxo set.  
 **\<evenlessmoney>** https://link.medium.com/OrG5th051R  
-**\<evenlessmoney>** This article underscores the need for our nodes to remain syncable to the masses, it is doubly important that Monero remains syncable on commodity hardware long run, considering the privacy implications a remote node brings.  
+**\<evenlessmoney>** This article underscores the need for our nodes to remain syncable to the masses, it is doubly important that ByteRub remains syncable on commodity hardware long run, considering the privacy implications a remote node brings.  
 **\<evenlessmoney>** After some deliberation, I think capping block size in the code may be necessary, and that allowing it to be dynamic with no upper bound is dangerous. I would love to hear some input from people who are more informed than me on the matter.  
 **\<evenlessmoney>** articmine mentioned that he doesnt think that this is an issue, but I had a second question afterwards  
 **\<suraeNoether>** one moment let me process this  
@@ -67,13 +67,13 @@ author: el00ruobuob / surae
 **\<evenlessmoney>** most of the network would be forced to use remote nodes, unless I'm misunderstanding  
 **\<gingeropolous>** its a long article. TL/DR is ethereum is becoming unsyncable and therefore will become centralized  
 **\<spaced0ut>** at first glance. if possible to make the attack more expensive is an option it might be worth looking at vs capping the block size. does anyone really want to go there right now?  
-**\<evenlessmoney>** its worse for Monero IMO, because we really want to stress users running their own nodes  
+**\<evenlessmoney>** its worse for ByteRub IMO, because we really want to stress users running their own nodes  
 **\<gingeropolous>** and any network that becomes unsyncable becomes centralized  
 **\<evenlessmoney>** for privacy's sake, not even decentralization  
 **\<suraeNoether>** spaced0ut: one option is to add a nonlinear term to fees. another option is to add a momentum term to block size adjustment, or a resistance term, so to speak. however...  
 **\<suraeNoether>** evenlessmoney: when we changed our fees, we did make such an attack much less expensive to carry out, but I don't think it's particularly an issue... if folks think it is, we can maybe consider some simulations, etc, and add a resistance  term to dynamic block size. this would prevent the block size from responding extremely elastically to network demand...  
 **\<suraeNoether>** but we can all see how that leads to an opposite problem, right, where the block size is too rigid and can't change with demand?  
-**\<ArticMine>** First unlike Ethereum and Bitcoin Cash there is a cost to bloating the Monero blockchain that is comparable to a 51% attack  
+**\<ArticMine>** First unlike Ethereum and Bitcoin Cash there is a cost to bloating the ByteRub blockchain that is comparable to a 51% attack  
 **\<evenlessmoney>** Not on a continuous basis  
 **\<evenlessmoney>** only to raise the block size  
 **\<evenlessmoney>** once the size is up, you can perpetually fill those blocks with bloat txes for cheap  
@@ -82,12 +82,12 @@ author: el00ruobuob / surae
 **\<gingeropolous>** and any pool can mine those txs in  
 **\<evenlessmoney>** You can do a couple percent a block  
 **\<evenlessmoney>** its not very expensive when you ratchet it over a few days  
-**\<suraeNoether>** evenlessmoney: cheaper than before, but not free, and maintaining a long-term flood is non-trivially expensive, even for super cheap monero fees  
+**\<suraeNoether>** evenlessmoney: cheaper than before, but not free, and maintaining a long-term flood is non-trivially expensive, even for super cheap byterub fees  
 **\<evenlessmoney>** I'm more worried about baseline activity being that high  
 **\<evenlessmoney>** and cheap  
 **\<evenlessmoney>** in this situation  
-**\<evenlessmoney>** if Monero becomes the de facto BTC alternative  
-**\<suraeNoether>** in my mind, I don't see this as a practical attack. people have to blow their Monero in order to drag monero's blockchain down... seems like an incentivization problem, not a security problem. and going the opposite direction, by making monero block size more rigid, presents other scaling problems  
+**\<evenlessmoney>** if ByteRub becomes the de facto BTC alternative  
+**\<suraeNoether>** in my mind, I don't see this as a practical attack. people have to blow their ByteRub in order to drag byterub's blockchain down... seems like an incentivization problem, not a security problem. and going the opposite direction, by making byterub block size more rigid, presents other scaling problems  
 **\<spaced0ut>** can we calculate the cost to double the size over time periods in between hard forks? or even calculate the cost to add a terabyte to the size?  
 **\<ArticMine>** The cost of bloating to a given size is close to independent of the rate of bloat. One can pay all at once or over time  
 **\<suraeNoether>** there are a few options to address this, that don't require deep changes nor totally fixed block sizes, i'm just not convinced of the power of an attacker, and ArticMine's fact re: cost of bloating is a really important factor  
@@ -147,7 +147,7 @@ author: el00ruobuob / surae
 **\<ArticMine>** Sure and pay 4x the reward. Why not just do a 51% attack?  
 **\<sarang>** that we can nuke  
 **\<gingeropolous>** im just parroting Isthmus 's work  
-**\<moneromooo>** Don't spam testnet.  
+**\<byterubmooo>** Don't spam testnet.  
 **\<gingeropolous>** https://usercontent.irccloud-cdn.com/file/UHG4yi8G/image.png  
 **\<sarang>** make a new testnet, toynet  
 **\<gingeropolous>** axis lbels be damned apaprently  
@@ -178,15 +178,15 @@ author: el00ruobuob / surae
 **\<Isthmus>** https://usercontent.irccloud-cdn.com/file/EziXrd38/image.png  
 **\<gingeropolous>** a 51% attack costs energy, this attack costs units of account  
 **\<suraeNoether>** ArticMine: i don't think it's cheaper  
-**\<moneromooo>** smooth had a good suggestion, to have the penalty start before the median, so you'd get penalty free till, say, 90% of the median. This would cause a natural shrinking if the txpool is full of low fee txes.  
+**\<byterubmooo>** smooth had a good suggestion, to have the penalty start before the median, so you'd get penalty free till, say, 90% of the median. This would cause a natural shrinking if the txpool is full of low fee txes.  
 **\<evenlessmoney>** oh  
 **\<evenlessmoney>** thats smart too  
 **\<evenlessmoney>** I like that one, one of my big issues has been that its basically free (base tx cost) to keep block sizes up atm  
 **\<suraeNoether>** isthmus, the axes of your graph are transparent on my computer and i can't read them. :P  
-**\<gingeropolous>** hell, someone could find a flaw in monero, print a bajillion monero, and then bring the network to its knees for nothin  
+**\<gingeropolous>** hell, someone could find a flaw in byterub, print a bajillion byterub, and then bring the network to its knees for nothin  
 **\<Isthmus>** https://usercontent.irccloud-cdn.com/file/X1So57dJ/image.png  
 **\<Isthmus>** Sorry, is that legiblbe?  
-**\<evenlessmoney>** ginger thats a threat if they get infinite monero no matter what our algo is  
+**\<evenlessmoney>** ginger thats a threat if they get infinite byterub no matter what our algo is  
 **\<Isthmus>** 51% and bloat are two totally unrelated attacks that accomplish different things. It's an apples/oranges comparison  
 **\<suraeNoether>** is graph over a day? Isthmus  
 **\<suraeNoether>** yeah i can read it now  
@@ -202,7 +202,7 @@ author: el00ruobuob / surae
 **\<ArticMine>** POS can use borrowed capital  
 **\<Isthmus>** There are probably some small bugs, feel free to fix it. :- 0  
 **\<gingeropolous>** thanks Isthmus  
-**\<suraeNoether>** Isthmus: sorry to bother you, i just want to make sure i understand: does that mean 1 million euros can drive the monero blockchain to be more than 1 million gigs in size?  
+**\<suraeNoether>** Isthmus: sorry to bother you, i just want to make sure i understand: does that mean 1 million euros can drive the byterub blockchain to be more than 1 million gigs in size?  
 **\<suraeNoether>** within a DAY?  
 **\<Isthmus>** I think it might take 2 days to get to 10 TB  
 **\<Isthmus>** But essentially.  
@@ -244,12 +244,12 @@ author: el00ruobuob / surae
 **\<ArticMine>** Yes ut how do you enforce non linear fees?  
 **\<rehrar>** Because we have a dynamic blocksize, we can scale with adoptin  
 **\<suraeNoether>** multi-term memory sounds like moving averages of different spans of time to me  
-**\<moneromooo>** "secure against nation states" is ridiculous. They could fuck with us anytime they wanted to already.  
+**\<byterubmooo>** "secure against nation states" is ridiculous. They could fuck with us anytime they wanted to already.  
 **\<ArticMine>** That is the whole point  
 **\<rehrar>** although taht would mean maybe going up to several GB block sizes.  
-**\<spaced0ut>** moneromooo, fair enough but shouldn't that be the goal?  
-**\<suraeNoether>** rehrar: yeah, but just like a lot of other monero problems, we are learning about the size/scale of the issue.  
-**\<suraeNoether>** i agree with moneromooo :P  
+**\<spaced0ut>** byterubmooo, fair enough but shouldn't that be the goal?  
+**\<suraeNoether>** rehrar: yeah, but just like a lot of other byterub problems, we are learning about the size/scale of the issue.  
+**\<suraeNoether>** i agree with byterubmooo :P  
 **\<sarang>** rehrar: yes, this has been known for a while  
 **\<evenlessmoney>** we didnt have hard numbers from isthmus until recently either  
 **\<evenlessmoney>** its been a bit more nebulous  
@@ -264,12 +264,12 @@ author: el00ruobuob / surae
 **\<lurkinandlearnin>** That sounds good to me. I would rather the network slow down in the rare december-like situation that someone being able to inflate the blockchain to unusable levels for less than the "cost" (however you quantify that because they are different) of a 51% attack  
 **\<spaced0ut>** definitely  
 **\<ArticMine>** Long medians with say a 6 month time frame will not lead to Bitcoin's problems  
-**\<moneromooo>** A 51% attack is recoverable from. That one seems not.  
+**\<byterubmooo>** A 51% attack is recoverable from. That one seems not.  
 **\<ArticMine>** It depends on what the 51% attack does  
-**\<gingeropolous>** i think the problem, like the 51%, is that the cost is dynamic and unpredictable. I.e., it cost less to 51% the monero network 3 years ago. We don't know what the hardware will be in 5 years, or the state of network. The protocol needs to be hardware agnostic as much as it can  
-**\<rehrar>** with the volatility of Monero, this thing is unpredictable too  
-**\<rehrar>** since it requiers unit of account, this "attack" can be done while Monero is dirt cheap, and the effects stick around  
-**\<rehrar>** even if Monero goes way up and this isn't feasible anymore  
+**\<gingeropolous>** i think the problem, like the 51%, is that the cost is dynamic and unpredictable. I.e., it cost less to 51% the byterub network 3 years ago. We don't know what the hardware will be in 5 years, or the state of network. The protocol needs to be hardware agnostic as much as it can  
+**\<rehrar>** with the volatility of ByteRub, this thing is unpredictable too  
+**\<rehrar>** since it requiers unit of account, this "attack" can be done while ByteRub is dirt cheap, and the effects stick around  
+**\<rehrar>** even if ByteRub goes way up and this isn't feasible anymore  
 **\<ArticMine>** ^^ es it has to be hardware agnostic  
 **\<ArticMine>** Yes  
 **\<suraeNoether>** i'm in agreement with articmine for now. both: 1) we need to estimate costs for 51% vs. bloat and 2) a long-time-scale soft cap seems super smart, especially considering how bursty the network is in general  
@@ -281,7 +281,7 @@ author: el00ruobuob / surae
 **\<ArticMine>** There is a lot of room between 3.4 hours and 6 months to tune the median  
 **\<ArticMine>** and make it optimmal  
 **\<suraeNoether>** ArticMine: given the 50% breakdwon point of medians...  
-**\<suraeNoether>** if we did 6 months, that implies that at least 3 months of \*all monero transactions\* would have to be bloat transactions  
+**\<suraeNoether>** if we did 6 months, that implies that at least 3 months of \*all byterub transactions\* would have to be bloat transactions  
 **\<suraeNoether>** for someone to raise the soft cap over time  
 **\<sarang>** Isthmus: would be nice to see the effects of a long-term median in your sims  
 **\<sarang>** IMO that's the best approach to this analysis right now  
@@ -312,7 +312,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** and sarang is still running some matching code for timing purposes  
 **\<suraeNoether>** my matching paper is coming along :D  
 **\<suraeNoether>** aaaand I don't have anythign else to talk about  
-**\<suraeNoether>** sarang? anything else? does anyone else have interesting projects they want to chat about? even if its not formally for MRL or kovri or monero specifically  
+**\<suraeNoether>** sarang? anything else? does anyone else have interesting projects they want to chat about? even if its not formally for MRL or kovri or byterub specifically  
 **\<sarang>** Perhaps to sum up our meeting, does anyone have goals for the next network upgrade? This ties in with our earlier discussion  
 **\<suraeNoether>** ^ good question!  
 **\<endogenic>** ring size increase?  
@@ -330,7 +330,7 @@ author: el00ruobuob / surae
 **\<lurkinandlearnin>** exchanges laziness shouldn't slow down the improvement of the network  
 **\<gingeropolous>** ^^  
 **\<sarang>** But if we don't set a timeline, we become Zcash with their "deprecate transparent addresses SOMEDAY"  
-**\<moneromooo>** Whether or not to add IPv6 connectivity might be relevant. IPv4 scarcity is said to be a barrier to Sybils. How much though, I don't know.  
+**\<byterubmooo>** Whether or not to add IPv6 connectivity might be relevant. IPv4 scarcity is said to be a barrier to Sybils. How much though, I don't know.  
 **\<lurkinandlearnin>** is it reasonable to have a goal of having only subaddresses by the next September upgrade?  
 **\<hyc>** as an enforced consensus rule?  
 **\<sarang>** I don't have enough knowledge of exchange timelines to say  
@@ -339,65 +339,65 @@ author: el00ruobuob / surae
 **\<sarang>** We've already said "please don't use them"  
 **\<pigeons>** the client could just make choices about how to diversify its connections if IPv6 is used  
 **\<sarang>** gingeropolous: yeah, only bringing it up because I asked about upgrade goals :D  
-**\<moneromooo>** Only works for outgoing connections.  
+**\<byterubmooo>** Only works for outgoing connections.  
 **\<suraeNoether>** i feel like you are correct gingeropolous but I want to shy away from the "not my problem" effect  
 **\<hyc>** doesn't adopting i2p expose us to the same Sybil possibilities?  
-**\<moneromooo>** I don't know enough to say.  
+**\<byterubmooo>** I don't know enough to say.  
 **\<suraeNoether>** okay, so it seems like we have hit all our major points  
 **\<hyc>** very long addresses, and you have no way to know where they originate from  
 **\<hyc>** worse than IPv6 in that regard  
 **\<suraeNoether>** and we can continue chatting about ipv4 and ipv6 and medians for the rest of the day  
 **\<suraeNoether>** but i think that's sufficient for our meeting today :D  
 **\<sarang>** Great, so action items are to get Isthmus and friends to examine median changes, and be thinking about upgrade  
-**\<moneromooo>** Oh. One other thing that's related:  
+**\<byterubmooo>** Oh. One other thing that's related:  
 **\<sarang>** sure  
-**\<moneromooo>** If the blockchain is split in N stripes, such that every peer selects a random stripe (that is, 4096 blocks every N\*4096). What is the optimal value of N (too small means you save less storage, too large means it gets harder to find the data you need to sync).  
+**\<byterubmooo>** If the blockchain is split in N stripes, such that every peer selects a random stripe (that is, 4096 blocks every N\*4096). What is the optimal value of N (too small means you save less storage, too large means it gets harder to find the data you need to sync).  
 **\<evenlessmoney>** Do we use Bitcoin's default peer limit of 8?  
 **\<evenlessmoney>** If so, that should be factored in to n  
-**\<moneromooo>** 8 outgoing peers, unlimited incoming IIRC.  
+**\<byterubmooo>** 8 outgoing peers, unlimited incoming IIRC.  
 **\<sarang>** The optimal value depends on our metric, I suppose  
-**\<moneromooo>** OK. That was a bad question. A better question was "what is the best metric".  
+**\<byterubmooo>** OK. That was a bad question. A better question was "what is the best metric".  
 **\<suraeNoether>** hmm  
 **\<hyc>** I think it's just a question of, how much space do you need to save  
-**\<suraeNoether>** moneromooo: i feel like N < 3 risks byzantine consensus problems  
+**\<suraeNoether>** byterubmooo: i feel like N < 3 risks byzantine consensus problems  
 **\<gingeropolous>** well, the goal is to save space, but the problem is that is a dynamic question for each user  
 **\<sarang>** If we assume good connectivity and number of peers, the number could be decently high  
 **\<hyc>** yes, and dynamic for the overall chain too since it continues to grow  
 **\<gingeropolous>** someone thats not gonna run software that takes up 80 gigs probably still won't run it if it takes up 40  
-**\<moneromooo>** suraeNoether: I do not understand.  
+**\<byterubmooo>** suraeNoether: I do not understand.  
 **\<hyc>** In my blocktree ramblings I was envisioning 256-way branching  
-**\<suraeNoether>** moneromooo: i'm imagining each miner as being a member of one of N coalitions of possibly dishonest participants  
-**\<moneromooo>** Ah, one thing I neglected to mention: the pruned data is just range proofs and smaller bits. Not the whole chain.  
+**\<suraeNoether>** byterubmooo: i'm imagining each miner as being a member of one of N coalitions of possibly dishonest participants  
+**\<byterubmooo>** Ah, one thing I neglected to mention: the pruned data is just range proofs and smaller bits. Not the whole chain.  
 **\<suraeNoether>** if everyone in control of one strip is totally dishonest, that information is no longer really accessible  
 **\<suraeNoether>** hmm  
 **\<suraeNoether>** this is a nontrivial problem  
-**\<sarang>** Yeah moneromooo brings up the question of "is old enough prunable data \_safe\_ to remove"  
+**\<sarang>** Yeah byterubmooo brings up the question of "is old enough prunable data \_safe\_ to remove"  
 **\<sarang>** which is related  
-**\<suraeNoether>** moneromooo: I don't think we can pick a number without some knowledge of the underlying network topology  
+**\<suraeNoether>** byterubmooo: I don't think we can pick a number without some knowledge of the underlying network topology  
 **\<gingeropolous>** this type of thing is ... unprecedented, right? Therefore, it might be the kind of thing that requires measurement. Once implemented, will nodes advertise which portions of the chain they keep?  
 **\<gingeropolous>** and therefore, the network could be crawled to obtain a census of adoption of this approach?  
-**\<moneromooo>** Yes, nodes adertise. And don't have to stripe if they want to keep all.  
+**\<byterubmooo>** Yes, nodes adertise. And don't have to stripe if they want to keep all.  
 **\<gingeropolous>** right.  
 **\<hyc>** ... I would deterministically automate it. e.g., MAC address of first network interface & MASK = stripe #  
 **\<gingeropolous>** so, the thing we may want to measure is how many nodes join the network with N.  
 **\<hyc>** or some other already-visible node ID.  
 **\<gingeropolous>** so, say we start with N of 8, we could measure the increase nodecount that are using 8. Or maybe start with 4.  
 **\<gingeropolous>** because thats the goal, right? increase number of nodes?  
-**\<hyc>** back to moneromoo's clarification - this isn't striping the entire blockchain. just the prunable stuff, range proofs.  
+**\<hyc>** back to byterubmoo's clarification - this isn't striping the entire blockchain. just the prunable stuff, range proofs.  
 **\<hyc>** so aside from someone bootstrapping a new node, this has no real impact on data availability  
 **\<hyc>** wallets talking to nodes that they trust won't see any change at all  
-**\<suraeNoether>** i have a question for moneromooo : if we pick N = 8 and six months later want to change it to N = 11 or something weird, how much of a PITA is that? it means that miners need to pull a different stripe, that means a lot of data can be deleted and some new data needs to be downloaded...  
+**\<suraeNoether>** i have a question for byterubmooo : if we pick N = 8 and six months later want to change it to N = 11 or something weird, how much of a PITA is that? it means that miners need to pull a different stripe, that means a lot of data can be deleted and some new data needs to be downloaded...  
 **\<suraeNoether>** i guess my question is: what's the cost of picking a \*bad\* N for implementation?  
 **\<hyc>** there are consistent hashing algorithms to minimize that problem  
-**\<moneromooo>** It'd be kinda of a pita. Changing to 16 would be less so, as it's kinda made to allow this (would need some extra code though).  
+**\<byterubmooo>** It'd be kinda of a pita. Changing to 16 would be less so, as it's kinda made to allow this (would need some extra code though).  
 **\<hyc>** minimize the amount of reshuffling needed when N changes  
-**\<suraeNoether>** moneromooo: that's why i picked 11 :P coprime. heh  
-**\<moneromooo>** Also, picking 11 means divisions all the time.  
+**\<suraeNoether>** byterubmooo: that's why i picked 11 :P coprime. heh  
+**\<byterubmooo>** Also, picking 11 means divisions all the time.  
 **\<suraeNoether>** let's tell wownero to pick 24, and we pick 6, and we figure out the difference :P  
 **\<hyc>** stick to powers of 2  
 **\<suraeNoether>** (bad approach)  
 **\<suraeNoether>** hyc: or at least prime powers of some sort. makes changing it easier  
-**\<moneromooo>** BTW, if anyone wants to try a sync from scratch using the crash branch (which simulates this) is welcome ^\_^  
+**\<byterubmooo>** BTW, if anyone wants to try a sync from scratch using the crash branch (which simulates this) is welcome ^\_^  
 **\<suraeNoether>** carbon crab incoming. :P  
 **\<suraeNoether>** cesium crab  
 **\<suraeNoether>** anyway  

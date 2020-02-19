@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-04-29
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-04-29
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -90,12 +90,12 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** Most of CLSAG is within close reach of finishing, but it's a little slower going than I would like. Sarang and I have a call scheduled later today to discuss this (see below). I also sent my thring signatures paper to a colleague to attempt to destroy my security proofs before I attempt a formal peer review.  
 **\<suraeNoether>** MRL11 simulations and output selection and churn etc: Some deep issues with my code cropped up, which took a lot of last week to figure out. This led to some ground-up reworking of my bipartite graph code and matching code. Finding maximal matchings in bipartite graphs worked just fine, but finding optimal matchings in bipartite graphs had to be corrected...  
 **\<suraeNoether>** and none of my unit tests were catching the problem. I expect another commit later today once I make a few more changes.  
-**\<suraeNoether>** Sarang and I are scheduling calls for several days this week to try to tie up some loose ends on a few remaining projects before Concensus/MCC and Monero Workshop next month. Today we are talking about CLSAG and tomorrow about simulations.  
-**\<suraeNoether>** I'm speaking at Magical Crypto Conference by the way, and I'll be talking about CLSAG, DLSAG, and the general future of Monero, given upcoming signature schemes and key models; if I have time, I may speak about a longer-term future of Monero that requires deeper changes to our protocol. I only have 15 minutes so I'll be compressing the mathyness.  
+**\<suraeNoether>** Sarang and I are scheduling calls for several days this week to try to tie up some loose ends on a few remaining projects before Concensus/MCC and ByteRub Workshop next month. Today we are talking about CLSAG and tomorrow about simulations.  
+**\<suraeNoether>** I'm speaking at Magical Crypto Conference by the way, and I'll be talking about CLSAG, DLSAG, and the general future of ByteRub, given upcoming signature schemes and key models; if I have time, I may speak about a longer-term future of ByteRub that requires deeper changes to our protocol. I only have 15 minutes so I'll be compressing the mathyness.  
 **\<suraeNoether>** anyone who will be in NYC should come heckle me  
-**\<suraeNoether>** Monero konferenco updates: We are about 8 weeks away! It's a little off-topic to talk about konferenco organization, but people always have questions, so I'm just going ot give a brief update.  
+**\<suraeNoether>** ByteRub konferenco updates: We are about 8 weeks away! It's a little off-topic to talk about konferenco organization, but people always have questions, so I'm just going ot give a brief update.  
 **\<suraeNoether>** XMRHaelan and Thunderosa have been working on some great poster and t-shirt designs. I'm uploading the final version of the poster to the konferenco website later today so we don't have a bunch of versions floating around.  
-**\<suraeNoether>** Anyone here who is a speaker at the Konferenco and has not started arranging travel, please contact me immediately (I do not have a complete list in front of me, but I'll be contacting folks individually again). Also, please check https://monerokon.com under the schedule to see if any information about your talk is incorrect or if you think you are in the incorrect session, or if you need to get your title  
+**\<suraeNoether>** Anyone here who is a speaker at the Konferenco and has not started arranging travel, please contact me immediately (I do not have a complete list in front of me, but I'll be contacting folks individually again). Also, please check https://byterubkon.com under the schedule to see if any information about your talk is incorrect or if you think you are in the incorrect session, or if you need to get your title  
 **\<suraeNoether>** and abstract to me (\*cough\* isthmus andytoshi). hyc pointed out that his name was accidentally excluded from a previous version of the poster, for example: we've double and triple checked things, but we are human and miss stuff.  
 **\<suraeNoether>** Konferenco final touches: speaker rooms are taken care of, flights are almost done being taken care of, and all that remains is ticket and t-shirt sales before the event. If you are a speaker and you have any questions, please contact me. Also, if you are getting tickets, snag them soon because there's only a little over 2 weeks of early-bird pricing left. I'll be posting a budget update some time in the nex  
 **\<suraeNoether>** 3 weeks, and a post-mortem update after the Konferenco.  
@@ -121,11 +121,11 @@ author: el00ruobuob / sarang
 **\<sarang>** as well as get more feedback for CLSAG formalization  
 **\<sarang>** I've been wanting to get an implementation of circuit Bulletproofs for a long time, and would like to get started on it if time permits  
 **\<sarang>** Any last questions or comments, since it's a pretty quiet day today?  
-**\<moneromooo>** I do have a question:  
-**\<moneromooo>** I was playing around with merging txes together, and luigi pointed out that Eve can brute force a ridiculously small space to work out which subsets of ins and outs have matching sums to reconnect inputs to outputs.  
-**\<moneromooo>** So if anyone can find a way to generate these "part" txes so that the merged ins/outs add up, that'd help a lot :)  
-**\<moneromooo>** (without leaking private information between participants)  
-**\<sarang>** Yes, I was thinking about that construction earlier moneromooo. No solution yet, unfortunately, from me :(  
+**\<byterubmooo>** I do have a question:  
+**\<byterubmooo>** I was playing around with merging txes together, and luigi pointed out that Eve can brute force a ridiculously small space to work out which subsets of ins and outs have matching sums to reconnect inputs to outputs.  
+**\<byterubmooo>** So if anyone can find a way to generate these "part" txes so that the merged ins/outs add up, that'd help a lot :)  
+**\<byterubmooo>** (without leaking private information between participants)  
+**\<sarang>** Yes, I was thinking about that construction earlier byterubmooo. No solution yet, unfortunately, from me :(  
 **\<sarang>** I was playing around with discrete log knowledge proofs  
 **\<sarang>** Well, rarely does anyone complain that a meeting was too short, so let's go ahead and formally adjourn; research discussions can of course continue here  
 **\<sarang>** Logs will be posted shortly to the GitHub agenda issue  

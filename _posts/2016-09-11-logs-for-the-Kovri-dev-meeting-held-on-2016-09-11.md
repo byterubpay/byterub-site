@@ -29,7 +29,7 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** yes, I see that, but ...  
 **\<fluffypony>** MalMen: can you take it to PM with tewinget, or wait till after the Kovri meeting?  
 **\<tewinget>** MalMen: if you want to discuss that, PM me, otherwise try to wait until the Kovri meeting concludes.  
-**\<meeting-bot> [anonimal]** MalMen, we are in the kovri meeting. Please wait for monero chat until afterward.  
+**\<meeting-bot> [anonimal]** MalMen, we are in the kovri meeting. Please wait for byterub chat until afterward.  
 **\<tewinget>** dammit fluffypony  
 **\<fluffypony>** lol  
 **\<MalMen>** lo  
@@ -40,7 +40,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** and yeah, the brand recognition aspect is +1  
 **\<i2p-relay> {-guzzi}** #239  
 **\<tooquick_4u>** #146  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** I kinda like https://images-contests.99static.com/wYofliD7HjSVmkBoYhGS4CyMeNc=/188x0:1464x1276/500x500/top/smart/99designs-contests-attachments/75/75384/attachment\_75384769, the variants of https://images-contests.99static.com/Gs4VClupDwKJEGKvaX7I40TLckg=/0x0:1156x1156/500x500/top/smart/99designs-contests-  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** I kinda like https://images-contests.99static.com/wYofliD7HjSVmkBoYhGS4CyMeNc=/188x0:1464x1276/500x500/top/smart/99designs-contests-attachments/75/75384/attachment\_75384769, the variants of https://images-contests.99static.com/Gs4VClupDwKJEGKvaX7I40TLckg=/0x0:1156x1156/500x500/top/smart/99designs-contests-  
 **\<meeting-bot>** attachments/75/75381/attachment\_75381142  
 **\<tewinget>** wait, isn't 99designs basically spec-work?  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** Kovri logo Do we want a variant of the ByteRub logo or something entirely different?  
@@ -55,7 +55,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** "professional" sure  
 **\<blackink>** my vote is 236  
 **\<blackink>** i mean 239  
-**\<meeting-bot> [anonimal]** moneromooo: can you tiny that url? weechat sucks  
+**\<meeting-bot> [anonimal]** byterubmooo: can you tiny that url? weechat sucks  
 **\<hyc>** 239 - ok, that's still understated, I could respect that  
 **\<fluffypony>** my concern is that if we're too playful it eventually ends up like this: https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Itoopie.svg/2000px-Itoopie.svg.png  
 **\<fluffypony>** :-P  
@@ -67,8 +67,8 @@ author: dEBRUYNE / fluffypony
 **\<pero>** i like #239 but the kerning is awful from a typography perspective  
 **\<meeting-bot> [guzzi]** why the halloween colors anyway?  
 **\<fluffypony>** bear in mind, too, that we can change it later on  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** anonimal: https://paste.fedoraproject.org/426683/14736136/  
-**\<meeting-bot> [anonimal]** moneromooo: thanks  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** anonimal: https://paste.fedoraproject.org/426683/14736136/  
+**\<meeting-bot> [anonimal]** byterubmooo: thanks  
 **\<fluffypony>** guzzi: the orange? coz of the ByteRub logo's colours, I'd guess  
 **\<ferretinjapan>** 246 is a nice mix of both 146 and 239 imo  
 **\<meeting-bot> [anonimal]** fluffypony: how much *can* we change after we pick one?  
@@ -76,45 +76,45 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** we also made changes to the ByteRub logo after delivery  
 **\<fluffypony>** to fix the kerning  
 **\<meeting-bot> [guzzi]** got it  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Not sure what numbers these map to, no numbers in the URLs  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Not sure what numbers these map to, no numbers in the URLs  
 **\<dEBRUYNE>** I like 239 btw  
 **\<nioc>** if between 239 and 146 then 239  
 **\<pero>** wouldnt logo selection work better (more efficiently) by filtering out the ones no one likes  
-**\<dEBRUYNE>** moneromooo: your first link is #239  
-**\<meeting-bot> [anonimal]** moneromooo: the garlic one was top choice #239, the other one I don't know  
+**\<dEBRUYNE>** byterubmooo: your first link is #239  
+**\<meeting-bot> [anonimal]** byterubmooo: the garlic one was top choice #239, the other one I don't know  
 **\<pero>** and then having an in depth look at a smaller selection  
 **\<fluffypony>** pero: no this is much more fun, the entire dev meeting will be "but I like this logo" :-P  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** THanks :)  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** THanks :)  
 **\<hyc>** in that 223 series, is that a Tau, for Tor?  
-**\<meeting-bot> [anonimal]** moneromooo: I like the mask idea but the artist took the easy way out and just plastered it next to text.  
+**\<meeting-bot> [anonimal]** byterubmooo: I like the mask idea but the artist took the easy way out and just plastered it next to text.  
 **\<MalMen>** between 146 and 239 for me  
 **\<hyc>** 236-237 I have to exclude, there's a Circle-K convenience store chain in California that looks like that  
-**\<ferretinjapan>** why not make it 146 and just go a different color, it would still feel monero-ish  
+**\<ferretinjapan>** why not make it 146 and just go a different color, it would still feel byterub-ish  
 **\<Flyfree10>** is this where the meeting for ByteRub is?  
 **\<MalMen>** 239 is nice because it bring the "onion" that is easly recognised by tor users  
-**\<lurker>** i think keep it simple whilst linking to monero and its a winner 239 is good but if at anypoint the logo is just to be used it is not always instantly recognisable whereas the 146 is  
-**\<moneromooo>** Flyfree10: finished  
+**\<lurker>** i think keep it simple whilst linking to byterub and its a winner 239 is good but if at anypoint the logo is just to be used it is not always instantly recognisable whereas the 146 is  
+**\<byterubmooo>** Flyfree10: finished  
 **\<Flyfree10>** how did it go?  
 **\<meeting-bot> [anonimal]** hyc: re: tau, that's a bold stretch, I think only you and a few others would have pointed that out  
 **\<meeting-bot> [anonimal]** e.g., artist probably wasn't thinking on that level  
-**\<moneromooo>** Hmm. Wordy I guess. There will be logs from dEBRUYNE, most likely.  
+**\<byterubmooo>** Hmm. Wordy I guess. There will be logs from dEBRUYNE, most likely.  
 **\<hyc>** I'm gonna go with 239  
 **\<tewinget>** Flyfree10: Kovri meeting in-progress, wait a bit and ByteRub dev meeting minutes will be on reddit I'm sure.  
 **\<hyc>** if you think the typography needs to be touched up, cool, but overall it looks classy and it still has the garlic without being over the top  
 **\<fluffypony>** ok  
 **\<meeting-bot> [anonimal]** Alright, I'm seeing a lot of #239 (also my top pick)  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** People are going to be confused between garlic/onion, I'm sure.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** People are going to be confused between garlic/onion, I'm sure.  
 **\<meeting-bot> [anonimal]** They should be, they are very similar in terms of routing  
-**\<fluffypony>** they are, moneromooo, but I don't think they'll be confused enough to care  
+**\<fluffypony>** they are, byterubmooo, but I don't think they'll be confused enough to care  
 **\<fluffypony>** it's not like people make privacy decisions based on routing models :-P  
 **\<ferretinjapan>** yeah i think the garlic just looks confusing.  
 **\<meeting-bot> [anonimal]** So should we do a vote of "anything \*not* 239"?  
 **\<hyc>** yeah. it's close enough. several of the others leave me wondering WTH they are.  
 **\<\_Slack> <xmr\_eric>** The one option I'm not seeing is a direct copy of the ByteRub (M). I did a quick mockup: https://i.imgur.com/8wIh8Hb.png  
 **\<meeting-bot> [anonimal]** Strong opinions on \*not* 239?  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Well... "I use kovri, that's a privacy program for that onion type thing"  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Well... "I use kovri, that's a privacy program for that onion type thing"  
 **\<meeting-bot> [anonimal]** How can we improve #239?  
-**\<fluffypony>** otoh I don't think I've ever heard a non-technical person talk about onion routing, moneromooo  
+**\<fluffypony>** otoh I don't think I've ever heard a non-technical person talk about onion routing, byterubmooo  
 **\<medusa_>** personally i also like 245, the green symbols strong roots  
 **\<pero>** 239 needs a different font and some kerning  
 **\<MalMen>** we can allways tell "we use garlic instead of union to keep vampires away from the network"  
@@ -128,19 +128,19 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** ArticMine: I don't know if there's much risk there, since they're just terms that describe the routing (and Tor don't own a trademark on the routing term afaik)  
 **\<fluffypony>** definitely if we were claiming something like that in text  
 **\<meeting-bot> [anonimal]** pero: good point  
-**\<MalMen>** anonimal at the begining I didnt like the colors of monero too, but grown on me  
+**\<MalMen>** anonimal at the begining I didnt like the colors of byterub too, but grown on me  
 **\<hyc>** yeh that's why I don't like 246. the tuft at the top of the logo reminds me too much of the tor onion  
 **\<ferretinjapan>** 239 isnt horrible, but it definitely doesn't feel like it has a connection to ByteRub  
 **\<ferretinjapan>** other than the color, it doesn't really feel like it's closely bound to the ByteRub project.  
 **\<lurker>** agree ferretinjapan  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** There are common law trademarks by "use in commerce" in both cases  
-**\<ferretinjapan>** If that's intentional then awesome, but otherwise, people may not even connect monero and kovri together as being sister projects.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Then... we could superimpose: 239 with added arms on top of the monero M, trying to hide it :D  
+**\<ferretinjapan>** If that's intentional then awesome, but otherwise, people may not even connect byterub and kovri together as being sister projects.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Then... we could superimpose: 239 with added arms on top of the byterub M, trying to hide it :D  
 **\<pero>** i think my the minimal pacmans from 88 and 81 arent bad either  
 **\<fluffypony>** anonimal: what are your thoughts on the "connection to ByteRub" thing - do we want it to be more tightly coupled or not?  
 **\<hyc>** then xmr\_eric's would be fine  
-**\<meeting-bot> [anonimal]** fluffypony ferretinjapan lurker: if the artists can somehow come up with a better idea other than slapping a big K in the style of monero onto the garlic, then I'm open to new ideas  
-**\<meeting-bot> [guzzi]** fluffypony i agree if there needs to be aconnection to monero that is important to discussion on 239  
+**\<meeting-bot> [anonimal]** fluffypony ferretinjapan lurker: if the artists can somehow come up with a better idea other than slapping a big K in the style of byterub onto the garlic, then I'm open to new ideas  
+**\<meeting-bot> [guzzi]** fluffypony i agree if there needs to be aconnection to byterub that is important to discussion on 239  
 **\<hyc>** or at least a starting point. maybe turn the circle background into the garlic  
 **\<pero>** 139 and 138 too  
 **\<meeting-bot> [guzzi]** anonimal, aggreed on the K statement.  
@@ -159,7 +159,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** lol  
 **\<ferretinjapan>** or the tennisball with fuzz on top :)  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** Possibly 251 No onion / garlic  
-**\<MalMen>** well, If it was to be something completly distinct from monero I would vote 249  
+**\<MalMen>** well, If it was to be something completly distinct from byterub I would vote 249  
 **\<meeting-bot> [anonimal]** Let's decide on 1 and see how we can improve it.  
 **\<tewinget>** I think maybe since there are so many opinions we shelf this for now, make a shortlist of 10 or so, and discuss among just those at a later time.  
 **\<meeting-bot> [anonimal]** I'm voting #239  
@@ -252,7 +252,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** and now that we're closer to logo I can get back on the website / email bandwagon  
 **\<meeting-bot> [anonimal]** we sill need a solid answer on CI  
 **\<fluffypony>** anonimal: which CI question?  
-**\<meeting-bot> [anonimal]** Mr. build bot, the devops guy who was supposed to be at the monero meeting today  
+**\<meeting-bot> [anonimal]** Mr. build bot, the devops guy who was supposed to be at the byterub meeting today  
 **\<pigeons>** hello  
 **\<meeting-bot> [anonimal]** Maybe I missed the discussion, I don't know  
 **\<DaveyJones>** pigeons it is :D  
@@ -370,5 +370,5 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Ok, sept. 25th, same time  
 **\<fluffypony>** ok  
 **\<meeting-bot> [EinMByte]** ok  
-**\<meeting-bot> [anonimal]** Thanks everyone. Thanks #monero-dev for the logo input too  
+**\<meeting-bot> [anonimal]** Thanks everyone. Thanks #byterub-dev for the logo input too  
 **\<meeting-bot> [guzzi]** ok

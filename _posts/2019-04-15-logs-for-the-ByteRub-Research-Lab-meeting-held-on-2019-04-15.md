@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-04-15
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-04-15
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -19,7 +19,7 @@ author: el00ruobuob / sarang
 **\<sarang>** :(  
 **\<sarang>** Understood  
 **\<suraeNoether>** CLSAG signatures are fast and small, they are so fast and small that my naive colored-coin approach could support two assets and still be faster and smaller than our present MLSAG scheme  
-**\<suraeNoether>** i'm not recommending coloring monero, but commenting on overall speed, it's nuts  
+**\<suraeNoether>** i'm not recommending coloring byterub, but commenting on overall speed, it's nuts  
 **\<suraeNoether>** however, as sarang mentioned, there is a key image problem i'm looking into  
 **\<suraeNoether>** it's possible rectifying them will cost us some of those gains  
 **\<sarang>** Yeah, I don't think a straightforward LSAG reduction works here  
@@ -33,7 +33,7 @@ author: el00ruobuob / sarang
 **\<sarang>** and am in contact with the paper's author to discuss some privacy aspects of the construction  
 **\<sarang>** the CLSAG example code has been updated to reflect some changes  
 **\<sarang>** and, as suraeNoether said, still working on proper formalization, which is trickier than expected  
-**\<sarang>** The output selection algorithm discussed here still has an open PR from moneromooo that needs eyeballs  
+**\<sarang>** The output selection algorithm discussed here still has an open PR from byterubmooo that needs eyeballs  
 **\<sarang>** PR 5389  
 **\<needmoney90>** Hi  
 **\<sarang>** yo  
@@ -46,34 +46,34 @@ author: el00ruobuob / sarang
 **\<sarang>** Hi suraeNoether  
 **\<sarang>** sgp\_:  
 **\<sarang>** bah, silly autocomplete  
-**\<moneromooo>** I have these multi user txes going in the background, and I am wondering whether the 'a' values can be reuesd for multiple outputs.  
+**\<byterubmooo>** I have these multi user txes going in the background, and I am wondering whether the 'a' values can be reuesd for multiple outputs.  
 **\<sarang>** Remind me what these values are/  
 **\<needmoney90>** What's the status on M-of-N multisig?  
-**\<moneromooo>** The idea is to make 16 actual outs for the "same" logical output, so they get shuffled as new outputs are added.  
+**\<byterubmooo>** The idea is to make 16 actual outs for the "same" logical output, so they get shuffled as new outputs are added.  
 **\<sarang>** (our notation is often inconsistent)  
-**\<moneromooo>** And I don't know whether it's safe to keep those. I assume sharing them with other usesr of the same tx is not good.  
+**\<byterubmooo>** And I don't know whether it's safe to keep those. I assume sharing them with other usesr of the same tx is not good.  
 **\<dEBRUYNE>** \<suraeNoether> however, as sarang mentioned, there is a key image problem i'm looking into \<= This is referring to CSLAG right?  
 **\<sarang>** dEBRUYNE: yes  
 **\<sarang>** there are no such issues with MLSAG  
 **\<dEBRUYNE>** All right, thanks for clarifying  
 **\<sarang>** The problem refers to the fact that trying to reduce CLSAG to LSAG with an aggregated key yields the wrong key image  
-**\<moneromooo>** a is the random secret keys generated at proive time to create the pseudoOuts.  
+**\<byterubmooo>** a is the random secret keys generated at proive time to create the pseudoOuts.  
 **\<sarang>** Hmm ok  
 **\<sarang>** You asked me to review this earlier, and it completely slipped my mind  
 **\<sarang>** I'll look for the code snippet you sent in PM  
 **\<sarang>** to ensure I don't get wrong the terms you're referring to  
-**\<moneromooo>** ty  
+**\<byterubmooo>** ty  
 **\<sarang>** sgp\_: did you have something you wished to discuss too?  
 **\<sgp\_>** I don't believe so  
 **\<sarang>** Well, this meeting is turning out to be quite short :D  
-**\<sarang>** moneromooo: anything specific, aside from the reuse question you posed?  
+**\<sarang>** byterubmooo: anything specific, aside from the reuse question you posed?  
 **\<sarang>** (to discuss here, I mean)  
-**\<moneromooo>** Not at the moment I think.  
+**\<byterubmooo>** Not at the moment I think.  
 **\<sarang>** OK, I suppose we can move right along then  
 **\<sarang>** to 3. QUESTIONS and 4. ACTION ITEMS  
 **\<sarang>** While suraeNoether continues working on matching/churn via MRL-0011, I have several things for the week  
 **\<sarang>** Now that CLSAG reduction to LSAG is proving so problematic, I want to see if definition modifications for the LSAG proofs will suffice for our use case  
-**\<sarang>** I'll be checking on moneromooo's question shortly (apologies for letting that slip by)  
+**\<sarang>** I'll be checking on byterubmooo's question shortly (apologies for letting that slip by)  
 **\<sarang>** as well as more work on Lelantus transaction flows  
 **\<dEBRUYNE>** sarang: Have you consulted RandomRun regarding this problem btw?  
 **\<sarang>** suraeNoether and I have been in contact with him throughout the development process  

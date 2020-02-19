@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-12-31
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-12-31
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -38,7 +38,7 @@ author: el00ruobuob / surae
 **\<sarang>** There's general support for deprecation over time, but the question of how/when is still under active discussion  
 **\<suraeNoether>** dsc\_: sgp\_ recently posted a draft blag post on the matter  
 **\<sarang>** Right, but that should not be taken as any kind of consensus  
-**\<suraeNoether>** i'm not sure how much further the discussion has gotten than the pastebin: https://www.irccloud.com/pastebin/cRwyJViz/monero%20scheduled%20address%20upgrade%20timeline%20%5Bdraft%5D  
+**\<suraeNoether>** i'm not sure how much further the discussion has gotten than the pastebin: https://www.irccloud.com/pastebin/cRwyJViz/byterub%20scheduled%20address%20upgrade%20timeline%20%5Bdraft%5D  
 **\<sarang>** very little  
 **\<suraeNoether>** rihgt  
 **\<suraeNoether>** this is still quite fluid  
@@ -49,7 +49,7 @@ author: el00ruobuob / surae
 **\<endogenic>** eyyyy  
 **\<sarang>** Hi sgp\_  
 **\<sarang>** Want to talk at all about your post draft?  
-**\<sgp\_>** Sure. I outlined my best summary of how Monero will handle payment IDs going forward and how we got to that decision  
+**\<sgp\_>** Sure. I outlined my best summary of how ByteRub will handle payment IDs going forward and how we got to that decision  
 **\<sgp\_>** Of course, we all still need to agree  
 **\<sarang>** I have been muddling over your post proposal  
 **\<suraeNoether>** i just started reading it this mroning and i'm going to reserve my comments for later today  
@@ -59,7 +59,7 @@ author: el00ruobuob / surae
 **\<sgp\_>** This assumes unencrypted (standalone) payment ID prohibition in April 2019 and encrypted payment ID prohibition (use subaddresses instead) in April 2020  
 **\<sarang>** To what extent do we have exchanges represented in the discussion?  
 **\<sarang>** I operate on the assumption that no exchange reps are in any channels  
-**\<sgp\_>** The most we've heard from any exchanges is from LocalMonero that helped initiate this discussion earlier this year afaik  
+**\<sgp\_>** The most we've heard from any exchanges is from LocalByteRub that helped initiate this discussion earlier this year afaik  
 **\<sarang>** While I don't think we should make decisions based on exchange wishes, they represent a good chunk of user interaction  
 **\<dsc\_>** To what extend would Sarang like to involve exchanges? I mean, probably most of us know some folk who work at exchanges, should an effort be made to get in contact?  
 **\<sarang>** My thought has been as follows  
@@ -82,7 +82,7 @@ author: el00ruobuob / surae
 **\<dsc\_>** I can forward stuff to Kraken if neccesary  
 **\<endogenic>** bah  
 **\<endogenic>** the exchanges should  
-**\<suraeNoether>** if monero moved to pairings based crypto tomorrow and we modified our whole key structure, they would groan, roll their eyes, curse our names, and then make the changes without publicly complaining at all  
+**\<suraeNoether>** if byterub moved to pairings based crypto tomorrow and we modified our whole key structure, they would groan, roll their eyes, curse our names, and then make the changes without publicly complaining at all  
 **\<endogenic>** yes  
 **\<endogenic>** agreed  
 **\<sgp\_>** I may be able to talk to Circle and Poloniex. I have someone's email  
@@ -120,7 +120,7 @@ author: el00ruobuob / surae
 **\<sarang>** to bring size down by default  
 **\<sarang>** others involve (at the very least) a high cap that still avoids the crazy blowup possibilities  
 **\<suraeNoether>** Options include but are not limited to  
-**\<suraeNoether>** 1) change sample size of median block size to something very large like a year. pro: easy, ensures that an attacker has to be executing an attack for at least half a year before expecting any success. con: adds inflexibility to monero block size.  
+**\<suraeNoether>** 1) change sample size of median block size to something very large like a year. pro: easy, ensures that an attacker has to be executing an attack for at least half a year before expecting any success. con: adds inflexibility to byterub block size.  
 **\<suraeNoether>** (it makes sense to make this increase in window size to be somehow proportional to our change in fees, to ensure that it doesn't cost \*less\* to attack today than before bulletproofs)  
 **\<suraeNoether>** 2) add a momentum term to block size so that bigger changes are harder to effect. pro: also easy, improved flexibility. con: unlike median, determining the strength of an attacker required to execute the attack over a sustained period is a trickier question.  
 **\<suraeNoether>** 3) change block size penalty to begin sub-median. pro: incentive against the attack! great! con: weak incentive, and a determined attacker is already blowing cash on this attack  
@@ -140,15 +140,15 @@ author: el00ruobuob / surae
 **\<endogenic>** cause they'll be able to investigate what you propose  
 **\<suraeNoether>** endogenic: i disagree. look at bitcoin block size debate or our current ring size debate. everyone wants a justification of the magic numbers proposed.  
 **\<sarang>** FWIW the funds required to execute such a bloat attack to TB size are O(100K) USD IIRC  
-**\<endogenic>** suraeNoether: monero != bitcoin tho.. big differences  
+**\<endogenic>** suraeNoether: byterub != bitcoin tho.. big differences  
 **\<sarang>** magic number != overall strategy tho  
 **\<endogenic>** wow r u me  
-**\<moneromooo>** If you ask for community consensus, you'll get the noisy ones to get their way, and they'll typically be short term profit people who \<backspace a bit>.  
+**\<byterubmooo>** If you ask for community consensus, you'll get the noisy ones to get their way, and they'll typically be short term profit people who \<backspace a bit>.  
 **\<sarang>** I want developer consensus  
 **\<endogenic>** ^  
-**\<moneromooo>** Oh, then that's much better. If you include people like ArticMine in this.  
+**\<byterubmooo>** Oh, then that's much better. If you include people like ArticMine in this.  
 **\<sarang>** Everyone will/should agree that avoiding TB bloat is worth changing shit  
-**\<moneromooo>** People Who We Know Have A Clue.  
+**\<byterubmooo>** People Who We Know Have A Clue.  
 **\<suraeNoether>** \*nod\* i agree with all the above, to be honest  
 **\<sarang>** at the very least, getting a worst-case short-term fix (like a high cap) in place for spring is the necessary starting point  
 **\<spaced0ut>** as long as the change clearly shows everything possible is being done to have to avoid setting a hard limit like BTC. not many will think negatively.  
@@ -181,16 +181,16 @@ author: el00ruobuob / surae
 **\<suraeNoether>** well, two  
 **\<sarang>** So  
 **\<sarang>** This week I've been doing lit review in between Festivus celebrations, and doing some documentation writeups  
-**\<moneromooo>** The intent of the block size increase is to allow sustained spikes (to the extent it is not an oxymoron). A year's smoothing will prevent that from working.  
-**\<sarang>** moneromooo: yes, but at the cost of our simple model failing to prevent sustained bloat  
-**\<moneromooo>** That seems to be a false dichotomy.  
+**\<byterubmooo>** The intent of the block size increase is to allow sustained spikes (to the extent it is not an oxymoron). A year's smoothing will prevent that from working.  
+**\<sarang>** byterubmooo: yes, but at the cost of our simple model failing to prevent sustained bloat  
+**\<byterubmooo>** That seems to be a false dichotomy.  
 **\<sarang>** Should sustained spikes not also yield a corresponding cost?  
-**\<suraeNoether>** moneromooo: ehhh it doesn't prevent it. it merely raises the bar for what is required to push block size up, so spikes have to be sustained longer for them to impact the base layer. but you are correct; any time we have a variable/dynamic capacity, this allows for bloat, but fixed capacity is inflexible  
+**\<suraeNoether>** byterubmooo: ehhh it doesn't prevent it. it merely raises the bar for what is required to push block size up, so spikes have to be sustained longer for them to impact the base layer. but you are correct; any time we have a variable/dynamic capacity, this allows for bloat, but fixed capacity is inflexible  
 **\<suraeNoether>** but to be perfectly honest, if we find ourselves in a situation where people are regularly waiting until the next block to stash a transaction because the current block is full...  
-**\<moneromooo>** This is a negative question, so "sustained spikes should yield a corresponding cost".  
+**\<byterubmooo>** This is a negative question, so "sustained spikes should yield a corresponding cost".  
 **\<suraeNoether>** then in this situation, we probably will have some lead time to correct our block size dynamics to prevent it from being a systemic load problem  
-**\<moneromooo>** The point is, if ytou have to waiut for half a year for the thing to kick in, it's pointless for spikes.  
-**\<suraeNoether>** moneromooo: well, we can try one of the other methods that are more immediately flexible, like a momentum term or whatever  
+**\<byterubmooo>** The point is, if ytou have to waiut for half a year for the thing to kick in, it's pointless for spikes.  
+**\<suraeNoether>** byterubmooo: well, we can try one of the other methods that are more immediately flexible, like a momentum term or whatever  
 **\<suraeNoether>** or we could just make fees great again  
 **\<hyc>** yes ^  
 **\<sarang>** heh yes to which  
@@ -215,47 +215,47 @@ author: el00ruobuob / surae
 **\<sarang>** and size is dependent only on usage, of course... if you need to get N txns on chain, it costs O(N) in size no matter what  
 **\<sarang>** Aight, that's two items of priority: (1) fee structure; (2) payment ID timeline  
 **\<sarang>** Any other work of note?  
-**\<moneromooo>** I'm doing some more work on multiuser txes (the type you can use, eg, coinjoin with).  
-**\<moneromooo>** That might be interetsing to people here ?  
+**\<byterubmooo>** I'm doing some more work on multiuser txes (the type you can use, eg, coinjoin with).  
+**\<byterubmooo>** That might be interetsing to people here ?  
 **\<sarang>** go on...  
 **\<tnsepta>** is there a benefit of doing coinjoin when we're already doing RCT?  
-**\<moneromooo>** Yes. Even more privacy.  
-**\<moneromooo>** And atomic multi user spends.  
+**\<byterubmooo>** Yes. Even more privacy.  
+**\<byterubmooo>** And atomic multi user spends.  
 **\<tnsepta>** ahh ok  
 **\<hyc>** does it require all participants to be online at once?  
-**\<moneromooo>** There \*might\* also be a way to have smaller range proofs, but I'm not sure.  
-**\<moneromooo>** No.  
+**\<byterubmooo>** There \*might\* also be a way to have smaller range proofs, but I'm not sure.  
+**\<byterubmooo>** No.  
 **\<sarang>** Go on...  
-**\<moneromooo>** Well, yes if you want it to be fast :D  
+**\<byterubmooo>** Well, yes if you want it to be fast :D  
 **\<hyc>** I always want computers to be fast.  
-**\<sarang>** What's the basic structure moneromooo ?  
-**\<moneromooo>** I'm making it like multisig. You pass a file around, and write your things. 2N-1 comms though.  
+**\<sarang>** What's the basic structure byterubmooo ?  
+**\<byterubmooo>** I'm making it like multisig. You pass a file around, and write your things. 2N-1 comms though.  
 **\<sarang>** afaik this is the first I've heard of your work  
-**\<moneromooo>** atm, I've got a first N comms rounds with everyone adding their inputs/outputs, then another ~N with people signing after checking their I/O are what they specified.  
+**\<byterubmooo>** atm, I've got a first N comms rounds with everyone adding their inputs/outputs, then another ~N with people signing after checking their I/O are what they specified.  
 **\<hyc>** who would want to use this approach?  
-**\<moneromooo>** People who want to use a coinjoin style tx, and people who want to atomically pay.  
+**\<byterubmooo>** People who want to use a coinjoin style tx, and people who want to atomically pay.  
 **\<hyc>** passing this file around sounds like it carries sensitive info, what's the danger of exposing it prematurely?  
-**\<moneromooo>** (ie, Alice and Bob want to pay Carol, but only if the other also does)  
-**\<moneromooo>** Not much I think.  
+**\<byterubmooo>** (ie, Alice and Bob want to pay Carol, but only if the other also does)  
+**\<byterubmooo>** Not much I think.  
 **\<sarang>** you're effectively doing partial signatures?  
-**\<moneromooo>** You create MGs for the outputs you own.  
-**\<moneromooo>** So kinda yes.  
+**\<byterubmooo>** You create MGs for the outputs you own.  
+**\<byterubmooo>** So kinda yes.  
 **\<sarang>** MG?  
-**\<moneromooo>** I think that's a MLSAG.  
+**\<byterubmooo>** I think that's a MLSAG.  
 **\<sarang>** The smaller range proof idea would be an MPC on a bulletproof?  
 **\<sarang>** which is possible, but we've never had a definite use case  
-**\<moneromooo>** I don't know. That'll be your job to find out :P  
+**\<byterubmooo>** I don't know. That'll be your job to find out :P  
 **\<sarang>** heh  
 **\<sarang>** well fwiw, bulletproof mpc is a known construction  
 **\<gingeropolous>** damn, missed the bloat thing. i like 1 and 2. I think 1 can be the quick easy fix for now... and if we can figure out the best double mechanism (#2) then we should probably switch to that, because that can allow for spikes  
-**\<moneromooo>** tnsepta: if you have more than one user, it breaks down some of the analysis you can do since you can't assume all inputs have a common owner.  
-**\<sarang>** moneromooo: is there a branch with any work? or is it just at the "here's the math" stage?  
-**\<moneromooo>** There's a "multi" branch, which has a PoC in core\_tests.  
-**\<moneromooo>** I've started working on the simplewallet tooling now.  
+**\<byterubmooo>** tnsepta: if you have more than one user, it breaks down some of the analysis you can do since you can't assume all inputs have a common owner.  
+**\<sarang>** byterubmooo: is there a branch with any work? or is it just at the "here's the math" stage?  
+**\<byterubmooo>** There's a "multi" branch, which has a PoC in core\_tests.  
+**\<byterubmooo>** I've started working on the simplewallet tooling now.  
 **\<spaced0ut>** Could the same attack used to expand blocksize and bloat the chain also be used to create an insane amount of identical mixins to the point that future tx would have a high chance of having 10 identical mixins and your real spend?  
-**\<sarang>** How do you get so much done simultaneously moneromooo ?  
+**\<sarang>** How do you get so much done simultaneously byterubmooo ?  
 **\<sarang>** Surely you burn the candle at all ends  
-**\<moneromooo>** I have four legs. Humans only use two hands to type.  
+**\<byterubmooo>** I have four legs. Humans only use two hands to type.  
 **\<sarang>** spaced0ut: what do you mean?  
 **\<sarang>** Do you mean the ring union analysis method?  
 **\<sarang>** it's extremely unlikely to occur without active selection  
@@ -265,7 +265,7 @@ author: el00ruobuob / surae
 **\<sarang>** Amounts are irrelevant  
 **\<spaced0ut>** yes ofc. i worded that funny. you answered me though thanks  
 **\<sarang>** roger  
-**\<sarang>** moneromooo: your idea intrigues me, and I'll be interested to examine the details  
+**\<sarang>** byterubmooo: your idea intrigues me, and I'll be interested to examine the details  
 **\<sarang>** Well, we have come to the end of our allotted time  
 **\<sarang>** Great discussion all around  
 **\<sarang>** We'll each move into the future sometime today; let us know what it's like when you get there    

@@ -18,7 +18,7 @@ author: dEBRUYNE / fluffypony
 **\<pablonero[m]>** hello!  
 **\<ajs>** sup  
 **\<erciccione>** hi all!  
-**\<moneromax>** o hell!  
+**\<byterubmax>** o hell!  
 **\<msvb-lab>** Hello.  
 **\<Jaquee>** hi  
 **\<sgp>** 2. Community highlights  
@@ -29,33 +29,33 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Now, time to talk about some contributions by ByteRub community members that went above and beyond! So much happened that I worry I missed some things, but here are a few that I noticed.  
 **\<sn0wmonster>** (I also have independent proof of the subs increase as i tracked this thread for 2 days and 900+ users subscribed: https://www.reddit.com/r/ByteRub/comments/6v4f70/celebrating_20000_subscribers_lambo_giveaway/)  
 **\<sgp>** Cool!  
-**\<sgp>** /u/lafudoci wrote a post today about how they built: https://xmr-tw.org/. Their translations to Chinese (Taiwan) have really built a strong foundation of knowledge. https://www.reddit.com/r/ByteRubCommunity/comments/6xk7ao/my_experiences_in_promoting_monero_and_some/  
-**\<sgp>** A community member who later deleted their account posted this defense of privacy that quickly became one of the top posts of the ByteRub subreddit. It was linked in several other communities and is well worth the read: https://www.reddit.com/r/ByteRub/comments/6uldp2/monero_privacy_is_not_a_crime_or_something_to/  
+**\<sgp>** /u/lafudoci wrote a post today about how they built: https://xmr-tw.org/. Their translations to Chinese (Taiwan) have really built a strong foundation of knowledge. https://www.reddit.com/r/ByteRubCommunity/comments/6xk7ao/my_experiences_in_promoting_byterub_and_some/  
+**\<sgp>** A community member who later deleted their account posted this defense of privacy that quickly became one of the top posts of the ByteRub subreddit. It was linked in several other communities and is well worth the read: https://www.reddit.com/r/ByteRub/comments/6uldp2/byterub_privacy_is_not_a_crime_or_something_to/  
 **\<sgp>** I added cryptocurrencies, including ByteRub, to the /r/privacy subreddit wiki. You can view it here and let me know your thoughts: https://np.reddit.com/r/privacy/wiki/cryptocurrency  
 **\<sgp>** MONERO NOW HAS AN ANDROID MOBILE WALLET! You will need to connect it to a remote node https://github.com/m2049r/xmrwallet/releases  
 **\<sgp>** VUALIFI launched, which allows anyone to make payment from ByteRub to most cryptocurrencies other than Bitcoin. This service compliments XMR.TO, https://vuali.fi/. They also have tor and I2P addresses available: https://www.reddit.com/r/ByteRub/comments/6wh131/announcing_vualifi_anonymous_payments_for/  
-**\<sgp>** /u/ByteRuboby\_Doo started a weekly ByteRub newsletter at http://www.monero-observer.com/. The second issue has now been published.  
+**\<sgp>** /u/ByteRuboby\_Doo started a weekly ByteRub newsletter at http://www.byterub-observer.com/. The second issue has now been published.  
 **\<sgp>** And finally, rehrar and sky redesigned the ByteRub subreddit, with more wiki goodness to come!  
 **\<sgp>** I am sure that I have forgotten something. If you have an example of a community member going above and beyond, please let us know now!  
 **\<sgp>** (keep in mind there will be another section for FFS updates)  
 **\<serhack>** Wow! A lot of users get involved into ByteRub Community :)  
 **\<sgp>** The subreddit has been flooded with new users, but the moderators and greater community have done a really great job managing the influx in volume  
-**\<pablonero[m]>** I also want to thank the u/monero moderators who had a hard job with all the new subscribers  
+**\<pablonero[m]>** I also want to thank the u/byterub moderators who had a hard job with all the new subscribers  
 **\<serhack>** Me too :)  
 **\<floam412>** that's crazy all of that above happened in two weeks... very impressive  
 **\<sgp>** Anyone else, or can we move on to the next point?  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** For those new to the ByteRub community, the FFS stands for the Forum Funding System. It’s like a GoFundMe with ByteRub, where people can pitch ideas and receive payment when set tasks are completed.  
-**\<sgp>** Sarang Noether has been fully-funded https://forum.getmonero.org/7/open-tasks/87856/hire-mathematician-and-computational-physicist-to-join-research-team. He will be working on a variety of topics, including investigating ring signature proposals and blockchain bloat, efficient “future proofing” proposals, and community consensus projects.  
+**\<sgp>** Sarang Noether has been fully-funded https://forum.getbyterub.org/7/open-tasks/87856/hire-mathematician-and-computational-physicist-to-join-research-team. He will be working on a variety of topics, including investigating ring signature proposals and blockchain bloat, efficient “future proofing” proposals, and community consensus projects.  
 **\<sgp>** Surae Noether posted his August research update. This may be technical for many users here, but it shows some research progress https://github.com/b-g-goodell/research-lab/blob/master/publications/research-roadmaps/MRL-R001%20Priorities%20for%20ByteRub%20Research%20Lab/MRL_2017_Q1_Update.pdf  
-**\<sgp>** Serhack posted his 8th integration update about web integrations: https://www.reddit.com/r/ByteRub/comments/6wr9nd/monero_integrations_update_8/  
+**\<sgp>** Serhack posted his 8th integration update about web integrations: https://www.reddit.com/r/ByteRub/comments/6wr9nd/byterub_integrations_update_8/  
 **\<sgp>** Any further comments serhack?  
 **\<serhack>** And soon like next week I will release prestashop plugin!!!  
 **\<sgp>** Very exciting!  
 **\<serhack>** You can go on :)  
-**\<sgp>** My FFS proposal has been delayed until further notice due to the recent price fluctuations https://forum.getmonero.org/6/ideas/88081/justin-s-local-meetup-talks-proposal-3  
+**\<sgp>** My FFS proposal has been delayed until further notice due to the recent price fluctuations https://forum.getbyterub.org/6/ideas/88081/justin-s-local-meetup-talks-proposal-3  
 **\<sgp>** I would now like to give some time to @msvb-lab to discuss their FFS proposal  
-**\<msvb-lab>** Thanks, it relates to https://forum.getmonero.org/7/open-tasks/88149/dedicated-monero-hardware-wallet/  
+**\<msvb-lab>** Thanks, it relates to https://forum.getbyterub.org/7/open-tasks/88149/dedicated-byterub-hardware-wallet/  
 **\<msvb-lab>** ...which describes a dedicated hardware wallet to integrate unique ByteRub features and allow us control over roadmap and branding.  
 **\<msvb-lab>** Opensource, welcoming any contribution but mostly usage and testing.  
 **\<msvb-lab>** Since probably not everyone has a circuit lab, I'll send out the PCBs once the first gen (of about ten) are done.  
@@ -82,7 +82,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** We should think about privacy of an hardware wallet. What are the best procedures for protecting users ?  
 **\<sn0wmonster>** having said that, the issue is we have to wait for a new protocol for Trezor 2.0, and the Ledger i guess "just takes time"?  
 **\<rehrar>** Sorry I'm late.  
-**\<floam412>** what ever happened to ledger though? are they still in the process of integrating monero?  
+**\<floam412>** what ever happened to ledger though? are they still in the process of integrating byterub?  
 **\<dEBRUYNE>** sn0wmonster: I think ledger stated that their specification would be feasible  
 **\<sn0wmonster>** so whether or not msvb-lab is the dude who's gonna make it happen, the issue to me is "this is the wrong time to try"  
 **\<dEBRUYNE>** floam412: yes (afaik)  
@@ -90,7 +90,7 @@ author: dEBRUYNE / fluffypony
 **\<floam412>** gotcha  
 **\<sn0wmonster>** if ledger is already on the road to implementing it, and the ByteRub team can lend a hand when necessary, then the proposal should be entirely for the Trezor, and it should wait until after 2.0 is released imo  
 **\<vP11>** and also to make it clear that other companies are already pursuing the same objective.  
-**\<dEBRUYNE>** sn0wmonster: https://www.reddit.com/r/ByteRub/comments/6thv8j/ledger_hardware_wallet_monero_integration/  
+**\<dEBRUYNE>** sn0wmonster: https://www.reddit.com/r/ByteRub/comments/6thv8j/ledger_hardware_wallet_byterub_integration/  
 **\<vP11>** the worst case scenario is a funding proposal that will not raise the needed amount.  
 **\<sn0wmonster>** vP11, of course, free market and all, just saying as a community to remain empowered requires focus  
 **\<sn0wmonster>** vP11, that's not the worst case actually. i've lived through the worst case.  
@@ -106,7 +106,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** sgp: Yes, that is a separate proposal in fact. It would not result in a dedicated wallet.  
 **\<ArticMine>** An I have mixed feelings about this  
 **\<msvb-lab>** It's proposal 88160:  
-**\<msvb-lab>** https://forum.getmonero.org/7/open-tasks/88160/monero-firmware-for-ledger-wallet/  
+**\<msvb-lab>** https://forum.getbyterub.org/7/open-tasks/88160/byterub-firmware-for-ledger-wallet/  
 **\<sn0wmonster>** there's also the added benefit that when a consumer orders a wallet from a third party service, it doesn't necessarily connect them to MONERO currency  
 **\<endogenic>** All your opinion  
 **\<endogenic>** ?  
@@ -132,7 +132,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** 4. Translations  
 **\<msvb-lab>** ...in the comments section so that the proposal can be changed to meet the needs of the community.  
 **\<sgp>** The website, wallets, and community resources always need help! While I applaud the current efforts to localize important ByteRub documents into other languages, we need more community participation.  
-**\<sgp>** A great example occurred a little over a week ago, when community members worked together to add Korean translations to the next release https://github.com/byterubpay/monero-core/pull/836  
+**\<sgp>** A great example occurred a little over a week ago, when community members worked together to add Korean translations to the next release https://github.com/byterubpay/byterub-core/pull/836  
 **\<sgp>** If you would like to get involved in the translation efforts but do not know where to start, please ask after the meeting. Plenty of people can point you in the right direction.  
 **\<endogenic>** vP11: i was also wondering why technical matters were being evaluated here  
 **\<msvb-lab>** dEBRUYNE: I'm not focusing so much on 88160 for that reason. Although I'm possibly the most pessimistic person that it actually happens.  
@@ -143,12 +143,12 @@ author: dEBRUYNE / fluffypony
 **\<erciccione>** right now we have 3 main things to translate  
 **\<erciccione>** the GUI, kovri website, and all the promo videos  
 **\<erciccione>** the main issue is the difficulty in communications, many people want's to help but they get lost when they meet the first difficulties  
-**\<erciccione>** i was thinking about creating a channel: monero-translations  
+**\<erciccione>** i was thinking about creating a channel: byterub-translations  
 **\<erciccione>** where there will be always support for newcomers or who wants to starts  
-**\<erciccione>** i never did a traslation in my life before starting with monero, and i'm pretty sure what scares people is the missing of proper guidelines  
+**\<erciccione>** i never did a traslation in my life before starting with byterub, and i'm pretty sure what scares people is the missing of proper guidelines  
 **\<erciccione>** so finally:  
 **\<needmultisig90>** We could hire translators on fiverrr  
-**\<erciccione>** i'd like to create a document that will help anybody to start and follow the updates about translations, and all this can be organized in monero-transaltions  
+**\<erciccione>** i'd like to create a document that will help anybody to start and follow the updates about translations, and all this can be organized in byterub-transaltions  
 **\<pablonero[m]>** i like the idea  
 **\<sn0wmonster>** needmultisig90: there's actually two proven ways that FOSS projects on Freenode do translations in a professional manner, one of them is by building the community out (like deevad did for #pepper&carrot, another is using the professional translating services where you send in the copy and it comes back to in X number of languages you requested and can be done in bulk)  
 **\<vP11>** I'd like to give a word too if possible (when erciccione finishes)  
@@ -183,7 +183,7 @@ author: dEBRUYNE / fluffypony
 **\<pablonero[m]>** what do you think?  
 **\<sgp>** I imagine most student groups would take free stuff  
 **\<sgp>** Sounds like a great way to get local groups interested. Give them something for free and hope they talk about it  
-**\<floam412>** if you are going to do something like that, I would suggest including a QR code that links to getmonero.org for people to find/research more info  
+**\<floam412>** if you are going to do something like that, I would suggest including a QR code that links to getbyterub.org for people to find/research more info  
 **\<pablonero[m]>** floam412: good idea  
 **\<pablonero[m]>** what kind of printed stuff should we send?  
 **\<vP11>** http://www.phneep.com/projects/bitcoin-propaganda/  
@@ -226,18 +226,18 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** The next meeting will two weeks from today on 16 September at 17:00 UTC. It will be the Saturday before the dev meetings. If someone has feedback on the new meeting date and time, please let us know.  
 **\<sgp>** (So, we are keeping with the Saturday meetings now)  
 **\<sgp>** 7. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and byterub-community. Take care, and know that change starts with YOU.  
 **\<ArticMine>** The change to Saturday was great fro me  
 **\<erciccione>** ArticMine: for me aswell  
 **\<vP11>** same  
 **\<rehrar>** some people still want it after Dev/Kovri meetings Sunday  
 **\<rehrar>** We can make a reddit thread about it to gather more intel, even for people who weren't able to make meetings  
 **\<vP11>** I agree on that, rehrar.  
-**\<erciccione>** (\#monero-translations is a thing. only on irc for now, tomorrow i'll do the relays)  
+**\<erciccione>** (\#byterub-translations is a thing. only on irc for now, tomorrow i'll do the relays)  
 **\<sn0wmonster>** just a thought, (sorry im late) "safe money for everyone" sounds like a legal liability. how about "private money" or something a little less construable as a guarantee?  
 **\<sgp>** I need to take off. Thanks everyone!  
 **\<pablonero[m]>** thanks!  
 **\<erciccione>** ciao grazie!  
-**\<dEBRUYNE>** erciccione: Could you help this guy out w/ rebasing or rebase his PR? https://github.com/byterubpay/monero-core/pull/794  
+**\<dEBRUYNE>** erciccione: Could you help this guy out w/ rebasing or rebase his PR? https://github.com/byterubpay/byterub-core/pull/794  
 **\<erciccione>** dEBRUYNE sure!  
 **\<dEBRUYNE>** Thanks!  

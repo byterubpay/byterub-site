@@ -9,9 +9,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 # Logs  
 
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/297  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** ye  
 **\<msvb-mob>** Hello.  
@@ -30,23 +30,23 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** fancy. thanks everyone!  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** I did not have a chance to grab community highlights before the meeting unfortunately. Who has one?  
-**\<sgp\_>** Breaking Monero episode 2 will go live after this meeting  
-**\<parasew[m]>** https://www.reddit.com/r/Monero/comments/abl4df/35c3\_rehrar\_report/  
-**\<monerobux>** [REDDIT] 35C3: rehrar report (self.Monero) | 72 points (93.0%) | 17 comments | Posted by Rehrar | Created at 2019-01-01 - 19:35:11  
-**\<parasew[m]>** lots of Monero peeps have been meeting at the 35C3  
+**\<sgp\_>** Breaking ByteRub episode 2 will go live after this meeting  
+**\<parasew[m]>** https://www.reddit.com/r/ByteRub/comments/abl4df/35c3\_rehrar\_report/  
+**\<byterubbux>** [REDDIT] 35C3: rehrar report (self.ByteRub) | 72 points (93.0%) | 17 comments | Posted by Rehrar | Created at 2019-01-01 - 19:35:11  
+**\<parasew[m]>** lots of ByteRub peeps have been meeting at the 35C3  
 **\<sgp\_>** ah yes, the 35c3. How did it go?  
 **\<parasew[m]>** and there was an amazing stage with MC rehrar  
-**\<nevvton[m]>** obviously as rehrar has written a nice post about this years 35c3, the critical decentralisation cluster was a huge success for Monero's community  
+**\<nevvton[m]>** obviously as rehrar has written a nice post about this years 35c3, the critical decentralisation cluster was a huge success for ByteRub's community  
 **\<rehrar>** o/  
-**\<sgp\_>** what handouts did you give out, other than the one copy of Mastering Monero? :p  
+**\<sgp\_>** what handouts did you give out, other than the one copy of Mastering ByteRub? :p  
 **\<parasew[m]>** we had a lot of printed material:  
-**\<parasew[m]>** 1) monero wallets (ios, android)  
+**\<parasew[m]>** 1) byterub wallets (ios, android)  
 **\<nevvton[m]>** Parasew and RIAT had prepared numerous printed material  
-**\<parasew[m]>** 2) information about monero and FFS  
+**\<parasew[m]>** 2) information about byterub and FFS  
 **\<parasew[m]>** 3) lots of individual cards and prints (including pablonero's stash from last year)  
-**\<parasew[m]>** the mastering monero book was also on display (in a custom printed version)  
+**\<parasew[m]>** the mastering byterub book was also on display (in a custom printed version)  
 **\<serhack>** :- ) Thank you!  
-**\<sgp\_>** Oh yeah, I guess I can say that we sold over 200 copies of Mastering Monero!  
+**\<sgp\_>** Oh yeah, I guess I can say that we sold over 200 copies of Mastering ByteRub!  
 **\<el00ruobuob\_[m]>** hi guys, sorry i'm late  
 **\<serhack>** @sgp\_ We're going to reach 300 soon.  
 **\<sgp\_>** cool wallet handouts nevvton[m]!  
@@ -63,7 +63,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I look forward to reading it  
 **\<nevvton[m]>** > You mean 'badges.'  
 **\<nevvton[m]>** yes  
-**\<serhack>** I do not know if we ever posted Mastering Monero here. But it was released on Amazon! https://www.amazon.com/dp/1731079966 . A donation report will be posted on Reddit soon :- )  
+**\<serhack>** I do not know if we ever posted Mastering ByteRub here. But it was released on Amazon! https://www.amazon.com/dp/1731079966 . A donation report will be posted on Reddit soon :- )  
 **\<sgp\_>** 3. FFS updates  
 **\<sgp\_>** First, the FFS is expected to be updated this Monday. With any luck, we will never need to see the old forum ever again.  
 **\<brokeinside90>**\o/  
@@ -71,14 +71,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<midipoet>**\o/  
 **\<el00ruobuob\_[m]>**\o/  
 **\<oneiric\_>** great work to all involved  
-**\<sgp\_>** I trade my drugs through the Monero FFS /s  
+**\<sgp\_>** I trade my drugs through the ByteRub FFS /s  
 **\<midipoet>** brokeinside90: I have a Rolex for sale if you want. Good price for you ;-)  
 **\<brokeinside90>** Lol  
 **\<sgp\_>** We will discuss the recent Kovri FFS update in its own section. Please leave all comments regarding Kovri to the end.  
 **\<sgp\_>** FFS proposals still needing funding:  
-**\<sgp\_>** ErCiccione localization: https://forum.getmonero.org/8/funding-required/91261/erciccione-coordinator-of-the-localization-workgroup  
-**\<sgp\_>** midipoet TabConf: https://forum.getmonero.org/8/funding-required/91357/ffs-ideas-midipoet-represent-monero-at-tabconf-2019  
-**\<sgp\_>** surae Monero Conference: https://forum.getmonero.org/8/funding-required/90909/surae-noether-first-denver-monero-konferenco-spring-2019  
+**\<sgp\_>** ErCiccione localization: https://forum.getbyterub.org/8/funding-required/91261/erciccione-coordinator-of-the-localization-workgroup  
+**\<sgp\_>** midipoet TabConf: https://forum.getbyterub.org/8/funding-required/91357/ffs-ideas-midipoet-represent-byterub-at-tabconf-2019  
+**\<sgp\_>** surae ByteRub Conference: https://forum.getbyterub.org/8/funding-required/90909/surae-noether-first-denver-byterub-konferenco-spring-2019  
 **\<el00ruobuob\_[m]>** my FFS is still hidden in open ideas... hopefully the new FFS will revive it  
 **\<sgp\_>** Are they any comments on these proposals in funding required? Or did I miss another in Funding Required?  
 **\<ErCiccione>** i have a couple of points to talk regarding FFS stuff sgp\_  
@@ -96,16 +96,16 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob\_[m]>** thanks  
 **\<ErCiccione>** first point is about an FFS idea i posted on the forum some weeks ago about rewarding translators. I had some mixed opinions about it, at the beginning it sounded a bad idea for me, but than seeing that the community looked in favour i wrote down the idea in form of FFS request  
 **\<ErCiccione>** but right after many other community members seemed against it. So,  
-**\<ErCiccione>** what's the feeling about https://forum.getmonero.org/6/ideas/91293/reward-monero-translators ?  
+**\<ErCiccione>** what's the feeling about https://forum.getbyterub.org/6/ideas/91293/reward-byterub-translators ?  
 **\<ErCiccione>** would reward translators be a good idea or not? i'm troubled  
 **\<el00ruobuob\_[m]>** i am in favor, mainly to intencieve and rewrad reviewers  
-**\<ErCiccione>** from one side i would like to see contributions based on passion for monero, but it's true that especially in this market it's very hard to find contributors in first place, and maybe a little incentive could help  
+**\<ErCiccione>** from one side i would like to see contributions based on passion for byterub, but it's true that especially in this market it's very hard to find contributors in first place, and maybe a little incentive could help  
 **\<ErCiccione>** so, thoughts?  
-**\<brokeinside90>** I suspect there are many who are bilingual, who cannot code and want to help Monero  
+**\<brokeinside90>** I suspect there are many who are bilingual, who cannot code and want to help ByteRub  
 **\<el00ruobuob\_[m]>** and i agree with the principle of not double reward, for guys like me. so totally pro  
 **\<brokeinside90>** Perhaps there's some way of gamifying it  
 **\<sgp\_>** What's the best way to encourage volunteerism while still getting more reviews? Is there some type of swag we offer to people who help for free? Even shirts are cheap-ish; what about special shirts?  
-**\<brokeinside90>** I suspect a similar thing to the Monero games could be used  
+**\<brokeinside90>** I suspect a similar thing to the ByteRub games could be used  
 **\<rehrar>** I have gone back and forth on this issue several times.  
 **\<sgp\_>** Cheaper still: special stickers  
 **\<rehrar>** Currently sitting in the "bad idea" camp, but that may change tomorrow  
@@ -114,16 +114,16 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** yes, it would only be cool with a few people  
 **\<binaryFate>** What's the state now in practice?  
 **\<ErCiccione>** if somebody has some alternative idea to incentive translators, that would be great  
-**\<brokeinside90>** Monero games style thing, I can think about it  
+**\<brokeinside90>** ByteRub games style thing, I can think about it  
 **\<brokeinside90>** One point per peer reviewed word (and you need to peer review as many words as you translate, maybe)  
 **\<serhack>** it could be a cool idea brokeinside90  
 **\<brokeinside90>** Perhaps a monetary reward for the top contributors  
-**\<ErCiccione>** binaryfate: now contributors contact me and i tell them what to translate according to their experience and technical knwoledge. Some of the most experts opened FFS proposal and got rewarded to work on big chunks of translations (getmonero or full translations in general)  
+**\<ErCiccione>** binaryfate: now contributors contact me and i tell them what to translate according to their experience and technical knwoledge. Some of the most experts opened FFS proposal and got rewarded to work on big chunks of translations (getbyterub or full translations in general)  
 **\<sgp\_>** Has there been a lot of interest among existing contributors for rewards?  
 **\<binaryFate>** I mean are we lacking people a bit, a lot, not at all? Would that help? I find it hard to have an opinion on just concept without knowing where we stand  
 **\<ErCiccione>** brokeinside90: the "per word" reward is impossible to realize. I think i wrote something about that in the proposal i linked  
 **\<el00ruobuob\_[m]>** we're lacking reviewer for some languages for sure  
-**\<el00ruobuob\_[m]>** i.e. getmonero arabic was merged based on a technical review  
+**\<el00ruobuob\_[m]>** i.e. getbyterub arabic was merged based on a technical review  
 **\<ErCiccione>** we are lacking of reviewers completely for some languages and i have to write reddit posts o ping for days old contributors to have other languages done. It's being quite frustrating]  
 **\<ErCiccione>** but we are good for some languages like spanish, french itlaian and german  
 **\<ErCiccione>** <el00ruobuob\_: exactly, and i don't like that, but we got no reviewers for weeks  
@@ -132,14 +132,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** sgp\_: yes,  a good amount of anspiring contributors who PM me disappear as soon as they found out that they will get no monetary reward  
 **\<el00ruobuob\_[m]>** i have some some colleagues who could have helped if they have been expecting a small reward  
 **\<ErCiccione>** binaryFate: That's already in the plan, pootle gives the possibility to have "language leaders", but that would be possible just for the 4 languages i wrote earlier  
-**\<endogenic>** el00ruobuob\_[m]: would they accept monero?  
-**\<el00ruobuob\_[m]>** yes, the guy i think about seems interested in monero  
+**\<endogenic>** el00ruobuob\_[m]: would they accept byterub?  
+**\<el00ruobuob\_[m]>** yes, the guy i think about seems interested in byterub  
 **\<ErCiccione>** and for those we are basically already ok  
 **\<el00ruobuob\_[m]>** but didn't have time to get involved "for free"  
 **\<el00ruobuob\_[m]>** new house, new kid, ...  
 **\<sgp\_>** ErCiccione: I know you have made many posts about this already, but could you make a Reddit post asking for possible incentive ideas? It would be good material for other projects too  
 **\<ErCiccione>** anyway, i ask you guys to comment on the forum post to let me know what you think about it, or if you have ideas, now i would like to talk about the second point, since we donn't have much time and that will require a discussion as well  
-**\<rehrar>** I think the purity of the Monero community isn't just maintained by the big decisions, but by these little ones as well  
+**\<rehrar>** I think the purity of the ByteRub community isn't just maintained by the big decisions, but by these little ones as well  
 **\<rehrar>** I'm growing uncomfortable with any compromise to my stance of volunteering first before payment in any form  
 **\<rehrar>** in the Arabic guy's case, he did the GUI for free, and then did a FFS for other work, which I think is the correct way to go  
 **\<ErCiccione>** sgp\_ i wanted to avoid the "yeah gimme money" river that i expected from reddit, but at this point i will probably do it  
@@ -147,27 +147,27 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** ErCiccione: it could help to give a few ideas we have in the post and ask for feedback on those too  
 **\<ErCiccione>** agreed. Going with the second point, i wrote few words before the meeting:  
 **\<el00ruobuob\_[m]>** ErCiccione, i "basically" commented  
-**\<ErCiccione>** I proposed to endogenic to work on mymonero as coordinator of the localizations, to provide some internationalization of the project, he proposed me to open a FFS and ask the community to fund the work.  
-**\<ErCiccione>** At the beginning i thought it was a good idea, but then i had some doubts about it. MyMonero is a private company and the idea of asking the community to fund work for a private company troubles me. I spoke with endogenic about it and he didn't take it well,  
+**\<ErCiccione>** I proposed to endogenic to work on mybyterub as coordinator of the localizations, to provide some internationalization of the project, he proposed me to open a FFS and ask the community to fund the work.  
+**\<ErCiccione>** At the beginning i thought it was a good idea, but then i had some doubts about it. MyByteRub is a private company and the idea of asking the community to fund work for a private company troubles me. I spoke with endogenic about it and he didn't take it well,  
 **\<endogenic>** eh not exactly what i said  
-**\<ErCiccione>** (and this is undeniable) for free during its history and this FFS would be a way to give back to mymonero and not doing it would discourage that kind of generous behavior (endogenic plese correct me if i'm saying something not correct).  
+**\<ErCiccione>** (and this is undeniable) for free during its history and this FFS would be a way to give back to mybyterub and not doing it would discourage that kind of generous behavior (endogenic plese correct me if i'm saying something not correct).  
 **\<endogenic>** just need to make it clear that it was more mutual  
 **\<ErCiccione>** My point is that i would like to know how the community feels about this, since i'm not really convinced and in case it would set a precedent of a FFS proposal opened in favour of a private company.  
-**\<ErCiccione>** So what are the opinions about it? would it be a favouritism? would it set a bad precedent of a community funding a company? would it be ok since mymonero contributed a lot to Monero's outreach? If yes, in what case would be ok to open a FFS for a company?  
+**\<ErCiccione>** So what are the opinions about it? would it be a favouritism? would it set a bad precedent of a community funding a company? would it be ok since mybyterub contributed a lot to ByteRub's outreach? If yes, in what case would be ok to open a FFS for a company?  
 **\<endogenic>** we're already doing pretty well on crowdin … but an ffs would certainly incentivize ErCiccione etc  
 **\<ErCiccione>** I wanted to hear some opinions before taking a definitive decision about it, because i'm not short of work, but i am on time and i want to avoid any controversy.  
-**\<fordoes>** MyMonero is open-source?  
+**\<fordoes>** MyByteRub is open-source?  
 **\<endogenic>** of course it is  
-**\<sgp\_>** I certainly wouldn't make it your main focus, and I would still prioritize other Monero projects first, but I think some collaboration is good  
-**\<endogenic>** we've spent upwards of $100k developing software to release for Monero official and to open source for others to use in their own apps  
-**\<el00ruobuob\_[m]>** IMO myMonero should be a "sponsor" of a bit of the localization FFS...  
-**\<rehrar>** MyMonero has done a frick of a lot for the ecosystem, in terms of contributions  
+**\<sgp\_>** I certainly wouldn't make it your main focus, and I would still prioritize other ByteRub projects first, but I think some collaboration is good  
+**\<endogenic>** we've spent upwards of $100k developing software to release for ByteRub official and to open source for others to use in their own apps  
+**\<el00ruobuob\_[m]>** IMO myByteRub should be a "sponsor" of a bit of the localization FFS...  
+**\<rehrar>** MyByteRub has done a frick of a lot for the ecosystem, in terms of contributions  
 **\<fordoes>** So I don't see an issue since the code is independent of the company.  
-**\<rehrar>** if companies were individuals then MyMonero would be among the top contributors  
-**\<sgp\_>** That's a good point fordoes. It mostly benefits MyMonero, but really it also benefits everyone else since it's liberally-licensed  
+**\<rehrar>** if companies were individuals then MyByteRub would be among the top contributors  
+**\<sgp\_>** That's a good point fordoes. It mostly benefits MyByteRub, but really it also benefits everyone else since it's liberally-licensed  
 **\<sgp\_>** It's more similar to Monerujo translations than not imo  
-**\<rehrar>** given MyMonero's continued commitment to the ecosystem, I only wish them to make more money  
-**\<ErCiccione>** yes, in case, mymonero would be just a very small portion of my work, the main will always be all the monero projects i already take care of  
+**\<rehrar>** given MyByteRub's continued commitment to the ecosystem, I only wish them to make more money  
+**\<ErCiccione>** yes, in case, mybyterub would be just a very small portion of my work, the main will always be all the byterub projects i already take care of  
 **\<rehrar>** as that means their conributions will increase  
 **\<rehrar>**\*contributions  
 **\<sgp\_>** So ErCiccione: I personally say go for it as you see fit  
@@ -181,7 +181,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob\_[m]>** sure binaryFate   
 **\<rehrar>** fine I'll go kill the spam now  
 **\<sgp\_>** Let's move on in this meeting then  
-**\<el00ruobuob\_[m]>** http://forum.getmonero.org/6/ideas/91269/el00ruobuob-january-to-march-part-time-for-a-new-quarter  
+**\<el00ruobuob\_[m]>** http://forum.getbyterub.org/6/ideas/91269/el00ruobuob-january-to-march-part-time-for-a-new-quarter  
 **\<sgp\_>** 4. Workgroup report  
 **\<sgp\_>** This is a separate section where other workgroups can report on all that they are working on. If you would like for your workgroup to be represented, please contact me at least a few hours before the meeting.  
 **\<sgp\_>** a. Hardware team report (hardware project listing and dedicated hardware wallet status)  
@@ -198,12 +198,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew[m]>** i need details :)  
 **\<ErCiccione>** endogenic: not a fun of accepting payment with fiat. At the end we are meant to replace that system  
 **\<msvb-mob>** The tip is hosting a codebase of the architecture we feel is most suitable (and secure) integrating a CEC1702 with on chip ECDSA (ed25519.)  
-**\<rehrar>** this week we will be working on a "State of Open Hardware in Monero" document  
-**\<endogenic>** ErCiccione: we have to be pragmatic about how we get there though. the fiat payments will be converted to monero and so the recipient only gets monero  
+**\<rehrar>** this week we will be working on a "State of Open Hardware in ByteRub" document  
+**\<endogenic>** ErCiccione: we have to be pragmatic about how we get there though. the fiat payments will be converted to byterub and so the recipient only gets byterub  
 **\<sgp\_>** rehrar: that will be immensely useful  
 **\<rehrar>** a lot of people have misunderstandings about how the projects work  
 **\<msvb-mob>** According to the forum requirements, we're doing the enclosure as well and those sources are online since a few weeks ago.  
-**\<endogenic>** basically it's taking money out of the fiat system into monero  
+**\<endogenic>** basically it's taking money out of the fiat system into byterub  
 **\<endogenic>** not a bad thing.  
 **\<msvb-mob>** Wallets were available at 35C3.  
 **\<msvb-mob>** That's all the report from the hardware team, unless others want to add something.  
@@ -225,7 +225,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** There are no villages in Defcon 27 until the DC management accepts and rejects proposals, so there are no concrete information yet.  
 **\<msvb-mob>** But the chatter in the village channels suggests this year will be similar to last.  
 **\<msvb-mob>** Any questions about this?  
-**\<rehrar>** Let me know when CFP opens. I would like to submit the Monero village request.  
+**\<rehrar>** Let me know when CFP opens. I would like to submit the ByteRub village request.  
 **\<sgp\_>** Can we push for an even bigger room?  
 **\<rehrar>** I'm getting feedback from many individuals, including fluffypony, about improvements  
 **\<rehrar>** and I want to make sure these things are reflected.  
@@ -239,8 +239,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 5. Kovri discussion  
 **\<sgp\_>** Kovri is a tool that can be used to tunnel traffic over I2P. Recently, the lead maintainer anonimal stated that he had more interest in another project, Sekreta.  
 **\<sgp\_>** Anonimal posted an update here: https://paste.debian.net/plain/1058561  
-**\<sgp\_>** I wrote a comment regarding the issue, which anonimal responded to here: https://www.reddit.com/r/Monero/comments/acgr0q/anominal\_statement\_on\_secreta\_and\_kovri/edan760/?context=10000  
-**\<monerobux>** [REDDIT] Anominal statement on Secreta and Kovri (https://paste.debian.net/plain/1058561) to r/Monero | 81 points (92.0%) | 78 comments | Posted by qertoip | Created at 2019-01-04 - 09:58:59  
+**\<sgp\_>** I wrote a comment regarding the issue, which anonimal responded to here: https://www.reddit.com/r/ByteRub/comments/acgr0q/anominal\_statement\_on\_secreta\_and\_kovri/edan760/?context=10000  
+**\<byterubbux>** [REDDIT] Anominal statement on Secreta and Kovri (https://paste.debian.net/plain/1058561) to r/ByteRub | 81 points (92.0%) | 78 comments | Posted by qertoip | Created at 2019-01-04 - 09:58:59  
 **\<sgp\_>** anonimal added a few more comments in the GitHub issue for this meeting: https://github.com/byterubpay/meta/issues/297  
 **\<sgp\_>** To get a quick preface out of the way before discussion, the Community Workgroup discusses relevant items of community interest. Anonimal’s recent update is of important community interest. Furthermore, his recent FFS update, wherein he is asking the community to pay for his work on Sekreta, certainly is of community interest. We have historically discussed all FFS proposals and important payouts here.  
 **\<sgp\_>** While we ask for others to be present at these meetings if they are available, they are not required to show up, and we can have discussions in the meantime in their absence. They are welcome to discuss and share their point of view through other means, which it seems like they already have. I feel that we absolutely should discuss an important recent community development here.  
@@ -248,7 +248,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<oneiric\_>** o/  
 **\<sgp\_>** This is some reserved time to collect community feedback regarding recent Kovri developments and to help the community get a better understanding  
 **\<el00ruobuob\_[m]>** I aprove anonimal blindly, but have not contributed to the FFS. If he believe Sekreta is a better way to go, let's do it  
-**\<endogenic>** el00ruobuob\_[m]: part of the problem is that simply having kovri doesn't mean we can't have sekreta - i mean we're right at the finish line with the API - why can't we just finish the API? we're already building a transport-agnostic way to do networking in monero  
+**\<endogenic>** el00ruobuob\_[m]: part of the problem is that simply having kovri doesn't mean we can't have sekreta - i mean we're right at the finish line with the API - why can't we just finish the API? we're already building a transport-agnostic way to do networking in byterub  
 **\<endogenic>** that makes it all the easier to switch out in the future  
 **\<endogenic>** so it's not like we wouldn't adopt a better solution in the future  
 **\<endogenic>** i personally find it troubling that the API being finished was promised and then it was just abandoned  
@@ -268,12 +268,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<endogenic>** personally  
 **\<ErCiccione>** I think the situation is very complicated and not easy to solve. Looks clear that Sekreta is the best way to go technically, but it's also true that the community could have been informed of what was going on in a clearer way. I asked anonimal to schedule a kovri meeting to better understand what's the state of the project right now and allow the community to ask for clarifications  
 **\<oneiric\_>** imho, kovri is serviceable atm. it's API and overall design leaves a lot to be desired  
-**\<sgp\_>** oneiric\_: we have one clear main goal for Kovri with Monero: hiding transaction broadcast info. The second, much less important and more difficult goal is hiding that you are running a Monero node completely  
+**\<sgp\_>** oneiric\_: we have one clear main goal for Kovri with ByteRub: hiding transaction broadcast info. The second, much less important and more difficult goal is hiding that you are running a ByteRub node completely  
 **\<nioc>** this is what it says in the original FFS  
-**\<nioc>** Guarantee Kovri/Monero integration  
-**\<nioc>** Integration with monerod  
+**\<nioc>** Guarantee Kovri/ByteRub integration  
+**\<nioc>** Integration with byterubd  
 **\<nioc>** Integration with GUI  
-**\<nioc>** Building/releasing on same platforms as Monero  
+**\<nioc>** Building/releasing on same platforms as ByteRub  
 **\<nioc>** Linux/OSX/Windows  
 **\<nioc>** i686/amd64/armv7/armv8  
 **\<knaccc>** does anyone disagree with anonimal's statement that "this codebase is a steaming pile of dog-\*\*\*\*". oneiric\_?  
@@ -286,7 +286,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<shatter>** toxic and scatterbrained  
 **\<oneiric\_>** knaccc: i don't. i effing hate digging through that sh\*tshow  
 **\<el00ruobuob\_[m]>** a rainman-like wise guy we want to keep working on it maybe endogenic  
-**\<sgp\_>** oneiric\_: what would be the large barriers to getting a MVP-style integration with monerod and the cli?  
+**\<sgp\_>** oneiric\_: what would be the large barriers to getting a MVP-style integration with byterubd and the cli?  
 **\<brokeinside90>** And frankly, as an employee paid by the community, you would think he could set aside an hour every couple weeks to talk with us. Especially today.  
 **\<oneiric\_>** personal attacks aside, kovri dev is incredibly frustrating, probably more than it needs to be  
 **\<ErCiccione>** can we avoid personal insults please? that doesn't help to solve the situation and make the drama even worse. Let's try to focus only on the situation we have to deal with  
@@ -314,7 +314,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<endogenic>** ErCiccione: by taking 3 more years on more potential vaporware ?  
 **\<endogenic>** i dont see why we cant complete kovri as it is  
 **\<endogenic>** there's no reason not to is there ?  
-**\<endogenic>** it's not like monero wouldn't use sekreta or whatever in the future if it's better  
+**\<endogenic>** it's not like byterub wouldn't use sekreta or whatever in the future if it's better  
 **\<endogenic>** but how is it right to hold the community hostage like this?  
 **\<sgp\_>** oneiric\_: all right, good to know a little bit more about the code still shared with i2pd  
 **\<endogenic>** it seems a product of fear instead of open communication  
@@ -338,28 +338,28 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** As a privacy advocate first and foremost, if Sekreta is what it claims to be, then it's indeed very exciting. And if Tor is going to be integrated in the meantime, and Kovri is in a miserable state, I say we let it go.  
 **\<oneiric\_>** sgp\_: many bug-fixes, automated testing, refactors for hardening, some for clarity, cleaning up C-with-classes spaghet code  
 **\<rehrar>** I am very disappointed in the lack of communication up to this point regarding Sekreta, however  
-**\<endogenic>** ErCiccione: i'm familiar with his opinion. question is, are you willing to wait for 3 years for potential vaporware while we have no better alternative in place? what does that do for the superiority of Monero's tech?  
+**\<endogenic>** ErCiccione: i'm familiar with his opinion. question is, are you willing to wait for 3 years for potential vaporware while we have no better alternative in place? what does that do for the superiority of ByteRub's tech?  
 **\<endogenic>** i think i've repeated this enough times now ErCiccione  :P  
 **\<rehrar>** I'm not aware of anyone who really knew the full extent of the "surprises" planned for December. And I feel like if anonimal would have requested from the community to take a bit of time for R&D purposes, because he thinks he's found a fatal flaw in the whole setup, he would have got it  
 **\<sgp\_>** Besides the obvious of Sekreta not existing, I'm not convinced it makes sense. We're trying to hide network metadata, not increase exposure by spreading this metadata across many different channels  
 **\<nioc>** AIUI sekreta is used along with tor or i2p, not a replacment for them.  Is that correct?  
 **\<sgp\_>** nioc: correct, afaict  
-**\<moneromooo>** No.  
+**\<byterubmooo>** No.  
 **\<rehrar>** endogenic: isn't this solved by implementing tor as a stop gap?  
 **\<ErCiccione>** endogenic: i understand what you mean as i understood it before, but what is the solution here? plug in kovri and then fund the work with sekreta?]  
 **\<oneiric\_>** nioc: yeah, it's a "secretary" for routing/managing traffic over multiple anon networks  
-**\<moneromooo>** It can be viewed as a kind of multiplexer.  
+**\<byterubmooo>** It can be viewed as a kind of multiplexer.  
 **\<ErCiccione>** anyway, i don't think this discussion can go anywhere until anonimal is not present, can we talk about it again in a dedicated kovri meeting? or general meeting, i don't know...]  
-**\<moneromooo>** Except it will use all branches, with secret sharing (AFAIK).  
+**\<byterubmooo>** Except it will use all branches, with secret sharing (AFAIK).  
 **\<oneiric\_>** ErCiccione: i also favor a kovri dedicated meeting  
-**\<\_Slack> \<sean>** moneromooo: Yes, that's the gist of it.  
+**\<\_Slack> \<sean>** byterubmooo: Yes, that's the gist of it.  
 **\<brokeinside90>** Mooo, anonimal said you chatted with him, is there anything from that discussion that you think is relevant?  
-**\<moneromooo>** Just that he was much more reasonable once the abusive tendency got under control :)  
+**\<byterubmooo>** Just that he was much more reasonable once the abusive tendency got under control :)  
 **\<endogenic>** ErCiccione: rehrar: even having kovri in its messy state will attract developers to improve it  
-**\<oneiric\_>** moneromooo: the secret sharing is part of what i was curious about. will be interesting to see how the design keeps sekreta from being one big single point of failure  
+**\<oneiric\_>** byterubmooo: the secret sharing is part of what i was curious about. will be interesting to see how the design keeps sekreta from being one big single point of failure  
 **\<nioc>** so in order for sekreta to be useful it needs something like tor or i2p?  
 **\<endogenic>** and i agree with oneiric's idea to rebuild it slowly modularly and minimally - even if rewriting something is dangerous - rewriting something once we know exactly what we need is actually usually highly successful  
-**\<moneromooo>** Yes, it'll need one network at least. Two if it's to be really of any use.  
+**\<byterubmooo>** Yes, it'll need one network at least. Two if it's to be really of any use.  
 **\<ErCiccione>** on /r/sekreta there is a ELI5 explanation of what sekreta is FWIW  
 **\<sgp\_>** We have one more topic to cover regarding anonimal's recent FFS update that I want to take an initial poll to get some community feedback on: anonimal's decision to bill his previous hours spent on Sekreta in his FFS proposal  
 **\<endogenic>** lol ^  
@@ -382,8 +382,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<fordoes>** But what confidence will donators have if Koviri isn't completed?  
 **\<sgp\_>** anyway, it seems like we need a dedicated Kovri / Sekreta meeting. My personal thoughts remain in my Reddit comment  
 **\<sgp\_>** There will be plenty more discussions in the future  
-**\<moneromooo>** About that point: my understanding is that he worked more hours than claimed. So you can also view that sekreta work as unfunded maybe. I don't know the numbers though.  
-**\<rehrar>** if you want my honest (current) opinion, I say that he has donated a bajillion hours to Kovri and otherwise over his stay in Monero. give the man his money, end the proposal, and the community can decide what to do next if he opens another one  
+**\<byterubmooo>** About that point: my understanding is that he worked more hours than claimed. So you can also view that sekreta work as unfunded maybe. I don't know the numbers though.  
+**\<rehrar>** if you want my honest (current) opinion, I say that he has donated a bajillion hours to Kovri and otherwise over his stay in ByteRub. give the man his money, end the proposal, and the community can decide what to do next if he opens another one  
 **\<rehrar>** The fact of the matter is, he is way over hours for the proposal as it currently stands, just many of those hours are unbilled  
 **\<rehrar>** and Kovri will not be completed in a meaningfully expected way with the last two milestones anyways  
 **\<endogenic>** that's why we need communication though  
@@ -421,8 +421,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 7. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 19 January at 17:00 UTC.  
 **\<rehrar>** kthanksbai <3  
-**\<sgp\_>** The next Monero Coffee Chat will take place NEXT SATURDAY on 12 January at 17:00 UTC.  
+**\<sgp\_>** The next ByteRub Coffee Chat will take place NEXT SATURDAY on 12 January at 17:00 UTC.  
 **\<\_Slack> \<sean>** Thanks sgp\_  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 8. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

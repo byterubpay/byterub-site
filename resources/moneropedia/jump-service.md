@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.jump-service
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.jump-service
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/jump-service.md %}
+{% tf resources/byterubpedia/jump-service.md %}

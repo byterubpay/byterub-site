@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.scalability
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.scalability
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/scalability.md %}
+{% tf resources/byterubpedia/scalability.md %}

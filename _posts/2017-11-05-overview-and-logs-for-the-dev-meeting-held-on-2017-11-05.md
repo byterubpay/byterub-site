@@ -25,13 +25,13 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** hi  
 **\<sarang>** sarang  
 **\<serhack>** hello  
-**\<rehrar>** luigi1111, moneromooo, endogenic, othe, fluffypony  
+**\<rehrar>** luigi1111, byterubmooo, endogenic, othe, fluffypony  
 **\<rehrar>** ping all the people!  
 **\<endogenic>** hyc vtnerd sarang suraeNoether  
 **\<serhack>** sgp, cryptochangements, erciccione  
 **\<endogenic>** pigeons  
 **\<suraeNoether>** howdy howdy  
-**\<moneromooo>** here  
+**\<byterubmooo>** here  
 **\<pigeons>** hola, lets go  
 **\<rehrar>** 2. Brief review of what's been completed since the previous meeting  
 **\<rehrar>** What's been going down these past two weeks guys? For those who missed last meeting, you can update on the past month.  
@@ -39,16 +39,16 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** I suppose the obvious is 11.1 was released  
 **\<rehrar>** MRL can give a brief mini-update if they want too, i know you guys have your own meetings, but just so everyone is in the loop :slightly\_smiling\_face:  
 **\<rehrar>** ye! How'd we feel the release went? smoother than the last time? it was a bit rough then.  
-**\<hyc>** probably moneromooo should give an opinion there. seemed slightly smoother but we still had some cmake/build issues  
+**\<hyc>** probably byterubmooo should give an opinion there. seemed slightly smoother but we still had some cmake/build issues  
 **\<hyc>** stuff PR'd to master that should also have been PR'd to release and was overlooked  
-**\<moneromooo>** Well, there were not man changes. But pony had some trouble, yes.  
-**\<moneromooo>** Not sure what those were right now though.  
-**\<suraeNoether>** at MRL, on my end, I've been making steady progress on multisig. the description needed to be expanded to take into account multiple inputs and outputs, and I'm including ringCT as a matter of completeness... I've been comparing code as I go. no major obstacles yet, but that probably just means i'm not totally understanding the code yet, but moneromooo and luigi have made themselves available for questions.  
+**\<byterubmooo>** Well, there were not man changes. But pony had some trouble, yes.  
+**\<byterubmooo>** Not sure what those were right now though.  
+**\<suraeNoether>** at MRL, on my end, I've been making steady progress on multisig. the description needed to be expanded to take into account multiple inputs and outputs, and I'm including ringCT as a matter of completeness... I've been comparing code as I go. no major obstacles yet, but that probably just means i'm not totally understanding the code yet, but byterubmooo and luigi have made themselves available for questions.  
 **\<rehrar>** Ye. It'd be good to get his perspective. We can discuss that next meeting if he's here.  
-**\<suraeNoether>** in addition to that, the grad student at U-Michigan Dearborn, Jeffrey Quesnelle, with whom I have a *draft* of a zk lit review paper in the wings... he contacted me again. as part of his master's thesis, he's essentially doing a zcash-link a la monerolink  
+**\<suraeNoether>** in addition to that, the grad student at U-Michigan Dearborn, Jeffrey Quesnelle, with whom I have a *draft* of a zk lit review paper in the wings... he contacted me again. as part of his master's thesis, he's essentially doing a zcash-link a la byterublink  
 **\<suraeNoether>** he wanted my thoughts, I shared it with fluffypony, we gave him a bit of feedback. I don't know how public he wants the document, so I'm not sharing it around  
 **\<sarang>** Do we want to say anything about SPECTRE and other blockchain topology constructions?  
-**\<suraeNoether>** but it's... interesting. over 30% of zcash transactions are linkable under his model, and although zcash provides a level of plausible deniability, quesnelle's approach doesn't suffer similar sensitivity/specificity problems that monerolink suffered, so  
+**\<suraeNoether>** but it's... interesting. over 30% of zcash transactions are linkable under his model, and although zcash provides a level of plausible deniability, quesnelle's approach doesn't suffer similar sensitivity/specificity problems that byterublink suffered, so  
 **\<hyc>** curious to see that. doesn't that imply that "zero knowledge" is a misnomer?  
 **\<suraeNoether>** well  
 **\<suraeNoether>** you can put your credit card in a zero knowledge black box  
@@ -119,13 +119,13 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Of course.  
 **\<endogenic>** anyone know what's left to do on zmq before can be merged? just rebase?  
 **\<hyc>** client side PR was just resubmitted today  
-**\<moneromooo>** The remaining patch was rebased. I think it does mention some testing is needed though.  
+**\<byterubmooo>** The remaining patch was rebased. I think it does mention some testing is needed though.  
 **\<endogenic>** oh that's great  
 **\<endogenic>** oh one thing  
-**\<endogenic>** i wanted to ask if we should have MRL review the kovri+monero address exchange  
-**\<moneromooo>** What is the kovri+monero address exchange ?  
+**\<endogenic>** i wanted to ask if we should have MRL review the kovri+byterub address exchange  
+**\<byterubmooo>** What is the kovri+byterub address exchange ?  
 **\<endogenic>** you n nonimal were discussing it recently  
-**\<moneromooo>** Ah, how to know where to connect to in the first place ?  
+**\<byterubmooo>** Ah, how to know where to connect to in the first place ?  
 **\<endogenic>** mm  
 **\<sarang>** ??  
 **\<vtnerd>** endogenic : the zmq server can already be accessed/used (trunk/master builds)  
@@ -168,41 +168,41 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** mooo should probably take over for ticket discussion  
 **\<endogenic>** anyway anyone's free to take the floor  
 **\<rehrar>** Ye. Mooo? Wanna take from here plz?  
-**\<moneromooo>** Well, those are usually "what do I merge ?", so since pony isn't here...  
-**\<moneromooo>** I guess I could take the opportunity to shill the multisig branch, if someone wants to test ^\_^  
-**\<endogenic>** yes let's hear moneromooo's holiday wishlist  
-**\<moneromooo>** I don't have anything in particular to say about the pending patches, sorry.  
+**\<byterubmooo>** Well, those are usually "what do I merge ?", so since pony isn't here...  
+**\<byterubmooo>** I guess I could take the opportunity to shill the multisig branch, if someone wants to test ^\_^  
+**\<endogenic>** yes let's hear byterubmooo's holiday wishlist  
+**\<byterubmooo>** I don't have anything in particular to say about the pending patches, sorry.  
 **\<rehrar>** Sorry all. Cya.  
-**\<endogenic>** moneromooo: can you fill sarang in on the kovri address thing?  
-**\<moneromooo>** It'd be an equivalent to the current A records pointing to... the seed nodes I think ?  
+**\<endogenic>** byterubmooo: can you fill sarang in on the kovri address thing?  
+**\<byterubmooo>** It'd be an equivalent to the current A records pointing to... the seed nodes I think ?  
 **\<hyc>** after that, we're on (4) Any additional meeting items  
-**\<moneromooo>** If using kovri, I ugess you don't want to be using DNS for this ?  
+**\<byterubmooo>** If using kovri, I ugess you don't want to be using DNS for this ?  
 **\<hyc>** so we should have some i2p seed nodes?  
-**\<moneromooo>** Once you've got a (honest) peer, you can pull peer lists off it.  
-**\<moneromooo>** Yes, they should be on both clear and i2p.  
-**\<dEBRUYNE>** moneromooo: re: multsig, is there anything in particular you want tested?  
-**\<endogenic>** moneromooo: not possible to do the same experiment twice  
+**\<byterubmooo>** Once you've got a (honest) peer, you can pull peer lists off it.  
+**\<byterubmooo>** Yes, they should be on both clear and i2p.  
+**\<dEBRUYNE>** byterubmooo: re: multsig, is there anything in particular you want tested?  
+**\<endogenic>** byterubmooo: not possible to do the same experiment twice  
 **\<hyc>** I think there ought to be a threshold that cancels out his previous 1-patch contribution and removes his flair  
 **\<serhack>** should I post anything related to my latest updates?  
-**\<moneromooo>** dEBRUYNE: I suppose it's mostly "everything" :)  
+**\<byterubmooo>** dEBRUYNE: I suppose it's mostly "everything" :)  
 **\<dEBRUYNE>** All right, so test and see if anything breaks basically :-P  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Yes.  
 **\<hyc>** at least you only need to recompile the wallet. can use on existing testnet  
-**\<moneromooo>** There are things you can't do, like signing messages for exmaple.  
-**\<endogenic>** moneromooo: i wonder if testing multisig can be opened up to a hackathon  
+**\<byterubmooo>** There are things you can't do, like signing messages for exmaple.  
+**\<endogenic>** byterubmooo: i wonder if testing multisig can be opened up to a hackathon  
 **\<endogenic>** maybe via surae  
-**\<dEBRUYNE>** moneromooo: you mean signing messages with the multisig address?  
-**\<moneromooo>** Yes.  
+**\<dEBRUYNE>** byterubmooo: you mean signing messages with the multisig address?  
+**\<byterubmooo>** Yes.  
 **\<dEBRUYNE>** All right  
 **\<dEBRUYNE>** serhack: go ahead :)  
 **\<endogenic>** oops not surae, sgp  
 **\<hyc>** ready to buy 10 lambos with testnet wallet and 2/3 multisig.  
 **\<serhack>** https://imgur.com/a/iRcAw  
-**\<serhack>** my latest job, I am working in redesign monero payment box  
+**\<serhack>** my latest job, I am working in redesign byterub payment box  
 **\<sgp>** @endogenic can you elaborate further?  
 **\<endogenic>** sgp: i figure you might have a number of programmer friends who are interested in ByteRub or privacy etc  
 **\<endogenic>** aren't there applications of programmatic access to multisig functions?  
-**\<moneromooo>** Can you rephrase that ?  
+**\<byterubmooo>** Can you rephrase that ?  
 **\<sgp>** I haven't really looked into running a hackathon before but one of my firends has done well in many of them  
 **\<endogenic>** sgp: it's ezpz you just get some companies who have a technology to promote to participate and purchase the donuts and coffee :P  
 **\<hyc>** oh, one point of clarification - surae is still working on his multisig review. so what's relation btw surae's work and the current PR?  
@@ -222,7 +222,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Like all new developments, we are evaluating cautiously  
 **\<TinusMars>** ok thanks  
 **\<rehrar>** Next meeting 19th?  
-**\<moneromooo>** hyc: AFAIK, surae and sarang worked on proofs of security, and now comparing existing multisig with their paper.  
+**\<byterubmooo>** hyc: AFAIK, surae and sarang worked on proofs of security, and now comparing existing multisig with their paper.  
 **\<sarang>** aye  
 **\<serhack>** yeah rehrar  
-**\<hyc>** moneromooo: ok cool. so PR can't be merged until review is complete  
+**\<hyc>** byterubmooo: ok cool. so PR can't be merged until review is complete  

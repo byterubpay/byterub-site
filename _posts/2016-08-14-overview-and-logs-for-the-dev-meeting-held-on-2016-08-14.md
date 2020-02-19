@@ -8,29 +8,29 @@ author: dEBRUYNE / fluffypony
 
 ### Overview 
 
-An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-08-14)
+An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byterub-bi-weekly-dev-meeting-note-highlights-2016-08-14)
 
 ### Logs
 
-**\<wallet42>** moneromoo: rewview guidelines?  
-**\<moneromooo>** wallet42: well, whatever you feel comfortable with. Do you have anything in mind ?  
+**\<wallet42>** byterubmoo: rewview guidelines?  
+**\<byterubmooo>** wallet42: well, whatever you feel comfortable with. Do you have anything in mind ?  
 **\<i2p-relay> {-anonimal}** Is there a meeting in a few minutes?  
-**\<moneromooo>** The most important is potential for exploits.  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** The most important is potential for exploits.  
+**\<byterubmooo>** Yes.  
 **\<hyc>** awesome  
-**\<moneromooo>** Well, assuming the pony isn't too busy with mymonero.  
+**\<byterubmooo>** Well, assuming the pony isn't too busy with mybyterub.  
 **\<darkcoinspy>** get your notepads out everyone. time to take notes on the competition  
 **\<i2p-relay> {-anonimal}** Which competition?  
-**\<moneromooo>** I think he just meant dash is still around. It's another crypto (ex darkcoin).  
-**\<dEBRUYNE>** \<moneromooo> Well, assuming the pony isn't too busy with mymonero. <= he was online 20 min ago, fwiw :p  
-**\<hyc>** fixing mymonero...  
+**\<byterubmooo>** I think he just meant dash is still around. It's another crypto (ex darkcoin).  
+**\<dEBRUYNE>** \<byterubmooo> Well, assuming the pony isn't too busy with mybyterub. <= he was online 20 min ago, fwiw :p  
+**\<hyc>** fixing mybyterub...  
 **\<dEBRUYNE>** :-P  
-**\<alex\_\_\_>** what happened to mymonero?  
+**\<alex\_\_\_>** what happened to mybyterub?  
 **\<hyc>** its blockchain got stuck  
 **\<alex\_\_\_>** ah ok  
 **\<dEBRUYNE>** alex\_\_\_: \<\_Telegram> \<fluffypony> there were like 6 imports running which deadlocked the database  
 **\<hyc>** I thought we fixed db\_open to disallow more than 1 process on the DB at a time  
-**\<moneromooo>** Might be talking about his sql db I think.  
+**\<byterubmooo>** Might be talking about his sql db I think.  
 **\<hyc>** ah  
 **\<hyc>** too bad. we've been working on an LMDB backend for mysql/mariadb but not much progress in a long time  
 **\<DaveyJones>** isnt there supposed to be a meeting? xD  
@@ -44,94 +44,94 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<JjegrUseinob>** im about to go get a drink myself  
 **\<JjegrUseinob>** brb  
 **\<hyc>** good idea  
-**\<dEBRUYNE>** moneromooo, hyc: perhaps someone else can take the lead until he returns?  
+**\<dEBRUYNE>** byterubmooo, hyc: perhaps someone else can take the lead until he returns?  
 **\<hyc>** if we had an agenda in advance that'd work. I've got no idea what needs to be covered today  
-**\<moneromooo>** Well, I have just one thing to say, really: reviewers wanted (even for part of the stuff).  
+**\<byterubmooo>** Well, I have just one thing to say, really: reviewers wanted (even for part of the stuff).  
 **\<hyc>** OK, that's a good topic. So there's now a PR for the RingCT code  
 **\<hyc>** which means it's presumably functionally complete and ready for heavy testing  
 **\<dEBRUYNE>** \<hyc> if we had an agenda in advance that'd work. I've got no idea what needs to be covered today <= let's just discuss Ring CT first and the additional open PRs  
 **\<DaveyJones>** paging othe, luigi1111w, luigi1112, othe, tewinget too  
 **\<i2p-relay> {-anonimal}** Congratulations to everyone involved on that. Its a big one.  
-**\<moneromooo>** Yes. I don't think I've got anything else to add, until luigi finds something else he wants to change.  
+**\<byterubmooo>** Yes. I don't think I've got anything else to add, until luigi finds something else he wants to change.  
 **\<DaveyJones>** maybe smooth too  
-**\<moneromooo>** But reviewing this isn't going to be wasted anyway, even if he finds something.  
+**\<byterubmooo>** But reviewing this isn't going to be wasted anyway, even if he finds something.  
 **\<dEBRUYNE>** ^ NoodleDoodle, ArticMine   
 **\<DaveyJones>** but the agenda thing would be nice for such incidents  
-**\<dEBRUYNE>** moneromooo: Is there a way people can help with testing?  
-**\<i2p-relay> {-anonimal}** moneromooo: is there anything in particular that needs attention in terms of review?  
+**\<dEBRUYNE>** byterubmooo: Is there a way people can help with testing?  
+**\<i2p-relay> {-anonimal}** byterubmooo: is there anything in particular that needs attention in terms of review?  
 **\<ArticMine>** RingCT is going to need heavy testing and a public testnet would be a great asset for this  
-**\<moneromooo>** Well, the private fork branch is out of date now, there'll be a public testnet once there's a modicum of review I expect.  
+**\<byterubmooo>** Well, the private fork branch is out of date now, there'll be a public testnet once there's a modicum of review I expect.  
 **\<wallet42>** I would love to setup and pay for a public testnet with a couple nodes  
-**\<dEBRUYNE>** Fwiw, there's a guide to setup a private tesnet -> https://moneroexamples.github.io/private-testnet/  
+**\<dEBRUYNE>** Fwiw, there's a guide to setup a private tesnet -> https://byterubexamples.github.io/private-testnet/  
 **\<fluffypony>** sorry just got in  
 **\<luigi1112>** Sounds good :-)  
 **\<fluffypony>** was eating  
-**\<moneromooo>** Hay.  
-**\<moneromooo>** er, I mean... hey.  
+**\<byterubmooo>** Hay.  
+**\<byterubmooo>** er, I mean... hey.  
 **\<hyc>** LOL  
 **\<DaveyJones>** LOL  
 **\<dEBRUYNE>** People could apply the RCT PR to the code and test it on their own private testnet  
 **\<fluffypony>** ok so  
-**\<moneromooo>** It's already based on latest master. I did removed the forking setup though.  
-**\<fluffypony>** moneromooo: you mean the PR?  
-**\<moneromooo>** Yes.  
-**\<moneromooo>** I kinda expect (1) reviews, (2) merge, (3) testnet, (4) any fixes PR'd separately.  
+**\<byterubmooo>** It's already based on latest master. I did removed the forking setup though.  
+**\<fluffypony>** byterubmooo: you mean the PR?  
+**\<byterubmooo>** Yes.  
+**\<byterubmooo>** I kinda expect (1) reviews, (2) merge, (3) testnet, (4) any fixes PR'd separately.  
 **\<fluffypony>** does the PR have a fork date?  
-**\<moneromooo>** No.  
+**\<byterubmooo>** No.  
 **\<wallet42>** how to activate it?  
-**\<dEBRUYNE>** moneromooo: I meant apply as in manually add it because it hasn't been merged yet :-P  
+**\<dEBRUYNE>** byterubmooo: I meant apply as in manually add it because it hasn't been merged yet :-P  
 **\<i2p-relay> {-anonimal}** Thanks for the link dEBRUYNE  
-**\<moneromooo>** wallet42: it will activate at the right height, once it is cchosen.  
+**\<byterubmooo>** wallet42: it will activate at the right height, once it is cchosen.  
 **\<i2p-relay> {-anonimal}** I have to run folks, I'll read the backlog tomorrow.  
-**\<moneromooo>** see ya  
+**\<byterubmooo>** see ya  
 **\<fluffypony>** cheers anonimal  
 **\<luigi1112>** Yeah it shouldn't have a date  
-**\<fluffypony>** moneromooo: I don't understand the "right height" thing, plz explain  
-**\<moneromooo>** Entries in the hard fork table in src/blockchain.cpp.  
-**\<moneromooo>** (which do not exist yet)  
-**\<dEBRUYNE>** I think we should set a height that adds 1-2 months to the height after this process has completed -> **\<moneromooo>** I kinda expect (1) reviews, (2) merge, (3) testnet, (4) any fixes PR'd separately.  
+**\<fluffypony>** byterubmooo: I don't understand the "right height" thing, plz explain  
+**\<byterubmooo>** Entries in the hard fork table in src/blockchain.cpp.  
+**\<byterubmooo>** (which do not exist yet)  
+**\<dEBRUYNE>** I think we should set a height that adds 1-2 months to the height after this process has completed -> **\<byterubmooo>** I kinda expect (1) reviews, (2) merge, (3) testnet, (4) any fixes PR'd separately.  
 **\<fluffypony>** so as this stands  
 **\<fluffypony>** it understands v3 transactions  
 **\<dEBRUYNE>** Ring CT is such a big change that I think we could deviate once from the HF schedule  
-**\<moneromooo>** Let me explain versions and stuff about this:  
+**\<byterubmooo>** Let me explain versions and stuff about this:  
 **\<fluffypony>** k  
-**\<moneromooo>** Currently, we are on HF 2, and tx version 1 is the only one that exists.  
-**\<moneromooo>** At HF 3 (september on mainnet), pretty much nothing changes.  
-**\<moneromooo>** At HF 4 (march), rct txes (v2 txes) are allowed. At HF 5 (september in a year), v1 txes are disallowed, except for sweep\_unmixable.  
-**\<moneromooo>** Though the last bit (sweep\_unmixable) might be unnecessary, I'm unsure.  
+**\<byterubmooo>** Currently, we are on HF 2, and tx version 1 is the only one that exists.  
+**\<byterubmooo>** At HF 3 (september on mainnet), pretty much nothing changes.  
+**\<byterubmooo>** At HF 4 (march), rct txes (v2 txes) are allowed. At HF 5 (september in a year), v1 txes are disallowed, except for sweep\_unmixable.  
+**\<byterubmooo>** Though the last bit (sweep\_unmixable) might be unnecessary, I'm unsure.  
 **\<fluffypony>** ok  
 **\<hyc>** sounds fine  
-**\<moneromooo>** Oh, and at HF 4 (when rct txes are allowed), the coinbase gets in a single out, and is stored as rct, despite not being rct.  
-**\<moneromooo>** So they can be spent along with rct fake outs.  
+**\<byterubmooo>** Oh, and at HF 4 (when rct txes are allowed), the coinbase gets in a single out, and is stored as rct, despite not being rct.  
+**\<byterubmooo>** So they can be spent along with rct fake outs.  
 **\<fluffypony>** oh neat  
 **\<hyc>** so that also means no quantization then?  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Yes.  
 **\<dEBRUYNE>** "v1 txes are disallowed" -> does that mean everyone needs to move their coins or will a one time transaction be allowed after that?   
-**\<moneromooo>** An rct tx may spend pre-rct outputs.  
+**\<byterubmooo>** An rct tx may spend pre-rct outputs.  
 **\<fluffypony>** dEBRUYNE: nobody needs to move anything yet  
 **\<fluffypony>** or ever, really  
 **\<hyc>** right, this doesn't affect existing outputs. only newly generated txs  
 **\<luigi1112>** The block reward thing is neat if it works :-)  
 **\<JjegrUseinob>** so what will september HF do then?  
 **\<dEBRUYNE>** fluffypony, hyc: thanks, was asking for clarification   
-**\<moneromooo>** It does. Was a pita due to breaking the tests, but it all works now :D  
+**\<byterubmooo>** It does. Was a pita due to breaking the tests, but it all works now :D  
 **\<fluffypony>** JjegrUseinob: roll over to stick to the schedule, include the next HF date so that nodes notify  
 **\<fluffypony>** and also include all the fixes to-date  
 **\<luigi1112>** Quantize the reward afaik  
-**\<moneromooo>** September fork just enforces the coinbase to be split into denominations.  
+**\<byterubmooo>** September fork just enforces the coinbase to be split into denominations.  
 **\<luigi1112>** (Does someone know the state of pools?)  
-**\<fluffypony>** moneromooo: are we going to point release with the rct PR merged or before then?  
+**\<fluffypony>** byterubmooo: are we going to point release with the rct PR merged or before then?  
 **\<ArticMine>** Does the September HF force min 4 mixin?  
 **\<hyc>** and that's not a significant brhavior change, right? it was always supposed to be split  
-**\<moneromooo>** It was suppose dto, but not enforced.  
+**\<byterubmooo>** It was suppose dto, but not enforced.  
 **\<luigi1112>** Rct doesn't really make a difference..it's just dead code until activated  
 **\<luigi1112>** So the question is are there still offending pools that need to update  
-**\<moneromooo>** I'm mostly bothered about having this huge chunk of stuff that creats conflicts with evreything now.  
+**\<byterubmooo>** I'm mostly bothered about having this huge chunk of stuff that creats conflicts with evreything now.  
 **\<fluffypony>** luigi1112: guaranteed that MinerGate is still using their custom stuff and just fudging the version  
 **\<hyc>** you're talking source code merge conflicts?  
-**\<hyc>** or something else moneromooo?  
-**\<moneromooo>** Like, my cold wallet tx patch is now based on rct code.  
-**\<moneromooo>** Yes, git conflicts.  
+**\<hyc>** or something else byterubmooo?  
+**\<byterubmooo>** Like, my cold wallet tx patch is now based on rct code.  
+**\<byterubmooo>** Yes, git conflicts.  
 **\<fluffypony>** I don't have a problem with RCT being merged before the point release  
 **\<luigi1112>** fluffypony: that's fine :-) anyone else  
 **\<dEBRUYNE>** \<luigi1112> (Does someone know the state of pools?) <= I can check headers  
@@ -143,57 +143,57 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<luigi1112>** Th at can probably be done in the interim between Sept and march?  
 **\<dEBRUYNE>** This is from the logs:  
 **\<dEBRUYNE>** **\<tewinget>** I'm a few hours of work (I hope) away from having the wallet using zmq to talk to the daemon  
-**\<moneromooo>** He said he was starting work on getting the wallet to talk 0MQ yesterday (he'd been using python client with the daemon).  
+**\<byterubmooo>** He said he was starting work on getting the wallet to talk 0MQ yesterday (he'd been using python client with the daemon).  
 **\<fluffypony>** ok  
 **\<dEBRUYNE>** luigi1112: minor\_version should be 3 right?  
 **\<hyc>** yes, tewinget was asking for reviews of his branch too  
-**\<moneromooo>** I guess I should go look ^\_^  
+**\<byterubmooo>** I guess I should go look ^\_^  
 **\<dEBRUYNE>** anyway, minergate is on "major\_version":2,"minor\_version":3  
-**\<dEBRUYNE>** For anyone interested, the 0MQ branch can be found here -> https://github.com/tewinget/bitmonero/tree/zmq-dev  
-**\<dEBRUYNE>** moneromooo, fluffypony, luigi1112: This is Minergate's coinbase transaction -> http://moneroblocks.info/tx/8a6f45c079da5e400632c29e6b8145fda593a44657881d6d91b232769511c8fc  
+**\<dEBRUYNE>** For anyone interested, the 0MQ branch can be found here -> https://github.com/tewinget/bitbyterub/tree/zmq-dev  
+**\<dEBRUYNE>** byterubmooo, fluffypony, luigi1112: This is Minergate's coinbase transaction -> http://byterubblocks.info/tx/8a6f45c079da5e400632c29e6b8145fda593a44657881d6d91b232769511c8fc  
 **\<fluffypony>** ok  
 **\<dEBRUYNE>** Are there any additional meeting items?  
 **\<hyc>** quick update on 32-bit support - my blockchain\_import is still running :P  
 **\<fluffypony>** lol  
 **\<luigi1112>** dEBRUYNE: what about other pools?  
 **\<dEBRUYNE>** lemme check  
-**\<fluffypony>** re: the RCT PR, I think we should aim to finish up review and merge by next weekend - any objection, moneromooo ?  
-**\<moneromooo>** That'd be pretty fast.  
-**\<moneromooo>** If you can find enough reviewers by then :)  
+**\<fluffypony>** re: the RCT PR, I think we should aim to finish up review and merge by next weekend - any objection, byterubmooo ?  
+**\<byterubmooo>** That'd be pretty fast.  
+**\<byterubmooo>** If you can find enough reviewers by then :)  
 **\<fluffypony>** there will be more review post that  
-**\<fluffypony>** oh btw moneromooo  
+**\<fluffypony>** oh btw byterubmooo  
 **\<fluffypony>** what are your thoughts on the testnet fork dates?  
-**\<moneromooo>** I should add: along with the rct stuff, that branch has random fixes that would otherwise conflict: better output selection, no signatures stored in wallet, fixes to avoid having to run rescan\_spent (I think I got them all).  
-**\<moneromooo>** I think a few days after all preliminary review + fixes are done. Then 1 day between 3 and 4, and a few days between 4 and 5 (where both tx versions are allowed).  
-**\<hyc>** moneromooo: as long as those are each in their own commits, we can still tick them off 1 by 1  
-**\<moneromooo>** They are, yes.  
-**\<fluffypony>** moneromooo: so then once merged, say next weekend, we can PR testnet fork points  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** I should add: along with the rct stuff, that branch has random fixes that would otherwise conflict: better output selection, no signatures stored in wallet, fixes to avoid having to run rescan\_spent (I think I got them all).  
+**\<byterubmooo>** I think a few days after all preliminary review + fixes are done. Then 1 day between 3 and 4, and a few days between 4 and 5 (where both tx versions are allowed).  
+**\<hyc>** byterubmooo: as long as those are each in their own commits, we can still tick them off 1 by 1  
+**\<byterubmooo>** They are, yes.  
+**\<fluffypony>** byterubmooo: so then once merged, say next weekend, we can PR testnet fork points  
+**\<byterubmooo>** Yes.  
 **\<JjegrUseinob>** i never saw clear answer to artic mine question about when min mixin of 4 will be enforced  
-**\<moneromooo>** No change there for now, but there should be.  
+**\<byterubmooo>** No change there for now, but there should be.  
 **\<hyc>** can we do it this Sept HF?  
 **\<JjegrUseinob>** thank you moo and hyc. your hard work is appreciated  
-**\<dEBRUYNE>** luigi1112: All pools listed here -> https://monerohash.com/#network have "major\_version":2,"minor\_version":3  
+**\<dEBRUYNE>** luigi1112: All pools listed here -> https://byterubhash.com/#network have "major\_version":2,"minor\_version":3  
 **\<fluffypony>** ok  
 **\<fluffypony>** I think that's about it then - code review time  
-**\<moneromooo>** \<hyc> can we do it this Sept HF?  
-**\<moneromooo>** (about bumping the network minimum mixin)  
+**\<byterubmooo>** \<hyc> can we do it this Sept HF?  
+**\<byterubmooo>** (about bumping the network minimum mixin)  
 **\<hyc>** right  
 **\<DaveyJones>** so is there a way some chosen folks can put items into an agenda for dev-meeting... just in case fluffy or anyone else dont have time to lead the meeting  
-**\<moneromooo>** You can always ask something dev related if you wish.  
+**\<byterubmooo>** You can always ask something dev related if you wish.  
 **\<DaveyJones>** so people like debruyne could atleast try to take the host  
-**\<moneromooo>** It doesn't need to be made known in advance (unless it requires  research)  
-**\<hyc>** mebbe propose agenda items on forum.getmonero.org or something  
+**\<byterubmooo>** It doesn't need to be made known in advance (unless it requires  research)  
+**\<hyc>** mebbe propose agenda items on forum.getbyterub.org or something  
 **\<ArticMine>** Having an agenda ahead of time can be helpful. It does not need to be cast in stone.  
 **\<JjegrUseinob>** anonimal usually has kovri meeting agenda in advance. i like that system  
 **\<DaveyJones>** i mean this was the first real dev meeting for a month or sth and even today we had a eating hiccup :p  
 **\<JjegrUseinob>** when will log from last meeting be on the website?  
 **\<fluffypony>** lol DaveyJones  
 **\<fluffypony>** JjegrUseinob: sometime next week, once dEBRUYNE has a chance  
-**\<JjegrUseinob>** https://getmonero.org/blog/tags/dev%20diaries  
+**\<JjegrUseinob>** https://getbyterub.org/blog/tags/dev%20diaries  
 **\<JjegrUseinob>** i said last meeting  
 **\<JjegrUseinob>** pr was merged already  
-**\<JjegrUseinob>** https://github.com/byterubpay/monero-site/pull/135  
+**\<JjegrUseinob>** https://github.com/byterubpay/byterub-site/pull/135  
 * hellocccc has quit (Ping timeout: 264 seconds)  
 **\<fluffypony>** JjegrUseinob: there are issues that have to be fixed  
 **\<fluffypony>** eg.  
@@ -208,7 +208,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<hyc>** not sure there's a reason to break the schedule  
 **\<hyc>**  ?  
 **\<JjegrUseinob>** competition from zcash seems like a good reason IF rct is ready to activate and tested enough  
-**\<moneromooo>** I just realized it reads like Z(ooko)Cash.  
+**\<byterubmooo>** I just realized it reads like Z(ooko)Cash.  
 **\<DaveyJones>** that was intented i guess :p  
 **\<ArticMine>** I am with staying on schedule with RingCT in March.  
 **\<luigi1112>** I think rushing because "competition" is I'll advised here  
@@ -216,8 +216,8 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<grimpants>** yes  
 **\<hyc>** agreed  
 **\<ArticMine>** Very ill advised  
-**\<moneromooo>** The thing I'd move if we could is the september one, to a bit later, but that might break non-updaters...  
-**\<moneromooo>** As we need to have a binary a couple weeks before, in order for most to update in time.  
+**\<byterubmooo>** The thing I'd move if we could is the september one, to a bit later, but that might break non-updaters...  
+**\<byterubmooo>** As we need to have a binary a couple weeks before, in order for most to update in time.  
 **\<luigi1112>** I don't think we should enforce mix 4 here since it's not in existing code  
 **\<dEBRUYNE>** It's good to hear thoughts from everyone on this subject  
 **\<luigi1112>** It'd be a rush release  
@@ -227,24 +227,24 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<luigi1112>** I'm not sure it needs to be enforced until v1 is disallowed  
 **\<ArticMine>** So let us make it for march  
 **\<luigi1112>** That's not till 1 year from now by current rhoughts  
-**\<moneromooo>** That'd be september, for v1 to be disallowed.  
+**\<byterubmooo>** That'd be september, for v1 to be disallowed.  
 **\<gingeropolous>** someone mentioned that moving the HF date up would, in general, be good for those that need truly private currency. But I also see the benefit of sticking to schedule  
-**\<moneromooo>** Well, stuff like the new coin selection will be active as soon as it's merged, since it's wallet behavior. So there'll be some betterment already.  
-**\<moneromooo>** And transfer maps to transfer\_new, too. So no more shitty dust for multi-tx.  
+**\<byterubmooo>** Well, stuff like the new coin selection will be active as soon as it's merged, since it's wallet behavior. So there'll be some betterment already.  
+**\<byterubmooo>** And transfer maps to transfer\_new, too. So no more shitty dust for multi-tx.  
 **\<gingeropolous>** i wanted to try and get into that code for the "find set that matches" behavior... someday.  
 **\<JjegrUseinob>** why cant we point release those improvements soon then and have ringct fork late oct or nov?  
 **\<JjegrUseinob>** for march enforcement  
-**\<moneromooo>** It's a difficult problem to find the best set.  
+**\<byterubmooo>** It's a difficult problem to find the best set.  
 **\<nioc>** It had been mentioned previously that in the early stages the HF schedule could be adjusted considering the important changes that need to be implemented.  
-**\<moneromooo>** I don't think it's particularly important to keep to the march date, since I doubt many people will bang on testnet once a new release is out, so it'd just wait there.  
-**\<moneromooo>** I mean, more time would not mean more testing.  
+**\<byterubmooo>** I don't think it's particularly important to keep to the march date, since I doubt many people will bang on testnet once a new release is out, so it'd just wait there.  
+**\<byterubmooo>** I mean, more time would not mean more testing.  
 **\<gingeropolous>** \<JjegrUseinob> why cant we point release those improvements soon then and have ringct fork late oct or nov? - well, the arguments against this is that we're setting precedent for non-scheduled, at-whim, as-needed forking, and if we're trying to create a culture of "forking is ok", then the schedule has a particular... weight to it, perhaps  
 **\<hyc>** hardforks good, more is better :P  
-**\<JjegrUseinob>** i thought that monero had a social contract that largely supported flexibility this year for rct fork  
+**\<JjegrUseinob>** i thought that byterub had a social contract that largely supported flexibility this year for rct fork  
 **\<gingeropolous>** but im on the fence as well... I still think we're small enough of a thing that we could pull it off  
 **\<dEBRUYNE>** It was discussed before that if we would deviate from the schedule, we would only deviate once for RCT  
 **\<fluffypony>** ByteRub Classic is going to have weekly hard forks  
-**\<moneromooo>** Yes. Hardforks every two months, maybe many of them not actiually changing anything... would allow easy scheduling of changes without havinhg to wait forecer.  
+**\<byterubmooo>** Yes. Hardforks every two months, maybe many of them not actiually changing anything... would allow easy scheduling of changes without havinhg to wait forecer.  
 **\<fluffypony>** :-P  
 **\<fluffypony>** JjegrUseinob is right though  
 **\<gingeropolous>** autoupdate all the things. moo's favorite  
@@ -256,63 +256,63 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<JjegrUseinob>** :)  
 **\<hyc>** ok, that sounds fine. when we're happy with the code integrity and test phase  
 **\<gingeropolous>** im down with that. Fork early, fork often  
-**\<moneromooo>** And bump mixin at this one ? Or the one after it ?  
-**\<DaveyJones>** monero is a flexible adolescent... we will stiffen by time :p  
+**\<byterubmooo>** And bump mixin at this one ? Or the one after it ?  
+**\<DaveyJones>** byterub is a flexible adolescent... we will stiffen by time :p  
 **\<dEBRUYNE>** \<fluffypony> so if testnet is successful and everything is fine we can consider moving itup <= I'd be fine with that too  
 **\<dEBRUYNE>** let's make sure miners have enough time to update and receive notification  
-**\<fluffypony>** moneromooo: bump mixin at Sept hardfork  
+**\<fluffypony>** byterubmooo: bump mixin at Sept hardfork  
 **\<dEBRUYNE>** so 1-2 months after the full "process"  
 **\<fluffypony>** mixin will bump anyway for rct right  
-**\<moneromooo>** So HF 5 ? Which might not be september if we being march forward.  
-**\<moneromooo>** Min mixin was not touched in the rct banch.  
+**\<byterubmooo>** So HF 5 ? Which might not be september if we being march forward.  
+**\<byterubmooo>** Min mixin was not touched in the rct banch.  
 **\<fluffypony>** oh  
 **\<fluffypony>** we're going to have to bump it for definite  
 **\<luigi1112>** Don't bumb for September imo  
 **\<luigi1112>** Bump  
 **\<luigi1112>** It's too soon  
 **\<hyc>** I suppose it ought to run on testnet first  
-**\<moneromooo>** So 4, in HF 4 (with rct enable) ?  
+**\<byterubmooo>** So 4, in HF 4 (with rct enable) ?  
 **\<luigi1112>** This september  
 **\<luigi1112>** I vote for next September but I'm somewhat ambivalent vs march  
 **\<ArticMine>** Is there a reason for Sept 2017 vs March 2017 for enforcing mixin 4?  
 **\<luigi1112>** Yes, it is better with ringct  
 **\<luigi1112>** Which will be enforced then  
-**\<moneromooo>** Oh, and the size increase as a function of mixin is rather shallow. So we can go wild.  
+**\<byterubmooo>** Oh, and the size increase as a function of mixin is rather shallow. So we can go wild.  
 **\<hyc>** it seems to me min mixin 4 is a good thing regardless of rct. why wait  
 **\<luigi1112>** It adds forced "junk data" for 6 months...but not a large deal most likely  
-**\<moneromooo>** It's not junk, it's lovely privacy preserving data :P  
-**\<moneromooo>** Or we can do 3 in march, 4 in september :)  
+**\<byterubmooo>** It's not junk, it's lovely privacy preserving data :P  
+**\<byterubmooo>** Or we can do 3 in march, 4 in september :)  
 **\<ArticMine>** So an additional TX size issue for six months that is solved with RingCT  
-**\<moneromooo>** rct txes will be larger.  
-**\<moneromooo>** About 13 kB I think. A lot more constant than current.  
+**\<byterubmooo>** rct txes will be larger.  
+**\<byterubmooo>** About 13 kB I think. A lot more constant than current.  
 **\<ArticMine>** But there is a tradeoff in the need to mix the inputs broken down in powers of 10  
-**\<moneromooo>** Ah, you mean to get a "privacy equivalence" ?  
+**\<byterubmooo>** Ah, you mean to get a "privacy equivalence" ?  
 **\<ArticMine>** Yes  
-**\<moneromooo>** The new coin selection should help there too I think.  
+**\<byterubmooo>** The new coin selection should help there too I think.  
 **\<hyc>** we should be winding up and letting the kovri mtg start  
 **\<hyc>** do we have any decisions on bumping mixin?  
-**\<moneromooo>** anonimal left, no kovri meeting.  
+**\<byterubmooo>** anonimal left, no kovri meeting.  
 **\<hyc>** ok  
-**\<moneromooo>** I guess I'll do mixin 4 for HF 5 then, unless new stuff gets said.  
+**\<byterubmooo>** I guess I'll do mixin 4 for HF 5 then, unless new stuff gets said.  
 **\<ArticMine>** Sounds fine to me  
 **\<hyc>** ok  
-**\<moneromooo>** As an incentive for reviewers to review, my cold wallet signing patch is now based on the ringct branch, so it can't be merged without rct being merged first ^\_^  
+**\<byterubmooo>** As an incentive for reviewers to review, my cold wallet signing patch is now based on the ringct branch, so it can't be merged without rct being merged first ^\_^  
 **\<JjegrUseinob>** cold wallet signing patch will be a great feature. thanks mooooo  
 **\<fluffypony>** ok I fixed the stuff that was breaking on the site  
 **\<tewinget>** fluffypony: what dEBRUYNE said.  
 **\<tewinget>** I totally forgot there was a dev meeting and slept right through it, woops.  
-**\<moneromooo>** You can still tell us how far you are, most people are still in the channel :)  
+**\<byterubmooo>** You can still tell us how far you are, most people are still in the channel :)  
 **\<othe>** better than me, i thought i am in this channel...but i wasn´t  
 **\<tewinget>** Well, there's 5-10 daemon RPC commands yet to implement, but I'm leaving them for now because they're mining/miner related.  Next thing to do (hopefully yet today) is some first pass at "libdaemonrpc" and making the wallet use it.  
 **\<othe>** does ur todo list include authentication too? the current way is kinda bah  
 **\<tewinget>** othe: yes, but that will be something to look at after the rest is sorted, I think.  
 **\<othe>** good  
-**\<moneromooo>** Oh, that reminds me.  
-**\<moneromooo>** The previous 0mq branch had something called net\_skeleton, which was doing some middle layer ntworking stuff, but was GPL so needed replacing.  
-**\<moneromooo>** Have you found a replacement ? Kovri uses cpp-netlib, and I was thinking using the same would be good if it fits, since more people would know, etc.  
+**\<byterubmooo>** Oh, that reminds me.  
+**\<byterubmooo>** The previous 0mq branch had something called net\_skeleton, which was doing some middle layer ntworking stuff, but was GPL so needed replacing.  
+**\<byterubmooo>** Have you found a replacement ? Kovri uses cpp-netlib, and I was thinking using the same would be good if it fits, since more people would know, etc.  
 **\<tewinget>** I'm just using zmq...  
 **\<tewinget>** idk what he (oranjuice, I think?) was using net\_skeleton for.  
-**\<moneromooo>** Yes, that was him/her. And I dunno either :)  
+**\<byterubmooo>** Yes, that was him/her. And I dunno either :)  
 **\<othe>** i only know that theirs a license issue with that anyway  
 **\<othe>** nvm...  
 **\<othe>** didnt we want to replace epee with net skeleton?  
@@ -321,7 +321,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<gingeropolous>** i.e., timeline  
 **\<gingeropolous>** cause again, the lack of harmony with all these version numbers is confusing  
 **\<fluffypony>** oh  
-**\<fluffypony>** tewinget / moneromooo  
+**\<fluffypony>** tewinget / byterubmooo  
 **\<fluffypony>** net\_skeleton had nothing to do with 0MQ  
 **\<fluffypony>** once 0MQ is in we still have to offer a JSON RPC API, right  
 **\<fluffypony>** and that has to be able to provide TLS and simple auth  
@@ -361,11 +361,11 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** I'd only use that if I'm talking remotely to the daemon  
 **\<tewinget>** with you so far  
 **\<fluffypony>** same goes for encryption - not necessary on localhost  
-**\<fluffypony>** so then we have this little stub applications, let's call them monero-rpc-daemon and monero-rpc-wallet  
+**\<fluffypony>** so then we have this little stub applications, let's call them byterub-rpc-daemon and byterub-rpc-wallet  
 **\<fluffypony>** they have an HTTP server  
 **\<fluffypony>** and they talk 0MQ to the daemon  
 **\<tewinget>** even that's slightly overcomplicated I think  
-**\<tewinget>** just monero-rpc-http as one binary  
+**\<tewinget>** just byterub-rpc-http as one binary  
 **\<fluffypony>** yeah that's fine too - as long as wallet-ing is optional  
 **\<tewinget>** launch it with the correct bind ports and forward ports and it doesn't have to know which type of rpc daemon it's talking to  
 **\<tewinget>** same binary would work for both wallet rpc and daemon rpc (and others if ever there are any)  

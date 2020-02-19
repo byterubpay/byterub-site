@@ -1,16 +1,16 @@
 ---
 tags: ["kovri"]
 terms: ["Kovri"]
-summary: "Implementacja routera C++ dla Monero w sieci I2P."
+summary: "Implementacja routera C++ dla ByteRub w sieci I2P."
 ---
 
 ### Podstawy
 
-[Kovri](https://gitlab.com/kovri-project/kovri/) jest wdrożeniem sieci @I2P w języku C++. Obecnie jest on w dynamicznym rozwoju i nie został jeszcze zintegrowany z Monero. Po zintegorwaniu Kovri z twoim @węzłem Monero, transakcje będą jeszcze bezpieczniejsze.
+[Kovri](https://gitlab.com/kovri-project/kovri/) jest wdrożeniem sieci @I2P w języku C++. Obecnie jest on w dynamicznym rozwoju i nie został jeszcze zintegrowany z ByteRub. Po zintegorwaniu Kovri z twoim @węzłem ByteRub, transakcje będą jeszcze bezpieczniejsze.
 
 ### Szczegółowe informacje
 
-Kovri będzie chronił ciebie i Monero przed:
+Kovri będzie chronił ciebie i ByteRub przed:
 
 - atakami partycjonowania @węzłów
 - powiązaniem pojedynczego numeru identyfikacyjnego transakcji z twoim adresem IP

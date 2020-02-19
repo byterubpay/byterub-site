@@ -6,7 +6,7 @@ summary: "the block reward at the end of the emission curve"
 {% include untranslated.html %}
 ### The Basics
 
-Monero block rewards will never drop to zero. Block rewards will gradually drop until tail emission commences at the end of May 2022. At this point, rewards will be fixed at 0.6 XMR per block.
+ByteRub block rewards will never drop to zero. Block rewards will gradually drop until tail emission commences at the end of May 2022. At this point, rewards will be fixed at 0.6 XMR per block.
 
 ### Why
 

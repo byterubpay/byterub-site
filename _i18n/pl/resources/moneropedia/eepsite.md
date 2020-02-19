@@ -19,7 +19,7 @@ Innymi nazwami eepsite są
   - ponieważ serwis jest hostowany jako strona internetowa, a nie inny rodzaj serwisu
 3. *Serwis Czosnkowy*
   - ponieważ strona korzysta z technologii @trasowania-czosnkowego sieci I2P jako środka komunikacji z klientem
-  - ponieważ serwis jest sprecyzowany do takich usług jak IRC, e-mail lub peer Monero (ale może także uwzględniać strony internetowe)
+  - ponieważ serwis jest sprecyzowany do takich usług jak IRC, e-mail lub peer ByteRub (ale może także uwzględniać strony internetowe)
 
 ### Adnotacje
 

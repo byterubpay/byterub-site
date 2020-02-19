@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.base32-address
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.base32-address
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/base32-address.md %}
+{% tf resources/byterubpedia/base32-address.md %}

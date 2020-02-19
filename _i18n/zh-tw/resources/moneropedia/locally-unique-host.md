@@ -16,5 +16,5 @@ Hosts in a public subscription can be considered @canonically-unique-host's with
 
 ### Notes
 
-- Monero primarily uses @canonically-unique-host resolution while @I2P only uses @locally-unique-host resolution.
+- ByteRub primarily uses @canonically-unique-host resolution while @I2P only uses @locally-unique-host resolution.
 - @I2P's and @Kovri's assigned top-level domain is currently `.i2p` and @Kovri intends to only process/use the `.i2p` [top-level domain](https://en.wikipedia.org/wiki/Top_level_domain)

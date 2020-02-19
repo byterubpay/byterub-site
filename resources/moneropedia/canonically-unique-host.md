@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.canonically-unique-host
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.canonically-unique-host
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/canonically-unique-host.md %}
+{% tf resources/byterubpedia/canonically-unique-host.md %}

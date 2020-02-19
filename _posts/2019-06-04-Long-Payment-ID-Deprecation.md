@@ -6,7 +6,7 @@ tags: [community, crypto, announcements]
 author: dEBRUYNE / Fluffypony
 ---
 
-Dear participants of the Monero ecosystem,
+Dear participants of the ByteRub ecosystem,
 
 We would like to inform you that we will be phasing out long payment
 IDs this year. Long payment IDs are detrimental to privacy and a
@@ -41,7 +41,7 @@ view.
 
 Yours sincerely,
 
-The Monero dev community
+The ByteRub dev community
 
 Appendix:
 

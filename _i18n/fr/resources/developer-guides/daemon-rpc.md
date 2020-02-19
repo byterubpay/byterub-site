@@ -237,12 +237,12 @@ Sorties :
 * *block_header* - Une structure contenant les informations d'entête du bloc.
   * *block_size* - entier non signé; La taille du bloc en octets.
   * *depth* -  entier non signé; Le nombre de blocs succédant à ce bloc dans la chaîne de blocs. Un plus grand nombre signifie un bloc plus ancien.
-  * *difficulty* - entier non signé; La robustesse du réseau Monero basé sur la puissance d'extraction minière.
+  * *difficulty* - entier non signé; La robustesse du réseau ByteRub basé sur la puissance d'extraction minière.
   * *hash* - chaîne de caractères; Le hachage de ce bloc.
   * *height* - entier non signé; Le nombre de blocs précédant ce bloc sur la chaîne de blocs.
-  * *major_version* - entier non signé; La version majeure du protocole Monero à cette hauteur de bloc.
-  * *minor_version* - entier non signé; La version mineure du protocole Monero à cette hauteur de bloc.
-  * *nonce* - entier non signé; Un nombre cryptographique aléatoire à usage unique utilisé dans l'extraction minière d'un bloc Monero.
+  * *major_version* - entier non signé; La version majeure du protocole ByteRub à cette hauteur de bloc.
+  * *minor_version* - entier non signé; La version mineure du protocole ByteRub à cette hauteur de bloc.
+  * *nonce* - entier non signé; Un nombre cryptographique aléatoire à usage unique utilisé dans l'extraction minière d'un bloc ByteRub.
   * *num_txes* - entier non signé; Nombre de transactions dans le bloc, sans compter la transaction de la base de la pièce.
   * *orphan_status* - booléen; Habituellement `false`. Si `true`, ce bloc ne fait pas partie de la chaîne la plus longue.
   * *prev_hash* - chaîne de caractères; Le hachage du bloc précédent immédiatement ce bloc dans la chaîne de blocs.
@@ -1755,7 +1755,7 @@ Sorties :
   * *id* - chaîne de caractères; ID de l'homologue
   * *ip* - entier non signé; Adresse IP sous forme d'entier.
   * *last_seen* - entier non signé; Temps Unix auquel l'homologue a été vu pour la dernière fois.
-  * *port* - entier non signé; Port TCP que l'homologue utilise pour se connecter au réseau Monero.
+  * *port* - entier non signé; Port TCP que l'homologue utilise pour se connecter au réseau ByteRub.
 * *status* - chaîne de caractères; Code erreur général RPC. "OK" signifie que tout va bien. Any other value means that something went wrong.
 * *white_list* - liste d'homologues en ligne (structure *peer*), comme ci-dessus.
 

@@ -10,9 +10,9 @@ kick-class: "red-kicks"
 ### Development Goals
 
 {:.goal-images}
-![Development Goals](//static.getmonero.org/images/goals/development.jpg)
+![Development Goals](//static.getbyterub.org/images/goals/development.jpg)
 
 ### Research Goals
 
 {:.goal-images}
-![Research Goals](//static.getmonero.org/images/goals/research.jpg)
+![Research Goals](//static.getbyterub.org/images/goals/research.jpg)

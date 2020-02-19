@@ -29,10 +29,10 @@ author: dEBRUYNE / fluffypony
 **\<muchso>** need to add macos one  
 **\<cryptochangements>** Pigeons does builds afaik  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<sgp>** It seems like they are behind by a few weeks. Anyone have any large updates?  
 **\<rehrar>** I'm working on a big super secret project that is taking up basically 100% of my non-free time  
-**\<xmrscott[m]>** You'd want to ping moneroobydoo  
+**\<xmrscott[m]>** You'd want to ping byterubobydoo  
 **\<rehrar>** consider this a preannouncement  
 **\<sgp>** Thanks for the pre-announcement rehrar lol  
 **\<cryptochangements>** PUMP on the way  
@@ -62,7 +62,7 @@ author: dEBRUYNE / fluffypony
 **\<snorlax>** Yes, what timeline do you need for production of said 1 minute promotional video?  
 **\<fkjldsy>** is it prison wallet friendly? ie no hard corners  
 **\<msvb-mob>** By the way, I created a project landing page for Vegas 2018:  
-**\<msvb-mob>** https://taiga.getmonero.org/project/michael-vegas-august-2018/  
+**\<msvb-mob>** https://taiga.getbyterub.org/project/michael-vegas-august-2018/  
 **\<msvb-mob>** ...in case we need to organize for events there this year.  
 **\<xmrscott[m]>** Cool. I'll probably be at Vegas for Defcon again this year. If you need any help from me, ping me  
 **\<sgp>** @msvb-mob what is the timeline for the video? When do you hope to have it out by?  
@@ -75,13 +75,13 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** ErCiccione, do you have anything to discuss?  
 **\<ErCiccione>** yes,thanks sgp just a couple of things  
 **\<ErCiccione>** Localizations are going very well, a lot of volunteers these weeks. We basically filled the welcome page with flags. so Next release of the GUI will be available in a lot more languages. I don't remember the exact number but should be aboout 20  
-**\<ErCiccione>** Also about the GUI, all language files have been refreshed, these means that we need toupdate every language we already have. You can find a list of the languages and more info here: https://github.com/byterubpay/monero-gui/issues/1116  
+**\<ErCiccione>** Also about the GUI, all language files have been refreshed, these means that we need toupdate every language we already have. You can find a list of the languages and more info here: https://github.com/byterubpay/byterub-gui/issues/1116  
 **\<msvb-mob>** My connection is really poor, I'm just seeing the questions now and missed that chance to answer. Sorry.  
 **\<ErCiccione>** I also want to remind that to keep track of the work of the localization workgroup, there is everything on taiga (wikis and tutorials as well), and subscribe if you wish  
-**\<ErCiccione>** https://taiga.getmonero.org/project/erciccione-monero-localization/  
+**\<ErCiccione>** https://taiga.getbyterub.org/project/erciccione-byterub-localization/  
 **\<cryptochangements>** All languages have been updated since #1076 ?  
 **\<muchso>** from the git page looks like only two  
-**\<serhack>** I would like to remember that the getmonero.org website is going to be available in italian language! You can translate getmonero.org website by following these instructions! https://taiga.getmonero.org/project/erciccione-monero-localization/wiki/translating-monero-website  
+**\<serhack>** I would like to remember that the getbyterub.org website is going to be available in italian language! You can translate getbyterub.org website by following these instructions! https://taiga.getbyterub.org/project/erciccione-byterub-localization/wiki/translating-byterub-website  
 **\<ErCiccione>** cryptochangement: no, but many are in progress, theissue i linked to is for the missing languages  
 **\<serhack>** Let's translate ByteRub for everyone!  
 **\<ordtrogen>** Swedis will be done tomorrah  
@@ -96,40 +96,40 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Thanks ErCicicone and all the volunteers for the localization project!  
 **\<sgp>** Does anyone else have a FFS update?  
 **\<sgp>** All right, continuing on to  4. Hardfork discussion  
-**\<cryptochangements>** I've been adding a lot of stuff to https://github.com/monero-integrations/monerophp  
+**\<cryptochangements>** I've been adding a lot of stuff to https://github.com/byterub-integrations/byterubphp  
 **\<sgp>** Cool @cryptochangements  
 **\<serhack>** Hello! It's not a FFS update but an update about my work on the book! At the moment I have 112 pages of full text about ByteRub (and its community!). I am working hard on the content! Expect some news about my work next week!  
 **\<sgp>** Thanks serhack  
 **\<serhack>** :)  
-**\<sgp>** moneromooo, can you please discuss the major changes people should expect to see for the March hardfork?  
-**\<moneromooo>** There was pretty much nothing, so we just changed the PoW.  
-**\<moneromooo>** The one big thing there might have been is bulletproofs, but they were pushed to the subsequent one.  
+**\<sgp>** byterubmooo, can you please discuss the major changes people should expect to see for the March hardfork?  
+**\<byterubmooo>** There was pretty much nothing, so we just changed the PoW.  
+**\<byterubmooo>** The one big thing there might have been is bulletproofs, but they were pushed to the subsequent one.  
 **\<muchso>** any date scheduled? need to know for the node-js pool  
-**\<moneromooo>** The PoW changes are minor, it stays mostly Cryptonight, we're just going to start tweaking it every fork as an extra preemptive defense against ASICs.  
-**\<moneromooo>** No height yet.  
-**\<sgp>** Ok moneromooo. So the other changes are improvements not related to consensus  
-**\<moneromooo>** It'll be in march, probably first half.  
-**\<moneromooo>** Non consensus changes... subaddresses. And multisig.  
-**\<moneromooo>** Subaddresses will need both sides of a tx to know about them, so it might take a while for, say, exchanges, to allow them.  
-**\<moneromooo>** Multisig, only the multi-signing party needs to.  
-**\<rehrar>** So all this talk about March 7th being the fork date is just a rumor moneromooo?  
-**\<moneromooo>** Yes.  
-**\<moneromooo>** Who said that ?  
+**\<byterubmooo>** The PoW changes are minor, it stays mostly Cryptonight, we're just going to start tweaking it every fork as an extra preemptive defense against ASICs.  
+**\<byterubmooo>** No height yet.  
+**\<sgp>** Ok byterubmooo. So the other changes are improvements not related to consensus  
+**\<byterubmooo>** It'll be in march, probably first half.  
+**\<byterubmooo>** Non consensus changes... subaddresses. And multisig.  
+**\<byterubmooo>** Subaddresses will need both sides of a tx to know about them, so it might take a while for, say, exchanges, to allow them.  
+**\<byterubmooo>** Multisig, only the multi-signing party needs to.  
+**\<rehrar>** So all this talk about March 7th being the fork date is just a rumor byterubmooo?  
+**\<byterubmooo>** Yes.  
+**\<byterubmooo>** Who said that ?  
 **\<cryptochangements>** I think thats what hyc said  
 **\<rehrar>** hold up  
-**\<rehrar>** https://www.reddit.com/r/ByteRub/comments/7y6cbl/when_is_the_hard_fork_of_monero/  
-**\<moneromooo>** Then maybe hyc's planning to do it :)  
+**\<rehrar>** https://www.reddit.com/r/ByteRub/comments/7y6cbl/when_is_the_hard_fork_of_byterub/  
+**\<byterubmooo>** Then maybe hyc's planning to do it :)  
 **\<sgp>** The update should also enable compact “fluffy” blocks by default, automatically send with the lowest priority to save on fees when the blocks have extra space, and a bootstrapping service where people can specify a remote node to use while the daemon is still syncing, correct?  
-**\<moneromooo>** Yes. I forgot aobut the bootstrap thing. I'm not sure the GUI will know about it yet, but there's another implementation of this already AFAIK.  
-**\<sgp>** Alright, thanks moneromooo  
+**\<byterubmooo>** Yes. I forgot aobut the bootstrap thing. I'm not sure the GUI will know about it yet, but there's another implementation of this already AFAIK.  
+**\<sgp>** Alright, thanks byterubmooo  
 **\<sgp>** To those who are unaware, hardforks can be thought of as “protocol upgrades”.  
 **\<sgp>** Note that your coins are not at risk during this hardfork. All you need to do is update your software before you can send your coins again. You should update before the hardfork. Files will be available soon.  
 **\<sgp>** Now is the time for you to ask any questions regarding the hardfork :)  
 **\<rehrar>** when ByteRubV?  
 **\<snorlax>** never, hopefully...  
-**\<moneromooo>** BTW, if your daemon is pestering you to update, that's because it's time based. Let it moan and update when the update is out.  
+**\<byterubmooo>** BTW, if your daemon is pestering you to update, that's because it's time based. Let it moan and update when the update is out.  
 **\<muchso>** yes the daemon shows it's time to update  
-**\<Dhjucjnejrfjf>** Speaking of monerov would it be appropriate to plan to add any exchange that supports it to the monero wiki avoid list since they are in essence helping to enable a privacy attack on monero?  
+**\<Dhjucjnejrfjf>** Speaking of byterubv would it be appropriate to plan to add any exchange that supports it to the byterub wiki avoid list since they are in essence helping to enable a privacy attack on byterub?  
 **\<muchso>** that's ridiculous. just don't feed them  
 **\<ArticMine>** ByteRubV should be a separate topic from out HF  
 **\<xmrscott[m]>** I would be in favor of that  
@@ -152,16 +152,16 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** You can help the network by sending transactions to yourself. Make sure you do this among wallets you entirely control (eg: not exchanges, MyByteRub). In this case, it doesn’t matter if the decoys are invalidated since you don’t need the protection of ring signatures when sending funds to yourself. Furthermore, you will generate new inputs that will not be invalidated that others can select.  
 **\<sgp>** All right, onslaught of text over. Any questions?  
 **\<sgp>** @muchso I do not believe changing the key image is possible, at least to our knowledge  
-**\<moneromooo>** "You can help the network by sending transactions to yourself." Can you elaborate on that ?  
+**\<byterubmooo>** "You can help the network by sending transactions to yourself." Can you elaborate on that ?  
 **\<muchso>** If the forkers change the way the image key is created, wouldn't that prevent it?  
-**\<endogenic>** moneromooo: i think he means generating more new txs  
+**\<endogenic>** byterubmooo: i think he means generating more new txs  
 **\<endogenic>** outputs  
 **\<ArticMine>** The attack can be mitigated by using the same mixins on both chains for pre split inputs  
 **\<Dhjucjnejrfjf>** Good summary? Opinions on suggestion above for Reddit wiki avoid list exchange deterrent?  
 **\<endogenic>** mixable outputs\*  
-**\<sgp>** moneromooo if you churn after the fork, you create new outputs that will not be compromised later that other people can select  
+**\<sgp>** byterubmooo if you churn after the fork, you create new outputs that will not be compromised later that other people can select  
 **\<rehrar>** since the key images are per output, ye?  
-**\<Dhjucjnejrfjf>** Let's let the exchanges know that the monero community will unite to boycott exchanges that support monerov  
+**\<Dhjucjnejrfjf>** Let's let the exchanges know that the byterub community will unite to boycott exchanges that support byterubv  
 **\<sgp>** Of course, people don't know which ones are generated by churning, but if inputs are selected randomly, it will still help out  
 **\<ArticMine>** This requires that a pre fork input only use pre fork mixins  
 **\<rehrar>** so the key images will only be the same for the moments when the fork happens  
@@ -170,15 +170,15 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** We need th tools  
 **\<sgp>** @ArticMine, you are in favor of creating tools that allow people to select their own inputs manually?  
 **\<rehrar>** I think one tool that should be considered is a higher ringsize  
-**\<moneromooo>** It's really not clear to me that spamming the chain is useful.  
+**\<byterubmooo>** It's really not clear to me that spamming the chain is useful.  
 **\<sgp>** @rehrar I have not run the speicifc numbers, but a higher ringsize would help. A higher proportion of inputs would have to be "compromised"  
 **\<cryptochangements>** I honestly dont know if that kind of tool would work. The average user simply wont use it and people mostly just want to dump the forked coins for "free money"  
 **\<rehrar>** I realize in the event that one output is the same for a given tx across the forks, that that is the real one, but even a marginal chance of having another common output when 'randomly' chosen is helpful  
 **\<rehrar>** would probably take the chance from 0.000001 to 0.000002% though :P  
-**\<moneromooo>** Spamming *their* chain with newly created outputs, though... ^\_^  
-**\<sgp>** @moneromooo that would be potentially damaging to ByteRub  
+**\<byterubmooo>** Spamming *their* chain with newly created outputs, though... ^\_^  
+**\<sgp>** @byterubmooo that would be potentially damaging to ByteRub  
 **\<snorlax>** If every new transaction in a chain reduces the confidence of analysis by (ringsize) that appears useful to me, especially when my effective ringsize is going to be decreased by fork claims  
-**\<moneromooo>** Maybe, but that's not clear to me either. It's a complex system.  
+**\<byterubmooo>** Maybe, but that's not clear to me either. It's a complex system.  
 **\<sgp>** A higher ringsize means more inputs need to be compromised before the real input is known and chain reactions occur  
 **\<snorlax>** ... and more transactions means the same, yes?  
 **\<ArticMine>** I do not see how a higher ringsize helps if the input is compromised  
@@ -186,15 +186,15 @@ author: dEBRUYNE / fluffypony
 **\<snorlax>** Add it to the mile-high stack of topics for the MRL to consider ^\_^  
 **\<sgp>** @ArticMine you're looking at the first wave of attack. I'm looking at the second  
 **\<muchso>** pca - was brought into attention only a week ago  
-**\<moneromooo>** AFAICT, it's a con vs users. Normally, to expose outputs, you'd need to generate lots of new outputs, paying fees. Here, they incentivize others to pay the fees for them, in return for promise of money... that they don't have to pay you.  
+**\<byterubmooo>** AFAICT, it's a con vs users. Normally, to expose outputs, you'd need to generate lots of new outputs, paying fees. Here, they incentivize others to pay the fees for them, in return for promise of money... that they don't have to pay you.  
 **\<sgp>** @ArticMine a higher ringsize has NO impact if people reuse key images on both chains. The real input will be known regardless of the ringsize  
 **\<rehrar>** ArticMine since knowing a real output doesn't just affect the tx where the real output is spent, but also other rings that use that output as a ring member  
-**\<moneromooo>** So they rely on people thinking this has any value.  
-**\<moneromooo>** Which people will, because shitcoins.  
+**\<byterubmooo>** So they rely on people thinking this has any value.  
+**\<byterubmooo>** Which people will, because shitcoins.  
 **\<rehrar>** it's more to help prevent the domino effect from hurting too many people  
 **\<rehrar>** exactly, and the thing is, we cannot prevent this kind of fork from happening again and again and again  
 **\<sgp>** @ArticMine however, ince this input is known, it means all other transactions with this input are using it as a decoy. People can know this input is fake  
-**\<moneromooo>** It's quite clever, and machiavellian.  
+**\<byterubmooo>** It's quite clever, and machiavellian.  
 **\<cryptochangements>** As far as i understand it, a higher ringsize cant help people who reuse their own keys, but could help to protect other people who are minging their own business  
 **\<rehrar>** and even if the first twenty of them fail, what's to say the 21st won't catch on?  
 **\<rehrar>** since this is basically a free attack technologically (not socially)  
@@ -245,11 +245,11 @@ author: dEBRUYNE / fluffypony
 **\<pca>** rehrar, I know that, hence my statement.  
 **\<rehrar>** ye, I agree that now social measures are the only action that can be taken with this specific instance of ByteRubV  
 **\<rehrar>** but having to rely so heavily on it calls into question (at least for me) the strength of the current scheme  
-**\<moneromooo>** That shojuld never be the case. It's not users', since they don't have the secret keys.  
+**\<byterubmooo>** That shojuld never be the case. It's not users', since they don't have the secret keys.  
 **\<endogenic>** rehrar i agree it indicates something about ByteRub  
 **\<sgp>** Unless we agreed upon a larger ringsize  
 **\<muchso>** but a larger ringsize won't help would it?  
-**\<moneromooo>** Otherwise it puts the onus of all exchanges and other similar things to expend unbounded effort to give people what they think they're due.  
+**\<byterubmooo>** Otherwise it puts the onus of all exchanges and other similar things to expend unbounded effort to give people what they think they're due.  
 **\<rehrar>** social measures should not be used indefinitely, but just temporarily while cryptography is developed so it's not needed anymore  
 **\<snorlax>** It helps if you don't reuse key images, but doesn't help you if you reuse your key image, @muchso.  Larger ringsize concurrent with bulletproofs seems the way to go, imo  
 **\<sgp>** @muchso it would help mitigate the impact these compromised inputs have on other transactions  
@@ -283,7 +283,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Assuming that not everyone claims this reward. But even with a substantial portion, it can be mitigated with a large ringsize  
 **\<rehrar>** if the theoretical ring was the full number of outputs on the blockchain, then it would only hurt people making their own transactions  
 **\<muchso>** ringsize larger than 100 sometimes fail  
-**\<moneromooo>** Stop making me hungry rehrar.  
+**\<byterubmooo>** Stop making me hungry rehrar.  
 **\<sgp>** @rehrar basically yes  
 **\<rehrar>** my primary concern is several insidious projects concurrently doing the same thing  
 **\<sgp>** So we need to come up with a number we feel mostly comfortable with. Suppose 25% claim the reward. 50%. 75%. 90%. Etc  
@@ -305,7 +305,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** yeah, but at this point everyone got out everything that can be said in a discussion like this  
 **\<sgp>** Any final thoughts? I'll look into this further and come up with some more data-driven thoughts  
 **\<ArticMine>** Excellent  
-**\<ErCiccione>** let'sclose this discussion with this tweet https://twitter.com/monero_v/status/964823517777850368  
+**\<ErCiccione>** let'sclose this discussion with this tweet https://twitter.com/byterub_v/status/964823517777850368  
 **\<sgp>** Good thoughts @jeet.sidhu. I will see what data is available  
 **\<ErCiccione>** you FUDers  
 **\<snorlax>** @jeet.sidhu see https://forks.network  
@@ -322,4 +322,4 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** fine  
 **\<sgp>** Lol, you can hold your own special meeting tomorrow if you want. Just let people know about it :)  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

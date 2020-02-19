@@ -21,7 +21,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** yo  
 **\<msvb-lab>** Oops, I was on the wrong channel. Hi folks.  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** There are several FFS updates.  
 **\<sgp>** a. RFC-HWALLET-1 project progress  
@@ -29,7 +29,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** Hi  
 **\<msvb-lab>** Cool.  
 **\<msvb-lab>** The ByteRub Hardware had a nice meeting yesterday of our own.  
-**\<msvb-lab>** We chatted on #monero-hardware for about an hour on seventeen topics.  
+**\<msvb-lab>** We chatted on #byterub-hardware for about an hour on seventeen topics.  
 **\<msvb-lab>** Highlights of the past couple weeks are:  
 **\<msvb-lab>** Our hardware wallet GitHub repository 'sekura' will be renamed to 'kastelo'.  
 **\<msvb-lab>** That's with a 'elo' not 'kastratelo'.  
@@ -58,11 +58,11 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Is there anything you want to mention cryptochangements?  
 **\<cryptochangements>** ok, pretty much all I have to say is that the opencart plugin, the third milestone, is being worked on and is on it's way  
 **\<sgp>** Great, thanks for your work  
-**\<cryptochangements>** you can see the code here: https://github.com/monero-integrations/monerocart  
+**\<cryptochangements>** you can see the code here: https://github.com/byterub-integrations/byterubcart  
 **\<sgp>** Anything else cryptochangements?  
 **\<cryptochangements>** nope, that's all  
 **\<sgp>** c. Rehrar’s Kovri proposal  
-**\<sgp>** Rehrar’s Kovri proposal has moved to funding required: https://forum.getmonero.org/8/funding-required/89677/rehrar-s-2018-q1-kovri-proposal  
+**\<sgp>** Rehrar’s Kovri proposal has moved to funding required: https://forum.getbyterub.org/8/funding-required/89677/rehrar-s-2018-q1-kovri-proposal  
 **\<sgp>** Anything to add rehrar?  
 **\<rehrar>** fudn it  
 **\<rehrar>** \*fund  
@@ -78,17 +78,17 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** @ordtrogen you can ask it now  
 **\<ErCiccione>** sure, go ahead ordtrogen  
 **\<ordtrogen>** (pasting some pre-written text ...)  
-**\<ordtrogen>** I've only recently gotten more involved in translation/localization but pretty quickly I have discovered a couple of issues with the localizable strings, both in the CLI and GUI project. So I think it needs some polishing to look proper. (I am filing issues as we speak)  There also doesn't seem to exist much in the way of help documentation. I know there is some texts on getmonero.org, but I'd argue there should fir  
+**\<ordtrogen>** I've only recently gotten more involved in translation/localization but pretty quickly I have discovered a couple of issues with the localizable strings, both in the CLI and GUI project. So I think it needs some polishing to look proper. (I am filing issues as we speak)  There also doesn't seem to exist much in the way of help documentation. I know there is some texts on getbyterub.org, but I'd argue there should fir  
 comes with the installation, such as a man file for unix and maybe some other formats for Mac and Windows.  Which makes me think we should spend a little more time on the "foundations" of the texts we write. Like improving the UI English.  While @ercicciones work on the localization project obviously is fantastic, I'm thinking, what quality can the translations have unless the source (en) is correct?  
 **\<rehrar>** Agree wholeheartedly.  
 **\<rehrar>** As I work on the website here and there, most of the text is not written by me, except for the newer pages (and even that should be reviewed). Some of the copy does not read well, or is over flowery in some places, or other issues.  
 **\<ErCiccione>** yes, a lot of good points. the source file has been polished not a month ago, but would be great to have a clean and reviewed text to work on  
 **\<sgp>** I think most people agree documentation needs to be improved across the board  
 **\<ErCiccione>** about documentation  
-**\<ordtrogen>** I'm thinking a man file for monerod would be in order. Need not be too extensive  
+**\<ordtrogen>** I'm thinking a man file for byterubd would be in order. Need not be too extensive  
 **\<ordtrogen>** (linux)  
-**\<ordtrogen>** And I'm not sure, what is displayed by $monerod --help    is not localizable, right?  
-**\<ErCiccione>** i'm working in creating a wiki with everything necessary for a translator, it can be found here https://taiga.getmonero.org/project/erciccione-monero-localization/wiki/home it need some improving, but following translators can take days some times, and i actually have no time, would be great to have some help on that side  
+**\<ordtrogen>** And I'm not sure, what is displayed by $byterubd --help    is not localizable, right?  
+**\<ErCiccione>** i'm working in creating a wiki with everything necessary for a translator, it can be found here https://taiga.getbyterub.org/project/erciccione-byterub-localization/wiki/home it need some improving, but following translators can take days some times, and i actually have no time, would be great to have some help on that side  
 **\<ErCiccione>** @ordtrogen it is actually, you can find the references to the code in the  .ts files  
 **\<ordtrogen>** ok. I just wanted to bring up the issue. As soon as I have to write something, I will.  
 **\<ErCiccione>** iirc a man file was partially done few days ago, but yes, there  
@@ -96,9 +96,9 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<ErCiccione>** \* there is needing of a lot of clean documentation, thank you for bringing that up  
 **\<ordtrogen>** Oh, a man file is somewhere in the repos?  
 **\<ordtrogen>** CLI or GUI`?  
-**\<dEBRUYNE>** Just dropping this here: https://www.reddit.com/r/ByteRub/comments/7nl38w/technical_documentation_for_monero/ds2nkfu/  
+**\<dEBRUYNE>** Just dropping this here: https://www.reddit.com/r/ByteRub/comments/7nl38w/technical_documentation_for_byterub/ds2nkfu/  
 **\<ordtrogen>** Oh, great  
-**\<ordtrogen>** I don't have time to follow r/monero too much  
+**\<ordtrogen>** I don't have time to follow r/byterub too much  
 **\<ErCiccione>** dEBRUYNE, uh that looks very good  
 **\<sgp>** Anything else we need to discuss on this topic?  
 **\<dEBRUYNE>** Perhaps reach out to the owner to collaborate  
@@ -177,8 +177,8 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<rehrar>** I think The ByteRub Project has a unique voice, and unique things to add to such conversations as well, and our perspective will be helpful  
 **\<ErCiccione>** sarang: link of the FFS?  
 **\<sarang>** OK thanks for this perspective  
-**\<rehrar>** https://forum.getmonero.org/8/funding-required/89695/funding-for-noether-brothers-to-attend-stanford-bpase18-conference  
-**\<sarang>** We used a single FFS but listed the separate costs for reference: https://forum.getmonero.org/8/funding-required/89695/funding-for-noether-brothers-to-attend-stanford-bpase18-conference  
+**\<rehrar>** https://forum.getbyterub.org/8/funding-required/89695/funding-for-noether-brothers-to-attend-stanford-bpase18-conference  
+**\<sarang>** We used a single FFS but listed the separate costs for reference: https://forum.getbyterub.org/8/funding-required/89695/funding-for-noether-brothers-to-attend-stanford-bpase18-conference  
 **\<ErCiccione>** uw... double, nice. Thanks guys  
 **\<sarang>** I agree with rehrar that this should be part of a larger discussion about our involvement in the broader academic community  
 **\<sarang>** I recommend interested persons take a look at the conference schedules and programs. Lots of excellent talks  
@@ -189,7 +189,7 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sgp>** This section of the meeting was inspired by this post: https://www.reddit.com/r/ByteRub/comments/7obquf/wake_up_we_need_better_marketing_and_better/  
 **\<sgp>** Let’s discuss how the ByteRub community can better market itself to others and what materials could be beneficial to newcomers.  
 **\<sgp>** Anyone want to begin?  
-**\<cryptochangements>** yesterday i saw a youtube ad for Bitcoin. I think we need one for monero with fluffypony in a lambo  
+**\<cryptochangements>** yesterday i saw a youtube ad for Bitcoin. I think we need one for byterub with fluffypony in a lambo  
 **\<cryptochangements>** \s  
 **\<ordtrogen>** I keep seeing them for Dash!!!  
 **\<ordtrogen>** yuck  
@@ -199,17 +199,17 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sgp>** @guest93332 this is a workgroup. You can see what it does in /r/ByteRubCommunity  
 **\<rehrar>** It's on the Hangouts page and the Footer of the website also  
 **\<sgp>** You're right though that we should probably encourage more people in /r/ByteRub and elsewhere to participate  
-**\<Guest93332>** yeah for example - it should be on r/monero  
-**\<rehrar>** like...the Community meeting announcement should be on /r/monero?  
+**\<Guest93332>** yeah for example - it should be on r/byterub  
+**\<rehrar>** like...the Community meeting announcement should be on /r/byterub?  
 **\<sgp>** I still think the best marketing is good documentation and beginner resources  
 **\<sgp>** At least for now  
-**\<cryptochangements>** well as people have discussed before, if we are going to market monero it has to be based on education. not stupid hype  
+**\<cryptochangements>** well as people have discussed before, if we are going to market byterub it has to be based on education. not stupid hype  
 **\<rehrar>** agree cryptochangements, but we all have to recognize one thing  
 **\<rehrar>** we can't tell anyone what to do, so if one person was to start a 'hype' focused marketing thing, we can't stop them  
 **\<cryptochangements>** fair enough  
 **\<rehrar>** And the clock is ticking until some initiative-filled person will do it  
 **\<rehrar>** so the best way to prevent it  
-**\<Guest93332>** i have another question, for beginners it is very hard to find out about irc and that stuff. could the whole communication change from irc to discord or is it like monero is for the cryptogeeks?  
+**\<Guest93332>** i have another question, for beginners it is very hard to find out about irc and that stuff. could the whole communication change from irc to discord or is it like byterub is for the cryptogeeks?  
 **\<rehrar>** is to get a marketing team together that will focus on education and awareness  
 **\<rehrar>** that way, when said initiative-filled person comes in  
 **\<rehrar>** we can funnel him into the already underway marketing effort  
@@ -219,11 +219,11 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<cryptochangements>** Guest93332: can this be discussed after the meeting in open discussion in a few minutes?  
 **\<msvb-lab>** There may not be a volunteer to configure and moderate Discord.  
 **\<rehrar>** Guest93332: we have slack and mattermost connections also  
-**\<rehrar>** mattermost.getmonero.org  
+**\<rehrar>** mattermost.getbyterub.org  
 **\<Guest93332>** ok  
 **\<ErCiccione>** and riot/matrix  
 **\<rehrar>** believe me, I'm not a geek. :P Which is why I worked on getting other non-IRC things up here also so people like me could participate  
-**\<cryptochangements>** i remember a r/moneromarketing did exist at one point, but then turned into monerocommintu  
+**\<cryptochangements>** i remember a r/byterubmarketing did exist at one point, but then turned into byterubcommintu  
 **\<sgp>** Formalizing an actual marketing campaign is a topic for another day, but how can we encourage people to make these helpful user guides, videos, infographics, etc?  
 **\<rehrar>** I still own it cryptochangements  
 **\<cryptochangements>** and then the marketing ideas all kinda got shunned  
@@ -243,23 +243,23 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<rehrar>** this will mean that the 98% who are on board for other reasons will rarely do something that requires their own initiative  
 **\<cryptochangements>** ErCiccione a t-shirt or some webcam covers isnt like a fat cash prize. people who participate would still probably do it bc they like ByteRub. the incentives just kinda get the ball rolling and make it a little bit more fun  
 **\<rehrar>** and make no mistake, while I do think ByteRub has a higher number of idealists, as the days pass, and more people join, ByteRub will be overrun by people who don't see the vision  
-**\<cwcopz>** I've created a homepage to show some monero artwork. Can I post the link? It is WIP and at the moment a little bit outdated.  
+**\<cwcopz>** I've created a homepage to show some byterub artwork. Can I post the link? It is WIP and at the moment a little bit outdated.  
 **\<rehrar>** in a sense, we have to woo those people to the vision. In part by being a friendly-community and making them want to stick and around and stay, and the more they stay, the more they listen, the more they listen, the more they learn  
 **\<sgp>** Sure  
-**\<cwcopz>** WIP https://monero.gallery/  
+**\<cwcopz>** WIP https://byterub.gallery/  
 **\<ErCiccione>** cryptochangements: yes, in those terms sounds fair, but i don't love it anyway :P  
 **\<rehrar>** community engagement is the start of the process I just described  
-**\<cwcopz>** Focus: Art, what is monero?, speading the word, privacy ...  
+**\<cwcopz>** Focus: Art, what is byterub?, speading the word, privacy ...  
 **\<cwcopz>** Do you think it is worth to work on in the future?  
 **\<rehrar>** *shrug* we never know what will grab the community  
-**\<ErCiccione>** rehrar: yes, but i want to make sure we don't push monero engagement giving for granted a future downfall of its community  
+**\<ErCiccione>** rehrar: yes, but i want to make sure we don't push byterub engagement giving for granted a future downfall of its community  
 **\<rehrar>** I think it'd be a fun way for designers to hop on board, so why not cwcopz?  
 **\<sgp>** @ErCiccione I obviously prefer if everyone does something for free, but if all they need is a free little piece of merch to contribute, it's probably worth it  
-**\<cryptochangements>** unfortunatly rehrar is right. with the huge price pumps most people are here for the money, not the ideals. but im gonna share a secret: I found monero bc it was easy to mine and i was gonna convert it all to BTC. but once i found out monero is way better than BTC i kept my monero and eventually got more involved in the community. Like rehrar said, you kinda gotta woo people over to the id  
+**\<cryptochangements>** unfortunatly rehrar is right. with the huge price pumps most people are here for the money, not the ideals. but im gonna share a secret: I found byterub bc it was easy to mine and i was gonna convert it all to BTC. but once i found out byterub is way better than BTC i kept my byterub and eventually got more involved in the community. Like rehrar said, you kinda gotta woo people over to the id  
 **\<ErCiccione>** i agree @sgp i only want to avoid it becomes a strategy, when we can also make promotional video to ask people to contribute, hackatons and stuff like that  
 **\<rehrar>** there are human elements to the ByteRub community, and I realize the ideal is that we won't hvae to play to those human elements and the technology will speak for itself  
 **\<rehrar>** this is honestly a kind of thinking that conveys a lack of understanding and appreciation for the intricacies of handling the social part of a project  
-**\<cwcopz>** @rehrar I think the same. I am not a coder but possible a way to contribute to monero at all  
+**\<cwcopz>** @rehrar I think the same. I am not a coder but possible a way to contribute to byterub at all  
 **\<rehrar>** many great projects break down for social reasons  
 **\<sgp>** Does anyone else have marketing-specific discussion, or should I open it to the broader open ideas time?  
 **\<rehrar>** we've kind of melded the two :P  
@@ -276,15 +276,15 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sgp>** Since the next one is on the 20, how should I promote it differently to attract more viewers?  
 **\<cryptochangements>** sgp: the coffechat seems like something r/cryptocurrency would go nuts over  
 **\<Guest93332>** you should use all officials account with social media  
-**\<sarang>** Remind me, are they advertised on places like r/monero or r/xmrtrader?  
-**\<sgp>** I typically post on /r/monero yes  
+**\<sarang>** Remind me, are they advertised on places like r/byterub or r/xmrtrader?  
+**\<sgp>** I typically post on /r/byterub yes  
 **\<sgp>** I haven't posted about it in /r/xmrtrader before  
 **\<ErCiccione>** sgp: i think it needs some more scheduled advertising, like 24 hours earlier and then a couple of hours before starting. And a massive use of social accounts a couple of hours before the chat  
 **\<cryptochangements>** Personally, i think the coffechats are something that should be advertised everywhere  
 **\<rehrar>** sarang: you should join up on this one  
 **\<sgp>** We had the most views when fluffypony posted it on his Twitter  
 **\<sarang>** Sure, I'd be glad to  
-**\<Guest93332>** or the official @monerocurrency account  
+**\<Guest93332>** or the official @byterubcurrency account  
 **\<cryptochangements>** who is in the lineup for this next one?  
 **\<sarang>** Oh yeah, an fp twitter post would be great  
 **\<sgp>** @cryptochangements any active community member who wants to participate can  
@@ -311,10 +311,10 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sgp>** @ordtrogen let's come up with a list of possible people after the meeting  
 **\<ordtrogen>** ok  
 **\<sgp>** I imagine they would bring some of their audience on, yes  
-**\<ErCiccione>** sarang: you are a monero research lab master! deal with it! lol for the gif  
+**\<ErCiccione>** sarang: you are a byterub research lab master! deal with it! lol for the gif  
 **\<sgp>** 7. Confirm next meeting date/time  
 **\<sgp>** The next community meeting will be two weeks from today on 20 January. The next Coffee Chat will be next week on 13 January: https://github.com/byterubpay/meta/issues/156  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<sgp>** I hope eveyone was ok with a longer meeting this time. People were open to it in previous meetings  
 **\<sarang>** sgp: please send me a reminder for the chat =p  

@@ -12,8 +12,8 @@ author: el00ruobuob / surae
 **\<suraeNoether>** 1) Greetings, 2) What has everyone been doing? 3) What should 2018 look like for MRL, in your opinion?  
 **\<andytoshi>** btw if i got a reviewer to look at the bp stuff (hypothetically) who wolud i ping about security issues  
 **\<suraeNoether>** andytoshi: I think sarang  
-**\<moneromooo>** And luigi1111w.  
-**\<suraeNoether>** luigi1111w and moneromooo would also be good contacts  
+**\<byterubmooo>** And luigi1111w.  
+**\<suraeNoether>** luigi1111w and byterubmooo would also be good contacts  
 **\<suraeNoether>** \*nod\*  
 **\<suraeNoether>** So, hi everyone. sarang anonimal ArticMine dEBRUYNE endogenic gingeropolous JollyMort[m] pigeons othe silur stoffu unknownids vtnerd waxwing   
 **\<suraeNoether>** I know sarang is moving so he may or may not be active this morning  
@@ -72,7 +72,7 @@ author: el00ruobuob / surae
 **\<sarang>** I'm enjoying zkSNARKs and SPECTRE and tweaks to BP efficiency and review  
 **\<sarang>** and helping out w/ multisig review, which has gone well  
 **\<sarang>** I'm moving this week and trying to balance that as well  
-**\<suraeNoether>** Allrighty for 3) a few things. Firstly, i think we are going to follow the cue of #monero-dev meetings and postpone our next meeting. I'm going to say Monday Jan 8 (perhaps Mon the 1st is cruel). Secondly, for research meetings each week, perhaps sarang or I can present a paper we had read the previous week and try to describe how it works to the community.  
+**\<suraeNoether>** Allrighty for 3) a few things. Firstly, i think we are going to follow the cue of #byterub-dev meetings and postpone our next meeting. I'm going to say Monday Jan 8 (perhaps Mon the 1st is cruel). Secondly, for research meetings each week, perhaps sarang or I can present a paper we had read the previous week and try to describe how it works to the community.  
 **\<sarang>** Ha just like a real lab group meting  
 **\<suraeNoether>** ikr  
 **\<suraeNoether>** but moreover  

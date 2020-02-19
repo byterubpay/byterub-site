@@ -23,16 +23,16 @@ if (isset($_COOKIE["MONERO_LANG"]))
 
     <title>ByteRub - secure, private, and untraceable</title>
 	<meta name="description" content="ByteRub is a digital currency that is secure, private, and untraceable.">
-	<meta name="keywords" content="monero, xmr, bitmonero, cryptocurrency">
+	<meta name="keywords" content="byterub, xmr, bitbyterub, cryptocurrency">
 
     <meta property="og:title" content="ByteRub - secure, private, untraceable"/>
     <meta property="og:description" content="ByteRub is a digital currency that is secure, private, and untraceable.">
-    <meta property="og:image" content="http://static.getmonero.org/images/opengraph/logo.png">
-    <meta property="og:site_name" content="getmonero.org, The ByteRub Project">
-    <meta property="og:url" content="https://getmonero.org/language.php">
+    <meta property="og:image" content="http://static.getbyterub.org/images/opengraph/logo.png">
+    <meta property="og:site_name" content="getbyterub.org, The ByteRub Project">
+    <meta property="og:url" content="https://getbyterub.org/language.php">
     <meta property="og:type" content="website">
 
-    <link href="//static.getmonero.org/style.css?1" rel="stylesheet">
+    <link href="//static.getbyterub.org/style.css?1" rel="stylesheet">
   </head>
 
   <body class="body-language">
@@ -40,7 +40,7 @@ if (isset($_COOKIE["MONERO_LANG"]))
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container" style="padding-bottom: 0px;">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/"><img class="logo" src="//static.getmonero.org/images/logo.svg"></a>
+          <a class="navbar-brand" href="/"><img class="logo" src="//static.getbyterub.org/images/logo.svg"></a>
         </div>
       </div>
     </div>
@@ -49,12 +49,12 @@ if (isset($_COOKIE["MONERO_LANG"]))
       <div class="row">
         <div class="col-md-4 col-md-offset-2">
           <ul class="nav nav-pills nav-stacked flag-select">
-            <li><a href="/home"><h3><img class="flag" src="//static.getmonero.org/images/flags/english_combined.png"> English</h3></a></li>
+            <li><a href="/home"><h3><img class="flag" src="//static.getbyterub.org/images/flags/english_combined.png"> English</h3></a></li>
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="nav nav-pills nav-stacked flag-select">
-            <li><h3 style="line-height: 50px; padding: 10px 20px;"><img class="flag" src="//static.getmonero.org/images/flags/allflags.png"> More to come...</h3></li>
+            <li><h3 style="line-height: 50px; padding: 10px 20px;"><img class="flag" src="//static.getbyterub.org/images/flags/allflags.png"> More to come...</h3></li>
           </ul>
         </div>
       </div>
@@ -70,6 +70,6 @@ if (isset($_COOKIE["MONERO_LANG"]))
 
 
     <!-- JS -->
-    <script src="//static.getmonero.org/scripts.js"></script>
+    <script src="//static.getbyterub.org/scripts.js"></script>
   </body>
 </html>

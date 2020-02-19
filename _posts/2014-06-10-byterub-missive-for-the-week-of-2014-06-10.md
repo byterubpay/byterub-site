@@ -2,7 +2,7 @@
 layout: post
 title: ByteRub Missive for the Week of 2014-06-10
 summary: Deterministic wallets based on mnemonic seeds, fluffypony to attend the Bitcoin Supernode Conference
-tags: [monero missives, conferences, exchanges, gui, usability]
+tags: [byterub missives, conferences, exchanges, gui, usability]
 author: Riccardo Spagni (fluffypony)
 ---
 

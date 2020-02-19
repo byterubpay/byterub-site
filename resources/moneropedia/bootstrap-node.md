@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.bootstrap-node
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.bootstrap-node
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/bootstrap-node.md %}
+{% tf resources/byterubpedia/bootstrap-node.md %}

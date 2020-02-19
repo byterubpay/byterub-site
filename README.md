@@ -9,7 +9,7 @@
 - [Updates on User Guides](#updates-on-user-guides)
 - [How to make a blog post](#how-to-make-a-blog-post)
 - [How to make a User Guide](#how-to-make-a-user-guide)
-- [How to make a ByteRubpedia Entry](#how-to-make-a-moneropedia-entry)
+- [How to make a ByteRubpedia Entry](#how-to-make-a-byterubpedia-entry)
 - [How to update the Team page](#how-to-update-the-team-page)
 - [How to update the Roadmap](#how-to-update-the-roadmap)
 - [How to add a new Merchant](#how-to-add-a-new-merchant)
@@ -19,34 +19,34 @@
 - [How to add a new language](#how-to-add-a-new-language)
 
 ## Introduction
-This README here to walk you through everything you need to know to make changes, edits, or even completely new pages for the new [getmonero.org website](https://getmonero.org/). It'll definitely be a bit of a ride, so strap yourself in.
+This README here to walk you through everything you need to know to make changes, edits, or even completely new pages for the new [getbyterub.org website](https://getbyterub.org/). It'll definitely be a bit of a ride, so strap yourself in.
 Feel free to skip down to a relevant section if you already know what you need.
 
-If you need support about something related to the website, plese join `#monero-site` [Freenode/IRC](irc://chat.freenode.net/#monero-site), [Matrix](https://matrix.to/#/!txpwSzQzkuUaVbtsIx:matrix.org) and MatterMost. For general info about ByteRub join `#monero`. We'll do whatever we can to help you.
+If you need support about something related to the website, plese join `#byterub-site` [Freenode/IRC](irc://chat.freenode.net/#byterub-site), [Matrix](https://matrix.to/#/!txpwSzQzkuUaVbtsIx:matrix.org) and MatterMost. For general info about ByteRub join `#byterub`. We'll do whatever we can to help you.
 
 ## What you'll need
 
-* Jekyll: [getmonero.org](https://getmonero.org/) is made using a simple, static website generator called [Jekyll](https://jekyllrb.com/). You will need it installed on your system to test any changes that you made. Follow the instructions on the website to get up and going:
+* Jekyll: [getbyterub.org](https://getbyterub.org/) is made using a simple, static website generator called [Jekyll](https://jekyllrb.com/). You will need it installed on your system to test any changes that you made. Follow the instructions on the website to get up and going:
   * Install Ruby dependencies as suggested [in the Jekyll documentation](https://jekyllrb.com/docs/installation/)
   * Install Bundler: `gem install bundler`
   * Install Jekyll with all dependencies (run from the project directory): `bundle`
 
-* GitHub/GitLab: Pretty much everything in ByteRub is hosted on [GitHub](https://github.com/byterubpay) or [getmonero GitLab](https://repo.getmonero.org/users/byterubpay/projects) and uses Git as the primary version control system. If you're not familiar with how to use Git, you can check out [this tutorial](https://guides.github.com/activities/hello-world/) for a good overview. It will take you through pretty much everything you'll need to know to edit the website. If you haven't already, register on GitLab and fork the [ByteRub Website repository](https://repo.getmonero.org/byterubpay/monero-site).
+* GitHub/GitLab: Pretty much everything in ByteRub is hosted on [GitHub](https://github.com/byterubpay) or [getbyterub GitLab](https://repo.getbyterub.org/users/byterubpay/projects) and uses Git as the primary version control system. If you're not familiar with how to use Git, you can check out [this tutorial](https://guides.github.com/activities/hello-world/) for a good overview. It will take you through pretty much everything you'll need to know to edit the website. If you haven't already, register on GitLab and fork the [ByteRub Website repository](https://repo.getbyterub.org/byterubpay/byterub-site).
 
 *Note: If you're confused, feel free to click other files in the same directory (folder) that you are in for the step that you are on to see some working examples. Compare them to the instructions and you should understand better.*
 
 Once you have the above list of things, it's typically a good idea to build the website from your local computer to make sure it works before you make any changes. To do this, complete the following steps:
 
-1. Navigate to your local `monero-site` repository.
+1. Navigate to your local `byterub-site` repository.
 2. Serve the website: `bundle exec jekyll serve --baseurl ''`. If you want, you can speedup thi process by loading only the last blog post instead of all of them. Simply add `--limit_posts 1` to the command above. The resulting command will be `bundle exec jekyll serve --limit_posts 1 --baseurl ''`.
 3. Open a browser and go to [http://127.0.0.1:4000](http://127.0.0.1:4000).
 4. If all went well, you should see the ByteRub website and you're ready to make changes.
 
 
 ## General change recommendations
-The average ByteRub user that will want to contribute to the website should probably start looking for issues labelled [⛑️ help needed](https://repo.getmonero.org/byterubpay/monero-site/issues?label_name%5B%5D=%E2%9B%91%EF%B8%8F++help+needed) or making blog posts, user guides or ByteRubpedia entries; all of which are covered in this document. If this is all you want to do, don't worry, it's actually not a daunting task at all.
+The average ByteRub user that will want to contribute to the website should probably start looking for issues labelled [⛑️ help needed](https://repo.getbyterub.org/byterubpay/byterub-site/issues?label_name%5B%5D=%E2%9B%91%EF%B8%8F++help+needed) or making blog posts, user guides or ByteRubpedia entries; all of which are covered in this document. If this is all you want to do, don't worry, it's actually not a daunting task at all.
 
-If you are a web developer and would like to make large macro-level changes, it would be best to open an issue first or to get in contact with the developers on `#monero-site` (IRC/Freenode, MatterMost, Matrix).
+If you are a web developer and would like to make large macro-level changes, it would be best to open an issue first or to get in contact with the developers on `#byterub-site` (IRC/Freenode, MatterMost, Matrix).
 
 This website is completely open-source however and anything and everything is available for changing should the community deem it necessary.
 
@@ -54,7 +54,7 @@ Every section from here on out will talk about how to make a specific type of we
 
 A few random points of note:
 
-- After [a discussion](https://repo.getmonero.org/byterubpay/monero-site/issues/982), the community decided to include only open source wallets in the 'Downloads' section of the website. Requests to add closed source wallets to that page will be rejected.
+- After [a discussion](https://repo.getbyterub.org/byterubpay/byterub-site/issues/982), the community decided to include only open source wallets in the 'Downloads' section of the website. Requests to add closed source wallets to that page will be rejected.
 - All external links must have `https://` in front of them or they will not redirect properly.
 - If you want to add a new page to the navigation, you should go to ALL LANGUAGES in the `_data/lang` folder and add the page.
 - It is strongly strongly STRONGLY encouraged that if you make a change, you - at the minimum - test it on your local machine before submitting a PR. Sometimes unexpected things may happen due to a change. If you change a page, check the whole page on multiple screen sizes and browsers to make sure there wasn't any collateral damage.
@@ -217,22 +217,22 @@ You're all done. Submit a PR and wait for it to be reviewed and merged. Be sure 
 ## How to make a ByteRubpedia Entry
 
 ### 1. Make a Global file
-Navigate to the /resources/moneropedia folder and make a new file. Be sure the file name has no spaces and the ending is .md
+Navigate to the /resources/byterubpedia folder and make a new file. Be sure the file name has no spaces and the ending is .md
 Fil this file with this exact content:
 ```
 ---
-layout: moneropedia
+layout: byterubpedia
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/account.md %}
+{% tf resources/byterubpedia/account.md %}
 
 ```
 
 ### 2. Make the localized File
-Navigate to the /\_i18n/en/resources/moneropedia folder and make a new file. give it the same <name>.md than in previous step.
+Navigate to the /\_i18n/en/resources/byterubpedia folder and make a new file. give it the same <name>.md than in previous step.
 Start the file with the front Matter:
 ```
 ---
@@ -250,7 +250,7 @@ The lines must not contain trailing whitespace, and it must be no blank lines ad
 Write your ByteRubpedia entry. Remember that you can link to other ByteRubpedia entries using `@term-used-in-entry` as described above. Just go to the .md file of the ByteRubpedia entry you want to link to and use any of the terms in the `terms:` field of the front matter. Be sure to write whichever one you choose EXACTLY as shown and preceded by an ampersand.
 
 ### 4. Copy to other languages
-Copy the file from the /\_i18n/en/resources/moneropedia folder to the other /\_i18n/<language>/resources/moneropedia folders and add the untranslated snippet at the same time just after the front matter, so it looks like:
+Copy the file from the /\_i18n/en/resources/byterubpedia folder to the other /\_i18n/<language>/resources/byterubpedia folders and add the untranslated snippet at the same time just after the front matter, so it looks like:
 ```
 ---
 entry: "PUT THE NAME OF THE TERM HERE IN QUOTE, THIS IS HOW IT WILL SHOW UP ON THE LANDING PAGE"
@@ -444,7 +444,7 @@ If the build is successful, go to the Library page `/library/` and check to see 
 You're all done. Submit a PR and wait for it to be reviewed and merged. Be sure to make any changes if requested.
 
 ## How to translate a page
-In this section you'll find the info you need to translate a page and add a new translation, but keep in mind that ByteRub has a [Localization Workgroup](https://github.com/monero-ecosystem/monero-translations) who coordinate and give support to translators-volunteers. You can find an updated guide and an example of the workflow we use on our [Guide on Taiga](https://taiga.getmonero.org/project/erciccione-monero-localization/wiki/translating-monero-website), also, for live support/request of infos, come chat on `#monero-translations` (Freenode/IRC, riot/matrix, MatterMost).
+In this section you'll find the info you need to translate a page and add a new translation, but keep in mind that ByteRub has a [Localization Workgroup](https://github.com/byterub-ecosystem/byterub-translations) who coordinate and give support to translators-volunteers. You can find an updated guide and an example of the workflow we use on our [Guide on Taiga](https://taiga.getbyterub.org/project/erciccione-byterub-localization/wiki/translating-byterub-website), also, for live support/request of infos, come chat on `#byterub-translations` (Freenode/IRC, riot/matrix, MatterMost).
 
 ### 1. Quickstart
 * Navigate to the correct language in the /i18n folder and find the page you wish to translate
@@ -464,7 +464,7 @@ ByteRubpedia entries have two specificities:
 
 * The Front Matter:  
 ByteRubpedia Fron should be translated for both *entry:* and *summary:* elements. However, *terms:* should be extanded with their translation, leaving the English words **untouched**.
-This is really important for compatibility purposes. With this, if a new guide is added to the site, an English term on the untranslated version of the guide in another language could be linked to the moneropedia article (of the same language).
+This is really important for compatibility purposes. With this, if a new guide is added to the site, an English term on the untranslated version of the guide in another language could be linked to the byterubpedia article (of the same language).
 
 * The old *untranslated* snippet must be removed, therefore the next section is irrelevant here.
 

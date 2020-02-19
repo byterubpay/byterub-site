@@ -129,7 +129,7 @@ Inputs:
 Outputs:
 
 * *balance* - unsigned int; The total balance of the current monero-wallet-rpc in session.
-* *unlocked_balance* - unsigned int; Unlocked funds are those funds that are sufficiently deep enough in the Monero blockchain to be considered safe to spend.
+* *unlocked_balance* - unsigned int; Unlocked funds are those funds that are sufficiently deep enough in the ByteRub blockchain to be considered safe to spend.
 * *multisig_import_needed* - boolean; True if importing multisig data is needed for returning a correct balance.
 * *per_subaddress* - array of subaddress information; Balance information for each subaddress in an account.
   * *address_index* - unsigned int; Index of the subaddress in the account.
@@ -2273,7 +2273,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **start_mining**
 
-Start mining in the Monero daemon.
+Start mining in the ByteRub daemon.
 
 Alias: *None*.
 
@@ -2300,7 +2300,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **stop_mining**
 
-Stop mining in the Monero daemon.
+Stop mining in the ByteRub daemon.
 
 Alias: *None*.
 

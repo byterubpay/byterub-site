@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="false" version=page.version %}
 # Verify Binaries: Windows (Beginner)
 
-Verification of the Monero binary files should be done prior to extracting, installing, or using the Monero software. This is the only way to ensure that you are using the official Monero binary. If you receive a fake binary (eg. phishing, MITM, etc.), following this guide will protect you from being tricked into using it.
+Verification of the ByteRub binary files should be done prior to extracting, installing, or using the ByteRub software. This is the only way to ensure that you are using the official ByteRub binary. If you receive a fake binary (eg. phishing, MITM, etc.), following this guide will protect you from being tricked into using it.
 
-To protect the integrity of the binaries the Monero team provides a cryptographically signed list of all the [SHA256](https://en.wikipedia.org/wiki/SHA-2) hashes. If your downloaded binary has been tampered with it will be produce a [different hash](https://en.wikipedia.org/wiki/File_verification) than the one in the file.
+To protect the integrity of the binaries the ByteRub team provides a cryptographically signed list of all the [SHA256](https://en.wikipedia.org/wiki/SHA-2) hashes. If your downloaded binary has been tampered with it will be produce a [different hash](https://en.wikipedia.org/wiki/File_verification) than the one in the file.
 
 This is a beginners guide for the Windows operating system and will make use of GUIs almost exclusively. It will walk you through the process of installing the required software, importing the signing key, downloading the necessary files, and finally verifying that your binary is authentic.
 
@@ -92,13 +92,13 @@ Click `Finish`.
 
 ![gpg4win installer finish](png/verify_binary_windows_beginner/verify-win_gpg4win-install-finish.png)
 
-## 2. Monero Signing Key
+## 2. ByteRub Signing Key
 
-This section will cover downloading the Monero signing key, verifying that the key is correct, and then importing the key to your keyring. The hash file that will be used to verify your binary is cryptographically signed with the Monero signing key. In order to check the validity of this file you must have the public version of the signing key.
+This section will cover downloading the ByteRub signing key, verifying that the key is correct, and then importing the key to your keyring. The hash file that will be used to verify your binary is cryptographically signed with the ByteRub signing key. In order to check the validity of this file you must have the public version of the signing key.
 
 ### 2.1. Download Signing Key
 
-In a web browser, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), which he uses for signing the Monero binaries. Right click on the page, choose `Save Page As`.
+In a web browser, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), which he uses for signing the ByteRub binaries. Right click on the page, choose `Save Page As`.
 
 ![getkey right click](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 
@@ -212,7 +212,7 @@ If you receive an **INVALID** signature, **DO NOT CONTINUE.** Instead delete the
 
 ## 4. Binary File Verification
 
-This section will cover downloading the Monero binary and verifying its authenticity.
+This section will cover downloading the ByteRub binary and verifying its authenticity.
 
 ### 4.1. Download Binary
 
@@ -242,7 +242,7 @@ Change to the `Downloads` directory with the command: `cd Downloads`.
 
 ![binary cmd cd](png/verify_binary_windows_beginner/verify-win_binary-cmd-cd.png)
 
-Calculate the hash of the Monero binary with the command: `certUtil -hashfile monero-gui-win-x64-v0.11.1.0.zip SHA256` (if you downloaded a command-line only version, replace `monero-gui-win-x64-v0.11.1.0.zip` accordingly).
+Calculate the hash of the ByteRub binary with the command: `certUtil -hashfile monero-gui-win-x64-v0.11.1.0.zip SHA256` (if you downloaded a command-line only version, replace `monero-gui-win-x64-v0.11.1.0.zip` accordingly).
 
 ![binary cmd certutil](png/verify_binary_windows_beginner/verify-win_binary-cmd-certutil.png)
 
@@ -250,6 +250,6 @@ Compare the hash from the terminal with the one in the hash file. They should be
 
 ![binary compare hashes](png/verify_binary_windows_beginner/verify-win_binary-word-cmd-compare.png)
 
-If your hash **DOES** match then you are finished with verification! You can be sure the Monero files you have are authentic. You may extract and install/use the files normally.
+If your hash **DOES** match then you are finished with verification! You can be sure the ByteRub files you have are authentic. You may extract and install/use the files normally.
 
-If your hash **DOES NOT** match **DO NOT CONTINUE.** Instead delete the Monero binary from the `Downloads` directory and go back to [section 4.1](#41-download-binary).
+If your hash **DOES NOT** match **DO NOT CONTINUE.** Instead delete the ByteRub binary from the `Downloads` directory and go back to [section 4.1](#41-download-binary).

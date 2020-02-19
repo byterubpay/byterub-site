@@ -8,22 +8,22 @@ author: dEBRUYNE / fluffypony
 
 ### Overview
 
-An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-and-kovri-dev-meeting-note-highlights-2016-10-02)
+An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byterub-and-kovri-dev-meeting-note-highlights-2016-10-02)
 
 ### Logs
 
 **\<fluffypony>** Hi all  
 **\<fluffypony>** starting meeting bot  
-**\<moneromooo>** I'm none of them.  
+**\<byterubmooo>** I'm none of them.  
 **\<dEBRUYNE>** I am here  
-**\<fluffypony>** moneromooo: I know you're here :)  
+**\<fluffypony>** byterubmooo: I know you're here :)  
 **\<fluffypony>** ok meeting bot is up  
 **\<dnaleor>** watching  
 **\<fluffypony>** so  
 **\<meeting-bot> [anonimal]** #kovri-dev too?  
 **\<fluffypony>** kovri-dev is roped in too  
 **\<othe>** k  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** o  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** o  
 **\<fluffypony>** this is our first post-0.10.0 meeting  
 **\<fluffypony>** the 0.10.0 release went fairly smoothly  
 **\<fluffypony>** apart from the boost oddities  
@@ -31,18 +31,18 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** it's not really feasible to do a point release just for that just yet - in a few weeks I'll have local build infrastructure that will make releases a lot easier on me  
 **\<fluffypony>** since I can secure local machines far more easily than Internet-facing machines at a DC  
 **\<fluffypony>** in the interim, if anyone is struggling with it the easiest thing for them to do is recover their wallet from the seed / keys  
-**\<moneromooo>** And keep the old cache if they have tx keys they want to keep.  
+**\<byterubmooo>** And keep the old cache if they have tx keys they want to keep.  
 **\<fluffypony>** ^^  
 **\<fluffypony>** I'd also like to welcome all the new contributors  
 **\<fluffypony>** even if it's just correcting a spelling error, all contributions are valuable  
 **\<fluffypony>** and very much appreciated  
 **\<fluffypony>** one thing I would like to encourage with the new contributors is to submit your GPG key via PR  
-**\<fluffypony>** and side-channel it to myself or moneromooo or someone so we can independently verify the correct key goes in  
+**\<fluffypony>** and side-channel it to myself or byterubmooo or someone so we can independently verify the correct key goes in  
 **\<fluffypony>** they live in utils/gpg_keys/  
-**\<meeting-bot> [anonimal]** and if moneromooo says "ok" in your PR, that's a GOOD thing!  
+**\<meeting-bot> [anonimal]** and if byterubmooo says "ok" in your PR, that's a GOOD thing!  
 **\<fluffypony>** and then once you've done that you can GPG sign your commits with -S  
 **\<fluffypony>** eg. git commit -S -am "meaningful commit message"  
-**\<moneromooo>** Only if it's at the start.  
+**\<byterubmooo>** Only if it's at the start.  
 **\<patthehuman>** Is there anything that needs to be made for iOS  
 **\<fluffypony>** lol anonimal  
 **\<fluffypony>** patthehuman: it's an open-source project, so if you want to build something for iOS then please do  
@@ -87,10 +87,10 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** and then see how your testnet node(s) handle catch ups, and if they keep up with testnet when blocks are bigger  
 **\<fluffypony>** we also have our new buildbots ticking along nicely  
 **\<fluffypony>** so we'll be killing off Travis at some point in the coming weeks  
-**\<fluffypony>** build bot output has been relegated to #monero-bots  
+**\<fluffypony>** build bot output has been relegated to #byterub-bots  
 **\<fluffypony>** and that channel is relayed to irc2p  
 **\<meeting-bot> [anonimal]** Thanks pigeons  
-**\<meeting-bot> [anonimal]** monero-build.i2p is also online  
+**\<meeting-bot> [anonimal]** byterub-build.i2p is also online  
 **\<fluffypony>** yeah pigeons has done great work  
 **\<fluffypony>** at the moment we're building for a ton of platforms  
 **\<fluffypony>** including macOS 10.9, 10.10, 10.11  
@@ -100,61 +100,61 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** my current leaning is towards nightly builds + tests  
 **\<fluffypony>** (of master)  
 **\<fluffypony>** that way we'll catch tests that are broken by any merged PRs  
-**\<moneromooo>** Daily core_tests would be useful.  
+**\<byterubmooo>** Daily core_tests would be useful.  
 **\<fluffypony>** performance_tests would also be useful  
 **\<fluffypony>** that way we can track anything that has a huge impact on performance  
-**\<moneromooo>** As long as the outcome can be seen without too many hoops (ie, javacrsipt)  
-**\<fluffypony>** moneromooo: we'll probably just grab the output, parse it, and shove it in a database  
+**\<byterubmooo>** As long as the outcome can be seen without too many hoops (ie, javacrsipt)  
+**\<fluffypony>** byterubmooo: we'll probably just grab the output, parse it, and shove it in a database  
 **\<fluffypony>** then we can create a profiler for the site without too many issues  
 **\<fluffypony>** on the PR side  
 **\<fluffypony>** has anyone looked at 1082?  
 **\<patthehuman>** no my apologies for being new but can you elaborate on what 1082 is  
-**\<fluffypony>** or actually moneromooo: can you give everyone a brief overview of what 1082 does  
+**\<fluffypony>** or actually byterubmooo: can you give everyone a brief overview of what 1082 does  
 **\<fluffypony>** oh sorry patthehuman - PR = pull request  
-**\<fluffypony>** so PR 1082 = https://github.com/byterubpay/monero/pull/1082  
+**\<fluffypony>** so PR 1082 = https://github.com/byterubpay/byterub/pull/1082  
 **\<patthehuman>** yeah im familiar with PR's (worst part of my work day lol)  
-**\<moneromooo>** Ah, as the comment says, really.  
-**\<moneromooo>** It just tries to avoid the case where someone sends money just after receiving it.  
-**\<moneromooo>** That's a common enough case.  
+**\<byterubmooo>** Ah, as the comment says, really.  
+**\<byterubmooo>** It just tries to avoid the case where someone sends money just after receiving it.  
+**\<byterubmooo>** That's a common enough case.  
 **\<fluffypony>** "25% of the outputs are selected from the last 5 days (if possible), in order to avoid the common case of sending recently received outputs again. 25% and 5 days are subject to review later, since it's just a wallet level change."  
 **\<trustedsetup>** where did the 25% come from? 25% seems somewhat arbitrary. did MRL have input on this number?  
-**\<moneromooo>** They're aribtrary.  
+**\<byterubmooo>** They're aribtrary.  
 **\<fluffypony>** trustedsetup: the MRL is of the opinion that we're never going to find a "perfect" distribution, and that distribution should be re-evaluated regularly  
 **\<luigi1112>** Will look at it  
 **\<fluffypony>** 25% would only be a single output at minimum mixin  
 **\<trustedsetup>** ok thanks  
-**\<moneromooo>** It's actually 25%, except if that gives 0, in which case it uses 1.  
-**\<fluffypony>** moneromooo: and it's 25% including the "real" output, right?  
-**\<moneromooo>** Yes.  
-**\<moneromooo>** See line 2744 in wallet2.cpp  
+**\<byterubmooo>** It's actually 25%, except if that gives 0, in which case it uses 1.  
+**\<fluffypony>** byterubmooo: and it's 25% including the "real" output, right?  
+**\<byterubmooo>** Yes.  
+**\<byterubmooo>** See line 2744 in wallet2.cpp  
 **\<fluffypony>** kk  
 **\<fluffypony>** as to the other open PRs  
 **\<fluffypony>** most of them are not merged yet due to their being unreviewed  
 **\<fluffypony>** I try give PRs a little while before reviewing them myself, otherwise I end up being the only reviewer, which is bad for security obvs  
 **\<fluffypony>** bear in mind that a review is *not* in-depth line-by-line analysis  
 **\<patthehuman>** pr is just a quick overview  
-**\<moneromooo>** I'd hope the review does look at all lines.  
+**\<byterubmooo>** I'd hope the review does look at all lines.  
 **\<fluffypony>** yup  
 **\<fluffypony>** it's a sanity check, and a check for obvious screw-ups, and a check for snuck-in backdoors  
-**\<fluffypony>** moneromooo: the key there was in-depth, not line-by-line ;)  
-**\<moneromooo>** OK, that's fine.  
+**\<fluffypony>** byterubmooo: the key there was in-depth, not line-by-line ;)  
+**\<byterubmooo>** OK, that's fine.  
 **\<fluffypony>** medusa_: are you around?  
 **\<fluffypony>** ok in the absence of medusa_ being around, dEBRUYNE have you been following Ilya's progress on medusa_'s issues?  
 **\<dEBRUYNE>** Yeah, he has fixed all issues opened by medusa_ as far as I know  
 **\<fluffypony>** ok great  
 **\<medusa_>** yes im here  
-**\<dEBRUYNE>** Except -> https://github.com/byterubpay/monero-core/issues/29  
+**\<dEBRUYNE>** Except -> https://github.com/byterubpay/byterub-core/issues/29  
 **\<dEBRUYNE>** but that's more of a feature, which should be implemented later  
 **\<fluffypony>** oh cool - medusa_ how are you finding it now that most of the issues have been fixed?  
 **\<dEBRUYNE>** could*  
-**\<TedTheFicus>** MK_ + Others who are wondering, the monero-core project that is being discussed now is the GUI  
+**\<TedTheFicus>** MK_ + Others who are wondering, the byterub-core project that is being discussed now is the GUI  
 **\<medusa_>** i think we need more feedback regarding the performance difference between gui wallet creation time and CLI wallet creation time  
 **\<medusa_>** and i dont know of any major bugs that would be dangerous  
 **\<fluffypony>** medusa_: there's a PR that's supposed to fix that  
 **\<fluffypony>** I haven't merged it yet, but it's gone through review  
 **\<dEBRUYNE>** Ilya merged jacquee's PR as well  
 **\<dEBRUYNE>** he noticed a significant improvement  
-**\<medusa_>** so my opinion is merge all to monero-core project master,  test there again and if its good we build the bins  
+**\<medusa_>** so my opinion is merge all to byterub-core project master,  test there again and if its good we build the bins  
 **\<dEBRUYNE>** ^ +1  
 **\<dEBRUYNE>** Beta binaries will also bring more testers, who possibly could notice something we might have overlooked  
 **\<fluffypony>** ok  
@@ -162,15 +162,15 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** we'll need a point release of 0.10 to go with it  
 **\<fluffypony>** so we should at least get through the current group of pending PRs before we do that  
 **\<medusa_>** but we must communicate its for testing, since the seed is nowhere displayed after creation we dont want people to lose money  
-**\<moneromooo>** It creates a keys file, right ?  
+**\<byterubmooo>** It creates a keys file, right ?  
 **\<fluffypony>** medusa_: well that's a pretty big issue :-P  
 **\<medusa_>** yes  
 **\<fluffypony>** ah ok  
-**\<fluffypony>** so monero-wallet-cli could be shipped with it for recovery  
+**\<fluffypony>** so byterub-wallet-cli could be shipped with it for recovery  
 **\<TedTheFicus>** Good idea  
-**\<moneromooo>** Well, you do need the daemon anyway, don't you.  
+**\<byterubmooo>** Well, you do need the daemon anyway, don't you.  
 **\<medusa_>** yes  
-**\<dEBRUYNE>** \<fluffypony> so monero-wallet-cli could be shipped with it for recovery <= It's able to recover seeds  
+**\<dEBRUYNE>** \<fluffypony> so byterub-wallet-cli could be shipped with it for recovery <= It's able to recover seeds  
 **\<dEBRUYNE>** It's just that only in the wizard the seed is shown once  
 **\<dEBRUYNE>** oh wait, you mean restore with the .keys file?  
 **\<fluffypony>** yes I meant recovery as in "recover my seed from the .keys file"  
@@ -190,37 +190,37 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** ok so we have 7 minutes before the Kovri meeting, any other things to discuss?  
 **\<dEBRUYNE>** fluffypony: will do  
 **\<dEBRUYNE>** NoodleDoodle isn't here right?  
-**\<moneromooo>** Who wants to volunteer to review some patches from time to time ? :)  
-**\<dEBRUYNE>** moneromooo: Similiarly, would you be able to glance over / review the trezor XMR code?   
-**\<moneromooo>** Where is it ?  
+**\<byterubmooo>** Who wants to volunteer to review some patches from time to time ? :)  
+**\<dEBRUYNE>** byterubmooo: Similiarly, would you be able to glance over / review the trezor XMR code?   
+**\<byterubmooo>** Where is it ?  
 **\<fluffypony>** on NoodleDoodle's computer  
 **\<dEBRUYNE>** https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo  
-**\<dEBRUYNE>** ^ moneromooo   
-**\<dEBRUYNE>** he has some commits in his monero repository and in trezor-xmr  
+**\<dEBRUYNE>** ^ byterubmooo   
+**\<dEBRUYNE>** he has some commits in his byterub repository and in trezor-xmr  
 **\<fluffypony>** :-P  
-**\<i2p-relay> {-anonimal}** moneromooo: I review many of them but I don't spend enough time with the codebase to ack/nack  
-**\<moneromooo>** anonimal, thanks :)  
-**\<moneromooo>** dEBRUYNE: Do you know which one of the three repos is the right one ?  
-**\<moneromooo>** xmr, common, mcu. xmr seems likely to be one at least.  
+**\<i2p-relay> {-anonimal}** byterubmooo: I review many of them but I don't spend enough time with the codebase to ack/nack  
+**\<byterubmooo>** anonimal, thanks :)  
+**\<byterubmooo>** dEBRUYNE: Do you know which one of the three repos is the right one ?  
+**\<byterubmooo>** xmr, common, mcu. xmr seems likely to be one at least.  
 **\<dEBRUYNE>** oh trezor-xmr  
-**\<dEBRUYNE>** and monero  
-**\<dEBRUYNE>** So his commits here -> https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo/monero/commits/master?author=NoodleDoodleNoodleDoodleNoodleDoodleNoo  
-**\<moneromooo>** OK, I'll keep that in mind then.  
+**\<dEBRUYNE>** and byterub  
+**\<dEBRUYNE>** So his commits here -> https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo/byterub/commits/master?author=NoodleDoodleNoodleDoodleNoodleDoodleNoo  
+**\<byterubmooo>** OK, I'll keep that in mind then.  
 **\<dEBRUYNE>** & here -> https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo/trezor-xmr  
 **\<medusa_>** i can not review the code, but i can test specific pull requests if you guys explain me what you changed  
-**\<dEBRUYNE>** trezor-mcu / trezor-common has no commits from NoodleDoodle moneromooo   
-**\<moneromooo>** medusa_: 1082 and 1121 could do with some testing if you feel like it.  
-**\<moneromooo>** And 1140 :)  
-**\<moneromooo>** 1082 changes the way fake outs are selected  
+**\<dEBRUYNE>** trezor-mcu / trezor-common has no commits from NoodleDoodle byterubmooo   
+**\<byterubmooo>** medusa_: 1082 and 1121 could do with some testing if you feel like it.  
+**\<byterubmooo>** And 1140 :)  
+**\<byterubmooo>** 1082 changes the way fake outs are selected  
 **\<cryptotekk>** wow in this pace i see GUI by tonight lol  
-**\<moneromooo>** 1121 replaces the sweep_unmixable code to be more stable and, well, better  
-**\<moneromooo>** 1141 adds cold wallet signing  
+**\<byterubmooo>** 1121 replaces the sweep_unmixable code to be more stable and, well, better  
+**\<byterubmooo>** 1141 adds cold wallet signing  
 **\<medusa_>** oh i can test 1141  
 **\<medusa_>** i still have the setip from the --offline thing  
-**\<moneromooo>** 1140, sorry. Off by one...  
+**\<byterubmooo>** 1140, sorry. Off by one...  
 **\<fluffypony>** oh no off by one bug!  
 **\<medusa_>** will have a look, thanks  
-**\<moneromooo>** Mac, Linux, and Plan9.  
+**\<byterubmooo>** Mac, Linux, and Plan9.  
 **\<cryptotekk>** android please  
 **\<liberte>** lol  
 **\<fluffypony>** hokay  

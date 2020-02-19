@@ -35,7 +35,7 @@ author: el00ruobuob / surae
 **\<endogenic>** Should we mention ppl like mooo at the beginning of mtgs?  
 **\<surae>** oh good idea  
 **\<endogenic>** Per multisig  
-**\<surae>** moneromooo knaccc luigi1111 fluffypony anonimal dEBRUYNE  
+**\<surae>** byterubmooo knaccc luigi1111 fluffypony anonimal dEBRUYNE  
 **\<sarang>** So yes multisig is coming along well  
 **\<sarang>** Subaddress paper is done  
 **\<sarang>** That was posted as a final draft to the channel for comment  
@@ -56,7 +56,7 @@ author: el00ruobuob / surae
 **\<endogenic>** and i'm just wondering (blindly) about revocable view keys  
 **\<surae>** i am excited to start thinking about those more deeply. multisig is...   
 **\<hyc>** ah, the notion of time-limited/expiring view keys sounds like a good idea  
-**\<moneromooo>** Sorry, I was out.  
+**\<byterubmooo>** Sorry, I was out.  
 **\<surae>** yes  
 **\<surae>** no problem mooo, i didn't ping anyone before we started (my bad, first time here yuk yuk)  
 **\<endogenic>** hyc: i've heard some downsides to proposals of time-expiring view keys  
@@ -68,11 +68,11 @@ author: el00ruobuob / surae
 **\<surae>** little... details. that keep building up.  
 **\<surae>** so, i'm going to take a day or two off of it and work on other things, to reset my brain. it's been a few days of just multisig. Pending sarang's agreement on the multisig code being "safe enough," multisig can be put to work before the MRL-0007 paper is put out, though. Two reasons for this  
 **\<sarang>** A lot of it is about assuming things about communication of coalition members  
-**\<surae>** First, even if multisig satisfies weaker security definitions than i would like, we can always push changes to it later. Second, I'm already proposing a slightly different implementation in the paper than we are currently going to see in the code. I'm considering writing an appendix to this paper that compares the current code by moneromooo with my suggested implementation, and attempts to close the gap  
+**\<surae>** First, even if multisig satisfies weaker security definitions than i would like, we can always push changes to it later. Second, I'm already proposing a slightly different implementation in the paper than we are currently going to see in the code. I'm considering writing an appendix to this paper that compares the current code by byterubmooo with my suggested implementation, and attempts to close the gap  
 **\<surae>** between them.  
 **\<surae>** so, anyway, i'll probably take two days off and think about blockchains or specter or difficulty or something  
 **\<sarang>** Now what about this PRNG bizniss?  
-**\<moneromooo>** ByteRub's PRNG is not homebrew, AFAIK it's the canonical construction from the Keccak authors.  
+**\<byterubmooo>** ByteRub's PRNG is not homebrew, AFAIK it's the canonical construction from the Keccak authors.  
 **\<surae>** ?  
 **\<surae>** Our PRNG should follow whatever the best practice is. I'm not convinced NIST or ISO are the ones who describe the best practices. maybe we should have our own standard for that  
 **\<sarang>** I'd like to understand it a bit better  

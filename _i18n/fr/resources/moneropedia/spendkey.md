@@ -9,4 +9,4 @@ L'une des deux paires de clefs cryptographiques publiques et privées dont dispo
 
 ### Informations détaillées
 
-La clef de dépense *privée* est un entier de 256 bits qui est utilisé pour signer les transactions Monero. Avec l'actuelle méthode déterministe de dérivation de clef du portefeuille officiel, la clef privée de dépense est également une représentation alternative de la @phrase-mnémonique. Elle peut être utilisée pour dériver toutes les autres clefs du compte.
+La clef de dépense *privée* est un entier de 256 bits qui est utilisé pour signer les transactions ByteRub. Avec l'actuelle méthode déterministe de dérivation de clef du portefeuille officiel, la clef privée de dépense est également une représentation alternative de la @phrase-mnémonique. Elle peut être utilisée pour dériver toutes les autres clefs du compte.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-07-09
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-07-09
 summary: MRL work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -40,18 +40,18 @@ author: el00ruobuob / sarang
 **\<sarang>** Move on to others, or questions on my stuff?  
 **\<hyc>** sounds good  
 **\<sarang>** I know suraeNoether has been working on nonprofit stuff and also recently on some churn analysis. We really need information on output depth, which a few folks said they were interested in coding  
-**\<moneromooo>** What is output depth ?  
+**\<byterubmooo>** What is output depth ?  
 **\<sarang>** Oh, link to my repo with that material: https://github.com/SarangNoether/research-lab  
 **\<sarang>** The distribution of coinbase outputs tracked back through the spend tree of a transaction  
 **\<sarang>** It's useful as parameters for churn analysis  
-**\<moneromooo>** Is this something that's been pending for a while ?  
-**\<moneromooo>** Kinda rings a bell...  
+**\<byterubmooo>** Is this something that's been pending for a while ?  
+**\<byterubmooo>** Kinda rings a bell...  
 **\<sarang>** yup  
-**\<moneromooo>** If it's a few folks that siad they would, then flaked out, I can do it. If it's a few folk that recently said so and are doing it, I won't.  
+**\<byterubmooo>** If it's a few folks that siad they would, then flaked out, I can do it. If it's a few folk that recently said so and are doing it, I won't.  
 **\<sarang>** Not sure if flaked, or busy, or what  
 **\<sarang>** I have little experience in lmdb, or I'd jump on it  
-**\<sarang>** clearly moneromooo sits around all day doing... very little =p  
-**\<moneromooo>** Well, remind me whenever you feel like you waited enough :)  
+**\<sarang>** clearly byterubmooo sits around all day doing... very little =p  
+**\<byterubmooo>** Well, remind me whenever you feel like you waited enough :)  
 **\<sarang>** lol ok  
 **\<sarang>** I can give more details after meeting  
 **\<sarang>** ty  
@@ -79,7 +79,7 @@ author: el00ruobuob / sarang
 **\<hyc>** yes  
 **\<spaced0ut\_>** very cool  
 **\<knaccc>** is there a way to ask an commonly used filesystems to just allow raw access to some regions?  
-**\<ArticMine>** With way faster sync for Monero  
+**\<ArticMine>** With way faster sync for ByteRub  
 **\<knaccc>** any\*  
 **\<sarang>** Throwback time... here's the email regarding subaddys: https://paste.fedoraproject.org/paste/KTgF84V-pHPL-dO8V8mAjw  
 **\<hyc>** knaccc: unfortunately not  
@@ -88,9 +88,9 @@ author: el00ruobuob / sarang
 **\<sarang>** Researcher asked to be identified as "that Russian dude"  
 **\<hyc>** won't give it to you :P  
 **\<knaccc>** haha  
-**\<moneromooo>** BTW, iDunk reported much faster sync on HDD with some particular options.  
+**\<byterubmooo>** BTW, iDunk reported much faster sync on HDD with some particular options.  
 **\<scoobybejesus>** i think it was sneurlax who was writing up spend tree code in python  
-**\<moneromooo>** Just needs... a lot of data points. To fix a new default.  
+**\<byterubmooo>** Just needs... a lot of data points. To fix a new default.  
 **\<rrol[m]>** re: churn, i have been planning to put together a 'best practices' infographic that collects some of surae's findings, as well as other usage guidelines, but work keeps eating my headspace. if ppl want to help maybe reach out and we can coordinate together  
 **\<sarang>** scoobybejesus: righto, didn't see any final product, unless there is and I don't know about it  
 **\<sarang>** rrol[m]: that'll be great; just waiting on some final numbers  
@@ -98,7 +98,7 @@ author: el00ruobuob / sarang
 **\<hyc>** oneiric\_: I think it always requires root access  
 **\<sneurlax>** soon™ -- do you want the mining pool traceability analysis first or the generalized spend tree code first?  
 **\<oneiric\_>** damn, very cool work hyc  
-**\<moneromooo>** Kinda loses the point of a fs, which is to allow files to live in parallel. So you have to preallocate loads of space to your raw partition.  
+**\<byterubmooo>** Kinda loses the point of a fs, which is to allow files to live in parallel. So you have to preallocate loads of space to your raw partition.  
 **\<hyc>** thanks. I guess mostly theoretical for now, impractical for most people to deploy  
 **\<sgp\_[m]>** rrol sarang: I also want to see what's known about churning for my Defcon talk  
 **\<sarang>** sneurlax: getting the distribution of output depths (back to coinbase) for a given txn sample will be the most relevant right now  
@@ -136,9 +136,9 @@ author: el00ruobuob / sarang
 **\<knaccc>** I was interested to know if anyone thought that a 38% reduction in wallet output scanning time was significant enough to justify altering the one-time output public key construction. UkoeHB and vtnerd had some interesting comments which I've incorporated into this: https://paste.fedoraproject.org/paste/h069cKbPYUC3ixgVJIPVYw/raw  This is very low priority of course  
 **\<sarang>** I need to think more about changes to any security properties by removing the hash and replacing with a sum in this way  
 **\<knaccc>** yes, I'm sure it would need a thorough security analysis. That's why I was wondering specifically if people thought 38% was enough to bother looking into it  
-**\<moneromooo>** To decide whether it's worth it, you'd need to give actual speedup, not speedup for a particular step.  
+**\<byterubmooo>** To decide whether it's worth it, you'd need to give actual speedup, not speedup for a particular step.  
 **\<smooth>** /win/win1  
-**\<knaccc>** moneromooo true, I'm sure there are other factors that I'm not taking into account  
+**\<knaccc>** byterubmooo true, I'm sure there are other factors that I'm not taking into account  
 **\<sarang>** Seems the topics are winding down a bit, but interesting on all counts  
 **\<sarang>** Well, thanks to all for attending today, and let's continue the discussions now that the meeting is formally concluded!  
 **\<knaccc>** ^^  

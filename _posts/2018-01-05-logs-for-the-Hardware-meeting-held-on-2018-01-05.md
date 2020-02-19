@@ -15,7 +15,7 @@ author: dEBRUYNE / fluffypony
 **\<nioc>** today and next Fri for software  
 **\<msvb-lab>** General hw team meeting, but Friday may or may not (to be decided) be s focus seesion on firmware.  
 **\<rehrar>** So we got a lot of ground to cover today, so let's hop into it.  
-**\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/wiki/meet/  
+**\<msvb-lab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/wiki/meet/  
 **\<msvb-lab>** Is the agenda.  
 **\<rehrar>** So from my understanding, because we'll be moving quite quickly, we'll have to not spend tons of time on discussion per topic  
 **\<rehrar>** We can either talk after the meeting (if we want to continue conversation)  
@@ -77,7 +77,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** We're still on track with two main editions.  
 **\<msvb-lab>** A developer (D) edition, larger and more complex good for devs.  
 **\<msvb-lab>** A consumer (C) edition, with excellent aesthetics and easy to use.  
-**\<rehrar>** we can continue conversations on previous points in #monero-hardware-aside. It'll just be used temporarily for this meeting  
+**\<rehrar>** we can continue conversations on previous points in #byterub-hardware-aside. It'll just be used temporarily for this meeting  
 **\<msvb-lab>** Secure too, ahem.  
 **\<cslashm>** dEBRUYNE: juste ask if what the differenciator of each project is written down  
 **\<msvb-lab>** Is that okay with everyone else?  
@@ -138,7 +138,7 @@ author: dEBRUYNE / fluffypony
 **\<i-a>** The wallet must be secure by design, please lets use secure elements only to enhance allready secure design.  
 **\<rehrar>** with the addition of changing the repo name to "Kastelo"  
 **\<rehrar>** alright, moving on.  
-**\<rehrar>** Again, conversation from older points can continue in #monero-hardware-aside  
+**\<rehrar>** Again, conversation from older points can continue in #byterub-hardware-aside  
 **\<rehrar>** 7. Highlights of 34C3 in Leipzig  
 **\<m2049r[m]>** an attack is only possible if you can make the device use your key - if you can do that ONCE, then you transfer the funds away and dont care about the key. no?  
 **\<msvb-lab>** i-a: Good point. jbdatko Josh do you believe that we can make a hardware wallet that's secure by design in that even when running a roque firmware the secrets remain safe?  
@@ -158,7 +158,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** Really not that big a deal probably.  
 **\<rehrar>** Well, next is Etherpads for the group  
 **\<msvb-lab>** Yes, we're at #8 and half way through.  
-**\<rehrar>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/wiki/meet  
+**\<rehrar>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/wiki/meet  
 **\<rehrar>** this is the agenda for the meeting if you missed it  
 **\<anhdres>** I wish they released the videos from 34c3  
 **\<anhdres>** they're taking ages  
@@ -202,7 +202,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** jbdatko: yes, a KDF is essential  
 **\<msvb-lab>** jbdatko: To encrypt a ed25519 secret, we could use a ATECC608A because it has PKDF right?  
 **\<jbdatko>** so the 608A does have HKDF so you could use it to create a key tree of sorts  
-**\<msvb-lab>** sarang: It's golden when monero-hardware is teaming MRL folks a lesson. Har har har.  
+**\<msvb-lab>** sarang: It's golden when byterub-hardware is teaming MRL folks a lesson. Har har har.  
 **\<sarang>** PBKDF2 is useful for low-memory settings  
 **\<sarang>** ?  
 **\<jbdatko>** The biggest issue I would think for this project with the 608a, while I like it, is that it's a NDA datasheet :/  
@@ -212,25 +212,25 @@ author: dEBRUYNE / fluffypony
 **\<jbdatko>** PBKD2 I don't think would do well on an ARM M4. I don't think it's memory bound but it takes seconds on a i7. to get the same number of rounds it might take a very long time  
 **\<msvb-lab>** I shamelessly copied Josh's concepts to our proj mgmt task 166:  
 **\<jbdatko>** Although TREZOR does some kinda of PBKDF so I might be mistaken  
-**\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/task/166/  
+**\<msvb-lab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/task/166/  
 **\<kamminke>** I would even prefer asymmetric crypto for the keys, the host encrypt with the public key the key to store, but only the right wallet with his private key can open the stored keyring.  
 **\<i-a>** m2049r[m]: https://docs.mattermost.com/install/install-debian-88.html this, really?  
 **\<msvb-lab>** jbdatko: A second on key generation, derivation, or verification?  
 **\<msvb-lab>** I would assume those are all very different benchmarks.  
 **\<jbdatko>** PBKDF2 on high end processors takes seconds by design to derive the key from the passphrase  
-**\<m2049r[m]>** i-a: no! this: mattermost.getmonero.org  
+**\<m2049r[m]>** i-a: no! this: mattermost.getbyterub.org  
 **\<sarang>** you can the number of rounds to take as long as you want based on estimated processing speeds  
 **\<sarang>** \*you can tune  
 **\<rehrar>** alright everyone. Settle down. Settle down. I know it's been a crazy meeting so far, but we got more to get through.  
-**\<msvb-lab>** There's plenty of crypto going on in #monero-hardware-aside, for extended discussion about that.  
+**\<msvb-lab>** There's plenty of crypto going on in #byterub-hardware-aside, for extended discussion about that.  
 **\<rehrar>** Let's wrap up our discussions on the Etherpads and come back here for:  
 **\<rehrar>** 14. Free to choose topics (Q&A)  
 **\<m2049r[m]>** i think what we are aiming for is preventing a casual thief and his hacker friends from access to your funds. anyone else will lock you in their cellar until you tell them the passphrase/key.  
 **\<msvb-lab>** It would be nice to give folks a chance at asking 'how do I use my new holiday prototype device?'  
 **\<msvb-lab>** I assume it's clear what's been given out in the package:  
-**\<msvb-lab>** https://taiga.getmonero.org/media/attachments/0/9/e/f/c3076b82874b6d9805dfcabca2c31e78e884536d2e98b54d3b4abc4045d0/protojulcan-2.png  
+**\<msvb-lab>** https://taiga.getbyterub.org/media/attachments/0/9/e/f/c3076b82874b6d9805dfcabca2c31e78e884536d2e98b54d3b4abc4045d0/protojulcan-2.png  
 **\<msvb-lab>** And that the screen plugs in this direction:  
-**\<msvb-lab>** https://taiga.getmonero.org/media/attachments/8/b/a/e/9b16894e088ee64c505dbf0fbc15788e8c5bfb18b1e0ead7056d7acf6332/protoledjc-0b.png  
+**\<msvb-lab>** https://taiga.getbyterub.org/media/attachments/8/b/a/e/9b16894e088ee64c505dbf0fbc15788e8c5bfb18b1e0ead7056d7acf6332/protoledjc-0b.png  
 **\<anhdres>** m2049r[m]: there should be a second (fake) password that shows a decoy wallet  
 **\<i-a>** m2049r[m]: trying pm mattermost  
 **\<msvb-lab>** ...and that each of us who received a prototype must have read a disclaimer stating that it does not support hardware wallet functions.  
@@ -320,7 +320,7 @@ author: dEBRUYNE / fluffypony
 **\<i-a>** msvb-lab: I am here! Was setting up something on mattermost.  
 **\<rehrar>** Ok. We can do another doodle  
 **\<rehrar>** Alright, catch you all later.  
-**\<i-a>** I like doodle voting also, but I will also try to make firmware meeting next friday. I will inform abut it in monero-friendly channels around.  
+**\<i-a>** I like doodle voting also, but I will also try to make firmware meeting next friday. I will inform abut it in byterub-friendly channels around.  
 **\<m2049r[m]>** msvb-lab: hows the self-destruct idea maturing? i think thats the only way to be secure.  
 **\<msvb-lab>** m2049r[m]: Thank you! You're the only one who has taken interest in my wild james bond action feature so far.  
 **\<msvb-lab>** I think it's actually possible, but a number of research steps are needed.  

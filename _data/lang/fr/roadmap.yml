@@ -3,16 +3,16 @@
     - name: Lancé sur Bitcointalk
       date: 2014-04-18
       status: completed
-    - name: Renommé de Bitmonero à Monero
+    - name: Renommé de Bitmonero à ByteRub
       date: 2014-04-23
       status: completed
     - name: Rétablissement suite à une attaque par spam
       date: 2014-09-04
       status: completed
-    - name: Publication des notes 1 et 2 du Laboratoire de Recherche Monero
+    - name: Publication des notes 1 et 2 du Laboratoire de Recherche ByteRub
       date: 2014-09-12
       status: completed
-    - name: Publication de la note 3 du Laboratoire de Recherche Monero
+    - name: Publication de la note 3 du Laboratoire de Recherche ByteRub
       date: 2014-09-25
       status: completed
     - name: Publication de la version 0.8.8.6
@@ -20,7 +20,7 @@
       status: completed
 - year: 2015
   accomplishments:
-    - name: Publication de la note 4 du Laboratoire de Recherche Monero
+    - name: Publication de la note 4 du Laboratoire de Recherche ByteRub
       date: 2015-01-26
       status: completed
 - year: 2016
@@ -28,7 +28,7 @@
     - name: Publication de la version 0.9.0 Hydrogen Helix
       date: 2016-01-01
       status: completed
-    - name: Publication de la note 5 du Laboratoire de Recherche Monero
+    - name: Publication de la note 5 du Laboratoire de Recherche ByteRub
       date: 2016-02-10
       status: completed
     - name: Mise à jour du réseau pour imposer un taille de cercle minimum de 3 pour toutes les transactions
@@ -84,7 +84,7 @@
     - name: Sous-adresses
       date: Octobre 2017
       status: completed
-    - name: Publication de la note 6 du Laboratoire de Recherche Monero
+    - name: Publication de la note 6 du Laboratoire de Recherche ByteRub
       date: 2017-10-03
       status: completed
     - name: Publication de la version 0.11.1.0 Helium Hydra
@@ -131,7 +131,7 @@
     - name: Version alpha de Kovri
       date: 2018-08-01
       status: completed
-    - name: Moneropedia de getmonero.org ouvert à la traduction
+    - name: ByteRubpedia de getmonero.org ouvert à la traduction
       date: 2018-08-03
       status: completed
     - name: Traduction du site getmonero.org en Arabe
@@ -155,19 +155,19 @@
     - name: Publication de la version 0.13.0.4 Beryllium Bullet
       date: 2018-10-25
       status: completed
-    - name: Publication des notes 8 and 9 du Laboratoire de Recherche Monero
+    - name: Publication des notes 8 and 9 du Laboratoire de Recherche ByteRub
       date: 2018-11-01
       status: completed
     - name: Publication de la GUI version 0.13.0.4 Beryllium Bullet
       date: 2018-11-19
       status: completed
-    - name: Publication de la note 7 du Laboratoire de Recherche Monero
+    - name: Publication de la note 7 du Laboratoire de Recherche ByteRub
       date: 2018-11-26
       status: completed
-    - name: Monero Research Lab Paper 10 du Laboratoire de Recherche Monero
+    - name: ByteRub Research Lab Paper 10 du Laboratoire de Recherche ByteRub
       date: 2018-12-04
       status: completed
-    - name: Implémentation du Monero Messaging System (MMS) pour automatiser les échanges d'informations des portefeuilles multisignatures
+    - name: Implémentation du ByteRub Messaging System (MMS) pour automatiser les échanges d'informations des portefeuilles multisignatures
       date: 2018-12-20
       status: completed
 - year: 2019

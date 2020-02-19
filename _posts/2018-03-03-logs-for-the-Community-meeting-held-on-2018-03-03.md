@@ -18,21 +18,21 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-loc>** Hello  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** XMR.RU has translated many important articles into Russian: https://www.reddit.com/r/ByteRub/comments/81owe8/xmrrureport_february/   
-**\<monerobux>** [REDDIT] XMR.RU-report (February) (self.ByteRub) | 8 points (91.0%) | 4 comments | Posted by TheFuzzStone | Created at 2018-03-03 - 09:06:46  
-**\<sgp\_>** The Ledger team posted their latest update a little over a week ago: https://www.reddit.com/r/ByteRub/comments/7zez0g/ledger_hardware_wallet_monero_integration_some/   
-**\<monerobux>** [REDDIT] Ledger Hardware Wallet - ByteRub integration : some news #7 (self.ByteRub) | 368 points (96.0%) | 56 comments | Posted by cslashm | Created at 2018-02-22 - 13:45:50  
-**\<sgp\_>** There is an important Core Team announcement. binaryFate will replace tacotime as a Core Team member: https://getmonero.org/2018/03/01/core-team-announcement.html   
-**\<sgp\_>** Here is a discussion regarding the bulletproof audit request: https://forum.getmonero.org/7/open-tasks/89993/bulletproofs-audit   
+**\<byterubbux>** [REDDIT] XMR.RU-report (February) (self.ByteRub) | 8 points (91.0%) | 4 comments | Posted by TheFuzzStone | Created at 2018-03-03 - 09:06:46  
+**\<sgp\_>** The Ledger team posted their latest update a little over a week ago: https://www.reddit.com/r/ByteRub/comments/7zez0g/ledger_hardware_wallet_byterub_integration_some/   
+**\<byterubbux>** [REDDIT] Ledger Hardware Wallet - ByteRub integration : some news #7 (self.ByteRub) | 368 points (96.0%) | 56 comments | Posted by cslashm | Created at 2018-02-22 - 13:45:50  
+**\<sgp\_>** There is an important Core Team announcement. binaryFate will replace tacotime as a Core Team member: https://getbyterub.org/2018/03/01/core-team-announcement.html   
+**\<sgp\_>** Here is a discussion regarding the bulletproof audit request: https://forum.getbyterub.org/7/open-tasks/89993/bulletproofs-audit   
 **\<sgp\_>** The date of the hardfork is still not set. There will developer meetings every Sunday until the hardfork, including tomorrow.   
 **\<sgp\_>** Does anyone else have any updates I missed?  
 **\<sgp\_>** (other than FFS ones of course)  
 **\<rehrar>** you didn't think I'd miss this meeting  
 **\<serhack>** sgp_ : https://www.reddit.com/r/ByteRub/comments/7zet99/serhack_updates/  
-**\<monerobux>** [REDDIT] SerHack updates (self.ByteRub) | 85 points (99.0%) | 38 comments | Posted by serhack | Created at 2018-02-22 - 13:19:02  
+**\<byterubbux>** [REDDIT] SerHack updates (self.ByteRub) | 85 points (99.0%) | 38 comments | Posted by serhack | Created at 2018-02-22 - 13:19:02  
 **\<sgp\_>** How's Mastering ByteRub coming along serhack?  
 **\<serhack>** The cover : https://i.imgur.com/woJmssA.jpg I think I must mark the help from the community members  
 **\<serhack>** Anyway I'm going very good at writing, some users (cryptochangements, 4matter, sarang .. ) helped me with solid feedbacks  
-**\<serhack>** At the moment, there is a little draft: https://masteringmonero.com/book/monero.pdf :) It's not finished of course  
+**\<serhack>** At the moment, there is a little draft: https://masteringbyterub.com/book/byterub.pdf :) It's not finished of course  
 **\<sgp\_>** That's great to hear! Are you still pushing the latest updates to Taiga?  
 **\<serhack>** I am going to abandon the Taiga Wiki because I think it's better to have a github repo , anyway some contents will remain to Taiga :)  
 **\<serhack>** I am doing all best in order to have both Taiga and Github  
@@ -67,7 +67,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** @msvb-loc  
 **\<msvb-loc>** The latest prototype 'Prime Platine' design is a few hours from being finished.  
 **\<msvb-loc>** A board rendition is complete:  
-**\<msvb-loc>** taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
+**\<msvb-loc>** taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
 **\<msvb-loc>** It will go to press in a couple days and I hope to have PCBs in a week, then assemble them.  
 **\<msvb-loc>** Last week I visited the Embedded World (largest embedded hardware conference in the world) and spoke to manufacturers and IC chip vendors all day.  
 **\<msvb-loc>** The most important thing (since we otherwise have all bases covered) is to get a stable and high quality display (OLED) supplier, so that's what I was working on.  
@@ -85,7 +85,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-loc>** I'm really shorting the story of course. I met with Samsung as well, because they now have low powered IoT modules with TPN and crypto inside, quite cheap. But that would divert our resources too much, because it's a radically different architecture.  
 **\<rehrar>** There's nothing to say that the first Kastelo schematic released needs to be the last ;)  
 **\<msvb-loc>** Ha, yes the schematic is here:  
-**\<msvb-loc>** https://taiga.getmonero.org/media/attachments/1/c/7/0/857dcae1517fe27c1988443ef7da48e2570af956d34ba7957f6b542c2a95/breakneck-sch.png  
+**\<msvb-loc>** https://taiga.getbyterub.org/media/attachments/1/c/7/0/857dcae1517fe27c1988443ef7da48e2570af956d34ba7957f6b542c2a95/breakneck-sch.png  
 **\<msvb-loc>** sgp_: Thanks.  
 **\<sgp\_>** Thanks msvb-loc. Always interesting to see what's going on on the hardware side of things.  
 **\<sgp\_>** b. Localization workgroup Q&A   
@@ -115,7 +115,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** so yeah, Jan, Feb and March will simply become Jan, March, April  
 **\<sgp\_>** cool, makes sense  
 **\<sgp\_>** 4. Bulletproof audit discussion   
-**\<sgp\_>** Let’s spend a little time discussing the bulletproof code audit proposal. As mentioned earlier, the proposal is here: https://forum.getmonero.org/7/open-tasks/89993/bulletproofs-audit   
+**\<sgp\_>** Let’s spend a little time discussing the bulletproof code audit proposal. As mentioned earlier, the proposal is here: https://forum.getbyterub.org/7/open-tasks/89993/bulletproofs-audit   
 **\<sgp\_>** MRL’s overview and suggestions are here: https://github.com/b-g-goodell/research-lab/blob/master/audits/BP/README.pdf   
 **\<serhack>** yea :) rehrar  
 **\<sgp\_>** Does anyone have any feedback that sarang and surae can use as they prepare the FFS request to be moved to Funding Required?   
@@ -164,14 +164,14 @@ xwerter6 left the room (quit: Ping timeout: 260 seconds).
 **\<ArticMine>** So I am in the camp of safely splitting of the XMV by using the same mixing on both chains  
 **\<sgp\_>** The XMV  
 **\<sgp\_>** In regards to ArticMine's comments, I have some news  
-**\<sgp\_>** ByteRubmooo and stoffu have been hard at work on a tool that could be used to mitigate the impact of hardforks. You can see my comment on the issue, where it provides three key features: https://github.com/byterubpay/monero/pull/3322   
+**\<sgp\_>** ByteRubmooo and stoffu have been hard at work on a tool that could be used to mitigate the impact of hardforks. You can see my comment on the issue, where it provides three key features: https://github.com/byterubpay/byterub/pull/3322   
 **\<Randolf>** As an end-user, if it's a hard-fork then I naturally see that as a benefit to me because it means that my holdings increase. The question becomes, do I keep my hard forked holdings, or do I sell them (e.g., for ByteRub or something else)?  
 **\<sgp\_>** Before you get overly excited that someone has created a tool, keep in mind this tool only works if many people use it. If only about 20% of people claiming their ByteRubV use this sort of tool, then about 42% of those who use the tool will still have their transactions revealed immediately after the fork. This is still better than 100% of transactions. Furthermore, using a tool when some number of transactions exist after the fork will have significant benefits.   
 **\<ArticMine>** Yes I am very much aware of their work. It provides some very critical tools  
 **\<ArticMine>** To do what I am suggesting  
 **\<Randolf>** My perspective, as an end-user, is that ByteRub is the de facto base or fallback that I can always depend on.  
 **\<Randolf>** s/My/From my/  
-**\<monerobux>** Randolf meant to say: From my perspective, as an end-user, is that ByteRub is the de facto base or fallback that I can always depend on.  
+**\<byterubbux>** Randolf meant to say: From my perspective, as an end-user, is that ByteRub is the de facto base or fallback that I can always depend on.  
 **\<sgp\_>** The problem is that, with ringsize 5, we need to get over 2/3 of ByteRubV claimers to use a tool like this, at least initially  
 **\<ArticMine>** Ringsize will likely be a topic ant the dev meeting  
 **\<ArticMine>** at  
@@ -230,7 +230,7 @@ xwerter6 left the room (quit: Ping timeout: 260 seconds).
 **\<sgp\_>** The next community meeting will be two weeks from today on 17 March. The Coffee Chat will be next Saturday on 10 March.   
 **\<sgp\_>** 8. Conclusion   
 **\<xmrmatterbridge> \<cryptochangements>** No open ideas?  
-**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.   
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.   
 **\<rehrar>** meeting 'officially' over  
 **\<rehrar>** but 'unofficial' open ideas time starts now  
 **\<sgp\_>** @cryptochangements we ran out of time, but I'm happy to still discuss them here  

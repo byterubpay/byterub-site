@@ -45,7 +45,7 @@ author: el00ruobuob / oneiric
 **\<oneiric\_>** after that, ntcp2 will be more-or-less finished  
 **\<oneiric\_>** any comments questions?  
 **\<Corklander>** This is more architectural/design: what license do you plan to release?  
-**\<oneiric\_>** current license is BSD-3 (to be compatible w/ kovri+monero)  
+**\<oneiric\_>** current license is BSD-3 (to be compatible w/ kovri+byterub)  
 **\<oneiric\_>** it may change if necessary, currently don't see a need to  
 **\<Corklander>** Good. :)  
 **\<oneiric\_>** ready to move on?  

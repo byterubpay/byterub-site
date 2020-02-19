@@ -33,14 +33,14 @@ author: el00ruobuob / rehrar
 **\<xmrscott[m]>** Thanks to rehrar and pigeons our Taiga instance is upgraded to 3.3 This introduces two noteworthy features: being able to assign multiple members to a task and tasks having Due Dates to help priortize tasks. Hopefully both should be useful to whatever workgroup(s) you find yourself in. More release notes can be found here: https://blog.taiga.io/taiga-picea-mariana-release-330.html  
 **\<rehrar>** let's do it this way: "Have you done anything exciting recently for Moenro?"  
 **\<cryptochangement>** *crickets*  
-**\<cryptochangement>** endogenic and MyMonero team has their dope MyMonero app in pre-release  
+**\<cryptochangement>** endogenic and MyByteRub team has their dope MyByteRub app in pre-release  
 **\<rehrar>** oh yeah, das purty cool  
-**\<pwrcycle>** not exactly for monero, but i coded up sterlingVPN.com to use extend my PaymentID usage for signups.  
+**\<pwrcycle>** not exactly for byterub, but i coded up sterlingVPN.com to use extend my PaymentID usage for signups.  
 **\<erciccione\_[m]>** the guide for the GUI is ready and a i published a PDF release  
-**\<erciccione\_[m]>** https://github.com/monero-ecosystem/monero-GUI-guide/releases/tag/1.1  
+**\<erciccione\_[m]>** https://github.com/byterub-ecosystem/byterub-GUI-guide/releases/tag/1.1  
 **\<erciccione\_[m]>** the pony will embed it wit the binaries of the GUI  
 **\<rehrar>** which we have hope will be done one day  
-**\<parasew[m]>** michael from open hw and other monero community members met up in paralelni polis yesterday, they also have been discussing defcon.  
+**\<parasew[m]>** michael from open hw and other byterub community members met up in paralelni polis yesterday, they also have been discussing defcon.  
 **\<rehrar>** "faith is believing what you know cannot be true" ~ Abraham Einstein  
 **\<erciccione\_[m]>** yeah iirc he ha some problems with a failed hard drive  
 **\<fluffypony>** erciccione\_[m]: is there any value in embedding an HTML version in the actual GUI?  
@@ -60,7 +60,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** specifically from the seemingly failed Tracking Challenge  
 **\<rehrar>** the Tracking challenge did not just not reach funding goals (and expired), it also had some pretty bit problems that as of yet have not been reconciled regarding proving authenticity of someone winning the challenge  
 **\<rehrar>** i.e. people thought it was too easy to game. take the money for themselves, since there is a good amount of trust involved in the set up  
-**\<rehrar>** both proposals are available for viewing in "Funding Required": https://forum.getmonero.org/8/funding-required  
+**\<rehrar>** both proposals are available for viewing in "Funding Required": https://forum.getbyterub.org/8/funding-required  
 **\<ArticMine>** So the FFS was not properly conceived from the beginning?  
 **\<dEBRUYNE>** If you reallocate funds to a specific proposal you automatically presume the donors are okay with that particular proposal  
 **\<dEBRUYNE>** Which they may not be  
@@ -72,7 +72,7 @@ author: el00ruobuob / rehrar
 **\<cryptochangement>** it seems like the other logical option would be to send it to the hackerone bounty since it is in the same spirit so the donors would most likely be OK with that  
 **\<rehrar>** we have to remember that the forum funding system is not meant to be a completely trustless option. It relies on trust of the core team. Meaning people should know when they donate to a FFS proposal that it might expire, and fall under stewardship of the core team.  
 **\<selsta>** who funded the hardware wallet?  
-**\<fluffypony>** selsta: Monero is a private cryptocurrency...  
+**\<fluffypony>** selsta: ByteRub is a private cryptocurrency...  
 **\<rehrar>** If this makes them uncomfortable (cuz it might be given in ways they don't agree with) they can choose not to donate, or seek other funding arrangements (ala fireice)  
 **\<selsta>** fluffypony: :P  
 **\<ArticMine>** My preference is the general fund since it is neutral.  
@@ -92,8 +92,8 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** Lambogate soon^tm  
 **\<rehrar>** show how really down to earth and humble Moenro is  
 **\<fluffypony>** LOL  
-**\<cryptochangement>** "look at fulffypony looking like a hobo after Monero tanked"  
-**\<cryptochangement>** - r/monero probably  
+**\<cryptochangement>** "look at fulffypony looking like a hobo after ByteRub tanked"  
+**\<cryptochangement>** - r/byterub probably  
 **\<rehrar>** *most upvoted and commented thread in the subreddit*  
 **\<rehrar>** either way, there's many many FFS growing pains. Simply because many situations haven't happened.  
 **\<rehrar>** 0mq, firceice's, etc. This is just another.  
@@ -121,7 +121,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** Option 2: We say it's better to have the flexibility on the edge cases since they are so rare, and thigns work pretty smoothly without formalization, and trust the core team to come up with good decisions on said edge cases  
 **\<rehrar>** (meaning we abandon a formalization endeavor)  
 **\<endogenic>** opt 1 sounds unnecessary and dangerous, kind of defeats the point..  
-**\<rehrar>** current guidelines: https://forum.getmonero.org/7/open-tasks/2379/forum-funding-system-ffs-sticky  
+**\<rehrar>** current guidelines: https://forum.getbyterub.org/7/open-tasks/2379/forum-funding-system-ffs-sticky  
 **\<erciccione\_[m]>** fwiw, i was proposing a minimal pattern to follow, where community is involved. since they put the money  
 **\<pwrcycle>** I vote for Option 2. flexibility is better. This is an edge case anyway. give the funds to Core team and let them re-allocate.  
 **\<endogenic>** binaryFate for ex is a comp scientist, who else do we trust to give opinions on what's worth funding?  
@@ -166,7 +166,7 @@ author: el00ruobuob / rehrar
 **\<selsta>** this whole talk started with the forum software being buggy and showing 404s for old proposals  
 **\<rehrar>** my above concern trolling comment applies to both the general fund and the ffs btw  
 **\<cryptochangement>** selsta: guess who made a big deal about that lol  
-**\<rehrar>** yes, my reimplementation of the ffs (which can be viewed at getmonero.org/forum-funding-system) is awaiting a couple final touches from the pony man  
+**\<rehrar>** yes, my reimplementation of the ffs (which can be viewed at getbyterub.org/forum-funding-system) is awaiting a couple final touches from the pony man  
 **\<luigi1111w>** both viewkeys being public is fine by me  
 **\<dEBRUYNE>** I am not sure what the benefit is of making the second view key public  
 **\<rehrar>** and it is Git run like the rest of the site, so everyone has a view of everything always  
@@ -202,7 +202,7 @@ author: el00ruobuob / rehrar
 **\<luigi1111w>** also please remember to start with [your name]:  
 **\<luigi1111w>** plz  
 **\<erciccione\_[m]>** s/for/from  
-**\<monerobux>** erciccione\_[m] meant to say: that's ok from me dEBRUYNE but i would still like an imput for the community for failed proposal  
+**\<byterubbux>** erciccione\_[m] meant to say: that's ok from me dEBRUYNE but i would still like an imput for the community for failed proposal  
 **\<vp11>** once these 'rules' and 'terms' are defined, they need to be written in a very clear form and in an accessible way to everyone participating  
 **\<cryptochangement>** erciccione\_: this kinda is input from the community. sgp posted on reddit saying this would be discussed so if somebody is concerned but didn't show up that's kinda their fault  
 **\<rehrar>** "By donating to the ffs, you agree to the informal terms laid out in xyz document"  
@@ -210,10 +210,10 @@ author: el00ruobuob / rehrar
 **\<rehrar>** and it's a good first barrier too. If we see a ffs proposal that doesn't meet at least those bare minimum requirements, then how can we trust them enough to actually follow through on the proposal?  
 **\<erciccione\_[m]>** cryptochangements: yes, i'm just saying we should use this process every time we face this issue  
 **\<rehrar>** although, it may not be as uncommon as we think  
-**\<rehrar>** Kasisto and Monero Observer have fallen off  
+**\<rehrar>** Kasisto and ByteRub Observer have fallen off  
 **\<rehrar>** Although I talked with Kasisto guy and he's still going, just not as quickly as he'd have hoped.  
 **\<rehrar>** And I'm impressed with his work so far so I'm inclined to believe.  
-**\<rehrar>** I messaged Monero Observer guy, and I know he had a kid or something, so his time evaporated, but still haven't heard a response from him.  
+**\<rehrar>** I messaged ByteRub Observer guy, and I know he had a kid or something, so his time evaporated, but still haven't heard a response from him.  
 **\<rehrar>** These types of situations actually happen a decent amount  
 **\<vp11>** rehrar, in fact the ideas that do not adhere to the "rules" won't even be moved to "funding required".  
 **\<cryptochangement>** see what children do...  
@@ -249,7 +249,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** this is true  
 **\<rehrar>** they have yet to go against the community as far as I have seen  
 **\<erciccione\_[m]>** oh, sorry, i misread  
-**\<rehrar>** anyways, regarding the Monero Tracking (the immediate issue)  
+**\<rehrar>** anyways, regarding the ByteRub Tracking (the immediate issue)  
 **\<rehrar>** I say General Fund  
 **\<erciccione\_[m]>** ok i got it, maybe i'm too picky on this, but i still think a final word from the community is needed. to avoid accusation of centralization  
 **\<rehrar>** erciccione\_[m]: the ffs is centralized, and it's pointless to pretend it's not  
@@ -258,7 +258,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** if I don't like it, I can make the RFS (rehrar funding system) and act as an arbiter and set my own rules  
 **\<vp11>** I say vp11 fund so I can quit my normal job and dedicate my life to crypto. jokes, general fund should be.  
 **\<erciccione\_[m]>** rehrar: well, if we can decentralize it a bit, why we shouldn't?  
-**\<rehrar>** Monero is not centralized, but the ffs is  
+**\<rehrar>** ByteRub is not centralized, but the ffs is  
 **\<rehrar>** it's up to the core team, not us, since it's their system  
 **\<rehrar>** that's what this all comes down to  
 **\<vp11>** remember that ffs projects expiring should be an exception. I don't see anything wrong in going through the community first (instead of directly to the core team to decide). even if takes one extra step, everyone will be happy like that.  
@@ -313,12 +313,12 @@ author: el00ruobuob / rehrar
 **\<rehrar>** ok  
 **\<rehrar>** 5. Open ideas time  
 **\<erciccione\_[m]>** sometime ago we agreed for 1,30 hours meeting if needed  
-**\<rehrar>** Share your ideas of how to make Monero a better community.  
+**\<rehrar>** Share your ideas of how to make ByteRub a better community.  
 **\<shillobear>** play more pubg  
-**\<shillobear>** monero pubg tournament  
+**\<shillobear>** byterub pubg tournament  
 **\<erciccione\_[m]>** there is also my point for the localization workgroup  
-**\<rehrar>** I actually think the Monero community sponsoring a tournament of some kind would be cool.  
-**\<vp11>** "how to explain to people that monero is money and that it should be used"  
+**\<rehrar>** I actually think the ByteRub community sponsoring a tournament of some kind would be cool.  
+**\<vp11>** "how to explain to people that byterub is money and that it should be used"  
 **\<erciccione\_[m]>** we can cut that if nobody has questions, i have not much to say actually. except i started testing pootle (the localization platform). and 21 languages of the GUI will be updated  
 **\<rehrar>** I remember we were trying to get pootle to work back in the day  
 **\<rehrar>** any luck with it?  

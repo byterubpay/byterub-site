@@ -11,9 +11,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** Hello everyone, welcome back to the typical meeting schedule   
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Workgroup Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/382  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<JOhNKmus>** Hello  
 **\<rehrar>** hi  
@@ -21,11 +21,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** hello everyone, welcome  
 **\<lh1008[m]>** Hello   
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** Monero just concluded its Defcon village. More details on that later.  
+**\<sgp\_>** ByteRub just concluded its Defcon village. More details on that later.  
 **\<sgp\_>** I need a Blockfolio banner. What should it be? I need an announcement and a link.  
-**\<sgp\_>** At the moment, it points to monerovillage.org. not great  
+**\<sgp\_>** At the moment, it points to byterubvillage.org. not great  
 **\<xmrmatterbridge> \<el00ruobuob>** Hi  
-**\<JOhNKmus>** Point to getmonero.org?  
+**\<JOhNKmus>** Point to getbyterub.org?  
 **\<sgp\_>** Sure, but with what text?  
 **\<JOhNKmus>** Maybe something about the upgrade to let people know too?  
 **\<sgp\_>** Check out the official website?  
@@ -38,11 +38,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
 **\<sgp\_>** welcome midipoet  
 **\<midipoet>** thanks for the heads up...  
-**\<lh1008[m]>** Monero News telegram channel was born this week   
+**\<lh1008[m]>** ByteRub News telegram channel was born this week   
 **\<sgp\_>** very nice lh1008[m]  
 **\<rehrar>** which one is that?  
-**\<lh1008[m]>** Oh, and Monero Telegram channel too.  
-**\<lh1008[m]>** \<rehrar "which one is that?"> @MoneroNews247  
+**\<lh1008[m]>** Oh, and ByteRub Telegram channel too.  
+**\<lh1008[m]>** \<rehrar "which one is that?"> @ByteRubNews247  
 **\<sgp\_>** any other questions/updates?  
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** There have been no updates on the CCS proposals in ideas since last meeting. Are there any other comments?  
@@ -51,17 +51,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I'll take that as none  
 **\<sgp\_>** please comment on gitlab and reopen the discussions if you are interested in making these proposals come to fruition  
 **\<sgp\_>** Ideas in funding required:  
-**\<sgp\_>** v1docq47: video creation / translations into russian (august - january) (1.33/37.8 XMR) https://ccs.getmonero.org/proposals/v1docq47-video-creation-translations-into-russian-(august-january).html  
-**\<sgp\_>** Continued funding for Surae for another quarter, Aug Sep Nov 2019 (252.42/357 XMR) https://ccs.getmonero.org/proposals/surae-mrl-research-q3-2019.html  
-**\<sgp\_>** World Crypto Con for rehrar and Sarang (28.73/30 XMR) https://ccs.getmonero.org/proposals/rehrar-sarang-2019-wcc.html  
+**\<sgp\_>** v1docq47: video creation / translations into russian (august - january) (1.33/37.8 XMR) https://ccs.getbyterub.org/proposals/v1docq47-video-creation-translations-into-russian-(august-january).html  
+**\<sgp\_>** Continued funding for Surae for another quarter, Aug Sep Nov 2019 (252.42/357 XMR) https://ccs.getbyterub.org/proposals/surae-mrl-research-q3-2019.html  
+**\<sgp\_>** World Crypto Con for rehrar and Sarang (28.73/30 XMR) https://ccs.getbyterub.org/proposals/rehrar-sarang-2019-wcc.html  
 **\<sgp\_>** Does anyone else have a CCS update, or comments about any of these CCS proposals?  
 **\<rehrar>** there is one that is not showing on the website  
 **\<rehrar>** due to being incorrectly formatted  
-**\<rehrar>** the one about Monero GIGS  
+**\<rehrar>** the one about ByteRub GIGS  
 **\<rehrar>** \*GIFS  
 **\<sgp\_>** link?  
 **\<rehrar>** grabbing, sec  
-**\<rehrar>** https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/88  
+**\<rehrar>** https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/88  
 **\<sgp\_>** any comments on this one? looks a little expensive to me, but they have a history of making them and interest  
 **\<sgp\_>** deadline is 2019-09-01  
 **\<rehrar>** I don't really think it's necessary, but that's just me  
@@ -86,11 +86,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<\_hahsun\_>** yes. I am awaiting a response from fluffy. will update as soon as I get it  
 **\<xmrmatterbridge> \<el00ruobuob>** Great.  
 **\<xmrmatterbridge> \<el00ruobuob>** I still approve it, as a few weeks ago.  
-**\<\_hahsun\_>** I got a great response from the communit,.thats why I made a plan B if custody is not taken care by the monero team  
+**\<\_hahsun\_>** I got a great response from the communit,.thats why I made a plan B if custody is not taken care by the byterub team  
 **\<\_hahsun\_>** I see an increase of users by average of 25 users per day. amazing feedback from people with feature requests. I am happy.  
 **\<sgp\_>** I'm glad this is proceeding even as you wait for a response  
 **\<sgp\_>** 4. Workgroup report  
-**\<sgp\_>** moneromooo is still on vacation, but development continues  
+**\<sgp\_>** byterubmooo is still on vacation, but development continues  
 **\<lh1008[m]>** \<\_hahsun\_ "I got a great response from the "> Decentralize the responsibility. Just saying.  
 **\<sgp\_>** vtnerd make some i2p and lightweight server upgrades  
 **\<lh1008[m]>** \<\_hahsun\_ "I see an increase of users by av"> Awesome   
@@ -115,27 +115,27 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** d. Defcon workgroup  
 **\<dsc\_>** also i2p-zero and I traveled to meet certain GUI contributors  
 **\<dsc\_>** there is more happening that you dont see ;p  
-**\<sgp\_>** Monero^TM  
+**\<sgp\_>** ByteRub^TM  
 **\<sgp\_>** Defcon is over! What an event! Livestreams had some issues but are up:  
 **\<sgp\_>** Friday: https://www.youtube.com/watch?v=wNnjO1XSEdg  
-**\<monerobux>** [ Monero Defcon27 Village - Friday Livestream - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ ByteRub Defcon27 Village - Friday Livestream - YouTube ] - www.youtube.com  
 **\<sgp\_>** Saturday: https://www.youtube.com/watch?v=J\_9ssXDErqY  
-**\<monerobux>** [ Monero Defcon27 Village - Saturday Livestream - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ ByteRub Defcon27 Village - Saturday Livestream - YouTube ] - www.youtube.com  
 **\<sgp\_>** Sunday: https://www.youtube.com/watch?v=un7-pwkZRDc  
-**\<monerobux>** [ Monero Defcon27 Village - Sunday Livestream - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ ByteRub Defcon27 Village - Sunday Livestream - YouTube ] - www.youtube.com  
 **\<sgp\_>** The hotel AV staff recorded all the talks, but they will probably take months to be uploaded. I’ll keep trying to grab copies in the meantime.  
-**\<sgp\_>** Read rehrar’s report: https://www.reddit.com/r/Monero/comments/cqegma/monero\_village\_defcon\_2019\_report/  
-**\<monerobux>** [REDDIT] Monero Village - Defcon 2019 report (self.Monero) | 78 points (96.0%) | 19 comments | Posted by Rehrar | Created at 2019-08-14 - 19:20:38  
+**\<sgp\_>** Read rehrar’s report: https://www.reddit.com/r/ByteRub/comments/cqegma/byterub\_village\_defcon\_2019\_report/  
+**\<byterubbux>** [REDDIT] ByteRub Village - Defcon 2019 report (self.ByteRub) | 78 points (96.0%) | 19 comments | Posted by Rehrar | Created at 2019-08-14 - 19:20:38  
 **\<sgp\_>** I will be sending photos that I took to the relevant people so that they can share as they choose. Here are what I’m calling “atmosphere photos” of the room and non-people. PM me for original versions of the ones you like: https://imgur.com/a/fu9vmDQ  
-**\<sgp\_>** Monero Talk uploaded 10 videos from the event: https://www.youtube.com/channel/UC3Hx81QYLoEQkm3vyl4N4eQ/videos  
-**\<monerobux>** [ Monero Talk - YouTube ] - www.youtube.com  
-**\<sgp\_>** There are many areas for improvement, but I think it was overall an improvement compared to last year. We still need more people to sit at the front tables and answer the "what is Monero" question 10,000 times  
+**\<sgp\_>** ByteRub Talk uploaded 10 videos from the event: https://www.youtube.com/channel/UC3Hx81QYLoEQkm3vyl4N4eQ/videos  
+**\<byterubbux>** [ ByteRub Talk - YouTube ] - www.youtube.com  
+**\<sgp\_>** There are many areas for improvement, but I think it was overall an improvement compared to last year. We still need more people to sit at the front tables and answer the "what is ByteRub" question 10,000 times  
 **\<landude>** rehrar's report was great!  
-**\<xmrmatterbridge> \<el00ruobuob>** Where could we find the moneropoly? I need one.  
+**\<xmrmatterbridge> \<el00ruobuob>** Where could we find the byterubpoly? I need one.  
 **\<sgp\_>** el00ruobuob: these were limited first-edition releases. None left. However, CypherMarket will have the second version at some point  
 **\<xmrmatterbridge> \<el00ruobuob>** \\o/  
 **\<xmrscott[m]>** Which will be arguably better as they will have custom house/hotel pieces  
-**\<sgp\_>** btw rehrar alleges the typical Moneropoly game takes 30 minutes..... more like 3+ hours  
+**\<sgp\_>** btw rehrar alleges the typical ByteRubpoly game takes 30 minutes..... more like 3+ hours  
 **\<rehrar>** 30-40 if played quickly and by correct rules   
 **\<sgp\_>** no way   
 **\<sgp\_>** anyway  
@@ -148,16 +148,16 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I love the way that ad gets the point across  
 **\<dsc\_>** It's a very good ad indeed.  
 **\<sgp\_>** https://www.youtube.com/watch?v=A\_6uV9A12ok  
-**\<monerobux>** [ Privacy on iPhone — Private Side - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ Privacy on iPhone — Private Side - YouTube ] - www.youtube.com  
 **\<lh1008[m]>** \<landude "rehrar's report was great!"> Yes   
-**\<dsc\_>** Monero has barely no marketing - I don't mind that much usually.. but I'm the position to use proffesional equipment to create something.  
+**\<dsc\_>** ByteRub has barely no marketing - I don't mind that much usually.. but I'm the position to use proffesional equipment to create something.  
 **\<dsc\_>** \<== also filmmaker  
 **\<sgp\_>** person of many talents  
 **\<dsc\_>** Adverts are tricky though. Just wondering what the community thinks.  
 **\<xmrscott[m]>** Nice! I'd be down to throw in some money to the CCS or whatever  
 **\<lh1008[m]>** \<dsc\_ "I'd like to discuss the possibil"> Nice idea  
-**\<sgp\_>** I haven't thought of a video series, but I will tell of one ad campaign we are slowly working on for Mastering Monero  
-**\<sgp\_>** We are going to be advertising "Using Bitcoin isn't safe", "using x isn't safe" with links to pages outlining why the privacy protections are terrible, then recommending Monero  
+**\<sgp\_>** I haven't thought of a video series, but I will tell of one ad campaign we are slowly working on for Mastering ByteRub  
+**\<sgp\_>** We are going to be advertising "Using Bitcoin isn't safe", "using x isn't safe" with links to pages outlining why the privacy protections are terrible, then recommending ByteRub  
 **\<dsc\_>** If anyone has an idea for a 1 minute commercial feel free to send it my way. I shoot on super 16mm (Aaton XTR).  
 **\<sgp\_>** dsc\_: do you have anything in mind at the moment?  
 **\<dsc\_>** sgp\_: absolutely no idea   
@@ -165,17 +165,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** It could be something that represents our community and values  
 **\<dsc\_>** Which then could be used on the website or .. I don't know.  
 **\<sgp\_>** "open source is better"  
-**\<sgp\_>** "Monero: we've got your back"  
-**\<sgp\_>** "Monero: no surprises"  
+**\<sgp\_>** "ByteRub: we've got your back"  
+**\<sgp\_>** "ByteRub: no surprises"  
 **\<dsc\_>** Yeah. Ill make sure it doesn't get cheesy  I can provide some stills from a thing I shot recently.  
 **\<dsc\_>** Anyway, just wanted to present the idea.  
 **\<xmrscott[m]>** Out of curiosity on the note of advertising, are there any billboard designs people have already?  
 **\<xmrscott[m]>** A ~$2K billboard in PHX (roughly 5 mil people) nets roughly 3mil impressions over a month, allegedly  
-**\<dsc\_>** Regardless of this video idea I think Monero could currently use some proffesional marketing. Our software is currently stable enough for the masses, good ecosystem all-around (better than during 2017 bubble).  
-**\<sgp\_>** Mastering Monero info from Amazon: https://usercontent.irccloud-cdn.com/file/tq2doUtJ/amazon%20advertising  
+**\<dsc\_>** Regardless of this video idea I think ByteRub could currently use some proffesional marketing. Our software is currently stable enough for the masses, good ecosystem all-around (better than during 2017 bubble).  
+**\<sgp\_>** Mastering ByteRub info from Amazon: https://usercontent.irccloud-cdn.com/file/tq2doUtJ/amazon%20advertising  
 **\<dsc\_>** But I can also understand if we don't do any marketing since we're a grassroots community. So it's fine eitherway   
 **\<JOhNKmus>** If we do marketing maybe it would be a good idea to target areas with privacy conscious people/culture. Not sure how to determine that though...  
-**\<sgp\_>** dsc\_: if you advertise Mastering Monero, we may be able to pay for a budget  
+**\<sgp\_>** dsc\_: if you advertise Mastering ByteRub, we may be able to pay for a budget  
 **\<dsc\_>** Interesting.  
 **\<xmrscott[m]>** I think the video would be worthwhile. While organic word of mouth growth is great, if we want to accelerate adoption the word needs to get out to more people  
 **\<sgp\_>** Yes, I think marketing is fine  
@@ -191,4 +191,4 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 7 September at 17:00 UTC. The next Coffee Chat will be on 24 August at 16 UTC.  
 **\<sgp\_>** 7. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview (by Aerbax)
 
-An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-bi-weekly-dev-meeting-note-highlights-2016-06-19)
+An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byterub-bi-weekly-dev-meeting-note-highlights-2016-06-19)
 
 ### Logs
 
@@ -20,7 +20,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<meeting-bot>** [anonimal] EinMByte: ^ ByteRub meeting now, Kovri in about an hour or so (just FYI)  
 **\<fluffypony>** after the last meeting, which was mostly focused on C4, we bounced some of that around  
 **\<fluffypony>** I think the spirit of C4 is good, and will help keep ByteRub inclusionary towards new contributors  
-**\<fluffypony>** but moneromooo in particular disagreed with some of the specifics  
+**\<fluffypony>** but byterubmooo in particular disagreed with some of the specifics  
 **\<fluffypony>** or where C4 is a little vague  
 **\<fluffypony>** so what we're going to do is fork C4 from Unprotocols / yrashk into the ByteRub repo  
 **\<meeting-bot>** [psi] c4?  
@@ -37,8 +37,8 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** ok so on to more fiddly code bits, less soft skills  
 **\<fluffypony>** I was hoping tewinget could update us on the 0MQ work, which is about to go up on the forum for funding  
 **\<tewinget>** ok  
-**\<moneromooo>** My point was not security, it was more about the crazy wish to keep obvious crap in.  
-**\<tewinget>** https://www.github.com/tewinget/bitmonero/tree/zmq-dev  \<-- there's the branch, gimme one min to take care of something then I can brief  
+**\<byterubmooo>** My point was not security, it was more about the crazy wish to keep obvious crap in.  
+**\<tewinget>** https://www.github.com/tewinget/bitbyterub/tree/zmq-dev  \<-- there's the branch, gimme one min to take care of something then I can brief  
 **\<fluffypony>** ok  
 **\* fluffypony** plays hold music  
 **\* tewinget** is typing  
@@ -48,7 +48,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<tewinget>** as far as process  
 **\<tewinget>** the idea is to try to create RPC as we want it to be, rather than trying to modify the existing structure, and then plug in backwards-compatibility later  
 **\<fluffypony>** tewinget: so using the structure that is / was on the Wikia ?  
-**\<meeting-bot>** [psi] to rehash, you are redoing monero's wire protocol to use zmq correct?  
+**\<meeting-bot>** [psi] to rehash, you are redoing byterub's wire protocol to use zmq correct?  
 **\<fluffypony>** psi: no, not wire protocol, that will use ZMTP (a part of the 0MQ project) and come later  
 **\<tewinget>** psi: more or less, but a bit more than just that  
 **\<tewinget>** oh  
@@ -92,8 +92,8 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** one thing you may want to do is also look at Bitcoin's 0MQ effort  
 **\<fluffypony>** I don't think wumpus is around at the moment  
 **\<fluffypony>** but they've been pecking away at 0MQ for some time  
-**\<moneromooo>** Isn't the point of 0MQ to abstract comms to allow things like that ?  
-**\<fluffypony>** moneromooo: pub-sub is a different beast to control / request  
+**\<byterubmooo>** Isn't the point of 0MQ to abstract comms to allow things like that ?  
+**\<fluffypony>** byterubmooo: pub-sub is a different beast to control / request  
 **\<tewinget>** 0MQ uses different socket types like Request-Reply, or Pub/Sub  
 **\<fluffypony>** normally for pub-sub you're sending a request once and then receiving "push" notifications forever  
 **\<tewinget>** and one socket can only be one type, and I don't think you can bind two sockets to the same port, as how would it route that?  
@@ -105,38 +105,38 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<tewinget>** \<fluffypony> alright, tewinget anything else or can we move on to the next thing ? <-- happy to give a few minutes for any comments from anyone, but other than that I think that's about it  
 **\<fluffypony>** cool if anything pops up over the rest of the meeting then we can see  
 **\<tewinget>** oh, and feel free to give feedback on the branch, I'll repaste the link in a sec.  Feedback here or via github is fine  
-**\<tewinget>** https://www.github.com/tewinget/bitmonero/tree/zmq-dev  
-**\<fluffypony>** ok next, moneromooo do you feel like giving an update on RingCT? looks like it's making nice headway :)  
-**\<moneromooo>** It kinda works. I'm fixing bugs now.  
-**\<fluffypony>** moneromooo: is it going to be a hard fork where all new transactions are v3 / ringCT, but they can spend pre-ringCT outs?  
-**\<moneromooo>** They  
+**\<tewinget>** https://www.github.com/tewinget/bitbyterub/tree/zmq-dev  
+**\<fluffypony>** ok next, byterubmooo do you feel like giving an update on RingCT? looks like it's making nice headway :)  
+**\<byterubmooo>** It kinda works. I'm fixing bugs now.  
+**\<fluffypony>** byterubmooo: is it going to be a hard fork where all new transactions are v3 / ringCT, but they can spend pre-ringCT outs?  
+**\<byterubmooo>** They  
 **\<fluffypony>** they = transactions  
 **\<othe>** coinbase will use non-ringct tho?  
 **\<fluffypony>** othe: yes afaik  
-**\<moneromooo>** They'll be v2 and can spend either pre rct outputs or rct ones.  
-**\<fluffypony>** moneromooo: ooooh, so a soft fork? :-P  
-**\<moneromooo>** Hmm. I haven't thought about the distinction tbh.  
-**\<moneromooo>** Theoretically, coinbase might not even need to be in the clear I think. Though it'd require some shen magic.  
+**\<byterubmooo>** They'll be v2 and can spend either pre rct outputs or rct ones.  
+**\<fluffypony>** byterubmooo: ooooh, so a soft fork? :-P  
+**\<byterubmooo>** Hmm. I haven't thought about the distinction tbh.  
+**\<byterubmooo>** Theoretically, coinbase might not even need to be in the clear I think. Though it'd require some shen magic.  
 **\<fluffypony>** I think it'd be a hard fork, because old nodes won't understand rct outs  
 **\<fluffypony>** so we'd have to bump the block version anyway  
 **\<ArticMine>** But will non RingCT other than coninbase transactions be valid?  
-**\<moneromooo>** Oh they'd reject new txes, yes.  
+**\<byterubmooo>** Oh they'd reject new txes, yes.  
 **\<yrashk>** fluffypony: I'm thinking of an unprotocol for describing diverged unprotocols  
 **\<yrashk>** So meta  
-**\<fluffypony>** moneromooo: ok then that's hard fork  
+**\<fluffypony>** byterubmooo: ok then that's hard fork  
 **\<fluffypony>** lol yrashk  
 **\<yrashk>** But I'm actually serious  
 **\<yrashk>** :)  
 **\<fluffypony>** yrashk: what's that Unprotocol for creating protocols with consensus?  
 **\<tewinget>** ArticMine: I think post-fork that all non-coinbase tx will be ringCT, but I'm not sure.  
-**\<moneromooo>** ArticMine: if you mean "will non RingCT outputs other than coninbase transactions be valid?", then I'd choose no, but it could be made either way.  
+**\<byterubmooo>** ArticMine: if you mean "will non RingCT outputs other than coninbase transactions be valid?", then I'd choose no, but it could be made either way.  
 **\<yrashk>** fluffypony: COSS? There's nothing about consensus there  
 **\<fluffypony>** yrashk: yes that - but it's about creating new protocols as a group, right ?  
 **\<yrashk>** Kind of but very very lightweight  
 **\<fluffypony>** kk  
 **\<yrashk>** Which is a good thing generally  
 **\<CFP>** Greetings fellas  
-**\<fluffypony>** moneromooo: I tend to agree with you - coinbase txs is fine, but after that it should be rct only  
+**\<fluffypony>** byterubmooo: I tend to agree with you - coinbase txs is fine, but after that it should be rct only  
 **\<CFP>** Crazyflashpie stoping by to say hello  
 **\<yrashk>** fluffypony: are you interested to collaborate on the protocol divergence protocol? (PDP)  
 **\<fluffypony>** hi CFP  
@@ -148,16 +148,16 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** kk  
 **\<fluffypony>** ok next I just wanted to bounce through some open PRs  
 **\<fluffypony>** #818 is still open pending luigi1111w / luigi1112 coming up with those spec changes, no rush there  
-**\<ArticMine>** moneromooo I would expect non RingCT outputs other than coinbase to be invalid after a given block  
-**\<fluffypony>** #775 is ready to be merged - moneromooo, just to double check, you're fine with that, right ?  
+**\<ArticMine>** byterubmooo I would expect non RingCT outputs other than coinbase to be invalid after a given block  
+**\<fluffypony>** #775 is ready to be merged - byterubmooo, just to double check, you're fine with that, right ?  
 **\<ArticMine>** With the 6 month upgrade cycle built in  
 **\<fluffypony>** ArticMine: agreed  
 **\<luigi1112>** Yes I'll try to do that this week  
-**\<moneromooo>** Yes. It's a wee bit spammier now in the logs, but other than that it's good to go.  
+**\<byterubmooo>** Yes. It's a wee bit spammier now in the logs, but other than that it's good to go.  
 **\<fluffypony>** ok then #810, the caching thing, I'm still confused as to whether we must merge or not  
-**\<moneromooo>** Not sure. I think enough said no.  
+**\<byterubmooo>** Not sure. I think enough said no.  
 **\<fluffypony>** ok I'll close it, we can reopen later  
-**\<moneromooo>** But then nobody patched the pool code :)  
+**\<byterubmooo>** But then nobody patched the pool code :)  
 **\<fluffypony>** and pools can manually pull that in if they need  
 **\<fluffypony>** then the gcc 6.1 stuff - as I understand it there are more changes than what is covered in those two PRs  
 **\<fluffypony>** so do we close the PRs and just note that "gcc 6.1 not supported yet"  
@@ -165,14 +165,14 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** or do we merge them in preparation for supporting 6.1 ?  
 **\<meeting-bot> [anonimal]** Please nooooooo....  
 **\<fluffypony>** lol anonimal  
-**\<moneromooo>** If they'll be needed anyway...  
+**\<byterubmooo>** If they'll be needed anyway...  
 **\<meeting-bot> [anonimal]** This also re: #846?  
-**\<moneromooo>** One of them is a superset of the other IIRC.  
+**\<byterubmooo>** One of them is a superset of the other IIRC.  
 **\<fluffypony>** anonimal: yeah, 846 and 845  
 **\<meeting-bot> [anonimal]** radfish's work builds, so is the problem more eyes/more time to review?  
 **\<fluffypony>** anonimal: it was more that I was travelling, so I don't really know which is the superset of which, and which to close / merge / bail out of entirely :-P  
 **\<meeting-bot> [anonimal]** Oh, well I can spend some time this week giving input if that helps.  
-**\<moneromooo>** 846 seems to be the superset.  
+**\<byterubmooo>** 846 seems to be the superset.  
 **\<tewinget>** PR X is a superset of PR Y seems like an odd situation to be in...  
 **\<tewinget>** especially if both are open  
 **\<fluffypony>** tewinget: quite  
@@ -187,10 +187,10 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** #855 seems fine to me, I defer to hyc's knowledge of his own product ;)  
 **\<fluffypony>** #863 seems fine too  
 **\<fluffypony>** #862 - luigi1112 can I take your comment as a review?  
-**\<moneromooo>** Oh. Let me change it now...  
-**\<gingeropolous>** tewinget, i may try and put this in a comment on the https://www.github.com/tewinget/bitmonero/tree/zmq-dev , but is this the space wherein the daemon could have multiple rpc ports with different characteristics?  
+**\<byterubmooo>** Oh. Let me change it now...  
+**\<gingeropolous>** tewinget, i may try and put this in a comment on the https://www.github.com/tewinget/bitbyterub/tree/zmq-dev , but is this the space wherein the daemon could have multiple rpc ports with different characteristics?  
 **\<luigi1112>** I think it's fine yeah  
-**\<moneromooo>** pushed  
+**\<byterubmooo>** pushed  
 **\<fluffypony>** k  
 **\<meeting-bot> [anonimal]** Has there been any definitive decisions re: C4 since previous meeting? I know there are differing arguments.  
 **\<fluffypony>** anonimal - yes, my comments at the beginning of the meeting, will let you know when the log is up if you missed them  

@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 #  Verificación de Binarios: Linux, Mac, o Windows Usando las herramientas de la Consola de Comandos (Avanzado)
 
-La verificación de los archivos binarios de Monero debería ser hecha antes de extraer, instalar o usar el software Monero. Esta es la única forma de asegurar que estás utilizando software oficial de Monero. Si recibes un falso binario Monero (e.g. phishing, MITM, entre otros), seguir esta guía te protegerá de ser engañado en usarlo.
+La verificación de los archivos binarios de ByteRub debería ser hecha antes de extraer, instalar o usar el software ByteRub. Esta es la única forma de asegurar que estás utilizando software oficial de ByteRub. Si recibes un falso binario ByteRub (e.g. phishing, MITM, entre otros), seguir esta guía te protegerá de ser engañado en usarlo.
 
-Para proteger la integridad de los binarios el equipo de Monero provee con una lista criptográficamente firmada de todos los hashes [SHA256](https://en.wikipedia.org/wiki/SHA-2). Si tus binarios descargados han sido manipulados producirán un [hash diferente](https://en.wikipedia.org/wiki/File_verification) al que está en el archivo.
+Para proteger la integridad de los binarios el equipo de ByteRub provee con una lista criptográficamente firmada de todos los hashes [SHA256](https://en.wikipedia.org/wiki/SHA-2). Si tus binarios descargados han sido manipulados producirán un [hash diferente](https://en.wikipedia.org/wiki/File_verification) al que está en el archivo.
 
 Esta es una guía avanzada para sistemas operativos Linux, Mac o Windows y hace uso de la consola de comandos. Te llevará por el proceso de instalar software requerido, importar la clave de firma, descargar los archivos necesarios, y finalmente verificar que tu binario es auténtico.
 
@@ -19,7 +19,7 @@ Esta es una guía avanzada para sistemas operativos Linux, Mac o Windows y hace 
   + [3.1. Obtener Archivo Hash](#31-obtener-archivo-hash)
   + [3.2. Verificar Archivo Hash](#32-verificar-archivo-hash)
 ### [4. Descargar y Verificar Binarios](#4-descargar-y-verificar-binarios)
-  + [4.1. Obtener Binarios Monero](#41-obtener-binarios-monero)
+  + [4.1. Obtener Binarios ByteRub](#41-obtener-binarios-monero)
   + [4.2. Verificación de Binarios en Linux o Mac](#42-verificación-de-binarios-en-linux-o-mac)
   + [4.3. Verificación de Binarios en Windows](#43-verificación-de-binarios-en-windows)
 
@@ -33,11 +33,11 @@ Esta es una guía avanzada para sistemas operativos Linux, Mac o Windows y hace 
 
 ## 2. Verificar e Importar Clave de Firma
 
-Esta sección cubre la obtención de la clave de firma Monero, asegurar que sea correcta e importar la clave a GnuPG.
+Esta sección cubre la obtención de la clave de firma ByteRub, asegurar que sea correcta e importar la clave a GnuPG.
 
 ### 2.1. Obtener Clave de Firma
 
-En Windows o Mac, ve a la [clave GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), que utiliza para firmar los binarios Monero, y guarda la página como `fluffypony.asc` en tu directorio de inicio.
+En Windows o Mac, ve a la [clave GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), que utiliza para firmar los binarios ByteRub, y guarda la página como `fluffypony.asc` en tu directorio de inicio.
 
 En Linux, puedes descargar la clave de firma de Fluffypony utilizando el siguiente comando:
 
@@ -134,9 +134,9 @@ Si ves **BAD signature** en la salida, **NO CONTINÚES.** En su lugar, borra el 
 
 ## 4. Descargar y Verificar Binarios
 
-Esta sección cubrirá la descarga de los binarios Monero para tu sistema operativo, la obtención del hash `SHA256` para tu descarga, y verificar que este sea correcto.
+Esta sección cubrirá la descarga de los binarios ByteRub para tu sistema operativo, la obtención del hash `SHA256` para tu descarga, y verificar que este sea correcto.
 
-### 4.1. Obtener Binarios Monero
+### 4.1. Obtener Binarios ByteRub
 
 En Windows o Mac, ve a [getmonero.org]({{ site.baseurl }}/downloads/) y descarga el archivo correcto para tu sistema operativo. Guarda el archivo en tu directorio de inicio. **Aún no extraigas los archivos.**
 
@@ -148,7 +148,7 @@ wget -O monero-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getmonero.org/cli/l
 
 ### 4.2. Verificación de Binarios en Linux o Mac
 
-Los pasos para Linux o Mac son los mismos. Desde una terminal, obtén el hash `SHA256` de tu binario Monero descargado. Como ejemplo esta guía utiliza el binario GUI de `Linux, 64bit`. Reemplaza `monero-gui-linux-x64-v0.12.0.0.tar.bz2` con el nombre del binario que descargaste en la [sección 4.1](#41-obtener-binarios-monero).
+Los pasos para Linux o Mac son los mismos. Desde una terminal, obtén el hash `SHA256` de tu binario ByteRub descargado. Como ejemplo esta guía utiliza el binario GUI de `Linux, 64bit`. Reemplaza `monero-gui-linux-x64-v0.12.0.0.tar.bz2` con el nombre del binario que descargaste en la [sección 4.1](#41-obtener-binarios-monero).
 
 ```
 shasum -a 256 monero-gui-linux-x64-v0.12.0.0.tar.bz2
@@ -166,7 +166,7 @@ Si tu hash **NO** coincide, **NO CONTINÚES.** En su lugar, elimina el binario d
 
 ### 4.3. Verificación de Binarios en Windows
 
-Desde una terminal, obtén el hash `SHA256` de tu binario Monero descargado. Como ejemplo esta guía utiliza el binario GUI de `Windows, 64bit`. Reemplaza `monero-gui-win-x64-v0.12.0.0.zip` con el nombre del binario que descargaste en la [sección 4.1](#41-obtener-binarios-monero).
+Desde una terminal, obtén el hash `SHA256` de tu binario ByteRub descargado. Como ejemplo esta guía utiliza el binario GUI de `Windows, 64bit`. Reemplaza `monero-gui-win-x64-v0.12.0.0.zip` con el nombre del binario que descargaste en la [sección 4.1](#41-obtener-binarios-monero).
 
 ```
 certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256

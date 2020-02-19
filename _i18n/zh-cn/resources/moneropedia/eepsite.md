@@ -21,7 +21,7 @@ Alternate names include:
   - because the service is hosted as a website and not any other type of service
 3. *Garlic Service*
   - because the service utilizes @I2P's @garlic-routing technology as a means of communicating with a client
-  - because the service is specific to services like IRC, email, or a Monero peer (but may also include websites)
+  - because the service is specific to services like IRC, email, or a ByteRub peer (but may also include websites)
 
 ### Notes
 

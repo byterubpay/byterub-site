@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-06-04
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-06-04
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -21,7 +21,7 @@ author: el00ruobuob / surae
 **\<sarang>** heyo  
 **\<suraeNoether>** sarang, take it away~  
 **\<sarang>** As has been discussed elsewhere, BP reviews are humming along  
-**\<sarang>** moneromooo and I worked up the last big optimization we had hoped to get done for them  
+**\<sarang>** byterubmooo and I worked up the last big optimization we had hoped to get done for them  
 **\<sarang>** increasing verification speed  
 **\<sarang>** While I'm away I'll continue managing the review process as needed  
 **\<sarang>** Everything is coming up Milhouse for the next upgrade  
@@ -48,7 +48,7 @@ author: el00ruobuob / surae
 **\<sarang>** Tests are available on mooo's branch  
 **\<suraeNoether>** anyone have any questions for sarang?  
 **\<sarang>** for anyone wanting to play with them  
-**\<sarang>** https://github.com/moneromooo-monero/bitmonero/tree/bp-multi-aggregation-pippenger  
+**\<sarang>** https://github.com/byterubmooo-byterub/bitbyterub/tree/bp-multi-aggregation-pippenger  
 **\<sarang>** thanks to mooo for fast coding of my shit Python prototypes  
 **\<sarang>** =p  
 **\<suraeNoether>** mooo is actually seven dudes in singapore  
@@ -58,7 +58,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** in terms of LSTAGs and unforgeability  
 **\<philkode>** Those are amazing size and speed up figures, really well done guys  
 **\<sarang>** ty philkode  
-**\<suraeNoether>** yes, sarang and moneromooo are MVPs of the ... year so far  
+**\<suraeNoether>** yes, sarang and byterubmooo are MVPs of the ... year so far  
 **\<suraeNoether>** so, unforgeability: the Musig paper uses a double fork to accomplish their proof of unforgeability.  while working through a ring-signature version of the same approach, i realized something  
 **\<sarang>** suraeNoether: wasn't it three forks?  
 **\<sarang>** or was that changed with the fixes  
@@ -82,7 +82,7 @@ author: el00ruobuob / surae
 **\<UkoeHB>** Cool :)  
 **\<suraeNoether>** and i've really pared this thing down, it's a lot smaller and more clear at this point  
 **\<suraeNoether>** now churn  
-**\<suraeNoether>** the biggest concern is that you receive some money from or send some money to an adversary (or first one then the other). if someone is "watching you," so to speak, then even if your transactions appear to look like background noise to the average observer and match the statistical pattern of the monero economy (somehow), the "watcher" can still sort of tell you are churning. they can look at an AML/KYC  
+**\<suraeNoether>** the biggest concern is that you receive some money from or send some money to an adversary (or first one then the other). if someone is "watching you," so to speak, then even if your transactions appear to look like background noise to the average observer and match the statistical pattern of the byterub economy (somehow), the "watcher" can still sort of tell you are churning. they can look at an AML/KYC  
 **\<suraeNoether>** exchange's records with a warrant, for example, and see that an abnormal \*number\* of your transactions reference one of their poison outputs, even if the depths and distribution of those references appear to look like background noise  
 **\<suraeNoether>** to avoid this, even innocent parties have to reference these poison outputs \*quite often\*  
 **\<suraeNoether>** one solution is that \*everyone always does a lot of churning.\*  
@@ -132,7 +132,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** it's a \*real bad idea.\*  
 **\<UkoeHB>** maybe we just triple ring size after BP  
 **\<dEBRUYNE>** sgp\_: But an observer doesn't know when it is used as decoy and when it is actually spent  
-**\<suraeNoether>** it reverses the "guess newest" rule from monerolink and turns it into a "guess the last possible spender"  
+**\<suraeNoether>** it reverses the "guess newest" rule from byterublink and turns it into a "guess the last possible spender"  
 **\<sgp\_>** dEBRUYNE right, but if the input selection algorithm is tweaked to prefer lesser-used outputs, then it may not be used outside of the actual transaction  
 **\<suraeNoether>** dEBRUYNE: no, but an observer can be pretty sure that the output has been spent. besides, if 1000 transactions referencing an output P occur in a single block, and then a week later a single transaction with P occurs, that is strong circumstantial evidence that this attack occurred and the single lonely P from later in the week is likely the true spender  
 **\<needmoney90>** Why not choose probabalistically between different selection algos  
@@ -186,13 +186,13 @@ author: el00ruobuob / surae
 **\<suraeNoether>** but the fact of the matter is, small anon sets will need to go for this problem to really be solved  
 **\<suraeNoether>** in the meantime, churning isn't going to help you if all the transactions you deposit on your AML/KYC exchange originated somehow from a malicious watcher like the DEA or NSA or something  
 **\<suraeNoether>** and churning more than 3-4 times is probably overkill if all you are worried about is helping flesh out our anonymity sets  
-**\<gingeropolous>** so ... what should we put on getmonero.org regarding churning... ? :)  
+**\<gingeropolous>** so ... what should we put on getbyterub.org regarding churning... ? :)  
 **\<suraeNoether>** gingeropolous: give us a few days to write up a formal thing  
 **\<gingeropolous>** cool  
 **\<suraeNoether>** gingeropolous: because i want some specific numbers on how much you are really exposing yourself   
 **\<sgp\_>** Can you give us a hint on the relationship between churning and ringsize? How significant is it?  
 **\<UkoeHB>** exponential?  
-**\<suraeNoether>** well, the naively computed anonymity set of a monero transaction tree of depth H with ring size R is approxiamtely O(R^H)  
+**\<suraeNoether>** well, the naively computed anonymity set of a byterub transaction tree of depth H with ring size R is approxiamtely O(R^H)  
 **\<suraeNoether>** so  
 **\<suraeNoether>** the question is "how many times are you going to pull a poison jelly bean out of this jar with R^H jelly beans in it, only one of which is poison?"  
 **\<suraeNoether>** oh, "while grabbing R jelly beans at a handful?"  
@@ -201,10 +201,10 @@ author: el00ruobuob / surae
 **\<suraeNoether>** hahah  
 **\<suraeNoether>** let me summarize: churning 80 times wiht ring size 10 gives you more possibilities than the number of fundamental particles in teh universe  
 **\<UkoeHB>** Ok we are at end of meeting so I'll jump in  
-**\<suraeNoether>** churning 7 or 8 times with ring size 10 gives you more possibilities than the monero blockchain  
+**\<suraeNoether>** churning 7 or 8 times with ring size 10 gives you more possibilities than the byterub blockchain  
 **\<suraeNoether>** but a lot of these are collisions  
 **\<UkoeHB>** Final draft: open for edits and feedback. Plan to publish in 2 weeks  
-**\<UkoeHB>** https://www.pdf-archive.com/2018/06/04/zero-to-monero-first-edition-v0-20/zero-to-monero-first-edition-v0-20.pdf  
+**\<UkoeHB>** https://www.pdf-archive.com/2018/06/04/zero-to-byterub-first-edition-v0-20/zero-to-byterub-first-edition-v0-20.pdf  
 **\<suraeNoether>** by "collisions" i mean 'the true anonymity set is much smaller.'  
 **\<UkoeHB>** sarang will be happy to see pg 50 (57 of pdf)  
 **\<suraeNoether>** if everyone on the network churned 2-3 times, we'd all be better off. anyone who lives in a sensitive land of security nightmares should churn maybe 8 times, but definitely shouldn't be using AML/KYC exchanges, and if they do, the vast majority of their deposits at those exchanges should \*not\* be sensitive.  

@@ -6,6 +6,6 @@ tags: [dev diaries, core, accounts]
 author: Riccardo Spagni (fluffypony)
 ---
 
-**Core:** daemonizing changes are ready for testing: https://github.com/mikezackles/bitmonero/tree/daemonize
+**Core:** daemonizing changes are ready for testing: https://github.com/mikezackles/bitbyterub/tree/daemonize
 
-**Core:** rpcwallet is ready for testing: https://github.com/tewinget/bitmonero/tree/rpcwallet
+**Core:** rpcwallet is ready for testing: https://github.com/tewinget/bitbyterub/tree/rpcwallet

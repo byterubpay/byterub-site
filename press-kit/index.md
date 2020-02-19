@@ -5,7 +5,7 @@ permalink: /press-kit/index.html
 ---
 
 <div class="text-center container description">
-    <p>{% t press-kit.intro1 %} <strong>{% t press-kit.intro2 %}</strong> {% t press-kit.intro3 %} <a href="/press-kit/monero-press-kit.zip">{% t press-kit.intro4 %}</a></p>
+    <p>{% t press-kit.intro1 %} <strong>{% t press-kit.intro2 %}</strong> {% t press-kit.intro3 %} <a href="/press-kit/byterub-press-kit.zip">{% t press-kit.intro4 %}</a></p>
 </div>
 <section class="container">
     <div class="row">
@@ -17,24 +17,24 @@ permalink: /press-kit/index.html
                     </div>
                 </div>
                 <div class="row center-xs">
-                    <img src="/press-kit/symbols/monero-symbol-480.png" alt="ByteRub Symbol" class="symbol-logo">
+                    <img src="/press-kit/symbols/byterub-symbol-480.png" alt="ByteRub Symbol" class="symbol-logo">
                 </div>
                 <div class="row center-xs press">
                     <div class="col-md-6">
                         <p>{% t press-kit.noback %} (PNG)</p>
-                        <a href="/press-kit/symbols/monero-symbol-480.png">{% t press-kit.small %}</a>
-                        <a href="/press-kit/symbols/monero-symbol-800.png">{% t press-kit.medium %}</a>
-                        <a href="/press-kit/symbols/monero-symbol-1280.png">{% t press-kit.large %}</a>
+                        <a href="/press-kit/symbols/byterub-symbol-480.png">{% t press-kit.small %}</a>
+                        <a href="/press-kit/symbols/byterub-symbol-800.png">{% t press-kit.medium %}</a>
+                        <a href="/press-kit/symbols/byterub-symbol-1280.png">{% t press-kit.large %}</a>
                     </div>
                     <div class="col-md-6">
                         <p>{% t press-kit.whiteback %} (PNG)</p>
-                        <a href="/press-kit/symbols/monero-symbol-on-white-480.png">{% t press-kit.small %}</a>
-                        <a href="/press-kit/symbols/monero-symbol-on-white-800.png">{% t press-kit.medium %}</a>
-                        <a href="/press-kit/symbols/monero-symbol-on-white-1280.png">{% t press-kit.large %}</a>
+                        <a href="/press-kit/symbols/byterub-symbol-on-white-480.png">{% t press-kit.small %}</a>
+                        <a href="/press-kit/symbols/byterub-symbol-on-white-800.png">{% t press-kit.medium %}</a>
+                        <a href="/press-kit/symbols/byterub-symbol-on-white-1280.png">{% t press-kit.large %}</a>
                     </div>
                 </div>
                 <div class="row center-xs press">
-                    <a href="/press-kit/symbols/monero-symbol.ai" class="adi">{% t press-kit.symbol_file %}</a>
+                    <a href="/press-kit/symbols/byterub-symbol.ai" class="adi">{% t press-kit.symbol_file %}</a>
                 </div>
             </div>
         </div>
@@ -47,26 +47,26 @@ permalink: /press-kit/index.html
                 </div>
                 <div class="row center-xs">
                    <div class="col-xs-12">
-                       <img src="/press-kit/logos/monero-logo-480.png" alt="ByteRub Logo" class="monero-symbol-logo">
+                       <img src="/press-kit/logos/byterub-logo-480.png" alt="ByteRub Logo" class="byterub-symbol-logo">
                    </div>
                 </div>
                 <div class="row center-xs press">
                     <div class="col-md-6">
                         <p>{% t press-kit.noback %} (PNG)</p>
-                        <a href="/press-kit/logos/monero-logo-480.png">{% t press-kit.small %}</a>
-                        <a href="/press-kit/logos/monero-logo-800.png">{% t press-kit.medium %}</a>
-                        <a href="/press-kit/logos/monero-logo-1280.png">{% t press-kit.large %}</a>
+                        <a href="/press-kit/logos/byterub-logo-480.png">{% t press-kit.small %}</a>
+                        <a href="/press-kit/logos/byterub-logo-800.png">{% t press-kit.medium %}</a>
+                        <a href="/press-kit/logos/byterub-logo-1280.png">{% t press-kit.large %}</a>
                     </div>
                     <div class="col-md-6">
                         <p>{% t press-kit.whiteback %} (PNG)</p>
-                        <a href="/press-kit/logos/monero-logo-symbol-on-white-480.png">{% t press-kit.small %}</a>
-                        <a href="/press-kit/logos/monero-logo-symbol-on-white-800.png">{% t press-kit.medium %}</a>
-                        <a href="/press-kit/logos/monero-logo-symbol-on-white-1280.png">{% t press-kit.large %}</a>
+                        <a href="/press-kit/logos/byterub-logo-symbol-on-white-480.png">{% t press-kit.small %}</a>
+                        <a href="/press-kit/logos/byterub-logo-symbol-on-white-800.png">{% t press-kit.medium %}</a>
+                        <a href="/press-kit/logos/byterub-logo-symbol-on-white-1280.png">{% t press-kit.large %}</a>
                     </div>
                 </div>
                 <div class="row center-xs press">
                    <div class="col-xs-12">
-                    <a href="/press-kit/logos/monero-logo.ai" class="adi">{% t press-kit.logo_file %}</a>
+                    <a href="/press-kit/logos/byterub-logo.ai" class="adi">{% t press-kit.logo_file %}</a>
                    </div>
                 </div>
             </div>

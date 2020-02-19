@@ -12,46 +12,46 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Meeting time  
 **\<serhack>** Hi :)  
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Workgroup Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/343  
 **\<midipoet>** hey hey  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. The calendar functionality will unfortunately be shut down soon, so I’m working on another calendar option.  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. The calendar functionality will unfortunately be shut down soon, so I’m working on another calendar option.  
 **\<sgp\_>** 1. Greetings  
 **\<Guest19860>** Ciao  
 **\<xmrscott[m]>** おす  
 **\<el00ruobuob>** Hi  
 **\<xmrmatterbridge> \<rehrar>** Yo bro  
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** rehrar now maintains news highlights at https://revuo-monero.com/. The most recent article is from 2 days ago.  
+**\<sgp\_>** rehrar now maintains news highlights at https://revuo-byterub.com/. The most recent article is from 2 days ago.  
 **\<sgp\_>** The MCC livestream is currently live, so multitask if you can! https://www.youtube.com/watch?v=CyieujRFk3g  
-**\<monerobux>** [ #MCC2019 Day 1 - Magical Crypto Conference - Lightning Network & Bitcoin Without Internet - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ #MCC2019 Day 1 - Magical Crypto Conference - Lightning Network & Bitcoin Without Internet - YouTube ] - www.youtube.com  
 **\<sgp\_>** A recent research paper preprint was uploaded, and it caused a small stir on social media. The paper sought to quantify an important component (cost of generating many outputs), but many of its assumptions were extremely incorrect. Hopefully the authors will correct and speak with MRL before publishing more work.  
 **\<\_Slack> \<intj440>** hello  
-**\<sgp\_>** I mention this only because I want to steer the community tone to being accepting of new research, but to nevertheless politely call out fatal flaws if necessary. Reddit discussion: https://www.reddit.com/r/Monero/comments/bn046q/floodxmr\_lowcost\_transaction\_flooding\_attack\_with/  
-**\<monerobux>** [REDDIT] FloodXMR: Low-cost transaction flooding attack with Monero’s bulletproof protocol⋆ (https://eprint.iacr.org/2019/455.pdf) to r/Monero | 54 points (82.0%) | 46 comments | Posted by McDongger | Created at 2019-05-10 - 16:05:45  
+**\<sgp\_>** I mention this only because I want to steer the community tone to being accepting of new research, but to nevertheless politely call out fatal flaws if necessary. Reddit discussion: https://www.reddit.com/r/ByteRub/comments/bn046q/floodxmr\_lowcost\_transaction\_flooding\_attack\_with/  
+**\<byterubbux>** [REDDIT] FloodXMR: Low-cost transaction flooding attack with ByteRub’s bulletproof protocol⋆ (https://eprint.iacr.org/2019/455.pdf) to r/ByteRub | 54 points (82.0%) | 46 comments | Posted by McDongger | Created at 2019-05-10 - 16:05:45  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** CCS proposals still needing funding:  
-**\<sgp\_>** GUI UX coding (3 months) (161.10/282 XMR): https://ccs.getmonero.org/proposals/dsc-2019-q2.html  
-**\<sgp\_>** xiphon part time coding (3 months) (74.18/111 XMR): https://ccs.getmonero.org/proposals/xiphon-part-time.html  
-**\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup – March (51.50/144 XMR): https://ccs.getmonero.org/proposals/ErCiccione-localizations.html  
+**\<sgp\_>** GUI UX coding (3 months) (161.10/282 XMR): https://ccs.getbyterub.org/proposals/dsc-2019-q2.html  
+**\<sgp\_>** xiphon part time coding (3 months) (74.18/111 XMR): https://ccs.getbyterub.org/proposals/xiphon-part-time.html  
+**\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup – March (51.50/144 XMR): https://ccs.getbyterub.org/proposals/ErCiccione-localizations.html  
 **\<sgp\_>** CCS Proposals in ideas that were previously discussed:  
-**\<sgp\_>** Monero currency and blockchain statistics hub (20 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/58  
+**\<sgp\_>** ByteRub currency and blockchain statistics hub (20 XMR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/58  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** BtcPayServer Monero Integration (180 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/63  
-**\<sgp\_>** Funding To Produce, Write And Record An Entirely Original Rap/Hip-Hop Anthem Exclusively For Monero (18 XMR): https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/65  
+**\<sgp\_>** BtcPayServer ByteRub Integration (180 XMR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/63  
+**\<sgp\_>** Funding To Produce, Write And Record An Entirely Original Rap/Hip-Hop Anthem Exclusively For ByteRub (18 XMR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/65  
 **\<sgp\_>** Let's start with the BtcPay one  
 **\<sgp\_>** Any comments?  
 **\<el00ruobuob>** I like the idea, but has the guy ever contribute?  
 **\<serhack>** I'm curious. I'd like to know why 180 xmr as a bounty.  
-**\<Guest19860>** (not to Monero)  
+**\<Guest19860>** (not to ByteRub)  
 **\<Guest19860>** I don't think so, but his track of contributions is very good  
-**\<sgp\_>** I think this is one of their first times working on Monero. They previously did a lot of other work for Bitcoin  
-**\<serhack>** I just want to highlight 180 XMR = 13,363 USD at the moment. Does integrating Monero into the software require so much work?  
-**\<xmrscott[m]>** Yeah, basically addin Monero tl their existinf BTC service, I think they should be plenty fine  
+**\<sgp\_>** I think this is one of their first times working on ByteRub. They previously did a lot of other work for Bitcoin  
+**\<serhack>** I just want to highlight 180 XMR = 13,363 USD at the moment. Does integrating ByteRub into the software require so much work?  
+**\<xmrscott[m]>** Yeah, basically addin ByteRub tl their existinf BTC service, I think they should be plenty fine  
 **\<dEBRUYNE>** serhack: I think the 180 XMR was based on the price before the rise  
 **\<dEBRUYNE>** So it probably has to be adjusted downwards  
-**\<Guest19860>** I think the "show us your love for monero first" kind of mentality works well for unknown people, but i think when the contributor can prove his/her experience, it's not strictly necessary  
+**\<Guest19860>** I think the "show us your love for byterub first" kind of mentality works well for unknown people, but i think when the contributor can prove his/her experience, it's not strictly necessary  
 **\<sarang>** sgp\_: I have a note on that paper, at some point  
 **\<sgp\_>** sure  
 **\<sarang>** Someone claiming to be the author did comment on reddit  
@@ -62,7 +62,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<Guest19860>** I agree with sarang. I think the community reacted quite well. You cannot release a paper without even verifying that your assumptions are correct, that's just sloppy work.  
 **\<sarang>** Of course, this is part of why preprints exists  
 **\<sarang>** s/exists/exist  
-**\<monerobux>** sarang meant to say: Of course, this is part of why preprints exist  
+**\<byterubbux>** sarang meant to say: Of course, this is part of why preprints exist  
 **\<sarang>** The real test is whether the preprint gets updated to have correct data (which I'd love to see)  
 **\<sgp\_>** If the integration is a full 2 months of work, I think the adjusted rate is pretty reasonable  
 **\<serhack>** I did not consider the price. I think it's okay.  
@@ -80,7 +80,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Any other comments on any of these proposals?  
 **\<ErCiccione>** just a note about the "statistics hub proposal"  
 **\<sgp\_>** go ahead  
-**\<el00ruobuob>** There is also a gingeropolous fiber proposal: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/62/diffs  
+**\<el00ruobuob>** There is also a gingeropolous fiber proposal: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/62/diffs  
 **\<ErCiccione>** the guy answered to some criticism rised about his proposal on gitlab, i suggested to come talk about it in a community meeting or just to come here and discuss during a random day  
 **\<ErCiccione>** I hope he will come because he seems to be genuine about the proposal  
 **\<sgp\_>** thanks for pointing them here  
@@ -96,13 +96,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 4. Workgroup report  
 **\<sgp\_>** a. Daemon/CLI workgroup  
 **\<sgp\_>** The 0.14.1 release is waiting on fluffypony to build. He’s currently focused on the Magical Crypto Conference, so it will be a few more days of waiting. Other development has proceeded in the meantime.  
-**\<sgp\_>** Other questions to #monero-dev  
+**\<sgp\_>** Other questions to #byterub-dev  
 **\<sgp\_>** b. Localization workgroup  
 **\<sgp\_>** ErCiccione: take it away  
 **\<ErCiccione>** Thanks  
 **\<ErCiccione>** So, we had a Localization Workgroup Meeting to discuss how to improve the workflow we use for translations and the wallets. I made a reddit thread with the logs and a tl;dr. Lemme grub it  
-**\<ErCiccione>** https://www.reddit.com/r/Monero/comments/bko08i/logs\_from\_yesterdays\_meeting\_of\_the\_monero/  
-**\<monerobux>** [REDDIT] Logs from yesterday's meeting of the Monero Localization Workgroup (TL;DR included) (self.Monero) | 30 points (94.0%) | 0 comments | Posted by ErCiccione | Created at 2019-05-04 - 18:14:15  
+**\<ErCiccione>** https://www.reddit.com/r/ByteRub/comments/bko08i/logs\_from\_yesterdays\_meeting\_of\_the\_byterub/  
+**\<byterubbux>** [REDDIT] Logs from yesterday's meeting of the ByteRub Localization Workgroup (TL;DR included) (self.ByteRub) | 30 points (94.0%) | 0 comments | Posted by ErCiccione | Created at 2019-05-04 - 18:14:15  
 **\<ErCiccione>** So, I started to test weblate and... It's far far better than Pootle and will make everything much more easier for me,  
 **\<ErCiccione>** Since most of the stuff is much easier to handle and there is no need to mess with git because weblate do it pretty good by itself.  
 **\<el00ruobuob>** so no more code freeze needed to avoid desync?  
@@ -156,13 +156,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Unless there are other questions, let's keep moving on  
 **\<sgp\_>** I have two quick updates from other workgroups  
 **\<sgp\_>** d. Defcon workgroup  
-**\<sgp\_>** The Defcon call for presentations and volunteers is now open at https://monerovillage.org.  
+**\<sgp\_>** The Defcon call for presentations and volunteers is now open at https://byterubvillage.org.  
 **\<sgp\_>** They are due on June 3. Please get them in. PM me for questions. That is all.  
 **\<sgp\_>** e. PoW workgroup  
 **\<msvb-mob>** Looks great.  
 **\<sgp\_>** If you are working on RandomX or other PoW stuff, feel free to speak up :)  
 **\<sgp\_>** RandomX’s code has been frozen, and the team has pulled together 4 statements of work from audit companies. You can view them here: https://github.com/hyc/RandomxAudits  
-**\<sgp\_>** There are proposals from Kudelski ($20,000, 3 weeks), Quarkslab ($52,800, 2 weeks), Trail of Bits ($160,000, 6 weeks), and X41 ($47,000, 4 weeks). Monero used Kudelski and Quarkslab for bulletproofs.  
+**\<sgp\_>** There are proposals from Kudelski ($20,000, 3 weeks), Quarkslab ($52,800, 2 weeks), Trail of Bits ($160,000, 6 weeks), and X41 ($47,000, 4 weeks). ByteRub used Kudelski and Quarkslab for bulletproofs.  
 **\<sgp\_>** Note that the Trail of Bits SoW scope includes bulletproofs currently, so the cost and length will likely come down.  
 **\<sgp\_>** There will plenty of other time for other discussions, but what are people’s initial impressions?  
 **\<selsta>** X41 has a nice proposal, Quarkslab was really good last time.  
@@ -181,13 +181,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needmoney90>** Alright, we can chat about it later  
 **\<needmoney90>** Continue, sorry for the interruption  
 **\<sgp\_>** those timelines are my best guess fwiw given the SoWs  
-**\<sgp\_>** serhack asked for me to ask for improvements to Mastering Monero for the second edition  
+**\<sgp\_>** serhack asked for me to ask for improvements to Mastering ByteRub for the second edition  
 **\<kinghat>** i dont think we've had a dose of Xeagu\_\_ yet. maybe something before we close?  
-**\<sgp\_>** If you have comments on Mastering Monero, I recommend you open issues here: https://github.com/monerobook/monerobook  
+**\<sgp\_>** If you have comments on Mastering ByteRub, I recommend you open issues here: https://github.com/byterubbook/byterubbook  
 **\<sgp\_>** If there are no other ideas, we can wrap up the meeting  
 **\<sgp\_>** We had some good discussions before, so feel free to continue using this channel after the meeting as always  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 25 May at 17:00 UTC.  
 **\<sgp\_>** 7. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<el00ruobuob>** thank you all  

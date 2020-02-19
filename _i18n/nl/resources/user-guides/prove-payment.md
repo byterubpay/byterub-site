@@ -7,14 +7,14 @@ Wanneer iemand naar wie je geld hebt gestuurd beweert dat de betaling niet is ui
 Met Bitcoin wordt dit meestal gedaan door de transactie-ID op te zoeken waarbij de bron- en doeladressen
 en het betaalde bedrag worden weergegeven.
 
-Monero is echter vertrouwelijk, dus die informatie is niet openbaar beschikbaar op de blockchain. Er zijn dus iets meer
+ByteRub is echter vertrouwelijk, dus die informatie is niet openbaar beschikbaar op de blockchain. Er zijn dus iets meer
 stappen nodig.
 
 Om aan Charlie te bewijzen dat ze een betaling heeft gedaan aan Bob moet Alice drie gegevens aan Charlie laten zien:
 
 - de transactie-ID, net als bij Bitcoin
 - het adres van Bob, net als bij Bitcoin
-- de transactiesleutel, een nieuwe uitvinding bij Monero en andere Cryptonote-coins
+- de transactiesleutel, een nieuwe uitvinding bij ByteRub en andere Cryptonote-coins
 
 Toen Alice de transactie uitvoerde, is er automatisch een sleutel speciaal voor deze transactie gegenereerd.
 

@@ -16,7 +16,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** I'm finishing up a few small optimizations to reduce the curve op count  
 **\<suraeNoether>** nice  
 **\<sarang>** and then it'll be ready for C++  
-**\<sarang>** moneromooo already has the linear version up and running  
+**\<sarang>** byterubmooo already has the linear version up and running  
 **\<suraeNoether>** fantastic!  
 **\<sarang>** That's been my big project  
 **\<suraeNoether>** page 8 of the new zksnark paper talks about dot product proof protocols  
@@ -173,7 +173,7 @@ author: dEBRUYNE / fluffypony
 **\<unknownids>** good to know othe  
 **\<suraeNoether>** because they'll just change their code if they don't like what you are doing  
 **\<silur>** ^  
-**\<suraeNoether>** whoever is designing asics for monero are preparing to burn their fiat. but hey, they probably have fiat to burn  
+**\<suraeNoether>** whoever is designing asics for byterub are preparing to burn their fiat. but hey, they probably have fiat to burn  
 **\<suraeNoether>** joker.jpg  
 **\<suraeNoether>** ok guys  
 **\<suraeNoether>** i'll be back later today  

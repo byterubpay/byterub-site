@@ -16,7 +16,7 @@ Lots of stuff done in the past 2 weeks:
 - flattened CMake issues (DNSSEC will work again)
 - the possibilities of inconstent database state and the mempool transactions "have been clobbered"
 
-Amongst other stuff not mentioned, but copying here from moneromoos milestone work:
+Amongst other stuff not mentioned, but copying here from byterubmoos milestone work:
 
 - fixes for the wallet creating txes over max size the daemon will accept
 - more work on tests (including tests for the MRL-0004 changes)
@@ -39,9 +39,9 @@ When RingCT gets merged, will be a good time to merge other database formats. DB
 
 This has become the bastard child of ByteRub development apparently. Lines 82 - 167 encompass discussion on this topic. The goal is "to merge back to the dev branch" Ultimately the decision is to hack at it for a bit and reevalauate in next meeting. 
 
-> <moneromooo> What I'll do it hack at it to make it work better, really. All that's needed is time without the problem of a release coming too quick.
+> <byterubmooo> What I'll do it hack at it to make it work better, really. All that's needed is time without the problem of a release coming too quick.
 
-Godspeed moneromooo. 
+Godspeed byterubmooo. 
 
 ## Hardforks
 
@@ -52,7 +52,7 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<fluffypony>** welcome everyone  
 **\<fluffypony>** first off, thanks for being present  
 **\<fluffypony>** lots has been done in the last couple of weeks  
-**\<fluffypony>** moneromooo hit another milestone on his FFS fundraiser, so good job on that  
+**\<fluffypony>** byterubmooo hit another milestone on his FFS fundraiser, so good job on that  
 **\<fluffypony>** he also clobbered some major issues (v2 block tests etc)  
 **\<hyc>** here  
 **\<fluffypony>** warptangent has also been a monster in the last couple of weeks  
@@ -68,8 +68,8 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<fluffypony>** yeah, that and the mempool transactions were the two biggies  
 **\<fluffypony>** both have been clobbered   
 **\<warptangent>** there are some bdb updates i'm finishing up, but they aren't urgent.  
-**\<fluffypony>** moneromooo: anything from your side?  
-**\<moneromooo>** No  
+**\<fluffypony>** byterubmooo: anything from your side?  
+**\<byterubmooo>** No  
 **\<smooth>** saberhagen reporting in  
 **\<fluffypony>** hah hah  
 **\<warptangent>** !!  
@@ -113,11 +113,11 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<fluffypony>** hyc: I thought about that, the problem is that people are going to just upgrade ->** restart the daemon  
 **\<fluffypony>** and then if it chokes and says "run this tool" they'll get frustrated  
 **\<fluffypony>** also we have to automate it for the GUI too because GUI users...  
-**\<moneromooo>** We don't really need to bother, there's a version field.  
-**\<moneromooo>** So you could create the new dbs, then set the field to new version.  
-**\<moneromooo>** If it's interrupted, it will recreate the new dbs, erasing the partial ones.  
+**\<byterubmooo>** We don't really need to bother, there's a version field.  
+**\<byterubmooo>** So you could create the new dbs, then set the field to new version.  
+**\<byterubmooo>** If it's interrupted, it will recreate the new dbs, erasing the partial ones.  
 **\<fluffypony>** as long as new dbs have unique names never used in previous ones  
-**\<moneromooo>** At least for the tx/block subdb work anyway.  
+**\<byterubmooo>** At least for the tx/block subdb work anyway.  
 **\<hyc>** we can append version# to the name if we want similar names  
 **\<fluffypony>** yeah  
 **\<fluffypony>** ok - I'll create that as an issue, does anyone want to have it assigned to them, or should I just leave it open for now?  
@@ -133,21 +133,21 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<fluffypony>** once 0.9.2 is tagged in the next week we have to merge back to the dev branch  
 **\<fluffypony>** and then I'd like to lock down master - anything that is PR'd either needs to be dev branch only, or has to go to both (as a backport to 0.9.x)  
 **\<fluffypony>** does anyone have any objections to that?  
-**\<moneromooo>** When do you plan a release after 0.9.2 ?  
-**\<fluffypony>** moneromooo: the next fork date is meant to be October / September, but we can be a little flexible about when we freeze the code for that release because we want it to include RingCT  
+**\<byterubmooo>** When do you plan a release after 0.9.2 ?  
+**\<fluffypony>** byterubmooo: the next fork date is meant to be October / September, but we can be a little flexible about when we freeze the code for that release because we want it to include RingCT  
 **\<fluffypony>** if that appears to be unachievable then we'll re-address it in a couple of months time  
 **\<ArticMine>** So we are looking to a freeze for Ring CT in April/May?  
 **\<fluffypony>** depending on how implementation goes, yes  
-**\<moneromooo>** 0.9 took quite some time, dev is flaky and needs all the buffer overflows fixed at the very least before it can be put in any release.  
-**\<fluffypony>** moneromooo: I know - if we need to we can push the fork date   
+**\<byterubmooo>** 0.9 took quite some time, dev is flaky and needs all the buffer overflows fixed at the very least before it can be put in any release.  
+**\<fluffypony>** byterubmooo: I know - if we need to we can push the fork date   
 **\<ArticMine>** Testing?  
-**\<moneromooo>** Alright then.  
+**\<byterubmooo>** Alright then.  
 **\<fluffypony>** ArticMine: you mean in terms of functional tests or automated tests?  
 **\<ArticMine>** both  
 **\<xmrpromotions>** what is the minumum time allowable between freeze date and fork date? I know the desire is 6 months but what is the margin of error?  
 **\<fluffypony>** xmrpromotions: for planned forks, given how small ByteRub is, we could probably get away with a month or two  
 **\<fluffypony>** but likely for the last time  
-**\<dEBRUYNE>** \<fluffypony> moneromooo: I know - if we need to we can push the fork date <= I am in favor of this as well  
+**\<dEBRUYNE>** \<fluffypony> byterubmooo: I know - if we need to we can push the fork date <= I am in favor of this as well  
 **\<fluffypony>** it'll become harder and harder to do stuff like that, so if we're making an exception on a planned fork let's make it the last time  
 **\<dEBRUYNE>** we don´t necessarily need to stick to a certain date for something that important  
 **\<dEBRUYNE>** Agree fluffypony  
@@ -155,17 +155,17 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<fluffypony>** in future I don't expect stuff like that will happen  
 **\<dEBRUYNE>** Same issue with smart mining right?  
 **\<smooth>** i still think we can consider dumping the dev branch. i think we need to be open minded about whether its state will hurt development rather than help it  
-**\<fluffypony>** moneromooo is probably in the best position to make a call on that  
+**\<fluffypony>** byterubmooo is probably in the best position to make a call on that  
 **\<smooth>** meaning it may be more productive to pull what we want from it (that isn't unfinished) and merge to master than vice versa  
 **\<smooth>** \*with master (not to master)  
-**\<moneromooo>** Well, personally I'd not have a dev branch so...  
+**\<byterubmooo>** Well, personally I'd not have a dev branch so...  
 **\<fluffypony>** heh  
 **\<fluffypony>** if people knew how to checkout a tag it wouldn't be a problem :)  
-**\<moneromooo>** Negative reinforcement helps make that a reality :)  
+**\<byterubmooo>** Negative reinforcement helps make that a reality :)  
 **\<smooth>** i agree with not having a dev branch really but it doesn't address what to do with the code we want from te current dev branch  
 **\<hyc>** right, how much in there is usable?  
-**\<moneromooo>** What I'll do it hack at it to make it work better, really. All that's needed is time without the problem of a release coming too quick.  
-**\<moneromooo>** It is usable, just rough.  
+**\<byterubmooo>** What I'll do it hack at it to make it work better, really. All that's needed is time without the problem of a release coming too quick.  
+**\<byterubmooo>** It is usable, just rough.  
 **\<warptangent>** are the main features in the dev branch 0mq and smart mining? wouldn't it be simpler to rebase those onto master instead of trying to merge with the current dev branch?  
 **\<fluffypony>** warptangent: no smart mining, just 0mq  
 **\<warptangent>** ah  
@@ -182,11 +182,11 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<dEBRUYNE>** fork/branch  
 **\<fluffypony>** dEBRUYNE: that's the way it normally works  
 **\<fluffypony>** the 0MQ thing was an exception  
-**\<moneromooo>** It'd also mean you get to redo the merge with all the stuff I merged recently :/  
+**\<byterubmooo>** It'd also mean you get to redo the merge with all the stuff I merged recently :/  
 **\<fluffypony>** oh yes  
-**\<moneromooo>** And deal with that fucking white space patch AGAIN  
+**\<byterubmooo>** And deal with that fucking white space patch AGAIN  
 **\<fluffypony>** my instinct is that we've put too much effort into the dev branch already to make cherry-picking worthwhile  
-**\<fluffypony>** there's a handful of merges since moneromooo's last merge to dev  
+**\<fluffypony>** there's a handful of merges since byterubmooo's last merge to dev  
 **\<smooth>** effort isnt really the right measure  
 **\<smooth>** the measure is how much useful value is there  
 **\<fluffypony>** well it works  
@@ -194,16 +194,16 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<smooth>** there has been a lot of work on master only in the past few months  
 **\<fluffypony>** and we need to rip the net_skeleton stuff out and replace  
 **\<hyc>** so how much effort would it be to reapply just 0mq to current master  
-**\<moneromooo>** Probably a big pita. However, the original merge was also a bit crappy.  
+**\<byterubmooo>** Probably a big pita. However, the original merge was also a bit crappy.  
 **\<fluffypony>** last merge up to dev was Jan 3rd  
 **\<fluffypony>** afaik  
-**\<moneromooo>** And while I was hacking on it, thre's a fair number of changes to the 0mq stuff I made in master.  
-**\<moneromooo>** Like fixes, all the missing RPC calls  
+**\<byterubmooo>** And while I was hacking on it, thre's a fair number of changes to the 0mq stuff I made in master.  
+**\<byterubmooo>** Like fixes, all the missing RPC calls  
 **\<smooth>** in dev?  
 **\<warptangent>** 0mq in master?  
 **\<fluffypony>** in dev?  
 **\<fluffypony>** lol  
-**\<moneromooo>** Yes, in dev  
+**\<byterubmooo>** Yes, in dev  
 **\<smooth>** at least people are paying attention  
 **\<warptangent>** lol  
 **\<fluffypony>** ok I say we hack at it for a bit  
@@ -211,7 +211,7 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<fluffypony>** and then re-evaluate   
 **\<warptangent>** \<fluffypony> last merge up to dev was Jan 3rd << does this also mean dev was up to date in terms of master as well?  
 **\<fluffypony>** warptangent: yes that's what I mean - all of master was merged up to dev on Jan 3rd  
-**\<moneromooo>** Yes. I expected we'd move to dev then.  
+**\<byterubmooo>** Yes. I expected we'd move to dev then.  
 **\<fluffypony>** the only reason we didn't was 0.9.x fixes  
 **\<warptangent>** that might not be too bad then.  
 **\<smooth>** moving to dev is fine (assuming its state is good enough) but that should be independent of any necessary point releases  
@@ -261,9 +261,9 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<othe>** ilya is working on the c++ interface currently, doesn´t really matter for the gui if its using zeromq or not  
 **\<fluffypony>** btw hyc, you may find this of interest: https://github.com/niXman/mingw-builds  
 **\<dEBRUYNE>** othe: Thanks for clarifying that  
-**\<bookies>** are all issues on getmonero.org sorted on github? meaning I saw some that are probably old and might be resolved.  
+**\<bookies>** are all issues on getbyterub.org sorted on github? meaning I saw some that are probably old and might be resolved.  
 **\<fluffypony>** bookies: you mean for the site, or for ByteRub itself?  
-**\<bookies>** https://github.com/byterubpay/monero-site  
+**\<bookies>** https://github.com/byterubpay/byterub-site  
 **\<hyc>** fluffypony: heh, ok. are we going to tell people they need to build their own compiler before they can build win32?  
 **\<fluffypony>** bookies: I haven't checked - there may very well be some old ones that are sorted  
 **\<bookies>** ty  
@@ -273,10 +273,10 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<hyc>** afaics they're just build scripts for building gcc etc  
 **\<fluffypony>** ah ok  
 **\<fluffypony>** alright, that's our hour - anything else before we close the meeting?  
-**\<moneromooo>** Shall I merge master into dev again then ?  
-**\<moneromooo>** I was going to do that, but...  
-**\<fluffypony>** moneromooo: yes, please  
-**\<moneromooo>** kk  
+**\<byterubmooo>** Shall I merge master into dev again then ?  
+**\<byterubmooo>** I was going to do that, but...  
+**\<fluffypony>** byterubmooo: yes, please  
+**\<byterubmooo>** kk  
 **\<xmrpromotions>** will someone publish the meeting minutes like last time?  
 **\<fluffypony>** yes  
 **\<xmrpromotions>** Thank you  

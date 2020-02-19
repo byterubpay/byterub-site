@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-05-07).  
+An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-05-07).  
 
 ### Logs  
 
@@ -43,12 +43,12 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** I've confirmed it via sidechannel  
 **\<fluffypony>** we have a new sweepbelow function in the CLI, which you may find useful  
 **\<fluffypony>** we also have a new heavier bias in output selection towards newer outputs  
-**\<fluffypony>** moneromooo can fill us in on that  
+**\<fluffypony>** byterubmooo can fill us in on that  
 **\<ArticMine>** Hi  
 **\<othe>** oi  
 **\<fluffypony>** smart mining is enabled in the GUI  
 **\<fluffypony>** as in the selection box  
-**\<moneromooo>** Hmm, I just twiddled the settings for the recent output selection, really. To match some data in the Miller et al paper.  
+**\<byterubmooo>** Hmm, I just twiddled the settings for the recent output selection, really. To match some data in the Miller et al paper.  
 **\<fluffypony>** which is pretty cool  
 **\<sgp>** indeed  
 **\<fluffypony>** also Jaquee has done some work on getting iOS back on track after it borked (visually)  
@@ -61,16 +61,16 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** which I'd REALLY like to move forward with ASAP  
 **\<fluffypony>** it's been sitting in a holding pattern for ages  
 **\<fluffypony>** Snipa: also if you're around maybe you can update us on the testing on that ?  
-**\<moneromooo>** I'd like it to be optional, so it can be merged (and thus tested), without causing massive breakage if it does break.  
+**\<byterubmooo>** I'd like it to be optional, so it can be merged (and thus tested), without causing massive breakage if it does break.  
 **\<fluffypony>** afaik that was the case  
 **\<Jaquee>** sounds like a good idea  
 **\<fluffypony>** also disposable addresses is still hanging around - I think that's pending a review from one of the luigis?  
-**\<moneromooo>** AFAIK yes. Also RandomRun had an idea to make it better.  
+**\<byterubmooo>** AFAIK yes. Also RandomRun had an idea to make it better.  
 **\<fluffypony>** I don't think there's a problem with that hanging around and being improved  
 **\<fluffypony>** as long as the parallel MRL write-up is there  
 **\<fluffypony>** I'd like to discuss 1998  
 **\<fluffypony>** the PR, not the year  
-**\<fluffypony>** https://github.com/byterubpay/monero/pull/1998  
+**\<fluffypony>** https://github.com/byterubpay/byterub/pull/1998  
 **\<fluffypony>** at this point in time I'm still swaying towards prevent-user-stupidity-by-default  
 **\<fluffypony>** at the slight inconvenience for a power user / sysadmin who might go "omg really" and then add the flag  
 **\<fluffypony>** I know vtnerd feels the same way, which is why he added it in the first place  
@@ -90,17 +90,17 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** unless hyc comes in I move to close the PR, we can always re-open it later  
 **\<Jaquee>** ok with me  
 **\<fluffypony>** ok next PR for discussion is 2011  
-**\<fluffypony>** moneromooo had concerns that it was touching consensus critical issues  
+**\<fluffypony>** byterubmooo had concerns that it was touching consensus critical issues  
 **\<fluffypony>** so/issues/part of the code  
-**\<moneromooo>** Yes, but it turns out it's actually bypassed when a tx comes from a block. The patch is fine.  
-**\<moneromooo>** I OK'd it since.  
+**\<byterubmooo>** Yes, but it turns out it's actually bypassed when a tx comes from a block. The patch is fine.  
+**\<byterubmooo>** I OK'd it since.  
 **\<fluffypony>** ah ok'  
-**\<moneromooo>** Well, wait.  
+**\<byterubmooo>** Well, wait.  
 **\* fluffypony** stops...hammer time  
-**\<moneromooo>** It's really uneeded (only the wallet bit was wanted). But it's not forkworthy. That said...  
-**\<moneromooo>** Older wallets *might* create txes which aren't relayed by newer daemons.  
-**\<moneromooo>** That's fairly unlikely, since my code targets 2/3 of max size, but the size approximation is not very precise.  
-**\<moneromooo>** That said, I think it's fine to merge.  
+**\<byterubmooo>** It's really uneeded (only the wallet bit was wanted). But it's not forkworthy. That said...  
+**\<byterubmooo>** Older wallets *might* create txes which aren't relayed by newer daemons.  
+**\<byterubmooo>** That's fairly unlikely, since my code targets 2/3 of max size, but the size approximation is not very precise.  
+**\<byterubmooo>** That said, I think it's fine to merge.  
 **\<hyc>** hey. just popped in. reading history  
 **\<fluffypony>** hi hyc !  
 **\<dEBRUYNE>** Re: 2011, perhaps it also should be dependent on the fee priority level used  
@@ -114,9 +114,9 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** hyc: view it like a weak password warning  
 **\<fluffypony>** you can't just expect the computer to accept 1234 as a password  
 **\<hyc>** yeah, ok...  
-**\<moneromooo>** Well, I would...  
+**\<byterubmooo>** Well, I would...  
 **\<fluffypony>** lol  
-**\<fluffypony>** moneromooo is the exception to every rule :-P  
+**\<fluffypony>** byterubmooo is the exception to every rule :-P  
 **\<fluffypony>** now on the GUI side, the only thing I wanted to bounce around is 688  
 **\<fluffypony>** tooltips are fine, but if we're going to do some sort of unified help then I would veer towards an overlay that shows once the first time you enter a screen, and can be re-called by clicking the [?] button on the taskbar  
 **\<fluffypony>** https://s-media-cache-ak0.pinimg.com/originals/c1/e1/bf/c1e1bfd7fb2770f6745d95af8bf89865.jpg  
@@ -131,9 +131,9 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<endogenic>** one suggestion i'd make for that is to make it c lear to the user they can recall it easily by doing "X" so that they don't fret about having to memorize everything before it's closed  
 **\<endogenic>** recall it -> the help screen  
 **\<Jaquee>** i think ^ is good as a start  
-**\<moneromooo>** Where is it on the title bar then, since it's not a WM thing ?  
+**\<byterubmooo>** Where is it on the title bar then, since it's not a WM thing ?  
 **\<fluffypony>** endogenic: agreed  
-**\<moneromooo>** s/Where/Why/  
+**\<byterubmooo>** s/Where/Why/  
 **\<Jaquee>** but some buttons could need longer desriptions  
 **\<Jaquee>** like sweepunmixable and paymentid for example  
 **\<fluffypony>** Jaquee: there's enough space in the help overlay, we can use a smaller font to explain them  
@@ -142,7 +142,7 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** and use an arrow  
 **\<Jaquee>** yeah. we could find a place for that help button  
 **\<fluffypony>** ok - any other PRs that need discussion or can we move on? there's general Q&A shortly  
-**\<sgp>** I'd like to merge 261 on monero-site  
+**\<sgp>** I'd like to merge 261 on byterub-site  
 **\<fluffypony>** sgp: there's a website meeting after the Kovri one  
 **\<fluffypony>** so we can discuss it then  
 **\<sgp>** ok  
@@ -159,22 +159,22 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** hyc: as long as mWo12 changes it, and we match the changes in the live backend and the new backend then yse  
 **\<fluffypony>** yes  
 **\<fluffypony>** we can make any changes, and we WILL make changes to make it smarter  
-**\<moneromooo>** If it's beneficial to monero and it works fully by itself without needing proprietary gunk, then I'm OK with it.  
+**\<byterubmooo>** If it's beneficial to byterub and it works fully by itself without needing proprietary gunk, then I'm OK with it.  
 **\<fluffypony>** eg. tx history comes in raw, instead of paginated  
 **\<fluffypony>** so that needs to change  
-**\<hyc>** +1 moneromooo  
-**\<fluffypony>** moneromooo: yeah the new backend will use LMDB instead of mysql  
+**\<hyc>** +1 byterubmooo  
+**\<fluffypony>** byterubmooo: yeah the new backend will use LMDB instead of mysql  
 **\<fluffypony>** so it will be unencumbered in the source  
 **\<ArticMine>** As long as there are no proprietary dependencies I am fine  
 **\<hyc>** I like it even more now ;)  
 **\<johnalan>** I think it beneficial too  
-**\<moneromooo>** Maybe a separate repo (similar to monero-core) might be best, but that's details.  
+**\<byterubmooo>** Maybe a separate repo (similar to byterub-core) might be best, but that's details.  
 **\<johnalan>** \*its  
-**\<moneromooo>** it's  
+**\<byterubmooo>** it's  
 **\<iDunk>** it's  
-**\<jollymort>** can't wait to run a mymonero node myself!  
+**\<jollymort>** can't wait to run a mybyterub node myself!  
 **\<vtnerd>** also the current "primary" wrapper around the DB is actually C, so theres that for you guys  
-**\<fluffypony>** moneromooo: I thought about that, but it's a single daemon that *should* exist in the repo alongside the wallet RPC etc.  
+**\<fluffypony>** byterubmooo: I thought about that, but it's a single daemon that *should* exist in the repo alongside the wallet RPC etc.  
 **\<hyc>** doesn't it supersede wallet-rpc?  
 **\<fluffypony>** now  
 **\<fluffypony>** hyc: no  
@@ -182,42 +182,42 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<johnalan>** there is obviously an element of centralisation, but it’s nearly impossible to avoid  
 **\<fluffypony>** also on this topic  
 **\<fluffypony>** Jaquee has begun working on client integration in the CLI and GUI  
-**\<moneromooo>** "client integration" ?  
+**\<byterubmooo>** "client integration" ?  
 **\<vtnerd>** you mean for light-wallets?  
 **\<fluffypony>** that will mean that both CLI and GUI will be able to run in lightweight / remote-scanner / MyByteRub mode  
-**\<fluffypony>** moneromooo: as opposed to implementing the server protocol  
+**\<fluffypony>** byterubmooo: as opposed to implementing the server protocol  
 **\<hyc>** sounds good  
-**\<moneromooo>** Oh, mymonero client integration ?  
-**\<fluffypony>** moneromooo: let's call it something else  
-**\<moneromooo>** That went pretty damn fast :D  
+**\<byterubmooo>** Oh, mybyterub client integration ?  
+**\<fluffypony>** byterubmooo: let's call it something else  
+**\<byterubmooo>** That went pretty damn fast :D  
 **\<fluffypony>** "lightweight wallet"  
-**\<jollymort>** it's not really centralization if any `monerod` acts as a server  
-**\<hyc>** but I'm still missing why we need old wallet-rpc if this mymonero api exists  
-**\<jollymort>** it's literally my monero :)  
+**\<jollymort>** it's not really centralization if any `byterubd` acts as a server  
+**\<hyc>** but I'm still missing why we need old wallet-rpc if this mybyterub api exists  
+**\<jollymort>** it's literally my byterub :)  
 **\<fluffypony>** hyc: wallet-rpc is completely different  
 **\<johnalan>** so the core GUI will be able to interact with MyByteRub backend too?  
 **\<vtnerd>** for people that want to run VPS node but keep their viewkey ?  
-**\<moneromooo>** Yes, would be nice to see what bits are needed where, and the actual API (even if roughly).  
+**\<byterubmooo>** Yes, would be nice to see what bits are needed where, and the actual API (even if roughly).  
 **\<fluffypony>** it provides an API for integrators  
 **\<fluffypony>** @johnalan yes  
 **\<fluffypony>** so basically  
 **\<johnalan>** is this needed with the MyByteRub Desktop wallet?  
 **\<ArticMine>** With what as the backed / server  
-**\<moneromooo>** That can be posted later though, :49 now.  
-**\<ArticMine>** monerod?  
+**\<byterubmooo>** That can be posted later though, :49 now.  
+**\<ArticMine>** byterubd?  
 **\<fluffypony>** lightweight wallets will have 3 server options:  
 **\<fluffypony>** 1. OpenByteRub  
 **\<fluffypony>** 2. the new in-source backend that vtnerd is working on  
 **\<fluffypony>** 3. the live MyByteRub backend  
 **\<fluffypony>** it will also have multiple client options:  
-**\<hyc>** afaik the main difference btw an ordinary wallet and mymomero is you tell mymonero your viewkey  
+**\<hyc>** afaik the main difference btw an ordinary wallet and mymomero is you tell mybyterub your viewkey  
 **\<fluffypony>** 1. OpenByteRub's web wallet (clone of the current MyByteRub web wallet)  
 **\<hyc>** and the ordinary wallet has all your keys  
 **\<fluffypony>** 2. the MyByteRub applications  
-**\<fluffypony>** 3. monero-wallet-cli  
-**\<fluffypony>** 4. monero-wallet-rpc  
+**\<fluffypony>** 3. byterub-wallet-cli  
+**\<fluffypony>** 4. byterub-wallet-rpc  
 **\<fluffypony>** 5. the ByteRub GUI  
-**\<fluffypony>** hyc: monero-wallet-rpc can still use this on the backend  
+**\<fluffypony>** hyc: byterub-wallet-rpc can still use this on the backend  
 **\<fluffypony>** so it's unrelated  
 **\<hyc>** ok  
 **\<ArticMine>** ok  
@@ -227,20 +227,20 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<ArticMine>** no  
 **\<fluffypony>** I mean, I do, because I don't want to be abusing my position, but it is what it is :-P  
 **\<jollymort>** didn't you deprecate 13-word?  
-**\<moneromooo>** Did you not say the 13 word seed was going to be obsoleted ?  
+**\<byterubmooo>** Did you not say the 13 word seed was going to be obsoleted ?  
 **\<endogenic>** jollymort: working on it  
 **\<johnalan>** no  
 **\<endogenic>** but client still needs to be able to read 'em  
 **\<redlion>** electrum/mycelium support a few different seed lengths iirc  
 **\<redlion>** works well  
 **\<jollymort>** also luigi was playing around with an idea for 17-word, integrating creation height in it etc  
-**\<fluffypony>** moneromooo: it's import only  
+**\<fluffypony>** byterubmooo: it's import only  
 **\<fluffypony>** not create  
-**\<endogenic>** https://github.com/mymonero/mymonero-app-js/issues/77  
-**\<knaccc>** doesn't it put a huge load on mymonero when someone asks it to scan the blockchain from zero with their view key? How long does mymonero take to scan the entire blockchain?  
-**\<moneromooo>** Anyway, I'm fine with that as presented.  
+**\<endogenic>** https://github.com/mybyterub/mybyterub-app-js/issues/77  
+**\<knaccc>** doesn't it put a huge load on mybyterub when someone asks it to scan the blockchain from zero with their view key? How long does mybyterub take to scan the entire blockchain?  
+**\<byterubmooo>** Anyway, I'm fine with that as presented.  
 **\<hyc>** that all sounds like a win to me. people have been whining about not being able to import their 13-word seed into regular CLI wallet  
-**\<shuannelson>** so monero-wallet-cli/monero GUI will not be able to create light-wallets?  
+**\<shuannelson>** so byterub-wallet-cli/byterub GUI will not be able to create light-wallets?  
 **\<fluffypony>** knaccc: yes it does - about 10 minutes  
 **\<jollymort>** yeah import only sounds lovely  
 **\<ArticMine>** If we are setting the stage for a competitive market based upon FLOSS then I am fine with it  
@@ -256,12 +256,12 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<knaccc>** 10 mins is quite a speedup vs downloading the entire blockchain, so sounds awesome.  
 **\<jollymort>** any thoughts on future of penalty/blocksize? i kind of left the research open-ended  
 **\<hyc>** ^^ get a faster CPU and it'll be quicker ')  
-**\<redlion>** Does anyone have a working monero-core or mymonero build on ios currently? I've been fiddling around and I can't seem to get either properly functional on the sim/device, though I may be missing something  
+**\<redlion>** Does anyone have a working byterub-core or mybyterub build on ios currently? I've been fiddling around and I can't seem to get either properly functional on the sim/device, though I may be missing something  
 **\<fluffypony>** lol hyc  
-**\<endogenic>** redlion: pls come join #mymonero but yes i do :)  
+**\<endogenic>** redlion: pls come join #mybyterub but yes i do :)  
 **\<Jaquee>** redlion: i have. it has some nasty bugs but it's running  
 **\<redlion>** ok thanks, I'll talk to you after this  
-**\<hyc>** btw iOS still limits process VM size to 4GB so we won't be running monerod native on iOS any time soon  
+**\<hyc>** btw iOS still limits process VM size to 4GB so we won't be running byterubd native on iOS any time soon  
 **\<fluffypony>** @jollymort let's discuss it after the meeting, or maybe next week - there are 2 more meetings to go tonight :)  
 **\<fluffypony>** and that's a large topic  
 **\<jollymort>** sure, another time  
@@ -276,14 +276,14 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<tewinget>** anyway, I have the daemon's side of the code rebased and *nearly* ready to PR and merge.  I mean, it could be merged now, but I should clean it up a little/address a few more of the comments on the existing PR first.  
 **\<tewinget>** the wallet side of things will be based on that, and won't take too long.  I just thought it made sense to separate it into two PRs (and rebase while I'm at it because why not?)  
 **\<fluffypony>** suweet  
-**\<fluffypony>** just check the meeting logs for the bit from moneromooo about it  
+**\<fluffypony>** just check the meeting logs for the bit from byterubmooo about it  
 **\<tewinget>** (the wallet stuff is still "done already", but as with the daemon side there are comments/suggestions to address as I rebase it as well.)  
 **\<tewinget>** at any rate, I plan today to finish with the cleanup of the daemon side of things, close the existing PR, and open a new one for the daemon that should be mergeable.  
 **\<fluffypony>** great stuff  
 **\<fluffypony>** pigeons: did you see the 96boards thing?  
 **\<tewinget>** fluffypony: sorry I didn't respond right away to your pinging on the github PR, but when I said it was already rebased I meant on a different branch, as I'm leaving that branch up (and separate) until I finish rebasing.  
 **\<fluffypony>** ok cool  
-**\<moneromooo>** tewinget: is the 0MQ stuff deselectable if needed (so if it somehow breaks, you can run the wallet with the existing JSON comms) ?  
-**\<moneromooo>** wallet/daemon  
-**\<tewinget>** moneromooo: I'll make it so when I rebase the wallet side of things.  
-**\<moneromooo>** Excellent, thank you :)  
+**\<byterubmooo>** tewinget: is the 0MQ stuff deselectable if needed (so if it somehow breaks, you can run the wallet with the existing JSON comms) ?  
+**\<byterubmooo>** wallet/daemon  
+**\<tewinget>** byterubmooo: I'll make it so when I rebase the wallet side of things.  
+**\<byterubmooo>** Excellent, thank you :)  

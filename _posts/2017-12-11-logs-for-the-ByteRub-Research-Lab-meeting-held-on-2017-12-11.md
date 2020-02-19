@@ -10,7 +10,7 @@ author: dEBRUYNE / fluffypony
 
 **\<suraeNoether>** yes we do  
 **\<suraeNoether>** good morning everyone  
-**\<suraeNoether>** moneromooo, smooth, andytoshi, ArticMine, stoffu, fluffypony, endogenic, gingeropolous  
+**\<suraeNoether>** byterubmooo, smooth, andytoshi, ArticMine, stoffu, fluffypony, endogenic, gingeropolous  
 **\<suraeNoether>** pero pigeons stoffu vtnerd unknownids  
 **\<hyc>** pero is here?  
 **\<suraeNoether>** *shrug* his name is on the list, but i haven't heard him say anything since before we funded sarang  
@@ -38,7 +38,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Updates to the BP code (both single- and multi-output) were completed for compatibility with our existing commitment formats  
 **\<sarang>** initial unit testing looks good  
 **\<sarang>** The single output case has been tossed over to testnet  
-**\<sarang>** A blog post was made to getmonero.org to explain our two-stage process  
+**\<sarang>** A blog post was made to getbyterub.org to explain our two-stage process  
 **\<sarang>** First single-output (SO), then multi-output (MO)  
 **\<sarang>** Doing SO first will let us sidestep the fee question for now  
 **\* suraeNoether** just got a phone call from the "tax crime investigation department of the IRS." Everyone be aware: the IRS contacts you by mail not phone!  
@@ -60,10 +60,10 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** I think having it in testnet makes sense  
 **\<suraeNoether>** do we have an opinion on putting up a bounty for exploits before moving it to mainnet?  
 **\<sarang>** and it does address major concerns that our public has about bloat and feez  
-**\<suraeNoether>** i was just looking at our average fees on monero.how  
+**\<suraeNoether>** i was just looking at our average fees on byterub.how  
 **\<sarang>** I think there'd be a bit of a PR hit if we kept it out of March (though that is *not* an endorsement against proper testing)  
 **\<sarang>** My preference is to continue beating the bejeezuz out of it in testnet and determine where that takes us  
-**\<suraeNoether>** yeah, PR is not relevant to security. thing is, unless price increases by an order of magnitude (we should be so lucky), I feel like fees still aren't a big deal. they are quite low in monero compared to bitcoin, in best, worst, and average case  
+**\<suraeNoether>** yeah, PR is not relevant to security. thing is, unless price increases by an order of magnitude (we should be so lucky), I feel like fees still aren't a big deal. they are quite low in byterub compared to bitcoin, in best, worst, and average case  
 **\<sarang>** Hoping to hit March, but not making the testing dependent on that timeline  
 **\<suraeNoether>** but thats measured in fiat  
 **\<endogenic>** in that case, is a bounty a good idea?  
@@ -90,7 +90,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** i've been curious about that too \^  
 **\<suraeNoether>** endogenic: can you elaborate?  
 **\<endogenic>** er sorry, on which?  
-**\<suraeNoether>** i feel like since monero is a cryptocurrency there is a large financial incentive for penetration  
+**\<suraeNoether>** i feel like since byterub is a cryptocurrency there is a large financial incentive for penetration  
 **\<sarang>** suraeNoether: the paper establishes security definitions  
 **\<sarang>** proved for MO, for which SO is a degenerate case  
 **\<endogenic>** suraeNoether: yeah but there might also be disincentives to let us know about it :P  
@@ -154,9 +154,9 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** that's the obvious way forward - if you are accounting for both storage space and CPU cost, you need the two factors present in the fee  
 **\<suraeNoether>** so, actually, i want to address luigi's point  
 **\<suraeNoether>** because we are tugging at two ends of the rope, cpu efficiency versus privacy  
-**\<suraeNoether>** i think if monero users want to enjoy privacy over the long run, we need either zk-stark whole-blockchain-like signatures, or we need very large ring sizes. and in both cases, we can't have authenticating data like signatures scale linearly in size, or we are sunk in the water.  
+**\<suraeNoether>** i think if byterub users want to enjoy privacy over the long run, we need either zk-stark whole-blockchain-like signatures, or we need very large ring sizes. and in both cases, we can't have authenticating data like signatures scale linearly in size, or we are sunk in the water.  
 **\<suraeNoether>** i've been using the attitude that each gain in speed or performance can be matched with a bigger RTRS RingCT so that users don't necessarily notice any performance change, their privacy merely increases  
-**\<suraeNoether>** on the other hand, we can make things faster while keeping monero's privacy where it's at  
+**\<suraeNoether>** on the other hand, we can make things faster while keeping byterub's privacy where it's at  
 **\<suraeNoether>** the goal is hopefully to meet in the middle somehow  
 **\<suraeNoether>** underneath the entire BP discussion is which direction we are going to take ByteRub over the next few months or years  
 **\<suraeNoether>** which was why I wanted to bring up point 4) before, about "the future."  
@@ -170,26 +170,26 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** https://en.wikipedia.org/wiki/Snackwell_effect ?  
 **\<luigi1111w>** hyc I don't think so  
 **\<ArticMine>** It is starting to look like verification time rather than size becomes the dominant cost parameter  
-**\<moneromooo>** If CPUs get faster, we have more users and larger blocks.  
+**\<byterubmooo>** If CPUs get faster, we have more users and larger blocks.  
 **\<suraeNoether>** (by the way, for point (3): the past weeks I've been working on multisig and that's essentially all. After handing it off to sarang I am now extremely excited to read about BPs and the new zk-starks, which could simply make this whole discussion moot anyhow.)  
 **\<luigi1111w>** that would be some entity data crunching. They'd just add as many cpus as needed  
 **\<luigi1111w>** I guess technically it'd be cheaper too, but the cost is likely not high enough to matter one way or the other  
 **\<ArticMine>** Yes but the cost of verification scales exponentially relative to size  
 **\<suraeNoether>** ArticMine: the verification time does appear to have become the most important feature of new cryptoschemes, to me  
 **\<ArticMine>** It could become dominant eventually because of the different scaling rates  
-**\<suraeNoether>** hyc: if it's exponentially difficult (in # of blocks say O(2\^i)) to analyze the monero blockchain, and you double your blocks/s of analysis, you still have an exponential amount of time for analysis O(2\^(i-1))  
+**\<suraeNoether>** hyc: if it's exponentially difficult (in # of blocks say O(2\^i)) to analyze the byterub blockchain, and you double your blocks/s of analysis, you still have an exponential amount of time for analysis O(2\^(i-1))  
 **\<hyc>** Ok so that implies we wouldn't need to increase ringsize very often in the future  
 **\<ArticMine>** However we must keep in mind that not all users will move to large MO proofs  
 **\<luigi1111w>** why wouldn't they?  
 **\<sarang>** If the vast majority of txns are still 2 outputs, that wouldn't change  
-**\<moneromooo>** Mymonero users ? :)  
+**\<byterubmooo>** Mybyterub users ? :)  
 **\<ArticMine>** It is only advantageous to very large payers  
-**\<luigi1111w>** moneromooo I think endogenic is working on copying the c++ wallet code, so it'd likely include that  
+**\<luigi1111w>** byterubmooo I think endogenic is working on copying the c++ wallet code, so it'd likely include that  
 **\<luigi1111w>** otherwise I'll add it to JS probably  
-**\<moneromooo>** Great.  
+**\<byterubmooo>** Great.  
 **\<endogenic>** we may even be able to transpile that C++ back to JS for the new web wallet, but the rest will run on the C++ yes  
-**\<luigi1111w>** well I'll add it to JS anyway, for my own stuff, but probably mymonero.com too if needed  
-**\<suraeNoether>** so, in terms of "The Future:" sarang and I want to write up the ByteRub Standards, which we are excited about, and in those standards we simply want 1) to describe what the monero codebase currently does, 2) why those choices seem to have been made (if monero) or kept (if cryptonote reference), and 3) an outline of possible future algorithms for use in place of each piece. This whole discussion about  
+**\<luigi1111w>** well I'll add it to JS anyway, for my own stuff, but probably mybyterub.com too if needed  
+**\<suraeNoether>** so, in terms of "The Future:" sarang and I want to write up the ByteRub Standards, which we are excited about, and in those standards we simply want 1) to describe what the byterub codebase currently does, 2) why those choices seem to have been made (if byterub) or kept (if cryptonote reference), and 3) an outline of possible future algorithms for use in place of each piece. This whole discussion about  
 **\<suraeNoether>** verification time, etc, goes back to a question of which algorithms we might in "possible future algorithms," and our motivations/design philosophies for doing so.  
 **\<serhack>** suraeNoether: ByteRub standards will be helpful for me in order to write the ebook.  
 **\<suraeNoether>** serhack: the ByteRub Standards are going to be extremely helpful to the community for a long time afterwards. they are going to be extremely un-sexy to the community  
@@ -216,7 +216,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** and i'm thinking i'm willing to match the ByteRub community up to a certain amount in XMR for a nice, big, public contest on the matter  
 **\<luigi1111w>** the dice is at the end btw  
 **\<hyc>** L3 isn't that slow, and it's faster than main RAM. this was a pretty good approach to prevent trivial optimization (fitting into L2 or faster)  
-**\<luigi1111w>** https://github.com/byterubpay/monero/blob/master/src/crypto/slow-hash.c#L488  
+**\<luigi1111w>** https://github.com/byterubpay/byterub/blob/master/src/crypto/slow-hash.c#L488  
 **\<suraeNoether>** luigi1111w: ah, thanks, i thought i had the order mixed up  
 **\<suraeNoether>** hyc yes, you are correct  
 **\<sarang>** It'd be important to determine what you'd want out of a new PoW suraeNoether  
@@ -256,20 +256,20 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** It'd be a highly nontrivial thing to do  
 **\<sarang>** You need lots of external testing  
 **\<sarang>** that's why the NIST contests take so freaking long  
-**\<moneromooo>** I really don't like the idea of creating an expectation we'll change to whatever this unearths.  
+**\<byterubmooo>** I really don't like the idea of creating an expectation we'll change to whatever this unearths.  
 **\<iDunk>** ^^  
 **\<luigi1111w>** I don't think that is expected  
 **\<luigi1111w>** or if it is, cancel that  
 **\<luigi1111w>** (expectation)  
 **\<sarang>** the incentive to test NIST standards is the understanding of widespread adoption  
-**\<suraeNoether>** moneromooo: we can say the default entry is the cryptonight algorithm submitted by the general fund.  
+**\<suraeNoether>** byterubmooo: we can say the default entry is the cryptonight algorithm submitted by the general fund.  
 **\<suraeNoether>** everyone is competing against htat  
 **\<luigi1111w>** I would be curious to see the parameters I guess  
 **\<suraeNoether>** to get into the second round of judging, if we have multiple rounds, requires outrunning the bear: cryptonight. to get into the third round of judging requires outrunning each other.  
 **\<hyc>** and is ASIC-resistance part of the criteria?  
 **\<sarang>** I'd think so  
 **\<suraeNoether>** i'm okay with ASICs if they are already commoditized (somehow)  
-**\<suraeNoether>** if they are asic-able and someone can come in and blow a million bucks to own the entire monero asic market, that's a losing proposal  
+**\<suraeNoether>** if they are asic-able and someone can come in and blow a million bucks to own the entire byterub asic market, that's a losing proposal  
 **\<endogenic>** but that requires ppl to buy new hardware just to compete in mining, no?  
 **\<hyc>** that seems like a bad idea to me. it means everyone who wants to participate on a level playing field has to buy new hardware.  
 **\<endogenic>** seems to change the asic resistence idea  
@@ -277,7 +277,7 @@ author: dEBRUYNE / fluffypony
 **\<luigi1111w>** if you can blow a million bucks to own the market, something is very wrong  
 **\<luigi1111w>** why can't I come in and also blow a million to take half (and so on)  
 **\<ArticMine>** There a patent risks with ASICs - ASIC boost in Bitcoin comes to mind  
-**\<moneromooo>** I really like how people have started mining on CPUs for new reasons. This is only possible because mining on a CPU is feasible. Those are gimmicks, granted.  
+**\<byterubmooo>** I really like how people have started mining on CPUs for new reasons. This is only possible because mining on a CPU is feasible. Those are gimmicks, granted.  
 **\<endogenic>** but they might become much more widespread soon  
 **\<endogenic>** people are enabling web miners etc  
 **\<ArticMine>** Coinhive opened a can of worms  
@@ -294,7 +294,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** ok, so it sounds to me like people are willing to entertain the idea if the kinks of the governing contest judging body are ironed out, and as long as a rubric is publicly agreed upon. we are quibbling about details on the rubric right now, and that tells me people are receptive to the overall idea.  
 **\<hyc>** well... if it ain't broke don't fix it. what's broken?  
 **\<iDunk>** "So there is a chance" :D  
-**\<moneromooo>** That argument is invalid.  
+**\<byterubmooo>** That argument is invalid.  
 **\<suraeNoether>** lol iDunk  
 **\<suraeNoether>** hyc: if it ain't broke, no one will come up with a better idea  
 **\<suraeNoether>** and the money goes back to the general fund  
@@ -334,14 +334,14 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** Okay, well, meeting adjourned I suppose. luigi, out of curiosity: could you do me a favor? can you come up with some numbers on per-output transaction verification times (total, including ring signatures and range proofs) and PoW verification times that you consider "worst case," we never want to go slower? it would help me figure out whether we can optimize BP + RTRS RingCT to get both large ring  
 **\<suraeNoether>** sizes and get verification times down  
 **\<suraeNoether>** i feel like per-transaction, we should be trying to keep verification time down under 50ms, but maybe that's too slow  
-**\<endogenic>** who's on the monerophone? nobody.  
+**\<endogenic>** who's on the byterubphone? nobody.  
 **\<endogenic>** or everybody.  
 **\<endogenic>** or anybody?  
 **\<sarang>** In the old days, it was a "party line"  
 **\<luigi1111w>** for what hardware ^\_^  
 **\<luigi1111w>** and yes definitely under 50ms  
 **\<luigi1111w>** complicated question though  
-**\<moneromooo>** Not my my hardware then ^\_^  
+**\<byterubmooo>** Not my my hardware then ^\_^  
 **\<suraeNoether>** luigi1111w: the question i suppose is for the average node.  
 **\<suraeNoether>** and, again, just need upper bounds  
 **\<suraeNoether>** i know how to optimize a problem "subject to some cost \<= max\_cost"  

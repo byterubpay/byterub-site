@@ -6,7 +6,7 @@ summary: "Technologia trasowania (rutingu, rutowania) wdrożona w Kovri."
 
 ### Podstawy
 
-Pojęcie *trasowanie czosnkowe* posiada wiele interpretacji. Aktualnie Monero definiuje je jako metodę, którą @Kovri i @I2P tworzą anonimową sieć nakładkową peerów internetowych opartą na @wiadomościach.
+Pojęcie *trasowanie czosnkowe* posiada wiele interpretacji. Aktualnie ByteRub definiuje je jako metodę, którą @Kovri i @I2P tworzą anonimową sieć nakładkową peerów internetowych opartą na @wiadomościach.
 
 @Szyfrowanie-czosnkowe trasowania czosnkowego jest podobne do @szyfrowania-warstwowego w [trasowaniu cebulowym](https://en.wikipedia.org/wiki/Onion_routing) i efektywnie ukrywa adresy IP nadawcy oraz zabezpiecza informacje wysłane do @węzła-docelowego (i vice-versa).
 

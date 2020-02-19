@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-10-08
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-10-08
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -9,7 +9,7 @@ author: el00ruobuob / sarang
 # Logs  
 
 **\<sarang>** Let's begin!  
-**\<suraeNoether>** fluffypony knaccc luigi1111 luigiafk sarang andytoshi anonimal ArticMine binaryFate dEBRUYNE endogenic ErCiccione ferretinjapan gingeropolous gmaxwell hyc iDunk IsthmusCrypto john\_alan jwinterm kenshi84 kerber\_ medusa\_ moneromooo MoroccanMalinois naughtyfox needmoney90 oneiric\_ OhGodAGirl philkode pigeons rehrar rrol[m] sgp\_ smooth sneurlax stoffu unknownids vtnerd waxwing  
+**\<suraeNoether>** fluffypony knaccc luigi1111 luigiafk sarang andytoshi anonimal ArticMine binaryFate dEBRUYNE endogenic ErCiccione ferretinjapan gingeropolous gmaxwell hyc iDunk IsthmusCrypto john\_alan jwinterm kenshi84 kerber\_ medusa\_ byterubmooo MoroccanMalinois naughtyfox needmoney90 oneiric\_ OhGodAGirl philkode pigeons rehrar rrol[m] sgp\_ smooth sneurlax stoffu unknownids vtnerd waxwing  
 **\<suraeNoether>** meeting time! woo! i'll get banned from freenode eventually by calling everyone's name  
 **\<rehrar>** just in time  
 **\<suraeNoether>** So, greetings everyone  
@@ -28,7 +28,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** I like the idea that we employed last time where people can be free to ask questions before we begin  
 **\<suraeNoether>** (i mean in general, you are free to ask questions)  
 **\<suraeNoether>** but, before we start: who has questions in general for MRL?  
-**\<rehrar>** When Monero scale?  
+**\<rehrar>** When ByteRub scale?  
 **\<gingeropolous>** when GUI?  
 **\<suraeNoether>** how much does a piconero weigh  
 **\<sarang>** when 0.13  
@@ -41,7 +41,7 @@ author: el00ruobuob / sarang
 **\<sarang>** There's some formalization of the set theory that we already developed  
 **\<sarang>** and some parts of the results that are presented in a way that is FUD-inducing  
 **\<sarang>** "XX% of outputs are traceable!!!!1!"  
-**\<suraeNoether>** of course, 99% of those were announced in monerolink. :P  
+**\<suraeNoether>** of course, 99% of those were announced in byterublink. :P  
 **\<sarang>** So we worked through those, offered to work with the researchers, no word back from them except "we will look into it"  
 **\<suraeNoether>** or 100\*(1-p) for some reasonably small p, i believe they managed to find an additional, ... I think about a single day's worth of transactions in total, from teh whole blockchain, iirc  
 **\<sarang>** I'm working to get some updated blackball stats on our own to compare  
@@ -69,7 +69,7 @@ author: el00ruobuob / sarang
 **\<rehrar>** #litmaths  
 **\<suraeNoether>** last week I split our MRL research roadmap into a sequence of separate github issues (#30 and higher I believe) https://github.com/byterubpay/research-lab/issues  
 **\<suraeNoether>** nope, #31 and higher  
-**\<suraeNoether>** and I've spent a bit of time on my lightning-for-monero paper, but not nearly enough, as this RuPol thing is a nasty rabbit hole  
+**\<suraeNoether>** and I've spent a bit of time on my lightning-for-byterub paper, but not nearly enough, as this RuPol thing is a nasty rabbit hole  
 **\<rehrar>** is MRL going to transition to gitlab also?  
 **\<IsthmusCrypto>** I'm at the SF Blockchain Week Epicenter today & tomorrow on behalf of #noncesense-research-lab -- ping me if you're around and want to meet up for coffee/drink/chat. I'll be back with a million new ideas soon.  
 **\<sarang>** rehrar: I have no big preference  
@@ -101,14 +101,14 @@ author: el00ruobuob / sarang
 **\<nioc>** AIUI mooo thinks it's bad to include pool txs in the BB list  
 **\<suraeNoether>** the EAE attack and ring sizes in general are far more fearsome  
 **\<suraeNoether>** and far more worthy places for us to spend our limited time  
-**\<suraeNoether>** nioc: do you recall moneromooo's justificaiton for that?  
+**\<suraeNoether>** nioc: do you recall byterubmooo's justificaiton for that?  
 **\<sarang>** Not saying we should add them. Saying that we should see what effect they have so we can decide if/how to move forward  
 **\<suraeNoether>** sgp\_: i heard a rumor that you had started including heuristically linked outputs in the blackball list, or outputs that aren't necessarily \*provably\* spent. is that true?  
 **\<nioc>** sarang:  yes  
-**\<moneromooo>** I don't really like this. (1) they're not proven spent, (2) it means it strips away non pool miners' ring signaturity when they spend.  
+**\<byterubmooo>** I don't really like this. (1) they're not proven spent, (2) it means it strips away non pool miners' ring signaturity when they spend.  
 **\<suraeNoether>** sarang: would you mind opening an issue up on the research-lab git on this topic so we can have a public discussion about it that is referrable later without combing through meeting logs?  
 **\<sarang>** I'll defer to sgp\_ since this is really his baby. I'm just an interested party who would like to know the results of the analysis  
-**\<sgp\_>** moneromooo we can talk about the implications, but the effectiveness of these pool ring signatures is already 0  
+**\<sgp\_>** byterubmooo we can talk about the implications, but the effectiveness of these pool ring signatures is already 0  
 **\<suraeNoether>** sgp\_ any word on my previous question?  
 **\<suraeNoether>** re: blackball list and non-provably spent outputs?  
 **\<sgp\_>** suraeNoether sneurlax's tool looks at coinbase outputs and the sent transactions to see which outptus could have been spent in the transaction  
@@ -117,7 +117,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** so... \*yes\* the tool blackballs outputs that are not provably spent?  
 **\<sgp\_>** so if a pool mis-reported, the tool would report different results  
 **\<sarang>** sgp\_: he's asking if your hosted list contains any non-proven  
-**\<sgp\_>** the current tool that ships with Monero now does not  
+**\<sgp\_>** the current tool that ships with ByteRub now does not  
 **\<suraeNoether>** i strongly recommend against any blackballing for any outputs that are not provably spent  
 **\<sgp\_>** right now, the site has 3 list categories  
 **\<equim[m]>** So if everyone is using blackball, then one can easily make others mark a target output as spent (N transactions with N ring size) that is actually not spent?  
@@ -131,7 +131,7 @@ author: el00ruobuob / sarang
 **\<equim[m]>** Okay, I think I need to read up more first.  
 **\<sarang>** equim[m]: if you generate N identical rings of N outputs with valid sigs, it means you controlled all N of them  
 **\<sgp\_>** fwiw I don't recommend a user should use a blackball list. I think we should use the findings of the blackball list to pursue other options to mitigate the data that would need to potentially be stored there  
-**\<moneromooo>** equim[m]: you cannot make N rings with N outputs, one of which being not yours.  
+**\<byterubmooo>** equim[m]: you cannot make N rings with N outputs, one of which being not yours.  
 **\<equim[m]>** Oh I got it, just missed that.  
 **\<equim[m]>** rings need to be identical  
 **\<sgp\_>** sneurlax's tool essentially creates a list of outputs that the pool controls at any one given time, then sees if it can attribute these outputs to specific ring signatures  
@@ -171,9 +171,9 @@ author: el00ruobuob / sarang
 **\<sarang>** yep  
 **\<sarang>** I think the correct avenue is non-funded collab  
 **\<suraeNoether>** so the short answer is that right now, it doesn't matter if it's in MRL's best interest to be a source of funding, because we literally can't do it  
-**\<sarang>** We already have university groups publishing on Monero  
+**\<sarang>** We already have university groups publishing on ByteRub  
 **\<suraeNoether>** yep  
-**\<rehrar>** I'm going to make it my personal mission to make Momos a thing for Monero in the same way bucks and paper is for dollars  
+**\<rehrar>** I'm going to make it my personal mission to make Momos a thing for ByteRub in the same way bucks and paper is for dollars  
 **\<suraeNoether>** all about the momos  
 **\<endogenic>** i think.. it does matter.. because if it's not in mrl's interest then we don't have to become nonprofit administrators with the ffs funding we have.  
 **\<suraeNoether>** so, that actually puts a nail in a coffin that i very much wanted to either be nailed shut or aired out in the daylight, i was uncomfortable with whatever was inside banging on a loose lid  
@@ -194,14 +194,14 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** yep  
 **\<suraeNoether>** heh  
 **\<suraeNoether>** so, that's going on a longer-term back burner  
-**\<suraeNoether>** another thing I wanted to talk about is the Monero Konferenco  
+**\<suraeNoether>** another thing I wanted to talk about is the ByteRub Konferenco  
 **\<sarang>** So I agree with the sentiment that FFS shouldn't fund university grants, but we should be receptive to helping good researchers apply for funding, and also keep collaborating for free with groups we know are interested  
 **\<suraeNoether>** especially researchers who have contributed to the project already  
 **\<endogenic>** sarang: if ffs proposals for grants had more trouble getting funded than those which didnt have admin fees attached then i think that could create a market to lower admin fees  
 **\<suraeNoether>** endogenic: my experience, to be frank, is that almost any university will climb over their own grandmother, so to speak, for more funding, so you may not be wrong. however, these institutions are oftentimes very... slow... to... make... decisions... regarding new technology especially  
 **\<suraeNoether>** but anyway, unless folks have questions, let's move along to conference talk  
-**\<suraeNoether>** re: the Monero Konferenco, I finally have all the quotes for costs that I need to post the funding request, and I want everyone's advice on how to proceed  
-**\<rehrar>** MoneroKon!  
+**\<suraeNoether>** re: the ByteRub Konferenco, I finally have all the quotes for costs that I need to post the funding request, and I want everyone's advice on how to proceed  
+**\<rehrar>** ByteRubKon!  
 **\<suraeNoether>** long story short I've boiled down our possibilities to at least two, if not three possible locations, all that are roughly within the same range of price and amenities. However, one of those locations is the University of Colorado in Denver, which has some... interesting requirements... for the events held there. And there is a possiblity that they have to turn us down if we are not a "society" like SIAM or  
 **\<suraeNoether>** AMS (for the same reason that grants can't be accepted)  
 **\<suraeNoether>** all that needs to happen there is one professor decide to "sponsor" the event, but then there are issues with a public university endorsing our little conference, and whether that is even allowed  
@@ -209,7 +209,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** so, depending on my communications with them this week, it may simply not be possible to do it there. I've already gotten proposals from the Colorado Convention Center and the University of Denver, both of which have some sub-optimal properties  
 **\<suraeNoether>** it's not only the best of the bunch price-wise, I think, but also: you can take the lightrail from the airport to the location, which is embedded in the 16th street mall, which is a bit of a tourist location. lots of restaurants and hotels, etc  
 **\<suraeNoether>** and there are bike share stations all around, etc  
-**\<endogenic>** rehrar thinking about your previous mention of people being funded-out .. tbh we have a lot more funding sources than those who are aware of the ffs system but they cant donate monero because they dont have any. we need to open the funding platform to those who visit then drop off  
+**\<endogenic>** rehrar thinking about your previous mention of people being funded-out .. tbh we have a lot more funding sources than those who are aware of the ffs system but they cant donate byterub because they dont have any. we need to open the funding platform to those who visit then drop off  
 **\<suraeNoether>** this meeting is not about the FFS  
 **\<suraeNoether>** and I would really like to move on  
 **\<suraeNoether>** we are coming up on an hour already. :P  
@@ -225,7 +225,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** however, locations aside: we have numbers for funding requests, and I want folks' advice on moving forward for this  
 **\<rehrar>** My honest opinion is, if this can be hammered out relatively quickly, then let's try for there. If not, then we should find another place. The truth is so much depends on the venue that it's super hard, if not impossible in some areas, to plan further without knowing the venue  
 **\<suraeNoether>** I feel like having more than one funding round would be wise, where we can cash out as we go. this could prevent something like asking for the single big chunk all at once and then failign to fund the entire thing, even though we could still throw a kcikass event for 80% of funding, or even 60%, as long as we plan around it  
-**\<suraeNoether>** has that sort of thing been done through the Monero FFS yet?  
+**\<suraeNoether>** has that sort of thing been done through the ByteRub FFS yet?  
 **\<suraeNoether>** also, if we can get a sponsorship, say from Cake Wallet or Tari or something like that, over-funding could be returned to the community through the general fund or whatever  
 **\<sarang>** what is the amount of the "big chunk"  
 **\<rehrar>** I 100% support those terms  
@@ -235,12 +235,12 @@ author: el00ruobuob / sarang
 **\<gingeropolous>** this may or may not have been thought of or talked about above, but if MRL can't do university stuff because its a total PITA etc, one resource that could be created is a research facilitator  
 **\<rehrar>** that's just my opinion though  
 **\<suraeNoether>** my initial numbers were 54,150 USD to 72,900 USD, but i was assuming wedding-level costs of a venue. with our newest numbers, the cost will be closer to 52k USD to 59k USD  
-**\<gingeropolous>** i.e., if there's a researcher at a university who wants to do monero research, we can provide grant templates or boilerplate crap or letters of support  
+**\<gingeropolous>** i.e., if there's a researcher at a university who wants to do byterub research, we can provide grant templates or boilerplate crap or letters of support  
 **\<rehrar>** I'm not sure how wise several funding rounds is though  
 **\<gingeropolous>** for the university researchers grant application etc  
 **\<suraeNoether>** gingeropolous: that's a very interesting idea that we can start looking at over the next few months  
 **\<rehrar>** depending on how quickly it moves through the system and gets funded each time, it might be too long to get stuff done  
-**\<sarang>** I still think we need to do a better job of reaching out to groups that have already done Monero research  
+**\<sarang>** I still think we need to do a better job of reaching out to groups that have already done ByteRub research  
 **\<gingeropolous>** yeah, it shouldn't hit any beaurocratic nightmare hurdles  
 **\<suraeNoether>** rehrar: that's a fair point  
 **\<rehrar>** I think make an FFS for 65k  
@@ -290,7 +290,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** I assumed nothing about fees.  
 **\<suraeNoether>** here is the section I was going to include on that.  
 **\<sarang>** Cool, so it assumes people show up fo free?  
-**\<suraeNoether>** \*Registration fees.\* Charging attendees is optional here and we should discuss the benefits (free and open access to Monero conferences is something we value?) and the costs (random crazy people and ICO shillsters will almost certainly walk in off the street!). It's worth pointing out that the event will \*not\* pay for itself unless we charge more than 1000 USD per ticket and we have full attendance.  
+**\<suraeNoether>** \*Registration fees.\* Charging attendees is optional here and we should discuss the benefits (free and open access to ByteRub conferences is something we value?) and the costs (random crazy people and ICO shillsters will almost certainly walk in off the street!). It's worth pointing out that the event will \*not\* pay for itself unless we charge more than 1000 USD per ticket and we have full attendance.  
 **\<suraeNoether>** currently looking at 50-70 attendees, so charging, say, 40 bucks for entry would only partially mitigate our total costs  
 **\<sarang>** Does the LLC's tax burden come into play with any of this?  
 **\<rehrar>** We can discuss what it would look like to charge a small amount to partially mitigate costs, and give tickets for free to anyone who asks nicely.:D  
@@ -306,7 +306,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** 1.5  
 **\<rehrar>** \*venue  
 **\<sarang>** Will there be a story about the afterparty on mashable?  
-**\<suraeNoether>** 50-70 for measuring interest the first year, and to keep the topics and audience in the technical, rather than ICO/business end...  also because it's easier to scale a small event up than throw a big event htat no one shows up to... not to mention, fluffypony has discussed with me throwing a monero conference preceding the magical crypto friends conference he is planning in NY, and I \*imagine\* that's going to  
+**\<suraeNoether>** 50-70 for measuring interest the first year, and to keep the topics and audience in the technical, rather than ICO/business end...  also because it's easier to scale a small event up than throw a big event htat no one shows up to... not to mention, fluffypony has discussed with me throwing a byterub conference preceding the magical crypto friends conference he is planning in NY, and I \*imagine\* that's going to  
 **\<suraeNoether>** be a larger scale event.  
 **\<suraeNoether>** most of these universities have so much room for events like these we can scale up relatively easily without paying \*too much\* more  
 **\<rehrar>** interesting  
@@ -322,8 +322,8 @@ author: el00ruobuob / sarang
 **\<rehrar>** no questions, give opinion  
 **\<suraeNoether>** okay, the main thing is this: we have a responsibility to our users. they use our currency in some cases to protect their own livelihoods from tyrannical etc etc  
 **\<sarang>** yes  
-**\<suraeNoether>** in some cases, monero is a matter of life and death  
-**\<suraeNoether>** due to this, I believe we need to start shifting our attitude about development at Monero away from efficiency and towards security  
+**\<suraeNoether>** in some cases, byterub is a matter of life and death  
+**\<suraeNoether>** due to this, I believe we need to start shifting our attitude about development at ByteRub away from efficiency and towards security  
 **\<suraeNoether>** and due to this, I believe we should move to a fixed but large ring size, like 45.  
 **\<sarang>** Do we have data to back up such a choice?  
 **\<sarang>** I believe our job is to provide users the best efficiency for what we see as reasonable and necessary security/privacy  
@@ -340,7 +340,7 @@ author: el00ruobuob / sarang
 **\<rehrar>** churning is an active choice to protect yourself  
 **\<gingeropolous>** i like the idea of shifting focus towards security.... but that seems to go hand-in-hand with efficiency.  
 **\<rehrar>** every step you make a user take for themselves, you will see significant drop off in people who do it  
-**\<gingeropolous>** then again, monero (the entity) didn't give two shits about efficiency when it went to RingCT  
+**\<gingeropolous>** then again, byterub (the entity) didn't give two shits about efficiency when it went to RingCT  
 **\<sarang>** What I mean is that if we can establish that a large ring increase has measurable benefits for users under reasonable threat models, that's a conversation worth having  
 **\<suraeNoether>** actually gingeropolous that is one of hte best points: we added these huge slow range proofs without hesitation, and then we had a big PR win for making them more efficient.  
 **\<suraeNoether>** we should just assume the following threat model: anyone we transact with is transacting with an AML/KYC exchange, who can be assumed to have godlike, state-level computational power because a government serving them a warrant leads to that  
@@ -351,18 +351,18 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** ^ bingo  
 **\<rehrar>** and I think a threat model of EABE is probably the one to operate under  
 **\<rehrar>** BUT  
-**\<rehrar>** since we cannot see Monero's stuff  
+**\<rehrar>** since we cannot see ByteRub's stuff  
 **\<rehrar>** we should analyze how people use altcoins  
 **\<rehrar>** like Litecoin or Dash  
 **\<rehrar>** see if it tends to go EABE  
 **\<nioc>** wownero just forked and their static ringsize is now 22.  Don't know if they will have any stats that would be of interest to "us"  
-**\<rehrar>** and extrapolate from that to Monero  
+**\<rehrar>** and extrapolate from that to ByteRub  
 **\<kovri-slack> \<oneiric>** what do EAE and EABE stand for?  
 **\<sarang>** That use could be waaaay different  
 **\<rehrar>** sarang: we do the same for sending patterns and selecting ring members though  
 **\<sarang>** Eve-Alice-Eve and Eve-Alice-Bob-Eve  
 **\<suraeNoether>** oneiric\_: EAE is "eve-alice-eve" where eve is an evil exchange and you are alice. other non-E letters are other users who may or may not be malicious  
-**\<sarang>** rehrar: we have some Monero data for that too  
+**\<sarang>** rehrar: we have some ByteRub data for that too  
 **\<rehrar>** ok  
 **\<sarang>** based on deduced spends  
 **\<kovri-slack> \<oneiric>** ok, thanks sarang and suraeNoether  
@@ -391,19 +391,19 @@ author: el00ruobuob / sarang
 **\<sarang>** rehrar: size efficiency, yes  
 **\<rehrar>** I understand they go together, but I think priority should be on establishing usage patterns to establish a threat model  
 **\<sarang>** agreed  
-**\<rehrar>** I believe Monero has been operating for a dangerously long time without a specified threat model  
+**\<rehrar>** I believe ByteRub has been operating for a dangerously long time without a specified threat model  
 **\<sarang>** Well, and our ring increases have to some extent been based on "bigger is better"  
 **\<sarang>** we're long past the point of chain reaction style threats  
 **\<rehrar>** and so, while efficiencies to ring sizes are good, I think the establishment of the threat model is imperative to all future research in this area  
 **\<sarang>** (exactly 5 post-CT outputs are blackball-worthy from on-chain analysis)  
 **\<rehrar>** as a community member, I would propose that both sarang and suraeNoether work together on hammering out this formalization before further work proceeds  
-**\<rehrar>** this will further legitimize Monero in the privacy/security industry.  
+**\<rehrar>** this will further legitimize ByteRub in the privacy/security industry.  
 **\<gingeropolous>** i mean we could just go to 45, and then let optimization take its natural course  
 **\<rehrar>** At the moment, I can see the criticisms from other people that see the lack of a defined threat model as proof that we are flying by the seat of our pants  
 **\<gingeropolous>** ala RingCT  
 **\<suraeNoether>** my primary concern is that repeated analyses of a system that uses small anonymity set sizes (sub-millions) can be very powerful in reducing effective anonymity set sizes, regardless of the threat model  
 **\<sarang>** We could also require users to use a different burner laptop from a different IP for every transaction, but that doesn't mean it's necessarily helpful  
-**\<rehrar>** gingeropolous: doesn't solve the problem of threat modeling and formalization. and Monero is better than that  
+**\<rehrar>** gingeropolous: doesn't solve the problem of threat modeling and formalization. and ByteRub is better than that  
 **\<suraeNoether>** and the "sub-millions" thing is essentially a non-starter for obvious reasons  
 **\<gingeropolous>** "who needs action when you've got words"  
 **\<suraeNoether>** heh  
@@ -414,8 +414,8 @@ author: el00ruobuob / sarang
 **\<rehrar>** yes ^  
 **\<rehrar>** for me, as a recommendation from a community member, this is priority number 1  
 **\<rehrar>** can't speak for others obviously  
-**\<sarang>** I think it answers "how can we use Monero safely right now" so we can move to "how can we make Monero better for tomorrow"  
-**\<suraeNoether>** okay, I'm going to formalize a single-hop (EABE) and double-hop (EBABE) pair of threat models, write up my formal definition of fungibility, demonstrate it implies anonymity, show that neither zcash nor monero satisfy my definition of fungibility, demonstrate a churn model that brings us closer to fungibility, and i'll share that document with the community. that will be my top priority this week  
+**\<sarang>** I think it answers "how can we use ByteRub safely right now" so we can move to "how can we make ByteRub better for tomorrow"  
+**\<suraeNoether>** okay, I'm going to formalize a single-hop (EABE) and double-hop (EBABE) pair of threat models, write up my formal definition of fungibility, demonstrate it implies anonymity, show that neither zcash nor byterub satisfy my definition of fungibility, demonstrate a churn model that brings us closer to fungibility, and i'll share that document with the community. that will be my top priority this week  
 **\<rehrar>** thank you suraeNoether  
 **\<sarang>** baller  
 **\<rehrar>** from a research perspective  

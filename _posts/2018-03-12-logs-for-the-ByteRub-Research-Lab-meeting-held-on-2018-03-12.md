@@ -41,12 +41,12 @@ author: el00ruobuob / surae
 **\<endogenic>** sarang: right i suppose i'm thinking more from the security and cracking standpoint .. like, can we confirm what % of data input fuzzing we've done and where / if / how the code fails  
 **\<endogenic>** etc  
 **\<suraeNoether>** where they aren't providing bug bounties for the actual library, but for the unit test suite: if you can upload a new unit test that the current system fails, and yet still passes all current unit tests, you get the bounty  
-**\<sarang>** That's more of a question for moneromooo I think  
+**\<sarang>** That's more of a question for byterubmooo I think  
 **\<endogenic>** that sounds interesting surae  
 **\<suraeNoether>** it incentivizes things very nicely  
 **\<suraeNoether>** but it requires a really great test suite  
 **\<sarang>** yes indeed  
-**\<moneromooo>** I don't think we can easily determine a percentage of inputs for fuzzing.  
+**\<byterubmooo>** I don't think we can easily determine a percentage of inputs for fuzzing.  
 **\<endogenic>** well that was just one example  
 **\<endogenic>** i cant take responsibility to define all the jobs an expert cracker would do :P  
 **\<suraeNoether>** if we are going to start putting money into auditors, then we should consider putting a proportion of that toward beefing up our test suites. perhaps require that auditors propose new unit tests, or something along those lines, in addition to a thumbs up/down and a list of recommended changes  
@@ -71,9 +71,9 @@ author: el00ruobuob / surae
 **\<rehrar>** it is when my coding is 1/10 :D  
 **\<sarang>** Any questions on the current audit that anyone has?  
 **\<sarang>** Kudelski will be the first to go  
-**\<moneromooo>** When does the C++ based one start ?  
+**\<byterubmooo>** When does the C++ based one start ?  
 **\<sarang>** They're available this month  
-**\<moneromooo>** More precisely ?  
+**\<byterubmooo>** More precisely ?  
 **\<sarang>** TBD once we sign with them, but I can check on more specific dates if you need them  
 **\<sarang>** Anything in particular?  
 **\<suraeNoether>** ok, well  
@@ -92,13 +92,13 @@ author: el00ruobuob / surae
 **\<suraeNoether>** ok in that case we will stop bringing it up every meeting for 3 weeks or so  :P  
 **\<sarang>** prepping a submission for defcon china  
 **\<suraeNoether>** that's cool  
-**\<sarang>** prepping a talk in portland on monero security  
+**\<sarang>** prepping a talk in portland on byterub security  
 **\<sarang>** reading up on some papers involving mixing and ring representations  
 **\<sarang>** hoping to get back to some math shortly for pippenger's algorithm  
 **\<sarang>** for speedier multiexp  
 **\<sarang>** more administrative work lately, unfortunately  
 **\<sarang>** I submitted a monthly report recently that details other efforts  
-**\<sarang>** linky linky https://forum.getmonero.org/9/work-in-progress/89005/funding-for-sarang-at-mrl-for-q1-2018?page=&noscroll=1#post-94324  
+**\<sarang>** linky linky https://forum.getbyterub.org/9/work-in-progress/89005/funding-for-sarang-at-mrl-for-q1-2018?page=&noscroll=1#post-94324  
 **\<suraeNoether>** any other questions for sarang?  
 **\<suraeNoether>** I'd like to remind the crowd that sarang's FFS funding round I believe has been posted, although I'm not sure if it's moved to Funding Required yet  
 **\<rehrar>** There's quite a few things that need to be moved to funding required  
@@ -107,14 +107,14 @@ author: el00ruobuob / surae
 **\<sarang>** There hasn't been much activity regarding it anyway  
 **\<sarang>** Not a huge rush. I write them in advance to allow for discussion if needed  
 **\<sarang>** How about suraeNoether? Your turn  
-**\<suraeNoether>** 4) Stuff I've been working on. Multisig paper, formal documentation work for monero, and a formal description of EABE attacks.  
+**\<suraeNoether>** 4) Stuff I've been working on. Multisig paper, formal documentation work for byterub, and a formal description of EABE attacks.  
 **\<suraeNoether>** For the multisig paper, I just received notes from sarang and I'll be composing a draft for review by someone outside of MRL.   
 **\<sarang>** suraeNoether: I'll have remaining notes added to your doc this afternoon  
 **\<suraeNoether>** right now I need to copy-paste some intro/notation stuff from a previous version of the paper, fix some references, stuff like that, and then take sarang's changes into account  
 **\<suraeNoether>** great thanks  
 **\<suraeNoether>** Once the document is a little less ugly, i'll link to it again  
 **\<sarang>** Now on to MAGIC per the agenda?  
-**\<suraeNoether>** I've been attempting to write up a formal description of the statement being proven in a given monero ringCT authentication, for two reasons. For one thing, I think that our approach for threshold multisig could be generalizable in a way that may make it fun to publish. But I'm not sure if this description has appeared before in the literature, so I'm looking around and contacting some folks  
+**\<suraeNoether>** I've been attempting to write up a formal description of the statement being proven in a given byterub ringCT authentication, for two reasons. For one thing, I think that our approach for threshold multisig could be generalizable in a way that may make it fun to publish. But I'm not sure if this description has appeared before in the literature, so I'm looking around and contacting some folks  
 **\<suraeNoether>** For another reason, because I haven't seen it written out explicitly before.  
 **\<suraeNoether>** And the EABE attack is concerning enough to me to be writing up some statistical arguments about churn (sgp\_[m] ping)  
 **\<suraeNoether>** i'll be linking all these documents in the next week  
@@ -124,14 +124,14 @@ author: el00ruobuob / surae
 **\<suraeNoether>** i feel like folks have a lot of questions about MAGIC, so I'll ask if anyone has any questions  
 **\<sarang>** Question I've seen is: what types of things will it fund, and how will they be determined?  
 **\<luigi1111w>** sarang moved  
-**\<luigi1111w>** moneromooo ready for funding  
+**\<luigi1111w>** byterubmooo ready for funding  
 **\<rehrar>** thanks luigi  
 **\<sarang>** ty luigi1111w  
 **\<suraeNoether>** Good question. The overall scope will be: 1) scholarships to undergraduates in the US 2) grants to graduate students in the US, 3) grants to researchers in the US, 4) grants to schools globally with an emphasis on secondary and tertiary education  
 **\<suraeNoether>** how much of that we can actually do depends on our funding  
 **\<suraeNoether>** oh 5) sponsoring tehcnical conferences in cryptocurrencies is also on that list  
 **\<sarang>** suraeNoether: why restrict scholarships and grad grants to US?  
-**\<suraeNoether>** so our first year, my goal is to provide a few scholarships, sponsor the first monero conference, and fix up a school in south africa  
+**\<suraeNoether>** so our first year, my goal is to provide a few scholarships, sponsor the first byterub conference, and fix up a school in south africa  
 **\<rehrar>** what other ways of funding are you searching for besides FFS stuff?  
 **\<endogenic>** do you have any criteria to decide what is good research that gets funded?  
 **\<suraeNoether>** sarang: because i feel like we already are going to have lots of applications  
@@ -156,7 +156,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** as far as funding goes, though, i'm matching up to 5% of donations up to 50 XMR for this venture. If we manage to get 1000 XMR, I donate 50 XMR to the cause and we'll have 1050 XMR for the first year  
 **\<sgp\_[m]>** suraeNoether a little late to chime in, but I would love to help you with the EAE paper if there's any way I can  
 **\<suraeNoether>** sgp\_[m]: PM me  
-**\<suraeNoether>** and if we can manage that much XMR the first year, we can pay for like 5 scholarships for undergrads, 2 grad student grants, fix up a school or two in ZA, and host the first monero conference (with no entry fee)  
+**\<suraeNoether>** and if we can manage that much XMR the first year, we can pay for like 5 scholarships for undergrads, 2 grad student grants, fix up a school or two in ZA, and host the first byterub conference (with no entry fee)  
 **\<sarang>** This is an interesting pilot project that could take many different directions  
 **\<suraeNoether>** and still have some XMR leftover for the next year  
 **\<sarang>** I think it'll important to keep the scope balanced between too narrow and too broad  
@@ -188,7 +188,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** WELCOME ABOARD REHRAR  
 **\<rehrar>** I'm working on this myself actually in my free time  
 **\<rehrar>** We're like the second worst in the nation  
-**\<suraeNoether>** cool email me at surae@getmonero.org so I can get you on a list  
+**\<suraeNoether>** cool email me at surae@getbyterub.org so I can get you on a list  
 **\<suraeNoether>** okay, lastly  
 **\<rehrar>** I'm on a lot of NSA lists already, but sure.  
 **\<endogenic>** yes NM does  
@@ -197,7 +197,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** okay, lastly: I wanted to talk about how to educate the community about key safety with ByteRubV and best practices (currently, I'm not convinced churn is non-negligibly helpful under a very specific threat model)  
 **\<rehrar>** What about a short one minute video?  
 **\<suraeNoether>** would be very convenient to link to  
-**\<rehrar>** We can put it on our soon-to-come media.getmonero.org as well as youtube and stuff  
+**\<rehrar>** We can put it on our soon-to-come media.getbyterub.org as well as youtube and stuff  
 **\<suraeNoether>** i've been thinking about starting whiteboard youtube videos explaining how cryptocurrencies work. this could be the first one.  
 **\<rehrar>** suraeNoether, talk with me later about Privacademy.  
 **\<nioc>** something that would allow an idiot like me to know exactly what to do  
@@ -240,19 +240,19 @@ author: el00ruobuob / surae
 **\<suraeNoether>** or if they could rather  
 **\<ArticMine>** By the way the network effect is less because of spent RingCT ouputs that will not be compromised  
 **\<rehrar>** Alright, I gotta split. Thanks for the meeting. Catch you guys later  
-**\<Olufunmilayo>** ArticMine, what good would a patched monerov be if the core team is not behind monerov? Also, suraeNoether, time would also be a factor yes? both have to be done simultaneously  
+**\<Olufunmilayo>** ArticMine, what good would a patched byterubv be if the core team is not behind byterubv? Also, suraeNoether, time would also be a factor yes? both have to be done simultaneously  
 **\<ArticMine>** The trouble is that the same keys are used on both chains  
 **\<ArticMine>** It will allow those who wish to claim and sell their ByteRubV to do so safely.  
 **\<suraeNoether>** oh no the double hash doesn't work unless all previous ring sigs do it that way. bah.  
 **\<ArticMine>** Not all but enough to provide a good mix  
 **\<ArticMine>** and that means pre fork mixins will only work  
-**\<Olufunmilayo>** ArticMine, you will then have two competing versions of monerov competing against each other. I do see the benefit but \*shrug\*  
+**\<Olufunmilayo>** ArticMine, you will then have two competing versions of byterubv competing against each other. I do see the benefit but \*shrug\*  
 **\<suraeNoether>** okay, well, unless folks have more questions or suggestions, i think our best bet is simply to put out a video that says "don't claim your ByteRubV, here is why."  
 **\<ArticMine>** No the patch can be compatible with the ByteRubV consensus  
-**\<suraeNoether>** because the math to patch monerov or to protect monero isn't obvious to me right now  
+**\<suraeNoether>** because the math to patch byterubv or to protect byterub isn't obvious to me right now  
 **\<ArticMine>** I am not sure if there is a solution  
 **\<iDunk>** It's mooo's code to make it use the ringdb, AFAIUI.  
-**\<Olufunmilayo>** suraeNoether, only other thing would be to I guess track monerov tx's to see just how bad it is haha  
+**\<Olufunmilayo>** suraeNoether, only other thing would be to I guess track byterubv tx's to see just how bad it is haha  
 **\<sarang>** We will  
 **\<suraeNoether>** Okay, well  
 **\<suraeNoether>** good meeting everyone  

@@ -10,15 +10,15 @@
 
 <!-- Write here. This text will be displayed on the Merchant page. Keep it short -->
 
-#### Enter the URL where a Monero mention can be found
+#### Enter the URL where a ByteRub mention can be found
 
-<!-- Be aware of the fact that to be listed, you must specify somewhere on your website that you accept Monero. -->
+<!-- Be aware of the fact that to be listed, you must specify somewhere on your website that you accept ByteRub. -->
 
 https://
 
-#### How do you accept Monero? *(choose only one option)*
+#### How do you accept ByteRub? *(choose only one option)*
 
-- [ ] Monero integrations *(github.com/monero-integrations)*
+- [ ] ByteRub integrations *(github.com/byterub-integrations)*
 - [ ] Globee
 - [ ] Native wallet
 - [ ] Other payment gateaway (Coinpayments, Morphtoken, etc. *Please specify*)

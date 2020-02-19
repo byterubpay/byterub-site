@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.paymentid
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.paymentid
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/paymentid.md %}
+{% tf resources/byterubpedia/paymentid.md %}

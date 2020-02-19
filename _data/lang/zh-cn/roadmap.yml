@@ -3,16 +3,16 @@
     - name: Launched on Bitcointalk
       date: 2014-04-18
       status: completed
-    - name: Renamed from Bitmonero to Monero
+    - name: Renamed from Bitmonero to ByteRub
       date: 2014-04-23
       status: completed
     - name: Recovered from a spam attack
       date: 2014-09-04
       status: completed
-    - name: Monero Research Lab Papers 1 and 2 published
+    - name: ByteRub Research Lab Papers 1 and 2 published
       date: 2014-09-12
       status: completed
-    - name: Monero Research Lab Paper 3 published
+    - name: ByteRub Research Lab Paper 3 published
       date: 2014-09-25
       status: completed
     - name: 0.8.8.6 released
@@ -20,7 +20,7 @@
       status: completed
 - year: 2015
   accomplishments:
-    - name: Monero Research Lab Paper 4 published
+    - name: ByteRub Research Lab Paper 4 published
       date: 2015-01-26
       status: completed
 - year: 2016
@@ -28,7 +28,7 @@
     - name: 0.9.0 Hydrogen Helix released
       date: 2016-01-01
       status: completed
-    - name: Monero Research Lab Paper 5 published
+    - name: ByteRub Research Lab Paper 5 published
       date: 2016-02-10
       status: completed
     - name: Network Upgrade to require minimum ringsize of 3 on all transactions

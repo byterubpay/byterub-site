@@ -154,7 +154,7 @@ $ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **transfer**
 
-Wysyła Monero do wielu odbiorców.
+Wysyła ByteRub do wielu odbiorców.
 
 Wejście:
 
@@ -163,11 +163,11 @@ Wejście:
   * *address* - ciąg; adres publiczny odbiorcy.
 * *fee* - niepodpisana liczba całkowita; kwota opłaty, gdy zignorowana, zostanie obliczona automatycznie.
 * *mixin* - niepodpisana liczba całkowita; liczba wyjść łańcucha do zmiksowaniah (0 oznacza brak miksowania).
-* *unlock_time* - niepodpisana liczba całkowita; liczba bloków, które muszą minąć zanim Monero może zostać wydane (0 oznacza brak       blokady).
+* *unlock_time* - niepodpisana liczba całkowita; liczba bloków, które muszą minąć zanim ByteRub może zostać wydane (0 oznacza brak       blokady).
 * *payment_id* - ciąg; (opcjonalny) losowy ciąg 32-bajtowy/64-znakowy heksadecymalny służący do identyfikacji transakcji.
 * *get_tx_key* - logiczny typ danych; (opcjonalny) wyszukuje klucz transakcji po jej wysłaniu.
 * *priority* - niepodpisana liczba całkowita; ustala pierwszeństwo transakcji. Akceptowanymi wartościami są 0-3 i oznaczają odpowiednio: domyślna, nieważna, normalna, ważniejsza, pierwszeństwo.
-* *do_not_relay* - logiczny typ danych; (ocpjonalny) Jeśli "true" - nowo utworzona transakcja nie zostanie przekazana sieci Monero (domyślnie ustawiono jako "false").
+* *do_not_relay* - logiczny typ danych; (ocpjonalny) Jeśli "true" - nowo utworzona transakcja nie zostanie przekazana sieci ByteRub (domyślnie ustawiono jako "false").
 * *get_tx_hex* - logiczny typ danych; wyszukuje transakcje jako ciąg heksadecymalny po jej wysłaniu.
 
 
@@ -207,11 +207,11 @@ Wejście:
   * *address* - ciąg; adres publiczny odbiorcy.
 * *fee* - niepodpisana liczba całkowita; kwota opłaty, gdy zignorowana, zostanie obliczona automatycznie.
 * *mixin* - niepodpisana liczba całkowita; liczba wyjść łańcucha do zmiksowaniah (0 oznacza brak miksowania).
-* *unlock_time* - niepodpisana liczba całkowita; liczba bloków, które muszą minąć zanim Monero może zostać wydane (0 oznacza brak       blokady).
+* *unlock_time* - niepodpisana liczba całkowita; liczba bloków, które muszą minąć zanim ByteRub może zostać wydane (0 oznacza brak       blokady).
 * *payment_id* - ciąg; (opcjonalny) losowy ciąg 32-bajtowy/64-znakowy heksadecymalny służący do identyfikacji transakcji.
 * *get_tx_keys* - logiczny typ danych; (opcjonalny) wyszukuje klucz transakcji po jej wysłaniu - do zignorowania.
 * *priority* - niepodpisana liczba całkowita; ustala pierwszeństwo transakcji. Akceptowanymi wartościami są 0-3 i oznaczają odpowiednio: domyślna, nieważna, normalna, ważniejsza, pierwszeństwo.
-* *do_not_relay* - logiczny typ danych; (ocpjonalny) Jeśli "true" - nowo utworzona transakcja nie zostanie przekazana sieci Monero (domyślnie ustawiono jako "false").
+* *do_not_relay* - logiczny typ danych; (ocpjonalny) Jeśli "true" - nowo utworzona transakcja nie zostanie przekazana sieci ByteRub (domyślnie ustawiono jako "false").
 * *get_tx_hex* - logiczny typ danych; wyszukuje transakcje jako ciąg heksadecymalny po jej wysłaniu.
 * *new_algorithm* - logiczny typ danych; jeśli "true" - używa algorytmu konstrukcji nowej transakcji, domyślnie ustalony jako "false".
 
@@ -274,7 +274,7 @@ Wejście:
 * *address* - ciąg; adres publiczny odbiorcy.
 * *priority* - niepodpisana liczba całkowita; (opcjonalne)
 * *mixin* - niepodpisana liczba całkowita; liczba wyjść z łańcucha bloków do zmiksowania (0 oznacza brak miksowania).
-* *unlock_time* - niepodpisana liczba całkowita; liczba bloków, które muszą upłynąć, zanim Monero może zostać wydane (0 oznacza brak        blokady).
+* *unlock_time* - niepodpisana liczba całkowita; liczba bloków, które muszą upłynąć, zanim ByteRub może zostać wydane (0 oznacza brak        blokady).
 * *payment_id* - ciąg; (opcjonalne) Losowy 32-bajtowy/64-znakowy ciąg heksadecymalny służący do identyfikacji transakcji.
 * *get_tx_keys* - logiczny typ danych; (opcjonalne) wyszukuje klucze transakcji po jej dokonaniu.
 * *below_amount* - niepodpisana liczba całkowita; (opcjonalne)
@@ -734,13 +734,13 @@ Wynik:
 Przykład:
 
 ```
-$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"make_uri","params":{"address":"44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A","amount":10,"payment_id":"0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef","tx_description":"Testing out the make_uri function.","recipient_name":"Monero Project donation address"}}'  -H 'Content-Type: application/json'
+$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"make_uri","params":{"address":"44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A","amount":10,"payment_id":"0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef","tx_description":"Testing out the make_uri function.","recipient_name":"ByteRub Project donation address"}}'  -H 'Content-Type: application/json'
 
 {
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "uri": "monero:44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A?tx_payment_id=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&tx_amount=0.000000000010&recipient_name=Monero%20Project%20donation%20address&tx_description=Testing%20out%20the%20make_uri%20function."
+    "uri": "monero:44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A?tx_payment_id=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&tx_amount=0.000000000010&recipient_name=ByteRub%20Project%20donation%20address&tx_description=Testing%20out%20the%20make_uri%20function."
   }
 }
 ```
@@ -766,7 +766,7 @@ Wynik:
 Przykład:
 
 ```
-$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"monero:44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A?tx_payment_id=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&tx_amount=0.000000000010&recipient_name=Monero%20Project%20donation%20address&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
+$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"monero:44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A?tx_payment_id=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&tx_amount=0.000000000010&recipient_name=ByteRub%20Project%20donation%20address&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
 
 {
   "id": 0,
@@ -776,7 +776,7 @@ $ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
       "address": "44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A",
       "amount": 10,
       "payment_id": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
-      "recipient_name": "Monero Project donation address",
+      "recipient_name": "ByteRub Project donation address",
       "tx_description": "Testing out the make_uri function."
     }
   }
@@ -1035,7 +1035,7 @@ Wynik:
 Przykład:
 
 ```
-$ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"add_address_book","params":{"address":"44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A","description":"Donation address for the Monero project"}}' -H 'Content-Type: application/json'
+$ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"add_address_book","params":{"address":"44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A","description":"Donation address for the ByteRub project"}}' -H 'Content-Type: application/json'
 
 {
   "id": "0",
@@ -1095,7 +1095,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **start_mining**
 
-Rozpoczyna wydobywanie w demonie Monero.
+Rozpoczyna wydobywanie w demonie ByteRub.
 
 Wejście:
 
@@ -1121,7 +1121,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **stop_mining**
 
-Przerywa wydobywanie w demonie Monero.
+Przerywa wydobywanie w demonie ByteRub.
 
 Wejście: *brak*.
 

@@ -5,14 +5,14 @@ Lorsque vous envoyez un paiement à une partie qui conteste qu'il ait été effe
 Avec Bitcoin, cela est généralement fait en recherchant l'ID de transaction, où les adresses d'origine et de destination sont
 visibles, accompagnées du montant de la transaction.
 
-Monero cependant est confidentiel : cette information n'est pas disponible publiquement sur la chaîne de blocs. Les étapes sont donc
+ByteRub cependant est confidentiel : cette information n'est pas disponible publiquement sur la chaîne de blocs. Les étapes sont donc
 un peu plus complexes.
 
 Pour prouver à Charlie qu'elle a payée Bob, Alice doit fournir à Charlie ces données :
 
 - L'ID de transaction, comme c'est le cas avec Bitcoin ;
 - L'adresse de Bob, comme c'est le cas avec Bitcoin ;
-- La clef de la transaction, qui est une nouveauté de Monero et d'autres monnaies CryptoNote.
+- La clef de la transaction, qui est une nouveauté de ByteRub et d'autres monnaies CryptoNote.
 
 Lorsqu'Alice a réalisé la transaction, une clef à usage unique a été automatiquement générée pour cette unique transaction.
 

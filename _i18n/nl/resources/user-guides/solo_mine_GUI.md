@@ -1,6 +1,6 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-Het is heel makkelijk om solo te minen met de officiële grafische interface (GUI). Als je het nog niet gedaan hebt, ga dan naar de pagina <a href="{{site.baseurl}}/downloads/">Monero-downloads</a> en download de officiële GUI voor je besturingssysteem. Voer de installatie uit en wacht terwijl Monero wordt gesynchroniseerd met het netwerk. Als het goed is, staat er "Verbonden" in de linkerbenedenhoek.
+Het is heel makkelijk om solo te minen met de officiële grafische interface (GUI). Als je het nog niet gedaan hebt, ga dan naar de pagina <a href="{{site.baseurl}}/downloads/">ByteRub-downloads</a> en download de officiële GUI voor je besturingssysteem. Voer de installatie uit en wacht terwijl ByteRub wordt gesynchroniseerd met het netwerk. Als het goed is, staat er "Verbonden" in de linkerbenedenhoek.
 
 <img src="png/solo_mine_GUI/01.PNG" style="width: 600px;"/>
 
@@ -12,6 +12,6 @@ Daar vind je een optie om te beginnen met minen. Eventueel kun je aanpassen met 
 
 <img src="png/solo_mine_GUI/03.PNG" style="width: 600px;"/>
 
-Je bent nu aan het minen voor het netwerk, zoals je onderaan de afbeelding kunt zien. In dit voorbeeld draagt je computer 23 H/s (hashes per seconde) bij aan het Monero-netwerk. Minen helpt het netwerk te beveiligen, en misschien heb je zoveel geluk dat je een beloning voor het beschermen van het netwerk krijgt.
+Je bent nu aan het minen voor het netwerk, zoals je onderaan de afbeelding kunt zien. In dit voorbeeld draagt je computer 23 H/s (hashes per seconde) bij aan het ByteRub-netwerk. Minen helpt het netwerk te beveiligen, en misschien heb je zoveel geluk dat je een beloning voor het beschermen van het netwerk krijgt.
 
 Als je wilt stoppen met minen, klik je gewoon op de knop "Stop het minen".

@@ -5,7 +5,7 @@ permalink: /resources/about/index.html
 ---
 
 {% t global.lang_tag %}
-<div class="about-monero">
+<div class="about-byterub">
     <section class="container">
         <div class="row">
             <!-- left two-thirds block-->

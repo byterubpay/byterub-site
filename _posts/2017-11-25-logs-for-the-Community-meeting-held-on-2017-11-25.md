@@ -18,7 +18,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Don't be shy :)  
 **\<msvb-lab>** Hello.  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** To those who haven't heard of the FFS before, it stands for the "Forum Funding System"  
 **\<sgp>** a. RFC-HWALLET-1 project progress  
@@ -32,7 +32,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** We have three designs being worked on in parallel, I could talk an hour but will spare the bore.  
 **\<ErCiccione>** the local group with regular meetings sounds great  
 **\<msvb-lab>** It's important for whoever would like to test a real device in their hands to sign up as a team member by clicking 'Contact the project' on the site:  
-**\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
+**\<msvb-lab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
 **\<msvb-lab>** ErCiccione: We had about twenty people there, and passed around artwork from Deborah.  
 **\<msvb-lab>** So we've definitely reached critical mass in Munich, Berlin was there long ago.  
 **\<serhack>** great, this is ByteRub community  
@@ -40,7 +40,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** yes we would :)  
 **\<serhack>** sgp: ;)  
 **\<msvb-lab>** A good place to put the informatino about the various device types is:  
-**\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/wiki/protos  
+**\<msvb-lab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/wiki/protos  
 **\<msvb-lab>** So one is called 'MCUDev' (now renamed to 'Monezor'), another is 'Breakneck', we need a name for the device that resembles Ledger Blue's design.  
 **\<msvb-lab>** ...and so on.  
 **\<serhack>** nice  
@@ -65,11 +65,11 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** that's all from me, go cryptochangements :)  
 **\<cryptochangement>** Okay so good news here  
 **\<cryptochangement>** Our second milestone, the Magento plugin is finished and ready to be used by merchants!  
-**\<cryptochangement>** Its all on GitHub here: https://github.com/monero-integrations/moneromagento  
+**\<cryptochangement>** Its all on GitHub here: https://github.com/byterub-integrations/byterubmagento  
 **\<sgp>** hooray!  
-**\<cryptochangement>** and here is a screenshot of the checkout: https://taiga.getmonero.org/media/attachments/6/0/a/5/72f4eb66138e7efd76c4abd6e7d52df16806cdc441788e61c3c8e20ec676/improvedmagento.png  
+**\<cryptochangement>** and here is a screenshot of the checkout: https://taiga.getbyterub.org/media/attachments/6/0/a/5/72f4eb66138e7efd76c4abd6e7d52df16806cdc441788e61c3c8e20ec676/improvedmagento.png  
 **\<serhack>** yeah, cool announcement cryptochangements!!  
-**\<cryptochangement>** i should also mention that you can track a lot of our progress on taiga: https://taiga.getmonero.org/project/serhack-monero-integrations/  
+**\<cryptochangement>** i should also mention that you can track a lot of our progress on taiga: https://taiga.getbyterub.org/project/serhack-byterub-integrations/  
 **\<rehrar>** Yay Taiga!!  
 **\<cryptochangement>** rehrar ive actually became rather fond of it :p  
 **\<cryptochangement>** thats pretty much all, unless there are any questions  
@@ -84,7 +84,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** globee is actually close to bitpay... because they actually use bitpay  
 **\<msvb-lab>** I thought there was a more complex architecture. So for three different vendors with three different CMSs, they will be served by referring to the correct implementation.  
 **\<msvb-lab>** That's quite good.  
-**\<serhack>** yeah, msvb-lab, different e-shops but they are using the same methods in order to accept monero  
+**\<serhack>** yeah, msvb-lab, different e-shops but they are using the same methods in order to accept byterub  
 **\<sgp>** Exactly msvb-lab  
 **\<sgp>** They all provide the same functionality for different systems  
 **\<msvb-lab>** Is it still forbidden to talk about Globee (are there still secrets?)  
@@ -118,7 +118,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** serhack is going to donate  
 **\<msvb-lab>** I can't find it.  
 **\<ErCiccione>** 1 sec  
-**\<ErCiccione>** https://forum.getmonero.org/6/ideas/89232/coordinator-for-localization-group-various-maintenance  
+**\<ErCiccione>** https://forum.getbyterub.org/6/ideas/89232/coordinator-for-localization-group-various-maintenance  
 **\<ErCiccione>** it's still under ideas,but the pony said he is going to move it tonight/tomorrow  
 **\<rehrar>** I have something to say about FFS in general that the people here really need to be involved with. I'll speak after ErCiccione and endogenic  
 **\<ErCiccione>** thanks serhack :) and thanks sgp  
@@ -127,12 +127,12 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Go ahead endogenic  
 **\<ErCiccione>** no 1 sec  
 **\<ErCiccione>** also I reorganized the Taiga of the localization project, now is easier to add a translation (there also a quick guide "how to translate the GUI")  
-**\<ErCiccione>** https://taiga.getmonero.org/project/erciccione-monero-localization/  
+**\<ErCiccione>** https://taiga.getbyterub.org/project/erciccione-byterub-localization/  
 **\<ErCiccione>** Will integrate it soon with github  
 **\<ErCiccione>** that's all from me  
 **\<sgp>** Great thanks  
 **\<ErCiccione>** endogenic, your turn  
-**\<endogenic>** so i've been speaking with sgp and some members of the monero research lab about educational hackathons, and we think a corporate sponsored kovri hackathon could be brilliant (basically, you must build something using kovri plus one or more of the libraries from the sponsors)  
+**\<endogenic>** so i've been speaking with sgp and some members of the byterub research lab about educational hackathons, and we think a corporate sponsored kovri hackathon could be brilliant (basically, you must build something using kovri plus one or more of the libraries from the sponsors)  
 **\<endogenic>** so I'd like to encourage everyone in the ByteRub community who is interested in getting involved with kovri or hackathons to get in touch with sgp and/or the noethers and chat with them about how you'd like to be involved  
 **\<endogenic>** doesn' have to be corp sponsored but it's probably a good idea  
 **\<endogenic>** they buy the food too :P  
@@ -179,13 +179,13 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Is anyone here to speak about this now?  
 **\<mattcode>** yeah  
 **\<sgp>** @mattcode great! Go ahead  
-**\<mattcode>** lots of angry administrators come into #monero-pools complaining that their servers have been compromised by a miner  
-**\<mattcode>** and they get even more upset when they're told that a monero address can't easily be traced back to an individual  
+**\<mattcode>** lots of angry administrators come into #byterub-pools complaining that their servers have been compromised by a miner  
+**\<mattcode>** and they get even more upset when they're told that a byterub address can't easily be traced back to an individual  
 **\<serhack>** oh, I didn't know anything about that, mattcode  
 **\<mattcode>** i don't really think that there's a solution to that  
 **\<mattcode>** and the other issue is websites getting hacked and web miners being silently inserted, which again there's nothing we can do about that  
-**\<serhack>** yes, it's like "someone stealed my monero. my email address pass is 1234"  
-**\<mattcode>** if monero didn't exist, the hacked servers and websites would just be used for spam/ddos/stealing passwords instead  
+**\<serhack>** yes, it's like "someone stealed my byterub. my email address pass is 1234"  
+**\<mattcode>** if byterub didn't exist, the hacked servers and websites would just be used for spam/ddos/stealing passwords instead  
 **\<serhack>** +1 mattcode  
 **\<msvb-lab>** mattcode: And your or Fluffy's idea about a task force should serve as a support center, right?  
 **\<mattcode>** maybe there could be a page on the website explaining the harsh truth to administrators that have been hacked  
@@ -197,12 +197,12 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I wonder if there's any way we can turn this into a net positive  
 **\<msvb-lab>** mattcode: So you believe having a group of support crew is not effective, but maybe a specially labeled web page right?  
 **\<serhack>** yep  
-**\<mattcode>** yeah I think that would be better. right now they end up in #monero-pools and just end up getting ignored or abused  
+**\<mattcode>** yeah I think that would be better. right now they end up in #byterub-pools and just end up getting ignored or abused  
 **\<DaveyJones>** i think thats a solution  
 **\<serhack>** why should we spend efforts on websites when the default password is admin ?  
 **\<sgp>** It's good to at least have something serhack. Some of these attacks are more complex, or from an internal employee  
 **\<ErCiccione>** Honestly i don't like the idea of the page on the website, i prefer the idea of the team  
-**\<mattcode>** rehrar: the positive is that monero has a high network hashrate that doesn't dip when the price dips. i don't have any numbers but when ETN became (briefly) more profitable to mine than XMR, the XMR net hash barely dropped  
+**\<mattcode>** rehrar: the positive is that byterub has a high network hashrate that doesn't dip when the price dips. i don't have any numbers but when ETN became (briefly) more profitable to mine than XMR, the XMR net hash barely dropped  
 **\<serhack>** yep, we should setup a tutorial/website  
 **\<rehrar>** I mean turning the third-party server getting hacked into a positive for the administrator. I mean obviously it's not a positive thing...  
 **\<rehrar>** but through education and stuff  
@@ -239,29 +239,29 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** It would be nice if the website is refreshed before then so that the Mattermost/Taiga announcement gets published.  
 **\<sgp>** Beyond this, the format of the ByteRub Coffee Chat will be about the same. If anyone would like to participate, please send me a PM. Otherwise, you can always join us on YouTube.  
 **\<rehrar>** Twas lonely last time with just me and sgp and fp (for a bit)  
-**\<sgp>** Skipping open ideas time for now, but of course #monero-community can always function as open ideas time even outside meeting time  
+**\<sgp>** Skipping open ideas time for now, but of course #byterub-community can always function as open ideas time even outside meeting time  
 **\<sgp>** Yes, it was a bit lonely :)  
 **\<serhack>** okay, sgp  
 **\<sgp>** We need more volunteers  
 **\<sgp>** 7. Confirm next meeting date/time  
 **\<sgp>** The next meeting will two weeks from today on 9 December at 17:00 UTC.  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<sgp>** Now, we can continue conversations from endogenic, mattcode, and rehrar  
 **\<rehrar>** endogenic watchoo wanna debate?  
 **\<endogenic>** well so just about the kovri thing real quick  
 **\<endogenic>** i remember on the coffee open hours thing there was discussion about kovri needing a good testing ground  
-**\<endogenic>** less life or death than monero would be good. plus more exposure for kovri would be good  
+**\<endogenic>** less life or death than byterub would be good. plus more exposure for kovri would be good  
 **\<endogenic>** as for the FFS thing…  
 **\<mattcode>** just to add onto the botnet thing, i don't think pool ops ever ban addresses after somebody has claimed that their server has been hacked. it would be too easy to fabricate. they only seem to ban big botnets, but only because they place a heavy load on the server :p  
 **\<endogenic>** people naturally won't donate to something they consciously think is bad…  
 **\<serhack>** +1  
 **\<endogenic>** and they tend to donate to things they feel are good for them  
 **\<endogenic>** even charity donation for example is thought to return to oneself  
-**\<sgp>** mattcode can you create an account on Mattermost please? https://mattermost.getmonero.org  
-**\<endogenic>** in monero, it's just supposed to be a little more concrete  
-**\<cryptochangement>** now that we are in open tiem, i should probably mention that i posted our FFS update to reddit too so people can see it there: https://www.reddit.com/r/ByteRub/comments/7fgl4o/monero_integrations_update_12/  
-**\<sgp>** #monero-vulne-response  
+**\<sgp>** mattcode can you create an account on Mattermost please? https://mattermost.getbyterub.org  
+**\<endogenic>** in byterub, it's just supposed to be a little more concrete  
+**\<cryptochangement>** now that we are in open tiem, i should probably mention that i posted our FFS update to reddit too so people can see it there: https://www.reddit.com/r/ByteRub/comments/7fgl4o/byterub_integrations_update_12/  
+**\<sgp>** #byterub-vulne-response  
 **\<endogenic>** one thing at at time guys  
 **\<cryptochangement>** sgp: vulne or vuln?  
 **\<serhack>** vulne  
@@ -275,7 +275,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** you guys seem to be talking about something else anyway… :P rehrar feel free to ping me  
 **\<cryptochangement>** sorry endogenic  
 **\<sgp>** You can discuss this now. I'll wait  
-**\<sgp>** @endogenic I also made #monero-hackathons on Mattermost  
+**\<sgp>** @endogenic I also made #byterub-hackathons on Mattermost  
 **\<sgp>** @rehrar on second thought, I think we should have the discussion about the FFS crowdfunding initiative here. Do we need another channel for this?  
 **\<ErCiccione>** sgp i think it would be better to talk about it here, much many possible inputs  
 **\<sgp>** It's important for the community to survive with small donations, rather than a few wealthy individuals  
@@ -293,12 +293,12 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** msv-lab: true, but that is mostly everywhere (wallet, website, reddit ecc)  
 **\<sgp>** We could change how/when ByteRub asks for donations  
 **\<ErCiccione>** what happens if somebody makes a donation directly to the address of the FFS wallet with no payment id? because if it's possible to evenly distribute that amount to all the actives ffs, we could just spread that address if people doesn't care of the proposal itself, but would like to contribute  
-**\<ErCiccione>** an ipothetical 'community pool' could point to that address, distributing equally the mined moneros  
+**\<ErCiccione>** an ipothetical 'community pool' could point to that address, distributing equally the mined byterubs  
 **\<mattcode>** doesn't money from the general development fund make its way into FFS requests?  
 **\<ErCiccione>** mattcode: yes, sgp pointed that early, but with a pool you move that choice directly to whom is willing to donate (i mean to send the money directly to fund community's proposals)  
 **\<ErCiccione>** s/proposals/FFS  
-**\<monerobux>** ErCiccione meant to say: mattcode: yes, sgp pointed that early, but with a pool you move that choice directly to whom is willing to donate (i mean to send the money directly to fund community's FFS)  
-**\<ErCiccione>** so nice of you monerobux  
+**\<byterubbux>** ErCiccione meant to say: mattcode: yes, sgp pointed that early, but with a pool you move that choice directly to whom is willing to donate (i mean to send the money directly to fund community's FFS)  
+**\<ErCiccione>** so nice of you byterubbux  
 **\<ErCiccione>** :)  
 **\<rehrar>** Sorry, out of the house atm. But we need to remember two factors. One, some people like to choose which proposals their XMR goes to. This ensures that ByteRub evolves in the way they desire.  
 **\<rehrar>** These people will not like the General Fund option, as the General Fund is managed by the Core Team to spend on whatever they see fit that benefits ByteRub (obviously coming to consensus within themselves)  

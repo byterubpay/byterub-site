@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-01-21
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-01-21
 summary: Ongoing work, New work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -15,7 +15,7 @@ author: el00ruobuob / surae
 **\<sarang>** Greetings, everyone  
 **\<suraeNoether>** letsdothis.gif  
 **\<oneiric\_>** o/  
-**\<sarang>** I dislike mass pings, but given certain topics, a special ping to sgp\_ ArticMine moneromooo knaccc  
+**\<sarang>** I dislike mass pings, but given certain topics, a special ping to sgp\_ ArticMine byterubmooo knaccc  
 **\<sarang>** First, ONGOING WORK  
 **\<ArticMine>** Hi  
 **\<sarang>** Much discussion about payment ID deprecation has occurred  
@@ -24,7 +24,7 @@ author: el00ruobuob / surae
 **\<sarang>** The main source of contention at this point seems to be whether keeping encrypted pIDs around, whether or not the wallet supports them by default, is necessary or desired  
 **\<sarang>** Unless there's something important to talk about regarding this, and its relationship to the upcoming fork, we can table it until sgp\_'s meeting  
 **\<suraeNoether>** i think it's wise to table the discussion until the meeting  
-**\<sarang>** moneromooo has been working on wallet handling of payment IDs, as well as the use of default payment IDs for transaction indistinguishability  
+**\<sarang>** byterubmooo has been working on wallet handling of payment IDs, as well as the use of default payment IDs for transaction indistinguishability  
 **\<sarang>** ok!  
 **\<sarang>** Next is block size scaling  
 **\<sarang>** ArticMine recently posted a new proposal \\  
@@ -63,22 +63,22 @@ author: el00ruobuob / surae
 **\<nioc>** 10:56 PM overall looks good to me at first reading  
 **\<nioc>** 11:02 PM i guess 4/10 is fine too, just slower (but not significant)  
 **\<sarang>** that was a rounding issue, I suppose  
-**\<moneromooo>** If people will fuck up with 1.4, they will fuck up with 1.375.  
-**\<moneromooo>** For interested people, the amp branch has ArticMine's change (untested).  
+**\<byterubmooo>** If people will fuck up with 1.4, they will fuck up with 1.375.  
+**\<byterubmooo>** For interested people, the amp branch has ArticMine's change (untested).  
 **\<suraeNoether>** we should just pick a number that can be represented exactly in a computer  
-**\<moneromooo>** (just the top patch)  
-**\<moneromooo>** Better to pick one that can't. You don't want people to use floating point and think they did it right bevause the number was chosen to make things look right.  
-**\<sarang>** branch link: https://github.com/moneromooo-monero/bitmonero/commit/f1ee51c55963d05a78db916d41da7dc5948bb05a  
+**\<byterubmooo>** (just the top patch)  
+**\<byterubmooo>** Better to pick one that can't. You don't want people to use floating point and think they did it right bevause the number was chosen to make things look right.  
+**\<sarang>** branch link: https://github.com/byterubmooo-byterub/bitbyterub/commit/f1ee51c55963d05a78db916d41da7dc5948bb05a  
 **\<suraeNoether>** representing 1.4 in a computer is inexact and will cause floating point rounding problems in different pieces of software, but i think 1.375 can be represented in binary exactly and so there is no roundoff problem in that regard...  
-**\<sarang>** also, hot dang that was fast moneromooo  
+**\<sarang>** also, hot dang that was fast byterubmooo  
 **\<suraeNoether>** one of the things i, personally, would like out of the block size adjustment is this  
 **\<ArticMine>** smooth's comment would e an improvement if the BlockWeight were a factor of 8 in bytes, but it is not. So in reality it is not a material change  
-**\<suraeNoether>** moneromooo: that's a strong argument actually  
+**\<suraeNoether>** byterubmooo: that's a strong argument actually  
 **\<suraeNoether>** so, i think block size adjustment can benefit from: forcing the marginal cost of adding an additional transaction in terms of block reward penalty to be greater than the standard fees gained by including that transaction  
 **\<suraeNoether>** even if we pick some exotic max\_block\_size calculation, we should also be changing the block reward penalty this way  
 **\<ArticMine>** Still I see as an improvement. As per suraeNoether comment above. So we can make the change from 1.4 to 1.375  
 **\<suraeNoether>** of course, if the block is nearly full and the block reward is almost zero, adding almost any transaction fees will make up for it  
-**\<suraeNoether>** ArticMine: moneromooo just made a strong argument \*against\* that  
+**\<suraeNoether>** ArticMine: byterubmooo just made a strong argument \*against\* that  
 **\<suraeNoether>** so this marginal cost approach will be most effective when block sizes are nowhere near the big bang levels  
 **\<suraeNoether>** which is good: providing an incentive to stay reasonable when they are already reasonable  
 **\<ArticMine>** No When block weight is close to big bang levels LongTermBlockWeight is << BlockWeight  
@@ -89,20 +89,20 @@ author: el00ruobuob / surae
 **\<sarang>** lurkinandlearnin: all txns get added eventually if the fee market allows  
 **\<suraeNoether>** something isthmus brought up to me: there are only about 150,000 blocks between us and the next hard fork. with the \*simple\* two-median method will forbid a blowup before the next hard fork.  
 **\<suraeNoether>** woops i mean between March and October hard forks  
-**\<moneromooo>** Yes, starting the penalty before 100% (idea from smooth).  
+**\<byterubmooo>** Yes, starting the penalty before 100% (idea from smooth).  
 **\<suraeNoether>** we should consider implementing the simple method \*first\* and spending time thinking about a more optimal solution, rather than trying to go for broke  
-**\<lurkinandlearnin>** moneromooo: that sounds like a great idea  
-**\<suraeNoether>** moneromooo: yep, smooth had the initial idea of sub-100%-median block penalty; my idea is to make the drop-off nonlinear so that it's more expensive to push block sizes larger in the absence of a healthy fee market  
+**\<lurkinandlearnin>** byterubmooo: that sounds like a great idea  
+**\<suraeNoether>** byterubmooo: yep, smooth had the initial idea of sub-100%-median block penalty; my idea is to make the drop-off nonlinear so that it's more expensive to push block sizes larger in the absence of a healthy fee market  
 **\<sarang>** Well, simulations will shortly be done for ArticMine's proposal compared to the current approach and the simple two-median  
 **\<sarang>** Presumably the next upgrade will do one of the two options  
 **\<suraeNoether>** okay, i don't think we're going to come to any conclusions on this, but it's been a good update  
 **\<suraeNoether>** let's move past scaling  
 **\<sarang>** Sure thing. We'll talk after simulation data are available  
-**\<sarang>** Next is transaction size reduction, for which there is a PR from moneromooo  
+**\<sarang>** Next is transaction size reduction, for which there is a PR from byterubmooo  
 **\<sarang>** AFAIK there are no new updates on this otherwise  
-**\<sarang>** unless moneromooo you wish to say anything about it?  
-**\<moneromooo>** I'd just like one of you Noethers to review the code before it goes in.  
-**\<moneromooo>** suraeNoether said he'd have a look.  
+**\<sarang>** unless byterubmooo you wish to say anything about it?  
+**\<byterubmooo>** I'd just like one of you Noethers to review the code before it goes in.  
+**\<byterubmooo>** suraeNoether said he'd have a look.  
 **\<suraeNoether>** sarang let's do that \*together\* tomorrow morning? we can do it over a vidchat since we were going to meet tomorrow anyway  
 **\<sarang>** Roger; the math looked correct to me, but I may have neglected to add a comment  
 **\<sarang>** ok suraeNoether can do  
@@ -112,7 +112,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** DID YOU GUYS MAKE THINGS FASTER AGAIN  
 **\<sarang>** Only a brief update that some BP verifier optimizations didn't make it into the 0.13 release  
 **\<sarang>** a very unscientific test on my box resulted in a 64-batch of 2-proofs verifying 60% faster  
-**\<sarang>** kudos to moneromooo for continuing to squeeze speed out of those suckers  
+**\<sarang>** kudos to byterubmooo for continuing to squeeze speed out of those suckers  
 **\<lurkinandlearnin>** holy smokes  
 **\<lurkinandlearnin>** 60% faster than current impl or than pre-BP?  
 **\<sarang>** than the 0.13 release code  
@@ -120,9 +120,9 @@ author: el00ruobuob / surae
 **\<sarang>** that is, 0.13 vs master  
 **\<sarang>** as of a few days ago  
 **\<suraeNoether>** where did this speedup come from?  
-**\<sarang>** Folding in some multiexponentiation operations, as well a host of other voodoo moneromooo can dooo  
+**\<sarang>** Folding in some multiexponentiation operations, as well a host of other voodoo byterubmooo can dooo  
 **\<sarang>** So we can brag about the next release making txns smaller and faster again :D  
-**\<moneromooo>** I did not keep track of which change sped up by how much. I think sarang's single multiexp change is probably the biggest one though.  
+**\<byterubmooo>** I did not keep track of which change sped up by how much. I think sarang's single multiexp change is probably the biggest one though.  
 **\<sarang>** Let's now discuss NEW WORK  
 **\<suraeNoether>** cool!  
 **\<sarang>** suraeNoether: your personal updates?  
@@ -144,10 +144,10 @@ author: el00ruobuob / surae
 **\<suraeNoether>** sorry sarang, i don't want to interrupt  
 **\<sarang>** np go ahead  
 **\<lurkinandlearnin>** is there a list of speakers for the conference?  
-**\<suraeNoether>** i found all those old Monero Protocol Standards documents I started writing last year, and I'm wondering if folks still want me to compose the v0.1 versions of these rather short text documents into something to put up on our github  
+**\<suraeNoether>** i found all those old ByteRub Protocol Standards documents I started writing last year, and I'm wondering if folks still want me to compose the v0.1 versions of these rather short text documents into something to put up on our github  
 **\<lurkinandlearnin>** or not official yet?  
 **\<suraeNoether>** lurkinandlearnin: check out konferenco.xyz  
-**\<suraeNoether>** the benefit of having the standards instead of a single big zero-to-monero document is this:  
+**\<suraeNoether>** the benefit of having the standards instead of a single big zero-to-byterub document is this:  
 **\<suraeNoether>** we can update each one piecemeal and only update it if something has changed. this reduces overhead work on documentation. and if it's on github, anyone can update them, we don't have to go find kurt magnus or koe  
 **\<sarang>** FWIW the ZtM doc is on github and can be PRed  
 **\<sarang>** but I see the point about modularity  
@@ -177,7 +177,7 @@ author: el00ruobuob / surae
 **\<sarang>** As long as it's clear what can be considered "closer to canonical"  
 **\<sarang>** So I've had some testing and minor optimizations to BPs for the next release, as mentioned earlier  
 **\<sarang>** Minor work on simulating block size changes to confirm work by Isthmus on scaling etc.  
-**\<sarang>** Recording of new Breaking Monero episodes with sgp\_  
+**\<sarang>** Recording of new Breaking ByteRub episodes with sgp\_  
 **\<sarang>** The usual new lit and project review  
 **\<sarang>** and some work on a safe MPC protocol for Bulletproofs for future use  
 **\<sarang>** as well as a lot of back-and-forth administrivia on the topics for the Boron upgrade  
@@ -190,16 +190,16 @@ author: el00ruobuob / surae
 **\<sarang>** humbles us all  
 **\<lurkinandlearnin>** "It gets the people going!"  
 **\<sarang>** Any questions for me?  
-**\<lurkinandlearnin>** what's the next breaking monero topic?  
-**\<moneromooo>** Hmm... Lightning network things ?  
-**\<sarang>** moneromooo: what questions on that?  
+**\<lurkinandlearnin>** what's the next breaking byterub topic?  
+**\<byterubmooo>** Hmm... Lightning network things ?  
+**\<sarang>** byterubmooo: what questions on that?  
 **\<Isthmus>** "Boron borealis" ?? I think there's a Harry Potter character called Bellatrix, which could get confusing with all the HP-themed MimbleWimble names.  
 **\<sarang>** lurkinandlearnin: we have several topics in the lineup, to be arranged  
-**\<Isthmus>** Also, Breaking Monero = awesome, thanks for all the time going into that series :- D  
-**\<moneromooo>** Was anything done or thought about recently about anything monero needs for LN or LN style system ?  
-**\<sarang>** moneromooo: some of it was an efficient and fungible way to handle protocol aborts, a la noninteractive refunds  
+**\<Isthmus>** Also, Breaking ByteRub = awesome, thanks for all the time going into that series :- D  
+**\<byterubmooo>** Was anything done or thought about recently about anything byterub needs for LN or LN style system ?  
+**\<sarang>** byterubmooo: some of it was an efficient and fungible way to handle protocol aborts, a la noninteractive refunds  
 **\<sarang>** that was quietly tabled as several proposals for interactive refunds were thrown around  
-**\<moneromooo>** Ah yes. It would be nice to see a list of things that are needed in monero as building blocks. In terms of parenthesized AND/OR. I always forget. Or never knew.  
+**\<byterubmooo>** Ah yes. It would be nice to see a list of things that are needed in byterub as building blocks. In terms of parenthesized AND/OR. I always forget. Or never knew.  
 **\<sarang>** That's a good point. Having a well-considered status update will be useful for longer-term planning  
 **\<sarang>** Does anyone else have updates to share, before we adjourn?  
 **\<sarang>** righto  

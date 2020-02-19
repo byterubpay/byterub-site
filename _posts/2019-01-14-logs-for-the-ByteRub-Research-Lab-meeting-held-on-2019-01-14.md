@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-01-14
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-01-14
 summary: Upgrade items, Research, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -25,14 +25,14 @@ author: el00ruobuob / sarang
 **\<sarang>** https://github.com/matrix-org/matrix-appservice-irc/wiki/Permissioning-in-Portal-vs-Plumbed-rooms  
 **\<sarang>** This would have the side effect of allowing Matrix-side ops to exercise control over Matrix users in the room, but not on the freenode side  
 **\<suraeNoether>** i'm not really grokking the benefit  
-**\<sarang>** And be consistent with how other rooms (e.g. monero-community) are set up already on Matrix  
+**\<sarang>** And be consistent with how other rooms (e.g. byterub-community) are set up already on Matrix  
 **\<sarang>** charuto: are you present?  
-**\<charuto>** yeah, it would mostly not change anything IRC side, just here on this side, would allow for a more visible monero research lab matrix room and some matrix moderation options  
-**\<sarang>** charuto is already matrix-side op for other monero rooms  
+**\<charuto>** yeah, it would mostly not change anything IRC side, just here on this side, would allow for a more visible byterub research lab matrix room and some matrix moderation options  
+**\<sarang>** charuto is already matrix-side op for other byterub rooms  
 **\<sarang>** Provided we have another admin as well, I am not opposed to this  
 **\<sarang>** However, I'll request loose consensus from the room now before enabling  
 **\<serhack>** Hi everyone  
-**\<charuto>** and yes, sarang is correct, it's mostly for matrix-side consistency, so matrix users can simply join #monero-research-lab:matrix.org  
+**\<charuto>** and yes, sarang is correct, it's mostly for matrix-side consistency, so matrix users can simply join #byterub-research-lab:matrix.org  
 **\<suraeNoether>** okay, so i'm not really following why this is fine  
 **\<suraeNoether>** charuto, no offense intended, please, but  
 **\<suraeNoether>** if someone comes to the matrix room and thinks you are in charge... \*shrug\*  
@@ -54,12 +54,12 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** then how is the alternative people not getting in?  
 **\<suraeNoether>** maybe i'm confused about how matrix works  
 **\<charuto>** some people dont know how portal rooms work and only join publicly listed matrix native rooms  
-**\<charuto>** on other monero channels, portal rooms always have less matrix users than plumbed rooms  
-**\<charuto>** it's the difference of joining #monero:matrix.org or joining #freenode\_#matrix.org  
-**\<charuto>** typo, #freenode\_#monero:matrix.org  
+**\<charuto>** on other byterub channels, portal rooms always have less matrix users than plumbed rooms  
+**\<charuto>** it's the difference of joining #byterub:matrix.org or joining #freenode\_#matrix.org  
+**\<charuto>** typo, #freenode\_#byterub:matrix.org  
 **\<suraeNoether>** uhm  
 **\<sarang>** Given that suraeNoether is an op in this room, we won't proceed at this time if he objects  
-**\<suraeNoether>** so i guess my question is now reverting to a rude one: are people who can't figure out how to go to freenode.net and typing /join #monero-research-lab going to be helpful contributors in this room  
+**\<suraeNoether>** so i guess my question is now reverting to a rude one: are people who can't figure out how to go to freenode.net and typing /join #byterub-research-lab going to be helpful contributors in this room  
 **\<sarang>** This issue will be tabled until after the meeting, so we can move on and respect attendees' time  
 **\<suraeNoether>** k  
 **\<sarang>** On to 2. UPGRADE ITEMS  
@@ -115,19 +115,19 @@ author: el00ruobuob / sarang
 **\<ArticMine>** Yes  
 **\<sarang>** Right now, the only slow-growth proposal that at least has a formula and a simulated graph is the one suraeNoether mentioned above  
 **\<sarang>** so I will consider that the current "best option" for now until/unless we get the same detail before freeze  
-**\<sarang>** moneromooo: when should freeze be?  
+**\<sarang>** byterubmooo: when should freeze be?  
 **\<ArticMine>** When is freeze  
 **\<sarang>** We'll move on and assume freeze is "as soon as possible, and perhaps sooner"  
 **\<suraeNoether>** my concern is this: the only way to prevent a literal exponential blowup is to put in some sort of hard cap  
 **\<ArticMine>** I has to be a rolling hard cap.  
 **\<sarang>** In the interest of time, on to payment IDs  
 **\<ArticMine>** Never a fixed hard cap  
-**\<moneromooo>** Unknown. Pony wanted to have a first build end of january.  
+**\<byterubmooo>** Unknown. Pony wanted to have a first build end of january.  
 **\<sarang>** sgp\_: you looked into usage of payment IDs by popular services  
-**\<sarang>** ok ty moneromooo  
+**\<sarang>** ok ty byterubmooo  
 **\<sarang>** I advocate no changes to block cap that haven't been simulated  
 **\<sgp\_>** yes sarang, and it's about a 50-50 split between unencrypted and encrypted  
-**\<moneromooo>** If ArticMine need one more week to finish proving his idea, then I'm totally fine waiting for this.  
+**\<byterubmooo>** If ArticMine need one more week to finish proving his idea, then I'm totally fine waiting for this.  
 **\<ArticMine>** That will work very well for me  
 **\<sarang>** Awesome, thanks ArticMine  
 **\<sarang>** sgp\_ and others had proposed candidate timelines  
@@ -136,7 +136,7 @@ author: el00ruobuob / sarang
 **\<sgp\_>** Sure. Here is where we are at right now:  
 **\<sgp\_>** https://usercontent.irccloud-cdn.com/file/k06P021t/image.png  
 **\<sgp\_>** Though after speaking with Justin from X Wallet, they seem interested in meeting the April timeline to remove the payment ID field when sending  
-**\<sarang>** endogenic (who runs mymonero) expressed general concern about the rationale for removing encrypted IDs, particularly citing UX  
+**\<sarang>** endogenic (who runs mybyterub) expressed general concern about the rationale for removing encrypted IDs, particularly citing UX  
 **\<sgp\_>** Cake Wallet says they will remove support once exchanges no longer use it  
 **\<sarang>** Based on these timelines, there is no consensus change until fall 2019 (Carbon fork)  
 **\<suraeNoether>** endogenic: can you elaborate on your concerns?  
@@ -155,32 +155,32 @@ author: el00ruobuob / sarang
 **\<endogenic>** mooo points out it wont be crazy.. 8mb for a million entries?  
 **\<endogenic>** (i'm half here, half not. busybusy)  
 **\<sgp\_>** selsta: I thought the plan was to remove entirely. I can make it look like the CLI if that's what we want  
-**\<moneromooo>** I looked, it's actually 32 bytes + 8 bytes, so 40 bytes payload. Plus the tree overhead.  
+**\<byterubmooo>** I looked, it's actually 32 bytes + 8 bytes, so 40 bytes payload. Plus the tree overhead.  
 **\<dEBRUYNE>** Removing them entirely in the next version is going to lead to loads of user issues  
 **\<sarang>** dEBRUYNE: them = what  
 **\<dEBRUYNE>** The option to use long payment IDs  
 **\<dEBRUYNE>** To add them to a transaction that is  
-**\<selsta>** sgp\_: https://github.com/byterubpay/monero-gui/pull/1866 Disabled by default, can be reenabled in the settings.  
+**\<selsta>** sgp\_: https://github.com/byterubpay/byterub-gui/pull/1866 Disabled by default, can be reenabled in the settings.  
 **\<sgp\_>** Is this preferred? https://usercontent.irccloud-cdn.com/file/4g4NYw3q/image.png  
 **\<selsta>** IMO yes.  
 **\<sarang>** It at least provides consistency for our default products  
 **\<sarang>** If we let encrypted pIDs stick around, there remain distinguishability problems between those txns and those w/ subaddresses and no pID  
 **\<sarang>** these are mitigated somewhat by the use of a wallet-default encrypted value  
-**\<moneromooo>** Those will get a 8 byte payment id (if only two outs).  
+**\<byterubmooo>** Those will get a 8 byte payment id (if only two outs).  
 **\<sarang>** subaddress txns?  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Yes.  
 **\<sarang>** with a default enc value  
 **\<sarang>** excellent; I thought that wasn't the case  
 **\<sarang>** Meaning the two choices there are: (1) ban all pIDs at Carbon fork; or (2) allow encrypted with a wallet default for \_only\_ 2-out txns at Carbon fork  
 **\<sarang>** Are there other options that I'm missing here?  
-**\<moneromooo>** "Carbon" is confusing.  
+**\<byterubmooo>** "Carbon" is confusing.  
 **\<sgp\_>** Carbon is Oct 2019  
 **\<sarang>** fall fork; the element is carbon  
-**\<moneromooo>** Wait. Carbon has 12 protons doesn't it ? Already there ?  
-**\<sgp\_>** If exchanges and pools batch Monero transactions now with payment IDs, then they will need to change their behavior nevertheless  
+**\<byterubmooo>** Wait. Carbon has 12 protons doesn't it ? Already there ?  
+**\<sgp\_>** If exchanges and pools batch ByteRub transactions now with payment IDs, then they will need to change their behavior nevertheless  
 **\<sgp\_>** actually wait, they can't do that. disregard  
 **\<sarang>** If we are specifying a wallet default encrypted ID for subaddress transactions as well, I am less concerned about what happens if encrypted is permitted  
-**\<moneromooo>** Ah, 14 protons \*and\* neutrons. Shame on me.  
+**\<byterubmooo>** Ah, 14 protons \*and\* neutrons. Shame on me.  
 **\<suraeNoether>** since we cant' enforce payids to be encrypted/can't verify that the payid has been encrypted, this new chart says to me "we aren't doing antyhing about this until october":  
 **\<sarang>** What we're doing is encouraging exchanges to move off unencrypted  
 **\<sarang>** and requiring it in October  
@@ -195,14 +195,14 @@ author: el00ruobuob / sarang
 **\<sgp\_>** no one should use payment IDs when sending funds to subaddresses  
 **\<suraeNoether>** ah  
 **\<sarang>** No, but they're important for distinguishability  
-**\<moneromooo>** You can tell subaddress vs non subaddresses btw: additional tx pubkeys.  
+**\<byterubmooo>** You can tell subaddress vs non subaddresses btw: additional tx pubkeys.  
 **\<sgp\_>** For Carbon, I'd much rather remove all payment IDs to solve the distinguishability issue  
-**\<moneromooo>** It's all a bit shitty isn't it.  
+**\<byterubmooo>** It's all a bit shitty isn't it.  
 **\<sgp\_>** \*mitigate to the same extent  
 **\<suraeNoether>** i agree with sgp. this makes me ask why we are even specifying the difference between encrypted vs. unencrypted, if the plan is to deprecate both by the october upgrade, and nothing about them is changing before october, and we can't enforce any shift away from unenc anyway  
-**\<sarang>** Yes moneromooo but it doesn't give away info in the case of, say, exchange true inputs  
-**\<suraeNoether>** moneromooo: lol  
-**\<suraeNoether>** moneromooo: i knew a guy with a tattoo that said "life is a big shit sandwich and every day is another bite"  
+**\<sarang>** Yes byterubmooo but it doesn't give away info in the case of, say, exchange true inputs  
+**\<suraeNoether>** byterubmooo: lol  
+**\<suraeNoether>** byterubmooo: i knew a guy with a tattoo that said "life is a big shit sandwich and every day is another bite"  
 **\<suraeNoether>** seems like a similar sentiment  
 **\<sarang>** suraeNoether: ignoring the chart, the question at hand is what to do about encrypted: keep around, or get rid of it in fall 2019  
 **\<sarang>** sgp\_ recommends nixing them in fall  
@@ -214,7 +214,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** sarang: if we keep encrypted around we may as well not make any changes  
 **\<dEBRUYNE>** I am just skeptical of the feasibility of forcing all exchanges to upgrade to subaddresses  
 **\<suraeNoether>** because there's no way to enforce that they are encrypted  
-**\<moneromooo>** I'll probably just start warning about them when used, like I did for 256 bit ones earlier.  
+**\<byterubmooo>** I'll probably just start warning about them when used, like I did for 256 bit ones earlier.  
 **\<suraeNoether>** dEBRUYNE: it's more feasible than asking everyone nicely to only encrypt their payids  
 **\<sgp\_>** I think that given the timeline, we should be abitious and encourage them to update  
 **\<sarang>** suraeNoether: no, but we are nixing long pIDs in fall  
@@ -230,12 +230,12 @@ author: el00ruobuob / sarang
 **\<sgp\_>** I argue that we should write a post including the aggressive timeline. Luckily, if there is an implementation disaster, we can always walk back with nearly no effort  
 **\<suraeNoether>** fact of the matter is, either we want people using subaddresses, or not, and we certainly dont' want to keep adding mroe and more address types. usual address + unenc payid, usual address + enc payid, integrated address, subaddresses... especially since subaddresses are (1) efficient for users and (2) cover all the use cases, and since (3) we can't enforce the difference between the first three, but we can  
 **\<suraeNoether>** enforce subaddresses, the way forward to me is totally clear  
-**\<sarang>** moneromooo: why  
+**\<sarang>** byterubmooo: why  
 **\<sarang>** because of daemon parsing?  
-**\<moneromooo>** Because it's always coming back.  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Because it's always coming back.  
+**\<byterubmooo>** Yes.  
 **\<sarang>** Is it more than parsing for size?  
-**\<moneromooo>** I don't understand that question.  
+**\<byterubmooo>** I don't understand that question.  
 **\<dEBRUYNE>** It has to parse tx\_extra afaik  
 **\<sarang>** We're already over time, and we still need to bring up another upgrade change: commitment amount/mask changes  
 **\<sarang>** Commitment masks will be generated deterministically and not included separately in the ECDH data, saving a bit of space  
@@ -243,7 +243,7 @@ author: el00ruobuob / sarang
 **\<sarang>** This is probably... less controversial than the other changes :/  
 **\<sarang>** Any questions/comments on it?  
 **\<sarang>** This was proposed by knaccc and talked about earlier here and in -dev  
-**\<sarang>** moneromooo has a branch for it  
+**\<sarang>** byterubmooo has a branch for it  
 **\<suraeNoether>** yeah, sarang and i have considered it and we agree that this still provides the perfect hiding property of pedersen commitments, and commitments to amounts are as binding as they were before our proposed change  
 **\<suraeNoether>** it's a small space optimization. knaccc had the idea, right? or who came up with iut?  
 **\<sarang>** knaccc  
@@ -262,21 +262,21 @@ author: el00ruobuob / sarang
 **\<sarang>** and another was posted (link in the agenda)  
 **\<sarang>** just stuff to chew on, likely not before the upgrade IMO  
 **\<sarang>** since it requires a lot of wallet fun  
-**\<sarang>** moneromooo has been working on coinjoin-style fundamentals  
+**\<sarang>** byterubmooo has been working on coinjoin-style fundamentals  
 **\<sarang>** I'll be writing up some bulletproofs mpc for that  
-**\<moneromooo>** thank you ^\_^  
+**\<byterubmooo>** thank you ^\_^  
 **\<sarang>** I posted a few papers of interest in the agenda  
 **\<suraeNoether>** ( still on the previous topic, but just a quick comment dEBRUYNE: the savings aren't that significant, but afaict, the security is concretely very similar (if not identical). It's a no-loss decision, in my mind )  
 **\<sarang>** Since we're over time, any very quick updates from others? Then we'll review action items  
 **\<suraeNoether>** sarang, are your comments on the matching paper complete? was our  conversation last week all your thoughts or am i waiting on more notes from you?  
 **\<dEBRUYNE>** I am just warry of the change somehow being exploited later on  
-**\<moneromooo>** One question about refund addresses: only one of those proposals helps with payment channels ?  
+**\<byterubmooo>** One question about refund addresses: only one of those proposals helps with payment channels ?  
 **\<sarang>** I am nearly complete, was derailed by an unrelated topic  
 **\<dEBRUYNE>** Does it necessarily matter we're over time btw? I don't mind continuing :p  
 **\<sarang>** for non-interactive use  
 **\<suraeNoether>** i started a "linear techniques in applied cryptography" document to keep my notes on Ruffing's scheme, Schnorr signatures, Bulletproofs, and Bootle's polynomial commitments all in one neat and tidy place. i may tweak it over the next year in little ways with the long term goal of writing a book  
 **\<sarang>** We don't have a concrete proposal for integrating knaccc's or Ilya's schemes into a payment channel system safely  
-**\<suraeNoether>** moneromooo: DLSAG is good for payment channels... cryptonote++ or ilya's paper... i believe that is non-channel based refund addresses  
+**\<suraeNoether>** byterubmooo: DLSAG is good for payment channels... cryptonote++ or ilya's paper... i believe that is non-channel based refund addresses  
 **\<sarang>** DLSAG ensures you can properly track spends  
 **\<sarang>** hence the tomfuckery with key images and signature style  
 **\<sarang>** So for the sake of sanity, here are the action items that are time-sensitive:  
@@ -292,22 +292,22 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** in order to address (c), we should write up a formal technical note on (i) how amount commitments are currently computed, (ii) our proposal for the new computation and (iii) proofs of equal security in terms of hiding and binding properties\\  
 **\<suraeNoether>** and i can work with knaccc on that this week  
 **\<knaccc>** Not sure if MRL is the right place for this, bu re: the embedded Java-I2P router idea, I've almost finished it. Just need to test my scripts a bit more. Available here: https://github.com/knaccc/embedded-i2p-java-router-with-sam  
-**\<sarang>** OK, have you seen the branch moneromooo has already?  
+**\<sarang>** OK, have you seen the branch byterubmooo has already?  
 **\<sarang>** it's in code  
-**\<moneromooo>** 5052  
+**\<byterubmooo>** 5052  
 **\<suraeNoether>** oh man  
 **\<suraeNoether>** i'll check that out  
-**\<suraeNoether>** thanks moneromooo  
-**\<sarang>** I know moneromooo and knaccc and I have looked it over  
+**\<suraeNoether>** thanks byterubmooo  
+**\<sarang>** I know byterubmooo and knaccc and I have looked it over  
 **\<suraeNoether>** yeah, and i recall writing up a proof of the idea and satisfying myself about it, but that was on paper  
 **\<suraeNoether>** which branch?  
 **\<sarang>** rctb  
-**\<sarang>** https://github.com/moneromooo-monero/bitmonero/tree/rctb  
+**\<sarang>** https://github.com/byterubmooo-byterub/bitbyterub/tree/rctb  
 **\<oneiric\_>** knaccc: cool work on the java-i2p embedded router  
 **\<zlatinb>** knaccc: let me know if you need any help with the java embedding  
 **\<suraeNoether>** found it right after i asked :P thanks sarang  
 **\<knaccc>** oneiric\_ zlatinb thanks, any comments or suggestions welcome  
-**\<moneromooo>** Are you adding i2p/monero connectivity ?  
+**\<byterubmooo>** Are you adding i2p/byterub connectivity ?  
 **\<oneiric\_>** do you know if there are any hardening flags available for jlink?  
 **\<knaccc>** not sure what you mean by hardening  
 **\<oneiric\_>** aslr pie stuff like that  
@@ -330,7 +330,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** and we are opening up our scholarship program this month!  
 **\<oneiric\_>** congrats!  
 **\<suraeNoether>** we are giving out 5 $1000 USD scholarships for this fall, and we are giving out 2 $3000 USD research grants in the upcoming spring  
-**\<dEBRUYNE>** moneromooo: I think that's the intention  
+**\<dEBRUYNE>** byterubmooo: I think that's the intention  
 **\<knaccc>** congrats surae  
 **\<suraeNoether>** so, by the end of this month, our application will be available on https://magicgrants.org for anyone registered at an accredited school in the US, South Africa, or the EU or EFTA nations or micronations within the EU or EU-eligible nations.  
 **\<suraeNoether>** all this is made possible by a single anonymous donor so far  
@@ -345,14 +345,14 @@ author: el00ruobuob / sarang
 **\<sarang>** Block cap algo is in ArticMine's court for now, with the current proposed dual-median in the wings  
 **\<sarang>** Payment ID timeline is still annoyingly up in the air  
 **\<sarang>** If anything, we should figure that damn thing out  
-**\<knaccc>** moneromooo just in case it's not clear, I don't know a thing about the C side of things, e.g. how to add libsam3 to the Monero C code in order to talk to the embedded i2p router via the SAM protocol. But I am able to figure out how to produce an embedded JVM/I2P binary that can be bundled with zero installation and zero dependencies  
-**\<moneromooo>** OK.  
+**\<knaccc>** byterubmooo just in case it's not clear, I don't know a thing about the C side of things, e.g. how to add libsam3 to the ByteRub C code in order to talk to the embedded i2p router via the SAM protocol. But I am able to figure out how to produce an embedded JVM/I2P binary that can be bundled with zero installation and zero dependencies  
+**\<byterubmooo>** OK.  
 **\<suraeNoether>** do we have an issue on github yet re: replacing pay\_id with subaddresses?  
 **\<suraeNoether>** it'd be helpful to have some coherent arguments laid out in all the different directions  
 **\<suraeNoether>** also does anyone have thoughts on this: https://github.com/byterubpay/research-lab/issues/46  
 **\<sarang>** That was brought up on reddit earlier, presumably by the same  person  
-**\<moneromooo>** When I see a post that has "it's going to be brushed off", I want to brush it off just because it said that. OTOH, a game theoretic analysis of this would be very nice, if possible.  
+**\<byterubmooo>** When I see a post that has "it's going to be brushed off", I want to brush it off just because it said that. OTOH, a game theoretic analysis of this would be very nice, if possible.  
 **\<sarang>** Yeah, I said that person is free to do it or put it out there for someone else to do, either volunteer or for FFS donations  
-**\<moneromooo>** s/possible/not made up of mostly unknowable factors/  
+**\<byterubmooo>** s/possible/not made up of mostly unknowable factors/  
 **\<sarang>** ArticMine has brought up his views on supply but AFAIK they are not really documented anywhere  
 **\<sarang>** and they should be  

@@ -110,16 +110,16 @@ author: el00ruobuob / surae
 **\<suraeNoether>** So, papers: 1) Matthew Green shared his "squeezing crowds" paper, which is a constant-space way of describing the complete set of ring members in a transaction. Link here: https://isi.jhu.edu/~mgreen/mixing.pdf This is a non-trivial result that will help ByteRub scale eventually... but it solves a problem that isn't yet a problem and may not be for a long while  
 **\<rehrar>** that new paper by Green?  
 **\<suraeNoether>** great minds brother  
-**\<sarang>** I know moneromooo had some concerns about transaction height in general  
+**\<sarang>** I know byterubmooo had some concerns about transaction height in general  
 **\<sarang>** but I can't speak for him  
 **\<rehrar>** Does it have drawbacks if it was theoretically implemented tomorrow (i.e. not large ringsizes yet)?  
-**\<moneromooo>** Oh that wasn't about the paper itself, just general about when I thought about this.  
+**\<byterubmooo>** Oh that wasn't about the paper itself, just general about when I thought about this.  
 **\<sarang>** right  
 **\<sarang>** I'm working through the Green paper as well  
 **\<suraeNoether>** rehrar literally all it does is \*describe the public keys for use in the signature.\* you still need to pull the public keys out of the blockchain and plug them into the verification equation.   
-**\<moneromooo>** But in retrospect, if you include the height at which you make the sampling, it all goes away.  
+**\<byterubmooo>** But in retrospect, if you include the height at which you make the sampling, it all goes away.  
 **\<suraeNoether>** so this own't help us get larger rings.  
-**\<moneromooo>** Given fake out list size is not our bottleneck, no. Maybe later.  
+**\<byterubmooo>** Given fake out list size is not our bottleneck, no. Maybe later.  
 **\<sgp\_[m]>** Can you elaborate a little more on what the paper says?  
 **\<suraeNoether>** sure, so they define a Recoverable Sampling Scheme  
 **\<sarang>** It says you can use a keyed hash function to succinctly describe the ring members to be used in a transaction  
@@ -133,11 +133,11 @@ author: el00ruobuob / surae
 **\<suraeNoether>** and yous till need to verify it  
 **\<suraeNoether>** and verifying the signature takes O(N) time. in this case, with 1000 ring members, it's implausible  
 **\<suraeNoether>** well except for weirdos  
-**\<moneromooo>** Should not need to grind, make a random + offset should be enough.  
+**\<byterubmooo>** Should not need to grind, make a random + offset should be enough.  
 **\<suraeNoether>** in general, you need ring sizes around 10-15 before the RSS scheme actually saves space  
 **\<suraeNoether>** one may consider it a database trick for accessing keys efficiently, perhaps, rather than a privacy-enhancing thing  
 **\<suraeNoether>** unless i've wholly misunderstood their paper  
-**\<luigi1111>** Hmm moneromooo but that doesn't sound like a hash function  
+**\<luigi1111>** Hmm byterubmooo but that doesn't sound like a hash function  
 **\<luigi1111>** Anyway doesn't matter  
 **\<sgp\_[m]>** ok, thanks for the info  
 **\<suraeNoether>** yeah  

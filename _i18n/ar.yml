@@ -1,10 +1,10 @@
 global:
   date: '%Y/%m/%d'
-  monero: مونيرو
+  byterub: مونيرو
   getting_started: إبدأ
   copyright: حقوق الملكيه
-  monero_project: مشروع مونيرو
-  sitename: getmonero.org, مشروع مونيرو
+  byterub_project: مشروع مونيرو
+  sitename: getbyterub.org, مشروع مونيرو
   wiki: مونيروبيديا
   tags: المواضيع بالوصف
   wikimeta: مونيروبيديا , موسوعه مونيرو المفتوحه للمعرفه
@@ -22,7 +22,7 @@ global:
 
 titles:
   index: الرئيسيه
-  whatismonero: ما هو مونيرو (XMR)?
+  whatisbyterub: ما هو مونيرو (XMR)?
   using: إستخدام مونيرو
   accepting: قبول مونيرو
   contributing: تطوير مونيرو
@@ -38,11 +38,11 @@ titles:
   about: عن مونيرو
   roadmap: خريطه الطريق
   researchlab: مختبر بحث مونيرو
-  moneropedia: مونيروبيديا
+  byterubpedia: مونيروبيديا
   userguides: دليل المستخدم
   developerguides: دليل المُطور
   technicalspecs: المواصفات التقنيه
-  themoneroproject: مشروع مونيرو
+  thebyterubproject: مشروع مونيرو
   presskit: عِده مونيرو للصحافه
   legal: قانوني
   ffs: نظام التمويل بالمنتدي
@@ -59,19 +59,19 @@ index:
 
 home:  
   heading2: عمله رقميه سريه
-  monero_is_cash: مونيرو هو النقد في العالم المُتصل , إنه سريع وسري وآمن. مع مونيرو أنت مصرفك الخاص. يمكنك الإنفاق بأمان بإيقان أن الأخرين لا يمكنهم معرفه رصيدك أو تتبع نشاطك .
+  byterub_is_cash: مونيرو هو النقد في العالم المُتصل , إنه سريع وسري وآمن. مع مونيرو أنت مصرفك الخاص. يمكنك الإنفاق بأمان بإيقان أن الأخرين لا يمكنهم معرفه رصيدك أو تتبع نشاطك .
   get_started: إبدأ
-  why_monero_is_different: لماذا يختَلِف مونيرو
-  monero_is_secure: مونيرو آمن
-  monero_is_secure_para: مونيرو هو عمله رقميه لا مركزيه, يعني أنه نقد رقمي آمن يعمل بواسطه شبكه من المُستَخدِمين. يتم تأكيد المعاملات بواسطه إجماع مُوزع من المستخدمين ومن ثم يتم تسجيل المعاملات في سلسله الكتل الغير قابله للتغيير. لستُ بحاجه للوثوق بأي طرف ثالث للتأكد من أن مونيرو خاصتك بأمان .
-  monero_is_private: مونيرو سري
-  monero_is_private_para: مونيرو يستخدم توقيعات الطوق والعناوين المخفيه ومُعامَلات الطوق السريه للتعتيم علي الرّاسل والمُرسل إليه والكِمّيه المُرسله في جميع المعاملات , مونيرو يوفر جميع مميزات العملات الرقميه اللا مركزيه بدون أي تنازلات من جهه السريه والخصوصيه .
-  monero_is_untraceable: مونيرو لا يمكن تتبعه
-  monero_is_untraceable_para: لأن عناوين الإرسال والإستقبال و الكميه المرسله مُعماه إفتراضياً فالمعاملات علي سلسله كتل مونيرو لا يمكن ربطها بأي مستخدم مُعين أو هويّه في العالم الحقيقي.
-  monero_is_fungible: مونيرو قابل للإستبدال دائماً
-  monero_is_fungible_para1: مونيرو
-  monero_is_fungible_para2: قابل للإستبدال
-  monero_is_fungible_para3: لأن السريه إفتراضيه في جميع المعاملات فلا يمكن درج أي وحدات من المونيرو في لائحه سوداء بواسطه تاجر أو مِنصّه تبادل بُناءً علي تاريخها السابق من المعاملات.
+  why_byterub_is_different: لماذا يختَلِف مونيرو
+  byterub_is_secure: مونيرو آمن
+  byterub_is_secure_para: مونيرو هو عمله رقميه لا مركزيه, يعني أنه نقد رقمي آمن يعمل بواسطه شبكه من المُستَخدِمين. يتم تأكيد المعاملات بواسطه إجماع مُوزع من المستخدمين ومن ثم يتم تسجيل المعاملات في سلسله الكتل الغير قابله للتغيير. لستُ بحاجه للوثوق بأي طرف ثالث للتأكد من أن مونيرو خاصتك بأمان .
+  byterub_is_private: مونيرو سري
+  byterub_is_private_para: مونيرو يستخدم توقيعات الطوق والعناوين المخفيه ومُعامَلات الطوق السريه للتعتيم علي الرّاسل والمُرسل إليه والكِمّيه المُرسله في جميع المعاملات , مونيرو يوفر جميع مميزات العملات الرقميه اللا مركزيه بدون أي تنازلات من جهه السريه والخصوصيه .
+  byterub_is_untraceable: مونيرو لا يمكن تتبعه
+  byterub_is_untraceable_para: لأن عناوين الإرسال والإستقبال و الكميه المرسله مُعماه إفتراضياً فالمعاملات علي سلسله كتل مونيرو لا يمكن ربطها بأي مستخدم مُعين أو هويّه في العالم الحقيقي.
+  byterub_is_fungible: مونيرو قابل للإستبدال دائماً
+  byterub_is_fungible_para1: مونيرو
+  byterub_is_fungible_para2: قابل للإستبدال
+  byterub_is_fungible_para3: لأن السريه إفتراضيه في جميع المعاملات فلا يمكن درج أي وحدات من المونيرو في لائحه سوداء بواسطه تاجر أو مِنصّه تبادل بُناءً علي تاريخها السابق من المعاملات.
   downloads: التنزيلات
   downloads_windows: مونيرو لنظام ويندوز
   downloads_mac: مونيرو لنظام ماك
@@ -81,9 +81,9 @@ home:
   view_all_downloads: عرض جميع التنزيلات هنا.
   latest_news: آخر الأخبار
   more_news: أخبار أخري
-  moneropedia: مونيروبيديا
-  moneropedia_para: هل تريد البحث في معني المصلطحات والمفاهيم المستخدمه في مونيرو ؟ هُنا سوف تجد دليل مرتب هجائياً للمصطلحات ومعناها في مشروع مونيرو وأيضاً مشروع كوفري .
-  moneropedia_button: إقرأ مونيروبيديا
+  byterubpedia: مونيروبيديا
+  byterubpedia_para: هل تريد البحث في معني المصلطحات والمفاهيم المستخدمه في مونيرو ؟ هُنا سوف تجد دليل مرتب هجائياً للمصطلحات ومعناها في مشروع مونيرو وأيضاً مشروع كوفري .
+  byterubpedia_button: إقرأ مونيروبيديا
   user_guides: دليل المستخدم
   user_guides_para: أدله موضحه خطوه بخطوه لجميع الأشياء الخاصه بمونيرو مُفرقه بالتصنيف وتشمل كل شيء من أول كيف تنشأ محفظه حتي كيف تدعم الشبكه حتي كيف تقوم بتعديل هذا الموقع .
   user_guides_button: قراءه دليل المستخدم
@@ -98,27 +98,27 @@ hangouts:
   irc: IRC Channels
   irc_para: مجتمع مونيرو ينتفع بالعديد من قنوان الدردشه IRC كل منها لغرض معين. بعضها للعمل, وبعضها للإلتقاء بالمجتمع, سوف تجد أشهرهم في الأسفل.
   irc_channels:
-  - channel: monero
+  - channel: byterub
     description: This channel is used to discuss all things ByteRub related.
-  - channel: monero-community
+  - channel: byterub-community
     description: This channel is for the ByteRub community to congretate and discuss ideas.
-  - channel: monero-dev
+  - channel: byterub-dev
     description: The many contributors and developers come here to discuss dev-y things.
-  - channel: monero-markets
+  - channel: byterub-markets
     description: We use this channel to talk about the price of ByteRub and other coins.
-  - channel: monero-offtopic
+  - channel: byterub-offtopic
     description: Chatting with other ByteRub users about things not related to ByteRub.
-  - channel: monero-otc
+  - channel: byterub-otc
     description: Over the counter ByteRub. Come here to purchase XMR from your fellow ByteRubn.
-  - channel: monero-pools
+  - channel: byterub-pools
     description: This is the place for mining questions and discussion.
-  - channel: monero-research-lab
+  - channel: byterub-research-lab
     description: Research into financial privacy with cryptocurrency.
-  - channel: monero-translations
+  - channel: byterub-translations
     description: Localizing ByteRub into other languages.
-  - channel: monero-hardware
+  - channel: byterub-hardware
     description: Building hardware wallets to keep your ByteRub safe.
-  - channel: monero-site
+  - channel: byterub-site
     description: Where the development of this website is coordinated
   - channel: kovri
     description: This channel is used to discuss all things Kovri related.
@@ -133,7 +133,7 @@ merchants:
     "من فضلك لاحظ: هذه الروابط تم توفيرها هنا لسهوله الوصول ولإغراض تعريفيه فقط: ولا تشكل موافقه او دعم من مجتمع مونيرو لأي من المنتجات أو الخدمات أو رأي في الشركه أو المؤسسه المعروضه هنا. مجتمع مونيرو لا يتحمل أي مسئوليه لصحه أو قانونيه أو محتوي هذه المواقع. راسل هذه المواقع للحصول علي إجابات حول ما يحتويه موقعهم. ودائما تذكر مسئوليه المشتري " إحذر كمشتري " أنت مسئول عن القيام بالبحث الخاص بك والحكم قبل الشراء من أي موقع. "
 
 sponsorships:
-  intro: الأعمال التاليه قد ساندت مونيرو في هدفه لتوفير السريه الماليه للعالم. نحن شاكرين جداً لمشاركتهم. إذا كنت تود دعم مشروع مونيرو وعرض مشروعك في هذه الصفحه من فضلك قم بمراسله dev@getmonero.org.
+  intro: الأعمال التاليه قد ساندت مونيرو في هدفه لتوفير السريه الماليه للعالم. نحن شاكرين جداً لمشاركتهم. إذا كنت تود دعم مشروع مونيرو وعرض مشروعك في هذه الصفحه من فضلك قم بمراسله dev@getbyterub.org.
 
 team:
   core: Core
@@ -180,8 +180,8 @@ downloads:
   helpsupport: Help and Support
   helpsupport1: "A guide with an explanation of every section of the wallet is available:"
   helpsupport2: "See latest release"
-  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #monero-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
-  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #monero or #monero-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #byterub-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #byterub or #byterub-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
   localremote: Local or remote node
   localremote1: Use your own copy of the blockchain or a publicly available one
   transacttor: Transactions over Tor/I2P
@@ -195,7 +195,7 @@ downloads:
   verify: Verify
   verify1: You are strongly advised to verify the hashes of the archive you downloaded. This will confirm that the files you downloaded perfectly match the files uploaded by the ByteRub development workgroup. Please don't underestimate this step, a corrupted archive could result in lost funds. Always verify your downloads!
   showhash: Show hashes to verify your download
-  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getmonero.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
+  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getbyterub.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
   showhash2: in the source code
   showhash3: "Two guides are available to guide you through the verification process:"
   hardware1: The ByteRub community has funded a
@@ -232,19 +232,19 @@ press-kit:
   - category: Press Documentation
     publications:
     - name: "Quick-Facts Sheet"
-      url_file: "http://www.monerooutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
+      url_file: "http://www.byteruboutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
       abstract: >
         A quick and easy to read document to know everything about ByteRub: history, key differentiating factors, technical fundamentals, and features in development.<br>
-        See <a target="_blank" href="https://www.monerooutreach.org/index.php">ByteRub Outreach</a> website for more information.
+        See <a target="_blank" href="https://www.byteruboutreach.org/index.php">ByteRub Outreach</a> website for more information.
   marketing:
   - category: Marketing Material
     publications:
     - name: "The 'Don't buy ByteRub' sticker"
-      url_file: "https://github.com/monero-ecosystem/dont-buy-monero-sticker"
+      url_file: "https://github.com/byterub-ecosystem/dont-buy-byterub-sticker"
       abstract: >
         Spread ByteRub everywhere with the help of this sticker. Available in multiple languages and formats (vectors included).
     - name: Guerrilla Toolkit
-      url_file: "https://www.monerooutreach.org/guerrilla-toolkit.php"
+      url_file: "https://www.byteruboutreach.org/guerrilla-toolkit.php"
       abstract: >
         A document created by the ByteRub Outreach workgroup containing materials and tips for an effective guerrilla marketing campaign.
 
@@ -285,7 +285,7 @@ contributing:
   develop_para3: والقضايا
   develop_para4: العالقه.
   full-node: قم بتشغيل خادم كامل
-  full-node_para: شغّل monerod خادم مونيرو مع منفذ 18080. تشغيل خادم كامل يضمن الحصول علي أعلي خصوصيه وسريه ممكنه لمعاملاتك علي مونيرو. ويحسن من توزيع سلسله الكتل علي المستخدمين الجدد.
+  full-node_para: شغّل byterubd خادم مونيرو مع منفذ 18080. تشغيل خادم كامل يضمن الحصول علي أعلي خصوصيه وسريه ممكنه لمعاملاتك علي مونيرو. ويحسن من توزيع سلسله الكتل علي المستخدمين الجدد.
   mine: عدّن
   mine_para1: التعدين يضمن أمان ولامركزيه شبكه مونيرو. في واجهه سطر مونيرو للأوامر وواجهه مونيرو الرسوميه يمكن تفعيل التعدين في الخلفيه. يمكن رؤيه موارد أخري علي التعدين
   mine_para2: هُنا.
@@ -344,7 +344,7 @@ mining:
   support: الدعم
   support_para1: إنظر
   support_para2: المُلتقي,
-  support_para3: /r/moneromining (English)
+  support_para3: /r/byterubmining (English)
   support_para4: و
   pools: الحقول
   pools_para1: قائمه بالحقول الموثوقه من قبل مونيرو
@@ -389,7 +389,7 @@ using:
   transact_para1: يُمكن إستخدام مونيرو لشراء العديد من المنتجات والخدمات. إنظر
   transact_para2: صفحه التجار.
 
-what-is-monero:
+what-is-byterub:
   need-to-know: ما تحتاج إلي معرفته
   leading: مونيرو هي العمله الرقميه الرائده بالتركيز علي المعاملات السريه ومقاومه الرقابه.
   leading_para1: معظم العملات الرقميه الموجوده, بما فيها البتكوين والإيثيريوم لديهم سلسله كتل شفافه, ويعني ذلك أن المعاملات مفتوحه للتحقق والتعقب من قِبَل أي شخص في العالم. ضف إلي ذلك عناوين الإرسال والإستقبال لهذه المعاملات يحتمل ربطها بشخصيه صاحبها في العالم الحقيقي.
@@ -440,7 +440,7 @@ user-guides:
   offline-backup: كيفيه عمل نسخه إحتياطيه دون إتصال بالإنترنت
   vps-node: كيفيه تشغيل خادم مونيرو علي خادم خاص إفتراضي (vps)
   import-blockchain: إستيراد سلسله كتل مونيرو
-  monero-tools: ادوات مونيرو
+  byterub-tools: ادوات مونيرو
   purchasing-storing: شراء وتخزين مونيرو بأمان
   verify-allos: تحقق من ملفات التثبيت علي ويندوز ولينُكس (متقدم)
   verify-windows: تحقق من الملفات علي ويندوز (للمبتدئين)
@@ -456,7 +456,7 @@ user-guides:
   prove-payment: كيفيه إثبات إتمام معامله
   restore-from-keys: إستعاده محفظه من المفاتيح
   nicehash: How to mine ByteRub XMR without a mining equipment
-  ledger-wallet-cli: How to generate a Ledger ByteRub wallet with the CLI (monero-wallet-cli)
+  ledger-wallet-cli: How to generate a Ledger ByteRub wallet with the CLI (byterub-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor
 
@@ -555,7 +555,7 @@ library:
         A comprehensive conceptual (and technical) explanation of ByteRub.<br>
         We endeavor to teach anyone who knows basic algebra and simple computer science concepts like the ‘bit representation’ of a number not only how ByteRub works at a deep and comprehensive level, but also how useful and beautiful cryptography can be.
     - name: "Mastering ByteRub"
-      file: "https://masteringmonero.com/free-download.html"
+      file: "https://masteringbyterub.com/free-download.html"
       abstract: >
         A guide through the seemingly complex world of ByteRub.<br>
         It includes:
@@ -565,7 +565,7 @@ library:
         <li>Details of the ByteRub decentralized network, peer-to-peer architecture, transaction lifecycle, and security principles.</li>
         <li>Introductions to technical foundations of ByteRub, intended for developers, engineers, software architects, and curious users.</li>
         <li>New developments such as Kovri, Bulletproofs, Multisignature, Hardware Wallets, etc.</li></ul>
-        See <a href="https://masteringmonero.com/">Mastering ByteRub</a> website for info about full version.
+        See <a href="https://masteringbyterub.com/">Mastering ByteRub</a> website for info about full version.
   - category: Magazines
     publications:
     - name: "Revuo ByteRub Q4 2017"
@@ -579,7 +579,7 @@ library:
         Quarterly ByteRub magazine, Q3 2017 edition.<br>
         In this issue, updates about: development, ByteRub Research Lab, Kovri, community, Hardware, and Monerujo.
 
-moneropedia:
+byterubpedia:
   add_new_button: Add New Entry
   add_new_text1: If there is an entry you'd like to modify or be added, please
   add_new_link: open an issue on this website's GitLab repository

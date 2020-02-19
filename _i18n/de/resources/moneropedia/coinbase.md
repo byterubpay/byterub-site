@@ -1,9 +1,9 @@
 ---
 terms: ["coinbase-transaction"]
-summary: "a special type of transaction included in each block, which contains a small amount of Monero sent to the miner as a reward for their mining work"
+summary: "a special type of transaction included in each block, which contains a small amount of ByteRub sent to the miner as a reward for their mining work"
 ---
 
 {% include untranslated.html %}
 ### The Basics
 
-A special type of transaction included in each block, which contains a small amount of Monero sent to the miner as a reward for their mining work.
+A special type of transaction included in each block, which contains a small amount of ByteRub sent to the miner as a reward for their mining work.

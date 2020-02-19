@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-04-16
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-04-16
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -53,11 +53,11 @@ author: el00ruobuob / surae
 **\<koe\_>** surae is there an updated multisig pdf I can look at?  
 **\<koe\_>** the one from a month ago has some issues but if you fixed them then all good  
 **\<suraeNoether>** koe\_ wednesday. and yeah, there have been some drastic changes since then  
-**\<hyc>** difficulty? have you been talking to @zawy12 ? https://github.com/byterubpay/monero/pull/2887  
+**\<hyc>** difficulty? have you been talking to @zawy12 ? https://github.com/byterubpay/byterub/pull/2887  
 **\<suraeNoether>** hyc i've read through a lot of that, and zawy12 will be heavily cited in my work  
 **\<hyc>** cool  
 **\<suraeNoether>** let's see here...  
-**\<suraeNoether>** I've also spent time organizing the first board meeting for MAGIC, April 27 in Denver. sgp and rehrar and myself and sarang and my wife will all be there, and we'll be doing it at one of the possible monero conference locations so we can kinda scope it out  
+**\<suraeNoether>** I've also spent time organizing the first board meeting for MAGIC, April 27 in Denver. sgp and rehrar and myself and sarang and my wife will all be there, and we'll be doing it at one of the possible byterub conference locations so we can kinda scope it out  
 **\<suraeNoether>** maybe we'll all go out and look at several locations and take pictures and rate the places by ratio of distance-to-taco-place by distance-to-hotels  
 **\<sarang>** yessir  
 **\<suraeNoether>** oh, and effing taxes  
@@ -65,12 +65,12 @@ author: el00ruobuob / surae
 **\<sarang>** Any updates from others?  
 **\<hyc>** last weekend I cobbled together my PoW PoC  
 **\<hyc>** literally slapped together while reading a tutorial on JS syntax  
-**\<suraeNoether>** gonna fork monero? do an airdrop?  
+**\<suraeNoether>** gonna fork byterub? do an airdrop?  
 **\<rehrar>** I wanted to launch hyccoin from it, but he wasn't ecstatic about it  
 **\<koe\_>** it would be nice to publish my report on transactions soon, if surae can get a chance to look through it this week  
 **\<suraeNoether>** give me a link right quick  
 **\<suraeNoether>** i'll add it to my high priority before Wednesday thing  
-**\<koe\_>** https://github.com/UkoeHB/Monero-RCT-report  
+**\<koe\_>** https://github.com/UkoeHB/ByteRub-RCT-report  
 **\<hyc>** in the next couple weeks I plan to rewrite it into something closer to production quality. the current version produces wildly inconsistent random programs (very small to very large) and we want something a bit more uniform in length/runtime  
 **\<sarang>** koe\_: it's a nice update  
 **\<suraeNoether>** oh koe wait are you kurt magnus also? or are you two just collaborating?  
@@ -106,4 +106,4 @@ author: el00ruobuob / surae
 **\<hyc>** funfun  
 **\<sarang>** I assume it'll go much like The Prisoner  
 **\<sarang>** and we'll end up on some island  
-**\<sarang>** until we spill the beans on Monero  
+**\<sarang>** until we spill the beans on ByteRub  

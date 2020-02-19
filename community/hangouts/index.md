@@ -10,19 +10,19 @@ permalink: /community/hangouts/index.html
     <section class="hangouts-social container">   
         <ul class="row center-xs">
             <li>
-                <a href="https://twitter.com/monero" target="_blank" rel="noreferrer noopener"><div class="social-icon twitter"></div></a>
+                <a href="https://twitter.com/byterub" target="_blank" rel="noreferrer noopener"><div class="social-icon twitter"></div></a>
             </li>
             <li>
-                <a href="https://reddit.com/r/Monero" target="_blank" rel="noreferrer noopener"><div class="social-icon reddit"></div></a>
+                <a href="https://reddit.com/r/ByteRub" target="_blank" rel="noreferrer noopener"><div class="social-icon reddit"></div></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/monerocurrency/" target="_blank" rel="noreferrer noopener"><div class="social-icon facebook"></div></a>
+                <a href="https://www.facebook.com/byterubcurrency/" target="_blank" rel="noreferrer noopener"><div class="social-icon facebook"></div></a>
             </li>
             <li>
                 <a href="https://github.com/byterubpay" target="_blank" rel="noreferrer noopener"><div class="social-icon github"></div></a>
             </li>
             <li>
-                <a href="https://repo.getmonero.org/users/byterubpay/projects" target="_blank" rel="noreferrer noopener"><div class="social-icon gitlab"></div></a>
+                <a href="https://repo.getbyterub.org/users/byterubpay/projects" target="_blank" rel="noreferrer noopener"><div class="social-icon gitlab"></div></a>
             </li>
         </ul>
     </section>
@@ -45,13 +45,13 @@ permalink: /community/hangouts/index.html
                             </div>
                             <div class="row relays center-xs">
                                 <div class="col-md-4 col-sm-4 col-xs-4">
-                                    <p><a href="https://translate.getmonero.org/" class="btn-link btn-fixed">Weblate</a></p>
+                                    <p><a href="https://translate.getbyterub.org/" class="btn-link btn-fixed">Weblate</a></p>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-4">
-                                    <p><a href="https://mattermost.getmonero.org/" class="btn-link btn-fixed">Mattermost</a></p>
+                                    <p><a href="https://mattermost.getbyterub.org/" class="btn-link btn-fixed">Mattermost</a></p>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-4">
-                                    <p><a href="https://taiga.getmonero.org/" class="btn-link btn-fixed">Taiga</a></p>
+                                    <p><a href="https://taiga.getbyterub.org/" class="btn-link btn-fixed">Taiga</a></p>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ permalink: /community/hangouts/index.html
                         <div class="info-block center-xs">
                           <h2>{% t hangouts.mailing_list %}</h2>
                             <p>{% t hangouts.mailing_list1 %}</p>
-                            <p><a class="btn-link btn-auto btn-primary" href="https://lists.getmonero.org/postorius/lists/monero-announce.lists.getmonero.org/">{% t hangouts.subscribe %}</a></p>
+                            <p><a class="btn-link btn-auto btn-primary" href="https://lists.getbyterub.org/postorius/lists/byterub-announce.lists.getbyterub.org/">{% t hangouts.subscribe %}</a></p>
                         </div>
                </div>
                <!-- end right one-third block-->

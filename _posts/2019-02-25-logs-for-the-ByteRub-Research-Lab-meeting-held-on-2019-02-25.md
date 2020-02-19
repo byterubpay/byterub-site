@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-02-25
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-02-25
 summary: Output Selection, MRL work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -17,14 +17,14 @@ author: el00ruobuob / sarang
 **\<sarang>** A very talkative bunch we are today  
 **\<suraeNoether>**  howdy  :D  
 **\<vtnerd>** hello  
-**\<moneromooo>** Mooooo.  
+**\<byterubmooo>** Mooooo.  
 **\<sarang>** A particular topic I added to the agenda is 2. Output selection  
 **\<sarang>** I have a short writeup and some sim results on the agenda issue: https://github.com/byterubpay/meta/issues/307#issuecomment-466514757  
 **\<sarang>** The problem is that our current algo overselects outputs from small blocks  
 **\<suraeNoether>** Sarang and I last week in person nailed down some distributional stuff for output selection and coded up a few different ways of assessing the results.  
 **\<sarang>** You'll see 4 different algos tested, each for 4 different chain output density scenarios  
 **\<suraeNoether>** each of these scenarios represents a different plausible situation our economy could undergo  
-**\<suraeNoether>** a feast scenario is one in which we get popular, a famine scenario is one in which monero usage drops  
+**\<suraeNoether>** a feast scenario is one in which we get popular, a famine scenario is one in which byterub usage drops  
 **\<sarang>** Under normal chain conditions, each of the 3 alternatives (the fourth is the current method) does a better job than what we have now  
 **\<sgp\_>** o/  
 **\<sarang>** Under extreme conditions, there are tradeoffs  
@@ -47,10 +47,10 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** in addition to comparing these different sampling methods, a method of directly estimating our true spend-time distribution occurred to me last night, and i'm writing it up now  
 **\<sarang>** Does anyone else have any thoughts on these?  
 **\<sarang>** RandomRun made a good suggestion for a more general set of quantities to test, that I'll write up and add to the table  
-**\<moneromooo>** Did you try the gamma \* num-outs-per-block combo ?  
+**\<byterubmooo>** Did you try the gamma \* num-outs-per-block combo ?  
 **\<sarang>** (see their comment on the issue)  
 **\<sarang>** suraeNoether worked up a version of that but was not happy with its outcome  
-**\<suraeNoether>** moneromooo: the lineup and bias methods are designed to estimate that method moneromooo since computing it directly runs into certain numerical problems  
+**\<suraeNoether>** byterubmooo: the lineup and bias methods are designed to estimate that method byterubmooo since computing it directly runs into certain numerical problems  
 **\<ArticMine>** If I understand correctly chain density is a measure of velocity  
 **\<sarang>** chain density = distribution of number of outputs per block  
 **\<sarang>** I don't know how much this applies to velocity if amounts and destinations cannot be known  
@@ -86,7 +86,7 @@ author: el00ruobuob / sarang
 **\<sgp\_>** It's my opinion that coinbase outputs will never be spent in the incredible vast majority of transactions of normal users. A heuristic to eliminate the coinbase has high accuracy for anyone not suspected of mining  
 **\<suraeNoether>** sgp\_: high sensitivity but awful specificity  
 **\<sarang>** ^  
-**\<sgp\_>** Under normal Monero network conditions, over 75% of the hashrate is allocated to public pools. These are all transparent  
+**\<sgp\_>** Under normal ByteRub network conditions, over 75% of the hashrate is allocated to public pools. These are all transparent  
 **\<ArticMine>** Who then promptly spend the coinbase  
 **\<sgp\_>** yes, and it's clear which transactions spend the coinbase too  
 **\<sgp\_>** so these outputs are effectively dead  
@@ -119,18 +119,18 @@ author: el00ruobuob / sarang
 **\<sarang>** To sum up: sgp\_ had previously advocated for a default/rule that a ring with a coinbase must contain only coinbase  
 **\<ArticMine>** It comes down to the outliers issue. Not all coinbase outputs are dead. With a ring size of 11 we can afford to spend 1 ring on this  
 **\<ArticMine>** If the ring size were say 3 I would support sgp\_s position  
-**\<moneromooo>** If you want to avoid pool coinbase outs as fake outs, use a blackball list with them.  
+**\<byterubmooo>** If you want to avoid pool coinbase outs as fake outs, use a blackball list with them.  
 **\<sgp\_>** ArticMine: in my opinion, the cost of wasting 1 ouptput per tx is worse than the harm' to solo miners if we avoid coinbase outputs entirely  
-**\<sgp\_>** moneromooo: we want to avoid interactivity. That's really cumbersome to expect of users, and it allows for pool fuckery if they report bad info to wallet clients  
-**\<sarang>** I assume moneromooo meant a blackball list with sources chosen by the user  
-**\<moneromooo>** People don't have to do anything. They only do anything if they want to avoid those outputs.  
+**\<sgp\_>** byterubmooo: we want to avoid interactivity. That's really cumbersome to expect of users, and it allows for pool fuckery if they report bad info to wallet clients  
+**\<sarang>** I assume byterubmooo meant a blackball list with sources chosen by the user  
+**\<byterubmooo>** People don't have to do anything. They only do anything if they want to avoid those outputs.  
 **\<sarang>** not some global version that can be DoS  
 **\<ArticMine>** But you agree tat the issue is way less wit ring 11 tan say ring 3  
 **\<sgp\_>** ArticMine: yes, a larger ringsize mitigates these issues  
 **\<sarang>** I think that the idea of coinbase-only rings deserves more careful analysis to numerically examine the benefits and chain costs  
 **\<sgp\_>** But I still advocate for this at any feasible ringsize  
-**\<moneromooo>** If it was automated and everyone was magically using that system, non pool miners would be spenidng at effective mixin 0.  
-**\<sgp\_>** moneromooo: yes  
+**\<byterubmooo>** If it was automated and everyone was magically using that system, non pool miners would be spenidng at effective mixin 0.  
+**\<sgp\_>** byterubmooo: yes  
 **\<sgp\_>** problem is unless we avoid the coinbase outputs, wallets will select this "0-mixin" outputs in their rings  
 **\<sarang>** I recommend we table this in the absence of any numerical evidence  
 **\<sarang>** but that we obtain this evidence if it exists  
@@ -147,9 +147,9 @@ author: el00ruobuob / sarang
 **\<sarang>** I'm hesitant because I'm sure the contract terms could be abused if they were out for PR or other ends  
 **\<sarang>** I am going to request that the contract terms be made public, since I am not a lawyer  
 **\<suraeNoether>** i think that's true of any contract  
-**\<moneromooo>** I don't remember them as PR whores fwiw.  
+**\<byterubmooo>** I don't remember them as PR whores fwiw.  
 **\<sarang>** cool  
-**\<moneromooo>** I didn't exactly look for it though.  
+**\<byterubmooo>** I didn't exactly look for it though.  
 **\<suraeNoether>** however, i think we could propose amendments re: anticipated problems  
 **\<sarang>** I'm trying to maintain healthy skepticism while appreciating their offer  
 **\<sarang>** Yeah. If we can publish the contract and there are no serious objections, it reduces the community funding burden while not changing our research goals  
@@ -159,15 +159,15 @@ author: el00ruobuob / sarang
 **\<sarang>** Yeah, they specifically don't take ownership of any research product  
 **\<ArticMine>** Assignment of IP?  
 **\<endogenic>** as mentioned when a contract is couched in consulting language they can say they had expectations of certain things  
-**\<moneromooo>** One fairly easy way to prevent most of that is to say "sarang can stop this contract at any time, and the pro rata is due".  
+**\<byterubmooo>** One fairly easy way to prevent most of that is to say "sarang can stop this contract at any time, and the pro rata is due".  
 **\<sarang>** but do state that if they share confidential info with researchers, it can't be discussed  
 **\<sarang>** So if they knew about some kind of bug, they could disclose under the contract's NDA clause  
-**\<moneromooo>** That is a massive no.  
-**\<moneromooo>** It allows them to control what you can do open source.  
+**\<byterubmooo>** That is a massive no.  
+**\<byterubmooo>** It allows them to control what you can do open source.  
 **\<sarang>** that's my fear  
 **\<sarang>** If they'll alter or remove that, it takes away most of my concern  
 **\<sarang>** I'll discuss with them and get the contract posted publicly  
-**\<moneromooo>** If they know of a bug, htey can use H1.  
+**\<byterubmooo>** If they know of a bug, htey can use H1.  
 **\<sarang>** exactly  
 **\<sarang>** I wonder if it's for a bug in \_their\_ software  
 **\<sarang>** but anyway  
@@ -195,32 +195,32 @@ author: el00ruobuob / sarang
 **\<sarang>** cool  
 **\<suraeNoether>** oh yeah, the most interesting part of these research meetings, to me, is the folks who aren't sarang and i  
 **\<sarang>** Their foundation is a legally-established foundation in Australia  
-**\<moneromooo>** From experience, knowing a dev at one company does not mean you know what the boss will do when possible.  
-**\<suraeNoether>** i'm interested in how wallet dev is coming from endogenic, i'm interested in what hyc has been working on with moneroR, i want to hear from isthmus but he's usually in meetings around now  
-**\<koracain>** he's legit i havn't looked very hard at the project but yah lol he'd probably blow them up if they broke monero  
+**\<byterubmooo>** From experience, knowing a dev at one company does not mean you know what the boss will do when possible.  
+**\<suraeNoether>** i'm interested in how wallet dev is coming from endogenic, i'm interested in what hyc has been working on with byterubR, i want to hear from isthmus but he's usually in meetings around now  
+**\<koracain>** he's legit i havn't looked very hard at the project but yah lol he'd probably blow them up if they broke byterub  
 **\<sarang>** FWIW foundation funding wouldn't change our research goals or agenda in any way  
 **\<sarang>** They require monthly reports, but we already do that  
-**\<sarang>** I'm optimistic that they just want to support Monero research since it would also benefit their project  
+**\<sarang>** I'm optimistic that they just want to support ByteRub research since it would also benefit their project  
 **\<endogenic>** also when Samsung Noether  
 **\<sarang>** heh  
 **\<sarang>** that falls under 5. Questions  
 **\<endogenic>** :P  
 **\<koracain>** look hard at it but jeff is in the i2p channels on here via a relay bot  
-**\<sarang>** My question for moneromooo et al: when do non-consensus decisions like output selection need to be in place for an upcoming release?  
-**\<moneromooo>** If it's the output lining thing, I can have it done pretty quick given it's very similar to what we already have.  
+**\<sarang>** My question for byterubmooo et al: when do non-consensus decisions like output selection need to be in place for an upcoming release?  
+**\<byterubmooo>** If it's the output lining thing, I can have it done pretty quick given it's very similar to what we already have.  
 **\<sarang>** What is the expected timeline for a point release after the network upgrade?  
 **\<sarang>** A month? Two?  
-**\<moneromooo>** I don't think anything was even really talked about yet.  
+**\<byterubmooo>** I don't think anything was even really talked about yet.  
 **\<sarang>** ok, wasn't sure  
-**\<moneromooo>** But that sounds plausible.  
+**\<byterubmooo>** But that sounds plausible.  
 **\<sarang>** Well, at least the algorithm is coded up in Python already (link in agenda writeup)  
 **\<sarang>** so anyone can play around or test them  
-**\<sarang>** Real chain data is included (thanks to moneromooo for pulling that)  
+**\<sarang>** Real chain data is included (thanks to byterubmooo for pulling that)  
 **\<sarang>** Other questions before we wrap up and return to informal discussion?  
 **\<sarang>** Righto!  
 **\<sarang>** 6. Action items  
 **\<sarang>** I will complete additional output selection testing and consider the possibilities for coinbase more thoroughly  
 **\<sarang>** as well as get the Loki contract squared away and the other items I listed above  
 **\<sarang>** suraeNoether?  
-**\<sarang>** Ah, and an urgent call for translations was just made: https://www.reddit.com/r/Monero/comments/auo078/urgentcall\_for\_translators\_we\_have\_two\_days\_to/  
+**\<sarang>** Ah, and an urgent call for translations was just made: https://www.reddit.com/r/ByteRub/comments/auo078/urgentcall\_for\_translators\_we\_have\_two\_days\_to/  
 **\<sarang>** Quiet times... well, thanks to everyone for joining. We'll formally adjourn now, but feel free to continue any discussions about previous topics. I'll post logs on the GitHub issue later today    

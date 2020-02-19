@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.unlocktime
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.unlocktime
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/unlocktime.md %}
+{% tf resources/byterubpedia/unlocktime.md %}

@@ -10,7 +10,7 @@ author: el00ruobuob / rehrar
 
 **\<xmrmatterbridge> \<rehrar>** Meeting!!  
 **\<ferretinjapan>** rehrar, o/  
-**\<moneromooo>** rehrar: btw, did you get any new info from purism ?  
+**\<byterubmooo>** rehrar: btw, did you get any new info from purism ?  
 **\<jwinterm>** \\o  
 **\<xmrmatterbridge> \<rehrar>** Yes. Will update. Did update in -community  
 **\<hyc>** time  
@@ -29,7 +29,7 @@ author: el00ruobuob / rehrar
 **\<hyc>** the vote on auditor selection is closed and tallied, Kudelski is the clear first choice  
 **\<hyc>** Quarkslab and X41 nearly tied for 2nd choice but QL slightly ahead  
 **\<hyc>** and majority voted for 3 choices, so it seems we are going to submit all 3 in CCS  
-**\<hyc>** randomX integration in monerod is mostly there, we have some bug with reorg handling at the moment  
+**\<hyc>** randomX integration in byterubd is mostly there, we have some bug with reorg handling at the moment  
 **\<rehrar>** What's the cost of all three, hyc?  
 **\<hyc>** but otherwise the patch has all the functionality we seem to need, including support for mining RPCs so pools and solo miners can work  
 **\<tevador>** ~$120K  
@@ -43,7 +43,7 @@ author: el00ruobuob / rehrar
 **\<hyc>** I think that covers it for me, yeah  
 **\<rehrar>** awesome, thanks for all of your guys' work on this. It's exciting stuff.  
 **\<rehrar>** Anyone else have anything that's been done past couple of weeks?  
-**\<moneromooo>** monerod can now sync on big endian ^\_^  
+**\<byterubmooo>** byterubd can now sync on big endian ^\_^  
 **\<hyc>** woohoo!  
 **\<rbrunner>** Wow. Is that still a thing?  
 **\<hyc>** IBM POWER, Fujitsu / oracle SPARC  
@@ -53,14 +53,14 @@ author: el00ruobuob / rehrar
 **\<rehrar>** :P anyways, I can also give an update regarding Purism if desired.  
 **\<rehrar>** I had a meeting with Todd, the CEO a few days ago.  
 **\<rbrunner>** Please do  
-**\<rehrar>** They're still just as excited about Monero. They aren't really interested in other cryptocurrencies, because only Monero has the ideology of privacy by default, similar to them. They're still very excited about integrating Moenro into Librem Pay  
-**\<rehrar>** so one can theoretically pay using Monero anywhere at any merchant, and merchant settles in fiat.  
-**\<rehrar>** still want to ship Monero by default on all of their systems, mobile and desktop.  
+**\<rehrar>** They're still just as excited about ByteRub. They aren't really interested in other cryptocurrencies, because only ByteRub has the ideology of privacy by default, similar to them. They're still very excited about integrating Moenro into Librem Pay  
+**\<rehrar>** so one can theoretically pay using ByteRub anywhere at any merchant, and merchant settles in fiat.  
+**\<rehrar>** still want to ship ByteRub by default on all of their systems, mobile and desktop.  
 **\<rehrar>** They don't have any available dev kits for the Librem5 phone for the devs to mess around with, but they are going to get me emulators for their PureOS stuffs.  
 **\<rehrar>** And we can start playing with the GUI and stuff on there and make it adaptive, if possible, and the like  
 **\<rehrar>** They're willing to do a matching thing on a CCS proposal that we do  
 **\<rehrar>** As in, if we raise x amount of money, they'll put in x as well (up to some upper limit for them) for a dev to work on this stuff.  
-**\<jtgrassie>** By "ship Monero by default", do they mean ship with full-node + wallet?  
+**\<jtgrassie>** By "ship ByteRub by default", do they mean ship with full-node + wallet?  
 **\<rehrar>** dsc\_ has expressed a willingness, but I'm not going to put words in his mouth, so you can talk to him for more info  
 **\<rehrar>** jtgrassie: that's for us to figure otu  
 **\<rehrar>** \*out  
@@ -70,13 +70,13 @@ author: el00ruobuob / rehrar
 **\<vtnerd>** yeah the light-wallet-server setup is probably more appropriate, but people have synced the chain to their phone  
 **\<rehrar>** Obviously, since there is the idea that you can do whatever you want on their phone with no abritrary restrictions, the idea that someone can theoretically run a full node on their phone should not be overlooked  
 **\<hyc>** are they using a micro-HDMI port, or just something like chromecast to use external monitor? just curious, not important  
-**\<jtgrassie>** Having purism simply accept Monero as a payment method first would be nice  
+**\<jtgrassie>** Having purism simply accept ByteRub as a payment method first would be nice  
 **\<vtnerd>** the issue might be storage on that sucker, I dont see sd card listed ... ?  
-**\<moneromooo>** They do.  
-**\<moneromooo>** Or did, at least.  
-**\<rehrar>** jtgrassie: they do accept Monero  
+**\<byterubmooo>** They do.  
+**\<byterubmooo>** Or did, at least.  
+**\<rehrar>** jtgrassie: they do accept ByteRub  
 **\<jwinterm>** hyc: it looks like it will go usb-c to hdmi or display port (tbd)  
-**\<jtgrassie>** moneromooo: not an option at checkout  
+**\<jtgrassie>** byterubmooo: not an option at checkout  
 **\<jtgrassie>** rehrar: ^  
 **\<hyc>** jwinterm thanks  
 **\<rehrar>** there is "Cryptocurrencies" option  
@@ -95,40 +95,40 @@ author: el00ruobuob / rehrar
 **\<endogenic>** hi all  
 **\<rehrar>** \*it'd be  
 **\<rehrar>** anyone else have something to report or talk about?  
-**\<ErCiccione>** I have a quick update. The Monero Ecosystem has a new member: go-monero-rpc-client. The repo is not transferred yet, but it has been approved: https://github.com/monero-ecosystem/meta/issues/35. We didn't have anything in golang before, so i think it's cool to have it.  
+**\<ErCiccione>** I have a quick update. The ByteRub Ecosystem has a new member: go-byterub-rpc-client. The repo is not transferred yet, but it has been approved: https://github.com/byterub-ecosystem/meta/issues/35. We didn't have anything in golang before, so i think it's cool to have it.  
 **\<rehrar>** That's pretty neat.  
 **\<hyc>** I wonder if the RandomX repo should be in Ecosystem  
-**\<rehrar>** I would think it'd be better suited for Monero Project?  
+**\<rehrar>** I would think it'd be better suited for ByteRub Project?  
 **\<ErCiccione>** hyc: it would be more than welcome  
 **\<hyc>** I guess it's up to tevador to decide where he wants it to live  
-**\<rehrar>** Ecosystem is typically Monero-only things, and while RandomX is be built by Monero for Monero  
+**\<rehrar>** Ecosystem is typically ByteRub-only things, and while RandomX is be built by ByteRub for ByteRub  
 **\<rehrar>** it should be agnostic in theory, no?  
 **\<rehrar>** as in, other coins can adopt it?  
 **\<hyc>** and we already have a 3rd party Arweave planning to use it  
 **\<rehrar>** Similar to OpenAlias in that respect.  
-**\<rehrar>** So my suggestion to tevador would be in the Monero Project set of repos  
+**\<rehrar>** So my suggestion to tevador would be in the ByteRub Project set of repos  
 **\<hyc>** ok  
-**\<ErCiccione>** Well, was created by monero developers for Monero. I think hosting it on a Monero "place" is apropriate  
-**\<rehrar>** on the "new" repo.getmonero.org  
+**\<ErCiccione>** Well, was created by byterub developers for ByteRub. I think hosting it on a ByteRub "place" is apropriate  
+**\<rehrar>** on the "new" repo.getbyterub.org  
 **\<rehrar>** Alright, any code discussion to happen as a 3 or 4 or whatever?  
 **\<rehrar>** If not, we can adjourn and go to markets to speculate on the rise of the market.  
 **\<rehrar>** unless someone had other meeting items?  
 **\<hyc>** anything more to say on next point release?  
 **\<rehrar>** ooooh yes plz  
-**\<hyc>** moneromooo ?  
-**\<moneromooo>** Waiting on pony to build binaries AFAIK.  
+**\<hyc>** byterubmooo ?  
+**\<byterubmooo>** Waiting on pony to build binaries AFAIK.  
 **\<ErCiccione>** core is branched and GUI is waiting for core. Translations for GUI are being submitted, but we are having a lot less contributors than the last release  
 **\<sarang>** When is freeze for the Carbon Crab update?  
 **\<rehrar>** \*Crap  
 **\<sarang>** MRL is feverishly working on CLSAG  
 **\<endogenic>** an MRL workshop is occurring this week. any requests as to topics of discussion  
-**\<moneromooo>** Lightning/Bolt building blocks ^\_^  
+**\<byterubmooo>** Lightning/Bolt building blocks ^\_^  
 **\<sarang>** Fo sho  
 **\<rehrar>** so....  
 **\<rehrar>** we gucci?  
 **\<sarang>** When is the freeze?  
 **\<sarang>** For Carbon  
-**\<moneromooo>** Whenever we're done :)  
+**\<byterubmooo>** Whenever we're done :)  
 **\<sarang>** Lol  
 **\<rehrar>** I think it's quite dependent on the audits  
 **\<rehrar>** no?  
@@ -138,7 +138,7 @@ author: el00ruobuob / rehrar
 **\<sarang>** Goal is to finish by July IIRC  
 **\<sarang>** Ya  
 **\<sarang>** If we choose to get CLSAG audited that adds time  
-**\<rehrar>** Monero is technically made of money  
+**\<rehrar>** ByteRub is technically made of money  
 **\<rehrar>** so I don't see a huge problem  
 **\<endogenic>** it's people  
 **\<rehrar>** so, question answered then?  
@@ -152,7 +152,7 @@ author: el00ruobuob / rehrar
 **\<hyc>** one could say the code is currently in a frozen state, since nothing can be merged until fluffy resurfaces  
 **\<rbrunner>** lol  
 **\<sarang>** What a time to be alive  
-**\<ErCiccione>** hyc: luigi got the power now. HE is the leader of Monero afterall  
+**\<ErCiccione>** hyc: luigi got the power now. HE is the leader of ByteRub afterall  
 **\<ErCiccione>** at least according to wikipedia  
 **\<hyc>** oho  
 **\<rehrar>** alright, I think we're pretty much done then. :)  

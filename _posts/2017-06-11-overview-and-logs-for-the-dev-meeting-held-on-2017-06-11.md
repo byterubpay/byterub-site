@@ -8,16 +8,16 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-06-11).  
+An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-06-11).  
 
 # Logs  
 
 **\<fluffypony>** ok  
 **\<fluffypony>** 2. Brief review of what's been completed since the previous meeting  
-**\<moneromooo>** Abstracted peer addresses, which will make it easier to plug I2P in later.  
+**\<byterubmooo>** Abstracted peer addresses, which will make it easier to plug I2P in later.  
 **\<fluffypony>** from my side I put the GUI on the download page, and reviewed and merged PRs  
 **\* fluffypony** browses merged PRs  
-**\<moneromooo>** Mostly bugfixes I think, I was looking at it.  
+**\<byterubmooo>** Mostly bugfixes I think, I was looking at it.  
 **\<fluffypony>** yeah  
 **\<fluffypony>** ok let's move on  
 **\<pigeons>** arm7 bug found  
@@ -31,9 +31,9 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<serhack>** is meeting now?  
 **\<fluffypony>** I'll do some merging today / tomorrow - are there any urgent PRs I must merge first?  
 **\<endogenic>** serhack: yes  
-**\<moneromooo>** 2078 maybe. Not really super urgent though.  
-**\<moneromooo>** Oh, 2073 would be nice.  
-**\<moneromooo>** 2064 would be nice too.  
+**\<byterubmooo>** 2078 maybe. Not really super urgent though.  
+**\<byterubmooo>** Oh, 2073 would be nice.  
+**\<byterubmooo>** 2064 would be nice too.  
 **\<fluffypony>** kk  
 **\<johnalan>** 1936?  
 **\<fluffypony>** ok  
@@ -41,7 +41,7 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<johnalan>** is that due to be merged?  
 **\<fluffypony>** @johnalan yes, as long as there are no conflicts by the time I get to it  
 **\<johnalan>** okey  
-**\<moneromooo>** Is that the one with a "DO NOT MERGE" text on it ?  
+**\<byterubmooo>** Is that the one with a "DO NOT MERGE" text on it ?  
 **\<iDunk>** lol  
 **\<johnalan>** hehehe  
 **\<johnalan>** yes yes  
@@ -82,12 +82,12 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** so thank him  
 **\<ArticMine>** The bot runs here?  
 **\<fluffypony>** ArticMine: no on GitHub, not on IRC  
-**\<moneromooo>** Thanks medusa :D  
+**\<byterubmooo>** Thanks medusa :D  
 **\<tewinget>** well, for/with github, not on  
 **\<fluffypony>** so you have to be authenticated to GitHub to comment on the issue anyway  
 **\<pero>** wow this is really the future  
 **\<pero>** such a thing didnt already exist?  
-**\<moneromooo>** And thanks pigeons  
+**\<byterubmooo>** And thanks pigeons  
 **\<fluffypony>** no  
 **\<fluffypony>** we had to create it  
 **\<fluffypony>** from scratch  
@@ -106,30 +106,30 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** ok - so that's tickerbot, let's move on  
 **\<fluffypony>** 4. Any additional meeting items  
 **\<johnalan>** Something about multisig, I think I heard someone say  
-**\<moneromooo>** Kinda peripheral, but I've finished my last ffs milestone yesterday (thanks to all).  
+**\<byterubmooo>** Kinda peripheral, but I've finished my last ffs milestone yesterday (thanks to all).  
 **\<johnalan>** Congrats and well done  
-**\<dternyak>** woo! moneromooo congrats  
+**\<dternyak>** woo! byterubmooo congrats  
 **\<xmr-eric>** Thanks mooo  
 **\<fluffypony>** well done mooo  
-**\<moneromooo>** And I'm hacking on multisig yes, from luigi1113's docs and help. Not working yet though.  
-**\<fluffypony>** moneromooo: are you going to do another FFS ?  
-**\<johnalan>** @moneromooo you should  
+**\<byterubmooo>** And I'm hacking on multisig yes, from luigi1113's docs and help. Not working yet though.  
+**\<fluffypony>** byterubmooo: are you going to do another FFS ?  
+**\<johnalan>** @byterubmooo you should  
 **\<dternyak>** ^ +1  
 **\<scoobybejesus>** ^  
 **\<unknownids>** grats moo!  
 **\<unknownids>** god i hope he does  
-**\<moneromooo>** Not sure. I was kinda toying with quitting my day job and working more on monero, but... can't decide to just do it  
+**\<byterubmooo>** Not sure. I was kinda toying with quitting my day job and working more on byterub, but... can't decide to just do it  
 **\<gingeropolous>** waaaat  
 **\<johnalan>** see how it goes for another round of ffs  
 **\<4matter>** good what feels good ;)  
 **\<iDunk>** O.O  
 **\<johnalan>** it will get funded in no time  
 **\<4matter>** do  
-**\<dternyak>** yessss do it moneromooo  
+**\<dternyak>** yessss do it byterubmooo  
 **\<unknownids>** oooo. i heard you should do that  
-**\<endogenic>** wow you have a day job and you work on monero?  
-**\<fluffypony>** moneromooo: DO IT  
-**\<unknownids>** i heard that you should do that from a few people moneromooo  
+**\<endogenic>** wow you have a day job and you work on byterub?  
+**\<fluffypony>** byterubmooo: DO IT  
+**\<unknownids>** i heard that you should do that from a few people byterubmooo  
 **\<thrmo[m]>** Just do it! ^^  
 **\<fluffypony>** you know you can trivially get funding  
 **\<4matter>** meant to say: do what feels good ;)  
@@ -138,55 +138,55 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<ArticMine>** It will get funded  
 **\<johnalan>** ^  
 **\<fluffypony>** and my axe  
-**\<unknownids>** why wont you take my moneros already!  
+**\<unknownids>** why wont you take my byterubs already!  
 **\<endogenic>** (your other axe)  
-**\<moneromooo>** Thank you for the plebiscite :D  
+**\<byterubmooo>** Thank you for the plebiscite :D  
 **\<gingeropolous>** (futurama shutup and take my money meme insert here)  
 **\<binaryFate>** do it dude  
-**\<moneromooo>** I might. I have a nice cushion now to stay out of work for a few years if things don't work out, so...  
-**\<moneromooo>** And about multisig, I'm waiting for luigi1113 to check logs and see where things are going wonky.  
+**\<byterubmooo>** I might. I have a nice cushion now to stay out of work for a few years if things don't work out, so...  
+**\<byterubmooo>** And about multisig, I'm waiting for luigi1113 to check logs and see where things are going wonky.  
 **\<johnalan>** You wouldn’t be out of work, you’d be working for yourself!  
-**\<moneromooo>** But the code's all there for N/N (No N-1/N yet).  
+**\<byterubmooo>** But the code's all there for N/N (No N-1/N yet).  
 **\<johnalan>** great  
 **\<unknownids>** awesome  
 **\<johnalan>** thanks for your work  
-**\<dternyak>** thanks moneromooo  
+**\<dternyak>** thanks byterubmooo  
 **\<johnalan>** I haven’t had time personally to contribute recently, but are there any updates from anyone on mobile wallet?  
-**\<unknownids>** moneromooo, is that code on github anywhere yet? (not that i would understand it)  
-**\<moneromooo>** Yes. Let me see..  
+**\<unknownids>** byterubmooo, is that code on github anywhere yet? (not that i would understand it)  
+**\<byterubmooo>** Yes. Let me see..  
 **\<endogenic>** i'm curious to check it out too, will learn a ton  
 **\<dternyak>** johnalan it seems all thats left is certs, maybe fluffypony can comment :)  
 **\<dternyak>** unless you meant official gui mobile  
 **\<endogenic>** dternyak: i think he means official wallet  
 **\<dternyak>** yeah  
 **\<johnalan>** I am very excited about both  
-**\<moneromooo>** https://github.com/moneromooo-monero/bitmonero/commits/mswip  
+**\<byterubmooo>** https://github.com/byterubmooo-byterub/bitbyterub/commits/mswip  
 **\<fluffypony>** official - MyByteRub isn't cool enough to have dev meetings  
 **\<johnalan>** but yup I meant official  
 **\<endogenic>** ^  
 **\<endogenic>** lol i love your commit msgs  
 **\<johnalan>** Coinomi seem to be getting there too  
-**\<moneromooo>** The second commit message has luigi1113's doc about it.  
+**\<byterubmooo>** The second commit message has luigi1113's doc about it.  
 **\<4matter>** jaxx integration?  
 **\<4matter>** jkjk  
 **\<4matter>** lmao  
 **\<johnalan>** “More”  
-**\<unknownids>** thanks luigi1113 and moneromooo this is exciting stuff  
-**\<moneromooo>** That's going to be rebased though. Don't mind this.  
+**\<unknownids>** thanks luigi1113 and byterubmooo this is exciting stuff  
+**\<byterubmooo>** That's going to be rebased though. Don't mind this.  
 **\<johnalan>** :)  
-**\<johnalan>** so on gui/mymonero mobile - any updates?  
+**\<johnalan>** so on gui/mybyterub mobile - any updates?  
 **\<fluffypony>** Jaquee ^^  
 **\<fluffypony>** or MoroccanMalinois maybe?  
-**\<xmr-eric>** I still think we need to decide on a name for the GUI. https://github.com/byterubpay/monero-core/issues/674  
+**\<xmr-eric>** I still think we need to decide on a name for the GUI. https://github.com/byterubpay/byterub-core/issues/674  
 **\<xmr-eric>** ByteRub Kerna still seems fun  
 **\<johnalan>** you can call it Mary if you like, I just want it  
 **\<johnalan>** :)  
 **\<endogenic>** not a huge fan of that  
 **\<MoroccanMalinois>** I know Jaquee is working on the light wallet stuffs.  
-**\<anonimal>** moneromooo: if you don't do another FFS, I'll stick my arm through these encrypted pipes, all the way to your face, and tickle your nose until you an FFS  
-**\<Jaquee>** re: gui mobile. I've finally bought an android. Will try to get in running there in upcoming weeks. I'm almost finished with the lightwallet stuff (mymonero/openmonero)  
+**\<anonimal>** byterubmooo: if you don't do another FFS, I'll stick my arm through these encrypted pipes, all the way to your face, and tickle your nose until you an FFS  
+**\<Jaquee>** re: gui mobile. I've finally bought an android. Will try to get in running there in upcoming weeks. I'm almost finished with the lightwallet stuff (mybyterub/openbyterub)  
 **\<endogenic>** way to go Jaquee!  
-**\<moneromooo>** :)  
+**\<byterubmooo>** :)  
 **\<Jaquee>** i have more time now over summer  
 **\<johnalan>** well done Jaquee  
 **\<xmr-eric>** :+1:  

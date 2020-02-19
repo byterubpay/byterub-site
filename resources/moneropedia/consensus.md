@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.consensus
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.consensus
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/consensus.md %}
+{% tf resources/byterubpedia/consensus.md %}

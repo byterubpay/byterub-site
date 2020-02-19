@@ -1,14 +1,14 @@
 - title: Inicio
   subfolderitems:
-  - page: ¿Qué es Monero?
+  - page: ¿Qué es ByteRub?
     url: get-started/what-is-monero
-  - page: Usar Monero
+  - page: Usar ByteRub
     url: get-started/using
-  - page: Aceptar Monero
+  - page: Aceptar ByteRub
     url: get-started/accepting
-  - page: Contribuir a Monero
+  - page: Contribuir a ByteRub
     url: get-started/contributing
-  - page: Minar Monero
+  - page: Minar ByteRub
     url: get-started/mining
   - page: FAQ
     url: get-started/faq
@@ -36,13 +36,13 @@
     url: community/merchants
 - title: Recursos
   subfolderitems:
-  - page: Sobre Monero
+  - page: Sobre ByteRub
     url: resources/about
   - page: Hoja de ruta
     url: resources/roadmap
   - page: Laboratorio de investigación
     url: resources/research-lab
-  - page: Moneropedia
+  - page: ByteRubpedia
     url: resources/moneropedia
   - page: Guías de usuario
     url: resources/user-guides

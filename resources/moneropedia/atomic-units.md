@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.atomic-units
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.atomic-units
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/atomic-units.md %}
+{% tf resources/byterubpedia/atomic-units.md %}

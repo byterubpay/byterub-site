@@ -19,7 +19,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** hi  
 **\<tewinget>** (here)  
 **\<vtnerd>** also present  
-**\<moneromooo>** hi  
+**\<byterubmooo>** hi  
 **\<tewinget>** I'll be sorta afk for the next 5ish minutes, but I'm around.  
 **\<fluffypony>** ok  
 **\<fluffypony>** 2. Brief review of what's been completed since the previous meeting  
@@ -32,7 +32,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** we switched to EasyLogging++, which is a pretty big change  
 **\<fluffypony>** and MoroccanMalinois made Android builds happen  
 **\<fluffypony>** tdprime also pushed their first PR  
-**\<fluffypony>** and then the usual rash of PRs from moneromooo, vtnerd, hyc, NanoAkron, and Jaquee  
+**\<fluffypony>** and then the usual rash of PRs from byterubmooo, vtnerd, hyc, NanoAkron, and Jaquee  
 **\<fluffypony>** (I've probably missed someone)  
 **\<pigeons>** reveler with the background mining  
 **\<hyc>** revler  
@@ -41,10 +41,10 @@ author: dEBRUYNE / fluffypony
 **\<jollymort>** kenshi84 disposable addresses  
 **\<fluffypony>** and kenshi84  
 **\<fluffypony>** ok - anything else major I missed that happened in the last two weeks before we move on to 3?  
-**\<moneromooo>** All the new one time address stuff from knaccc, randomrun, kenshi, jollymort.  
+**\<byterubmooo>** All the new one time address stuff from knaccc, randomrun, kenshi, jollymort.  
 **\<knaccc>** yes subaddresses are back!  
-**\<moneromooo>** And luigi.  
-**\<fluffypony>** moneromooo: I was going to get to that in 3  
+**\<byterubmooo>** And luigi.  
+**\<fluffypony>** byterubmooo: I was going to get to that in 3  
 **\<hyc>** ok, sounds like we move on to 3  
 **\<fluffypony>** since it's in the MRL repo  
 **\<fluffypony>** 3. Code + ticket discussion / Q & A  
@@ -84,12 +84,12 @@ author: dEBRUYNE / fluffypony
 **\<jollymort>** there's SE chat, though - which nobody uses  
 **\<fluffypony>** jollymort: some of the questions on GitHub issues are perfect for SE  
 **\<jollymort>** sure  
-**\<fluffypony>** https://github.com/byterubpay/monero/issues/1751 as an example  
-**\<hyc>** monero clone?  
+**\<fluffypony>** https://github.com/byterubpay/byterub/issues/1751 as an example  
+**\<hyc>** byterub clone?  
 **\<fluffypony>** hyc: probably, I thought that too  
 **\<fluffypony>** but that's a good question for SE  
 **\<fluffypony>** which also has a larger group of answer-ers than the GH repo  
-**\<taushet>** it is already answered though, sort of http://monero.stackexchange.com/questions/2886/how-can-i-create-a-new-monero-genesis-block  
+**\<taushet>** it is already answered though, sort of http://byterub.stackexchange.com/questions/2886/how-can-i-create-a-new-byterub-genesis-block  
 **\<fluffypony>** taushet: yes but SE has tools to close as a duplicate and redirect them to the answer  
 **\<fluffypony>** and moderators can do that without us needing to  
 **\<taushet>** fluffypony - agreed. also the 'issue' was not so much an issue with the code as much as it was a question but a user/tinkerer who could not get something to work  
@@ -124,10 +124,10 @@ author: dEBRUYNE / fluffypony
 **\<jollymort>** ok, thanks  
 **\<fluffypony>** @NanoAkron I don't see why we can't make sure 1746 is sorted, Jaquee any thoughts ?  
 **\<tewinget>** so Snipa was kind enough to chuck a battery of tests at my zmq branch, which is great.  It seems there are a couple things I need to look at, which is expected, but his tests seem rather comprehensive, so once those are passing it should be good to go.  
-**\<moneromooo>** Does this keep a backward compat layr for the current JSON API ?  
-**\<tewinget>** moneromooo: currently it neither replaces nor modifies any current RPCs  
+**\<byterubmooo>** Does this keep a backward compat layr for the current JSON API ?  
+**\<tewinget>** byterubmooo: currently it neither replaces nor modifies any current RPCs  
 **\<Slack> \<nanoakron>** Esp since the number of rpc commands has increased  
-**\<fluffypony>** moneromooo: long term yes - the current JSON API will be in its own binary, like monero-rpc-server, and that will use 0MQ to communicate with the daemon  
+**\<fluffypony>** byterubmooo: long term yes - the current JSON API will be in its own binary, like byterub-rpc-server, and that will use 0MQ to communicate with the daemon  
 **\<tewinget>** but also short-term yes because I haven't done anything to the existing RPCs  
 **\<Slack> \<nanoakron>** I heard it would be passing plaintext commands/JSON and not binary. Or am I mistaken?  
 **\<tewinget>** nanoakron: that is correct, everything is marshalled via json  
@@ -142,9 +142,9 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** JSON RPC for the wallet will continue to evolve and exist  
 **\<fluffypony>** because web apps rely on it  
 **\<fluffypony>** communication with the daemon will be relegated to 0MQ only  
-**\<moneromooo>** !bookie no-json-rpc-added-ever-again yes no  
+**\<byterubmooo>** !bookie no-json-rpc-added-ever-again yes no  
 **\<Slack> \<nanoakron>** But in JSON format  
-**\<moneromooo>** aw...  
+**\<byterubmooo>** aw...  
 **\<fluffypony>** (eventually)  
 **\<fluffypony>** @NanoAkron yes  
 **\<fluffypony>** so existing apps that interact with the daemon, eg. pool software, can continue by adding a 0MQ library  
@@ -158,7 +158,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** we should use HAY and NEIGH instead of ACK and NACK  
 **\<Slack> \<nanoakron>** Lol  
 **\<tewinget>** I'll keep updating over the next couple days, fwiw.  Gotta get with Snipa to see if he can make a couple of modifications to the tests for me to make issues track-down-able, but he's afk until tomorrow.  
-**\<moneromooo>** Hmm, range sig reduction... multisig... fee formula change...  
+**\<byterubmooo>** Hmm, range sig reduction... multisig... fee formula change...  
 **\<Slack> \<nanoakron>** Yes  
 **\<pigeons>** Snipa: are these tests in your github?  
 **\<fluffypony>** oh I have an item for brief discussion  
@@ -182,7 +182,7 @@ author: dEBRUYNE / fluffypony
 **\<Slack> \<nanoakron>** Hopefully. Size would fall will range proof improvements, but distribution of sizes would flatten with ring size standardisation. Parametric statistics would no longer apply.  
 **\<fluffypony>** DaveyJones: that's in March, too soon for a planned fork  
 **\<Slack> \<nanoakron>** So adjusting based on moving medians would be meaningless. We'd need to deploy alternate statistical tests.  
-**\<moneromooo>** Can you explain that ?  
+**\<byterubmooo>** Can you explain that ?  
 **\<fluffypony>** ok  
 **\<fluffypony>** anything else before we close the meeting ?  
 **\<fluffypony>** (we can discuss specifics after the meeting)  

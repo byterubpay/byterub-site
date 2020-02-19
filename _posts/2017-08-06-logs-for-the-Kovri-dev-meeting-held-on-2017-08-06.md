@@ -37,7 +37,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** lol, funny how you use the word "transition" (inside defcon joke, ping endogenic)  
 **\<anonimal>** I'm doing fine, thank you.  
 **\<rehrar>** Not much to report this past while cuz of the surgery. I'll be making up the time this week.  
-**\<anonimal>** re: 2., I spent most of the past two weeks AFK; busy with fedcon25 and the #monerola meetup (prep/travel/etc.)  
+**\<anonimal>** re: 2., I spent most of the past two weeks AFK; busy with fedcon25 and the #byterubla meetup (prep/travel/etc.)  
 **\<anonimal>** So busy with kovri promotion/discussion. As for repo work, I've been able to do documentation and site-related work.  
 **\<rehrar>** We missed thee.  
 **\<anonimal>** I'm also way past my milestone hours so I'll need to submit a milestone report to the FFS.  
@@ -55,7 +55,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I meant from anonymous to not.  
 **\<endogenic>** that makes sense  
 **\<endogenic>** lolo  
-**\<moneromooo>** Ah, I first thought the same, then talk of surgery, so I wasn't sure.  
+**\<byterubmooo>** Ah, I first thought the same, then talk of surgery, so I wasn't sure.  
 **\<endogenic>** yeah anonimal  
 **\<endogenic>** can imagine how concerned everyone was  
 **\<rehrar>** Nah. Surgery is my wife. She had some surgery on her eyes this week.  
@@ -69,7 +69,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** He did say he's submit something soon though.  
 **\* anonimal** shrugs  
 **\<anonimal>** rehrar: any kovri FFS plans?  
-**\<moneromooo>** FWIW, I was keeping track at 5 minute increments, then keeping it to myself. Never been a problem. It only would be with slackers I expect.  
+**\<byterubmooo>** FWIW, I was keeping track at 5 minute increments, then keeping it to myself. Never been a problem. It only would be with slackers I expect.  
 **\<rehrar>** Ummm FFS plans?  
 **\<anonimal>** k  
 **\<anonimal>** Yes, to have one if needed.  
@@ -83,8 +83,8 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** Any reference on this?  
 **\<anonimal>** Not that I know of. It was something I started talking about while at fedcon25.  
 **\<anonimal>** But I need much more information.  
-**\<moneromooo>** wat  
-**\<moneromooo>** Wouldn't that need custom hardware that's nowhere near everyday buyers ?  
+**\<byterubmooo>** wat  
+**\<byterubmooo>** Wouldn't that need custom hardware that's nowhere near everyday buyers ?  
 **\* anonimal** is not a quantum specialist  
 **\<ajsantos>** so would that mean Eve is both Alice and Bob at the same time  
 **\<anonimal>** Probably, and probably a custom science too.  
@@ -92,7 +92,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** ajsantos: I don't know  
 **\* anonimal** will need to brush up on entanglement  
 **\<anonimal>** But if two points are guaranteed to only exist as a single unified point, I would imagine that Eve could not be Alice or Bob.  
-**\* anonimal** shrugs, #monero-future-futures  
+**\* anonimal** shrugs, #byterub-future-futures  
 **\<ArticMine>** Ok Alice + Trump Bob = Jong-un Eve = ?  
 **\<ArticMine>** Alice = Trump  
 **\<anonimal>** Oh, one more thing, we'll have the 96boards.org podcast on August 17th.  
@@ -101,16 +101,16 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** nothing for me, sorry. I've got a lot going down atm, so I'm in and out intermittently  
 **\<anonimal>** Yes, Alice would = Bob so their state would be agreed upon at any given moment so long as they become entangled.  
 **\<anonimal>** Whether passive observation at that point is even possible, I don't know.  
-**\<moneromooo>** The only use of qe I know about is for Alice to send a message to Bob (ostensibly a key), in a way that Eve cannot eavesdrop on it without Bob being able to detect it.  
-**\<moneromooo>** (only use for crypto)  
+**\<byterubmooo>** The only use of qe I know about is for Alice to send a message to Bob (ostensibly a key), in a way that Eve cannot eavesdrop on it without Bob being able to detect it.  
+**\<byterubmooo>** (only use for crypto)  
 **\<anonimal>** I remember seeing a talk about that a while ago. re: anonmymity, I don't know if the concept of "hops" would apply though, and I don't know if "building a network of entangled points" would be an accurate solution to creating an anonymity set.  
 **\<anonimal>** So many questions!  
-**\<moneromooo>** AFAICT, the use of this would be to strengthen the crypto, which is already likely well armoured.  
-**\<moneromooo>** It wouldn't do anything for traffic analysis.  
-**\<moneromooo>** But then maybe there's more stuff qe can be used for...  
-**\<moneromooo>** You'd need to pre-share a LOT of bits if you did not want only the key to be sent, though.  
-**\<moneromooo>** And QE is EASY to collapse.  
-**\<moneromooo>** Actually, I don't know anything about this, ignore me.  
+**\<byterubmooo>** AFAICT, the use of this would be to strengthen the crypto, which is already likely well armoured.  
+**\<byterubmooo>** It wouldn't do anything for traffic analysis.  
+**\<byterubmooo>** But then maybe there's more stuff qe can be used for...  
+**\<byterubmooo>** You'd need to pre-share a LOT of bits if you did not want only the key to be sent, though.  
+**\<byterubmooo>** And QE is EASY to collapse.  
+**\<byterubmooo>** Actually, I don't know anything about this, ignore me.  
 **\<ArticMine>** It is a possible research topic at this point as far as I can see  
 **\<anonimal>** I'm not a huge fan of PQ discussion because of the number of everyday issues we're currently tackling but for some reason I am intrigued about this area.  
 **\<anonimal>** Yes, I would like to do more research and write something if needed.  

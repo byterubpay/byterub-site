@@ -12,9 +12,9 @@
                     </div>
 
 <div markdown="1">
-* Er is geen premine of instamine van Monero geweest
-* Monero heeft nooit een token verkocht
-* Er is geen enkele presale of voorverkoop van Monero geweest
+* Er is geen premine of instamine van ByteRub geweest
+* ByteRub heeft nooit een token verkocht
+* Er is geen enkele presale of voorverkoop van ByteRub geweest
 </div>
 
                     <div class="row">
@@ -80,7 +80,7 @@ Zie de coinbase-transactie in het [laatste blok](https://moneroblocks.info/) voo
 <div markdown="1">
 * Eerst de gewone curve: ~18.132 miljoen coins eind mei 2022
 * Daarna de blijvende uitgifte: 0,6 XMR per blok om de 2 minuten, nadat de gewone uitgifte klaar is, wat een steeds verder dalende inflatie van < 1% oplevert
-* Zie [grafieken en details](https://www.reddit.com/r/Monero/comments/512kwh/useful_for_learning_about_monero_coin_emission/)
+* Zie [grafieken en details](https://www.reddit.com/r/ByteRub/comments/512kwh/useful_for_learning_about_monero_coin_emission/)
 </div>
 
                     <div class="row">

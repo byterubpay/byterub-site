@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-09-17
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-09-17
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -8,7 +8,7 @@ author: el00ruobuob / surae
 
 # Logs  
 
-**\<suraeNoether>** welcome to the #monero-research-lab meeting for 17 September 2018  
+**\<suraeNoether>** welcome to the #byterub-research-lab meeting for 17 September 2018  
 **\<sarang>** Hullo  
 **\<silur>** hi  
 **\<suraeNoether>** we didn't meet last week because Sarang and I were meeting in person for some productivity turned up to 11, enabled partly by endogenic  
@@ -30,11 +30,11 @@ author: el00ruobuob / surae
 **\<suraeNoether>** sarang and i worked some of this out in person  
 **\<sarang>** Aye  
 **\<suraeNoether>** essentially the take-away is this:   
-**\<suraeNoether>** let's say some entity like the Monero Project wants to keep a blackball list of provably spent outputs  
+**\<suraeNoether>** let's say some entity like the ByteRub Project wants to keep a blackball list of provably spent outputs  
 **\<suraeNoether>** to avoid mixing with future ring signatures  
-**\<suraeNoether>** let's say a user doesn't trust the Monero Project  
+**\<suraeNoether>** let's say a user doesn't trust the ByteRub Project  
 **\<suraeNoether>** this user wants to verify all the computations used in computing that blackball list, to verify that the list is  a complete list of all provably spent outputs  
-**\<suraeNoether>** the user loses trust in the Monero project if any provably spent set is found that is not on the list, or if any set on the list is not actually provably spent  
+**\<suraeNoether>** the user loses trust in the ByteRub project if any provably spent set is found that is not on the list, or if any set on the list is not actually provably spent  
 **\<suraeNoether>** how long does the user need to take to verify a small section of the list? let's say only for transactions created in a single day?  
 **\<gingeropolous>** tree fitty  
 **\<suraeNoether>** well, the answer to that is in the binomial coefficient: to completely verify a day's worth of transactions (between 10^3 and 10^4 presently), with a ring size of r=7, requires presently at least 1000-choose-7 checks. this is... around 2e17 things to check. even in constant time, that takes a loooong time to check  
@@ -43,7 +43,7 @@ author: el00ruobuob / surae
 **\<sarang>** I agree  
 **\<sarang>** We just want the user to trust that nobody is being censored  
 **\<sarang>** And verifying the list will be easy  
-**\<suraeNoether>** binaryFate: that's fair, what i mean is if the Monero Project is acting like a curating party for this blackball list, they are acting as a trusted third party, so there is a risk to the user if that third party is acting dishonestly  
+**\<suraeNoether>** binaryFate: that's fair, what i mean is if the ByteRub Project is acting like a curating party for this blackball list, they are acting as a trusted third party, so there is a risk to the user if that third party is acting dishonestly  
 **\<sarang>** Each item can also have its rings listed  
 **\<sarang>** So the user checks her own copy of the chain  
 **\<binaryFate>** I think it's fine as long as it's advertise as a "best effort" and not claiming to be exhaustive.  
@@ -69,12 +69,12 @@ author: el00ruobuob / surae
 **\<sarang>** But I'm writing up a quick thing on it  
 **\<suraeNoether>** right, point is now we have a reasonable expectation of when to stop increasing our curation of the blackball list: ring size 4 is pretty much impractical already, ring size 5 is going to be... a... loooong.... wait...  
 **\<binaryFate>** that's totally ok  
-**\<suraeNoether>** on other fronts, I've been looking into zk-snarks and starks as a sidechain on monero, with no transparent pool (the "transparent" pool would be monero's base layer, and this starky side-chain would be the optional "shielded" pool on top of it). i'm looking into trust-free accumulators; i think there's actually a "whole new protocol" sort of thing going on using certain accumulator constructions (see   
+**\<suraeNoether>** on other fronts, I've been looking into zk-snarks and starks as a sidechain on byterub, with no transparent pool (the "transparent" pool would be byterub's base layer, and this starky side-chain would be the optional "shielded" pool on top of it). i'm looking into trust-free accumulators; i think there's actually a "whole new protocol" sort of thing going on using certain accumulator constructions (see   
 **\<suraeNoether>** https://link.springer.com/chapter/10.1007/978-3-642-31284-7\_14 for example)  
 **\<IsthmusCrypto>** Can these calculations be parallelized/cluster-ified?  
 **\<IsthmusCrypto>** (the blackball)  
 **\<suraeNoether>** yes they can  
-**\<gingeropolous>** im curious - is this calculation / processing done on a given state? Or is it done while building the blockchain? i.e., you could imagine a Sync 2.0 where the monero blockchain takes even LONGER because while your synchronizing, your own computer is curating its own blackball  
+**\<gingeropolous>** im curious - is this calculation / processing done on a given state? Or is it done while building the blockchain? i.e., you could imagine a Sync 2.0 where the byterub blockchain takes even LONGER because while your synchronizing, your own computer is curating its own blackball  
 **\<suraeNoether>** very parallelizable  
 **\<suraeNoether>** but huuuuge search space  
 **\<sarang>** Worth noting that verification is fast for the user  
@@ -97,7 +97,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** but you still have heuristic linkability; all this is merely to discuss proven spent-ness  
 **\<binaryFate>** This is all theoretical fun anyway, in practice it's assumed all this has no bearings on post-ringct tx anyway  
 **\<sarang>** Given high ring sizes yes  
-**\<binaryFate>** suraeNoether Monero always has heuristic linkability anyway... we're only very good at plausible deniablity  
+**\<binaryFate>** suraeNoether ByteRub always has heuristic linkability anyway... we're only very good at plausible deniablity  
 **\<suraeNoether>** yeah, the likelihood this happens on accident is vanishingly small, so someone would have to be doing it on purpose for it to really be a problem  
 **\<suraeNoether>** binaryFate: absolutely correct  
 **\<sarang>** And this is a fairly easy way to improve safety  
@@ -121,14 +121,14 @@ author: el00ruobuob / surae
 **\<IsthmusCrypto>** smh  
 **\<IsthmusCrypto>** sorry, continue  
 **\<suraeNoether>** anyway, i don't think provably spentness is really the issue  
-**\<suraeNoether>** i believe that if you take the bipartite graph model and weight edges by output key age at the time of the transaction used it, we would re-attain the monerolink heuristic linkability model; what's funny about that, though, is that even if you were to optimize that guy to look for "probably" not provably spent outputs, you would still have such a large space to search through, you'd never quite be sure if  
+**\<suraeNoether>** i believe that if you take the bipartite graph model and weight edges by output key age at the time of the transaction used it, we would re-attain the byterublink heuristic linkability model; what's funny about that, though, is that even if you were to optimize that guy to look for "probably" not provably spent outputs, you would still have such a large space to search through, you'd never quite be sure if  
 **\<suraeNoether>** there wasn't a more likely solution right around the corner  
 **\<suraeNoether>** i want to quantify that  
-**\<suraeNoether>** because i think heuristic linkability is more a danger issue for monero  
+**\<suraeNoether>** because i think heuristic linkability is more a danger issue for byterub  
 **\<suraeNoether>** thank accidentally using provably spent ring members  
 **\<IsthmusCrypto>** ^^ agree  
 **\<suraeNoether>** later this week, i'll be reviewing the general M/N multisig thing  
-**\<suraeNoether>** is there anything else that folks want MRL to work on, bring up, discuss, etc? There will be news about the Denver Monero Conference later this week, I think.  
+**\<suraeNoether>** is there anything else that folks want MRL to work on, bring up, discuss, etc? There will be news about the Denver ByteRub Conference later this week, I think.  
 **\<suraeNoether>** IsthmusCrypto and silur you guys have been working on stuff  
 **\<suraeNoether>** would you care to discuss it?  
 **\<IsthmusCrypto>** I can give a quick update on some of the #noncesense-research-lab projects  
@@ -136,7 +136,7 @@ author: el00ruobuob / surae
 **\<IsthmusCrypto>** 2) Doing a small study of nodes doubled up on IP addresses. Checked peer lists and found duplicates. This is a subtle type of centralization - if 20% of our nodes/miners are showing up over a handful of ProtonVPN addresses, then another DoS on the VPN would have the side effect of knocking a disproportional number of machines off the network.	  
 **\<IsthmusCrypto>** 3)Vanity stealth addresses generation. If all of your personal outgoing transactions have the same prefix, then they will be indistinguishable from each other. This maximizes fungibility and eliminates headaches caused by how difficult it is to link your transactions on the blockchain. When you restore your wallet, use the same vanity code - the initial sync time decreases by orders of magnitude when your  
 **\<IsthmusCrypto>** wallet only needs to check outputs that obviously belong to it! /s  
-**\<IsthmusCrypto>** 4) Blockchain analysis to identify all MyMonero.com transactions that used high or paranoid mode. Partial writeup, but porting over to unsupervised ML methods to automatically pick out all the MyMonero txns from the main fungible cluster.  
+**\<IsthmusCrypto>** 4) Blockchain analysis to identify all MyByteRub.com transactions that used high or paranoid mode. Partial writeup, but porting over to unsupervised ML methods to automatically pick out all the MyByteRub txns from the main fungible cluster.  
 **\<IsthmusCrypto>** 5) A lot of work on MAP infrastructure by @n3ptune - both backend database work and some slick UI/visualization  
 **\<IsthmusCrypto>** And a misc pet project on timing how long it takes to sync the blockchain on different machines.  
 **\<IsthmusCrypto>** (end)  
@@ -157,7 +157,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** since the subaddress recipient has to ask for a specific basepoint on the transaction key  
 **\<suraeNoether>** which sucks  
 **\<suraeNoether>** silur i am more interested in your quantum vrf to be honest :D hehe  
-**\<IsthmusCrypto>** @suraeNoether - yea RE #4 I’ll keep you in the loop. Don’t want to give FUD fodder, so I am really hoping that MyMonero will fix it soon....  
+**\<IsthmusCrypto>** @suraeNoether - yea RE #4 I’ll keep you in the loop. Don’t want to give FUD fodder, so I am really hoping that MyByteRub will fix it soon....  
 **\<silur>** and I'd like your review on that I could send you the draft and we can eliminate my probably countless mistakes :)  
 **\<IsthmusCrypto>** #3 was just a joke, although it does reflect a real threat model (using a few digits to encode which output is the true spender, or maybe use a few digits to mark part of a hash of the private key to deterministically fingerprint transactions \*from\* the same account.  
 **\<IsthmusCrypto>** (would be malicious wallet software trying to communicate with no telemetry besides what is on the blockchain)  
@@ -184,7 +184,7 @@ author: el00ruobuob / surae
 **\<binaryFate>** I've been finally getting to work on an idea I had since a long time, I think I mentioned it here a couple of times.  
 **\<suraeNoether>** please go ahead!  
 **\<silur>** yea I missed that and interested :D  
-**\<binaryFate>** Broad idea is to study the age distribution of \*actual\* spendings of Monero users, with ultimately maybe proposing a better decoy output selection algorithm  
+**\<binaryFate>** Broad idea is to study the age distribution of \*actual\* spendings of ByteRub users, with ultimately maybe proposing a better decoy output selection algorithm  
 **\<sarang>** Go on  
 **\<needmoney90>** If it's opt in, wouldn't the set of data we collect be skewed away from those who are super cautious about privacy?  
 **\<binaryFate>** Maybe best to explain the approach is a simplified example: imagine all rings are of size 2 (one real + one decoy). The "real" distribution is unknown, but the "decoy" one is known from what the wallet software is doing (restricted to certain block ranges where we are confident an overly large percentage of users are using the same version)  
@@ -204,17 +204,17 @@ author: el00ruobuob / surae
 **\<suraeNoether>** this is a very interesting idea  
 **\<suraeNoether>** i'm a little confused; where are you getting your data? your own wallet?  
 **\<IsthmusCrypto>** It doesn't need a ground truth. It's just actual distribution minus decoy selection algorithm expectation, right?  
-**\<endogenic>** IsthmusCrypto: fix the ability to use different ring sizes? the new apps and new web wallet do not allow you to pick, for that reason. i didn't expect we'd still have the old mymonero.com wallet up til now and totally forgot we have the mixin select there  
+**\<endogenic>** IsthmusCrypto: fix the ability to use different ring sizes? the new apps and new web wallet do not allow you to pick, for that reason. i didn't expect we'd still have the old mybyterub.com wallet up til now and totally forgot we have the mixin select there  
 **\<endogenic>** just let me know next time :)  
 **\<endogenic>** got so many things going on :  
 **\<binaryFate>** IsthmusCrypto correct  
 **\<endogenic>** will start to settle down soon i hope  
 **\<suraeNoether>** IsthmusCrypto: ahhhhh i see, yeah, if i understand it correctly, that's a wonderful treasure trove of useful data. :P  
 **\<suraeNoether>** oh man  
-**\<endogenic>** anyway IsthmusCrypto can you really tell they are -MyMonero- transactions?  
+**\<endogenic>** anyway IsthmusCrypto can you really tell they are -MyByteRub- transactions?  
 **\<suraeNoether>** binaryFate: good freaking idea!  
 **\<endogenic>** or just that they have a high ring size?  
-**\<IsthmusCrypto>** The MyMonero fingerprint is based on the ringsize AND the decoy selection algorithm  
+**\<IsthmusCrypto>** The MyByteRub fingerprint is based on the ringsize AND the decoy selection algorithm  
 **\<binaryFate>** suraeNoether simplified example again (ring size 2): wallet is known to use unifom for decoy. Blockchain shows distribution X (and we know it's 0.5 wallet distrib + 0.5 user real spending). We can compare the two and infere a lot about real user spending  
 **\<IsthmusCrypto>** The first is a good signpost to find candidates, then the second is the actual give-away  
 **\<binaryFate>** I'm just getting interesting results as we speak, but prefer to clear things a bit before sending to anyone  
@@ -234,7 +234,7 @@ author: el00ruobuob / surae
 **\<selsta>** or did they?  
 **\<selsta>** anyway I plan on creating a IRC bot that auto uploads the meetings  
 **\<suraeNoether>** IsthmusCrypto: i usually throw the logs up on my github, but i have been lazy lately; i'll set aside an hour later today to upload all the ones I have  
-**\<suraeNoether>** if anyone wants to put them anywhere else, feel free, maybe we could throw them up on the getmonero.org page or something like that. i'll look into a few options  
+**\<suraeNoether>** if anyone wants to put them anywhere else, feel free, maybe we could throw them up on the getbyterub.org page or something like that. i'll look into a few options  
 **\<IsthmusCrypto>** 👍 I started thinking about this when the person showed up claiming that fixed ring sizes hadn't been publicly discussed  
 **\<suraeNoether>** if anyone wants to take initiative and upload meeting logs that are missing before i get to them, that'd be a great contribution to MRL  
 **\<suraeNoether>** only so many hours in a day :D  
@@ -242,8 +242,8 @@ author: el00ruobuob / surae
 **\<IsthmusCrypto>** Cool, I was thinking I could upload them here? (If that seems alright and somebody shows me how or wants to take initiative and do it themselves)  
 **\<binaryFate>** go for it  
 **\<endogenic>** good idea  
-**\<IsthmusCrypto>** Do I just PR it to here? https://github.com/byterubpay/monero-site/tree/master/\_posts  
-**\<suraeNoether>** i believe that is correct; moneromooo or luigi1111 ?  
+**\<IsthmusCrypto>** Do I just PR it to here? https://github.com/byterubpay/byterub-site/tree/master/\_posts  
+**\<suraeNoether>** i believe that is correct; byterubmooo or luigi1111 ?  
 **\<selsta>** IsthmusCrypto: yes, but you have to convert the logs to markdown  
 **\<suraeNoether>** ok, I believe we are over an hour here, so we'll wrap this up  
 **\<suraeNoether>** any last notes/comments/concerns/questions?  
@@ -251,5 +251,5 @@ author: el00ruobuob / surae
 **\<silur>** the cross-chain atomic swaps?  
 **\<silur>** not quite, I remember it had a much cooler name  
 **\<silur>** ring-confidential atomic swaps or something  
-**\<moneromooo>** No, to https://repo.getmonero.org/  
+**\<byterubmooo>** No, to https://repo.getbyterub.org/  
 **\<silur>** oh didn't even know about that thx  

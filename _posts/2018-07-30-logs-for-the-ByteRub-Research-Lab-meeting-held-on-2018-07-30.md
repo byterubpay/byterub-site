@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-07-30
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-07-30
 summary: Sarang work, others work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -36,9 +36,9 @@ author: el00ruobuob / sarang
 **\<andytoshi>** endogenic: openssl, transpiling, emscripten, and browsers are all bad for security  
 **\<endogenic>** yep, no worries, just throwing it out there  
 **\<sarang>** lol  
-**\<endogenic>** then why does monero use it lol  
+**\<endogenic>** then why does byterub use it lol  
 **\<silur>** where?  
-**\<andytoshi>** monero is writtcen in C++  
+**\<andytoshi>** byterub is writtcen in C++  
 **\<endogenic>** common/util.cpp (LOL) #include <openssl/sha.h>... ringct/bulletproofs.cc #include <openssl/ssl.h> ...  
 **\<silur>** yea but where do we transpile it with emscripten?  
 **\<endogenic>** just asking  
@@ -67,7 +67,7 @@ author: el00ruobuob / sarang
 **\<silur>** lots of stuff on PIR  
 **\<silur>** thanks for percy++, i'm working with pir a lot for riffle  
 **\<silur>** where do we need that btw?  
-**\<silur>** in monero?  
+**\<silur>** in byterub?  
 **\<endogenic>** silur: emscripten might not be able to handle it, depending on exactly what's there. i guess maybe an alternative implementation exists  
 **\<endogenic>** people seem to have been able to do it , in any case  
 **\<endogenic>** 🤞  
@@ -80,7 +80,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Also welcome andytoshi  
 **\<isthmuscrypto>** Oh, I can give a #noncense-research-lab summary  
 **\<sarang>** please  
-**\<isthmuscrypto>** Lots of action in the Monero Archival Project this week. @n3ptune released a new version of our custom archival daemon, and @serhack has been working wonders, configuring and maintaining our network of global VPS-based nodes.  
+**\<isthmuscrypto>** Lots of action in the ByteRub Archival Project this week. @n3ptune released a new version of our custom archival daemon, and @serhack has been working wonders, configuring and maintaining our network of global VPS-based nodes.  
 **\<isthmuscrypto>** I have been playing around with temporal analysis of the blockchain. Miner-reported timestamps were shown to be very unreliable, since 2% of blocks include a timestamp that is \*before\* the timestamp of the block prior.  
 **\<isthmuscrypto>** These time-traveling Merlin blocks showed up while scoping out the distribution of wait times. https://usercontent.irccloud-cdn.com/file/tLUEZ9aU/ttblocks.png // Looking at the wait times for the block above and below the Merlin blocks themselves, we see that it is skewed toward a longer interval afterward, suggesting that they are actually being retroactively timestamped.  
 **\<isthmuscrypto>** Our new daemon (upgraded last night) records the node-receipt timestamp(s) in addition to the miner-reported timestamp, so expect some way more detailed analysis of that soon.  
@@ -88,7 +88,7 @@ author: el00ruobuob / sarang
 **\<isthmuscrypto>** (/end)  
 **\<isthmuscrypto>** Whoops, here's the second link, showing the skew in wait times before and after Merlin blocks: https://usercontent.irccloud-cdn.com/file/f46p6Ddd/merlin\_parent\_child  
 **\<sarang>** this is very interesting work  
-**\<andytoshi>** sarang: we've made a lot of progress on musig recently; you can see https://github.com/apoelstra/secp256k1/blob/2018-04-taproot/src/modules/musig/musig.md for our current API. may have insights valuable to monero in future when you guys support arbitrary multisigs  
+**\<andytoshi>** sarang: we've made a lot of progress on musig recently; you can see https://github.com/apoelstra/secp256k1/blob/2018-04-taproot/src/modules/musig/musig.md for our current API. may have insights valuable to byterub in future when you guys support arbitrary multisigs  
 **\<sarang>** oh excellent, thanks  
 **\<isthmuscrypto>** Shoot, I gave the wrong channel above. #noncesense-research-lab  
 **\<sarang>** andytoshi: what are the overall plans for musig?  

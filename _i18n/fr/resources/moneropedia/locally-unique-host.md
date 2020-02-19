@@ -10,7 +10,7 @@ summary: "Un hôte que vous avez définit et que vous seul pouvez résoudre"
 A locally-unique host is a [FQDN](https://en.wikipedia.org/wiki/FQDN) defined by **you** and resolved only by you; similar to how a [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) is implemented. Not to be confused with @canonically-unique-host.
 =======
 Un hôte unique localement est un [FQDN](https://fr.wikipedia.org/wiki/FQDN) que **vous** définissez et que vous seul pouvez résoudre, de manière analogue à l'implémentation d'un [fichier hosts](https://fr.wikipedia.org/wiki/Hosts). A ne pas confondre avec un @hôte-canonique-unique.
->>>>>>> Ongoing Moneropedia French Translation
+>>>>>>> Ongoing ByteRubpedia French Translation
 
 ### Informations détaillées
 
@@ -20,5 +20,5 @@ Les hôtes des souscriptions publiques peuvent être considérés comme des @hô
 
 ### Remarques
 
-- Monero utilise principalement la résolution d'@hôtes-canoniques-uniques alors que @I2P utilise uniquement la résolution d'@hôte-unique-localement.
+- ByteRub utilise principalement la résolution d'@hôtes-canoniques-uniques alors que @I2P utilise uniquement la résolution d'@hôte-unique-localement.
 - Le domaine de premier niveau actuel d'@I2P et @Kovri est `.i2p` et @Kovri se destine à traiter / utiliser uniquement le [domaine de premier niveau](https://fr.wikipedia.org/wiki/Domaine_de_premier_niveau) `.i2p`.

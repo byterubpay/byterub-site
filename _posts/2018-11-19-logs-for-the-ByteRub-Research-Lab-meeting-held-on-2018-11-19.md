@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-11-19
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-11-19
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -36,22 +36,22 @@ author: el00ruobuob / surae
 **\<sarang>** Want to give your update suraeNoether first?  
 **\<sarang>** cool  
 **\<sarang>** Getting some hard numbers with scaling information will be useful  
-**\<suraeNoether>** Sure: Right now my time is being spent describing this bipartite matching graph problem that traceability problems in monero boil down to  
+**\<suraeNoether>** Sure: Right now my time is being spent describing this bipartite matching graph problem that traceability problems in byterub boil down to  
 **\<sarang>** very useful  
 **\<sarang>** having a complete description in terms of graph theory is marvelous to have  
-**\<suraeNoether>** the idea is simple. if someone were to try to trace the monero blockchain, they would at least have to perform the following matching task. that sort of idea  
+**\<suraeNoether>** the idea is simple. if someone were to try to trace the byterub blockchain, they would at least have to perform the following matching task. that sort of idea  
 **\<suraeNoether>** and we have known bounds on the complexity for that matching task  
 **\<sarang>** Exactly, and now some code to get an idea of scaling  
 **\<sarang>** at least order of magnitude  
-**\<suraeNoether>** this is all in the pursuit of a formal model of de-anonymizing a "mixing with an anonymity set" style anonymity system like that of Monero.  
+**\<suraeNoether>** this is all in the pursuit of a formal model of de-anonymizing a "mixing with an anonymity set" style anonymity system like that of ByteRub.  
 **\<suraeNoether>** i've begun writing how we can use this approach + zcash turnstile to place bounds on the difficulty of de-anonymizing zcash as well  
-**\<suraeNoether>** i should have a draft of the monero portion of this paper done by the end of November  
+**\<suraeNoether>** i should have a draft of the byterub portion of this paper done by the end of November  
 **\<sarang>** sexxy  
 **\<suraeNoether>** sarang has already seen it and (if i do say so myself) it's a pretty fun paper actually  
 **\<sarang>** Very much so  
-**\<suraeNoether>** if it wasn't for the fact that's \*criticizing\* monero just like MRL-0001, i'd be very excited about writing it  
+**\<suraeNoether>** if it wasn't for the fact that's \*criticizing\* byterub just like MRL-0001, i'd be very excited about writing it  
 **\<sarang>** Have you informed Zcash of the possible applicability to their project, so they can draft a blog post about it? =p  
-**\<suraeNoether>** i'm confident that this will make monero better, however, by formalizing some of our concerns that were previously only qualitative  
+**\<suraeNoether>** i'm confident that this will make byterub better, however, by formalizing some of our concerns that were previously only qualitative  
 **\<suraeNoether>** sarang not formally, i may have brought it up with zooko in person before  
 **\<sgp\_>** any way I can get a draft copy?  
 **\<sarang>** We should be good neighbors and let them know  
@@ -60,7 +60,7 @@ author: el00ruobuob / surae
 **\<sgp\_>** cool  
 **\<suraeNoether>** so, that's my MRL update. Sarang, what have you been up to?  
 **\<sarang>** A few things  
-**\<sarang>** First, housekeeping for monero-site updates to migrate our papers over, and add the new ones  
+**\<sarang>** First, housekeeping for byterub-site updates to migrate our papers over, and add the new ones  
 **\<sarang>** Second, more lit review on graph theory approaches to anonymity  
 **\<sarang>** Third, reviewing some other papers relating to ring sigs and zk proving  
 **\<sarang>** Fourth, fixing and writing up a cross-curve discrete log equality proving system  
@@ -76,10 +76,10 @@ author: el00ruobuob / surae
 **\<suraeNoether>** you have hair?  
 **\<sarang>** Not anymore, it burned off  
 **\<suraeNoether>** nice  
-**\<sarang>** So going forward, this paper (and others) will be on getmonero.org  
+**\<sarang>** So going forward, this paper (and others) will be on getbyterub.org  
 **\<sarang>** A few newer papers are in the PR pipeline  
 **\<sarang>** Questions on any of my stuff?  
-**\<suraeNoether>** the only other topics on my mind are only half research-related: 1) research: the post-thanksgiving Monero face-to-face being hosted by Tari bringing sarang and endogenic and i together in Nashville again... I heard a rumor someone else important was coming :D 2) not really research: the coin center privacy workshop in December I'm considering attending, 3) research: the Monero Konferenco, and...  
+**\<suraeNoether>** the only other topics on my mind are only half research-related: 1) research: the post-thanksgiving ByteRub face-to-face being hosted by Tari bringing sarang and endogenic and i together in Nashville again... I heard a rumor someone else important was coming :D 2) not really research: the coin center privacy workshop in December I'm considering attending, 3) research: the ByteRub Konferenco, and...  
 **\<suraeNoether>** well, the last bit is related to my nonprofit whihc is a selfish thing to bring up so I'll leave that alone  
 **\<endogenic>** too l8  
 **\<endogenic>** bring it up anyway  
@@ -89,19 +89,19 @@ author: el00ruobuob / surae
 **\<sarang>** I suspect funding may be stalled a bit while belts tighten :/  
 **\<endogenic>** oh btw i drive in  
 **\<suraeNoether>** this is largely a research powwow over a few days, at the last meeting this whole bipartite matching thing was initially estimated and it kicked off my current research paper  
-**\<suraeNoether>** and i should say: it's not just Tari, it's also MyMonero  
+**\<suraeNoether>** and i should say: it's not just Tari, it's also MyByteRub  
 **\<endogenic>** one of these next ones i'm going to try to get surae to stay at my house ^\_^  
 **\<suraeNoether>** We aren't burdening the community financially with these meetings, but we also want the community to learn of our financials in this way, to prevent accusations of opacity  
-**\<suraeNoether>** For 2) I really want to go to this thing on some levels, but i am concerned coin center is going to look to me as a voice of the Monero community. I'm not sure if they want me to come if I'm coming as a private individual not as an individual representing Monero  
+**\<suraeNoether>** For 2) I really want to go to this thing on some levels, but i am concerned coin center is going to look to me as a voice of the ByteRub community. I'm not sure if they want me to come if I'm coming as a private individual not as an individual representing ByteRub  
 **\<suraeNoether>** Isthmus was already nice enough to offer a place to stay for me in SFO so the only financial cost would be a plane ticket  
 **\<suraeNoether>** it seemed to me like folks were lukewarm on the idea of me attending last time I brought it up  
 **\<suraeNoether>** trying to sense the temperature now that folks have had a week or two to sit on the idea  
-**\<sarang>** In terms of funding, it seems to have more value for the space as a whole, rather than just for the Monero community  
-**\<sarang>** I suspect you're right about the "voice of Monero" thing, but I don't know how bad of a thing that is  
+**\<sarang>** In terms of funding, it seems to have more value for the space as a whole, rather than just for the ByteRub community  
+**\<sarang>** I suspect you're right about the "voice of ByteRub" thing, but I don't know how bad of a thing that is  
 **\<suraeNoether>** yeah, and I would go on my own dime  
 **\<sarang>** I remain disappointed that this is a "be in person or don't have a say" thing  
 **\<sarang>** but that's neither here nor there  
-**\<suraeNoether>** for 3), the Monero Konferenco: we are sitting almost at 20% funded. https://forum.getmonero.org/8/funding-required/90909/surae-noether-first-denver-monero-konferenco-spring-2019  
+**\<suraeNoether>** for 3), the ByteRub Konferenco: we are sitting almost at 20% funded. https://forum.getbyterub.org/8/funding-required/90909/surae-noether-first-denver-byterub-konferenco-spring-2019  
 **\<sarang>** that's impressive  
 **\<suraeNoether>** i know, right?  
 **\<suraeNoether>** that'll be enough to put a deposit down on a location  
@@ -143,7 +143,7 @@ author: el00ruobuob / surae
 **\<sarang>** cool cool  
 **\<suraeNoether>** one milestone can be a deposit on a venue, AV stuff, caterer and (if appropriate) a deal at a hotel so attendees can get a discount. another milestone can be purchase of flights and hotels for speakers.  a final milestone can be for the remainder of the cost of the event to pay for things like media, publicity, printing pamphlets and posters, assembling shwag bags, etc  
 **\<suraeNoether>** thanks for the input luigi1111 i believe you are 100% correct  
-**\<parasew[m]>** we will be testing a few things at the 35C3 (Monero at the Chaos Communication Congress 27.-30.dec) which could be valuable for the conferenco: submission management, streaming, etc. will let everyone know when there is something to see!  
+**\<parasew[m]>** we will be testing a few things at the 35C3 (ByteRub at the Chaos Communication Congress 27.-30.dec) which could be valuable for the conferenco: submission management, streaming, etc. will let everyone know when there is something to see!  
 **\<suraeNoether>** we mentioned having defcon-style badges from the hardware team, but i think we are going to hold off on those until the second year. this will keep our costs down and allow the HW team to focus on the wallet, etc  
 **\<sarang>** ^ good idea, on both counts  
 **\<suraeNoether>** parasew[m]: regarding the 35c3 conference, if sarang sgp and myself all want to come (I do!) we need to make our post for travel funds this afternoon  
@@ -180,12 +180,12 @@ author: el00ruobuob / surae
 **\<sarang>** for one reason or another  
 **\<suraeNoether>** OH there is one FFS i would like to direct everyone's attention to  
 **\<sarang>** ?  
-**\<suraeNoether>** TheCharlatan is proposing development of reproducible builds here: https://forum.getmonero.org/6/ideas/91098/funding-for-development-of-reproducible-builds  
+**\<suraeNoether>** TheCharlatan is proposing development of reproducible builds here: https://forum.getbyterub.org/6/ideas/91098/funding-for-development-of-reproducible-builds  
 **\<sarang>** outreach?  
-**\<suraeNoether>** I strongly support this FFS project, and I think it would be a nice security gain for Monero  
+**\<suraeNoether>** I strongly support this FFS project, and I think it would be a nice security gain for ByteRub  
 **\<sarang>** These have been desired for a while  
 **\<sarang>** So the whole request is for 6 XMR?  
-**\<suraeNoether>** yep, and i don't think it's out of line with endogenic's recent efforts to encourage reworking/refactoring Monero (i'm almost certainly mischaracterizing Endo's goals)  
+**\<suraeNoether>** yep, and i don't think it's out of line with endogenic's recent efforts to encourage reworking/refactoring ByteRub (i'm almost certainly mischaracterizing Endo's goals)  
 **\<suraeNoether>** it appears he's only asking us to pay for his VPS  
 **\<sarang>** I don't know the details of repro build complexity, but that seems like a great deal  
 **\<sarang>** unless we can get VPS support for free, as some others had indicated  

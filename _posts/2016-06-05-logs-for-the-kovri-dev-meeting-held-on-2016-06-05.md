@@ -28,7 +28,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** 29% committed  
 **\<fluffypony>** 34/100 committers with 200+ offsite rep  
 **\<fluffypony>** but considering the small number of total committers (78/100) that's pretty impressive  
-**\<moneromooo>** I will have 200 tomorrow, probably. 1% more.  
+**\<byterubmooo>** I will have 200 tomorrow, probably. 1% more.  
 **\<fluffypony>** I would like to encourage anyone that has committed to the i2p and ByteRub proposals to please try drum up 200+ rep on one of the other Stacks by asking and answering questions  
 **\<meeting-bot> [anonimal]** Good, I was about to ask what else we could do.  
 **\<meeting-bot> [anonimal]** I'll start banging.  
@@ -234,6 +234,6 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** anonimal: yup  
 **\<tewinget>** anonimal: if there's anything specific you can point to as far as C++ goes you can ping me  
 **\<fluffypony>** xmrpromotions: hard to canvas on an SE propsal  
-**\<xmrpromotions>** they could use more activity right now in public beta. If we encourage monero and i2p users to participate in their open beta maybe some of them will support us  
+**\<xmrpromotions>** they could use more activity right now in public beta. If we encourage byterub and i2p users to participate in their open beta maybe some of them will support us  
 **\<xmrpromotions>** they lack of ability to direct message makes it harder but some leaders use their real names  
 **\<fluffypony>** ok meeting is over, killing meeting-bot  

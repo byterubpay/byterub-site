@@ -2,11 +2,11 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # monero-wallet-cli
 
-`monero-wallet-cli` es el software de monedero que viene con el árbol de Monero. Es un programa de consola,
+`monero-wallet-cli` es el software de monedero que viene con el árbol de ByteRub. Es un programa de consola,
 y administra una cuenta. Mientras que un monedero de Bitcoin administra ambos, cuenta y blockchain,
-Monero separa estos: `monerod` maneja la blockchain, y `monero-wallet-cli` la cuenta.
+ByteRub separa estos: `monerod` maneja la blockchain, y `monero-wallet-cli` la cuenta.
 
-Esta guía mostrará cómo realizar varias operaciones desde la interfaz de usuario `monero-wallet-cli`. Esta guía asume que estás versión más reciente de Monero y que ya has creado una cuenta conforme a las demás guías.
+Esta guía mostrará cómo realizar varias operaciones desde la interfaz de usuario `monero-wallet-cli`. Esta guía asume que estás versión más reciente de ByteRub y que ya has creado una cuenta conforme a las demás guías.
 
 
 ## Revisando tu balance
@@ -26,7 +26,7 @@ balance sin refrescar:
 
 En este ejemplo, `Balance` es tu balance total. El `unlocked balance` es la cantidad actualmente disponible para gastar. Transacciones recientemente recibidas requieren 10 confirmaciones en la blockchain antes de ser desbloqueadas. `unlocked dust` se refiere a muy pequeñas cantidades de salidas sin gastar que se pueden haber acumulado en tu cuenta.
 
-## Enviando Monero
+## Enviando ByteRub
 
 Necesitarás la dirección estándar a la que quieres enviar (una larga cadena que comienza con '4'), y
 posiblemente un ID de pago, si el receptor requiere uno. En ese último caso, el receptor
@@ -36,7 +36,7 @@ te debería dar una dirección integrada, que es la combinación de ambas en una
 
     transfer ADDRESS AMOUNT PAYMENTID
 
-Reemplaza `ADDRESS` con la dirección a la que deseas enviar, `AMOUNT` con cuánto Monero quieres enviar,
+Reemplaza `ADDRESS` con la dirección a la que deseas enviar, `AMOUNT` con cuánto ByteRub quieres enviar,
 y `PAYMENTID` con el ID de pago que fuiste provisto. Los ID de pago son opcionales. Si el la parte receptora no requiere uno,
 sólo omítelo.
 
@@ -53,15 +53,15 @@ El ID de pago está implícito en la dirección integrada en este caso.
 Reemplaza `RINGSIZE` con el número de salidas que deseas utilizar. **Si no se especifica, el valor por defecto es 11.** Es una buena idea utilizar el valor por defecto, pero puedes incrementar el número si quieres incluir más salidas. Entre más alto el número, más grande es la transacción, y se requerirá más comisión.
 
 
-## Recibiendo Monero
+## Recibiendo ByteRub
 
-Si tienes tu propia dirección de Monero, sólo necesitas dar tu dirección estándar a alguien.
+Si tienes tu propia dirección de ByteRub, sólo necesitas dar tu dirección estándar a alguien.
 
 Puedes encontrar tu dirección con:
 
     address
 
-Ya que Monero es anónimo, no podrás ver la dirección de origen de donde recibes fondos. Si
+Ya que ByteRub es anónimo, no podrás ver la dirección de origen de donde recibes fondos. Si
 quieres saber, por ejemplo, cómo acreditar a un cliente en particular, tendrás que decir al emisor que utilice un
 ID de pago, que es una etiqueta arbitraria opcional que se adjunta a una transacción. Para facilitar
 las cosas, puedes generar una dirección que ya incluya un ID de pago aleatorio:
@@ -81,9 +81,9 @@ con el ID de pago adjunto, así podrás diferenciar pagos.
 
 Si pagas a un comerciante, y el comerciante reclama que no ha recibido el pago, puedes necesitar
 probar a un tercero que sí enviaste los fondos, o incluso al comerciante, si es que es un error
-honesto. Monero es privado, así que no puedes simplemente indicar tu transacción en la blockchain,
+honesto. ByteRub es privado, así que no puedes simplemente indicar tu transacción en la blockchain,
 tampoco puedes saber quién la envió, ni quién la recibió. No obstante, proveyendo la llave privada
-por transacción a una parte, esa parte puede saber si esa transacción envió Monero a esa
+por transacción a una parte, esa parte puede saber si esa transacción envió ByteRub a esa
 dirección en particular. Ten en cuenta que guardar estas llaves privadas por transacción está desactivado por defecto, y
 tendrás que activarlo antes de enviar, si crees que lo puedes necesitar:
 
@@ -99,7 +99,7 @@ o llaves, a quien quieras proveer con pruebas de tu transacción, junto con los
 ID de transacción y la dirección a la que enviaste. Ten en cuenta que este tercero, si conoce tu
 dirección, será capaz de ver cuánto cambio regresó a tu cuenta también.
 
-Si tú eres el tercero (esto es, alguien quiere probarte que enviaron Monero
+Si tú eres el tercero (esto es, alguien quiere probarte que enviaron ByteRub
 a una dirección), entonces puedes revisarlo de esta forma:
 
     check_tx_key TXID TXKEY ADDRESS

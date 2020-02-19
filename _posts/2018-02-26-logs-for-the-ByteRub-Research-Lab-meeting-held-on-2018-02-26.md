@@ -15,8 +15,8 @@ author: el00ruobuob / surae
 **\<suraeNoether>** mercury^: is your project an attempt at estimating the age distribution of outputs the moment they are spent?  
 **\<mercury^>** suraeNoether: yes.  
 **\<suraeNoether>** cool, we should talk about it after this meeting  
-**\<mercury^>** I have not done much work so far.  I just read the monerolink paper, then tried to think a little bit about what the actual distribution should be.  
-**\<suraeNoether>** so, the monerolink paper... the parts that aren't obliterated by obscured amounts in RCT...   
+**\<mercury^>** I have not done much work so far.  I just read the byterublink paper, then tried to think a little bit about what the actual distribution should be.  
+**\<suraeNoether>** so, the byterublink paper... the parts that aren't obliterated by obscured amounts in RCT...   
 **\<suraeNoether>** there is a slightly incorrect interpretation of our system, which is: the authors, Miller et al, they claimed that the youngest output in a ring is most likely to be the true spender. in fact, it's that \*the first time an output is put into a  ring\* is most likely occurrence of the true spending  
 **\<suraeNoether>** which is subtly different  
 **\<sarang>** I'm making more progress on SoWs  
@@ -40,7 +40,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** actually that's a hell of a good idea  
 **\<mercury^>** suraeNoether: then the pool of never-unconsumed outputs is contentet and might get too small?  
 **\<mercury^>** never-consumed\*  
-**\<suraeNoether>** ahhhh shit i'm going to write that as a paper: rather than test the sensitivity vs. specificity directly, do it monte-carlo style. Pick a random distribution of inter-spending times from a parameterized family of distributions. Simulate an economy with monero or zcash. Try to unmask. Repeat 2^N times for each parameter, and with M parameters, you end up exploring a parameter space of size 2^(NM).  
+**\<suraeNoether>** ahhhh shit i'm going to write that as a paper: rather than test the sensitivity vs. specificity directly, do it monte-carlo style. Pick a random distribution of inter-spending times from a parameterized family of distributions. Simulate an economy with byterub or zcash. Try to unmask. Repeat 2^N times for each parameter, and with M parameters, you end up exploring a parameter space of size 2^(NM).  
 **\<suraeNoether>** estimate false pos and false neg rate of your de-anon technique for each point in this big parameter space. Estimate the "sensitivity" of these rates to parameter perturbation. Try to find a de-anon technique that is most insensitive to choice of distribution.  
 **\<suraeNoether>** suraeNoether: yeah, just weight it so you can still pick 2x or 3x outputs, just less likely to do so somehow  
 **\<suraeNoether>** oh man so that'll be the paper I write after multisig is done  

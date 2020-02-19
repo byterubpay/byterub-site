@@ -15,7 +15,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** yes it is  
 **\<fluffypony>** coming through loud and clear on this side  
 **\* anonimal** reading backlog  
-**\<anonimal>** Hi moneromoo.  
+**\<anonimal>** Hi byterubmoo.  
 **\<anonimal>** Hi psi, uncrustify configs? Can you explain?  
 **\<psi>** uncrustify is a code styler for c/c++  
 **\<fluffypony>** I've never heard of it, plz tell me more psi?  
@@ -44,7 +44,7 @@ author: dEBRUYNE / fluffypony
 **\* anonimal** triple checks  
 **\<fluffypony>** I can't use 1.54  
 **\<fluffypony>** incompatible with ByteRub  
-**\<psi>** monero needs .56 or higher ?  
+**\<psi>** byterub needs .56 or higher ?  
 **\<fluffypony>** .55 or higher  
 **\<psi>** kk  
 **\<fluffypony>** so basically .59 or higher if you want both  
@@ -53,7 +53,7 @@ author: dEBRUYNE / fluffypony
 **\<psi>** :\  
 **\* anonimal** the only time I have is now and a bit later but the meeting is now so I want to throw it into the topic  
 **\* anonimal** still compiling, should be done in 5 or so  
-**\<anonimal>** #monero-dev, FYI, our meetings have always been more organized, on-point, and I've almost always been prepared.  
+**\<anonimal>** #byterub-dev, FYI, our meetings have always been more organized, on-point, and I've almost always been prepared.  
 **\<anonimal>** This one caught me off guard.  
 **\<anonimal>** (last minute suggestion by fluffypony)  
 **\<anonimal>** Sorry for the wait.  
@@ -63,12 +63,12 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Anyway, https://github.com/byterubpay/kovri/issues/175  
 **\<anonimal>** I'm only sitting with this again since I left off < 24 hours or so ago so,  
 **\<anonimal>** I haven't drawn any conclusions yet.  
-**\<anonimal>** Has anyone seen this before? #monero-dev?  
+**\<anonimal>** Has anyone seen this before? #byterub-dev?  
 **\* fluffypony** clicks  
-**\<fluffypony>** moneromooo: seen anything like that before ?  
+**\<fluffypony>** byterubmooo: seen anything like that before ?  
 **\<fluffypony>** "Undefined symbols for architecture x86_64"  
 **\<anonimal>** The usual 'Undefined symbols for architecture x86_64' has been an osx complaint on this machine in the past.  
-**\<moneromooo>** Not as such. I've seen plenty of really annoying linking issues though.  
+**\<byterubmooo>** Not as such. I've seen plenty of really annoying linking issues though.  
 **\<fluffypony>** this is gcc on OS X tho, right ?  
 **\<anonimal>** fluffypony: Yes.  
 **\<fluffypony>** maybe we're chasing our tails on that  
@@ -80,7 +80,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** lol  
 **\<fluffypony>** ok my suggestion is that we eschew OS X / BSD compatibility for the moment  
 **\<fluffypony>** until we can fix Clang support  
-**\<anonimal>** Thanks moneromoo. I'm glad this isn't just a kovri thing.  
+**\<anonimal>** Thanks byterubmoo. I'm glad this isn't just a kovri thing.  
 **\<fluffypony>** rather than trying to fudge it  
 **\<anonimal>** Well that's the problem, this won't be the only issue.  
 **\<fluffypony>** yeah I know  
@@ -89,7 +89,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** let's focus on getting it working on one Linux and Windows, where we're running gcc and it's fine  
 **\<anonimal>** fluffypony: what part will be the later piece of work?  
 **\<fluffypony>** anonimal: fixing Clang incompatibilities  
-**\<moneromooo>** I don't use OSX btw, so kinda ignore what I said above.  
+**\<byterubmooo>** I don't use OSX btw, so kinda ignore what I said above.  
 **\<anonimal>** Ok sounds great, I'll focus on linux/win building.  
 **\<anonimal>** Should we remove osx/bsd build instructions from BUILDING.md?  
 **\<anonimal>** Or I'll just open the bsd ticket and maybe someone will see it?  

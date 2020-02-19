@@ -4,9 +4,9 @@ terms: ["I2P"]
 summary: "The Invisible Internet Project: an anonymizing overlay network"
 ---
 
-### Monero
+### ByteRub
 
-For Monero's implementation of @I2P, see @Kovri. For a comparison of @I2P to [Tor](https://torproject.org/), read the [Comparison](https://geti2p.net/en/comparison/tor) page.
+For ByteRub's implementation of @I2P, see @Kovri. For a comparison of @I2P to [Tor](https://torproject.org/), read the [Comparison](https://geti2p.net/en/comparison/tor) page.
 
 ### The Basics
 

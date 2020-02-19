@@ -7,14 +7,14 @@ When you send money to a party who then disputes the payment was made, you need 
 With Bitcoin, this is typically done by looking up the transaction ID, where the origin and destination addresses are
 shown, along with the amount transacted.
 
-Monero, however, is private: that information is not available publicly on the blockchain. The steps are therefore a bit
+ByteRub, however, is private: that information is not available publicly on the blockchain. The steps are therefore a bit
 more involved.
 
 To prove to Charlie that she made a payment to Bob, Alice must supply Charlie three pieces of information:
 
 - the transaction ID, as is done in Bitcoin
 - Bob's address, as is done with Bitcoin
-- the transaction's key, which is new with Monero and other CryptoNote currencies
+- the transaction's key, which is new with ByteRub and other CryptoNote currencies
 
 When Alice made the transaction, a one time key was automatically generated just for this transaction.
 

@@ -22,7 +22,7 @@ author: dEBRUYNE / fluffypony
 **\<moroccanmalinois>** hi  
 **\<rehrar>** Hi (observing excitedly)  
 **\<i2p-relay> {-iDunk}** Hi  
-**\* moneromooo** greets again  
+**\* byterubmooo** greets again  
 **\<i2p-relay> [endogenic]** no excitement allowed rehrar  
 **\<bigreddmachine>** hi  
 **\<rehrar>** I'll see myself out then.  
@@ -71,32 +71,32 @@ author: dEBRUYNE / fluffypony
 **\* anonimal** not that I'm a fan, nor am I in that sort of closet  
 **\<anonimal>** Well, I'm curious to hear the public's opinion on whether I should de-anon. Thoughts?  
 **\<i2p-relay> [endogenic]** yes!  
-**\<anonimal>** moneromooo ^ #monero-dev  
+**\<anonimal>** byterubmooo ^ #byterub-dev  
 **\<i2p-relay> [endogenic]** i will be your bodyguard  
 **\<anonimal>** lol awesome! X)  
 **\<i2p-relay> [fluffypony]** anonimal: only reason I suggest it is because Kovri does need a voice, but ultimately it's your call  
-**\<i2p-relay> [gingeropolous]** weren't you already on the monero missives?  
+**\<i2p-relay> [gingeropolous]** weren't you already on the byterub missives?  
 **\<i2p-relay> [fluffypony]** gingeropolous: no, that was jeff  
-**\<moneromooo>** What ? What's in #monero-dev ?  
+**\<byterubmooo>** What ? What's in #byterub-dev ?  
 **\<i2p-relay> [endogenic]** anonimal: just think… we can hang out at meetups and such :)  
 **\<i2p-relay> {-olark}** Ultimately your choice anonimal.  
 **\<i2p-relay> {-olark}** Don't feel pressured to come out becuase people want you to ;)  
 **\<sgp>** ^ seconded  
 **\<anonimal>** gingeropolous: ^ not Jeff at crypto++, Jeff a former problem contributor who, as he said, has family in U.S. intelligence.  
 **\<i2p-relay> [gingeropolous]** he's satoshi.  
-**\<anonimal>** moneromooo I meant 'what's your opinion if any?'  
-**\* anonimal** and also threw question at #monero-dev in same line, sorry  
+**\<anonimal>** byterubmooo I meant 'what's your opinion if any?'  
+**\* anonimal** and also threw question at #byterub-dev in same line, sorry  
 **\<i2p-relay> [gingeropolous]** my apologies. I obviously know whos who here.  
-**\<moneromooo>** Of whether you should de-anon ? I wouldn't want to influence you to.  
+**\<byterubmooo>** Of whether you should de-anon ? I wouldn't want to influence you to.  
 **\<anonimal>** Oh np, just clarifying since I said "Jeff" earlier.  
-**\<moneromooo>** My view is that the more people actively keep their privacy, the less the massive pressure on everyone else to shed their privacy is.  
+**\<byterubmooo>** My view is that the more people actively keep their privacy, the less the massive pressure on everyone else to shed their privacy is.  
 **\<anonimal>** Hmm, good point.  
-**\<moneromooo>** Not really related to this particular case, but having 99% of people not care about their privacy means that companies and everyone can just screw privacy and not get any noticeable blowback.  
+**\<byterubmooo>** Not really related to this particular case, but having 99% of people not care about their privacy means that companies and everyone can just screw privacy and not get any noticeable blowback.  
 **\<i2p-relay> [endogenic]** think only anonimal's in the position anonimal's in as kovri lead tho  
-**\<moneromooo>** So I use Tor for random run off the mill browsing partly for that reason too.  
-**\<i2p-relay> [fluffypony]** moneromooo: yes, but this is about his status as a contributor and maintainer  
+**\<byterubmooo>** So I use Tor for random run off the mill browsing partly for that reason too.  
+**\<i2p-relay> [fluffypony]** byterubmooo: yes, but this is about his status as a contributor and maintainer  
 **\<i2p-relay> [fluffypony]** after all, things get really boring if I'm the only one talking at conferences  
-**\<moneromooo>** Well, his choice, and I don't want to interfere in it. But thanks for asking :)  
+**\<byterubmooo>** Well, his choice, and I don't want to interfere in it. But thanks for asking :)  
 **\<i2p-relay> [endogenic]** \<3  
 **\<i2p-relay> [endogenic]** i wouldn't go that far fluffy  
 **\<i2p-relay> [gingeropolous]** you could just "hire" a spokesperson to be your IRL talking head  
@@ -149,7 +149,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Ok will do  
 **\<anonimal>** bigreddmachine: I'll PM you later too  
 **\<anonimal>** Anything else on 3.?  
-**\<moneromooo>** Voice garbling sounds very reversible (unless it's voice recogniation plus text to speech).  
+**\<byterubmooo>** Voice garbling sounds very reversible (unless it's voice recogniation plus text to speech).  
 **\<bigreddmachine>** TTS certainly would work.  
 **\* anonimal** considered TTS, maybe I should learn to type faster first  
 **\<anonimal>** (or prepared statements?)  
@@ -157,13 +157,13 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Ok, we'll talk more later.  
 **\<i2p-relay> [endogenic]** hehe seems a little creepy  
 **\<anonimal>** 4. Status of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39)  
-**\<moneromooo>** Copy and "paste" words from movies, paste them one by one to make up sentences. Like the old words cut off from a newspaper :D  
-**\<anonimal>** lol moneromooo, not serial-killer-like in any way whatsoever...  
-**\<anonimal>** re: 4. We have hackerone.com/monero !  
+**\<byterubmooo>** Copy and "paste" words from movies, paste them one by one to make up sentences. Like the old words cut off from a newspaper :D  
+**\<anonimal>** lol byterubmooo, not serial-killer-like in any way whatsoever...  
+**\<anonimal>** re: 4. We have hackerone.com/byterub !  
 **\<i2p-relay> [fluffypony]** anonimal: has anything for 4. been written up in the style of an FFS proposal or not yet?  
 **\* anonimal** grabs only FFS for 4.  
 **\<anonimal>** Links is in the meta issue, one moment.  
-**\<anonimal>** https://forum.getmonero.org/6/ideas/87597/monero-bounty-for-hackerone  
+**\<anonimal>** https://forum.getbyterub.org/6/ideas/87597/byterub-bounty-for-hackerone  
 **\<anonimal>** Is that what you mean?  
 **\<i2p-relay> [fluffypony]** ok - do you want me to move that to Funding Required in its current form?  
 **\<anonimal>** Eek, I should update?  
@@ -176,7 +176,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** So for 4, I still have to PR VRP's to the various repos.  
 **\<anonimal>** Also invite the appropriate people to H1. But fluffypony I think you'll want to do that?  
 **\<i2p-relay> [fluffypony]** sure  
-**\<anonimal>** moneromooo is already in there. luigi is not yet though.  
+**\<anonimal>** byterubmooo is already in there. luigi is not yet though.  
 **\<anonimal>** Alright. From there we should raise the funds first and *then* start inviting hackers on H1.  
 **\<anonimal>** Any agreements/disagreements?  
 **\<sgp>** I agree  
@@ -223,7 +223,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> [pero]** wtf is that  
 **\<anonimal>** pero you have two options: 1. being kicked from this channel for disrupting a meeting or 2. venting into https://github.com/byterubpay/kovri/pull/488 for all the world to see.  
 **\<i2p-relay> [bigreddmachine]** ty ajs. will this be affected by the re-design that rehrar is doing?  
-**\<rehrar>** Well, I think ideally the redesign that is done for getmonero.org should have an influence on the Kovri website (just influence, not dictate)  
+**\<rehrar>** Well, I think ideally the redesign that is done for getbyterub.org should have an influence on the Kovri website (just influence, not dictate)  
 **\<rehrar>** and the logo redesign I will propose (just a proposal) I think definitely should have a larger influence on the website  
 **\<i2p-relay> [pero]** whats so hard about contacting the person that did the work?  
 **\<anonimal>** rehrar: that sounds good  
@@ -231,11 +231,11 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I'll drop it on here and the Kovri repo as an issue to look over when it's done.  
 **\<rehrar>** And it is obviously open to suggestions or tweaks when we show it  
 **\<i2p-relay> [bigreddmachine]** ty rehrar - but from a content standpoint, the re-design is sort-of content agnostic, right? as in, i could write a page and the formatting might change but if it's in a markdown file jekyll will just ingest it and reformat, right?  
-**\<rehrar>** for Kovri, not getmonero.org, right?  
-**\<anonimal>** Did you have any plans to re-use material from monero site (as to save time, etc.)?  
+**\<rehrar>** for Kovri, not getbyterub.org, right?  
+**\<anonimal>** Did you have any plans to re-use material from byterub site (as to save time, etc.)?  
 **\<i2p-relay> [bigreddmachine]** well, both i suppose, but kovri specifically  
 **\<ajs>** bigreddmachine: site design is rudimentary and could be easily changed if need be  
-**\<rehrar>** The content is going to be restructured for getmonero.org, I'm not going to do a lot of work on copy, unless people think it's really needed.  
+**\<rehrar>** The content is going to be restructured for getbyterub.org, I'm not going to do a lot of work on copy, unless people think it's really needed.  
 **\<i2p-relay> [bigreddmachine]** (sorry, i got us off topic)  
 **\* anonimal** whatever is easiest to maintain IMHO  
 **\<rehrar>** Pages will be shuffled around, and some things within pages will be shuffled around (all of this will be submitted in designs prior to everything being built)  

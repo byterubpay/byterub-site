@@ -1,10 +1,10 @@
 global:
   date: '%d/%m/%Y'
-  monero: ByteRub
+  byterub: ByteRub
   getting_started: Para Empezar
   copyright: Copyright
-  monero_project: El Proyecto ByteRub
-  sitename: getmonero.org, El Proyecto ByteRub
+  byterub_project: El Proyecto ByteRub
+  sitename: getbyterub.org, El Proyecto ByteRub
   wiki: ByteRubpedia
   tags: Artículos por Etiqueta
   wikimeta: en ByteRubpedia, La enciclopedia abierta de ByteRub
@@ -22,7 +22,7 @@ global:
 
 titles:
   index: Inicio
-  whatismonero: ¿Qué es ByteRub (XMR)?
+  whatisbyterub: ¿Qué es ByteRub (XMR)?
   using: Usar ByteRub
   accepting: Aceptar ByteRub
   contributing: Mejorar ByteRub
@@ -38,11 +38,11 @@ titles:
   about: Sobre ByteRub
   roadmap: Hoja de ruta
   researchlab: Laboratorio de Investigación de ByteRub (MRL)
-  moneropedia: ByteRubpedia
+  byterubpedia: ByteRubpedia
   userguides: Guías de usuario
   developerguides: Guías de desarrolladores
   technicalspecs: Especificaciones técnicas
-  themoneroproject: El Proyecto ByteRub
+  thebyterubproject: El Proyecto ByteRub
   presskit: Kit de Prensa de ByteRub
   legal: Legal
   ffs: Sistema de Financiamiento Colectivo
@@ -59,19 +59,19 @@ index:
 
 home:
   heading2: Moneda digital privada
-  monero_is_cash: ByteRub es dinero en efectivo para un mundo en conexión. Es rápido, privado y seguro. Con ByteRub, tú eres tu propio banco. Puedes utilizarlo con seguridad, sabiendo que otros no pueden conocer tu balance ni rastrear tus actividades.
+  byterub_is_cash: ByteRub es dinero en efectivo para un mundo en conexión. Es rápido, privado y seguro. Con ByteRub, tú eres tu propio banco. Puedes utilizarlo con seguridad, sabiendo que otros no pueden conocer tu balance ni rastrear tus actividades.
   get_started: Comenzar
-  why_monero_is_different: Por qué ByteRub es diferente
-  monero_is_secure: ByteRub es Seguro
-  monero_is_secure_para: ByteRub es una criptomoneda descentralizada. Es decir, es dinero digital seguro operado por su propia red de usuarios. Las transacciones son confirmadas por consenso distribuido y luego registradas inmutablemente en la blockchain. De esta manera, mantiene tu dinero seguro sin necesidad de terceros.
-  monero_is_private: ByteRub es Privado
-  monero_is_private_para: ByteRub usa las tecnologías de firmas circulares y transacciones confidenciales circulares (RingCT) para ocultar el importe, origen y destino cada transacción. ByteRub ofrece los beneficios de una criptomoneda descentralizada sin comprometer la privacidad.
-  monero_is_untraceable: ByteRub es imposible de rastrear
-  monero_is_untraceable_para: Las direcciones del emisor y receptor, al igual que la cantidad de la transacción, se ocultan por defecto. Las transacciones en la blockchain de ByteRub no pueden ser enlazadas a un usuario en particular o alguna entidad del mundo real.
-  monero_is_fungible: ByteRub es fungible
-  monero_is_fungible_para1: ByteRub es
-  monero_is_fungible_para2: fungible
-  monero_is_fungible_para3: porque es privado por defecto. Las unidades de ByteRub no puedan ser puestas en lista negra por vendedores o centros de compra/venta debido a alguna relación con transacciones anteriores.
+  why_byterub_is_different: Por qué ByteRub es diferente
+  byterub_is_secure: ByteRub es Seguro
+  byterub_is_secure_para: ByteRub es una criptomoneda descentralizada. Es decir, es dinero digital seguro operado por su propia red de usuarios. Las transacciones son confirmadas por consenso distribuido y luego registradas inmutablemente en la blockchain. De esta manera, mantiene tu dinero seguro sin necesidad de terceros.
+  byterub_is_private: ByteRub es Privado
+  byterub_is_private_para: ByteRub usa las tecnologías de firmas circulares y transacciones confidenciales circulares (RingCT) para ocultar el importe, origen y destino cada transacción. ByteRub ofrece los beneficios de una criptomoneda descentralizada sin comprometer la privacidad.
+  byterub_is_untraceable: ByteRub es imposible de rastrear
+  byterub_is_untraceable_para: Las direcciones del emisor y receptor, al igual que la cantidad de la transacción, se ocultan por defecto. Las transacciones en la blockchain de ByteRub no pueden ser enlazadas a un usuario en particular o alguna entidad del mundo real.
+  byterub_is_fungible: ByteRub es fungible
+  byterub_is_fungible_para1: ByteRub es
+  byterub_is_fungible_para2: fungible
+  byterub_is_fungible_para3: porque es privado por defecto. Las unidades de ByteRub no puedan ser puestas en lista negra por vendedores o centros de compra/venta debido a alguna relación con transacciones anteriores.
   downloads: Descargas
   downloads_windows: ByteRub para Windows
   downloads_mac: ByteRub para Mac
@@ -81,9 +81,9 @@ home:
   view_all_downloads: Mira todas las descargas disponibles aquí.
   latest_news: Noticias recientes
   more_news: Más noticias
-  moneropedia: ByteRubpedia
-  moneropedia_para: ¿Quieres ver las definiciones de términos y conceptos usados en ByteRub? Aquí encontrarás una lista alfabética de términos de los proyectos ByteRub y Kovri y sus significados.
-  moneropedia_button: Ver la Wiki
+  byterubpedia: ByteRubpedia
+  byterubpedia_para: ¿Quieres ver las definiciones de términos y conceptos usados en ByteRub? Aquí encontrarás una lista alfabética de términos de los proyectos ByteRub y Kovri y sus significados.
+  byterubpedia_button: Ver la Wiki
   user_guides: Guías de usuario
   user_guides_para: Guías que describen varios procesos paso a paso, separadas por categoría. Cubren todo desde cómo crear un monedero, hasta cómo editar este mismo sitio web.
   user_guides_button: Ver Guías
@@ -98,27 +98,27 @@ hangouts:
   irc: Canales IRC
   irc_para: La comunidad de ByteRub utiliza muchos canales IRC que sirven para diferentes propósitos. Algunos para trabajo, y otros sólo para pasar el rato. A continuación encontrarás los canales más populares.
   irc_channels:
-  - channel: monero
+  - channel: byterub
     description: Este canal es utilizado para discutir todas las cosas relacionadas con ByteRub.
-  - channel: monero-community
+  - channel: byterub-community
     description: Este canal lo utiliza la comunidad de ByteRub para reunirse y discutir ideas.
-  - channel: monero-dev
+  - channel: byterub-dev
     description:  Los contribuidores y desarrolladores vienen aquí a discutir asuntos de desarrollo.
-  - channel: monero-markets
+  - channel: byterub-markets
     description: Usamos este canal para hablar acerca del precio de ByteRub y otras monedas.
-  - channel: monero-offtopic
+  - channel: byterub-offtopic
     description: Para hablar con otros usuarios acerca de cosas no relacionadas a ByteRub.
-  - channel: monero-otc
+  - channel: byterub-otc
     description: ByteRub sobre la mesa (Over The Counter). Entra aquí para comprar XMR de tu compañeros de ByteRub.
-  - channel: monero-pools
+  - channel: byterub-pools
     description: Lugar para preguntas y discusiones de minado.
-  - channel: monero-research-lab
+  - channel: byterub-research-lab
     description: Investiga sobre privacidad financiera con criptomonedas.
-  - channel: monero-translations
+  - channel: byterub-translations
     description: Localizar ByteRub en otros idiomas.
-  - channel: monero-hardware
+  - channel: byterub-hardware
     description: Construir monederos hardware para mantener tu ByteRub seguro.
-  - channel: monero-site
+  - channel: byterub-site
     description: Where the development of this website is coordinated
   - channel: kovri
     description: Canal utilizado para discutir cualquier cosa relacionada a Kovri.
@@ -133,7 +133,7 @@ merchants:
     "Tenga en cuenta: estos enlaces están siendo provistos como una conveniencia y por propósitos informativos solamente; no constituyen un acto de aprobación por la comunidad de ByteRub de ningún producto, servicio u opinión de las corporaciones, organizaciones o individuos listados. La comunidad de ByteRub no tiene responsabilidad de la exactitud, legalidad o contenido de estos sitios externos. Contacte el sitio externo para respuestas a preguntas respecto a sus contenidos. Cada individuo es responsable de su propia investigación, o en otras palabras, caveat emptor (dejar que el comprador se preocupe). Siempre utilice su juicio cuando realice compras en línea."
 
 sponsorships:
-  intro: Los siguientes negocios han dado soporte al proyecto ByteRub en su meta de brindar privacidad financiera al mundo. No podríamos estar más agradecidos por sus contribuciones. Si deseas patrocinar el proyecto ByteRub y ser listado en esta página, favor de enviar un email a dev@getmonero.org.
+  intro: Los siguientes negocios han dado soporte al proyecto ByteRub en su meta de brindar privacidad financiera al mundo. No podríamos estar más agradecidos por sus contribuciones. Si deseas patrocinar el proyecto ByteRub y ser listado en esta página, favor de enviar un email a dev@getbyterub.org.
 
 team:
   core: Equipo Central
@@ -180,8 +180,8 @@ downloads:
   helpsupport: Help and Support
   helpsupport1: "A guide with an explanation of every section of the wallet is available:"
   helpsupport2: "See latest release"
-  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #monero-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
-  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #monero or #monero-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #byterub-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #byterub or #byterub-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
   localremote: Local or remote node
   localremote1: Use your own copy of the blockchain or a publicly available one
   transacttor: Transactions over Tor/I2P
@@ -195,7 +195,7 @@ downloads:
   verify: Verify
   verify1: You are strongly advised to verify the hashes of the archive you downloaded. This will confirm that the files you downloaded perfectly match the files uploaded by the ByteRub development workgroup. Please don't underestimate this step, a corrupted archive could result in lost funds. Always verify your downloads!
   showhash: Show hashes to verify your download
-  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getmonero.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
+  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getbyterub.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
   showhash2: in the source code
   showhash3: "Two guides are available to guide you through the verification process:"
   hardware1: The ByteRub community has funded a
@@ -232,19 +232,19 @@ press-kit:
   - category: Documentación de Prensa
     publications:
     - name: "Hoja de Datos"
-      url_file: "http://www.monerooutreach.org/pubs/2018/QuickFacts/QuickFacts_es.pdf"
+      url_file: "http://www.byteruboutreach.org/pubs/2018/QuickFacts/QuickFacts_es.pdf"
       abstract: >
         Una hoja de datos fácil de leer para conocer todo acerca de ByteRub: historia, factores clave de diferenciación, fundamentos técnicos y características en desarrollo.<br>
-        Visita el sitio web de <a target="_blank" href="https://www.monerooutreach.org/principal.php">ByteRub Outreach</a> para mayor información.
+        Visita el sitio web de <a target="_blank" href="https://www.byteruboutreach.org/principal.php">ByteRub Outreach</a> para mayor información.
   marketing:
   - category: Marketing Material
     publications:
     - name: "The 'Don't buy ByteRub' sticker"
-      url_file: "https://github.com/monero-ecosystem/dont-buy-monero-sticker"
+      url_file: "https://github.com/byterub-ecosystem/dont-buy-byterub-sticker"
       abstract: >
         Spread ByteRub everywhere with the help of this sticker. Available in multiple languages and formats (vectors included).
     - name: Guerrilla Toolkit
-      url_file: "https://www.monerooutreach.org/guerrilla-toolkit.php"
+      url_file: "https://www.byteruboutreach.org/guerrilla-toolkit.php"
       abstract: >
         A document created by the ByteRub Outreach workgroup containing materials and tips for an effective guerrilla marketing campaign.
 
@@ -254,14 +254,14 @@ accepting:
   basics_para1: ByteRub trabaja un poco distinto a lo que puedes estar acostumbrado de otras criptomonedas. En el caso de dinero digital como Bitcoin y sus diversos sistemas de pago mercantil derivados que usualmente crean una nueva dirección recipiente (@address) por cada pago o usuario.
   basics_para2: No obstante, debido a que ByteRub cuenta con direcciones de sigilo (@stealth-addresses) no existe la necesidad de tener direcciones recipientes separadas para cada pago o usuario, y una simple cuenta (@account) puede ser publicada. En su lugar, cuando un comerciante recibes pagos proveerá al comprador con una "ID de pago".
   basics_para3: " Un ID de pago (@payment-ID) es una cadena hexadecimal de 64 caracteres de longitud, y es creada aleatoriamente por el comerciante. Un ejemplo de una ID de pago es:"
-  checking: Revisar por un pago en monero-wallet-cli
+  checking: Revisar por un pago en byterub-wallet-cli
   checking_para1: |
-    Si deseas revisar algún pago usando monero-wallet-cli, puedes utilizar el comando "payments" seguido de el o los ID de pago que deseas revisar. Por ejemplo:
+    Si deseas revisar algún pago usando byterub-wallet-cli, puedes utilizar el comando "payments" seguido de el o los ID de pago que deseas revisar. Por ejemplo:
   checking_para2: Si necesitas revisar pagos de manera programada, los detalles se encuentran en la siguiente sección.
   receiving: Recibiendo un pago paso-a-paso
   receiving_list1: Generar una cadena hexadecimal aleatoria de 64 caracteres para el pago
   receiving_list2: Compartir el ID de pago y la dirección de ByteRub al individuo que estará haciendo el pago
-  receiving_list3: Revisar por el pago utilizando el comando "payments" en monero-wallet-cli
+  receiving_list3: Revisar por el pago utilizando el comando "payments" en byterub-wallet-cli
   program: Revisando por pagos de manera programada
   program_para1: En orden para revisar un pago de manera programada puedes utilizar una llamada JSON RPC API "get_payments" o "get_bulk_payments".
   program_para2: esto requiere un parámetro del ID de pago con un solo ID de pago.
@@ -285,7 +285,7 @@ contributing:
   develop_para3: y los
   develop_para4: problemas pendientes.
   full-node: Correr un Nodo
-  full-node_para: Abre monerod con puerto 18080 abierto. Correr un nodo asegura máxima privacidad cuando se utiliza ByteRub para transacciones. Esto también mejora la distribución de la blockchain a nuevos usuarios.
+  full-node_para: Abre byterubd con puerto 18080 abierto. Correr un nodo asegura máxima privacidad cuando se utiliza ByteRub para transacciones. Esto también mejora la distribución de la blockchain a nuevos usuarios.
   mine: Minar
   mine_para1: Minar asegura que la red de ByteRub siga descentralizada y segura. En la interfaz gráfica de usuario de ByteRub y la interfaz de consola de comandos, es posible activar el minado en segundo plano. Recursos adicionales para minar pueden ser vistos
   mine_para2: aquí.
@@ -344,7 +344,7 @@ mining:
   support: Apoyar
   support_para1: Ver los
   support_para2: Medios de Comunicación,
-  support_para3: /r/moneromining (Inglés)
+  support_para3: /r/byterubmining (Inglés)
   support_para4: y
   pools: Pools
   pools_para1: Una lista de pools de ByteRub confiables se encuentra
@@ -379,7 +379,7 @@ using:
   acquire: 4. Adquirir ByteRub
   acquire_para1: ByteRub puede ser comprado en un
   acquire_para2: sitio de compra/venta
-  acquire_para3: con dinero efectivo u otras criptomonedas. Una forma alterna de adquirir monero es
+  acquire_para3: con dinero efectivo u otras criptomonedas. Una forma alterna de adquirir byterub es
   acquire_para4: minando,
   acquire_para5: que es el complejo proceso computacional en donde las transacciones son grabadas inmutablemente en la blockchain.
   send-receive: 5. Enviar y recibir ByteRub
@@ -389,7 +389,7 @@ using:
   transact_para1: ByteRub puede ser utilizado para comprar varios bienes y servicios. Para el listado de ellos, ve la página de
   transact_para2: comerciantes.
 
-what-is-monero:
+what-is-byterub:
   need-to-know: Lo que necesitas saber
   leading: ByteRub es la criptomoneda líder con enfoque en transacciones privadas y resistentes a la censura.
   leading_para1: La mayoría de las criptomonedas existentes, incluidas Bitcoin y Ethereum, tienen una blockchain transparente, lo que significa que las transacciones son abiertamente verificables y rastreables por cualquier persona en el mundo. Además, las direcciones emisoras y receptoras de estas transacciones pueden ser potencialmente enlazadas a la identidad de una persona en el mundo real.
@@ -412,9 +412,9 @@ what-is-monero:
 
 about:
   history: Una breve historia
-  history_para1: Bitmonero (BMR) fue lanzado en abril del 2014. Fue un lanzamiento justo y con anuncios previos del código de referencia CryptoNote. No hubo pre-minado o minado instantáneo, y ninguna porción de la recompensa de bloque se dirigía al desarrollo de Bitmonero. Ve el post original de Bitcointalk
+  history_para1: Bitbyterub (BMR) fue lanzado en abril del 2014. Fue un lanzamiento justo y con anuncios previos del código de referencia CryptoNote. No hubo pre-minado o minado instantáneo, y ninguna porción de la recompensa de bloque se dirigía al desarrollo de Bitbyterub. Ve el post original de Bitcointalk
   history_para2: aquí.
-  history_para3: El fundador, thankful_for_today, propuso algunos cambios controversiales que no fueron bien recibidos por la comunidad. Le siguió una gran caída, y el Equipo Central de Bitmonero bifurcó el proyecto con la comunidad siguiendo al nuevo equipo central. El Equipo Central actual ha estado en vigilancia desde entonces.
+  history_para3: El fundador, thankful_for_today, propuso algunos cambios controversiales que no fueron bien recibidos por la comunidad. Le siguió una gran caída, y el Equipo Central de Bitbyterub bifurcó el proyecto con la comunidad siguiendo al nuevo equipo central. El Equipo Central actual ha estado en vigilancia desde entonces.
   history_para4: ByteRub (XMR) ha hecho considerables mejoras a larga escala desde su lanzamiento. La blockchain ha migrado a una estructura de base de datos distinta para proveer mejor eficiencia y flexibilidad, el tamaño mínimo de las firmas circulares fue establecido por mandato para que todas las transacciones fueran privadas, y se implementó RingCT para esconder la cantidad de las transacciones. La mayoría de estas implementaciones han logrado mejoras a la seguridad y privacidad, o han facilitado el uso de ByteRub. ByteRub sigue en desarrollo con metas de privacidad y seguridad principalmente, y eficiencia y facilidad de uso en segundo lugar.
   values: Nuestros valores
   values_para: ByteRub es más que sólo una tecnología. Es más bien el significado de tecnología. A continuación se muestran algunas de las filosofías guía más importantes.
@@ -441,7 +441,7 @@ user-guides:
   offline-backup: Cómo hacer un respaldo sin conexión
   vps-node: Cómo correr un nodo en un VPS
   import-blockchain: Importar la blockchain de ByteRub
-  monero-tools: Herramientas de ByteRub
+  byterub-tools: Herramientas de ByteRub
   purchasing-storing: Comprar y almacenar ByteRub de forma segura
   verify-allos: Verificar binarios en Linux, Mac o Windows en Consola de Comandos (avanzado)
   verify-windows: Verificar binarios en Windows (principiante)
@@ -457,7 +457,7 @@ user-guides:
   prove-payment: Cómo comprobar un pago
   restore-from-keys: Restaurar monedero desde claves
   nicehash: Cómo minar ByteRub XMR sin un equipo de minado
-  ledger-wallet-cli: Cómo generar un monedero Ledger ByteRub con la consola de comandos (monero-wallet-cli)
+  ledger-wallet-cli: Cómo generar un monedero Ledger ByteRub con la consola de comandos (byterub-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor
 
@@ -556,7 +556,7 @@ library:
         Una explicación conceptual, comprensiva (y técnica) de ByteRub.<br>
         Nos esforzamos por enseñar a cualquiera que conozca álgebra básica y conceptos simples de ciencias de la computación, como ‘representación de bits’ de un número, no solamente cómo funciona ByteRub a un nivel profundo y completo, sino también qué tan útil y bella puede ser la criptografía.
     - name: "Mastering ByteRub"
-      file: "https://masteringmonero.com/free-download.html"
+      file: "https://masteringbyterub.com/free-download.html"
       abstract: >
         Una guía a través del aparentemente complejo mundo de ByteRub.<br>
         Incluye:
@@ -566,7 +566,7 @@ library:
         <li>Detalles de la red descentralizada de ByteRub, arquitectura de igual a igual, ciclo de vida de una transacción, y principios de seguridad.</li>
         <li>Introducción a los fundamentos técnicos de ByteRub, destinado a desarrolladores, ingenieros, arquitectos de software, y usuarios curiosos.</li>
         <li>Nuevos desarrollos como Kovri, Bulletproofs, Multifirmas, Monederos Hardware, entre otros.</li></ul>
-        Ver el sitio web de <a href="https://masteringmonero.com/">Mastering ByteRub</a> para información acerca de la versión completa.
+        Ver el sitio web de <a href="https://masteringbyterub.com/">Mastering ByteRub</a> para información acerca de la versión completa.
   - category: Revistas
     publications:
     - name: "Revuo ByteRub 4T 2017"
@@ -580,7 +580,7 @@ library:
         Revista trimestral de ByteRub, edición 3T, 2017.<br>
         En esta publicación, actualizaciones acerca de: desarrollo, el Laboratorio de Investigación de ByteRub, Kovri, la comunidad, Hardware y Monerujo.
 
-moneropedia:
+byterubpedia:
   add_new_button: Crear Nueva Entrada
   add_new_text1: Si hay una entrada que quisieras modificar o agregar, por favor
   add_new_link: abre un caso en el repositorio de este sitio en GitLab

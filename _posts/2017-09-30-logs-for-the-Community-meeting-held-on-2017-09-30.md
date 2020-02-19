@@ -24,14 +24,14 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** boo  
 **\<serhack>** hi  
 **\<rehrar>** 2. Community highlights  
-**\<rehrar>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<rehrar>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<rehrar>** btw, he opened up a FFS to get compensated for his great work, and we should push to get it moved to Funding Required  
-**\<rehrar>** I can't link to it because the getmonero forum is down. I have nothing to do with the forum, so unfortunately I can't do anything about it. :/  
-**\<rehrar>** Ledger has been making integration progress:  https://www.reddit.com/r/ByteRub/comments/72rh39/ledger_hardware_wallet_monero_integration_some/  
-**\<rehrar>** ByteRub was featured on the IBTimes  http://www.ibtimes.com/monero-rises-dark-web-why-cryptocurrency-users-want-more-privacy-2584390  
+**\<rehrar>** I can't link to it because the getbyterub forum is down. I have nothing to do with the forum, so unfortunately I can't do anything about it. :/  
+**\<rehrar>** Ledger has been making integration progress:  https://www.reddit.com/r/ByteRub/comments/72rh39/ledger_hardware_wallet_byterub_integration_some/  
+**\<rehrar>** ByteRub was featured on the IBTimes  http://www.ibtimes.com/byterub-rises-dark-web-why-cryptocurrency-users-want-more-privacy-2584390  
 **\<rehrar>** The Monerujo android wallet made it to the Google Play Store:  https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet  
 **\<rehrar>** CoinHive took the world by storm. CoinHive is an in-browser  JavaScript miner that was deployed on ThePirateBay and Showtime, among  other sites https://coinhive.com/blog/status-report  
-**\<rehrar>** Mike posted the latest episode of the ByteRub Monitor featuring John  Tromp on Cuckoo Cycle and John McAfee on ByteRub  https://moneromonitor.com/episodes/2017-09-26-Episode-014.html  
+**\<rehrar>** Mike posted the latest episode of the ByteRub Monitor featuring John  Tromp on Cuckoo Cycle and John McAfee on ByteRub  https://byterubmonitor.com/episodes/2017-09-26-Episode-014.html  
 **\<rehrar>** Does anyone else have a highlight to share?  
 **\<vP11>** i'd like to say a few words on a project that i've been working  
 **\<rehrar>** g'head  
@@ -46,7 +46,7 @@ author: dEBRUYNE / fluffypony
 **\<vP11>** maybe even do some documentation on "how to start your own hub"  
 **\<rehrar>** That'd be chill.  
 **\<rehrar>** 3. FFS updates  
-**\<rehrar>** We talked about many of these in detail last meeting, so I just want  to say that we have more proof our community is generous. Several  hundred thousand dollars have been donated since the last meeting!  https://forum.getmonero.org/9/work-in-progress  https://forum.getmonero.org/8/funding-required  
+**\<rehrar>** We talked about many of these in detail last meeting, so I just want  to say that we have more proof our community is generous. Several  hundred thousand dollars have been donated since the last meeting!  https://forum.getbyterub.org/9/work-in-progress  https://forum.getbyterub.org/8/funding-required  
 **\<rehrar>** Maybe as a part of next meeting, we can go through the current Ideas and Open Tasks and give comments on them?  
 **\<msvb-lab>** Good idea, as there is some action there in comments too.  
 **\<vP11>** I agree. and for now the forum is offline so make sure to save the links and go there later  
@@ -75,9 +75,9 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** About whether we are big enough for us to necessarily try sending support questions to ByteRub Support  
 **\<rehrar>** Thoughts on this? Is there a desire to have less support questions on the official forum? Should we be pushing for ByteRub Support?  
 **\<rehrar>** official forum = official reddit  
-**\<needmultisig90>** I think in the first few weeks of the sub, we should have all new threads linked into monero  
+**\<needmultisig90>** I think in the first few weeks of the sub, we should have all new threads linked into byterub  
 **\<needmultisig90>** Gets exposure to the people who can respond, and would in theory mean no one needs to actively watch it  
-**\<cryptochangement>** i for one think that people should be directed to monero support similarly to how they are directed to xmrtrader for speculation  
+**\<cryptochangement>** i for one think that people should be directed to byterub support similarly to how they are directed to xmrtrader for speculation  
 **\<needmultisig90>** I do too  
 **\<needmultisig90>** Have for a while  
 **\<pero>** well that was a critical tenet behind the idea  
@@ -90,10 +90,10 @@ author: dEBRUYNE / fluffypony
 **\<vP11>** cryptochangement, I agree  
 **\<vP11>** I guess the moderators need to judge case by case, if a support question is really just another of the same, then redirect it  
 **\<vP11>** otherwise, let it live in r/ByteRub  
-**\<pero>** if there isnt buy in from the mods in rmonero then it's just a waste of effort imo  
+**\<pero>** if there isnt buy in from the mods in rbyterub then it's just a waste of effort imo  
 **\<vP11>** in the angle that people will keep going to r/ByteRub to ask questions because it's the biggest sub?  
 **\<needmultisig90>** There is buy in from myself and debruyne, if the rule got passed at a community level  
-**\<xmrmatterbridge> \<sgp>** for /r/monero: "the GUI needs to be easier to use. here's why" for /r/ByteRubsupport "I need help connecting to a remote node"  
+**\<xmrmatterbridge> \<sgp>** for /r/byterub: "the GUI needs to be easier to use. here's why" for /r/ByteRubsupport "I need help connecting to a remote node"  
 **\<needmultisig90>** I can pull up logs if needed  
 **\<dEBRUYNE>** Buy in somewhere in the future that is, fwiw  
 **\<needmultisig90>** Yes  
@@ -105,15 +105,15 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I will say three different statements about the ByteRub Support, when you agree with a statement  
 **\<rehrar>** raise your hand o/  
 **\<rehrar>** One will be positive, one will be negative, and one will be 'at a later time'  
-**\<dEBRUYNE> \<pero>** pretty sure debruyne told me he isnt down \<= To clarify. I said i'd be down for it somewhere in the future, when r/monero is bigger  
-**\<rehrar>** 1. I think we should move forward with the Support initiative now (move most support questions to /r/monerosupport)  
+**\<dEBRUYNE> \<pero>** pretty sure debruyne told me he isnt down \<= To clarify. I said i'd be down for it somewhere in the future, when r/byterub is bigger  
+**\<rehrar>** 1. I think we should move forward with the Support initiative now (move most support questions to /r/byterubsupport)  
 **\<needmultisig90>** half o/  
 **\<xmrmatterbridge> \<sgp>** o/  
 **\<vP11>** o\> (half)  
 **\<cryptochangement>** o/  
 **\<rehrar>** 2. I don't think ByteRub Support is necessary  
 **\<ErCiccione>** i'll be alone but o/  
-**\<rehrar>** 3. I am in favor of /r/monerosupport, but not at this present time  
+**\<rehrar>** 3. I am in favor of /r/byterubsupport, but not at this present time  
 **\<msvb-lab>** o/  
 **\<needmultisig90>** o\>  
 **\<endogenic>** uh oh, message sychronization issues. how will we tally the votes  
@@ -131,7 +131,7 @@ author: dEBRUYNE / fluffypony
 **\<needmultisig90>** Addendum  
 **\<rehrar>** ByteRub meetups are *stops*  
 **\<rehrar>** g'head nm90  
-**\<needmultisig90>** Can we get a relay bot for new threads in /r/monerosupport into monero?  
+**\<needmultisig90>** Can we get a relay bot for new threads in /r/byterubsupport into byterub?  
 **\<needmultisig90>** I think that would dramatically increase response time and engagement  
 **\<needmultisig90>** Whether it becomes de facto the support sub yet  
 **\<cryptochangement>** ^good idea  
@@ -166,7 +166,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Privacy Conference, powered by ByteRub.  
 **\<rehrar>** But yeah, basically  
 **\<rehrar>** Oh, and we're looking for sometime summer next year.  
-**\<vP11>** interesting. privacy is a top that is getting hotter and hotter. i might see why people would go into a conference with a focus on privacy and it would be cool to have monero on it.  
+**\<vP11>** interesting. privacy is a top that is getting hotter and hotter. i might see why people would go into a conference with a focus on privacy and it would be cool to have byterub on it.  
 **\<vP11>** i support this idea.  
 **\<rehrar>** I know it's a big project, and in some ways it trying to shoot for the moon, but hey, if we don't dream (and work to accomplish those dreams obviously), then we never get anywhere  
 **\<ArticMine>** It is doable  
@@ -187,7 +187,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** That'd be cool.  
 **\<rehrar>** 7. Taiga projects f  
 **\<rehrar>** oops, just Taiga projects  
-**\<rehrar>** Last meeting, we announced Taiga: https://taiga.getmonero.org  
+**\<rehrar>** Last meeting, we announced Taiga: https://taiga.getbyterub.org  
 **\<rehrar>** Taiga is an open-source organizational tool that allows people to collaborate on projects. It's been running for a bit now, but I'm waiting for a couple more optimizations to be made between me and pigeons with the software before making fanfare about it.  
 **\<rehrar>** But it's ready for use now.  
 **\<rehrar>** Several people have added projects to Taiga. I encourage you to check  them out and add your own. We hope to integrate Taiga with Mattermost,  and to make Taiga an effective tool for community members to get  projects done. In Taiga, there is also a basic outline for the  Mattermost migration project.  
@@ -195,7 +195,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** It’s open ideas time! Feel free to propose your ideas to this  discussion group, and feel free to comment on others’ ideas. If you  disagree with the idea, please reply with constructive criticism. Thank  you!  
 **\<msvb-lab>** Taiga is quite excellent. Does anybody know about a mobile application that lets you browse, monitor, or get notifications from projects?  
 **\<xmrmatterbridge> \<sgp>** I like the conference idea, and it's probably easiest to host at a university. Work with a student group there  
-**\<needmultisig90>** I would like to open discussion on the current inclusion of /r/aeon on the /r/monero sidebar. /u/bigreddmachine has brought up that we show preference towards it and not other cryptonote projects, and I think we should come to a clear consensus on whether it should be included or not.  
+**\<needmultisig90>** I would like to open discussion on the current inclusion of /r/aeon on the /r/byterub sidebar. /u/bigreddmachine has brought up that we show preference towards it and not other cryptonote projects, and I think we should come to a clear consensus on whether it should be included or not.  
 **\<rehrar>** msvb-lab they have an app, but it's very limited unless you pay (ironically)  
 **\<needmultisig90>** Im personally biased towards inclusion for financial reasons, and will refrain from participating  
 **\<needmultisig90>** I dont believe my opinion is impartial here.  
@@ -205,10 +205,10 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** What's the history that led to Aeon's preferred status?  
 **\<ErCiccione>** rehrar i don't think that's the right question to make since we have /r/BTC  
 **\<xeagu>** I posted a thread earlier that is relevant to the discussion of /r/aeon being on the sidebar. Tldr, I laid out a set of principles that I believe align with the ByteRub Community. Maybe I go a little too far by including Bitcoin and Litecoin - what do you think?  
-**\<xeagu>** https://www.reddit.com/r/ByteRub/comments/73g7aq/monero_community/  
+**\<xeagu>** https://www.reddit.com/r/ByteRub/comments/73g7aq/byterub_community/  
 **\<bigreddmachine>** @needmultisig90 it's not even that Aeon is favored over other cryptonote coins, it's that it is favored over other coins, period. It's not part of the ByteRub Project, and therefore should be treated the exact same way as everything else. Bitcoin makes the sidebar because it is the first, the biggest, and there's near unanimous agreement that one of the various forms of Bitcoin is King.  
 **\<rehrar>** ErCiccione I don't necessarily agree with that either ;)  
-**\<cryptochangement>** msvb-lab: it is a lot older than most other monero/cryptonote clones, it isnt bytecoin (scammy pre-mine) and it is it maintained by smooth  
+**\<cryptochangement>** msvb-lab: it is a lot older than most other byterub/cryptonote clones, it isnt bytecoin (scammy pre-mine) and it is it maintained by smooth  
 **\<rehrar>** msvb-lab: it's run by Core Team member smooth, and a big overlap of community  
 **\<bigreddmachine>** But everything else - including Aeon - should be treated the same. If aeon makes the cut, I can think of a dozen other coins more deserving of making the cut.  
 **\<rehrar>** ^  
@@ -235,7 +235,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** they would say differently :P  
 **\<needmultisig90>** Xmrtrader independently voted to allow aeon discussion, but I could follow the result out of this  
 **\<ErCiccione>** agree with rehrar.a 3d in meta is the best way  
-**\<needmultisig90>** Whatever gets applied to /r/monero should be uniform  
+**\<needmultisig90>** Whatever gets applied to /r/byterub should be uniform  
 **\<rehrar>** I am in favor of removing bitcoin and btc fwiw  
 **\<xeagu>** I am in favor of keeping /r/bitcoin and /r/aeon and also adding /r/litecoin  
 **\<rehrar>** I have no interest in them, and removing any and all dependency from them should be a goal, but that's just my opinion  
@@ -246,10 +246,10 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** i would say that r/Bitcoin is still relevent since its what most people all now about and bitcoin itself is still pretty important... but i dont want to get into a politcal war that will spawn ByteRub Cash  
 **\<rehrar>** The next meeting will two weeks from today on 30 September at 17:00  UTC. It will be the Saturday before the dev meetings. This meeting time  seems to work out for most people.  
 **\<rehrar>** 10. Conclusion  
-**\<rehrar>** That’s all! Thanks for attending this ByteRub Community meeting, and  we hope to see you on /r/ByteRubCommunity and #monero-community. Take  care, and know that change starts with YOU.  
+**\<rehrar>** That’s all! Thanks for attending this ByteRub Community meeting, and  we hope to see you on /r/ByteRubCommunity and #byterub-community. Take  care, and know that change starts with YOU.  
 **\<rehrar>** Gather your things, close your briefcases, and start the after-meeting office chatter. We're done.  
 **\<vP11>** nice one :) thank you all  
-**\<vP11>** hey guys, I gotta go. thank you all for the meeting and make sure to give me your feedback here: https://www.reddit.com/r/ByteRub/comments/73gbqr/monero_brasil_news_community_hub/  
+**\<vP11>** hey guys, I gotta go. thank you all for the meeting and make sure to give me your feedback here: https://www.reddit.com/r/ByteRub/comments/73gbqr/byterub_brasil_news_community_hub/  
 **\<needmultisig90>** Good meeting  
 **\<vP11>** i'll be checking it tomorrow or later tonight :) have a nice weekend!  
 **\<cryptochangement>** good meeting all  
@@ -273,7 +273,7 @@ author: dEBRUYNE / fluffypony
 **\<parasew[m]>** hi all, sorry i could join in only now, was travelling before (msvb-lab )  
 **\<needmultisig90>** You're right, fwiw. Im conflicted on the issue and didnt respond due to personal bias  
 **\<parasew[m]>** we have been in contact with the CCC for the 34c3, i will post results as soon as there are news; we are trying a bigger setup together with bitcoin and riat assembly.  
-**\<parasew[m]>** in december we will have a large monero meetup in vienna, also we are happy to invite all of you, we also organised flats for people to stay in (will post on reddit and also maybe discuss in the coming community meeting)  
+**\<parasew[m]>** in december we will have a large byterub meetup in vienna, also we are happy to invite all of you, we also organised flats for people to stay in (will post on reddit and also maybe discuss in the coming community meeting)  
 **\<ErCiccione>** parasew[m]: hey, are you still willing to test pootle for the localization group? we really need to set it up asap  
 **\<parasew[m]>** ErCiccione: i already set up the pootle,  
 **\<parasew[m]>** ErCiccione: did not completely test it yet, thoug.  

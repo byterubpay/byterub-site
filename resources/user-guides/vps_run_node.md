@@ -1,6 +1,6 @@
 ---
 layout: user-guide
-title: "Monero tools"
+title: "ByteRub tools"
 permalink: /resources/user-guides/vps_run_node.html
 mainVersion:
   - "1"

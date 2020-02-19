@@ -3,16 +3,16 @@
     - name: Lançado no Bitcointalk
       date: 2014-04-18
       status: completed
-    - name: Renomeado de Bitmonero para Monero
+    - name: Renomeado de Bitmonero para ByteRub
       date: 2014-04-23
       status: completed
     - name: Recuperado de um ataque de Spam
       date: 2014-09-04
       status: completed
-    - name: Publicação dos trabalhos de pesquisa nº1 e nº2 do Laboratório de Pesquisa Monero
+    - name: Publicação dos trabalhos de pesquisa nº1 e nº2 do Laboratório de Pesquisa ByteRub
       date: 2014-09-12
       status: completed
-    - name: Publicação do trabalho de pesquisa nº3 do Laboratório de Pesquisa Monero
+    - name: Publicação do trabalho de pesquisa nº3 do Laboratório de Pesquisa ByteRub
       date: 2014-09-25
       status: completed
     - name: 0.8.8.6 Lançado
@@ -20,7 +20,7 @@
       status: completed
 - year: 2015
   accomplishments:
-    - name: Publicação do trabalho de pesquisa nº4 do Laboratório de Pesquisa Monero
+    - name: Publicação do trabalho de pesquisa nº4 do Laboratório de Pesquisa ByteRub
       date: 2015-01-26
       status: completed
 - year: 2016
@@ -28,7 +28,7 @@
     - name: 0.9.0 Hydrogen Helix lançado
       date: 2016-01-01
       status: completed
-    - name: Publicação do trabalho de pesquisa nº5 do Laboratório de Pesquisa Monero
+    - name: Publicação do trabalho de pesquisa nº5 do Laboratório de Pesquisa ByteRub
       date: 2016-02-10
       status: completed
     - name: Atualização da rede exigindo o tamanho mínimo de 3 nas assinaturas em anel para todas as transações
@@ -84,7 +84,7 @@
     - name: Subendereços
       date: Outubro, 2017
       status: completed
-    - name: Publicação do trabalho de pesquisa nº6 do Laboratório de Pesquisa Monero
+    - name: Publicação do trabalho de pesquisa nº6 do Laboratório de Pesquisa ByteRub
       date: 2017-10-03
       status: completed
     - name: 0.11.1.0 Helium Hydra lançado
@@ -131,7 +131,7 @@
     - name: Kovri alpha lançado
       date: 2018-08-01
       status: completed
-    - name: Getmonero.org Moneropedia open for Localization
+    - name: Getmonero.org ByteRubpedia open for Localization
       date: 2018-08-03
       status: completed
     - name: Getmonero.org traduzido para árabe
@@ -155,19 +155,19 @@
     - name: 0.13.0.4 Beryllium Bullet lançado
       date: 2018-10-25
       status: completed
-    - name: Publicação dos trabalhos de pesquisa nº8 e nº9 do Laboratório de Pesquisa Monero
+    - name: Publicação dos trabalhos de pesquisa nº8 e nº9 do Laboratório de Pesquisa ByteRub
       date: 2018-11-01
       status: completed
     - name: GUI 0.13.0.4 Beryllium Bullet lançado
       date: 2018-11-19
       status: completed
-    - name: Publicação do trabalho de pesquisa nº7 do Laboratório de Pesquisa Monero
+    - name: Publicação do trabalho de pesquisa nº7 do Laboratório de Pesquisa ByteRub
       date: 2018-11-26
       status: completed
-    - name: Publicação do trabalho de pesquisa nº10 do Laboratório de Pesquisa Monero
+    - name: Publicação do trabalho de pesquisa nº10 do Laboratório de Pesquisa ByteRub
       date: 2018-12-04
       status: completed
-    - name: Implementation of Monero Messaging System (MMS) to automate multisig wallets information exchange
+    - name: Implementation of ByteRub Messaging System (MMS) to automate multisig wallets information exchange
       date: 2018-12-20
       status: completed
 - year: 2019
@@ -222,6 +222,6 @@
     - name: Soluções de segunda camada para velocidade e escalabilidade
       date:
       status: upcoming
-    - name: Novos trabalhos de pesquisa do Laboratório de Pesquisa Monero
+    - name: Novos trabalhos de pesquisa do Laboratório de Pesquisa ByteRub
       date:
       status: upcoming

@@ -22,7 +22,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** Hi folks  
 **\<xmrmatterbridge> \<sgp>** Hi  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** What's covered in here https://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-92168 which was submitted last week.  
+**\<anonimal>** What's covered in here https://forum.getbyterub.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-92168 which was submitted last week.  
 **\<anonimal>** For this week, continuation of what was covered in that link. I also happened to make an appearance in a BTC manager interview the other day. Jaime at BTC manager interviewed Michael and I re: the hardware wall  
 **\<anonimal>** etc.  
 **\<anonimal>** \*wallet  
@@ -35,12 +35,12 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** My stuff can be discussed in the designated time. :)  
 **\<anonimal>** This is a review of the past though, not future immediate/future developments.  
 **\<ErCiccione>** quick update about localization of kovri?  
-**\<anonimal>** re: 2., rehrar was funded and has began https://forum.getmonero.org/9/work-in-progress/88390/assistant-for-kovri-project-management  
+**\<anonimal>** re: 2., rehrar was funded and has began https://forum.getbyterub.org/9/work-in-progress/88390/assistant-for-kovri-project-management  
 **\<anonimal>** re: 2, sgp has contributed to kovri script development and has made plans to meet a professor of his to discuss kovri  
 **\<rehrar>** Ah, ok. I've been working hard on structuring out the new website, testing ideas in Jekyll, and how all of it fits in with the current Docs.  
 **\<anonimal>** Yes ErCiccione, please  
 **\<rehrar>** Yay! Thanks anyone who reads this now or in the future via logs for the chance to work with Kovri like this  
-**\<ErCiccione>** Ok, we started to localize Kovri in #monero-translation, i also added kovri related files in our todo list: https://taiga.getmonero.org/project/erciccione-monero-localization/kanban i'd like to keep this updated so please let us know (directly to me or in #monero-translations) if there is something we should care about  
+**\<ErCiccione>** Ok, we started to localize Kovri in #byterub-translation, i also added kovri related files in our todo list: https://taiga.getbyterub.org/project/erciccione-byterub-localization/kanban i'd like to keep this updated so please let us know (directly to me or in #byterub-translations) if there is something we should care about  
 **\<anonimal>** Ok great  
 **\<ErCiccione>** that's it :)  
 **\<anonimal>** Anything else on review for point 2?  
@@ -93,7 +93,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** let me grab an example  
 **\<rehrar>** https://docs.mattermost.com/overview/product.html  
 **\<rehrar>** as you can see here (and in the docs wire on the imgur album) on the left we'll have the docs titles, and clicking on the one you want will make it appear on the right  
-**\<rehrar>** I will be utilizing the same technology utilized in the https://getmonero.org/community/team/ page (no Javascript, and no need for page reload) for this page  
+**\<rehrar>** I will be utilizing the same technology utilized in the https://getbyterub.org/community/team/ page (no Javascript, and no need for page reload) for this page  
 **\<anonimal>** Looks good to me.  
 **\<rehrar>** This is the part that may get the most contention  
 **\<rehrar>** My plan is the docs that are useable for a user-friendly site (FAQ primarily) will not be included in the Docs section, but rather in the site proper  
@@ -110,7 +110,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I've already done several tests in Jekyll for a lot of this. It's all possible  
 **\<anonimal>** Ok  
 **\<rehrar>** I suggest combining the Terms and Conditions, Privacy Policy, and Copyright into one page 'Legal'  
-**\<rehrar>** similar to this: https://getmonero.org/legal/  
+**\<rehrar>** similar to this: https://getbyterub.org/legal/  
 **\<rehrar>** they are sectioned off so they don't run into each other  
 **\<anonimal>** Yep, sounds fine.  
 **\<rehrar>** If we scroll to the home page in the middle  
@@ -126,7 +126,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** re: video, yes. We simply don't upload the video and instead serve the file directly.  
 **\<rehrar>** similar to how ByteRub is doing it, right? Or am I misunderstanding?  
 **\<anonimal>** Who needs the analytics and for what purpose?  
-**\<anonimal>** IIRC monero-site recently started google analytics. I saw the merged PR you submitted.  
+**\<anonimal>** IIRC byterub-site recently started google analytics. I saw the merged PR you submitted.  
 **\<rehrar>** *shrug* I wasn't going to include any, but was just mentioning the option since it was brought up. I don't think it's needed tbh, but I've been wrong before.  
 **\<rehrar>** oh sorry for confusion. My 'similar to how ByteRub is doing it" statement referred to the videos  
 **\<rehrar>** which are not on any service, they are just on the same server and when the video is clicked it just pulls the file and stuff. Not pulled from YouTube or anywhere  
@@ -137,7 +137,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** so for now we just have that in the home page downloads section, but when the Alpha is released, we can have a downloads page.  
 **\<rehrar>** The top two images in the imgur album have to be clicked so the backgrounds aren't black cuz it's a png and imgur is stupid  
 **\<anonimal>** Ok this all sounds fine.  
-**\<rehrar>** but basically summarizing the docs (basically a Quick Start for Kovri) similar to this page: https://getmonero.org/get-started/using/  
+**\<rehrar>** but basically summarizing the docs (basically a Quick Start for Kovri) similar to this page: https://getbyterub.org/get-started/using/  
 **\<rehrar>** and refers users to the docs if they want more details on options and stuff  
 **\<anonimal>** Looks great.  
 **\<rehrar>** ande Contribtuion helping people get ocnnected to code, donate, or raise awareness  
@@ -178,18 +178,18 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** yeah Rehrar! Viva Kovri!  
 **\<anonimal>** lol lots of vivas  
 **\<anonimal>** 8. Confirm next meeting date/time  
-**\<moneromooo>** As an addi... too late.  
+**\<byterubmooo>** As an addi... too late.  
 **\<anonimal>** Friday, Oct. 6th, 18:00?  
-**\<anonimal>** hah, moneromooo  
-**\<moneromooo>** Sorry :P  
-**\<anonimal>** Anything to add moneromooo?  
-**\<moneromooo>** I was just going to ask about whether you had had any other thought about a "minimal use" example for kovri's API.  
+**\<anonimal>** hah, byterubmooo  
+**\<byterubmooo>** Sorry :P  
+**\<anonimal>** Anything to add byterubmooo?  
+**\<byterubmooo>** I was just going to ask about whether you had had any other thought about a "minimal use" example for kovri's API.  
 **\<anonimal>** Yes, we talked about that and agreed upon that. Sounds great. It's on the table.  
-**\<moneromooo>** Alright.  
+**\<byterubmooo>** Alright.  
 **\<anonimal>** The new testnet is pointing out huge problems that need to be fixed though.  
 **\<anonimal>** We'll get there.  
 **\<anonimal>** Last point: next meeting on Friday, Oct. 6th, 18:00 or Friday Oct. 13th, 18:00?  
-**\<moneromooo>** Sure, I'm not waiting for them in particular now, so no rush of course.  
+**\<byterubmooo>** Sure, I'm not waiting for them in particular now, so no rush of course.  
 **\<anonimal>** Ooo, Friday the 13th, haven't seen that in a while.  
 **\<anonimal>** k  
 **\* anonimal** prefers Oct. 6th, objections?  

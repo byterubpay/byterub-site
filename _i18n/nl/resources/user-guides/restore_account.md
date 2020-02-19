@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Besturingssystemen:  Windows, Linux, Mac
 
-- Neem je hersteltekst (zie @mnemonic-seed) erbij die je hebt opgeslagen bij het maken van je oude Monero-portemonnee (zie @wallet).
+- Neem je hersteltekst (zie @mnemonic-seed) erbij die je hebt opgeslagen bij het maken van je oude ByteRub-portemonnee (zie @wallet).
 
 ### Software:  monero-wallet-cli
 
@@ -18,7 +18,7 @@
 
 - Druk opnieuw op Enter. Je wordt gevraagd de hersteltekst van 25 woorden die je eerder hebt opgezocht in te voeren.
 
-- Vervolgens wordt er gevraagd of je een herstelpunt wilt opgeven: "Restore from specific blockchain height (optional, default 0):" Het herstelproces begint standaard bij het begin van de Monero-blockchain. Als je geen specifieke hoogte van de blockchain weet, druk je gewoon op Enter. (Als je een herstelpunt opgeeft, wordt het herstelproces gestart vanaf die specifieke hoogte. Hiermee bespaar je tijd bij het opzoeken, als je weet op welke hoogte van de blockchain er voor het eerst geld is overgemaakt naar dit specifieke account.)
+- Vervolgens wordt er gevraagd of je een herstelpunt wilt opgeven: "Restore from specific blockchain height (optional, default 0):" Het herstelproces begint standaard bij het begin van de ByteRub-blockchain. Als je geen specifieke hoogte van de blockchain weet, druk je gewoon op Enter. (Als je een herstelpunt opgeeft, wordt het herstelproces gestart vanaf die specifieke hoogte. Hiermee bespaar je tijd bij het opzoeken, als je weet op welke hoogte van de blockchain er voor het eerst geld is overgemaakt naar dit specifieke account.)
 
 Nadat je de hersteltekst van 25 woorden hebt ingevoerd en een specifieke hoogte van de blockchain hebt opgegeven, wordt het openbare adres van je oude portemonnee gegenereerd en begint het vernieuwingsproces automatisch. (Even geduld alsjeblieft, want het vernieuwen kan een tijdje duren.)
 

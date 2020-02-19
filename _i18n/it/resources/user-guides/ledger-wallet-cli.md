@@ -1,6 +1,6 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="false" version=page.version %}
-## How to generate a Ledger Monero wallet with the CLI (monero-wallet-cli)
+## How to generate a Ledger ByteRub wallet with the CLI (monero-wallet-cli)
 
 ### Table of Content
 
@@ -17,9 +17,9 @@ We first have to ensure that we're sufficiently prepared. This entails the follo
 
 2. You need to run / use CLI v0.12.2.0, which can be found <a href="{{site.baseurl}}/downloads/">here</a>.
 
-3. You need to install the Ledger Monero app and configure your system. Instructions can be found [here](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 and 3.2.3 in particular). In addition, make sure to set the network to `Mainnet`
+3. You need to install the Ledger ByteRub app and configure your system. Instructions can be found [here](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 and 3.2.3 in particular). In addition, make sure to set the network to `Mainnet`
 
-4. Your Ledger needs to be plugged in and the Ledger Monero app should be running.
+4. Your Ledger needs to be plugged in and the Ledger ByteRub app should be running.
 
 5. Either your daemon (`monerod.exe`) should be running and preferably be fully synced or you should connect to a remote node.
 
@@ -35,23 +35,23 @@ Now that we're sufficiently prepared, let's start!
 
 `.\monero-wallet-cli.exe --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200` (Win 10)
 
-Note that is simply a placeholder for the actual wallet name. If you, for instance, want to name your wallet `MoneroWallet`, the command would be as follows:
+Note that is simply a placeholder for the actual wallet name. If you, for instance, want to name your wallet `ByteRubWallet`, the command would be as follows:
 
-`monero-wallet-cli.exe --generate-from-device MoneroWallet --subaddress-lookahead 3:200` (Win 7 + 8)
+`monero-wallet-cli.exe --generate-from-device ByteRubWallet --subaddress-lookahead 3:200` (Win 7 + 8)
 
-`.\monero-wallet-cli.exe --generate-from-device MoneroWallet --subaddress-lookahead 3:200` (Win 10)
+`.\monero-wallet-cli.exe --generate-from-device ByteRubWallet --subaddress-lookahead 3:200` (Win 10)
 
 4. The CLI will, after executing aforementioned command, prompt your for a password. Make sure to set a strong password and confirm it thereafter.
 
-5. The Ledger will ask whether you want to export the private view key or not. First and foremost, your funds cannot be compromised with merely the private view key. Exporting the private view key enables the client (on the computer - Monero v0.12.2.0) to scan blocks looking for transactions that belong to your wallet / address. If this option is not utilized, the device (Ledger) will scan blocks, which will be significantly slower. There is, however, one caveat. That is, if your system gets compromised, the adversary will potentially be able to compromise your private view key as well, which is detrimental to privacy. This is virtually impossible when the private view key is not exported.
+5. The Ledger will ask whether you want to export the private view key or not. First and foremost, your funds cannot be compromised with merely the private view key. Exporting the private view key enables the client (on the computer - ByteRub v0.12.2.0) to scan blocks looking for transactions that belong to your wallet / address. If this option is not utilized, the device (Ledger) will scan blocks, which will be significantly slower. There is, however, one caveat. That is, if your system gets compromised, the adversary will potentially be able to compromise your private view key as well, which is detrimental to privacy. This is virtually impossible when the private view key is not exported.
 
 6. You may have to hit confirm twice before it proceeds.
 
-7. Your Ledger Monero wallet will now be generated. Note that this may take up to 5-10 minutes. Furthermore, there will be no immediate feedback in the CLI nor on the Ledger.
+7. Your Ledger ByteRub wallet will now be generated. Note that this may take up to 5-10 minutes. Furthermore, there will be no immediate feedback in the CLI nor on the Ledger.
 
 8. `monero-wallet-cli` will start refreshing. Wait until it has fully refreshed.
 
-Congratulations, you can now use your Ledger Monero wallet in conjunction with the CLI.
+Congratulations, you can now use your Ledger ByteRub wallet in conjunction with the CLI.
 
 ### 2. Mac OS X
 We first have to ensure that we're sufficiently prepared. This entails the following:
@@ -60,11 +60,11 @@ We first have to ensure that we're sufficiently prepared. This entails the follo
 
 2. You need to run / use CLI v0.12.2.0, which can be found <a href="{{site.baseurl}}/downloads/">here</a>.
 
-3. You need to install the Ledger Monero app and configure your system. Instructions can be found [here](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 and 3.2.2 in particular). In addition, make sure to set the network to `Mainnet`
+3. You need to install the Ledger ByteRub app and configure your system. Instructions can be found [here](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 and 3.2.2 in particular). In addition, make sure to set the network to `Mainnet`
 
 4. Note that the instructions for system configuration (section 3.2.2) on Mac OS X are quite elaborate and can be perceived as slightly convoluted. Fortunately, tficharmers has created a guide [here](https://monero.stackexchange.com/questions/8438/how-do-i-make-my-macos-detect-my-ledger-nano-s-when-plugged-in) that you can use for assistance.
 
-5. Your Ledger needs to be plugged in and the Ledger Monero app should be running.
+5. Your Ledger needs to be plugged in and the Ledger ByteRub app should be running.
 
 6. Either your daemon (`monerod`) should be running and preferably be fully synced or you should connect to a remote node.
 
@@ -82,9 +82,9 @@ Now that we're sufficiently prepared, let's start!
 
 `--generate-from-device <new-wallet-name> --subaddress-lookahead 3:200`
 
-Note that is simply a placeholder for the actual wallet name. If you, for instance, want to name your wallet `MoneroWallet`, the command would be as follows:
+Note that is simply a placeholder for the actual wallet name. If you, for instance, want to name your wallet `ByteRubWallet`, the command would be as follows:
 
-`--generate-from-device MoneroWallet --subaddress-lookahead 3:200`
+`--generate-from-device ByteRubWallet --subaddress-lookahead 3:200`
 
 Note that aforementioned text will be appended to the path of `monero-wallet-cli`. Thus, before you hit enter, your terminal should look like:
 
@@ -94,15 +94,15 @@ Where the full path is, intuitively, the actual path on your Mac OS X.
 
 7. The CLI will, after executing aforementioned command, prompt you for a password. Make sure to set a strong password and confirm it thereafter.
 
-8. The Ledger will ask whether you want to export the private view key or not. First and foremost, your funds cannot be compromised with merely the private view key. Exporting the private view key enables the client (on the computer - Monero v0.12.2.0) to scan blocks looking for transactions that belong to your wallet / address. If this option is not utilized, the device (Ledger) will scan blocks, which will be significantly slower. There is, however, one caveat. That is, if your system gets compromised, the adversary will potentially be able to compromise your private view key as well, which is detrimental to privacy. This is virtually impossible when the private view key is not exported.
+8. The Ledger will ask whether you want to export the private view key or not. First and foremost, your funds cannot be compromised with merely the private view key. Exporting the private view key enables the client (on the computer - ByteRub v0.12.2.0) to scan blocks looking for transactions that belong to your wallet / address. If this option is not utilized, the device (Ledger) will scan blocks, which will be significantly slower. There is, however, one caveat. That is, if your system gets compromised, the adversary will potentially be able to compromise your private view key as well, which is detrimental to privacy. This is virtually impossible when the private view key is not exported.
 
 9. You may have to hit confirm twice before it proceeds.
 
-10. Your Ledger Monero wallet will now be generated. Note that this may take up to 5-10 minutes. Furthermore, there will be no immediate feedback in the CLI nor on the Ledger.
+10. Your Ledger ByteRub wallet will now be generated. Note that this may take up to 5-10 minutes. Furthermore, there will be no immediate feedback in the CLI nor on the Ledger.
 
 11. `monero-wallet-cli` will start refreshing. Wait until it has fully refreshed.
 
-12. Congratulations, you can now use your Ledger Monero wallet in conjunction with the CLI.
+12. Congratulations, you can now use your Ledger ByteRub wallet in conjunction with the CLI.
 
 ### 3. Linux
 We first have to ensure that we're sufficiently prepared. This entails the following:
@@ -111,9 +111,9 @@ We first have to ensure that we're sufficiently prepared. This entails the follo
 
 2. You need to run / use CLI v0.12.2.0, which can be found <a href="{{site.baseurl}}/downloads/">here</a>.
 
-3. You need to install the Ledger Monero app and configure your system. Instructions can be found [here](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 and 3.2.1 in particular). In addition, make sure to set the network to `Mainnet`
+3. You need to install the Ledger ByteRub app and configure your system. Instructions can be found [here](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 and 3.2.1 in particular). In addition, make sure to set the network to `Mainnet`
 
-4. Your Ledger needs to be plugged in and the Ledger Monero app should be running.
+4. Your Ledger needs to be plugged in and the Ledger ByteRub app should be running.
 
 5. Either your daemon (`monerod`) should be running and preferably be fully synced or you should connect to a remote node.
 
@@ -127,21 +127,21 @@ Now that we're sufficiently prepared, let's start!
 
 `./monero-wallet-cli --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200`
 
-Note that is simply a placeholder for the actual wallet name. If you, for instance, want to name your wallet `MoneroWallet`, the command would be as follows:
+Note that is simply a placeholder for the actual wallet name. If you, for instance, want to name your wallet `ByteRubWallet`, the command would be as follows:
 
-`./monero-wallet-cli --generate-from-device MoneroWallet --subaddress-lookahead 3:200`
+`./monero-wallet-cli --generate-from-device ByteRubWallet --subaddress-lookahead 3:200`
 
 4. The CLI will, after executing aforementioned command, prompt your for a password. Make sure to set a strong password and confirm it thereafter.
 
-5. The Ledger will ask whether you want to export the private view key or not. First and foremost, your funds cannot be compromised with merely the private view key. Exporting the private view key enables the client (on the computer - Monero v0.12.2.0) to scan blocks looking for transactions that belong to your wallet / address. If this option is not utilized, the device (Ledger) will scan blocks, which will be significantly slower. There is, however, one caveat. That is, if your system gets compromised, the adversary will potentially be able to compromise your private view key as well, which is detrimental to privacy. This is virtually impossible when the private view key is not exported.
+5. The Ledger will ask whether you want to export the private view key or not. First and foremost, your funds cannot be compromised with merely the private view key. Exporting the private view key enables the client (on the computer - ByteRub v0.12.2.0) to scan blocks looking for transactions that belong to your wallet / address. If this option is not utilized, the device (Ledger) will scan blocks, which will be significantly slower. There is, however, one caveat. That is, if your system gets compromised, the adversary will potentially be able to compromise your private view key as well, which is detrimental to privacy. This is virtually impossible when the private view key is not exported.
 
 6. You may have to hit confirm twice before it proceeds.
 
-7. Your Ledger Monero wallet will now be generated. Note that this may take up to 5-10 minutes. Furthermore, there will be no immediate feedback in the CLI nor on the Ledger.
+7. Your Ledger ByteRub wallet will now be generated. Note that this may take up to 5-10 minutes. Furthermore, there will be no immediate feedback in the CLI nor on the Ledger.
 
 8. `monero-wallet-cli` will start refreshing. Wait until it has fully refreshed.
 
-Congratulations, you can now use your Ledger Monero wallet in conjunction with the CLI.
+Congratulations, you can now use your Ledger ByteRub wallet in conjunction with the CLI.
 
 ### 4. A few final notes
 
@@ -152,9 +152,9 @@ Congratulations, you can now use your Ledger Monero wallet in conjunction with t
 3. If desired, you can manually tweak the `--subaddress-lookahead` value. The first value is the number of accounts and the second value is the number of subaddresses per account. Thus, if you, for instance, want to pregenerate 5 accounts with 100 subaddresses each, use `--subaddress-lookahead 5:100`. Bear in mind that, the more subaddresses you pregenerate, the longer it takes for the Ledger to create your wallet.
 
 4. You only have to use the `--generate-from-device` flag once (i.e. upon wallet creation). Thereafter, you'd basically use it similar to how you normally use the CLI. That is:
-   1. Make sure your Ledger is plugged in and the Monero app is running.
+   1. Make sure your Ledger is plugged in and the ByteRub app is running.
    2. Open `monero-wallet-cli`.
-   3. Enter the wallet name of your Ledger Monero wallet.
+   3. Enter the wallet name of your Ledger ByteRub wallet.
    4. Enter the password to open the wallet.
 
    If the Ledger wallet files are not in the same directory as `monero-wallet-cli`, you ought to open `monero-wallet-cli` with the `--wallet-file /path/to/wallet.keys/file` flag. Alternatively, you can copy the Ledger wallet files to the same directory as `monero-wallet-cli`.

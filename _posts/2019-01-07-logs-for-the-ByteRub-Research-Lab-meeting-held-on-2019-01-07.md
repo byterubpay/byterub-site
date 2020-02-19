@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-01-07
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-01-07
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -11,7 +11,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** okay everyone  
 **\<suraeNoether>** time for our Monday research meeting  
 **\<suraeNoether>** before we get going, let's open up the meeting to questions! i like questions  
-**\<moneromooo>** I want to know whether knaccc's propose change to the ecdh mask is good/safe, so I can code it early enough for the fork.  
+**\<byterubmooo>** I want to know whether knaccc's propose change to the ecdh mask is good/safe, so I can code it early enough for the fork.  
 **\<suraeNoether>** is knaccc around? i'm still unclear enough on the details of \*what exactly\* is being proposed. in terms of security, picking a mask from the same set as the value to be hidden is fine to do, but the devil is in the details  
 **\<sarang>** Right, so the idea was to make the ECDH amount mask deterministic from the shared secret  
 **\<suraeNoether>** i thought it was to select the mask from a smaller set so we can describe it with fewer bytes  
@@ -101,12 +101,12 @@ author: el00ruobuob / surae
 **\<knaccc>** cool just checking  
 **\<suraeNoether>** \*thumbs up\*  
 **\<knaccc>** cos it's only the per-output shared secret that is ever used anywhere  
-**\<suraeNoether>** okay, moneromooo sarang  
+**\<suraeNoether>** okay, byterubmooo sarang  
 **\<suraeNoether>** oh wait  
 **\<sarang>** ...  
 **\<suraeNoether>** okay i agree, re-using transaction keys r is the root of all evil.  
 **\<suraeNoether>** but we need some way to order these keys for multiple outputs at least  
-**\<moneromooo>** So since money is the root of all evil... you make money by reusing transaction keys ?  
+**\<byterubmooo>** So since money is the root of all evil... you make money by reusing transaction keys ?  
 **\<knaccc>** suraeNoether the ||i in the per-output shared secret does that, right?  
 **\<suraeNoether>** heh  
 **\<sarang>** yes  
@@ -115,18 +115,18 @@ author: el00ruobuob / surae
 **\<suraeNoether>** i like it  
 **\<suraeNoether>** okay, moving along: do we have any further questions?  
 **\<sarang>** There was the question of a reduced amount ecdh size  
-**\<moneromooo>** I'd like to get that written out with details ^\_^  
+**\<byterubmooo>** I'd like to get that written out with details ^\_^  
 **\<oneiric\_>** just the one about random distributions...  
-**\<moneromooo>** The final "this is good, safe and vetted" version if you will.  
+**\<byterubmooo>** The final "this is good, safe and vetted" version if you will.  
 **\<suraeNoether>** oneiric\_: i need a little bit more detail on your question  
-**\<moneromooo>** I thought the amount size one was already vetted ?  
+**\<byterubmooo>** I thought the amount size one was already vetted ?  
 **\<knaccc>** very non-urgent, but there is the refund scheme. https://paste.fedoraproject.org/paste/lpM4dWKuV7KKCeAPn~P4Fw/raw  
 **\<suraeNoether>** knaccc: yeah i started reading that right before the meeting  
 **\<sarang>** Regarding the 64-bit amounts, I know it was discussed earlier but thought it best to bring up in meeting for a final thumbs-up  
 **\<oneiric\_>** suraeNoether: what more information do you need?  
 **\<suraeNoether>** oneiric\_: " they bin based on common tor packet sizes. would like to know if there are particular mutations should perform on sampled, binned sizes to get a good random distribution" <--- do you mean you have a histogram and you need to pick a random number from that histogram as if it were a probability distribuiton? i'm not sure what you mean yet.  
 **\<oneiric\_>** picking from a histogram sounds pretty close to what i want to do, or close to what obfs4 does  
-**\<suraeNoether>** sarang: let's collaborate on an ascii one-sheet for moneromooo on both amounts and masks for moneromooo  
+**\<suraeNoether>** sarang: let's collaborate on an ascii one-sheet for byterubmooo on both amounts and masks for byterubmooo  
 **\<suraeNoether>** oneiric\_: oh then the answer is: hells yes  
 **\<suraeNoether>** i'm not sure if this is sufficiently on-topic for the room  
 **\<oneiric\_>** ok, will keep looking elsewhere. thanks suraeNoether  
@@ -162,9 +162,9 @@ author: el00ruobuob / surae
 **\<suraeNoether>** i usually only think about it when computing hash-to-piont  
 **\<suraeNoether>** point\*  
 **\<suraeNoether>** that's bad of me  
-**\<moneromooo>** When people tell me aR, I compute aR...  
+**\<byterubmooo>** When people tell me aR, I compute aR...  
 **\<sarang>** Hence writing up details on this as requested  
-**\<knaccc>** moneromooo well in the ecdh case, you were using a shared secret that was based on 8aR  
+**\<knaccc>** byterubmooo well in the ecdh case, you were using a shared secret that was based on 8aR  
 **\<suraeNoether>** so, short answer on whether it's safe to just use 8 bytes of keccak to mask an 8 byte number  
 **\<suraeNoether>** is yeah, it should be fine  
 **\<knaccc>** partaay!  
@@ -173,19 +173,19 @@ author: el00ruobuob / surae
 **\<knaccc>** lol  
 **\<sarang>** ?  
 **\<sarang>** there's nothing to be gained from that  
-**\<moneromooo>** Can I take this as a vote of non confidence in keccak ? :P  
+**\<byterubmooo>** Can I take this as a vote of non confidence in keccak ? :P  
 **\<suraeNoether>** 8 byte amount XOR first 8 bytes of keccak XOR next 8 bytes of keccak XOR ...  
 **\<suraeNoether>** no, it's simply using all the entropy from the output of keccak  
 **\<knaccc>** it's pretty standard practice when you have a csprng to just xor the stream against the plaintext  
 **\<sarang>** yes  
 **\<suraeNoether>** yeah, it is  
 **\<knaccc>** and you don't need more than 64 bits of entropy to encrypt 64 bits  
-**\<sarang>** moneromooo: sure, replace keccak with the identity function for simplicity  
-**\<moneromooo>** There is a pointless keccak you mean ?  
+**\<sarang>** byterubmooo: sure, replace keccak with the identity function for simplicity  
+**\<byterubmooo>** There is a pointless keccak you mean ?  
 **\<knaccc>** i don't know what sarang means either  
 **\<suraeNoether>** i'm just mentioning it's an option. if the first 8 bytes are indistinguishable from uniform, then great, but reducing the output of keccak to the first 8 bytes does a lot to hurt 2nd pre-image resistance.  
-**\<moneromooo>** Hmm. OK. There's a few places where that's done. Like the payment id stuff.  
-**\<moneromooo>** I think some subaddress stuff too.  
+**\<byterubmooo>** Hmm. OK. There's a few places where that's done. Like the payment id stuff.  
+**\<byterubmooo>** I think some subaddress stuff too.  
 **\<knaccc>** right, so the question is whether the first 8 bytes of keccak are indistinguishable from uniform, which I think it is  
 **\<knaccc>** otherwise it'd be a terrible hash  
 **\<sarang>** I was only joking :/  
@@ -200,14 +200,14 @@ author: el00ruobuob / surae
 **\<suraeNoether>** i'm just not convinced it's important here  
 **\<knaccc>** i think keccak is immune  
 **\<suraeNoether>** keccak is pre-image resistant. truncations of keccak are not necessarily. easy example, the \*first bit\* of keccak is \*not\* second pre-image resistant  
-**\<moneromooo>** So something like this ? https://paste.debian.net/hidden/38907823/  
-**\<moneromooo>** (not tested yet)  
+**\<byterubmooo>** So something like this ? https://paste.debian.net/hidden/38907823/  
+**\<byterubmooo>** (not tested yet)  
 **\<knaccc>** if the first bit was not 2ndpreimageresistant, then it would not be a decent hash  
-**\<suraeNoether>** moneromooo: that looks to do what i think it should do, yeah... but that's assuming sarang and others agree with me  
-**\<moneromooo>** Well, it can't hurt, even if it's pointless.  
+**\<suraeNoether>** byterubmooo: that looks to do what i think it should do, yeah... but that's assuming sarang and others agree with me  
+**\<byterubmooo>** Well, it can't hurt, even if it's pointless.  
 **\<suraeNoether>** knaccc: technically it's pre-image resistant \*asymptotically.\* but in the concrete sense of security, i can break 2nd pre-image resistance for the first bit in an astonishingly short period of time  
 **\<knaccc>** it only helps if the randomness in the hash is not evenly distributed  
-**\<suraeNoether>** moneromooo: yeah, the cost is a few milliseconds when signing. \*shrug\*  
+**\<suraeNoether>** byterubmooo: yeah, the cost is a few milliseconds when signing. \*shrug\*  
 **\<knaccc>** suraeNoether maybe you'll have to spell out how you'd do that, but i don't think that's possible if the first bit is uniformly distributed  
 **\<suraeNoether>** knaccc: okay check it out  
 **\<suraeNoether>** pick a random number x  
@@ -234,7 +234,7 @@ author: el00ruobuob / surae
 **\<sarang>** Refund addresses  
 **\<sarang>** Block size and penalty structure  
 **\<sarang>** and so on  
-**\<sarang>** as well as the release of the second episode of Breaking Monero  
+**\<sarang>** as well as the release of the second episode of Breaking ByteRub  
 **\<knaccc>** oh yes i loved one of your metaphors in that vid  
 **\<suraeNoether>** knaccc: right, finding a 2nd pre-image at 64 bits itself takes a long time. it's not cryptographically long periods of time short of 80 bits... but i can't really think of what such a pre-image would gain an attacker, either, so like I said i'm not sure how much it's necessary  
 **\<knaccc>** can't remember what it was now  
@@ -245,8 +245,8 @@ author: el00ruobuob / surae
 **\<sarang>** The current loose consensus seems to be that a two-median approach to block size cap is reasonable but not ideal  
 **\<sarang>** as it will at least slow the bloat  
 **\<sarang>** For payment IDs there is less consensus about the timeline  
-**\<suraeNoether>** my work this past week included: 1) some coding simulations for the matching paper, 2) working on the monero konferenco website, which should be up and running before jan 15, which is when i'm going to put out a formal call for papers (although i've already heard back from a few folks). 3) refund proposal by charuto (I think it was charuto?) and 4) block size stuff. i was going to participate in breaking  
-**\<suraeNoether>** monero this week but I got caught up on the block size stuff, unfortunately... it appears to me like the problem with the blocksize debate boils down to this: we don't necessarily know what we want from our own dynamic blocksize adjustment methods  
+**\<suraeNoether>** my work this past week included: 1) some coding simulations for the matching paper, 2) working on the byterub konferenco website, which should be up and running before jan 15, which is when i'm going to put out a formal call for papers (although i've already heard back from a few folks). 3) refund proposal by charuto (I think it was charuto?) and 4) block size stuff. i was going to participate in breaking  
+**\<suraeNoether>** byterub this week but I got caught up on the block size stuff, unfortunately... it appears to me like the problem with the blocksize debate boils down to this: we don't necessarily know what we want from our own dynamic blocksize adjustment methods  
 **\<suraeNoether>** we know some loose ideas about what we want, like adapting for rapid short-term growth that handles, for example, the holiday season, and we want block sizes to stay small unless it's needed  
 **\<suraeNoether>** but the details of what behavior is considered malicious and which should be adapted for ... these aren't totally clear to me. so i've been thinking about those things, too.  
 **\<suraeNoether>** oh, and 5) fees. i've been thinking about fee strucutre. but that ties in with 4).  
@@ -264,6 +264,6 @@ author: el00ruobuob / surae
 **\<sgp\_>** Should I re-write my post to say all payment IDs are disallowed in the Fall 2019 upgrade?  
 **\<sarang>** sgp\_: you were interested in learning who uses unenc, right?  
 **\<sarang>** To get a better sense of who needs to switch over and for what uses  
-**\<moneromooo>** Shapeshift does.  
+**\<byterubmooo>** Shapeshift does.  
 **\<knaccc>** thanks guys  
 **\<oneiric\_>** thanks all for the meeting  

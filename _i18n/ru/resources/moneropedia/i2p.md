@@ -4,9 +4,9 @@ terms: ["I2P"]
 summary: "Проект Невидимый Интернет: анонимизирующая оверлейная сеть"
 ---
 
-### Monero
+### ByteRub
 
-Реализация @I2P для Monero описана в статье @Kovri. Для сравнения @I2P и [Tor](https://torproject.org/) перейдите на страницу [Сравнение](https://geti2p.net/en/comparison/tor).
+Реализация @I2P для ByteRub описана в статье @Kovri. Для сравнения @I2P и [Tor](https://torproject.org/) перейдите на страницу [Сравнение](https://geti2p.net/en/comparison/tor).
 
 ### Основная информация
 

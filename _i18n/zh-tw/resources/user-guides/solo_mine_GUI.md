@@ -1,6 +1,6 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-It is very easy to solo mine with the official GUI. If you have not done so already, go to the <a href="{{site.baseurl}}/downloads/">Monero downloads page</a> and download the official GUI for your operating system. Then, run the setup and be patient as Monero synchronizes with the network. You should see that it displays "Connected" in the lower left corner.
+It is very easy to solo mine with the official GUI. If you have not done so already, go to the <a href="{{site.baseurl}}/downloads/">ByteRub downloads page</a> and download the official GUI for your operating system. Then, run the setup and be patient as ByteRub synchronizes with the network. You should see that it displays "Connected" in the lower left corner.
 
 <img src="png/solo_mine_GUI/01.PNG" style="width: 600px;"/>
 
@@ -12,6 +12,6 @@ You should now have an option to start mining. You can optionally change the num
 
 <img src="png/solo_mine_GUI/03.PNG" style="width: 600px;"/>
 
-You are now mining with the network, as you can see on the bottom of the image. In this example, the computer is contributing 23 H/s to the Monero network. Mining helps keep the network secure, and you may get lucky and receive a reward for protecting the network.
+You are now mining with the network, as you can see on the bottom of the image. In this example, the computer is contributing 23 H/s to the ByteRub network. Mining helps keep the network secure, and you may get lucky and receive a reward for protecting the network.
 
 To stop mining, simply click the "Stop mining" button.

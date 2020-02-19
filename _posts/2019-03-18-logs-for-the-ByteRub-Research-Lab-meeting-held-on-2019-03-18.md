@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-03-18
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-03-18
 summary: Sarang work, Surae work, Output distribution and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -25,23 +25,23 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** for now, i favor the lineup method, until we have established a better alternative, or better metrics for analysis  
 **\<xmrmatterbridge> \<worriedrise>** I am fine with that  
 **\<sarang>** Neat  
-**\<moneromooo>** For the output lineup method, the parameters (assuming you still use a gamma) are going to be very different.  
+**\<byterubmooo>** For the output lineup method, the parameters (assuming you still use a gamma) are going to be very different.  
 **\<sarang>** They use the same 2-day mean, but with an average output age determined by the chain (or some portion thereof)  
-**\<moneromooo>** And they depend on how many outputs there are in the blocks. That seems to be fundamentally wrong to me, even though it seems to work in practice...  
-**\<moneromooo>** I feels like overfitting/  
+**\<byterubmooo>** And they depend on how many outputs there are in the blocks. That seems to be fundamentally wrong to me, even though it seems to work in practice...  
+**\<byterubmooo>** I feels like overfitting/  
 **\<sarang>** I don't know a better approach that meets our needs  
 **\<sarang>** The point is they use averaging to smooth out density fluctuations  
 **\<suraeNoether>** whatever method we end up selecting, we will have to re-estimate our selection parameters, since the distribution technically won't be gamma, for sure  
 **\<suraeNoether>** the sensitivity to blockchain density is actually a feature not a bug imho  
 **\<sarang>** Under the famine condition, for example, the averaging means that older outputs are favored more than the 2-day mean would currently do  
-**\<moneromooo>** I had expected gamma to stay.  
+**\<byterubmooo>** I had expected gamma to stay.  
 **\<sarang>** The exp-gamma selection would stya  
 **\<sarang>** but the parameters use an average output age  
 **\<suraeNoether>** to sarang's point about famine: real-life spend-time distributions are very much sensitive to blockchain density and vice versa. a famine condition as sarang describes is "what happens if people start spending less and less, or with greater intervals of time between spends?" the answer \*should\* be that older outputs appear in ring signatures more often  
 **\<sarang>** I invite people to play around with the algorithms and chain conditions with my simulation code  
 **\<suraeNoether>** to moo's point: we are still trying to approximate a gamma distribution in terms of the age of one of the next outputs to be confirmed on-chain.  
 **\<xmrmatterbridge> \<worriedrise>** Is anyone looking into the metrics of how many times an output is used in a ring? That should give us soe good insights  
-**\<suraeNoether>** but either way, we should probably run our own analysis on spend-times and see if the parameters reported in the monerolink paper are sitll reasonable  
+**\<suraeNoether>** but either way, we should probably run our own analysis on spend-times and see if the parameters reported in the byterublink paper are sitll reasonable  
 **\<sarang>** IIRC the statistical average tends toward the fixed ringsize  
 **\<sarang>** At any rate, if people want to do more analysis, now is the time so we have a solid scheme ready for next release  
 **\<sarang>** Otherwise: there's working bulletproofs MPC test code now, but the security guarantees depend heavily on the number of rounds and the presence or absence of player precommitments to their values to avoid cancellations  
@@ -70,15 +70,15 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** for example, if we want to model the classic EABE controlled purchase weekly of some illicit stuff, this would correspond to embedding a periodic signal into this blockchain  
 **\<suraeNoether>** for another example, what if a specific vendor is merely impatient and spends more rapidly than other vendors? drawing from an exponential distribution instead of a gamma, or something along those lines  
 **\<suraeNoether>** the goal is for my matching algorithm to try  to find this embedded signal and see how good it is at this task, both in terms of false positives and false negatives  
-**\<suraeNoether>** this can be loosely compared to the methods used in monerolink for testing those approaches, with a major exception: the goal here is to estimate the power of the statistical test over a wide range of hypotheses, while all the "background noise" is behaving \*just as one would expect with our wallet distributions.\*  
+**\<suraeNoether>** this can be loosely compared to the methods used in byterublink for testing those approaches, with a major exception: the goal here is to estimate the power of the statistical test over a wide range of hypotheses, while all the "background noise" is behaving \*just as one would expect with our wallet distributions.\*  
 **\<suraeNoether>** so i want to sit down with sarang later today to discuss output selection simulation methods. after all, if we suspect we'll be implementing one of four different schemes, it makes sense to implement these in the simulations and test their performance... but it's very easy to go overboard with such tests and over-engineering a big experiment  
 **\<suraeNoether>** i want to come up with a very precise set of tests to get to the heart of what we want to test and what information we need in order to make informed decisions and move forward  
-**\<suraeNoether>** on teh plus side, we are ending up with a pretty rigorous simulation suite for simulating monero blockchains.  
+**\<suraeNoether>** on teh plus side, we are ending up with a pretty rigorous simulation suite for simulating byterub blockchains.  
 **\<sarang>** nice  
 **\<xmrmatterbridge> \<worriedrise>** Could we keep track of a counter to keep track of how outputs may be over/under-selected, as I mentioned before?  
 **\<suraeNoether>** my other updates involve dlsag security stuff and reading about generalizations of the keccak sponge construction to the family of parazoa hash functions. but those are less interesting: the first paper is nearing completion, and the second is pie-in-the-sky  
 **\<xmrmatterbridge> \<worriedrise>** I believe this may be a good goal  
-**\<moneromooo>** I think you can do that with one of the tools in src/blockchain\_utilities  
+**\<byterubmooo>** I think you can do that with one of the tools in src/blockchain\_utilities  
 **\<sarang>** worriedrise: how would this data affect your opinion on output selection?  
 **\<xmrmatterbridge> \<worriedrise>** If we can find certain outputs that are consistently being under selected, that is more likely to be the true soender  
 **\<xmrmatterbridge> \<worriedrise>** spender  
@@ -170,13 +170,13 @@ author: el00ruobuob / sarang
 **\<xmrmatterbridge> \<worriedrise>** Another conference  
 **\<h4sh3d[m]>** What kind of speaker are you looking for?  
 **\<suraeNoether>** we are having more speakers added later today, by the way; i believe we may have someone from the human rights foundation and/or an activist working in venezuela to come speak, and we are having the executive director at coincenter, Jerry Brito, come speak, too  
-**\<suraeNoether>** h4sh3d[m]: any technical content related to monero or privacy enhancing technologies in general are welcome  
+**\<suraeNoether>** h4sh3d[m]: any technical content related to byterub or privacy enhancing technologies in general are welcome  
 **\<suraeNoether>** we are having some speakers on the social impacts of these technologies too; scholarly work only, no ICOs, a gathering of intelleckshuals  
 **\<suraeNoether>** basically: if you have an idea for an abstract, you may as well submit it  
 **\<suraeNoether>** worriedrise: i will be at MCC yes  
 **\<sarang>** lucky suraeNoether !  
 **\<suraeNoether>** i have a feeling i'll be put to work organizing. :P  
-**\<xmrmatterbridge> \<worriedrise>** Since we are talking about other technologies, what do you think of the idea of having monero addresses as Bitmessage addresses, as I proposed  
+**\<xmrmatterbridge> \<worriedrise>** Since we are talking about other technologies, what do you think of the idea of having byterub addresses as Bitmessage addresses, as I proposed  
 **\<xmrmatterbridge> \<worriedrise>** https://github.com/byterubpay/research-lab/issues/51  
 **\<xmrmatterbridge> \<worriedrise>** I saw that there is an issue with the order of encryption and authentication  
 **\<sarang>** Seems clever if used correctly!  
@@ -207,18 +207,18 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** this is using a silly but very malicious example  
 **\<suraeNoether>** there are more harmless examples like sarang's mention that you don't know if the ciphertext is actually going to decrypt to the intended plaintext.  
 **\<suraeNoether>** and to be frank, that's the root of the problem  
-**\<moneromooo>** What is an app developer fails to check for signature check fail and starts executing the ciphertext as code ?  
+**\<byterubmooo>** What is an app developer fails to check for signature check fail and starts executing the ciphertext as code ?  
 **\<suraeNoether>** ciphertext is indistinguishable from white noise, so their code would do nothing with high probability :D  
 **\<sarang>** what a ride that would be  
-**\<moneromooo>** The ciphertext is under attacker control.  
+**\<byterubmooo>** The ciphertext is under attacker control.  
 **\<suraeNoether>** https://link.springer.com/chapter/10.1007/3-540-44448-3\_41 worriedrise this paper is pretty seminal in the area  
 **\<xmrmatterbridge> \<worriedrise>** I see. I have to think more about that one. I wonder how that problem is handled in Bitmessage currently  
-**\<suraeNoether>** moneromooo: ah yeah, that's true, but at that point your developer is merely executing random code it's received from an extra party  
-**\<moneromooo>** That was what you assumed too :)  
+**\<suraeNoether>** byterubmooo: ah yeah, that's true, but at that point your developer is merely executing random code it's received from an extra party  
+**\<byterubmooo>** That was what you assumed too :)  
 **\<sarang>** In the interest of time, let's review action items and then continue further discussion  
 **\<sarang>** I will keep talking with suraeNoether about output selection if he has additional thoughts/concerns, will review the MLSAG change in detail, and continue toying around with Lelantus  
 **\<sarang>** and watch my funding request =p  
-**\<suraeNoether>** hm moneromooo no, in my example, the developer decrypts first :D  
+**\<suraeNoether>** hm byterubmooo no, in my example, the developer decrypts first :D  
 **\<sarang>** suraeNoether: your action items for the week?  
 **\<suraeNoether>** 1) funding request, 2) monthly report for last month, 3) simulations, 4) dlsag security, 5) reduced mlsag security  
 **\<suraeNoether>** oh and fun reading on parazoa  

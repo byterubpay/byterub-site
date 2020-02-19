@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-08-20).  
+An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-08-20).  
 
 # Logs  
 
@@ -47,13 +47,13 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<surae>** iDunk is 0bin not good enough? :P  
 **\<iDunk>** It requires java.  
 **\<iDunk>** js actually  
-**\<moneromooo>** I think it needs to be encrypted due to agreement with Tim Ruffing.  
+**\<byterubmooo>** I think it needs to be encrypted due to agreement with Tim Ruffing.  
 **\<surae>** oh i didn't realize that  
 **\<DaveyJones>** surae ... the mooo wants javaless paste  
-**\<surae>** moneromooo no, just habit  
+**\<surae>** byterubmooo no, just habit  
 **\<surae>** ok one sec  
-**\<moneromooo>** Oh, ok. I'm dying to see it then :D  
-**\<moneromooo>** ty  
+**\<byterubmooo>** Oh, ok. I'm dying to see it then :D  
+**\<byterubmooo>** ty  
 **\<surae>** we are in the midst of debugging knaccc's java code  
 **\<dEBRUYNE>** surae: Could you perhaps give an ELI5 (for anyone that reads the logs later) how RuffCT will improve our protocol?  
 **\<surae>** well, roughly, (ruffly)  
@@ -71,21 +71,21 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<surae>** assuming his set-up actually works (the math seems tight) and assuming his security proofs hold up (I am going to try to make independent security proofs and then later compare them), and after six months to a year of testing, etc etc  
 **\<surae>** i mean  
 **\<JollyMort[m]>** UNLIMITED RINGSIZE  
-**\<endogenic>** fluffypony: what does the scouter say about monero's ringsize level?  
-**\<moneromooo>** log(infinity) is infinity...  
+**\<endogenic>** fluffypony: what does the scouter say about byterub's ringsize level?  
+**\<byterubmooo>** log(infinity) is infinity...  
 **\<surae>** in a certain sense, this is like an alien came down and gifted us faster than light travel. yeah, we can go out there and start traveling around, but we have to consider consequences for the timeline. :P haha  
 **\<fluffypony>** endogenic: I give up?  
 **\<endogenic>** it's over 9000  
 **\<fluffypony>** lol  
 **\<DaveyJones>** the puns are ruff today  
 **\<fluffypony>** also to add to what surae's said  
-**\<moneromooo>** Would be need (pretty much) all pubkeys/commitments in RAM all the time, in order to verify such sigs ?  
-**\<moneromooo>** Or can some precomp be done ?  
+**\<byterubmooo>** Would be need (pretty much) all pubkeys/commitments in RAM all the time, in order to verify such sigs ?  
+**\<byterubmooo>** Or can some precomp be done ?  
 **\<fluffypony>** multisig isn't baked in right now, it would need to be re-done from scratch  
 **\<rehrar>** the room fell silent  
 **\<hyc>** I'll precompute it all for ya. trust me.  
 **\<dEBRUYNE>** fluffypony: Are we certain it has to be re-done from scratch or would it possible to just tweak the current implementation?  
-**\<surae>** moneromooo the signature itself only uses the commitments from the column of the signer  
+**\<surae>** byterubmooo the signature itself only uses the commitments from the column of the signer  
 **\<fluffypony>** dEBRUYNE: we're certain  
 **\<dEBRUYNE>** k  
 **\<DaveyJones>** fluffypony - can it be dual run like pre-ct and ring-ct till the fork?  
@@ -118,38 +118,38 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** I wanted to get a feel as to how we should handle the branch wrt PRs  
 **\<fluffypony>** ie. do we want people to push PRs to both branches where relevant  
 **\<fluffypony>** or must I just cherry-pick commits?  
-**\<moneromooo>** Push to both, or the GPG signature drops.  
-**\<fluffypony>** moneromooo: I meant cherry-pick to my fork and then PR it  
+**\<byterubmooo>** Push to both, or the GPG signature drops.  
+**\<fluffypony>** byterubmooo: I meant cherry-pick to my fork and then PR it  
 **\<hyc>** ok. but tat this pre-release time, how are we deciding which PRs are eligible for the release branch?  
-**\<moneromooo>** fluffypony: I don't understand that.  
-**\<moneromooo>** If someone wants a patch to the release branch, they PR it to that branch too.  
+**\<byterubmooo>** fluffypony: I don't understand that.  
+**\<byterubmooo>** If someone wants a patch to the release branch, they PR it to that branch too.  
 **\<vtnerd>** bug fixes should automatically be considered ... everything else is subjective  
 **\<fluffypony>** vtnerd: it's bug fixes only  
-**\<moneromooo>** I guess you can cherry-pick if the commit isn't signed in the first place.  
+**\<byterubmooo>** I guess you can cherry-pick if the commit isn't signed in the first place.  
 **\<fluffypony>** nothing else goes in, we're in code freeze on the branch  
-**\<fluffypony>** moneromooo: if I cherry-pick and I sign it then it's still signed?  
+**\<fluffypony>** byterubmooo: if I cherry-pick and I sign it then it's still signed?  
 **\<vtnerd>** ok good, at least we are in agreement on that  
-**\<moneromooo>** Well, it's signed by you, yes...  
-**\<moneromooo>** But you're kinda not the author ? :)  
-**\<fluffypony>** moneromooo: with cherry-pick it lists both myself and the aithor iirc  
+**\<byterubmooo>** Well, it's signed by you, yes...  
+**\<byterubmooo>** But you're kinda not the author ? :)  
+**\<fluffypony>** byterubmooo: with cherry-pick it lists both myself and the aithor iirc  
 **\<fluffypony>** \*author  
-**\<moneromooo>** I guess nobody really cares anyway.  
-**\<moneromooo>** Yes, but the author's signature drops AFAIK.  
-**\<moneromooo>** So you could modify a large patch, sign it, and nobody would notice.  
-**\<iDunk>** I agree with moneromooo, that's not the way to do it.  
+**\<byterubmooo>** I guess nobody really cares anyway.  
+**\<byterubmooo>** Yes, but the author's signature drops AFAIK.  
+**\<byterubmooo>** So you could modify a large patch, sign it, and nobody would notice.  
+**\<iDunk>** I agree with byterubmooo, that's not the way to do it.  
 **\<hyc>** ok, so PR directly to release branch  
-**\<fluffypony>** moneromooo: https://i.imgur.com/PG0YmsF.png \<- like that  
+**\<fluffypony>** byterubmooo: https://i.imgur.com/PG0YmsF.png \<- like that  
 **\<hyc>** there's 22 open PRs at the moment. only a few seem to be current bugfixes  
-**\<moneromooo>** Most people will just PR to master anyway, so not much trouble.  
-**\<moneromooo>** I'm not sure I get the point.  
+**\<byterubmooo>** Most people will just PR to master anyway, so not much trouble.  
+**\<byterubmooo>** I'm not sure I get the point.  
 **\<fluffypony>** ok this is more about the fallback if the contributor doesn't PR to the branch in a timeous fashion  
-**\<moneromooo>** In that case, if it's really needed for the branch, cherry-pick is OK I suppose.  
+**\<byterubmooo>** In that case, if it's really needed for the branch, cherry-pick is OK I suppose.  
 **\<fluffypony>** ok cool  
 **\<hyc>** but re: the branch, I'd like #2313 and #2314 to go into the release. should help further reduce chance of corruption on powerfail.  
-**\<moneromooo>** Agreed.  
-**\<moneromooo>** I'll just fixup the target thing too.  
+**\<byterubmooo>** Agreed.  
+**\<byterubmooo>** I'll just fixup the target thing too.  
 **\<hyc>** cool  
-**\<moneromooo>** I think just removing the state check will be fine.  
+**\<byterubmooo>** I think just removing the state check will be fine.  
 **\<fluffypony>** yes  
 **\<fluffypony>** if those can be PRd to the branch that would be great  
 **\<hyc>** willdo  
@@ -165,13 +165,13 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<hyc>** I thought merging 0MQ is slated for after the release  
 **\<DaveyJones>** \<Jaquee> not sure if i can make it to the meeting. have two questions. 1. updates on disk space on build machines (when can we have an android apk available for download?) 2. updates on app store and transifex accounts?  
 **\<Jaquee>** reading backlog  
-**\<moneromooo>** After the release is done, yes.  
+**\<byterubmooo>** After the release is done, yes.  
 **\<DaveyJones>** oh your here :D  
 **\<fluffypony>** we've already branched, tho, so surely we can merge to master?  
-**\<moneromooo>** his here.  
+**\<byterubmooo>** his here.  
 **\<fluffypony>** msvb-lab: the dev working group don't really control external manufacturers  
-**\<dEBRUYNE>** fluffypony: moneromooo wants to put in an additional review afaik  
-**\<moneromooo>** I've not looked at the latest changes yet.  
+**\<dEBRUYNE>** fluffypony: byterubmooo wants to put in an additional review afaik  
+**\<byterubmooo>** I've not looked at the latest changes yet.  
 **\<dEBRUYNE>** And tewinget is waiting for further feedback  
 **\<fluffypony>** ok  
 **\<Jaquee>** but maybe lightwallets PR can be merged? (in masteR)  
@@ -181,7 +181,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<Jaquee>** pigeons1[m]: Great!  
 **\<rehrar>** just waiting on the new server infrastructure :)  
 **\<medusa>** we should play it safe  
-**\<moneromooo>** If the lightwallet stuff is the same I reviewed already, it was OK to merge IIRC.  
+**\<byterubmooo>** If the lightwallet stuff is the same I reviewed already, it was OK to merge IIRC.  
 **\<Jaquee>** it's the same  
 **\<fluffypony>** kk  
 **\<dEBRUYNE>** \^ Not sure we should put that up on SE already  
@@ -220,9 +220,9 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<sn0wmonster>** beep bop boop  
 **\<othe>** Ffs sake, there are 2 hw wallet proposals. Feedback appreciated.  
 **\<msvb-lab>** othe: If anyone has advice on what to change in those FFS, the URLs are:  
-**\<msvb-lab>** https://forum.getmonero.org/7/open-tasks/88149/dedicated-monero-hardware-wallet/  
+**\<msvb-lab>** https://forum.getbyterub.org/7/open-tasks/88149/dedicated-byterub-hardware-wallet/  
 **\<hyc>** and was announced here a few hours earlier  
-**\<msvb-lab>** https://forum.getmonero.org/7/open-tasks/88160/monero-firmware-for-ledger-wallet/  
+**\<msvb-lab>** https://forum.getbyterub.org/7/open-tasks/88160/byterub-firmware-for-ledger-wallet/  
 **\<endogenic>** sn0wmonster: https://github.com/byterubpay/meta/issues  
 **\<fluffypony>** sn0wmonster: https://www.reddit.com/r/ByteRub/comments/6uvu94/dev_kovri_meetings_later_today_1700_1800_utc/  
 **\<DaveyJones>** shhh listen to othe and msvb-lab  
@@ -235,16 +235,16 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<endogenic>** msvb-lab: doesn't quite seem like a dev item tho  
 **\<hyc>** yeah, I think we can put that meeting announcement topic to rest.  
 **\<DaveyJones>** msvb-lab they cannot speak if they don`t listen :D  
-**\<moneromooo>** In other code news: I'm still debugging sync niggles with iDunk's help (who's been doing a LOT of testing, so many thanks). It'll be ready soon (both branch and master).  
+**\<byterubmooo>** In other code news: I'm still debugging sync niggles with iDunk's help (who's been doing a LOT of testing, so many thanks). It'll be ready soon (both branch and master).  
 **\<rehrar>** msvb-lab: we can talk about it in Community meeting next week?  
 **\<msvb-lab>** endogenic: Okay, let's postpone. Good idea rehrar.  
 **\<JollyMort[m]>** about the gui cold signing  
 **\<iDunk>** Yw :)  
 **\<JollyMort[m]>** it's still missing features  
-**\<moneromooo>** If someone feels like syncing, please try the sync-standby3 branch :)  
+**\<byterubmooo>** If someone feels like syncing, please try the sync-standby3 branch :)  
 **\<endogenic>** msvb-lab: no need to post-pone. maybe bring it up in #ByteRub ?  
 **\<dEBRUYNE>** rehrar, endogenic: If there's room left, why not give msvb-lab the floor for a few minutes?  
-**\<moneromooo>** It may not be code per se, but it's tech. I think it's fine here. Still 10 minutes.  
+**\<byterubmooo>** It may not be code per se, but it's tech. I think it's fine here. Still 10 minutes.  
 **\<othe>** I'll just sponsor it, its hilarious that there's no secure way to store xmr.  
 **\<endogenic>** kk  
 **\<fluffypony>** msvb-lab: a dedicated wallet would be cool  
@@ -258,7 +258,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<surae>** if possible  
 **\<surae>** cat's out of the bag, but i mean  
 **\<msvb-lab>** hyc: One deals with dedicated hardware design, the other with porting to existing hardware.  
-**\<fluffypony>** msvb-lab: https://www.reddit.com/r/ByteRub/comments/6thv8j/ledger_hardware_wallet_monero_integration/ \<- this is from 6 days ago  
+**\<fluffypony>** msvb-lab: https://www.reddit.com/r/ByteRub/comments/6thv8j/ledger_hardware_wallet_byterub_integration/ \<- this is from 6 days ago  
 **\<endogenic>** 2quick4u fyi  
 **\<msvb-lab>** fluffypony: That's probably Cedric's document Blue-something, quite good.  
 **\<dEBRUYNE>** \<msvb-lab> hyc: One deals with dedicated hardware design, the other with porting to existing hardware. \<= Even though the former would be pretty cool, the latter is probably more beneficial  
@@ -283,7 +283,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** and then I met up with them 33c3, and they said that it's not worth us moving forward on it till Trezor 2.0  
 **\<hyc>** if all the wallets use the same handshakes that saves everyone effort  
 **\<fluffypony>** which was Coming Soon™  
-**\<moneromooo>** Tim Ruffing requested keeping is internal as a courtesy. I don't think anhything like that applies to Ringct 2.0.  
+**\<byterubmooo>** Tim Ruffing requested keeping is internal as a courtesy. I don't think anhything like that applies to Ringct 2.0.  
 **\<dEBRUYNE>** The 2.0 paper was posted on reddit too :P  
 **\<hyc>** that's as close as we'll get to a "common firmware" - other hw wallets will be based on different chips anyway  
 **\<msvb-lab>** Not sure how stable (management or technically) Trezor is, hoping Cedric follows through on the Ledger work is a possibility. We then do little or nothing and wait for results.  
@@ -314,28 +314,28 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<dEBRUYNE>** All right, I'll leave a comment later msvb-lab :)  
 **\<JollyMort[m]>** and some use cases require import/export stuffs  
 **\<dEBRUYNE>** I personally wanted to raise the idea to release more often (e.g. a new release every quarter) to (i) tighten and improve the feedback loop and (ii) decrease time spend on helping out people that incur issues that are already long fixed in master  
-**\<Jaquee>** JollyMort[m]: not that much effort. problem is that code is frozen in monero. so wont make into this coming release  
+**\<Jaquee>** JollyMort[m]: not that much effort. problem is that code is frozen in byterub. so wont make into this coming release  
 **\<dEBRUYNE>** I spoke with fluffypony about this in private and he was concerned it would put too much pressure on contributors  
 **\<JollyMort[m]>** :(  
 **\<dEBRUYNE>** So I'd like to hear their opinion about it  
 **\<Jaquee>** i added some improvements yesterday  
-**\<dEBRUYNE>** I guess I should mainly page Jaquee, moneromooo, hyc, iDunk  
+**\<dEBRUYNE>** I guess I should mainly page Jaquee, byterubmooo, hyc, iDunk  
 **\<JollyMort[m]>** i saw, haven't tested it yet  
 **\<dEBRUYNE>** \^ apologies if I forgot someone :P  
 **\<hyc>** "release early, release often"  
 **\<JollyMort[m]>** i'll check it out  
-**\<moneromooo>** I think it'd put too much pressure on the pony.  
+**\<byterubmooo>** I think it'd put too much pressure on the pony.  
 **\<dEBRUYNE>** hyc: Right, that was kind of my basis for the idea  
 **\<Jaquee>** i'd love to release more often  
 **\<hyc>** I think having another interim release would be nice  
-**\<moneromooo>** He barely has the time to do anything AIUI.  
-**\<dEBRUYNE>** moneromooo: Could this be mitigated if we had an additional maintainer?  
+**\<byterubmooo>** He barely has the time to do anything AIUI.  
+**\<dEBRUYNE>** byterubmooo: Could this be mitigated if we had an additional maintainer?  
 **\<endogenic>** i think it's funny when people say "fail fast"  
 **\<fluffypony>** we need to bear in mind that this is security software  
 **\<dEBRUYNE>** I think luigi wanted to do an FFS soon for it  
-**\<moneromooo>** Who would you trust which can do it ?  
-**\<moneromooo>** hyc!  
-**\* moneromooo** flees  
+**\<byterubmooo>** Who would you trust which can do it ?  
+**\<byterubmooo>** hyc!  
+**\* byterubmooo** flees  
 **\<hyc>** :P  
 **\<dEBRUYNE>** Well luigi could merge stuff and FP release?  
 **\<fluffypony>** I don't think we should be pushing to release unstable software :-P  
@@ -382,7 +382,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<medusa>** otherwise we risk, dpeending on buigs we have after release, to end up in a hairy position  
 **\<hyc>** so it sounds like release-as-needed is working  
 **\<fluffypony>** yeah, I'm not really seeing a lack of releases there  
-**\<moneromooo>** especially on march the 26th.  
+**\<byterubmooo>** especially on march the 26th.  
 **\<hyc>** heh  
 **\<JollyMort[m]>** release density == nan  
 **\<ferretinjapan>** The last 5 months have been rather quiet, but I don't think it's all bad.  
@@ -426,7 +426,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<bigreddmachine>** With branching now, couldn't we just have monthly  release candidates or something?  
 **\<fluffypony>** dEBRUYNE: yes - follow-up releases are based off the branch  
 **\<rehrar>** I know we're already over, but can we get a brief update regarding Sarang's FFS?  
-**\<moneromooo>** How about we don't spam the pony yet ? Let's wait, and maybe do a release from the branch if there are bugs we want fixed.  
+**\<byterubmooo>** How about we don't spam the pony yet ? Let's wait, and maybe do a release from the branch if there are bugs we want fixed.  
 **\<fluffypony>** @bigreddmachine no need to timeframe it, we'll release when there are bug fixes part of the branch that make it worth releasing  
 **\<fluffypony>** ie. major bug fixes  
 **\<hyc>** agreed  
@@ -436,7 +436,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<bigreddmachine>** But not an actual release.  
 **\<bigreddmachine>** Maybe that's a "2 years down the road" thing  
 **\<fluffypony>** @bigreddmachine you mean off the main branch or the release branch?  
-**\<moneromooo>** We tried that before, it was a massive pita.  
+**\<byterubmooo>** We tried that before, it was a massive pita.  
 **\<hyc>** can the build system do nightlies of the release branch too?  
 **\<fluffypony>** hyc: pretty sure, yeah  
 **\<bigreddmachine>** I meant as its own branch... Commits get tested, when somewhat sure moved to release candidates, which is still unstable, and then when that's tested moves to the actual release. Probably a pita like mooo said  
@@ -476,12 +476,12 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** We eventually should drop support for Merchants on the site tbh imo  
 **\<fluffypony>** dEBRUYNE: yes  
 **\<fluffypony>** rehrar: why?  
-**\<moneromooo>** It's a good, if small, incentive for people to support monero.  
-**\<moneromooo>** And for connecting monero spenders with monero earners.  
+**\<byterubmooo>** It's a good, if small, incentive for people to support byterub.  
+**\<byterubmooo>** And for connecting byterub spenders with byterub earners.  
 **\<rehrar>** As ByteRub grows it will become gigantic eventually, but maybe that's not a huge issue.  
 **\<rehrar>** Just my thoughts.  
 **\<hyc>** success problems are nice to have. we're not there yet  
-**\<moneromooo>** Oh, sure. Once ByteRub's world reserve currency, it can go :)  
+**\<byterubmooo>** Oh, sure. Once ByteRub's world reserve currency, it can go :)  
 **\<DaveyJones>** \^ but only then  
 **\<dEBRUYNE>** fluffypony: All right, seems cool. That'd also relieve you from some "low hanging fruit" work  
 **\<dEBRUYNE>** Which still can be quite time consuming  
@@ -491,10 +491,10 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<sn0wmonster>** which judging by bitcoin's history, is not a matter of if, but when  
 **\<DaveyJones>** "this is just a list of merchants, and no appraisement by the core team"  
 **\<rehrar>** I'm actually going to be going g through all the Merchants this week to find the dead websites.  
-**\<moneromooo>** Warning: the monero team does not control Amazon, odd as it might seem to you.  
+**\<byterubmooo>** Warning: the byterub team does not control Amazon, odd as it might seem to you.  
 **\<pigeons>** cryptokingdoms  
 **\<pigeons>** for example  
-**\<moneromooo>** CK's kinda back from the moribund actually.  
+**\<byterubmooo>** CK's kinda back from the moribund actually.  
 **\<pigeons>** ok  
 **\<rehrar>** Meeting = end?  
 **\<DaveyJones>** sure  

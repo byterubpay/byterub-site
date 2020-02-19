@@ -164,12 +164,12 @@ Wynik:
 
 * *block_header* - struktura zawierająca informacje o nagłówku bloku.
   * *depth* -  niepodpisana liczba całkowita; liczba bloków następujących po danym bloku w łańcuchu, większa liczba oznacza starszy blok.
-  * *difficulty* - niepodpisana liczba całkowita; siła sieci Monero na podstawie mocy wydobycia.
+  * *difficulty* - niepodpisana liczba całkowita; siła sieci ByteRub na podstawie mocy wydobycia.
   * *hash* - ciąg; hasz danego bloku.
   * *height* - niepodpisana liczba całkowita; liczba bloków poprzedzających dany blok w łańcuchu.
-  * *major_version* - niepodpisana liczba całkowita; główna wersja protokołu Monero na danej wysokości bloku.
-  * *minor_version* - niepodpisana liczba całkowita; podrzędna wersja protokołu Monero na danej wysokości bloku.
-  * *nonce* - niepodpisana liczba całkowita; losowy i jednorazowy numer kryptograficzny użyty do wydobycia bloku Monero.
+  * *major_version* - niepodpisana liczba całkowita; główna wersja protokołu ByteRub na danej wysokości bloku.
+  * *minor_version* - niepodpisana liczba całkowita; podrzędna wersja protokołu ByteRub na danej wysokości bloku.
+  * *nonce* - niepodpisana liczba całkowita; losowy i jednorazowy numer kryptograficzny użyty do wydobycia bloku ByteRub.
   * *orphan_status* - logiczny typ danych; zazwyczaj `false`. Jeśli `true`, dany blok nie jest częścią najdłuższego łańcucha.
   * *prev_hash* - ciąg; hasz bloku bezpośrednio poprzedzającego dany blok w łańcuchu.
   * *reward* - niepodpisana liczba całkowita; liczba nowych jednostek atomowych wytworzonych w danym bloku i przyznanych górnikowi. 	Zauważ: 1 XMR = 1e12 jednostek atomowych.

@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.ntcp
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.ntcp
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/ntcp.md %}
+{% tf resources/byterubpedia/ntcp.md %}

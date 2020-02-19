@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-05-20
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-05-20
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / suraeNoether
@@ -32,7 +32,7 @@ author: el00ruobuob / suraeNoether
 **\<sarang>** And a bit more (but not much more) work on the MoJoin scheme  
 **\<sarang>** That is all!  
 **\<sarang>** Any questions on those prior to suraeNoether's update?  
-**\<moneromooo>** I suppose the "not much more" means there's no solution yet for a values ?  
+**\<byterubmooo>** I suppose the "not much more" means there's no solution yet for a values ?  
 **\<sarang>** Not without some trust in the dealer (or a designated player)  
 **\<sarang>** And now, on to suraeNoether   
 **\<suraeNoether>** well, I spent this week writing a new definition of unforgeability for linkable ring signature schemes for the clsag paper, and reading updates on the dlsag paper  
@@ -53,11 +53,11 @@ author: el00ruobuob / suraeNoether
 **\<suraeNoether>** i want it to be true  
 **\<sarang>** Heh  
 **\<sarang>** But essentially classifying the signing and aux keys by their linkability status is interesting  
-**\<suraeNoether>** oh, also, i have printed the new ringct3.0 paper that was put on IACR this morning, and i imagine that will be a big topic of conversation at this informal monero workshop sarang and I are meeting up at  
+**\<suraeNoether>** oh, also, i have printed the new ringct3.0 paper that was put on IACR this morning, and i imagine that will be a big topic of conversation at this informal byterub workshop sarang and I are meeting up at  
 **\<sarang>** Yes, it uses a Bulletproofs-style proving system  
 **\<sarang>** and, if correct, is an honest-to-goodness trustless ring signature transaction system  
 **\<sarang>** Link: https://eprint.iacr.org/2019/508  
-**\<suraeNoether>** at this point, we have a handful of sublinear ring signature proposals and proving systems on the table for upgrading to Monero 2.0  
+**\<suraeNoether>** at this point, we have a handful of sublinear ring signature proposals and proving systems on the table for upgrading to ByteRub 2.0  
 **\<suraeNoether>** i don't think "electric bugaloo" translates to esperanto well  
 **\<suraeNoether>** but that's sort of what I would like to come out of MRL over the next 6-9 months  
 **\<sarang>** What do we all think about the CLSAG timeline, realistically speaking?  
@@ -67,7 +67,7 @@ author: el00ruobuob / suraeNoether
 **\<suraeNoether>** well, everything is proven except a single theorem in an appendix, so i'd be comfortable releasing a draft of it today with "DRAFT" plastered all over it, presuming you and randomrun are cool with that  
 **\<suraeNoether>** i think it's possible that after you read the appendix, youare of the opinon that the proof is unnecessary, but i'd rather err on the side of having it and removing it rather than excluding it  
 **\<sarang>** That's a great timeline  
-**\<suraeNoether>** either way, i can't imagine the draft will not be finished before the end of the monero workshop this week, and if we are going to get it audited, we should move on that sooner rather than later  
+**\<suraeNoether>** either way, i can't imagine the draft will not be finished before the end of the byterub workshop this week, and if we are going to get it audited, we should move on that sooner rather than later  
 **\<sarang>** It would be nice to get it in for Carbon Crab, but better to wait if it would mean rushing  
 **\<sarang>** Such an audit would likely be fairly cheap, since the base code changes are quite minimal and straightforward  
 **\<suraeNoether>** actually  
@@ -97,22 +97,22 @@ author: el00ruobuob / suraeNoether
 **\<sarang>** I shall have to leave momentarily to head to an aeroport  
 **\<suraeNoether>** any questions for me or sarang?  
 **\<sarang>** But my action items are to get CLSAG finished up, and continue working on that output flooding data... as well as the workshop this week  
-**\<moneromooo>** If that new rct3.0 system uses BPs, presumably it lends itself well to multiexps, and then gets to be faster too (pro rata) ?  
-**\<moneromooo>** ie, still linear, but nice constants ?  
+**\<byterubmooo>** If that new rct3.0 system uses BPs, presumably it lends itself well to multiexps, and then gets to be faster too (pro rata) ?  
+**\<byterubmooo>** ie, still linear, but nice constants ?  
 **\<sarang>** Possibly  
 **\<sarang>** There may be issues with generators  
-**\<suraeNoether>** moneromooo: i'm very excited to compare rct3.0 with a super secret paper sarang and i have been reading for a week or so  
+**\<suraeNoether>** byterubmooo: i'm very excited to compare rct3.0 with a super secret paper sarang and i have been reading for a week or so  
 **\<sarang>** At least for batching  
 **\<suraeNoether>** personally i like having more than one sample of similar techniques because it makes it seem like generalizing is easier  
 **\<suraeNoether>** anyway  
-**\<moneromooo>** Ah, the secret rct.3.14159 paper...  
+**\<byterubmooo>** Ah, the secret rct.3.14159 paper...  
 **\<suraeNoether>** fractional ring sizes are the future  
 **\<suraeNoether>** differentiable signatures are also the future  
 **\<suraeNoether>** the future of today's tomorrow... yesterday.^tm  
-**\<moneromooo>** One could say... differentiable signatures are integral to the future ?  
+**\<byterubmooo>** One could say... differentiable signatures are integral to the future ?  
 **\<suraeNoether>** damn  
-**\<suraeNoether>** moneromooo is the best of us  
-**\<moneromooo>** In stupid puns at least.  
+**\<suraeNoether>** byterubmooo is the best of us  
+**\<byterubmooo>** In stupid puns at least.  
 **\<suraeNoether>** okay, since sarang has to take off for el aeropuerto and i, also, need to pack  
 **\<suraeNoether>** i say we bring today's meeting to a close  
 **\<suraeNoether>** i'll see some of you in person tonight and tomorrow. :P  

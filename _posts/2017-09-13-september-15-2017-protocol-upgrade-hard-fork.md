@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 **First and foremost, the new binaries can be found here:**  
 
-https://getmonero.org/downloads/  
+https://getbyterub.org/downloads/  
 
 --------------  
 
@@ -28,7 +28,7 @@ Bear in mind that running CLI v0.11.0.0 or GUI v0.11.0.0 is mandatory. Any other
 
 The scheduled protocol upgrade was introduced to enforce RingCT transactions and to bump the minimum ring size to 5 (mixin 4). Note that, after this scheduled protocol upgrade, you are still able to transform non RingCT outputs to RingCT outputs in a "one-time" transaction. Thus, you **don't** need to sweep a paper wallet if it contains non RingCT outputs.   
 
-Due to variance, the scheduled protocol upgrade will take place on or around the 15th of September. There is, however, no specific date as the hard fork will be triggered by a specific blockheight. The specific blockheight for the hardfork can be found [here](https://github.com/byterubpay/monero/blob/master/src/cryptonote_core/blockchain.cpp#L105). That is:  
+Due to variance, the scheduled protocol upgrade will take place on or around the 15th of September. There is, however, no specific date as the hard fork will be triggered by a specific blockheight. The specific blockheight for the hardfork can be found [here](https://github.com/byterubpay/byterub/blob/master/src/cryptonote_core/blockchain.cpp#L105). That is:  
 
 > // version 6 starts from block 1400000, which is on or around the 16th of September, 2017. Fork time finalised on 2017-08-18.  
 
@@ -40,23 +40,23 @@ Due to variance, the scheduled protocol upgrade will take place on or around the
 
 If you are using the CLI you ought to perform the following steps:  
 
-1. Download the new binaries from [here](https://getmonero.org/downloads/).  
+1. Download the new binaries from [here](https://getbyterub.org/downloads/).  
 
 2. Extract the new binaries to a new directory of your liking.  
 
 3. Copy over the wallet files from the old directory (the one that contains the v0.10.3.1 binaries).  
 
-Note that a blockchain resync is **not** needed. If you open `monerod-v.0.11.0.0` it simply picks up where it left off.  
+Note that a blockchain resync is **not** needed. If you open `byterubd-v.0.11.0.0` it simply picks up where it left off.  
 
 **GUI:**  
 
 If you are using the GUI you ought to perform the following steps:  
 
-1. Download the new binaries from [here](https://getmonero.org/downloads/).  
+1. Download the new binaries from [here](https://getbyterub.org/downloads/).  
 
 2. Extract the new binaries to a new directory of your liking.  
 
-3. Open `monero-wallet-gui`^1. It should automatically load your "old" wallet and you should be set for the upcoming scheduled protocol upgrade.  
+3. Open `byterub-wallet-gui`^1. It should automatically load your "old" wallet and you should be set for the upcoming scheduled protocol upgrade.  
 
 (1) On Linux you ought to start the GUI with the `start-gui.sh` script, i.e., `./start-gui.sh`.  
 

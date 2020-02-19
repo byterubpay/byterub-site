@@ -29,7 +29,7 @@ author: selsta / anonimal
 **\<anonimal>** Lead the way, rehrar  
 **\<xmrmatterbridge> \<rehrar>** Yay. Ok, so we will need to assume (unless told otherwise, which might not happen, even up until the day of) that we will have two tables.  
 **\<xmrmatterbridge> \<rehrar>** Those tables can be split into time slots (like morning and afternoon), and they can also be split in half.  
-**\<xmrmatterbridge> \<rehrar>** Meaning half the table for one Monero project, and have the table for another.  
+**\<xmrmatterbridge> \<rehrar>** Meaning half the table for one ByteRub project, and have the table for another.  
 **\<xmrmatterbridge> \<rehrar>** One thing to note, Kovri does not have to have a table.  
 **\<xmrmatterbridge> \<rehrar>** But if we want one, we should put our intention of having one (and for what preferred times) we want them.  
 **\<anonimal>** "have to have a table" as in it's own table or shared table?  
@@ -37,7 +37,7 @@ author: selsta / anonimal
 **\<xmrmatterbridge> \<rehrar>** Meaning if we don't want to designate the manpower to having someone man the table, we are obviously not obligated to have a Kovri presence on the tables period.  
 **\<xmrmatterbridge> \<rehrar>** Maybe a presentation is enough.  
 **\<anonimal>** Hmm  
-**\<msvb-lab>** anonimal: At this Saturday's DefCon meeting (on #monero-community) we'll likely decide if tables will be shared time or space wise.  
+**\<msvb-lab>** anonimal: At this Saturday's DefCon meeting (on #byterub-community) we'll likely decide if tables will be shared time or space wise.  
 **\<anonimal>** msvb-lab: ok  
 **\<xmrmatterbridge> \<rehrar>** Realistically, the Kovri reps will be anonimal and myself.  
 **\<anonimal>** Have BCOS been responsive regarding table decisions or is that entirely on us?  
@@ -54,7 +54,7 @@ author: selsta / anonimal
 **\<anonimal>** No matter what, we'll have some sort of table usage?  
 **\<xmrmatterbridge> \<rehrar>** I can switch off with you anonimal on the table.  
 **\<xmrmatterbridge> \<rehrar>** Yes.  
-**\<xmrmatterbridge> \<rehrar>** As one of the lead managers for Defcon for Monero, I have a strong Kovri bias. ;)  
+**\<xmrmatterbridge> \<rehrar>** As one of the lead managers for Defcon for ByteRub, I have a strong Kovri bias. ;)  
 **\<msvb-lab>** anonimal: Define best and worst, like for you the table staff seeing hundreds is boring and stressful for you but good for the project.  
 **\<anonimal>** For only 2 hours on 2 different days? Or is there the potential for more time than that? Sorry if I'm not following.  
 **\<xmrmatterbridge> \<rehrar>** There is potential for more. That's a requested minimum.  
@@ -63,7 +63,7 @@ author: selsta / anonimal
 **\<msvb-lab>** Minimum 2 hours on two days, but if you like (and we can afford the space) then you should do full time on all three days.  
 **\<msvb-lab>** anonimal: We've got invitations out to several groups and only one rejection. So there may be a few others with table duty.  
 **\<xmrmatterbridge> \<rehrar>** I would argue that Kovri is important enough that if they want a permanent residence at a table (half or otherwise) they should get it.  
-**\<xmrmatterbridge> \<rehrar>** If Monero has four half tables to work with, one should be devoted to Kovri.  
+**\<xmrmatterbridge> \<rehrar>** If ByteRub has four half tables to work with, one should be devoted to Kovri.  
 **\<msvb-lab>** rehrar: Yes, it's very tempting to decide like that. I like the idea, but still think we should try to cancel some variables and at least give others the chance to codecide?  
 **\<xmrmatterbridge> \<rehrar>** Followed by the questions:  
 **\<anonimal>** If I'm fulltime table duty for those 3 days, then that gives me no time to see talks right?  
@@ -71,7 +71,7 @@ author: selsta / anonimal
 **\<msvb-lab>** Variables like if we get three of the four tables, for example.  
 **\<xmrmatterbridge> \<rehrar>** 2. What materials do we need to do it?  
 **\<msvb-lab>** anonimal: That's what you need to decide, fulltime at a table is a horrible life to live.  
-**\<xmrmatterbridge> \<rehrar>** Are you interested in Monero talks or Defcon talks?  
+**\<xmrmatterbridge> \<rehrar>** Are you interested in ByteRub talks or Defcon talks?  
 **\<msvb-lab>** I dont' recommend it.  
 **\<msvb-lab>** Isn't there at least one other person on site that can do Kovri?  
 **\<anonimal>** I'm assuming the community will fund me to do fulltime at the table? I would hope to be funded because, as I've mentioned in passing, defcon is pretty much my only vacation time in a year.  
@@ -99,7 +99,7 @@ author: selsta / anonimal
 **\<anonimal>** What are the hours again? 10am to 5pm?  
 **\<msvb-lab>** 10 to 19  
 **\<msvb-lab>** 10 to 7pm.  
-**\<\_Slack> \<sean>** For reference: https://taiga.getmonero.org/media/attachments/c/d/b/7/c463870aa1ad7515b244f0f88d1de6a743ec11c9f96e4728b55bbc8572ba/defcon-floorplan-1.png  
+**\<\_Slack> \<sean>** For reference: https://taiga.getbyterub.org/media/attachments/c/d/b/7/c463870aa1ad7515b244f0f88d1de6a743ec11c9f96e4728b55bbc8572ba/defcon-floorplan-1.png  
 **\<msvb-lab>** That the two main days Friday and Saturday.  
 **\<anonimal>** Damn, I'm not a morning person.  
 **\<msvb-lab>** Sunday is shorter, from 10 to 13.  
@@ -134,7 +134,7 @@ author: selsta / anonimal
 **\<msvb-lab>** anonimal: How do you want them to contact you, should I give them your email address or something?  
 **\<anonimal>** msvb-lab: good question. Do you mean BSOC?  
 **\<msvb-lab>** ...in order to discuss if their source of t shirts is cheaper and if you want to use that source.  
-**\<anonimal>** anonimal@getmonero.org or twitter of which I need to change my handle a.s.a.p to something human memorable  
+**\<anonimal>** anonimal@getbyterub.org or twitter of which I need to change my handle a.s.a.p to something human memorable  
 **\<rehrar>** You know that goopy material that if you hit it hard it's quite firm, but if you barely touch it you sink into it? We should have some of that at the table. Say it symbolizes Kovri. Get people to interactively 'touch' Kovri.  
 **\<rehrar>** but for real, if the table is going to be predominanlty answering questions, and touting the alpha release, then it shouldn't need too much  
 **\<rehrar>** maybe a "Kovri facts sheet" with some nice graphics  
@@ -179,7 +179,7 @@ author: selsta / anonimal
 **\<rehrar>** in regards to presentation vs workshop, I don't think it matters much  
 **\<rehrar>** watch out anonimal, it's google forms  
 **\<anonimal>** ok msvb-lab, so we don't get any special privilege with BCOS, i.e., we don't just "email them" but would need to do CFP portal officially  
-**\<msvb-lab>** anonimal: It's fine to do some crazy identity rebranding, and just post to monero-cfpjury@lists.getmonero.org with information about it.  
+**\<msvb-lab>** anonimal: It's fine to do some crazy identity rebranding, and just post to byterub-cfpjury@lists.getbyterub.org with information about it.  
 **\<rehrar>** msvb-lab: you'll be hard pressed to find as privacy focused a person as anonimal. He once told me his favorite ice cream and did brain surgery to remove the brain cell that that memory was stored in  
 **\<anonimal>** lol  
 **\<msvb-lab>** Or even just post your proposal to that address and request that a jury person put it in the database for you. It will still land in Google's hands.  
@@ -195,8 +195,8 @@ author: selsta / anonimal
 **\<anonimal>** msvb-lab: ok. Worst case scenario; I would stand up there and tell everyone that they are not allowed to record my intellectual property, blah blah.  
 **\<msvb-lab>** We need to decide about photography in general inside the village, if we want to try to control that.  
 **\<anonimal>** oh ok  
-**\<rehrar>** I'm sure many people in monero wouldn't be thrilled with unsolicited pictures  
-**\<msvb-lab>** rehrar: AJ is a great friend of Monero village and Monero hardware.  
+**\<rehrar>** I'm sure many people in byterub wouldn't be thrilled with unsolicited pictures  
+**\<msvb-lab>** rehrar: AJ is a great friend of ByteRub village and ByteRub hardware.  
 **\<msvb-lab>** He's all over the radar on Taiga.  
 **\<rehrar>** ok, great  
 **\<anonimal>** Question:  

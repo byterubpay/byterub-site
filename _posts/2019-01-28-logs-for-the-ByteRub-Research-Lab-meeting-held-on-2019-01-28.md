@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-01-28
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-01-28
 summary: Ongoing work, MRL going to SBC, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -21,19 +21,19 @@ author: el00ruobuob / surae
 **\<suraeNoether>**	allrighty, so let's begin with payment ID deprecation  
 **\<Mochi101>**	Very sad.  
 **\<suraeNoether>**	my understanding is that some folks are opposed to the proposed timeline for switching over to subaddresses  
-**\<Mochi101>**	Don't you guys think that such drastic changes hurts Monero adoption?  
+**\<Mochi101>**	Don't you guys think that such drastic changes hurts ByteRub adoption?  
 **\<Xeagu>**	It is new information to me that this was not already default  
-**\<xiphon>**	Mochi101: payment id is actually what "hurts Monero adoption"  
+**\<xiphon>**	Mochi101: payment id is actually what "hurts ByteRub adoption"  
 **\<xiphon>**	^ standalone one  
 **\<suraeNoether>**	mochi101 what drastic change are you referring to? deprecating payment IDs? or enforcing subaddresses?  
 **\<Mochi101>**	Both actually.  
-**\<learninandlurkin>**	Drastic changes is what Monero is all about. 6 month forks and whatnot.  
+**\<learninandlurkin>**	Drastic changes is what ByteRub is all about. 6 month forks and whatnot.  
 **\<ArticMine>**	I am in favor of this, the only possible issue I see is timing on which I am neutral  
-**\<suraeNoether>**	in my opinion, switching to a system with fewer moving parts with fewer ways for users or wallet developers to accidentally screw up, this is a net win for monero users, the ecosystem in general.  
+**\<suraeNoether>**	in my opinion, switching to a system with fewer moving parts with fewer ways for users or wallet developers to accidentally screw up, this is a net win for byterub users, the ecosystem in general.  
 **\<gingeropolous>**	^^  
-**\<Mochi101>**	Yes, Monero feels like a really high maintenance, needy girlfriend sometimes.  
+**\<Mochi101>**	Yes, ByteRub feels like a really high maintenance, needy girlfriend sometimes.  
 **\<suraeNoether>**	i don't know about you, but "idiot proof" cryptography is sort of a myth, but it'd be really really great if we could take incremental steps toward systems with fewer complications glued on top just to make it work  
-**\<Xeagu>**	In the unknown future, will Monero no longer require network upgrades every 6 months?  
+**\<Xeagu>**	In the unknown future, will ByteRub no longer require network upgrades every 6 months?  
 **\<suraeNoether>**	xeagu i believe we are intending on keeping 6 month network upgrade schedules for the foreseeable future, with the intention of \*eventually\* slowing them down  
 **\<suraeNoether>**	i don't know what timescale "eventually" means here, practically, though. fluffypony has mentioned it  before but I don't recall the timescale  
 **\<Xeagu>**	Do you think a timeline would help those with concerns about that activity hurting adoption?  
@@ -51,24 +51,24 @@ author: el00ruobuob / surae
 **\<suraeNoether>**	thanks for the link to the previous PayID discussion, sgp\_ ! i am bookmarking that rn  
 **\<sgp\_>**	services have nearly half a year to upgrade, which is reasonable given the requirements. We have spoken to exchanges and payment processor services who think the timeline is aggressive but realistic  
 **\<sgp\_>**	Mochi101: the logs for the meeting are also available at the same link  
-**\<suraeNoether>**	sgp\_: cool! personally, I think this is a win for monero users in terms of privacy, a win for developers in terms of elegance, and a win for the ecosystem in terms of efficiency  
+**\<suraeNoether>**	sgp\_: cool! personally, I think this is a win for byterub users in terms of privacy, a win for developers in terms of elegance, and a win for the ecosystem in terms of efficiency  
 **\<sgp\_>**	I recommend you read them  
 **\<Xeagu>**	I admit I don't understand how subaddresses work  
 **\<suraeNoether>**	I don't want to speak for sarang; perhaps when he gets back he can jump in and provide an opinion.  
 **\<Xeagu>**	There is a need in the market for distributed education  
 **\<suraeNoether>**	Xeagu: the main idea is you take your wallet address (A,B) and you generate a family of addresses deterministically all sharing the same view key, and allowing you to mass-scan all the subaddresses simultaneously for incoming transactions  
 **\<suraeNoether>**	it's a little more complciated than that because they don't \*actually\* share a view key  
-**\<Mochi101>**	Thanks. But you're only seeing this from your "in the loop" perspective. I looked for information about this and couldn't find any in the places that I expected them to be. Really people using Monero should not have to search through GitHub to find this stuff. If it's a major issue like this it should be front and center on something like getmonero.org  
+**\<Mochi101>**	Thanks. But you're only seeing this from your "in the loop" perspective. I looked for information about this and couldn't find any in the places that I expected them to be. Really people using ByteRub should not have to search through GitHub to find this stuff. If it's a major issue like this it should be front and center on something like getbyterub.org  
 **\<suraeNoether>**	but they can all be \*scanned\* with a single view key  
 **\<Xeagu>**	Yes I am confused on the order that subaddresses are selected during generation  
 **\<Xeagu>**	If they are deterministic, no?  
 **\<gingeropolous>**	is there anything research-y about payment IDs / encrypted / subaddresses at this point? I mean, its pretty solid that anything except subaddresses is sub-optimal, right?  
 **\<suraeNoether>**	you use deterministic nonces while hashing, so they appear random but always come up to be the same  
-**\<sgp\_>**	Xeagu: read this: https://medium.com/@anhdres/how-moneros-accounts-and-subaddresses-work-in-monerujo-4fa7df0a58e4  
+**\<sgp\_>**	Xeagu: read this: https://medium.com/@anhdres/how-byterubs-accounts-and-subaddresses-work-in-monerujo-4fa7df0a58e4  
 **\<selsta>**	Mochi101: You should subscribe to the newsletter.  
 **\<dEBRUYNE>**	Mochi101: It was announced on the mailing list  
 **\<sgp\_>**	Yes, please join that. It's essential for staying up-to-date  
-**\<Xeagu>**	Alright so basically I need to read through Mastering Monero again  
+**\<Xeagu>**	Alright so basically I need to read through Mastering ByteRub again  
 **\<suraeNoether>**	gingeropolous: yeah. this is a question (subaddresses) about key infrastructures. not really in doubt that subaddresses are objectively superior in terms of engineering and in terms of simplicity. keeping around old systems for no good reason is not going to help adoption.  
 **\<suraeNoether>**	also as far as I understand it, the MRL contributors sgp and knaccc are both working on documentation  
 **\<gingeropolous>**	right. it just seems at this point we gotta bite the bullet and go through the suck.  
@@ -111,26 +111,26 @@ author: el00ruobuob / surae
 **\<silur>**	maybe we can generalize it for blocksize?  
 **\<Xeagu>**	I need it in ELI5 terms  
 **\<ArticMine>**	interesting, thank you. i believe someone had an idea where miners vote on the max block size for the next N blocks using proof of work, but i haven't looked further into it yet] <--- This is one of many failed Bitcoin proposals  
-**\<moneromooo>**	As long as we finalize ArticMine's proposal soon, before the fancy new stuff gets worked on :)  
+**\<byterubmooo>**	As long as we finalize ArticMine's proposal soon, before the fancy new stuff gets worked on :)  
 **\<Xeagu>**	How does the dynamic block size change from its current state?  
 **\<suraeNoether>**	ArticMine: also good to know  
 **\<suraeNoether>**	xeagu right now  
 **\<sarang>**	The newer proposals do away with the idea of a single median  
 **\<suraeNoether>**	we allow next max block size to be 2\*Median(last N blocks)  
 **\<suraeNoether>**	i forget N  
-**\<moneromooo>**	Xeagu: https://paste.debian.net/hidden/556a3a8a/  
-**\<moneromooo>**	100000  
+**\<byterubmooo>**	Xeagu: https://paste.debian.net/hidden/556a3a8a/  
+**\<byterubmooo>**	100000  
 **\<sarang>**	Details that have been previously reviewed can probably be discussed more deeply after meeting, IMO  
-**\<Xeagu>**	moneromooo: that's too high level for me  
-**\<moneromooo>**	And 1.4 IIRC, not 2.  
+**\<Xeagu>**	byterubmooo: that's too high level for me  
+**\<byterubmooo>**	And 1.4 IIRC, not 2.  
 **\<Xeagu>**	I'll review other notes sure  
-**\<suraeNoether>**	moneromooo: oh! that's good :D  
+**\<suraeNoether>**	byterubmooo: oh! that's good :D  
 **\<suraeNoether>**	xeagu i'll get you after the meeting  
 **\<sarang>**	atm, I am waiting to see what cost details are added by ArticMine to ensure we understand the relative cost of bloat under the different options  
 **\<Xeagu>**	Okay  
 **\<suraeNoether>**	basically: block size scaling is still under discussion, we are working on formalizing articmine's proposal and comparing it to our present proposal as well as at least one other proposal.  
 **\<suraeNoether>**	and i think sarang and i can collaborate on a technical note describing all this  
-**\<suraeNoether>**	moving along to MRL 11's status update: MRL 11 is essentially about traceability and linkability in Monero, and comparing techniques across multiple blockchains like Zcash + Monero together  
+**\<suraeNoether>**	moving along to MRL 11's status update: MRL 11 is essentially about traceability and linkability in ByteRub, and comparing techniques across multiple blockchains like Zcash + ByteRub together  
 **\<suraeNoether>**	if you guys have seen matthew green and binaryfate and fluffypony sparring on twitter about ring sizes compared to the shielded pool in zcash  
 **\<suraeNoether>**	this is that  
 **\<Xeagu>**	Zcash doesn't scale  
@@ -173,12 +173,12 @@ author: el00ruobuob / surae
 **\<suraeNoether>**	perfect time actually  
 **\<sarang>**	Great  
 **\<Xeagu>**	It's not on the agenda but I wanted to make sure we discussed the rumor of ASIC/FPGAS on the network.  
-**\<sarang>**	moneromooo had asked me earlier about reviewing our windowing approach to gamma selection  
+**\<sarang>**	byterubmooo had asked me earlier about reviewing our windowing approach to gamma selection  
 **\<sarang>**	He had an idea about further weighting selection probability of a block based on output count  
 **\<sarang>**	with a possible goal of reducing the coinbase-to-non-coinbase ratio in rings to that of the whole chain  
 **\<suraeNoether>**	xeagu we'll get to that in a sec, thanks for reminding me :\\  
 **\<sarang>**	e.g. 6-10% of outputs are coinbase, so 6-10% of a ring should be as well  
-**\<sarang>**	moneromooo can explain it better, but the idea would be to take the gamma probability of block selection and further weight by the block's output count, and then uniformly select within that block  
+**\<sarang>**	byterubmooo can explain it better, but the idea would be to take the gamma probability of block selection and further weight by the block's output count, and then uniformly select within that block  
 **\<sarang>**	I'm working up some code based on chain stats  
 **\<sarang>**	but I'll put it out there for comment  
 **\<suraeNoether>**	sarang #actually  
@@ -192,19 +192,19 @@ author: el00ruobuob / surae
 **\<sarang>**	I know, but we have no good metric for "how many coinbase in a ring is ok"  
 **\<suraeNoether>**	unfortunately we don't really have a way of estimating how often any given subsets of our blockchain are spent  
 **\<sarang>**	Currently it's 1-3 outputs per ring on average that are coinbase  
-**\<moneromooo>**	The idea I had is meant to (I think) make the selection process match the gamma from an ideal blockchain (ideal being, every block has the same number of outputs).  
-**\<moneromooo>**	And indeed, in that particular case, the two distributions match.  
-**\<moneromooo>**	The idea has two steps:  
+**\<byterubmooo>**	The idea I had is meant to (I think) make the selection process match the gamma from an ideal blockchain (ideal being, every block has the same number of outputs).  
+**\<byterubmooo>**	And indeed, in that particular case, the two distributions match.  
+**\<byterubmooo>**	The idea has two steps:  
 **\<sarang>**	Nice, did you run sims?  
-**\<moneromooo>**	- for each block, calculate its probability of being picked by the gamma distribution pick  
-**\<moneromooo>**	- for each block, multiply that number by the number of outputs in that block  
-**\<moneromooo>**	Then you just pick a random block from those weights using a discrete distribution.  
-**\<moneromooo>**	I did not run sims, because I do not know how to calculate the first step.  
+**\<byterubmooo>**	- for each block, calculate its probability of being picked by the gamma distribution pick  
+**\<byterubmooo>**	- for each block, multiply that number by the number of outputs in that block  
+**\<byterubmooo>**	Then you just pick a random block from those weights using a discrete distribution.  
+**\<byterubmooo>**	I did not run sims, because I do not know how to calculate the first step.  
 **\<suraeNoether>**	MOO  
 **\<suraeNoether>**	you brilliant bastard  
 **\<suraeNoether>**	you want to know why that works?  
-**\<sarang>**	moneromooo had pointed out earlier that this also solves the issue of a fixed window size  
-**\<moneromooo>**	Well, I see how it'd work by, er... intuition really. Why does it work ?  
+**\<sarang>**	byterubmooo had pointed out earlier that this also solves the issue of a fixed window size  
+**\<byterubmooo>**	Well, I see how it'd work by, er... intuition really. Why does it work ?  
 **\<suraeNoether>**	you are estimating an empirical distribution: when you multiply that number by the number of outputs in the block, you are computing the expected number of outputs to be selected from that block. then you built a histogram and selected from that!  
 **\<sarang>**	Yeah  
 **\<suraeNoether>**	it's cool  
@@ -216,18 +216,18 @@ author: el00ruobuob / surae
 **\<suraeNoether>**	yeah, you could use this with any underlying hypothetical distribution  
 **\<sarang>**	I'm confirming that it does so, and writing up some sims to convince myself of it  
 **\<suraeNoether>**	\\me eats oatmeal  
-**\<sarang>**	kudos moneromooo, it's a clever approach that fixes the issues with windowing  
+**\<sarang>**	kudos byterubmooo, it's a clever approach that fixes the issues with windowing  
 **\<gingeropolous>**	so there's still a probability that multiple coinbases will be selected, but because tiny blocks have low probability, we should expect less outputs selected from tiny blocks?  
 **\<suraeNoether>**	it actually fixes several other things i'd been thinking about  
 **\<suraeNoether>**	it's a great framework.  
-**\<moneromooo>**	Thanks. Still needs a way to compute the first number. I fear it might involve integrals.  
+**\<byterubmooo>**	Thanks. Still needs a way to compute the first number. I fear it might involve integrals.  
 **\<Xeagu>**	I don't understand :/  
-**\<sarang>**	moneromooo: probably not =p  
+**\<sarang>**	byterubmooo: probably not =p  
 **\<suraeNoether>**	gingeropolous: yeah, exactly. each output has a gamma age, and then you select from all outputs. rather than selecting an output age from a gamma and then selecting from all the outs with that age. subtle flipping of the order of things  
 **\<sarang>**	I believe it should reduce the ring ratio to that of the whole chain  
 **\<Xeagu>**	I don't know what gamma means  
 **\<sgp\_>**	In the most extreme case, we can say 0 coinbase are necessary and force independent miners to churn their received funds if they care. Pools don't care and are the main cause of this debate. But there doesn't seem to be enough support for this, and it comes with other tradeoffs. I just think it's important to keep mentioning  
-**\<moneromooo>**	A particular random distribution.  
+**\<byterubmooo>**	A particular random distribution.  
 **\<sarang>**	the way we select ring members using math Xeagu  
 **\<gingeropolous>**	Xeagu, you can think of gamma as a droopy triangle  
 **\<suraeNoether>**	xeagu there is a long statistical background on the gamma distribution. we'll catch you up after the meeting  
@@ -253,14 +253,14 @@ author: el00ruobuob / surae
 **\<sarang>**	So I like the idea of shooting for a ring member ratio matching the chain  
 **\<sarang>**	and this weighted approach should do that for us  
 **\<sarang>**	to be confirmed by sanity-check sims!  
-**\<suraeNoether>**	okay, so the output selection method proposed by moneromooo is actually a really clever way of computing expectations, and as a consequence, gives us a better output selection method. we should glance through the code, but i'm happy with that  
+**\<suraeNoether>**	okay, so the output selection method proposed by byterubmooo is actually a really clever way of computing expectations, and as a consequence, gives us a better output selection method. we should glance through the code, but i'm happy with that  
 **\<suraeNoether>**	FPGA/ASIC stuff  
 **\<sarang>**	Neat  
 **\<suraeNoether>**	let's move along  
 **\<suraeNoether>**	i hear some nonce distributions are non-uniform  
 **\<sarang>**	and they recently changed as of the new year-ish  
 **\<suraeNoether>**	fun  
-**\<suraeNoether>**	so, i'm not really prepared to talk about monero POW and asic-resistance right now, tbqh  
+**\<suraeNoether>**	so, i'm not really prepared to talk about byterub POW and asic-resistance right now, tbqh  
 **\<suraeNoether>**	i happened upon some reading this weekend on sponge constructions, so i'm currently on the path toward learning more about hash functions and pseudorandom functions  
 **\<suraeNoether>**	but i don't have any thoughts i want to make public right now  
 **\<suraeNoether>**	sarang?  

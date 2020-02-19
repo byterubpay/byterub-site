@@ -6,11 +6,11 @@ Download het huidige bootstrap-bestand van https://downloads.getmonero.org/block
 
 ### Stap 2
 
-Zoek het pad van je Monero-portemonnee op (de map waar je de Monero-software hebt uitgepakt). Mijn pad is bijvoorbeeld:
+Zoek het pad van je ByteRub-portemonnee op (de map waar je de ByteRub-software hebt uitgepakt). Mijn pad is bijvoorbeeld:
 
 `D:\monero-gui-0.10.3.1`
 
-Je kunt een ander pad hebben, afhankelijk van waar je de portemonnee hebt gedownload en welke versie van de Monero-portemonnee je gebruikt.
+Je kunt een ander pad hebben, afhankelijk van waar je de portemonnee hebt gedownload en welke versie van de ByteRub-portemonnee je gebruikt.
 
 ### Stap 3
 
@@ -26,7 +26,7 @@ Open een opdrachtregelvenster. Dit kun je doen door op de Windows-toets + R te d
 
 ### Stap 5
 
-Nu moet je in het CMD-venster naar het pad van je Monero-portemonnee navigeren. Dit kun je doen door het volgende te typen:
+Nu moet je in het CMD-venster naar het pad van je ByteRub-portemonnee navigeren. Dit kun je doen door het volgende te typen:
 
 `cd C:\HIER\HET\BESTANDSPAD\VAN\JE\MONERO-PORTEMONNEE`
 
@@ -34,7 +34,7 @@ Bijvoorbeeld zoiets:
 
 `cd D:\monero-gui-0.10.3.1`
 
-Als je Monero-portemonnee op een ander station staat, gebruik je `Stationsletter:`. Bijvoorbeeld: als je portemonnee op station D staat, voer je `D:` in voordat je de `cd`-opdracht gebruikt.
+Als je ByteRub-portemonnee op een ander station staat, gebruik je `Stationsletter:`. Bijvoorbeeld: als je portemonnee op station D staat, voer je `D:` in voordat je de `cd`-opdracht gebruikt.
 
 ### Stap 6
 
@@ -50,7 +50,7 @@ Als je de blockchain hebt gedownload van een bron die je vertrouwt, kun je de in
 
 ### Stap 7
 
-Nadat de blockchain is gesynchroniseerd, kun je je Monero-portemonnee op de normale manier openen. Het gedownloade bestand blockchain.raw kun je verwijderen.
+Nadat de blockchain is gesynchroniseerd, kun je je ByteRub-portemonnee op de normale manier openen. Het gedownloade bestand blockchain.raw kun je verwijderen.
 
 
 Geschreven door: Kee Jefferys.

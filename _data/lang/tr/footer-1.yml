@@ -1,8 +1,8 @@
 - title: Kaynaklar
   subfolderitems:
-  - name: Monero Hakkında
+  - name: ByteRub Hakkında
     url: resources/about/
-  - name: Moneropedi
+  - name: ByteRubpedi
     url: resources/moneropedia/
   - name: Geliştirici Rehberleri
     url: resources/developer-guides/
@@ -40,13 +40,13 @@
     url: https://mattermost.getmonero.org/
   - name: Telegram Sohbet
     url: https://telegram.me/bitmonero
-- title: Monero Projesi
+- title: ByteRub Projesi
   subfolderitems:
   - name: Open Alias
     url: https://openalias.org/
   - name: Kovri
     url: https://kovri.io/
-  - name: Monero Araştırma Laboratuvarı
+  - name: ByteRub Araştırma Laboratuvarı
     url: resources/research-lab/
-  - name: Monero Basın Kiti
+  - name: ByteRub Basın Kiti
     url: press-kit

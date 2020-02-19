@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-03-04
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-03-04
 summary: Sarang work, Surae work, SamsungGalaxyPlayer proposal and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -16,7 +16,7 @@ author: el00ruobuob / sarang
 **\<sarang>** In the spirit of fairness and generosity, I will go first :D  
 **\<sarang>** I posted my February monthly report (see agenda for link); comments welcome  
 **\<sarang>** Besides the things listed there, I have initial working code for a Bulletproofs MPC (link in agenda also)  
-**\<sarang>** moneromooo has been toying around with the idea of a coinjoin-type scheme, for which this MPC would be efficient and useful  
+**\<sarang>** byterubmooo has been toying around with the idea of a coinjoin-type scheme, for which this MPC would be efficient and useful  
 **\<sarang>** It still needs a lot of additional testing and work, but the initial code is operational  
 **\<sarang>** And along with suraeNoether, still making edits and fixes to an upcoming paper in collaboration with other researchers for submission  
 **\<sarang>** This week I'll be doing some MPC code cleanup and adversarial unit tests  
@@ -26,9 +26,9 @@ author: el00ruobuob / sarang
 **\<sarang>** Link at the agenda: https://github.com/byterubpay/meta/issues/309  
 **\<oneiric\_>** thanks :)  
 **\<sarang>** the code is in super early stages  
-**\<suraeNoether>**  the bulletproof coinjoin-style mpc: is this described in any level of detail anywhere outside of the bulletproofs paper? i think i get how bulletproofed MPC works, but if they are intended for use in a coinjoin-style way with Monero, i would like to see an explanation of how  
+**\<suraeNoether>**  the bulletproof coinjoin-style mpc: is this described in any level of detail anywhere outside of the bulletproofs paper? i think i get how bulletproofed MPC works, but if they are intended for use in a coinjoin-style way with ByteRub, i would like to see an explanation of how  
 **\<sarang>** Ah good point. The BP paper only described the MPC protocol, and hinted at applications  
-**\<sarang>** moneromooo has been working on the Monero-specific coinjoin at his "multi" branch  
+**\<sarang>** byterubmooo has been working on the ByteRub-specific coinjoin at his "multi" branch  
 **\<suraeNoether>** has coinjoin ringct been described outside of code?  
 **\<sarang>** Not that I know of. It's on my list :D  
 **\<suraeNoether>** got it  
@@ -36,17 +36,17 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** agreed  
 **\<sarang>** It turns the usual multi-output proof into a trivial MPC with one player  
 **\<sarang>** and of course the verifier is completely unchanged  
-**\<suraeNoether>** i'm not trying to imply that the MPC work is not important or unrelated to monero; it is both important and related. i just wanted to see what had been written.  
+**\<suraeNoether>** i'm not trying to imply that the MPC work is not important or unrelated to byterub; it is both important and related. i just wanted to see what had been written.  
 **\<suraeNoether>** my update is simple, too.  
 **\<suraeNoether>** I'm working on my February report right now. i am working on  my funding request for next quarter. sarang and i are both working into our proposals one big change from previous proposals: primarily a pay-up-front clause to prevent MRL researchers from having their paychecks degrade over the funding period.  
 **\<sarang>** Ooh good point on the new funding model  
 **\<sarang>** We discussed this publicly a lot  
 **\<suraeNoether>** in addition to that, i've passed the proofs-stuff back to our co-authors, who i'm chatting with almost daily on the publication; our deadlines have been pushed back twice now, so i asked for permission to explain what we are working on, and I got a "little bit" of consent, so  
-**\<suraeNoether>** basically, sarang and i have been working with two authors on formalizing the DLSAG stuff, and i've been working on security proofs while sarang has been working on getting timing results for comparing to vanilla monero ringct  
+**\<suraeNoether>** basically, sarang and i have been working with two authors on formalizing the DLSAG stuff, and i've been working on security proofs while sarang has been working on getting timing results for comparing to vanilla byterub ringct  
 **\<sarang>** Yeah, the paper has specific constructions for payment channels et al.  
 **\<suraeNoether>** (one of the reasons i wanted a written description of bulletproof coinjoin is to see how well it will mesh with the new scheme  
 **\<sarang>** Oh interesting. I hadn't thought of that part  
-**\<suraeNoether>** yeah, long story short: the primitives required in monero for a lightning network  
+**\<suraeNoether>** yeah, long story short: the primitives required in byterub for a lightning network  
 **\<sarang>** The bulletproofs MPC protocol is independent of how the coinjoin signatures are done, FWIW  
 **\<suraeNoether>** sarang: right, the bulletproofs mpc is merely to securely compute a range proof collaboratively, right, wihtout revealing your hidden values to your cosigners  
 **\<sarang>** righto  
@@ -55,7 +55,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** that finishes up my brief roundtable update  
 **\<suraeNoether>** i would love to hear from anyone else who has done any research this past week. isthmus is always on fire with productivity (poor guy has 3rd degree burns)  
 **\<suraeNoether>** oh i'm looking at the agenda here and we have sgp\_  
-**\<suraeNoether>** i believe sgp suggested a different input selection algorithm for pools: https://github.com/byterubpay/monero/issues/5222  
+**\<suraeNoether>** i believe sgp suggested a different input selection algorithm for pools: https://github.com/byterubpay/byterub/issues/5222  
 **\<sgp\_>** yes, thanks suraeNoether for the link to the Github discussion  
 **\<sgp\_>** this discussion is only around the public POOL selection algorithm, not the selection algorithm for other users  
 **\<sgp\_>** I expect this to be non-controversial and to have no negative impact on any party, but if you feel otherwise, I'd love your comment in the issue  
@@ -63,8 +63,8 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** some of the thoughts presented in your github discussion reflect some of the thoughts that isthmus has had on the matter with multi-input transactions, so I actually think this discussion is a little more broad than you suspect  
 **\<suraeNoether>**  but also: since input selection isn't consensus, any pool could \*decide\* to do this  
 **\<sgp\_>** it could be. this concept as I presented it has been thrown around since early 2018  
-**\<moneromooo>** I'd like to have a confirmation that it does not harm anything else before I code it up.  
-**\<moneromooo>** (from sarang and/or surae)  
+**\<byterubmooo>** I'd like to have a confirmation that it does not harm anything else before I code it up.  
+**\<byterubmooo>** (from sarang and/or surae)  
 **\<suraeNoether>**  the problem as I see it is that it reduces things in the following way  
 **\<sarang>** I have looked over it briefly this morning but want to think about it in more detail  
 **\<suraeNoether>** if we have a ring size N\*M, and the average number of outputs per transaction is M, and ring members are selected by transaction instead of by input, there is a strong argument that this reduces the effective ring size to N.  
@@ -75,7 +75,7 @@ author: el00ruobuob / sarang
 **\<sgp\_>** Ring signatures could provide 0 protection and the pools wouldn't be worse off  
 **\<suraeNoether>** uhm well  
 **\<suraeNoether>** the concern isn't these public pool's privacy  
-**\<suraeNoether>** it's their behavior negatively impacting the privacy of other participatns in the monero ecosystem  
+**\<suraeNoether>** it's their behavior negatively impacting the privacy of other participatns in the byterub ecosystem  
 **\<sgp\_>** The goal isn't to restore the effective ringsize of the pool rings. It's to preserve the integrity of the pool outputs used in other rings  
 **\<sarang>** right  
 **\<suraeNoether>** sgp\_: here's my problem, as i see it  
@@ -136,7 +136,7 @@ author: el00ruobuob / sarang
 **\<sarang>** 4. ACTION ITEMS  
 **\<oneiric\_>** absolutely appreciate both your inputs sarang and suraeNoether  
 **\<sarang>** I will review sgp\_'s proposal in more detail, finish up MPC code and more robust tests, and hopefully get that DLSAG-related paper out the door so we can post publicly  
-**\<gingeropolous>** so I'm curious on where MRL stands on SPECTRE and, in general, switching from nakamoto-consensus. Was there a write-up from the previous investigation? I'm particularly interested because if monero ever actually achieves a strong decentralized network with many miners, the existing consensus system could make things really unstable. So I guess one possible area of investigation is how capable is nakamoto-consensus in a strong  
+**\<gingeropolous>** so I'm curious on where MRL stands on SPECTRE and, in general, switching from nakamoto-consensus. Was there a write-up from the previous investigation? I'm particularly interested because if byterub ever actually achieves a strong decentralized network with many miners, the existing consensus system could make things really unstable. So I guess one possible area of investigation is how capable is nakamoto-consensus in a strong  
 **\<gingeropolous>** decentralized network? I.e., if we had 3k nodes, all solo mining at 200 h/s, with transactions coming randomly from all the nodes, how well would the network actually function? Would it just be reorging constantly, with broken ring sigs causing txs to drop from existence?  
 **\<sarang>** Later this month I'll post my next funding request, which as suraeNoether will have upfront payment to hedge against volatility  
 **\<gingeropolous>** sorry, was waiting for something and hit enter  

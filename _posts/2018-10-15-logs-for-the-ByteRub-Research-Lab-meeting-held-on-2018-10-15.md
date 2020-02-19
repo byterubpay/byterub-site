@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-10-15
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-10-15
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -12,11 +12,11 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** yes hello  
 **\<sgp\_>** Hello  
 **\<kovri-slack> \<oneiric>** hullo  
-**\<suraeNoether>** today i want to chat about research and the monero konferenco, and... that's my agenda. if folks want to add to the list, shout out~  
+**\<suraeNoether>** today i want to chat about research and the byterub konferenco, and... that's my agenda. if folks want to add to the list, shout out~  
 **\<sarang>** hi  
 **\<sarang>** Where to begin?  
 **\<suraeNoether>** well, firstly  
-**\<suraeNoether>** who wants to come give a 20-40 minute chat at the Monero Konferenco? I'd like each workgroup to have at least one representative  
+**\<suraeNoether>** who wants to come give a 20-40 minute chat at the ByteRub Konferenco? I'd like each workgroup to have at least one representative  
 **\<hyc>** when/where is that going to be?  
 **\<sarang>** I'll do one  
 **\<suraeNoether>** Good question, hyc! Right now it's looking to be one of the weekends between April 27 and June 15 in Denver, Colorado. invited speakers will be reimbursed for their travel costs  
@@ -32,7 +32,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Because fiat reimbursement is always a baffling and lengthy ordeal  
 **\<suraeNoether>** well oneiric i wanted a session of several talks on networking privacy. i'd love to have both you and anonimal come speak  
 **\<kovri-slack> \<oneiric>** :)  
-**\<suraeNoether>** i also want to invite people not directly related to the monero ecosystem  
+**\<suraeNoether>** i also want to invite people not directly related to the byterub ecosystem  
 **\<parasew[m]>** i will also try and come there! as i could not make it to defcon sadly  
 **\<sarang>** suraeNoether: are there plans to arrange for streaming or quality recording?  
 **\<sgp\_>** Yeah, we need that  
@@ -61,7 +61,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** more like zi... ziring..  
 **\<suraeNoether>** nah  
 **\<suraeNoether>** okay, onto research  
-**\<sarang>** Buy us a Monero jet and I'll fly everyone there  
+**\<sarang>** Buy us a ByteRub jet and I'll fly everyone there  
 **\<sgp\_>** Lmao  
 **\<suraeNoether>** last week, sarang and I concluded that, for now, RuPol may be too risky for us to implement, given the layers of development required  
 **\<suraeNoether>** essentially un-vettable at this stage  
@@ -128,7 +128,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** sarang that reminds me  
 **\<sarang>** ?  
 **\<sgp\_>** We used a Caesar's Cypher, totally secure. Roman military-grade  
-**\<suraeNoether>** i really really want to create a cryptocurrency like monero but replacing the bernstein group with an absurdly small group, like order 7000-ish or something, and with a tiny-output hash function  
+**\<suraeNoether>** i really really want to create a cryptocurrency like byterub but replacing the bernstein group with an absurdly small group, like order 7000-ish or something, and with a tiny-output hash function  
 **\<suraeNoether>** just let people go wild in forging signatures  
 **\<suraeNoether>** just see what happens  
 **\<suraeNoether>** "when forgecoin moon?"  
@@ -157,7 +157,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Here's a link to my quick port of ruffct to my python library: https://github.com/SarangNoether/research-lab/tree/pyruff  
 **\<sarang>** It's more or less a direct port of the java stuff that will be refactored as needed  
 **\<sarang>** prototyping only; don't use it anywhere that counts  
-**\<suraeNoether>** oh, I wanted to point out: Vtnerd is asking for a very reasonable amount of USD/hour to construct a tor-based RPC tool for monero (or something like that), and his FFS is under "ideas" right now  
+**\<suraeNoether>** oh, I wanted to point out: Vtnerd is asking for a very reasonable amount of USD/hour to construct a tor-based RPC tool for byterub (or something like that), and his FFS is under "ideas" right now  
 **\<suraeNoether>** i wanted to express my support for that proposal  
 **\<sarang>** Tell me more about this in relation to kovri  
 **\<sarang>** ELI5  
@@ -171,7 +171,7 @@ author: el00ruobuob / sarang
 **\<sarang>** it has implications on things like address size, for example  
 **\<sarang>** but we're learning what we can from it  
 **\<sgp\_>** Only point I need to make is that if we want to get anywhere with blackball research, someone needs to update the pool tool and sneurlax is busy  
-**\<rehrar>** regarding Tor, I think it would be beneficial to Monero to have the option to run over Tor  
+**\<rehrar>** regarding Tor, I think it would be beneficial to ByteRub to have the option to run over Tor  
 **\<sarang>** MRL: Putting The Skunk In Skunkworks  
 **\<sarang>** sgp\_: link to current work?  
 **\<suraeNoether>** rehrar: ruffct as-is requires an additional user key, which would bring us to either 3 group elements as your public key, or 4, depending on how you interpret the ruffct paper, and so we may end up doubling our key length (which doubles verification time from loading keys!)  
@@ -182,11 +182,11 @@ author: el00ruobuob / sarang
 **\<kovri-slack> \<oneiric>** yeah, having a public node over tor would be nice. even a hybrid of p2p over tor, rpc over i2p would be sweet  
 **\<sarang>** gmaxwell: you are referring to a cofactor-1 curve?  
 **\<sarang>** oh nvm, you mean group size  
-**\<hyc>** we have moneroworld nodes on tor  
-**\<rehrar>** Of course it's possible to run Monero over Tor with some finagling. But how cool would it be to run over tor with a command or button press?  
+**\<hyc>** we have byterubworld nodes on tor  
+**\<rehrar>** Of course it's possible to run ByteRub over Tor with some finagling. But how cool would it be to run over tor with a command or button press?  
 **\<rehrar>** Qubes-Whonix is a good way right now btw  
-**\<sarang>** perhaps we first get the moneroworld nodes upgraded at all...  
-**\<suraeNoether>** okay, for me, final thoughts... please make comments on the Denver Monero Konferenco FFS here, and we will move it up to Open Discussion: https://forum.getmonero.org/6/ideas/90909/surae-noether-first-denver-monero-konferenco-spring-2019 and for this conference, PLEASE please let me know if you know of someone who I absolutely MUST INVITE TO SPEAK. If you have a favorite speaker, let me know by emailing  
+**\<sarang>** perhaps we first get the byterubworld nodes upgraded at all...  
+**\<suraeNoether>** okay, for me, final thoughts... please make comments on the Denver ByteRub Konferenco FFS here, and we will move it up to Open Discussion: https://forum.getbyterub.org/6/ideas/90909/surae-noether-first-denver-byterub-konferenco-spring-2019 and for this conference, PLEASE please let me know if you know of someone who I absolutely MUST INVITE TO SPEAK. If you have a favorite speaker, let me know by emailing  
 **\<suraeNoether>** surae.noether@protonmail.com   
 **\<suraeNoether>** I'll be sending out first-round invitation emails in the next week or so  
 **\<suraeNoether>** or just email me because i'm lonely  

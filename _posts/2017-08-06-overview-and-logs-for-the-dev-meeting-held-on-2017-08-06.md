@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-08-06).  
+An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-08-06).  
 
 # Logs  
 
@@ -36,14 +36,14 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<gingeropolous>** should we bump the wallet default?  
 **\<dEBRUYNE>** Perhaps leave it at 4 for uniformity?  
 **\<dEBRUYNE>** 5\*  
-**\<endogenic>** fwiw we use 9 in new mymonero apps currently (ringsize of 10)  
+**\<endogenic>** fwiw we use 9 in new mybyterub apps currently (ringsize of 10)  
 **\<endogenic>** but we also turned off our tx fees due to ringct tx size et al  
 **\<endogenic>** temporarily…  
 **\<hyc>** endogenic: have you also changed output selection algo?  
 **\<endogenic>** in what way?  
 **\<ArticMine>** We have to raise min blocksize if we go over 15k tx size  
 **\<Fymiywtfbtcxmr>** Ring size 10 for uniformity  
-**\<Fymiywtfbtcxmr>** All apps and wallets just like mymonero  
+**\<Fymiywtfbtcxmr>** All apps and wallets just like mybyterub  
 **\<endogenic>** personally i would love to hear Surae's input on this as well regarding whether we should do this now before making confirmations  
 **\<Fymiywtfbtcxmr>** Tx size not that much larger  
 **\<endogenic>** heck it would be nice to hear from Sarang as well :P  
@@ -51,65 +51,65 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<Fymiywtfbtcxmr>** Range proof reductions coming  
 **\<rehrar>** Oops. After this discussion is done.  
 **\<endogenic>** hyc feel free to ping me later  
-**\<vtnerd>** hyc endogenic : mymonero does not use the wallet selection algo currently  
+**\<vtnerd>** hyc endogenic : mybyterub does not use the wallet selection algo currently  
 **\<vtnerd>** its just random selection over the set of possible outputs  
 **\<endogenic>** yes i can confirm that  
 **\<ArticMine>** JollyMort[m] did the simulations but as I recall we are ok if the 2/2 tx size is below 15K  
 **\<ArticMine>** for min blocksize  
 **\<ArticMine>** So ring 10 may work  
-**\<moneromooo>** mixin 14 would still be ok, 19 not. I have no data for 15-18.  
+**\<byterubmooo>** mixin 14 would still be ok, 19 not. I have no data for 15-18.  
 **\<gingeropolous>** so r we increasing it or waiting for more research?  
 **\<ArticMine>** I am ok up to 10  
-**\<moneromooo>** I'm keeping it to 5 unless a number of people like smooth, ArticMine, luigi1111, surae, knaccc think it's best to increase now.  
+**\<byterubmooo>** I'm keeping it to 5 unless a number of people like smooth, ArticMine, luigi1111, surae, knaccc think it's best to increase now.  
 **\<ArticMine>** Sounds good to me  
 **\<hyc>** cool  
-**\<moneromooo>** Maybe we make a vote with those people :)  
+**\<byterubmooo>** Maybe we make a vote with those people :)  
 **\<gingeropolous>** yeah. i propose we push this to core team for final decision. seems to fit the bill of that scenario in the governance structure thingy  
 **\<endogenic>** vtnerd: any thoughts?  
 **\<Jaquee>** sounds good. when is testnet HF?  
-**\<moneromooo>** Tomorrow. If pony merges in time \^\_\^  
+**\<byterubmooo>** Tomorrow. If pony merges in time \^\_\^  
 **\<Jaquee>** :D  
 **\<vtnerd>** on mandatory ring size ? not really  
 **\<endogenic>** kk  
-**\<knaccc>** moneromooo I'm fine with 5 until further research is done  
+**\<knaccc>** byterubmooo I'm fine with 5 until further research is done  
 **\<vtnerd>** other than I recall at least 4 being useful, based on the way research paper I saw  
 **\<Fymiywtfbtcxmr>** Pony drinking wine  
 **\<luigi1111>** I vote 5 because reasons  
-**\<moneromooo>** And that guy has 1111 votes ^  
+**\<byterubmooo>** And that guy has 1111 votes ^  
 **\<hyc>** I vote 8 because we need drama and dissent.  
-**\<moneromooo>** And because winning a vote with 100% would feel a bit too dictatorship.  
-**\<moneromooo>** I vote for someone to summon the pony.  
+**\<byterubmooo>** And because winning a vote with 100% would feel a bit too dictatorship.  
+**\<byterubmooo>** I vote for someone to summon the pony.  
 **\<ArticMine>** At the point 5 and continue the research  
 **\<ArticMine>** this  
 **\<hyc>** yeah  
 **\<endogenic>** rehrar?  
 **\<rehrar>** Ye?  
 **\<endogenic>** may be time for next item  
-**\<vtnerd>** also moving mymonero to the standard wallet output selection needs a todo somewhere  
-**\<rehrar>** K. Well I say we jump to 2 as I said above. :) Brief review of what's been completed since the previous meeting. I'd love to hear from Jaquee and even you regarding mymonero  
-**\<endogenic>** issue exists on mymonero-app-js  
+**\<vtnerd>** also moving mybyterub to the standard wallet output selection needs a todo somewhere  
+**\<rehrar>** K. Well I say we jump to 2 as I said above. :) Brief review of what's been completed since the previous meeting. I'd love to hear from Jaquee and even you regarding mybyterub  
+**\<endogenic>** issue exists on mybyterub-app-js  
 **\<endogenic>** at least in terms of using the official lib  
-**\<vtnerd>** the mymonero front is probably a crappy but decent place to mark that  
+**\<vtnerd>** the mybyterub front is probably a crappy but decent place to mark that  
 **\<vtnerd>** endogenic : ok good  
 **\<endogenic>** def important to me  
-**\<pigeons>** maybe moneromooo repeat the list of PRs you've asked fluffypony to merge?  
+**\<pigeons>** maybe byterubmooo repeat the list of PRs you've asked fluffypony to merge?  
 **\<Jaquee>** i'm currently rebasing the huge GUI lightwallets/mobile PR to exclude the lightwallets parts  
-**\<moneromooo>** I don't have a backlog.  
+**\<byterubmooo>** I don't have a backlog.  
 **\<Jaquee>** because #2109 (the wallet2 parts of the lightwallet support) wont make it to the release.  
 **\<Jaquee>** but i still want to have the mobile and remote node parts from that PR in next release.  
 **\<Jaquee>** I'd say both ios and android version is ready for alpha/beta testing. But it's being blocked by lack of app store accounts.  
 **\<Jaquee>** At least the ios version.  
 **\<Jaquee>** For android we could just build apk on buildbot, but unfortunately there's not enough space on the linux box for that. Pigeons is working on that afaik.  
-**\<moneromooo>** I'm wary of the changes that affect the normal wallet tx making operations. The rest could be merged if needed.  
+**\<byterubmooo>** I'm wary of the changes that affect the normal wallet tx making operations. The rest could be merged if needed.  
 **\<Jaquee>** yeah. i'm totally ok with that.  
 **\<Jaquee>** but hopefully we don't need to wait another 6 months for next release after hf  
 **\<rehrar>** We can launch a little campaign for Android testers? Get the Community workgroup to front that, no?  
-**\<moneromooo>** If it's like last time, we'll have to wait just a few days \^\_\^  
+**\<byterubmooo>** If it's like last time, we'll have to wait just a few days \^\_\^  
 **\<Jaquee>** Fluffy said a couple of months back that he was working on app store accounts for us, but i don't know what the status is. Anyone from core team have more info on that?  
 **\<pigeons>** android versions. you need one for each architecture  
 **\<endogenic>** Jaquee he was traveling and needed info which was at home in SA  
 **\<endogenic>** got back a day ago i think  
-**\<Jaquee>** endogenic: that was for mymonero accounts afaui. are we using the same for monero apps+  
+**\<Jaquee>** endogenic: that was for mybyterub accounts afaui. are we using the same for byterub apps+  
 **\<Jaquee>** ?  
 **\<endogenic>** nah  
 **\<endogenic>** separate, as i suggested  
@@ -142,7 +142,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<johnalan>** great!  
 **\<endogenic>** fluffypony fluffypony fluffypony  
 **\<luigi1111>** *fingers crossed*  
-**\<moneromooo>** \`fluffupoony \`fluffupoony \`fluffupoony  
+**\<byterubmooo>** \`fluffupoony \`fluffupoony \`fluffupoony  
 **\<endogenic>** lol  
 **\<ArticMine>** The pony is in the "land of the free temporarily"  
 **\<endogenic>** snoozetown, south africa  
@@ -178,9 +178,9 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<johnalan>** lol  
 **\<johnalan>** anyway we need to stay tight to the iOS ecosphere on this  
 **\<johnalan>** native native native  
-**\<moneromooo>** You have a limit to the number of testers when you code an apple program ?  
+**\<byterubmooo>** You have a limit to the number of testers when you code an apple program ?  
 **\<johnalan>** Yes, but it’s very elegant  
-**\<endogenic>** moneromooo: not exactly  
+**\<endogenic>** byterubmooo: not exactly  
 **\<johnalan>** and when your app is on the store  
 **\<serhack>** Hello  
 **\<endogenic>** anyone can install the app on their device  
@@ -193,20 +193,20 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<johnalan>** @hyc yup thats true  
 **\<endogenic>** and confirm next mtg  
 **\<serhack>** Okay  
-**\<endogenic>** moneromooo: https://developer.apple.com/testflight/  
+**\<endogenic>** byterubmooo: https://developer.apple.com/testflight/  
 **\<endogenic>** it used to be 100 lol  
 **\<endogenic>** and they didn't used to have testflight  
-**\<moneromooo>** Sorry, I was not really interested, just dumbfounded.  
+**\<byterubmooo>** Sorry, I was not really interested, just dumbfounded.  
 **\<johnalan>** its very cool  
-**\* moneromooo** shuts up  
-**\<johnalan>** @endogenic  would you use testflight or hock for the mymonero ios app?  
+**\* byterubmooo** shuts up  
+**\<johnalan>** @endogenic  would you use testflight or hock for the mybyterub ios app?  
 **\<endogenic>** either. honestly want to just launch the damn thing  
 **\<Jaquee>** ^^  
 **\<Jaquee>** so, fluffy is back, and hopefully we can have app store accounts soon\^rm?  
-**\<hyc>** PRs (17:53:15) moneromooo: 2132 2141 2147 2148 2151 2153 2182 2188 2189 2191 2195 2196 2197 2198 2200 2201 2203 2206 2210 2211 2214 2215 2216 2219 2220 2222 2223 2226 2230 2231 2232 2234 2236 2239 2242 2243 2244  
+**\<hyc>** PRs (17:53:15) byterubmooo: 2132 2141 2147 2148 2151 2153 2182 2188 2189 2191 2195 2196 2197 2198 2200 2201 2203 2206 2210 2211 2214 2215 2216 2219 2220 2222 2223 2226 2230 2231 2232 2234 2236 2239 2242 2243 2244  
 **\<Jaquee>** to merge?  
 **\<endogenic>** soon™  
-**\<moneromooo>** Those were the easy merges.  
+**\<byterubmooo>** Those were the easy merges.  
 **\<herch>** for what it's worth, I have doubt if apple will ever approve the app. I wish I am wrong here.  
 **\<endogenic>** herch: i'm not worried about that  
 **\<serhack>** Hyc: a lot  
@@ -231,28 +231,28 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<endogenic>** if you trust them… :P  
 **\<Jaquee>** i also have one  
 **\<serhack>** :0  
-**\<Jaquee>** https://github.com/byterubpay/monero-core/pull/780  
+**\<Jaquee>** https://github.com/byterubpay/byterub-core/pull/780  
 **\<serhack>** Thanks jaquee  
-**\<Jaquee>** 5 minutes left... i'm wondering about that memory leak in monerod. do we have any clue yet?  
-**\<moneromooo>** I don't think there's really one.  
-**\<moneromooo>** (modulo small bits and bobs I already fixed)  
+**\<Jaquee>** 5 minutes left... i'm wondering about that memory leak in byterubd. do we have any clue yet?  
+**\<byterubmooo>** I don't think there's really one.  
+**\<byterubmooo>** (modulo small bits and bobs I already fixed)  
 **\<hyc>** schrodingers leak  
 **\<Jaquee>** really? my daemon keeps on OOM crashing  
 **\<Jaquee>** on a 2GB vps  
-**\<moneromooo>** Well, run it with mleak, and kill it with SIGPROF from time to time, and send me those logs.  
-**\<moneromooo>** mleak is on hyc's github repo.  
+**\<byterubmooo>** Well, run it with mleak, and kill it with SIGPROF from time to time, and send me those logs.  
+**\<byterubmooo>** mleak is on hyc's github repo.  
 **\<Jaquee>** ah. i'll do that  
-**\<moneromooo>** But for me, memory usage was constant modulo short term noise.  
+**\<byterubmooo>** But for me, memory usage was constant modulo short term noise.  
 **\<hyc>** https://github.com/hyc/mleak  
 **\<Jaquee>** thanks  
-**\<moneromooo>** hyc: the RSS differences are from the OS deciding when to swap in/out the mmapped pages, right ?  
-**\<moneromooo>** (for lmdb, I mean)  
+**\<byterubmooo>** hyc: the RSS differences are from the OS deciding when to swap in/out the mmapped pages, right ?  
+**\<byterubmooo>** (for lmdb, I mean)  
 **\<hyc>** yeah  
 **\<hyc>** the SHARED number should be relatively constant, growing when the map is resized  
 **\<hyc>** RSS should fluctuate with other memory pressure  
 **\<hyc>** s/SHARED/SHM/  
-**\<moneromooo>** Jaquee: sorry, missing a step: a couple seconds after SIGPROF, do: mdump ml.{data,info} > "monerod.log-`date`"  
-**\<moneromooo>** Jaquee: sorry, missing a step: a couple seconds after SIGPROF, do: mdump /path/to/monerod ml.{data,info} > "monerod.log-`date`"  
+**\<byterubmooo>** Jaquee: sorry, missing a step: a couple seconds after SIGPROF, do: mdump ml.{data,info} > "byterubd.log-`date`"  
+**\<byterubmooo>** Jaquee: sorry, missing a step: a couple seconds after SIGPROF, do: mdump /path/to/byterubd ml.{data,info} > "byterubd.log-`date`"  
 **\<serhack>** The app is nice but I noticied a lot of graphical glitch  
 **\<serhack>** UX must be a prority  
 **\<hyc>** probably OpenGL crap  
@@ -260,9 +260,9 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<Jaquee>** no?  
 **\<rehrar>** Sec  
 **\<serhack>** @krokbaltsar is a UX designer  
-**\<rehrar>** ByteRub UX - Persona and Mobile Wallet Concept  https://www.reddit.com/r/ByteRub/comments/6qkw8e/monero_ux_persona_and_mobile_wallet_concept/  
+**\<rehrar>** ByteRub UX - Persona and Mobile Wallet Concept  https://www.reddit.com/r/ByteRub/comments/6qkw8e/byterub_ux_persona_and_mobile_wallet_concept/  
 **\<rehrar>** This one.  
-**\<serhack>** https://www.gustafgarnow.com/monerowallet/  
+**\<serhack>** https://www.gustafgarnow.com/byterubwallet/  
 **\<serhack>** ^^ best design  
 **\<serhack>** Oh, maybe same person @rehrar ;)  
 **\<rehrar>** Anyways, it's past time.  

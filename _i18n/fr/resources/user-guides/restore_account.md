@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Systèmes d'exploitation : Windows, Linux, Mac
 
-- Récupérez votre @mnemonic-seed de 25 mots que vous avez sauvegardé lorsque vous avez créé votre ancien @wallet Monero ;
+- Récupérez votre @mnemonic-seed de 25 mots que vous avez sauvegardé lorsque vous avez créé votre ancien @wallet ByteRub ;
 
 ### Application de comptabilité :  monero-wallet-cli
 

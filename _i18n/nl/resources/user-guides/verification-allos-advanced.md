@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # Binary verifiëren: Linux, Mac of Windows via opdrachtregel (geavanceerd)
 
-Voordat je de Monero-software uitpakt, installeert en gebruikt, moet je de binaire bestanden van Monero verifiëren. Dit is de enige manier om er zeker van te zijn dat je de officiële Monero-software gebruikt. Als je een onecht Monero-binary ontvangt (bijvoorbeeld via phishing of een *man-in-the-middle attack*), voorkomt deze methode dat je er gebruik van maakt.
+Voordat je de ByteRub-software uitpakt, installeert en gebruikt, moet je de binaire bestanden van ByteRub verifiëren. Dit is de enige manier om er zeker van te zijn dat je de officiële ByteRub-software gebruikt. Als je een onecht ByteRub-binary ontvangt (bijvoorbeeld via phishing of een *man-in-the-middle attack*), voorkomt deze methode dat je er gebruik van maakt.
 
-Het Monero-team stelt een cryptografisch ondertekende lijst beschikbaar met alle [SHA256](https://en.wikipedia.org/wiki/SHA-2)-hashes, om de integriteit van de binaries te garanderen. Als er met het gedownloade binaire bestand is geknoeid, levert het een [andere hash](https://nl.wikipedia.org/wiki/Hashfunctie) op dan in de lijst.
+Het ByteRub-team stelt een cryptografisch ondertekende lijst beschikbaar met alle [SHA256](https://en.wikipedia.org/wiki/SHA-2)-hashes, om de integriteit van de binaries te garanderen. Als er met het gedownloade binaire bestand is geknoeid, levert het een [andere hash](https://nl.wikipedia.org/wiki/Hashfunctie) op dan in de lijst.
 
 Dit is een geavanceerde handleiding voor de besturingssystemen Linux, Mac en Windows. Hierbij wordt de opdrachtregel gebruikt. We leggen stap voor stap uit hoe je de vereiste software installeert, de ondertekeningssleutel importeert, de benodigde bestanden downloadt en uiteindelijk verifieert dat je binaire bestand authentiek is.
 
@@ -19,7 +19,7 @@ Dit is een geavanceerde handleiding voor de besturingssystemen Linux, Mac en Win
   + [3.1. Hashbestand ophalen](#31-get-hash-file)
   + [3.2. Hashbestand verifiëren](#32-verify-hash-file)
 ### [4. Binary downloaden en verifiëren](#4-download-and-verify-binary)
-  + [4.1. Monero-binary ophalen](#41-get-monero-binary)
+  + [4.1. ByteRub-binary ophalen](#41-get-monero-binary)
   + [4.2. Binary verifiëren op Linux of Mac](#42-binary-verification-on-linux-or-mac)
   + [4.3. Binary verifiëren op Windows](#43-binary-verification-on-windows)
 
@@ -33,11 +33,11 @@ Dit is een geavanceerde handleiding voor de besturingssystemen Linux, Mac en Win
 
 ## 2. Ondertekeningssleutel verifiëren en importeren
 
-In dit gedeelte leggen we uit hoe je de Monero-ondertekeningssleutel ophaalt, controleert of deze correct is en de sleutel importeert in GnuPG.
+In dit gedeelte leggen we uit hoe je de ByteRub-ondertekeningssleutel ophaalt, controleert of deze correct is en de sleutel importeert in GnuPG.
 
 ### 2.1. Ondertekeningssleutel ophalen
 
-Op Windows of een Mac: ga naar [Fluffypony's GPG-sleutel](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de Monero-binaries ondertekent, en sla de pagina op als `fluffypony.asc` in je homedirectory.
+Op Windows of een Mac: ga naar [Fluffypony's GPG-sleutel](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de ByteRub-binaries ondertekent, en sla de pagina op als `fluffypony.asc` in je homedirectory.
 
 Op Linux kun je de ondertekeningssleutel van Fluffypony downloaden door de volgende opdracht op te geven:
 
@@ -135,9 +135,9 @@ Als er **Good signature** in de uitvoer staat, zoals in het voorbeeld, kun je ve
 
 ## 4. Binary downloaden en verifiëren
 
-In dit gedeelte leggen we uit hoe je de Monero-binary voor je besturingssysteem downloadt, de `SHA256`-hash van je download ophaalt en verifieert dat deze correct is.
+In dit gedeelte leggen we uit hoe je de ByteRub-binary voor je besturingssysteem downloadt, de `SHA256`-hash van je download ophaalt en verifieert dat deze correct is.
 
-### 4.1. Monero-binary ophalen
+### 4.1. ByteRub-binary ophalen
 
 Op Windows of een Mac ga je naar [getmonero.org]({{ site.baseurl }}/downloads/) en download je het juiste bestand voor je besturingssysteem. Sla het bestand op in je homedirectory. **Pak de bestanden nog niet uit.**
 
@@ -149,7 +149,7 @@ wget -O monero-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getmonero.org/cli/l
 
 ### 4.2. Binary verifiëren op Linux of Mac
 
-De stappen op zowel Linux als Mac zijn hetzelfde. In een terminal bereken je de `SHA256`-hash van je gedownloade Monero-binary. Als voorbeeld gebruiken we hier het binaire bestand voor 64-bits Linux. Vervang `monero-gui-linux-x64-v0.12.0.0.tar.bz2` door de naam van het binaire bestand dat je hebt gedownload in [paragraaf 4.1](#41-get-monero-binary).
+De stappen op zowel Linux als Mac zijn hetzelfde. In een terminal bereken je de `SHA256`-hash van je gedownloade ByteRub-binary. Als voorbeeld gebruiken we hier het binaire bestand voor 64-bits Linux. Vervang `monero-gui-linux-x64-v0.12.0.0.tar.bz2` door de naam van het binaire bestand dat je hebt gedownload in [paragraaf 4.1](#41-get-monero-binary).
 
 ```
 shasum -a 256 monero-gui-linux-x64-v0.12.0.0.tar.bz2
@@ -167,7 +167,7 @@ Als de hash **WEL** overeenkomt, ben je klaar met deze handleiding! Dan kun je d
 
 ### 4.3. Binary verifiëren op Windows
 
-In een terminal bereken je de `SHA256`-hash van je gedownloade Monero-binary. Als voorbeeld gebruiken we hier het binaire bestand voor de 64-bits Windows GUI. Vervang `monero-gui-win-x64-v0.12.0.0.zip` door de naam van het binaire bestand dat je hebt gedownload in [paragraaf 4.1](#41-get-monero-binary).
+In een terminal bereken je de `SHA256`-hash van je gedownloade ByteRub-binary. Als voorbeeld gebruiken we hier het binaire bestand voor de 64-bits Windows GUI. Vervang `monero-gui-win-x64-v0.12.0.0.zip` door de naam van het binaire bestand dat je hebt gedownload in [paragraaf 4.1](#41-get-monero-binary).
 
 ```
 certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-07-02
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-07-02
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -15,7 +15,7 @@ author: el00ruobuob / sarang
 **\<sarang>** For my sake at least, I'm very interested in the current state of folks' projects or undertakings  
 **\<needmoney90>** Does Merkato count?  
 **\<serhack>** Hi :)  
-**\<serhack>** Does Mastering Monero count?  
+**\<serhack>** Does Mastering ByteRub count?  
 **\<sarang>** fo sho  
 **\<needmoney90>** Currently one of the next steps for Merkato is calculating the optimal spread, which is some fun math that scares me  
 **\<sarang>** elaborate?  
@@ -35,7 +35,7 @@ author: el00ruobuob / sarang
 **\<silur>** neither on Lattice-based bulletproofs  
 **\<sarang>** suraeNoether sent me more details on sublinear ring sigs but that was just yesterday  
 **\<sarang>** I'm sure he will have more to say on this  
-**\<serhack>** I just need a technical feedback because I am not sure I wrote anything correctly in Mastering Monero. You can read by viewing this pdf https://masteringmonero.com/book/preview.pdf . Thanks! :)  Feel free to message me for any inputs!  
+**\<serhack>** I just need a technical feedback because I am not sure I wrote anything correctly in Mastering ByteRub. You can read by viewing this pdf https://masteringbyterub.com/book/preview.pdf . Thanks! :)  Feel free to message me for any inputs!  
 **\<silur>** yea that's why RTRS is on hold now, the scheme changed a lot since I started implementing  
 **\<sarang>** yes indeedy  
 **\<suraeNoether>** eek, time got away from me. sorry about that everyone! i'm here, i swear, i'm writing a document on blockdags and got excited :(  
@@ -76,7 +76,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** ...  
 **\<sarang>** suraeNoether: ok, haven't looked into newRTRS at all  
 **\<silur>** which new? :D  
-**\<moneromooo>** By RTRS, you mean the new paper by Ruffing et al ?  
+**\<byterubmooo>** By RTRS, you mean the new paper by Ruffing et al ?  
 **\<silur>** there's like new-new-new-RTRS :D  
 **\<sarang>** lol, the internal paper suraeNoether showed me  
 **\<suraeNoether>** let's say RTRS2  
@@ -167,7 +167,7 @@ author: el00ruobuob / sarang
 **\<silur>** VRF? \*-\*  
 **\<hyc>** sorry was on another call  
 **\<suraeNoether>** i suppose one could imagine it as a VRF.  some random code is generated from a nonce, excecuted, the final state is hashed, and that's the nonce for the proof of work game. puts the burden not on hashing the final output for PoW, but in executing random code  
-**\<hyc>** silur you can catch up here https://www.reddit.com/r/Monero/comments/8bshrx/what\_we\_need\_to\_know\_about\_proof\_of\_work\_pow/  
+**\<hyc>** silur you can catch up here https://www.reddit.com/r/ByteRub/comments/8bshrx/what\_we\_need\_to\_know\_about\_proof\_of\_work\_pow/  
 **\<suraeNoether>** hyc its ok we still love you  
 **\<hyc>** my prototype is here github.com/hyc/randprog but already superseded by tevador's  
 **\<hyc>** https://github.com/tevador/RandomJS  

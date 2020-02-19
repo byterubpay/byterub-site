@@ -58,7 +58,7 @@ author: dEBRUYNE / fluffypony
 **\<quickbasic>** Yes yes. Off.  
 **\<quickbasic>** Ofc  
 **\<rbrunner>** Only a very small thing: The "drop-down" triangles e.g. to the right of "Get Started" are rather small  
-**\<rehrar>** knaccc's suggested content has been placed here: http://45.32.161.183/get-started/what-is-monero/  
+**\<rehrar>** knaccc's suggested content has been placed here: http://45.32.161.183/get-started/what-is-byterub/  
 **\<tficharmers>** I think it's a great. Much improvements. I'd say just get it out there and people will say words and things will get done.  
 **\<xmrscott>** One quick note on translations before they get started....would it be possible to use Transifex?  
 **\<pero>** yea that page is pretty solid now  
@@ -70,7 +70,7 @@ author: dEBRUYNE / fluffypony
 **\<CryptoSiD>** TRAY. i love tray  
 **\<pero>** and yea we need some nitty gritty tech shit somewhere  
 **\<ArticMine>** So one can contribute the tech talk  
-**\<rehrar>** anyone who wants to contribute to the site can find instructions to do so here: https://github.com/rehrar/monero-site-framework/blob/master/website-documentation.md  
+**\<rehrar>** anyone who wants to contribute to the site can find instructions to do so here: https://github.com/rehrar/byterub-site-framework/blob/master/website-documentation.md  
 **\<hyc>** rbrunner: good point. if they could be a bit larger, wouldn't hurt.  
 **\<rehrar>** they are very thorough, and cover how to do most of the things that a regular contribute will want to do  
 **\<ArticMine>** ^ That is my point  
@@ -92,7 +92,7 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** oh hey. ByteRubDirect should read "(non-US only)" - it is not Euro only.  
 **\<netg>** what site are you talking about?  
 **\<ArticMine>** Change can be proposed vis the pr process  
-**\<CryptoSiD>** http://45.32.161.183/get-started/what-is-monero/  
+**\<CryptoSiD>** http://45.32.161.183/get-started/what-is-byterub/  
 **\<hyc>** cool  
 **\<CryptoSiD>** this netg  
 **\<rehrar>** well hyc, with the new documentation, you can submit a PR to change it :D  
@@ -100,9 +100,9 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** but I can do it too :P  
 **\<rehrar>** CryptoSiD: dark version?  
 **\<rehrar>** like...the website has a dark color scheme?  
-**\<netg>** going to be getmonero.org later?  
+**\<netg>** going to be getbyterub.org later?  
 **\<pero>** id also like to flag this  
-**\<pero>** https://github.com/byterubpay/monero-site/issues/290  
+**\<pero>** https://github.com/byterubpay/byterub-site/issues/290  
 **\<CryptoSiD>** yeah exactly  
 **\<rehrar>** yes netg  
 **\<pero>** need someone to do that server-side most likely  
@@ -110,7 +110,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** ye. very important pero. Thanks. Not sure who handles the servers themselves.  
 **\<rehrar>** CryptoSiD: possible, but impractical imo  
 **\<hyc>** perhaps someone can post a catalog of existing pages vs new pages onto that ticket  
-**\<pigeons>** No I don't work with getmonero.org so far  
+**\<pigeons>** No I don't work with getbyterub.org so far  
 **\<pero>** it might be possible to just put empty pages with meta refresh tags on old urls, pointing to new urls  
 **\<rehrar>** this can be discussed further down the road (dark theme)  
 **\<pero>** but idk im not that hands on usually  
@@ -123,23 +123,23 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** keep all the SEOs  
 **\<rehrar>** ok, any final thoughts?  
 **\<rbrunner>** Will somebody watch the site through Google webmaster tools?  
-**\<netg>** if it is a serious project, i can provide a good/semi-good monero domain  
+**\<netg>** if it is a serious project, i can provide a good/semi-good byterub domain  
 **\<serhack>** rehrar: did you see my comment? :)  
 **\<pero>** idk how much 'seo' we actually need  
 **\<rehrar>** about merchant guidelines?  
 **\<pero>** the site will have lots of organic links to it  
 **\<erg1>** I like dark themes too, but I think they are mostly for sites where users will be staring at the screen for hours (to reduce eye strain)  
-**\<netg>** i own xmr.biz monero.pro xmr.su monero.su  
+**\<netg>** i own xmr.biz byterub.pro xmr.su byterub.su  
 **\<serhack>** yeah rehrar  
 **\<netg>** e.g.  
 **\<rehrar>** not sure it's super necessary at this point. We can hit it if we have to, but I don't see a need atm.  
 **\<CryptoSiD>** erg1 good point.  
 **\<pero>** perhaps for keywords such as 'anonymous cryptocurrency' and stuff some seo content might be prudent  
 **\<pero>** if desired  
-**\<rehrar>** netg: it will become getmonero.org  
+**\<rehrar>** netg: it will become getbyterub.org  
 **\<netg>** ok  
 **\<serhack>** okay rehrar :)  
-**\<pero>** but for 'monero' it should be #1 automagically  
+**\<pero>** but for 'byterub' it should be #1 automagically  
 **\<hyc>** then github needs a dark theme :P  
 **\<rehrar>** alright  
 **\<rehrar>** next up  
@@ -164,13 +164,13 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** you can take this point, we'll see how things continue :)  
 **\<sgp>** Some people have since voiced their concerns that the marketing project is being closed until further notice. They feel that marketing should live alongside community. I personally feel that the community involved only in marketing is too small, and those interested in marketing will be welcomed to share their ideas on ByteRub Community. However, if there are enough people interested in a separate marketing community, please express your  
 interest below. If it is strong enough, we may develop both communities simultaneously.  
-**\<serhack>** https://trends.google.com/trends/explore?q=monero  
+**\<serhack>** https://trends.google.com/trends/explore?q=byterub  
 **\<pero>** there might be a seo arms race vs other shitcoins but odds are we just wont win that anyway if they decide to spend $ manipulating  
 **\<serhack>** ^^ useful link  
 **\<netg>** and unique content, which differs to other coins  
 **\<ArticMine>** Community drives marketing in my opinion  
 **\<netg>** no to generic stuff  
-**\<serhack>** and http://www.alexa.com/siteinfo/getmonero.org#trafficstats  
+**\<serhack>** and http://www.alexa.com/siteinfo/getbyterub.org#trafficstats  
 **\<sgp>** Let's move the discussion to #2 for now. We can talk about the other stuff later if there is time  
 **\<rehrar>** Well from my understanding, we're going to be moving to a work-group oriented approach. Where there are different work groups for different aspects of ByteRub.  
 **\<netg>** like we had 2 years ago  
@@ -192,7 +192,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<rehrar>** may I give an example that I had given previously in markets about what strong marketing can be?  
 **\<hyc>** sgp: that's kinda what I thought  
 **\<ArticMine>** If we focus on community we will get the best markeing  
-**\<serhack>** I think we should spread monero as money like "Accept payment with monero" or something like this.  
+**\<serhack>** I think we should spread byterub as money like "Accept payment with byterub" or something like this.  
 **\<rehrar>** Imagine a video that is made. Format doesn't matter. Graphics like Savandra or a talking head or whatever. Talking about privacy, why it's important, and the issues we face today that are privacy oriented. We don't even have to mention ByteRub. It's just privacy education.  
 **\<erg1>** pigeons: yes, I agree.  My problem with "marketers" (promoters) is motivation.  Typically they only want to pump the price.  Far different than spreading the word on improving people's lives.  
 **\<ArticMine>** Those kind of things can be irritating  
@@ -205,9 +205,9 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<rehrar>** I am a privacy advocate, so all of my personal marketing efforts will be educational and privacy oriented  
 **\<serhack>** good rehrar  
 **\<ArticMine>** Focus on customer service / support  
-**\<xmrscott>** Not to detract, but would here be a good place to also highlight the monero-support channel with all this multi channel discussion?  
+**\<xmrscott>** Not to detract, but would here be a good place to also highlight the byterub-support channel with all this multi channel discussion?  
 **\<netg>** dont accept people with their own agendas (pushing their private sites, their ego whatever)  
-**\<sgp>** Based on the discussion, it seems like ByteRub Marketing will currently stay a part of ByteRub Community unless there is an active movement and community to separate it. If someone wants to do this, let us know by PM, in monero-community or monero, and /r/ByteRubCommunty or /r/ByteRub  
+**\<sgp>** Based on the discussion, it seems like ByteRub Marketing will currently stay a part of ByteRub Community unless there is an active movement and community to separate it. If someone wants to do this, let us know by PM, in byterub-community or byterub, and /r/ByteRubCommunty or /r/ByteRub  
 **\<hyc>** sounds fine  
 **\<ArticMine>** I agree  
 **\<sgp>** Moving on to #3: ByteRub Site – final thoughts  
@@ -215,7 +215,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** The new ByteRub website is nearing completion. We would like for you to share your final ideas. The new website is currently live at http://45.32.161.183/  
 **\<rehrar>** I still have hold of the ByteRub Marketing subreddit in case it needs to revive for whatever reason, so there's no big deal on whatever decision we make right now  
 **\<rehrar>** already done the Site sgp  
-**\<sgp>** Some text can be updated, and we would like people to make improvements to the website. The guide for updating the repository is here https://github.com/rehrar/monero-site-framework/blob/master/website-documentation.md  
+**\<sgp>** Some text can be updated, and we would like people to make improvements to the website. The guide for updating the repository is here https://github.com/rehrar/byterub-site-framework/blob/master/website-documentation.md  
 **\<sgp>** (ok sorry)  
 **\<rehrar>** no worries  
 **\<rehrar>** pero had to leave early, so we did that first  
@@ -229,9 +229,9 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<floam412>** cryptochangement, agreed  
 **\<rehrar>** cryptochangement: shoot me a message, what doesn't work well?  
 **\<quickbasic>** Works okay on Chrome and Firefox mobile for me.  
-**\<sgp>** ByteRub has a Facebook and a Twitter page. https://www.facebook.com/monerocurrency/ & https://twitter.com/monerocurrency  
+**\<sgp>** ByteRub has a Facebook and a Twitter page. https://www.facebook.com/byterubcurrency/ & https://twitter.com/byterubcurrency  
 **\<sgp>** They publish some great content overall, but I want to focus today on the background image for these sites. It’s basically just a web and explains nothing specific to ByteRub.  
-**\<sgp>** For anyone interested in a simple task, try making a simple background image and submit it to /r/ByteRubCommunity or monero-community.  
+**\<sgp>** For anyone interested in a simple task, try making a simple background image and submit it to /r/ByteRubCommunity or byterub-community.  
 **\<sgp>** We will have further discussion about how these social sites can be used in the future, so if anyone is interested in how social media can be used to make ByteRub conversations more effective, please let any of the moderators (or create a post for the entire community to see) after the meeting.  
 **\<floam412>** maybe it was because I was using the default safari, but it came up in two small columns  
 **\<floam412>** the text that is  
@@ -241,7 +241,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** The ByteRub slogan is “secure private untraceable fungible”. I don’t think this is extremely effective, and there has been a lot of discussion in the community to change this slogan of sorts. I want this to be a quick brainstorming session to come up with a new one.  
 **\<ArticMine>** Facebook can be used to promote ByteRub but ByteRub should not be used to promote Facebook  
 **\<sgp>** The slogan needs to appeal to 3 distinct groups: 1) those who care about privacy and have never used cryptocurrency, 2) those who don’t care about privacy and usually use credit, 3) those who have used Bitcoin before. It is hard to appeal to these groups.  
-**\<hyc>** What's the difference btw @monerocurrency and @moneroalert  
+**\<hyc>** What's the difference btw @byterubcurrency and @byterubalert  
 **\<rehrar>** ByteRub: Facebook approved  
 **\<serhack>** rehrar ehehehe  
 **\<erg1>** "Mind your own business!"  
@@ -253,7 +253,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<rehrar>** ByteRub is digital cash. Meet ByteRub.  
 **\<rehrar>** dash.org  
 **\<rbrunner>** Anybody likes my idea to hold a little contest to decide on a slogan?  
-**\<cryptochangement>** spg i personally like "secure" better than "safe" because i think it fits monero better  
+**\<cryptochangement>** spg i personally like "secure" better than "safe" because i think it fits byterub better  
 **\<hyc>** how was the current slogan decided?  
 **\<ArticMine>** sgp This is a trap set by Facebook that most organization fall into  
 **\<netg>** new slogan should be a     request for proposal to the community  
@@ -305,8 +305,8 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<erg1>** something to distinguish "true privacy" from "fake privacy" might be nice.  
 **\<rehrar>** the words for Secure, Private, and Untraceable in esparanto, quick!  
 **\<sgp>** Good thoughts all around here, everyone  
-**\<moneromooo>** aminorex has something that means "no freedom without privacy" or so.  
-**\<moneromooo>** In esperanto I think.  
+**\<byterubmooo>** aminorex has something that means "no freedom without privacy" or so.  
+**\<byterubmooo>** In esperanto I think.  
 **\<ArticMine>** Something simple such as 'Money for all" in Esperanto  
 **\<rehrar>** that'd be legit  
 **\<hyc>** Yeah I'd say we could drop Untraceable from a new slogan. Private should cover it.  
@@ -338,7 +338,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<ArticMine>** and risto  
 **\<netg>** and a mailinglist, documentsharing on google docs  
 **\<netg>** etc.  
-**\<sgp>** I will make threads on /r/ByteRubCommunity for more ideas, and the discussion can obviously continue later on in monero-community  
+**\<sgp>** I will make threads on /r/ByteRubCommunity for more ideas, and the discussion can obviously continue later on in byterub-community  
 **\<sgp>** Moving on  
 **\<sgp>** 6. Community Q&A – forced discussion by topic  
 **\<sgp>** In this section, we will allow for Q&A by topic. When the topic comes up, please ask to be called on to ask a question. Each question will be answered individually before moving on to another person’s question. Please wait until you are called on to ask questions for organizational reasons.  
@@ -346,10 +346,10 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** a. GUI/CLI  
 **\<sgp>** Anyone have any questions? Don't ask them yet please, let's go one at a time  
 **\<rehrar>** (btw, we're trying new stuff out in these meetings, like in this section, feel free to give feedback afterwards)  
-**\<dEBRUYNE>** \<hyc> What's the difference btw @monerocurrency and @moneroalert \<= Former is the official account  
+**\<dEBRUYNE>** \<hyc> What's the difference btw @byterubcurrency and @byterubalert \<= Former is the official account  
 **\<hyc>** OK I have a Q  
 **\<sgp>** @hyc you have the floor, ask away!  
-**\<XMRenthusiast>** It is hard to choose one slogan that is applicable to all users. Based on the data I collected 1+ years ago, I think simple is usually better https://forum.getmonero.org/6/ideas/2536/marketing-research-proposal  
+**\<XMRenthusiast>** It is hard to choose one slogan that is applicable to all users. Based on the data I collected 1+ years ago, I think simple is usually better https://forum.getbyterub.org/6/ideas/2536/marketing-research-proposal  
 **\<hyc>** Do we have plans for getting Android/iOS packages into their app stores yet?  
 **\<sgp>** @hyc afaik, no work has been done there  
 **\<sgp>** But the goal should be to get in the app stores  
@@ -357,7 +357,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** Anyone else have a question?  
 **\<tficharmers>** Do you have to reserve names for app store apps?  
 **\<sgp>** @tficharmers no idea  
-**\<cryptochangement>** i heard that a native ios mymonero app was being worked on, is the source on github?  
+**\<cryptochangement>** i heard that a native ios mybyterub app was being worked on, is the source on github?  
 **\<XMRenthusiast>** I think the native ios app is in a private repo.... but that is the specialty of endogenic  
 **\<sgp>** Ok, moving on to the next one  
 **\<cryptochangement>** XMRenthusiast ok thanks :)  
@@ -376,7 +376,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<floam412>** 7  
 **\<XMRenthusiast>** 8  
 **\<rbrunner>** 5  
-**\<moneromooo>** 4  
+**\<byterubmooo>** 4  
 **\<hyc>** 7  
 **\<erg1>** 4  
 **\<ordtrogen>** 3  
@@ -386,29 +386,29 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<xmrscott>** 7  
 **\<rehrar>** awesome! thank you so much. This will help me as I work on Kovri education stuff. :)  
 **\<sgp>** Any other questions?  
-**\* moneromooo** scratches head  
+**\* byterubmooo** scratches head  
 **\<hyc>** at least anonmimal wasn't here voting less than 10  
 **\<sgp>** @knaccc yes?  
 **\<ordtrogen>** hard to asnwer the kovri question. e g I feel knowledgabe about Tor but know little about Kovri.  
-**\<knaccc>** i'm starting to wonder whether i really do understand what kovri brings to monero if moneromooo says 4  
+**\<knaccc>** i'm starting to wonder whether i really do understand what kovri brings to byterub if byterubmooo says 4  
 **\<ordtrogen>** But they serve similar purpose right?  
 **\<knaccc>** i thought it was pretty straightforward  
 **\<rehrar>** we can talk afterwards ordtrogen :)  
 **\<serhack>** I have to understand how kovri works  
 **\* floam412** raises hand  
-**\<moneromooo>** I kinda answered as "do you understand how it works".  
+**\<byterubmooo>** I kinda answered as "do you understand how it works".  
 **\<mowwy>** I'd throw a 8  
-**\<rehrar>** oh, my bad moneromooo, poorly phrased question I guess  
+**\<rehrar>** oh, my bad byterubmooo, poorly phrased question I guess  
 **\<ordtrogen>** Admit I haven't read up on it  
-**\<knaccc>** moneromooo oh ok. i think you were answering differently then :)  
+**\<knaccc>** byterubmooo oh ok. i think you were answering differently then :)  
 **\<cryptochangement>** kovri is a c++ router for the i2p network, which is similiar to tor but not really (pretty vague answer... but yeah)  
 **\<hyc>** with pixie dust added  
-**\<rehrar>** moneromooo is just very humble  
+**\<rehrar>** byterubmooo is just very humble  
 **\<sgp>** Next question, @floam412  
 **\<mowwy>** Also sorry, stepped out for a second. Would also like to voice support for something slick translated to Esperanto.  
-**\<floam412>** are we planning on using kovri through the monero GUI/CLI client to directly connect to i2p?  
+**\<floam412>** are we planning on using kovri through the byterub GUI/CLI client to directly connect to i2p?  
 **\<floam412>** or how does that work?  
-**\<moneromooo>** At some point, yes.  
+**\<byterubmooo>** At some point, yes.  
 **\<floam412>** like could/would it possibly be used to be a sort of "browser"?  
 **\<sgp>** That way the client can push the transaction broadcast out to other nodes with I2P  
 **\<XMRenthusiast>** Esperanto help offered today: https://www.reddit.com/r/ByteRub/comments/6ksny0/question_how_do_i_contribute_to_the_guis/  
@@ -424,7 +424,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<rehrar>** right, good clarification pigeons  
 **\<ArticMine>** User can also choose all I2P or all IPv4  
 **\<sgp>** @cryptochangement exactly  
-**\<XMRenthusiast>** https://monero.stackexchange.com/questions/16/why-was-i2p-chosen-over-tor-for-native-monero-integration  
+**\<XMRenthusiast>** https://byterub.stackexchange.com/questions/16/why-was-i2p-chosen-over-tor-for-native-byterub-integration  
 **\<netg>** tor, i2p, zeronet,hyperboria  
 **\<floam412>** ohh ok.. I think that makes a little bit more sense.  So it's not like you can view an eepsite through the GUI or something like that  
 **\<pigeons>** well arcticmine said it too i see :0  
@@ -439,7 +439,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** d. Roadmap  
 **\<sgp>** Anyone have a question?  
 **\<hyc>** you skipped c?  
-**\<pigeons>** because the goal isnt to support privacy overlay networks, the goal is to reduce some points of leakage in monero  
+**\<pigeons>** because the goal isnt to support privacy overlay networks, the goal is to reduce some points of leakage in byterub  
 **\<sgp>** oops  
 **\<sgp>** long day  
 **\<sgp>** c. Recent developments  
@@ -457,7 +457,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<netg>** lol  
 **\<cryptochangement>** netg nice nice lol  
 **\<rehrar>** netg, I may be in touch with you soon then, when I get translations up and running later  
-**\<XMRenthusiast>** we have this as a good starting point: https://lafudoci.gitbooks.io/monero-xmr/content/  
+**\<XMRenthusiast>** we have this as a good starting point: https://lafudoci.gitbooks.io/byterub-xmr/content/  
 **\<hyc>** great  
 **\<xmrscott>** Agrees, ByteRub isn't overly useful if the official docs aren't in Chinese  
 **\<hyc>** that's traditional Chinese, not Simplified  
@@ -465,7 +465,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<hyc>** still a good starting point  
 **\<ordtrogen>** Yes it is. Hong kong or Taiwan?  
 **\<hyc>** Taiwan  
-**\<netg>** write me on bitcointalk or monero forum, i am: dewdeded  
+**\<netg>** write me on bitcointalk or byterub forum, i am: dewdeded  
 **\<rehrar>** alright  
 **\<netg>** but i need time to reply  
 **\<sgp>** d. Roadmap  
@@ -473,11 +473,11 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** Anyone have a question?  
 **\* floam412** raises hand   
 **\<sgp>** @floan412, go ahead  
-**\<floam412>** Is the FFS opened sourced or planned to be?  What is the likely hood of potentially getting charities and/or privacy advocates such as Wikileaks, ACLU, etc. to use monero as a source of donation?  
+**\<floam412>** Is the FFS opened sourced or planned to be?  What is the likely hood of potentially getting charities and/or privacy advocates such as Wikileaks, ACLU, etc. to use byterub as a source of donation?  
 **\<hyc>** those sound like 2 completely unrelated questions  
-**\<XMRenthusiast>** I think it will be easier for privacy advocates to accept monero donations once paybee/globee has launced  
+**\<XMRenthusiast>** I think it will be easier for privacy advocates to accept byterub donations once paybee/globee has launced  
 **\<floam412>** hyc, I guess your right... paybee might be what I was looking for  
-**\<floam412>** just an easy way to accept monero  
+**\<floam412>** just an easy way to accept byterub  
 **\<sgp>** Not sure if the FFS is open-source, but any group can have a similar system for their charity on their own website  
 **\<hyc>** fwiw, we finally got this page fixed https://privacytoolsio.github.io/privacytools.io/#cryptocurrency  
 **\<rehrar>** The FFS is more of an applied idea, no?  
@@ -487,14 +487,14 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<knaccc>** hyc nice work!  
 **\<floam412>** ooh, that's awesome hyc.. didn't know they changed that  
 **\<XMRenthusiast>** great news hyc! the SDC mention was annoying since it was already abandoned by its devs  
-**\<floam412>** yeah, the more I think of it, FFS would only work for charities... but I was thinking of getting monero to go toward a better good than just speculation  
+**\<floam412>** yeah, the more I think of it, FFS would only work for charities... but I was thinking of getting byterub to go toward a better good than just speculation  
 **\<hyc>** yep. and yes, I'd like to see zcash and dash descriptions tweaked too  
 **\<sgp>** https://github.com/privacytoolsIO/privacytools.io/pull/241  
 **\<sgp>** Anyone else have a question?  
 **\<sgp>** @rehrar, go  
 **\<rehrar>** more of a comment, but question for feedback  
 **\<rehrar>** while we're talking about the FFS  
-**\<nioc>** in response to "slogan" and \<moneromooo> aminorex has something that means "no freedom without privacy" or so.  In esperanto I think it is "Sine secretum non libertas" in latin which means something like "Without privacy no liberty."  
+**\<nioc>** in response to "slogan" and \<byterubmooo> aminorex has something that means "no freedom without privacy" or so.  In esperanto I think it is "Sine secretum non libertas" in latin which means something like "Without privacy no liberty."  
 **\<sgp>** Lol you're running this meeting too, remember :p  
 **\<rehrar>** I've rewritten and updated some terms  
 **\<rehrar>** https://github.com/rehrar/meta/tree/master/FFS  

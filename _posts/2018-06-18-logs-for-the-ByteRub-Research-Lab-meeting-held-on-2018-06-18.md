@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-06-18
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-06-18
 summary: MRL work, DefCon plans, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -8,7 +8,7 @@ author: el00ruobuob / surae
 
 # Logs  
 
-**\<suraeNoether>** fluffypony knaccc luigi1111 anonimal binaryFate chachasmooth dEBRUYNE endogenic erciccione\_[m] gingeropolous hyc iDunk isthmuscrypto john\_alan JollyMort[m] jwinterm kenshi84 kerber m2049r[m] moneromooo MoroccanMalinois needmoney90 nioc othe philkode pigeons rehrar rrol[m] sarang sgp\_[m] stoffu unknownids vtnerd waxwing, research meeting in three minutes~  
+**\<suraeNoether>** fluffypony knaccc luigi1111 anonimal binaryFate chachasmooth dEBRUYNE endogenic erciccione\_[m] gingeropolous hyc iDunk isthmuscrypto john\_alan JollyMort[m] jwinterm kenshi84 kerber m2049r[m] byterubmooo MoroccanMalinois needmoney90 nioc othe philkode pigeons rehrar rrol[m] sarang sgp\_[m] stoffu unknownids vtnerd waxwing, research meeting in three minutes~  
 **\<suraeNoether>** and of course UkoeHB who is already here and aware :D  
 **\<silur>** it's time \\o/  
 **\<ArticMine>** Hi  
@@ -42,7 +42,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** Allright, moving on  
 **\<suraeNoether>** I've been discussing our multisig scheme with UkoeHB and a few other folks. I have contacted one of the musig authors about an issue UkoeHB brought up. It's... causing me sufficient pause to reach out. Essentially, my first (and second and third) reading of the scheme seems to allow for a replay attack  
 **\<silur>** our multisig scheme ?= RTRS multisig?  
-**\<moneromooo>** no, threshold sigs.  
+**\<byterubmooo>** no, threshold sigs.  
 **\<suraeNoether>** the musig scheme + our scheme. it \*seems\* to allow an honest adversary to be cloned or rewound in a way that may be dangerous. of course, in the musig paper there is a whole section on derandomization and not re-using signature data... this is a \*known issue\* but I'm not sure if their security model is sufficient.   
 **\<suraeNoether>** our threshold scheme, not RTRS  
 **\<suraeNoether>** so, due to this, i've gone back to some older papers on multisignatures and simulation theory to look into it  
@@ -54,7 +54,7 @@ author: el00ruobuob / surae
 **\<ArticMine>** The concepts are very simple and elegant if we work at the protocol level and change the penalty from block size to block weight  
 **\<suraeNoether>** dEBRUYNE: eh, essentially we are merely changing the fee structure to count the outputs in a block instead of absolute size in bits, or bytes, or kb, or what have you, that's the core idea of the change  
 **\<ArticMine>** Strictly speaking we are changing the penalty formula to take into account ^  
-**\<suraeNoether>** other than that (deep diving into the simulation theory and the dark corners of the multisig world), I wanted to see what other folks are working on (silur?), and maybe chat about defcon first, a monero conference second, and a MAGIC conference in privacy technologies third. things seem so quiet around here without sarang  
+**\<suraeNoether>** other than that (deep diving into the simulation theory and the dark corners of the multisig world), I wanted to see what other folks are working on (silur?), and maybe chat about defcon first, a byterub conference second, and a MAGIC conference in privacy technologies third. things seem so quiet around here without sarang  
 **\<ArticMine>** The fees then follow with essentially no change other than the minimum fee to account fro the much lower overall weight  
 **\<rehrar>** sarang was the heart and soul of MRL  
 **\<ArticMine>** A very important distinction is that the penalty formula is consensus while the fees are not  
@@ -89,7 +89,7 @@ author: el00ruobuob / surae
 **\<ArticMine>** also  
 **\<suraeNoether>** nice  
 **\<suraeNoether>** i heard something about a booth  
-**\<suraeNoether>** i believe that sarang and I both declined actually having an MRL booth, but I'm happy to sit around at the monero booth for awhile, presuming... we have a booth (and now the word booth is meaningless, it's been said too much.  like the word kiosk)  
+**\<suraeNoether>** i believe that sarang and I both declined actually having an MRL booth, but I'm happy to sit around at the byterub booth for awhile, presuming... we have a booth (and now the word booth is meaningless, it's been said too much.  like the word kiosk)  
 **\<rehrar>** hmmm....then there was a misunderstanding  
 **\<rehrar>** I thought it was "we'd man the booth if there was one, but not for the whole time cuz we want to enjoy the conference"  
 **\<rehrar>** I'll communicate and change that right away if I was incorrect.  
@@ -107,14 +107,14 @@ author: el00ruobuob / surae
 **\<rehrar>** we'll get you a tshirt, but it may not be what you expect  
 **\<rehrar>** ;P  
 **\<rehrar>** anyways, nothing else regarding defcon as far as I know  
-**\<suraeNoether>** okay, so, in terms of other conferences, we originally had this idea to have the first Monero conference in Denver next spring, perhaps funded or hosted by the MAGIC non-profit (me, rehrar, sgp, and sarang and some non-monero-related people)  
-**\<suraeNoether>** but we are trying to keep MAGIC more or less separate from Monero, (we are looking for some non-monero members to be on the board) becuase it's an educational organization, not a project-oriented one  
+**\<suraeNoether>** okay, so, in terms of other conferences, we originally had this idea to have the first ByteRub conference in Denver next spring, perhaps funded or hosted by the MAGIC non-profit (me, rehrar, sgp, and sarang and some non-byterub-related people)  
+**\<suraeNoether>** but we are trying to keep MAGIC more or less separate from ByteRub, (we are looking for some non-byterub members to be on the board) becuase it's an educational organization, not a project-oriented one  
 **\<suraeNoether>** so we are going to host the MAGIC conference as a general privacy enhancing technology conference instead  
 **\<suraeNoether>** and all funding for that will be through MAGIC, we won't be starting an FFS for that  
 **\<suraeNoether>** totally independent  
 **\<suraeNoether>** BUT  
-**\<suraeNoether>** the monero community deserves a freaking technical conference!  
-**\<suraeNoether>** so i wanted to get the community's thoughts on starting a Monero conference-specific FFS. If I took charge of this, I would hire an event organizer to take care of a lot of it and spend time trying to get speakers for the conference.  
+**\<suraeNoether>** the byterub community deserves a freaking technical conference!  
+**\<suraeNoether>** so i wanted to get the community's thoughts on starting a ByteRub conference-specific FFS. If I took charge of this, I would hire an event organizer to take care of a lot of it and spend time trying to get speakers for the conference.  
 **\<silur>** FFS?  
 **\<suraeNoether>** forum funding system  
 **\<silur>** oooh  
@@ -123,7 +123,7 @@ author: el00ruobuob / surae
 **\<silur>** really sorry I gotta run  
 **\<silur>** best to y'all  
 **\<suraeNoether>** ta silur  
-**\<suraeNoether>** okay, the way i figure it, the monero conference is a good use of MRL resources and time, so I'll post it under ideas with the current estimated price tag and we'll see what happens from there. i think anything over-funded should go to the general fund  
+**\<suraeNoether>** okay, the way i figure it, the byterub conference is a good use of MRL resources and time, so I'll post it under ideas with the current estimated price tag and we'll see what happens from there. i think anything over-funded should go to the general fund  
 **\<suraeNoether>** well, we're rounding up on the hour here  
 **\<suraeNoether>** does anyone have any questions?  
 **\<suraeNoether>** maybe about the proceedings at MRL, what's going on recently and what's going to be going on over the next few weeks, any other general questions?  

@@ -57,7 +57,7 @@ permalink: /community/team/index.html
                             <div class="info-block">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <p class="nopad">{% t team.developers_para1 %} <a href="https://www.openhub.net/p/monero/contributors">{% t team.developers_para2 %}</a> {% t team.developers_para3 %}</p>
+                                        <p class="nopad">{% t team.developers_para1 %} <a href="https://www.openhub.net/p/byterub/contributors">{% t team.developers_para2 %}</a> {% t team.developers_para3 %}</p>
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +138,7 @@ permalink: /community/team/index.html
                     <div class="tabPanel-content">
                         <div class="row">
                             {% for toplevel in site.data.team %}
-                                {% if toplevel.area == "Monero Research Lab" %}
+                                {% if toplevel.area == "ByteRub Research Lab" %}
                                     {% for member in toplevel.member %}
                                         <div class="half col-lg-6 col-md-6 col-sm-12 col-xs-6">
                                             <div class="info-block">

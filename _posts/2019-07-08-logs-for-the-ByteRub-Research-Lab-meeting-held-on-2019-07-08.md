@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-07-08
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-07-08
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -68,7 +68,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Righto!  
 **\<nioc>** suraeNoether: people are wondering what the attendance was at konferenco  
 **\<sarang>** At least provide a range proof  
-**\<moneromooo>** 26 people and 172 sybils.  
+**\<byterubmooo>** 26 people and 172 sybils.  
 **\<nioc>** an article in coindesk mentioned 75 which I know is way low  
 **\<suraeNoether>** nioc: i'm finishing up my post-mortem report on the konferenco today (on my action item list). We had 150 swag bags made, with around 30-40 leftover, but we had 27 speakers and like 10 sponsors.  
 **\<nioc>** I estimated 120 just by glancing  
@@ -87,7 +87,7 @@ author: el00ruobuob / sarang
 **\<sarang>** I have many things in progress. Lelantus proof review, modified Omniring split proof analysis, RCT3 analysis, and starting to put together my defcon talk/workshop  
 **\<suraeNoether>** my action items: konferenco post mortem, research report for previous quarter, funding request for the next 3 months, and some debuggin  
 **\<sarang>** I'm doing a talk on transaction protocols (very high level), a workshop on simple cryptographic constructions with Python, and a panel discussion at the blockchain village  
-**\<suraeNoether>** oh and i'm definitely not going to defcon this year. i can ship leftover swag like our USB data blockers with the monero logo and our pull-up banners if someone sends me the information for it  
+**\<suraeNoether>** oh and i'm definitely not going to defcon this year. i can ship leftover swag like our USB data blockers with the byterub logo and our pull-up banners if someone sends me the information for it  
 **\<sarang>** :(  
 **\<sarang>** The pull-up banners would be nice, assuming it's cheaper to ship than to get new ones  
 **\<sarang>** as would the USB blockers  

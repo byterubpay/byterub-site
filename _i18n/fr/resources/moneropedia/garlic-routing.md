@@ -6,7 +6,7 @@ summary: "Technologie de routage telle qu'implémentée dans Kovri"
 
 ### Les Bases
 
-Le terme de *@routage-en-ail* a une histoire aux interprétations variées. A l'heure actuelle, Monero définit le *@routage-en-ail* comme la méthode selon laquelle @Kovri et @I2P créent une surcouche réseau anonyme d'homologue sur Internet basé sur @messages.
+Le terme de *@routage-en-ail* a une histoire aux interprétations variées. A l'heure actuelle, ByteRub définit le *@routage-en-ail* comme la méthode selon laquelle @Kovri et @I2P créent une surcouche réseau anonyme d'homologue sur Internet basé sur @messages.
 
 Le @chiffrement-en-ail du @routage-en-ail est similaire au @chiffrement-par-couche du [routage en oignon](https://en.wikipedia.org/wiki/Onion_routing), il dissimule efficacement l'adresse IP de l'émetteur et sécurise les informations transmises depuis l'émetteur vers sa @destination (et vice-versa).
 

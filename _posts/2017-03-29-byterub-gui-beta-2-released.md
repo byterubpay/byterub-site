@@ -34,7 +34,7 @@ This release was the direct result of 50 people who worked, largely unpaid and a
 - Andreas Brekken
 - maitscha
 - hundehausen
-- moneroj
+- byterubj
 - xmr-eric
 - signo88
 - HugTime
@@ -52,7 +52,7 @@ This release was the direct result of 50 people who worked, largely unpaid and a
 - Daniel Ternyak
 - David Latapie
 - henrud
-- moneromooo
+- byterubmooo
 - Michael Campagnaro
 - taushet
 - schnerchi
@@ -76,18 +76,18 @@ This release was the direct result of 50 people who worked, largely unpaid and a
 - pigeons
 
 ### Official Download Links
-- [Windows, 64-bit](https://downloads.getmonero.org/gui/monero-gui-win-x64-v0.10.3.1.zip)
-- [macOS, 64-bit](https://downloads.getmonero.org/gui/monero-gui-mac-x64-v0.10.3.1.tar.bz2)
-- [Linux, 64-bit](https://downloads.getmonero.org/gui/monero-gui-linux-x64-v0.10.3.1.tar.bz2)
-- [Linux, 32-bit](https://downloads.getmonero.org/gui/monero-gui-linux-x86-v0.10.3.1.tar.bz2)
+- [Windows, 64-bit](https://downloads.getbyterub.org/gui/byterub-gui-win-x64-v0.10.3.1.zip)
+- [macOS, 64-bit](https://downloads.getbyterub.org/gui/byterub-gui-mac-x64-v0.10.3.1.tar.bz2)
+- [Linux, 64-bit](https://downloads.getbyterub.org/gui/byterub-gui-linux-x64-v0.10.3.1.tar.bz2)
+- [Linux, 32-bit](https://downloads.getbyterub.org/gui/byterub-gui-linux-x86-v0.10.3.1.tar.bz2)
 
 ### Download Hashes
 
 If you would like to verify that you have downloaded the correct file, please use the following SHA256 hashes:
 
-- monero-gui-linux-x64-v0.10.3.1.tar.bz2, 4915473265d58720fd8f019e536c2b7fb02648ab51a8087e84aa1e2434788452
-- monero-gui-linux-x86-v0.10.3.1.tar.bz2, 092b49080c3380666845f7f39823b09f4960ea1e250b84b150856ef33ca30690
-- monero-gui-mac-x64-v0.10.3.1.tar.bz2, c80ca68037158216a080e59e90b0a70761cff2f317d3c9cd0eeb661e8e2a1f99
-- monero-gui-win-x64-v0.10.3.1.zip, 0eddd423f5f0df236303d8b9225842142b331093eb69e6183f3f694238c371a7
+- byterub-gui-linux-x64-v0.10.3.1.tar.bz2, 4915473265d58720fd8f019e536c2b7fb02648ab51a8087e84aa1e2434788452
+- byterub-gui-linux-x86-v0.10.3.1.tar.bz2, 092b49080c3380666845f7f39823b09f4960ea1e250b84b150856ef33ca30690
+- byterub-gui-mac-x64-v0.10.3.1.tar.bz2, c80ca68037158216a080e59e90b0a70761cff2f317d3c9cd0eeb661e8e2a1f99
+- byterub-gui-win-x64-v0.10.3.1.zip, 0eddd423f5f0df236303d8b9225842142b331093eb69e6183f3f694238c371a7
 
-A GPG-signed list of the hashes is at https://getmonero.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key in the source code (in /utils/gpg_keys)
+A GPG-signed list of the hashes is at https://getbyterub.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key in the source code (in /utils/gpg_keys)

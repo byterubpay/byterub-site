@@ -2,9 +2,9 @@
 layout: post
 title: ByteRub Missive Special Edition - 2014 Year in Review 
 summary: A review of everything ByteRub accomplished from its inception through to the end of 2014
-tags: [monero missives, year in review, core, funding, accounts, usability, platforms, gui, exchanges, i2p]
+tags: [byterub missives, year in review, core, funding, accounts, usability, platforms, gui, exchanges, i2p]
 author: Riccardo Spagni (fluffypony)
-forum: https://forum.getmonero.org/1/news-and-announcements/134/monday-monero-missives-22-year-in-review-january-5th-2015
+forum: https://forum.getbyterub.org/1/news-and-announcements/134/monday-byterub-missives-22-year-in-review-january-5th-2015
 ---
 
 Hello, and welcome to our twenty-second ByteRub Monday Missive!
@@ -25,7 +25,7 @@ So, what did our ~212 BTC get spent on over the year? Or, in other words, what d
 
 *Core Development*
 
-Well, let's start by excluding a lot of development done in branches on forks, and focusing on the master branch of the git repo. We inherited the ByteRub project pretty much from the end of April, with [thankful_for_today's last commit on April 30th, 2014](https://github.com/byterubpay/bitmonero/commit/e940386f9a8765423ab3dd9e3aabe19a68cba9f9).
+Well, let's start by excluding a lot of development done in branches on forks, and focusing on the master branch of the git repo. We inherited the ByteRub project pretty much from the end of April, with [thankful_for_today's last commit on April 30th, 2014](https://github.com/byterubpay/bitbyterub/commit/e940386f9a8765423ab3dd9e3aabe19a68cba9f9).
 
 In order to see what we did with some pragmatism we took two folders, one containing the ByteRub source on April 30th at that last commit, and one containing the ByteRub source on December 31st. We removed everything in the external/ folder, except the CMakeLists.txt, so that we weren't including external libraries in our count. We then used Araxis Merge to produce a diff report between the two folders (plus Github's compare tool to give us additional information). We then subtracted the license changes we made earlier this year (208 files were affected, which means that for each we have to remove 2 lines from the "removed" count, 1 line from the "changed" count, and 28 lines from the "inserted" count). The summary is below, and whilst it obviously precludes things like where we made several changes to the same line of code, or missteps we reverted, it gives a very general indication of the effort.
 
@@ -129,7 +129,7 @@ Our web hosting serves the ByteRub website, the ByteRub forum, the ByteRub Resea
 
 Testing infrastructure consists of a Mac Mini hosted at MacStadium, as well as a beefy testing box hosted at Hetzner in Germany, on which we have a number of VMs for the various operating systems and variants we target. Our QA lead contributor, Gazby, who has recently started will be bringing the testing infrastructure up to scratch, and adding things like Jenkins for nightly builds and Gitian for deterministic signed releases.
 
-Seeding infrastructure consists of several geographically separated boxes that keep the moneroseeds.se/ae.org/ch/li records updated with active seed nodes.
+Seeding infrastructure consists of several geographically separated boxes that keep the byterubseeds.se/ae.org/ch/li records updated with active seed nodes.
 
 Download hosting consists of several servers scattered across the globe (3x USA, 2x UK, 1x Germany), and it serves all static content including the blockchain downloads, ByteRub binaries, MRL publications, and so on. The ByteRub blockchain alone is downloaded hundreds of times in a month, with our bandwidth usage regularly exceeding 2tb a month across the download nodes. Obviously this provision is not cheap, which is why your continued assistance to this project is greatly appreciated.
 
@@ -195,11 +195,11 @@ Initially this started as a partnership with the i2p team, with a view to gettin
 
 The focus for the past few months has been on i2pd, which has made amazing progress. Since the launch of the PrivacySolutions partnership at the end of July, a series of 692 commits has brought i2pd up to a stage where it can maintain relatively stable connections to the i2p network.
 
-*[ForkGuard](http://forkguard.com) and [ByteRubClub](https://www.moneroclub.com)*
+*[ForkGuard](http://forkguard.com) and [ByteRubClub](https://www.byterubclub.com)*
 
 Both services launched and operated by Atrides, ForkGuard provides realtime information on the current block height for pools and services that run full ByteRub nodes, and ByteRubClub is a listing of localised ByteRub and fiat OTC trade offers. Atrides isn't stopping there, and for his next project he's looking to produce a ByteRub fork of OpenBazaar!
 
-*[MyByteRub](https://mymonero.com)*
+*[MyByteRub](https://mybyterub.com)*
 
 Owned by Riccardo Spagni (fluffypony) and Risto Pietilä (rpietila), and operated by fluffypony, MyByteRub is the first web-based client for ByteRub. In doing so it closes a major end-user usability gap, and goes a long way towards making ByteRub useful and usable.
 
@@ -228,7 +228,7 @@ We have a lot in the pipeline for 2015. A few things that we'd like to highlight
 
 And, undoubtedly, much more both for ByteRub core and related external projects.
 
-Of course, none of this would be possible without donations from our users, and we are most appreciative and grateful to those that have donated thus far. We hope that over the next year you will continue to help and assist us - and don't forget our donation addresses are powered by OpenAlias, both XMR and BTC donation addresses are on donate.getmonero.org
+Of course, none of this would be possible without donations from our users, and we are most appreciative and grateful to those that have donated thus far. We hope that over the next year you will continue to help and assist us - and don't forget our donation addresses are powered by OpenAlias, both XMR and BTC donation addresses are on donate.getbyterub.org
 
 Thank you for a great 2014, and here's to a great 2015!
 

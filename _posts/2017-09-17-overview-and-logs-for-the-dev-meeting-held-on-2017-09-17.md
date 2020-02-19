@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-09-17).  
+An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-09-17).  
 
 # Logs  
 
@@ -33,10 +33,10 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<luigi1111>** Oh hai  
 **\<imheretolearn>** ni hao  
 **\<hyc>** hi  
-**\<fluffypony>** ArticMine / othe / smooth / moneromooo / tewinget / anonimal / endogenic / gingeropolous / iDunk / JacobJeweler / kenshi84 / knaccc / MoroccanMalinoi- / NoodleDoodle / papa\_lazzarou / wallet42 / vtnerd\_ / anyone I forgot  
+**\<fluffypony>** ArticMine / othe / smooth / byterubmooo / tewinget / anonimal / endogenic / gingeropolous / iDunk / JacobJeweler / kenshi84 / knaccc / MoroccanMalinoi- / NoodleDoodle / papa\_lazzarou / wallet42 / vtnerd\_ / anyone I forgot  
 **\<ArticMine>** Greetings  
 **\<iDunk>** o/  
-**\<moneromooo>** You forgot fluffypony in that list.  
+**\<byterubmooo>** You forgot fluffypony in that list.  
 **\<fluffypony>** lol  
 **\<surae>** 22nd century historians are going to have a hell of a time writing books on the birth of cryptocurrency.  
 **\<moroccanmalinois>** Hi  
@@ -75,17 +75,17 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** from mid-December we have some time to test, fix bugs, get the branch stable  
 **\<fluffypony>** (and port fixes to and from master)  
 **\<fluffypony>** with a view to tagging a release as soon as we think there's some stability  
-**\<moneromooo>** 3 months seems maybe a bit large, but let's try it. I'm curious to see how much of a pita it'll be to have to branches.  
-**\<moneromooo>** to have 2  
+**\<byterubmooo>** 3 months seems maybe a bit large, but let's try it. I'm curious to see how much of a pita it'll be to have to branches.  
+**\<byterubmooo>** to have 2  
 **\<fluffypony>** the nice thing is that the release CAN have bugs, because not everyone will upgrade until closer to the hard fork  
 **\<fluffypony>** and so subsequent releases can patch bugs  
 **\<serhack>** Seems good idea fluffypony  
 **\<sarang>** agreed  
-**\<moneromooo>** The only thing is that it only leaves 3 months to get range proof changes in... :/  
+**\<byterubmooo>** The only thing is that it only leaves 3 months to get range proof changes in... :/  
 **\<fluffypony>** it also means we can have loads of small point releases up to the hard fork, because there isn't much that changes except bug fixes  
-**\<moneromooo>** or 9. or 12.  
+**\<byterubmooo>** or 9. or 12.  
 **\<hrumag>** I totally agree with fluffy  
-**\<fluffypony>** moneromooo: if we don't hit the mid-December target then leave it for the next one, we have 6 months thereafter  
+**\<fluffypony>** byterubmooo: if we don't hit the mid-December target then leave it for the next one, we have 6 months thereafter  
 **\<luigi1111>** 3 months seems fine to me. The release can be out a while before the fork with no negatives really  
 **\<fluffypony>** yeah exactly  
 **\<luigi1111>** Besides maybe some delay in new features  
@@ -95,9 +95,9 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** most exchanges / pools will stick to the previous stable release  
 **\<luigi1111>** Mooo we'll just have to get it done by December then:)  
 **\<fluffypony>** some brave ones will upgrade early  
-**\<moneromooo>** ^\_^  
+**\<byterubmooo>** ^\_^  
 **\<luigi1111>** Since like, ms is working and such  
-**\<moneromooo>** -\_-  
+**\<byterubmooo>** -\_-  
 **\<fluffypony>** the real issue is that we have to decide on a new release name within the next 3 months  
 **\<fluffypony>** :-P  
 **\<knaccc>** Iridium Iris  
@@ -125,63 +125,63 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** there's a release naming doc in the meta repo  
 **\<imheretolearn>** iridium iris will have range proofs improvements, larger ring size multi sig and encrypted payment ids. major release  
 **\<luigi1111>** Ugh stop talking about release names  
-**\<moneromooo>** \^  
-**\<moneromooo>** Get on with it :D  
+**\<byterubmooo>** \^  
+**\<byterubmooo>** Get on with it :D  
 **\<fluffypony>** let's move on  
 **\<fluffypony>** 3. Code + ticket discussion / Q & A  
 **\<fluffypony>** I'd like to start merging in the big PRs that have been hanging around  
 **\<hyc>** there's still a good number of PRs that could be merged soon. should we be planning a point release in the next month or two?  
 **\<fluffypony>** sub-addresses, multisig, 0MQ, etc.  
 **\<fluffypony>** hyc: yes - I had to first merge the PRs that were already merged in the branch, which I finished a couple of days ago  
-**\<moneromooo>** For the record: multisig is not ready yet. It's got a DO NOT MERGE sign.  
+**\<byterubmooo>** For the record: multisig is not ready yet. It's got a DO NOT MERGE sign.  
 **\<fluffypony>** ok  
-**\<fluffypony>** moneromooo: is it waiting on code or MRL stuff?  
+**\<fluffypony>** byterubmooo: is it waiting on code or MRL stuff?  
 **\<luigi1111>** yes  
-**\<knaccc>** I just wanted to point out, in case it had slipped through the cracks, that kenshi84 has partially implemented subaddresses in the GUI but there are wireframe mockups he wasn't able to implement because he's not used Qt much before. The mockups suggested to be implemented are here https://github.com/byterubpay/monero-core/pull/793#issuecomment-314477091  
-**\<moneromooo>** It's waiting on me making core tests for it, and cleaning up.  
-**\<moneromooo>** And the core tests are a massive pita.  
-**\<fluffypony>** moneromooo: ok cool  
-**\<fluffypony>** moneromooo: is it worth looking at a different test framework?  
+**\<knaccc>** I just wanted to point out, in case it had slipped through the cracks, that kenshi84 has partially implemented subaddresses in the GUI but there are wireframe mockups he wasn't able to implement because he's not used Qt much before. The mockups suggested to be implemented are here https://github.com/byterubpay/byterub-core/pull/793#issuecomment-314477091  
+**\<byterubmooo>** It's waiting on me making core tests for it, and cleaning up.  
+**\<byterubmooo>** And the core tests are a massive pita.  
+**\<fluffypony>** byterubmooo: ok cool  
+**\<fluffypony>** byterubmooo: is it worth looking at a different test framework?  
 **\<luigi1111>** all of these things are not forking, so could be added whenever  
-**\<moneromooo>** Not really, core tests are great, powerful, and I love them. I also hate them.  
-**\<moneromooo>** Once they work, they're really great.  
+**\<byterubmooo>** Not really, core tests are great, powerful, and I love them. I also hate them.  
+**\<byterubmooo>** Once they work, they're really great.  
 **\<fluffypony>** knaccc: ok cool, hopefully someone can pick that work up  
 **\<luigi1111>** n-1 only recently started working, so I assume it needs some testing etc  
 **\<surae>** sarang and i are nearing completion on both the multisig paper, which requires new security definitions, and the sub-address paper (and that scheme looks pretty good!). the multisig stuff, if you held a gun to my head, i would say is secure, but until the proofs are written up, i don't want to say anything about it definitively  
 **\<fluffypony>** knaccc: else if we need to find a QtQuick developer and pay them we can afford to do so  
 **\<hyc>** so should we continue to PR to the release branch in addition to master?  
 **\<surae>** we anticipate both of those papers to be done as MRL bulletins by end of November.  
-**\<moneromooo>** I hope not.  
+**\<byterubmooo>** I hope not.  
 **\<fluffypony>** hyc: no  
 **\<fluffypony>** release branch is for bug fixes only  
 **\<fluffypony>** surae: ok great  
 **\<hyc>** ok  
 **\<i2p-relay> {-lightfighter}** is there a README for writing new tests? if not could one be added?  
-**\<moneromooo>** No. Sure.  
+**\<byterubmooo>** No. Sure.  
 **\<fluffypony>** @lightfighter no there isn't, but it's something you could tackle if you're up for it  
 **\<fluffypony>** on the topic of tests  
-**\<moneromooo>** But really, I start from an existing one.  
+**\<byterubmooo>** But really, I start from an existing one.  
 **\<fluffypony>** if anyone is unfamiliar with the codebase and wants to learn, adding tests is literally the best way  
 **\<fluffypony>** there are tons of things that lack unit tests  
-**\<moneromooo>** Unit tests are very easy to add.  
+**\<byterubmooo>** Unit tests are very easy to add.  
 **\<fluffypony>** need moar test coverage plx  
 **\<surae>** unit tests are. so. freaking. helpful.  
-**\<moneromooo>** Though they might need API changes to expose bits and bobs.  
+**\<byterubmooo>** Though they might need API changes to expose bits and bobs.  
 **\<hyc>** in that regard, might be nice to appoint a release/test manager, responsible to either run tests or collect test results from the community  
 **\<fluffypony>** hyc: good idea  
 **\<parasew>** will definitely start implementing tests, its in a way comforting :)  
 **\<fluffypony>** I wonder if we couldn't build a little web API that people could submit test results to  
 **\<i2p-relay> {-lightfighter}** fluffypony: i'd be happy to start working on test docs. is the GTest primer a good place to start?  
-**\<moneromooo>** https://github.com/byterubpay/monero/issues ?  
+**\<byterubmooo>** https://github.com/byterubpay/byterub/issues ?  
 **\<vtnerd>** boost has some such framework, but I dont know much about it  
-**\<parasew>** on another note: in the current gui-release, the mining has issues -- other people also reported at monero meetup.  
+**\<parasew>** on another note: in the current gui-release, the mining has issues -- other people also reported at byterub meetup.  
 **\<vtnerd>** various members run machines on various processors / platforms  
 **\<i2p-relay> {-lightfighter}** also agree that writing tests is best way to learn codebase (my main motivation for doing so)  
 **\<fluffypony>** parasew: then they must open an issue on GitHub  
-**\<dEBRUYNE>** parasew: Already reported on monero-core github repository  
+**\<dEBRUYNE>** parasew: Already reported on byterub-core github repository  
 **\<parasew>** fluffypony ofc, will pass that on.  
 **\<parasew>** dEBRUYNE which issue?  
-**\<dEBRUYNE>** https://github.com/byterubpay/monero-core/issues/877  
+**\<dEBRUYNE>** https://github.com/byterubpay/byterub-core/issues/877  
 **\<parasew>** dEBRUYNE ty, will also have a look!  
 **\<fluffypony>** let's give some thought to a reportable web API that can collate test results, we'll figure out a nice way of doing it  
 **\<hyc>** a web tool sounds like a great idea. I don't know of one at the moment.  
@@ -193,24 +193,24 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** agreed  
 **\<rehrar>** Will look into it  
 **\<fluffypony>** we'd probably have to roll our own tool for this, let's see  
-**\<moneromooo>** Anyone who knows about DNS/DNSSEC btw ? We need to fix how we do that apparently, but I know nothing aobut DNS :/  
-**\<moneromooo>** Thoise are the failing unit tests.  
+**\<byterubmooo>** Anyone who knows about DNS/DNSSEC btw ? We need to fix how we do that apparently, but I know nothing aobut DNS :/  
+**\<byterubmooo>** Thoise are the failing unit tests.  
 **\<dEBRUYNE>** I suppose though that if we'd create something like that someone still has to create issues on github  
 **\<surae>** sarang? know anything about DNS?  
 **\<hyc>** DNSSEC in particular  
 **\<sarang>** Protocol? Some. Implementations? Negatory  
 **\<hyc>** we need to find out why libunbound is complaining now  
-**\<moneromooo>** The complaint's likely unrelated, and due to the openssl config.  
-**\<moneromooo>** (assuming you mean the "invalid algorithm" or so)  
+**\<byterubmooo>** The complaint's likely unrelated, and due to the openssl config.  
+**\<byterubmooo>** (assuming you mean the "invalid algorithm" or so)  
 **\<fluffypony>** could be openssl related  
 **\<hyc>** yes. I've only hit that in the past with a crippled Android libssl  
 **\<hyc>** so I'm surprised to see it on an up-to-date desktop build  
 **\<fluffypony>** I'm also open to dumping unbound in favour of another library  
 **\<fluffypony>** we literally only use it for DNS / DNSSEC  
-**\<moneromooo>** Guess I'll have a look to see what libraries there are for this.  
+**\<byterubmooo>** Guess I'll have a look to see what libraries there are for this.  
 **\<parasew>** is there an irc log online somewhere? (i came a bit late)  
 **\<fluffypony>** ok let's do that, Unbound has been a PITA for a while  
-**\<moneromooo>** Or... leave it till someone who knows about DNS pops in...  
+**\<byterubmooo>** Or... leave it till someone who knows about DNS pops in...  
 **\<fluffypony>** parasew: it'll be posted up after  
 **\<surae>** parasew the minutes will be posted after the meeting  
 **\<fluffypony>** ok let's move on  
@@ -220,8 +220,8 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** we already covered that  
 **\<fluffypony>** so moving on  
 **\<fluffypony>** 5. Maintainer: migrating luigi1111 from backup maintainer to lead maintainer on GUI and site  
-**\<moneromooo>** Does he agree to ? :)  
-**\<fluffypony>** well, moneromooo, luigi1111 has gone full-time crypto since he's made millions from the ByteRub ICO  
+**\<byterubmooo>** Does he agree to ? :)  
+**\<fluffypony>** well, byterubmooo, luigi1111 has gone full-time crypto since he's made millions from the ByteRub ICO  
 **\<dEBRUYNE>** No we forced him :P  
 **\<hyc>** lol  
 **\<fluffypony>** so he can merge from atop the mountain in his Lambo  
@@ -249,14 +249,14 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** lol  
 **\<fluffypony>** ok  
 **\<fluffypony>** 5. Any additional meeting items  
-**\<imheretolearn>** globee or mymonero updates?  
+**\<imheretolearn>** globee or mybyterub updates?  
 **\<scoobybejesus>** Mooo and other FFS to fund, perhaps  
 **\<hyc>** app store progress?  
 **\<serhack>** Ffs?  
 **\<fluffypony>** MyByteRub Google account is ready  
 **\<fluffypony>** waiting on our D-U-N-S number for Apple  
 **\<fluffypony>** or as endogenic joked, we're waiting on our DUNCE number  
-**\<serhack>** How many monero have we collected for ffs?  
+**\<serhack>** How many byterub have we collected for ffs?  
 **\<fluffypony>** scoobybejesus: huh?  
 **\<dEBRUYNE>** I think scoobybejesus suggests to discuss the FFS proposals (if we want to)  
 **\<fluffypony>** serhack: open them and check  
@@ -267,38 +267,38 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<sarang>** We'll wait while everyone reads all 12 pages  
 **\<surae>** PM us with edits and comments. sarang and i both have edit access  
 **\<fluffypony>** surae: only thing I'd like to add there in section 7 is a note about zk-STARKs being preferable since no trustless setup, but memory / CPU requirements are too high atm, so maybe we just stick to zk-SNARKs in the interim  
-**\<moneromooo>** We'll have to decide on an ordering for merging stuff, because there's a glut again, and that means conflicts.  
-**\<moneromooo>** How about 0MQ first ?  
+**\<byterubmooo>** We'll have to decide on an ordering for merging stuff, because there's a glut again, and that means conflicts.  
+**\<byterubmooo>** How about 0MQ first ?  
 **\<Olufunmilayo>** fluffypony, nvm, now that I typed it up and re read scroll back it has already been addressed  
 **\<surae>** fluffypony: zk-starks aren't published yet and afaik only the creators have even pseudocode. currently, unless i'm wrong, zk-starks are a myth, and until i see some proofs otherwise, i'm going to pretend like they aren't available yet. but i can mention them as a "next step" under section 7  
 **\<hyc>** yeah, let's go with older PRs first  
 **\<hyc>** although for gdb sanity I would like threadpool to go in soon.  
 **\<Jaquee>** shouldnt threadpool be added to release branch?  
 **\<sarang>** On a meta-MRL note, I'd like to offer my thanks to everyone who supported the FFS to bring me aboard  
-**\<msvb-lab>** moneromooo: I think it's pretty great we're integrating 0MQ, but I'm not that qualified to vote on PR arangement.  
+**\<msvb-lab>** byterubmooo: I think it's pretty great we're integrating 0MQ, but I'm not that qualified to vote on PR arangement.  
 **\<fluffypony>** surae: sounds good  
-**\<fluffypony>** moneromooo: I agree - 0MQ and DRY PRs, and then threadpool?  
-**\<moneromooo>** OK  
+**\<fluffypony>** byterubmooo: I agree - 0MQ and DRY PRs, and then threadpool?  
+**\<byterubmooo>** OK  
 **\<hyc>** Jaquee: not sure threadpool counts as a bugfix  
-**\<dEBRUYNE>** moneromooo: Did you manage to provide feedback to tewinget?  
-**\<moneromooo>** Many times.  
+**\<dEBRUYNE>** byterubmooo: Did you manage to provide feedback to tewinget?  
+**\<byterubmooo>** Many times.  
 **\<dEBRUYNE>** I think he asked for that, but you were busy with the release  
-**\<surae>** also, the section on untraceability in monero... i need some opinions on that, too, but i want people's fresh impressions of that section. i had a certain intention when i was writing it and i want to see how well it came across  
+**\<surae>** also, the section on untraceability in byterub... i need some opinions on that, too, but i want people's fresh impressions of that section. i had a certain intention when i was writing it and i want to see how well it came across  
 **\<tewinget>** sorry, was slightly afk  
-**\<moneromooo>** Is there a list of things he wanted feedback on ?  
+**\<byterubmooo>** Is there a list of things he wanted feedback on ?  
 **\<dEBRUYNE>** tewinget \^  
 **\<tewinget>** saw my screen blink  
 **\<fluffypony>** Jaquee: I agree with hyc - let's avoid merging anything that could be wonky if we can, release seems to be reasonably stable  
 **\<Jaquee>** all right  
 **\<Jaquee>** we can live with a little unresponsiveness i guess  
 **\<Jaquee>** in gui ^^  
-**\<moneromooo>** er... did you check it fixed your problenm in the first place ?  
-**\<moneromooo>** I'm pretty sure it won't.  
+**\<byterubmooo>** er... did you check it fixed your problenm in the first place ?  
+**\<byterubmooo>** I'm pretty sure it won't.  
 **\<Jaquee>** no i havent  
-**\<hyc>** it's worth checking. I also see responsiveness issues in current 0.11, monerod spawns too many threads during verification  
+**\<hyc>** it's worth checking. I also see responsiveness issues in current 0.11, byterubd spawns too many threads during verification  
 **\<aerbax>** With regards to the MyByteRub AppStore deployments.  If Google/Android is ready, are there any ongoing issues that would prevent a release?  
 **\<dEBRUYNE>** I think they want to release all platforms in conjunction  
-**\<Jaquee>** are we using the same DUNS/account for monero apps?  
+**\<Jaquee>** are we using the same DUNS/account for byterub apps?  
 **\<fluffypony>** Jaquee: no, completely separate one  
 **\<fluffypony>** have to have that distinction  
 **\<parasew>** are there plans of putting the GUI into apple appstore?  
@@ -308,11 +308,11 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<parasew>** fluffypony ok, will do :)  
 **\<msvb-lab>** What's the main reason for one mobile platform release to wait until others are ready?  
 **\<fluffypony>** Jaquee: we registered "ByteRub Distribution Company" as the name  
-**\<serhack>** Fluffypony: I have an android phone, can I test mymonero ? Can you send me an apk?  
+**\<serhack>** Fluffypony: I have an android phone, can I test mybyterub ? Can you send me an apk?  
 **\<fluffypony>** msvb-lab: on the ByteRub GUI side, nothing, we can push it into the Google Play store whenever  
-**\<moneromooo>** Are we done with the dev stuff ?  
+**\<byterubmooo>** Are we done with the dev stuff ?  
 **\<fluffypony>** on the MyByteRub side we're still busy adding some stuff  
-**\<msvb-lab>** Additional meeting items: Might be worth mentioning that both mattermost.getmonero.org and taiga.getmonero.org are quite bad ans.  
+**\<msvb-lab>** Additional meeting items: Might be worth mentioning that both mattermost.getbyterub.org and taiga.getbyterub.org are quite bad ans.  
 **\<fluffypony>** mostly porting stuff from the iOS app to the JS app  
 **\<hyc>** coming up to top of the hour  
 **\<fluffypony>** thanks hyc  

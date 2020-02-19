@@ -2,7 +2,7 @@
 layout: post
 title: ByteRub Missive for the Week of 2014-06-30
 summary: CryptoNote whitepaper review moving to the code, transaction auto-splitting added to master
-tags: [monero missives, research, usability, accounts, gui, conferences]
+tags: [byterub missives, research, usability, accounts, gui, conferences]
 author: Riccardo Spagni (fluffypony)
 ---
 
@@ -18,6 +18,6 @@ Hello, and welcome to our fifth ByteRub Missive!
 
 4. We'd like to apologise for not finalise the GUI bounty - everyone has been a little scattered this week. We will resolve this in its entirety within the next 48 hours!
 
-This Missive is a little light on major updates (well, we can't have something major every week;) primarily because there has been lots of plotting and planning this week. As always: you can keep up to date with the nitty-gritty on IRC in #monero-dev on Freenode if you're interested.
+This Missive is a little light on major updates (well, we can't have something major every week;) primarily because there has been lots of plotting and planning this week. As always: you can keep up to date with the nitty-gritty on IRC in #byterub-dev on Freenode if you're interested.
 
 Until next week!

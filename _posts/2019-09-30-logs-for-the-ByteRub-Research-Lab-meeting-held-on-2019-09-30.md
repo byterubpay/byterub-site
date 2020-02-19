@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-09-30
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-09-30
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -69,7 +69,7 @@ author: el00ruobuob / sarang
 **\<sarang>** but then space is back up again  
 **\<sarang>** There are also some structural differences to the proofs that will mean somewhat higher times regardless  
 **\<sarang>** More details once I have the actual numbers finished  
-**\<sarang>** Fourth, my monthly report is posted here: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/77#note\_7393  
+**\<sarang>** Fourth, my monthly report is posted here: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/77#note\_7393  
 **\<sarang>** Fifth, I'll be joining rehrar and Daniel Kim to speak at World Crypto Conference later this month  
 **\<sarang>** My talk is about the history of cryptographic constructions toward privacy-preserving transactions, and future research directions  
 **\<sarang>** I'm starting it early to meet their particular deadlines  

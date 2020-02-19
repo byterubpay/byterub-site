@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview  
 
-An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-03-26).  
+An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-03-26).  
 
 ### Logs  
 
@@ -21,9 +21,9 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<hyc>** no idea, but I'm running a build from a couple days ago  
 **\<Jaquee>** me too. no issues so far  
 **\<johnalan>** Been running on OSX since yesterday. No issue.  
-**\<fluffypony>** moneromooo: any idea why the issue seems to affect so few?  
+**\<fluffypony>** byterubmooo: any idea why the issue seems to affect so few?  
 **\<hundehausen>** Smart Mining is not working for me on newest macOS  
-**\<moneromooo>** Dunno. Low level processor specifics I guess, but... shrug.  
+**\<byterubmooo>** Dunno. Low level processor specifics I guess, but... shrug.  
 **\<fluffypony>** hundehausen: it only works on Linux  
 **\<fluffypony>** not on anything else  
 **\<samsunggalaxyplayer>** I have smart mining running on Windows right now  
@@ -33,9 +33,9 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** I like to pretend that Windows doesn't exist  
 **\<fluffypony>** :-P  
 **\<Jaquee>** lol  
-**\<moneromooo>** What is it ?  
-**\<fluffypony>** moneromooo: you open them to let air in  
-**\<moneromooo>** Ah, doors.  
+**\<byterubmooo>** What is it ?  
+**\<fluffypony>** byterubmooo: you open them to let air in  
+**\<byterubmooo>** Ah, doors.  
 **\<hyc>** usually lets bugs in too  
 **\<amiuhle>** smaller sized doors basically  
 **\<gingeropolous>** drumroll  
@@ -48,48 +48,48 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** I'd like to move this to Funding Required  
 **\<fluffypony>** and fireice-uk updated the funding costs based on current pricing  
 **\<fluffypony>** obviously there are some consensus-critical aspects to it, so I think it's worth discussing  
-**\<moneromooo>** Wasn't this a wallet thing ?  
-**\<btcltcxmrmaximal>** https://github.com/byterubpay/monero/issues/1828  
+**\<byterubmooo>** Wasn't this a wallet thing ?  
+**\<btcltcxmrmaximal>** https://github.com/byterubpay/byterub/issues/1828  
 **\<xmreric>** Yes. Speedup on Intel/AMD processors, which is helpful considering RingCT has slowed sync down.  
 **\<fireice-uk>** it is a wallet thing (unless you want to use it somewhere else)  
 **\<hyc>** ringCT has slowed wallet sync?  
-**\<fluffypony>** moneromooo: if we replace SUPERCOP then it's consensus critical  
+**\<fluffypony>** byterubmooo: if we replace SUPERCOP then it's consensus critical  
 **\<vtnerd>** I don't see how ringct slowed down wallet sync ... ?  
-**\<moneromooo>** Then no consensus issue. And if it proves good for a while, *then* it can be used in consensus.  
+**\<byterubmooo>** Then no consensus issue. And if it proves good for a while, *then* it can be used in consensus.  
 **\<pigeons>** xmreric: how has ringct slowed down sync?  
 **\<xmreric>** I thought I had heard that from others  
 **\<vtnerd>** the additional work comes when a output match is found  
 **\<fluffypony>** so I guess wallets with thousands and thousands of ringct outputs?  
-**\<xmreric>** https://monero.stackexchange.com/questions/3718/when-syncing-moneros-blockchain-from-scratch-why-does-it-begin-fast-and-end-sl  
+**\<xmreric>** https://byterub.stackexchange.com/questions/3718/when-syncing-byterubs-blockchain-from-scratch-why-does-it-begin-fast-and-end-sl  
 **\<fluffypony>** xmreric: that's daemon, not wallet  
 **\<fluffypony>** 1828 is a proposal for a wallet change  
 **\<xmreric>** ok  
 **\<vtnerd>** its more work on the node verifying the block, but not the wallet since its not reading it. I suppose there is some additional time for transmission/marshalling/unmarshalling, but this is smaller than any crypto  
-**\<moneromooo>** The bottleneck's the daemon anyway.  
+**\<byterubmooo>** The bottleneck's the daemon anyway.  
 **\<btcltcxmrmaximal>** daemon sync time seems a lot more important than wallet sync time (in comparison) if our primary goal was to encourage more full nodes.  
 **\<vertp>** Unless you're using a remote node, no?  
 **\<hyc>** this complicates the build if we want a crypto/ subtree just for wallet and one just for daemon  
-**\<moneromooo>** Hmm, fair point.  
+**\<byterubmooo>** Hmm, fair point.  
 **\<fluffypony>** ok so then here's a suggestion  
 **\<Jaquee>** the amount of tx's/day is higher since the date around ringct was activated. So wallet sync slows down. but not really related to ringct  
 **\<fluffypony>** what if we had cryptoopsbuilder run on build  
 **\<fireice-uk>** build won't be more more complicated - just more symbols  
 **\<fluffypony>** and use the existing stuff by default, but optionally use the newer SUPERCOP / whatever  
 **\<fireice-uk>** my suggestion would be to use ge64* symbols for the new code  
-**\<moneromooo>** BTW, is that not what you wanted to replace by... tweetnacl or whatver it was ?  
-**\<fluffypony>** moneromooo: yes  
+**\<byterubmooo>** BTW, is that not what you wanted to replace by... tweetnacl or whatver it was ?  
+**\<fluffypony>** byterubmooo: yes  
 **\<fluffypony>** but only when TweetNaCl has finished formal verification  
-**\<moneromooo>** And that proposal replaces it with this, or another replacement ?  
-**\<moneromooo>** Alright...  
+**\<byterubmooo>** And that proposal replaces it with this, or another replacement ?  
+**\<byterubmooo>** Alright...  
 **\<hyc>** I'd prefer we just keep the generated code statically committed to git  
 **\<hyc>** no idea what environment the builder might break on  
 **\<fluffypony>** hyc: the builder is pretty simple (just splicing text really), but it does add a python dep to the build process  
 **\<hyc>** yeah, let's not do that.  
-**\<moneromooo>** fireice-uk: did you try running a wallet refresh without any crypto to see how much faster it was at best possible gain ? IIRC, my bottleneck is the daemon (SSD, though CoW fs).  
+**\<byterubmooo>** fireice-uk: did you try running a wallet refresh without any crypto to see how much faster it was at best possible gain ? IIRC, my bottleneck is the daemon (SSD, though CoW fs).  
 **\<fluffypony>** either way, in the long run I'd like to have a default "safe" crypto implementation, and an optional fast one  
-**\<moneromooo>** s/without any crypto/with the actual tx scanning disabled/  
-**\<fireice-uk>** moneromoo: bottleneck is the poor fetching from the daemon  
-**\<moneromooo>** So changing the crypto won't do a thing right now, right ?  
+**\<byterubmooo>** s/without any crypto/with the actual tx scanning disabled/  
+**\<fireice-uk>** byterubmoo: bottleneck is the poor fetching from the daemon  
+**\<byterubmooo>** So changing the crypto won't do a thing right now, right ?  
 **\<fireice-uk>** it somehow mananges not to max anything  
 **\<fireice-uk>** that is the part 2  
 **\<fireice-uk>** crypto is part 1  
@@ -97,18 +97,18 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fireice-uk>** pigeons: want to swap round the order?  
 **\<vertp>** why not swap the orders fireice-uk? And do daemon fetching optimization  
 **\<fluffypony>** not a bad idea  
-**\<moneromooo>** Oh ok. There are two things that should be easy win there: store non prunable separately, and maybe fetch a bunch of them at once (wallet refresh always has pretty much N..N+dN txes).  
+**\<byterubmooo>** Oh ok. There are two things that should be easy win there: store non prunable separately, and maybe fetch a bunch of them at once (wallet refresh always has pretty much N..N+dN txes).  
 **\<gingeropolous>** so part 2 is the actual optimization? and part 1 is... ?  
-**\<moneromooo>** I wanted to do the daemon thing for a while, but looks like I won't have to :D  
+**\<byterubmooo>** I wanted to do the daemon thing for a while, but looks like I won't have to :D  
 **\<fireice-uk>** gingeropolous: part 1 is crypto optimziation, part 2 is parallelism opt  
 **\<hyc>** but current discussion says crypto opt will be overshadowed by daemon  
 **\<fluffypony>** ok so we swap them around and do part 2 first, and then revisit how to structure part 1 after that?  
 **\<hyc>** makes sense  
 **\<fluffypony>** fireice-uk: that sound ok?  
-**\<moneromooo>** Well, that's my recollection of my particular machine anyway. Might differ for others.  
+**\<byterubmooo>** Well, that's my recollection of my particular machine anyway. Might differ for others.  
 **\<fireice-uk>** my suggestion would be to do part 1 first - this way you can have a loot at it before merging  
 **\<fireice-uk>** \*look  
-**\<moneromooo>** I want to have a look at 2 also before merging.  
+**\<byterubmooo>** I want to have a look at 2 also before merging.  
 **\<hyc>** lol  
 **\<vertp>** lol.  
 **\<fireice-uk>** of course, but i assume 1 will require more time  
@@ -117,9 +117,9 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<hyc>** yeah it's sounding like 1's benefits will be unmeasurable for now  
 **\<vertp>** it makes even more sense to do part 2 first if it is less complex/faster to implement.  
 **\<Jaquee>** +1  
-**\<moneromooo>** Yes, do the easy wins first, and the possibly dangerous stuff might not be needed (and will only work on x8664 anyway AIUI).  
+**\<byterubmooo>** Yes, do the easy wins first, and the possibly dangerous stuff might not be needed (and will only work on x8664 anyway AIUI).  
 **\<fireice-uk>** ok, that's fine with me  
-**\<moneromooo>** Keeping in mind you also need the full blocks to serve syncing peers.  
+**\<byterubmooo>** Keeping in mind you also need the full blocks to serve syncing peers.  
 **\<vertp>** great!  
 **\<fluffypony>** ok cool - I'll move the proposal to funding after the 0.10.3.1 tag  
 **\<samsunggalaxyplayer>** so in like 3 months /s  
@@ -143,19 +143,19 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<vertp>** yes, sorry.  
 **\<fluffypony>** ok so  
 **\<fluffypony>** 4. Remote nodes (ie. a discussion of #605)  
-**\<moneromooo>** Well, I was thinking about this, and I will do a wallet mode where a full wallet (ie, phone) can connect to a view wallet (ie, home server), and update from it. That should be super fast.  
-**\<fluffypony>** moneromooo: that's exactly what vtnerd is doing  
-**\<moneromooo>** tewinget: I think I kinda added a new RPC... a few days ago...  
+**\<byterubmooo>** Well, I was thinking about this, and I will do a wallet mode where a full wallet (ie, phone) can connect to a view wallet (ie, home server), and update from it. That should be super fast.  
+**\<fluffypony>** byterubmooo: that's exactly what vtnerd is doing  
+**\<byterubmooo>** tewinget: I think I kinda added a new RPC... a few days ago...  
 **\<fluffypony>** so would be duplication of work  
-**\<moneromooo>** Oh, OK.  
+**\<byterubmooo>** Oh, OK.  
 **\<johnalan>** Won't that only show incoming though?  
 **\<fluffypony>** but let's back up a second  
 **\<hyc>** so a wallet can sync from another wallet?  
 **\<fluffypony>** because I think that maybe there's some value in the *idea* of 605  
-**\<moneromooo>** In my idea, yes (really, transfer output data).  
+**\<byterubmooo>** In my idea, yes (really, transfer output data).  
 **\<fluffypony>** but the specifics aren't great  
 **\<fluffypony>** for eg.  
-**\<moneromooo>** But I dunno what vtnerd is doing.  
+**\<byterubmooo>** But I dunno what vtnerd is doing.  
 **\<xmreric>** Lots of GUI users want this on some level or another.  
 **\<xmreric>** I'm pretty big on emphasizing away from using remote nodes as best-practice.  
 **\<fluffypony>** what if an unsynced daemon, when it has a wallet client requesting outputs from a certain height, picks a random peer and asks that peer for the data  
@@ -166,31 +166,31 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** the peer could lie, but the node will eventually know that it has  
 **\<fluffypony>** gingeropolous: no  
 **\<fluffypony>** we don't need RPC for this, we're already talking to the peer using the p2p protocol  
-**\<moneromooo>** Why would the wallet request outputs for a given height, if the daemon isn't synced to that yet ?  
-**\<fluffypony>** moneromooo: restored wallet, or loading a wallet file  
+**\<byterubmooo>** Why would the wallet request outputs for a given height, if the daemon isn't synced to that yet ?  
+**\<fluffypony>** byterubmooo: restored wallet, or loading a wallet file  
 **\<Jaquee>** if the daemon isnt synced it shouldnt be used by the wallet  
 **\<fluffypony>** or creating a new wallet  
-**\<moneromooo>** Restored wallet would not, it has no idea about where it has outputs.  
-**\<fluffypony>** moneromooo: restored from seed has a hardcoded restore height  
+**\<byterubmooo>** Restored wallet would not, it has no idea about where it has outputs.  
+**\<fluffypony>** byterubmooo: restored from seed has a hardcoded restore height  
 **\<guzzi>** It is similar to how hadoop works  
-**\<moneromooo>** New wallet wouldn't either. They'd get that info from the daemon, who'd necessarily be synced up to that point.  
+**\<byterubmooo>** New wallet wouldn't either. They'd get that info from the daemon, who'd necessarily be synced up to that point.  
 **\<guzzi>** Here is the first answer it may be wrong  
-**\<moneromooo>** Unless you delete your blockchain after the wallet learns abvout those. But then, your problem.  
-**\<fluffypony>** moneromooo: in each of the instances we either have a block height or we have a date that we can correlate  
-**\<moneromooo>** Oh, you want *all* outputs ?  
+**\<byterubmooo>** Unless you delete your blockchain after the wallet learns abvout those. But then, your problem.  
+**\<fluffypony>** byterubmooo: in each of the instances we either have a block height or we have a date that we can correlate  
+**\<byterubmooo>** Oh, you want *all* outputs ?  
 **\<fluffypony>** from that height or date, yes  
 **\<guzzi>** I like it. The attack would bre someone setting up a ton of fake nodes.  
 **\<fluffypony>** basically have the daemon tunnel "remote node" functionality to a peer  
-**\<moneromooo>** OK, so essentially, syncing the chain with no vcerification whatsoever.  
-**\<fluffypony>** moneromooo: yes - "pre-syncing" it  
+**\<byterubmooo>** OK, so essentially, syncing the chain with no vcerification whatsoever.  
+**\<fluffypony>** byterubmooo: yes - "pre-syncing" it  
 **\<fluffypony>** because the node will catch up, and then the wallet will know if outputs have been withheld  
-**\<moneromooo>** I actually had an idea about this a few days ago, where you could sync to a daily set of key images and outputs. Daily, verifying nodes hash it into the blockchain.  
+**\<byterubmooo>** I actually had an idea about this a few days ago, where you could sync to a daily set of key images and outputs. Daily, verifying nodes hash it into the blockchain.  
 **\<guzzi>** Basically a no lock read  
-**\<moneromooo>** So you can sync to that, check hash, then sync the last day's chain on top.  
+**\<byterubmooo>** So you can sync to that, check hash, then sync the last day's chain on top.  
 **\<gingeropolous>** but this would leave the wallet in a state where it can't create transactions until proper sync'd?  
-**\<fluffypony>** moneromooo: the problem with that model are the oracles  
-**\<moneromooo>** It does require *some* trust, though.  
-**\<moneromooo>** Go on ?  
+**\<fluffypony>** byterubmooo: the problem with that model are the oracles  
+**\<byterubmooo>** It does require *some* trust, though.  
+**\<byterubmooo>** Go on ?  
 **\<pigeons>** so the tricky part is the rules to make the block invalid if the miner lies  
 **\<gingeropolous>** er, until the daemon is proper syncd?  
 **\<fluffypony>** gingeropolous: the daemon could also tunnel requests for ring outputs or whatever  
@@ -219,7 +219,7 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<Jaquee>** rehrar: that's what #605 does  
 **\<fluffypony>** we already have a solution for people who are willing to run a node  
 **\<rehrar>** Sorry. A lot of the tech is going above my head to catch it all. :)  
-**\<moneromooo>** Well, they can use paypal, and come back in 5 years.  
+**\<byterubmooo>** Well, they can use paypal, and come back in 5 years.  
 **\<rehrar>** Tech talk  
 **\<Jaquee>** #605 connects to a remote node while local node is syncing  
 **\<jacobjeweler>** I agree, fluffy. I think the real issue is people not having enough knwoledge to install nodes. An installer on windows and .deb in apt would increase full nodes immensly.  
@@ -246,19 +246,19 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** people become reliant on quick fixes  
 **\<hyc>** So somewhere we need the doc to say "you must have a computer with at least xx GB of disk space that you are willing to leave running 24/7"  
 **\* tewinget** knows this, and as such leaves most decision making to fluffypony so he can be blamed in 5 years.  
-**\<moneromooo>** Ah, tewinget the Wise.  
+**\<byterubmooo>** Ah, tewinget the Wise.  
 **\<endogenic>** in 2023  
 **\<Jaquee>** i just don't think we should be holding back on UX just because we don't have a better solution yet  
 **\<pigeons>** have a nice message, now that you have verified the blockchain, we notice you have been screwed, pick a better node next time  
 **\<fluffypony>** lol  
-**\<moneromooo>** Anyway, this has turned to a disparate set of confusing stuff now.  
+**\<byterubmooo>** Anyway, this has turned to a disparate set of confusing stuff now.  
 **\<guzzi>** Lol  
 **\<fluffypony>** Jaquee: the GUI is meant to operate with a full node that you operate, it's not a lightweight GUI  
 **\<ArticMine>** Do we want to encourage people connecting to a untrusted random node  
 **\<fluffypony>** ArticMine: no we don't  
 **\<samsunggalaxyplayer>** Summary: for smart syncing with fluffy's "pre-sync" approach, against anything that makes using a remote node easier  
 **\<guzzi>** For ppl who want to use a phone could it never sync?  
-**\<cryptocomicon>** sounds like we need a monero node appliance, like the wifi router that everyone has in their house / flat  
+**\<cryptocomicon>** sounds like we need a byterub node appliance, like the wifi router that everyone has in their house / flat  
 **\<samsunggalaxyplayer>** I agree #602 is a short-term solution. I think it's better than telling people to go to ByteRubWorld to get a random node, but if we have a better solution going forward, that's preferable  
 **\<johnalan>** Good idea  
 **\<hyc>** yes but wifi routers tend to be 32bit  
@@ -282,7 +282,7 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<gingeropolous>** we can address instant on with lots of things  
 **\<gingeropolous>** we can't address no blockchain storage. And those that don't want to store the blockchain will always use some lighter weight thing, so ... i think im rambling.  
 **\<jacobjeweler>** Good point hyc!  
-**\<amiuhle>** How about creating SD card images with the blockchain preloaded for a specific monerod release. You'd "just" have to download the image, flash it and start up monerod  
+**\<amiuhle>** How about creating SD card images with the blockchain preloaded for a specific byterubd release. You'd "just" have to download the image, flash it and start up byterubd  
 **\<johnalan>** +1 hyc  
 **\<amiuhle>** ah, like for the Pine64 or something similar  
 **\<hyc>** pretty big downloads. they don't compress well at all.  
@@ -308,7 +308,7 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** amiuhle: yes  
 **\<jacobjeweler>** Lets be honest, most users have windows. And harddisks that can easily fit the lmdb database. If you want great adoption and more full nodes on the network (people installing and usong their local node for gui/cli). Thats where the focus on something like an installer should be at.  
 **\<amiuhle>** what if we at least request tests for new PRs?  
-**\<moneromooo>** Then you won't get PRs.  
+**\<byterubmooo>** Then you won't get PRs.  
 **\<vtnerd>** that would help, but could be frustrating in a few components  
 **\<fluffypony>** amiuhle: we don't want PRs from new contributors mired in a list of things-the-PR-must-have  
 **\<vtnerd>** for instance, I added some to epee::stringtools, but those are isolated functions so its easy to setup the test env  
@@ -318,18 +318,18 @@ An overview [can be found on ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<vtnerd>** hyc: yup. but figuring out a base framework for some areas might be helpful to get a baseline. but its decent chunk of work  
 **\<fireice-uk>** it is already at an unwieldy 5kloc, what's the opinion on splitting it into smaller parts?  
 **\<hyc>** can't detect some of these with code coverage testing either. code cov can't tell you about logic you're missing.  
-**\<moneromooo>** Tests can be added after the fact btw.  
-**\<moneromooo>** Is there a split that makes sense ?  
-**\<moneromooo>** And 5k is wieldy for any sane editor.  
+**\<byterubmooo>** Tests can be added after the fact btw.  
+**\<byterubmooo>** Is there a split that makes sense ?  
+**\<byterubmooo>** And 5k is wieldy for any sane editor.  
 **\<fireice-uk>** moneomoo: takes 2gb+ to compile  
 **\<hyc>** yeah I wouldn't worry about wallet2.cpp at the moment.  
 **\<vtnerd>** mooo Im guessing vim ?  
 **\<hyc>** 2GB+ to compile comes from all the boost headers and shit  
-**\<moneromooo>** What I want is avoiding spamming the git log, as I use it a lot.  
+**\<byterubmooo>** What I want is avoiding spamming the git log, as I use it a lot.  
 **\<fireice-uk>** ok  
-**\<moneromooo>** vim works fine with 5k, but most other editors are also not shit.  
+**\<byterubmooo>** vim works fine with 5k, but most other editors are also not shit.  
 **\<vtnerd>** fireice-uk: thats partially coming from the epee headers though, but some split may help a bit  
-**\<moneromooo>** Or... I assume. 5k is not much.  
+**\<byterubmooo>** Or... I assume. 5k is not much.  
 **\<hyc>** I've done the experiment before.  
 **\<fluffypony>** bbedit handles it fine  
 **\* anonimal** coughs  

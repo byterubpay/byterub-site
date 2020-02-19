@@ -22,10 +22,10 @@ Once we were certain that the network had updated, we notified all active and af
 
 2017-02-19: A member of the ByteRub Research Lab discovers the exploit, triggered by a detailed discussion of the [XEdDSA signature schemes](https://whispersystems.org/docs/specifications/xeddsa/) on the [Curves mailing list](https://moderncrypto.org/mail-archive/curves/2017/000846.html)  
 2017-02-20: The ByteRub blockchain is scanned to see if this had ever been exploited; thankfully it had not and the blockchain is intact.  
-2017-02-21: The patch is surreptitiously snuck into the ByteRub codebase in [pull request #1744](https://github.com/byterubpay/monero/pull/1744). It is kept secret to prevent it being used to attack other CryptoNote coins.  
-2017-02-22: A [point release of ByteRub is rushed out](https://github.com/byterubpay/monero/releases/tag/v0.10.2) so that exchanges and mining pools can update, under the guise of it preventing a RingCT DoS attack (such attack did not exist, but it seemed a fair explanation).  
+2017-02-21: The patch is surreptitiously snuck into the ByteRub codebase in [pull request #1744](https://github.com/byterubpay/byterub/pull/1744). It is kept secret to prevent it being used to attack other CryptoNote coins.  
+2017-02-22: A [point release of ByteRub is rushed out](https://github.com/byterubpay/byterub/releases/tag/v0.10.2) so that exchanges and mining pools can update, under the guise of it preventing a RingCT DoS attack (such attack did not exist, but it seemed a fair explanation).  
 2017-03-15: The hash of the details of the problem is committed to the ByteRub blockchain in tx dff7a79e44f9392e19fe5205c389d3e799f89c62d90d624219618d754b806e04  
-2017-03-26: A further [point release of ByteRub](https://github.com/byterubpay/monero/releases/tag/v0.10.3.1) is put out to prepare for a hard fork in April.  
+2017-03-26: A further [point release of ByteRub](https://github.com/byterubpay/byterub/releases/tag/v0.10.3.1) is put out to prepare for a hard fork in April.  
 2017-04-14: The ByteRub network hard forks to increase the dynamic block size minimum median, but this has the added bonus of ensuring the entire network is protected.  
 2017-04-17: All CryptoNote coins are contacted, and told that they have until mid-May to patch their coins, before there will be a public disclosure of the issue.  
 2017-04-17: As noted by [Riccardo "fluffypony" Spagni on Twitter](https://twitter.com/fluffyponyza/status/854029169667309569), the hash of the message sent to the various CryptoNote currencies is committed to the ByteRub blockchain.

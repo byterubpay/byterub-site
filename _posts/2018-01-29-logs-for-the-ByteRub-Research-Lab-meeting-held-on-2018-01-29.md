@@ -79,7 +79,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Smaller things include broader implementation of curve/scalar optimizations, but that's just housekeeping stuff  
 **\<suraeNoether>** I also have been working on SPECTRE and finishing up the multisig paper  
 **\<sarang>** Developing outreach curricula is a non-research side of things, of course, but I believe still important for this group  
-**\<suraeNoether>** which, btw, after speaking with pietr wuille in Zurich and Stanford, two separate routes an attacker could take have been made clear to me. One of them our code already accounts for. The other is something I need to speak with luigi1111  and moneromooo about  
+**\<suraeNoether>** which, btw, after speaking with pietr wuille in Zurich and Stanford, two separate routes an attacker could take have been made clear to me. One of them our code already accounts for. The other is something I need to speak with luigi1111  and byterubmooo about  
 **\<sarang>** In what regard?  
 **\<hyc>** multisig?  
 **\<suraeNoether>** yes for multisig i mean  
@@ -113,18 +113,18 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** hyc you are never opinion-less  
 **\<hyc>** lol  
 **\<hyc>** All the things you already outlined sound like important goals to me. some of it sounds like we need more people.  
-**\<moneromooo>** Modelling of spent output age. Take real distribution since last release, subtract the distribution we use, get the real distribution. See if it matches miller et al.  
+**\<byterubmooo>** Modelling of spent output age. Take real distribution since last release, subtract the distribution we use, get the real distribution. See if it matches miller et al.  
 **\<hyc>** "get the real distribution" --> how?  
-**\<moneromooo>** Then try to do that at several historical times, every month maybe. And then deduce a formula to vary gamma function over time to use a new fake outdistribution.  
-**\<moneromooo>** By subtracting the fake outs distribution from the real+fake one.  
-**\<moneromooo>** May or may not be good enough, I don't know.  
-**\<suraeNoether>** moneromooo: if we can get a bayesian estimate that updates each hard fork, that'd be great, but it requires being able to "unmask" transactions to see their real spendable output, or to base the estimate on transactions that have already been "unmasked", or to base the estimate on another currency. Each of these have obstacles, obviously  
-**\<suraeNoether>** we need some ground truth underlying data to make an estimate, and monero doesn't really allow for that  
+**\<byterubmooo>** Then try to do that at several historical times, every month maybe. And then deduce a formula to vary gamma function over time to use a new fake outdistribution.  
+**\<byterubmooo>** By subtracting the fake outs distribution from the real+fake one.  
+**\<byterubmooo>** May or may not be good enough, I don't know.  
+**\<suraeNoether>** byterubmooo: if we can get a bayesian estimate that updates each hard fork, that'd be great, but it requires being able to "unmask" transactions to see their real spendable output, or to base the estimate on transactions that have already been "unmasked", or to base the estimate on another currency. Each of these have obstacles, obviously  
+**\<suraeNoether>** we need some ground truth underlying data to make an estimate, and byterub doesn't really allow for that  
 **\<ErCiccione>** The community is pushing a lot the "fee are too high" thing and i feel will be worst with time passing. Is it possible to produce some documentation to instruct people about how ByteRub fees work and what are the plans for the future on this matter?  
-**\<moneromooo>** I was suggesting deducing the real outs distribution.  
+**\<byterubmooo>** I was suggesting deducing the real outs distribution.  
 **\<ErCiccione>** i also agree with hyc, er should search fore more researchers  
 **\<sarang>** I hear gmaxwell is unattached =p  
-**\<moneromooo>** This would be assuming all txes since last release use our fake outs distribution, though, which mymonero might not. Damn.  
+**\<byterubmooo>** This would be assuming all txes since last release use our fake outs distribution, though, which mybyterub might not. Damn.  
 **\<hyc>** to some extent, that's all good news - it means the system is no longer analyzable.  
 **\<dEBRUYNE>** ErCiccione: I wrote a blog about it, you can link that  
 **\<suraeNoether>** so, ErCiccione: yes, fees are an important part of the discussion around bulletproofs. you are corredct that we should at least put out a statement  
@@ -138,7 +138,7 @@ author: dEBRUYNE / fluffypony
 **\<ferretinjapan>** Because that could mean 100% decentralised FFS :)  
 **\<suraeNoether>** and if you pulled randomly from the whole blockchain...  
 **\<suraeNoether>** then the true output you are signing with *probably* hasn't been used in a signature before  
-**\<suraeNoether>** and more people got into monero recently rather than in 2014  
+**\<suraeNoether>** and more people got into byterub recently rather than in 2014  
 **\<suraeNoether>** so the output being spent is *probably* the youngest one  
 **\<hyc>** true  
 **\<suraeNoether>** and this will *always* be the case, unless we make wallet software actively try to de-anonymize the blockchain and we publish a blacklist of known-spent outputs  
@@ -151,7 +151,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** okay, so fees are going on my list  
 **\<suraeNoether>** for analysis and a nice big public explanation, probably drawing heavily on the blog post by dEBRUYNE  
 **\<suraeNoether>** speaking of which dEBRUYNE send us all a link :D  
-**\<dEBRUYNE>** https://getmonero.org/2017/12/11/A-note-on-fees.html  
+**\<dEBRUYNE>** https://getbyterub.org/2017/12/11/A-note-on-fees.html  
 **\<suraeNoether>** awesome thanks  
 **\<dEBRUYNE>** re: spent age of outputs, perhaps we could take a look at other chains as well?  
 **\<suraeNoether>** silur has been working on a C implementation of RTRS ringct  
@@ -162,10 +162,10 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** has anyone else been working on anything they want to talk about?  
 **\<dEBRUYNE>** ferretinjapan: was more thinking about LTC, BTC  
 **\<dEBRUYNE>** suraeNoether: whislt that it true, it may be good for pointers  
-**\<ferretinjapan>** yeah, LTC is actually a good one, had a similar mining start to monero.  
+**\<ferretinjapan>** yeah, LTC is actually a good one, had a similar mining start to byterub.  
 **\<suraeNoether>** even if we had a good estimate of true velocity of money, it changes over time so we would need something like a bayesian updating. https://en.wikipedia.org/wiki/Velocity_of_money  
 **\<suraeNoether>** sarang, do you have anything else you want to chat about?  
-**\<ferretinjapan>** suraeNoether, true, but I'd wager that LTC and XMR's normal distribution after a year is probably very similar. It's probably clsest you'd get without cracking open monero proper and looking inside.  
+**\<ferretinjapan>** suraeNoether, true, but I'd wager that LTC and XMR's normal distribution after a year is probably very similar. It's probably clsest you'd get without cracking open byterub proper and looking inside.  
 **\<sarang>** Assembling the formal audit materials as they become available  
 **\<sarang>** I still wish we had a more concrete guideline for if/when/how we'll do such things in the future  
 **\<sarang>** But for now this is a Good Thing  
@@ -173,7 +173,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** i am curious about one thing  
 **\<suraeNoether>** Up to your concerns about opsec/privacy, gimme a +1 if you are currently an undergraduate university student  
 **\<ferretinjapan>** yeah, I'm definitely not saying it's perfect just close-ish compared to the rest of the premined coins out there ;)  
-**\<suraeNoether>** ferretinjapan: i agree that litecoin could be a good proxy for monero for estimating otherwise unestimable statistics  
+**\<suraeNoether>** ferretinjapan: i agree that litecoin could be a good proxy for byterub for estimating otherwise unestimable statistics  
 **\<suraeNoether>** i'd also be in favor of doing it for all transparent coins and obtaining a confidence interval  
 **\* anonimal** question regarding the MRL over the next 6 months  
 **\<anonimal>** I first got in contact with sarang back in late August about kovri work but nothing came of it.  
@@ -200,7 +200,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** You want additional eyes on it?  
 **\<anonimal>** (relatively speaking, imo)  
 **\<anonimal>** No, just asking your professional opinion on if that would be a cost-effective use of your time.  
-**\<anonimal>** IIRC fluffypony wanted teetnacl in monero as some point. I'm not sure where that conversation ended though.  
+**\<anonimal>** IIRC fluffypony wanted teetnacl in byterub as some point. I'm not sure where that conversation ended though.  
 **\<selsta>** some other “news”. Sumokoin team member confirmed me today that they will donate to the BP audit with some of the premine money. i don’t really believe it yet though lol  
 **\<anonimal>** Crypto++ has recently implemented tweetnacl and, once they implement a crypto++-friendly interface, kovri will drop ref10 supercop for tweetnacl.  
 **\<suraeNoether>** let me learn a little about tweetnacl, and then i can assess wheter going deeper will be a rabbit hole or ... not  
@@ -237,7 +237,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Yeah the key is auditable  
 **\<suraeNoether>** well, we probably can't hire andytoshi out from under blockstream. :P  
 **\<suraeNoether>** or rather, i'd rather not attempt that sort of game  
-**\<suraeNoether>** i'd rather find someone who is very interested in monero and may be late grad school  
+**\<suraeNoether>** i'd rather find someone who is very interested in byterub and may be late grad school  
 **\<suraeNoether>** hmm  
 **\<suraeNoether>** i can construct a call for applications e-mail and send it to a few specific departments that are crypto + CS heavy in their math programs  
 **\<ErCiccione>** suraeNoether: can you make a post somwhere public with the skills you guys need from a researcher? so i can directly link that to people who may be interested  

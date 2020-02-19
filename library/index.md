@@ -4,7 +4,7 @@ title: titles.library
 permalink: /library/index.html
 ---
 {% t global.lang_tag %}
-<div class="about-monero">
+<div class="about-byterub">
   <div class="center-xs container description">
     <p class="text-center">{% t library.description %}</p>
   </div>

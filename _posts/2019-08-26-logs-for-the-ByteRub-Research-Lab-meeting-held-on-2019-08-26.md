@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-08-26
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-08-26
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -41,7 +41,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** but not  
 **\<hyc>** lol  
 **\<sarang>** Finally, I continue analysis work on proving systems  
-**\<suraeNoether>** 5707 is for how the second basepoint in our pedersen commitments are selected. if i recall from my conversation with sarang earlier, this PR will make the monero codebase slightly more robust, less brittle, more consistent with the way it works, and more importantly \*more easily verified to be correct\* by new users, even though it's a relatively small change  
+**\<suraeNoether>** 5707 is for how the second basepoint in our pedersen commitments are selected. if i recall from my conversation with sarang earlier, this PR will make the byterub codebase slightly more robust, less brittle, more consistent with the way it works, and more importantly \*more easily verified to be correct\* by new users, even though it's a relatively small change  
 **\<sarang>** RingCT3.0 is exploitable in its current form, but I'm told a forthcoming fix likely solves the problem (unclear if provably at this point) with little impact on efficiency  
 **\<sarang>** suraeNoether: the change only makes it harder to use the wrong hashing method :)  
 **\<sarang>** and enables slightly more efficient hash-to-point operations under some constructions  

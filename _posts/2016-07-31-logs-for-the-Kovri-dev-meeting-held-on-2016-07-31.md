@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Logs
 
-**\<anonimal>** ping fluffypony we missed you in #monero-dev  
+**\<anonimal>** ping fluffypony we missed you in #byterub-dev  
 **\<anonimal>** I'll proceed with the meeting as planned but the bulk of the agenda is picking on your assigned issues.  
 **\<anonimal>** https://github.com/byterubpay/kovri/issues/216  
 **\<anonimal>** Meeting Agenda: Sunday, July 31st, 17:00 UTC  
@@ -25,7 +25,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Hi.  
 **\<i2p-relay> {-needmoney90}** * walks into the room and sits in the nearest available seat  
 **\<i2p-relay> {-needmoney90}** Just watching for today  
-**\<anonimal>** Is anyone freenode side? This meeting is not being relayed to #monero-dev. I'll hop onto slack to see if the relay is working.  
+**\<anonimal>** Is anyone freenode side? This meeting is not being relayed to #byterub-dev. I'll hop onto slack to see if the relay is working.  
 **\<i2p-relay> {-_Slack} \<needmoney90>** It appears so  
 **\<i2p-relay> {-_Slack} \<needmoney90>** I2P, Slack, and IRC are all relaying  
 **\<anonimal>** K, thanks.  
@@ -35,7 +35,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Code highlights include:  
 **\<anonimal>** - Mem leak fixes  
 **\<anonimal>** - New constant-time comparison for ed25519  
-**\<anonimal>** - Two new contributors: moneromooo and rakhimov  
+**\<anonimal>** - Two new contributors: byterubmooo and rakhimov  
 **\<anonimal>** (hopefully will see more from both devs)  
 **\<anonimal>** - regex fix, clang fixes  
 **\<anonimal>** - A whole lot of build/repo work  
@@ -52,7 +52,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** - Kovri End-User Documentation Proposal - #256  
 **\<anonimal>** - 9 new opened issues, 7 new closed issues  
 **\<anonimal>** - Creation of @kovri@quitter.se  
-**\<anonimal>** - I've also spent some time with bitmonero/byterubpay  
+**\<anonimal>** - I've also spent some time with bitbyterub/byterubpay  
 **\<anonimal>** That's all from me for 2. Anyone else?  
 **\<anonimal>** Ok, guess not.  
 **\<anonimal>** fluffypony fluffypony fluffypony fluffypony   
@@ -78,7 +78,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Moving on to 3.  
 **\<anonimal>** "Discuss Kovri logo"  
 **\<anonimal>** Who did ByteRub's logo?  
-**\* anonimal:** asked in #monero-dev, no response  
+**\* anonimal:** asked in #byterub-dev, no response  
 **\<anonimal>** Any thoughts on a logo for Kovri?  
 **\<anonimal>** How about a nude porn star holding a letter 'K'?  
 **\<i2p-relay> {-needmoney90}** I've been thinking about it  
@@ -91,7 +91,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-needmoney90}** though its probably too complex  
 **\<i2p-relay> {-needmoney90}** https://camo.githubusercontent.com/eec95efca3ae789116e4557656898ab52ca74cba/687474703a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a6e4955617a775f75334b436843583839664c674c44672e706e67  
 **\<anonimal>** Sounds cool.  
-**\<anonimal>** DaveyJones pointed this out https://99designs.de/logo-design/contests/monero-mro-cryptocurrency-logo-design-contest-382486  
+**\<anonimal>** DaveyJones pointed this out https://99designs.de/logo-design/contests/byterub-mro-cryptocurrency-logo-design-contest-382486  
 **\<anonimal>** needmoney90: could that url get any longer?...  
 **\<anonimal>** Ah, I see. Interesting idea needmoney90  
 **\<anonimal>** Maybe we should hold a contest and reward the winner with XMR?  
@@ -111,7 +111,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-needmoney90}** tanks  
 **\<anonimal>** I'll make myself available for the next 30 minutes and then paste a link to the meeting log in #216  
 **\<i2p-relay> {-needmoney90}** I’m really curious where fluffy got off to..  
-**\<anonimal>** We were chatting about an hour before monero's meeting was supposed to start  
+**\<anonimal>** We were chatting about an hour before byterub's meeting was supposed to start  
 **\<anonimal>** Maybe he simply forget. This has happened several times in the past.  
 **\<i2p-relay> {-needmoney90}** :(  
 **\<i2p-relay> {-_Slack} \<anonimal>** needmoney90: is there a way to easily export channel logs here?  

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-04-22
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-04-22
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -14,7 +14,7 @@ author: el00ruobuob / sarang
 **\<sgp\_>** hello!  
 **\<sarang>** I assume suraeNoether is also here  
 **\<sarang>** I suppose we can move to 2. ROUNDTABLE  
-**\<sarang>** The new output selection algorithm was put into a PR by moneromooo with some additional tests added; many thanks to moneromooo for that work  
+**\<sarang>** The new output selection algorithm was put into a PR by byterubmooo with some additional tests added; many thanks to byterubmooo for that work  
 **\<sarang>** and it's now merged  
 **\<sarang>** This helps to mitigate the block weighting issues and provide better selection  
 **\<sarang>** The attempted CLSAG proof reduction to LSAG was not successful because of the way key images are computed, unfortunately  
@@ -33,7 +33,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** what sort of work remains, in that regard?  
 **\<sarang>** A lot of the batching gains depend heavily on the anonymity set used  
 **\<sarang>** and there are plenty of open questions about that  
-**\<sarang>** But, for example, the bulk of a spend proof (ignoring balance proof and range proofs) for a 1024-size anonymity set is probably about 100 ms using Monero timing operations  
+**\<sarang>** But, for example, the bulk of a spend proof (ignoring balance proof and range proofs) for a 1024-size anonymity set is probably about 100 ms using ByteRub timing operations  
 **\<suraeNoether>** wow  
 **\<suraeNoether>** wowow  
 **\<sarang>** This is purely back-of-the-envelope  
@@ -67,14 +67,14 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** https://github.com/b-g-goodell/mrl-skunkworks/tree/matching-powerpuff/Matching  
 **\<sarang>** What are your next steps for this (jumping ahead a bit)?  
 **\<suraeNoether>** the main idea is this  
-**\<suraeNoether>** how accurate is the matching approach as ring size scales up? how accurate is the matching approach as churn number increases? how can we use the answers to these questions to formulate best practices for monero churners?  
+**\<suraeNoether>** how accurate is the matching approach as ring size scales up? how accurate is the matching approach as churn number increases? how can we use the answers to these questions to formulate best practices for byterub churners?  
 **\<sarang>** for sure  
 **\<suraeNoether>** is there a way we can define some concrete threshold we want to attain?  
 **\<sarang>** Understanding how ring size and some specified churn behaviors affect these matching heuristics can give a much clearer picture of what it would take to hit certain thresholds  
 **\<suraeNoether>** anyway, that's my progress update on MRL11: soon^TM. I'm actually getting results without breaking anything, and now it's a matter of debugging the code and writing new tests to ensure that the results I'm getting are consistent  
 **\<suraeNoether>** but I also have a collaborative update, as described in the agenda  
 **\<suraeNoether>** long story short: Clemson University's School of Mathematical and Statistical Sciences is interested in starting a general center for blockchain and cryptocurrency studies.  
-**\<suraeNoether>** and they are interested in involving Monero Research Lab in their efforts.  
+**\<suraeNoether>** and they are interested in involving ByteRub Research Lab in their efforts.  
 **\<endogenic>** coolio  
 **\<suraeNoether>** we have a few interesting research collaboration possibilities with clemson just stand-alone, new shiny blockchain center notwithstanding  
 **\<suraeNoether>** mainly: Professor Shuhong Gao is in the middle of writing several papers that promise to be rather groundbreaking  
@@ -86,15 +86,15 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** his approaches use the RLWE cryptographic setting, which I've been looking into recently due to its speed (big keys but very fast algorithms)  
 **\<sarang>** sounds suspiciously interesting  
 **\<suraeNoether>** yeah, no kidding  
-**\<suraeNoether>** he has four visiting scholars interested in blockchain and a handful of students, and the next thing on their plate is RLWE-based STARKs efficient enough for use in something like Monero  
+**\<suraeNoether>** he has four visiting scholars interested in blockchain and a handful of students, and the next thing on their plate is RLWE-based STARKs efficient enough for use in something like ByteRub  
 **\<suraeNoether>** so, basically: I'm super excited about the possibility of collaborating with these folks!  
 **\<sarang>** Nice  
 **\<suraeNoether>** conflict of interest disclosure: Clemson flew me out to South Carolina last week and put me up in a hotel and fed me. I gave a talk. I received a per diem for food. This is all rather ordinary in that regard.  
-**\<suraeNoether>** so, i'm encouraging that Clemson have a presence at the Monero Konferenco, to come meet members of the monero community in person  
+**\<suraeNoether>** so, i'm encouraging that Clemson have a presence at the ByteRub Konferenco, to come meet members of the byterub community in person  
 **\<suraeNoether>** and I'm encouraging their graduate students to jump in on our research meetings  
 **\<endogenic>** awesome!  
 **\<sarang>** Totally; getting more researchers involved is great for the project  
-**\<suraeNoether>** I want them to come to the Konferenco, meet some of the folks in the Monero community face to face, and contribute to Monero's development. I think this is a good thing both for Monero and Clemson University, and I think a more formal academic collaboration with Monero Research Lab is long overdue.  
+**\<suraeNoether>** I want them to come to the Konferenco, meet some of the folks in the ByteRub community face to face, and contribute to ByteRub's development. I think this is a good thing both for ByteRub and Clemson University, and I think a more formal academic collaboration with ByteRub Research Lab is long overdue.  
 **\<suraeNoether>** also, for what it's worth  
 **\<suraeNoether>** the last time I was at clemson, speaking with people about cryptocurrency or privacy as a human right was a hard conversation to have  
 **\<suraeNoether>** this time, the conversations went... very... very .... differently.  
@@ -128,9 +128,9 @@ author: el00ruobuob / sarang
 **\<Isthmus>** \*late  
 **\<suraeNoether>** oooh isthmus  
 **\<suraeNoether>** do you have an update beefore we move onto 3?  
-**\<Isthmus>** Been working on playing around with camel emission curves, though that window has probably shut for Monero  
+**\<Isthmus>** Been working on playing around with camel emission curves, though that window has probably shut for ByteRub  
 **\<Isthmus>** Also, @n3ptune and I looked at single-transaction outputs in recentish history. There are O(1000) of them  
-**\<Isthmus>** https://github.com/byterubpay/monero/issues/5399  
+**\<Isthmus>** https://github.com/byterubpay/byterub/issues/5399  
 **\<Isthmus>** https://usercontent.irccloud-cdn.com/file/YyM3h9KG/image.png  
 **\<Isthmus>** TL;DR:  
 **\<Isthmus>** There have been over 2500+ single-output transactions since 2017  
@@ -149,9 +149,9 @@ author: el00ruobuob / sarang
 **\<sgp\_>** This should be consensus. Isthmus opened a GitHub issue, and I don't think anyone has voiced opposition to it  
 **\<luigi1111w>** 2 output min is good  
 **\<sarang>** absolutely  
-**\<Isthmus>** Oh yea, if you have thoughts, leave them here: https://github.com/byterubpay/monero/issues/5399  
+**\<Isthmus>** Oh yea, if you have thoughts, leave them here: https://github.com/byterubpay/byterub/issues/5399  
 **\<Isthmus>** Otherwise, good to move on  
-**\<charuto>** could the spike on 1output transactions be somehow related to monero classic/original ? date seems to almost coincide.  
+**\<charuto>** could the spike on 1output transactions be somehow related to byterub classic/original ? date seems to almost coincide.  
 **\<sarang>** OK, in the interest of hitting our 1-hour target, I'll work up numbers for batch Lelantus verification at varying anonymity set sizes, and finish up some example code refactoring to complete that project  
 **\<sarang>** I'm also looking into how a new transaction type could be used to transition RingCT outputs to this  
 **\<sarang>** Submission of the DLSAG paper is finally happening  

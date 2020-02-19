@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-12-17
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-12-17
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -14,7 +14,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** I'M BACK THO  
 **\<suraeNoether>** not really  
 **\<suraeNoether>** still exhausted but INCREMENTALLY GETTING BETTER  
-**\<sarang>** just like monero  
+**\<sarang>** just like byterub  
 **\<suraeNoether>** heh  
 **\<suraeNoether>** allrighty everyone: as usual, we'll open with questions, then discuss the work we've done the past weeks since our last update  
 **\<suraeNoether>** does anyone have any questions before we open up?  
@@ -28,21 +28,21 @@ author: el00ruobuob / surae
 **\<sarang>** What did you bring to the table from your perspective?  
 **\<suraeNoether>** i brought a few arguments favoring privacy that i like a lot, tbh  
 **\<suraeNoether>** for example  
-**\<kayront>** clearly preserving financial privacy is a step in the right direction, but how to reconciliate regulator acceptance of something like monero, in a world of guilty by default, aml/kyc, FATCA and CRS? if you were to transpose the banking rules as they stand today to the crypto space, then it seems evident (unfortunately) that the general population having access to the famous swiss bank account in their pocket would go against the  
+**\<kayront>** clearly preserving financial privacy is a step in the right direction, but how to reconciliate regulator acceptance of something like byterub, in a world of guilty by default, aml/kyc, FATCA and CRS? if you were to transpose the banking rules as they stand today to the crypto space, then it seems evident (unfortunately) that the general population having access to the famous swiss bank account in their pocket would go against the  
 **\<kayront>** direction of the last decade or two, which is granting government the ability to track anything and everything digital (specifically in regards to money flows in this discussion)  
-**\<suraeNoether>** i love it when fluffypony talks about how monero can be used to buy banned books in totalitarian regimes like north korea, for example, because it illustrates that \*using a technology that is morally neutral, and can be used for good or for evil\* is not inherently wrong or criminal, and can be used to do ostensibly "good" things for society  
+**\<suraeNoether>** i love it when fluffypony talks about how byterub can be used to buy banned books in totalitarian regimes like north korea, for example, because it illustrates that \*using a technology that is morally neutral, and can be used for good or for evil\* is not inherently wrong or criminal, and can be used to do ostensibly "good" things for society  
 **\<suraeNoether>** kayront: actually  
 **\<suraeNoether>** not to hashtag-actually yoiu  
 **\<suraeNoether>** the thing is that the banking rules as they stand today give exhcanges like coinbase plenty of power and ability to comply  
 **\<sarang>** Exchanges are waiting for super-conservative Coinbase  
 **\<sarang>** I'm not convinced that accepting Zcash was a step in the right direction or not  
-**\<suraeNoether>** every single cryptocurrency, zcash and monero included, if you are using KYC/AML exchanges, can totally de-anonymize you. so you may ask a better question which is: "why are law enforcement asking for MORE power and control over this new technology?"  
+**\<suraeNoether>** every single cryptocurrency, zcash and byterub included, if you are using KYC/AML exchanges, can totally de-anonymize you. so you may ask a better question which is: "why are law enforcement asking for MORE power and control over this new technology?"  
 **\<sarang>** lol because they can  
 **\<suraeNoether>** for example kayront  
 **\<suraeNoether>** sarang: yeah the answer is obvious  
 **\<suraeNoether>** hence the political pushback and advocacy  
 **\<suraeNoether>** so, for example kayront, a bank today only needs to file a suspicious activity report about information that's happening inside their own bank  
-**\<kayront>** suraeNoether: "totally"? sure, they'll be able to track when you get in and out of monero, but after that, the ship has sailed  
+**\<kayront>** suraeNoether: "totally"? sure, they'll be able to track when you get in and out of byterub, but after that, the ship has sailed  
 **\<suraeNoether>** the guys at Chase arent' responsible for filing an SAR about stuff that happened on Wells Fargo accounts, and vice versa  
 **\<kayront>** transfer to your own wallet, churn as you please for increased peace of mind, do whatever you want  
 **\<sarang>** I think he's saying that you give them your name and address and bank info, so of course the exchange knows who you are  
@@ -50,7 +50,7 @@ author: el00ruobuob / surae
 **\<sarang>** Sure it does  
 **\<suraeNoether>** so the recent trend where pols and law enforcement officials are asking for additional view key access is in contradiction with their current ability to comply  
 **\<suraeNoether>** with classic/traditional assets  
-**\<suraeNoether>** if Chase doesn't need to report anything beyond one hop outside their bank, why should Monero give outgoing view key access, for example? stuff like that  
+**\<suraeNoether>** if Chase doesn't need to report anything beyond one hop outside their bank, why should ByteRub give outgoing view key access, for example? stuff like that  
 **\<sarang>** We need to convince exchanges that they can already comply  
 **\<suraeNoether>** so the coincenter workshop was a day of very smart and stimulating people from various coin projects and various non-profits around the world discussing how to convince lawmakers of stuff like this  
 **\<sarang>** but regulators are being super cagey about specifics  
@@ -65,12 +65,12 @@ author: el00ruobuob / surae
 **\<sarang>** ya  
 **\<suraeNoether>** it's interesting  
 **\<sarang>** So... good meeting, I take it?  
-**\<oneiric\_>** what does MRL think about using hashcash or a reduced monero PoW (like pool mining shares) to secure anonymity networks for p2p?  
+**\<oneiric\_>** what does MRL think about using hashcash or a reduced byterub PoW (like pool mining shares) to secure anonymity networks for p2p?  
 **\<suraeNoether>** and political science-y, so we can call it research :D  
 **\<sarang>** And you had said that the documents will be published?  
 **\<kayront>** :D  
 **\<sarang>** oneiric\_: what does that mean exactly?  
-**\<suraeNoether>** yeah, sarang, i walked away feeling like it was a room full of allies both for financial privacy in general and for the twin monero-zcash ecosystems. i wasn't expecting that at all, tbqh  
+**\<suraeNoether>** yeah, sarang, i walked away feeling like it was a room full of allies both for financial privacy in general and for the twin byterub-zcash ecosystems. i wasn't expecting that at all, tbqh  
 **\<sarang>** nice  
 **\<suraeNoether>** sarang: yes, all the reports will be made public on coincenter.org soon  
 **\<suraeNoether>** oneiric\_: if you elaborate i could form an opinion :D  
@@ -106,7 +106,7 @@ author: el00ruobuob / surae
 **\<sarang>** And it opens up to additional matching/weighting work too  
 **\<suraeNoether>** lurkinandlearnin: ah, good question  
 **\<sarang>** lurkinandlearnin: you can apply graph theory to a transaction graph  
-**\<sarang>** and this means questions of Monero analysis can be reframed to known graph theory problems  
+**\<sarang>** and this means questions of ByteRub analysis can be reframed to known graph theory problems  
 **\<suraeNoether>** lurkinandlearnin: the idea is basically to link transactions in a transaction graph. if it's just a plain old graph with no additional information, mathematicians call it a "matching problem" or an "assignment problem" or sometimes a "marriage problem"  
 **\<sarang>** suraeNoether formalizes this  
 **\<sarang>** soon (tm)  
@@ -115,10 +115,10 @@ author: el00ruobuob / surae
 **\<lurkinandlearnin>** I see. So it's to abstract the data we can get from the blockchain to a form where these established techniques and theories can be applied?  
 **\<sarang>** Right, we don't have to reinvent the graph-theoretic wheel  
 **\<sarang>** and it also provides bounds  
-**\<suraeNoether>** yeah, the number one problem with ring signatures and monero going back years is small anon set sizes. fluffypony makes this an important part of almost every talk he gives, but people still regularly publish papers that re-invent the wheel over and over again. "look, if two signatures have the same ring, you can ... you can... oh boy! i'ma publish!"  
+**\<suraeNoether>** yeah, the number one problem with ring signatures and byterub going back years is small anon set sizes. fluffypony makes this an important part of almost every talk he gives, but people still regularly publish papers that re-invent the wheel over and over again. "look, if two signatures have the same ring, you can ... you can... oh boy! i'ma publish!"  
 **\<suraeNoether>** the novelty of our approach is we are able to find a lower bound on some specific instances of the matching problem  
 **\<sarang>** It's basically how other types of security proofs go... if you could break X, it'd mean you would have solved Famous Math Problem Y  
-**\<suraeNoether>** previous approaches have been able to say "well, matching monero is \*no worse\* than sharp P. https://en.wikipedia.org/wiki/%E2%99%AFP  
+**\<suraeNoether>** previous approaches have been able to say "well, matching byterub is \*no worse\* than sharp P. https://en.wikipedia.org/wiki/%E2%99%AFP  
 **\<lurkinandlearnin>** Interesting. So is the paper "groundwork" towards using these techniques or have you already got findings?  
 **\<suraeNoether>** but that's like saying "it's no worse than the worst possible problemt hat God himself couldn't solve"  
 **\<suraeNoether>** lurkinandlearnin: we are sort of generalizing many previous techniques at once and showing how they fit under a common umbrella  
@@ -127,7 +127,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** yerp  
 **\<suraeNoether>** it's a good paper  
 **\<suraeNoether>** i like it a lot  
-**\<suraeNoether>** it really highlights how linkable Monero will be until we get larger anon set authentications  
+**\<suraeNoether>** it really highlights how linkable ByteRub will be until we get larger anon set authentications  
 **\<sarang>** Aside from that, Badass Benedikt Bunz put out a new paper on batching in accumulators: https://eprint.iacr.org/2018/1188  
 **\<sarang>** Unfortunately it applies most directly to RSA accumulators, which are a no-go for us  
 **\<lurkinandlearnin>** Thanks for the explanations. I'll look forward to it.  
@@ -135,7 +135,7 @@ author: el00ruobuob / surae
 **\<sarang>** I'm working a ZtM update regarding spend proofs, which I realized are useful but missing from the tech documentation  
 **\<sarang>** as well as some arithmetic circuit research  
 **\<sarang>** Otherwise, just trucking along with lit review and code  
-**\<sarang>** A side note that several funding requests are open, including those that fund MRL and other developers: https://forum.getmonero.org/8/funding-required  
+**\<sarang>** A side note that several funding requests are open, including those that fund MRL and other developers: https://forum.getbyterub.org/8/funding-required  
 **\<sarang>** In a bear market, pockets tend to shrink unfortunately :(  
 **\<sarang>** (disclaimer: one of those requests is for me)  
 **\<lurkinandlearnin>** Ain't that the truth  
@@ -145,7 +145,7 @@ author: el00ruobuob / surae
 **\<kayront>** the bear spares no one  
 **\<lurkinandlearnin>** Loki Foundation?  
 **\<sarang>** Foundation associated to this group: https://loki.network/  
-**\<sarang>** Monero-based, so they wish to support researchers (and no doubt it's good PR too)  
+**\<sarang>** ByteRub-based, so they wish to support researchers (and no doubt it's good PR too)  
 **\<sarang>** The Foundation as a legal entity is not allowed to donate in cryptoassets  
 **\<sarang>** so they'd have to donate directly in fiat  
 **\<lurkinandlearnin>** haha I searched before you answered and only found a german record label  
@@ -215,7 +215,7 @@ author: el00ruobuob / surae
 **\<sarang>** not published tho  
 **\<ilyaAldanov>** I don't publish it because a) it's a draft b) don't want the coins I don't like to implement it first.  
 **\<sarang>** The construction of the subaddress is clever ilyaAldanov  
-**\<sarang>** Heh, Monero doesn't need to be first, just best  
+**\<sarang>** Heh, ByteRub doesn't need to be first, just best  
 **\<suraeNoether>** sarang: there's a write-up for ilyaAldanov's idea?  
 **\<sarang>** It was sent privately during discussions  
 **\<kayront>** fwiw i find this a very interesting idea as well  
@@ -234,7 +234,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** would they be do-able together or would it be one or the other only?  
 **\<kayront>** DLSAG = ?  
 **\<sarang>** You could probably do a separate return subaddress per output address  
-**\<sarang>** MRL-0008: https://ww.getmonero.org/resources/research-lab/  
+**\<sarang>** MRL-0008: https://ww.getbyterub.org/resources/research-lab/  
 **\<ilyaAldanov>** If you ask me, I came up with many more use cases for return addresses.  
 **\<sarang>** I definitely see the usefulness  
 **\<suraeNoether>** DLSAG = dual-output linkable spontaneous anonymous group signatures  
@@ -271,14 +271,14 @@ author: el00ruobuob / surae
 **\<sarang>** So we should assume they'll be awful and minimize the damage  
 **\<sarang>** ilyaAldanov: if you approve, I can send your document to suraeNoether  
 **\<ilyaAldanov>** I approve.  
-**\<suraeNoether>** or just email it to me at surae@getmonero.org  
+**\<suraeNoether>** or just email it to me at surae@getbyterub.org  
 **\<ilyaAldanov>** But I want feedback!  
 **\<sarang>** Sure; you'll get the best feedback if/when you release the draft publicly, tho  
 **\<ilyaAldanov>** Are there any spies of the coins I don't like here?  
 **\<suraeNoether>** ilyaAldanov: probably, but they also are not very good at their jobs :D  
 **\<sarang>** probably  
 **\<ilyaAldanov>** I don't like coins with premines, developer's rewards and obnoxious leaders.  
-**\<sarang>** Welcome to Club Monero  
+**\<sarang>** Welcome to Club ByteRub  
 **\<sarang>** I assume Monono will steal this, but I'm ok with that  
 **\<sarang>** So our time is nearly up... anyone else have info to share?  
 **\<nioc>**  a while ago there was a request for a recommended ring size for the next hard fork which is April and the code freeze is Jan.  I know research has been done to address this request.  Where do we stand in regards to a possible ring size increase?  
@@ -289,7 +289,7 @@ author: el00ruobuob / surae
 **\<lurkinandlearnin>** oh wait I wasn't meant to say that out loud  
 **\<sarang>** I do not see a reason to increase at this time  
 **\<nioc>** but more is better   :D  
-**\<suraeNoether>** nioc: recent research suggests that increasing ring size \*may not\* be super helpful, even though \*the min time required\* to generate a guess at the true Monero transaction history is proportional to r: double r and you double that min time required  
+**\<suraeNoether>** nioc: recent research suggests that increasing ring size \*may not\* be super helpful, even though \*the min time required\* to generate a guess at the true ByteRub transaction history is proportional to r: double r and you double that min time required  
 **\<suraeNoether>** which sounds great  
 **\<suraeNoether>** but it's not very efficient  
 **\<suraeNoether>** i would rather: increase r by 1 and the difficulty doubles  

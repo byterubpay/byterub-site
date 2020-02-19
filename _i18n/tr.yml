@@ -1,10 +1,10 @@
 global:
   date: '%Y/%m/%d'
-  monero: ByteRub
+  byterub: ByteRub
   getting_started: Başlangıç
   copyright: Teklif Hakkı
-  monero_project: ByteRub Projesi
-  sitename: getmonero.org, ByteRub Projesi
+  byterub_project: ByteRub Projesi
+  sitename: getbyterub.org, ByteRub Projesi
   wiki: ByteRubpedi
   tags: Etiketlere göre Yazılar
   wikimeta: ByteRub bilgisinin açık ansiklopedisi ByteRubpedi'de
@@ -22,7 +22,7 @@ global:
 
 titles:
   index: Ana Sayfa
-  whatismonero: ByteRub (XMR) Nedir?
+  whatisbyterub: ByteRub (XMR) Nedir?
   using: ByteRub Kullanımı
   accepting: ByteRub Kabulü
   contributing: ByteRub'ya Katkıda Bulunulması
@@ -38,11 +38,11 @@ titles:
   about: ByteRub Hakkında
   roadmap: Yol Haritası
   researchlab: ByteRub Araştırma Laboratuvarı
-  moneropedia: ByteRubpedi
+  byterubpedia: ByteRubpedi
   userguides: Kullanıcı Rehberleri
   developerguides: Geliştirici Rehberleri
   technicalspecs: Teknik Özellikler
-  themoneroproject: ByteRub Projesi
+  thebyterubproject: ByteRub Projesi
   presskit: ByteRub Basın Kiti
   legal: Yasal
   ffs: Forum Fonlama Sistemi
@@ -59,19 +59,19 @@ index:
 
 home:
   heading2: Gizli Dijital Para
-  monero_is_cash: ByteRub bağlı bir dünya için paradır. Hızlı, gizli ve güvenlidir. ByteRub'yla kendi bankanız siz olursunuz. Başkalarının bakiyenizi göremeyeceğini veya aktivitelerinizi takip edemeyeceğini bilerek güvenli şekilde harcayabilirsiniz.
+  byterub_is_cash: ByteRub bağlı bir dünya için paradır. Hızlı, gizli ve güvenlidir. ByteRub'yla kendi bankanız siz olursunuz. Başkalarının bakiyenizi göremeyeceğini veya aktivitelerinizi takip edemeyeceğini bilerek güvenli şekilde harcayabilirsiniz.
   get_started: Başlangıç
-  why_monero_is_different: ByteRub'nun farklı olma sebepleri
-  monero_is_secure: ByteRub güvenlidir
-  monero_is_secure_para: ByteRub merkeziyetsiz bir kripto-paradır, yani bir kullanıcılar ağınca işletilen güvenli dijital paradır. İşlemler dağıtık uzlaşımla onaylanıp değiştirilemez şekilde blokzincire kaydedilir. ByteRubnuzun güvende tutulması için üçüncü taraflara güvenilmesi gerekmez.
-  monero_is_private: ByteRub gizlidir
-  monero_is_private_para: ByteRub tüm işlemlerin kaynaklarını, miktarlarını ve varış noktalarını gizlemek için halka imzaları, halka gizli işlemleri ve hayalet adresleri kullanır. ByteRub olağan gizlilikten imtiyaz vermeden merkeziyetsiz bir kriptoparanın tüm faydalarını sağlar.
-  monero_is_untraceable: ByteRub takip edilemezdir
-  monero_is_untraceable_para: Gönderici ve alıcı adreslerin yanında aktarılan miktarlar da varsayılan şekilde gizlidir. ByteRub blokzincirindeki işlemler belirli bir kullanıcıya veya gerçek dünya kimliğine bağlanamaz.
-  monero_is_fungible: ByteRub değiştirilebilirdir
-  monero_is_fungible_para1: ByteRub
-  monero_is_fungible_para2: değiştirilebilirdir
-  monero_is_fungible_para3: çünkü varsayılan şekilde gizlidir. ByteRub birimleri önceki işlemlerdeki ilişkilendirmesi sebebiyle satıcı veya borsalarca kara listeye alınamaz.
+  why_byterub_is_different: ByteRub'nun farklı olma sebepleri
+  byterub_is_secure: ByteRub güvenlidir
+  byterub_is_secure_para: ByteRub merkeziyetsiz bir kripto-paradır, yani bir kullanıcılar ağınca işletilen güvenli dijital paradır. İşlemler dağıtık uzlaşımla onaylanıp değiştirilemez şekilde blokzincire kaydedilir. ByteRubnuzun güvende tutulması için üçüncü taraflara güvenilmesi gerekmez.
+  byterub_is_private: ByteRub gizlidir
+  byterub_is_private_para: ByteRub tüm işlemlerin kaynaklarını, miktarlarını ve varış noktalarını gizlemek için halka imzaları, halka gizli işlemleri ve hayalet adresleri kullanır. ByteRub olağan gizlilikten imtiyaz vermeden merkeziyetsiz bir kriptoparanın tüm faydalarını sağlar.
+  byterub_is_untraceable: ByteRub takip edilemezdir
+  byterub_is_untraceable_para: Gönderici ve alıcı adreslerin yanında aktarılan miktarlar da varsayılan şekilde gizlidir. ByteRub blokzincirindeki işlemler belirli bir kullanıcıya veya gerçek dünya kimliğine bağlanamaz.
+  byterub_is_fungible: ByteRub değiştirilebilirdir
+  byterub_is_fungible_para1: ByteRub
+  byterub_is_fungible_para2: değiştirilebilirdir
+  byterub_is_fungible_para3: çünkü varsayılan şekilde gizlidir. ByteRub birimleri önceki işlemlerdeki ilişkilendirmesi sebebiyle satıcı veya borsalarca kara listeye alınamaz.
   downloads: İndirmeler
   downloads_windows: Windows için ByteRub
   downloads_mac: Mac için ByteRub
@@ -81,9 +81,9 @@ home:
   view_all_downloads: Tüm mevcut indirmeleri burada görüntüleyin.
   latest_news: Son Haberler
   more_news: Daha fazla haber
-  moneropedia: ByteRubpedi
-  moneropedia_para: ByteRub'da kullanılan terimlerin ve kavramların anlamlarına bakmak ister misiniz? Burada hem ByteRub hem de Kovri projelerinden terimlerin ve onların anlamlarının alfabetik bir rehberini bulacaksınız.
-  moneropedia_button: ByteRubpedi'yi Oku
+  byterubpedia: ByteRubpedi
+  byterubpedia_para: ByteRub'da kullanılan terimlerin ve kavramların anlamlarına bakmak ister misiniz? Burada hem ByteRub hem de Kovri projelerinden terimlerin ve onların anlamlarının alfabetik bir rehberini bulacaksınız.
+  byterubpedia_button: ByteRubpedi'yi Oku
   user_guides: Kullanıcı Rehberleri
   user_guides_para: ByteRub olan tüm şeylerin kategorilere ayrıldığı ve bir cüzdan yaratmaktan ağı desteklemeye, hatta bu internet sitesini düzenlemeye kadar her şeyi kapsayan adım adım rehberler.
   user_guides_button: Kullanıcı rehberlerini oku
@@ -98,27 +98,27 @@ hangouts:
   irc: IRC Kanalları
   irc_para: ByteRub topluluğu her biri farklı amaçlara sahip pek çok IRC kanalından faydalanmaktadır. Kimisi çalışır, kimisiyse sadece takılır. En popüler olanları aşağıda bulacaksınız.
   irc_channels:
-  - channel: monero
+  - channel: byterub
     description: Bu kanal ByteRub'ya ilişkin her şeyi tartışmak için kullanılır.
-  - channel: monero-community
+  - channel: byterub-community
     description: Bu kanal ByteRub topluluğunun toplanıp fikirlerini tartışması içindir.
-  - channel: monero-dev
+  - channel: byterub-dev
     description: Çok sayıdaki katkıda bulunan ve geliştirici buraya geliştirme şeylerini tartışmak için gelir.
-  - channel: monero-markets
+  - channel: byterub-markets
     description: Bu kanalı ByteRub'nun değeri ve diğer paralar hakkında konuşmak için kullanıyoruz.
-  - channel: monero-offtopic
+  - channel: byterub-offtopic
     description: ByteRub'ya ilişkin olmayan şeyler hakkında diğer ByteRub kullanıcıyla sohbet.
-  - channel: monero-otc
+  - channel: byterub-otc
     description: Borsa dışı ByteRub. Akran ByteRubdaşlarınızdan XMR almak için buraya gelin.
-  - channel: monero-pools
+  - channel: byterub-pools
     description: Madencilik sorularının ve tartışmalarının yeri burasıdır.
-  - channel: monero-research-lab
+  - channel: byterub-research-lab
     description: Kriptoparalarla finansal mahremiyet araştırmaları.
-  - channel: monero-translations
+  - channel: byterub-translations
     description: ByteRub'nun diğer dillere yerelleştirilmesi.
-  - channel: monero-hardware
+  - channel: byterub-hardware
     description: ByteRub'nuzu güvende tutmak için donanım cüzdanları yapımı.
-  - channel: monero-site
+  - channel: byterub-site
     description: Where the development of this website is coordinated
   - channel: kovri
     description: Bu kanal Kovri'ye ilişkin her şeyi tartışmak için kullanılır.
@@ -133,7 +133,7 @@ merchants:
     "Lütfen dikkate alınız: Bu bağlantılar kolaylık olması ve sadece bilgi verme amaçlı olarak sağlanmaktadır; listelenen şirketlerin veya organizasyonların veya bireylerin herhangi bir ürününün, hizmetinin veya düşüncesinin ByteRub topluluğunca kabulünü oluşturmazlar. ByteRub topluluğu bu harici sitelerin doğruluğu, yasallığı veya içeriği üzerinde hiçbir sorumluluk sahibi değildir. İçerikleri hakkındaki sorularınıza cevap için harici sayfaya ulaşın. Her zamanki gibi, caveat emptor ('alıcı sakınsın'); kendi araştırmanızı yapmaktan siz sorumlusunuz. Çevrimiçi satın alım yaparken her zaman sağduyu kullanın."
 
 sponsorships:
-  intro: Aşağıdaki işletmeler Dünyaya finansal gizlilik getirme hedefinde ByteRub Projesini desteklemektedir. Katkıları için ne kadar minnettar olsak az. Eğer ByteRub Projesine sponsor olmak ve bu sayfada listelenmek isterseniz lütfen dev@getmonero.org'a bir e-posta gönderin.
+  intro: Aşağıdaki işletmeler Dünyaya finansal gizlilik getirme hedefinde ByteRub Projesini desteklemektedir. Katkıları için ne kadar minnettar olsak az. Eğer ByteRub Projesine sponsor olmak ve bu sayfada listelenmek isterseniz lütfen dev@getbyterub.org'a bir e-posta gönderin.
 
 team:
   core: Çekirdek
@@ -180,8 +180,8 @@ downloads:
   helpsupport: Help and Support
   helpsupport1: "A guide with an explanation of every section of the wallet is available:"
   helpsupport2: "See latest release"
-  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #monero-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
-  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #monero or #monero-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #byterub-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #byterub or #byterub-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
   localremote: Local or remote node
   localremote1: Use your own copy of the blockchain or a publicly available one
   transacttor: Transactions over Tor/I2P
@@ -195,7 +195,7 @@ downloads:
   verify: Verify
   verify1: You are strongly advised to verify the hashes of the archive you downloaded. This will confirm that the files you downloaded perfectly match the files uploaded by the ByteRub development workgroup. Please don't underestimate this step, a corrupted archive could result in lost funds. Always verify your downloads!
   showhash: Show hashes to verify your download
-  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getmonero.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
+  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getbyterub.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
   showhash2: in the source code
   showhash3: "Two guides are available to guide you through the verification process:"
   hardware1: The ByteRub community has funded a
@@ -232,19 +232,19 @@ press-kit:
   - category: Basın Belgelendirmesi
     publications:
     - name: "Hızlı Gerçekler Tablosu"
-      url_file: "http://www.monerooutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
+      url_file: "http://www.byteruboutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
       abstract: >
         ByteRub hakkındaki her şeyi öğrenmek için okuması hızlı ve kolay bir belge: tarihi, önemli farklılaştıran etkenleri, teknik temel prensipleri ve gelişimdeki özellikleri.<br>
-        Daha fazla bilgi için <a target="_blank" href="https://www.monerooutreach.org/index.php">ByteRub Outreach</a> sayfasını görüntüleyin.
+        Daha fazla bilgi için <a target="_blank" href="https://www.byteruboutreach.org/index.php">ByteRub Outreach</a> sayfasını görüntüleyin.
   marketing:
   - category: Marketing Material
     publications:
     - name: "The 'Don't buy ByteRub' sticker"
-      url_file: "https://github.com/monero-ecosystem/dont-buy-monero-sticker"
+      url_file: "https://github.com/byterub-ecosystem/dont-buy-byterub-sticker"
       abstract: >
         Spread ByteRub everywhere with the help of this sticker. Available in multiple languages and formats (vectors included).
     - name: Guerrilla Toolkit
-      url_file: "https://www.monerooutreach.org/guerrilla-toolkit.php"
+      url_file: "https://www.byteruboutreach.org/guerrilla-toolkit.php"
       abstract: >
         A document created by the ByteRub Outreach workgroup containing materials and tips for an effective guerrilla marketing campaign.
 
@@ -254,14 +254,14 @@ accepting:
   basics_para1: ByteRub alışagelmiş olabileceğiniz diğer @kriptoparalar dan biraz daha farklı çalışır. Bitcoin gibi dijital paralar ve bunların çok sayıdaki türev satıcı ödeme sistemleri genellikle her ödeme veya kullanıcı için yeni bir alıcı @adres i yaratır.
   basics_para2: Ancak ByteRub @hayalet-adresler e sahip olduğu için her ödeme veya kullanıcı için ayrı alıcı adreslerine sahip olmaya gerek yoktur ve tek bir @hesap adresi yayımlanabilir. Bunun yerine ödeme alırken bir satıcı ödeme yapacak kişiye bir "ödeme ID"si sağlar.
   basics_para3: "Bir @ödeme-id si 64 karakter uzunluğunda olan bir onaltılı bir dizidir ve normalde satıcı tarafından rastgele yaratılır. Bir ödeme ID örneği şöyledir:"
-  checking: monero-wallet-cli'da Ödeme Kontrolü
+  checking: byterub-wallet-cli'da Ödeme Kontrolü
   checking_para1: |
-    Eğer monero-wallet-cli kullanarak bir ödemeyi kontrol etmek isterseniz kontrol etmek istediğiniz ödeme ID veya ID'lerini takip eden şekilde "payments" komutunu kullanabilirsiniz. Örneğin:
+    Eğer byterub-wallet-cli kullanarak bir ödemeyi kontrol etmek isterseniz kontrol etmek istediğiniz ödeme ID veya ID'lerini takip eden şekilde "payments" komutunu kullanabilirsiniz. Örneğin:
   checking_para2: Eğer programlanabilir şekilde ödemeleri kontrol etmeniz gerekiyorsa detaylar bir sonraki bölümde yer almaktadır.
   receiving: Adım Adım Ödeme Almak
   receiving_list1: Ödeme için bir rastgele 64 karakterlik onaltılı dizi oluşturun
   receiving_list2: Ödeme ID'sini ve ByteRub adresini ödemeyi yapmakta olan kişiye iletin
-  receiving_list3: monero-wallet-cli'da "payments" komutunu kullanarak ödemeleri kontrol edin
+  receiving_list3: byterub-wallet-cli'da "payments" komutunu kullanarak ödemeleri kontrol edin
   program: Programlanabilir Şekilde Ödeme Kontrolü
   program_para1: Programlanabilir şekilde ödemeleri kontrol etmek için get_payments veya get_bulk_payments JSON RPC API çağrılarını kullanabilirsiniz.
   program_para2: bu tek bir ödeme ID'siyle bir payment_id parametresi gerektirir.
@@ -285,7 +285,7 @@ contributing:
   develop_para3: ve öne çıkan
   develop_para4: sorunlar.
   full-node: Tam Düğüm Çalıştırın
-  full-node_para: Port 18080 açıkken monerod çalıştırın. Bir tam düğüm çalıştırmak ByteRub'yla işlem yaparken azami gizliliği kesinleştirir. Ayrıca blokzincirin yeni kullanıcılara dağıtımını geliştirir.
+  full-node_para: Port 18080 açıkken byterubd çalıştırın. Bir tam düğüm çalıştırmak ByteRub'yla işlem yaparken azami gizliliği kesinleştirir. Ayrıca blokzincirin yeni kullanıcılara dağıtımını geliştirir.
   mine: Madencilik Yapın
   mine_para1: Madencilik ByteRub ağının merkeziyetsiz ve güvenli kalmasını kesinleştirir. ByteRub grafiksel kullanıcı arayüzünde ve komut-satırı arayüzünde arka plan madenciliği etkinleştirilebilir. Madencilik hakkındaki ek kaynakları
   mine_para2: burada görüntüleyebilirsiniz.
@@ -344,7 +344,7 @@ mining:
   support: Destek
   support_para1: "Şunları görüntüleyin:"
   support_para2: Buluşmalar,
-  support_para3: /r/moneromining (İngilizce)
+  support_para3: /r/byterubmining (İngilizce)
   support_para4: ve
   pools: Havuzlar
   pools_para1: Güvenilen ByteRub havuzlarının bir listesi
@@ -389,7 +389,7 @@ using:
   transact_para1: ByteRub pek çok mal ve hizmetin alımında kullanılabilir. İşte bir listelemeye ulaşabileceğiniz
   transact_para2: Satıcılar sayfası.
 
-what-is-monero:
+what-is-byterub:
   need-to-know: Bilmeniz gerekenler
   leading: ByteRub gizliliğe ve sansüre dayanıklı işlemlere odaklanan önde gelen kriptoparadır.
   leading_para1: Bitcoin ve Ethereum’u da içeren mevcut kriptoparaların çoğunun saydam blokzincirleri vardır, bu da işlemlerin Dünyadaki herkes tarafından açık şekilde doğrulanabildiği ve izlenebildiği anlamına gelir. Dahası bu işlemler için gönderici ve alıcı adreslerinin kişinin gerçek dünya kimliğine bağlanabilme potansiyeli vardır.
@@ -441,7 +441,7 @@ user-guides:
   offline-backup: Çevrimdışı yedek alımı
   vps-node: VPS’te düğüm çalıştırılması
   import-blockchain: ByteRub blokzincirinin içe aktarımı
-  monero-tools: ByteRub Araçları
+  byterub-tools: ByteRub Araçları
   purchasing-storing: Güvenli şekilde ByteRub alımı ve depolaması
   verify-allos: İkilileri Linux, Mac veya Windows komut satırında doğrulayın (ileri düzey)
   verify-windows: İkilileri Windows'da doğrulayın (başlangıç seviyesi)
@@ -457,7 +457,7 @@ user-guides:
   prove-payment: Ödeme kanıtlanması
   restore-from-keys: Anahtarlardan cüzdanın geri alınması
   nicehash: Madencilik ekipmanı olmadan ByteRub XMR madenciliği yapımı
-  ledger-wallet-cli: CLI (monero-wallet-cli) ile Ledger ByteRub cüzdanı üretimi
+  ledger-wallet-cli: CLI (byterub-wallet-cli) ile Ledger ByteRub cüzdanı üretimi
   multisig-messaging-system: MMS ve CLI cüzdanla çoklu-imza işlemleri
   tor_wallet: Connecting your local wallet to your own daemon over Tor
 
@@ -556,7 +556,7 @@ library:
         ByteRub'nun kapsamlı kavramsal (ve teknik) bir açıklaması.<br>
         Temel cebir ve bir sayının 'bit temsili' gibi basit bilgisayar bilimi kavramları bilen herkese sadece ByteRub'nun derin ve kapsamlı bir seviyede nasıl işlediğini değil, ayrıca kriptografinin ne kadar kullanışlı ve güzel olabileceğini öğretmeye çabalıyoruz.
     - name: "ByteRub'da Ustalaşmak"
-      file: "https://masteringmonero.com/free-download.html"
+      file: "https://masteringbyterub.com/free-download.html"
       abstract: >
         ByteRub'nun karışık görünen dünyasına bir rehber.<br>
         Şunları içerir:
@@ -566,7 +566,7 @@ library:
         <li>ByteRub merkeziyetsiz ağının, eşler-arası mimarinin, işlem yaşam döngüsünün ve güvenlik prensiplerinin detayları.</li>
         <li>Geliştiricilere, mühendislere, yazılım mimarlarına ve meraklı kullanıcılara yönelik ByteRub'nun teknik temellerinin tanıtımları.</li>
         <li>Kovri, Kurşun-geçirmezler, Çoklu-imzalar, Donanım Cüzdanları vs. gibi yeni gelişmeler.</li></ul>
-        Tam sürümü hakkında bilgi için <a href="https://masteringmonero.com/">ByteRub'da Ustalaşmak</a> internet sayfasını görüntüleyin.
+        Tam sürümü hakkında bilgi için <a href="https://masteringbyterub.com/">ByteRub'da Ustalaşmak</a> internet sayfasını görüntüleyin.
   - category: Dergiler
     publications:
     - name: "Revuo ByteRub 2017 Ç4"
@@ -580,7 +580,7 @@ library:
         Aylık ByteRub dergisi, 2017 Ç3 baskısı.<br>
         Bu sayıdaki güncellemeler: gelişim, ByteRub Araştırma Laboratuvarı, Kovri, topluluk, Donanım ve Monerujo.
 
-moneropedia:
+byterubpedia:
   add_new_button: Yeni Girdi Ekleyin
   add_new_text1: Değiştirmek veya eklemek istediğiniz bir girdi varsa lütfen
   add_new_link: bu sitenin GitLab deposunda bir sorun açın

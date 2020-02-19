@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-05-06
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-05-06
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -22,12 +22,12 @@ author: el00ruobuob / sarang
 **\<sarang>** The submission process is arduous and irritating  
 **\<sarang>** Zcoin published an intriguing Zerocoin protocol flaw recently: https://zcoin.io/cryptographic-description-of-zerocoin-attack/  
 **\<sarang>** Sooooo we won't be switching to Zerocoin anytime soon!  
-**\<sarang>** My monthly report is available on CCS: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/34#note\_5903  
+**\<sarang>** My monthly report is available on CCS: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/34#note\_5903  
 **\<suraeNoether>** is there an issue with DLSAG key images that will impact the publication process?  
 **\<sarang>** I updated the CLSAG protocol code to reflect key prefixing, which had been left out mistakenly  
 **\<sarang>** Doubtful  
 **\<sarang>** It's an interesting construction regardless  
-**\<sarang>** moneromooo asked about doing a CLSAG key image offset (like we do in BPs) to save time while avoiding subgroup issues  
+**\<sarang>** byterubmooo asked about doing a CLSAG key image offset (like we do in BPs) to save time while avoiding subgroup issues  
 **\<sarang>** Doing so would save ~315 us per signature on my test machine  
 **\<sarang>** But it was also noted that there could easily be room for error depending on implementation  
 **\<sarang>** Note that the CLSAG test code already performs this offset on the auxiliary key image, but this isn't used for linking anyway  
@@ -47,9 +47,9 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** since the proofs will be for the general case  
 **\<sarang>** Right  
 **\<suraeNoether>** anyway, i'm also trying to solve a problem with the dlsag key images that I thought had been solved, and I'm continuing to review a semi-secret paper for a colleague  
-**\<suraeNoether>** (the last semi-secret paper ended up being DLSAG, which is the groundwork for monero lightning, so y'all know if we're keeping it semi-secret it's pretty neato burrito)  
-**\<dEBRUYNE>** Is that semi-secrit paper related to Monero?  
-**\<suraeNoether>** my action items for today involve a breaking monero episode, further DLSAG research, further semi-secret research, and writing my MCC talk  
+**\<suraeNoether>** (the last semi-secret paper ended up being DLSAG, which is the groundwork for byterub lightning, so y'all know if we're keeping it semi-secret it's pretty neato burrito)  
+**\<dEBRUYNE>** Is that semi-secrit paper related to ByteRub?  
+**\<suraeNoether>** my action items for today involve a breaking byterub episode, further DLSAG research, further semi-secret research, and writing my MCC talk  
 **\<suraeNoether>** dEBRUYNE: yes  
 **\<dEBRUYNE>** Cool  
 **\<suraeNoether>** but i can't go further yet  
@@ -72,7 +72,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Ok, how about ACTION ITEMS  
 **\<sarang>** I'll be rewriting some definitions today to streamline suraeNoether's CLSAG generalization for the proofs  
 **\<sarang>** Finishing up that timing data I mentioned earlier  
-**\<sarang>** getting another couple of Breaking Monero out the door  
+**\<sarang>** getting another couple of Breaking ByteRub out the door  
 **\<sarang>** Reviewing some output selection stuff  
 **\<sarang>** etc.  
 **\<sarang>** Others?  
@@ -103,7 +103,7 @@ author: el00ruobuob / sarang
 **\<sarang>** any client release could do it  
 **\<sgp\_>** right, jut curious  
 **\<sgp\_>** are you anticipating any work on your end for RandomX? code is frozen and needs to be reviewed  
-**\<suraeNoether>** i heard a rumor that tari is looking into ristretto and monero's protocol  
+**\<suraeNoether>** i heard a rumor that tari is looking into ristretto and byterub's protocol  
 **\<suraeNoether>** i'm thinking we should invite someone from tari to give us an update on that for the meeting after next or something like that  
 **\<sarang>** sgp\_: I'm working with hyc to solicit statements of work from reviewers  
 **\<sarang>** We have 4 interested firms  
@@ -124,7 +124,7 @@ author: el00ruobuob / sarang
 **\<sarang>** In that case, thanks to everyone for participating today. Logs will be posted shortly to the GitHub agenda issue  
 **\<sgp\_>** I have a really quick announcement  
 **\<sarang>** sure  
-**\<sgp\_>** If you are interested in speaking, running a workshop, and/or volunteering at the Monero Village at Defcon in August, please fill out the CFP by June 3: http://monerovillage.org  
+**\<sgp\_>** If you are interested in speaking, running a workshop, and/or volunteering at the ByteRub Village at Defcon in August, please fill out the CFP by June 3: http://byterubvillage.org  
 **\<sgp\_>** We already have some good submissions  
 **\<sgp\_>** (done)  
 **\<sarang>** When https?  

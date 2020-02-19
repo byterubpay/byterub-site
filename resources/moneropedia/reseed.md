@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.reseed
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.reseed
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/reseed.md %}
+{% tf resources/byterubpedia/reseed.md %}

@@ -31,7 +31,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Lol  
 **\<sgp>** Yes, point 2 is about the ByteRub Meetups and what I have learned  
 **\<sgp>** As many people here may know, I have spent the last 5 months speaking about ByteRub throughout Europe. Each of these events were similar in that they attempted to introduce audience members to ByteRub, but there are a variety of things I learned throughout the series of experiences. In this section, I will cover a few of these items. If someone else has a different topic they would like to elaborate about in future meetings, please contact the  
-moderators in /r/ByteRubCommunity or post after the meeting is over in monero-community.  
+moderators in /r/ByteRubCommunity or post after the meeting is over in byterub-community.  
 **\<rehrar>** ok, now that this is resolved, I will be splitting. I'll check the logs. Bye all. Love you. \<3  
 **\<sgp>** @rehrar thanks for starting it. If I mess up in the future people, please PM me!  
 **\<serhack>** bye rehrar  
@@ -73,9 +73,9 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<serhack>** bigreddmachine: +1  
 **\<keledoro>** Interesting  
 **\<sgp>** @bigreddmachine I plan to :)  
-**\<serhack>** like on monerocommunity.com  
+**\<serhack>** like on byterubcommunity.com  
 **\<sgp>** ^this is me feeling out what to put in it haha  
-**\<mattcode>** is monerocommunity.com a thing or are you just proposing it?  
+**\<mattcode>** is byterubcommunity.com a thing or are you just proposing it?  
 **\<rbrunner>** not up it seems  
 **\<serhack>** mattcode: I'm proposing  
 **\<sgp>** Does anyone have any other questions or thoughts for what I should include in a summary before we move on?  
@@ -83,7 +83,7 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<bigreddmachine>** They can add more in a side channel.  
 **\<bigreddmachine>** ByteRub Community should be a GitHub.io page imo  
 **\<JollyMort[m]>** fyi, just to let you know i discovered a cool project and let them know about Kovri and asked to accept ByteRub for donations: https://briarproject.org/news/2017-beta-released-security-audit.html  
-**\<keledoro>** I'd be interested to see what kind of topics you would cover in a more "beginner-friendly" monero presentation  
+**\<keledoro>** I'd be interested to see what kind of topics you would cover in a more "beginner-friendly" byterub presentation  
 **\<sgp>** @keledoro that is a good idea. Basically ByteRub for people who don't even know what Bitcoin is  
 **\<keledoro>** Exactly, since some of the technical aspects can be really frightening  
 **\<miziel>** sgp: so more like cryptocurrency 101  
@@ -114,19 +114,19 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<rbrunner>** Just steer clear of rabbid fanboys, I guess  
 **\<rbrunner>** On all sides  
 **\<sgp>** Ok, moving on to a topic mentioned earlier: 4. Twitter/Facebook background  
-**\<sgp>** I created this post a few weeks back asking for people to redesign the backgrounds: https://www.reddit.com/r/ByteRubCommunity/comments/6nrab3/lets_redesign_the_monero_facebooktwitter/  
+**\<sgp>** I created this post a few weeks back asking for people to redesign the backgrounds: https://www.reddit.com/r/ByteRubCommunity/comments/6nrab3/lets_redesign_the_byterub_facebooktwitter/  
 **\<sgp>** Please review at the options and leave a comment and/or vote. There is no deadline, and it can be updated at any time. I just want to make sure that people who want to spend a few minutes/hours doing something simple for ByteRub, this is a good place to get started. Even if all you can do is vote on the work of others :p  
 **\<sgp>** 5. Things you can test  
 **\<sgp>** There are new things you can test! Please let us know what bugs you find on GitHub.  
-**\<sgp>** Android GUI port (unofficial build of experimental software): https://github.com/byterubpay/monero-core/pull/780  
-**\<sgp>** Sync speed: https://github.com/byterubpay/monero/pull/2149 (win64 nightly build https://build.getmonero.org/downloads/monero-0486d6a2-win64.tar.gz)  
+**\<sgp>** Android GUI port (unofficial build of experimental software): https://github.com/byterubpay/byterub-core/pull/780  
+**\<sgp>** Sync speed: https://github.com/byterubpay/byterub/pull/2149 (win64 nightly build https://build.getbyterub.org/downloads/byterub-0486d6a2-win64.tar.gz)  
 **\<sgp>** Please take care testing software, since they are much more likely to contain bugs and malicious code.  
 **\<rbrunner>** Malicious code?  
 **\<sgp>** Anyone else need community members to test anything?  
 **\<serhack>** malicious code?  
 **\<serhack>** my web integrations :)  
-**\<moneromooo>** That two liner is... not optimal :D  
-**\<serhack>** ByteRub WooCommerce Extension https://github.com/monero-integrations/monerowp  
+**\<byterubmooo>** That two liner is... not optimal :D  
+**\<serhack>** ByteRub WooCommerce Extension https://github.com/byterub-integrations/byterubwp  
 **\<sgp>** @rbrunner @serhack unofficial builds like the .apk are more likely to have inserted code in them, among other issues  
 **\<sgp>** ^also check out @serhack's extension!  
 **\<rbrunner>** I see. However not very likely me thinks  
@@ -142,15 +142,15 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<sgp>** So like Cookie Clicker for ByteRub?  
 **\<serhack>** yeah  
 **\<keledoro>** Can someone explain? I am not sure i'm getting that  
-**\<JollyMort[m]>** don't forget to test multisig! https://monero.stackexchange.com/questions/5646/how-to-use-monero-2-2-multisignature-wallets  
-**\<mattcode>** keledoro: its just a little game to waste time. you build a virtual/fake mining center that mines fake monero you use to upgrade your mining center  
+**\<JollyMort[m]>** don't forget to test multisig! https://byterub.stackexchange.com/questions/5646/how-to-use-byterub-2-2-multisignature-wallets  
+**\<mattcode>** keledoro: its just a little game to waste time. you build a virtual/fake mining center that mines fake byterub you use to upgrade your mining center  
 **\<keledoro>** Okay, got it! Thanks  
 **\<keledoro>** Can we just throw in ideas or how does it work?  
 **\<serhack>** JollyMort[m]: oh, important!  
 **\<sgp>** @serhack it could be a fun project. /r/place got me more excited than expected. I don't know how many people will use it though  
 **\<JollyMort[m]>** dunno when mooo will code n-1/n but n/n is nice  
 **\<JollyMort[m]>** works like a charm now  
-**\<serhack>** the purpose is simplify the life of people that don't know anything about monero  
+**\<serhack>** the purpose is simplify the life of people that don't know anything about byterub  
 **\<serhack>** with a game!  
 **\<sgp>** There may be a better casual game than mining  
 **\<serhack>** yes  
@@ -158,38 +158,38 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<serhack>** setting a xmr wallet is so simple :)  
 **\<sgp>** @keledoro that sounds like a fantastic idea  
 **\<sgp>** We just need an email that doesn't sound too spammy :)  
-**\<keledoro>** Yep, maybe even a @getmonero mail address  
+**\<keledoro>** Yep, maybe even a @getbyterub mail address  
 **\<serhack>** scam@fake.com :)  
 **\<rbrunner>** Are they allowed to take truly anonymous donations?  
 **\<ArticMine>** It depends on the NGO  
-**\<moneromooo>** ...  
+**\<byterubmooo>** ...  
 **\<pero>** -\_-  
-**\<moneromooo>** My opinion of the world just dropped another notch.  
+**\<byterubmooo>** My opinion of the world just dropped another notch.  
 **\<keledoro>** ?  
 **\<afighttilldeath>** We could start with the NGO that accept Bitcoin and go from there  
 **\<rbrunner>** What's wrong with the world?  
-**\<moneromooo>** People ?  
-**\* moneromooo** shuts up  
+**\<byterubmooo>** People ?  
+**\* byterubmooo** shuts up  
 **\<pero>** its a cow thing  
 **\<rbrunner>** Lol  
 **\<ArticMine>** Also accepting ByteRub does not mean they have to be anonymous  
-**\<moneromooo>** They milk us till the cows come home...  
+**\<byterubmooo>** They milk us till the cows come home...  
 **\<sgp>** @keledoro please feel free to continue this conversation outside of the meeting. It sounds like a really good idea  
 **\<rbrunner>** Yes, I think that with the NGO is good  
 **\<keledoro>** Alrighty, will do!  
 **\<sgp>** Anyone else have a final thought? We have 3 minutes left  
-**\<datenschleuder>** https://build.getmonero.org/downloads/monero-0486d6a2-win64.tar.gz link is broken  
+**\<datenschleuder>** https://build.getbyterub.org/downloads/byterub-0486d6a2-win64.tar.gz link is broken  
 **\<JollyMort[m]>** anonymous != private  
 **\<JollyMort[m]>** something often forgotten  
 **\<ArticMine>** ^^ So true  
-**\<sgp>** @datenschleuder maybe try this one? https://build.getmonero.org/downloads/monero-core-995a5e0-win64.zip  
-**\<JollyMort[m]>** exhange knows i buy monero == not anon  
+**\<sgp>** @datenschleuder maybe try this one? https://build.getbyterub.org/downloads/byterub-core-995a5e0-win64.zip  
+**\<JollyMort[m]>** exhange knows i buy byterub == not anon  
 **\<pigeons>** datenschleuder the link is too old it was rotated  
 **\<JollyMort[m]>** it doesn't know i buy bibles with it == private  
 **\<sgp>** That is the latest build. Maybe you need to try a different one  
 **\<pigeons>** are you looking for a certain PR, or the latest? I can trigger a new build  
 **\<pigeons>** we only have the space to keep a couple of days  
-**\<moneromooo>** The 2149 patch.  
+**\<byterubmooo>** The 2149 patch.  
 **\<datenschleuder>** thanks for the new link  
 **\<sgp>** 7. Confirm next meeting date/time  
 **\<sgp>** The next meeting will happen in two weeks on 13 August. Same time (18:30 UTC). Look for another meta issue about it on GitHub. Future meetings may be scheduled to the Saturdays before dev meetings, but this is a discussion for another time.  
@@ -197,7 +197,7 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<sgp>** My apologies  
 **\<sgp>** Especially to @rehrar  
 **\<sgp>** 8. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and monero-community.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and byterub-community.  
 **\<datenschleuder>** ADVERTISING: Don't forget the next Berlin ByteRub Meetup 10th august in Gräfestr 77 | 7pm  
 **\<serhack>** thnak you sgp  
 **\<sgp>** Feel free to stick around, but the meeting is officiall over  
@@ -206,15 +206,15 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<datenschleuder>** ty sgp!  
 **\<rbrunner>** Thanks sgp!  
 **\<netg>** which date is berlin meetup?  
-**\<netg>** monero meetup 2015 in berlin was great  
-**\<pigeons>** moneromooo: what platforms do you need built for 2149?  
+**\<netg>** byterub meetup 2015 in berlin was great  
+**\<pigeons>** byterubmooo: what platforms do you need built for 2149?  
 **\<sgp>** @netg 10 Aug  
 **\<datenschleuder>** @sgp when is the next cummunity meetup? 10th or 13 ?  
 **\<netg>** 2 days after SHA  
 **\<netg>** sick timing  
-**\<pigeons>** datenschleuder win64 GUI build we be linked from https://build.getmonero.org/builders/monero-core-win64/builds/876 when completed  
+**\<pigeons>** datenschleuder win64 GUI build we be linked from https://build.getbyterub.org/builders/byterub-core-win64/builds/876 when completed  
 **\<datenschleuder>** thanks! @pigeons  
-**\<moneromooo>** pigeons: whatever people would test it on. I guess win64 is likely the best target.  
-**\<moneromooo>** Linux poeple will know how to build it.  
+**\<byterubmooo>** pigeons: whatever people would test it on. I guess win64 is likely the best target.  
+**\<byterubmooo>** Linux poeple will know how to build it.  
 **\<datenschleuder>** @sgp I think the channel topic is wrong. it's 13 August 2017  
-**\<moneromooo>** Thanks :)    
+**\<byterubmooo>** Thanks :)    

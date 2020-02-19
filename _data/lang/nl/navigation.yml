@@ -1,6 +1,6 @@
 - title: Aan de slag
   subfolderitems:
-  - page: Wat is Monero?
+  - page: Wat is ByteRub?
     url: get-started/what-is-monero
   - page: Gebruiken
     url: get-started/using
@@ -36,13 +36,13 @@
     url: community/merchants
 - title: Informatie
   subfolderitems:
-  - page: Over Monero
+  - page: Over ByteRub
     url: resources/about/
   - page: Planning
     url: resources/roadmap
   - page: Research Lab
     url: resources/research-lab
-  - page: Moneropedia
+  - page: ByteRubpedia
     url: resources/moneropedia
   - page: Gebruikershandleidingen
     url: resources/user-guides

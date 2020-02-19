@@ -1,6 +1,6 @@
 ---
 layout: user-guide
-title: "How to generate a Ledger Monero wallet with the CLI (monero-wallet-cli)"
+title: "How to generate a Ledger ByteRub wallet with the CLI (byterub-wallet-cli)"
 permalink: /resources/user-guides/ledger-wallet-cli.html
 mainVersion:
   - "1"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-10-29
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-10-29
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -22,7 +22,7 @@ author: el00ruobuob / sarang
 **\<hyc>** absolutely. what else is it besides a graph problem  
 **\<sarang>** those bounds, coupled with a goal for an "acceptable" number of alternate histories, is a neat approach to practical fungibility  
 **\<sarang>** for sure  
-**\<suraeNoether>** other than that, I've been chatting with folks about preparing for Monero Konferenco, and having meetings on my non-profit MAGIC (PM me if interested). i also spent some time last week working on a constant sized ring signature scheme, and i'm like, 50/50 on whether or  not i found a problem with it. :P  
+**\<suraeNoether>** other than that, I've been chatting with folks about preparing for ByteRub Konferenco, and having meetings on my non-profit MAGIC (PM me if interested). i also spent some time last week working on a constant sized ring signature scheme, and i'm like, 50/50 on whether or  not i found a problem with it. :P  
 **\<sarang>** To what extent can we extract churn practices from this?  
 **\<sarang>** I consider that to be an important open question  
 **\<msvb-lab>** Hello.  
@@ -119,13 +119,13 @@ author: el00ruobuob / sarang
 **\<sarang>** statistically it's very unlikely to get set union problems with our large rings  
 **\<suraeNoether>** we have these dynamic fees, and so if you sign a transaction well before it's broadcast, the fee computed will be linkable back to the height when it was signed  
 **\<sarang>** notmike: you had a question also?  
-**\<moneromooo>** The fee is based on weight and the time at which it is made. Harly much of a fingerprinting thing.  
-**\<moneromooo>** Admittedly, there's also the size of the txpool at the time though.  
+**\<byterubmooo>** The fee is based on weight and the time at which it is made. Harly much of a fingerprinting thing.  
+**\<byterubmooo>** Admittedly, there's also the size of the txpool at the time though.  
 **\<suraeNoether>** this gives a route for linkability to identify cold signers  
-**\<moneromooo>** (one bit)  
-**\<sarang>** moneromooo: yeah, not necessarily very useful, but still one of those things that isn't mandated  
+**\<byterubmooo>** (one bit)  
+**\<sarang>** byterubmooo: yeah, not necessarily very useful, but still one of those things that isn't mandated  
 **\<sarang>** I'm not particularly concerned about it  
-**\<moneromooo>** And both weight and time of tx are already essentially public.  
+**\<byterubmooo>** And both weight and time of tx are already essentially public.  
 **\<suraeNoether>** but overall encrypting fees has a whole bunch of engineering headaches associated with it that are not worth the security risk that the unencrypted fees represent, imo  
 **\<suraeNoether>** basically the worst thing that can happen is someone identifies that a transaction was signed on an airgapped computer and a significant delay in broadcasting occurred  
 **\<sarang>** suraeNoether: there's encrypting fees, and then there's mandating set options  
@@ -134,16 +134,16 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** but transparent  
 **\<suraeNoether>** or just low and high  
 **\<lurkinandlearnin>** Yes set transparent values seems sensible  
-**\<moneromooo>** With the gamma selection, you can already tell, because there's a fairly hard right wall.  
+**\<byterubmooo>** With the gamma selection, you can already tell, because there's a fairly hard right wall.  
 **\<IsthmusCrypto>** "this gives a route for linkability to identify cold signers" < decoy ages does this  
-**\<IsthmusCrypto>** Oh, yea, exactly @moneromooo  
+**\<IsthmusCrypto>** Oh, yea, exactly @byterubmooo  
 **\<IsthmusCrypto>** Agree with @suraeNoether - fixed & plaintext  
 **\<lurkinandlearnin>** So the risks of transaparent fees are strictly timing/delay based and not related to what service/wallet was used to make a transaction?  
 **\<sarang>** Well a wallet can choose whatever it wants  
 **\<sarang>** if Sarangwallet always chooses a bonkers fee value...  
 **\<lurkinandlearnin>** I.e are all big services using the same method of dynamic fees?  
-**\<moneromooo>** I don't think it's selectable now unless you do some surgery on the wallet.  
-**\<moneromooo>** Not 100% sure though. Do check if you want to know for sure.  
+**\<byterubmooo>** I don't think it's selectable now unless you do some surgery on the wallet.  
+**\<byterubmooo>** Not 100% sure though. Do check if you want to know for sure.  
 **\<hyc>** right, anyone can always tweak their own copy of wallet code and do whatever  
 **\<IsthmusCrypto>** I think the lowest-hanging privacy detriments will be wallet software and exchanges that use fixed or non-standard fee calculations  
 **\<lurkinandlearnin>** But for example if a service were compromised and was forced to use some unique fee structure, this would be a subtle way of making users traceable?  
@@ -164,8 +164,8 @@ author: el00ruobuob / sarang
 **\<lurkinandlearnin>** Yes it seems clear that would be much harder than doing it for fees  
 **\<sarang>** But if you don't trust whomever is doing your transactions with your keys, you're hosed in many ways  
 **\<sarang>** it's all about the threat model  
-**\<moneromooo>** It (if a service were compromised and was forced to use some unique fee structure) would be stupid, as you don't get more info than getting a view of the service's output txes.  
-**\<moneromooo>** Unless someone can show something more :)  
+**\<byterubmooo>** It (if a service were compromised and was forced to use some unique fee structure) would be stupid, as you don't get more info than getting a view of the service's output txes.  
+**\<byterubmooo>** Unless someone can show something more :)  
 **\<sarang>** I must unfortunately take off for an hour now  
 **\<suraeNoether>** ok, let's call this meeting good  
 **\<suraeNoether>** good job, sarang  

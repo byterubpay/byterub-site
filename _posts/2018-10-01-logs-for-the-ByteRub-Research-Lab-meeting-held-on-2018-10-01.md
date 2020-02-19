@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-10-01
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-10-01
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -52,11 +52,11 @@ author: el00ruobuob / sarang
 **\<silur>** publish like research papers or software?  
 **\<sarang>** anything  
 **\<sarang>** People may attribute a certain level of researcher consensus to anything bearing The Name  
-**\<sarang>** Our six papers on lab.getmonero.org are probably the only "official-ish" papers we have out  
+**\<sarang>** Our six papers on lab.getbyterub.org are probably the only "official-ish" papers we have out  
 **\<sarang>** This is all my opinion, btw  
 **\<sarang>** I don't speak for anyone else  
 **\<endogenic>** "People may attribute a certain level of researcher consensus to anything bearing The Name" well put  
-**\<sarang>** e.g. when I speak, I have a whole slide stating that I don't formally represent MRL or Monero in my talks  
+**\<sarang>** e.g. when I speak, I have a whole slide stating that I don't formally represent MRL or ByteRub in my talks  
 **\<silur>** this is kinda gödelic :D  
 **\<endogenic>** hyc: can we find anyone to run those simulations?  
 **\<silur>** yea I should include that in my HCPP slide too  
@@ -66,11 +66,11 @@ author: el00ruobuob / sarang
 **\<oneiric\_>** is this similar to usual "these are my opinions not my employers" disclaimer?  
 **\<sarang>** except at the end to include a link to it for people to see  
 **\<sarang>** oneiric\_: basically  
-**\<sarang>** "All views in this presentation are those of the author, and do not necessarily represent those of the Monero Project, Monero Research Lab, or their associated communities or contributors."  
+**\<sarang>** "All views in this presentation are those of the author, and do not necessarily represent those of the ByteRub Project, ByteRub Research Lab, or their associated communities or contributors."  
 **\<sarang>** Media doesn't know what our loose group actually means  
 **\<oneiric\_>** :) much formal  
 **\<sarang>** I don't blame them, but I also don't wanna muddle things  
-**\<moneromooo>** "Any inference you make are you own problem"  
+**\<byterubmooo>** "Any inference you make are you own problem"  
 **\<sarang>** lol  
 **\<sarang>** Anyway, silur you are free to do as you wish, these are solely my views =p  
 **\<silur>** but I totally agree so I'll include this in my talk and iterview too :)  
@@ -79,7 +79,7 @@ author: el00ruobuob / sarang
 **\<sarang>** the ethics statement draft specifically addresses this  
 **\<hyc>** "I thought we were an autonomous collective"  
 **\<sarang>** yeah, but media assumes we're some devious entity  
-**\<silur>** there was one time when after the interview they published me as a monero developer even though I stated in the recording that im not :/  
+**\<silur>** there was one time when after the interview they published me as a byterub developer even though I stated in the recording that im not :/  
 **\<sarang>** I always keep in mind not to say anything to a journalist that I'm not comfortable having twisted beyond recognition =p  
 **\<sarang>** lol hyc I totally missed your reference :(  
 **\<sarang>** So hyc continues his design work toward ASIC-proof random code  
@@ -116,7 +116,7 @@ author: el00ruobuob / sarang
 **\<hyc>** this is open source, you're supposed to communicate with the community  
 **\<sarang>** Yeah, it's a weird intersection between the academic community and the OSS community  
 **\<sarang>** But hey, hopefully these folks continue to work with us; they did great analysis  
-**\<oneiric\_>** I saw moneromooo jokingly bring up an smt solver. how hard/useful would plugging in a blackball finding algo into an smt solver?  
+**\<oneiric\_>** I saw byterubmooo jokingly bring up an smt solver. how hard/useful would plugging in a blackball finding algo into an smt solver?  
 **\<sarang>** unclear  
 **\<sarang>** We already have algorithms to catch all spent sets up to whatever size our computers can do  
 **\<sarang>** So for the upcoming week, I'll be working with these researchers, perhaps integrating their/my algorithm into code (unclear if it's actually that useful), and continuing bigger projects  
@@ -128,7 +128,7 @@ author: el00ruobuob / sarang
 **\<endogenic>** they did take us to a few nice dinners though :)  
 **\<endogenic>** they being Naveen  
 **\<sarang>** There was no additional stipend-type funding, and they do not set research directions  
-**\<sarang>** But are supporters of MRL and Monero  
+**\<sarang>** But are supporters of MRL and ByteRub  
 **\<endogenic>** and actually technically I guess I paid for hotel :)  
 **\<sarang>** I wanted to make this clear for transparency... they have also offered to bring up to 2 others to such a meeting as we see fit  
 **\<sarang>** In-person research is incredibly effective, and I like the idea  
@@ -172,7 +172,7 @@ author: el00ruobuob / sarang
 **\<sarang>** thanks everyone  
 **\<silur>** thanks  
 **\<hyc>** ttyl  
-**\<endogenic>** we just need to get one of these for silur and hyc and maybe moneromooo http://www.doublerobotics.com  
+**\<endogenic>** we just need to get one of these for silur and hyc and maybe byterubmooo http://www.doublerobotics.com  
 **\<endogenic>** and i guess a lackey to write on the whiteboard for them  
 **\<sarang>** Heh  
 **\<oneiric\_>** thnx  
@@ -190,8 +190,8 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** firstly, i got my mentee assigned to me for the she256 mentorship program, and depending on my conversations with her, she'll be joining us in the chat room.   
 **\<suraeNoether>** secondly, i have gotten more communication from the crypto-brick-string group at clemson  
 **\<suraeNoether>** he gave me some price ballparks for what it would look like to fund grants/consultation at Clemson, which is less important before the community decides to move forward with funding; i explained how we fund things essentially on a quarterly basis to avoid various problems with volatility, and he stopped describing it as grants and more as consultation...   
-**\<suraeNoether>** he also said "Regardless of the Monero funding status for Spring 2019, I plan to teach a graduate class for Modern Cryptography, AND teach a research topic course on blockchains and applications (more like a seminar, but meet twice a week, this is related to my NSF grant)."  
+**\<suraeNoether>** he also said "Regardless of the ByteRub funding status for Spring 2019, I plan to teach a graduate class for Modern Cryptography, AND teach a research topic course on blockchains and applications (more like a seminar, but meet twice a week, this is related to my NSF grant)."  
 **\<suraeNoether>** (for the record, NSF grants in the math community are pretty rare, and the fact that he regularly snags them is an indicator of the quality of his work)  
-**\<suraeNoether>** he also asked a question I want to pass on to the community: "One question for you: In my course announcement, I would like to mention the possible collaboration and funding from Monero Research Lab  as an advertisement in order to attract good students from Math and CS to join the team.  Is this ok with you? "  
+**\<suraeNoether>** he also asked a question I want to pass on to the community: "One question for you: In my course announcement, I would like to mention the possible collaboration and funding from ByteRub Research Lab  as an advertisement in order to attract good students from Math and CS to join the team.  Is this ok with you? "  
 **\<suraeNoether>** sarang ^ thoughts?  
 **\<suraeNoether>** any \*funders\* of the MRL have any thoughts?  

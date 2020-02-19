@@ -6,19 +6,19 @@
 
 ### Tool voor het maken van opstartbare schijven:  [Linux](http://www.pendrivelinux.com/),       [Windows](https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool)
 
-### Monero-binaries downloaden:  [Binaire bestanden voor Monero]({{ site.baseurl }}/downloads/)
+### ByteRub-binaries downloaden:  [Binaire bestanden voor ByteRub]({{ site.baseurl }}/downloads/)
 
 - Gebruik een willekeurige computer, desnoods de computer waar je normaal op werkt. Als je extra voorzichtig bent, is het handig om een oudere computer te gebruiken zonder wifi of bluetooth.
 
-- Maak een opstartbare schijf voor Linux of Windows, en zet de Monero-binaries op dezelfde schijf of een tweede schrijf. (Maak voor Linux ook kopieën van de gedownloade afhankelijkheden die je nodig hebt, bijvoorbeeld libboost1.55 en miniupnpc.)
+- Maak een opstartbare schijf voor Linux of Windows, en zet de ByteRub-binaries op dezelfde schijf of een tweede schrijf. (Maak voor Linux ook kopieën van de gedownloade afhankelijkheden die je nodig hebt, bijvoorbeeld libboost1.55 en miniupnpc.)
 
 - Maak de netwerk-/internetkabels los van de computer, haal de wifi-kaart eruit of schakel de wifi en bluetooth uit op een laptop, voor zover dat mogelijk is.
 
 - Start op met het besturingssysteem op de schijf en installeer eventueel de afhankelijkheden.
 
-- Kopieer de Monero-binaries naar een RAM-schijf (/dev/shm in Linux, in Windows meestal een station Z: of zoiets op een opstartbare ISO).
+- Kopieer de ByteRub-binaries naar een RAM-schijf (/dev/shm in Linux, in Windows meestal een station Z: of zoiets op een opstartbare ISO).
 
-- Voer de Monero-daemon niet uit. Gebruik in plaats daarvan monero-wallet-cli in een opdrachtregelvenster om een nieuw Monero-@account aan te maken.
+- Voer de ByteRub-daemon niet uit. Gebruik in plaats daarvan monero-wallet-cli in een opdrachtregelvenster om een nieuw ByteRub-@account aan te maken.
 
 - Geef een naam uit wanneer daarom gevraagd wordt. Het maakt niet uit wat voor naam.
 

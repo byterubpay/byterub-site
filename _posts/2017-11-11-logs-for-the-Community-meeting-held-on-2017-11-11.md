@@ -26,7 +26,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** we just started greetings, you didnt miss anything  
 **\<sarang>** excellent  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<rehrar>** sarang: https://github.com/byterubpay/meta/issues/134  
 **\<sgp>** This publication is funded by community donations  
 **\<sgp>** 3. FFS updates  
@@ -51,7 +51,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangement>** also  
 **\<serhack>** Hey  
 **\<serhack>** Hello everyone  
-**\<cryptochangement>** the magento2 plugin is currently functional and you can check it out here: https://github.com/byterubpay/monero ill have install instructions on the README later today but it is pretty straight forward if you already user composer with magento  
+**\<cryptochangement>** the magento2 plugin is currently functional and you can check it out here: https://github.com/byterubpay/byterub ill have install instructions on the README later today but it is pretty straight forward if you already user composer with magento  
 **\<serhack>** ByteRub Integrations are going well  
 **\<serhack>** I would make an announcement  
 **\<serhack>** I have contacted OpenBazaar Team  
@@ -60,7 +60,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** But there is no mission impossible for serhack  
 **\<sgp>** cryptochangement is that the correct GitHub direcotry? That's for the ByteRub project itself  
 **\<cryptochangement>** crap wrong link sgp  
-**\<cryptochangement>** https://github.com/monero-integrations/moneromagento  
+**\<cryptochangement>** https://github.com/byterub-integrations/byterubmagento  
 **\<cryptochangement>** \^ thats bette  
 **\<sgp>** serhack great news!  
 **\<sgp>** cryptochangement also great news!  
@@ -87,12 +87,12 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** \o/  
 **\<msvb-mob>** A wallet design with custom firmware and JTAG programming the lot.  
 **\<vp11>** yehaa!  
-**\<msvb-mob>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
+**\<msvb-mob>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
 **\<msvb-mob>** Photos got uploaded finally.  
 **\<msvb-mob>** The board is demonstrated connected to a mobile phone over USB OTG, but eventually it may run on battery or even photovoltaic (solar) power.  
 **\<sgp>** ooh, fancy  
 **\<cryptochangement>** that looks awesome  
-**\<msvb-mob>** The URL displayed on the hardware wallet's screen is fake, says 'Go hwal.getmonero.org'  
+**\<msvb-mob>** The URL displayed on the hardware wallet's screen is fake, says 'Go hwal.getbyterub.org'  
 **\<vp11>** looking good!  
 **\<msvb-mob>** cryptochangement: It's a good start. We only got this far by having contributions.  
 **\<msvb-mob>** The team now consists of a handful of folks, some specialising in FPGA development, legal matters and documentation (a real attorney), core hw devs, and most important testers.  
@@ -100,11 +100,11 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** So whoever likes the idea of testing hardware (which is not useful for storing your real money please!) then sign up.  
 **\<sgp>** I'm excitied to hear you are making excellent progress  
 **\<msvb-mob>** You can read about the preliminary device delivery plans in:  
-**\<msvb-mob>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/wiki/preview  
+**\<msvb-mob>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/wiki/preview  
 **\<msvb-mob>** ...and the main idea is simply become a member of the Taiga project, so you can contribute opinions and reports after testing.  
 **\<serhack>** msvb-mob: WOW.  
 **\<msvb-mob>** To do that, go to the main project page and click 'Contact the project'.  
-**\<msvb-mob>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
+**\<msvb-mob>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
 **\<serhack>** Can I share images into Telegram groups?  
 **\<vp11>** in fact, you should post an update on reddit with the images and the progress  
 **\<msvb-mob>** If you do this without being logged in, then make sure to provide your email address so we can invite you to be a tester.  
@@ -151,14 +151,14 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** ByteRub Toronto has a meetup on Wednesday 29 November https://www.meetup.com/Toronto-ByteRub-Meetup/events/242746564/  
 **\<sgp>** ByteRub London has a meetup on Thursday 16 November https://www.meetup.com/ByteRub-London/events/244993948/  
 **\<msvb-mob>** sgp: I'm quite comfortable in broadcasting in every direction.  
-**\<sgp>** ByteRub Portugal has several meetups on Wednesday 15 November and Sunday 19 November. Join #monero-pt (IRC only, no relays) or PM /u/M-alMen for details and to confirm attendance https://www.reddit.com/r/ByteRub/comments/7c59jy/monero_meetup_in_portugal_15_and_19_november_join/  
-**\<sgp>** There will be a ByteRub meetup in Munich on Wednesday 22 November https://www.reddit.com/r/ByteRub/comments/7c9dz0/the_first_monero_munich_meetup_takes_place_on/  
-**\<sgp>** There will be more meetups not listed here for many of the groups receiving the Meetup Kits. I will post all these meetups to /r/ByteRubCommunity as soon as I receive more details. Keep an eye out for them. List of groups receiving a kit: https://taiga.getmonero.org/project/sgp-monero-meetup-kit/wiki/selected-organizations  
+**\<sgp>** ByteRub Portugal has several meetups on Wednesday 15 November and Sunday 19 November. Join #byterub-pt (IRC only, no relays) or PM /u/M-alMen for details and to confirm attendance https://www.reddit.com/r/ByteRub/comments/7c59jy/byterub_meetup_in_portugal_15_and_19_november_join/  
+**\<sgp>** There will be a ByteRub meetup in Munich on Wednesday 22 November https://www.reddit.com/r/ByteRub/comments/7c9dz0/the_first_byterub_munich_meetup_takes_place_on/  
+**\<sgp>** There will be more meetups not listed here for many of the groups receiving the Meetup Kits. I will post all these meetups to /r/ByteRubCommunity as soon as I receive more details. Keep an eye out for them. List of groups receiving a kit: https://taiga.getbyterub.org/project/sgp-byterub-meetup-kit/wiki/selected-organizations  
 **\<sgp>** Does anyone know of other events coming up, or would like to speak about one of these?  
 **\<msvb-mob>** You think we can keep our events page up to date?  
 **\<msvb-mob>** None of those cool meetings are advertised.  
-**\<msvb-mob>** https://getmonero.org/community/events/  
-**\<vp11>** I'll talk with the guys on #monero-pt and see if someone wants to talk something about the meetup, one minute.  
+**\<msvb-mob>** https://getbyterub.org/community/events/  
+**\<vp11>** I'll talk with the guys on #byterub-pt and see if someone wants to talk something about the meetup, one minute.  
 **\<sgp>** That page definitely needs some love  
 **\<serhack>** I think we should update that page  
 **\<msvb-mob>** sgp: How did you find out about these meetings, like in Munich?  
@@ -167,7 +167,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** msvb-lab people post on Reddit typically  
 **\<rehrar>** onto the site, so I think it shouldn't be a problem if there is a concerted effort to update the Events page  
 **\<sgp>** rehrar is there a simple way for people to simply click a "+" sign and add the details of their event to a template which then becomes a pull request?  
-**\<rehrar>** https://github.com/byterubpay/monero-site#90-how-to-make-an-event  
+**\<rehrar>** https://github.com/byterubpay/byterub-site#90-how-to-make-an-event  
 **\<vp11>** msvb-mob you gotta go more on reddit, you know you can do it semi-anonymously right? :P  
 **\<msvb-mob>** vp11: I'm just swimming in work and doing full time hw dev, so maintaining presence on IRC is about my max now.  
 **\<sgp>** I'm going to move on, since we can have the discussion of how to use this page better later  
@@ -282,4 +282,4 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Great  
 **\<serhack>** It's okay for me  
 **\<sgp>** 9. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

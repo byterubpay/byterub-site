@@ -2,14 +2,14 @@
 layout: post
 title: ByteRub Missives for the Week of 2015-06-29
 summary: A warm welcome back, and a report from Riccardo's trip to Europe
-tags: [monero missives, conferences]
+tags: [byterub missives, conferences]
 author: Riccardo Spagni (fluffypony)
-forum: https://forum.getmonero.org/1/news-announcements-and-editorials/319/monday-monero-missives-30-june-29th-2015
+forum: https://forum.getbyterub.org/1/news-announcements-and-editorials/319/monday-byterub-missives-30-june-29th-2015
 ---
 
 <div class="text-center"><iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3645472/height/360/width/640/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" height="600" width="600" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div>
 
-To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-06-29.mp3), or [this link to the AAC/MP4](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-06-29.mp4), or [this link to the FLAC](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-06-29.flac).
+To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-06-29.mp3), or [this link to the AAC/MP4](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-06-29.mp4), or [this link to the FLAC](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-06-29.flac).
 
 In this week's "welcome back" episode we discuss Riccardo "fluffypony" Spagni's trip to Europe, and the various meetups and conferences he spoke at.
 
@@ -193,7 +193,7 @@ Fluffypony on tour 2015 Europe, yeah!
 
 #### Gingeropolous 
 
-As a really brief recap based on what I get from this conversation it sounds like at the first meetup, you had the ZeroMQ guy there and the big takeaway was that you guys had to sit down and hash out how to gain more knowledge on managing an open source project. You brainstormed about this scheduled hard fork idea which has been a great conversation to follow on the forum if anyone hasn't tuned in to that yet. That post I recommend especially if you are interested in ByteRub and assuming you listening to this podcast, you want to know what it's doing and where it's going. Check out that thread, it's on forum.getmonero.org in the academic and technical section. 
+As a really brief recap based on what I get from this conversation it sounds like at the first meetup, you had the ZeroMQ guy there and the big takeaway was that you guys had to sit down and hash out how to gain more knowledge on managing an open source project. You brainstormed about this scheduled hard fork idea which has been a great conversation to follow on the forum if anyone hasn't tuned in to that yet. That post I recommend especially if you are interested in ByteRub and assuming you listening to this podcast, you want to know what it's doing and where it's going. Check out that thread, it's on forum.getbyterub.org in the academic and technical section. 
 
 So that was the first one and then the second one was France do I have this right?
 

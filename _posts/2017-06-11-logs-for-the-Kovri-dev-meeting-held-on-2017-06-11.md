@@ -64,7 +64,7 @@ author: dEBRUYNE / fluffypony
 **\<johnalan>** ok  
 **\<johnalan>** no probs  
 **\<johnalan>** sorry  
-**\<anonimal>** 5. Resolve FFS RFC for @moroccanmalinois https://forum.getmonero.org/9/work-in-progress/87082/proposal-for-kovri-dev?page=&noscroll=1#post-91048  
+**\<anonimal>** 5. Resolve FFS RFC for @moroccanmalinois https://forum.getbyterub.org/9/work-in-progress/87082/proposal-for-kovri-dev?page=&noscroll=1#post-91048  
 **\<MoroccanMalinois>** Just a few words before this point: I am bad at social things. I don't do politics/drama. Not a funny guy, don't feels comfortable with english, but i am happy to answer technical questions when i can. I already feel honored by the support i have received so far and whatever happens with the FFS, i am OK with it and it won't change anything to the work i am going to do or not do in the next months.So just wanted to say a big  
 **\<MoroccanMalinois>** THANKS !  
 **\<anonimal>** Woo!  
@@ -72,15 +72,15 @@ author: dEBRUYNE / fluffypony
 **\* anonimal** checks  
 **\<i2p-relay> {-fluffypony}** MoroccanMalinois: your English has been excellent, you mustn't worry about that :)  
 **\<MoroccanMalinois>** :)  
-**\<moneromooo>** MoroccanMalinois == good guy to have  
-**\<moneromooo>** (or gal)  
+**\<byterubmooo>** MoroccanMalinois == good guy to have  
+**\<byterubmooo>** (or gal)  
 **\<anonimal>** https://www.reddit.com/r/ByteRub/comments/6g1q8b/request_for_replacement_assistant_kovri_developer/  
 **\<anonimal>** Nothing but positive reviews it seems.  
 **\<MoroccanMalinois>** Thank u very much mooo  
 **\<anonimal>** So, everyone is in agreement?  
 **\* anonimal** yes  
 **\<johnalan>** yes  
-**\<moneromooo>** yes  
+**\<byterubmooo>** yes  
 **\<johnalan>** delighted to have him  
 **\<johnalan>** her  
 **\<johnalan>** whatev  
@@ -93,13 +93,13 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** We spent more time vetting MoroccanMalinois as a replacement for guzzi then we did vetting guzzi to receive an FFS in the first place.  
 **\<anonimal>** palexander had some great questions. In general, how can we better vet FFS proposals?  
 **\<anonimal>** Is this possible? If so, how?  
-**\<moneromooo>** I think the key is to have people contribute enough to get a feel of how it works. I don't know how much guzzi contributed at start though.  
+**\<byterubmooo>** I think the key is to have people contribute enough to get a feel of how it works. I don't know how much guzzi contributed at start though.  
 **\<endogenic>** one thing i'd like to mention is that if someone is getting paid, they should know something, and be able to ship at least what they say they know w/o reliance on others  
 **\<endogenic>** if that's not able to be kept then i'd say that's grounds for renegotiation or something  
 **\<endogenic>** aside from that, i think it's important to be careful with whether teaching someone becomes a codependency sort of situation  
 **\<endogenic>** not that i'm saying you wanted that at all anonimal, obviously  
-**\<anonimal>** I think moneromooo and endogenic hit that nail on the head HARD!  
-**\<anonimal>** moneromooo: to be brutally honest, guzzi contributed very little; even less AFTER he started his FFS.  
+**\<anonimal>** I think byterubmooo and endogenic hit that nail on the head HARD!  
+**\<anonimal>** byterubmooo: to be brutally honest, guzzi contributed very little; even less AFTER he started his FFS.  
 **\<anonimal>** The value of the work was on par to the amount.  
 **\<anonimal>** He should've spent his time taking an online course or going to a community college instead of, endogenic so elegantly put it, used me as a co-dependent.  
 **\<anonimal>** Though the dependency was not mutual.  
@@ -117,25 +117,25 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** So, ^ create formalized FFS process  
 **\<i2p-relay> {-fluffypony}** o/  
 **\<endogenic>** \o fp!  
-**\<anonimal>** It's already in meta. endogenic moneromooo not to prod your brain too much, but does a sentence or two come to mind that could be added/revised?  
+**\<anonimal>** It's already in meta. endogenic byterubmooo not to prod your brain too much, but does a sentence or two come to mind that could be added/revised?  
 **\<anonimal>** gingeropolous: ^ thanks  
 **\<endogenic>** may be good to put rigorous criteria to "disappears"  
 **\<endogenic>** taking vacation at improper times, etc, imo, is akin to abandonment  
 **\<rehrar>** Ok. I'm sorry for the second disappearance. O vote aye for @moroccanmalinois  
 **\<endogenic>** obviously that's super strict and not applicable directly to a FOSS context  
-**\<moneromooo>** "improper" ?  
+**\<byterubmooo>** "improper" ?  
 **\<endogenic>** but my point is that if someone just pops in every now and then to say "hey i'm still alive" but is dragging their heels then that may be a sticking point where you would have wanted to define what disappears means  
-**\<endogenic>** moneromooo: "improper" as in let's say they committed to doing something but then decided to put a vacation there  
-**\<moneromooo>** Maybe there could be a rough show of hands as to whether something needs fixing, then.  
+**\<endogenic>** byterubmooo: "improper" as in let's say they committed to doing something but then decided to put a vacation there  
+**\<byterubmooo>** Maybe there could be a rough show of hands as to whether something needs fixing, then.  
 **\<anonimal>** Good point I think.  
 **\<anonimal>** fp and I had repeatedly - repeatedly - over the course of months had asked him to show up to meetings; yet he still wouldn't do it reliably. MoroccanMalinois was better at attending meetings and no one asked him to!  
-**\<endogenic>** moneromooo: yeah i believe it has to be judged case-by-case, anyway  
+**\<endogenic>** byterubmooo: yeah i believe it has to be judged case-by-case, anyway  
 **\<endogenic>** anonimal: yep  
 **\<anonimal>** So, maybe we should add something to the regular meeting agenda? "X. contributor / FFS check-in, status"?  
 **\<endogenic>** anonimal: there are so many good people who would want to work on kovri  
 **\<johnalan>** anonimal: good idea  
 **\<endogenic>** that actually sounds like a great idea  
-**\<moneromooo>** Yep  
+**\<byterubmooo>** Yep  
 **\<anonimal>** And then add something to the FFS document which *enforces* something  
 **\<anonimal>** That's the tricky part I think.  
 **\<endogenic>** the contract can't enforce things per se imo  
@@ -165,7 +165,7 @@ author: dEBRUYNE / fluffypony
 **\<johnalan>** measurable goals  
 **\<rehrar>** I think that's a big of a longer conversation that should involve more people if we're talking about the FFS at large, and is outside the scope of this meeting.  
 **\<rehrar>** \*bit of a longer  
-**\<moneromooo>** tbh, I'd keep it fairly generic, and keep in mind some FFSes aren't coding.  
+**\<byterubmooo>** tbh, I'd keep it fairly generic, and keep in mind some FFSes aren't coding.  
 **\<rehrar>** if we're just talking about FFS's for Kovri, then sure, let's talk  
 **\<rehrar>** I wouldn't mind writing up a draft and presenting it to everyone. :)  
 **\<anonimal>** rehrar: https://github.com/byterubpay/meta/blob/master/FFS  
@@ -181,7 +181,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Lots of good input. I'll need to give this more thought too.  
 **\<anonimal>** Anything else on this point?  
 **\* anonimal** will add to the next meeting agenda  
-**\<rehrar>** Nah, but it may be a good thing to add the the next #monero-dev agenda also  
+**\<rehrar>** Nah, but it may be a good thing to add the the next #byterub-dev agenda also  
 **\<anonimal>** ^ fluffypony  
 **\<anonimal>** 6. Code + ticket discussion / Q & A  
 **\<anonimal>** 6 minutes left. Any questions/comments?  
@@ -197,8 +197,8 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Anything else on 6.?  
 **\<anonimal>** 7. Any additional meeting items  
 **\<rehrar>** I have something. So I've discussed with anonimal what it would be like for me to put in a FFS as a 'general staffer' of Kovri. There's a lot of work that needs to be done that isn't coding related. Website maintenance, reddit moderation and theme design, trying to get other developers interested, etc. I'd like some feedback from others on what the thoughts of something like this are instead of FFS for each project. Basically, bei  
-**\<rehrar>** from moneromooo and others as well since there's a possibility of me doing something like this for ByteRub as well (I had a discussion with dEBRUYNE who supported the idea)  
-**\<moneromooo>** This got cut: "Basically, bei [...] from moneromooo".  
+**\<rehrar>** from byterubmooo and others as well since there's a possibility of me doing something like this for ByteRub as well (I had a discussion with dEBRUYNE who supported the idea)  
+**\<byterubmooo>** This got cut: "Basically, bei [...] from byterubmooo".  
 **\<rehrar>** sec  
 **\<rehrar>** Basically, being paid on a per hour basis 10ish/wk  
 **\<rehrar>** 10ish hours I mean  
@@ -210,7 +210,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** the reddit posts could be something of a black hole  
 **\<rehrar>** and Kovri, well, it's my favorite and the reason I'm here  
 **\<endogenic>** if it were to be funded, it might be good to formalize the plan for making posts  
-**\<moneromooo>** Reddit, I dunno, but website content curating would be useful, for example.  
+**\<byterubmooo>** Reddit, I dunno, but website content curating would be useful, for example.  
 **\<endogenic>** rather than it being, purely for example, contacting specific people who might not know about kovri  
 **\<rehrar>** understood, content can be different  
 **\<rehrar>** and yeah, web maintenance for both projects is definitely one thing I had in mind  
@@ -275,7 +275,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** is it a smile or a grimace? :P  
 **\<endogenic>** lol  
 **\<rehrar>** that's why I'm saying. One night at the club for all of us and we'll all be on the same page. :D  
-**\<rehrar>** flash a few moneros and pick up a few honeys, BAM! comraderie  
+**\<rehrar>** flash a few byterubs and pick up a few honeys, BAM! comraderie  
 **\<rehrar>** anyways, end of meeting?  
 **\* endogenic** opens a barolo in your and the devs honor  
 **\<anonimal>** rehrar: hopefully we can improve the FFS process  
@@ -302,5 +302,5 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 8. Confirm next meeting date/time  
 **\<anonimal>** Same time, two weeks from today?  
 **\<serhack>** okay  
-**\<anonimal>** Same as monero's?  
+**\<anonimal>** Same as byterub's?  
 **\<ArticMine>** After the ByteRub meeting  

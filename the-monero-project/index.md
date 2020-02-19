@@ -1,6 +1,6 @@
 ---
 layout: default
-title: titles.themoneroproject
+title: titles.thebyterubproject
 permalink: /the-byterubpay/index.html
 ---
 

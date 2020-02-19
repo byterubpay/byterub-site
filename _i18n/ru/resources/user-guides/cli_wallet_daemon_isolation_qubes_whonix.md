@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # Изолированный CLI кошелек/демон в Qubes + Whonix
 
-С помощью [Qubes](https://qubes-os.org) + [Whonix](https://whonix.org) можно создать кошелек Monero, который не будет требовать подключения к сети и работать на фактически изолированной от демона Monero системе , у которого весь сетевой трафик будет проходить через сеть [Tor](https://torproject.org).
+С помощью [Qubes](https://qubes-os.org) + [Whonix](https://whonix.org) можно создать кошелек ByteRub, который не будет требовать подключения к сети и работать на фактически изолированной от демона ByteRub системе , у которого весь сетевой трафик будет проходить через сеть [Tor](https://torproject.org).
 
 Qubes предоставляет гибкость, позволяющую легко создавать отдельные виртуальные машины для разных целей. Сначала нужно создать рабочую станцию Whonix для кошелька без подключения к сети. Далее, создается другая рабочая станция Whonix для демона, который будет использовать шлюз Whonix, так как это NetVM. Для обмена данными между кошельком и демоном можно использовать Qubes [qrexec](https://www.qubes-os.org/doc/qrexec3/).
 
@@ -19,7 +19,7 @@ Qubes предоставляет гибкость, позволяющую лег
 
 ## 2. В виртуальной машине AppVM `monerod-ws` делаем следующее:
 
-+ Загружаем, проверяем и устанавливаем программное обеспечение Monero.
++ Загружаем, проверяем и устанавливаем программное обеспечение ByteRub.
 
 ```
 user@host:~$ curl -O "https://downloads.getmonero.org/cli/monero-linux-x64-v0.11.1.0.tar.bz2" -O "https://getmonero.org/downloads/hashes.txt"
@@ -47,7 +47,7 @@ user@host:~$ sudo gedit /home/user/monerod.service
 
 ```
 [Unit]
-Description=Monero Full Node
+Description=ByteRub Full Node
 After=network.target
 
 [Service]

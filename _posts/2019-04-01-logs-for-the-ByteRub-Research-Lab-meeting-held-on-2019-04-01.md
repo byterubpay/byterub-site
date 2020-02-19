@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-04-01
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-04-01
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -36,14 +36,14 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** using this compactification, a really easily written version of colored ringct can be developed where all signatures are R+1-sized, regardless of teh number of colors  
 **\<suraeNoether>** verification time will take the same amount of time as it would have before, but it removes the dependency of the signature size on the number of colors, which is neat  
 **\<sarang>** Yeah, the key aggregation idea, coupled with optional changes to key image format, has a lot of neat directions to go  
-**\<Xeagu>** Wait Monero colored coins?  
+**\<Xeagu>** Wait ByteRub colored coins?  
 **\<suraeNoether>** i think i'm on page 6 of a new document describing all the above. proofs and stuff and all... it's pretty much written itself.  
 **\<sarang>** Xeagu: only as a hypothetical  
 **\<suraeNoether>** Xeagu it would be \*possible\* to implement it this way  
 **\<suraeNoether>** i'm not recommending that we \*do\*  
 **\<Xeagu>** Wow very interesting  
 **\<suraeNoether>** i'm pointing out that one of the technical challenges involving scaling the blockchain to the number of colors has been removed  
-**\<suraeNoether>** which is neat, but i'm not convinced Monero Gold and Monero Silver need to be a thing. :P  
+**\<suraeNoether>** which is neat, but i'm not convinced ByteRub Gold and ByteRub Silver need to be a thing. :P  
 **\<sarang>** For sure. No timeline on CLSAG integration yet, nor formal talk about whether or not we intend to  
 **\<suraeNoether>** ^ although compactifying our present RingCT is a high priority, because it will save hours or more of sync time within only a year.  
 **\<Xeagu>** Would such an implementation compete with Tari for digital assets?  
@@ -86,12 +86,12 @@ author: el00ruobuob / sarang
 **\<sarang>** aha go ahead  
 **\<sgp\_>** Yes  
 **\<sgp\_>** https://github.com/byterubpay/meta/issues/324  
-**\<sgp\_>** This isn't strictly research-related, but I would like the recommendations and participation of researchers in Monero's upcoming 5 year "Moneroversary"  
+**\<sgp\_>** This isn't strictly research-related, but I would like the recommendations and participation of researchers in ByteRub's upcoming 5 year "ByteRubversary"  
 **\<sgp\_>** If you can comment your availability and desired events in the Github issue, that would be greatly appreciated  
 **\<sgp\_>** that's all, unless there are any quick questions  
-**\<sarang>** It would be neat to take a 30K foot view of how Monero has evolved technically over time  
+**\<sarang>** It would be neat to take a 30K foot view of how ByteRub has evolved technically over time  
 **\<sarang>** What has been accomplished, and what still needs work  
-**\<sgp\_>** Yes, I expect a good portion to cover Monero's history. Focusing on the technical changes over time is an area where you all can help :)  
+**\<sgp\_>** Yes, I expect a good portion to cover ByteRub's history. Focusing on the technical changes over time is an area where you all can help :)  
 **\<sarang>** OK, so that's about 2.5 weeks away  
 **\<sarang>** thanks sgp\_  
 **\<Xeagu>** Konferenco is about 2.5 months away  
@@ -100,7 +100,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Attendance seems fairly sparse today, but does anyone else have research work to share?  
 **\<sarang>** Otherwise we can move on with this (fairly quick) agenda  
 **\<sgp\_>** oh one more thing  
-**\<sgp\_>** moneromooo added the ability to "freeze" outputs. These don't show up in the wallet balance and will not be spent until "thawed" https://github.com/byterubpay/monero/pull/5333  
+**\<sgp\_>** byterubmooo added the ability to "freeze" outputs. These don't show up in the wallet balance and will not be spent until "thawed" https://github.com/byterubpay/byterub/pull/5333  
 **\<sarang>** Oh yes, this seems a good idea  
 **\<sarang>** In case you fear an output may be "poisoned" via some kind of controlled spend  
 **\<sgp\_>** precisely  
@@ -125,7 +125,7 @@ author: el00ruobuob / sarang
 **\<sarang>** sigh  
 **\<sarang>** We are all April Fools on this day  
 **\<sarang>** any other action items of note?  
-**\<suraeNoether>** btw guys, i'm not kidding about CLSAG being useful for colored monero, even though its' april 1  
+**\<suraeNoether>** btw guys, i'm not kidding about CLSAG being useful for colored byterub, even though its' april 1  
 **\<suraeNoether>** my april 1 jokes are more like "haha i put almond milk in my wife's coffee instead of cow's milk, take that lady"  
 **\<dEBRUYNE>** When are the conference tickets supposed to go up for sale btw?  
 **\<suraeNoether>** dEBRUYNE: mere dozens of hours  

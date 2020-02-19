@@ -21,7 +21,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** 9. Confirm next meeting date/time  
 **\<meeting-bot> [anonimal]** Hi  
 **\<meeting-bot> [EinMByte]** Hi  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Hi  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Hi  
 **\<meeting-bot> [i2p-relay] {-pero}** hi  
 **\<meeting-bot> [olark]** Greetings.  
 **\<boomlol23>** hi  
@@ -41,7 +41,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** maybe you can give us a brief background on you  
 **\<meeting-bot> [i2p-relay] {-Slack} \<nanoakron>** How’s the documentation looking to make that learning curve more shallow for future developers?  
 **\<meeting-bot> [anonimal]** (e.g., favourite book, long walks on the beach, etc.)  
-**\<meeting-bot> [anonimal]** nanoakron: moneropedia. We can talk more about that at the end of the meeting too.  
+**\<meeting-bot> [anonimal]** nanoakron: byterubpedia. We can talk more about that at the end of the meeting too.  
 **\<meeting-bot> [olark]** Have been programming for the last 3-4 years on and off. Just getting back into C++ have followed ByteRub and Kovri for the last year or so and figured I should stop procrastinating and help move things forward.  
 **\<fluffypony>** olark: http://i.imgur.com/9AQYqBr.png  
 **\<meeting-bot> [olark]** Also long time i2p user, so I know what's up.  
@@ -64,7 +64,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [EinMByte]** Wait, we still haven't decided on the logo?  
 **\<fluffypony>** EinMByte: we have  
 **\<fluffypony>** but then there were font and kerning and colour changes  
-**\<ontario>** new monero logo?  
+**\<ontario>** new byterub logo?  
 **\<meeting-bot> [anonimal]** ontario: kovri logo  
 **\<fluffypony>** ontario: no Kovri logo, we're in the Kovri meeting now  
 **\<ontario>** k sry  
@@ -73,14 +73,14 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** yes please  
 **\<sornros>** may I ask if I understood correctly that the i2p code will be rewritten in c++?  
 **\<meeting-bot> \* anonimal** has to move onto next item....  
-**\<fluffypony>** either uploading somewhere or ric@getmonero.org  
+**\<fluffypony>** either uploading somewhere or ric@getbyterub.org  
 **\<pero>** i thought i 'submitted' the final one last weekend - i'd like to make one tiny half pixel change if i can  
 **\<meeting-bot> [anonimal]** sornros: we can answer more after the meeting  
 **\<fluffypony>** sornros: it already is being - https://github.com/byterubpay/kovri  
 **\<pero>** i'll email it to both fluffypony and anonimal shortly  
 **\<meeting-bot> [anonimal]** Anything else on 3.?  
 **\<sornros>** thanks  
-**\<pero>** with the monero colors  
+**\<pero>** with the byterub colors  
 **\<fluffypony>** no that's anonimal, tks  
 **\<pero>** http://imgur.com/a/xCaZV fyi  
 **\<fluffypony>** that's it  
@@ -114,7 +114,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** So, we are in a good position to influence webext development: they are still taking feature requests, etc. If we get *something* going now, there is a far better likely hood of a webdev coming along to contribute than if we have a mostly empty repo.  
 **\<meeting-bot> [anonimal]** And I can't find a date for deprecation, should we really base a great idea on what-if's?  
 **\<meeting-bot> [EinMByte]** Yes, I agree. My spare time does not though  
-**\<meeting-bot> [anonimal]** I know, nor mine, but I've semi-frequently seen people popping in and out of #monero-dev wanting to contribute to non-c++ projects.  
+**\<meeting-bot> [anonimal]** I know, nor mine, but I've semi-frequently seen people popping in and out of #byterub-dev wanting to contribute to non-c++ projects.  
 **\<meeting-bot> [EinMByte]** Well, we know for sure it will be deprecated. Just not when. That sounds bad to me, so better try and do it with webext imho  
 **\<meeting-bot> [anonimal]** Ok, so maybe what we should do now then is write a definite roadmap/readme that will give others a better understanding of wth we are talking about.  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** I have to leave  
@@ -137,26 +137,26 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [EinMByte]** qtoopie is based on I2PControl, with the idea of making it router-agnostic  
 **\<meeting-bot> [anonimal]** As it, you don't think it's possible or don't think it *should* be done or don't want it to be done?  
 **\<meeting-bot> [anonimal]** So what part would you rather see as the lib?  
-**\<meeting-bot> [anonimal]** If monero's gui needs it's own i2pcontrol then that's fine; I'm just trying to avoid repetition.  
+**\<meeting-bot> [anonimal]** If byterub's gui needs it's own i2pcontrol then that's fine; I'm just trying to avoid repetition.  
 **\<meeting-bot> [EinMByte]** It depends on what we want: if we want to build a router-agnostic GUI, I think I2PControl is the best option. In that case we could simply bundle qtoopie + kovri router and release this as an easy-to-use router package  
 **\<meeting-bot> [EinMByte]** If we want to build a GUI specifically for kovri, then we can rely on the (currently not existing) kovri API (libcore/libclient)  
 **\<meeting-bot> [EinMByte]** But in that case too, it would not really make sense for it to be a library. Instead, it would be comparable to what kovri-app currently is, except that it would be a GUI rather than CLI  
-**\<meeting-bot> [anonimal]** re: API, that's what the monero gui will be using, but where could we eliminate redundancy if the API and i2pcontrol would also do some of the more basic things that i2pcontrol provides?  
+**\<meeting-bot> [anonimal]** re: API, that's what the byterub gui will be using, but where could we eliminate redundancy if the API and i2pcontrol would also do some of the more basic things that i2pcontrol provides?  
 **\<fluffypony>** I2PControl would be able to control Kovri + Java i2p etc. right?  
 **\<meeting-bot> [EinMByte]** My original idea for qtoopie is that it would fork for all exiting I2P routers that support I2PControl.  
 **\<fluffypony>** oh I missed the "based on"  
 **\<fluffypony>** ok makes sense  
 **\<meeting-bot> [EinMByte]** So the redundancy is not eliminated at the level of the kovri implementation, but instead at all implementations (no need for a specific GUI)  
-**\<meeting-bot> [anonimal]** EinMByte: Ok, that I understand. But there's really no way to create libqtoopie so the monero gui can use it *now* (even in it's current state)?  
-**\<meeting-bot> [anonimal]** Why create extra monero gui code and i2pcontrol impl when that's already done?  
+**\<meeting-bot> [anonimal]** EinMByte: Ok, that I understand. But there's really no way to create libqtoopie so the byterub gui can use it *now* (even in it's current state)?  
+**\<meeting-bot> [anonimal]** Why create extra byterub gui code and i2pcontrol impl when that's already done?  
 **\<meeting-bot> [anonimal]** This doesn't change the functionality of qtoopie. I'm just basing this off what you said when I brought up the lib idea a while ago.  
-**\<meeting-bot> [EinMByte]** Sure, monero can use qtoopie directly  
+**\<meeting-bot> [EinMByte]** Sure, byterub can use qtoopie directly  
 **\<meeting-bot> [anonimal]** If it's more work than not, and adversely effects qtoopie, then I understand.  
 **\<meeting-bot> [EinMByte]** at least in the sense "you can display the windows defined in the qtoopie project"  
 **\<meeting-bot> [EinMByte]** I guess that would classify as a library.  
 **\<meeting-bot> [EinMByte]** The question is why you would want to bundle it like that  
-**\<meeting-bot> [EinMByte]** (you could also just provide the executable with the monero executables, and then open this from the monero GUI, there would be little difference to the end use)  
-**\<meeting-bot> [anonimal]** To save redundant code so people don't have to install qtoopie to use qtoopie; and so it's integrated with the monero gui.  
+**\<meeting-bot> [EinMByte]** (you could also just provide the executable with the byterub executables, and then open this from the byterub GUI, there would be little difference to the end use)  
+**\<meeting-bot> [anonimal]** To save redundant code so people don't have to install qtoopie to use qtoopie; and so it's integrated with the byterub gui.  
 **\<fluffypony>** can't we have our own controls in the GUI  
 **\<fluffypony>** with bindings to libqtoopie functions ?  
 **\<meeting-bot> [anonimal]** fluffypony: own controls to API, sure.  
@@ -171,9 +171,9 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [EinMByte]** qtoopie is an end-user program, hence why I'd say "not in library form"  
 **\<meeting-bot> [anonimal]** I know EinMByte, I'm just trying to save time and code.  
 **\<meeting-bot> [EinMByte]** We could take some of the code in qtoopie and put it in a library "libi2pcontrol-client"  
-**\<meeting-bot> [EinMByte]** This library could then be used by e.g. monero  
+**\<meeting-bot> [EinMByte]** This library could then be used by e.g. byterub  
 **\<meeting-bot> [anonimal]** i2pcontrol is insanely overrated, seriously overrated in relation to as much time as we're talking about it.  
-**\<meeting-bot> [EinMByte]** But this is assuming that monero would be using i2pcontrol at all  
+**\<meeting-bot> [EinMByte]** But this is assuming that byterub would be using i2pcontrol at all  
 **\<meeting-bot> [anonimal]** I don't see the point if there are API's in place.  
 **\<meeting-bot> [anonimal]** And i2pcontrol is limited in its own right.  
 **\<meeting-bot> [EinMByte]** Yes, i2pcontrol has severe limitations  
@@ -185,7 +185,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** tl;dr for the log  
 **\<meeting-bot> [anonimal]** tl;dr qtoopie is great. We won't be using qtoopie in lib or bundled form because of severe limitations in i2pcontrol. We will be using GUI controls via the kovri API(s).  
 **\<meeting-bot> [EinMByte]** What is important to understand is that I2PControl is intended to create high-level control programs  
-**\<meeting-bot> [EinMByte]** It isn't designed to deal with lower-level configuration that monero might need  
+**\<meeting-bot> [EinMByte]** It isn't designed to deal with lower-level configuration that byterub might need  
 **\<meeting-bot> [anonimal]** Anything else on 5.?  
 **\<meeting-bot> [EinMByte]** One of the main limitations, in case anyone is wondering, is that i2pcontrol has to serialize everything and send it over the network  
 **\<meeting-bot> [EinMByte]** There's no possiblity of handlers or anything like that too  
@@ -193,7 +193,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** yes.  
 **\<meeting-bot> [anonimal]** Ok, 8 minutes  
 **\<meeting-bot> [anonimal]** 6. Preparing for pre-alpha release  
-**\<meeting-bot> [EinMByte]** For a simple GUI, that's probably good enough but it doesn't work when you want to integrate kovri with something like monero  
+**\<meeting-bot> [EinMByte]** For a simple GUI, that's probably good enough but it doesn't work when you want to integrate kovri with something like byterub  
 **\<meeting-bot> [anonimal]** Yay! Nov. 1st pre-alpha will not happen, nooo way. I've been busy this month with non-code work; only recently with more code.  
 **\<meeting-bot> [anonimal]** EinMByte has been very busy too.  
 **\<meeting-bot> [EinMByte]** :|  

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-05-28
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-05-28
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -25,7 +25,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** endogenic: I pinged people about 20 minutes ago  
 **\<suraeNoether>** but point taken  
 **\<suraeNoether>** Sarang, how about you go first  
-**\<sarang>** I worked with moneromooo to speed up BPs  
+**\<sarang>** I worked with byterubmooo to speed up BPs  
 **\<suraeNoether>** we can let people jump in with questions  
 **\<sarang>** Here is timing data for the expensive multiexp operations they use, to illustrate: https://imgur.com/a/rZB0vin  
 **\<sarang>** The green bar, Pippenger, is the new one  
@@ -35,7 +35,7 @@ author: el00ruobuob / surae
 **\<sarang>** Once we finish up some testing, BPs will use a combination of algorithms. The speedup on the operations has been clocked at 40% of the original  
 **\<sarang>** The audits continue  
 **\<sarang>** What really remains is determining fees, as was discussed last week  
-**\<suraeNoether>** fluffypony knaccc luigi1111 anonimal andytoshi ArticMine binaryFate chachasmooth dEBRUYNE endogenic gingeropolous hyc iDunk IsthmusCrypto john\_alan JollyMort[m] jwinterm kenshi84 medusa\_ moneromooo MoroccanMalinois needmoney90 nioc nioc\_ othe philkode rehrar rrol[m] sgp\_[m] smooth sneurlax[m]1 stoffu TheCharlatan unknownids vtnerd waxwing  
+**\<suraeNoether>** fluffypony knaccc luigi1111 anonimal andytoshi ArticMine binaryFate chachasmooth dEBRUYNE endogenic gingeropolous hyc iDunk IsthmusCrypto john\_alan JollyMort[m] jwinterm kenshi84 medusa\_ byterubmooo MoroccanMalinois needmoney90 nioc nioc\_ othe philkode rehrar rrol[m] sgp\_[m] smooth sneurlax[m]1 stoffu TheCharlatan unknownids vtnerd waxwing  
 **\<suraeNoether>** okay, so let's talk about fees really quick  
 **\<sarang>** yes  
 **\<suraeNoether>** since verification times are roughly constant across powers of 2 (in terms of number of outputs) and the space is proportional to the number of outputs, we can get a good simple fee model going  
@@ -84,7 +84,7 @@ author: el00ruobuob / surae
 **\<sarang>** It's linear in the number of outputs used, but we pad to ensure there are always 2^m  
 **\<sarang>** We'd need the unpublished BP modifications to get rid of that requirement  
 **\<ArticMine>** because of padding  
-**\<suraeNoether>** assuming everything is being rounded up to the nearest power of 2, time = O(N outs). space = O(log(N outs)), essentially. so fees can be a\*N + b\*log(N). agreed or disagreed? if measured in atomic units of monero, we can write this as N + c\*log(N) if we like and if we want to pick c carefully.  
+**\<suraeNoether>** assuming everything is being rounded up to the nearest power of 2, time = O(N outs). space = O(log(N outs)), essentially. so fees can be a\*N + b\*log(N). agreed or disagreed? if measured in atomic units of byterub, we can write this as N + c\*log(N) if we like and if we want to pick c carefully.  
 **\<sarang>** We do get much smoother time changes if we use separate proofs  
 **\<sarang>** but at the cost of greater size  
 **\<sarang>** This discussion is all assuming we require a single proof  
@@ -122,11 +122,11 @@ author: el00ruobuob / surae
 **\<suraeNoether>** that works too  
 **\<ArticMine>** The will pay double on the proof  
 **\<ArticMine>** very likely but not on the rest of the tx  
-**\<moneromooo> \<@suraeNoether>** but since most txns are 2-in, 2-out, we're really over-optimizing the crap out of this  
-**\<moneromooo>** No, because this is a defense against attacks.  
-**\<moneromooo>** So you have to consider the worst case here.  
+**\<byterubmooo> \<@suraeNoether>** but since most txns are 2-in, 2-out, we're really over-optimizing the crap out of this  
+**\<byterubmooo>** No, because this is a defense against attacks.  
+**\<byterubmooo>** So you have to consider the worst case here.  
 **\<UkoeHB>** jumping in: yay new chapter  
-**\<UkoeHB>** https://www.pdf-archive.com/2018/05/28/zero-to-monero-first-edition-v0-17/zero-to-monero-first-edition-v0-17.pdf  
+**\<UkoeHB>** https://www.pdf-archive.com/2018/05/28/zero-to-byterub-first-edition-v0-17/zero-to-byterub-first-edition-v0-17.pdf  
 **\<ArticMine>** Which is why we have to add a space penalty term for the spoace gains in say 2 out to 4 out 8 out etc  
 **\<suraeNoether>** thanks UkoeHB   
 **\<suraeNoether>** okay, so ArticMine and sarang, let's talk about fees after the meeting  
@@ -139,7 +139,7 @@ author: el00ruobuob / surae
 **\<sarang>** \*audit  
 **\<sarang>** If it ends up being more time than expected, I can adjust the next FFS accordingly  
 **\<sarang>** The first week of June is BS training, so I'll be partially available  
-**\<suraeNoether>** cool. UkoeHB care to share/describe your newest chapter in zero-to-monero?  
+**\<suraeNoether>** cool. UkoeHB care to share/describe your newest chapter in zero-to-byterub?  
 **\<UkoeHB>** blockchain  
 **\<sarang>** lol  
 **\<suraeNoether>** "blockchain" he said, with stars in his eyes  
@@ -169,8 +169,8 @@ author: el00ruobuob / surae
 **\<suraeNoether>** and depending on the constructions, things can get out of hand rather quickly  
 **\<suraeNoether>** on the plus side, the paper is, once again... smaller than it was. :D  
 **\<suraeNoether>** unfortunately i'm debugging some latex code so it's not viewable right now  
-**\<suraeNoether>** that has basically been my whole life this past week, although I spent some time looking into what it would take for a zk-ledger-based sidechain to work merge-mined with monero  
-**\<suraeNoether>** i believe a very private "banking system" with off-chain transaction processing through semi-trusted third parties could be a second layer on top of monero  
+**\<suraeNoether>** that has basically been my whole life this past week, although I spent some time looking into what it would take for a zk-ledger-based sidechain to work merge-mined with byterub  
+**\<suraeNoether>** i believe a very private "banking system" with off-chain transaction processing through semi-trusted third parties could be a second layer on top of byterub  
 **\<suraeNoether>** but that's not where my mind has really been at, which has been on multisignature unforgeability proofs  
 **\<suraeNoether>** sarang, I believe, will be posting his monthly report, as will I...  
 **\<suraeNoether>** and later today, I'm helping advise zcash foundation on how to spend a quarter million of their dollars on grants  

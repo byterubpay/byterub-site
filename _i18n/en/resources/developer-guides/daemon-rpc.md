@@ -237,12 +237,12 @@ Outputs:
 * *block_header* - A structure containing block header information.
   * *block_size* - unsigned int; The block size in bytes.
   * *depth* -  unsigned int; The number of blocks succeeding this block on the blockchain. A larger number means an older block.
-  * *difficulty* - unsigned int; The strength of the Monero network based on mining power.
+  * *difficulty* - unsigned int; The strength of the ByteRub network based on mining power.
   * *hash* - string; The hash of this block.
   * *height* - unsigned int; The number of blocks preceding this block on the blockchain.
   * *major_version* - unsigned int; The major version of the monero protocol at this block height.
   * *minor_version* - unsigned int; The minor version of the monero protocol at this block height.
-  * *nonce* - unsigned int; a cryptographic random one-time number used in mining a Monero block.
+  * *nonce* - unsigned int; a cryptographic random one-time number used in mining a ByteRub block.
   * *num_txes* - unsigned int; Number of transactions in the block, not counting the coinbase tx.
   * *orphan_status* - boolean; Usually `false`. If `true`, this block is not part of the longest chain.
   * *prev_hash* - string; The hash of the block immediately preceding this block in the chain.

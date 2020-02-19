@@ -7,9 +7,9 @@ author: Justin Ehrenhofer / knaccc
 ---
 
 
-Dear participants of the Monero ecosystem,
+Dear participants of the ByteRub ecosystem,
 
-After some new limitations of subaddresses were found, this post should help clarify the use-cases of subaddresses and the privacy protections that they provide. Monero added subaddresses to its software to allow simpler OpSec management. For many users, subaddresses are a more elegant way to receive transactions than integrated addresses or main addresses. However, subaddresses are not as robust as using entirely different seeds for each desired disparate identity.
+After some new limitations of subaddresses were found, this post should help clarify the use-cases of subaddresses and the privacy protections that they provide. ByteRub added subaddresses to its software to allow simpler OpSec management. For many users, subaddresses are a more elegant way to receive transactions than integrated addresses or main addresses. However, subaddresses are not as robust as using entirely different seeds for each desired disparate identity.
 
 In summary, the below chart should help explain the relative privacy protections of different address behaviors. From a user experience perspective, subaddresses are far more user-friendly than using addresses from completely different seeds, while still providing a level of privacy protection that is sufficient for most use-cases.
 
@@ -53,15 +53,15 @@ There are at least two known mitigations. Either we could encrypt the tx private
 
 This vulnerability requires an active attack involving sending funds to a wallet by the attacker. Passive non-colluding observers with knowledge of this vulnerability do not gain any advantage when attempting blockchain analysis to trace the movements of funds. 
 
-This attack cannot be used to steal funds or inflate the supply of Monero. It can only be used to determine if two subaddresses belong to the same wallet.
+This attack cannot be used to steal funds or inflate the supply of ByteRub. It can only be used to determine if two subaddresses belong to the same wallet.
 
 If you are using subaddresses to distinguish between incoming funds to your wallet, rather than to maintain separate identities, then this attack does not affect you. Therefore, most merchants and exchanges will not be affected by this attack.
 
 If the attacker's attempt is unsuccessful and the targeted subaddress is not derived from the same seed, then the funds are permanently inaccessible by the sender and receiver.
 
-## Breaking Monero explanation
+## Breaking ByteRub explanation
 
-Justin Ehrenhofer explains the limitations of subaddresses, including the Janus attack, in this Breaking Monero video: https://www.youtube.com/watch?v=M_IYzzC5Zqk
+Justin Ehrenhofer explains the limitations of subaddresses, including the Janus attack, in this Breaking ByteRub video: https://www.youtube.com/watch?v=M_IYzzC5Zqk
 
 ## Conclusion
 

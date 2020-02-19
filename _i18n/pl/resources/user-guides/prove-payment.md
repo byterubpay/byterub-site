@@ -6,13 +6,13 @@ Jeżeli dokonasz płatności osobie, która później ją zakwestionuje, musisz 
 
 W przypadku Bitcoina zazwyczaj dokonuje się tego, wyszukując numer identyfikacyjny transakcji, gdzie adres nadawcy i odbiorcy oraz przesłana kwota są ujawnione.
 
-Jednak Monero jest prywatne - te informacje nie są publicznie dostępne w łańcuchu bloków. W związku z tym, kroki są trochę bardziej skomplikowane.
+Jednak ByteRub jest prywatne - te informacje nie są publicznie dostępne w łańcuchu bloków. W związku z tym, kroki są trochę bardziej skomplikowane.
 
 Aby udowodnić Pawłowi, że Ewa przesłała pieniądze Jackowi, musi ona przekazać Pawłowi trzy informacje:
 
 - numer identyfikacyjny transakcji, tak jak się to dzieje w przypadku Bitcoina
 - adres Jacka, tak jak się to dzieje w przypadku Bitcoina
-- klucz transakcji, który jest wyłącznością Monero i innych walut CryptoNote.
+- klucz transakcji, który jest wyłącznością ByteRub i innych walut CryptoNote.
 
 Gdy Ewa dokonywała transakcji, jendorazowy klucz został wygenerowany tylko dla tej płatności.
 

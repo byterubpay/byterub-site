@@ -3,7 +3,7 @@ layout: post
 title: Overview and Logs for the Dev Meeting Held on 2019-09-08
 summary: Development status, Code & ticket discussion, 0.15 release discussion, and miscellaneous
 tags: [dev diaries, core, crypto]
-author: el00ruobuob / moneromooo / rehrar
+author: el00ruobuob / byterubmooo / rehrar
 ---
 
 # Logs  
@@ -11,17 +11,17 @@ author: el00ruobuob / moneromooo / rehrar
 **\<rbrunner>** Looks like meeting will start in a few minutes. Stay tuned.  
 **\<hyc>** time?  
 **\<hyc>** who's already here?  
-**\<moneromooo>** Well, it can start now. Who wants to say anything ?  
+**\<byterubmooo>** Well, it can start now. Who wants to say anything ?  
 **\<vtnerd\_\_>** present  
 **\<jtgrassie>** hola  
 **\<rbrunner>** Hi  
-**\<moneromooo>** I've been working on a "sync pruned blocks" patch, it's proving annoying to test but it's almost ready.  
+**\<byterubmooo>** I've been working on a "sync pruned blocks" patch, it's proving annoying to test but it's almost ready.  
 **\<rbrunner>** Asking around until get the full block?  
 **\<hyc>** I'm reworking the randomx integration patch, it has gotten ugly with the added tweaks over the past few months  
-**\<moneromooo>** I do not understand that question.  
+**\<byterubmooo>** I do not understand that question.  
 **\<hyc>** and currently the daemon mining support is broken  
 **\<rbrunner>** I mean what means "sync pruned blocks"  
-**\<moneromooo>** You asked for pruned blocks when you can, rather than full blocks that you'd then prune.  
+**\<byterubmooo>** You asked for pruned blocks when you can, rather than full blocks that you'd then prune.  
 **\<dEBRUYNE>** hyc: Could you define ugly?  
 **\<rbrunner>** Ah, ok. Thans  
 **\<rbrunner>** Thanks  
@@ -29,20 +29,20 @@ author: el00ruobuob / moneromooo / rehrar
 **\<rehrar>** hello, apologies for tardiness  
 **\<hyc>** ought to be able to consolidate it back into 1  
 **\<hyc>** but need to step back and rethink the overall structure  
-**\<moneromooo>** (it's to save network bandwidth btw, it doesn't save more db size)  
+**\<byterubmooo>** (it's to save network bandwidth btw, it doesn't save more db size)  
 **\<rbrunner>** How does reworking of RandomX PR look in regard to the calendar?  
 **\<hyc>** well, it always takes 2-3 days to test and verify that the network is behaving  
 **\<jtgrassie>** fwiw hyc, current state of pr seems to be working now  
 **\<rehrar>** It's September, do we have a hard fork date?  
 **\<hyc>** jtgrassie: we haven't crossed a nother epoch boundary yet, I don't think  
 **\<jtgrassie>** ^ good point  
-**\<moneromooo>** No fork date yet.  
+**\<byterubmooo>** No fork date yet.  
 **\<rehrar>** We were thinking Octoberish though, no?  
-**\<moneromooo>** We were.  
+**\<byterubmooo>** We were.  
 **\<hyc>** I would assume mid-October  
 **\<hyc>** we ought to be nailing that date down  
 **\<rehrar>** so in theory there is a hypothetical freeze coming mid September? :D  
-**\<moneromooo>** Though the randomx code being still changed makes me nervous about mid october.  
+**\<byterubmooo>** Though the randomx code being still changed makes me nervous about mid october.  
 **\<tevador>** hyc: for testing, you could shorten the epoch to 128 blocks, then you can test it in 2 hours  
 **\<rehrar>** fluffypony luigi1111 ArticMine smooth binaryFate ?  
 **\<hyc>** tevador: we did that when the PR was originally written. for some reason the current problems never showed up then.  
@@ -55,7 +55,7 @@ author: el00ruobuob / moneromooo / rehrar
 **\<tevador>** dEBRUYNE: most changes were made based on audit recommendations  
 **\<dEBRUYNE>** I see. I guess if we need more time we can always push it back to end of October, but most people and services are expecting a fork in October  
 **\<rehrar>** dEBRUYNE: are they though?  
-**\<moneromooo>** Nobody expects a monero fork.  
+**\<byterubmooo>** Nobody expects a byterub fork.  
 **\<hyc>** we could always release with daemon mining disabled, and fix it up in a point release if we need to  
 **\<hyc>** since xmrig is already available  
 **\<rehrar>** I realize we don't have to go Verge vaporware extreme where we push back indefinitely, but I think people are used to some "delays" if it means code that works from the get go (hopefully)  
@@ -80,15 +80,15 @@ author: el00ruobuob / moneromooo / rehrar
 **\<hyc>** ok then should be no problem  
 **\<dEBRUYNE>** rbrunner: Yes I tend to agree. I'd prefer to release v0.15.0.0 with full functionality  
 **\<rehrar>** selsta: what's the state of the GUI as we march toward this fork?  
-**\<tevador>** yeah, we should make sure daemon mining is working, especially since there is not much difference in hashrate between xmrig and monerod  
+**\<tevador>** yeah, we should make sure daemon mining is working, especially since there is not much difference in hashrate between xmrig and byterubd  
 **\<dEBRUYNE>** With respect to branching, I guess we just keep merging stuff into master until the RandomX pull request is ready?  
-**\<moneromooo>** There's certainly more stuff to be merged atm.  
+**\<byterubmooo>** There's certainly more stuff to be merged atm.  
 **\<rbrunner>** Pragmatic approach :)  
 **\<selsta>** xiphon added simple mode public node discovery without a centralized service, I did some redesigned the balance card, dsc is working on i2p  
 **\<hyc>** makes sense  
 **\<jtgrassie>** we shouldn't release a pow change and it being reliant on some third party miner  
 **\<selsta>** also small things  
-**\<endogenic>** moneromooo: hyc i just got it  
+**\<endogenic>** byterubmooo: hyc i just got it  
 **\<hyc>** lol  
 **\<rehrar>** it seems like this is shaping up to be a standard Moenro fork :P  
 **\<rehrar>** we'll have our standard debriefing afterward with our similar standard complaints  
@@ -106,13 +106,13 @@ author: el00ruobuob / moneromooo / rehrar
 **\<hoochu>** \*would not be  
 **\<sech1>** yes, mining issue only happens when there are long altchains across epoch boundary  
 **\<hoochu>** I had another initial attempt when did that  
-**\<moneromooo>** "long" means that one block on each side would not be enough to trigger ?  
+**\<byterubmooo>** "long" means that one block on each side would not be enough to trigger ?  
 **\<sech1>** not necessarily long, I guess they need to have different seed hashes  
 **\<nioc>** RandomX was released for wow will only daemon mining, tthere were no 3rd party miners at first  
 **\<tevador>** must be at least 64 blocks I think  
 **\<sech1>** so 64 blocks is enough if split block is chosen carefully  
 **\<hoochu>** I suppose enough but noone tried to expose them before daemon miner even started to mine epoch boundary block  
-**\<moneromooo>** OK. I'll see if I can add tests for this.  
+**\<byterubmooo>** OK. I'll see if I can add tests for this.  
 **\<hoochu>** There was a race  
 **\<rbrunner>** That sounds like an awfully special situation  
 **\<sech1>** yes  
@@ -135,9 +135,9 @@ author: el00ruobuob / moneromooo / rehrar
 **\<rbrunner>** Remember when PoW algorithms were easy and simple ...  
 **\<rehrar>** no core team seems to be here though :/  
 **\<hyc>** rbrunner: I suppose we'd have similar problems with any PoW scheme that references previous blocks  
-**\<hoochu>** this problem exist due to complex dependencies in monerod and lack of people to know all of them to write correct code but not local small changes  
+**\<hoochu>** this problem exist due to complex dependencies in byterubd and lack of people to know all of them to write correct code but not local small changes  
 **\<hoochu>** \*that know all of them  
-**\<moneromooo>** tewinget: if you're still working on loki: ^  
+**\<byterubmooo>** tewinget: if you're still working on loki: ^  
 **\<rehrar>** is vtnerd here?  
 **\<rehrar>** I think he said in one of the previous meetings that his networking stuff will probably not be ready in time, correct?  
 **\<dEBRUYNE>** \<rehrar> so in theory there is a hypothetical freeze coming mid September? :D \<= I guess branching is technically a freeze right? Because typically only fixes go into the branch  

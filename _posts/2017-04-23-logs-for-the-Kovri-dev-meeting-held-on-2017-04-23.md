@@ -11,7 +11,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<anonimal>** 3. More preparation for [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46) (@fluffypony @danrmiller location status, @anonimal "de-anon consideration" status)  
-**\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
+**\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/byterub](https://hackerone.com/byterub) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
 **\<anonimal>** 5. Website status (@rehrar @bigreddmachine @alvinjoelsantos @danrmiller)  
 **\<anonimal>** 6. Code + ticket discussion / Q & A  
 **\<anonimal>** 7. Any additional meeting items  
@@ -26,12 +26,12 @@ author: dEBRUYNE / fluffypony
 **\<guzzijones12>** on 2 i am working on removing the global client context.  
 **\<anonimal>** Whatever your strategy is, the same strategy *should* apply to core context, just FYI.  
 **\* anonimal** we can talk more in 6.  
-**\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/monero](https://hackerone.com/monero) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
-**\<anonimal>** fluffypony needs to move this to funding required https://forum.getmonero.org/6/ideas/87597/monero-bounty-for-hackerone  
+**\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/byterub](https://hackerone.com/byterub) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
+**\<anonimal>** fluffypony needs to move this to funding required https://forum.getbyterub.org/6/ideas/87597/byterub-bounty-for-hackerone  
 **\<anonimal>** We can't move forward until that happens.  
-**\<anonimal>** I've submitted a VRP to monero/#1995  
-**\<moneromooo>** luigi1112: is that something you have privs to do ?  
-**\<moneromooo>** (also surae's).  
+**\<anonimal>** I've submitted a VRP to byterub/#1995  
+**\<byterubmooo>** luigi1112: is that something you have privs to do ?  
+**\<byterubmooo>** (also surae's).  
 **\<anonimal>** Once #1995 is fleshed out, I'll submit to the core repo and the website with relevant adjustments (as we discussed in previous meeting(s))  
 **\* anonimal** not sure if luigi is around, anything else on 4.?  
 **\<moroccanmalinois>** Before the alpha release, if i find a bug that can, for example, crash a router, should i go through the process or is it cool to just PR ?  
@@ -77,7 +77,7 @@ author: dEBRUYNE / fluffypony
 **\<guzzijones12>** hard to make the logo and make it look garlic with those colors. imo  
 **\<rehrar>** Sure. I'll PM them to you.  
 **\<luigi1112>** sorry afk. will be around later, ping again if you think about it  
-**\<anonimal>** luigi1112: can you move this to funding required? fp said he would do it soon after the last meeting IIRC https://forum.getmonero.org/6/ideas/87597/monero-bounty-for-hackerone  
+**\<anonimal>** luigi1112: can you move this to funding required? fp said he would do it soon after the last meeting IIRC https://forum.getbyterub.org/6/ideas/87597/byterub-bounty-for-hackerone  
 **\<luigi1112>** I probably can, not at computer right now though  
 **\<anonimal>** k  
 **\<anonimal>** moroccanmalinois: new proposal open. #630  

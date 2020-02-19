@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2018-04-28
-summary: Community highlights, Forum Funding System updates, Localization workgroup Q&A, Monero Integrations, Monero QR GUI discussion, and miscellaneous
+summary: Community highlights, Forum Funding System updates, Localization workgroup Q&A, ByteRub Integrations, ByteRub QR GUI discussion, and miscellaneous
 tags: [dev diaries, community, crypto]
 author: el00ruobuob / SamsungGalaxyPlayer
 ---
@@ -15,9 +15,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sarang>** yo yo  
 **\<ErCiccione>** 0. Introduction  
 **\<midipoet>** hey hey  
-**\<ErCiccione>** Welcome everyone to this Monero Community Meeting!  
+**\<ErCiccione>** Welcome everyone to this ByteRub Community Meeting!  
 **\<ErCiccione>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/214  
-**\<ErCiccione>** Monero Community meetings are a discussion place for anything going on in the Monero Community. We use meetings to encourage the community to share ideas and provide support, so... let's begin!  
+**\<ErCiccione>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support, so... let's begin!  
 **\<ErCiccione>** 1. Greetings  
 **\<msvb-lab>** Hello.  
 **\<ArticMine>** Hi  
@@ -34,31 +34,31 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<onodera>** can anyone tell me what kind of stuff gets discussed here?  
 **\<midipoet>** hi everyone  
 **\<ErCiccione>** onodera: agenda on GitHub: https://github.com/byterubpay/meta/issues/214  
-**\<serhack>** onodera: this is the community meeting for the Monero Community workgroup. Here we are going to discuss about community updates and ideas!  
+**\<serhack>** onodera: this is the community meeting for the ByteRub Community workgroup. Here we are going to discuss about community updates and ideas!  
 **\<ErCiccione>** lot of people today. good!  
 **\<endogenic>** onodera: exactly!  
 **\<onodera>** interesting, thanks ErCiccione and serhack  
 **\<ErCiccione>** 2. Community highlights  
 **\<ErCiccione>** m2049r's FFS proposal has been completely funded, this means 3 more months of Monerujo developing! Congratulations!  
-**\<ErCiccione>** Link to the FFS proposal: https://forum.getmonero.org/8/funding-required/90038/m2049r-part-time-for-3-months  
+**\<ErCiccione>** Link to the FFS proposal: https://forum.getbyterub.org/8/funding-required/90038/m2049r-part-time-for-3-months  
 **\<ErCiccione>** also, fluffypony merged a lot of PRs few hours ago, new cool stuff for the next release!  
 **\<ErCiccione>** Anybody have updates to share? don't be shy!  
 **\<cryptochangement>** me me  
 **\<cryptochangement>** oh wait not yet lol  
 **\<endogenic>** too late  
 **\<cryptochangement>** well if nobody else has something to mention...  
-**\<onodera>** I've been working on a self-hosted web-wallet for Monero the past few months: it's really not anything usable yet but it's starting to take shape: https://github.com/onodera-punpun/sako  
+**\<onodera>** I've been working on a self-hosted web-wallet for ByteRub the past few months: it's really not anything usable yet but it's starting to take shape: https://github.com/onodera-punpun/sako  
 **\<ErCiccione>** let's wait a minute cryptochangement :)  
 **\<onodera>** dont' know if this is relevant to what should be discussed here? :)  
 **\<cryptochangement>** agreed ErCiccione  
 **\<midipoet>** i have something to mention, but was going to wait till 'ideas' time  
-**\<cryptochangement>** onodera: that sounds interesting. how does it differ from say openmonero?  
+**\<cryptochangement>** onodera: that sounds interesting. how does it differ from say openbyterub?  
 **\<onodera>** cryptochangement: the idea is that it's self hosted, so you don't depend on a third party  
-**\<endogenic>** onodera: same with openmonero  
+**\<endogenic>** onodera: same with openbyterub  
 **\<ErCiccione>** midipoet: noted for open ideas later  
 **\<onodera>** so kind of like the transmission (torrent client) web interface  
 **\<onodera>** ah I suppose that I made it myself hehe  
-**\<onodera>** I mainly just started this project to learn more about Go and the monero RPC methods  
+**\<onodera>** I mainly just started this project to learn more about Go and the byterub RPC methods  
 **\<endogenic>** good way to learn those  
 **\<serhack>** +1 onodera :)  
 **\<ErCiccione>** well, the more the better. Looking forward to see some updates on that onodera  
@@ -68,14 +68,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<hrumag>** erciccione: of course  
 **\<ErCiccione>** 3. FFS updates  
 **\<ErCiccione>** There are several Forum Funding System updates today:  
-**\<ErCiccione>** a. Monero Integrations  
+**\<ErCiccione>** a. ByteRub Integrations  
 **\<ErCiccione>** serhack and cryptochangement asked to reserve some time to discuss their integrations, so please guys go ahead :)  
 **\<cryptochangement>** ok cool  
 **\<cryptochangement>** so basically our Opencart payment gateway is complete  
-**\<cryptochangement>** you can find it here https://github.com/monero-integrations.com/monerocart  
+**\<cryptochangement>** you can find it here https://github.com/byterub-integrations.com/byterubcart  
 **\<endogenic>** 404  
 **\<cryptochangement>** that also completes the final milestone of our FFS  
-**\<endogenic>** https://github.com/monero-integrations/monerocart  
+**\<endogenic>** https://github.com/byterub-integrations/byterubcart  
 **\<serhack>** ty endogenic!  
 **\<endogenic>** np  
 **\<cryptochangement>** oops thanks  
@@ -85,10 +85,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<cryptochangement>** if nobody has questions we can move on :)  
 **\<endogenic>** clear you guys did a lot of work on this  
 **\<serhack>** endogenic: I can confirm. Cryptochangements and sneurlax did a lot of work on php library!  
-**\<endogenic>** oh would it be possible to https-ify http://monerointegrations.com?  
+**\<endogenic>** oh would it be possible to https-ify http://byterubintegrations.com?  
 **\<endogenic>** serhack: srsly..  
 **\<cryptochangement>** it should have ssl  
-**\<cryptochangement>** https://monerointegrations.com  
+**\<cryptochangement>** https://byterubintegrations.com  
 **\<endogenic>** your github profile link lacks ssl, fyi  
 **\<serhack>** it is :/  I have to redirect, thanks endogenic!  
 **\<endogenic>** ah ok  
@@ -96,10 +96,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** b. IEEE Security & Privacy on the Blockchain workshop  
 **\<sarang>** yes  
 **\<ErCiccione>** sarang attended the SPB in London, an event focused on scaling, privacy, and applications of blockchain technologies and distributed ledgers, focusing particularly on the security and efficiency of current and future implementations. He is going to give us a brief update.  
-**\<ErCiccione>** link to the funded FFS proposal: https://forum.getmonero.org/9/work-in-progress/90165/noether-brothers-ieee-workshop  
+**\<ErCiccione>** link to the funded FFS proposal: https://forum.getbyterub.org/9/work-in-progress/90165/noether-brothers-ieee-workshop  
 **\<sarang>** Thanks to the community for funding my presence (and Surae's) at the workshop  
 **\<endogenic>** serhack: i think it could be cool to show on your homepage shops which are using the libs  
-**\<sarang>** There was a great audience of academics here, and two talks directly addressing Monero  
+**\<sarang>** There was a great audience of academics here, and two talks directly addressing ByteRub  
 **\<sarang>** One was an update on a paper discussing ways to efficiently describe ring members, which could be useful if/when we move to much larger ring sizes  
 **\<sarang>** had some great discussions with the author  
 **\<cryptochangement>** endogenic: that's a good idea  
@@ -121,7 +121,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sarang>** We have a way to do it that allows for combining refund outputs and standard outputs in the same ring sig  
 **\<sarang>** As always, conferences are great both for the presentations and for the discussions with other researchers  
 **\<endogenic>** i wonder if there's an attack lurking there with refunds :P  
-**\<sarang>** The increase in third-party Monero research is also welcome  
+**\<sarang>** The increase in third-party ByteRub research is also welcome  
 **\<sarang>** endogenic: it's the same style of output generation  
 **\<sarang>** the only real trick is in the key image  
 **\<sarang>** and that uses a common DHKE method that's well understood  
@@ -136,10 +136,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sarang>** Anyway, that's my update! My thanks for the support  
 **\<ErCiccione>** questions for sarang?  
 **\<sarang>** I can't share the preprint yet but it'll come out eventually  
-**\<ErCiccione>** c. Monero QR GUI discussion  
-**\<ErCiccione>** About a month ago, nasawelder introduced Lunlumo, a method of using a series of QR codes to send funds from an airgapped computer. See the original discussion here: https://www.reddit.com/r/Monero/comments/81tjrg/introducing\_lunlumo\_send\_monero\_from\_an\_airgapped/  
-**\<monerobux>** [REDDIT] Introducing Lunlumo, send Monero from an air-gapped computer via QR codes (self.Monero) | 100 points (98.0%) | 57 comments | Posted by NASA\_Welder | Created at 2018-03-03 - 22:33:35  
-**\<ErCiccione>** Since they are still interested in pursuing this idea, I offered to reserve some meeting time to get more community consensus. Sometimes ideas need persistence to move to funding required. Here is the FFS link: https://forum.getmonero.org/7/open-tasks/89997/lunlumo-cold-signing-automation-via-qr-code-full-gui-python-cli-wrapper-library  
+**\<ErCiccione>** c. ByteRub QR GUI discussion  
+**\<ErCiccione>** About a month ago, nasawelder introduced Lunlumo, a method of using a series of QR codes to send funds from an airgapped computer. See the original discussion here: https://www.reddit.com/r/ByteRub/comments/81tjrg/introducing\_lunlumo\_send\_byterub\_from\_an\_airgapped/  
+**\<byterubbux>** [REDDIT] Introducing Lunlumo, send ByteRub from an air-gapped computer via QR codes (self.ByteRub) | 100 points (98.0%) | 57 comments | Posted by NASA\_Welder | Created at 2018-03-03 - 22:33:35  
+**\<ErCiccione>** Since they are still interested in pursuing this idea, I offered to reserve some meeting time to get more community consensus. Sometimes ideas need persistence to move to funding required. Here is the FFS link: https://forum.getbyterub.org/7/open-tasks/89997/lunlumo-cold-signing-automation-via-qr-code-full-gui-python-cli-wrapper-library  
 **\<ErCiccione>** nasawelder, the floor is yours  
 **\<sarang>** I must take off now... cheers to all  
 **\<ErCiccione>** thanks sarang!  
@@ -170,7 +170,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<nasawelder>** if that is what you meant  
 **\<nasawelder>** yes  
 **\<nasawelder>** it's all open source  
-**\<endogenic>** cool. mymonero i don't think is interested in it at the moment but i think others are  
+**\<endogenic>** cool. mybyterub i don't think is interested in it at the moment but i think others are  
 **\<nasawelder>** source: https://github.com/nasaWelder/lunlumo  
 **\<endogenic>** yes  
 **\<endogenic>** perhaps you can get a partnership going  
@@ -181,9 +181,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<nasawelder>** hope*  
 **\<msvb-lab>** nasawelder: We're using qr in the hardware wallet firmware as well.  
 **\<nasawelder>** (not that we talk about exchange rates) I'm working on adding air gapp to trading bot  
-**\<endogenic>** you could try asking at a monero-dev meeting whether it makes sense to integrate into the official codebase somehow  
+**\<endogenic>** you could try asking at a byterub-dev meeting whether it makes sense to integrate into the official codebase somehow  
 **\<endogenic>** aside from that, how can the community help you?  
-**\<nasawelder>** endogenic: originally this was an idea i had for monero codebase proper, but I just decided to make it with everyone being so busy, and i only know python  
+**\<nasawelder>** endogenic: originally this was an idea i had for byterub codebase proper, but I just decided to make it with everyone being so busy, and i only know python  
 **\<nasawelder>** I know how to complete my roadmap, the only thing I don'y know how to do is bundle all dependencies with my source  
 **\<nasawelder>** it uses some "sudo apt-get install" dependencies  
 **\<nasawelder>** msvb-lab: have I made something redundant?  
@@ -192,14 +192,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<endogenic>** the streaming is not redundant aside from other people having implemented it  
 **\<endogenic>** in other projects  
 **\<nasawelder>** msvb-lab: I'm interested in helping  
-**\<endogenic>** nasawelder: go for it in c++ i say. someone is working on it in monero gui right now  
+**\<endogenic>** nasawelder: go for it in c++ i say. someone is working on it in byterub gui right now  
 **\<nasawelder>** endo: i gotcha, well the streaming is automated within tx workflow which is like 5 steps, so that's what I'm selling : user experience  
 **\<endogenic>** people will support you  
 **\<msvb-lab>** nasawelder: If you want to help in firmware, please become a team member to make communication easier:  
-**\<msvb-lab>** taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
+**\<msvb-lab>** taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
 **\<nasawelder>** will do  
 **\<endogenic>** nasawelder: any reason it cant be done in the gui?  
-**\<nasawelder>** the official monero gui?  
+**\<nasawelder>** the official byterub gui?  
 **\<endogenic>** yes. a build variant  
 **\<nasawelder>** no, just I don't know c++ so i made it in python  
 **\<endogenic>** i mean the codebase is large  
@@ -225,32 +225,32 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<endogenic>** youtube? or are they evil  
 **\<endogenic>** and does it matter  
 **\<endogenic>** :p  
-**\<msvb-lab>** endogenic: There is a media.getmonero.org or something.  
+**\<msvb-lab>** endogenic: There is a media.getbyterub.org or something.  
 **\<ErCiccione>** msvb-lab: one last FFS update then we can move on, but before you midipoet had something to say  
 **\<ErCiccione>** d. Localization workgroup Q&A  
 **\<msvb-lab>** ErCiccione: Yes, thanks. No problem.  
 **\<midipoet>** thanks!  
 **\<ErCiccione>** ok, about localization  
 **\<ErCiccione>** the localization of monerujo is going very well, you can see on taiga what's in progress and ready.. a lot of stuff:  
-**\<ErCiccione>** https://taiga.getmonero.org/project/erciccione-monero-localization/us/163?milestone=28  
+**\<ErCiccione>** https://taiga.getbyterub.org/project/erciccione-byterub-localization/us/163?milestone=28  
 **\<endogenic>** msvb-lab: seems long lived for transient media  
 **\<endogenic>** msvb-lab: plus hosting there will burden server - may want to find a CDN  
 **\<endogenic>** msvb-lab: but maybe ask rehrar  
 **\<ErCiccione>** endogenic: please, let's wait for that  
-**\<ErCiccione>** the monero GUI is being refactored so we will need to refresh it again, this will happen probably next week during a code freeze. i will open an issue on github when the time will come  
+**\<ErCiccione>** the byterub GUI is being refactored so we will need to refresh it again, this will happen probably next week during a code freeze. i will open an issue on github when the time will come  
 **\<ErCiccione>** nothing more to add  
 **\<ErCiccione>** any question?  
 **\<ErCiccione>** ooook  
-**\<hrumag>** yeah, i've got one. the refreshing of the original strings of monero GUI is the same of monerujo?  
+**\<hrumag>** yeah, i've got one. the refreshing of the original strings of byterub GUI is the same of monerujo?  
 **\<ErCiccione>** hrumag: no it works quite differently, it will be easier 'cause i will make the refresh and translators will only need to translate the new strings  
 **\<hrumag>** erciccione: good to know  
 **\<ErCiccione>** Does anyone else have a FFS update or any last question?  
-**\<Alex\_LocalMonero>** Workgroup meeting still on?  
+**\<Alex\_LocalByteRub>** Workgroup meeting still on?  
 **\<endogenic>** you know it  
 **\<msvb-lab>** endogenic: Is there a media server or not? I'm confused.  
 **\<endogenic>** no idea  
-**\<endogenic>** ErCiccione: when monero ffs ico?  
-**\<msvb-lab>** I thought there was something like media.getmonero.org, I'm just getting the URL name wrong  
+**\<endogenic>** ErCiccione: when byterub ffs ico?  
+**\<msvb-lab>** I thought there was something like media.getbyterub.org, I'm just getting the URL name wrong  
 **\<ErCiccione>** msvb-lab: endogenic: there is, don't remember the exact link now, but i'm sure it exists  
 **\<msvb-lab>** ErCiccione: Same with me, I saw the URL in some place, but have forgotten it.  
 **\<msvb-lab>** Nobody here knows the media server URL?  
@@ -261,7 +261,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<midipoet>** great thanks!  
 **\<midipoet>** I am going to try and keep this relatively short, but am open to any follow on questions through here, through email, or through reddit (same username).  
 **\<midipoet>** I am currently involved in an academic research project. Its concern is Privacy, and more specifically, perspectives of privacy within blockchain.  
-**\<midipoet>** I have proposed to use the Monero community to gather qualitative data (through semi-structured anonymous interviews - probably over some text based platform). This is mainly because a number of key groups can be found here (users, cryptographers, protocol designers), and i know this community, and some know me.  
+**\<midipoet>** I have proposed to use the ByteRub community to gather qualitative data (through semi-structured anonymous interviews - probably over some text based platform). This is mainly because a number of key groups can be found here (users, cryptographers, protocol designers), and i know this community, and some know me.  
 **\<endogenic>** midipoet: what field of academia? sociology sort of thing?  
 **\<midipoet>** Information Science  
 **\<midipoet>** Researching emerging financial technology  
@@ -297,17 +297,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** contact rehrar, he would love this  
 **\<ErCiccione>** \*will  
 **\<endogenic>** midipoet: do you use surveys, mainly?  
-**\<midipoet>** i also think its really interesting. I am aiming for top level journals and conferences, as i think Monero deserves it.  
+**\<midipoet>** i also think its really interesting. I am aiming for top level journals and conferences, as i think ByteRub deserves it.  
 **\<midipoet>** endogenic: it is semi structured interviews, in an explorative study  
-**\<midipoet>** mainly using Monero as a sort of 'index case'  
-**\<midipoet>** or the Monero community, i should say  
+**\<midipoet>** mainly using ByteRub as a sort of 'index case'  
+**\<midipoet>** or the ByteRub community, i should say  
 **\<xmrmatterbridge> \<cypherperro>** I would also love to contribute  
 **\<midipoet>** Personally i think it is important that we negotiate the ideological aspects of privacy as a community, together. Especially as legislation and regulation is bound to appear in the future (and has started to already).  
 **\<ErCiccione>** ^^ +1  
 **\<serhack>** Privacy is fundamental.  
 **\<serhack>** Nobody can stop us!  
 **\<midipoet>** I think if we are able to put forward and compare and contrast across social groups/stakeholders, privacy rights can be negotiated  
-**\<UkoeHB>** I think Olufunmilayo would like to get that interview. You can find in #monero sometimes  
+**\<UkoeHB>** I think Olufunmilayo would like to get that interview. You can find in #byterub sometimes  
 **\<endogenic>** midipoet: what principle do you use in interpreting and organizing answers?  
 **\<midipoet>** endogenic: i am not sure i understand the question. If you are asking what methodology for interpreting? The IS literature points to open axial coding  
 **\<midipoet>** to be honest, IS methodology is not my strong point (but is my supervisors), who is an old friend of mine  
@@ -334,13 +334,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** 5. Confirm next meeting date/time  
 **\<ErCiccione>** The next community meeting will be two weeks from today on 28 April.  
 **\<ErCiccione>** 6. Conclusion  
-**\<ErCiccione>** That’s all! Thanks for attending this Monero Community meeting, we hope to see you on /r/MoneroCommunity and #monero-community. Take care and remember there is only one Monero, stay away from all those scammy forks!  
+**\<ErCiccione>** That’s all! Thanks for attending this ByteRub Community meeting, we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care and remember there is only one ByteRub, stay away from all those scammy forks!  
 **\<ErCiccione>** See you around!  
 **\<ErCiccione>** the meeting is over, but please, don't let the discussion die, if you have anything you want to talk about... please do!  
 **\<serhack>** thank you Erciccione!  
 **\<midipoet>** yes, thank you Erciccione  
-**\<serhack>** https://www.reddit.com/r/Monero/comments/8flnzi/finally\_released\_monero\_payment\_gateway\_for/  
-**\<monerobux>** [REDDIT] Finally released Monero Payment Gateway for OpenCart (self.Monero) | 2 points (100.0%) | 0 comments | Posted by serhack | Created at 2018-04-28 - 18:15:41  
+**\<serhack>** https://www.reddit.com/r/ByteRub/comments/8flnzi/finally\_released\_byterub\_payment\_gateway\_for/  
+**\<byterubbux>** [REDDIT] Finally released ByteRub Payment Gateway for OpenCart (self.ByteRub) | 2 points (100.0%) | 0 comments | Posted by serhack | Created at 2018-04-28 - 18:15:41  
 **\<ErCiccione>** whoo, this was a long one still within the 1.5 hrs tho :P  
 **\<ErCiccione>** thank you guys :)  
 **\<\_Slack> \<alexmu>** Long and great. Thank you.

@@ -11,9 +11,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Comminity meeting will start at 17:02 UTC if people need to grab water, use the restroom, etc  
 **\<sgp\_>** All right, community meeting time!  
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/241  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support.  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<cryptochangement>** hey everyone  
 **\<oneiric\_>** hi  
@@ -21,51 +21,51 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<anonimal>** hi  
 **\<sgp\_>** welcome all  
 **\<sgp\_>** 2. Community workgroup meeting purpose  
-**\<sgp\_>** Since we first began the Monero Marketing Workgroup, and eventually the Monero Community Workgroup, the community has evolved. New workgroups began and flourished. Workgroups now perform some of the most important Monero-related development, activism, support, and research.  
-**\<sgp\_>** The Monero Community Workgroup therefore will continue to support these other workgroups in the full capacity possible. It will maintain lines of communication with these workgroups, make sure they understand the general community guidelines, offer advice whenever possible, and provide a platform to easily connect to the rest of the Monero Community.  
+**\<sgp\_>** Since we first began the ByteRub Marketing Workgroup, and eventually the ByteRub Community Workgroup, the community has evolved. New workgroups began and flourished. Workgroups now perform some of the most important ByteRub-related development, activism, support, and research.  
+**\<sgp\_>** The ByteRub Community Workgroup therefore will continue to support these other workgroups in the full capacity possible. It will maintain lines of communication with these workgroups, make sure they understand the general community guidelines, offer advice whenever possible, and provide a platform to easily connect to the rest of the ByteRub Community.  
 **\<sgp\_>** You should expect slight changes in the meeting structure to better support these workgroups. The Community Workgroup already provided a line of communication for many of these workgroups to check in with the community at regular intervals.  
-**\<sgp\_>** As always, workgroups are invited to our regular Community Meetings and Coffee Chats. Workgroups have access to Taiga and Mattermost services (provided by the Core Team). If you have any service, event, or anything else that you feel this workgroup should provide to other workgroups, please mention it during open ideas time or on r/MoneroCommunity.  
-**\<sgp\_>** Does anyone have questions on the purpose of the Monero Community Workgroup?  
+**\<sgp\_>** As always, workgroups are invited to our regular Community Meetings and Coffee Chats. Workgroups have access to Taiga and Mattermost services (provided by the Core Team). If you have any service, event, or anything else that you feel this workgroup should provide to other workgroups, please mention it during open ideas time or on r/ByteRubCommunity.  
+**\<sgp\_>** Does anyone have questions on the purpose of the ByteRub Community Workgroup?  
 **\<cryptochangement>** no questions here :p  
 **\<sgp\_>** 3. Community highlights  
-**\<sgp\_>** Monero v0.12.2 was released, bringing full Ledger support and a number of other changes.  
+**\<sgp\_>** ByteRub v0.12.2 was released, bringing full Ledger support and a number of other changes.  
 **\<sgp\_>** Watch the Coffee Chat from last week: https://www.youtube.com/watch?v=A-bbuXJIUSo  
-**\<monerobux>** [ Monero Coffee Chat - 2018.06.02 - YouTube ] - www.youtube.com  
-**\<sgp\_>** Watch Niklas Makschin race with the Monero logo on his car at the German Clio Cup! Thanks to M5M400 fo making this happen: https://www.reddit.com/r/Monero/comments/8pn26m/watch\_niklas\_makschin\_66\_at\_the\_german\_clio\_cup/  
-**\<monerobux>** [REDDIT] Watch Niklas Makschin 66 at the German Clio Cup on Red Bull ring this weekend. Streamed live on renault-sport.de (or later on youtube) (https://imgur.com/6U3ah2X) to r/Monero | 95 points (91.0%) | 5 comments | Posted by M5M400 | Created at 2018-06-08 - 20:00:44  
-**\<sgp\_>** Monero is expected to be listed on the Trezor Model T soon: https://trezor.io/coins/  
-**\<sgp\_>** Monero pairs were added to Huobi: https://www.huobi.pro/notice\_detail/?id=1765  
-**\<sgp\_>** MyCrypto launched MoneroVision, a new Monero block explorer: https://www.reddit.com/r/Monero/comments/8nl2rp/introducing\_monerovisioncom\_a\_mycrypto\_project/  
-**\<monerobux>** [REDDIT] Introducing MoneroVision.com (a MyCrypto project) (self.Monero) | 136 points (97.0%) | 23 comments | Posted by dternyak | Created at 2018-05-31 - 19:01:22  
-**\<sgp\_>** u/Commancer re-appropriated NSA propaganda posters, and they look awesome. Here is my personal favorite: https://www.reddit.com/r/Monero/comments/8p1nji/privacy\_means\_this\_and\_more\_nsa\_propaganda/  
-**\<monerobux>** [REDDIT] Privacy Means This and More (NSA Propaganda Re-appropriated, 3/??) (https://i.redd.it/6gzjjwzgie211.png) to r/Monero | 85 points (96.0%) | 4 comments | Posted by Commancer | Created at 2018-06-06 - 15:43:33  
+**\<byterubbux>** [ ByteRub Coffee Chat - 2018.06.02 - YouTube ] - www.youtube.com  
+**\<sgp\_>** Watch Niklas Makschin race with the ByteRub logo on his car at the German Clio Cup! Thanks to M5M400 fo making this happen: https://www.reddit.com/r/ByteRub/comments/8pn26m/watch\_niklas\_makschin\_66\_at\_the\_german\_clio\_cup/  
+**\<byterubbux>** [REDDIT] Watch Niklas Makschin 66 at the German Clio Cup on Red Bull ring this weekend. Streamed live on renault-sport.de (or later on youtube) (https://imgur.com/6U3ah2X) to r/ByteRub | 95 points (91.0%) | 5 comments | Posted by M5M400 | Created at 2018-06-08 - 20:00:44  
+**\<sgp\_>** ByteRub is expected to be listed on the Trezor Model T soon: https://trezor.io/coins/  
+**\<sgp\_>** ByteRub pairs were added to Huobi: https://www.huobi.pro/notice\_detail/?id=1765  
+**\<sgp\_>** MyCrypto launched ByteRubVision, a new ByteRub block explorer: https://www.reddit.com/r/ByteRub/comments/8nl2rp/introducing\_byterubvisioncom\_a\_mycrypto\_project/  
+**\<byterubbux>** [REDDIT] Introducing ByteRubVision.com (a MyCrypto project) (self.ByteRub) | 136 points (97.0%) | 23 comments | Posted by dternyak | Created at 2018-05-31 - 19:01:22  
+**\<sgp\_>** u/Commancer re-appropriated NSA propaganda posters, and they look awesome. Here is my personal favorite: https://www.reddit.com/r/ByteRub/comments/8p1nji/privacy\_means\_this\_and\_more\_nsa\_propaganda/  
+**\<byterubbux>** [REDDIT] Privacy Means This and More (NSA Propaganda Re-appropriated, 3/??) (https://i.redd.it/6gzjjwzgie211.png) to r/ByteRub | 85 points (96.0%) | 4 comments | Posted by Commancer | Created at 2018-06-06 - 15:43:33  
 **\<serhack>** Hi  
-**\<sgp\_>** Equim-chan made an open-source vanity address generator: https://github.com/Equim-chan/vanity-monero  
-**\<sgp\_>** Endogenic released RC5 for MyMonero desktop apps: https://github.com/mymonero/mymonero-app-js/releases/tag/v1.0.0-rc5  
+**\<sgp\_>** Equim-chan made an open-source vanity address generator: https://github.com/Equim-chan/vanity-byterub  
+**\<sgp\_>** Endogenic released RC5 for MyByteRub desktop apps: https://github.com/mybyterub/mybyterub-app-js/releases/tag/v1.0.0-rc5  
 **\<sgp\_>** Does anyone else have community updates to share?  
-**\<cryptochangement>** Monero-Integrations has finally completely gotten rid of standalone payment IDs following Alex\_localmonero's proposal to doso  
+**\<cryptochangement>** ByteRub-Integrations has finally completely gotten rid of standalone payment IDs following Alex\_localbyterub's proposal to doso  
 **\<sgp\_>** 4. FFS updates  
 **\<sgp\_>** Congrats cryptochangements!  
 **\<msvb-lab>** Congratulations.  
 **\<oneiric\_>** congrats!  
 **\<sgp\_>** There are several Forum Funding System (FFS) updates. Workgroup reports now have their own section.  
-**\<sgp\_>** moneromooo has a new FFS for July-September: https://forum.getmonero.org/8/funding-required/90280/more-mooo-monero-coding-july-september  
-**\<sgp\_>** m2049r (or Monerujo) has a new FFS for June-August: https://forum.getmonero.org/8/funding-required/90272/m2049r-part-time-june-august  
-**\<sgp\_>** ErCiccione has a new FFS for July-September: https://forum.getmonero.org/8/funding-required/90271/coordinator-of-the-localization-workgroup-3-more-months-erciccione  
-**\<sgp\_>** Surae has a new FFS for June-August: https://forum.getmonero.org/8/funding-required/90264/continue-funding-surae-for-another-quarter-june-july-aug  
+**\<sgp\_>** byterubmooo has a new FFS for July-September: https://forum.getbyterub.org/8/funding-required/90280/more-mooo-byterub-coding-july-september  
+**\<sgp\_>** m2049r (or Monerujo) has a new FFS for June-August: https://forum.getbyterub.org/8/funding-required/90272/m2049r-part-time-june-august  
+**\<sgp\_>** ErCiccione has a new FFS for July-September: https://forum.getbyterub.org/8/funding-required/90271/coordinator-of-the-localization-workgroup-3-more-months-erciccione  
+**\<sgp\_>** Surae has a new FFS for June-August: https://forum.getbyterub.org/8/funding-required/90264/continue-funding-surae-for-another-quarter-june-july-aug  
 **\<sgp\_>** Does anyone else have a FFS update, or would like to discuss any of these?  
-**\<endogenic>** mymonero android is being written  
+**\<endogenic>** mybyterub android is being written  
 **\<endogenic>** contributors welcome  
-**\<endogenic>** come talk to me in #mymonero  
+**\<endogenic>** come talk to me in #mybyterub  
 **\<xmrmatterbridge> \<anonimal>** sgp\_, oneiric\_ has an ffs open  
-**\<msvb-lab>** endogenic: Care to give a three line explanation of the advantage or disadvantage leading to Monerujo and Mymonero occupying the same platform?  
+**\<msvb-lab>** endogenic: Care to give a three line explanation of the advantage or disadvantage leading to Monerujo and Mybyterub occupying the same platform?  
 **\<sgp\_>** endogenic that's meant for the "workgroup report" now :)  
 **\<ErCiccione>** hello everybody (sorry, a bit late)  
 **\<endogenic>** msvb-lab: not sure what you mean. totally different apps  
 **\<sgp\_>** anonimal have the link handy, or should I grab it?  
 **\<endogenic>** we never done an ffs or anything  
 **\<msvb-lab>** endogenic: Okay, never mind. I thought there were similarities.  
-**\<xmrmatterbridge> \<anonimal>** https://forum.getmonero.org/6/ideas/90300/oneiric-june-august-part-time-kovri-junior-developer  
+**\<xmrmatterbridge> \<anonimal>** https://forum.getbyterub.org/6/ideas/90300/oneiric-june-august-part-time-kovri-junior-developer  
 **\<sgp\_>** thanks anonimal  
 **\<rottensalty07>** sgp\_: Yes - I'll provide a laptop. Sorry for my absence. Got caught up with something else.  
 **\<xmrmatterbridge> \<anonimal>** np  
@@ -75,7 +75,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** if somebody have questions about localizations. here to answer  
 **\<m2049r[m]>** Here!  
 **\<oneiric\_>** thanks anonimal :)  
-**\<sgp\_>** I previously shared a link from my personal calendar to community events. I will be maintaining a new calendar on NextCloud which I will use for all events going forward. You can subscribe and add it to your personal calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** I previously shared a link from my personal calendar to community events. I will be maintaining a new calendar on NextCloud which I will use for all events going forward. You can subscribe and add it to your personal calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** (that's all on this item)  
 **\<sgp\_>** I'll make a post about it later. If you represent a workgroup and want your events listed, let me know  
 **\<sgp\_>** 6. Workgroup report  
@@ -87,8 +87,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** oh yea, don't remember if i said this already in the past meeting, but we updated almost all languages of the GUI except 8  
 **\<cryptochangement>** nice  
 **\<ErCiccione>** i recently posted a thread on reddit asking contributors able to translate monerujo and kovri  
-**\<ErCiccione>** https://www.reddit.com/r/Monero/comments/8o7py0/monero\_translations\_there\_is\_work\_to\_do\_and\_you/  
-**\<monerobux>** [REDDIT] Monero Translations - There is work to do and you can help! (Kovri and Monerujo) (self.Monero) | 42 points (92.0%) | 10 comments | Posted by ErCiccione | Created at 2018-06-03 - 10:30:27  
+**\<ErCiccione>** https://www.reddit.com/r/ByteRub/comments/8o7py0/byterub\_translations\_there\_is\_work\_to\_do\_and\_you/  
+**\<byterubbux>** [REDDIT] ByteRub Translations - There is work to do and you can help! (Kovri and Monerujo) (self.ByteRub) | 42 points (92.0%) | 10 comments | Posted by ErCiccione | Created at 2018-06-03 - 10:30:27  
 **\<ErCiccione>** if somevody wish to help please contact me.  
 **\<xmrmatterbridge> \<anonimal>** erciccione is the biggest issue now not having enough translators?  
 **\<msvb-lab>** Of which language in particular are there not enough translators?  
@@ -101,15 +101,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** luckily we have some community who are big enough to provide high quality translations  
 **\<ErCiccione>** like chinese, russian and german (the first that came in my mind)  
 **\<m2049r[m]>** Wonder how monerujo will deal with right to left anguages!  
-**\<ErCiccione>** rottensalty07: that would be very appreciated, somebody is working on the spanish translation of monero-site as we speak. but we need somebody for getkovri.org  
+**\<ErCiccione>** rottensalty07: that would be very appreciated, somebody is working on the spanish translation of byterub-site as we speak. but we need somebody for getkovri.org  
 **\<ErCiccione>** if you can help with that would be great  
 **\<endogenic>** m2049r[m]: platform support  
-**\<ErCiccione>** join #monero-translations , we can chat there  
+**\<ErCiccione>** join #byterub-translations , we can chat there  
 **\<ErCiccione>** m2049r: i don't think that will be a issue with pootle.  
 **\<m2049r[m]>** Yes i tried to cater for it but never tried it out  
 **\<rottensalty07>** ErCiccione: I can help, absolutely.  
 **\<rottensalty07>** And if it's for Kovri and anonimal, even more so.  
-**\<endogenic>** anybody want to help translate mymonero?  
+**\<endogenic>** anybody want to help translate mybyterub?  
 **\<rottensalty07>** Okay, I'll join there - I just need to head out for an hour or so. Will catch up with you there later on.  
 **\<ErCiccione>** i'm still making some tests with the different projects we use m2049r, but as soon as that is done we should try out that plugin we thought about  
 **\<xmrmatterbridge> \<rehrar>** Oy, another meeting.  
@@ -118,13 +118,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<cryptochangement>** endogenic: sure!  
 **\<ErCiccione>** rottensalty07: no problem, see you there :)  
 **\<m2049r[m]>** ErCiccione: sure!  
-**\<ErCiccione>** endogenic: we have to find some time to talk about the translations of mymonero  
+**\<ErCiccione>** endogenic: we have to find some time to talk about the translations of mybyterub  
 **\<sgp\_>** Anything else on this topic?  
 **\<msvb-lab>** Is rehrar here or is he not here?  
 **\<ErCiccione>** this week is a bit problematic for me since i'm travelling, but from next week i'll be around stable as always  
 **\<xmrmatterbridge> \<rehrar>** I am here for a time.  
 **\<sgp\_>** b. PR, O&E workgroup  
-**\<msvb-lab>** rehrar: I see, switch to #monero so that we're not plugging the meeting channel.  
+**\<msvb-lab>** rehrar: I see, switch to #byterub so that we're not plugging the meeting channel.  
 **\<ErCiccione>** i'm done. if nobody have any other question we can go on sgp\_  
 **\<sgp\_>** xmrhaelan could not make it, but he asked me to share some updates:  
 **\<sgp\_>** 1) Nextcloud is up and we’re beginning to build documents to support the effort.  
@@ -132,19 +132,19 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 3) We’re now pushing content to Blockfolio’s 560,000 users who have XMR on their watch lists or portfolios  
 **\<sgp\_>** I can do my best to answer questions if people have them  
 **\<xmrmatterbridge> \<anonimal>** what sort of content?  
-**\<sgp\_>** anonimal it is currently going to be limited to content that makes its way on the getmonero website iirc  
+**\<sgp\_>** anonimal it is currently going to be limited to content that makes its way on the getbyterub website iirc  
 **\<sgp\_>** We are still dscussing the best way to use the platform, who has access, etc  
 **\<sgp\_>** I recommend joining the Telegram and/or Wire groups if you are interested in participating in the conversation  
 **\<sgp\_>** Any other questions?  
 **\<xmrmatterbridge> \<rehrar>** I think we all know about Telegram though....  
 **\<sgp\_>** c. Malware response workgroup  
-**\<sgp\_>** The malware response workgroup is still active, and we hope to have a portion of the getmonero site up soon.  
-**\<xmrmatterbridge> \<anonimal>** limiting content to getmonero creates project centralization. i won't get into that though because i already opened a meta issue. it's still good to see awareness being raised though.  
+**\<sgp\_>** The malware response workgroup is still active, and we hope to have a portion of the getbyterub site up soon.  
+**\<xmrmatterbridge> \<anonimal>** limiting content to getbyterub creates project centralization. i won't get into that though because i already opened a meta issue. it's still good to see awareness being raised though.  
 **\<sgp\_>** I have written basic overview materials on in-broswer mining, system mining, and ransomware  
 **\<sgp\_>** We hope to incorporate a simple support system and reach out to other security influencers to help us write more specific, helpful guides  
 **\<sgp\_>** Any questions?  
 **\<m2049r[m]>** Url of your work?  
-**\<sgp\_>** Currently not on getmonero yet (though WIP). See Taiga for the basic text: https://taiga.getmonero.org/project/sgp-monero-malware-response-workgroup/wiki/home  
+**\<sgp\_>** Currently not on getbyterub yet (though WIP). See Taiga for the basic text: https://taiga.getbyterub.org/project/sgp-byterub-malware-response-workgroup/wiki/home  
 **\<sgp\_>** See all the pages that end in "help"  
 **\<m2049r[m]>** Thx  
 **\<sgp\_>** Do any other workgroups have a report?  
@@ -159,16 +159,16 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<anonimal>** ty  
 **\<CorkLander>** Hey all. (Slack integration = bad)  
 **\<sgp\_>** anonimal would like to see some more coordinated meeting schedules. He had an idea where we could make all the major meetings in a row  
-**\<xmrmatterbridge> \<anonimal>** a block of time, single date, and potentially held in #monero-meetings  
+**\<xmrmatterbridge> \<anonimal>** a block of time, single date, and potentially held in #byterub-meetings  
 **\<xmrmatterbridge> \<cryptochangements>** Interesting. I remember last time this was discussed people wanted it on a different day from the dev meetings because they didn't want to go to both meetings in a row  
 **\<xmrmatterbridge> \<anonimal>** with more frequently needed meetings running at their own pace of course  
 **\<xmrmatterbridge> \<anonimal>** when was this and who is they?  
-**\<sgp\_>** anonimal have you discussed this with the Monero development team?  
+**\<sgp\_>** anonimal have you discussed this with the ByteRub development team?  
 **\<xmrmatterbridge> \<cryptochangements>** To be fair, it was probably almost a year ago  
 **\<xmrmatterbridge> \<anonimal>** no. we would work on top of their schedule anyway.  
 **\<xmrmatterbridge> \<rehrar>** I don't think this would be easily doable. Especially since some meetings might run long depending on the amount of stuff there is to discuss.  
 **\<xmrmatterbridge> \<anonimal>** hypothetically  
-**\<ErCiccione>** is #monero-meetings really necessary? why not just #monero-community anonimal? at the end this channel is usually not very busy  
+**\<ErCiccione>** is #byterub-meetings really necessary? why not just #byterub-community anonimal? at the end this channel is usually not very busy  
 **\<xmrmatterbridge> \<rehrar>** Like this past Defcon meeting.  
 **\<xmrmatterbridge> \<cryptochangements>** I think it was mostly ArticMine who didn't want both on the same day  
 **\<xmrmatterbridge> \<cryptochangements>** or same week  
@@ -179,7 +179,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<anonimal>** i said hypothetically work on top of their schedule, rehrar  
 **\<sgp\_>** hyc said nearly a year ago that "too many meetings in one day would kill me"  
 **\<xmrmatterbridge> \<rehrar>** I am willing to give up a few hours scattered across various weekends. But not sure about a ton of hours every other week. Just me though.  
-**\<sgp\_>** https://www.reddit.com/r/MoneroCommunity/wiki/82-2017-07-02  
+**\<sgp\_>** https://www.reddit.com/r/ByteRubCommunity/wiki/82-2017-07-02  
 **\<xmrmatterbridge> \<anonimal>** but is hyc attending all meetings sgp? i cant remember the last time i saw him in kovri or a kovri meeting  
 **\<sgp\_>** I don't have that info easily available  
 **\<xmrmatterbridge> \<rehrar>** We are becoming just shells of our former selves.  
@@ -189,7 +189,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<rehrar>** Sgp as this is open source and most people have day jobs, a weekend day will usually always be the best.  
 **\<sgp\_>** That's my suspicion, but I'm okay asking for comments again to assess general availability  
 **\<xmrmatterbridge> \<rehrar>** Maybe a poll then for general availability?  
-**\<ErCiccione>** the monero-hardware workgroup used a good system to decide dates of the meeting  
+**\<ErCiccione>** the byterub-hardware workgroup used a good system to decide dates of the meeting  
 **\<sgp\_>** can you elaborate ErCiccione?  
 **\<xmrmatterbridge> \<anonimal>** rehrar you seem to be available whenever you say you're available so that makes you flexible  
 **\<xmrmatterbridge> \<anonimal>** \*unavailable  
@@ -231,7 +231,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** So for actionable items, I will create a poll in the next week using Doodle (or similar) to get community feedback for the best meeting times  
 **\<xmrmatterbridge> \<anonimal>** hypothetical people get least priority.  
 **\<sgp\_>** Priority will be given to members who are highly active in workgroups  
-**\<serhack>** +1 for anonimal. Monero is being used by the entire world (I hope!), making everyone happy is almost impossible  
+**\<serhack>** +1 for anonimal. ByteRub is being used by the entire world (I hope!), making everyone happy is almost impossible  
 **\<ErCiccione>** that sound reasonable  
 **\<sgp\_>** All right. We do not have time for "open ideas time" today, but people can always discuss after the meeting  
 **\<xmrmatterbridge> \<anonimal>** i'll follow the workgroups' time decision.  
@@ -241,7 +241,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 10. Conclusion  
 **\<xmrmatterbridge> \<cryptochangements>** Ok  
 **\<xmrmatterbridge> \<cryptochangements>** Bye all  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<xmrmatterbridge> \<anonimal>** thanks all  
 **\<serhack>** Bye!  
 **\<oneiric\_>** bye  

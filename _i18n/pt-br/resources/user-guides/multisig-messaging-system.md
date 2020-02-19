@@ -4,9 +4,9 @@
 
 ## Introduction
 
-This manual describes the *Multisig Messaging System*, abbreviated as *MMS*. It's a system that aims to **simplify multisig transactions** for Monero and similar CrypoNote-based cryptocurrencies by making it easy to exchange info like key sets and sync data between wallets and by offering some "workflow support" guiding you through the various steps.
+This manual describes the *Multisig Messaging System*, abbreviated as *MMS*. It's a system that aims to **simplify multisig transactions** for ByteRub and similar CrypoNote-based cryptocurrencies by making it easy to exchange info like key sets and sync data between wallets and by offering some "workflow support" guiding you through the various steps.
 
-The MMS so far presents itself to the user as a set of new commands in the CLI wallet. This is not surprising, as currently the CLI wallet is the only way to do multisig transactions interactively anyway. Hopefully this will be extended in the future; the MMS was designed with other wallets like e.g. the Monero GUI wallet in mind.
+The MMS so far presents itself to the user as a set of new commands in the CLI wallet. This is not surprising, as currently the CLI wallet is the only way to do multisig transactions interactively anyway. Hopefully this will be extended in the future; the MMS was designed with other wallets like e.g. the ByteRub GUI wallet in mind.
 
 This manual has some tutorial-like aspects and is intended to be read in sequential fashion, best without skipping any chapter before chapter *The Commands in Detail*.
 
@@ -14,11 +14,11 @@ If you have high requirements regarding security and are not sure whether using 
 
 This first version of the manual was written around year-end 2018 by René Brunner (*rbrunner7*), the original author of the MMS.
 
-## Monero Multisig in a Nutshell
+## ByteRub Multisig in a Nutshell
 
-Probably it will be pretty hard to understand the MMS without at least a basic grasp of how Monero multisig transactions work in principle. Here a short overview together with info about the *terminology* that this manual uses; for more details and more *technical* explanations you will have to look elsewhere.
+Probably it will be pretty hard to understand the MMS without at least a basic grasp of how ByteRub multisig transactions work in principle. Here a short overview together with info about the *terminology* that this manual uses; for more details and more *technical* explanations you will have to look elsewhere.
 
-*Multisig* means that a transaction needs multiple signatures before it can be submitted to the Monero network and executed. Instead of one Monero wallet creating, signing, and submitting transactions all on its own, you will have a whole group of wallets and collaboration between them to transact.
+*Multisig* means that a transaction needs multiple signatures before it can be submitted to the ByteRub network and executed. Instead of one ByteRub wallet creating, signing, and submitting transactions all on its own, you will have a whole group of wallets and collaboration between them to transact.
 
 In this manual those wallets, or if you prefer, the people controlling them, are called *authorized signers*. Depending on the type of multisig used, not **all** authorized signers need to sign before a transaction becomes valid, but only a subset of them. The corresponding number (which is equal to or smaller than the number of authorized signers) is called *required signers*.
 
@@ -30,11 +30,11 @@ For technically "simple" coins like Bitcoin and its forks doing multisig transac
 * Fund the multisig wallets / the multisig address so there is something to spend in the first place
 * Do as many multisig transactions as you like
 
-Monero adds one more type of step, necessary for internal bookkeeping so to speak. Simply told all the mechanisms that make Monero transactions truly private complicate things and lead to a necessity to exchange information between wallets to enable them to correctly process transactions, both incoming and outgoing.
+ByteRub adds one more type of step, necessary for internal bookkeeping so to speak. Simply told all the mechanisms that make ByteRub transactions truly private complicate things and lead to a necessity to exchange information between wallets to enable them to correctly process transactions, both incoming and outgoing.
 
 The MMS uses the term *syncing* for the process to making wallets ready to transact again after sending or receiving transactions, and *multisig sync data* or simply *sync data* for the information that has to be exchanged to achieve that.
 
-So the steps for Monero multisig look like that:
+So the steps for ByteRub multisig look like that:
 
 * Configure the multisig wallets and establish the multisig address
 * Fund the multisig wallets / the multisig address so there is something to spend in the first place
@@ -57,9 +57,9 @@ The MMS basically has 3 parts:
 
 [PyBitmessage](https://bitmessage.org/wiki/Main_Page) is currently the only supported program for message transport, the MMS won't "speak" to any other system. You can't use e-mail nor any other of the myriad of communication programs out there. If you don't like PyBitmessage or can't run it for any reason you won't be able to use the current version of the MMS.
 
-The author of the MMS hopes that you will give it a try: PyBitmessage is fully open source, is under continued development, has enough users to almost assure message transport at any time, and takes privacy very seriously - just like Monero.
+The author of the MMS hopes that you will give it a try: PyBitmessage is fully open source, is under continued development, has enough users to almost assure message transport at any time, and takes privacy very seriously - just like ByteRub.
 
-Hopefully a future MMS will build on Monero's "native" private communication system, [Kovri](https://kovri.io/), but we are probably still quite some time away from a Kovri release ready for broad use.
+Hopefully a future MMS will build on ByteRub's "native" private communication system, [Kovri](https://kovri.io/), but we are probably still quite some time away from a Kovri release ready for broad use.
 
 MMS communications should be **safe**: The Bitmessage system is considered safe as it's completely invisible who sends messages to whom, and all traffic is encrypted. For additional safety the MMS encrypts any message contents itself as well: Nobody except the receiver of an MMS message can decrypt and use its content, and the messages are signed, meaning the receiver can be sure they come from the right sender.
 
@@ -77,7 +77,7 @@ The contents of those messages are of course all those things that must be trans
 
 PyBitmessage is used for the actual message transport and thus plays the part of your e-mail server. Once configuration is done sending and receiving messages is fully automatic i.e. needs no manual intervention.
 
-You don't use e-mail addresses, but Monero addresses to tell where messages should go, and you only ever send messages to other authorized signers: E.g. with 2/3 multisig you only have 2 partners to send something to.
+You don't use e-mail addresses, but ByteRub addresses to tell where messages should go, and you only ever send messages to other authorized signers: E.g. with 2/3 multisig you only have 2 partners to send something to.
 
 Like with e-mail people don't have to be online at the same time for message transport to work: PyBitmessage will keep messages for up to 2 days, giving you time to fetch them.
 
@@ -87,23 +87,23 @@ If another signer tells you that a particular message did not arrive or was lost
 
 ### Signers and Messages
 
-So, where a "normal" Monero wallet without MMS simply told manages three types of data (addresses, accounts and transactions), the MMS adds two more: Signers and messages.
+So, where a "normal" ByteRub wallet without MMS simply told manages three types of data (addresses, accounts and transactions), the MMS adds two more: Signers and messages.
 
-The MMS manages, for each multisig wallet separately, a list of *authorized signers*. With 2/3 multisig that list has **three** entries. On a technical level, each entry represents a Monero wallet containing keys that can be used to sign multisig transactions. On a conceptual level it's easier to imagine a group of 3 people, i.e. yourself and 2 partners, as those "authorized signers". (Often there will be indeed 3 distinct people controlling the 3 wallets, but not always of course.)
+The MMS manages, for each multisig wallet separately, a list of *authorized signers*. With 2/3 multisig that list has **three** entries. On a technical level, each entry represents a ByteRub wallet containing keys that can be used to sign multisig transactions. On a conceptual level it's easier to imagine a group of 3 people, i.e. yourself and 2 partners, as those "authorized signers". (Often there will be indeed 3 distinct people controlling the 3 wallets, but not always of course.)
 
 The MMS also manages a single list of *messages* per wallet: All messages you send, plus all messages you receive. While the list of authorized signers is the same in all involved wallets, those messages of course differ. The more authorized signers there are to send you messages, and the longer you transact, the more messages will accumulate.
 
 ## Getting the MMS
 
-Right now, at the time of writing this manual (year-end 2018), the MMS is only available as part of the latest Monero code (`master` branch on Monero's [GitHub repository](https://github.com/byterubpay/monero)). To use it, you have to check out that source code and compile it yourself. Doing so is easiest on a Linux system.
+Right now, at the time of writing this manual (year-end 2018), the MMS is only available as part of the latest ByteRub code (`master` branch on ByteRub's [GitHub repository](https://github.com/byterubpay/monero)). To use it, you have to check out that source code and compile it yourself. Doing so is easiest on a Linux system.
 
-With the next hardfork in Spring 2019 the MMS will become an integral standard part of the Monero software: You install Monero, you have it.
+With the next hardfork in Spring 2019 the MMS will become an integral standard part of the ByteRub software: You install ByteRub, you have it.
 
-A word of caution: At the time of writing using the latest development Monero version does not lead to conflicts and complications with any regular Monero release software and downloaded blockchain on the same system, but that may change between now and the hardfork, especially near the hardfork.
+A word of caution: At the time of writing using the latest development ByteRub version does not lead to conflicts and complications with any regular ByteRub release software and downloaded blockchain on the same system, but that may change between now and the hardfork, especially near the hardfork.
 
 ## Installing and Configuring PyBitmessage
 
-Installing PyBitmessage is easy enough: You find links to downloads and install instructions from the [Bitmessage Wiki homepage](https://bitmessage.org/wiki/Main_Page). There are versions for all the major OS that Monero also supports: Linux, Windows, and macOS.
+Installing PyBitmessage is easy enough: You find links to downloads and install instructions from the [Bitmessage Wiki homepage](https://bitmessage.org/wiki/Main_Page). There are versions for all the major OS that ByteRub also supports: Linux, Windows, and macOS.
 
 After installing run it, configure a Bitmessage address for you and note it, as you will later need it to configure your multisig wallet.
 
@@ -136,7 +136,7 @@ There is only **one** new command in the CLI wallet that gives access to the MMS
 
     init        Initialize and configure the MMS
     info        Display current MMS configuration
-    signer      Define a signer by giving a single-word label, a transport address, and a Monero address, or list all defined signers
+    signer      Define a signer by giving a single-word label, a transport address, and a ByteRub address, or list all defined signers
     list        List all messages
     next        Evaluate the next possible multisig-related action(s) according to wallet state, and execute or offer for choice
     sync        Force generation of multisig sync data regardless of wallet state, to recover from special situations like "stale data" errors
@@ -162,11 +162,11 @@ You get the list of commands by issuing `help mms`, and help for a particular su
 
 First for better understanding some basic facts about addressing and referring to signers (or their wallets respectively) in the MMS:
 
-If you create a new wallet it gets (of course) its own, unique public Monero address. If you later configure the wallet for multisig, the wallet **changes** its public address to the common multisig address that you share with all the other authorized signers.
+If you create a new wallet it gets (of course) its own, unique public ByteRub address. If you later configure the wallet for multisig, the wallet **changes** its public address to the common multisig address that you share with all the other authorized signers.
 
-The MMS uses the first, "original" public Monero address over the whole wallet lifetime for addressing, before **and** after "going multisig". It may be a little confusing that a wallet should have **two** public addresses somehow, but once you got the original address into your signer configuration you can more or less forget about it.
+The MMS uses the first, "original" public ByteRub address over the whole wallet lifetime for addressing, before **and** after "going multisig". It may be a little confusing that a wallet should have **two** public addresses somehow, but once you got the original address into your signer configuration you can more or less forget about it.
 
-The MMS uses *labels* that allow you to name yourself and the other signers, and that the MMS commands use when referring to signers. (Using Monero addresses or Bitmessage addresses in such commands would be quite cumbersome.)
+The MMS uses *labels* that allow you to name yourself and the other signers, and that the MMS commands use when referring to signers. (Using ByteRub addresses or Bitmessage addresses in such commands would be quite cumbersome.)
 
 Labels must be one word, and they must be unique within a single wallet. The example later on in this manual uses the labels `alice` and `bob` for a case of 2/2 multisig.
 
@@ -210,7 +210,7 @@ About each signer the MMS needs to know three things:
 
 * The one-word *label* that you will use to refer to that signer
 * The *transport address* which currently means their Bitmessage address as long as this is the only supported message transport system
-* The *Monero address* i.e. the "original" Monero address of their wallet
+* The *ByteRub address* i.e. the "original" ByteRub address of their wallet
 
 (See also above chapter *Addresses and Labels*.)
 
@@ -219,14 +219,14 @@ You don't have to create signers; after the `mms init` command they are already 
 After the above sample `init` command the list of signers looks like that:
 
      # Label                Transport Address
-       Auto-Config Token    Monero Address
+       Auto-Config Token    ByteRub Address
      1 alice                BM-2cUVEbbb3H6ojddYQziK3RafJ5GPcFQv7e
                             A1VRwm8HT8CgA5bSULDZKggR9Enc9enhWHNJuDXDK4wDD6Rwha3W7UG5Wu3YGwARTXdPw1AvFSzoNPBdiKfpEYEQP1b5cCH
 
      2 <not set>            <not set>
                             <not set>
 
-Note that signer #1 is always "me" i.e. your own label, transport address and Monero address. So in Alice's signer list #1 will be Alice and #2 will be Bob, while in Bob's wallet it will be exactly the other way round.
+Note that signer #1 is always "me" i.e. your own label, transport address and ByteRub address. So in Alice's signer list #1 will be Alice and #2 will be Bob, while in Bob's wallet it will be exactly the other way round.
 
 There are **three ways** to complete signer information: You can enter it manually, or you can use the auto-config mechanism that the MMS offers, which has a second, "semi-automatic" variant. With 2/2 there is hardly a difference in effort, but with higher numbers of signers auto-config is easier and more reliable. In any case, one advantage of auto-config is a secure transport of addresses because PyBitmessage is used.
 
@@ -259,7 +259,7 @@ You find a more detailed explanation of this second danger in chapter *Security*
 Alice's complete signer list looks like this:
 
      # Label                Transport Address
-       Auto-Config Token    Monero Address
+       Auto-Config Token    ByteRub Address
      1 alice                BM-2cUVEbbb3H6ojddYQziK3RafJ5GPcFQv7e
                             A1VRwm8HT8CgA5bSULDZKggR9Enc9enhWHNJuDXDK4wDD6Rwha3W7UG5Wu3YGwARTXdPw1AvFSzoNPBdiKfpEYEQP1b5cCH
 
@@ -270,7 +270,7 @@ Alice's complete signer list looks like this:
 
 MMS auto-config is based on so-called *auto-config tokens*. Such tokens are always 11 characters long, the fixed string "mms" followed by 8 hexadecimal digits. Examples for such tokens are `mms561832e3eb` and `mms62cb2b87e2`.
 
-The basic trick: Unlike Bitmessage addresses and Monero addresses those tokens are short enough to type them easily and e.g. use reasonably safe smartphone messenger apps or SMS to transmit them, or dictate them over the phone, again not perfectly safe, but still much safer than plain e-mail or IRC.
+The basic trick: Unlike Bitmessage addresses and ByteRub addresses those tokens are short enough to type them easily and e.g. use reasonably safe smartphone messenger apps or SMS to transmit them, or dictate them over the phone, again not perfectly safe, but still much safer than plain e-mail or IRC.
 
 The workflow is as follows - it's simpler than it looks at first sight, go once through it in practice and it makes sense:
 
@@ -430,7 +430,7 @@ Yet another `mms next` does result in a choice for Bob, because he can either su
     2: Send the tx for submission to alice: BM-2cUVEbbb3H6ojddYQziK3RafJ5GPcFQv7e
     Choice:
 
-As already mentioned elsewhere after the transaction is submitted to the network and processed you have to sync the wallets before you can do another transfer. Also note that regardless of any syncing needs it's a restriction of Monero multisig that you must do **strictly one transaction after the other**. For example you can't put away fully-signed transactions for submitting them later and already start a new one to submit that first. (For some such scenarious the MMS is not smart enough to prevent you from trying; see chapter *Troubleshooting* about how you can recover by deleting messages containing unprocessable transactions and forcing sync.)
+As already mentioned elsewhere after the transaction is submitted to the network and processed you have to sync the wallets before you can do another transfer. Also note that regardless of any syncing needs it's a restriction of ByteRub multisig that you must do **strictly one transaction after the other**. For example you can't put away fully-signed transactions for submitting them later and already start a new one to submit that first. (For some such scenarious the MMS is not smart enough to prevent you from trying; see chapter *Troubleshooting* about how you can recover by deleting messages containing unprocessable transactions and forcing sync.)
 
 As already mentioned you can keep out your transaction data out of the `.mms` file in the form of stored message content and use the normal `transfer` command, but then it's of course your problem to send the partially signed transaction to the next signer. Note also that the MMS does not support cold signing; that would be another reason to directly use `transfer` instead of `mms transfer`. You can, however, export transaction data contained in a message with the `mms export` command.
 
@@ -446,7 +446,7 @@ Example:
 
 Prepare a wallet for use with the MMS. You can later change your own label and your own transport address using `mms signer`, but the two numbers, required signers and authorized signers, cannot be changed without issuing `mms init` again which will erase all signer information and all messages. The command will lead to the creation of an additional file with an extension of `.mms` for the wallet.
 
-For wallets created in "pre-MMS times" (before the MMS code was included in Monero) it's only possible to initialize the MMS if the wallet is not yet multisig. For wallets created with Monero code already present it's possible to initialize even with the wallet multisig already: When the wallet switched to multisig the "original" Monero address needed by the MMS was saved before it got replaced by the common multisig address.
+For wallets created in "pre-MMS times" (before the MMS code was included in ByteRub) it's only possible to initialize the MMS if the wallet is not yet multisig. For wallets created with ByteRub code already present it's possible to initialize even with the wallet multisig already: When the wallet switched to multisig the "original" ByteRub address needed by the MMS was saved before it got replaced by the common multisig address.
 
 There is no command to deactivate the MMS. If you no longer want to use it for a particular wallet, just delete the `.mms` file or at least move it out of the way.
 
@@ -468,7 +468,7 @@ Examples:
 
 Without argument, show the list of signers and their info, as far as known. Things never set and therefore still unknown are displayed as `<not set>`. Note that you don't have to and can't create signers: After `mms init` they already all "exist", although without any information set, with the exception of signer #1 which is always "me" i.e. the current wallet itself. Their number is fixed, it's the number of authorized signers as specified with `mms init`.
 
-With at least a number and a label as argument, set information about a signer, or change any information already set. You can always freely change labels and transport addresses, but for technical reasons Monero addresses can only be changed as long as there are no messages. In the worst case do `mms init` again and start from scratch.
+With at least a number and a label as argument, set information about a signer, or change any information already set. You can always freely change labels and transport addresses, but for technical reasons ByteRub addresses can only be changed as long as there are no messages. In the worst case do `mms init` again and start from scratch.
 
 Numbers start with 1 and go up to the number of authorized signers.
 
@@ -499,7 +499,7 @@ The complete list of message types:
 * `additional_key_set`: A key set for an additional key exchange round, after the original one, as necessary for non-symmetric multisig types like e.g. 2/3
 * `multisig_sync_data`: Data that wallets must exchange with each other to correctly and completely interpret incoming and outgoing transactions; see also chapter *Syncing Wallets*
 * `partially_signed_tx`: A transaction that has not yet the necessary number of signatures (= number of required signers) to commit it
-* `fully_signed_tx`: A transaction with a full set of required signatures, ready for submission to the Monero network; any signer could submit this
+* `fully_signed_tx`: A transaction with a full set of required signatures, ready for submission to the ByteRub network; any signer could submit this
 * `note`: A message containing a note; see command `mms note`
 * `signer_config`: Full information about all signers, to be sent as part of an auto-config process or as a result of a `mms send_signer_config` command
 * `auto_config_data`: Address data from a signer to send back to the auto-config manager after entering a token with `mms auto_config`
@@ -510,11 +510,11 @@ The complete list of message types:
 
 *The* central and probably most useful command of the MMS: Check the state of the wallet plus the received and sent messages and their message state, and decide which action is the next one to execute, and then actually execute it.
 
-When in doubt, just issue a `mms next` command; the MMS will either execute the proper next command according to Monero's "multisig workflow rules", or tell you what it's waiting for before it can proceed. For "dangerous" things you can count on confirming prompts before the real action happens. Worst case a `mms next` can execute something earlier than you might have intended, but otherwise can hardly do any harm.
+When in doubt, just issue a `mms next` command; the MMS will either execute the proper next command according to ByteRub's "multisig workflow rules", or tell you what it's waiting for before it can proceed. For "dangerous" things you can count on confirming prompts before the real action happens. Worst case a `mms next` can execute something earlier than you might have intended, but otherwise can hardly do any harm.
 
 Note how for many actions there is **no** dedicated command, and `mms next` the **only** way to move things forward. Don't look e.g. for commands to selectively process certain messages: If it's time to process some received messages in state *waiting*, the command will do so.
 
-Interestingly and maybe surprisingly, in Monero it's **always** clear what has to happen next regarding multisig, except in the case of partially signed transactions where you can decide **which** signer sending them to, and in the case of fully signed transactions that you can submit yourself to the network or send them to another signer for submission by them.
+Interestingly and maybe surprisingly, in ByteRub it's **always** clear what has to happen next regarding multisig, except in the case of partially signed transactions where you can decide **which** signer sending them to, and in the case of fully signed transactions that you can submit yourself to the network or send them to another signer for submission by them.
 
 The special command form `mms next sync` is for cases where sync data is waiting that the MMS on its own would not process because it "thinks" the wallet is in a state needing no new sync - which might be wrong. More about this in chapter *Troubleshooting*.
 
@@ -586,7 +586,7 @@ Examples:
 
 Without parameters display any notes not yet read. With a label and further text as parameters send the text as a message of type `note` to the signer with the label.
 
-Sending notes to each other directly from one Monero wallet to the next might be a fun way to avoid having to use additional communication channels for talking to signers.
+Sending notes to each other directly from one ByteRub wallet to the next might be a fun way to avoid having to use additional communication channels for talking to signers.
 
 If you want to read or re-read a particular note use the `mms show` command and look at the last line with the message content, in this case the text of the note.
 
@@ -646,7 +646,7 @@ Example:
 
 Process an auto-config token that you received from the "config manager" during an auto-config process through some reasonably secure communication channel outside of the MMS, e.g. SMS, smartphone messenger app, encrypted e-mail or phone call. Each signer gets their own distinct token. Treat any MMS auto-config tokens as confidential information.
 
-This will result in a message of type `auto-config data` to send your Bitmessage address and your Monero address to the manager. (Transmission of that message is already as secure as any later MMS message, as long as nobody else knows your token.)
+This will result in a message of type `auto-config data` to send your Bitmessage address and your ByteRub address to the manager. (Transmission of that message is already as secure as any later MMS message, as long as nobody else knows your token.)
 
 There is some tolerance in the way the MMS interprets entered tokens (e.g. they are not case-sensitive), and any typo will result in an invalid token with a high degree of probability and will be detected.
 
@@ -668,7 +668,7 @@ Deleted tokens cannot be recoverd or reconstructed, as they are random. If you a
 
 Manually send your complete signer configuration to all other signers as messages of type `signer config`. After receiving your message they will be able to replace their signer configuration by yours with a `mms next` command. There will be a security prompt before that happens.
 
-Each signer will get their label overwritten with the label you entered for them, but their own Bitmessage address and Monero address will be preserved.
+Each signer will get their label overwritten with the label you entered for them, but their own Bitmessage address and ByteRub address will be preserved.
 
 This command and its capability to "broadcast" a particular signer configuration can serve as a building block for something like a "semi-auto-config". See also chapter *Sending Signer Configuration*. Sending out a complete signer configuration is also part of fully-automatic config, although without needing a separate `mms send_signer_config` command.
 
@@ -676,7 +676,7 @@ This command and its capability to "broadcast" a particular signer configuration
 
 The MMS was carefully designed and implemented as a system offering a high degree of security.
 
-Which was not particularly easy: Monero multisig itself is already a multi-faceted if not to say complex process and thus not trivial to secure, and the MMS is a powerful if not to say complex system on top of that, so it's no wonder that there are various possible security issues.
+Which was not particularly easy: ByteRub multisig itself is already a multi-faceted if not to say complex process and thus not trivial to secure, and the MMS is a powerful if not to say complex system on top of that, so it's no wonder that there are various possible security issues.
 
 Note that this the very **first** version of the MMS, and it may well be that people using it in different circumstances will uncover new security problems beyond those mentioned here, or let some of them appear in a different light. There is reasonable hope however that the MMS does not have any deep and basically "unrepairable" conceptual flaws.
 
@@ -684,21 +684,21 @@ TL;DR: If in doubt, start to use the MMS only after you have configured your mul
 
 ### Use of Encryption and Signatures
 
-All message content is encrypted either using the Monero viewkeys of the signers' Monero wallets, or with randomly generated keys of the same strength in the case of auto-config message contents. This may seem a little excessive given that PyBitmessage encrypts all messages itself already, but first PyBitmessage is a third-party software that you may not want to trust, and second with this feature the MMS is already prepared to some degree for less secure communication systems that don't encrypt themselves.
+All message content is encrypted either using the ByteRub viewkeys of the signers' ByteRub wallets, or with randomly generated keys of the same strength in the case of auto-config message contents. This may seem a little excessive given that PyBitmessage encrypts all messages itself already, but first PyBitmessage is a third-party software that you may not want to trust, and second with this feature the MMS is already prepared to some degree for less secure communication systems that don't encrypt themselves.
 
-Messages are signed by the sender using their view private key. This is used for authentication: The MMS will reject a message from a signer that does not carry a valid signature that only that signer, and nobody else, could have made. Furthermore, a hash secures the message content against any changes. Lastly only messages from signers are accepted: A message from a Monero address that is not listed in the signer configuration gets rejected, even if it carries a valid signature.
+Messages are signed by the sender using their view private key. This is used for authentication: The MMS will reject a message from a signer that does not carry a valid signature that only that signer, and nobody else, could have made. Furthermore, a hash secures the message content against any changes. Lastly only messages from signers are accepted: A message from a ByteRub address that is not listed in the signer configuration gets rejected, even if it carries a valid signature.
 
 The viewkey is also used to encrypt the content of the `.mms` file that contains signer configuration and all sent and received messages.
 
 Still, regarding data transmission security requirements one should probably stay realistic: Of course you don't want the various data packets that get shuttled back and forth between the signers' wallets to get into the wrong hands, but it would not be easy to cause real harm for an attacker holding some of that data. After all, the whole point of multisig is that only a group of people **cooperating** can sign off and submit a transaction. An attacker that gets hold of a partially signed transaction won't be able to do much with it.
 
-(An attacker eavesdropping on **all communication** from the very start probably could, if data was not encrypted, collect all keys and build a fully working Monero "single-sig" wallet for the multisig address and steal coins, but that's a pretty drastic scenario, and data sent by the MMS **is** encrypted.)
+(An attacker eavesdropping on **all communication** from the very start probably could, if data was not encrypted, collect all keys and build a fully working ByteRub "single-sig" wallet for the multisig address and steal coins, but that's a pretty drastic scenario, and data sent by the MMS **is** encrypted.)
 
 ### Communication MMS to PyBitmessage
 
 Communication between the MMS and PyBitmessage is, unfortunately, not encrypted. Here, HTTP is used, not its encrypted counterpart HTTPS. Message content is of course encrypted **before** the MMS transmits a message to PyBitmessage, and any content changes would be detected when receiving messages, but somebody listening there could learn things from the "metadata": Who sends what to whom at which point in time.
 
-As long as your Monero wallet with the MMS and PyBitmessage run on the same machine, that's not a big danger in itself, because anybody who can listen on such strictly local communication `localhost` to `localhost` already sits inside your computer, in which case you have probably lost anyway, with the trojan listening to the traffic between MMS and PyBitmessage being the least of your worries.
+As long as your ByteRub wallet with the MMS and PyBitmessage run on the same machine, that's not a big danger in itself, because anybody who can listen on such strictly local communication `localhost` to `localhost` already sits inside your computer, in which case you have probably lost anyway, with the trojan listening to the traffic between MMS and PyBitmessage being the least of your worries.
 
 But because of this it's not a good idea to set up a PyBitmessage instance reachable over the Internet, as some kind of "public node".
 
@@ -714,7 +714,7 @@ In this *escrow* situation you really want **three** distinct persons in play. I
 
 How big this danger of impersonation is depends on how secure the initial exchange of key sets is at the very beginning of the whole process, when configuring the wallets and finally "going multisig": If you can assure that only the right people get the right key sets, and nobody can pose somehow as somebody else, everything is alright. If not, you may loose.
 
-If you use the full capabilities of the MMS you don't use it only to transact, but already before that, to exchange key sets between all signers. Especially for higher forms of multisig like 2/4 with multiple key exchange rounds this is very helpful and less error-prone than some manual process. So, the task to prevent impersonation shifts from securing the exchange of keys to securely setting up signer addresses in the MMS: If Bob can somehow trick Alice into accepting one of **his** Monero and Bitmessage addresses in stead of those of Trent, he has won.
+If you use the full capabilities of the MMS you don't use it only to transact, but already before that, to exchange key sets between all signers. Especially for higher forms of multisig like 2/4 with multiple key exchange rounds this is very helpful and less error-prone than some manual process. So, the task to prevent impersonation shifts from securing the exchange of keys to securely setting up signer addresses in the MMS: If Bob can somehow trick Alice into accepting one of **his** ByteRub and Bitmessage addresses in stead of those of Trent, he has won.
 
 The three methods of setting up signer addresses that the MMS supports, manually configuring signers, auto-config and the "semi-automatic" sending of completed signer information, all have different risks associated with them regarding impersonation. Check the respective chapters *Manually Configuring Signers*, *Auto-Config* and *Sending Signer Information* for some more info about this.
 
@@ -734,7 +734,7 @@ The second way is an attempt to deceive with labels that are sent through `mms s
 
 ### Solving Syncing Troubles
 
-As explained in the chapter *Syncing Wallets* Monero multisig requires the exchange of some data between wallets after sending as well as receiving transactions, called *multisig sync data* in the MMS.
+As explained in the chapter *Syncing Wallets* ByteRub multisig requires the exchange of some data between wallets after sending as well as receiving transactions, called *multisig sync data* in the MMS.
 
 Sometimes things get out of sync somehow. There are four possible signs that this may have happened:
 
@@ -790,7 +790,7 @@ With one more argument you can change Bitmessage addresses if needed:
 
     mms member 2 bob BM-2cSrgmut9AD6bdU8b8GXd36iUYDjCS9xJb
 
-You can even change Monero addresses in the same way (with the exception of your own of course), but with a limitation, only as long as there are no received messages. As soon as wallets are multisig it does not make sense anymore to change any Monero addresses anymore anyway.
+You can even change ByteRub addresses in the same way (with the exception of your own of course), but with a limitation, only as long as there are no received messages. As soon as wallets are multisig it does not make sense anymore to change any ByteRub addresses anymore anyway.
 
 ### Starting from Scratch
 

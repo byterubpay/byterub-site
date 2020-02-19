@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-06-03
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-06-03
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -23,7 +23,7 @@ author: el00ruobuob / sarang
 **\<sarang>** yo  
 **\<suraeNoether>** needmoney90: welcome  
 **\<needmoney90>** I dont have much to say, but ill watch intently  
-**\<sarang>** CLSAG is also available, currently in a monero-site MR: https://repo.getmonero.org/byterubpay/monero-site/merge\_requests/1080  
+**\<sarang>** CLSAG is also available, currently in a byterub-site MR: https://repo.getbyterub.org/byterubpay/byterub-site/merge\_requests/1080  
 **\<sarang>** It will be submitted to IACR once suraeNoether gives it one last read-through  
 **\<wow-discord>** \<Crappyrules Ⓤ> lurking intensifies  
 **\<suraeNoether>** ^ i'm reading through this sucker one more time before we submit to IACR, i'll be done later this afternoon  
@@ -36,7 +36,7 @@ author: el00ruobuob / sarang
 **\<sarang>** suraeNoether and I had been looking over early versions of it, courtesy of the authors  
 **\<sarang>** It's a very clever construction, but note that the batching numbers are incorrect  
 **\<sarang>** I'm told those will be updated in a later revision  
-**\<suraeNoether>** I spent this weekend on real\_or\_random et al's omniring paper, which is really elegant, imo. i'm also reading more about ringct3.0, lelantus, and spartan. sarang and i have our eyes on a comparison/state-of-the-art paper describing these different approaches and looking at concrete impacts on the monero chain if we upgrade protocols  
+**\<suraeNoether>** I spent this weekend on real\_or\_random et al's omniring paper, which is really elegant, imo. i'm also reading more about ringct3.0, lelantus, and spartan. sarang and i have our eyes on a comparison/state-of-the-art paper describing these different approaches and looking at concrete impacts on the byterub chain if we upgrade protocols  
 **\<Isthmus>** Hey, I’m intermittently here  
 **\<suraeNoether>** neat, while we have you, do you want to jump in on the round table and describe what you've been working on?  
 **\<sarang>** Yes, I've begun running the numbers we need for Lelantus, using my toy implementation of it  
@@ -58,7 +58,7 @@ author: el00ruobuob / sarang
 **\<sarang>** it's probably not necessary to do a full implementation of Omniring to assess its complexity  
 **\<sarang>** For Lelantus it was, since many building blocks were unspecified  
 **\<sarang>** e.g. signatures  
-**\<sarang>** Oh, another note... my research report for the previous month is available: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/34#note\_6373  
+**\<sarang>** Oh, another note... my research report for the previous month is available: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/34#note\_6373  
 **\<suraeNoether>** I'm still drafting my research report, and I apologize to the community for the delay. Now that DLSAG and CLSAG are both "out the door," i'm summarizing my work immediately  
 **\<sarang>** So yeah, a lot of joint work between suraeNoether and me, for getting CLSAG and DLSAG out the door  
 **\<sarang>** and assessing these new sublinear proposals  
@@ -90,7 +90,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** so it'd be a ground-up protocol design  
 **\<sarang>** Spartan is only a proving system, right  
 **\<suraeNoether>** omniring surprised me about how simple it was, considering the heft of the paper, but most of it lies in new rigorous definitions of security, etc  
-**\<sarang>** We do not have any kind of circuit-optimized Monero-specific transaction protocol at this time  
+**\<sarang>** We do not have any kind of circuit-optimized ByteRub-specific transaction protocol at this time  
 **\<sarang>** All of Lelantus, Omniring, and RCT3 provide a full transaction structure  
 **\<rehrar>** I have a question for MRL after current discussion ends  
 **\<sarang>** Sure, go ahead  
@@ -105,43 +105,43 @@ author: el00ruobuob / sarang
 **\<sarang>** Yes, it's a limitation for sure  
 **\<rehrar>** you need key images  
 **\<rehrar>** and I'm not aware of any tool that allows easy import/export of key images  
-**\<moneromooo>** monero-wallet-cli  
+**\<byterubmooo>** byterub-wallet-cli  
 **\<rehrar>** to make a REAL view key wallet  
-**\<rehrar>** moneromooo: for non-nerds  
+**\<rehrar>** byterubmooo: for non-nerds  
 **\<rehrar>** I'm talking about Small Business Man Billy who wants to show his books to his accountant  
 **\<rehrar>** I'm talking about Farmer Joe who needs to prove to the IRS something or other  
 **\<rehrar>** these guys aren't going to use CLI  
 **\<sarang>** So what you're asking for is a good user-friendly way to export the information that Billy's accountant can import to verify details?  
-**\<moneromooo>** They're not going to use Monero in the first place :)  
+**\<byterubmooo>** They're not going to use ByteRub in the first place :)  
 **\<rehrar>** now, as I said, this may just be a UX thing, and only a matter of time until someone makes it easy, similar to exa wallet multi sig thing today  
 **\<rehrar>** sarang: or if this is a limitation that must be adhered to period  
-**\<rehrar>** moneromooo: it's a catch 22 bro, one of the reasons they  may not use monero is because of stuff like this, but stuff like this doesn't get fixed because they won't use monero  
-**\<moneromooo>** Someone posted a way to make the view key also view outgoing txes IIRC. It's way down in the issues list in the monero repo.  
+**\<rehrar>** byterubmooo: it's a catch 22 bro, one of the reasons they  may not use byterub is because of stuff like this, but stuff like this doesn't get fixed because they won't use byterub  
+**\<byterubmooo>** Someone posted a way to make the view key also view outgoing txes IIRC. It's way down in the issues list in the byterub repo.  
 **\<sarang>** What limitation exactly?  
 **\<sarang>** The need for key images at all?  
 **\<sarang>** Or how convenient the software makes it to import/export?  
-**\<rehrar>** sarang: more like what moneromooo is saying  
+**\<rehrar>** sarang: more like what byterubmooo is saying  
 **\<sarang>** The key image requirement is currently a protocol limitation, for sure  
 **\<rehrar>** a way to make view key also viewing outgoing  
-**\<suraeNoether>** moneromooo: if there is a way to make the viewkey outgoing also, i haven't seen it and i'd love to. i've been thinking about it for awhile  
+**\<suraeNoether>** byterubmooo: if there is a way to make the viewkey outgoing also, i haven't seen it and i'd love to. i've been thinking about it for awhile  
 **\<rehrar>** without key images  
 **\<sarang>** Yes, that's been a discussion over time, but hasn't been brought up in a while  
-**\<sarang>** I recall seeing an idea (perhaps the one moneromooo is talking about)  
+**\<sarang>** I recall seeing an idea (perhaps the one byterubmooo is talking about)  
 **\<sarang>** If anyone has the link, I'd like to refresh my understanding of it  
 **\<ArticMine>** This if I recall came up last year over AML / KNC  
 **\<sarang>** yes  
 **\<suraeNoether>** i had this idea the other day: SBMB could publish an accumulator that contains his key images, in a way that allows the auditor to check if a given key image is in the accumulator, but the auditor has to trust that the accumulator was constructed faithfully (unless some protocol is used to prove fairness).  that plus the view key of the wallet allows the auditor to determine 1) all incoming XMR to that wallet  
 **\<suraeNoether>** and 2) any outgoing viewkeys included, allowing the auditor to determine anupper bound remaining in the wallet  
-**\<rehrar>** this would (imo) single-handedly would shoot Monero's real world use up incredibly  
-**\<moneromooo>** https://github.com/byterubpay/monero/issues/1070  
+**\<rehrar>** this would (imo) single-handedly would shoot ByteRub's real world use up incredibly  
+**\<byterubmooo>** https://github.com/byterubpay/byterub/issues/1070  
 **\<suraeNoether>** for some auditors this would be enough, after all you have to trust that the client has actually provided access to all his wallets anyway  
-**\<suraeNoether>** thanks moneromooo  
+**\<suraeNoether>** thanks byterubmooo  
 **\<sarang>** Yes, I believe this was the idea that I was vaguely remembering :)  
 **\<sarang>** It would be very interesting to reconsider such an idea now that we have multiple ways to make signatures smaller  
 **\<suraeNoether>** hmm  
 **\<suraeNoether>** that's... very promising.  
 **\<rehrar>** as a business man, something like this would be invaluable  
-**\<moneromooo>** Note that smooth (IIRC) had misgivings since this gives more spying power to people with the view key.  
+**\<byterubmooo>** Note that smooth (IIRC) had misgivings since this gives more spying power to people with the view key.  
 **\<suraeNoether>** but it would require a change to the transaction structure  
 **\<rehrar>** and would make posting a view key for something like general fund and/or CCS wallet actually useful  
 **\<suraeNoether>** unless the extra group element is stashed into tx\_extra and then... well, anyone can put anything in there so  

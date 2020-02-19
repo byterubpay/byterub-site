@@ -29,8 +29,8 @@ anonimal.i2p=AQZGLAMpI9Q0l0kmMj1vpJJYK3CjLp~fE3MfvE-e7KMKjI5cPOH6EN8m794uHJ6b09q
 Istnieją dwa rodzaje plików subskrypcji w @Kovri: *publiczne* i *prywatne*.
 
 Subskrypcja *publiczna*:
-- jest używana podczas ładowania podstawowych usług, takich jak IRC, e-mail, Monero itd.
-- jest statyczna i odświeżana co 12 godzin przez serwer @książki-adresowej Monero
+- jest używana podczas ładowania podstawowych usług, takich jak IRC, e-mail, ByteRub itd.
+- jest statyczna i odświeżana co 12 godzin przez serwer @książki-adresowej ByteRub
 - pozwala na bezpieczne dzielene się subskrypcją ze wszystkimi, ponieważ jest publicznie dostępna (każdy, kto posiada tę samą publiczną subskrypcję, będzie mógł również przypisać tę samą nazwę hosta do tego samego węzła docelowego, co ty).
 
 Subskrypcja *prywatna*:

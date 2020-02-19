@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-06-10
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-06-10
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -19,7 +19,7 @@ author: el00ruobuob / sarang
 **\<sarang>** the preprint is finished and is posted (with identical content) in the MRL archive and the IACR archive  
 **\<sarang>** This does \_not\_ mean it has received formal peer review, because it hasn't  
 **\<suraeNoether>** ^  
-**\<sarang>** Our friend moneromooo has made excellent progress on a full codebase integration  
+**\<sarang>** Our friend byterubmooo has made excellent progress on a full codebase integration  
 **\<sarang>** I'm assisting as needed  
 **\<sarang>** I have also reached out to potential auditors to get both the crypto and the implementation checked  
 **\<suraeNoether>** preprints like IACR and arxiv are not peer reviewed articles, but they are often treated that way  
@@ -48,7 +48,7 @@ author: el00ruobuob / sarang
 **\<rehrar>** Minko.to should fund the audits since they're single handedly responsible for larger blocks :P  
 **\<sarang>** heh  
 **\<sarang>** Any other questions on CLSAG?  
-**\<sarang>** Otherwise, I'll carry on with audit SoW requests and assisting moneromooo with implementation  
+**\<sarang>** Otherwise, I'll carry on with audit SoW requests and assisting byterubmooo with implementation  
 **\<sarang>** Let us move to ROUNDTABLE  
 **\<sarang>** suraeNoether: care to go first?  
 **\<suraeNoether>** well, my live has turned temporarily into konferenco administrivia  
@@ -64,29 +64,29 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** my action items for MRL specifically that are not konferenco-related are urgent, though: finish up my research reports and begin my request for funding for the next quarter  
 **\<suraeNoether>** these are both on my plate \*as we speak\*  
 **\<sarang>** I've begun comparative analysis of sublinear transaction protocols  
-**\<sarang>** In particular, did a prototype integration of Monero-to-Lelantus output migration to get better numbers on it  
+**\<sarang>** In particular, did a prototype integration of ByteRub-to-Lelantus output migration to get better numbers on it  
 **\<sarang>** I have to modify my Omniring analysis a bit once I realized that the protocol doesn't natively support plaintext fees  
 **\<sarang>** it's a simple change to include them as a separate account, and perhaps built-in support can be made more efficient  
 **\<sarang>** (I've brought this up to the authors)  
-**\<sarang>** Otherwise, my monthly report for May has been up for a bit: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/34#note\_6373  
-**\<sarang>** and my 2019 Q3 funding request is also open now: https://ccs.getmonero.org/proposals/sarang-2019-q3.html  
+**\<sarang>** Otherwise, my monthly report for May has been up for a bit: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/34#note\_6373  
+**\<sarang>** and my 2019 Q3 funding request is also open now: https://ccs.getbyterub.org/proposals/sarang-2019-q3.html  
 **\<sarang>** (note that this request, like the 2019 Q2 request, will be paid out immediately when funded)  
 **\<rehrar>** how'd that work out for you this time sarang?  
 **\<sarang>** I am also working on my Konferenco presentation, of course, on transaction efficiency  
 **\<rehrar>** pleased with that?  
 **\<sarang>** rehrar: it has gone very well  
 **\<sarang>** I think that method of payout provides the most fair value to donors and recipients, provided the trust is there  
-**\<sarang>** One last item: there were suggestions to have MRL-type people write up summaries of some of the methods of attack and analysis presented in Breaking Monero  
+**\<sarang>** One last item: there were suggestions to have MRL-type people write up summaries of some of the methods of attack and analysis presented in Breaking ByteRub  
 **\<sarang>** including an assessment of risk  
 **\<sarang>** This could provide good information to people who want to know such things  
 **\<sarang>** I'm always wary of making claims regarding risk that might not apply to a particular individual's threat model  
-**\<sarang>** but posting these as summaries of Breaking Monero topics makes a lot of sense  
+**\<sarang>** but posting these as summaries of Breaking ByteRub topics makes a lot of sense  
 **\<sarang>** thoughts on this from the room?  
-**\<suraeNoether>** i think it's a good outreach project that augments breaking monero, which is, in turn, a good outreach project  
+**\<suraeNoether>** i think it's a good outreach project that augments breaking byterub, which is, in turn, a good outreach project  
 **\<dEBRUYNE>** sarang: As long as you lay out the risks and what mitigations users can utilize then it should be fine  
 **\<sarang>** Right  
 **\<dEBRUYNE>** ^ for that we don't need to specify a risk level imo  
-**\<suraeNoether>** i feel like this would be a good project for someone interested in learning more about Monero  
+**\<suraeNoether>** i feel like this would be a good project for someone interested in learning more about ByteRub  
 **\<sarang>** The complication is that the overall risk depends heavily on what different types of information/ability an adversary has  
 **\<sarang>** Modifying the assumptions on your adversary can change a lot  
 **\<sarang>** so in no way can this be completely comprehensive  

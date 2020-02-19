@@ -4,7 +4,7 @@ title: titles.technicalspecs
 permalink: /technical-specs/index.html
 ---
 {% t global.lang_tag %}
-<div class="about-monero">
+<div class="about-byterub">
     <section class="container">
         <div class="row">
             <!-- left two-thirds block-->
@@ -63,7 +63,7 @@ permalink: /technical-specs/index.html
                     <div>
                         <ul>
                             <li>{% t specs.block_reward_amount %}</li>
-                            <li>{% t specs.block_reward_example1 %} <a href="https://moneroblocks.info/">{% t specs.block_reward_example_link %}</a> {% t specs.block_reward_example2 %}</li>
+                            <li>{% t specs.block_reward_example1 %} <a href="https://byterubblocks.info/">{% t specs.block_reward_example_link %}</a> {% t specs.block_reward_example2 %}</li>
                         </ul>
                     </div>
                     <div class="row">
@@ -85,7 +85,7 @@ permalink: /technical-specs/index.html
                         <ul>
                             <li>{% t specs.block_emission_main %}</li>
                             <li>{% t specs.block_emission_tail %}</li>
-                            <li>{% t specs.block_emission_disclaimer1 %} <a href="https://www.reddit.com/r/ByteRub/comments/512kwh/useful_for_learning_about_monero_coin_emission/">{% t specs.block_emission_disclaimer_link %}</a></li>
+                            <li>{% t specs.block_emission_disclaimer1 %} <a href="https://www.reddit.com/r/ByteRub/comments/512kwh/useful_for_learning_about_byterub_coin_emission/">{% t specs.block_emission_disclaimer_link %}</a></li>
                         </ul>
                     </div>
                     <div class="row">

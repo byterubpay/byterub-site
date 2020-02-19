@@ -4,9 +4,9 @@ terms: ["I2P"]
 summary: "Le Projet Internet Invisible (Invisible Internet Project) : une surcouche réseau d'anonymisation"
 ---
 
-### Monero
+### ByteRub
 
-Pour l'implémentation Monero de @I2P, voir @Kovri. Pour une comparaison d'@I2P avec [Tor](https://torproject.org/), lisez la page [Comparaison](https://geti2p.net/fr/comparison/tor).
+Pour l'implémentation ByteRub de @I2P, voir @Kovri. Pour une comparaison d'@I2P avec [Tor](https://torproject.org/), lisez la page [Comparaison](https://geti2p.net/fr/comparison/tor).
 
 ### Les Bases
 

@@ -23,7 +23,7 @@ author: selsta / anonimal
 **\<rehrar>** stolen from Verge  
 **\<anonimal>** I don't think fluffypony has been to a kovri meeting since at least 2016.  
 **\<\_Slack> \<sean>** Hey  
-**\<anonimal>** He name-drops kovri/kovri-related in interviews all the time and shows up to monero meetings.  
+**\<anonimal>** He name-drops kovri/kovri-related in interviews all the time and shows up to byterub meetings.  
 **\<anonimal>** Hi sean  
 **\<rehrar>** like the Queen of England  
 **\<rehrar>** shall I ping him?  
@@ -50,7 +50,7 @@ author: selsta / anonimal
 **\<anonimal>** https://twitter.com/getkovri/status/1004568146139865089  
 **\<anonimal>** Which links to https://t.co/7fDhUBt75d  
 **\<anonimal>** Oops  
-**\<anonimal>** http://forum.getmonero.org/6/ideas/90300/oneiric-june-august-part-time-kovri-junior-developer  
+**\<anonimal>** http://forum.getbyterub.org/6/ideas/90300/oneiric-june-august-part-time-kovri-junior-developer  
 **\<rottensalty07>** Those t.co shady links. Shame.  
 **\<anonimal>** The tco link points to the forum link  
 **\<rottensalty07>** I'm reading through.  
@@ -111,7 +111,7 @@ author: selsta / anonimal
 **\<anonimal>** WIP is one thing, but you're off the hook after this FFS.  
 **\<anonimal>** So, is it done?  
 **\<anonimal>** You set the deadlines of Q1, not me. I just want to see where we are.  
-**\<rehrar>** Documenation with oneiric\_, which is in progress,  sent a PR with the recent multilingual changes that were on the getmonero.og site, lots and lots of logo work, fielding a few dev people that contacted out of interest, serhack collab for Mastering Monero, kovri defcon work  
+**\<rehrar>** Documenation with oneiric\_, which is in progress,  sent a PR with the recent multilingual changes that were on the getbyterub.og site, lots and lots of logo work, fielding a few dev people that contacted out of interest, serhack collab for Mastering ByteRub, kovri defcon work  
 **\<rehrar>** documentation is not done, but fairly far along. oneiric\_ can attest that we spent quite some time working through various OS's, as not all the instrutions worked 100% and there was a large amount of trouble shooting  
 **\<rehrar>** \*instructions  
 **\<oneiric\_>** That's true, we worked on Debian builds, and a couple of the build options.  
@@ -133,14 +133,14 @@ author: selsta / anonimal
 **\<rehrar>** the new multilingual scheme also requires different stuff for the way the site is handled  
 **\<rehrar>** PR sent  
 **\<anonimal>** Ok  
-**\<rehrar>** the Kovri site is quite different from the Monero site, in that it relies on the pulled docs, which has pros and cons. Simplifies some things and complicates others.  
+**\<rehrar>** the Kovri site is quite different from the ByteRub site, in that it relies on the pulled docs, which has pros and cons. Simplifies some things and complicates others.  
 **\<anonimal>** Yes, but this doesn't change that I'm having to do things myself; things you said you would do.  
 **\<anonimal>** Also, what have you done with r/kovri?  
 **\<anonimal>** AFAICT nothing for this FFS.  
 **\<anonimal>** In fact, someone else had to come and moderate because of spam.  
 **\<anonimal>** Have you done any r/kovri work that I'm unaware of?  
 **\<rehrar>** no  
-**\<anonimal>** "/r/Kovri design moderation and upkeep" \<-- https://forum.getmonero.org/9/work-in-progress/89677/rehrar-s-2018-q1-kovri-proposal  
+**\<anonimal>** "/r/Kovri design moderation and upkeep" \<-- https://forum.getbyterub.org/9/work-in-progress/89677/rehrar-s-2018-q1-kovri-proposal  
 **\<anonimal>** Ok  
 **\<anonimal>** Anything else for point 3. Contributor FFS check-in / status ?  
 **\<oneiric\_>** We already talked about mine, nothing else from me  
@@ -157,11 +157,11 @@ author: selsta / anonimal
 **\<anonimal>** That's the point of #237, or at least one of the points.  
 **\<anonimal>** We're running out of time, anything else on 4. Alpha release discussion?  
 **\<rehrar>** right, but we can get an action item on that in that we can have someone do it specifically for Kovri. Other workgroups can follow suit as they want.  
-**\<anonimal>** Moving the issue from Monero Project Meta to Monero Project Taiga defeats the purpose of decentralization.  
+**\<anonimal>** Moving the issue from ByteRub Project Meta to ByteRub Project Taiga defeats the purpose of decentralization.  
 **\<anonimal>** But no one is stopping you from doing that.  
 **\<rehrar>** I can set up a Kovri taiga :)  
-**\<rehrar>** and we can have our various Kovri related tasks on there instead of on the getmonero one  
-**\<anonimal>** That won't work, because you're paid by Ric do work for Monero Project.  
+**\<rehrar>** and we can have our various Kovri related tasks on there instead of on the getbyterub one  
+**\<anonimal>** That won't work, because you're paid by Ric do work for ByteRub Project.  
 **\<anonimal>** Me or someone else would need to host it.  
 **\<anonimal>** But you can do whatever you want.  
 **\<anonimal>** 10 minutes left, we need to move on.  
@@ -186,7 +186,7 @@ author: selsta / anonimal
 **\<ErCiccione>** sorry, just finished to read the logs, i'm a bit late to the party. anything you guys want to tell me about translating getkovri?  
 **\<anonimal>** Well it's come in handy.  
 **\<anonimal>** Hi ErCiccione  
-**\<rehrar>** PR sent ErCiccione with the newest updates similar to getmonero.org  
+**\<rehrar>** PR sent ErCiccione with the newest updates similar to getbyterub.org  
 **\<ErCiccione>** hello :)  
 **\<rehrar>** but since getkovri is set up differently, there is still a substantial amount that is not done via tags  
 **\<rehrar>** handled via kovri-docs  
@@ -240,7 +240,7 @@ author: selsta / anonimal
 **\<anonimal>** lol sean  
 **\<anonimal>** "So what's the deal with BCOS?!"  
 **\<rehrar>** Alright, i will be fairly unavailable starting tomorrow and through the 14th  
-**\<anonimal>** "Can the NOT afford to communicate with Monero?!"  
+**\<anonimal>** "Can the NOT afford to communicate with ByteRub?!"  
 **\<rehrar>** fyi for everyone here :)  
 **\<rehrar>** will respond to Wire or Signal if need be, but limited IRC  
 **\<anonimal>** Sorry sean, I can't top your line with anything funnier.  
@@ -273,13 +273,13 @@ author: selsta / anonimal
 **\<anonimal>** I'm tired of the free handouts and I also just want this FFS done as I'm sure everyone else wants too.  
 **\<anonimal>** Thanks rehrar.  
 **\<anonimal>** Yes, they don't.  
-**\<anonimal>** And most people also think fluffypony is the CEO and lead developer of Monero.  
+**\<anonimal>** And most people also think fluffypony is the CEO and lead developer of ByteRub.  
 **\<anonimal>** As seen in every recent interview.  
 **\<rehrar>** isn't that the most bizarre thing?  
 **\<anonimal>** Or post somewhere.  
-**\<rehrar>** I see a lot of people post that he started monero too  
+**\<rehrar>** I see a lot of people post that he started byterub too  
 **\<anonimal>** I think he's given up on correcting them.  
-**\<anonimal>** Anyway, so I'm the CEO and lead developer of Monero too.  
+**\<anonimal>** Anyway, so I'm the CEO and lead developer of ByteRub too.  
 **\<rehrar>** Creator, lead dev, and CEO. Must be nice. :P  
 **\<anonimal>** And I have several lambos and boats.  
 **\<anonimal>** Hey, this fantasy land is pretty sweet.  

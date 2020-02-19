@@ -68,17 +68,17 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** For verification time I'll have to check the benchmarks... there are basically two classes of speedups there  
 **\<sarang>** One is for established nodes... they'll use the multiexp operations we've introduced, which lead to much faster verification than the Borromeans  
 **\<sarang>** The second is for new nodes... they can batch verify as many txns as they want very quickly  
-**\<moneromooo>** It's set up to batch per block fwiw, so current nodes also benefit.  
+**\<byterubmooo>** It's set up to batch per block fwiw, so current nodes also benefit.  
 **\<sarang>** Sure, but I assume much less  
 **\<sarang>** I've considered the batch verification to really be for the new nodes, since they have a lot to work on  
-**\<moneromooo>** Well, it's not set up to batch across blocks :)  
+**\<byterubmooo>** Well, it's not set up to batch across blocks :)  
 **\<sarang>** Did not know that!  
 **\<suraeNoether>** on another note, someone brought up the question: why do our range proofs cover such a large size? which made me think of some of my own questions: isn't verification time for a range proof linear in the size of the set? And if so, would it really be 2\^-32 times faster to validate a range proof on [0, ..., 2\^32] than [0, ..., 2\^64]? i realized i have some gaps in my range proof knowledge  
 **\<sarang>** Fortunately that's not a consensus thing, so a client could do that later  
-**\<sarang>** moneromooo: why not batch across blocks for new nodes?  
-**\<moneromooo>** More complicated.  
+**\<sarang>** byterubmooo: why not batch across blocks for new nodes?  
+**\<byterubmooo>** More complicated.  
 **\<sarang>** Ha, fair answer  
-**\<moneromooo>** Besides, range proofs are only checked since last end of known hash data.  
+**\<byterubmooo>** Besides, range proofs are only checked since last end of known hash data.  
 **\<hyc>** (Hi all. just dropped in. Just finished giving a ByteRub lecture here at Ulster University in Belfast. So far doesn't look like I hooked any aspiring graduates...)  
 **\<sarang>** hyc: still worth it!  
 **\<suraeNoether>** hyc so i take it the fiddle is only *mythically* hypnotic, not literally, then?  
@@ -99,16 +99,16 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Or speaking engagements?  
 **\<sarang>** Or summer teaching?  
 **\<sarang>** 3 weeks vs 6 weeks?  
-**\<moneromooo>** I'd like to know when's the deadline to have a cleaned up patchset for BPs for the review. I've been busy elsewhere and kinda left it lying as is for the last... week or two.  
-**\<moneromooo>** I lose track of time.  
+**\<byterubmooo>** I'd like to know when's the deadline to have a cleaned up patchset for BPs for the review. I've been busy elsewhere and kinda left it lying as is for the last... week or two.  
+**\<byterubmooo>** I lose track of time.  
 **\<suraeNoether>** i haven't the foggiest idea, you're the person i would have asked. :P  
 **\<sarang>** Well  
 **\<suraeNoether>** oh actually  
 **\<suraeNoether>** you meant for the code review  
 **\<sarang>** Benedikt will be reviewing the Java code, so no worries there  
 **\<sarang>** I want to have the other audit started within a month  
-**\<moneromooo>** Yes. When do I need to have it ready and cleaned up :)  
-**\<moneromooo>** OK.  
+**\<byterubmooo>** Yes. When do I need to have it ready and cleaned up :)  
+**\<byterubmooo>** OK.  
 **\<sarang>** There's no real deadline; they'll start when we're ready  
 **\<sarang>** But the OSTIF groups are being slow on SoW  
 **\<sarang>** I've been told this week  
@@ -154,7 +154,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** deadly  
 **\<suraeNoether>** currently produces a transcript of events as the network evolves. the code needs better commetns and more detailed reports, and there is one known bug, but  
 **\<suraeNoether>** and i took an issue out already with that bug  
-**\<suraeNoether>** In addition to all that and the educational outreach Sarang mentioned, I've also been looking into the first monero conference idea more deeply  
+**\<suraeNoether>** In addition to all that and the educational outreach Sarang mentioned, I've also been looking into the first byterub conference idea more deeply  
 **\<sarang>** I love the idea  
 **\<gingeropolous>** any thoughts on difficulty algo?  
 **\<ArticMine>** Excellent idea  

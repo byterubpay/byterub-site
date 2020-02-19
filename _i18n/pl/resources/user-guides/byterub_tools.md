@@ -1,19 +1,19 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# Narzędzia Monero
+# Narzędzia ByteRub
 
-Poniższe narzędzia mogą zostać użyte w celu zdobycia informacji na temat sieci Monero lub twoich transakcji w łańcuchu bloków.
+Poniższe narzędzia mogą zostać użyte w celu zdobycia informacji na temat sieci ByteRub lub twoich transakcji w łańcuchu bloków.
 
 ### [Sprawdzenie, czy odbiorca otrzymał twój przelew](http://xmrtests.llcoins.net/checktx.html)
 
-### [Narzędzia do tworzenia adresu Monero](https://xmr.llcoins.net/)
+### [Narzędzia do tworzenia adresu ByteRub](https://xmr.llcoins.net/)
 
-### [Liczenie węzłów Monero](http://moneronodes.i2p.xyz/)
+### [Liczenie węzłów ByteRub](http://moneronodes.i2p.xyz/)
 
-### [Mapa węzłów Monero](https://monerohash.com/nodes-distribution.html)
+### [Mapa węzłów ByteRub](https://monerohash.com/nodes-distribution.html)
 
-### [Generator portfela Monero off-line](http://moneroaddress.org/)
+### [Generator portfela ByteRub off-line](http://moneroaddress.org/)
 
-### [Statystyki sieci Monero](http://moneroblocks.info/stats)
+### [Statystyki sieci ByteRub](http://moneroblocks.info/stats)
 
-### [Statystyki strony Monero.how](https://www.monero.how/)
+### [Statystyki strony ByteRub.how](https://www.monero.how/)

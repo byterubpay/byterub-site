@@ -21,7 +21,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** Ciao everybody  
 **\<msvb-fab>** Hello folks.  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** a. RFC-HWALLET-1 project progress  
 **\<sgp>** @msvb-fab, you have the floor  
@@ -36,12 +36,12 @@ author: dEBRUYNE / fluffypony
 **\<msvb-fab>** We'll be assembling in the next week, in order to deliver a end of year dividend to anybody who has contributed in even the smallest way.  
 **\<msvb-fab>** Consider this the last chance to sign up as a tester and complete the one minute of duties required to receive the first ever ByteRub hardware wallet prototype.  
 **\<msvb-fab>** Our star designer in this round is i\_a, who created the 'Julian Candy' release seen here:  
-**\<msvb-fab>** https://taiga.getmonero.org/media/attachments/8/3/9/3/164be48259ead3bc4127f70a5c85bae7edf39227413cd0cef260b6ca1b4e/julianpanel-2.jpeg  
+**\<msvb-fab>** https://taiga.getbyterub.org/media/attachments/8/3/9/3/164be48259ead3bc4127f70a5c85bae7edf39227413cd0cef260b6ca1b4e/julianpanel-2.jpeg  
 **\<msvb-fab>** But as you see from our main page, there are other parallel efforts as well:  
-**\<msvb-fab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
+**\<msvb-fab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
 **\<msvb-fab>** To become a tester and get a board, I need your mailing address and a couple other 1 minute things. If you have 5 minutes, then read:  
-**\<msvb-fab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/wiki/preview/  
-**\<msvb-fab>** We also had our first ByteRub hardware team meeting this week on #monero-hardware.  
+**\<msvb-fab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/wiki/preview/  
+**\<msvb-fab>** We also had our first ByteRub hardware team meeting this week on #byterub-hardware.  
 **\<msvb-fab>** ...which went well for a first try. One hour long, we'll probably do one per month.  
 **\<msvb-fab>** That's all unless other members of the ByteRub hardware team want to inform...?  
 **\<ErCiccione>** msv-fab: the prototype only for americans, right? :(  
@@ -61,7 +61,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Let's make this video as good or better than the other ones  
 **\<sgp>** c. ByteRub Meetup Kit  
 **\<msvb-fab>** I'll be back in five minutes...  
-**\<serhack>** I think monero video need translators for subtitles  
+**\<serhack>** I think byterub video need translators for subtitles  
 **\<sgp>** @serhack yes it does. Speak with ErCiccione after the meeting about these  
 **\<ajs>** If you have any suggestions for script, PR welcomed.  
 **\<serhack>** great, sgp  
@@ -116,7 +116,7 @@ author: dEBRUYNE / fluffypony
 **\<QuickBASIC>** It's a nice thought, but if the MRW is ineffective at reducing the amount of malware then it's just going to be a big joke.  
 **\<fluffypony>** but later on also ransomware  
 **\<fluffypony>** QuickBASIC: how will anyone know if they're effective?  
-**\<msvb-fab>** I'm imagining what I would do when going to getmonero.org and trying to find an easy way to solve my security problem.  
+**\<msvb-fab>** I'm imagining what I would do when going to getbyterub.org and trying to find an easy way to solve my security problem.  
 **\<msvb-fab>** I would click 'vulnerability respons' because I don't see anything else related.  
 **\<fluffypony>** msvb-fab: we're mostly dealing with senior infosec people, they're not dumb enough to do that  
 **\<msvb-fab>** We're dealing with senior cisos and they can't secure their mining rigs? that's surprising.  
@@ -153,7 +153,7 @@ author: dEBRUYNE / fluffypony
 **\<cryptochangements>** devil's advocate: if we start trying to "combat" malware does that mean we also have to help LE with DNMs since they give us a bad image?  
 **\<QuickBASIC>** I understand that what you're proposing is supposed to diminish the negative views of ByteRub in the press, but I think it's the wrong tact... I think positive use cases will outweigh any kind of reduction in peoples view of ByteRub because of some people choosing to use it for malicious purposes.  
 **\<ArticMine>** It is a huge problem in FLOSS F-Droid Android apps that are infected with malware and uploaded to goggle play  
-**\<fluffypony>** cryptochangements: why do you think we don't allow DNM posts on /r/monero ?  
+**\<fluffypony>** cryptochangements: why do you think we don't allow DNM posts on /r/byterub ?  
 **\<msvb-fab>** DNM \=\= ?  
 **\<fluffypony>** msvb-fab: darknet markets  
 **\<dEBRUYNE>** fluffypony: fwiw, I remove any thread that somewhat reeks of illegality  
@@ -192,7 +192,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** sgp what do you think?  
 **\<ArticMine>** netg when targeting for profit entities and large corps it is not super lame. It is ust a does of their won medicine  
 **\<ErCiccione>** ok my idea: I'm building a taiga bot, so we will have live updates from taiga on irc, will let know when ready so who needs it can use it  
-**\<serhack>** my idea: Mastering ByteRub ebook. https://www.reddit.com/r/ByteRub/comments/7imsr9/hello_world_mastering_monero_is_coming_soon/ :)  
+**\<serhack>** my idea: Mastering ByteRub ebook. https://www.reddit.com/r/ByteRub/comments/7imsr9/hello_world_mastering_byterub_is_coming_soon/ :)  
 **\<ErCiccione>** (btw i think we still need to define better the MRW team's duties before starting the actual recruiting)  
 **\<ErCiccione>** If we are considering the meeting over, the discussion about the MRL can restart  
 **\<msvb-fab>** We still have five minutes left...  
@@ -203,13 +203,13 @@ author: dEBRUYNE / fluffypony
 **\<msvb-fab>** rehrar: You mean about the RIAT hosted meetings in Vienna?  
 **\<rehrar>** No. For wallet test.  
 **\<msvb-fab>** rehrar: Oh, you mean I think... Yes. That's great, thanks.  
-**\<msvb-fab>** I think the two who know most/best about the Vienna stuff are parasew[m] pablonero[m], so look for them on #monero-ccc for more information.  
+**\<msvb-fab>** I think the two who know most/best about the Vienna stuff are parasew[m] pablonero[m], so look for them on #byterub-ccc for more information.  
 **\<rehrar>** Sorry for not being here today. Wife graduating. :) If anyone needs something from me, send me a ping.  
 **\<rehrar>** Will go over log soon.  
 **\<msvb-fab>** ErCiccione: We can chat about MRW now?  
 **\<ErCiccione>** ok, i'll do the sgp/rehrar of the situation :D [8] Meeting is over thanks everybody for partecipating!  
 **\<ErCiccione>** let's talk about MRW now  
-**\<netg>** what we always should highlight is what, separates monero from the rest of the projects, its is the mindset and strong belief, that an completely anonymous egalitarian cryptocurrencies is strongly needed, by alot of people world-wide, and if existing would improve whole humanity  
+**\<netg>** what we always should highlight is what, separates byterub from the rest of the projects, its is the mindset and strong belief, that an completely anonymous egalitarian cryptocurrencies is strongly needed, by alot of people world-wide, and if existing would improve whole humanity  
 **\<ErCiccione>** This is what I was talking about with this comment: https://github.com/byterubpay/meta/issues/141#issuecomment-350490380). Discussions rarely continue after the meeting. A very participated and important discussion died.  
 **\<ErCiccione>** fluffypony ^^  
 **\<fluffypony>** ErCiccione: further discussion about the MRW can happen within the MRW :)  
@@ -221,7 +221,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** well my point  
 **\<ErCiccione>** but this is my opinion, if i'm the only one feeling the problem, we can just keep going like this. I still think a lot of time will be wasted though  
 **\<endogenic>** sorry, what's the problem?  
-**\<netg>** ErCiccione: monero development isnt super fast anyway, because its based on long-term considerations  
+**\<netg>** ErCiccione: byterub development isnt super fast anyway, because its based on long-term considerations  
 **\<ErCiccione>** endogenic: https://github.com/byterubpay/meta/issues/141#issuecomment-350487067  
 **\<endogenic>** no i know ErCiccione  
 **\<endogenic>** i'll type somethin out  
@@ -230,14 +230,14 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** the officiality aspect comes from people agreeing on the existence and importance of a problem…   
 **\<netg>** what do you need more  
 **\<endogenic>** ErCiccione: example then  
-**\<endogenic>** did you see Jaquee  post this? https://www.reddit.com/r/ByteRub/comments/7ingmi/transferred_3100_usd_to_mymonero_over_4_days_ago/dr01xy2/  
+**\<endogenic>** did you see Jaquee  post this? https://www.reddit.com/r/ByteRub/comments/7ingmi/transferred_3100_usd_to_mybyterub_over_4_days_ago/dr01xy2/  
 **\<endogenic>** i wanted to reply saying that this is a real foss project so someone must do it and if it's not he who will write the code or design the solutions and he still thinks he knows something then it's on him to inspire others to be the hero to solve it  
 **\<endogenic>** now i would suggest that'd be an example of leadership for him  
 **\<endogenic>** if i wanted to solve the problem he wanted to solve i'd just make it specific what the issue is, then take it to the people who are working on it, and show them it's real  
 **\<endogenic>** if they don't think it's an issue then i can tell others "this person didn't think it was an issue"  
 **\<endogenic>** it's just facts  
 **\<endogenic>** wonder if that makes any sense?  
-**\<Jaquee>** endogenic: he posted the same message in several places. i also wrote this answer: https://www.reddit.com/r/ByteRub/comments/7ingmi/transferred_3100_usd_to_mymonero_over_4_days_ago/dr02f7i/?st=jazoidya&sh=ca6b4e35  
+**\<Jaquee>** endogenic: he posted the same message in several places. i also wrote this answer: https://www.reddit.com/r/ByteRub/comments/7ingmi/transferred_3100_usd_to_mybyterub_over_4_days_ago/dr02f7i/?st=jazoidya&sh=ca6b4e35  
 **\<ErCiccione>** mmmh I think we went out of track, sorry I didn't explain myself well :) . My point is just: can we make meetings longer so we don't cut out important conversations? I think this is more about the conception each of us has of the meeting. For me all formal discussions should be done during meetings. But this is how I'm used to for my personal experience. if it's not perceived as a problem. Ok, fine for me :D  
 **\<endogenic>** ErCiccione: have you ever heard the theory about how widening highways doesn't actually solve traffic problems?  
 **\<endogenic>** i think it might be similar with meeting times  

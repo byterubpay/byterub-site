@@ -1,10 +1,10 @@
 ---
 terms: ["ringCT", "ring-CT", "transactions-confidentielles-de-cercle", "transaction-confidentielle-de-cercle"]
-summary: "Un moyen de masquer le montant envoyé dans une transaction Monero"
+summary: "Un moyen de masquer le montant envoyé dans une transaction ByteRub"
 ---
 
 ### Les Bases
-RingCT, abréviation de Transactions confidentielles de cercle (*Ring Confidential Transactions*), est la méthode grâce à laquelle les montants sont cachés dans Monero.
+RingCT, abréviation de Transactions confidentielles de cercle (*Ring Confidential Transactions*), est la méthode grâce à laquelle les montants sont cachés dans ByteRub.
 
 Les transactions confidentielles de cercle ont été implémentées dans le block #1220516 en Janvier 2017. Après Septembre 2017, cette fonctionnalité est devenue obligatoire pour toutes les transactions sur le réseau.
 

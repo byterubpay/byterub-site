@@ -1,11 +1,11 @@
 ---
 terms: ["ringCT", "ring-CT", "poufne-transakcje-pierścieniowe", "poufnym-transakcjom-pierścieniowym", "poufnymi-transakcjami-pierścieniowymi", "poufnych-transakcji-pierścieniowych"]
-summary: "Sposób na ukrycie wartości Monero przesłanych w transakcji."
+summary: "Sposób na ukrycie wartości ByteRub przesłanych w transakcji."
 ---
 
 ### Podstawy
 
-Poufne Transakcje Pierścieniowe (RingCT) jest sposobem na ukrycie wartości Monero przesyłanych w transakcjach.
+Poufne Transakcje Pierścieniowe (RingCT) jest sposobem na ukrycie wartości ByteRub przesyłanych w transakcjach.
 
 Poufne Transakcje Pierścieniowe zostały wdrożone w bloku #1220516 w styczniu 2017 roku. Od września 2017 roku sposób ten jest obowiązkowy dla wszystkich transakcji w sieci.
 

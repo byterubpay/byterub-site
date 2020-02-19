@@ -44,7 +44,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** subaddresses and QR  
 **\<dsc\_>** API?  
 **\<rehrar>** VFD  
-**\<needmoney90>** eXtra Monero Requisition  
+**\<needmoney90>** eXtra ByteRub Requisition  
 **\<sarang>** Spam protection?  
 **\<rehrar>** It's handled through git, so yes, spam protection built in  
 **\<midipoet>** spam was half the fun  
@@ -65,17 +65,17 @@ author: el00ruobuob / rehrar
 **\<rehrar>** Alright, anything else interesting this past couple weeks?  
 **\<rehrar>** We had another impromptu meeting yesterday about PIDs  
 **\<rehrar>** you can look over the logs for that  
-**\<rehrar>** #monero-research-lab is now relayed to Mattermost, so there's no reason why you all shouldn't be there  
+**\<rehrar>** #byterub-research-lab is now relayed to Mattermost, so there's no reason why you all shouldn't be there  
 **\<needmoney90>** I will be uploading a Year In Review dEBRUYNE and I wrote/edited to github some time in the next day or two.  
 **\<xmrmatterbridge> \<learninandlurkin>** Yeah thanks for that, rehrar  
 **\<needmoney90>** So, preannouncement  
 **\<rehrar>** Oh, that's fun.  
 **\<rehrar>** sgp is off giving a presentation in NYC tonight  
 **\<rehrar>** and I and midipoet will be going to Tabconf this month for another presentation and stuffs  
-**\<needmoney90>** I'm also open sourcing the /r/Monero and /r/xmrtrader subreddits, TBD. Having some gitlab Auth issues, or it would be done already.  
+**\<needmoney90>** I'm also open sourcing the /r/ByteRub and /r/xmrtrader subreddits, TBD. Having some gitlab Auth issues, or it would be done already.  
 **\<rehrar>** Alright, we done with this one.  
 **\<rehrar>** needmoney90: did you sign in with Github on our Gitlab?  
-**\<sarang>** Regarding -lab, please note that while we like to enjoy ourselves, I ask that participants keep discussion there relevant to Monero research  
+**\<sarang>** Regarding -lab, please note that while we like to enjoy ourselves, I ask that participants keep discussion there relevant to ByteRub research  
 **\<rehrar>** there's a weird bug where those people can't make repos or something like that  
 **\<needmoney90>** I used github, I made a gitlab separate account yesterday  
 **\<needmoney90>** Because weirdness  
@@ -91,18 +91,18 @@ author: el00ruobuob / rehrar
 **\<ErCiccione[m]>** My FFS very ready to be completely funded, but it's not, yet  
 **\<sarang>** surae and I participated in the SBC 2019 conference at Stanford, which was generously funded  
 **\<sarang>** My thanks to the community for their help. It was an extremely valuable experience  
-**\<rehrar>** midipoet: we're moving from Github to Gitlab. Github got purchased by Microsoft, and is itself closed-source. We are moving slowly everything to Gitlab, which is partially open sourced. Not their Gitlab, but we took the code and deployed our own, which can be found at repo.getmonero.org  
-**\<ErCiccione[m]>** (My FFS: https://forum.getmonero.org/8/funding-required/91261/erciccione-coordinator-of-the-localization-workgroup )  
+**\<rehrar>** midipoet: we're moving from Github to Gitlab. Github got purchased by Microsoft, and is itself closed-source. We are moving slowly everything to Gitlab, which is partially open sourced. Not their Gitlab, but we took the code and deployed our own, which can be found at repo.getbyterub.org  
+**\<ErCiccione[m]>** (My FFS: https://forum.getbyterub.org/8/funding-required/91261/erciccione-coordinator-of-the-localization-workgroup )  
 **\<oneiric\_>** get this funded ^  
 **\<midipoet>** rehrar: yeah, I get that, but is that what needmoney90 was talking about re Reddit forums?  
-**\<ErCiccione[m]>** there are still some problems with repo.getmonero tho, i will open an issue (like SSH)  
+**\<ErCiccione[m]>** there are still some problems with repo.getbyterub tho, i will open an issue (like SSH)  
 **\<rehrar>** sarang, I'm glad you MRL guys had a good time.  
 **\<ErCiccione[m]>** thanks oneiric\_ :)  
 **\<oneiric\_>** np :)  
-**\<needmoney90>** Midipoet: the resources and markdown and CSS will be uploaded to separate repo.getmonero.org repos.  
+**\<needmoney90>** Midipoet: the resources and markdown and CSS will be uploaded to separate repo.getbyterub.org repos.  
 **\<rehrar>** Rumor has it that we will be opening a proposal for you guys to go to a spa resort sometime soon.  
 **\<midipoet>** needmoney90: ah I get it now  
-**\<el00ruobuob\_[m]>** My FFS is still under the radar, so i hope the MFS will be out soon (https://forum.getmonero.org/8/funding-required/91269/el00ruobuob-january-to-march-part-time-for-a-new-quarter)  
+**\<el00ruobuob\_[m]>** My FFS is still under the radar, so i hope the MFS will be out soon (https://forum.getbyterub.org/8/funding-required/91269/el00ruobuob-january-to-march-part-time-for-a-new-quarter)  
 **\<rehrar>** yes, el00ruobuob\_[m] I was going to tell you to remake it, and we'll move it to FR right away  
 **\<rehrar>** it will be out very soon (pending pony)  
 **\<el00ruobuob\_[m]>** PM me once it's ready then rehrar   
@@ -130,7 +130,7 @@ author: el00ruobuob / rehrar
 **\<ErCiccione>** A lot of new translations will be soon available for the website: German (already merged, need to be uploaded on the server), Chinese, Brazilian Portuguese and Dutch  
 **\<ErCiccione>** Dutch and Portuguese only need to be reviewed  
 **\<ErCiccione>** These are huge works that took months, A huge thanks to these guys  
-**\<ErCiccione>** also, in the next days i will start to migrate all translation-related work of the main monero repository  
+**\<ErCiccione>** also, in the next days i will start to migrate all translation-related work of the main byterub repository  
 **\<ErCiccione>** as already did with the GUI. First thing will be to give the possibility to translate the CLI in the same languages available for the GUI  
 **\<ErCiccione>** so, to translate the CLI contributors will just able to use pootle  
 **\<el00ruobuob\_[m]>** Great!  
@@ -156,9 +156,9 @@ author: el00ruobuob / rehrar
 **\<rehrar>** alright, any other questions, or can oneiric\_ go?  
 **\<ErCiccione>** what do you mean for "this history" el00ruobuob\_?  
 **\<el00ruobuob\_[m]>** s/history/memory/  
-**\<monerobux>** el00ruobuob\_[m] meant to say: ErCiccione, are pootle suggestions based on this memory? i found them very accurate  
+**\<byterubbux>** el00ruobuob\_[m] meant to say: ErCiccione, are pootle suggestions based on this memory? i found them very accurate  
 **\<el00ruobuob\_[m]>** but as it is not yet integrated, it's just pootle that is awsome in its sugestions  
-**\<ErCiccione>** no, not yet. If they are available, translators use the glossaries on github.com/monero-ecosystem/monero-translations. I will start to look properly into the translation memory probably after the fork  
+**\<ErCiccione>** no, not yet. If they are available, translators use the glossaries on github.com/byterub-ecosystem/byterub-translations. I will start to look properly into the translation memory probably after the fork  
 **\<ErCiccione>** yes, pootle has already a project named "terminology", which mimic a translation memory. Maybe i could use that option a bit more  
 **\<rehrar>** alright, oneiric\_ go  
 **\<oneiric\_>** danke  
@@ -194,12 +194,12 @@ author: el00ruobuob / rehrar
 **\<rehrar>** here's the dealio everyone  
 **\<rehrar>** recently, there has been an individual who has been very abrasive and has sent messages (public and private) with the intention of inflicting harm  
 **\<rehrar>** sgp banned this individual, and there was some flak that this individual was banned  
-**\<rehrar>** as Monero isn't int he habit of banning people  
+**\<rehrar>** as ByteRub isn't int he habit of banning people  
 **\<rehrar>** (banned from this channel only)  
 **\<rehrar>** the feedback has been heard and this ban has since been reversed, but sgp\_ has discussed with me about the possibility of adopting a code of conduct for this community workgroup, wherein it can be somewhat formalized when and for what reasons we might bans someone in the future  
 **\<sarang>** Are there any good arguments \_against\_ having a reasonable code of conduct?  
 **\<oneiric\_>** banning sounds a bit dangerous  
-**\<rehrar>** It's important to distinguish the monero community, and the Monero Community Workgroup here, because this would obviously only apply to the workgroup  
+**\<rehrar>** It's important to distinguish the byterub community, and the ByteRub Community Workgroup here, because this would obviously only apply to the workgroup  
 **\<oneiric\_>** who enforces the coc?  
 **\<midipoet>** I am not sure about formalising things.  
 **\<sarang>** IMO there should be extremely little tolerance for direct attacks on people  
@@ -260,7 +260,7 @@ author: el00ruobuob / rehrar
 **\<oneiric\_>** attacked in what way sarang?  
 **\<midipoet>** sarang: I was here for a meeting, and people did step in  
 **\<sarang>** Openly insulted, had intimidating statements made about a person and their family, etc.  
-**\<rehrar>** dEBRUYNE: I can see your point, how the Monero Community workgroup has evolved way past myself and sgp, so I also am sympathetic to the fact that the current workgroup is very probably outside of our authority  
+**\<rehrar>** dEBRUYNE: I can see your point, how the ByteRub Community workgroup has evolved way past myself and sgp, so I also am sympathetic to the fact that the current workgroup is very probably outside of our authority  
 **\<oneiric\_>** like the "im going to call you offensive names" or "i'm going to slander and bully you into submission and disrepute"?  
 **\<sarang>** I also did not step in, and regret it  
 **\<rehrar>** at least, we cannot exercise the authority without compromising what it has become  
@@ -288,7 +288,7 @@ author: el00ruobuob / rehrar
 **\<needmoney90>** If behavior happened in the room, enforce it if it's in violation of the coc  
 **\<msvb-mob>** What do other active Freenode groups do about applying and enforcing a code, is there a template that works well?  
 **\<dEBRUYNE>** We should not forget that this particular coc sparked huge controversy in the Linux community  
-**\<dEBRUYNE>** msvb-mob: Almost all monero channels use heuristics  
+**\<dEBRUYNE>** msvb-mob: Almost all byterub channels use heuristics  
 **\<sarang>** Asking someone to mute and let everyone else listen to bullshit is a terrible way to handle this, IMO  
 **\<ErCiccione>** FWIW, i won't adopt a COC for the Localization Workgroup  
 **\<needmoney90>** Sarang: I'm actually in favor of a code of conduct for behavior within a room  
@@ -311,7 +311,7 @@ author: el00ruobuob / rehrar
 **\<midipoet>** rehrar: it might happen more if it was part of a code of conduct ;-)  
 **\<needmoney90>** ^  
 **\<needmoney90>** Exactly what I'm suggesting, but only for on platform stuff  
-**\<rehrar>** So here's the other question. If monero community workgroup adopted a COC, and people disagreed, wouldn't they be able to make their own workgroup that does a similar thing that doesn't have one?  
+**\<rehrar>** So here's the other question. If byterub community workgroup adopted a COC, and people disagreed, wouldn't they be able to make their own workgroup that does a similar thing that doesn't have one?  
 **\<midipoet>** sarang: but this isn't my house, nor yours. It's ours, and it's public  
 **\<xmrmatterbridge> \<learninandlurkin>** It's not like a code of conduct would be trustless. Whether there is/isn't one you still fundamentally have to decide whether you trust the people who have the banhammer.  
 **\<sarang>** You can't do anything you want in public spaces  
@@ -353,7 +353,7 @@ author: el00ruobuob / rehrar
 **\<midipoet>** right. Ok  
 **\<xmrmatterbridge> \<learninandlurkin>** Can mue/silence be done on a timed basis whereby the user is notified? That is if you have ignored a warning or two you get a message "You have been muted for 24 hours"  
 **\<rehrar>** It's important to remember that this is a deep, nuanced, and potentially heated discussion where people hold different opinions. It's ok to disagree, and important that we navigate these discussions well.  
-**\<rehrar>** Even if you're "disgusted" by one side or the other's viewpoints, ultimately we are all talking about how to make the Monero community workgroup (and in general) better  
+**\<rehrar>** Even if you're "disgusted" by one side or the other's viewpoints, ultimately we are all talking about how to make the ByteRub community workgroup (and in general) better  
 **\<oneiric\_>** why build all this liberating tech if the community behind it becomes tyrannical?  
 **\<rehrar>** we just have different ideas on how to do so  
 **\<dsc\_>** oneiric\_: :)  
@@ -375,9 +375,9 @@ author: el00ruobuob / rehrar
 **\<oneiric\_>** what i'm arguing is how severe the consequences are, and who has the authority to dole them out  
 **\<xmrmatterbridge> \<learninandlurkin>** Well people aren't going to wait for 100% voter turnout before they ban a spammer  
 **\<midipoet>** I just don't like the idea of a formalised COC panel, and a formalised COC review board, and process, etc.  
-**\<midipoet>** Monero was supposed to move away from that formalisation, command and control. IMO  
+**\<midipoet>** ByteRub was supposed to move away from that formalisation, command and control. IMO  
 **\<rehrar>** Goodness gracious, you people.  
-**\<rehrar>** monero is STILL moving away from formalization  
+**\<rehrar>** byterub is STILL moving away from formalization  
 **\<needmoney90>** Midipoet it's not a panel or board  
 **\<needmoney90>** It's just the rules the admins enforce  
 **\<rehrar>** an workgroup is doing something different  
@@ -403,7 +403,7 @@ author: el00ruobuob / rehrar
 **\<needmoney90>** Just as some light reading material to think about.  
 **\<dEBRUYNE> \<midipoet>** I just don't like the idea of a formalised COC panel, and a formalised COC review board, and process, etc. <= Me neither. We don't need a coc to moderate a room  
 **\<xmrmatterbridge> \<learninandlurkin>** And if the mods do something that the community feels needs justification, they can do it with their own arguments without a CoC  
-**\<ErCiccione>** rehrar: you misunderstood, i'm talking about the "burocratization" of monero.  
+**\<ErCiccione>** rehrar: you misunderstood, i'm talking about the "burocratization" of byterub.  
 **\<sarang>** FWIW if another anonimal or notmike situation happened here, and there was not some kind of definite action, I will not hesitate to leave this room and say good riddance  
 **\<sarang>** I wouldn't choose to be part of such a community that allows its members to be treated that way  
 **\<sarang>** You can all do what you want  
@@ -421,7 +421,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** OK, so let's say we don't adopt a CoC  
 **\<rehrar>** and then someone is being disruptive, and the mods ban  
 **\<ErCiccione>** dEBRUYNE: +1  
-**\<xmrmatterbridge> \<learninandlurkin>** If people kick up a fuss and make some post somewhere about being "censored" in the Monero community, the readers of that post (and the OPs) will not care whether there was a CoC in place  
+**\<xmrmatterbridge> \<learninandlurkin>** If people kick up a fuss and make some post somewhere about being "censored" in the ByteRub community, the readers of that post (and the OPs) will not care whether there was a CoC in place  
 **\<rehrar>** then people will be upset that they were singled out and have no process for coming back  
 **\<rehrar>** that's EXACTLY WHAT HAPPENED this past time  
 **\<dEBRUYNE>** Yeah because sgp banned him indefinintely  
@@ -442,7 +442,7 @@ author: el00ruobuob / rehrar
 **\<sarang>** yes  
 **\<rehrar>** you're basically saying sgp and I can ban as we see fit, using heuristics and with little oversight  
 **\<dEBRUYNE>** You'd easily notice if someone came back under a different nic though  
-**\<sarang>** But what do you think Monero research feels like? Whack-a-mole with privacy. But we still do it because it's the right thing to do  
+**\<sarang>** But what do you think ByteRub research feels like? Whack-a-mole with privacy. But we still do it because it's the right thing to do  
 **\<rehrar>** whereas with a CoC at least you acn point to that and say "hey you guys aren't following the thing you say you will follow."  
 **\<midipoet>** dEBRUYNE: is writing a COC on the fly  
 **\<oneiric\_>** rehrar: your oversight is community lash back on a bad decision, like this last time  
@@ -477,8 +477,8 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** Sure, but it's pretty apparent a lot of people are of the opinion no coc is needed at all  
 **\<needmoney90>** Yes, I am happy to discuss the merits and drawbacks of any proposed coc  
 **\<rehrar>** understood  
-**\<xmrmatterbridge> \<learninandlurkin>** How about: anyone who is banned gets made the mod of a automatically generated channel "monero-community(n)" and that community can exist on its own merit  
-**\<needmoney90>** The sidebar on /r/Monero is a coc  
+**\<xmrmatterbridge> \<learninandlurkin>** How about: anyone who is banned gets made the mod of a automatically generated channel "byterub-community(n)" and that community can exist on its own merit  
+**\<needmoney90>** The sidebar on /r/ByteRub is a coc  
 **\<needmoney90>** For example  
 **\<rehrar>** and it's also apparent that a lot of people are of the opposite opinion dEBRUYNE  
 **\<needmoney90>** I'm against an absence of codified rules  

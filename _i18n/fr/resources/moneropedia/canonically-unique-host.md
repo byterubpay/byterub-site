@@ -18,9 +18,9 @@ Un hôte canonique unique est défini par des sources autoritaires distantes, co
 =======
 - un fichier de bases de données similaire à un [fichier hosts](https://en.wikipedia.org/wiki/etc/hosts)
 - un résolveur interne (qui éventuellement récupèrera des données depuis des sources externes)
->>>>>>> Ongoing Moneropedia French Translation
+>>>>>>> Ongoing ByteRubpedia French Translation
 
 ### Remarques
 
-- Monero utilise en premier lieu la résolution de @hôte-canonique-unique alors que @I2P utilise uniquement la résolution d'@hôte-unique-localement.
+- ByteRub utilise en premier lieu la résolution de @hôte-canonique-unique alors que @I2P utilise uniquement la résolution d'@hôte-unique-localement.
 - le domaine de premier niveau auto-attribué de @I2P et @Kovri est actuellement `.i2p` et @Kovri se destine à n'utiliser et ne traiter que le [domaine de premier niveau](https://fr.wikipedia.org/wiki/Top_level_domain) `.i2p`.

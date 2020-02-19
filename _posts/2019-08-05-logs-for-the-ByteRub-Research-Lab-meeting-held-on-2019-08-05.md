@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-08-05
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-08-05
 summary: Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -12,23 +12,23 @@ author: el00ruobuob / sarang
 **\<sarang>** suraeNoether says he is unavailable at this time due to an appointment  
 **\<sarang>** Agenda is here, where logs will be posted: https://github.com/byterubpay/meta/issues/381  
 **\<sarang>** GREETINGS  
-**\<needmonero90>** hello  
+**\<needbyterub90>** hello  
 **\<sarang>** Seeing as it's a quiet day, I'll move right along to ROUNDTABLE  
 **\<sarang>** I finished work on an efficient RCT3 verifier that takes advantage of Bulletproof-style inner product scaling  
 **\<sarang>** and also added fee support, which the original paper didn't natively support  
 **\<sarang>** As well as many other assorted code library updates that I'd been meaning to get to over time  
 **\<sarang>** Finally, I've been preparing for my DEF CON talk and workshop, and also made a simple CTF puzzle  
 **\<sarang>** What have other folks been working on?  
-**\<needmonero90>** nothing of particular note here, though I'm curious what the latest on the different ring signature schemes is  
+**\<needbyterub90>** nothing of particular note here, though I'm curious what the latest on the different ring signature schemes is  
 **\<sarang>** Aha, that'll be the topic of my talk!  
-**\<needmonero90>** its been on my mind :D  
+**\<needbyterub90>** its been on my mind :D  
 **\<sarang>** Why's that?  
-**\<needmonero90>** transaction efficiency (both time and space) is one of the obstacles we need to overcome  
+**\<needbyterub90>** transaction efficiency (both time and space) is one of the obstacles we need to overcome  
 **\<sarang>** Agreed  
-**\<needmonero90>** randomX seems fairly solid now  
+**\<needbyterub90>** randomX seems fairly solid now  
 **\<sarang>** Of course, these proposals aren't really long-term scaling solutions  
 **\<sarang>** but they would provide welcome improvements  
-**\<needmonero90>** Is this meeting slow because of defcon? I assume so  
+**\<needbyterub90>** Is this meeting slow because of defcon? I assume so  
 **\<sarang>** There are still some questions on an RCT3 proof that are being investigated  
 **\<sarang>** and on the possibility of Omniring efficiency improvements  
 **\<sarang>** so the status of different tx protocols may change over time  

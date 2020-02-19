@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-11-05
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-11-05
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -12,18 +12,18 @@ author: el00ruobuob / sarang
 **\<sarang>** First, GREETINGS to/from all  
 **\<sarang>** hello  
 **\<sgp\_>** hello  
-**\<sarang>** ping binaryFate dEBRUYNE endogenic hyc IsthmusCrypto gmaxwell gingeropolous moneromooo parasew[m] rehrar rrol[m] stoffu smooth UkoeHB etc  
+**\<sarang>** ping binaryFate dEBRUYNE endogenic hyc IsthmusCrypto gmaxwell gingeropolous byterubmooo parasew[m] rehrar rrol[m] stoffu smooth UkoeHB etc  
 **\<sarang>** small crowd today  
 **\<parasew[m]>** hi  
 **\<sarang>** Even so, RESEARCH UPDATE time  
 **\<sarang>** I've done some rearranging with the Lab's public-facing presentation  
-**\<sarang>** We'll be routing the old lab.getmonero.org to the new getmonero.org MRL landing page  
+**\<sarang>** We'll be routing the old lab.getbyterub.org to the new getbyterub.org MRL landing page  
 **\<sgp\_>** nice  
 **\<rehrar>** I'm here  
 **\<sarang>** This allows for translations of things like abstracts, and lets us PR new papers  
-**\<sarang>** Once this gets merged over on monero-site (hint hint nudge nudge), the three newest MRL publications will appear there  
+**\<sarang>** Once this gets merged over on byterub-site (hint hint nudge nudge), the three newest MRL publications will appear there  
 **\<sarang>** English translations only for those papers' abstracts, for the moment  
-**\<sarang>** Anyway, PR is open there: https://repo.getmonero.org/byterubpay/monero-site/merge\_requests/950  
+**\<sarang>** Anyway, PR is open there: https://repo.getbyterub.org/byterubpay/byterub-site/merge\_requests/950  
 **\<sarang>** Some format changes too; review if you like  
 **\<sarang>** I've tossed a basic noninteractive musig implementation over to the sublinear prototyping code for testing purposes  
 **\<sarang>** The usual lit review  
@@ -50,16 +50,16 @@ author: el00ruobuob / sarang
 **\<sarang>** np  
 **\<sarang>** I just finished my brief updates  
 **\<sarang>** This is a good place to jump in  
-**\<suraeNoether>** well, this weekend I spent time on matching and churn and benchmarking the known traceability attacks on monero, and how to translate similar attacks on zcash into this framework  
+**\<suraeNoether>** well, this weekend I spent time on matching and churn and benchmarking the known traceability attacks on byterub, and how to translate similar attacks on zcash into this framework  
 **\<suraeNoether>** worked on the paper for that a bit  
-**\<suraeNoether>** chatted with rehrar on the phone regarding the monero konferenco  
+**\<suraeNoether>** chatted with rehrar on the phone regarding the byterub konferenco  
 **\<suraeNoether>** i'm starting to reach out to speakers for formal invitations  
 **\<suraeNoether>** aaaand yeah, slow weekend, i've been ill :(  
 **\<suraeNoether>** i'll hopefully be pushing a bipartite graph-theoretic benchmarking tool some time this week  
 **\<suraeNoether>** hopefully first draft of this benchmark paper will be available by end of november  
 **\<sarang>** This graph matching work is quite excellent  
 **\<sarang>** It links the complexity of determining possible spends with computational problems in graph theory  
-**\<suraeNoether>** yeah, we're getting very good information on the raw computational effort and time an adversary would have to spend to "unravel" monero  
+**\<suraeNoether>** yeah, we're getting very good information on the raw computational effort and time an adversary would have to spend to "unravel" byterub  
 **\<sarang>** Can you elaborate on the tool?  
 **\<suraeNoether>** sur  
 **\<suraeNoether>** sure\*  
@@ -72,12 +72,12 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** breadth-first searches  
 **\<rehrar>** you guys are the bees knees  
 **\<suraeNoether>** so the idea is this  
-**\<sarang>** Oh, a quick housekeeping note (lest I forget) that suraeNoether and I have an open funding request for an upcoming Stanford academic conference... and there are other open requests in need of support too: https://forum.getmonero.org/8/funding-required  
-**\<suraeNoether>** if we can estimate a ballpark constant k such that it takes, worst-case, k\*r\*n^1.5 units of time to find a maximal matching on an r-regular bipartite graph with 2n nodes in it, using a dumb computer with a dumb algorithm that isn't parallelized, we can begin estimating what a large-scale perfect matching disclosure attack would do to Monero. (see here:  
+**\<sarang>** Oh, a quick housekeeping note (lest I forget) that suraeNoether and I have an open funding request for an upcoming Stanford academic conference... and there are other open requests in need of support too: https://forum.getbyterub.org/8/funding-required  
+**\<suraeNoether>** if we can estimate a ballpark constant k such that it takes, worst-case, k\*r\*n^1.5 units of time to find a maximal matching on an r-regular bipartite graph with 2n nodes in it, using a dumb computer with a dumb algorithm that isn't parallelized, we can begin estimating what a large-scale perfect matching disclosure attack would do to ByteRub. (see here:  
 **\<suraeNoether>** https://link.springer.com/chapter/10.1007/978-3-540-70630-4\_2 )  
 **\<suraeNoether>** this literally quantifies the urgency with which we need to replace ring signatures  
 **\<suraeNoether>** i have some expectations of the results, but we'll see how it all unrolls  
-**\<suraeNoether>** \*and for those who are interested\* that paper above is not one-to-one directly correlatable with Monero. comparing the results from that paper to our system is inappropriate for a handful of reasons  
+**\<suraeNoether>** \*and for those who are interested\* that paper above is not one-to-one directly correlatable with ByteRub. comparing the results from that paper to our system is inappropriate for a handful of reasons  
 **\<suraeNoether>** if anything, that paper seems more related to "what would happen if we did a fluffypony styled 30-day timed zcash sidechain?"  
 **\<sarang>** but it's a great first approach  
 **\<suraeNoether>** yeah, and i'm eager to apply the results therein with the zcash turnstile  
@@ -119,8 +119,8 @@ author: el00ruobuob / sarang
 **\<sarang>** noooo  
 **\<sarang>** -lounge  
 **\<sarang>** Anyone else with Fun Things to share?  
-**\<rehrar>** #monero-too-many-rooms-discussion  
+**\<rehrar>** #byterub-too-many-rooms-discussion  
 **\<sarang>** stahp  
-**\<suraeNoether>** i tried to get #monero-recipes off the ground, but noooo  
+**\<suraeNoether>** i tried to get #byterub-recipes off the ground, but noooo  
 **\<suraeNoether>** ok, i guess unless folks have more to talk about  
 **\<suraeNoether>** we can call this a /meeting  

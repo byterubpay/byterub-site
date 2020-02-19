@@ -56,8 +56,8 @@ author: el00ruobuob / oneiric
 **\<oneiric\_>** a lot of code from ntcp2 will be reusable, though the business logic is different  
 **\<oneiric\_>** block ordering, for example  
 **\<oneiric\_>** 4. Project funding  
-**\<oneiric\_>** will be posting a donation address on the monero reddit, tin2p-meta repo, and other places it makes sense  
-**\<oneiric\_>** atm, don't feel it's right to request full-time funding from Monero community. would like to prove the project more first  
+**\<oneiric\_>** will be posting a donation address on the byterub reddit, tin2p-meta repo, and other places it makes sense  
+**\<oneiric\_>** atm, don't feel it's right to request full-time funding from ByteRub community. would like to prove the project more first  
 **\<oneiric\_>** for those that would like to support during these early days, you are deeply loved and appreciated  
 **\<oneiric\_>** when the router is able to communicate with other routers, i will get more serious about fundraising  
 **\<oneiric\_>** comments/questions?  

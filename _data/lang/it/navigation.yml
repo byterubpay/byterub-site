@@ -1,6 +1,6 @@
 - title: Inizia da qui
   subfolderitems:
-  - page: Cos'è Monero?
+  - page: Cos'è ByteRub?
     url: get-started/what-is-monero
   - page: Utilizzo
     url: get-started/using
@@ -36,13 +36,13 @@
     url: community/merchants
 - title: Risorse
   subfolderitems:
-  - page: Riguardo Monero
+  - page: Riguardo ByteRub
     url: resources/about
   - page: Piano di sviluppo
     url: resources/roadmap
   - page: Research Lab
     url: resources/research-lab
-  - page: Moneropedia
+  - page: ByteRubpedia
     url: resources/moneropedia
   - page: Guide Utente
     url: resources/user-guides

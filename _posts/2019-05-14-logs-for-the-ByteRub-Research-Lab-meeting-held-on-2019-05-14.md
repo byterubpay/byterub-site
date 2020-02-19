@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-05-14
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-05-14
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -33,7 +33,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Yep, waiting on all authors to sign off  
 **\<suraeNoether>** MRL11 is still in progress, but now that clsag and dlsag are off my plate, it's being cranked up in terms of priority  
 **\<suraeNoether>** i anticipate rapid progress on that as well  
-**\<suraeNoether>** May 20-24, sarang and endogenic and I are doing the Monero workshop, and I believe we may be having Gao from Clemson come give us talks on starks and fully homomorphic encryption in the RLWE setting  
+**\<suraeNoether>** May 20-24, sarang and endogenic and I are doing the ByteRub workshop, and I believe we may be having Gao from Clemson come give us talks on starks and fully homomorphic encryption in the RLWE setting  
 **\<suraeNoether>** (sarang, we should do some studying before then together on that)  
 **\<sarang>** of course  
 **\<suraeNoether>** I gave a talk, sat on a panel, and gave an interview at the magical crypto conference  
@@ -50,41 +50,41 @@ author: el00ruobuob / sarang
 **\<sarang>** I had overhauled some definitions and such in the CLSAG paper, which suraeNoether has completed more edits on  
 **\<sarang>** In particular, some stuff on multi-asset transactions that could be enabled by this  
 **\<sarang>** I'll get timing data and then we can release for review  
-**\<moneromooo>** "multi-asset" being akin to coloured coins ?  
+**\<byterubmooo>** "multi-asset" being akin to coloured coins ?  
 **\<sarang>** ya  
 **\<sarang>** Not saying I'm recommending such a thing for us, but it's an easy application  
-**\<sarang>** I've been working on some draft protocols for how a Monero coinjoin could work  
+**\<sarang>** I've been working on some draft protocols for how a ByteRub coinjoin could work  
 **\<sarang>** Right now the initial scheme requires a certain amount of trust in a dealer, but is very efficient  
 **\<sarang>** This is obviously not ideal  
 **\<sarang>** MoJoin, I call it  
 **\<sarang>** FWIW it doesn't leak spend data to the dealer, only the partition of inputs-and-outputs to each player in the join  
-**\<sarang>** sgp\_ and I did two Breaking Monero episodes, one on input/output counts and one on block explorers  
+**\<sarang>** sgp\_ and I did two Breaking ByteRub episodes, one on input/output counts and one on block explorers  
 **\<sarang>** that's the main stuff for me  
 **\<suraeNoether>** oh, guys: we are deciding to extend early-bird pricing for a few more days  
 **\<suraeNoether>** i'll be advertising it  
-**\<suraeNoether>** but don't forget to get your ticket at monerokon.com before prices change, if you are still coming  
+**\<suraeNoether>** but don't forget to get your ticket at byterubkon.com before prices change, if you are still coming  
 **\<suraeNoether>** students are especially encouraged to attend; there will likely be partial rebates at the door for student tickets  
 **\<sarang>** Any particular questions for me?  
 **\<suraeNoether>** how many rounds of interaction in mojoin?  
-**\<moneromooo>** The "Gao [...] fully homomorphic" thing makes me wonder if that could not be looked at in conjunction with dealerless coinjoin :)  
+**\<byterubmooo>** The "Gao [...] fully homomorphic" thing makes me wonder if that could not be looked at in conjunction with dealerless coinjoin :)  
 **\<sarang>** 3  
 **\<sarang>** This is minimal because of the BP MPC  
-**\<suraeNoether>** yeah, that's cool. moneromooo i think that's probably a safe avenue of stuff for us to talk about  
+**\<suraeNoether>** yeah, that's cool. byterubmooo i think that's probably a safe avenue of stuff for us to talk about  
 **\<sarang>** Er, no... 4 rounds now, sorry  
 **\<sarang>** I had to make a change  
 **\<suraeNoether>** oh  
 **\<sarang>** The extra round is to avoid commitment sums being used to brute-force the partition by an observer  
 **\<sarang>** Making the resulting transaction identical to one not MoJoined (although the output count is something of a giveaway)  
-**\<moneromooo>** BTW, something I've not done in the branch is merging outputs to the same destination (originally the intent was to make Alice + Bob atomically paying Carol).  
-**\<moneromooo>** Would that be possible with the dealer based coinjoin ?  
+**\<byterubmooo>** BTW, something I've not done in the branch is merging outputs to the same destination (originally the intent was to make Alice + Bob atomically paying Carol).  
+**\<byterubmooo>** Would that be possible with the dealer based coinjoin ?  
 **\<sarang>** So A+B generate a single joint output?  
-**\<moneromooo>** yes.  
+**\<byterubmooo>** yes.  
 **\<sarang>** I don't think it's possible to do the BP MPC without leaking the full mask  
 **\<sarang>** unless that's acceptable  
-**\<moneromooo>** That's fine in that case since Alice and Bob to advertise what they're paying, since each of them verifies the other does pay.  
+**\<byterubmooo>** That's fine in that case since Alice and Bob to advertise what they're paying, since each of them verifies the other does pay.  
 **\<sarang>** Would this assume another side channel between them that's outside of the join?  
 **\<sarang>** So it'd be a plug-and-play operation into a join?  
-**\<moneromooo>** I dunno. If you need one I guess.  
+**\<byterubmooo>** I dunno. If you need one I guess.  
 **\<sarang>** Hmm  
 **\<sarang>** It's probably possible, under the right trust model between A+B  
 **\<sarang>** Of course, "probably possible" is quite the weaselworld  
@@ -92,22 +92,22 @@ author: el00ruobuob / sarang
 **\<sarang>** hi  
 **\<suraeNoether>** nbd  
 **\<sarang>** talking coinjoin  
-**\<fort3hlulz>** Whats the advantage for Monero in using a CoinJoin implementation? if its better to chat later about it Ill shutup :)  
+**\<fort3hlulz>** Whats the advantage for ByteRub in using a CoinJoin implementation? if its better to chat later about it Ill shutup :)  
 **\<suraeNoether>** no, that's a great question  
-**\<moneromooo>** It adds another layer of privacy. If Eve looks at one tx, she can't assume anymore than all the inputs are from hte same owner.  
+**\<byterubmooo>** It adds another layer of privacy. If Eve looks at one tx, she can't assume anymore than all the inputs are from hte same owner.  
 **\<sarang>** Yeah, it tries to break the common-ownership assumption  
 **\<fort3hlulz>** Ah, so its a mitigation of poisoning/EAE attacks specifically? How does it affect Tx size/blockchain bloat?  
 **\<sarang>** My thought about the dealer model (if it's a necessity, which is yet TBD) is that under a malicious dealer assumption, you basically revert back to the current model  
-**\<moneromooo>** If we're lucky, smaller txes since one single BP :)  
+**\<byterubmooo>** If we're lucky, smaller txes since one single BP :)  
 **\<sarang>** Another quick note that hyc and I had a call with Trail of Bits, an auditor who submitted a SoW  
 **\<sarang>** they'll be updating their numbers, and noted that another project may be interested in helping fund RandomX  
 **\<sarang>** We'll have a call with those folks tomorrow  
 **\<hyc>** Hi, just finished my other call  
 **\<sarang>** yo  
 **\<hyc>** yeah, some good stuff from Trail of Bits  
-**\<fort3hlulz>** Awesome, I'm excited to learn more about CoinJoin on Monero as well as CLSAG, thanks guys! Ill get out of your hair now :)  
+**\<fort3hlulz>** Awesome, I'm excited to learn more about CoinJoin on ByteRub as well as CLSAG, thanks guys! Ill get out of your hair now :)  
 **\<sarang>** Thanks for the question fort3hlulz   
-**\<sarang>** The security of coinjoins in Monero is still very much in the air  
+**\<sarang>** The security of coinjoins in ByteRub is still very much in the air  
 **\<hyc>** also for the benchmark freaks (like me) Huawei has offered to give me access to some servers with their newest chip, for benchmarking purposes  
 **\<hyc>** will be getting efficiency numbers for CN/R and RandomX on ARMv8  
 **\<suraeNoether>** ooooh  

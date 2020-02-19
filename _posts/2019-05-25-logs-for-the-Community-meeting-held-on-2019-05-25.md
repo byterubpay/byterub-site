@@ -22,7 +22,7 @@ author: el00ruobuob / rehrar
 **\<xmrmatterbridge> \<rehrar>** Well, others can trickle in as they are able.  
 **\<xmrmatterbridge> \<rehrar>** 2. CCS Stuffs.  
 **\<xmrmatterbridge> \<rehrar>** Well, before that, as always, rehrar does an incredible, impeccable, unreplaceable, and astounding job with the Revuo which has a lot of community updates.  
-**\<xmrmatterbridge> \<rehrar>** Latest is here. https://revuo-monero.com/issue-9.html  
+**\<xmrmatterbridge> \<rehrar>** Latest is here. https://revuo-byterub.com/issue-9.html  
 **\<xmrmatterbridge> \<rehrar>** I assume that's why community updates were removed, anyways.  
 **\<xmrmatterbridge> \<rehrar>** Ok, CCS Stuffs.  
 **\<xmrmatterbridge> \<rehrar>** So...first and foremost, we're in a bit of an awkward situation.  
@@ -84,7 +84,7 @@ author: el00ruobuob / rehrar
 **\<ErCiccione>** maybe for the fireice situation?  
 **\<needmoney90>** Anyways, carry on. Fluffy can respond at his leisure.  
 **\<rehrar>** refunds are incredibly rare  
-**\<rehrar>** what there is precedent for is that someone gave a good amount of money toward a proposal, in this case it was the Monero Challenge  
+**\<rehrar>** what there is precedent for is that someone gave a good amount of money toward a proposal, in this case it was the ByteRub Challenge  
 **\<rehrar>** he topped it up, and it was over 100 XMR or something like that  
 **\<rehrar>** but that proposal was already defunct  
 **\<rehrar>** he was present enough in the community, to see the thread that was made about that and made himself known, and said he was comfortable with that going to the general fund  
@@ -97,15 +97,15 @@ author: el00ruobuob / rehrar
 **\<ErCiccione>** i agree. We can just find a way to optimize those audits  
 **\<rehrar>** we also have a brand new proposal from a guy wanting us to pay to get onto his e-commerce site  
 **\<rehrar>** fresh this morning  
-**\<rehrar>** to his credit, he formatted the proposal properly, which is more than I can say for some Monero regulars :D  
-**\<rehrar>** https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/72  
+**\<rehrar>** to his credit, he formatted the proposal properly, which is more than I can say for some ByteRub regulars :D  
+**\<rehrar>** https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/72  
 **\<rehrar>** but barring that, is there any updates in terms of CCS stuff that anyone wants to give (if you're funded)  
 **\<rehrar>** no, ok  
 **\<rehrar>** 3. workgroup stuff  
 **\<rehrar>**  a. Daemon/CLI workgroup  
 **\<rehrar>** so like...core software stuff? is mooo even here?  
 **\<rehrar>** or anyone else that can speak for it  
-**\<ErCiccione>** i guess there are no updates on that side. i saw some bug fixing, but i think we are mostly waiting on pony to build. moneromooo will know better  
+**\<ErCiccione>** i guess there are no updates on that side. i saw some bug fixing, but i think we are mostly waiting on pony to build. byterubmooo will know better  
 **\<parasew[m]>** (hi everyone, sorry a bit late to meeting but reading logs now)  
 **\<rehrar>** ok  
 **\<rehrar>** b. The Localize Gang  
@@ -136,8 +136,8 @@ author: el00ruobuob / rehrar
 **\<msvb-mob>** Serially producing with injection moulding technology, which requires to decide one color and plastic chemistry.  
 **\<msvb-mob>** As well as piece producing with FDM (fused deposition modelling) leading to results each enclosure may look different (according to wishes.)  
 **\<msvb-mob>** Here are examples of FDM in house production:  
-**\<msvb-mob>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
-**\<msvb-mob>** At the top of the timeline, or a static URL is https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/t/161/  
+**\<msvb-mob>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
+**\<msvb-mob>** At the top of the timeline, or a static URL is https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/t/161/  
 **\<msvb-mob>** The survey for choosing the injection moulding color was inconclusive, here are the results:  
 **\<parasew[m]>** congrats on the enclosure!  
 **\<msvb-mob>** 39% Black  
@@ -153,13 +153,13 @@ author: el00ruobuob / rehrar
 **\<msvb-mob>** If you want to influence the way the serial produced enclosure will look, then p  
 **\<msvb-mob>** lease vote on our last chance survey, thanks.  
 **\<msvb-mob>** I'll announce the final winner before flying to Shenzhen to meet manufacturers.  
-**\<msvb-mob>** There is other activity involving the projects Monero Metal, Monero Shield, and Monero Badges.  
+**\<msvb-mob>** There is other activity involving the projects ByteRub Metal, ByteRub Shield, and ByteRub Badges.  
 **\<msvb-mob>** I'll end the monologue there, does anybody have questions?  
 **\<el00ruobuob\_[m]>** Could you share some timeline?  
 **\<el00ruobuob\_[m]>** (approx)  
 **\<msvb-mob>** el00ruobuob\_[m]: The timeline of serial production is 2 months for ABS and 2 1/2 months for PC. The PC plastic is stronger but more expensive and more difficult to produce the tool (mold) for.  
 **\<ErCiccione>** the survey doesn't work for me. It hangs when i click next and nothing happens.  
-**\<rehrar>** what is the status of the hardware wallet itself? Is it waiting on firmware? Is it possible to sign Monero transactions? etc.  
+**\<rehrar>** what is the status of the hardware wallet itself? Is it waiting on firmware? Is it possible to sign ByteRub transactions? etc.  
 **\<el00ruobuob\_[m]>** working fine on chrome ErCiccione   
 **\<rehrar>** are any of the two existing versions more complete than the other?  
 **\<msvb-mob>** ErCiccione: That's bad news, I don't know how to maintain it as it's Zoho hosted.  
@@ -167,7 +167,7 @@ author: el00ruobuob / rehrar
 **\<msvb-mob>** rehrar: I think your question is 'Of two active wallet development branches, which is more complete?'  
 **\<rehrar>** correct  
 **\<msvb-mob>** The answer is that the trunk (head or main according to Git) is the safer long term choice but more advanced. The revstm branch is more complete, but not as good.  
-**\<rehrar>** I see. And is the trunk able to interact with Monero in the way we'd like it to?  
+**\<rehrar>** I see. And is the trunk able to interact with ByteRub in the way we'd like it to?  
 **\<rehrar>** or is that still a ways off?  
 **\<msvb-mob>** This is better: https://github.com/byterubpay/kastelo/tree/master/hardware/breakneck/  
 **\<msvb-mob>** ...but this is tested: https://github.com/byterubpay/kastelo/tree/revstm/hardware/breakneck/  
@@ -184,18 +184,18 @@ author: el00ruobuob / rehrar
 **\<rehrar>** or is there another reason for the secrecy?  
 **\<msvb-mob>** rehrar: There is another reason for secrecy. Half absurd and half okay.  
 **\<ErCiccione>** msv-mob: very likely, yes  
-**\<msvb-mob>** Any other questions for Monero Hardware or shall rehrar move to the next topic?  
-**\<nevvton[m]>** what did you have in mind earlier - with the projects: Monero Metal, Monero Shield, and Monero Badges. .. could you elaborate?  
-**\<msvb-mob>** Monero Metal is a indistructable (up to 2000 degrees heat) metal wallet.  
-**\<msvb-mob>** Monero Shield is a Euroshield clone that's a shoebox size for mobility.  
-**\<msvb-mob>** Monero badges are simply a number of designs for events.  
+**\<msvb-mob>** Any other questions for ByteRub Hardware or shall rehrar move to the next topic?  
+**\<nevvton[m]>** what did you have in mind earlier - with the projects: ByteRub Metal, ByteRub Shield, and ByteRub Badges. .. could you elaborate?  
+**\<msvb-mob>** ByteRub Metal is a indistructable (up to 2000 degrees heat) metal wallet.  
+**\<msvb-mob>** ByteRub Shield is a Euroshield clone that's a shoebox size for mobility.  
+**\<msvb-mob>** ByteRub badges are simply a number of designs for events.  
 **\<msvb-mob>** You know, badges.  
 **\<nevvton[m]>** certainly i've seen and enjoyed your badges..  
 **\<msvb-mob>** I actually have no idea how hot Ainsi183 steel can become before being damaged.  
 **\<rehrar>** Alright. Last call for questions.  
 **\<rehrar>** or we'll be moving along here  
 **\<nevvton[m]>** i am ahving a look into these euroshields, as i am not familiar w/ them.. might ask later in detail  
-**\<parasew[m]>** re:steel - i think if you shoot it to the moon it would be ok (monero to the moon), but we need some material for "monero to the sun"  
+**\<parasew[m]>** re:steel - i think if you shoot it to the moon it would be ok (byterub to the moon), but we need some material for "byterub to the sun"  
 **\<rehrar>** Alright everyone. Open Ideas Time.  
 **\<msvb-mob>** \\Thanks to everyone for participating in the enclosure survey: https://survey.zohopublic.com/zs/G6CNEI  
 **\<rehrar>** Anything at all can be discussed. Have at it.  
@@ -207,7 +207,7 @@ author: el00ruobuob / rehrar
 **\<msvb-mob>** ErCiccione, that's quite a good idea. If anyone gives a suggestion, I'll use it.  
 **\<msvb-mob>** If there are no open ideas, would nevvton and parasew please give a summary of RIAT activities?  
 **\<ErCiccione>** msvb-mob: i used some in past, if i find the names again i will drop a comment here or somewhere else.  
-**\<msvb-mob>** ErCiccione: Thanks, I'll be in China for a while, so write hardware@getmonero.org.  
+**\<msvb-mob>** ErCiccione: Thanks, I'll be in China for a while, so write hardware@getbyterub.org.  
 **\<ErCiccione>** will do. have a nice trip :)  
 **\<rehrar>** we're closing on the hour here people  
 **\<rehrar>** chop cho  

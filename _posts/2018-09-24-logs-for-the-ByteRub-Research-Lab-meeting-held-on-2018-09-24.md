@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-09-24
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-09-24
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -26,7 +26,7 @@ author: el00ruobuob / surae
 **\<nioc>** np my comment was about the order  
 **\<suraeNoether>** so. \*crosses legs\* who has some thoughts for the MRL guys?  
 **\<sarang>** Anyone? Bueller?  
-**\<oneiric\_>** are cancellable signatures possible with monero?  
+**\<oneiric\_>** are cancellable signatures possible with byterub?  
 **\<nioc>** I see that the BPs were just tweaked,  are we all set now?  
 **\<silur>** you mean (un)denyable signatures?  
 **\<silur>** \*(un)deniable  
@@ -77,10 +77,10 @@ author: el00ruobuob / surae
 **\<sarang>** nice  
 **\<endogenic>** coolio  
 **\<oneiric\_>** right on  
-**\<suraeNoether>** I also am waiting on a few more quotes from  venues for the Monero Konferenco, named by rehrar (I kind of like Monero in the Mountains, or Ring Signatures on the Rockies, but tbqh, Monero Konferenco has a Mortal Kombat feel to it, and I kinda love it)  
+**\<suraeNoether>** I also am waiting on a few more quotes from  venues for the ByteRub Konferenco, named by rehrar (I kind of like ByteRub in the Mountains, or Ring Signatures on the Rockies, but tbqh, ByteRub Konferenco has a Mortal Kombat feel to it, and I kinda love it)  
 **\<suraeNoether>** The remainder of this week? More DLSAG, more fulmo, more research into accumulators... OH OH OH  
 **\<suraeNoether>** I also have a question for the community, but I'll wait until Sarang has gone and anyone else who wants to contribute  
-**\<oneiric\_>** dun dun dun dada dun.. Monero Kooooonferenco!!  
+**\<oneiric\_>** dun dun dun dada dun.. ByteRub Kooooonferenco!!  
 **\<sarang>** Sure  
 **\<endogenic>** can we pls work in some lotr references like Council of Elrond?  
 **\<suraeNoether>** NO  
@@ -94,11 +94,11 @@ author: el00ruobuob / surae
 **\<oneiric\_>** that sounds like a very cool thing  
 **\<sarang>** Yeah, it's a big time investment but fortunately I work remotely anyway, amirite?  
 **\<suraeNoether>** will you be needing financial support for it, or would those organizers be compensating you?  
-**\<nioc>** https://forum.getmonero.org/7/open-tasks/90857/sarang-re-present-at-kyiv-hackathon  
+**\<nioc>** https://forum.getbyterub.org/7/open-tasks/90857/sarang-re-present-at-kyiv-hackathon  
 **\<sarang>** They're compensating flight and some hotel. With local transportation, M&IE, and hotel, it'd run about 9 XMR community funding  
 **\<nioc>** cheap  
 **\<suraeNoether>** oh hehe  
-**\<sarang>** Would be nice to reach out to that part of the world, getting technical folks thinking about and hacking on Monero  
+**\<sarang>** Would be nice to reach out to that part of the world, getting technical folks thinking about and hacking on ByteRub  
 **\<sarang>** Anyway, open to comments  
 **\<sarang>** it'd be in a couple of weeks  
 **\<endogenic>** do you know anyone there?  
@@ -118,7 +118,7 @@ author: el00ruobuob / surae
 **\<silur>** I got into a spaghetti of proofs on my quantumVRF not much advance there  
 **\<endogenic>** i'll keep an eye out  
 **\<suraeNoether>** Another bit of work; sgp and I are contributing to a friend's educational outreach project. the idea is to provide a privacy breakdown of all the different privacy coins out there, at a level that someone with some computer science and/or math experience can understand, but without requiring a Masters or PhD to get  
-**\<suraeNoether>** I'm not sure exactly how public that is, but I plan on putting a few hours into some writing on that later this week, especially in the Monero sections  
+**\<suraeNoether>** I'm not sure exactly how public that is, but I plan on putting a few hours into some writing on that later this week, especially in the ByteRub sections  
 **\<endogenic>** nice  
 **\<sarang>** oh interesting  
 **\<sarang>** Well I take it there's no big opposition to speaking to Kyiv  
@@ -161,17 +161,17 @@ author: el00ruobuob / surae
 **\<vegasbaby>** Donations for FFS rework?!?  
 **\<vegasbaby>** Plz let me give my money :D  
 **\<suraeNoether>** okay, last topic I want to discuss is... a little out of the blue, and Sarang and I want some input from the community regarding a Conflicts of Interest Policy for MRL, or some sort of ethics policy....  
-**\<suraeNoether>**  We really bend over backwards to state in our papers that our research is paid for in Monero, for the same reason that doctors funded by pharma companies \*are ethically obligated\* to disclose those conflicts of interest.  
+**\<suraeNoether>**  We really bend over backwards to state in our papers that our research is paid for in ByteRub, for the same reason that doctors funded by pharma companies \*are ethically obligated\* to disclose those conflicts of interest.  
 **\<suraeNoether>** However, as everyone is aware, there is an epidemic of unethically plausible reporting.  
 **\<suraeNoether>** We see very often  that Coin X is being described in Magazine Y, and they interview researchers P, Q, and R, some of whom are paid in Coin X, and this conflict is not described in the article.  
 **\<crCr62U0>** I'm asking about longterm in order to have time to learn something; It's difficulty to be successful in shortterm tasks due to lack of experience and mind abilities.  
 **\<suraeNoether>** we suspect that putting out such a policy, even though it is totally nonbinding, since we are a headless entity with no authorities... we think that putting out such a policy would goad other coins to do something similar, to put out their own ethics policies  
 **\<crCr62U0>** \*to be competitive(successful) among others  
 **\<suraeNoether>** crCr62U0: your question about research tasks that the community can contribute to... let's get back to that in a moment. we are overflowing with problems to solve and infrastructure in the coding department that would make our research lives easier  
-**\<endogenic>** crCr62U0: yes, to contribute you need to know a little about monero first, then you'll find some problems there. one of them is replacing ringsigs with something better than zksnarks  
+**\<endogenic>** crCr62U0: yes, to contribute you need to know a little about byterub first, then you'll find some problems there. one of them is replacing ringsigs with something better than zksnarks  
 **\<endogenic>** suraeNoether: sounds good to me  
 **\<suraeNoether>** so if you need something to do, we can definitely point you in a direction none of us currently have time for :D  
-**\<binaryFate>** suraeNoether it's a great idea. Regardless of what other coins are doing, making the ethic already there in Monero/MRL more visible and clear to the outside world is a net positive.  
+**\<binaryFate>** suraeNoether it's a great idea. Regardless of what other coins are doing, making the ethic already there in ByteRub/MRL more visible and clear to the outside world is a net positive.  
 **\<suraeNoether>** i agree, binaryFate   
 **\<sarang>** As to research, it's problematic  
 **\<sarang>** There's a big learning curve to do big bluesky work  
@@ -182,12 +182,12 @@ author: el00ruobuob / surae
 **\<sarang>** sure  
 **\<suraeNoether>** okay, so my question to the community is  
 **\<IsthmusCrypto>** @suraeNoether I hadn't thought about the disclosure before, and I think you have a good point. And while the headless entity cannot enforce it, it does protect the headless entity.  
-**\<IsthmusCrypto>**  In the unlikely case that some Monero dev or researcher presents unethically without full disclosure, we can point to that as a violation of community policy. Meaning that the person was communicating in a sketchy way, and not the community acting in a sketchy way.  
+**\<IsthmusCrypto>**  In the unlikely case that some ByteRub dev or researcher presents unethically without full disclosure, we can point to that as a violation of community policy. Meaning that the person was communicating in a sketchy way, and not the community acting in a sketchy way.  
 **\<sarang>** It also helps guide other projects to the same idea, I hope  
 **\<sarang>** and is a statement about our intent to do honest work  
 **\<suraeNoether>** so my question to the community is simple: what do we want to see in our ethics policy?  
-**\<sarang>** I think the biggest thing is disclosure of funding specifically tailored around research/dev for Monero  
-**\<sarang>** e.g. "Sarang Noether receives Monero community funding, paid in XMR, to do full-time R&D for the Monero Research Lab, a workgroup of the Monero Project"  
+**\<sarang>** I think the biggest thing is disclosure of funding specifically tailored around research/dev for ByteRub  
+**\<sarang>** e.g. "Sarang Noether receives ByteRub community funding, paid in XMR, to do full-time R&D for the ByteRub Research Lab, a workgroup of the ByteRub Project"  
 **\<suraeNoether>** i think MRL researchers should not go off and start their own coins while working at MRL, even if they do so fairly  
 **\<sarang>** ehhhhh  
 **\<sarang>** should it be that broad?  
@@ -197,7 +197,7 @@ author: el00ruobuob / surae
 **\<endogenic>** i think at the last it has to require disclosure of material facts  
 **\<endogenic>** at the least  
 **\<suraeNoether>** maybe not, but my goal in that regard is: i don't want someone claiming they work for/at MRL while they are shilling/pumping their own project  
-**\<sarang>** I would care to know if a Monero researcher does have their own coin  
+**\<sarang>** I would care to know if a ByteRub researcher does have their own coin  
 **\<suraeNoether>** okay, if we stick with disclosure, i'm cool with that, too  
 **\<suraeNoether>** maybe  
 **\<silur>** oh yea that policy was actually active in ethereum foundation too  
@@ -221,7 +221,7 @@ author: el00ruobuob / surae
 **\<sarang>** Well, and researchers \_do\_ collaborate  
 **\<sarang>** We don't want to discourage that  
 **\<sarang>** We should encourage it, with disclosure  
-**\<IsthmusCrypto>** And I do like the ideas in the brief example statement from @sarang regarding conflict of interest disclosure. I think that "supported by funding from the Monero community" is more important than "paid in Monero"  
+**\<IsthmusCrypto>** And I do like the ideas in the brief example statement from @sarang regarding conflict of interest disclosure. I think that "supported by funding from the ByteRub community" is more important than "paid in ByteRub"  
 **\<sarang>** IsthmusCrypto: agreed  
 **\<sarang>** generally  
 **\<silur>** totally agreed  
@@ -249,12 +249,12 @@ author: el00ruobuob / surae
 **\<sarang>** and participation  
 **\<sarang>** and that reputation is basically all internal to the project  
 **\<endogenic>** i mean no legal status  
-**\<rehrar>** this arm of Monero is honestly the one that would be under the most scrutiny apart from the coding, so I think it's quite important  
+**\<rehrar>** this arm of ByteRub is honestly the one that would be under the most scrutiny apart from the coding, so I think it's quite important  
 **\<IsthmusCrypto>** (that reminds me, I will be uploading meeting notes once I get a break from a current metaphorical tsunami at work)  
-**\<endogenic>** historically, the community has either hired Noethers directly or the Noethers have published something for monero that the rest of the Noethers agree on .. is that incorrect anywhere?  
+**\<endogenic>** historically, the community has either hired Noethers directly or the Noethers have published something for byterub that the rest of the Noethers agree on .. is that incorrect anywhere?  
 **\<endogenic>** i would have to speak to an attorney or two about legal status, copyright, etc  
 **\<suraeNoether>** endogenic: no, I had almost zero interaction with shen regarding ringct. :P MRL is even more headless than your description  
-**\<sarang>** At the very least, we have no formal guidelines for putting "Monero Research Lab" as a title/tagline  
+**\<sarang>** At the very least, we have no formal guidelines for putting "ByteRub Research Lab" as a title/tagline  
 **\<endogenic>** yeah but who published his paper on MRL  
 **\<suraeNoether>** i dunno, fluffypony?  
 **\<sarang>** It just really hasn't been tested by anyone  
@@ -278,7 +278,7 @@ author: el00ruobuob / surae
 **\<fluffypony>** "putting out MRL work" == merged into the research-lab repo  
 **\<rehrar>** doing something like this is saying the community has vetted and found these two, so you don't have to vet  
 **\<fluffypony>** and those merges are controlled  
-**\<fluffypony>** the same way anyone can work on Monero's source code  
+**\<fluffypony>** the same way anyone can work on ByteRub's source code  
 **\<sarang>** True, but is the concern more about claiming representation from others rehrar?  
 **\<fluffypony>** doesn't mean we'll merge something that introduces a backdoro  
 **\<fluffypony>** \*backdoor  
@@ -301,7 +301,7 @@ author: el00ruobuob / surae
 **\<sarang>** good point  
 **\<suraeNoether>** yeah, i agree  
 **\<binaryFate>** was there any such attempt of claiming MRL relations for unethical or random reasons? Or is this all abstract discussion?  
-**\<suraeNoether>** binaryFate: when sarang and i met endo in person at the beginning fo this month, we discussed the general phenomena i described regarding too-plausible reporting that doesn't display conflicts of interest. nothing about \*monero\* right now is drifting us in that direction, it was just an idea we had about the overall cryptocurrency space.  
+**\<suraeNoether>** binaryFate: when sarang and i met endo in person at the beginning fo this month, we discussed the general phenomena i described regarding too-plausible reporting that doesn't display conflicts of interest. nothing about \*byterub\* right now is drifting us in that direction, it was just an idea we had about the overall cryptocurrency space.  
 **\<sarang>** I think binaryFate means the MRL formalization comments  
 **\<suraeNoether>** right, all of this is coming from that one discussion; the answer is no, there have not been any attempts to impersonate me or sarang yet, afaik  
 **\<sarang>** Shall we address the idea of to-do?  
@@ -310,7 +310,7 @@ author: el00ruobuob / surae
 **\<sarang>** (we are over time, if anyone needs to go)  
 **\<suraeNoether>** here is our current "road map" with some things ticked off. It could be slightly out of date. https://github.com/byterubpay/research-lab/issues/29  
 **\<suraeNoether>** in general, I would really really like a transaction tree visualization tool  
-**\<suraeNoether>** or something that scrapes statistics from teh monero blockchain in genreal  
+**\<suraeNoether>** or something that scrapes statistics from teh byterub blockchain in genreal  
 **\<suraeNoether>** From the cryptographic point of view, we are interested in replacing ring signatures with something that has decently large anonymity sets, no trusted set-ups (say ZK-STARKs)...  
 **\<suraeNoether>** but the replacement must be sufficiently efficient in both space and verification time that total time-to-download-and-verify the blockchain (an up-front cost for new members to join the network) is manageable over the next several years, and preferably should also have greater security claims than computational unforgeability.   
 **\<sarang>** More pointedly, I have been thinking lately about the state of our current primitives and their implementations  

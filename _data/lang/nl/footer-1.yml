@@ -1,8 +1,8 @@
 - title: Informatie
   subfolderitems:
-  - name: Over Monero
+  - name: Over ByteRub
     url: resources/about/
-  - name: Moneropedia
+  - name: ByteRubpedia
     url: resources/moneropedia/
   - name: Handleidingen voor ontwikkelaars
     url: resources/developer-guides/
@@ -46,7 +46,7 @@
     url: https://openalias.org/
   - name: Kovri
     url: https://kovri.io/
-  - name: Monero Research Lab
+  - name: ByteRub Research Lab
     url: resources/research-lab/
-  - name: Monero Press Kit
+  - name: ByteRub Press Kit
     url: press-kit

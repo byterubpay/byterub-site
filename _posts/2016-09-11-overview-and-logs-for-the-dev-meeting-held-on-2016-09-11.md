@@ -18,7 +18,7 @@ author: dEBRUYNE / fluffypony
 **\<DaveyJones>** luigi1112, listening or cruising ;)  
 **\<DaveyJones>** jwinterm  
 **\<fluffypony>** lol  
-**\<fluffypony>** hyc and moneromooo are around afaik  
+**\<fluffypony>** hyc and byterubmooo are around afaik  
 **\<tewinget>** fluffypony: if you wanna just give a list of things to cover, one of us can conduct the meeting.  (assuming you don't wanna have to type a shitload on your phone)  
 **\<fluffypony>** Well I think let's start with 0MQ, tewinget  
 **\<fluffypony>** Then you can talk and I don't have to  
@@ -53,7 +53,7 @@ author: dEBRUYNE / fluffypony
 **\<tewinget>** yea, I might make TLS and auth a priority ahead of wallet RPC (since it will need auth anyway)  
 **\<tewinget>** other than that, not really.  
 **\<tewinget>** carry on.  
-**\<moneromooo>** "I can't make it nonzero" <-- excellent!  
+**\<byterubmooo>** "I can't make it nonzero" <-- excellent!  
 **\<fluffypony>** Hokay  
 **\<fluffypony>** LOL  
 **\<fluffypony>** Nice catch  
@@ -62,7 +62,7 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** just tuning in, was teaking my ARM code  
 **\<tewinget>** god dammit.  
 **\<fluffypony>** Instant delivery!  
-**\<tewinget>** well, moneromooo, I can't  
+**\<tewinget>** well, byterubmooo, I can't  
 **\<tewinget>** because it has to use ZERO MQ  
 **\<fluffypony>** Hah hah  
 **\<tewinget>** #SavedIt  
@@ -75,17 +75,17 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** For all projects, including Kovri  
 **\<hyc>** nice  
 **\<pigeons>** Hi guys. :)  
-**\<moneromooo>** Hi  
+**\<byterubmooo>** Hi  
 **\<hyc>** hey there  
 **\<fluffypony>** pigeons: tell us a bit about yourself or whatever  
 **\<fluffypony>** "Long walks on the beach" and all that  
 **\<hyc>** I guess the population explosion kinda demanded more ops  
-**\<moneromooo>** I see what a sysop is, but not a devop.  
+**\<byterubmooo>** I see what a sysop is, but not a devop.  
 **\<pigeons>** I like pina coladas and getting lost in te rain. Ive been syadmin type stuff forever.  
 **\<ArticMine>** Hi pigeons  
-**\<fluffypony>** moneromooo: devops is like CI and build boxes and that  
+**\<fluffypony>** byterubmooo: devops is like CI and build boxes and that  
 **\<pigeons>** devops is the new term for brogrammers who use docker and jenkins CI etc  
-**\<moneromooo>** Oh nice :)  
+**\<byterubmooo>** Oh nice :)  
 **\<fluffypony>** Hah hah  
 **\<hyc>** I think a devop is a developer with rootpw on all production machines. sysaop's worst nightmare :P  
 **\<fluffypony>** Devops-as-a-Service  
@@ -134,7 +134,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** Ok then FreeBSD  
 **\<fluffypony>** Has anyone tried the WIP boost 1.60 port on BSD?  
 **\<hyc>** haven't touched BSD in years  
-**\<i2p-relay> {-anonimal}** Last I checked, build failed hard on freebsd for monero.  
+**\<i2p-relay> {-anonimal}** Last I checked, build failed hard on freebsd for byterub.  
 **\<i2p-relay> {-anonimal}** Works with kovri.  
 **\<fluffypony>** xmj is our resident BSD expert and even he hasn't touched boost 1.60  
 **\<fluffypony>** If anyone wants to volunteer to play with that great  
@@ -143,31 +143,31 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** hyc how do you guys handle packaging for like Debian / Ubuntu?  
 **\<hyc>** eh, OpenLDAP Project is source-code only, distros do their own packaging  
 **\<fluffypony>** Coz my concern with farming it out is that we end up with old versions on old distros  
-**\<i2p-relay> {-anonimal}** fluffypony: I was planning to work with the monero bsd build (only freebsd though) once we get kovri releases going  
+**\<i2p-relay> {-anonimal}** fluffypony: I was planning to work with the byterub bsd build (only freebsd though) once we get kovri releases going  
 **\<hyc>** yes, that's a pervasive problem with distros  
 **\<fluffypony>** Tks anonimal - I'll also fiddle  
 **\<fluffypony>** When I have time, so never :-P  
 **\<fluffypony>** Ok next thing  
-**\<fluffypony>** moneromooo: want to talk about the rct serialisation changes?  
+**\<fluffypony>** byterubmooo: want to talk about the rct serialisation changes?  
 **\<fluffypony>** And the impact on testnet  
-**\<moneromooo>** It's finished. It's on github ready to merge. And it will need reorganizing on testnet, yes.  
-**\<moneromooo>** So, I guess someone with hash power will have to pop N blocks till before v4, and mine.  
-**\<moneromooo>** After a few daysm it'll reorg for everyone :)  
-**\<moneromooo>** And we'll get to test deep reogs.  
+**\<byterubmooo>** It's finished. It's on github ready to merge. And it will need reorganizing on testnet, yes.  
+**\<byterubmooo>** So, I guess someone with hash power will have to pop N blocks till before v4, and mine.  
+**\<byterubmooo>** After a few daysm it'll reorg for everyone :)  
+**\<byterubmooo>** And we'll get to test deep reogs.  
 **\<hyc>** so anyone mining testnet right now should stop  
-**\<moneromooo>** Unless you want to test stuff.  
+**\<byterubmooo>** Unless you want to test stuff.  
 **\<iDunk>** i exported the raw blockchain up to 800499. that's before v3, right?  
 **\<tewinget>** well that's not entirely necessary >\*\*\_>\*\*  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Yes.  
 **\<iDunk>** and v4 is... ?  
 **\<iDunk>** 802000 or so iirc ?  
-**\<moneromooo>** 801220  
+**\<byterubmooo>** 801220  
 **\<jjiia>** XMR up or down  
 **\<iDunk>** ah, k  
 **\<fluffypony>** I think my miner is off atm  
 **\<fluffypony>** it had that hiccup and I never fixed it coz stuff  
-**\<moneromooo>** rct soon!  
-**\<fluffypony>** ok so moneromooo  
+**\<byterubmooo>** rct soon!  
+**\<fluffypony>** ok so byterubmooo  
 **\<ArticMine>** It had to be done  
 **\<MalMen>** are you guys forking the testnet ?  
 **\<fluffypony>** when it loads the blockchain on the new code  
@@ -177,20 +177,20 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** and rollback?  
 **\<fluffypony>** anonimal: CD? like compact discs?  
 **\<i2p-relay> {-anonimal}** Laser-only releases  
-**\<moneromooo>** It'll probably moan a bit, but not overly.  
+**\<byterubmooo>** It'll probably moan a bit, but not overly.  
 **\<fluffypony>** :-P  
 **\<fluffypony>** ok but what I mean is  
 **\<fluffypony>** when we load a blockchain off disk we don't re-verify  
 **\<MalMen>** the dev meeting is still going on or to late ?  
 **\<fluffypony>** so will we have to manually pop blocks?  
 **\<dEBRUYNE>** still going on MalMen   
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Yes.  
 **\<fluffypony>** ok so I'll merge tomorrow afternoon, gives us a day for review  
-**\<moneromooo>** Just the miner. Others will just reorg when the miner passes the old chain's diff.  
-**\<moneromooo>** (hopefully)  
+**\<byterubmooo>** Just the miner. Others will just reorg when the miner passes the old chain's diff.  
+**\<byterubmooo>** (hopefully)  
 **\<fluffypony>** and then I'll do some block-popping tomorrow night  
 **\<fluffypony>** and hopefully deep reorgs  
-**\<moneromooo>** luigi1112: btw, you'll want to read the latest get_transaction_hash and comment. It's still 3 parts.  
+**\<byterubmooo>** luigi1112: btw, you'll want to read the latest get_transaction_hash and comment. It's still 3 parts.  
 **\<fluffypony>** ok  
 **\<fluffypony>** then the next thing is our hard fork date and the next release  
 **\<fluffypony>** we're planning on finalising final bits and releasing 0.10 shortly  
@@ -246,13 +246,13 @@ author: dEBRUYNE / fluffypony
 **\<ferretinjapan>** that only had 8 guys  
 **\<fluffypony>** ferretinjapan: lol  
 **\<lurker>** a quick update on multisig preferably  
-**\<moneromooo>** Do you want to wait for the fee change before binaries ?  
+**\<byterubmooo>** Do you want to wait for the fee change before binaries ?  
 **\<fluffypony>** lurker: https://shnoe.wordpress.com/2016/03/22/ring-multisignature/  
 **\<fluffypony>** it's whitepaper-only right now  
 **\<kintaji>** fluffpony - the GUI wallet. Languages and regional variations.  
 **\<fluffypony>** oh  
 **\<Kermit_>** Hi guys can I ask about public wallet build release dates  
-**\<fluffypony>** yes moneromooo thanks for reminding me  
+**\<fluffypony>** yes byterubmooo thanks for reminding me  
 **\<fluffypony>** tag->release->binaries will be in the coming week, hopefully  
 **\<fluffypony>** there are two things still remaining  
 **\<fluffypony>** 1. fee changes (lower min-fee, bind it to the inverse of the block median as suggested by ArticMine)  
@@ -260,10 +260,10 @@ author: dEBRUYNE / fluffypony
 **\<MalMen>** tewinget can you point me to the list of 0qm commands that you have already?  
 **\<fluffypony>** and we rely on DNSSEC for ByteRubSeeds and ByteRubPulse  
 **\<MalMen>** I have some sugestion  
-**\<ArticMine>** moneromooo is coding the fee changes  
+**\<ArticMine>** byterubmooo is coding the fee changes  
 **\<fluffypony>** there's some time pressure on that, but it's not a huge piece of work, so if anyone is up for it then that would be appreciated  
 **\<fluffypony>** if not it'll have to hold off till the next release  
-**\<moneromooo>** Yes, I started looking at it this afternoon. Not a simple change, since it'll require a new RPC, and access to median block size calc in misc places.  
+**\<byterubmooo>** Yes, I started looking at it this afternoon. Not a simple change, since it'll require a new RPC, and access to median block size calc in misc places.  
 **\<fluffypony>** ok  
 **\<dEBRUYNE>** fluffypony: would it be feasible to provide trezor binaries?   
 **\<fluffypony>** dEBRUYNE: I haven't actually looked at it properly, and NoodleDoodle isn't around to give his opinion  
@@ -276,7 +276,7 @@ author: dEBRUYNE / fluffypony
 **\<Kermit_>** Thanks  
 **\<fluffypony>** kintaji: yeah maybe best thing to do is drop it out the wizard initially  
 **\<fluffypony>** and add it back in later on  
-**\<tewinget>** MalMen: have a look at https://www.github.com/tewinget/bitmonero/tree/zmq-dev, file src/rpc/daemon_messages.h.  I need to do a bit of write-up, but that's a good place to start.  
+**\<tewinget>** MalMen: have a look at https://www.github.com/tewinget/bitbyterub/tree/zmq-dev, file src/rpc/daemon_messages.h.  I need to do a bit of write-up, but that's a good place to start.  
 **\<kintaji>** fluffypony - yep. sounds like a good idea.  
 **\<fluffypony>** ok anything else or can we start the Kovri meeting?  
 **\<hyc>** any other volunteers to test ARMv8 builds?  

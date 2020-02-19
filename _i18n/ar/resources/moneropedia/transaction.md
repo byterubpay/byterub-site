@@ -1,12 +1,12 @@
 ---
 terms: ["transaction", "transactions"]
-summary: "a cryptographically signed container that details the transfer of Monero to a recipient (or recipients)"
+summary: "a cryptographically signed container that details the transfer of ByteRub to a recipient (or recipients)"
 ---
 
 {% include untranslated.html %}
 ### The Basics
 
-A cryptographically signed container that details the transfer of Monero to a recipient (or recipients).
+A cryptographically signed container that details the transfer of ByteRub to a recipient (or recipients).
 
 The parameters of a transaction contain one or more recipient addresses with corresponding amounts of funds and a @ring-size parameter that specifies the number outputs bound to the transaction. The more outputs that are used, a higher degree of obfuscation is possible, but that comes with a cost. Since a transaction gets larger with more outputs, the transaction fee will be higher.
 
@@ -19,4 +19,4 @@ Every transaction involves two keys: a public @spend-key, and a public @view-key
 
 When a wallet is scanning for incoming transactions, every transaction is scanned to see if it is for "you". This only requires your private view key and your public spend key, and this check is immutable and cannot be faked. You cannot receive transactions and identify them without a corresponding private view key.
 
-In order to spend the funds you have to compute a one-time private spend key for that output.  This is almost always done automatically by the Monero Wallet software.
+In order to spend the funds you have to compute a one-time private spend key for that output.  This is almost always done automatically by the ByteRub Wallet software.

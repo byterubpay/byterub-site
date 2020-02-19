@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-12-17).  
+An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-12-17).  
 
 # Logs  
 
@@ -23,13 +23,13 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** well Bulletproofs went live on testnet  
 **\<fluffypony>** so there's that  
 **\<fluffypony>** and we merged some stuff  
-**\<fluffypony>** moneromooo: anything in particular you want to highlight?  
-**\<moneromooo>** Ah, whether to enable them for v7 or v8 on mainnet.  
+**\<fluffypony>** byterubmooo: anything in particular you want to highlight?  
+**\<byterubmooo>** Ah, whether to enable them for v7 or v8 on mainnet.  
 **\<fluffypony>** that's the next point  
 **\<fluffypony>** I meant anything in 2. you want to highlight :)  
-**\<moneromooo>** Not in particular,  no.  
+**\<byterubmooo>** Not in particular,  no.  
 **\<HUCK45>** Hey all, I just saw that awesome project recently and a question came to my mind- why there isn’t any option for GPU mining instead of CPU? Browsers these days allow that, by webgl for example (depending on the user settings, but on default it uses gpu)  
-**\<fluffypony>** HUCK45: we're in a meeting - feel free to take that to #monero  
+**\<fluffypony>** HUCK45: we're in a meeting - feel free to take that to #byterub  
 **\<rehrar>** HUCK45 we're in a dev meeting right now. :) This'll have to wait.  
 **\<suraeNoether>** as far as MRL is concerned: the math on bulletproofs seems tight, but the best test for cryptography is time  
 **\<fluffypony>** ok so I'll highlight a few PRs  
@@ -41,53 +41,53 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** Bulletproofs on testnet is in #2883  
 **\<fluffypony>** which brings us to 3. March hardfork items + code freeze  
 **\<fluffypony>** so v7 already has sorted inputs  
-**\<fluffypony>** moneromooo: do you want to explain that?  
-**\<moneromooo>** Sorted inputs? Or bp ?  
-**\<moneromooo>** I assume bp. They're just a smaller sized range proof system.  
+**\<fluffypony>** byterubmooo: do you want to explain that?  
+**\<byterubmooo>** Sorted inputs? Or bp ?  
+**\<byterubmooo>** I assume bp. They're just a smaller sized range proof system.  
 **\<fluffypony>** sorted inputs  
 **\<fluffypony>** I assume everyone knows what BP is  
-**\<moneromooo>** Well, just... sort inputs by their key image. Nothing more.  
+**\<byterubmooo>** Well, just... sort inputs by their key image. Nothing more.  
 **\<iDunk>** Is it like unsorted inputs, but sorted ?  
 **\<fluffypony>** iDunk: kinda  
 **\<gingeropolous>** and why sort?  
-**\<moneromooo>** Kinda :)  
+**\<byterubmooo>** Kinda :)  
 **\<fluffypony>** gingeropolous: that's the big question  
 **\<iDunk>** Cool :)  
 **\<gingeropolous>** :)  
 **\<fluffypony>** it's to prevent metadata leaking  
 **\<fluffypony>** eg. the specific wallet used for a tx  
-**\<moneromooo>** To avoid broken implementations leak stuff. It'd be better for outputs (ie, always put change last, etc), but unfortunately it doesn't work for outputs as the keys depend on their index.  
-**\<moneromooo>** It has become hairy after subaddresses unfortunately, at least for the small benefit.  
+**\<byterubmooo>** To avoid broken implementations leak stuff. It'd be better for outputs (ie, always put change last, etc), but unfortunately it doesn't work for outputs as the keys depend on their index.  
+**\<byterubmooo>** It has become hairy after subaddresses unfortunately, at least for the small benefit.  
 **\<luigi1111w>** which?  
-**\<moneromooo>** What is the question ?  
+**\<byterubmooo>** What is the question ?  
 **\<luigi1111w>** what is "it"  
 **\<fluffypony>** ordering outputs  
-**\<moneromooo>** inputs.  
+**\<byterubmooo>** inputs.  
 **\<luigi1111w>** subaddress or multisig?  
-**\<moneromooo>** I'll rephrase:  
-**\<moneromooo>** The input sorting code has become hairy after subaddresses unfortunately, at least for the small benefit.  
+**\<byterubmooo>** I'll rephrase:  
+**\<byterubmooo>** The input sorting code has become hairy after subaddresses unfortunately, at least for the small benefit.  
 **\<luigi1111w>** yes that was clear, just not why  
-**\<luigi1111w>** well was clear after \<moneromooo> inputs.  
-**\<moneromooo>** Because the sorting was internal to construct\_tx before, now it's changed in the caller as well.  
+**\<luigi1111w>** well was clear after \<byterubmooo> inputs.  
+**\<byterubmooo>** Because the sorting was internal to construct\_tx before, now it's changed in the caller as well.  
 **\<luigi1111w>** ok  
-**\<moneromooo>** So that means you have to order selected\_transfers too, and possible something else, can't recall exactly.  
-**\<moneromooo>** Anyway, it's just minutiae particular to our wallet code.  
+**\<byterubmooo>** So that means you have to order selected\_transfers too, and possible something else, can't recall exactly.  
+**\<byterubmooo>** Anyway, it's just minutiae particular to our wallet code.  
 **\<luigi1111w>** btw, change being last doesn't leak metadata  
-**\<moneromooo>** It doesn't leak that change is that ?  
-**\<moneromooo>** It doesn't leak that change is last ?  
+**\<byterubmooo>** It doesn't leak that change is that ?  
+**\<byterubmooo>** It doesn't leak that change is last ?  
 **\<luigi1111w>** right  
 **\<luigi1111w>** or what wallet was used  
-**\<moneromooo>** OK, it leaks that change is more likely to be last than otherwise.  
+**\<byterubmooo>** OK, it leaks that change is more likely to be last than otherwise.  
 **\<luigi1111w>** is it?  
 **\<luigi1111w>** what if a popular wallet puts it first  
-**\<moneromooo>** x+epsilon > x, even if epsilon is very small.  
-**\<moneromooo>** (assuming epsilon is positive)  
+**\<byterubmooo>** x+epsilon > x, even if epsilon is very small.  
+**\<byterubmooo>** (assuming epsilon is positive)  
 **\<fluffypony>** luigi1111w: the onus is on wallets to follow the pattern  
 **\<luigi1111w>** what pattern  
 **\<luigi1111w>** why is there a pattern  
-**\<moneromooo>** I'm lost here, I'll wait.  
+**\<byterubmooo>** I'm lost here, I'll wait.  
 **\<luigi1111w>** me too :)  
-**\<moneromooo>** Maybe ask your question again, rephrased :)  
+**\<byterubmooo>** Maybe ask your question again, rephrased :)  
 **\<pigeons>** I guess if there is an intentional pattern, there won't be several accidental identifying ones  
 **\<rbrunner>** Fingerprinting wallets?  
 **\<luigi1111w>** my point is chnage isn't a fingerprinting pattern for wallets  
@@ -103,7 +103,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<msvb-mob>** suraeNoether: Is there a way to merge new features on testnet only?  
 **\<msvb-mob>** Maybe a risk reduction strategy I mean?  
 **\<suraeNoether>** afaik BP is already on testnet as of ... today?  
-**\<moneromooo>** As of a week back or so.  
+**\<byterubmooo>** As of a week back or so.  
 **\<suraeNoether>** ah there you go  
 **\<msvb-mob>** So we have at least that granularity, okay.  
 **\<luigi1111w>** I'm going through the code and have some questions  
@@ -139,39 +139,39 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** and even if the next fork is still held to September, we will still have the multi-input BP to merge, which is exciting, no?  
 **\<fluffypony>** I don't think we should move fork dates  
 **\<rehrar>** or were both single and multi output BPs being discussed right now?  
-**\<moneromooo>** Single only.  
+**\<byterubmooo>** Single only.  
 **\<fluffypony>** it's becoming increasingly difficult, and sticking to the predictable fork schedule is advantageous for exchanges, merchants, and pools  
 **\<fluffypony>** (emergency hard forks aside)  
-**\<moneromooo>** I'm reasonably sure most don't know in advance when the fork is supposed to be anyway.  
+**\<byterubmooo>** I'm reasonably sure most don't know in advance when the fork is supposed to be anyway.  
 **\<luigi1111w>** ^^  
 **\<rehrar>** other loser coins: "oh btw mister exchange, we're forking in like two weeks, please update software"  
-**\<fluffypony>** moneromooo: they're starting to know  
+**\<fluffypony>** byterubmooo: they're starting to know  
 **\<dEBRUYNE>** As long as they are notified well in advance I don't see a problem with pushing it back 1-2 months  
-**\<dEBRUYNE>** Like moneromooo says, most probably don't even know we have one scheduled for march  
+**\<dEBRUYNE>** Like byterubmooo says, most probably don't even know we have one scheduled for march  
 **\<fluffypony>** pushing it back by 1-2 months isn't enough time  
 **\<luigi1111w>** it might be  
 **\<luigi1111w>** although  
 **\<fluffypony>** imho we're either happy with March or we need 6 additional months of testing  
-**\<moneromooo>** How about 12 ?  
+**\<byterubmooo>** How about 12 ?  
 **\<rehrar>** It may be that in the future FP you might be right, but I think we're still small enough that we can pull a stunt like this without too many consequences  
-**\<fluffypony>** moneromooo: we might need that, if our confidence level is low  
-**\<moneromooo>** The confidence will stay low until 3 months before the fork, when people will start looking.  
-**\<moneromooo>** Before 3 months, (almost) nobody will look.  
+**\<fluffypony>** byterubmooo: we might need that, if our confidence level is low  
+**\<byterubmooo>** The confidence will stay low until 3 months before the fork, when people will start looking.  
+**\<byterubmooo>** Before 3 months, (almost) nobody will look.  
 **\<suraeNoether>** if we give ourselves 6 months of testing for BPs  
 **\<suraeNoether>** i'll tell you what'll happen  
 **\<fluffypony>** lol  
 **\<suraeNoether>** 5 months an 2 weeks will go by  
 **\<fluffypony>** so then March it is?  
-**\<moneromooo>** Now, if people did look for 6 months... then yes.  
+**\<byterubmooo>** Now, if people did look for 6 months... then yes.  
 **\<suraeNoether>** and then testing will begin  
 **\<dEBRUYNE>** Pushing it back 6 months might perhaps result in it going down the priority list  
-**\<moneromooo>** I'm ready to go for september if there is a good reason (ie, someone says they need the 6 months).  
+**\<byterubmooo>** I'm ready to go for september if there is a good reason (ie, someone says they need the 6 months).  
 **\<dEBRUYNE>** And then we just get the same # of months of review  
 **\<fluffypony>** I'm happy with March, but I'm also open to having my mind changed  
 **\<fluffypony>** I'm also reaching out to the paper authors to see if any of them are able to do an implementation review  
-**\<moneromooo>** smooth thinks it's too early, for the record.  
+**\<byterubmooo>** smooth thinks it's too early, for the record.  
 **\<rbrunner>** Main argument?  
-**\<moneromooo>** At 9 txes per block (monthly average now), I think BPs save ~ 2 GB per month.  
+**\<byterubmooo>** At 9 txes per block (monthly average now), I think BPs save ~ 2 GB per month.  
 **\<dEBRUYNE>** I think you'll see more transactions once fees drop to an acceptable level though  
 **\<dEBRUYNE>** So savings might be even more  
 **\<Vespco>** March with aggressive promotion of testnet usage starting now. We can highlight the need on reddit and provide clear stack exchange instructions and .bins to attract more users  
@@ -188,7 +188,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** luigi1111w: agreed  
 **\<luigi1111w>** dEBRUYNE no we are trying to get releases out in reasonable time  
 **\<luigi1111w>** ie, not the week before  
-**\<moneromooo>** MS is going in soon. Just after I fix the core tests after last rebase :)  
+**\<byterubmooo>** MS is going in soon. Just after I fix the core tests after last rebase :)  
 **\<dEBRUYNE>** No I meant whether BP go in or not  
 **\<dEBRUYNE>** \^ luigi1111w  
 **\<Vespco>** Is GUI ready for multisig and subaaddresses?  
@@ -231,9 +231,9 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<suraeNoether>** fluffypony: no, the implementation isn't the concern at all, in my mind at least  
 **\<suraeNoether>** assuming it's passing unit tests  
 **\<suraeNoether>** (which i think it is, iirc)  
-**\<moneromooo>** It is.  
+**\<byterubmooo>** It is.  
 **\<dEBRUYNE>** What if the paper itself is "broken"? Only time will tell that I guess  
-**\<suraeNoether>** there ya go. the question is whether or not someone clever can divide by zero and cause a big monero bang with bullet proofs .  
+**\<suraeNoether>** there ya go. the question is whether or not someone clever can divide by zero and cause a big byterub bang with bullet proofs .  
 **\<suraeNoether>** dEBRUYNE:  \^ exactly  
 **\<suraeNoether>** the best test for crypto is time  
 **\<rehrar>** will an aggressive 'test bps on testnet' campaign do anything?  
@@ -249,7 +249,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<luigi1111w>** then we still disagree  
 **\<luigi1111w>** so it's fine :)  
 **\<suraeNoether>** heh, okay. well at least we can agree that we both want the implementation reviewed one way or another  
-**\<moneromooo>** (thanks stoffu btw, who did review it well)  
+**\<byterubmooo>** (thanks stoffu btw, who did review it well)  
 **\<suraeNoether>** stoffu is a silent hero  
 **\<rehrar>** Meeting is coming to a close. Not necessarily to decide right now, but just to see where everyone is, can we have everyone that was in this conversation verbally state whether they prefer March or September for BPs?  
 **\<fluffypony>** in terms of someone finding an issue in the math itself, I don't think that 6 months is a macro-enough timescale for that  
@@ -258,10 +258,10 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<suraeNoether>** i have the reversed preference as fluffypony, plus i would like the authors to review the implementation in either case  
 **\<suraeNoether>** i think sarang has the same preference as fluffypony though  
 **\<vtnerd>** uh, so before meeting adjourns I'd like to prod https://github.com/byterubpay/supercop/pull/1  
-**\<moneromooo>** What we'd need is for people who may review it to tell is now when they would, and how much time they'd need... Not gonna happen most likely.  
+**\<byterubmooo>** What we'd need is for people who may review it to tell is now when they would, and how much time they'd need... Not gonna happen most likely.  
 **\<vtnerd>** unedited supercop code is all that is now  
 **\<luigi1111w>** cool  
-**\<pigeons>** pre-borromean ringct signature issue was found by 3rd party (and/after the monero team), so people do look at non-mainnet code. and also that incident shows how short timelines are scary  
+**\<pigeons>** pre-borromean ringct signature issue was found by 3rd party (and/after the byterub team), so people do look at non-mainnet code. and also that incident shows how short timelines are scary  
 **\<endogenic>** \^  
 **\<fluffypony>** also msvb-mob wanted to say a couple of things about the HW wallet  
 **\<suraeNoether>** pigeons: that's an extremely good point  
@@ -272,11 +272,11 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<fluffypony>** msvb-mob: nice one!  
 **\<msvb-mob>** In the near future we will ask for in depth advice from core development and MRL to confirm our design is on track.  
 **\<msvb-mob>** Any questions? You can ask about 34C3 assembly as well.  
-**\<moneromooo>** There is a factory bootloader ? As in, code you did not write ?  
-**\<msvb-mob>** moneromooo: Yes, most hardware manufacturers (Nordic, STM, Maxim, TI) supply a default bootloader you can't get rid of.  
+**\<byterubmooo>** There is a factory bootloader ? As in, code you did not write ?  
+**\<msvb-mob>** byterubmooo: Yes, most hardware manufacturers (Nordic, STM, Maxim, TI) supply a default bootloader you can't get rid of.  
 **\<msvb-mob>** And when they're nice, it's full of USB and DFU.  
 **\<luigi1111w>** pigeons thanks, and that memory pushes me towards the wait camp  
-**\<moneromooo>** That sounds like a great idea :/  
+**\<byterubmooo>** That sounds like a great idea :/  
 **\<msvb-mob>** Next topic.  
 **\<luigi1111w>** meeting is basically over afaik  
 **\<rbrunner>** Please don't forget the GUI wallet Windows installer and put it into service sometime after busy Christmas. I have a PR waiting that gives the last polish to the installer script, and after that it's really, really ready  
@@ -293,8 +293,8 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<luigi1111w>** and by ok I mean as not ok as normal  
 **\<fluffypony>** msvb-mob: I'd prefer us unsynced, otherwise it's just too much on a weekend  
 **\<fluffypony>** wife will murder me :-P  
-**\<moneromooo>** Technically, that's still synced, but out of phase...  
-**\* moneromooo** steps back  
+**\<byterubmooo>** Technically, that's still synced, but out of phase...  
+**\* byterubmooo** steps back  
 **\<msvb-mob>** Nobody is protesting 14 Jan. I'm not opinionated, just wanted to mention the sync aspect.  
-**\<fluffypony>** lol moneromooo  
+**\<fluffypony>** lol byterubmooo  
 **\<rehrar>** Ok 14 Jan it is  

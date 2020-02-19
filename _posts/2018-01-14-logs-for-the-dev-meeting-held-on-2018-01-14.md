@@ -34,7 +34,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** rehrar yeah i mean these things usually happen instantly so once i called them they were like yeah that's no good let'sget that sorted  
 **\<ArticMine>** Sure, but it is not really dev related  
 **\<rehrar>** just a brief four sentence thing should be alright  
-**\<vtnerd>** after a discussion with luigi1111, I should be proposing an optimization for wallet scanning that mymonero is using - want to test with a standard wallet to give real world perf numbers before PR  
+**\<vtnerd>** after a discussion with luigi1111, I should be proposing an optimization for wallet scanning that mybyterub is using - want to test with a standard wallet to give real world perf numbers before PR  
 **\<vtnerd>** ah sorry ArticMine  
 **\<rehrar>** no, go ahead vtnerd :) anyone and everyone with an update feel free to let us know  
 **\<vtnerd>** ok, this optimization is separate from the ASM work in byterubpay/supercop (still pending a PR), so it works with standard ref10 (i.e. all platforms)  
@@ -45,16 +45,16 @@ author: dEBRUYNE / fluffypony
 **\<medusa>** lets talk about the elephant in the room ? bulletproof is in all varieties on testnet  
 **\<rehrar>** Alright. Thanks. :) Anyone else? If not we'll move on.  
 **\<rehrar>** Ye, that's next.  
-**\<moneromooo>** Things of note since last time: build hardening (currently breaks static builds though), DNSSEC fix on windows, DB and sync hang fixes, secure memory wiping (wip), misc code review and fixes, updates now use HTTPS and can resume downloads  
+**\<byterubmooo>** Things of note since last time: build hardening (currently breaks static builds though), DNSSEC fix on windows, DB and sync hang fixes, secure memory wiping (wip), misc code review and fixes, updates now use HTTPS and can resume downloads  
 **\<ArticMine>** In brief I attended BTC awards CIS and participated in the coins panel. There were two other coins present Dash, ZenCash. Overall it went very well and provided exposure to ByteRub among the CIS (Commonwealth of Independent state)  crypto communities  
 **\<endogenic>** medusa: last i heard MRL was looking for people to review and audit bulletproofs  
 **\<endogenic>** sarang would be able to give you more information  
 **\<ArticMine>** That is my brief update  
 **\<ArticMine>** Whan it comes to bullteproof this has to move to September  
-**\<endogenic>** moneromooo: beast mode  
+**\<endogenic>** byterubmooo: beast mode  
 **\<rehrar>** ArticMine, care to elaborate?  
-**\<moneromooo>** Not all of this by me fwiw.  
-**\<hyc>** Interesting ArticMine - CIS already has monero experience, thru the Karbo clone in Ukraine  
+**\<byterubmooo>** Not all of this by me fwiw.  
+**\<hyc>** Interesting ArticMine - CIS already has byterub experience, thru the Karbo clone in Ukraine  
 **\<medusa>** GUI is merging sub addresses finally, dsc is working on the black theme sucessfully and we hope to go live in march with 2 progress bars instead of 1 (sync and refresh separated). also we added a "change password" feature to the GUI  
 **\<ArticMine>** FP spoke with  Pieter Wuille who is recommending September  
 **\<sarang>** Jumping in for any questions about BPs that I can answer  
@@ -71,7 +71,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** The math is solid. Additional peer review is always a welcome thing, though with diminishing returns over time  
 **\<binaryFate>** (talking about the BP paper -- not the ByteRub specific implementation)  
 **\<sarang>** yes  
-**\<sarang>** In the meantime, moneromooo and I have been working on some additional optimizations for proof verification that are independent of the math or specific proof implementation  
+**\<sarang>** In the meantime, byterubmooo and I have been working on some additional optimizations for proof verification that are independent of the math or specific proof implementation  
 **\<ferretinjapan>** I guess thats the thing, how much "value adding" is an additional audit for now justified?  
 **\<binaryFate>** nice  
 **\<sarang>** We've had a select number of informal reviews  
@@ -110,24 +110,24 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE>** sarang\*  
 **\<sarang>** hyc: are you ok with making such a solicitation?  
 **\<sarang>** I could certainly try the other paper authors just in case  
-**\<moneromooo>** bypass single-output BPs is not an advantage.  
+**\<byterubmooo>** bypass single-output BPs is not an advantage.  
 **\<hyc>** Yes, can do. we need to decide if we'll offer a payment  
 **\<sarang>** though they are much more of a long shot  
-**\<moneromooo>** bypassing  
+**\<byterubmooo>** bypassing  
 **\<ferretinjapan>** gingeropolous, yes, but noones really given a definitive reason to delay except for an overabundance of caution, and by then it'll be unnecessary to even release. :/  
 **\<endogenic>** is there a blurb/call-to-actionabout the request to review which i can pass to my relevant mailing lists?  
-**\<hyc>** moneromooo: waiting till sept means we can settle on the fees without rushing  
+**\<hyc>** byterubmooo: waiting till sept means we can settle on the fees without rushing  
 **\<sarang>** hyc: fluffypony indicated we could make funds available for the review, but you'll have to ask him for the details  
-**\<moneromooo>** It's not a lot of work, since it exists now.  
+**\<byterubmooo>** It's not a lot of work, since it exists now.  
 **\<ArticMine>** We are only delaying single output not multi output  
-**\<moneromooo>** Multi output bulletproofs are in C++, but not plugged into the consensus, which is the annoying part.  
+**\<byterubmooo>** Multi output bulletproofs are in C++, but not plugged into the consensus, which is the annoying part.  
 **\<sarang>** Anyone interested in doing a review and wanting details can contact me at sarang.noether@protonmail.com  
 **\<endogenic>** such as indicating where to look in the code or repo, background docs, review process, submission format, etc?  
 **\<hyc>** endogenic I'll start drafting an email announcenemt  
 **\<sarang>** I'll contact the other paper authors separately  
 **\<sarang>** and will still press on with the audit group to see what their scope is  
 **\<luigi1111w>** there's not much work saved by skipping single output BP  
-**\<moneromooo>** waiting till sept does not change anything for fees, since multi out is september anyway.  
+**\<byterubmooo>** waiting till sept does not change anything for fees, since multi out is september anyway.  
 **\<luigi1111w>** but the review time is too close for my comfort for march  
 **\<luigi1111w>** I think that's the general thought anyway though  
 **\<hyc>** alternatively we could delay the March release into April  
@@ -248,7 +248,7 @@ author: dEBRUYNE / fluffypony
 **\<pebx>** I see this all day in the Telegram groups "why is the fee so high?"  
 **\<ArticMine>** One option change the wallet default to the min fee  
 **\<dEBRUYNE>** The per kB fee isn't even that high fwiw  
-**\<pebx>** most services also use the default... like mymonero does  
+**\<pebx>** most services also use the default... like mybyterub does  
 **\<dEBRUYNE>** The transactions are just obscenely large  
 **\<endogenic>** pebx: dont worry, i'm getting close to adding priority setting to new apps  
 **\<pebx>** dEBURNE isn't that why bp is so important?  
@@ -257,7 +257,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** ^^  
 **\<dEBRUYNE>** That's going to result in a clogged mempool if we want to expand  
 **\<luigi1111w>** I use that fee  
-**\<moneromooo>** Then noone would use the current fee once it's no longer the default.  
+**\<byterubmooo>** Then noone would use the current fee once it's no longer the default.  
 **\<iDunk>** So do I.  
 **\<luigi1111w>** well I use both kinda depending  
 **\<jtgrassie>** BP shoudnt be rushed but equally shouldnt be held back to a *schedule*  
@@ -271,10 +271,10 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE>** So you can't have 23 min fee txes and then one default  
 **\<binaryFate>** \<ArticMine> One option change the wallet default to the min fee \<-- +1  
 **\<endogenic>** isn't that a bad idea? \^  
-**\<moneromooo>** It is.  
+**\<byterubmooo>** It is.  
 **\<luigi1111w>** it's an idea  
 **\<luigi1111w>** I'm not sure if it's bad or good  
-**\<moneromooo>** Unless people don't use monero much for half a year.  
+**\<byterubmooo>** Unless people don't use byterub much for half a year.  
 **\<endogenic>** hm it would be cool to model this  
 **\<Maxithi>** got to go, see you guys  
 **\<endogenic>** but Maxithi you didnt get to chat issues  
@@ -341,7 +341,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Ye, sorry. If anyone needs to leave. Next meeting two weeks.  
 **\<rehrar>** 28th  
 **\<binaryFate>** The warn makes people think "mmm should I use more fees", not the opposite. Who when using normal and seeing 0/1 block backlog cancels, and come back to use low fees? Nobody I guess, should be automatic maybe with just a y/n confirmation  
-**\<sarang>** hyc endogenic: move discussion of BP review to #monero-research-lab after meeting?  
+**\<sarang>** hyc endogenic: move discussion of BP review to #byterub-research-lab after meeting?  
 **\<endogenic>** yes good point  
 **\<endogenic>** binaryFate  
 **\<hyc>** ok  

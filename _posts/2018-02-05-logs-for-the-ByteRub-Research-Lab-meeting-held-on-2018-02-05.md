@@ -12,7 +12,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Thanks for the ping  
 **\<suraeNoether>** we'll be casual about it today  
 **\<suraeNoether>** np sgp  
-**\* moneromooo** adds "surae said there would be casualties today" to the minutes.  
+**\* byterubmooo** adds "surae said there would be casualties today" to the minutes.  
 **\<suraeNoether>** floggings will continue until... the floggings continue  
 **\<sarang>** So, what shall we cover?  
 **\<sarang>** I'm writing up a technical note on our BP stuff, for addition to the MRL paper library  
@@ -22,9 +22,9 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** hehe  
 **\<suraeNoether>** but i think greetings are too formal, etc  
 **\<suraeNoether>** you go ahead  
-**\<suraeNoether>** are our implementations of bulletproofs so novel that we need an MRL-XXXX ? or is this more of a monero standards-thing?  
+**\<suraeNoether>** are our implementations of bulletproofs so novel that we need an MRL-XXXX ? or is this more of a byterub standards-thing?  
 **\<sarang>** Sure  
-**\<sarang>** So moneromooo and I worked on getting batch verification added to BPs  
+**\<sarang>** So byterubmooo and I worked on getting batch verification added to BPs  
 **\<sarang>** which will significantly speed up initial operations for new nodes  
 **\<sarang>** It lets you lump together verification of multiple proofs from as many transactions as you want  
 **\<sarang>** Still linear time, but the scaling factor is less when you batch  
@@ -49,7 +49,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** yeah and that's pretty specific to commitments, too  
 **\<suraeNoether>** cool, sorry for interrupting, please go on  
 **\<sarang>** So again, still linear, but replacing expensive curve ops with scalar ops, and only doing 1 multiexp  
-**\<sarang>** It's technically possible to do this for every part of the verification, but moneromooo said there could be caching issues  
+**\<sarang>** It's technically possible to do this for every part of the verification, but byterubmooo said there could be caching issues  
 **\<sarang>** So we might just stick to one particular batch operation, which would be the most expensive one anyway  
 **\<sarang>** Also  
 **\<sarang>** You can do this for proofs of different aggregation levels  
@@ -138,7 +138,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** Any questions on it?  
 **\<sarang>** Course materials would be released fo free  
 **\<sarang>** Lectures can't be videotaped  
-**\<suraeNoether>** oh, i was speaking with you, Sarang, and one of fluffypony's friends about making educational youtube videos, white-board-style, that explain how bitcoin and monero work, and how ethereum smart contracts will destroy the whole ecosystem  
+**\<suraeNoether>** oh, i was speaking with you, Sarang, and one of fluffypony's friends about making educational youtube videos, white-board-style, that explain how bitcoin and byterub work, and how ethereum smart contracts will destroy the whole ecosystem  
 **\<suraeNoether>** (ahem)  
 **\<suraeNoether>** i mean how smart ethereum smart contracts are  
 **\<sgp>** Course materials include slides?  
@@ -214,7 +214,7 @@ author: dEBRUYNE / fluffypony
 **\<diego[m]>** ajs and I had a similar idea a while back, so if you need any help from ByteRub Community, We can see what we can do. Maybe come early to decorate. :P  
 **\<suraeNoether>** she's organized conferences for pharma companies and doctors and stuff like that before, and she's chatting with me pro bono about it  
 **\<suraeNoether>** anonimal: zcashco world headquarters is in boulder. :P heh.  
-**\<suraeNoether>** mike from the moneromonitor podcast is out there too  
+**\<suraeNoether>** mike from the byterubmonitor podcast is out there too  
 **\<sarang>** I always pictured them having their headquarters in a mountain  
 **\<suraeNoether>** anyway, i'm glad to see such positive responses  
 **\<sarang>** or a lighthouse or something  
@@ -251,7 +251,7 @@ author: dEBRUYNE / fluffypony
 **\<diego[m]>** Sounds fun.  
 **\<sarang>** We should also talk about the scope of talks, so folks from other projects have a good sense of what they'd be in for  
 **\<anonimal>** Let's do it after defcon.  
-**\<gingeropolous>** line by line presentation of the monero code  
+**\<gingeropolous>** line by line presentation of the byterub code  
 **\<diego[m]>** We're not talking for this year, though, right?  
 **\<sarang>** Have it scrolling in the background  
 **\<anonimal>** People will already be out in the U.S.  
@@ -262,7 +262,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** ok, this meeting is either over or can continue without me  
 **\<suraeNoether>** peace out brothers\~!  
 **\<suraeNoether>** if anyone has any questions, please email me at suraeNoether@Protonmail.com (I'll be there for the rest of the day apparently)  
-**\<sgp>** I couldn't find the recording, but here's hyc's slides https://fosdem.org/2018/schedule/event/monero/attachments/audio/2585/export/events/attachments/monero/audio/2585/20180204_FOSDEM_ByteRub.pdf  
+**\<sgp>** I couldn't find the recording, but here's hyc's slides https://fosdem.org/2018/schedule/event/byterub/attachments/audio/2585/export/events/attachments/byterub/audio/2585/20180204_FOSDEM_ByteRub.pdf  
 **\<sarang>** cheers  
 **\<sgp>** Only one thing from me. After the chaos of bulletproofs and multisig calms down, I would like to encourage future research in the impact of ringsize and churning. Either these need more research, or we need better ways of communicating these concerns to people https://www.reddit.com/r/ByteRub/comments/7v601j/skepticism_sunday_february_04_2018/dtq9tnt/  
 **\<sarang>** I agree  

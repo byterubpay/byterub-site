@@ -6,7 +6,7 @@ summary: "L'Internet sur lequel les surcouches réseaux anonymes sont construite
 
 ### Les Bases
 
-Lorsque vous utilisez Internet pour des choses comme lire des actualités, e-mail, média sociaux, et même Monero, vous utilisez certainement une connexion réseau *en clair*. Cela signifie que *toutes* vos connexions peuvent être suivies, tracées et observées par :
+Lorsque vous utilisez Internet pour des choses comme lire des actualités, e-mail, média sociaux, et même ByteRub, vous utilisez certainement une connexion réseau *en clair*. Cela signifie que *toutes* vos connexions peuvent être suivies, tracées et observées par :
 
 - votre [FAI](https://fr.wikipedia.org/wiki/Fournisseur_d%27acc%C3%A8s_%C3%A0_Internet)
 - le site web, service, ou personne avec qui vous communiquez

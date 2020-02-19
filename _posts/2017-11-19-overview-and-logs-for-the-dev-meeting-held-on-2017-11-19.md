@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2017-11-19).  
+An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2017-11-19).  
 
 # Logs  
 
@@ -19,8 +19,8 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** Can we get a mini-update from dev, gui, hardware, and mrl?  
 **\<sarang>** I can speak for MRL  
 **\<sarang>** We've been thoroughly investigated bulletproofs, a new form of CT range proofs  
-**\<hyc>** is moneromooo here?  
-**\<moneromooo>** Yes  
+**\<hyc>** is byterubmooo here?  
+**\<byterubmooo>** Yes  
 **\<endogenic>** have one thing to bring up  
 **\<endogenic>** when there's time  
 **\<sarang>** They should function as essentially a drop-in replacement that is 10% the size of the original proofs (for one output; even smaller for multiple outputs)  
@@ -65,25 +65,25 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<hyc>** mooo can probably summarize better  
 **\<endogenic>** vtnerd says "oh good"  
 **\<endogenic>** "woo"  
-**\<moneromooo>** Hmm. I can go look at github:  
-**\<moneromooo>** (mostly small things anyway)  
+**\<byterubmooo>** Hmm. I can go look at github:  
+**\<byterubmooo>** (mostly small things anyway)  
 **\<rehrar>** FP confirmed he can't make it today. He sends his apologies.  
-**\<moneromooo>** disguising password length in prompt I guess is still a small thing, but user visible  
-**\<moneromooo>** less unnecessary locking in some DB readers, which should speed up some RPC  
-**\<moneromooo>** Fixes for BSD build  
-**\<moneromooo>** The wallet does not fetch unneeded hashes anymore (ie, starts direct from 1.4e6)  
-**\<moneromooo>** CORS (for those who know what it is)  
-**\<moneromooo>** A fix for show\_transfers missing more than one incoming input in a tx  
-**\<moneromooo>** And I think the rest is either prior to last meeting, or small/internal stuff.  
+**\<byterubmooo>** disguising password length in prompt I guess is still a small thing, but user visible  
+**\<byterubmooo>** less unnecessary locking in some DB readers, which should speed up some RPC  
+**\<byterubmooo>** Fixes for BSD build  
+**\<byterubmooo>** The wallet does not fetch unneeded hashes anymore (ie, starts direct from 1.4e6)  
+**\<byterubmooo>** CORS (for those who know what it is)  
+**\<byterubmooo>** A fix for show\_transfers missing more than one incoming input in a tx  
+**\<byterubmooo>** And I think the rest is either prior to last meeting, or small/internal stuff.  
 **\<hyc>** yeah but it comprises a couple dozen PRs between then and now  
-**\<rehrar>** Alright, awesome. Thanks moneromooo.  
+**\<rehrar>** Alright, awesome. Thanks byterubmooo.  
 **\<rehrar>** hardware, I know you give updates in community, but I think most of us that know are excited about the rapid progress you're making  
 **\<rehrar>** care to share something small about what's been going down?  
 **\<msvb-lab>** Hardware; we've settled our initial workflows and have built a twenty strong team. Journals are taking notice (see press) and the project is moving along.  
-**\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/wiki/press/  
+**\<msvb-lab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/wiki/press/  
 **\<msvb-lab>** I'll mark our forum proposal milestone 1 as concluded today probably.  
 **\<msvb-lab>** We now have an open call to any interested in a hardware wallet, become part of the project and possibly test a prototype. See:  
-**\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/wiki/preview/  
+**\<msvb-lab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/wiki/preview/  
 **\<msvb-lab>** I'll demonstrate our two current working protoypes at this week's first ever ByteRub Munich meeting.  
 **\<msvb-lab>** That's all, any questions?  
 **\<sgp>** What do you expect those who receive the prototypes to test?  
@@ -93,7 +93,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<msvb-lab>** Pretty lame answer no?  
 **\<rehrar>** Alright, thanks msvb-lab!  
 **\<msvb-lab>** Thanks for the opportunity.  
-**\<moneromooo>** Sounds like pretty nice stuff is going on there, congrats :)  
+**\<byterubmooo>** Sounds like pretty nice stuff is going on there, congrats :)  
 **\<hyc>** (I counted 72 PRs merged since last dev meeting)  
 **\<msvb-lab>** hyc: Who make most of the merges, fluffy?  
 **\<rehrar>** So, we've got Code + ticket discussion / Q & A time available for the devs to discuss dev-y things. But all the mergy stuff may have to wait because of FP absence, but if there's other business to take care of, devs you have the floor  
@@ -107,30 +107,30 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<endogenic>** signs point to integrating with wallet\_api  
 **\<endogenic>** I may end up tackling a small portion of factoring wallet2  
 **\<rehrar>** ok, no worries Jaquee.  
-**\<moneromooo>** As long as not too many gratuitous changes ^\_^  
+**\<byterubmooo>** As long as not too many gratuitous changes ^\_^  
 **\<endogenic>** 100% mooo  
 **\<hyc>** all variable and class names being filtered thru pig-latin  
 **\<gingeropolous>** dsc, in here :)  
 **\<dsc>** :)  
-**\<msvb-lab>** Is our GUI crew considered only monero-gui, or are mymonero.com and Moneruj (Android) included as well?  
+**\<msvb-lab>** Is our GUI crew considered only byterub-gui, or are mybyterub.com and Moneruj (Android) included as well?  
 **\<dsc>** has it started?  
 **\<endogenic>** lol hyc  
-**\<rehrar>** I think GUI crew is people who work on the monero-gui repo  
-**\<rehrar>** mymonero and Monerujo are their own thing  
+**\<rehrar>** I think GUI crew is people who work on the byterub-gui repo  
+**\<rehrar>** mybyterub and Monerujo are their own thing  
 **\<rehrar>** dsc has what started?  
 **\<dsc>** the meeting :D  
 **\<rehrar>** oh, yeah. We're about half hour in. :)  
-**\<hyc>** oh - that's worth mentioning too - the repo is now properly named monero-gui, no longer monero-core  
+**\<hyc>** oh - that's worth mentioning too - the repo is now properly named byterub-gui, no longer byterub-core  
 **\<msvb-lab>** rehrar: So Monerujo communicate on a different channel, right?  
 **\<rbrunner>** That rename is a milestone :)  
 **\<rehrar>** Monerujo utilizes the Mattermost where they have a private channel for the devs and core team, and a public channel for questions. They've also got a Taiga to track progress.  
-**\<dsc>** aight, so I'm working on a black theme for `monero-gui` (qt5) .. learning QML in the process. Trying to get some more UX developers involved and generally just trying to document things as I go  
+**\<dsc>** aight, so I'm working on a black theme for `byterub-gui` (qt5) .. learning QML in the process. Trying to get some more UX developers involved and generally just trying to document things as I go  
 **\<rehrar>** I can rep Monerujo though, as I'm heavily involved with them  
 **\<rehrar>** they've got some exciting stuff coming  
 **\<rehrar>** yes, can you link your thread dsc?  
 **\<dsc>** sure  
 **\<rehrar>** The one you made a few days ago.  
-**\<dsc>** https://www.reddit.com/r/ByteRub/comments/7dvwq0/contributing_to_monero_as_an_ux_developer_short/  
+**\<dsc>** https://www.reddit.com/r/ByteRub/comments/7dvwq0/contributing_to_byterub_as_an_ux_developer_short/  
 **\<rehrar>** in the comments there are the various proposals for redesigning the GUI. Are there any thoughts on any of those?  
 **\<rehrar>** well, first dsc you wanted to say something, go ahead. :)  
 **\<dsc>** No I was finished :P  
@@ -139,9 +139,9 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<dEBRUYNE>** rehrar: Basically we're first kind of going for the dark theme, which will have a light mode as well  
 **\<dEBRUYNE>** Because it's most trivial to implement  
 **\<dEBRUYNE>** (only requires minor changes to the current design)  
-**\<rehrar>** https://github.com/byterubpay/monero-core/issues/419  
-**\<rehrar>** https://github.com/byterubpay/monero-core/issues/869  
-**\<rehrar>** https://github.com/byterubpay/monero-core/issues/949  
+**\<rehrar>** https://github.com/byterubpay/byterub-core/issues/419  
+**\<rehrar>** https://github.com/byterubpay/byterub-core/issues/869  
+**\<rehrar>** https://github.com/byterubpay/byterub-core/issues/949  
 **\<dEBRUYNE>** Some screenshots -> https://i.imgur.com/89YFUj7.png  
 **\<rehrar>** for those interested  
 **\<rehrar>** Ok. Cool deal!  
@@ -173,14 +173,14 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** Alright. That's it from GUI? No other opinions on dEBRUYNE and dsc stuff either?  
 **\<hyc>** looks like we can move on to ticket Q/A  
 **\<rehrar>** ok Code + ticket discussion / Q & A  
-**\<rehrar>** hyc moneromooo can you two take the lead for this?  
-**\<moneromooo>** Well, if anyone has questions about them, please ask.  
+**\<rehrar>** hyc byterubmooo can you two take the lead for this?  
+**\<byterubmooo>** Well, if anyone has questions about them, please ask.  
 **\<hyc>** I'd leave it to mooo. I'm not aware of any open questions  
 **\<hyc>** ^^  
 **\<dsc>** ticket Q/A \!= discussing open PR's, right?  
 **\<hyc>** sure  
 **\<hyc>** ask away  
-**\<dsc>** low hanging fruit PRs (that can probably be merged): #919, #954, #963 on monero-gui  
+**\<dsc>** low hanging fruit PRs (that can probably be merged): #919, #954, #963 on byterub-gui  
 **\<dsc>** not so much a question ^\_^  
 **\<hyc>** probably ask luigi to merge them if fluffy is unavailable  
 **\<iDunk>** luigi merges GUI PRs anyway :)  
@@ -218,7 +218,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** This has not been formally replaced, so it is currently active. We can discuss that at a later time though. Let's move on.  
 **\<rehrar>** 5. Any additional meeting items  
 **\<rehrar>** If anyone has anything, speak up. :)  
-**\<moneromooo>** If anyone wants to test multisig, feel free. PR 2134.  
+**\<byterubmooo>** If anyone wants to test multisig, feel free. PR 2134.  
 **\<gingeropolous>** is there a set date for the next code freeze?  
 **\<serhack>** A little update by me about ByteRub Integrations  
 **\<rehrar>** go for it serhack  
@@ -228,10 +228,10 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<serhack>**  
 **\<serhack>** I have talked to OpenBazaar too and they have told me that ByteRub + Openbazaar would be nice.. it will be a difficult task but I think I can do it  
 **\<serhack>** you can go on, rehrar  
-**\<moneromooo>** Everytime I read OpenBazaar, it makes me want to punch that scammer from a few years back...  
+**\<byterubmooo>** Everytime I read OpenBazaar, it makes me want to punch that scammer from a few years back...  
 **\<rehrar>** alright, thanks man :)  
 **\<rehrar>** atrides?  
-**\<moneromooo>** That's the one.  
+**\<byterubmooo>** That's the one.  
 **\<rehrar>** doesn't he still run Dwarfpool?  
 **\<gingeropolous>** yeah, and ppl still mine on it  
 **\<rehrar>** We should encourage them not to  
@@ -239,10 +239,10 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** December 3rd? Same time?  
 **\<gingeropolous>** so no freeze date, eh?  
 **\<rehrar>** Should we move time because daylight savings?  
-**\<moneromooo>** About mid december  
+**\<byterubmooo>** About mid december  
 **\<gingeropolous>** word.  
 **\<ArticMine>** Please do not move the time  
-**\<moneromooo>** Or january. Unclear.  
+**\<byterubmooo>** Or january. Unclear.  
 **\<rehrar>** ok, time not moved  
 **\<rehrar>** FP would have a better answer?  
 **\<hyc>** isn't a release due in January?  
@@ -253,12 +253,12 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** There's a new freeze/release schedule isn't there?  
 **\<hyc>** mebbe someone can open a meta issue and set some dates into it  
 **\<gingeropolous>** i thought we had 3 months of freeze for more testing / fixing than before ....  
-**\<moneromooo>** 3 months of freeze is gonna make me punch someone else :P  
-**\<moneromooo>** It's branch, then release from the brnch aftrer 2-3 months.  
-**\<moneromooo>** It's already painful when stuff doens't get merged after a month.  
+**\<byterubmooo>** 3 months of freeze is gonna make me punch someone else :P  
+**\<byterubmooo>** It's branch, then release from the brnch aftrer 2-3 months.  
+**\<byterubmooo>** It's already painful when stuff doens't get merged after a month.  
 **\<ArticMine>** The big one is the bullet proofs  
 **\<gingeropolous>** right. i thought branch is a freeze... i.e., feature freeze.... i.e., freeze on adding wacky new stuff that requires bandaloots and warples  
-**\<moneromooo>** That's not likely to be ready by then.  
+**\<byterubmooo>** That's not likely to be ready by then.  
 **\<gingeropolous>** but yeah... perhaps that should be documented somewhere  
 **\<rehrar>** (Not to interrupt, but meeting is over for those who need to go, discussion can of course continue)  
 **\<rehrar>** Alright. You guys are the best! thanks for being a part of this community, and developing the software we all know and love as Morono  

@@ -11,46 +11,46 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** yes indeed  
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Workgroup Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Workgroup Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/400  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Fun fact: we’ve been doing these since issue #79.  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Fun fact: we’ve been doing these since issue #79.  
 **\<sgp\_>** 1. Greetings  
 **\<OsrsNeedsF2P>** I like fun facts  
 **\<el00ruobuob>** Hi!  
 **\<rottensox>** o/ the rottenest sox present.  
 **\<rehrar>** here'  
-**\<needmonero90>** Hey all  
+**\<needbyterub90>** Hey all  
 **\<sgp\_>** welcome everyone  
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** See Monero weekly highlights at https://revuo-monero.com/  
-**\<sgp\_>** Reminder that 0.15 is expected on October 31, with the scheduled protocol upgrade on November 30: https://web.getmonero.org/2019/10/01/announcement-release-0-15.html  
-**\<sgp\_>** There's a help thread in https://reddit.com/r/monero if you need assistance or have specific questions  
-**\<sgp\_>** Monero Talk interviewed Brad Mines, Daniel Krawisz, and spesmonerujo in the past two weeks: https://youtube.com/c/monerotalk  
-**\<monerobux>** [ Monero Talk - YouTube ] - youtube.com  
+**\<sgp\_>** See ByteRub weekly highlights at https://revuo-byterub.com/  
+**\<sgp\_>** Reminder that 0.15 is expected on October 31, with the scheduled protocol upgrade on November 30: https://web.getbyterub.org/2019/10/01/announcement-release-0-15.html  
+**\<sgp\_>** There's a help thread in https://reddit.com/r/byterub if you need assistance or have specific questions  
+**\<sgp\_>** ByteRub Talk interviewed Brad Mines, Daniel Krawisz, and spesmonerujo in the past two weeks: https://youtube.com/c/byterubtalk  
+**\<byterubbux>** [ ByteRub Talk - YouTube ] - youtube.com  
 **\<sgp\_>** Are there any outstanding questions regarding the upcoming update, or does anyone have community (non-workgroup) updates to share?  
-**\<OsrsNeedsF2P>** I'm planning on releasing a 1.0 version of MoneroTipsBot soon  
-**\<needmonero90>** I'm curious which exchanges are still in limbo wrt subaddresses  
+**\<OsrsNeedsF2P>** I'm planning on releasing a 1.0 version of ByteRubTipsBot soon  
+**\<needbyterub90>** I'm curious which exchanges are still in limbo wrt subaddresses  
 **\<OsrsNeedsF2P>** Oh u first ^  
-**\<needmonero90>** as usual, I would like an updated listing of who needs contacting, so we can rally people to shoot off pings  
-**\<needmonero90>** As the network upgrade approaches, this becomes more and more important :)  
-**\<sgp\_>** indeed. needmonero90, want to take the initiative? :)  
-**\<needmonero90>** I already am with binance actually  
-**\<needmonero90>** I've been keeping in contact with them regarding the deadline  
+**\<needbyterub90>** as usual, I would like an updated listing of who needs contacting, so we can rally people to shoot off pings  
+**\<needbyterub90>** As the network upgrade approaches, this becomes more and more important :)  
+**\<sgp\_>** indeed. needbyterub90, want to take the initiative? :)  
+**\<needbyterub90>** I already am with binance actually  
+**\<needbyterub90>** I've been keeping in contact with them regarding the deadline  
 **\<sgp\_>** Polo is good I know. What about Kraken? Shapeshift? MorphToken?  
-**\<needmonero90>** debruyne any idea who is left?  
+**\<needbyterub90>** debruyne any idea who is left?  
 **\<rottensox>** TradeOgre. :-)  
 **\<mooman12>** tradeogre don't use unencrypted payment id do they?  
 **\<rottensox>** .shrug  
-**\<monerobux>** ¯\\\_(ツ)\_/¯  
+**\<byterubbux>** ¯\\\_(ツ)\_/¯  
 **\<ErCiccione[m]>** Hi  
-**\<needmonero90>** hi  
+**\<needbyterub90>** hi  
 **\<sgp\_>** not sure about Bitfinex either  
 **\<sgp\_>** maybe a thread on r/xmrtrader is best for this honestly  
-**\<needmonero90>** I heard the mods there are really strict  
-**\<needmonero90>** (I'll make a post)  
-**\<sgp\_>** like ~~we~~ others do a thread for mining pools on r/moneromining  
+**\<needbyterub90>** I heard the mods there are really strict  
+**\<needbyterub90>** (I'll make a post)  
+**\<sgp\_>** like ~~we~~ others do a thread for mining pools on r/byterubmining  
 **\<OsrsNeedsF2P>** ^\_^  
-**\<needmonero90>** Ok, on to osrs's question. I'll make an exchange post on xmrtrader today.  
+**\<needbyterub90>** Ok, on to osrs's question. I'll make an exchange post on xmrtrader today.  
 **\<sgp\_>** yeah I think that's best  
 **\<mooman12>** Snipa: does supportxmr still have anyone mining to an address with payment id?  
 **\<sgp\_>** oh that's a good question  
@@ -67,11 +67,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rottensox>** sgp\_: Morph has it too - https://imgur.com/HzaBl7I.png  
 **\<sgp\_>** anything else on this topic?  
 **\<el00ruobuob>** Kraken seems to use integrated addresses  
-**\<sgp\_>** rottensox: that's optional for refund, so I think it's not quite as important. It's more important when depositing Monero  
+**\<sgp\_>** rottensox: that's optional for refund, so I think it's not quite as important. It's more important when depositing ByteRub  
 **\<rottensox>** okie.  
 **\<sgp\_>** el00ruobuob: yeah, I believe they do  
 **\<sgp\_>** I can send a quick message to Morph to make sure they know  
-**\<sgp\_>** endogenic: is MyMonero pulling payment ID support in the wallet? (he can answer later if not here)  
+**\<sgp\_>** endogenic: is MyByteRub pulling payment ID support in the wallet? (he can answer later if not here)  
 **\<sgp\_>** Anything else on this topic?  
 **\<sgp\_>** summary: check r/xmrtrader for a list soon^TM  
 **\<Snipa>** If there's anything else we can do on the pool side, let me know.  
@@ -82,12 +82,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I'll take the silence as a no  
 **\<sgp\_>** 4. Workgroup report  
 **\<sgp\_>** a. Daemon/CLI workgroup  
-**\<sgp\_>** luigi1111w merged a considerable number of changes the past few weeks to substantially improve Monero’s stability. vtnerd submitted new mempool code that handles i2p transaction broadcasts.  
+**\<sgp\_>** luigi1111w merged a considerable number of changes the past few weeks to substantially improve ByteRub’s stability. vtnerd submitted new mempool code that handles i2p transaction broadcasts.  
 **\<sgp\_>** b. Localization workgroup  
 **\<sgp\_>** ErCiccione[m]: you have the floor  
 **\<ErCiccione[m]>** yep  
 **\<ErCiccione[m]>** Not much to report, Weblate is finally online and translators already started to work. Everything seem to work without issues and contributors seem to appreciate the new platform.  
-**\<ErCiccione[m]>** see: translate.getmonero.org  
+**\<ErCiccione[m]>** see: translate.getbyterub.org  
 **\<ErCiccione[m]>** i encourage everybody who can to help translate release 0.15 of GUI and CLI  
 **\<ErCiccione[m]>** Also,  
 **\<ErCiccione[m]>** while preparing weblate for GUI and CLI i tested it for the website. We can use it. Not for the complete website but at least for the main part (the LANG.yml files)  
@@ -95,16 +95,16 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** i think that's it  
 **\<el00ruobuob>** Great!  
 **\<sgp\_>** thanks ErCiccione[m]  
-**\<ErCiccione[m]>** for more info about how weblate works and the feature it has. there's the guide: https://github.com/monero-ecosystem/monero-translations/blob/master/weblate.md  
+**\<ErCiccione[m]>** for more info about how weblate works and the feature it has. there's the guide: https://github.com/byterub-ecosystem/byterub-translations/blob/master/weblate.md  
 **\<sgp\_>** very helpful  
 **\<ErCiccione[m]>** i would like to say a couple of things about the website, even if it's not technically a workgroup, if it's ok, sgp\_  
 **\<sgp\_>** sure  
 **\<sgp\_>** thanks for taking on that initiative btw, it's hugely important  
 **\<ErCiccione[m]>** my pleasure! :P  
 **\<ErCiccione[m]>** btw  
-**\<ErCiccione[m]>** moneromooo proposed to change the header of the website adding "A Reasonably" before "Private Digital Currency  
+**\<ErCiccione[m]>** byterubmooo proposed to change the header of the website adding "A Reasonably" before "Private Digital Currency  
 **\<ErCiccione[m]>** "  
-**\<ErCiccione[m]>** see: https://repo.getmonero.org/byterubpay/monero-site/merge\_requests/1136  
+**\<ErCiccione[m]>** see: https://repo.getbyterub.org/byterubpay/byterub-site/merge\_requests/1136  
 **\<rehrar>** down  
 **\<ErCiccione[m]>** the thing is that that particular header was discussed quite a lot before it was chosen, so i thought was best to discuss that here  
 **\<sgp\_>** I'm also ok with "a reasonably private digital currency for all"  
@@ -116,15 +116,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<OsrsNeedsF2P>** But it looks absolutely terrible to the uneducated user, and IMO, drives them to a less safe alternative  
 **\<sarang>** Terms like "private" and "untraceable" claim a lot  
 **\<rottensox>** ^  
-**\<needmonero90>** Private^[1] Digital Currency  
+**\<needbyterub90>** Private^[1] Digital Currency  
 **\<sarang>** and depend highly on risk and threat models  
 **\<sgp\_>** "xyc coin says it's more private," but they will say that anyway  
 **\<OsrsNeedsF2P>** But what about terms like "The most private [cryptocurrency]", @sarang  
 **\<rehrar>** we really  need to remove untraceable  
 **\<rottensox>** no?  
 **\<rottensox>** lol.  
-**\<needmonero90>** thats arguable even, osrs  
-**\<needmonero90>** "but muh piratechain has mandatory zksnarks"  
+**\<needbyterub90>** thats arguable even, osrs  
+**\<needbyterub90>** "but muh piratechain has mandatory zksnarks"  
 **\<sgp\_>** that's why I like the focus on "for all" for marketing's sake  
 **\<Mochi101>** Did you two make up and become lovers now?  
 **\<sgp\_>** it's the only privacy-focused option someone can reasonably use right now  
@@ -137,12 +137,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** in terms of spacing and stuff  
 **\<Mochi101>** private and obfuscated transactions  
 **\<rottensox>** https://twitter.com/xmranon/status/1179771671303065600  
-**\<monerobux>** [ xmranon on Twitter: ""Bitcoin is so much easier to use than #Monero" is such a bullshit argument. ios.cake android.monerujo web.mymonero" ] - twitter.com  
+**\<byterubbux>** [ xmranon on Twitter: ""Bitcoin is so much easier to use than #ByteRub" is such a bullshit argument. ios.cake android.monerujo web.mybyterub" ] - twitter.com  
 **\<sgp\_>** imo, obfuscated means nothing to non-cryptrocurrency-focused people  
-**\<rehrar>** in other news, I am almost done with a Monero pumpkin picture that sarang requested  
+**\<rehrar>** in other news, I am almost done with a ByteRub pumpkin picture that sarang requested  
 **\<sarang>** That's fantastic rehrar !  
 **\<el00ruobuob>** rehrar, it looks bad with the video that large.  
-**\<sgp\_>** what about the Monero pumpkin carving?  
+**\<sgp\_>** what about the ByteRub pumpkin carving?  
 **\<rehrar>** it will be available for purchase for recurring payment of 0.1 XMR for monthly licensing  
 **\<sgp\_>** for the sake of time, we should move on from this specific topic. Thanks for mentioning it ErCiccione[m]  
 **\<sgp\_>** Do you have anything else to talk about related to the website?  
@@ -153,14 +153,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** got it, I'll check  
 **\<ErCiccione[m]>** sgp\_: yes, user guides and dev guides need to be updated. I would totally support a CCS with that goal  
 **\<sgp\_>** oh for sure  
-**\<ErCiccione[m]>** or anybody who wish to pick up some of the issues labelled help needed: https://repo.getmonero.org/byterubpay/monero-site/issues?label\_name%5B%5D=%E2%9B%91%EF%B8%8F++help+needed  
+**\<ErCiccione[m]>** or anybody who wish to pick up some of the issues labelled help needed: https://repo.getbyterub.org/byterubpay/byterub-site/issues?label\_name%5B%5D=%E2%9B%91%EF%B8%8F++help+needed  
 **\<el00ruobuob>** done sgp\_   
 **\<ErCiccione[m]>** that's basically it. Please comment on mooo's issue about that header, because if we want to change it completely, that should be an entire different discussion  
 **\<sgp\_>** Thanks ErCiccione[m]  
 **\<sgp\_>** I'll pay more attention to GitLab  
 **\<sgp\_>** c. GUI workgroup  
 **\<sgp\_>** xiphon made improvements to remove long payment IDs and to better handle nodes in simple mode.  
-**\<sgp\_>** d. Monero Research Lab  
+**\<sgp\_>** d. ByteRub Research Lab  
 **\<sarang>** Hi  
 **\<sgp\_>** hello sarang, take it away!  
 **\<sarang>** There's been a lot of work on transaction protocols from me, and on graph analysis frameworks from suraeNoether  
@@ -186,7 +186,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** was a good meeting everyone :)  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 26 October at 17:00 UTC. The next Coffee Chat will be on 19 October at 16:00 UTC.  
-**\<sgp\_>** Stick around after the meeting for a new initiative! We’re playing 0 A.D., an open-source, real-time strategy game. This event helps promote the community by focusing on something other than Monero. We hope you join us and have fun watching us mess around! https://www.youtube.com/watch?v=DqIJmY3cOO4  
-**\<monerobux>** [ 0 A.D. Territory Rush with the Monero Community - YouTube ] - www.youtube.com  
+**\<sgp\_>** Stick around after the meeting for a new initiative! We’re playing 0 A.D., an open-source, real-time strategy game. This event helps promote the community by focusing on something other than ByteRub. We hope you join us and have fun watching us mess around! https://www.youtube.com/watch?v=DqIJmY3cOO4  
+**\<byterubbux>** [ 0 A.D. Territory Rush with the ByteRub Community - YouTube ] - www.youtube.com  
 **\<sgp\_>** 7. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

@@ -1,9 +1,9 @@
 {% assign version = '3.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-## Cómo minar Monero (XMR) sin un equipo de minado?
+## Cómo minar ByteRub (XMR) sin un equipo de minado?
 
 Si no cuentas con un equipo de minado rentable, tiempo o
-dinero para invertir en construirlo, puedes minar Monero con NiceHash.
+dinero para invertir en construirlo, puedes minar ByteRub con NiceHash.
 
 NiceHash es un mercado de compra/venta de poder de procesamiento. Vendedores de poder
 de procesamiento, por ejemplo, mineros, proveen el poder de procesamiento para compradores (aquellos que desean
@@ -19,7 +19,7 @@ registro](https://www.nicehash.com/?p=register) y únete con tu dirección de e-
 
 ### **Paso 2:** Deposita algo de Bitcoins a tu cuenta
 
-Minarás Monero, pero sólo puedes comprar poder de procesamiento en
+Minarás ByteRub, pero sólo puedes comprar poder de procesamiento en
 NiceHash con Bitcoins. Puedes retirar Bitcoins que no han sido gastados de tu
 cuenta a cualquier monedero de Bitcoin.
 
@@ -32,7 +32,7 @@ es de 0.01 BTC.
 La selección de la pool juega un gran rol en la cantidad final
 de criptomoneda a minar. Asegura que la pool que selecciones pueda soportar
 un poder de procesamiento masivo y cargas de shares, especialmente desde una conexión individual.
-Puedes encontrar una lista de las pools de Monero [aquí](https://bitcointalk.org/index.php?topic=583449.0).
+Puedes encontrar una lista de las pools de ByteRub [aquí](https://bitcointalk.org/index.php?topic=583449.0).
 
 Ten en cuenta que probablemente también tendrás que registrar una cuenta en
 tu pool seleccionada. La pool te proveerá con toda la información que necesitas.
@@ -41,7 +41,7 @@ Puedes guardar tu pool favorita en [esta página](https://www.nicehash.com/?p=ma
 ### **Paso 4:** Crea una orden nueva y empieza a minar
 
 Cuando crees una [nueva orden](https://www.nicehash.com/?p=orders&new), asegúrate de
-seleccionar el algoritmo CryptoNightR para minar Monero (nuevo variante de algoritmo desde el 9 de marzo de 2019). Si antes deseas aprender
+seleccionar el algoritmo CryptoNightR para minar ByteRub (nuevo variante de algoritmo desde el 9 de marzo de 2019). Si antes deseas aprender
 acerca de crear una orden en NiceHash, te recomendamos que leas las [preguntas frecuentes](https://www.nicehash.com/help/buyers).
 
 Si deseas hacer una oferta en

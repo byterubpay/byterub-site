@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # Isolation du Portefeuille CLI et du Démon avec Qubes et Whonix
 
-Avec [Qubes](https://qubes-os.org) et [Whonix](https://whonix.org) vous pouvez disposer d'un portefeuille Monero hors connexion fonctionnant sur un système virtuel isolé du démon Monero dont tout le trafic est forcé à passer à travers [Tor](https://torproject.org).
+Avec [Qubes](https://qubes-os.org) et [Whonix](https://whonix.org) vous pouvez disposer d'un portefeuille ByteRub hors connexion fonctionnant sur un système virtuel isolé du démon ByteRub dont tout le trafic est forcé à passer à travers [Tor](https://torproject.org).
 
 Qubes permet de créer facilement des machines virtuelles pour différents besoins. Tout d'abord, vous crérez une station de travail Whonix sans réseau pour le portefeuille. Ensuite, une seconde station de travail Whonix pour le démon qui utilisera votre passerelle Whonix comme réseau de machine virtuelle. La communication dentre le portefeuille et le démon pourra être réalisée en utilisant Qubes [qrexec](https://www.qubes-os.org/doc/qrexec3/).
 
@@ -19,7 +19,7 @@ Il s'agit d'une approche plus sûre que d'autres solutions routant les appels de
 
 ## 2. Dans la machine virtuelle applicative `monerod-ws`:
 
-+ Télécharger, vérifier et installer l'application Monero.
++ Télécharger, vérifier et installer l'application ByteRub.
 
 ```
 user@host:~$ curl -O "https://downloads.getmonero.org/cli/monero-linux-x64-v0.11.1.0.tar.bz2" -O "{{ site.baseurl }}/downloads/hashes.txt"
@@ -47,7 +47,7 @@ Collez-y le contenu suivant :
 
 ```
 [Unit]
-Description=Monero Full Node
+Description=ByteRub Full Node
 After=network.target
 
 [Service]

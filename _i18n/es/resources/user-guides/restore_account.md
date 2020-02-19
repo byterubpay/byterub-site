@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Sistemas Operativos:  Windows, Linux, Mac
 
-- Recupera la semilla mnemónica de 25 palabras que guardaste cuando creaste tu viejo monedero de Monero.
+- Recupera la semilla mnemónica de 25 palabras que guardaste cuando creaste tu viejo monedero de ByteRub.
 
 ### Software de cuenta: monero-wallet-cli
 
@@ -18,7 +18,7 @@
 
 - Presiona Enter nuevamente y se pedirá la semilla mnemónica de 25 palabras estilo electrum que recuperaste antes.
 
-- Se pedirá ahora el restaurar desde una altura específica en la blockchain (Restore from specific blockchain height, (opcional, default 0)): Default empezará el proceso de restauración desde el inicio de la blockchain de Monero. Si no conoces la altura de bloque específica, sólo presiona Enter. (Dar una altura de bloque específica iniciará el proceso de restauración desde esa misma altura. Esto ahorrará un poco de tiempo en el escaneo, si conoces la altura de bloque en la cual tus fondos iniciales fueron tramitados para tu cuenta en específico).
+- Se pedirá ahora el restaurar desde una altura específica en la blockchain (Restore from specific blockchain height, (opcional, default 0)): Default empezará el proceso de restauración desde el inicio de la blockchain de ByteRub. Si no conoces la altura de bloque específica, sólo presiona Enter. (Dar una altura de bloque específica iniciará el proceso de restauración desde esa misma altura. Esto ahorrará un poco de tiempo en el escaneo, si conoces la altura de bloque en la cual tus fondos iniciales fueron tramitados para tu cuenta en específico).
 
 Después de haber ingresado la semilla mnemónica de 25 palabras y haber elegido la altura de bloque específica, monero-wallet-cli generará la misma llave de visualización y dirección pública que tu viejo monedero e iniciará el proceso de actualización automáticamente. (Por favor sé paciente, el proceso de actualización puede tardar un tiempo).
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-09-16
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-09-16
 summary: Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -30,7 +30,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Aside from that, I've been working with the Lelantus authors on some ideas to fix its self-spend tracing problem  
 **\<sarang>** And that's coming together nicely  
 **\<sarang>** The CLSAG paper will be submitted to Financial Cryptography this week  
-**\<sarang>** And my CCS funding request for next quarter has been opened: https://ccs.getmonero.org/proposals/sarang-2019-q4.html  
+**\<sarang>** And my CCS funding request for next quarter has been opened: https://ccs.getbyterub.org/proposals/sarang-2019-q4.html  
 **\<sarang>** On a more whimsical note, a preprint was just posted that does some analysis on a card-based cipher originally designed by Bruce Schneier for a book: https://arxiv.org/abs/1909.06300  
 **\<sarang>** It's a neat example of a cipher that appears to resist a good deal of modern cryptanalysis, but can be done using paper, pen, and a deck of playing cards!  
 **\<mikerah>** ElsieFour also has such properties except without the playing cards.  
@@ -44,13 +44,13 @@ author: el00ruobuob / sarang
 **\<sarang>** Halo has some clever ideas in it, but it's worth noting (as usual) that preprints don't undergo peer review, and that Halo currently lacks a soundness proof  
 **\<sarang>** It will be fun to see the new research that comes from its ideas  
 **\<sarang>** Any particular questions on the items that I mentioned?  
-**\<mikerah>** How would the ideas from lelantus get implemented in monero?  
+**\<mikerah>** How would the ideas from lelantus get implemented in byterub?  
 **\<sarang>** Its transaction model could, hypothetically, be implemented directly  
 **\<sarang>** Using a particular kind of migration transaction to transition older outputs  
 **\<sarang>** It would result initially in a smaller anonymity set  
 **\<sarang>** Currently Lelantus has a tracing issue that's a deal-breaker IMO  
 **\<sarang>** but very recent ideas mean that may not be a problem  
-**\<mikerah>** Would there be traceability problems from the current monero blockchain to this hypothetical lelantus+monero blockchain?  
+**\<mikerah>** Would there be traceability problems from the current byterub blockchain to this hypothetical lelantus+byterub blockchain?  
 **\<sarang>** How so?  
 **\<mikerah>** As in, would it be possible to trace transactions between hard forked blockchains  
 **\<sarang>** In such an implementation, old-style transactions would not be allowed  

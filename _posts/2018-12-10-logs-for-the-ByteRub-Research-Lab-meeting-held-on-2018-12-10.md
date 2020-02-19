@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-12-10
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-12-10
 summary: Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -12,13 +12,13 @@ author: el00ruobuob / sarang
 **\<sarang>** Greetings to everyone; who's here?  
 **\<sgp\_>** hello  
 **\<engelmensch\_>** hi  
-**\<sarang>** ping binaryFate endogenic gingeropolous hyc Isthmus moneromooo nioc parasew[m] rehrar smooth stoffu etc  
+**\<sarang>** ping binaryFate endogenic gingeropolous hyc Isthmus byterubmooo nioc parasew[m] rehrar smooth stoffu etc  
 **\<endogenic>** hello  
 **\<sarang>** suraeNoether will be away today  
 **\<sarang>** First off, updates on recent work  
 **\<sarang>** another tech note (MRL-0010) is merged to -site along with several others that now appear  
-**\<sarang>** https://getmonero.org/resources/research-lab/  
-**\<sarang>** soon lab.getmonero.org will direct there as well  
+**\<sarang>** https://getbyterub.org/resources/research-lab/  
+**\<sarang>** soon lab.getbyterub.org will direct there as well  
 **\<sarang>** MRL-0011 deals with graph matching and is being finalized  
 **\<sarang>** Along those lines, some interesting lit review  
 **\<sarang>** An older paper on quantum-resistant accumulators: https://eprint.iacr.org/2017/1154  
@@ -28,17 +28,17 @@ author: el00ruobuob / sarang
 **\<sarang>** And the paper discussed this morning about cross-chain stats: https://arxiv.org/abs/1812.02808  
 **\<hyc>** cool stuff  
 **\<sarang>** Besides those, I'm reviewing additional non-published stuff, one of which is an alternate proposal for return addresses  
-**\<sarang>** sgp\_ suggested doing a youtube series called Breaking Monero  
-**\<sarang>** each short episode would talk about a common method of monero analysis  
+**\<sarang>** sgp\_ suggested doing a youtube series called Breaking ByteRub  
+**\<sarang>** each short episode would talk about a common method of byterub analysis  
 **\<engelmensch\_>** to help the DHS ;) ?  
 **\<sarang>** heh  
 **\<sgp\_>** want me to paste the initial description ideas?  
 **\<sarang>** please do sgp\_  
 **\<sgp\_>** I didn't update yet with your feedback  
 **\<sarang>** that's fine  
-**\<sgp\_>** https://www.irccloud.com/pastebin/XI0H2aU9/Breaking%20Monero%20Ideas  
+**\<sgp\_>** https://www.irccloud.com/pastebin/XI0H2aU9/Breaking%20ByteRub%20Ideas  
 **\<sarang>** I think doing this will speak well to our transparency and get ahead of low-quality research  
-**\<sgp\_>** I also think it will help Monero research be more approachable to those who do not idle here all day  
+**\<sgp\_>** I also think it will help ByteRub research be more approachable to those who do not idle here all day  
 **\<sarang>** Any thoughts after reading this? (Or on my previous statements about lit review and MRL papers?)  
 **\<sarang>** ^^  
 **\<engelmensch\_>** is there a plan to add paper references to the episodes=  
@@ -94,7 +94,7 @@ author: el00ruobuob / sarang
 **\<engelmensch\_>** I want to show that the commitment do not leak any more information, as an attacker would find out anyway  
 **\<notmike>** excuse me endogenic can you take a step back and try to calm down, please  
 **\<endogenic>** no  
-**\<notmike>** I'm just curious as are many others about where the monero from the FFS is goin  
+**\<notmike>** I'm just curious as are many others about where the byterub from the FFS is goin  
 **\<notmike>** If you haven't noticed this is something many are asking.  
 **\<sarang>** we can discuss that shortly if you don't mind  
 **\<endogenic>** go ask on reddit then. this is not your personal attention seeking venue  
@@ -103,7 +103,7 @@ author: el00ruobuob / sarang
 **\<engelmensch\_>** yes the amount commitments and the intermeidate stuff in the single, in my setting also the color commitments  
 **\<sarang>** well the commitment itself is a pedersen commitment, not much info gained there  
 **\<sarang>** is it something particular to the signature definition you're looking at?  
-**\<engelmensch\_>** not sure if I can only reduce the security of my contruction to the current monero  
+**\<engelmensch\_>** not sure if I can only reduce the security of my contruction to the current byterub  
 **\<engelmensch\_>** I use the MLSAG as a blackbox  
 **\<sarang>** Interesting  
 **\<sarang>** We'll be glad to help as needed  
@@ -115,7 +115,7 @@ author: el00ruobuob / sarang
 **\<engelmensch\_>** yes, I saw this for the MLSAG and just reference it  
 **\<notmike>** sarang: well, consider the Loki Foundation's offer. There should be a serious effort to draw in other researchers before any consideration is made of paying present researchers with that cash.  
 **\<sarang>** We don't want to spread community donations too thin  
-**\<sgp\_>** at the moment even moneromooo's FFS has been open for a few days  
+**\<sgp\_>** at the moment even byterubmooo's FFS has been open for a few days  
 **\<sarang>** If current researchers get fully funded, it makes more sense to investigate someone else  
 **\<notmike>** Its not clear that this would happen from bringing in other researchers, or that fully funding present researchers is the best use of the funds.  
 **\<sarang>** It's up to donors to decide what to do with their money  
@@ -161,7 +161,7 @@ author: el00ruobuob / sarang
 **\<sarang>** surae also has some code relating to it  
 **\<engelmensch\_>** cool  
 **\<sgp\_>** Side note: I made this post yesterday regarding attackers collecting IP broadcast data by running nodes: https://medium.com/@JEhrenhofer/attacker-collection-of-ip-metadata-27032e736371  
-**\<sgp\_>** m2049r got back to me with an estimate gingeropolous: 3183 Monero nodes, 64 of them with port 18089 open, 56 of those on the proper block height  
+**\<sgp\_>** m2049r got back to me with an estimate gingeropolous: 3183 ByteRub nodes, 64 of them with port 18089 open, 56 of those on the proper block height  
 **\<sarang>** Conclusions?  
 **\<sgp\_>** Attackers can run x many nodes to connect to y clients directly, therefore learning more about the transaction broadcast process  
 **\<sgp\_>** s/y clients/y other nodes  

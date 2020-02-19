@@ -11,7 +11,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 1. Greetings  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<i2p-relay> {-vtnerd}** oh I guess there is one more thing. the backend was going to hopefully push updates to connected clients  
-**\<anonimal>** 3. ByteRub HackerOne Bounty https://www.reddit.com/r/ByteRub/comments/5zmywx/monero_bounty_for_hackerone/  
+**\<anonimal>** 3. ByteRub HackerOne Bounty https://www.reddit.com/r/ByteRub/comments/5zmywx/byterub_bounty_for_hackerone/  
 **\<i2p-relay> {-fluffypony}** ok anonimal, all yours  
 **\<anonimal>** 3. Code + ticket discussion / Q & A  
 **\<anonimal>** 4. Any additional meeting items  
@@ -21,23 +21,23 @@ author: dEBRUYNE / fluffypony
 **\<guzzi>** Hi  
 **\<i2p-relay> {-olark}** o/  
 **\<guzzi>** Sweet olark  
-**\<i2p-relay> {-olark}** Yeah I missed the monero meeting unfortunately :/  
+**\<i2p-relay> {-olark}** Yeah I missed the byterub meeting unfortunately :/  
 **\<i2p-relay> {-olark}** I'll read the logs  
 **\<guzzi>** Really good meeting  
 **\<anonimal>** On topic please  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
-**\<anonimal>** https://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-90733  
+**\<anonimal>** https://forum.getbyterub.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-90733  
 **\<anonimal>** ^ for a summary on my part  
 **\<anonimal>** moroccanmalinois has done some great work since the previous meeting. We have a new utility binary with multiple features. He's also done work elsewhere in the codebase.  
 **\<moroccanmalinois>** :)  
 **\<anonimal>** guzzi has also contributed to the utility binary. guzzi can you link to your FFS if you're doing work summaries/reports?  
-**\<moneromooo>** What does this utility binary do, in a nutshell ?  
+**\<byterubmooo>** What does this utility binary do, in a nutshell ?  
 **\* anonimal** wants to say ./kovri-util -h  
 **\<guzzi>** I will add summary tonight  
 **\<guzzi>** On phone  
-**\<moneromooo>** OK, I'll try to pull someday and check :P  
+**\<byterubmooo>** OK, I'll try to pull someday and check :P  
 **\<anonimal>** guzzi: then give us a tl;dr for point 2. please  
-**\<moroccanmalinois>** moneromooo base32, base64, routerinfo( reads a RI file) and su3file (reads an su3file)  
+**\<moroccanmalinois>** byterubmooo base32, base64, routerinfo( reads a RI file) and su3file (reads an su3file)  
 **\<moroccanmalinois>** and the crypto benchmark  
 **\<guzzi>** Added benchmarks to utility  
 **\<anonimal>** guzzi: I already said that, didn't you do other things too? Like research, etc.?  
@@ -48,17 +48,17 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** What should be easy? None of that looks easy...  
 **\<anonimal>** Anyway, we'll save that for later. Anything else on point 2.?  
 **\<guzzi>** Relatively easy from db perspective. Difficult from kovri perspective yes  
-**\<anonimal>** 3. ByteRub HackerOne Bounty https://www.reddit.com/r/ByteRub/comments/5zmywx/monero_bounty_for_hackerone/  
+**\<anonimal>** 3. ByteRub HackerOne Bounty https://www.reddit.com/r/ByteRub/comments/5zmywx/byterub_bounty_for_hackerone/  
 **\<anonimal>** fluffypony: ^ thoughts?  
 **\<i2p-relay> {-fluffypony}** so my thoughts is that we should just do a general fund across all the projects  
 **\<i2p-relay> {-fluffypony}** because HackerOne let's us basically apportion stuff as needed  
 **\<i2p-relay> {-fluffypony}** so we don't have to give out the entire bounty for some stupid XSS attack  
-**\<anonimal>** Ok. I'll have to talk with them about setting up ByteRub. Do we include the GUI into /monero or create /monero-gui? We can probably wrap it into /monero if needed. Do we create /monero-site ?  
+**\<anonimal>** Ok. I'll have to talk with them about setting up ByteRub. Do we include the GUI into /byterub or create /byterub-gui? We can probably wrap it into /byterub if needed. Do we create /byterub-site ?  
 **\<i2p-relay> {-fluffypony}** anonimal: everything goes under the ByteRub umbrella / bounty, right?  
 **\<i2p-relay> {-fluffypony}** just that each actual sub project can be represented  
 **\<anonimal>** I'm speaking purely about H1 accounts.  
 **\<anonimal>** We do whatever we want with fund management.  
-**\<anonimal>** fluffypony: it's possible but then all monero developers have access to all bug reports for all subprojects  
+**\<anonimal>** fluffypony: it's possible but then all byterub developers have access to all bug reports for all subprojects  
 **\<anonimal>** So that brings up a trust issue. I'm fine with the idea but it should be mentioned.  
 **\<i2p-relay> \* fluffypony** ponders  
 **\<anonimal>** Also I'd like to have access to the account as account holder. This is something I couldn't do if we throw into one account.  
@@ -69,23 +69,23 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** mooneroo: for the byterubpay GitHub account the core team all have the password, because there's no easy way to share that control otherwise - could we not do the same for H1?  
 **\<anonimal>** I mean, there are features/benefits, but access to vulnerabilities is a big issue.  
 **\<i2p-relay> {-fluffypony}** amongst maintainers I mean  
-**\<anonimal>** pinging mooneroo or moneromooo?  
+**\<anonimal>** pinging mooneroo or byterubmooo?  
 **\<anonimal>** We could do that I think.  
-**\<moneromooo>** Well, some members of hte monero core team are pretty much inactive AIUI. So no need to get them access to this.  
+**\<byterubmooo>** Well, some members of hte byterub core team are pretty much inactive AIUI. So no need to get them access to this.  
 **\<i2p-relay> {-fluffypony}** whoops  
 **\<i2p-relay> {-fluffypony}** I meant anonimal  
 **\<i2p-relay> {-fluffypony}** sorry ignore typo  
 **\<i2p-relay> {-fluffypony}** anonimal: for the byterubpay GitHub account the core team all have the password, because there's no easy way to share that control otherwise - could we not do the same for H1?  
-**\<i2p-relay> {-fluffypony}** moneromooo: would be among maintainers  
+**\<i2p-relay> {-fluffypony}** byterubmooo: would be among maintainers  
 **\<i2p-relay> {-fluffypony}** lol  
 **\<i2p-relay> {-fluffypony}** the core team have passwords for stuff like this as a fallback  
 **\<anonimal>** I don't think inactive people should have access to H1. Only on a as-needed basis. Maybe when they become active again?  
-**\* moneromooo** misread anonimal's ping, nevermind  
+**\* byterubmooo** misread anonimal's ping, nevermind  
 **\<ArticMine>** The drop dead theory  
 **\<i2p-relay> {-fluffypony}** ^^  
 **\<i2p-relay> {-fluffypony}** it's just an anti-bus factor  
 **\<i2p-relay> {-fluffypony}** the main people using it would be maintainers, which are currently just me and anonimal  
-**\<moneromooo>** I was given access a while back (though might have been rescinded by now).  
+**\<byterubmooo>** I was given access a while back (though might have been rescinded by now).  
 **\<anonimal>** No, you have access to kovri  
 **\<i2p-relay> {-fluffypony}** and I don't think there's a big issue with maintainers having visibility on other reports  
 **\<anonimal>** As does EinMByte but is he still alive?  
@@ -100,7 +100,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Ok  
 **\<i2p-relay> {-fluffypony}** anonimal: maybe an infrastructure one too, which is pigeons' domain?  
 **\<jacobjeweler>** Nodepool code perhaps?  
-**\<moneromooo>** Meh. And no real maintainer.  
+**\<byterubmooo>** Meh. And no real maintainer.  
 **\<jacobjeweler>** Snipa's work  
 **\<i2p-relay> {-fluffypony}** @JacobJeweler no, that's not a core project  
 **\<i2p-relay> {-fluffypony}** external projects can do their own H1 stuff  
@@ -110,11 +110,11 @@ author: dEBRUYNE / fluffypony
 **\<pigeons>** we lost irc2p again  
 **\<i2p-relay> {-pigeons}** ok i'll file a few reports as someone else for a bounty then  
 **\<i2p-relay> {-fluffypony}** works here pigeons  
-**\<moneromooo>** One thing also that's probably needed: a list of "this does not count". Like all that's known already.  
+**\<byterubmooo>** One thing also that's probably needed: a list of "this does not count". Like all that's known already.  
 **\<i2p-relay> {-pigeons}** hmm yeah, just some selective drops, oh well  
-**\<moneromooo>** But this is easily a bone of contention otherwise.  
-**\<anonimal>** moneromooo: that's included in H1. We can incorporate that into one of the features they have.  
-**\<i2p-relay> {-fluffypony}** moneromooo: agreed  
+**\<byterubmooo>** But this is easily a bone of contention otherwise.  
+**\<anonimal>** byterubmooo: that's included in H1. We can incorporate that into one of the features they have.  
+**\<i2p-relay> {-fluffypony}** byterubmooo: agreed  
 **\<i2p-relay> {-fluffypony}** every report is subjective  
 **\<anonimal>** (iirc)  
 **\<anonimal>** Ok, so I will contact them and move these into a single account.  
@@ -132,7 +132,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-olark}** How much money should we aim to raise for H1?  
 **\<i2p-relay> {-olark}** Assuming this will need to be replenished every now and then.  
 **\<i2p-relay> {-fluffypony}** I have no idea - suggestions?  
-**\<anonimal>** https://forum.getmonero.org/6/ideas/87597/monero-bounty-for-hackerone suggested 500 total for all projects  
+**\<anonimal>** https://forum.getbyterub.org/6/ideas/87597/byterub-bounty-for-hackerone suggested 500 total for all projects  
 **\<anonimal>** (500 XMR)  
 **\* anonimal** checks value  
 **\<i2p-relay> {-fluffypony}** olark: yes but bounties are normally denominated in USD  
@@ -151,8 +151,8 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Awesome. Anything else on point 3.?  
 **\<i2p-relay> {-fluffypony}** next?  
 **\<anonimal>** Do we extend 20 minutes or are we screwed because of earlier?  
-**\<moneromooo>** There are two point 3s.  
-**\<moneromooo>** Extend, and whoever wants to leave leaves :)  
+**\<byterubmooo>** There are two point 3s.  
+**\<byterubmooo>** Extend, and whoever wants to leave leaves :)  
 **\<i2p-relay> {-fluffypony}** we can extend to finish up, but let's do it ASAP so I can move on to tagging and releasing  
 **\<anonimal>** lol, yes. Github turns that into 4 if I copypasta. If I get original text, it's 3.  
 **\<anonimal>** 4. Code + ticket discussion / Q & A  
@@ -207,8 +207,8 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** guzzi: for the TODO  
 **\<anonimal>** pero: there's a question mark. What is your point?  
 **\<pero>** where is there a question mark  
-**\<moneromooo>** After "yesterday".  
-**\<moneromooo>** Looks like a typo for "".  
+**\<byterubmooo>** After "yesterday".  
+**\<byterubmooo>** Looks like a typo for "".  
 **\<pero>** this is ticket discussion isnt it - i was chiming in on something that was ostensibly assigned to me without my knowledge  
 **\<ajs>** anonimal: pigeons said he got a server for #46, but waiting for access to move over files  
 **\<anonimal>** pero: nothing was assigned to you  
@@ -228,7 +228,7 @@ author: dEBRUYNE / fluffypony
 **\<guzzi>** Cool  
 **\<anonimal>** 5. Any additional meeting items  
 **\<anonimal>** No additional items from me afaict  
-**\<moroccanmalinois>** One last question : an external app that wants to use kovri (like monero GUI), should it includes only the libs ? or it can include things from src/app ?  
+**\<moroccanmalinois>** One last question : an external app that wants to use kovri (like byterub GUI), should it includes only the libs ? or it can include things from src/app ?  
 **\<anonimal>** Nothing from app. I see no reason for it to include anything from app.  
 **\<anonimal>** Which means we get things out of app that we need elsewhere. I wrote TODO's.  
 **\<moroccanmalinois>** Perfect. thx  

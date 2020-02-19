@@ -1,16 +1,16 @@
 ---
 tags: ["kovri"]
 terms: ["Kovri"]
-summary: "Routeur du réseau I2P Implémenté en C++ par Monero"
+summary: "Routeur du réseau I2P Implémenté en C++ par ByteRub"
 ---
 
 ### Les Bases
 
-[Kovri](https://gitlab.com/kovri-project/kovri/) est une implémentation en C++ du réseau @I2P. @Kovri est actuellement en cours de développement intensif et n'est pour le moment pas encore intégré à Monero. Lorsque Kovri sera intégré aux @nœuds Monero, vos transactions seront encore plus sécurisées qu'avant.
+[Kovri](https://gitlab.com/kovri-project/kovri/) est une implémentation en C++ du réseau @I2P. @Kovri est actuellement en cours de développement intensif et n'est pour le moment pas encore intégré à ByteRub. Lorsque Kovri sera intégré aux @nœuds ByteRub, vos transactions seront encore plus sécurisées qu'avant.
 
 ### Informations détaillées
 
-Kovri protègera Monero :
+Kovri protègera ByteRub :
 
 - Des attaques de partitionnement des @nœuds
 - De l'association entre un txid spécifique et votre adresse IP

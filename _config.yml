@@ -1,9 +1,9 @@
-email: dev@getmonero.org
+email: dev@getbyterub.org
 name: ByteRub
 description: ByteRub is a digital currency that is secure, private, and untraceable.
-keywords: "monero, xmr, bitmonero, cryptocurrency"
-baseurl: "https://getmonero.org"
-url: "https://getmonero.org"
+keywords: "byterub, xmr, bitbyterub, cryptocurrency"
+baseurl: "https://getbyterub.org"
+url: "https://getbyterub.org"
 
 markdown: kramdown
 
@@ -33,10 +33,10 @@ exclude_from_localizations: ["img", "css", "fonts", "media", "404", "feed.xml", 
 
 # Windows live tiles config
 ie_tile_color: eeeeee
-ie_tile_small: https://static.getmonero.org/images/live-tiles/small.png
-ie_tile_medium: https://static.getmonero.org/images/live-tiles/medium.png
-ie_tile_wide: https://static.getmonero.org/images/live-tiles/wide.png
-ie_tile_large: https://static.getmonero.org/images/live-tiles/large.png
+ie_tile_small: https://static.getbyterub.org/images/live-tiles/small.png
+ie_tile_medium: https://static.getbyterub.org/images/live-tiles/medium.png
+ie_tile_wide: https://static.getbyterub.org/images/live-tiles/wide.png
+ie_tile_large: https://static.getbyterub.org/images/live-tiles/large.png
 
 # Sitemap
 sitemap:

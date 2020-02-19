@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Overview  
 
-An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting_2018-01-28).  
+An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeeting_2018-01-28).  
 
 # Logs  
 
@@ -29,10 +29,10 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<gingeropolous>** oh theres a meeting?  
 **\<rehrar>** anyone else?  
 **\<endogenic>** no ginger  
-**\<iDunk>** moneromooo  
+**\<iDunk>** byterubmooo  
 **\<dEBRUYNE>** I am her  
 **\<dEBRUYNE>** e  
-**\<rehrar>** medusa moneromooo othe  
+**\<rehrar>** medusa byterubmooo othe  
 **\<smooth>** 1  
 **\<rehrar>** Well, welcome everyone! :)  
 **\<rehrar>** 2. Brief review of what's been completed since the previous meeting  
@@ -54,15 +54,15 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\* sarang** will be quiet now  
 **\<rehrar>** Anyone else? :) GUI have anything?  
 **\<medusa>** the GUI project has merged sub addresses. also we removed the ability for the user to generate payment ids and integrated addresses  
-**\<medusa>** in addition, there is a new monerod start up flag, called --boostrap daemon https://github.com/byterubpay/monero/pull/3165  
+**\<medusa>** in addition, there is a new byterubd start up flag, called --boostrap daemon https://github.com/byterubpay/byterub/pull/3165  
 **\<hyc>** ^^ this looks very good. I wonder if the GUI should use that by default  
 **\<medusa>** the GUi will make use of this too, so there dont exist several implementations of the same thing  
 **\<gingeropolous>** is that supplanting Jaquee 's thing?  
-**\<medusa>** PR is allready here hyc https://github.com/byterubpay/monero-gui/pull/1091  
+**\<medusa>** PR is allready here hyc https://github.com/byterubpay/byterub-gui/pull/1091  
 **\<medusa>** gingeropolous:as far as i understand it, yes  
 **\<rehrar>** I'll repaste xmrscott[m]'s message so people who don't want to click don't have to  
 **\<rehrar>** David Mirza Ahmad, president of Subgraph OS, has put together a byte-for-byte matching Debian package and is requesting comment on some final pieces: "There some decisions to make for us, like: where does the blockchain data go? Do we start the daemon with systemd by default (feeling like no, as it can be started in GUI)? Appreciate thoughts on this." No one has provided comments on these matters so if anyone here could do so it woul  
-**\<rehrar>** d be appreciated. https://github.com/byterubpay/monero/issues/2395  
+**\<rehrar>** d be appreciated. https://github.com/byterubpay/byterub/issues/2395  
 **\<rehrar>** \^  
 **\<pebx>** thanks for the update medusa! this looks very good. we shouldn't forget that GUI is the interface to the rest of the world...  
 **\<msvb-lab>** rehrar: Byte for byte matching, you mean as in reproducible build? Gitian?  
@@ -132,7 +132,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** Either way, thoughts on lowering the arbitrary 'Low Fee'?  
 **\<ArticMine>** We have to be careful with the low fee level relative to the 1 tx at penalty (default)  
 **\<ArticMine>** Spam attacks becomes possible if the probability of mining becomes too low  
-**\<pebx>** the crypto "market" might crash in the meantime, but it also might not and what if monero's market price until september rises like within the last 8 months?  
+**\<pebx>** the crypto "market" might crash in the meantime, but it also might not and what if byterub's market price until september rises like within the last 8 months?  
 **\<smooth>** ArticMine: but doesn't the probability of mining just depend on how many of each there are and not the fee amount?  
 **\<pebx>** the minimum fee is a good protection but also a pain...  
 **\<smooth>** the issue i see with too much of a gap between levels is the incentive to circumvent (just bump up your own fee a little so you are above all the others in the same level but not all the way to the next level)  
@@ -155,7 +155,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<endogenic>** smooth: i would only suggest inaction until after study/ confirmation  
 **\<ArticMine>** and then nothing for March, after which we will have BP  
 **\<rehrar>** Which brings us full circle :P  
-**\<moneromooo>** Can we finish the meeting first, and go back to the fee stuff ?  
+**\<byterubmooo>** Can we finish the meeting first, and go back to the fee stuff ?  
 **\<endogenic>** lol mooo  
 **\<rehrar>** Alright. Moving on then! 4. Code + ticket discussion / Q & A  
 **\<pebx>** nice to see you, mooo  
@@ -168,7 +168,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<pebx>** dEBRUYNE my point is, that at some point fees can get insane like they have been / are in bitcoin  
 **\<ArticMine>** Then if it is merged that is all  
 **\<gingeropolous>** ^^  
-**\<medusa>** this one no ? https://github.com/byterubpay/monero/pull/3123  
+**\<medusa>** this one no ? https://github.com/byterubpay/byterub/pull/3123  
 **\<smooth>** yes. lets move on: rehrar>** Alright. Moving on then! 4. Code + ticket discussion / Q & A  
 **\<rbrunner>** I have a little thing: The Windows installer missed the Fall releases. But surely the March release is a perfect opportunity to finally put it into service ...?  
 **\<hyc>** yeah sounds like we're fine for now on fee  
@@ -179,7 +179,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rbrunner>** Ah well, March is early enough :)  
 **\<rbrunner>** Just do not forget it :)  
 **\<luigi1111>** I personally prefer portable exe but both are fine with me  
-**\<moneromooo>** "portable" and "exe", hmmm :)  
+**\<byterubmooo>** "portable" and "exe", hmmm :)  
 **\<hyc>** lol  
 **\<dEBRUYNE>** pebx: I surely hope the dynamic fee algo has kicked in by then. Anyway, I'll refrain from commenting on fees now.  
 **\<luigi1111>** :)  
@@ -204,7 +204,7 @@ An overview can be found on [ByteRubBase](https://monerobase.com/wiki/DevMeeting
 **\<rehrar>** I guess just as a general question, is this time inconvenient for other people?  
 **\<hyc>** seems ok to me  
 **\<rehrar>** hyc has spoken  
-**\<moneromooo>** IIRC ArticMine objected.  
+**\<byterubmooo>** IIRC ArticMine objected.  
 **\<rehrar>** I'll probably open a meta issue and ask for opinions.  
 **\<ArticMine>** I would prefer an hour earlier  
 **\<hyc>** good idea  

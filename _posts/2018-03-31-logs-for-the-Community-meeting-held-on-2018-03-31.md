@@ -25,20 +25,20 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew[m]>** hello!  
 **\<sgp\_>** looks like we have a good crowd today  
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** ByteRub 0.12.0.0 is released. The GUI is still forthcoming. You must update your software by April 6 to continue spending funds. You can download a copy of it here: https://github.com/byterubpay/monero/releases/tag/v0.12.0.0  
-**\<sgp\_>** I published a response to “An Empirical Analysis of Traceability in the ByteRub Blockchain”, version 2: https://getmonero.org/2018/03/29/response-to-an-empirical-analysis-of-traceability.html  
+**\<sgp\_>** ByteRub 0.12.0.0 is released. The GUI is still forthcoming. You must update your software by April 6 to continue spending funds. You can download a copy of it here: https://github.com/byterubpay/byterub/releases/tag/v0.12.0.0  
+**\<sgp\_>** I published a response to “An Empirical Analysis of Traceability in the ByteRub Blockchain”, version 2: https://getbyterub.org/2018/03/29/response-to-an-empirical-analysis-of-traceability.html  
 **\<sgp\_>** dsc\_\_ shared a preview of the GUI black theme: https://www.reddit.com/r/ByteRub/comments/86l3km/gui\_black\_theme\_preview/  
-**\<monerobux>** [REDDIT] GUI - Black theme preview (self.ByteRub) | 104 points (98.0%) | 29 comments | Posted by dsc\_\_ | Created at 2018-03-23 - 14:36:17  
+**\<byterubbux>** [REDDIT] GUI - Black theme preview (self.ByteRub) | 104 points (98.0%) | 29 comments | Posted by dsc\_\_ | Created at 2018-03-23 - 14:36:17  
 **\<sgp\_>** Does anyone else have community updates to share?  
 **\<xmrscott[m]>** DefCon workgroup created  
-**\<serhack>** Mastering ByteRub released a preview of the first chapter. If you want to contribute, https://github.com/monerobook/monerobook  
+**\<serhack>** Mastering ByteRub released a preview of the first chapter. If you want to contribute, https://github.com/byterubbook/byterubbook  
 **\<xmrscott[m]>** First meeting a Saturday from now  
-**\<serhack>** The preview of the first chapter is available on https://masteringmonero.com  
+**\<serhack>** The preview of the first chapter is available on https://masteringbyterub.com  
 **\<KnifeOfPi\_>** hello!  
 **\<ErCiccione>** The GUI is basically ready, binaries will be probably built within the weekend  
 **\<KnifeOfPi\_>** we’re working on getting cakewallet ready  
-**\<sgp\_>** ah yes xmrscott, link to the thread about DefCon here: https://www.reddit.com/r/ByteRub/comments/87uy99/the\_monero\_project\_defcon\_26\_aug\_912\_in\_las\_vegas/  
-**\<monerobux>** [REDDIT] The ByteRub Project @ DefCon 26 (Aug 9-12 in Las Vegas)! Looking for volunteers! First DefCon workgroup meeting 4/7! (self.ByteRub) | 15 points (74.0%) | 11 comments | Posted by xmrscott | Created at 2018-03-28 - 19:50:11  
+**\<sgp\_>** ah yes xmrscott, link to the thread about DefCon here: https://www.reddit.com/r/ByteRub/comments/87uy99/the\_byterub\_project\_defcon\_26\_aug\_912\_in\_las\_vegas/  
+**\<byterubbux>** [REDDIT] The ByteRub Project @ DefCon 26 (Aug 9-12 in Las Vegas)! Looking for volunteers! First DefCon workgroup meeting 4/7! (self.ByteRub) | 15 points (74.0%) | 11 comments | Posted by xmrscott | Created at 2018-03-28 - 19:50:11  
 **\<sgp\_>** serhack I should have time to review the book this weekend  
 **\<serhack>** A lot of updates today! Nice!  
 **\<m2049r[m]>** monerujo beta is 0.12 ready (and on play store & github)  
@@ -56,11 +56,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** cryptochangement I think that would be especially helpful for r/ByteRubMining  
 **\<dEBRUYNE>** But may be susceptible to fraud  
 **\<cryptochangement>** I dont see why somebody would lie about having updated or not  
-**\<m2049r[m]>** if a pool doesnt update, they are effectively mining monero0?  
+**\<m2049r[m]>** if a pool doesnt update, they are effectively mining byterub0?  
 **\<ErCiccione>** true. we can create a workgroup on taiga  
 **\<dEBRUYNE>** m2049r[m]: yes  
 **\<xmrmatterbridge> \<hrumag>** ErCiccione: +1  
-**\<ArticMine>** if a pool doesnt update, they are effectively mining monero0? <--- If they do not change the seed nodes I suspect not  
+**\<ArticMine>** if a pool doesnt update, they are effectively mining byterub0? <--- If they do not change the seed nodes I suspect not  
 **\<sgp\_>** ErCiccione would you mind creating that then and adding me as a contributor? I would like to get the pool list in r/ByteRubMining  
 **\<dEBRUYNE>** ArticMine: Seed nodes are only relevant for the initial connection  
 **\<dEBRUYNE>** sgp\_: You can use my table from the old thread I guess?  
@@ -68,7 +68,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** sgp\_ ^  
 **\<sgp\_>** dEBRUYNE yes, I'll start there  
 **\<dEBRUYNE>** https://www.reddit.com/r/ByteRub/comments/6yuv2s/psa\_users\_solominers\_exchangesmerchantsservices/  
-**\<monerobux>** [REDDIT] PSA: Users, (solo)miners, exchanges/merchants/services, and pool operators must be on CLI v0.11.0.0 or GUI v0.11.0.0 in advance of the scheduled protocol upgrade otherwise you will get booted off the network. Miners, please contact your pool operator to ask them if they have upgraded! (self.ByteRub) | 143 points (99.0%) | 189 comments | Posted by dEBRUYNE\_1 | Created at 2017-09-08 - 13:47:34  
+**\<byterubbux>** [REDDIT] PSA: Users, (solo)miners, exchanges/merchants/services, and pool operators must be on CLI v0.11.0.0 or GUI v0.11.0.0 in advance of the scheduled protocol upgrade otherwise you will get booted off the network. Miners, please contact your pool operator to ask them if they have upgraded! (self.ByteRub) | 143 points (99.0%) | 189 comments | Posted by dEBRUYNE\_1 | Created at 2017-09-08 - 13:47:34  
 **\<dEBRUYNE>** I'll PM you the markup  
 **\<sgp\_>** I should be able to view the source  
 **\<sgp\_>** Just verified, can view. No PM for that necessary  
@@ -76,16 +76,16 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** All right, I think we should move on to the next section. If there are still discussions, we can have them during open ideas time  
 **\<sgp\_>** 3. FFS updates  
 **\<sgp\_>** There are several Forum Funding System updates.  
-**\<sgp\_>** m2049r has opened a proposal to raise funds to work on Monerujo: https://forum.getmonero.org/6/ideas/90038/m2049r-part-time-for-3-months  
-**\<sgp\_>** The community funded suraeNoether for Q2: https://forum.getmonero.org/8/funding-required/90057/funding-for-surae-at-mrl-q2-2018  
-**\<sgp\_>** The community funded sarangNoether for Q2: https://forum.getmonero.org/8/funding-required/90028/sarang-funding-for-april-may-2018  
-**\<sgp\_>** The community funded erciccione for the localization workgroup: https://forum.getmonero.org/8/funding-required/90000/monero-localizations-coordinator-2nd-ffs  
-**\<sgp\_>** The community funded moneromooo to work on ByteRub from April to June: https://forum.getmonero.org/8/funding-required/89998/moar-mooo-coding-april-june  
-**\<sgp\_>** The community funded serhack to continue working on Mastering ByteRub: https://forum.getmonero.org/8/funding-required/89797/mastering-monero-ffs  
+**\<sgp\_>** m2049r has opened a proposal to raise funds to work on Monerujo: https://forum.getbyterub.org/6/ideas/90038/m2049r-part-time-for-3-months  
+**\<sgp\_>** The community funded suraeNoether for Q2: https://forum.getbyterub.org/8/funding-required/90057/funding-for-surae-at-mrl-q2-2018  
+**\<sgp\_>** The community funded sarangNoether for Q2: https://forum.getbyterub.org/8/funding-required/90028/sarang-funding-for-april-may-2018  
+**\<sgp\_>** The community funded erciccione for the localization workgroup: https://forum.getbyterub.org/8/funding-required/90000/byterub-localizations-coordinator-2nd-ffs  
+**\<sgp\_>** The community funded byterubmooo to work on ByteRub from April to June: https://forum.getbyterub.org/8/funding-required/89998/moar-mooo-coding-april-june  
+**\<sgp\_>** The community funded serhack to continue working on Mastering ByteRub: https://forum.getbyterub.org/8/funding-required/89797/mastering-byterub-ffs  
 **\<suraeNoether>** thanks everyone!  
-**\<sgp\_>** It seems that further discussion is necessary on the Ruby implementation: https://forum.getmonero.org/6/ideas/89913/a-native-ruby-implementation-of-the-monero-wallet  
-**\<sgp\_>** I have opened a new Reddit discussion thread for this here: https://www.reddit.com/r/ByteRub/comments/88jlqc/other\_discussions\_on\_monero\_ruby\_ffs\_proposal/  
-**\<monerobux>** [REDDIT] Other Discussions on ByteRub Ruby FFS Proposal (self.ByteRub) | 9 points (100.0%) | 8 comments | Posted by SamsungGalaxyPlayer | Created at 2018-03-31 - 16:05:30  
+**\<sgp\_>** It seems that further discussion is necessary on the Ruby implementation: https://forum.getbyterub.org/6/ideas/89913/a-native-ruby-implementation-of-the-byterub-wallet  
+**\<sgp\_>** I have opened a new Reddit discussion thread for this here: https://www.reddit.com/r/ByteRub/comments/88jlqc/other\_discussions\_on\_byterub\_ruby\_ffs\_proposal/  
+**\<byterubbux>** [REDDIT] Other Discussions on ByteRub Ruby FFS Proposal (self.ByteRub) | 9 points (100.0%) | 8 comments | Posted by SamsungGalaxyPlayer | Created at 2018-03-31 - 16:05:30  
 **\<serhack>** Thank Community!  
 **\<sgp\_>** Does anyone know if the development team got wind of this, and what their recommendation is?  
 **\<rehrar>** We should also talk about that ByteRubCat series proposal :D  
@@ -97,7 +97,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<cryptochangements>** Like that guy that implemented cryptonight in Pythob  
 **\<rehrar>** wrappers ultimately fall back on the work of the C++ dev team, so not a ton of extra work involved.  
 **\<rehrar>** But an alternative implementation must keep pace with C++ development (which has many contributors)  
-**\<rehrar>** so if it's just one person, they'd be doing the job of moneromooo plus everyone else contributing  
+**\<rehrar>** so if it's just one person, they'd be doing the job of byterubmooo plus everyone else contributing  
 **\<xmrmatterbridge> \<cryptochangements>** Even a wrapper has to be maintained to a degree. I just don't want to see the FFS for this gut funded, payed out, then never maintained  
 **\<rehrar>** this is the biggest issue for the community, yes  
 **\<rehrar>** the amount of maintenance for another implementation is orders of magnitude higher, so the odds of it not being maintained really skyrocket  
@@ -116,7 +116,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** the take away for this (for me) is: this is a great idea, and I support it whole heartedly  
 **\<rehrar>** but it's not as simple as some in the community might think  
 **\<sgp\_>** Any other thoughts on the Ruby implementation?  
-**\<sgp\_>** Or can we discuss ByteRubCat: https://forum.getmonero.org/6/ideas/89764/i-d-like-to-develop-a-new-webcomic-series-starring-monerocat-and-the-justice-league-of-crypto  
+**\<sgp\_>** Or can we discuss ByteRubCat: https://forum.getbyterub.org/6/ideas/89764/i-d-like-to-develop-a-new-webcomic-series-starring-byterubcat-and-the-justice-league-of-crypto  
 **\<rehrar>** move it, fund it  
 **\<parasew[m]>** move it?  
 **\<xmrmatterbridge> \<cryptochangements>** Tbh I think another issue with thr fork schedule is that forking 6 months not only bricks ASICs but alternative implementations too :/ thats a discussion for another time tho  
@@ -146,7 +146,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Thanks msvb-lab!  
 **\<rehrar>** HOPEFULLY sometime soon I can zap the spam away  
 **\<msvb-lab>** parasew[m]: We can copy to several places in fact, yes I just need some examples after the meeting or something.  
-**\<sgp\_>** msvb-lab is there anything you are waiting for before your new proposal is moved to funding required? https://forum.getmonero.org/7/open-tasks/90126/advancing-monero-hardware-wallet  
+**\<sgp\_>** msvb-lab is there anything you are waiting for before your new proposal is moved to funding required? https://forum.getbyterub.org/7/open-tasks/90126/advancing-byterub-hardware-wallet  
 **\<parasew[m]>** msvb-lab: ping me, i can also help with content-reformatting if needed!  
 **\<msvb-lab>** sgp\_: I need to make sure the injection molding bids that have come in are good for the budget, and yes a few other changes before bumping 0.9 to 1.0 (the proposal.)  
 **\<msvb-lab>** sgp\_: I'm also waiting for ByteRubV, because it's possible they will want to fund the wallet instead.  
@@ -174,7 +174,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** The RIAT team would like to discuss the status of their projects for the year.  
 **\<ErCiccione>** thank you sgp\_  
 **\<rehrar>** RIAT?  
-**\<parasew[m]>** The ByteRub Workgroup at RIAT has been working since 2017, we organised community workshops in dec 2017 and also hosted the team of the monero hardware wallet in vienna. We are mixed from ByteRub Austria meetup and have connections to other meetups as well. A meetup in Hongkong is currently also discussed.  
+**\<parasew[m]>** The ByteRub Workgroup at RIAT has been working since 2017, we organised community workshops in dec 2017 and also hosted the team of the byterub hardware wallet in vienna. We are mixed from ByteRub Austria meetup and have connections to other meetups as well. A meetup in Hongkong is currently also discussed.  
 **\<sgp\_>** rehrar https://riat.at/  
 **\<parasew[m]>** Some involved people are around here in the irc i guess, @m2049r, @nevvton\_, FreeAsInFreedom (txmr) and ofc others (you know who you are) :)  
 **\<msvb-lab>** Hong Kong.  
@@ -204,7 +204,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<freelikeinfreedo>** thanks  
 **\<parasew[m]>** very nice, will check and also discuss with the others later; will also join next saturday.  
 **\<parasew[m]>** workgroup at RIAT will also now meet in person more often,  
-**\<parasew[m]>** The workgroup will now be meeting every monday IRL starting from april 9, and we will also be in #monero-community to discuss our progress.  
+**\<parasew[m]>** The workgroup will now be meeting every monday IRL starting from april 9, and we will also be in #byterub-community to discuss our progress.  
 **\<parasew[m]>** m2049r: do you want to talk a bit on the monerujo plans?  
 **\<m2049r[m]>** working on some tweaks for the v0.12 release  
 **\<m2049r[m]>** managed to set up f-droid environment yesterday ...  
@@ -222,7 +222,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew[m]>** other tasks are ofc to support msvb-lab and team to spread the word on the open hw wallet and to possibly get more attention from the open hardware communities  
 **\<sgp\_>** Sounds like an awesome idea  
 **\<msvb-lab>** That would be great, thanks parasew[m].  
-**\<parasew[m]>** and to create workshops and other formats to bring more people to monero.  
+**\<parasew[m]>** and to create workshops and other formats to bring more people to byterub.  
 **\<ArticMine>** copperhead is not FLOSS it is semi free  
 **\<ArticMine>** since it does not allow commercial use  
 **\<ArticMine>** That being said there is no reason to not support it  
@@ -241,7 +241,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be two weeks from today on 14 April. The Coffee Chat will be next Saturday on 7 April.  
 **\<sgp\_>** 7. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<rehrar>** ME?  
 **\<sgp\_>** Yes, YOU  
 **\<rehrar>** !!!!!  
@@ -250,7 +250,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-lab>** Last time sgp was not with us == bad time.  
 **\<parasew[m]>** thanks sgp\_  
 **\<rehrar>** ye. whoever ran the last meeting was an idiot  
-**\<ErCiccione>** so, sgp\_ i made the workgroup on taiga https://taiga.getmonero.org/project/erciccione-organization-pre-upgrade/  
+**\<ErCiccione>** so, sgp\_ i made the workgroup on taiga https://taiga.getbyterub.org/project/erciccione-organization-pre-upgrade/  
 **\<parasew[m]>** msvb-lab: are you planning some publicity for the hw-wallet or are you waiting until the proposal is done?  
 **\<ErCiccione>** if anyone want to help tracking if pools and exchanges are ready for the next upgrade, contact me or sgp\_ and we will add you on the workgroup  
 **\<msvb-lab>** parasew[m]: Publicity is good at any time, in fact a radio broadcast featuring us is appearing very soon on BR Bayerische Rundfunk.  

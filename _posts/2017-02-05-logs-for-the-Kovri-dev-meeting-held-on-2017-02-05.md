@@ -23,7 +23,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<anonimal>** Our last meeting was on November 27th, 2016 so, nothing can be "brief" about a review.  
 **\<anonimal>** There were holidays, etc, so there was a leave of absence but development is going strong.  
-**\<anonimal>** All I can say is if anyone is really interested, we have git-log and github (kovri + meta), my fork, and https://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread for any TL;DR  
+**\<anonimal>** All I can say is if anyone is really interested, we have git-log and github (kovri + meta), my fork, and https://forum.getbyterub.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread for any TL;DR  
 **\<anonimal>** I'm also have uncommitted work, finishing up the crypto impl refactor + testing for this new exception dispatcher.  
 **\<anonimal>** JFTR: of the thousands of lines of code that we forked from, almost none of it handled exceptions. All this spaghetti code, and that guy did not even have a basic grasp of design with exception handling in mind. Literally, much of the core code is still stringed together with the hope that it won't fail. I hate it. It's always been like walking on glass, but a real fix will take time. So, I've started in  
 **\<anonimal>** that direction at least in terms of getting exceptions handled or handled better.  
@@ -47,7 +47,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-olark}** ByteRub obviously first though ;)  
 **\<hyc>** makes sense. tor was created for the gov't after all  
 **\<i2p-relay> {-olark}** Yep  
-**\<DaveyJones>** if it will do good for cash/monero i guess those use cases will follow by time  
+**\<DaveyJones>** if it will do good for cash/byterub i guess those use cases will follow by time  
 **\<anonimal>** Everyone seems to be ecstatic about libkovri but I must stress that this is a sensitive network so, the lib should be used with that in mind.  
 **\<anonimal>** Tor doesn't have this issue. All that work is upon the relays.  
 **\<i2p-relay> {-olark}** True  
@@ -59,7 +59,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** ^ #kovri-dev is more informative  
 **\<meeting-bot> [i2p-relay] {Slack} [endogenic]** i’m here   
 **\<i2p-relay> {-olark}** :)  
-**\<anonimal>** Yes, nightlies are technically available https://build.getmonero.org/waterfall  
+**\<anonimal>** Yes, nightlies are technically available https://build.getbyterub.org/waterfall  
 **\<anonimal>** *but*  
 **\<anonimal>** pigeons and I are working out packaging details.  
 **\<i2p-relay> {-olark}** ok  
@@ -84,12 +84,12 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Oh, *that's* ajs, excellent.  
 **\<i2p-relay> {-olark}** Good to have new blood :)  
 **\<anonimal>** ajs wanted to work on the website too, IIRC?  
-**\<meeting-bot> [i2p-relay] {Slack} [needmultisig90]** he's working with me on /r/moneromarket  
+**\<meeting-bot> [i2p-relay] {Slack} [needmultisig90]** he's working with me on /r/byterubmarket  
 **\<meeting-bot> [i2p-relay] {Slack} [needmultisig90]** I believe so  
 **\<meeting-bot> [i2p-relay] {Slack} [needmultisig90]** he has a background in law  
 **\<anonimal>** "I am the law!"  
 **\<meeting-bot> [i2p-relay] {Slack} [needmultisig90]** and was working with OpenBazaar on drafting up arbitration agreements IIRC  
-**\<Slack> [jollymort]** also on the monero stealth addresses script : )  
+**\<Slack> [jollymort]** also on the byterub stealth addresses script : )  
 **\<meeting-bot> [i2p-relay] {Slack} [needmultisig90]** he can correct me  
 **\<anonimal>** Have him take a look at /r/Kovri  
 **\<bigreddmachine>** does the website exist? i'm happy to help add content and such  
@@ -98,10 +98,10 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** bigreddmachine: yes  
 **\<meeting-bot> [fluffypony]** I moved laptops and so now half my stuff lives on my old one  
 **\<meeting-bot> [fluffypony]** I'll try consolidate and push it up this week  
-**\<bigreddmachine>** okay, just wanted to make sure i hadn't missed something. i'll watch the repo - going under getmonero.org or as a separate repo/site?  
+**\<bigreddmachine>** okay, just wanted to make sure i hadn't missed something. i'll watch the repo - going under getbyterub.org or as a separate repo/site?  
 **\<anonimal>** Last call for point 2. "brief review"  
 **\<anonimal>** bigreddmachine: while you're here, we did make some progress on Salti. Any news from upstream on their API?  
-**\<meeting-bot> [fluffypony]** bigreddmachine: same design, new content, linked from the getmonero menu bar  
+**\<meeting-bot> [fluffypony]** bigreddmachine: same design, new content, linked from the getbyterub menu bar  
 **\<meeting-bot> [EinMByte]** Progress on salti?  
 **\<anonimal>** EinMByte: yes, have you read some of the conversation in the open salti issue?  
 **\<bigreddmachine>** anonimal: i've been tracking the open tickets but everything got held during holidays. nothing there yet, but i might make a proof of concept for chromium if there'd be interest  
@@ -159,10 +159,10 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** EinMByte: yes, the same ones I believe since you left though I may have resolved one or two but not closed (I don't know)  
 **\<anonimal>** guzzi: we wouldn't be converting .jar to c  
 **\<anonimal>** I'll give details after the meeting  
-**\<anonimal>** olark did you mean monero question for after the meeting or kovri question?  
+**\<anonimal>** olark did you mean byterub question for after the meeting or kovri question?  
 **\<meeting-bot> [EinMByte]** Alright. Might do some additional refactoring, since I never completely finished that  
 **\<i2p-relay> {-guzzi}** oh i see just skimmed  
-**\<i2p-relay> {-olark}** Not so much a question but a new development that pertains to both kovri and monero :)  
+**\<i2p-relay> {-olark}** Not so much a question but a new development that pertains to both kovri and byterub :)  
 **\<i2p-relay> {-olark}** Something I have been thinking about while I was looking at ByteRub's ring signatures.  
 **\<anonimal>** EinMByte: that sounds great  
 **\* anonimal** will look at issue tracker after meeting  
@@ -187,16 +187,16 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** fluffypony: are you gpg verifying the kovri subscription that's hosted on github?  
 **\<bigreddmachine>** okay, so i'll go ahead and say that i won't officially ever support a chrome version of Salti then.  
 **\<i2p-relay> {-olark}** I'll let ArticMine go first  
-**\* anonimal** wanted to ask that in monero's meeting on the topic of github security  
-**\<moneromooo>** "subscription" ?  
+**\* anonimal** wanted to ask that in byterub's meeting on the topic of github security  
+**\<byterubmooo>** "subscription" ?  
 **\<meeting-bot> [EinMByte]** By the way, if anyone needs access to the salti repo, please tell me  
-**\<anonimal>** moneromooo: https://github.com/byterubpay/kovri/blob/master/pkg/client/address_book/hosts.txt  
+**\<anonimal>** byterubmooo: https://github.com/byterubpay/kovri/blob/master/pkg/client/address_book/hosts.txt  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** My take is that any browser / OS that supports DRM is vulnerable to an attack against anonymity / IP obfuscation  
 **\<meeting-bot> [EinMByte]** As with many features like DRM, it's best that they're just enabled  
-**\<moneromooo>** Thanks.  
+**\<byterubmooo>** Thanks.  
 **\<meeting-bot> [EinMByte]** \*disabled LOL  
 **\<anonimal>** lol EinMByte  
-**\<anonimal>** moneromooo: the only reason I'm signing it is because fp is pulling directly from github  
+**\<anonimal>** byterubmooo: the only reason I'm signing it is because fp is pulling directly from github  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** So i2p on such a platform may create a very dangerous sense of false security  
 **\<anonimal>** ArticMine: much like anything Windows  
 **\* anonimal** now windows fan  
@@ -210,7 +210,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-olark}** Not sure when that is viable though  
 **\<i2p-relay> {-olark}** ok  
 **\<i2p-relay> {-olark}** sorry got really bad tunnel lag  
-**\<i2p-relay> {-olark}** I have been thinking about how LN or something similar would work with monero  
+**\<i2p-relay> {-olark}** I have been thinking about how LN or something similar would work with byterub  
 **\<meeting-bot> [fluffypony]** anonimal: just generally good chats  
 **\<meeting-bot> [fluffypony]** Nothing mind blowing  
 **\<i2p-relay> {-olark}** Once kovri gets implemented into nodes and wallets this opens the doors to some really great developments  
@@ -232,10 +232,10 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-olark}** Don't need to build routing from scratch  
 **\<i2p-relay> {-olark}** Anyway it is still way to early to really till this could be possible  
 **\<anonimal>** olark: sounds interesting. I'd need more info to have a comment.  
-**\<Snipa>** moneromooo - I'll work on the isolated testnet in a bit.  I apparently need to rebuild all of my monerod's w/o libunwind, or it crashes trying to init a new blockchain.  So I'll have it tested a bit later today.  
+**\<Snipa>** byterubmooo - I'll work on the isolated testnet in a bit.  I apparently need to rebuild all of my byterubd's w/o libunwind, or it crashes trying to init a new blockchain.  So I'll have it tested a bit later today.  
 **\<i2p-relay> {-olark}** But there is good potential  
 **\* anonimal** swats Snipa  
-**\<moneromooo>** Cool, thanks Snipa  
+**\<byterubmooo>** Cool, thanks Snipa  
 **\<anonimal>** Ok, one minute left. 5. Confirm next meeting date/time  
 **\<anonimal>** Same time, two weeks from now?  
 **\<bigreddmachine>** february 19? i can do that  

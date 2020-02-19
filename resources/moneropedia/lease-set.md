@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.lease-set
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.lease-set
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/lease-set.md %}
+{% tf resources/byterubpedia/lease-set.md %}

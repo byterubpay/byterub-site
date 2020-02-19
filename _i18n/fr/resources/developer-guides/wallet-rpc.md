@@ -129,7 +129,7 @@ Entrées :
 Sorties :
 
 * *balance* - entier non signé; Le solde total du monero-wallet-rpc actuellement en session.
-* *unlocked_balance* - entier non signé; Les fonds débloqués sont ces fonds qui sont suffisamment profonds sur la chaîne de bloc Monero pour être considérés sûres à dépenser.
+* *unlocked_balance* - entier non signé; Les fonds débloqués sont ces fonds qui sont suffisamment profonds sur la chaîne de bloc ByteRub pour être considérés sûres à dépenser.
 * *multisig_import_needed* - booléen; `True` si l'import de données de multisignatures est nécessaire pour retourner le solde correct.
 * *per_subaddress* - liste d'informations `subaddress`; Informations de solde pour chaque sous-adresses du compte.
   * *address_index* - entier non signé; Index des sous-addresses du compte.
@@ -563,7 +563,7 @@ $ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **transfer**
 
-Envoyer des Moneroj à un certain nombre de destinataires.
+Envoyer des ByteRubj à un certain nombre de destinataires.
 
 Alias : *Aucun*.
 
@@ -577,10 +577,10 @@ Entrées :
 * *priority* - entier non signé; Définir une priorité pour la transaction. Les valeurs acceptées sont de 0 à 3 respectivement pour les priorités par défaut, non-importante, normale et élevée.
 * *mixin* - entier non signé; Nombre de sorties de la chaîne de blocs avec lesquelles se mélanger (0 signifie pas de mélange).
 * *ring_size* - entier non signé; Nombre de sorties à mélanger dans la transaction (cette sortie + N leurres depuis la chaîne de blocs).
-* *unlock_time* - entier non signé; Nombre de blocs avant que les Moneroj puissent être dépensés (0 pour ne pas ajouter de verrouillage).
+* *unlock_time* - entier non signé; Nombre de blocs avant que les ByteRubj puissent être dépensés (0 pour ne pas ajouter de verrouillage).
 * *payment_id* - chaîne de caractères; (Optionnel) Chaîne de 64 caractères hexadécimaux ou 32 octets aléatoires pour identifier la transaction.
 * *get_tx_key* - booléen; (Optionnel) Retourne la clef de la transaction après l'envoi.
-* *do_not_relay* - booléen; (Optionnel) Si `true`, la transaction nouvellement créée ne sera pas relayée sur le réseau Monero. (`false` par défaut)
+* *do_not_relay* - booléen; (Optionnel) Si `true`, la transaction nouvellement créée ne sera pas relayée sur le réseau ByteRub. (`false` par défaut)
 * *get_tx_hex* - booléen; Retourne la transaction sous forme de chaîne de caractères hexadécimale après l'envoi. (`false` par défaut)
 * *get_tx_metadata* - booléen; Retourne les métadonnées nécessaires pour relayer la transaction. (`false` par défaut)
 
@@ -631,11 +631,11 @@ Entrées :
 * *subaddr_indices* - liste d'entier non signé; (Optionnel) Transférer depuis cette liste de sous-adresses. (vide par défaut - tous les indices)
 * *mixin* - entier non signé; Nombre de sorties de la chaîne de blocs avec lesquelles se mélanger (0 signifie pas de mélange).
 * *ring_size* - entier non signé; Nombre de sorties à mélanger dans la transaction (cette sortie + N leurres depuis la chaîne de blocs).
-* *unlock_time* - entier non signé; Nombre de blocs avant que les Moneroj puissent être dépensés (0 pour ne pas ajouter de verrouillage).
+* *unlock_time* - entier non signé; Nombre de blocs avant que les ByteRubj puissent être dépensés (0 pour ne pas ajouter de verrouillage).
 * *payment_id* - chaîne de caractères; (Optionnel) Chaîne de 64 caractères hexadécimaux ou 32 octets aléatoires pour identifier la transaction.
 * *get_tx_key* - booléen; (Optionnel) Retourne la clef de la transaction après l'envoi.
 * *priority* - entier non signé; Définir une priorité pour la transaction. Les valeurs acceptées sont de 0 à 3 respectivement pour les priorités par défaut, non-importante, normale et élevée.
-* *do_not_relay* - booléen; (Optionnel) Si `true`, la transaction nouvellement créée ne sera pas relayée sur le réseau Monero. (`false` par défaut)
+* *do_not_relay* - booléen; (Optionnel) Si `true`, la transaction nouvellement créée ne sera pas relayée sur le réseau ByteRub. (`false` par défaut)
 * *get_tx_hex* - booléen; Retourne la transaction sous forme de chaîne de caractères hexadécimale après l'envoi. (`false` par défaut)
 * *new_algorithm* - booléen; `True` pour utiliser le nouvel algorithme de construction de transaction, `false` par défaut.
 * *get_tx_metadata* - booléen; Retourne les métadonnées nécessaires pour relayer la transaction. (`false` par défaut)
@@ -757,7 +757,7 @@ Alias : *sweep_unmixable*.
 Entrées :
 
 * *get_tx_keys* - booléen; (Optionnel) Retourne la clef de la transaction après l'envoi.
-* *do_not_relay* - booléen; (Optionnel) Si `true`, la nouvelle transaction ne sera pas relayée sur le réseau Monero. (`false` par défaut)
+* *do_not_relay* - booléen; (Optionnel) Si `true`, la nouvelle transaction ne sera pas relayée sur le réseau ByteRub. (`false` par défaut)
 * *get_tx_hex* - booléen; (Optionnel) Retourne les transactions sous forme de chaîne de caractères hexadécimales après l'envoi. (`false` par défaut)
 * *get_tx_metadata* - booléen; (Optionnel) Retourne la liste des métadonnées de transaction nécessaires pour relayer le transfert ultérieurement. (`false` par défaut)
 
@@ -801,7 +801,7 @@ Entrées :
 * *priority* - entier non signé; (Optionnel) Priorité pour envoyer ce transfert de ramonage, détermine en parti les frais.
 * *mixin* - entier non signé; Nombre de sorties de la chaîne de blocs avec lesquelles se mélanger (0 signifie pas de mélange)..
 * *ring_size* - entier non signé; Définit la taille de cercle à N (mixin + 1).
-* *unlock_time* - entier non signé; Nombre de blocs avant que les Moneroj puissent être dépensés (0 pour ne pas ajouter de verrouillage).
+* *unlock_time* - entier non signé; Nombre de blocs avant que les ByteRubj puissent être dépensés (0 pour ne pas ajouter de verrouillage).
 * *payment_id* - chaîne de caractères; (Optionnel) Chaîne de 64 caractères hexadécimaux ou 32 octets aléatoires pour identifier la transaction.
 * *get_tx_keys* - booléen; (Optionnel) Retourne la clef de la transaction après l'envoi.
 * *below_amount* - entier non signé; (Optionnel) Inclure les sorties plus faibles que ce montant.
@@ -853,7 +853,7 @@ Entrées :
 * *priority* - entier non signé; (Optionnel) Priorité pour envoyer ce transfert de ramonage, détermine en parti les frais.
 * *mixin* - entier non signé; Nombre de sorties de la chaîne de blocs avec lesquelles se mélanger (0 signifie pas de mélange)..
 * *ring_size* - entier non signé; Définit la taille de cercle à N (mixin + 1).
-* *unlock_time* - entier non signé; Nombre de blocs avant que les Moneroj puissent être dépensés (0 pour ne pas ajouter de verrouillage).
+* *unlock_time* - entier non signé; Nombre de blocs avant que les ByteRubj puissent être dépensés (0 pour ne pas ajouter de verrouillage).
 * *payment_id* - chaîne de caractères; (Optionnel) Chaîne de 64 caractères hexadécimaux ou 32 octets aléatoires pour identifier la transaction.
 * *get_tx_keys* - booléen; (Optionnel) Retourne la clef de la transaction après l'envoi.
 * *key_image* - chaîne de caractères; Key image of specific output to sweep.
@@ -2271,7 +2271,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **start_mining**
 
-Démarrer l'extraction minière dans le démon Monero.
+Démarrer l'extraction minière dans le démon ByteRub.
 
 Alias : *Aucun*.
 
@@ -2298,7 +2298,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **stop_mining**
 
-Arrête l'extraction minière sur le démon Monero.
+Arrête l'extraction minière sur le démon ByteRub.
 
 Alias : *Aucun*.
 

@@ -52,13 +52,13 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** or the style guide stuff?  
 **\<meeting-bot> [anominal]** Anything C++, I imagined.  
 **\<meeting-bot> [anominal]** I was hoping to focus on C++ related to #187, but I haven't looked at #187 since it was opened.  
-**\<meeting-bot> [anominal]** Have any bitmonero devs taken an interest in Kovri yet?  
+**\<meeting-bot> [anominal]** Have any bitbyterub devs taken an interest in Kovri yet?  
 **\<meeting-bot> [anominal]** Its quite the beast, and needs much taming.  
 **\<fluffypony>** I don't think anyone has yet  
 **\<tewinget>** anonimal: passing interest at best for me  
 **\<meeting-bot> [anominal]** Ok, good to know.  
 **\<tewinget>** I more or less know what it is, but I haven't looked into tinkering with it yet.  
-**\<moneromooo>** I think the problem is that the time I'd spend hacking on anything, I wouldn't spend on monero anymore :)  
+**\<byterubmooo>** I think the problem is that the time I'd spend hacking on anything, I wouldn't spend on byterub anymore :)  
 **\<fluffypony>** s'true  
 **\<meeting-bot> [anominal]** I totally understand.  
 **\<fluffypony>** there will be a bleed area between the two when integration happens  
@@ -66,7 +66,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anominal]** \*makes sense  
 **\<meeting-bot> [anominal]** Well, anonymity has a certain taste too. Maybe I'm one of the few fanatics who enjoy working on it ;)  
 **\<fluffypony>** I think most of us are here because we're pro-privacy  
-**\<meeting-bot> [anominal]** Anyway, I look forward to the meeting of the minds, I like what I've seen in bitmonero dev.  
+**\<meeting-bot> [anominal]** Anyway, I look forward to the meeting of the minds, I like what I've seen in bitbyterub dev.  
 **\<meeting-bot> [anominal]** Yes, good point.  
 **\<fluffypony>** which is awesome :)  
 **\<meeting-bot> [anominal]** Anything else on 3.? Any questions?  
@@ -82,7 +82,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** yes I think that would help, he lacks time at the moment  
 **\<meeting-bot> [anominal]** Ok.  
 **\<meeting-bot> * anonimal** back to 4.  
-**\<meeting-bot> [anominal]** #210 might be an easy fix, if any bitmonero devs want to take a peek.  
+**\<meeting-bot> [anominal]** #210 might be an easy fix, if any bitbyterub devs want to take a peek.  
 **\<fluffypony>** once you go Kovri you never go...uh...something that rhymes with Kovri  
 **\<meeting-bot> [anominal]** lol  
 **\<meeting-bot> [anominal]** That's a tough one....  
@@ -99,14 +99,14 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** :-P  
 **\<meeting-bot> [anominal]** Does anyone here work with Debian Jessie often?  
 **\<fluffypony>** tewinget is an Arch user  
-**\<fluffypony>** moneromooo wrote his own OS from scratch I'm sure  
+**\<fluffypony>** byterubmooo wrote his own OS from scratch I'm sure  
 **\<fluffypony>** osensei maybe  
 **\<fluffypony>** but he's not around atm  
-**\<moneromooo>** I use a pretty common one nowdays actually.  
+**\<byterubmooo>** I use a pretty common one nowdays actually.  
 **\<meeting-bot> [anominal]** Ok just curious. Arch here so #210 will probably take more than a few moments.  
-**\<fluffypony>** moneromooo: Windows XP ?  
+**\<fluffypony>** byterubmooo: Windows XP ?  
 **\<meeting-bot> [anominal]** ^ Windows 98  
-**\<moneromooo>** Good point. I guess it's not that common. I forgot about windows.  
+**\<byterubmooo>** Good point. I guess it's not that common. I forgot about windows.  
 **\<meeting-bot> [anominal]** 95 was better at breaking.  
 **\<meeting-bot> [anominal]** Ok, well re: 4., fluffypony have you see #209?  
 **\<fluffypony>** probably  
@@ -148,7 +148,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** I'll prod them for that when I see them next  
 **\<meeting-bot> [anominal]** K.  
 **\<meeting-bot> * anonimal** typing  
-**\<meeting-bot> [anominal]** I'll most likely take a look at bitmonero's 0MQ work too before next meeting (thinking of #53).  
+**\<meeting-bot> [anominal]** I'll most likely take a look at bitbyterub's 0MQ work too before next meeting (thinking of #53).  
 **\<meeting-bot> [anominal]** Other than that, I may just grab some low hanging fruit before next meeting and work on the mingw build and other smaller tickets.  
 **\<tewinget>** anonimal, feel free to direct any 0mq questions at ~~fluffypony~~ me  
 **\<meeting-bot> [anominal]** Thanks tewinget.  
@@ -191,7 +191,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anominal]** Grrr... bugs...  
 **\<meeting-bot> [EinMByte]** (Rekey options being set etc when this shouldn't happen, I think it's all related)  
 **\<meeting-bot> [EinMByte]** Well, I'll try to fix it in the next days  
-**\<meeting-bot> [anominal]** bitmonero devs: FYI, SSU is the ugly High School girl standing in the corner of the dance hall that no one will dance with because she is awkward and is a very mean person.  
+**\<meeting-bot> [anominal]** bitbyterub devs: FYI, SSU is the ugly High School girl standing in the corner of the dance hall that no one will dance with because she is awkward and is a very mean person.  
 **\<fluffypony>** lol  
 **\<meeting-bot> [anominal]** In other words, SSU has needed much love and I'm glad EinMByte has tackled the challenge.  
 **\<meeting-bot> [EinMByte]** Hah, nice comparison - although it does make me seem quite desperate :P  
@@ -233,7 +233,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** lol EinMByte  
 **\<meeting-bot> [anominal]** lol, or #dancing-dev  
 **\<meeting-bot> [EinMByte]** Well, for 5: If anyone wants to start on the API, you're welcome  
-**\<meeting-bot> [EinMByte]** This also applies to all (any?) monero people reading this  
+**\<meeting-bot> [EinMByte]** This also applies to all (any?) byterub people reading this  
 **\<meeting-bot> [anominal]** Good point, that's another big item to tackle.  
 **\<meeting-bot> [EinMByte]** Since you're going to be the people using the API, making up a list of requirements would be nice  
 ***\<fluffypony>** kk  

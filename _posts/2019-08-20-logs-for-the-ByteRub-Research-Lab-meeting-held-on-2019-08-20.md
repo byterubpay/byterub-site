@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-08-20
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-08-20
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -27,10 +27,10 @@ author: el00ruobuob / sarang
 **\<sarang>** I'll be discussing with them this week  
 **\<sarang>** On a related note, the RCT3 construction has a flaw that would be exploitable in practice  
 **\<sarang>** The authors of that paper, I'm told, also have a fix forthcoming that may relate to the Omniring batching enhancement  
-**\<sarang>** Made a quick PR to fix a bias in Schnorr signatures: https://github.com/byterubpay/monero/pull/5807  
+**\<sarang>** Made a quick PR to fix a bias in Schnorr signatures: https://github.com/byterubpay/byterub/pull/5807  
 **\<endogenic>** o/  
-**\<sarang>** Cleaned up an MLSAG improvement PR: https://github.com/byterubpay/monero/pull/5707  
-**\<sarang>** Made some updates to Zero to Monero (see topic branches): https://github.com/SarangNoether/zero-to-monero/  
+**\<sarang>** Cleaned up an MLSAG improvement PR: https://github.com/byterubpay/byterub/pull/5707  
+**\<sarang>** Made some updates to Zero to ByteRub (see topic branches): https://github.com/SarangNoether/zero-to-byterub/  
 **\<sarang>** And I'm working on getting CLSAG and thring sigs submitted to conference proceedings (a tiresome and lengthy process)  
 **\<sarang>** That's my two cents  
 **\<endogenic>** damn, son  
@@ -38,17 +38,17 @@ author: el00ruobuob / sarang
 **\<sarang>** Anything to share with the class, suraeNoether ?  
 **\<suraeNoether>** as for me, I've been on vacation and just got back. I'm still going to be only half-on today because I have some personal business I have to attend. it was an eventful vacation. for one thing, I was able to prove a few theorems for my graph matching paper that are necessary for publication. based on a conversation I had with sgp\_ right before I left, I spent a lot of time thinking about experimental  
 **\<suraeNoether>** design, and I'm starting to discuss this with sarang.  
-**\<suraeNoether>** in addition to that, I was contacted by Astral, the team working on bullet-proof monero-mining drones, re: an unfortunately urgent funding matter.  
+**\<suraeNoether>** in addition to that, I was contacted by Astral, the team working on bullet-proof byterub-mining drones, re: an unfortunately urgent funding matter.  
 **\<luigi1111w>** sarang what happened to reusing existing functions or adding it as a function instead of inline?  
 **\<luigi1111w>** not that it matters that much I guess  
 **\<sarang>** There were some silly issues with includes and having access to the right underlying functions  
 **\<sarang>** It seemed simpler to do it as is  
-**\<suraeNoether>** i would urge folks in the audience to watch OhGodAGirl\_\_'s talk from teh Konferenco here (https://www.youtube.com/watch?v=jDSKIr5EPiU ) or Leah's interview wiht monerotalk https://www.youtube.com/watch?v=jl1w6VDEWq4 to refresh themselves on the project  
+**\<suraeNoether>** i would urge folks in the audience to watch OhGodAGirl\_\_'s talk from teh Konferenco here (https://www.youtube.com/watch?v=jDSKIr5EPiU ) or Leah's interview wiht byterubtalk https://www.youtube.com/watch?v=jl1w6VDEWq4 to refresh themselves on the project  
 **\<endogenic>** meaning they need funding?  
 **\<suraeNoether>** if anyone is interested in assisting Astral in composing a CCS, I've been pinging some ideas back and forth with Leah  
 **\<suraeNoether>** yes, and some of the funding needs are rather urgent; I spoke with OhGodAGirl\_\_ and OpenSourceress about this in person at the Konferenco and we have been kicking some ideas around  
 **\<suraeNoether>** i anticipate a vigorous discussion on the matter, because the community funding sources, in my mind, should be a source of funding of last resort  
-**\<suraeNoether>** the folks who contribute to the monero community are people who care about privacy and they want to see the project advance in a healthy direction, and without them, all of this falls apart  
+**\<suraeNoether>** the folks who contribute to the byterub community are people who care about privacy and they want to see the project advance in a healthy direction, and without them, all of this falls apart  
 **\<sarang>** Probably a good discussion for -community?  
 **\<sarang>** Unless there's a technical/research component to it?  
 **\<suraeNoether>** well, it's a nascent funding request for a hardware project with a timeliness component that recently presented at our conference, but going into further detail during the meeting is certainly unnecessary  
@@ -74,10 +74,10 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** fair enough. I thought ACM TOPS was a conference, silly me. :P  
 **\<sarang>** Anyway, that's my question  
 **\<sarang>** suraeNoether: yours?  
-**\<suraeNoether>** some of the biggest improvements that have come out of MRL this year have involved efficiency improvements, ranging from bulletproofs optimizations to compressed signature schemes. Only some of these improvements will carry on to the "next version" of monero, especially if we end up having to migrate our transaction model to something like one of the Big Three...  
+**\<suraeNoether>** some of the biggest improvements that have come out of MRL this year have involved efficiency improvements, ranging from bulletproofs optimizations to compressed signature schemes. Only some of these improvements will carry on to the "next version" of byterub, especially if we end up having to migrate our transaction model to something like one of the Big Three...  
 **\<dEBRUYNE>** suraeNoether: Don't they have other options than to tend to the CSS?  
 **\<dEBRUYNE>** I genuinely think this is not appropriate for it  
-**\<suraeNoether>** so my question is: what sort of improvements would you like to see from the Monero Research Lab in the next year, keeping in mind that we will want to migrate to a different scheme sooner or later?  
+**\<suraeNoether>** so my question is: what sort of improvements would you like to see from the ByteRub Research Lab in the next year, keeping in mind that we will want to migrate to a different scheme sooner or later?  
 **\<suraeNoether>** dEBRUYNE: i'll start a conversation about this over in -community  
 **\<rehrar>** I would definitely like some research into ring sig alternatives.  
 **\<sarang>** That's very much in progress rehrar   
@@ -103,7 +103,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Anyway, on to ACTION ITEMS  
 **\<sarang>** I'll be discussing protocol details with some other researchers this week, to gain some better information on these changes  
 **\<sarang>** Getting the preprints sorted out for edits and submission  
-**\<dEBRUYNE>** If any of you feels like leaving a brief comment here btw -> https://www.reddit.com/r/Monero/comments/ct29nx/spectre\_protocol\_update/  
+**\<dEBRUYNE>** If any of you feels like leaving a brief comment here btw -> https://www.reddit.com/r/ByteRub/comments/ct29nx/spectre\_protocol\_update/  
 **\<sarang>** and catching up on a backlog of other preprints that have come out  
 **\<sarang>** suraeNoether: ?  
 **\<suraeNoether>** working with you on matching code and experimental design, and backlog reading on the work Sarang has done over the past 2 months comparing these three sublinear protocols  

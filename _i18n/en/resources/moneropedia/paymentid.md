@@ -9,7 +9,7 @@ summary: "an optional flag that is added to identify transactions to merchants, 
 
 Payment ID is an **arbitrary** and **optional** transaction attachment that consists of 32 bytes (64 hexadecimal characters) or 8 bytes (in the case of integrated addresses).
 
-The Payment ID is usually used to identify transactions to merchants and exchanges: Given the intrinsic privacy features built into Monero, where a single public address is usually used for incoming transactions, the Payment ID is especially useful to tie incoming payments with user accounts.
+The Payment ID is usually used to identify transactions to merchants and exchanges: Given the intrinsic privacy features built into ByteRub, where a single public address is usually used for incoming transactions, the Payment ID is especially useful to tie incoming payments with user accounts.
 
 ### Compact Payment IDs and Integrated Addresses
 

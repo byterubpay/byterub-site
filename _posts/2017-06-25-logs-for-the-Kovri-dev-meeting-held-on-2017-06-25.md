@@ -23,8 +23,8 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** yo yo  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\* anonimal** typing  
-**\<anonimal>** For me: PR review/development + collaboration across various repos, kovri-site collab, code collab with MoroccanMalinois, finished up VRP's for all monero subprojects.  
-**\<anonimal>** 5th tranche completed http://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-91187  
+**\<anonimal>** For me: PR review/development + collaboration across various repos, kovri-site collab, code collab with MoroccanMalinois, finished up VRP's for all byterub subprojects.  
+**\<anonimal>** 5th tranche completed http://forum.getbyterub.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-91187  
 **\<anonimal>** MoroccanMalinois rehrar: any words for the brief review?  
 **\<MoroccanMalinois>** Still digging in my private testnet  
 **\<MoroccanMalinois>** It's getting better, one mini baby step at a time  
@@ -62,7 +62,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Thanks rehrar.  
 **\<anonimal>** MoroccanMalinois has been pumping out \<insert great adjective here> work since he took over guzzi's unfinished FFS.  
 **\<MoroccanMalinois>** :) thanks  
-**\<moneromooo>** go go MoroccanMalinois ^\_^  
+**\<byterubmooo>** go go MoroccanMalinois ^\_^  
 **\<rehrar>** this kid ^^  
 **\<anonimal>** MoroccanMalinois: any thoughts/comments on point 4.?  
 **\<MoroccanMalinois>** Nope. Maybe i should be ready for a milestone in next meeting :)  
@@ -100,11 +100,11 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I don't. Sec.  
 **\<anonimal>** FP and I talked about that a looong time ago, not sure if he bought it though.  
 **\<rehrar>** checking to see if it's taken  
-**\<moneromooo>** The monero site is getmonero.org, if you're trying for the same template.  
+**\<byterubmooo>** The byterub site is getbyterub.org, if you're trying for the same template.  
 **\<rehrar>** we have the .org but he's thinking to get .net and have it redirect to .org  
 **\<rehrar>** it's available btw, so nobody has it  
-**\<anonimal>** moneromooo: yep. It was instinct for me to type getkovri.net because of geti2p.net  
-**\<moneromooo>** Cool. Ignore me then ^\_^  
+**\<anonimal>** byterubmooo: yep. It was instinct for me to type getkovri.net because of geti2p.net  
+**\<byterubmooo>** Cool. Ignore me then ^\_^  
 **\<anonimal>** fluffypony ^ getkovri.net?  
 **\<rehrar>** I'll find a domain name seller and ask them to take ByteRub  
 **\<anonimal>** Ok  
@@ -120,7 +120,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** If anyone here gets it now, I'm sure they can be reimbursed.  
 **\<rehrar>** I'll buy. But are the domains owned by a ByteRub specific account that I should transfer to?  
 **\<serhack>** I think I can get getkovri.net  
-**\<rehrar>** if there isn't would it be wise to have an accounts@getmonero.org type of email that the domains and other things can be attributed to? or would that be too centralized?  
+**\<rehrar>** if there isn't would it be wise to have an accounts@getbyterub.org type of email that the domains and other things can be attributed to? or would that be too centralized?  
 **\<rehrar>** the Core team would have the password to it, ofc. I don't know what the current setup is.  
 **\* anonimal** shrugs, all out of my jurisdiction, wishing FP was here  
 **\<anonimal>** luigi1113: do we have a centralized accounts address?  

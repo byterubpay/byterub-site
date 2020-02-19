@@ -2,12 +2,12 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # monero-wallet-cli
 
-`monero-wallet-cli` est une application de portefeuille qui est incluse dans la suite Monero. C'est un
+`monero-wallet-cli` est une application de portefeuille qui est incluse dans la suite ByteRub. C'est un
 programme en ligne de commandes qui permet de gérer un compte. Tandis que le portefeuille Bitcoin
-gère à la fois un compte et la chaîne de bloc, Monero sépare ces deux composants : `monerod`
+gère à la fois un compte et la chaîne de bloc, ByteRub sépare ces deux composants : `monerod`
 s'occupe de la chaîne de blocs, et `monero-wallet-cli` gère le compte.
 
-Ce guide montrera comment effectuer diverses opération depuis l'interface de `monero-wallet-cli`. Ce guide suppose que vous utilisiez la version la plus récenter de Monero et que vous ayez déjà créé un compte comme exposé dans l'autre guide.
+Ce guide montrera comment effectuer diverses opération depuis l'interface de `monero-wallet-cli`. Ce guide suppose que vous utilisiez la version la plus récenter de ByteRub et que vous ayez déjà créé un compte comme exposé dans l'autre guide.
 
 
 ## Vérifier votre solde
@@ -28,7 +28,7 @@ Pour voir votre balance sans rafraichir :
 
 Dans cette exemple, `Balance` correspond à votre solde total. `unlocked balance` est le montant actuellement disponible pour être dépensé. Les nouvelles transactions reçues nécessitent 10 confirmations sur la chaîne de blocs avant d'être débloquées. `unlocked dust` corresponds à de très faible montants de sorties non dépensées qui ont pu s'accumuler sur votre compte.
 
-## Envoyer des Moneroj
+## Envoyer des ByteRubj
 
 Vous aurez besoin de l'adresse standard à laquelle vous comptez envoyer (une longue chaine de
 caractères commençant par '4') et potentiellement un ID de paiement, si le destinataire vous en
@@ -58,13 +58,13 @@ Remplacez `RINGSIZE` avec le nombre de sorties que vous souhaitez utiliser. **S'
 
 ## Recevoir des moneroj
 
-Si vous avez votre propre adresse Monero, vous devez simplement communiquer à quelqu'un votre adresse standard.
+Si vous avez votre propre adresse ByteRub, vous devez simplement communiquer à quelqu'un votre adresse standard.
 
 Vous pouvez trouver votre adresse standard avec :
 
     address
 
-Comme Monero est anonyme, vous ne verrez pas l'adresse à partir de laquelle les fonds vous sont envoyés.
+Comme ByteRub est anonyme, vous ne verrez pas l'adresse à partir de laquelle les fonds vous sont envoyés.
 Si vous voulez le savoir, par exemple pour créditer un client particulier, vous devrez indiquer à
 l'émetteur d'utiliser un ID de paiement, qui est une étiquette optionnelle et arbitraire qui sera
 associé à la transaction. Pour vous faciliter la vie, vous pouvez générer une adresse qui inclus déjà
@@ -86,7 +86,7 @@ avec cet ID de paiement associé, vous permettant de distinguer les paiements.
 
 Si vous payez un commerçants, et que celui-ci prétends qu'il n'a pas reçu les fonds, vous pourriez
 avoir besoin de prouver à un tiers que vous avez bien envoyé les fonds (ou même au commerçants,
-s'il s'agit d'une erreur honnête). Monero est confidentiel, de sorte que vous ne pouvez pas
+s'il s'agit d'une erreur honnête). ByteRub est confidentiel, de sorte que vous ne pouvez pas
 simplement indiquer votre transaction dans la chaîne de blocs, dans la mesure où vous ne pouvez ni
 dire qui l'a envoyé, ni qui l'a reçu. Cependant, en fournissant la clef privée propre à la
 transaction à un tiers, celui-ci peut dire si la transaction à envoyé des moneroj à cette adresse

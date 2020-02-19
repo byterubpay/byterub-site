@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-07-23
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-07-23
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -17,7 +17,7 @@ author: el00ruobuob / surae
 **\<iDunk>** hi  
 **\<suraeNoether>** Sarang, want to start us off?  
 **\<sarang>** Kudelski has completed their final report, with input from us. This reduces the number of identified flaws to 3, along with some observations  
-**\<sarang>** All flaws have been patched by moneromooo already  
+**\<sarang>** All flaws have been patched by byterubmooo already  
 **\<ArticMine>** hi  
 **\<suraeNoether>** sweet  
 **\<hyc>** if a flaw sits in a codebase, and no one is there to release it, is it a bug?  
@@ -34,14 +34,14 @@ author: el00ruobuob / surae
 **\<endogenic>** "hyc> if a flaw sits in a codebase, and no one is there to release it, is it a bug?" you changed it  
 **\<suraeNoether>** well that already makes the audit financially worth it, in my mind: imagine someone purposely desigining a bulletproof with the overflow issue  
 **\<sarang>** None of the flaws had identified exploits  
-**\<moneromooo>** Wouldn't matter, since that function will not be used :)  
+**\<byterubmooo>** Wouldn't matter, since that function will not be used :)  
 **\<sgp\_[m]>** <3  
 **\<suraeNoether>** hence the low priority  
 **\<suraeNoether>** but i imagine someone could do something nefariously annoying with it  
 **\<suraeNoether>** even if it wasn't a full on exploit  
 **\<suraeNoether>** perhaps  
 **\<suraeNoether>** anyway  
-**\<moneromooo>** We didn't know at the time it wouldn't be used. We know only since ArticMine's fee proposal limits to one proof per tx.  
+**\<byterubmooo>** We didn't know at the time it wouldn't be used. We know only since ArticMine's fee proposal limits to one proof per tx.  
 **\<suraeNoether>** aha i see! so it's even lower priority, since it's not a functional component  
 **\<suraeNoether>** that's neat  
 **\<suraeNoether>** "we found a flaw in your design: the appendix."  
@@ -114,7 +114,7 @@ author: el00ruobuob / surae
 **\<rehrar>** and other things ;)  
 **\<suraeNoether>** motion of the ocean, rehrar, motion of the ocean  
 **\<rehrar>** lies  
-**\<moneromooo>** I'm lost now.  
+**\<byterubmooo>** I'm lost now.  
 **\<ArticMine>** Do we have possible alternatives to ring signatures in the pipeline  
 **\<sarang>** Not particularly. Nobody has a way that's untrusted and smaller and faster yet  
 **\<suraeNoether>** ArticMine: other than ruffing's ring confidential transactions, which are the only good candidates we know of for ring sizes 32-64, short of using a zk-stark set-up... not yet  
@@ -156,7 +156,7 @@ author: el00ruobuob / surae
 **\<sarang>** I thought wallet always generated a zero-amount second out  
 **\<iDunk>** It does.  
 **\<sarang>** Is that consensus level?  
-**\<moneromooo>** No.  
+**\<byterubmooo>** No.  
 **\<sarang>** ty  
 **\<tnsepta>** didn't know that, what's the purpose of it?  
 **\<tnsepta>** is it for anonymisation?  
@@ -168,16 +168,16 @@ author: el00ruobuob / surae
 **\<suraeNoether>** but anyway  
 **\<ArticMine>** and they are significantly smaller in size now because the ring signature part is more significant  
 **\<tnsepta>** yup that makes sense then from an anonymisation standpoint  
-**\<suraeNoether>** Is anyone else doing anything interesting with monero they want to chat about?  
+**\<suraeNoether>** Is anyone else doing anything interesting with byterub they want to chat about?  
 **\<ArticMine>** One other point here is increasing the ring size to 11 or using a fixed ring size of 11  
 **\<ArticMine>** This actually helps mitigate the verification issue  
 **\<sarang>** This is where I'd hoped we would have better data on churn/diffusion and its relationship to ring size  
 **\<sgp\_[m]>** Why 11?  
-**\<suraeNoether>** oh, gosh, moneromoo o built me a utility that i can use to figure out whether there is a numerical solution to that!  
+**\<suraeNoether>** oh, gosh, byterubmoo o built me a utility that i can use to figure out whether there is a numerical solution to that!  
 **\<suraeNoether>** i forgot! i've been so busy finishing multisig  
 **\<sarang>** yup yup  
 **\<sgp\_[m]>** Likewise  
-**\<suraeNoether>** moneromooo built a utility that computes the # of unique transaction outputs in the history of any given transaction  
+**\<suraeNoether>** byterubmooo built a utility that computes the # of unique transaction outputs in the history of any given transaction  
 **\<ArticMine>** I piked 11 as the largest ring that would still allow for an 80% fee reduction  
 **\<suraeNoether>** oh, that's a good metric :D  
 **\<sarang>** We should have concrete data to show the benefit  
@@ -203,10 +203,10 @@ author: el00ruobuob / surae
 **\<unknownids>** 11 rings when you need 1 more ring than 10  
 **\<oneiric\_>** lol  
 **\<unknownids>** why not just make 10 bigger? cause ours go to 11  
-**\<moneromooo>** I see you got the idea rihgt.  
+**\<byterubmooo>** I see you got the idea rihgt.  
 **\<ArticMine>** The case for a fixed 11 are 1) User simplicity 2) No ring profiles 3) There may also be a regulatory advantage in taking away control from the user here  
 **\<sarang>** I still think we need to start naming our changes (PoW, network upgrades, etc.) to make them seem less contentious  
-**\<suraeNoether>** i'll run moneromoo's utility, it'll take a day or three of boiling my ram, then i'll have an answer about "what ring size is so large that improvements become negligible?  
+**\<suraeNoether>** i'll run byterubmoo's utility, it'll take a day or three of boiling my ram, then i'll have an answer about "what ring size is so large that improvements become negligible?  
 **\<sarang>** ty suraeNoether  
 **\<sarang>** keep me in the loop  
 **\<rehrar>** post results here, I wanna know too  
@@ -217,9 +217,9 @@ author: el00ruobuob / surae
 **\<rehrar>** has the freeze been discussed yet?  
 **\<sarang>** When is our desired freeze date  
 **\<sgp\_[m]>** I need to update the verification time and size increase to account for bulletproofs before making any analysis. The % will be higher since outputs are a smaller consideration  
-**\<moneromooo>** Yes, one: have you considered allowing compound proofs for the case of 2^n+1 ?  
+**\<byterubmooo>** Yes, one: have you considered allowing compound proofs for the case of 2^n+1 ?  
 **\<ArticMine>** Is there support for static 11 ring size?  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Yes.  
 **\<scoobybejesus>** any interest in a consensus rule that # of outputs must be >= 2?  
 **\<rehrar>** I would say Yes, unless suraeNoether's research shows something surprising  
 **\<suraeNoether>** ArticMine: i support a static ring size. i will hold off on a number for a day or three  
@@ -231,37 +231,37 @@ author: el00ruobuob / surae
 **\<sarang>** I think those users are wrong  
 **\<suraeNoether>** i may support a slightly higher number  
 **\<scoobybejesus>** i tentatively support static 11  
-**\<moneromooo>** No, they're not. Everyone should want greater privacy.  
-**\<moneromooo>** They get to send to themselves once, and wait for a day or so.  
+**\<byterubmooo>** No, they're not. Everyone should want greater privacy.  
+**\<byterubmooo>** They get to send to themselves once, and wait for a day or so.  
 **\<sgp\_[m]>** People who REALLY know what they're doing lose flexibility  
-**\<sarang>** I think they're wrong about the big ring size moneromooo, not wanting privacy  
+**\<sarang>** I think they're wrong about the big ring size byterubmooo, not wanting privacy  
 **\<tnsepta>** isn't there a balance between privacy and prices?  
 **\<ArticMine>** Yes  
 **\<suraeNoether>** tnsepta: there is, the question is whether the balance will be on the side of privacy or prices. :P  
-**\<isthmuscrypto>** @xmrhaelan et al over in Monero Outreach could do some preemptive education about "ringsize > default ---> LESS privacy, not more"  
+**\<isthmuscrypto>** @xmrhaelan et al over in ByteRub Outreach could do some preemptive education about "ringsize > default ---> LESS privacy, not more"  
 **\<dEBRUYNE>** tnsepta: Price as in fee price or?  
-**\<hyc>** but it's misguided to believe "I want greater privacy than the average monero user so whatever ringsize they use, I'm going to use a bigger one"  
+**\<hyc>** but it's misguided to believe "I want greater privacy than the average byterub user so whatever ringsize they use, I'm going to use a bigger one"  
 **\<ArticMine>** A increase over 11 will require a modification of the fees.  
 **\<ArticMine>** Basically what matters is the ratio of the reference transaction weight to the effective minimum block weight  
 **\<suraeNoether>** okay, let's move on for now; seems like a static ring size is supported regardless of whether we increase it or not or by how much  
 **\<ArticMine>** That alternative is to increase the minimum effective median block weight above 300000 bytes  
-**\<moneromooo>** have you considered allowing compound proofs for the case of 2^n+1 ?  
-**\<suraeNoether>** moneromooo: can you elaborate on your question?  
+**\<byterubmooo>** have you considered allowing compound proofs for the case of 2^n+1 ?  
+**\<suraeNoether>** byterubmooo: can you elaborate on your question?  
 **\<sarang>** The case where the # of outputs is 3, 5, 9  
-**\<moneromooo>** Sure. If you have 9 outs, have you considered allowing two proofs of 8 and 1, insetad of one of 16 ?  
+**\<byterubmooo>** Sure. If you have 9 outs, have you considered allowing two proofs of 8 and 1, insetad of one of 16 ?  
 **\<sarang>** and we round up  
-**\<moneromooo>** Since that' the case that hurts most in verification time.  
+**\<byterubmooo>** Since that' the case that hurts most in verification time.  
 **\<ArticMine>** Yes the tradeoff is size  
-**\<moneromooo>** So you considered it, and deemed it better even in that case ?  
+**\<byterubmooo>** So you considered it, and deemed it better even in that case ?  
 **\<ArticMine>** Yes  
-**\<moneromooo>** OK, thanks.  
+**\<byterubmooo>** OK, thanks.  
 **\<ArticMine>** In fact the 9 case is the tricky one  
 **\<sarang>** When is our ideal freeze date?  
 **\<ArticMine>** Also the pricing treats 9 the same as 16  
 **\<suraeNoether>** sarang: good question  
 **\<suraeNoether>** we should have asked that in dev at the last meeting  
 **\<suraeNoether>** ok does anyone else have anything they want to chat about?  
-**\<isthmuscrypto>** Monero Archival Project is chugging along nicely. Transitioning to VPS infrastructure, spun up nodes on 3 continents now. Having multiple geographically-distributed archival nodes will helpful for understanding the representativeness of our data, and enables study of network topology/latency.  
+**\<isthmuscrypto>** ByteRub Archival Project is chugging along nicely. Transitioning to VPS infrastructure, spun up nodes on 3 continents now. Having multiple geographically-distributed archival nodes will helpful for understanding the representativeness of our data, and enables study of network topology/latency.  
 **\<isthmuscrypto>** NeptuneResearch is working on updating our archival daemon to be compatible with 0.12.3.0 and expects to be done soon.  
 **\<suraeNoether>** that's such a cool project isthmuscrypto   
 **\<suraeNoether>** do you guys have an irc channel or a website or something  

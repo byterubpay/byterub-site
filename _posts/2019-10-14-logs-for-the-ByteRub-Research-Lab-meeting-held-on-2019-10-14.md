@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-10-14
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-10-14
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -54,11 +54,11 @@ author: el00ruobuob / sarang
 **\<sarang>** Mandating separate transaction keys for all outputs would add 32 bytes to each additional output  
 **\<sgp\_>** Standard = 4?  
 **\<sarang>** but we're already saving > 32 bytes per output after the last change to the Pedersen mask format anyway  
-**\<moneromooo>** Could there be a way to deterministically generate keypairs in such a way that the sender generates the secret keys from a seed, the recipients generate the pubkeys ? I think Bitcoin has such a scheme for generating addresses.  
-**\<moneromooo>** And hopefully the seed is \<= 32 bytes :)  
+**\<byterubmooo>** Could there be a way to deterministically generate keypairs in such a way that the sender generates the secret keys from a seed, the recipients generate the pubkeys ? I think Bitcoin has such a scheme for generating addresses.  
+**\<byterubmooo>** And hopefully the seed is \<= 32 bytes :)  
 **\<sarang>** Well, a big selling point of subaddresses is the efficient scanning across all addresses at once  
 **\<sarang>** Isthmus: only need to read up a few lines  
-**\<moneromooo>** Would such a scheme invalidate the efficient scanning ? It seems doubtful since the tx keys are currently arbitrary.  
+**\<byterubmooo>** Would such a scheme invalidate the efficient scanning ? It seems doubtful since the tx keys are currently arbitrary.  
 **\<sgp\_>** How much effort is it to scan and see what proportion of transactions are only to standard addresses?  
 **\<sarang>** sgp\_: to get a distribution of how common subaddresses are?  
 **\<Isthmus>** @sgp\_ I think that @n3ptune accidentally did that recently  
@@ -73,14 +73,14 @@ author: el00ruobuob / sarang
 **\<Isthmus>** https://usercontent.irccloud-cdn.com/file/LgrrzOIS/image.png  
 **\<Isthmus>** I suspect the diagonal is transactions that include a subaddress, while the horizontal bands are primary-only  
 **\<Isthmus>** Though I'm open to alternate interpretations  
-**\<moneromooo>** Oh I get it. The fast lookup would still exist, but verifiers would have to generate pubkeys, and \*that\* might be slow.  
+**\<byterubmooo>** Oh I get it. The fast lookup would still exist, but verifiers would have to generate pubkeys, and \*that\* might be slow.  
 **\<sgp\_>** Thanks  
 **\<Isthmus>** If that is the case, then I can slide a window over time and calculate fraction of transactions that appear to include no subaddresses  
 **\<sgp\_>** I'm not the one who can say yes or no to that :/  
 **\<sarang>** Probably worth bringing up at the next dev meeting to see what others think of it  
-**\<moneromooo>** It is trivial to know whether >= 1 subaddress was used as an output in a tx.  
-**\<moneromooo>** If that was the question...  
-**\<moneromooo>** Oh wait. Maybe not, there's some funky going on with change being treated differently...  
+**\<byterubmooo>** It is trivial to know whether >= 1 subaddress was used as an output in a tx.  
+**\<byterubmooo>** If that was the question...  
+**\<byterubmooo>** Oh wait. Maybe not, there's some funky going on with change being treated differently...  
 **\<sgp\_>** A more meta question: how did this happen? What could have been done differently to help prevent this from happening?  
 **\<sarang>** That's probably a question for someone like stoffu who was more directly involved in the code  
 **\<sarang>** I suspect space saving was one consideration  
@@ -95,7 +95,7 @@ author: el00ruobuob / sarang
 **\<sarang>** OK, something to discuss at next dev meeting, then  
 **\<sarang>** Are there any other topics to discuss for this meeting?  
 **\<Isthmus>** Oh yea, lemme grab a link  
-**\<Isthmus>** The CryptoEconSec paper by hasu and all is very interesting, and parts are relevant to both Monero and our lock time conversation  
+**\<Isthmus>** The CryptoEconSec paper by hasu and all is very interesting, and parts are relevant to both ByteRub and our lock time conversation  
 **\<Isthmus>** \*et al  
 **\<Isthmus>** I definitely recommend reading it. Very approachable.  
 **\<Isthmus>** Here's the writeup: https://uncommoncore.co/research-paper-a-model-for-bitcoins-security-and-the-declining-block-subsidy/  

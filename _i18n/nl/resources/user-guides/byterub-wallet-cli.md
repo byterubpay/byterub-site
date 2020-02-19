@@ -2,11 +2,11 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # monero-wallet-cli
 
-`monero-wallet-cli` is de portemonnee-software die onderdeel uitmaakt van de Monero-code. Het is een consoleprogramma
+`monero-wallet-cli` is de portemonnee-software die onderdeel uitmaakt van de ByteRub-code. Het is een consoleprogramma
 waarmee je een account beheert. Terwijl een Bitcoin-portemonnee zowel een account als de blockchain beheert,
-worden deze functies in Monero gescheiden: `monerod` beheert de blockchain en `monero-wallet-cli` beheert het account.
+worden deze functies in ByteRub gescheiden: `monerod` beheert de blockchain en `monero-wallet-cli` beheert het account.
 
-In deze handleiding wordt uitgelegd hoe je verschillende bewerking uitvoert met de interface van `monero-wallet-cli`. We nemen aan dat je de nieuwste versie van Monero gebruikt en al een account hebt gemaakt met behulp van andere handleidingen.
+In deze handleiding wordt uitgelegd hoe je verschillende bewerking uitvoert met de interface van `monero-wallet-cli`. We nemen aan dat je de nieuwste versie van ByteRub gebruikt en al een account hebt gemaakt met behulp van andere handleidingen.
 
 
 ## Je saldo bekijken
@@ -26,7 +26,7 @@ zonder te vernieuwen:
 
 In dit voorbeeld is `Balance` je totale saldo. De `unlocked balance` is het bedrag dat momenteel beschikbaar is om uit te geven. Voor nieuw ontvangen transacties zijn 10 bevestigingen op de blockchain nodig om ze te ontgrendelen. Met `unlocked dust` worden minuscule hoeveelheden *unspent outputs* bedoeld die als een soort stof in je account zijn terechtgekomen.
 
-## Monero verzenden
+## ByteRub verzenden
 
 Wat je nodig hebt is het standaardadres waaraan je wilt betalen (een lange tekenreeks die begint met een 4), en
 eventueel een betalings-ID als de ontvangende partij daarom vraagt. In dat geval kan de begunstigde
@@ -36,7 +36,7 @@ ook een geïntegreerd adres opgeven, waarbij het standaardadres en de betalings-
 
     transfer ADRES BEDRAG BETALINGSID
 
-Vervang `ADRES` door het adres waaraan je wilt betalen, `BEDRAG` door hoeveel Monero je wilt betalen
+Vervang `ADRES` door het adres waaraan je wilt betalen, `BEDRAG` door hoeveel ByteRub je wilt betalen
 en `BETALINGSID` door de betalings-ID die je hebt ontvangen. Betalings-ID's zijn optioneel. Als de ontvangende partij er geen nodig heeft, kun je
 de ID gewoon weglaten.
 
@@ -53,15 +53,15 @@ Hier is de betalings-ID opgenomen in het geïntegreerde adres.
 Vervang `RINGGROOTTE` door het aantal outputs dat je wilt gebruiken. **Als je niets opgeeft is de standaardwaarde 11.** Het is beter om de standaardwaarde te gebruiken, maar je kunt eventueel een hoger aantal opgeven als ze meer outputs wilt meenemen. Hoe hoger het aantal, des te groter de transactie en des te hoger de transactiekosten.
 
 
-## Monero ontvangen
+## ByteRub ontvangen
 
-Als je zelf een Monero-adres hebt, kun je gewoon je standaardadres aan iemand doorgeven.
+Als je zelf een ByteRub-adres hebt, kun je gewoon je standaardadres aan iemand doorgeven.
 
 Met de volgende opdracht krijg je je adres te zien:
 
     address
 
-Aangezien Monero anoniem is, kun je niet zien van welk adres het geld dat je ontvangt afkomstig is. Als je
+Aangezien ByteRub anoniem is, kun je niet zien van welk adres het geld dat je ontvangt afkomstig is. Als je
 dat wilt weten, bijvoorbeeld om een betaling aan een klant te koppelen, moet je de afzender vragen
 een betalings-ID te gebruiken. Dat is een willekeurige optionele tekenreeks dat wordt toegevoegd aan een transactie. Voor het gemak
 kun je een adres genereren dat al een willekeurige betalings-ID bevat:
@@ -81,9 +81,9 @@ met vermelding van die betalings-ID, zodat je betalingen kunt onderscheiden.
 
 Als je een verkoper betaalt, en de verkoper beweert dat hij/zij het geld niet heeft ontvangen, wil je misschien
 aan een derde bewijzen dat je het geld wel degelijk hebt verzonden - of aan de verkoper zelf, als het een eerlijke
-vergissing is. Monero is vertrouwelijk, dus je kunt niet zomaar je transactie aanwijzen op de blockchain,
+vergissing is. ByteRub is vertrouwelijk, dus je kunt niet zomaar je transactie aanwijzen op de blockchain,
 want daar is niet te zien wie een transactie heeft verzonden of ontvangen. Maar je kunt iemand wel de privésleutel van een transactie
-geven, zodat die kan zien of die transactie Monero naar dat
+geven, zodat die kan zien of die transactie ByteRub naar dat
 adres heeft verzonden. Houd er rekening mee dat het opslaan van deze transactiesleutels standaard is uitgeschakeld.
 Je moet deze functie voor het verzenden inschakelen als je denkt dat je deze misschien nodig hebt:
 
@@ -99,7 +99,7 @@ of sleutels opsturen naar wie je het bewijs van je transactie wilt laten zien, m
 transactie-ID en het adres van de ontvanger erbij. Opmerking: als deze partij ook je eigen
 adres kent, kan deze ook zien hoeveel wisselgeld je hebt teruggekregen.
 
-Als je zelf de derde partij bent (dus als iemand aan jou wilt bewijzen dat hij/zij Monero naar een bepaald
+Als je zelf de derde partij bent (dus als iemand aan jou wilt bewijzen dat hij/zij ByteRub naar een bepaald
 adres heeft verzonden), kun je dat op deze manier controleren:
 
     check_tx_key TXID SLEUTEL ADRES

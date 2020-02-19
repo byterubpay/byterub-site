@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Localization Workgroup meeting held on 2018-05-03
+title: Logs for the ByteRub Localization Workgroup meeting held on 2018-05-03
 summary: Translation's workflow improvements and future of Pootle
 tags: [dev diaries, community, crypto]
 author: erciccione
@@ -9,8 +9,8 @@ author: erciccione
 # Logs
 
 **\<ErCiccione>** Let's start this meeting. Copy-pasted text incoming:   
-**\<ErCiccione>** Hi folks, welcome to this meeting of the Monero Localization Workgroup!  
-**\<ErCiccione>** The agenda can be found here: https://github.com/monero-ecosystem/monero-translations/issues/51  
+**\<ErCiccione>** Hi folks, welcome to this meeting of the ByteRub Localization Workgroup!  
+**\<ErCiccione>** The agenda can be found here: https://github.com/byterub-ecosystem/byterub-translations/issues/51  
 **\<ErCiccione>** First of all, let's make a quick round of greetings to have an idea of who is here.  
 **\<ErCiccione>** Hi everybody!  
 **\<dsc_>** hi  
@@ -21,7 +21,7 @@ author: erciccione
 **\<ErCiccione>** So, the two main questions we should answer during this meeting are: How to improve the workflow of our localization system? What's the role of Pootle in all this?  
 **\<ErCiccione>** Thanks to Pootle, the whole process is much easier for translators, since they can directly submit the translated strings using an easy  
 **\<ErCiccione>** user interface. This was a big improvement from the past and the result is that  
-**\<ErCiccione>** we reached an all-time-high peak of Monero contributors and translators during the last hard fork (about 60 translators worked on GUI and/or CLI),  
+**\<ErCiccione>** we reached an all-time-high peak of ByteRub contributors and translators during the last hard fork (about 60 translators worked on GUI and/or CLI),  
 **\<ErCiccione>** and we managed to translate and review thousands of strings in about 48 hours. I consider that a huge achievement.  
 **\<ErCiccione>** First of all, I think it's necessary to give a quick overview of how the translation process works at the moment (using the GUI as example):  
 **\<ErCiccione>** 1. code gets updated all the time, adding and removing strings. About once a month i update the git repository on pootle's server.  
@@ -33,7 +33,7 @@ author: erciccione
 **\<ErCiccione>** - if some big chuncks of code (with new strings) get merged right before a release, translators will have very few time to translate and i have few time to review  
 **\<ErCiccione>** - Every time the code gets changed, the number of the line referred in the language files changes as well. This means that even if a translation exists, QT won't see it if the right string is not referred.   
 **\<ErCiccione>** This is very annoying, but right now is resolved doing a round of lupdate (which sync the language files with the code) as last PR before tagging the release.  
-**\<ErCiccione>** Selsta mentioned the possibility of removing line numbers and avoid this problem (https://github.com/monero-ecosystem/monero-translations/issues/51#issuecomment-487793419), but i don't know if it's doable, i hope our QT people can answer on this;  
+**\<ErCiccione>** Selsta mentioned the possibility of removing line numbers and avoid this problem (https://github.com/byterub-ecosystem/byterub-translations/issues/51#issuecomment-487793419), but i don't know if it's doable, i hope our QT people can answer on this;  
 **\<selsta>** Hi  
 **\<ErCiccione>** About this workflow, i think with a proper code freeze of 1-2 weeks most of these issue are solved, especially since i sync the code every month or so, keeping a continuous flow of translations, but if there are better options/suggestion, please feel free to suggest them.  
 **\<ErCiccione>** so, are there any suggestions/ideas?   
@@ -101,11 +101,11 @@ author: erciccione
 **\<ErCiccione>** It's also true that it's not optimal to use a platform which is basically abandoned, from both a security and functional point of view (weblate has more features than Pootle).  
 **\<ErCiccione>** I would like to hear the opinion of the community at large about this, since integrating Pootle required a good amount of resources and i understand that would be annoying to replace it after a so short period of time, but i personally am not a fan of th idea of using an abandoned project. Also,  
 **\<ErCiccione>** if we decide to try another platform (as said, i would try weblate, but other suggestions are welcome), i would have to dedicate time to that, which will obviously slow down some other things.  
-**\<ErCiccione>** Anyway, in case, i'm confident i could manage to have a working new platform before the end of my CCS (beginning of June), since i already tested weblate in past and i already have access to the translate.getmonero server.  
+**\<ErCiccione>** Anyway, in case, i'm confident i could manage to have a working new platform before the end of my CCS (beginning of June), since i already tested weblate in past and i already have access to the translate.getbyterub server.  
 **\<ErCiccione>** In the meantime, we would keep using Pootle until the new platform is ready. Thoughts?   
 **\<xmrscott[m]>** My vote is to transition to Weblate. Notable features for more casual users  
 **\<ErCiccione>** yes, weblate has some nice feature would be nice to have (like a better commenting system for every string)   
-**\<xmrscott[m]>** Namely, ability to get emails when new strings are added; not everyone monitors #monero-translations or r/monero like a hack for new strngs announcements  
+**\<xmrscott[m]>** Namely, ability to get emails when new strings are added; not everyone monitors #byterub-translations or r/byterub like a hack for new strngs announcements  
 **\<xmrscott[m]>** https://docs.weblate.org/en/latest/admin/continuous.html  
 **\<dsc_>** I think that ultimately you are the person to make such decision  
 **\<dsc_>** as authority on all things translations  

@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 # Logs
 
-**\<fluffypony>** hyc, moneromooo, smooth, luigi1111w, luigi1112, luigi1114, ArticMine, NoodleDoodle, tewinget: meeting starting  
+**\<fluffypony>** hyc, byterubmooo, smooth, luigi1111w, luigi1112, luigi1114, ArticMine, NoodleDoodle, tewinget: meeting starting  
 **\<hyc>** hey  
 **\<fluffypony>** and othe  
 **\<fluffypony>** just waiting for the relay to come up  
@@ -31,7 +31,7 @@ author: dEBRUYNE / fluffypony
 **\* fluffypony** waaaaaits  
 **\<hyc>** I haven't looked at 818, it's a crypto question still  
 **\<fluffypony>** yeah I think shen looked at it  
-**\<fluffypony>** ok we'll put a peg on that pending input from moneromooo and smooth  
+**\<fluffypony>** ok we'll put a peg on that pending input from byterubmooo and smooth  
 **\<ArticMine>** What are shen's thoughts on 818?  
 **\<MRL-Relay>** {-shen} I took a glance at it, but if desired I can look deeper  
 **\<MRL-Relay>** {-shen} at glance looked ok  
@@ -54,9 +54,9 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** so now that we're getting the performance branch out the way  
 **\<fluffypony>** the next two major things on the radar are 0MQ and ringct  
 **\<fluffypony>** at the moment we have that stall in the dev branch, not sure whether it's time to nuke it and start the new one  
-**\<fluffypony>** I'll wait for input from moneromooo on that  
+**\<fluffypony>** I'll wait for input from byterubmooo on that  
 **\<fluffypony>** and then ringct - hyc, did you say you were going to do some of that? I can't even remember  
-**\<hyc>** I looked into it but no, moneromooo should take lead  
+**\<hyc>** I looked into it but no, byterubmooo should take lead  
 **\<fluffypony>** ok  
 **\<fluffypony>** shen  
 **\<hyc>** I can do whatever DB additions are needed  
@@ -66,7 +66,7 @@ author: dEBRUYNE / fluffypony
 **\<MRL-Relay>** {-shen} Should be ready for test net at least  
 **\<fluffypony>** ok  
 **\<fluffypony>** it's time for a testnet fork anyway, so we can work towards that  
-**\<fluffypony>** basically everything else requires moneromooo and smooth, so we can put a peg in them till next meeting  
+**\<fluffypony>** basically everything else requires byterubmooo and smooth, so we can put a peg in them till next meeting  
 **\<fluffypony>** speaking of which  
 **\<fluffypony>** next one on the 22nd  
 **\<dEBRUYNE>** perhaps they will show up within the next 30 minutes :-P Just page them 3 times!  
@@ -74,7 +74,7 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE>** Btw fluffypony, will the performance branch be used for a new point release?  
 **\<fluffypony>** dEBRUYNE: yes  
 **\<dEBRUYNE>** All right  
-**\<dEBRUYNE>** Btw, if moneromooo and smooth show up later tonight and have a chat about 0MQ we could just add that to the dev logs  
+**\<dEBRUYNE>** Btw, if byterubmooo and smooth show up later tonight and have a chat about 0MQ we could just add that to the dev logs  
 **\<fluffypony>** ok  
 **\<bigreddmachine>** q: for the next point release... will it include arm7 binaries? 0.9.4 does not  
 **\<fluffypony>** it should  
@@ -84,42 +84,42 @@ author: dEBRUYNE / fluffypony
 **\<bigreddmachine**> kk, thats what i figured  
 **\<bigreddmachine>** now just syncing block headers?  
 **\<hyc>** up to a given refresh height it only syncs hashes  
-**\<fluffypony>** moneromooo: we can carry on chatting about the bits you missed after the kovri meeting, if that's ok ?  
-**\<moneromooo>** Sure.  
+**\<fluffypony>** byterubmooo: we can carry on chatting about the bits you missed after the kovri meeting, if that's ok ?  
+**\<byterubmooo>** Sure.  
 **\<fluffypony>** ok back to the ByteRub side  
-**\<fluffypony>** moneromooo: have you had a chance to read the meeting backlog ?  
-**\<moneromooo>** I did.  
+**\<fluffypony>** byterubmooo: have you had a chance to read the meeting backlog ?  
+**\<byterubmooo>** I did.  
 **\<fluffypony>** ok - thoughts on 0MQ / dev branch?  
 **\<fluffypony>** if you have the dev branch on your fork we can nuke it and reset  
-**\<moneromooo>** I think you can nuke the dev branch.  
-**\<moneromooo>** As for 0mq... whenever I get to start it, it's going to be a largeish amount of work at once I think.  
+**\<byterubmooo>** I think you can nuke the dev branch.  
+**\<byterubmooo>** As for 0mq... whenever I get to start it, it's going to be a largeish amount of work at once I think.  
 **\<fluffypony>** ok  
-**\<moneromooo>** I happen to be not super motivated to code these days, after day job spent debugging stuff.  
+**\<byterubmooo>** I happen to be not super motivated to code these days, after day job spent debugging stuff.  
 **\<fluffypony>** sometimes you gotta take a break and work on fun stuff  
 **\<dEBRUYNE>** perhaps Ring CT qualifies as fun stuff, perhaps not :-P  
-**\<moneromooo>** What's more important btw, 0mq or ringct ?  
+**\<byterubmooo>** What's more important btw, 0mq or ringct ?  
 **\<fluffypony>** I would think ringct  
 **\<dEBRUYNE>** I'd say Ring CT too  
 **\<dEBRUYNE>** Iirc ring CT needs to be some time on testnet too anyway  
-**\<moneromooo>** And we can ask the "did nobody test this ?" peanut gallery in to test it :D  
+**\<byterubmooo>** And we can ask the "did nobody test this ?" peanut gallery in to test it :D  
 **\<fluffypony>** awesome  
-**\<moneromooo>** One other thing I wanted to do, which is interesting from a user's point of view, is to allow the wallet to see/decode pool txes.  
-**\<moneromooo>** That's probably not too much work.  
-**\<dEBRUYNE>** lol moneromooo   
-**\<dEBRUYNE>** Btw moneromooo, in case you hadn't read it yet hyc can assist you with the DB stuff  
+**\<byterubmooo>** One other thing I wanted to do, which is interesting from a user's point of view, is to allow the wallet to see/decode pool txes.  
+**\<byterubmooo>** That's probably not too much work.  
+**\<dEBRUYNE>** lol byterubmooo   
+**\<dEBRUYNE>** Btw byterubmooo, in case you hadn't read it yet hyc can assist you with the DB stuff  
 **\<dEBRUYNE>** More specifically -> \<hyc> I can do whatever DB additions are needed  
-**\<moneromooo>** I saw that. It's good so I don't break it all.  
+**\<byterubmooo>** I saw that. It's good so I don't break it all.  
 **\<dEBRUYNE>** Btw fluffypony, I forgot to ask earlier. Not sure if he is here, but any plans to opensource NoodleDoodle's trezor code soon^tm?  
 **\<fluffypony>** you'd have to ask NoodleDoodle that  
 **\<dEBRUYNE>** all right, perhaps he responds :-P  
-**\<moneromooo>** Oh: about reviewing the signature patch, IIRC smooth said that code was only used for the debug commands, so the CN people might not have make it so resistant to misuse or something. So might be worth looking at its internals (I expect it uses the same building blocks as ring signatures, but I don't really know).  
+**\<byterubmooo>** Oh: about reviewing the signature patch, IIRC smooth said that code was only used for the debug commands, so the CN people might not have make it so resistant to misuse or something. So might be worth looking at its internals (I expect it uses the same building blocks as ring signatures, but I don't really know).  
 **\<dEBRUYNE>** Also, regarding #810, a pool op commented the following: "Adding this to the current HEAD 8b0d22a reduces CPU by an order of magnitude on a pool wallet: 80% usage on a core down to 8%. Seems like a significant performance win to me." Since there is a mixed feeling about the PR itself I figured perhaps just close it and send the pool ops a mail that they could possibly apply the code/patch to their own code if they want to do so. I could   
 **\<dEBRUYNE>** gather email addresses and setup a standardized mail.  
 **\<dEBRUYNE>** ^ fluffypony   
-**\<moneromooo>** Changing the pool code to call getinfo and check top hash would also drop CPU usage a lot.  
+**\<byterubmooo>** Changing the pool code to call getinfo and check top hash would also drop CPU usage a lot.  
 **\<fluffypony>** shen, see above ^^  
 **\<fluffypony>** (before the pool code stuff)  
 **\<MRL-Relay>** {-shen} ok  
 **\<MRL-Relay>** {-shen} good point  
-**\<dEBRUYNE>** moneromooo: I see, well then it's more up to the pool ops instead of the contributors/developers imo  
-**\<moneromooo>** Up to whoever gets his butt in gear to do it, as usual :D
+**\<dEBRUYNE>** byterubmooo: I see, well then it's more up to the pool ops instead of the contributors/developers imo  
+**\<byterubmooo>** Up to whoever gets his butt in gear to do it, as usual :D

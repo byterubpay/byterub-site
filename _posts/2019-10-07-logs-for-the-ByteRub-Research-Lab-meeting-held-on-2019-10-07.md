@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-10-07
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-10-07
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -142,7 +142,7 @@ author: el00ruobuob / sarang
 **\<sarang>** That was from a single node report, no?  
 **\<suraeNoether>** sarang: \*shrug\* even if it was 15, or 12, safety\*12 for any safety > 1 is going to be bigger than 20, generally  
 **\<sgp\_>** That's why I think looking at all reogs and using 3sd longer than normal or something like that is a more practical number  
-**\<suraeNoether>** my point is: if we look at how common re-orgs are, and if we want to protect against those, we need unreasonably long lock times that risk slowing down the monero economy  
+**\<suraeNoether>** my point is: if we look at how common re-orgs are, and if we want to protect against those, we need unreasonably long lock times that risk slowing down the byterub economy  
 **\<sarang>** sgp\_: all observed reorgs, regardless of assumed origin (latency, high-hashpower entity, etc.)?  
 **\<sgp\_>** sarang: I would need to go deeper into the numbers, but I just want to see what the numbers are without some of the outliers  
 **\<Isthmus>** I've been out of the loop, so I'm not disagreeing. But wowza, I hadn't seen anything \*global\* greater than length 2 since we switched to CryptoNoteR  
@@ -152,11 +152,11 @@ author: el00ruobuob / sarang
 **\<sgp\_>** eg: if there was 1 reog at 20 and every other one is \<3, that's important to know  
 **\<sarang>** I think using data and methods from the Bitcoin community for risk estimates of high-hashpower entities would be useful as one data point  
 **\<sgp\_>** Isthmus: in terms of the framework however, I think we need to add some privacy implications  
-**\<Isthmus>** True, though the Gini coefficient for BTC hashrate is probably much more lopsided that Monero's distribution  
+**\<Isthmus>** True, though the Gini coefficient for BTC hashrate is probably much more lopsided that ByteRub's distribution  
 **\<sgp\_>** shrinking the lock time likely has adverse privacy implications  
 **\<sgp\_>** and it also have positive UX implications  
 **\<ArticMine>** There are some significant differences in Bitcoin: 1) Great Firewall of China 2) 10 min blocks  
-**\<Inge->** Better UX at the cost of privacy sounds like ... not-Monero.  
+**\<Inge->** Better UX at the cost of privacy sounds like ... not-ByteRub.  
 **\<Isthmus>** I suspect (and I may totally backtrack this later...) that the fact we flip coins every 2 minutes rather than every 10 minutes may mean we reach stable equilibrium faster  
 **\<sgp\_>** Inge-: it's about the tradeoff. No one would use a coin with a lock time of 100 days  
 **\<Isthmus>** SLOWNERO  
@@ -166,7 +166,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** okay, let's operate briefly assuming that the longest reasonable "natural" re-org is 6 blocks. it's smaller than our current lock time, longer htan isthmus' global data, and matches satoshi's arbitrary selection.  
 **\<suraeNoether>**  if we pick safety = 2 or 3, we are still looking at 12 or 18 lock time, not shorter than 10.  
 **\<suraeNoether>** now, if we recall, block re-orgs don't always happen naturally and can take place due to adversarial behavior, using the longest one in history is incomplete  
-**\<suraeNoether>**  why? the attacker may hold off, biding their time on a real attack, until their attack power is most likely to lead to success.  Seeing only a few re-orgs of length 2-6 in the entire history of monero doesn't mean that an adversary can't force a 30-length re-org, as an example, so while the monero archival stuff that isthmus has been running is helpful  
+**\<suraeNoether>**  why? the attacker may hold off, biding their time on a real attack, until their attack power is most likely to lead to success.  Seeing only a few re-orgs of length 2-6 in the entire history of byterub doesn't mean that an adversary can't force a 30-length re-org, as an example, so while the byterub archival stuff that isthmus has been running is helpful  
 **\<suraeNoether>** i dunno, i feel like this is an unnecessary rabbit hole  
 **\<sgp\_>** "past performance does not indicate future results." But I still like seeing how the network performs under normal scenarios  
 **\<suraeNoether>** or at least: why try to select a number other than 10 before the next hard fork?  
@@ -187,7 +187,7 @@ author: el00ruobuob / sarang
 **\<Isthmus>** What do you think about additive safety term versus multiplicative?  
 **\<sgp\_>** suraeNoether: I agree on a theory level, but not on a practical level  
 **\<suraeNoether>** sgp\_: yeah, i'm saying theoretically, there is no optimal solution. in practice, there will be a whole host of solutions that are "good enough" that have different tradeoffs between them depending on threat models  
-**\<sgp\_>** ....have you worked on Monero before? lol  
+**\<sgp\_>** ....have you worked on ByteRub before? lol  
 **\<suraeNoether>** this is why isthmus is using the word plausible here  
 **\<suraeNoether>** ...  
 **\<sgp\_>** yeah it's a tradeoff, but we need to pick one, and there's potential reason to believe (with evidence) that a number other than 10 is best  
@@ -217,14 +217,14 @@ author: el00ruobuob / sarang
 **\<Isthmus>** Yes, that.  
 **\<Isthmus>** The ability for an external observer to ascertain whether there were any subaddresses included in the construction of a transaction  
 **\<Isthmus>** Leaks information about the recipient  
-**\<moneromooo>** Or sender.  
+**\<byterubmooo>** Or sender.  
 **\<sarang>** For some reason I thought that unique pubkeys were always used now, regardless of address type, to reduce distinguishability... but I need to check this  
 **\<Isthmus>** Yes, and/or sender  
 **\<dEBRUYNE>** sarang: Sure, that is fair, but in that instance I would set it to zero  
 **\<sgp\_>** This is the first I am hearing of this  
-**\<moneromooo>** Actually... I'm not sure. The logic is a bit different for change IIRC...  
+**\<byterubmooo>** Actually... I'm not sure. The logic is a bit different for change IIRC...  
 **\<suraeNoether>** i'm a bit confused...  
-**\<moneromooo>** I hit that when I tried to add custom change addresses.  
+**\<byterubmooo>** I hit that when I tried to add custom change addresses.  
 **\<suraeNoether>** isthmus do you have a small toy example you could show us?  
 **\<Isthmus>** Nope, I have no clue how the constructions differ  
 **\<sarang>** suraeNoether: for subaddress destinations, you use a unique tx pubkey  
@@ -249,9 +249,9 @@ author: el00ruobuob / sarang
 **\<sarang>** Unique per output, is what I should have said  
 **\<sgp\_>** why would the # of dest addresses be different than the number f outputs, unless someone is doing terrible churn?  
 **\<suraeNoether>** \*shrug\* users do dumb stuff all the time for dumb reasons  
-**\<sarang>** I will confer with moneromooo and examine code to see what the current default behavior is  
+**\<sarang>** I will confer with byterubmooo and examine code to see what the current default behavior is  
 **\<Isthmus>** +1  
-**\<moneromooo>** I purposefully shut up after what I said above since stoffu will know for sure, and I don't.  
+**\<byterubmooo>** I purposefully shut up after what I said above since stoffu will know for sure, and I don't.  
 **\<Isthmus>** Cool, I think we can probably stick a pin in this, research over the week, and circle back with more concrete details about distinguishability under the current design.  
 **\<ArticMine>** +1  
 **\<sarang>** OK, any other action items before we adjourn?  

@@ -29,8 +29,8 @@ anonimal.i2p=AQZGLAMpI9Q0l0kmMj1vpJJYK3CjLp~fE3MfvE-e7KMKjI5cPOH6EN8m794uHJ6b09q
 For @Kovri, there are two types of subscription files: *public* and *private*.
 
 A *public* subscription:
-- is used when bootstrapping to use essential services (IRC, email, Monero, etc.)
-- is static and is refreshed every 12 hours from Monero's @address-book server
+- is used when bootstrapping to use essential services (IRC, email, ByteRub, etc.)
+- is static and is refreshed every 12 hours from ByteRub's @address-book server
 - allows you to safely share the subscription with everyone as it is publically available (anyone who shares the same public subscription will also be able to resolve the same hostname to the same destination as you)
 
 A *private* subscription:

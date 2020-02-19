@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-05-14
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-05-14
 summary: MRL work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -8,7 +8,7 @@ author: el00ruobuob / sarang
 
 # Logs  
 
-**\<sarang>** andytoshi anonimal binaryFate ArticMine dEBRUYNE endogenic gingeropolous moneromooo sgp\_[m] smooth stoffu UkoeHB etc  
+**\<sarang>** andytoshi anonimal binaryFate ArticMine dEBRUYNE endogenic gingeropolous byterubmooo sgp\_[m] smooth stoffu UkoeHB etc  
 **\<ArticMine>** Hi  
 **\<dEBRUYNE>** Kind of present :P  
 **\<sarang>** close enough!  
@@ -22,7 +22,7 @@ author: el00ruobuob / sarang
 **\<sarang>** I've been continuing to work with the Purdue researchers on noninteractive refunds  
 **\<sarang>** which would be much more of a hassle than an interactive refund  
 **\<sarang>** But it brings up some really interesting new ideas that we're formalizing to publish  
-**\<sarang>** Aside from that, there was some good Zcash anonymity research in the spirit of the monerolink stuff  
+**\<sarang>** Aside from that, there was some good Zcash anonymity research in the spirit of the byterublink stuff  
 **\<sarang>** It has good lessons about the importance of mandatory privacy  
 **\<sarang>** Another paper pointed out some flaws in the MuSig paper that suraeNoether had been working with  
 **\<sarang>** not in terms of attacks, but in terms of security proofs unfortunately  
@@ -97,7 +97,7 @@ author: el00ruobuob / sarang
 **\<ArticMine>** This is true but there is a market pressure to give out this information  
 **\<ArticMine>** and this is very healthy  
 **\<sgp\_[m]>** Well, even if they don't povide an easy blackball list, someone can realtively trivially put one tegether from the complete transaction history  
-**\<moneromooo>** sneurlax made one such tool (or may still be making one).  
+**\<byterubmooo>** sneurlax made one such tool (or may still be making one).  
 **\<ArticMine>** That is actually a backup answer  
 **\<ArticMine>** But ideally we should encourage the pools to give a blackball list  
 **\<sarang>** What do you think the general thoughts are about the blackball list being checkpointed and supplied non-locally?  
@@ -116,13 +116,13 @@ author: el00ruobuob / sarang
 **\<sarang>** I didn't see any immediate downsides  
 **\<sarang>** It makes sense since the pools are known entities  
 **\<ArticMine>** but normally almost all of these outputs are paid to miners  
-**\<moneromooo>** It still needs someone to volunteer to maintain a blackball list, and so far nobody has so this code is left unused :)  
+**\<byterubmooo>** It still needs someone to volunteer to maintain a blackball list, and so far nobody has so this code is left unused :)  
 **\<sgp\_[m]>** The goal is to make the outputs returned to the pool look the same in a random transaction decoy as how they look when miners make transactions with their payouts  
 **\<rehrar>** can we replace ring sigs already? that is all  
-**\<sarang>** That'll be our big MoneroCon unveil  
+**\<sarang>** That'll be our big ByteRubCon unveil  
 **\<sgp\_[m]>** This is difficult to explain, so I'm sorry I'm not doing it very well  
 **\<rehrar>** oh, also that article on PoW (which I'm sure had to have been discussed at this meeting). Something else.  
-**\<sarang>** "MoneroCon: Monero is  a con!"  
+**\<sarang>** "ByteRubCon: ByteRub is  a con!"  
 **\<ArticMine>** So one is obfuscating the change output among the payouts  
 **\<sarang>** sgp\_[m]: I think I get the point you're making  
 **\<ArticMine>** That I understand  

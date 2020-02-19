@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # Aislamiento de Monedero CLI/Daemon con Qubes + Whonix
 
-Con [Qubes](https://qubes-os.org) más [Whonix](https://whonix.org) puedes tener un monedero de Monero sin conexión a la red y en ejecución en un sistema virtualmente aislado del daemon de Monero que tiene todo su tráfico sobre [Tor](https://torproject.org).
+Con [Qubes](https://qubes-os.org) más [Whonix](https://whonix.org) puedes tener un monedero de ByteRub sin conexión a la red y en ejecución en un sistema virtualmente aislado del daemon de ByteRub que tiene todo su tráfico sobre [Tor](https://torproject.org).
 
 Qubes brinda la flexibilidad de crear VMs separadas fácilmente para diferentes propósitos. Primero crearás una estación de trabajo Whonix para el monedero sin conexión a la red. Después, otra estación de trabajo Whonix para el daemon que usará la puerta Whonix como su NetVM. Para comunicación entre el monedero y el daemon puedes usar Qubes [qrexec](https://www.qubes-os.org/doc/qrexec3/).
 
@@ -19,7 +19,7 @@ Esto es más seguro que otros enfoques que trazan el rpc del monedero a un servi
 
 ## 2. En la AppVM `monerod-ws`:
 
-+ Descarga, verifica e instala el software de Monero.
++ Descarga, verifica e instala el software de ByteRub.
 
 ```
 user@host:~$ curl -O "https://downloads.getmonero.org/cli/monero-linux-x64-v0.11.1.0.tar.bz2" -O "{{ site.baseurl }}/downloads/hashes.txt"
@@ -47,7 +47,7 @@ Pega el siguiente contenido:
 
 ```
 [Unit]
-Description=Monero Full Node
+Description=ByteRub Full Node
 After=network.target
 
 [Service]

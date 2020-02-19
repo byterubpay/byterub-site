@@ -1,6 +1,6 @@
 ---
 layout: user-guide
-title: Securely purchasing and storing Monero
+title: Securely purchasing and storing ByteRub
 permalink: /resources/user-guides/securely_purchase.html
 mainVersion:
   - "1"

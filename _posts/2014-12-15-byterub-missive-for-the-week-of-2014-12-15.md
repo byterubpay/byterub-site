@@ -2,7 +2,7 @@
 layout: post
 title: ByteRub Missive for the Week of 2014-12-15
 summary: DNS timeouts causing slow startups fixed, multi-language mnemonic bugs fixed
-tags: [monero missives, accounts, core]
+tags: [byterub missives, accounts, core]
 author: Riccardo Spagni (fluffypony)
 forum: 
 ---

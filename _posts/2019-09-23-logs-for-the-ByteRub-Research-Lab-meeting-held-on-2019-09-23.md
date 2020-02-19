@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-09-23
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-09-23
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -48,7 +48,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** at the grocery store, looking at humongous squashes. Knock on the squash. "Big if sound."  
 **\<sarang>** -\_\_\_-  
 **\<sarang>** Does anyone else have interesting work to share, or questions on anything?  
-**\<mikerah>** Can you go into more details about specifying the monero transaction protocol into a circuit  
+**\<mikerah>** Can you go into more details about specifying the byterub transaction protocol into a circuit  
 **\<suraeNoether>** its\*  
 **\<defterade\_>** What are the chances of CSLAG making it in the April hardfork?  
 **\<suraeNoether>** mikerah: long story short: a lot of the ZK proof systems out there rely on showing "Given an arithmetic circuit that describes a function f(-), here is y and a proof p that I know a secret x such that y = f(x)."  

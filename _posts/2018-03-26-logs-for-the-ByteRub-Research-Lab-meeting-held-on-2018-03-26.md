@@ -87,8 +87,8 @@ author: el00ruobuob / surae
 **\<rehrar>** got it  
 **\<suraeNoether>** and sarang will be back later today to talk about that  
 **\<suraeNoether>** days like today, i want to hire a suresh noether  
-**\<suraeNoether>** okay, next meeting, I want to talk about planning the first monero conference, and planning travel for sarang and i to other conferences between now and then  
-**\<suraeNoether>** i'm actually attending a bitcoin/blockchain event on april 25 in denver at one of the venues i'm looking at for the monero conference   
+**\<suraeNoether>** okay, next meeting, I want to talk about planning the first byterub conference, and planning travel for sarang and i to other conferences between now and then  
+**\<suraeNoether>** i'm actually attending a bitcoin/blockchain event on april 25 in denver at one of the venues i'm looking at for the byterub conference   
 **\<suraeNoether>** and I have a few meetings next week about it too  
 **\<suraeNoether>** other than that, I got nothing left to chat about  
 **\<nioc>** rehrar: I believe Bunz and QuarksLab have already been signed  
@@ -97,5 +97,5 @@ author: el00ruobuob / surae
 **\<suraeNoether>** so, with that, i want folks to think about what you would say to me if you had me face-to-face. :D  
 **\<rehrar>** oy, I need to talk with the two of you fairly soon. It's already Revuo time again.  
 **\<suraeNoether>** rehrar i believe i'm dragging sarang out to denver for that blockchain event. make it up here around that time and maybe we can make it a MAGIC board member meeting + revuo intervuo.   
-**\<suraeNoether>** we'll drag mike from the moneromonitor by. :P it'll be historic~  
+**\<suraeNoether>** we'll drag mike from the byterubmonitor by. :P it'll be historic~  
 **\<suraeNoether>** \</meeting>

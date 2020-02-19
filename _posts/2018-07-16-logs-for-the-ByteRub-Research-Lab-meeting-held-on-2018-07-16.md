@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-07-16
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-07-16
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -44,13 +44,13 @@ author: el00ruobuob / sarang
 **\<knaccc>** oh it's not ascii art? so won't work in the CLI?  
 **\<suraeNoether>** correct, it  is a 3d rendering  
 **\<knaccc>** oh cool  
-**\<moneromooo>** You can have cli shells there.  
+**\<byterubmooo>** You can have cli shells there.  
 **\<suraeNoether>** so it'd have to be a javascript client side rendering sort of deal  
 **\<knaccc>** hehe  
 **\<suraeNoether>** let me find where i saved some of the cool ones last night  
 **\<sarang>** will it work in bash, or just in csh =p  
 **\<endogenic>** you could render it easily enough  
-**\<moneromooo>** :)  
+**\<byterubmooo>** :)  
 **\<endogenic>** and could also scan a render  
 **\<endogenic>** rotated of course  
 **\<sarang>** FYI will have to leave meeting early in 20 min to catch plane  
@@ -65,7 +65,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** ikr  
 **\<knaccc>** |     . .   . . ..|  
 **\<knaccc>** |    . .     .E.. |  
-**\<moneromooo>** ...  
+**\<byterubmooo>** ...  
 **\<knaccc>** |     ...S     .  |  
 **\<knaccc>** |      o+.        |  
 **\<knaccc>** |     +..o        |  
@@ -76,13 +76,13 @@ author: el00ruobuob / sarang
 **\<sarang>** the ascii, it hurts  
 **\<knaccc>** haha  
 **\<suraeNoether>** so, all the formulaes and everything need to be tweaked to make them prettier and more shell-like... and a good javascript person could use the marching cubes algorithm to render these really easily. someone could mess with textures and colors using the hashes, too  
-**\<moneromooo>** Or we could generate rogue rooms...  
+**\<byterubmooo>** Or we could generate rogue rooms...  
 **\<suraeNoether>** but i'm essentially \*not\* going to put more effort into it: my goal was to construct parameterizations of these surfaces, the math heavy end of things, so someone else can take it and run with it  
 **\<sarang>** To jump in quickly due to time... any questions lingering about the audit results? The initial stuff has been picked up by a few sites, generally reported badly  
 **\<sarang>** We'll respond to the findings and they'll issue a final report, and then get the rest of their payment from OSTIF  
 **\<sarang>** The initial draft doesn't mention OSTIF, which is an oversight on Kudelski's part  
-**\<suraeNoether>** sarang I was going to ask about how money was transferred to OSTIF without tax exposure to the monero project or whatever  
-**\<suraeNoether>** i was thinking about \*how to pay for the monero conference\*  
+**\<suraeNoether>** sarang I was going to ask about how money was transferred to OSTIF without tax exposure to the byterub project or whatever  
+**\<suraeNoether>** i was thinking about \*how to pay for the byterub conference\*  
 **\<suraeNoether>** like, will we need to start an LLC for each conference? maybe  
 **\<endogenic>** didn't seem like anyone found the keyspace validation issue.. is that correct  
 **\<endogenic>** ?  
@@ -99,9 +99,9 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** example: to pay for a venue  
 **\<sarang>** I mean for the audits  
 **\<sarang>** The payment for the audit was from OSTIF, a nonprofit, to Kudelski, a private company  
-**\<suraeNoether>** ah, so we paid OSTIF in monero, and OSTIF is dealing with it  
+**\<suraeNoether>** ah, so we paid OSTIF in byterub, and OSTIF is dealing with it  
 **\<nioc>** when is QuarksLab expected to be finished?  
-**\<suraeNoether>** and since they are non-profit, tax reports must be made but they aren't exposed to the taxes. i get it. but now i'm thinking about how to funnel money from the monero project towards something like a venue expenditure  
+**\<suraeNoether>** and since they are non-profit, tax reports must be made but they aren't exposed to the taxes. i get it. but now i'm thinking about how to funnel money from the byterub project towards something like a venue expenditure  
 **\<sarang>** Correct; OSTIF does the transfer to Kudelski's preferred fiat  
 **\<suraeNoether>** which is a different question  
 **\<sarang>** the phrase "funnel money" sounds like a Very Bad Thing  
@@ -110,8 +110,8 @@ author: el00ruobuob / sarang
 **\<sarang>** charuto: I've been posting public audit information as I receive it, in the interest of open disclosure  
 **\<suraeNoether>** i can see the argument that it foils some of the independence of the teams  
 **\<sarang>** and IMHO we should fix issues openly as we find them  
-**\<moneromooo>** Well, if they'd found something bad, we'd have wanted to wait till a release anyway.  
-**\<moneromooo>** (without piping up)  
+**\<byterubmooo>** Well, if they'd found something bad, we'd have wanted to wait till a release anyway.  
+**\<byterubmooo>** (without piping up)  
 **\<sarang>** true, good point  
 **\<sarang>** Their issues were only minor  
 **\<charuto>** the last team to release their results could have done nothing and waited to see the other team's results to copy them  
@@ -141,12 +141,12 @@ author: el00ruobuob / sarang
 **\<sarang>** part of the reason he and the others were chosen was for this reason  
 **\<suraeNoether>** yep, just curiuos.   
 **\<nioc>** When is QuarksLab expected to be finished?  
-**\<moneromooo>** He gave bulletproofs research for free already. No reason why he'd try and screw us here.  
+**\<byterubmooo>** He gave bulletproofs research for free already. No reason why he'd try and screw us here.  
 **\<sarang>** I emailed a few days ago to QL asking for a status update; no word yet  
 **\<nioc>** thx  
 **\<sarang>** I am not pleased with their lack of communication this week  
-**\<moneromooo>** Well, not "no reason", that is too strong.  
-**\<suraeNoether>** moneromooo: i'm not assuming malice, but densely packed schedules, the priorities and prerogatives of grad students, etc  
+**\<byterubmooo>** Well, not "no reason", that is too strong.  
+**\<suraeNoether>** byterubmooo: i'm not assuming malice, but densely packed schedules, the priorities and prerogatives of grad students, etc  
 **\<sarang>** suraeNoether: he waited for summer term  
 **\<sarang>** partly because of scheduling  
 **\<suraeNoether>** yeah i know\\  

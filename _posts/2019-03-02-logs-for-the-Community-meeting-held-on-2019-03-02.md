@@ -8,9 +8,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 # Logs  
 
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/308  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<msvb-mob>** Hello.  
 **\<needmoney90>** waves  
@@ -19,47 +19,47 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 2. Community highlights  
 **\<xmrmatterbridge> \<rehrar>** I was going to ask if the bridge died  
 **\<sgp\_>** no, I can see you  
-**\<sgp\_>** Monero Talk released episodes on MoneroBox and the forthcoming update: https://www.monerotalk.live  
-**\<sgp\_>** ErCiccione opened this thread on the Church of Monero: https://www.reddit.com/r/Monero/comments/asqrbu/church\_of\_monero\_enough\_is\_enough\_how\_the\_leader/  
-**\<monerobux>** [REDDIT] Church Of Monero: Enough is enough - How the leader of the Church tried to fool the community to make look like the Church is organizing the Monero Konferenco and even adding his own Monero address on the flyer (self.Monero) | 160 points (95.0%) | 253 comments | Posted by ErCiccione | Created at 2019-02-20 - 17:05:34  
-**\<sgp\_>** Thunderosa from Monero Outreach make this “Boron Butterfly” image: https://www.reddit.com/r/Monero/comments/aw7nv9/graphic\_idea\_for\_boron\_butterfly\_release\_courtesy/  
-**\<monerobux>** [REDDIT] Graphic idea for Boron Butterfly release, courtesy of Monero Outreach (https://i.redd.it/ugq2afnfqjj21.jpg) to r/Monero | 157 points (97.0%) | 36 comments | Posted by xmrhaelan | Created at 2019-03-01 - 17:56:10  
-**\<sgp\_>** Trust Wallet announced their intent to add Monero: https://github.com/TrustWallet/wallet-core/issues/21  
-**\<sgp\_>** Coinomi added Monero: https://www.reddit.com/r/Monero/comments/atqqzy/coinomi\_wallet\_for\_android\_added\_xmr\_today\_mods/  
-**\<monerobux>** [REDDIT] Coinomi wallet for Android added XMR today! Mods: remember to update the sidebar list (https://play.google.com/store/apps/details?id=com.coinomi.wallet) to r/Monero | 66 points (91.0%) | 28 comments | Posted by hamiltoncycles | Created at 2019-02-23 - 03:26:42  
-**\<sgp\_>** Dr. Daniel Kim was interviewed following his talk about Monero at Anarchapulco: https://www.youtube.com/watch?v=fO8\_N7L2sR0  
-**\<monerobux>** [ Monero EXPLAINED! - Dr. Daniel Kim (Founder Of Sweetwater Digital Consulting - Anarchapulco 2019) - YouTube ] - www.youtube.com  
+**\<sgp\_>** ByteRub Talk released episodes on ByteRubBox and the forthcoming update: https://www.byterubtalk.live  
+**\<sgp\_>** ErCiccione opened this thread on the Church of ByteRub: https://www.reddit.com/r/ByteRub/comments/asqrbu/church\_of\_byterub\_enough\_is\_enough\_how\_the\_leader/  
+**\<byterubbux>** [REDDIT] Church Of ByteRub: Enough is enough - How the leader of the Church tried to fool the community to make look like the Church is organizing the ByteRub Konferenco and even adding his own ByteRub address on the flyer (self.ByteRub) | 160 points (95.0%) | 253 comments | Posted by ErCiccione | Created at 2019-02-20 - 17:05:34  
+**\<sgp\_>** Thunderosa from ByteRub Outreach make this “Boron Butterfly” image: https://www.reddit.com/r/ByteRub/comments/aw7nv9/graphic\_idea\_for\_boron\_butterfly\_release\_courtesy/  
+**\<byterubbux>** [REDDIT] Graphic idea for Boron Butterfly release, courtesy of ByteRub Outreach (https://i.redd.it/ugq2afnfqjj21.jpg) to r/ByteRub | 157 points (97.0%) | 36 comments | Posted by xmrhaelan | Created at 2019-03-01 - 17:56:10  
+**\<sgp\_>** Trust Wallet announced their intent to add ByteRub: https://github.com/TrustWallet/wallet-core/issues/21  
+**\<sgp\_>** Coinomi added ByteRub: https://www.reddit.com/r/ByteRub/comments/atqqzy/coinomi\_wallet\_for\_android\_added\_xmr\_today\_mods/  
+**\<byterubbux>** [REDDIT] Coinomi wallet for Android added XMR today! Mods: remember to update the sidebar list (https://play.google.com/store/apps/details?id=com.coinomi.wallet) to r/ByteRub | 66 points (91.0%) | 28 comments | Posted by hamiltoncycles | Created at 2019-02-23 - 03:26:42  
+**\<sgp\_>** Dr. Daniel Kim was interviewed following his talk about ByteRub at Anarchapulco: https://www.youtube.com/watch?v=fO8\_N7L2sR0  
+**\<byterubbux>** [ ByteRub EXPLAINED! - Dr. Daniel Kim (Founder Of Sweetwater Digital Consulting - Anarchapulco 2019) - YouTube ] - www.youtube.com  
 **\<sgp\_>** Listen to an audio recording and slides of midipoet’s talk at TABConf: https://www.youtube.com/watch?v=6JIz\_H8irAQ  
-**\<monerobux>** [ TABConf 2019 - Cryptocurrency, Blockchain, and the Philosophy of Privacy - Robin Renwick - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ TABConf 2019 - Cryptocurrency, Blockchain, and the Philosophy of Privacy - Robin Renwick - YouTube ] - www.youtube.com  
 **\<sgp\_>** There are many recordings from the Nashville Blockchain Meetup:  
-**\<sgp\_>** endogenic on MyMonero: https://www.youtube.com/watch?v=ELNAhy3MjHs  
-**\<monerobux>** [ Nashville Blockchain Meetup - My Monero - YouTube ] - www.youtube.com  
-**\<sgp\_>** Sarang Noether on Monero and privacy: https://www.youtube.com/watch?v=H8ijX02J7Y0  
-**\<monerobux>** [ Nashville Blockchain Meetup - Monero Research Lab 1 - YouTube ] - www.youtube.com  
+**\<sgp\_>** endogenic on MyByteRub: https://www.youtube.com/watch?v=ELNAhy3MjHs  
+**\<byterubbux>** [ Nashville Blockchain Meetup - My ByteRub - YouTube ] - www.youtube.com  
+**\<sgp\_>** Sarang Noether on ByteRub and privacy: https://www.youtube.com/watch?v=H8ijX02J7Y0  
+**\<byterubbux>** [ Nashville Blockchain Meetup - ByteRub Research Lab 1 - YouTube ] - www.youtube.com  
 **\<sgp\_>** Surae Noether on the privacy problem: https://www.youtube.com/watch?v=9srtIk9M2yg  
-**\<monerobux>** [ Nashville Blockchain Meetup - Monero Research Lab 2 - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ Nashville Blockchain Meetup - ByteRub Research Lab 2 - YouTube ] - www.youtube.com  
 **\<sgp\_>** Naveen Jain on Tari: https://www.youtube.com/watch?v=WAexgHjsDdg  
-**\<monerobux>** [ Nashville Blockchain Meetup - Tari - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ Nashville Blockchain Meetup - Tari - YouTube ] - www.youtube.com  
 **\<ErCiccione[m]>** oh, meeting time  
 **\<dEBRUYNE>** Daniel Kim talk was apparently well received. HOpefully the vid of the talk will be online as well  
 **\<sgp\_>** yes, I really want to see it  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
 **\<xmrmatterbridge> \<rehrar>** the CCS will happen one day  
-**\<xmrmatterbridge> \<rehrar>** you can go to ccs.getmonero.org to see the initial deployment, and people can go ahead and open Ideas proposals there  
+**\<xmrmatterbridge> \<rehrar>** you can go to ccs.getbyterub.org to see the initial deployment, and people can go ahead and open Ideas proposals there  
 **\<xmrmatterbridge> \<midipoet>** Sorry am late. Hello people.  
 **\<xmrmatterbridge> \<rehrar>** but there's an issue with getting the donation pages to generate correctly (which were not present across all of our tests). So waiting on fp to have some time to debug that.  
 **\<xmrmatterbridge> \<rehrar>** And...you know how it is getting some of his time.  
 **\<needmoney90>** The Year In Review is finally finished with edits and stuff (one left this mornkng and its good to go)  
 **\<needmoney90>** s/mornkng/morning  
-**\<monerobux>** needmoney90 meant to say: The Year In Review is finally finished with edits and stuff (one left this morning and its good to go)  
-**\<sgp\_>** rehrar when Monero Revuo? :p  
+**\<byterubbux>** needmoney90 meant to say: The Year In Review is finally finished with edits and stuff (one left this morning and its good to go)  
+**\<sgp\_>** rehrar when ByteRub Revuo? :p  
 **\<xmrmatterbridge> \<rehrar>** oof  
 **\<xmrmatterbridge> \<rehrar>** 2mrw  
 **\<sgp\_>** 3. FFS / CCS updates  
 **\<sgp\_>** rehrar already commented on the state of the CCS  
 **\<sgp\_>** FFS proposals still needing funding:  
-**\<sgp\_>** v1docq47’s video creation proposal did not receive any attention since last meeting https://forum.getmonero.org/8/funding-required/91863/v1docq47-video-creation-translations-into-russian-february-july  
-**\<sgp\_>** el00ruobuob’s proposal still needs funding: https://forum.getmonero.org/8/funding-required/91269/el00ruobuob-january-to-march-part-time-for-a-new-quarter  
+**\<sgp\_>** v1docq47’s video creation proposal did not receive any attention since last meeting https://forum.getbyterub.org/8/funding-required/91863/v1docq47-video-creation-translations-into-russian-february-july  
+**\<sgp\_>** el00ruobuob’s proposal still needs funding: https://forum.getbyterub.org/8/funding-required/91269/el00ruobuob-january-to-march-part-time-for-a-new-quarter  
 **\<el00ruobuob\_[m]>** Hi, sorry i'm late  
 **\<sgp\_>** Are there are proposals in ideas that I missed?  
 **\<needmoney90>** It's 9:00 on a Saturday. The regular crowd shuffles in.  
@@ -78,7 +78,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<rehrar>** el00ruobuob, go ahead and remake it in the current ccs. At least it will show up in the Ideas section. And it will be merged as soon as it's debugged.  
 **\<el00ruobuob\_[m]>** thanks dEBRUYNE, but don't worry too much about that  
 **\<sgp\_>** we need to keep spamming it on Reddit  
-**\<xmrmatterbridge> \<rehrar>** http://ccs.getmonero.org/how-to-css/  
+**\<xmrmatterbridge> \<rehrar>** http://ccs.getbyterub.org/how-to-css/  
 **\<el00ruobuob\_[m]>** ok, thanks rehara  
 **\<el00ruobuob\_[m]>** \*rehrar  
 **\<xmrmatterbridge> \<midipoet>** "how to cuss"  
@@ -91,7 +91,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** whoa  
 **\<sgp\_>** what's the Pootle link again?  
 **\<ErCiccione[m]>** so, Pootle definitely make everything much faster and easier, we saw also a increment in amount of contributors, about 60 for this release.  
-**\<ErCiccione[m]>** sgp\_: translate.getmonero.org  
+**\<ErCiccione[m]>** sgp\_: translate.getbyterub.org  
 **\<needmoney90>** 60 is amazing  
 **\<sgp\_>** 60 in 4 days?  
 **\<dEBRUYNE>** As a side note, new GUI will be awesome imo :p  
@@ -147,12 +147,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Xeagu\_\_: having multiple people work on art sounds difficult  
 **\<Xeagu\_\_>** It's so subjective. One man's trash is another man's treasure.  
 **\<sgp\_>** 5. Upgrade timeline discussion  
-**\<sgp\_>** Here are relevant threads explaining Monero’s upgrade timeline:  
-**\<sgp\_>** dEBRUYNE made this updated guide to prepare for the scheduled network upgrade on approximately 9 March 2019: https://www.reddit.com/r/Monero/comments/aw86rx/updated\_information\_thread\_regarding\_the/  
-**\<monerobux>** [REDDIT] Updated information thread regarding the scheduled protocol upgrade of March 9 (self.Monero) | 39 points (98.0%) | 12 comments | Posted by dEBRUYNE\_1 | Created at 2019-03-01 - 18:42:55  
+**\<sgp\_>** Here are relevant threads explaining ByteRub’s upgrade timeline:  
+**\<sgp\_>** dEBRUYNE made this updated guide to prepare for the scheduled network upgrade on approximately 9 March 2019: https://www.reddit.com/r/ByteRub/comments/aw86rx/updated\_information\_thread\_regarding\_the/  
+**\<byterubbux>** [REDDIT] Updated information thread regarding the scheduled protocol upgrade of March 9 (self.ByteRub) | 39 points (98.0%) | 12 comments | Posted by dEBRUYNE\_1 | Created at 2019-03-01 - 18:42:55  
 **\<sgp\_>** The CLI binaries are out. The GUI is tagged, waiting on binaries. Mining software for most miners is available.  
 **\<sgp\_>** I reserved some time for community questions. Are there any?  
-**\<Xeagu\_\_>** Does Monero have reproducible builds?  
+**\<Xeagu\_\_>** Does ByteRub have reproducible builds?  
 **\<sgp\_>** Xeagu\_\_: not yet, but devs have been working on them for a long time  
 **\<xmrscott[m]>** There is an issue for that you can sub on github  
 **\<xmrscott[m]>** I did get us add to the repo builds website a while back as well  
@@ -174,7 +174,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** hyc playing the violin all night  
 **\<xmrmatterbridge> \<midipoet>** Americans don't get techno  
 **\<xmrmatterbridge> \<midipoet>** Techno and violins would work  
-**\<sgp\_>** xmrscott[m]: looks like we need to revive #monero-defcon  
+**\<sgp\_>** xmrscott[m]: looks like we need to revive #byterub-defcon  
 **\<Xeagu\_\_>** 35C3 was awesome  
 **\<xmrscott[m]>** midipoet, as a raver I understand. EU has all the best hardcore raves/DJ's :(  
 **\<sgp\_>** Since this is off-topic from the upgrade discussion anyway, we will move to 6. Open ideas time  
@@ -183,7 +183,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** here is fine too outside of the meetings  
 **\<sgp\_>** I had an idea earlier this week  
 **\<el00ruobuob\_[m]>** i believe most of us are well prepared for the upgrade.  
-**\<sgp\_>** I would like to know all the cool stuff Monero contributors are doing  
+**\<sgp\_>** I would like to know all the cool stuff ByteRub contributors are doing  
 **\<sgp\_>** I think it would be interesting to have a tool where people could write a few bullet points on what they did that day to keep others informed  
 **\<sgp\_>** Github sorta works for this, but it doesn't work well with MRL and other non-code stuff  
 **\<sgp\_>** I found an open-source tool Kimai that kinda does this, but it's a little too time tracking-focused: https://www.kimai.org/  
@@ -199,7 +199,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<rehrar>** after all that work to put up Taiga you guys want to Trello  
 **\<xmrmatterbridge> \<rehrar>** I say nay  
 **\<el00ruobuob\_[m]>** rehrar, we need both and you to create a bridge between them ;)  
-**\<msvb-mob>** Taiga has really few defects, maybe that user messaging is not supported. There are not many reasons to ignore taiga.getmonero.org.  
+**\<msvb-mob>** Taiga has really few defects, maybe that user messaging is not supported. There are not many reasons to ignore taiga.getbyterub.org.  
 **\<ErCiccione[m]>** I agree Taiga would work well enough. Epics coould be topics and if there is a timeline you can use the sprints  
 **\<xmrmatterbridge> \<rehrar>** right, but on the day to day that sgp is talking about, his thing might not be bad  
 **\<xmrmatterbridge> \<rehrar>** Taiga is good to know who is working on what overarching stuff, and planning, you know?  
@@ -214,7 +214,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** any other ideas before we wrap up?  
 **\<sgp\_>** 7. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 16 March at 17:00 UTC.  
-**\<sgp\_>** The next Monero Coffee Chat will take place next Saturday on 9 March at 17:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** The next ByteRub Coffee Chat will take place next Saturday on 9 March at 17:00 UTC.  
+**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 8. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.    
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.    

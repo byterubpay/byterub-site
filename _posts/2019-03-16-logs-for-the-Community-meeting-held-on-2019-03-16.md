@@ -9,9 +9,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 # Logs  
 
 **\<sgp\_>** 0. Introduction  
-**\<sgp\_>** We would like to welcome everyone to this Monero Community Meeting!  
+**\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/318  
-**\<sgp\_>** Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<oneiric\_>** o/  
 **\<el00ruobuob\_[m]>** Hello everyone  
@@ -24,21 +24,21 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** d=  
 **\<Xeagu\_\_>** Welcome rehrar  
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** An enormous discussion on Monero’s PoW occurred in this issue. It’s a long read: https://github.com/byterubpay/meta/issues/316  
+**\<sgp\_>** An enormous discussion on ByteRub’s PoW occurred in this issue. It’s a long read: https://github.com/byterubpay/meta/issues/316  
 **\<sgp\_>** A meeting has been scheduled for 24 March @ 17:00 UTC. Please read the other materials before participating in the meeting, since many ideas have already been discussed: https://github.com/byterubpay/meta/issues/315#issuecomment-473538744  
-**\<sgp\_>** h4sh3d created a new Rust Monero library: https://github.com/monero-rs/monero-rs  
-**\<sgp\_>** Monero had a successful network upgrade. Spent output lists are available on https://moneroblackball.com, though network impact was essentially 0, and you should make your own anyway.  
+**\<sgp\_>** h4sh3d created a new Rust ByteRub library: https://github.com/byterub-rs/byterub-rs  
+**\<sgp\_>** ByteRub had a successful network upgrade. Spent output lists are available on https://byterubblackball.com, though network impact was essentially 0, and you should make your own anyway.  
 **\<sgp\_>** There was an issue with the Ledger client. It is fixed with new versions.  
 **\<sgp\_>** We had a SPECIAL UPGRADE EDITION of the Coffee Chat, which ran for 2 hours: https://www.youtube.com/watch?v=D7TB7yr9enE  
-**\<monerobux>** [ Monero Coffee Chat Special Upgrade Edition - 2019.03.09 - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ ByteRub Coffee Chat Special Upgrade Edition - 2019.03.09 - YouTube ] - www.youtube.com  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
 **\<el00ruobuob\_[m]>** I started updating the GUI-guide, any review are welcome  
-**\<ErCiccione[m]>** Getmonero.org is available in two new languages: Dutch and Portuguese (Br)  
+**\<ErCiccione[m]>** Getbyterub.org is available in two new languages: Dutch and Portuguese (Br)  
 **\<Xeagu\_\_>** I started to work with rehrar moving old, completed FFS proposals to the new CCS GitLab instance.  
 **\<midipoet>** i handed in first final draft of the "Perspectives on Privacy" paper in for review. so its on the way!  
-**\<el00ruobuob\_[m]>** I have PRd a full update of getmonero.org roadmap (reviews are welcome here too)  
+**\<el00ruobuob\_[m]>** I have PRd a full update of getbyterub.org roadmap (reviews are welcome here too)  
 **\<rehrar>** I been working with people to get the OSticket/LiveHelperChat thing up. Someone got it to work. I'm impressed.  
-**\<parasew[m]>** vienna/austria monero group getting active again after winter hibernation. we had a lot of afk things to do but had a great monero austria meetup. meetups will be more frequently now and we are setting up some workshops in the near future.  
+**\<parasew[m]>** vienna/austria byterub group getting active again after winter hibernation. we had a lot of afk things to do but had a great byterub austria meetup. meetups will be more frequently now and we are setting up some workshops in the near future.  
 **\<rehrar>** parasew[m]: read my thingy  
 **\<sgp\_>** if only there was a tool that allowed people to brag/complain about what they did that day.....  :p  https://github.com/byterubpay/meta/issues/311  
 **\<oneiric\_>** work continues on tini2p  
@@ -50,7 +50,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** Yes, sec.  
 **\<dsc\_>** Last week i:  
 **\<dsc\_>** - Provided 6tb server to noncense research  
-**\<dsc\_>** - Wrote IRC bot to support monero related development, idling in #noncense-research-lab, #monero-site, #monero-gui  
+**\<dsc\_>** - Wrote IRC bot to support byterub related development, idling in #noncense-research-lab, #byterub-site, #byterub-gui  
 **\<dsc\_>** - Nearly finished a new history page in the GUI  
 **\<dsc\_>** EOF  
 **\<kinghat>** i left you a twitch msg, dsc\_. also dsc\_ streams gooey dev. 😃  
@@ -73,20 +73,20 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrscott[m]>** pwrcycle: No, April 6th  
 **\<sgp\_>** pwrcycle: this is a community meeting; we can discuss your proposal in a few mins. Defcon-specific meeting is later  
 **\<pwrcycle>** k, yeah.  just checking.  
-**\<sgp\_>** kinghat: I recommend checking in #monero-dev, I want to keep the meeting moving  
+**\<sgp\_>** kinghat: I recommend checking in #byterub-dev, I want to keep the meeting moving  
 **\<sgp\_>** But I understand that a quick 0.14.1 update is in the community's best interest  
 **\<sgp\_>** I hope we keep the update fatigue to a minimum  
 **\<sgp\_>** 3. CCS updates (previously FFS updates)  
-**\<sgp\_>** The new CCS has been deployed! Check it out at https://ccs.getmonero.org  
-**\<sgp\_>** v1docq47’s proposal was previously in funding required in the FFS, and it needs to be moved out of ideas to funding required in the CCS: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/32  
+**\<sgp\_>** The new CCS has been deployed! Check it out at https://ccs.getbyterub.org  
+**\<sgp\_>** v1docq47’s proposal was previously in funding required in the FFS, and it needs to be moved out of ideas to funding required in the CCS: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/32  
 **\<sgp\_>** CCS proposals still needing funding:  
-**\<sgp\_>** el00ruobuob’s proposal still needs funding (16.31 / 45): https://ccs.getmonero.org/proposals/el00ruobuob-january-to-march-part-time-for-a-new-quarter.html  
-**\<sgp\_>** a. Sarang’s proposal still needs funding (215 / 638): https://ccs.getmonero.org/proposals/sarang-2019-q2.html  
+**\<sgp\_>** el00ruobuob’s proposal still needs funding (16.31 / 45): https://ccs.getbyterub.org/proposals/el00ruobuob-january-to-march-part-time-for-a-new-quarter.html  
+**\<sgp\_>** a. Sarang’s proposal still needs funding (215 / 638): https://ccs.getbyterub.org/proposals/sarang-2019-q2.html  
 **\<sgp\_>** are there any questions on sarang's proposal? I didn't expect it to be moved already  
 **\<ErCiccione[m]>** (I didn't have time to write my proposal -my last one is expired - i will do it after i'm done with the guide for Pootle)  
 **\<sgp\_>** ok, none then. We discussed it a lot in the past  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** b. pwrcycle-Defcon\_Monero\_Party\_2019: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/33  
+**\<sgp\_>** b. pwrcycle-Defcon\_ByteRub\_Party\_2019: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/33  
 **\<sgp\_>** pwrcycle: any comments?  
 **\<pwrcycle>** lets have fun  
 **\<Xeagu\_\_>** I support fun  
@@ -95,10 +95,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<pwrcycle>** I'm still negotiating better pricing for drinks, but everything else is negotiated.  
 **\<Xeagu\_\_>** I would imagine most of it is beers, no?  
 **\<dsc\_>** pwrcycle: any chance you could get ytcracker to perform?  
-**\<sgp\_>** pwrcycle: I mentioned that I think $0 should go to Monero-badge drinks, any excess to extra merch/snacks instead. Otherwise I think it's good  
+**\<sgp\_>** pwrcycle: I mentioned that I think $0 should go to ByteRub-badge drinks, any excess to extra merch/snacks instead. Otherwise I think it's good  
 **\<Xeagu\_\_>** $200 in beers is a good amount of alcohol for a party I think  
 **\<oneiric\_>** ooo oo and mc frontalot  
-**\<pwrcycle>** DJs are set, we have the deal for the club. Enyone with either a Defcon or Monero badge gets in with +1.  
+**\<pwrcycle>** DJs are set, we have the deal for the club. Enyone with either a Defcon or ByteRub badge gets in with +1.  
 **\<rehrar>** I'll DJ next year  
 **\<sgp\_>** Xeagu\_\_: we need to buy from venue, so that's like 12 drinks lol  
 **\<pwrcycle>** I kind of put the 200 in there so people would know any leftover money would go to drinks. I kind of feel like everyone can get their own.  
@@ -108,7 +108,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<midipoet>** i would DJ, but i don't think my music would suit Vegas. not enough cowbell  
 **\<Xeagu\_\_>** Venue last party was great imo  
 **\<pwrcycle>** The club has a "6 bucket of beers" for $50. which would make beer prices $8.33 cents.  
-**\<Xeagu\_\_>** Are we reserving the entire venue or will there be non-Monero people there?  
+**\<Xeagu\_\_>** Are we reserving the entire venue or will there be non-ByteRub people there?  
 **\<pwrcycle>** Chatteau Nightclub at the Paris hotel. (still trying to keep it kind of secret just to create some mystery)  
 **\<wowario>** any chance getting Ben Earl Turner?  
 **\<sgp\_>** it's a huge venue  
@@ -132,7 +132,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** sure  
 **\<midipoet>** i like parties  
 **\<midipoet>** cowbell or no cowbell  
-**\<sgp\_>** c. Xeagu: Get Xeagu to the Konferenco! https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/42  
+**\<sgp\_>** c. Xeagu: Get Xeagu to the Konferenco! https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/42  
 **\<sgp\_>** Xeagu\_\_: any comments?  
 **\<Xeagu\_\_>** Not really sure what else I can add  
 **\<Xeagu\_\_>** Vote yes!  
@@ -140,7 +140,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** In this case I think the consensus is more than clear and there isn't really much more to say.  
 **\<ErCiccione[m]>** It's not just controversial, one person is in favor, an entire community it's not. As easy as that IMHO.  
 **\<rehrar>** I say no, for the reason that we should set a precedent to compensate for people that will either be presenting or doing necessary work to make the conferences happen  
-**\<dsc\_>** I feel the proposal is light on 'what does the Monero community get back in return' but I agree with Brandon Goodell's comment to merge it anyway and see how it goes.  
+**\<dsc\_>** I feel the proposal is light on 'what does the ByteRub community get back in return' but I agree with Brandon Goodell's comment to merge it anyway and see how it goes.  
 **\<rehrar>** all previous proposals were for these reasons, and it should not change. While there is no hard and fast rule for that, it gives the community the best bang for buck  
 **\<midipoet>** regardless of what has gone on previously. and disregarding personal judgements of Xeagu. i have to be honest, and say that i don't understand where the value of this project is.  It is literally ~$1000 for a conference 'report' plus some pictures.  
 **\<sgp\_>** also fwiw in this case, the Konferenco proposal covered travel expenses for those who are speaking  
@@ -156,7 +156,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<Xeagu\_\_>** Yes and I am not a speaker  
 **\<rehrar>** But accusing people of socks is a bunch of garbage unless you have proof. So let's try to stop that, yeah?  
 **\<midipoet>** rehrar protects his puppets :p  
-**\<rehrar>** rehrar is sick of thinking Monero is a kindergarden  
+**\<rehrar>** rehrar is sick of thinking ByteRub is a kindergarden  
 **\<oneiric\_>** don't raise pssibilities without solid proof, this be court of law  
 **\<ErCiccione[m]>** rehrar: if you are referring to me, i'm strongly suspicious, but as you said i have no proofs, so that's definitely not a point.  
 **\<rehrar>** wasn't just you ErCiccione[m]  
@@ -174,11 +174,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<midipoet>** so again, what would you speak about?  
 **\<Xeagu\_\_>** Some might call me a Con Artist.  
 **\<sgp\_>** I'm going to keep moving on. Leave further comments in the Gitlab issue. And keep the discussions as civil as possible please  
-**\<sgp\_>** d. Monero Outreach quarterly and ongoing task funding https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/45  
+**\<sgp\_>** d. ByteRub Outreach quarterly and ongoing task funding https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/45  
 **\<sgp\_>** Is anyone here from the Outreach workgroup?  
 **\<midipoet>** "Cryptocurreny: the long con". Not a bad speech title  
 **\<sgp\_>** all right then, we can move on  
-**\<sgp\_>** e. mooo's april coding: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/46  
+**\<sgp\_>** e. mooo's april coding: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/46  
 **\<sgp\_>** hard no from me on this one  
 **\<dsc\_>** same  
 **\<el00ruobuob\_[m]>** What do we need a dev for?  
@@ -197,10 +197,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Michael outlined a number of discussion topics of potential interest. Please ask questions on any of these topics: https://github.com/byterubpay/meta/issues/318#issuecomment-473528693  
 **\<sgp\_>** msvb-mob msvb-lab  
 **\<oneiric\_>** after 1-2 years, how close to a working prototype board?  
-**\<msvb-mob>** Hi, so this is the part where Monero hardware gets reported.  
+**\<msvb-mob>** Hi, so this is the part where ByteRub hardware gets reported.  
 **\<msvb-mob>** We've had some requests for information in the last week, so there is an opportunity for specific questions now.  
 **\<oneiric\_>** ^  
-**\<msvb-mob>** Topics can include Steel storage Wallet enclosure Wallet firmware Event badges Monero shield Konferenco BSides MUC BSides Vegas  
+**\<msvb-mob>** Topics can include Steel storage Wallet enclosure Wallet firmware Event badges ByteRub shield Konferenco BSides MUC BSides Vegas  
 **\<oneiric\_>** how about a working hardware wallet?  
 **\<msvb-mob>** Just put some commas inbetween there, and you will understand the projects we're working on and physical places to report progress.  
 **\<msvb-mob>** oneiric\_: What is the question.  
@@ -224,7 +224,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew[m]>** @rehrar has been working on a long text to explain the status of the hardware wallets and the text will explain how open hardware projects are often underestimated. there also won't be a "final product", as boards are versioned (see the reprap project as example)  
 **\<ErCiccione[m]>** nevvton: i don't think quoting will work on freenode  
 **\<parasew[m]>** erciccione\_[m]: actually - it did, lol  
-**\<dEBRUYNE>** Is there still an idea to eventually sell these devices to the Monero community?  
+**\<dEBRUYNE>** Is there still an idea to eventually sell these devices to the ByteRub community?  
 **\<msvb-mob>** Long or short text is useful of course, as well as people rebroadcasting status reports in their favourite channels like Facebook and Telegram or wherever else.  
 **\<msvb-mob>** dEBRUYNE: Yes, there is a cloud service since a month ago that will be used for the distribution and the first type of distribution will require stagenet coins for hardware.  
 **\<ErCiccione[m]>** parasew[m]: Oh ok, maybe it depends by the client. I remember it not working on hexchat, but i might be wrong.  
@@ -260,7 +260,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** for the sake of time, I will switch 6 and 5  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 30 March at 17:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<ErCiccione[m]>** but... but...  
 **\<sgp\_>** I'm working to get all the other meetings on this calendar too  
 **\<ErCiccione[m]>** sgp\_ you skipped my report.  
@@ -275,10 +275,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** that the reorganization of the workgroup is slowly progressing. I finally have a local copy of Pootle that i'm using for testing new features and, particularly, fix some issues  
 **\<ErCiccione[m]>** translators can work on the CLI and the GUI anytime they want, since no major changes are in sight AFAIK.  
 **\<ErCiccione[m]>** we are looking for translators for Monerujo, we really need them and few answered to my call this time  
-**\<msvb-mob>** dEBRUYNE: You need to ask the firmware designers that, because they decide the USB communications and command set in the protocol. The option exists to make the wallet compatible with anything, but my personal preference is to use the command line and gui tools from the native Monero distro.  
+**\<msvb-mob>** dEBRUYNE: You need to ask the firmware designers that, because they decide the USB communications and command set in the protocol. The option exists to make the wallet compatible with anything, but my personal preference is to use the command line and gui tools from the native ByteRub distro.  
 **\<ErCiccione[m]>** also, the guide for Pootle will be finished very soon  
 **\<dEBRUYNE>** msvb-mob: Who are the firmware designers?  
-**\<dEBRUYNE>** I'd personally like to see Monerujo and MyMonero (web) integration too  
+**\<dEBRUYNE>** I'd personally like to see Monerujo and MyByteRub (web) integration too  
 **\<msvb-mob>** dEBRUYNE: There may be a native Electron application for workstation and a Reactnative for mobile.  
 **\<ErCiccione[m]>** Just please share my calls for translators as much as possible, we have many contributors for non-techncial work (on pootle), but very few for technical (kinda technical, talking about using git)  
 **\<msvb-mob>** dEBRUYNE: You for example, are a welcome firmware developer.  
@@ -312,24 +312,24 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** Does anybody have a status report on the Github to Gitlab migration?  
 **\<oneiric\_>** oooo muh narcissism abounds, please tell rehrar  
 **\<sgp\_>** msvb-mob: I do not  
-**\<dsc\_>** rehrar: were you working on a Monero GUI?  
+**\<dsc\_>** rehrar: were you working on a ByteRub GUI?  
 **\<dsc\_>** if so, any update?  
-**\<serhack>** I would like to ask to community. What should we do with getmonero.dev domain?  
+**\<serhack>** I would like to ask to community. What should we do with getbyterub.dev domain?  
 **\<rehrar>** I have only so much time, so it's had to take a back seat to things like the new CCS  
 **\<sgp\_>** serhack have you asked the Core Team?  
-**\<parasew[m]>** serhack: good domain! maybe some developer tutorials? i anyway think that the 'libraries and helpers' on the getmonero.org website is a bit hidden. for anyone developing software with monero this could be a very nice resource.  
+**\<parasew[m]>** serhack: good domain! maybe some developer tutorials? i anyway think that the 'libraries and helpers' on the getbyterub.org website is a bit hidden. for anyone developing software with byterub this could be a very nice resource.  
 **\<rehrar>** lol he left  
 **\<parasew[m]>** lol!  
 **\<nevvton[m]>** rehrar: good for logs anyways;)  
-**\<msvb-mob>** serhack needs getmonero.lol  
+**\<msvb-mob>** serhack needs getbyterub.lol  
 **\<sgp\_>** all right, we will wrap up then  
 **\<sgp\_>** 7. Conclusion  
-**\<sgp\_>** That’s all! Thanks for attending this Monero Community meeting, and we hope to see you on r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<midipoet>** thanks sgp\_  
 **\<nevvton[m]>** thankyou sgp\_  
 **\<parasew[m]>** thanks everyone, great meeting. lots of people here! thanks sgp :)  
 **\<endogenic>** thanks all  
-**\<parasew[m]>** "monero - we put the YO in YOU".  
+**\<parasew[m]>** "byterub - we put the YO in YOU".  
 **\<nevvton[m]>** hahah!! totally love and live it!!  
 **\<nevvton[m]>** /see you all soon! thanks for great conversations to everyone  
 **\<msvb-mob>** Thanks sgp.  

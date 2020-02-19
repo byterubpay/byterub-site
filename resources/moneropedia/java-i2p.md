@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.java-i2p
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.java-i2p
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/java-i2p.md %}
+{% tf resources/byterubpedia/java-i2p.md %}

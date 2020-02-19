@@ -16,11 +16,11 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** Nope  
 **\<rbrunner>** Technology, pfft  
 **\<rehrar-mob>** In fact, I may be called away in about twenty minute's time.  
-**\<rehrar-mob>** I can lead until then, but maybe dEBRUYNE or moneromooo can afterwards?  
+**\<rehrar-mob>** I can lead until then, but maybe dEBRUYNE or byterubmooo can afterwards?  
 **\<rehrar-mob>** normal stuff today.  
 **\<dEBRUYNE>** Sure  
 **\<rehrar-mob>** 1. Greetings, 2. What's done since last meeting? 3. Code/ticket discussion 4. Other meeting items 5. next meeting time  
-**\<dEBRUYNE>** pings luigi1111 sarang fluffypony moneromooo vtnerd suraeNoether\_\_\_ hyc jtgrassie selsta xiphon   
+**\<dEBRUYNE>** pings luigi1111 sarang fluffypony byterubmooo vtnerd suraeNoether\_\_\_ hyc jtgrassie selsta xiphon   
 **\<rehrar-mob>** 1. Greetings  
 **\<rehrar-mob>** say hi  
 **\<vtnerd\_\_>** hi  
@@ -49,7 +49,7 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** IPv6 support got merged  
 **\<rehrar-mob>** Cool deal.  
 **\<dEBRUYNE>** Also a few improvements to the deterministic build process  
-**\<sarang>** I'd like additional review on a slightly older MLSAG PR: https://github.com/byterubpay/monero/pull/5707  
+**\<sarang>** I'd like additional review on a slightly older MLSAG PR: https://github.com/byterubpay/byterub/pull/5707  
 **\<dEBRUYNE>** Bunch of new tests got added too  
 **\<sarang>** (recently updated)  
 **\<dEBRUYNE>** ^ Perhaps luigi1111 can have another look at that?  
@@ -60,7 +60,7 @@ author: el00ruobuob / rehrar
 **\<xiphon>** Though now some builds are halt on libunwind build error. Did we change anythign related to libunwind recently?  
 **\<vtnerd\_\_>** ideally dandelion++ and this covert sending technique have different mempools  
 **\<vtnerd\_\_>** but its determining how to handle it thats the tricky part - whether the txes are stored in the lmdb file like normally, kept only in memory, or separately altogether  
-**\<vtnerd\_\_>** its a very subtle leak of information if your tx is in the mempool stored on disk before appearing anywhere else, but this is monero so ...  
+**\<vtnerd\_\_>** its a very subtle leak of information if your tx is in the mempool stored on disk before appearing anywhere else, but this is byterub so ...  
 **\<vtnerd\_\_>** dandelion++ flat out suggests separate mempools because the information can be leaked externally through p2p or rpc calls  
 **\<vtnerd\_\_>** so for both dandelion++ and my CCS I proposed a separate mempool that didn't return the tx until it was "spread"  
 **\<rehrar-mob>** you don't foresee any of this being live in October, yeah?  
@@ -98,10 +98,10 @@ author: el00ruobuob / rehrar
 **\<rbrunner>** This all is only relevant if you have a local attacker, right?  
 **\<hyc>** I would think so, yes  
 **\<vtnerd\_\_>** for the most part. I primarily wanted to do it because I still think its easier conceptually to have two separate pieces in code handling this, but its not trivial  
-**\<hyc>** and a local attacker that can examine the disk can probably also examine monerod's memory  
+**\<hyc>** and a local attacker that can examine the disk can probably also examine byterubd's memory  
 **\<rbrunner>** Yes, and if your starting point is "no dandelion++ whatsoever", maybe implement that quick and worry about local attackers afterwards   
 **\<vtnerd\_\_>** if the person is storing the blockchain to an unencrypted portion thinking its all public information  
-**\<vtnerd\_\_>** arguably everyone is running monerod on a machine using disk encryption, but perhaps not always  
+**\<vtnerd\_\_>** arguably everyone is running byterubd on a machine using disk encryption, but perhaps not always  
 **\<xiphon>** also storing txes in lmdb will help in case of casedandelion++ stem phase fail  
 **\<xiphon>** one could safely restart the daemon and don't bother that any outgoing tx will be lost  
 **\<vtnerd\_\_>** theres also a small concern about getting information remotely via timing, but thats another advanced attack that I was merely going to document rather than code around (it aint easy)  
@@ -123,7 +123,7 @@ author: el00ruobuob / rehrar
 **\<xiphon>** something  is wrong then, this sounds like we don't guarantee that tx will be broadcasted to the network  
 **\<vtnerd\_\_>** you can't with dandelion++, thats how the protoocl works  
 **\<vtnerd\_\_>** and to be fair, you cannot really guarantee it with the gossip protocol either  
-**\<vtnerd\_\_>** theres no acking on this, its a fire and forget in monero  
+**\<vtnerd\_\_>** theres no acking on this, its a fire and forget in byterub  
 **\<sarang>** D++ is intended to fail to the existing broadcast scheme, essentially  
 **\<vtnerd\_\_>** yes, its one of the consequences of having a single outbound path  
 **\<hyc>** ... we really should be using IP multicast  
@@ -140,15 +140,15 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** Would a first 0.15 release within a few weeks be a proper timeline?  
 **\<rbrunner>** Nobody seems to push a release, funny  
 **\<xiphon>** there will be anissue with Ledger  
-**\<xiphon>** They hardcoded accepted Monero version in the ledger monero app - the firmware the is installed on ledger device  
+**\<xiphon>** They hardcoded accepted ByteRub version in the ledger byterub app - the firmware the is installed on ledger device  
 **\<xiphon>** it only accepts "0.14.1.0" string right now  
-**\<rbrunner>** So they must plan to follow-up any Monero release quite closely, otherwise that does not make sense  
+**\<rbrunner>** So they must plan to follow-up any ByteRub release quite closely, otherwise that does not make sense  
 **\<xiphon>** and (if i'm correct) it usually takes some time for them to push an app update  
 **\<hyc>** all the better to get a 0.15RC out sooner then  
 **\<hyc>** and get them to use a saner version check. like >= 0.14.1  
 **\<rbrunner>** Exactly  
 **\<selsta>** They added the strict version check because of the change bug.  
-**\<xiphon>** as a fallback plan, i thoguh about doing a workaround on the monero side  
+**\<xiphon>** as a fallback plan, i thoguh about doing a workaround on the byterub side  
 **\<xiphon>** disabling this check by always supplying "0.14.1.0" version to the device  
 **\<hyc>** yeesh...  
 **\<rbrunner>** Oh, that's a straight road to hell  
@@ -160,33 +160,33 @@ author: el00ruobuob / rehrar
 **\<rbrunner>** That's why hyc's argument of early 15.x release is good  
 **\<hyc>** yes, give them more advance warning, more time to respond  
 **\<rbrunner>** The earlier before the hardfork itself that is out, the better  
-**\<moneromooo>** The white noise stuff will most likely be in the october release.  
-**\<moneromooo>** Before a 0.15 release, the v12 changes should be reviewed and merged.  
+**\<byterubmooo>** The white noise stuff will most likely be in the october release.  
+**\<byterubmooo>** Before a 0.15 release, the v12 changes should be reviewed and merged.  
 **\<dEBRUYNE>** xiphon: I presume they will release a new version in conjunction with our v0.15 release  
-**\<moneromooo>** That's 5823.  
+**\<byterubmooo>** That's 5823.  
 **\<dEBRUYNE>** So 5823 and the RandomX PR are the consensus changes that need to go in before we do an RC right?  
 **\<hyc>** sounds right  
 **\<hyc>** randomx is 5549  
 **\<ErCiccione[m]>** so we are doing an RC release this time?  
 **\<ErCiccione[m]>** because i remember many were against last hard fork  
-**\<xiphon>** dEBRUYNE: hopefully they will implement version >= check, so the user won't need to update the ledger app with every monero release  
+**\<xiphon>** dEBRUYNE: hopefully they will implement version >= check, so the user won't need to update the ledger app with every byterub release  
 **\<selsta>** Plan was to add >= for minor point releases.  
 **\<dEBRUYNE>** ErCiccione[m]: I guess we could also do a straight 0.15 and then work out any bugs via point releases  
-**\<dEBRUYNE>** moneromooo, hyc, vtnerd\_\_: thoughts?  
+**\<dEBRUYNE>** byterubmooo, hyc, vtnerd\_\_: thoughts?  
 **\<dEBRUYNE>** also xiphon   
 **\<vtnerd\_\_>** well thats how its been done the last few releases  
 **\<ErCiccione[m]>** i mean, i would totally go for an RC release  
 **\<rbrunner>** Isn't that mostly only an issue with labels?  
-**\<moneromooo>** If you're asking about version numbers, my preference is to have increasing version numbers. It mkaes things so much easier. IIRC pony prefers to have "rc" labels instead.  
-**\<moneromooo>** I'm not gonna fight that, just moan from time to time and say "told you so" if it bites us later.  
+**\<byterubmooo>** If you're asking about version numbers, my preference is to have increasing version numbers. It mkaes things so much easier. IIRC pony prefers to have "rc" labels instead.  
+**\<byterubmooo>** I'm not gonna fight that, just moan from time to time and say "told you so" if it bites us later.  
 **\<dEBRUYNE>** vtnerd\_\_: Right  
 **\<rbrunner>** Yeah, but also, how would an RC be effectively different from a release?  
 **\<rbrunner>** And not just called any other way  
 **\<dEBRUYNE>** I guess we can release earlier now though because randomx and the other consensus changes are already ready  
-**\<moneromooo>** As long as it contains all the needed consensus changes.  
+**\<byterubmooo>** As long as it contains all the needed consensus changes.  
 **\<rbrunner>** You are not moaning, you are moooing  
-**\<moneromooo>** That's randomx and 5823 AFAIK. If there's something else, say so.  
-**\<moneromooo>** rbrunner: indeed!  
+**\<byterubmooo>** That's randomx and 5823 AFAIK. If there's something else, say so.  
+**\<byterubmooo>** rbrunner: indeed!  
 **\<xiphon>** rbrunner: "but also, how would an RC be effectively different from a release?" - i think the difference is in the official press release statement  
 **\<xiphon>** we won't do one for -RC  
 **\<xiphon>** so it will be for testing purposes  
@@ -197,7 +197,7 @@ author: el00ruobuob / rehrar
 **\<rbrunner>** sech1: An audit result, then, this RandomX PR  
 **\<hyc>** that PR appears (so far) to have no downside  
 **\<ErCiccione[m]>** about the RC thing. Since there are many contrasting opinions, maybe better keep the old system.  
-**\<moneromooo>** "Everybody builds their own" ?  
+**\<byterubmooo>** "Everybody builds their own" ?  
 **\<rbrunner>** The old system does not really look broken, either, so why fix  
 **\<ErCiccione[m]>** well, would be nice to have more testing before a proper release, but at this point i think it doesn't worth it.  
 **\<hyc>** I suppose, if we don't do that last-minute advance-by-1-month release, it should work out fine  
@@ -212,8 +212,8 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** So I guess that is added to the list of things that need to go in before we tag  
 **\<dEBRUYNE>** Would a target of tagging in 2 weeks be reasonable?  
 **\<hyc>** terminfo vs termcap vs ... something else  
-**\<moneromooo>** Any vote against the pay-for-rpc going in ?   
-**\<moneromooo>** (I have a wip patch to make it use randomx, not pushed yet)  
+**\<byterubmooo>** Any vote against the pay-for-rpc going in ?   
+**\<byterubmooo>** (I have a wip patch to make it use randomx, not pushed yet)  
 **\<hyc>** I have nothing oposing  
 **\<rbrunner>** It's reviewed well, after all  
 **\<xiphon>** would be nice to have it in the 0.15  

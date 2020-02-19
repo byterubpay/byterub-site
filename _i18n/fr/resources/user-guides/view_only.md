@@ -1,6 +1,6 @@
 {% assign version = '1.3.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-Un portefeuille d'audit ne peut que voir quelles transactions entrantes vous appartiennent. Il ne peut pas dépenser vos Moneroj, en fait il ne peut même pas voir les transactions sortantes de votre portefeuille. Cela rend le portefeuille d'audit particulièrement intéressant pour :
+Un portefeuille d'audit ne peut que voir quelles transactions entrantes vous appartiennent. Il ne peut pas dépenser vos ByteRubj, en fait il ne peut même pas voir les transactions sortantes de votre portefeuille. Cela rend le portefeuille d'audit particulièrement intéressant pour :
 
 * Les développeurs écrivant des librairies de validation de paiements ;
 * Les utilisateurs validant les transactions entrantes sur des portefeuilles froids.

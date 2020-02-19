@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-11-12
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-11-12
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -60,15 +60,15 @@ author: el00ruobuob / surae
 **\<suraeNoether>** nioc i believe we already have enough funding availalbe to put a deposit down on a location, and I would like to do that before the end of 2018. email invitations to speakers will be start being setn out this week  
 **\<sarang>** nice  
 **\<sarang>** Also our other conference FFS (Stanford) was funded recently, so many thanks on that front  
-**\<suraeNoether>** in general: thank you to all contributors who make Monero Research Lab a funded thing  
+**\<suraeNoether>** in general: thank you to all contributors who make ByteRub Research Lab a funded thing  
 **\<sarang>** suraeNoether and I will learn next month if either of us will be speaking there  
 **\<sarang>** anyway, other questions for us?  
 **\<rehrar>** ne  
 **\<sarang>** In the absence of further questions, we can talk recent research  
 **\<sarang>** This past week, I did two events in Chicago  
-**\<sarang>** one was a hands-on Monero development workshop  
+**\<sarang>** one was a hands-on ByteRub development workshop  
 **\<sarang>** the other was a more general talk on privacy tech  
-**\<sarang>** both videos are on YouTube, linked from the Monero Moon posting  
+**\<sarang>** both videos are on YouTube, linked from the ByteRub Moon posting  
 **\<sarang>** thanks to the Chicago Bitcoin and Open Blockchains group for hosting me  
 **\<suraeNoether>** Did you have a good time? think you'll do something like that again?  
 **\<sarang>** Yeah, I think it was very valuable  
@@ -110,9 +110,9 @@ author: el00ruobuob / surae
 **\<suraeNoether>** 2007, 2008, 2009  
 **\<rehrar>** so are you saying that as the blockchain gets larger, anonymity decreases?  
 **\<suraeNoether>** well, consider the following situation  
-**\<suraeNoether>** let's say something ridiculous like "tomororw Monero goes back to ring size 1"  
+**\<suraeNoether>** let's say something ridiculous like "tomororw ByteRub goes back to ring size 1"  
 **\<sarang>** It's important to note that "anonymity" here means "anonymity according to a very specific metric formulation that may or may not correspond to a particular threat model"  
-**\<suraeNoether>** what happens? a bunch of blocks are added to the monero blockchain, all of which are totally linkable  
+**\<suraeNoether>** what happens? a bunch of blocks are added to the byterub blockchain, all of which are totally linkable  
 **\<suraeNoether>** this is an edge case of the following idea:  
 **\<notmike>** Even I could link them!  
 **\<suraeNoether>** heh  
@@ -137,7 +137,7 @@ author: el00ruobuob / surae
 **\<sarang>** Well, for some threat models, "good enough" means "enough reasonable doubt to avoid someone getting in trouble for a spend history they weren't actually involved in"  
 **\<sarang>** and that depends on how your legal system works  
 **\<sarang>** What types were you considering?  
-**\<suraeNoether>** the question an attacker needs to answer is "out of all possible spend histories with a likelihood greater than some C of being the true spend history, what % of these is a specific edge traced?" for example, if in 95% of all plausible and likely histories, edge e sending monero from address X to address Y is included in the matching, we conclude that edge e is the true spender.  
+**\<suraeNoether>** the question an attacker needs to answer is "out of all possible spend histories with a likelihood greater than some C of being the true spend history, what % of these is a specific edge traced?" for example, if in 95% of all plausible and likely histories, edge e sending byterub from address X to address Y is included in the matching, we conclude that edge e is the true spender.  
 **\<suraeNoether>** we may be able to quantify our security on an individual level that way, and see how it is sensitive to game parameters  
 **\<suraeNoether>** anyway, 100% of my MRL attention is on this paper right now  
 **\<sarang>** A lot of this (not just graph metrics) seems to be chasing after specific heuristics (some unknown) without a real fundamental idea of what guarantees we want to be able to offer  
@@ -163,17 +163,17 @@ author: el00ruobuob / surae
 **\<suraeNoether>** there are some trustless set-ups that are unreasonably slow  
 **\<hyc>** if we could do cross-chain atomic swaps with BTC that would eliminate a huge chunk of exchange usecases  
 **\<suraeNoether>** or big  
-**\<sarang>** IMO the goal of the graph matching analysis should be to at least get an order-of-magnitude estimate on Monero global spend histories  
+**\<sarang>** IMO the goal of the graph matching analysis should be to at least get an order-of-magnitude estimate on ByteRub global spend histories  
 **\<suraeNoether>** hyc that is 100% correct, and we have all the theoretical framework for that except SPV at this point, but the recent nipopow paper and another recent paper may fix that too  
 **\<sarang>** I'm not convinced this provides an adversary with remarkably more actionable data than existing heuristics  
 **\<OpenSorceress>** how would you go about sussing that out?  
-**\<sarang>** And while it should push us toward better non-ring-sig solutions, I also don't want to FUD our users in the same way that all the other Monero tracking papers have  
+**\<sarang>** And while it should push us toward better non-ring-sig solutions, I also don't want to FUD our users in the same way that all the other ByteRub tracking papers have  
 **\<suraeNoether>** it should provide literally the same amount of data, just one is a global approach and one is a txn-by-txn approach  
 **\<sarang>** OpenSorceress: run the analysis on at least a portion of the chain  
 **\<sarang>** suraeNoether: implementing nipopow is a huge undertaking  
 **\<suraeNoether>** yes  
 **\<sarang>** suraeNoether: what do you see as the goal of the analysis?  
-**\<suraeNoether>** provide actionable advice for the monero community on how to mitigate the worst known traceability chainalsysis attack. ultimately  
+**\<suraeNoether>** provide actionable advice for the byterub community on how to mitigate the worst known traceability chainalsysis attack. ultimately  
 **\<sarang>** in terms of ring size specifically?  
 **\<sarang>** given that the EAL is sensitive to it?  
 **\<suraeNoether>** not necessarily, although that is presently a facet of the analysis, yeah.  

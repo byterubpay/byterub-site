@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # monero-wallet-cli
 
-`monero-wallet-cli` jest oprogramowaniem, które współpracuje z Monero. To program konsoli zarządzający kontem. Podczas gdy portfel Bitcoina zarządza zarówno kontem, jak i łańcuchem bloków, Monero rozdzielił je, aby `monerod`operował łańcuchem, a `monero-wallet-cli` kontem.
+`monero-wallet-cli` jest oprogramowaniem, które współpracuje z ByteRub. To program konsoli zarządzający kontem. Podczas gdy portfel Bitcoina zarządza zarówno kontem, jak i łańcuchem bloków, ByteRub rozdzielił je, aby `monerod`operował łańcuchem, a `monero-wallet-cli` kontem.
 
-Ten przewodnik pokaże, jak wykonywać różne operacje w interfejsie `monero-wallet-cli`. Przewodnik zakłada, że używasz najnowszej wersji Monero i założyłeś już swoje konto zgodnie z instrukcjami.
+Ten przewodnik pokaże, jak wykonywać różne operacje w interfejsie `monero-wallet-cli`. Przewodnik zakłada, że używasz najnowszej wersji ByteRub i założyłeś już swoje konto zgodnie z instrukcjami.
 
 
 ## Sprawdzanie salda
@@ -29,7 +29,7 @@ Będziesz potrzebował standardowego adresu, na który chcesz przesłać środki
 
     transfer ADDRESS AMOUNT PAYMENTID
 
-Zamień `ADDRESS` na adres, na który chcesz dokonać płatności, `AMOUNT` na kwotę w Monero, jaką chcesz przesłać oraz `PAYMENTID` na numer identyfikacyjny, który podał ci odbiorca. Podanie numeru identyfikacyjnego jest opcjonalne, jeśli odbiorca ci go nie podał, po prostu go pomiń.
+Zamień `ADDRESS` na adres, na który chcesz dokonać płatności, `AMOUNT` na kwotę w ByteRub, jaką chcesz przesłać oraz `PAYMENTID` na numer identyfikacyjny, który podał ci odbiorca. Podanie numeru identyfikacyjnego jest opcjonalne, jeśli odbiorca ci go nie podał, po prostu go pomiń.
 
 ### Wysyłanie na adres zintegrowany:
 
@@ -43,15 +43,15 @@ Numer identyfikacyjny w tym przypadku jest domniemany w adresie zintegrowanym.
 
 Zamień `RINGSIZE` na numer wyników, jaki chcesz użyć. **Domyślny numer wyników, gdy niesprecyzowany, wynosi 11.** Dobrym pomysłem jest użycie numeru domyślnego, ale możesz zwiększyć go, gdy chcesz dołączyć więcej wyników. Im wyższy numer, tym większa transakcja i wyższe opłaty.
 
-## Otrzymywanie Monero:
+## Otrzymywanie ByteRub:
 
-Jeśli posiadasz własny adres Monero, wystarczy przekazać nadawcy twój adres standardowy.
+Jeśli posiadasz własny adres ByteRub, wystarczy przekazać nadawcy twój adres standardowy.
 
 Swój adres znajdziesz pod funkcją:
 
     address
 
-Ponieważ Monero jest anonimowe, nie zobaczysz adresu nadawcy. Jeżeli chcesz go poznać, na przykład, żeby podziękować konkretnemu klientowi, poproś nadawcę o użycie opcjonalnego numeru identyfikacyjnego, który może zostać przypisany transakcji. Aby uprościć życie, możesz wygenerować adres zintegrowany, który już zawiera losowy numer identyfikacyjny, za pomocą funkcji:
+Ponieważ ByteRub jest anonimowe, nie zobaczysz adresu nadawcy. Jeżeli chcesz go poznać, na przykład, żeby podziękować konkretnemu klientowi, poproś nadawcę o użycie opcjonalnego numeru identyfikacyjnego, który może zostać przypisany transakcji. Aby uprościć życie, możesz wygenerować adres zintegrowany, który już zawiera losowy numer identyfikacyjny, za pomocą funkcji:
 
     integrated_address
 
@@ -64,7 +64,7 @@ Płatności dokonane na adres zintegrowany wygenerowany z twojego konta przejdą
 
 ## Udowadnianie płatności osobom trzecim:
 
-Gdy dokonasz zapłaty, a odbiorca stwierdzi, że jej nie otrzymał, możesz udowodnić swoją płatność osobom trzecim lub samemu odbiorcy, jeśli po prostu popełnił on pomyłkę. Monero jest prywatne, a więc nie możesz po prostu wskazać na swoją transakcję w łańcuchu bloków, ponieważ nie da się rozróżnić, kto ją wysłał, a kto odebrał. Możesz jednak przekazać stronie prywatny klucz transakcji, aby strona rozpoznała, czy dokonana została płatność na dany adres. Zauważ, że zachowanie tych kluczy transakcji domyślnie jest wyłączone i musisz go włączyć przed dokonaniem płatności, jeśli uważasz, że będziesz ich potrzebował:
+Gdy dokonasz zapłaty, a odbiorca stwierdzi, że jej nie otrzymał, możesz udowodnić swoją płatność osobom trzecim lub samemu odbiorcy, jeśli po prostu popełnił on pomyłkę. ByteRub jest prywatne, a więc nie możesz po prostu wskazać na swoją transakcję w łańcuchu bloków, ponieważ nie da się rozróżnić, kto ją wysłał, a kto odebrał. Możesz jednak przekazać stronie prywatny klucz transakcji, aby strona rozpoznała, czy dokonana została płatność na dany adres. Zauważ, że zachowanie tych kluczy transakcji domyślnie jest wyłączone i musisz go włączyć przed dokonaniem płatności, jeśli uważasz, że będziesz ich potrzebował:
 
     set store-tx-info 1
 
@@ -74,11 +74,11 @@ Możesz przywróciń klucz tx z wcześniejszej transakcji:
 
 Wskaż numer identyfikacyjny transakcji, dla której chcesz otrzymań klucz. Pamiętaj, że płatność może zostać podzielona na więcej niż jedną transakcję, więc możesz potrzebować kilku kluczy. Następnie możesz przesłać otrzymany klucz lub klucze do osoby, której chcesz udowodnić dokonanie płatności, razem z numerem identyfikacyjnym transakcji i adresem odbiorcy. Zauważ, że strona trzecia, znając twój adres, będzie w stanie zobaczyć także, ile zwrotu otrzymałeś.
 
-Jeżeli to ty jesteś stroną trzecią (to znaczy ktoś chce ci udowodnić, że przelał Monero na dany adres), sprawdź w ten sposób:
+Jeżeli to ty jesteś stroną trzecią (to znaczy ktoś chce ci udowodnić, że przelał ByteRub na dany adres), sprawdź w ten sposób:
 
     check_tx_key TXID TXKEY ADDRESS
 
-Zamień `TXID`, `TXKEY` i `ADDRESS` na, odpowiednio, numer identyfikacyjny transakcji, klucz transakcji oraz przekazany ci adres odbiorcy. monero-wallet-cli sprawdzi tę transakcję i poinformuje cię, ile Monero zostało przesłane na dany adres.
+Zamień `TXID`, `TXKEY` i `ADDRESS` na, odpowiednio, numer identyfikacyjny transakcji, klucz transakcji oraz przekazany ci adres odbiorcy. monero-wallet-cli sprawdzi tę transakcję i poinformuje cię, ile ByteRub zostało przesłane na dany adres.
 
 
 ## Uzyskiwanie szansy na potwierdzenie lub anulowanie płatności:

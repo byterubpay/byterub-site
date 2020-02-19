@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Systemy operacyjne:  Windows, Linux, Mac
 
-- Przygotuj swój 25-słowny kod mnemoniczny, który zachowałeś przy zakładaniu swojego starego portfela Monero
+- Przygotuj swój 25-słowny kod mnemoniczny, który zachowałeś przy zakładaniu swojego starego portfela ByteRub
 
 ### Oprogramowanie konta:  monero-wallet-cli
 
@@ -24,7 +24,7 @@ Po wpisaniu 25-słownego kodu mnemonicznego i wybraniu wysokości łańcucha blo
 
 ### Oprogramowanie konta:  monero-wallet-gui
 
-Uruchom Graficzny Interfejs Użytkownika Monero. Jeśli uruchamiasz go po raz pierwszy, przejdź do następnego kroku, jeśli nie - kliknij `Anuluj`:
+Uruchom Graficzny Interfejs Użytkownika ByteRub. Jeśli uruchamiasz go po raz pierwszy, przejdź do następnego kroku, jeśli nie - kliknij `Anuluj`:
 
 ![cancel opening](png/restore_account/cancel-opening.png)
 

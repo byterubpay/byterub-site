@@ -1,12 +1,12 @@
 ---
 layout: user-guide
-title: "Monero tools"
-permalink: /resources/user-guides/monero_tools.html
+title: "ByteRub tools"
+permalink: /resources/user-guides/byterub_tools.html
 mainVersion:
   - "1"
   - "1"
   - "0"
 ---
 {% t global.lang_tag %}
-<h1>{% t user-guides.monero-tools %}</h1>
-{% tf resources/user-guides/monero_tools.md %}
+<h1>{% t user-guides.byterub-tools %}</h1>
+{% tf resources/user-guides/byterub_tools.md %}

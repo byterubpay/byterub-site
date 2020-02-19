@@ -106,7 +106,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Moving on, #43.  
 **\<fluffypony>** ok - can we just use the ByteRub addresses, or do we want separate addresses?  
 **\<meeting-bot> [anonimal]** I'm fine with ByteRub addresses.  
-**\<fluffypony>** ok then they're avialable here, anonimal: http://donate.getmonero.org  
+**\<fluffypony>** ok then they're avialable here, anonimal: http://donate.getbyterub.org  
 **\<fluffypony>** *available  
 **\<meeting-bot> [anonimal]** Ok. Also, I can apply for FFS when needed or include my address somewhere or we can simply put a note in README to donate to either. Sound fair?  
 **\<meeting-bot> [anonimal]** Or no?  
@@ -120,7 +120,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** anonimal: I have to pack tomorrow, and have a bunch of things to do, so if you could that would be appreciated  
 **\<meeting-bot> [anonimal]** Ok  
 **\<meeting-bot> [anonimal]** Moving on, #27  
-**\<fluffypony>** ok #27 is going to have to hold for a week or two, we're busy moving email providers on getmonero.org so I'll sort it out on the new provider  
+**\<fluffypony>** ok #27 is going to have to hold for a week or two, we're busy moving email providers on getbyterub.org so I'll sort it out on the new provider  
 **\<meeting-bot> [anonimal]** Ok, I'll paste that note.  
 **\<meeting-bot> [anonimal]** Onward to #20.  
 **\<fluffypony>** 20 - I can try Coverity again, let's see if it gives me the same issue  
@@ -174,7 +174,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** I'll take the bot down  
 **\<xmrpromotions>** We need I2P experts to appear during the proposal stage once created to ask good questions  
 **\<xmrpromotions>** early questions attract a lot more votes and rise to the top, so quality matters  
-**\<meeting-bot> [anonimal]** Ok, I'll chat in #monero-dev.  
+**\<meeting-bot> [anonimal]** Ok, I'll chat in #byterub-dev.  
 **\<i2p-relay> {-anonimal}** * thinking  
 **\<i2p-relay> {-anonimal}** xmrpromotions: I can commit to both pages. How many I2P 'experts' would need to commit?  
 **\<xmrpromotions>** well we need 40 good questions. each person can only ask 5  
@@ -195,6 +195,6 @@ author: dEBRUYNE / fluffypony
 **\<xmrpromotions>** 5q with 10 votes each will earn 5 rep per vote  
 **\<i2p-relay> {-anonimal}** Ok, sounds great. Right now, I need to finish post-meeting wrap-up, take a break, get my brain in order and bbl.  
 **\<fluffypony>** ok cool  
-**\<xmrpromotions>** I will make a post in the getmonero forums. Maybe we can create and agree on a list of 40 questions there before we start  
+**\<xmrpromotions>** I will make a post in the getbyterub forums. Maybe we can create and agree on a list of 40 questions there before we start  
 **\<xmrpromotions>** thanks everyone. have a great weekend  
 **\<fluffypony>** cheers

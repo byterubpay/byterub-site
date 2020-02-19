@@ -19,7 +19,7 @@ permalink: /get-started/mining/index.html
                         </div>
                     </div>
                     <div class="row center-xs">
-                        <p>{% t mining.support_para1 %} <a href="{{site.baseurl}}/community/hangouts/">  {% t mining.support_para4 %} <a href="irc://chat.freenode.net/#monero-pools" target="_blank" rel="noreferrer noopener">#monero-pools</a>.</p>
+                        <p>{% t mining.support_para1 %} <a href="{{site.baseurl}}/community/hangouts/">  {% t mining.support_para4 %} <a href="irc://chat.freenode.net/#byterub-pools" target="_blank" rel="noreferrer noopener">#byterub-pools</a>.</p>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ permalink: /get-started/mining/index.html
                         </div>
                     </div>
                     <div class="row center-xs">
-                       <p>{% t mining.pools_para1 %} <a href="https://miningpoolstats.stream/monero"> {% t mining.pools_para2 %}</a></p>
+                       <p>{% t mining.pools_para1 %} <a href="https://miningpoolstats.stream/byterub"> {% t mining.pools_para2 %}</a></p>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ permalink: /get-started/mining/index.html
                         </div>
                     </div>
                     <div class="row center-xs">
-                       <p><a href="http://monerobenchmarks.info/">{% t mining.benchmarking_para1 %}</a> {% t mining.benchmarking_para2 %}</p>
+                       <p><a href="http://byterubbenchmarks.info/">{% t mining.benchmarking_para1 %}</a> {% t mining.benchmarking_para2 %}</p>
                     </div>
                 </div>
             </div>

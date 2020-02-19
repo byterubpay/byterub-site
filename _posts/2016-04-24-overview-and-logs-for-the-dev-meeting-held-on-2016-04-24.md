@@ -18,13 +18,13 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE>** hyc, fluffypony: I could make a list of which PRs are still open for review if you want?  
 **\<hyc>** 13 open right now  
 **\<dEBRUYNE>** all right  
-**\<hyc>** moneromooo already reviewed PR#806  
-**\<dEBRUYNE>** Oh yeah this is easier to spot -> https://github.com/byterubpay/bitmonero/pulls  
+**\<hyc>** byterubmooo already reviewed PR#806  
+**\<dEBRUYNE>** Oh yeah this is easier to spot -> https://github.com/byterubpay/bitbyterub/pulls  
 **\<dEBRUYNE>** :-P  
 **\<hyc>** yep  
-**\<dEBRUYNE>** smooth and moneromooo had a little chat about 818 & 819 earlier today  
+**\<dEBRUYNE>** smooth and byterubmooo had a little chat about 818 & 819 earlier today  
 **\<hyc>** I've browsed thru them but frankly don't know enough about how things work to know their implications  
-**\<moneromooo>** I felt like that abour your/warp's DB perf branch :P  
+**\<byterubmooo>** I felt like that abour your/warp's DB perf branch :P  
 **\<hyc>** ;)  
 **\<hyc>** looking at git history I'd guess tewinget or NoodleDoodle would have breezed thru them  
 **\<fluffypony>** hokay  
@@ -47,18 +47,18 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** I've been trying to keep up whilst travelling, but there's some backlog I didn't read  
 **\<fluffypony>** I think before we discuss #805 and the performance PR, let's just touch base on the smaller ones  
 **\<fluffypony>** #810, #814, #818, all seem to have been reviewed and are ready for merge  
-**\<moneromooo>** smooth had reservations about 810.  
-**\<moneromooo>** Or hyc. Or both.  
+**\<byterubmooo>** smooth had reservations about 810.  
+**\<byterubmooo>** Or hyc. Or both.  
 **\<fluffypony>** smooth / hyc: any new thoughts beyond the one comment on the PR?  
 **\<hyc>** both I think, but I don't remember smooth's comments  
-**\<moneromooo>** I think it was just extra complexity htat might not be worth it.  
+**\<byterubmooo>** I think it was just extra complexity htat might not be worth it.  
 **\<hyc>** my point - the current pool code calls getblocktemplate 1/second but doesn't do anything with the response if the height is the same as before  
 **\<hyc>** the pool code ought to just call getblockcount in that case, which executes in 0ms  
-**\<dEBRUYNE>** smooth commented on #810 -> https://github.com/byterubpay/bitmonero/pull/810  
+**\<dEBRUYNE>** smooth commented on #810 -> https://github.com/byterubpay/bitbyterub/pull/810  
 **\* DaveyJones**: quotes deBRUYNE from yesterday : dEBRUYNE pages othe, NoodleDoodle, smooth, tewinget, binaryFate  
 **\<fluffypony>** so then the pool code is bad, right ?  
 **\<hyc>** yeah, in my perspective anyway  
-**\<xmrpromotions>** No comment on the code for https://github.com/byterubpay/bitmonero/pull/794 but is there some way we can reach out to the family of warptangent to let them know we are very greatful for his contributions?  
+**\<xmrpromotions>** No comment on the code for https://github.com/byterubpay/bitbyterub/pull/794 but is there some way we can reach out to the family of warptangent to let them know we are very greatful for his contributions?  
 **\<smooth>** i added a comment to 810  
 **\<dEBRUYNE>** ^ His dad commented in the thread  
 **\<fluffypony>** xmrpromotions: they're already speaking to us, and we've let them know  
@@ -66,11 +66,11 @@ author: dEBRUYNE / fluffypony
 **\<smooth>** 818 i think needs review by a cryptographer before we release that feature  
 **\<fluffypony>** agreed  
 **\<smooth>** hyc> the pool code ought to just call getblockcount in that case <= this is incorrect as we discussed before, but not relevant to 810  
-**\<moneromooo>** getinfo returns top hash.  
-**\<moneromooo>** And seems fairly lightweight.  
+**\<byterubmooo>** getinfo returns top hash.  
+**\<byterubmooo>** And seems fairly lightweight.  
 **\<smooth>** it should check the top block hash, not height, but in any case even calling getblocktemplate 1/second isn't obvious to me would be a performance issue at all  
-**\<moneromooo>** Maybe PCFiL can test. He reported high CPU use when there were like 15 txes in the pool, and calming down at ~3.  
-**\<moneromooo>** Or I could test it actually, just curl that URI.  
+**\<byterubmooo>** Maybe PCFiL can test. He reported high CPU use when there were like 15 txes in the pool, and calming down at ~3.  
+**\<byterubmooo>** Or I could test it actually, just curl that URI.  
 **\<smooth>** maybe we should look at why it takes so long then. when happens when there are 500?  
 **\<hyc>** fair enough, re: getinfo. still, it seems like this cache should be unnecessary  
 **\<fluffypony>** we can pack a bunch of transactions into testnet's mempool to see  
@@ -78,28 +78,28 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** sounds like a good plan. perf optimizations should always have before/after metrics.  
 **\<fluffypony>** 811 / 812 / 813, any thoughts or objections on them ?  
 **\<hyc>** 811 seems pretty straightforward  
-**\<hyc>** tho moneromooo mentioned that the test in question never actually gets run  
+**\<hyc>** tho byterubmooo mentioned that the test in question never actually gets run  
 **\<hyc>** anyway, compiling unit tests is broken without it, so 811 needs to go in  
 **\<fluffypony>** ok  
 **\<fluffypony>** 812 seems fine too  
 **\<smooth>** those all look fine, noting that the net code is a complete black box to me so i can't really have an opinion there  
 **\<fluffypony>** ok - has anyone tested 815?  
-**\<moneromooo>** Well, I did :)  
+**\<byterubmooo>** Well, I did :)  
 **\<fluffypony>** lol  
 **\<fluffypony>** 816 is also pretty straightforward  
 **\<fluffypony>** I'll review 817 later when I'm merging  
 **\<fluffypony>** and 819 is obvious  
-**\<moneromooo>** 818 won't apply once 816 is merged (duplicate -8 new error code), I'll update once this is done.  
+**\<byterubmooo>** 818 won't apply once 816 is merged (duplicate -8 new error code), I'll update once this is done.  
 **\<hyc>** yeah 816 looks fine  
-**\<fluffypony>** I wouldn't bother yet - wait until there's been an MRL review on 818, moneromooo  
-**\<moneromooo>** OK  
+**\<fluffypony>** I wouldn't bother yet - wait until there's been an MRL review on 818, byterubmooo  
+**\<byterubmooo>** OK  
 **\<fluffypony>** 810 I'll hold off on and let it bounce around, final decision at the next meeting if not before  
 **\<fluffypony>** ok so 806, the PR that fixes issue 805 - any final thoughts on it or can I merge?  
 **\<hyc>** works for me ;)  
-**\<moneromooo>** Seems fine. I didn' try it though.  
+**\<byterubmooo>** Seems fine. I didn' try it though.  
 **\<hyc>** it will make starting up a new wallet less painful for new users  
-**\<fluffypony>** oh and then unwind, I forgot about that - moneromooo you commented today that you're going to do some more work on that, do you want to merge and then submit further PRs for improvement, or work off that PR?  
-**\<moneromooo>** Leave it out for now.  
+**\<fluffypony>** oh and then unwind, I forgot about that - byterubmooo you commented today that you're going to do some more work on that, do you want to merge and then submit further PRs for improvement, or work off that PR?  
+**\<byterubmooo>** Leave it out for now.  
 **\<fluffypony>** k  
 **\<fluffypony>** so then performance  
 **\<fluffypony>** are we going to merge it, or leave it for 0.10.0 ?  
@@ -119,14 +119,14 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** ok  
 **\<gingeropolous>** i guess the use case to consider is shapeshift  
 **\<fluffypony>** yeah  
-**\<moneromooo>** RPC calls that care about this do return busy.  
-**\<moneromooo>** If not, file a bug with details.  
-**\<fluffypony>** moneromooo: a conversion will lock almost everything out, though ?  
+**\<byterubmooo>** RPC calls that care about this do return busy.  
+**\<byterubmooo>** If not, file a bug with details.  
+**\<fluffypony>** byterubmooo: a conversion will lock almost everything out, though ?  
 **\<fluffypony>** except I guess blindly broadcasting transactions  
-**\<moneromooo>** Oh, nevermind.  
+**\<byterubmooo>** Oh, nevermind.  
 **\<smooth>** even then it probably has to verify them  
 **\<fluffypony>** yeah so I think the entire RPC interface has to error with a status  
-**\<moneromooo>** I'm guessing the RPC server will not be up yet if it's converting the db.  
+**\<byterubmooo>** I'm guessing the RPC server will not be up yet if it's converting the db.  
 **\<hyc>** yeah, the conversion is firing up from db open  
 **\<hyc>** I don't think anything else is up yet  
 **\<fluffypony>** ah point  
@@ -137,11 +137,11 @@ author: dEBRUYNE / fluffypony
 **\<smooth>** you'll know its not working, there must be some way to indicate a reason  
 **\<fluffypony>** so practically: I have Bitcoin and ByteRub on a Windows node  
 **\<smooth>** maybe leave a message file behind and the cli can report the message  
-**\<moneromooo>** system("xmessage \"help\"")  
+**\<byterubmooo>** system("xmessage \"help\"")  
 **\<fluffypony>** and at some point the Bitcoin DB got corrupted (multiple times)  
 **\<fluffypony>** I have the service set to restart on fail, and eventually restart the whole machine  
 **\<fluffypony>** so it was restarting the machine every 15 minutes, and since I was only using the ByteRub node on it I had no idea  
-**\<gingeropolous>** right, so the overarching question is monero's philosophy on un-managed nodes  
+**\<gingeropolous>** right, so the overarching question is byterub's philosophy on un-managed nodes  
 **\<gingeropolous>** (perhaps)  
 **\<hyc>** if truly no one is monitoring, then the daemon can do its conversion in however many hours it takes and no one will be bothered  
 **\<hyc>** if anyone is doing a health check they're gonig to wonder why it's not responding  
@@ -177,16 +177,16 @@ author: dEBRUYNE / fluffypony
 **\<hyc>** sorry I've got very little intelligent to say about ringct  
 **\<hyc>** i've compiled the code and run the test successfully  
 **\<hyc>** but I don't really think i'm in position to merge it, don't understand the pieces  
-**\<moneromooo>** I'm better acquainted with monero in general, though less with the db side.  
-**\<moneromooo>** And IANAC.  
+**\<byterubmooo>** I'm better acquainted with byterub in general, though less with the db side.  
+**\<byterubmooo>** And IANAC.  
 **\<fluffypony>** you are not a cat ?  
 **\<fluffypony>** obviously, you're a moo!  
-**\<moneromooo>** That is true.  
-**\<moneromooo>** Maybe we can get riddick on the job.  
+**\<byterubmooo>** That is true.  
+**\<byterubmooo>** Maybe we can get riddick on the job.  
 **\<fluffypony>** that's riddick-ulous  
-**\<moneromooo>** OK then. No cats.  
-**\<moneromooo>** Thing is, I'm wary of starting a large piece of work these days, as I don't have as much free time as I used to.  
-**\<dEBRUYNE_>** hyc, moneromooo: Perhaps the two of you could collaborate with NobleSir on it  
+**\<byterubmooo>** OK then. No cats.  
+**\<byterubmooo>** Thing is, I'm wary of starting a large piece of work these days, as I don't have as much free time as I used to.  
+**\<dEBRUYNE_>** hyc, byterubmooo: Perhaps the two of you could collaborate with NobleSir on it  
 **\<bigreddmachine>** Once the meeting is adjourned, can i hijack everyone/someone's attention for 2 mins to ask a question? it's not an official dev question, but still related i guess.  
 **\<othe>** just throw it out  
 **\<xmrpromotions>** can I ask about multi sig? Am I right that ring ct will be a prerequisit for it? I ask because it sounds like it will be needed for bitsquare (at least to be used as intended)  
@@ -197,17 +197,17 @@ author: dEBRUYNE / fluffypony
 **\<smooth>** notsquares  
 **\<othe>** all they need is some gui changes like payment id support or alternatively its enough to use integrated addresses instead  
 **\<othe>** and then they need support for the spendkey stuff to proof a payment, thats it  
-**\<moneromooo>** Multisig happens as a byproduct of ringct withou much extra work though AIUI.  
+**\<byterubmooo>** Multisig happens as a byproduct of ringct withou much extra work though AIUI.  
 **\<fluffypony>** yeah  
 **\<xmrpromotions>** ok thank you. maybe I read about dev priorities and misinterpreted a comment about ringct coming before multi sig  
 **\<bigreddmachine>** Can I get someone's opinion on something? The "incoming\_transfers" simplewallet method with "all" as the type returns a list of all transfers with in XMR coming into the wallet, including change from outgoing txs. For the wallet i've been working on, I have introduced a way to track outgoing transactions locally and store them using IndexedDB, since there’s not a good way to do that over rpc. I’d like  
 **\<bigreddmachine>**  to present users with a "pseudo-ledger" so-to-speak that showed incoming txs and outgoing txs, and should add up to the balance for a wallet. Would it be correct/good/valid for me to check the returns from "incoming\_transfers" to see if any tx\_ids match those from the outgoing transfers database, and if they do match, don't display them? That would result in the displayed "incoming transfers" to only be  
 **\<bigreddmachine>** transfers from another source.  
-**\<moneromooo>** incoming\_transfers shows the raw outputs. So you need to subtract those coming back from the ones leaving with the same txid.  
-**\<moneromooo>** But I'll add RPC for the others in the near future.  
-**\<binaryFate>** moneromooo can you be more explicit, what do you intend to add?  
+**\<byterubmooo>** incoming\_transfers shows the raw outputs. So you need to subtract those coming back from the ones leaving with the same txid.  
+**\<byterubmooo>** But I'll add RPC for the others in the near future.  
+**\<binaryFate>** byterubmooo can you be more explicit, what do you intend to add?  
 **\<bigreddmachine>** Well, the data i record in the database is only the amount that leaves the wallet (it is ignorant of the fact that there is change leaving and coming back). Although, come to think of it, it also is ignorant of the fee paid... hmm, okay, i'll need to think on this more  
-**\<moneromooo>** RPC for getting the same info that show\_transfers displays.  
+**\<byterubmooo>** RPC for getting the same info that show\_transfers displays.  
 **\<binaryFate>** ok  
 **\<bigreddmachine>** ^that would solve all my issues and i'd love you forever. in a manly way.  
 **\<dEBRUYNE_>** othe: afaik Bitsquare needs it if you want XMR/fiat markets  

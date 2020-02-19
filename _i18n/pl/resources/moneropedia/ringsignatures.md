@@ -9,8 +9,8 @@ W kryptografii podpis pierścieniowy jest rodzajem podpisu cyfrowego, który mo�
 
 Przykładowo, podpis pierścieniowy może zostać użyty do dostarczenia anonimowego podpisu "wysokiej rangi urzędnika Białego Domu" bez wyjawiania, który urzędnik rzeczywiście podpisał wiadomość. Anonimowość tego podpisu nie może zostać unieważniona, a grupa stworzona do podpisu pierścieniowego może być zaimprowizowana - nie wymaga żadnych wcześniejszych przygotowań.
 
-### Aplikacja w Monero
+### Aplikacja w ByteRub
 
-Podpis pierścieniowy korzysta z twoich kluczy do @konta oraz numeru kluczy publicznych pobranych z @łańcucha-bloków przy użyciu metody rozkładu trójkątnego. Na przestrzeni czasu klucze mogą zostać użyte wielokrotnie, aby tworzyć możliwe grupy podpisowe. W "pierścieniu" (grupie) możliwych osób podpisujących wszyscy członkowie są równi i ważni. Nie ma możliwości, aby zewnętrzny obserwator rozróżnił, który z członków jest przypisany do twojego konta. Podpisy pierścieniowe zapewniają niewykrywalność wyników transakcji. Ponadto nie ma problemów z zamienialnością Monero, ponieważ każdy wynik transakcji jest wiarygodnie zaprzeczalny (sieć nie rozróżnia, który z wyników został wydany lub nie wydany).
+Podpis pierścieniowy korzysta z twoich kluczy do @konta oraz numeru kluczy publicznych pobranych z @łańcucha-bloków przy użyciu metody rozkładu trójkątnego. Na przestrzeni czasu klucze mogą zostać użyte wielokrotnie, aby tworzyć możliwe grupy podpisowe. W "pierścieniu" (grupie) możliwych osób podpisujących wszyscy członkowie są równi i ważni. Nie ma możliwości, aby zewnętrzny obserwator rozróżnił, który z członków jest przypisany do twojego konta. Podpisy pierścieniowe zapewniają niewykrywalność wyników transakcji. Ponadto nie ma problemów z zamienialnością ByteRub, ponieważ każdy wynik transakcji jest wiarygodnie zaprzeczalny (sieć nie rozróżnia, który z wyników został wydany lub nie wydany).
 
-Aby dowiedzieć się, w jaki sposób Monero gwarantuje prywatność poprzez domyślną niemożliwość przypisania transakcji do konta, przejdź do @ukrytego-adresu.
+Aby dowiedzieć się, w jaki sposób ByteRub gwarantuje prywatność poprzez domyślną niemożliwość przypisania transakcji do konta, przejdź do @ukrytego-adresu.

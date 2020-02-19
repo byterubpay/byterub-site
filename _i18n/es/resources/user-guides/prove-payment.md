@@ -7,14 +7,14 @@ Cuando envías dinero a una parte quien después reclama que el pago haya sido r
 Con Bitcoin, esto es típicamente hecho buscando el ID de transacción, donde se muestran
 las direcciones de origen y destino, junto con la cantidad tramitada.
 
-Monero, no obstante, es privado: esa información no está disponible públicamente en la blockchain. Los pasos son, por lo tanto,
+ByteRub, no obstante, es privado: esa información no está disponible públicamente en la blockchain. Los pasos son, por lo tanto,
 un poco más complejos.
 
 Para probarle a Charlie que ella hizo un pago a Bob, Alicia debe proveer a Charlie con tres piezas de información:
 
 - el ID de transacción, como es hecho en Bitcoin
 - la dirección de Bob, como es hecho en Bitcoin
-- la llave de transacción, que es algo nuevo con Monero y otras criptomonedas CryptoNote
+- la llave de transacción, que es algo nuevo con ByteRub y otras criptomonedas CryptoNote
 
 Cuando Alicia hizo la transacción, una llave de un solo uso fue automáticamente generada para esa transacción.
 

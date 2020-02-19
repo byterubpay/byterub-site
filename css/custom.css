@@ -1354,7 +1354,7 @@ h2#main-h2 {
     text-align: left;
 }
 
-.about-main h3, .about-monero h3 {
+.about-main h3, .about-byterub h3 {
     padding-top: 0;
     font-weight: 600;
     line-height: 1.5;
@@ -1523,7 +1523,7 @@ h1 {
     margin: 0.5rem 0;
 }
 
-.about-monero h3 {
+.about-byterub h3 {
     padding-top: 1rem;
 }
 
@@ -1540,7 +1540,7 @@ h1 {
     margin-top: -0.5rem;
 }
 
-.about-main h3, .about-monero h3 {
+.about-main h3, .about-byterub h3 {
     font-size: 1.1rem;
 }
 
@@ -1738,42 +1738,42 @@ a.btn-link:hover, a.btn-link.active, a.btn-link:focus {
 }
 
 .btn-link span.icon-windows {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: 0 0;
 }
 
 a.btn-link:hover span.icon-windows, a.btn-link:focus span.icon-windows, a.btn-link.active span.icon-windows {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -48px 0;
 }
 
 .btn-link span.icon-linux, span.icon-linux {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: 0 -48px;
 }
 
 a.btn-link:hover span.icon-linux, a.btn-link:focus span.icon-linux, a.btn-link.active span.icon-linux {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -48px -48px;
 }
 
 .btn-link span.icon-apple {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: 0 -96px;
 }
 
 a.btn-link:hover span.icon-apple, a.btn-link:focus span.icon-apple, a.btn-link.active span.icon-apple {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -48px -96px;
 }
 
 .btn-link span.icon-blockchain {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: 0 -144px;
 }
 
 a.btn-link:hover span.icon-blockchain, a.btn-link:focus span.icon-blockchain, a.btn-link.active span.icon-blockchain {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -48px -144px;
 }
 
@@ -1815,7 +1815,7 @@ a.btn-link:hover span.icon-blockchain, a.btn-link:focus span.icon-blockchain, a.
 
 /*DESKTOP NAVIGATION*/
 
-img.monero-logo {
+img.byterub-logo {
     max-width: 100%;
     height: auto;
     width: 13rem;
@@ -2054,7 +2054,7 @@ img.monero-logo {
     font-size: 0.85rem;
 }
 
-img.monero-logo {
+img.byterub-logo {
     padding-left: 3.1rem;
 }
 
@@ -2117,7 +2117,7 @@ img.monero-logo {
     display: inline-block;
 }*/
 
-img.monero-logo {
+img.byterub-logo {
     position: inherit;
     width: 10rem;
     padding: 0.39rem 0 0.39rem 0;
@@ -2498,7 +2498,7 @@ a.mob-lang-change:hover, a.mob-lang-change.active, a.mob-lang-change:focus {
 
 @media only screen and (max-width: 30rem) {
 
-img.monero-logo {
+img.byterub-logo {
     width: 9rem;
     padding-top: 0.527rem;
 }
@@ -2522,11 +2522,11 @@ img.monero-logo {
     order: 0;
 }
 
-.monero-video {
+.byterub-video {
     padding: 4rem 2.5rem;
 }
 
-.monero-video video {
+.byterub-video video {
     max-width: 100%;
     width: 100%;
     margin-left: auto;
@@ -2562,15 +2562,15 @@ img.monero-logo {
     box-shadow: 0 0 30px rgba(50, 50, 93, .2), 0 3px 30px rgba(0, 0, 0, .2);
 }
 
-.about-main .info-block .col-lg-6.why-text, .about-monero .info-block .col-lg-7.why-text {
+.about-main .info-block .col-lg-6.why-text, .about-byterub .info-block .col-lg-7.why-text {
     padding: 0 2rem;
 }
 
-.about-main .info-block-row, .about-monero .info-block-row {
+.about-main .info-block-row, .about-byterub .info-block-row {
     margin-top: 2rem;
 }
 
-.about-main .info-block-row.private, .about-monero .info-block-row.private {
+.about-main .info-block-row.private, .about-byterub .info-block-row.private {
     margin-top: 1.5rem;
 }
 
@@ -2583,7 +2583,7 @@ img.monero-logo {
     margin: 0 auto;
 }
 
-.about-monero .info-block-row img.main-icon {
+.about-byterub .info-block-row img.main-icon {
     width: 60%;
     margin: 0 auto;
 }
@@ -2596,15 +2596,15 @@ p.main-downloads {
     padding-left: 1.9rem;
 }
 
-.about-monero h3 + p {
+.about-byterub h3 + p {
     padding-top: 0.5rem;    
 }
 
-.about-monero h3:first-of-type {
+.about-byterub h3:first-of-type {
     margin-top: 1rem;
 }
 
-.about-monero .why-text h3:first-of-type {
+.about-byterub .why-text h3:first-of-type {
     margin-top: 0;
     padding-top: 0;
 }
@@ -2620,7 +2620,7 @@ p.main-downloads {
     padding: 4rem 2rem 4rem 0;
 }
 
-.monero-video {
+.byterub-video {
     padding: 4rem 2rem;
 }
 
@@ -2628,7 +2628,7 @@ p.main-downloads {
     padding-top: 0.5rem;
 }
 
-.about-main .info-block-row, .about-monero .info-block-row {
+.about-main .info-block-row, .about-byterub .info-block-row {
     margin-top: 1.5rem;
 }
 
@@ -2652,7 +2652,7 @@ p.main-downloads {
     padding: 0;
 }
 
-.monero-video {
+.byterub-video {
      padding: 2.6rem 0 0 0;
  }
 
@@ -2664,11 +2664,11 @@ p.main-downloads {
     padding-top: 1rem;
 }
 
-.about-main .info-block-row, .about-monero .info-block-row {
+.about-main .info-block-row, .about-byterub .info-block-row {
     margin-top: 3rem;
 }
 
-.about-main .info-block-row.private, .about-monero .info-block-row.private {
+.about-main .info-block-row.private, .about-byterub .info-block-row.private {
     margin-top: 1rem;
 }
 
@@ -2690,11 +2690,11 @@ p.main-downloads {
 
 @media only screen and (max-width: 48rem) {
 
-.monero-video {
+.byterub-video {
     padding-top: 2rem;
 }
 
-.about-main .info-block-row, .about-monero .info-block-row {
+.about-main .info-block-row, .about-byterub .info-block-row {
     margin-top: 1.5rem;
 }
 
@@ -2703,7 +2703,7 @@ p.main-downloads {
     padding-left: 0;
 }
 
-.about-main .info-block .col-lg-6.why-text, .about-monero .info-block .col-lg-7.why-text {
+.about-main .info-block .col-lg-6.why-text, .about-byterub .info-block .col-lg-7.why-text {
     padding: 0;
 }
 
@@ -2737,7 +2737,7 @@ p.main-downloads {
     display: none;
 }
 
-.monero-video {
+.byterub-video {
     padding-top: 1.5rem;;
 }
 
@@ -2934,21 +2934,21 @@ footer {
 
 /******************MONEROPEDIA******************/
 
-.moneropedia {
+.byterubpedia {
     margin-bottom: 2rem;
 }
 
-.moneropedia:last-child {
+.byterubpedia:last-child {
     margin-bottom: 3rem;
 }
 
-.moneropedia a {
+.byterubpedia a {
     line-height: 1.7;
 }
 
 @media only screen and (max-width: 48rem) {
 
-.moneropedia h4.text-center {
+.byterubpedia h4.text-center {
     text-align: left;
     font-size: 1.5rem;
 }
@@ -3088,42 +3088,42 @@ footer {
 }
 
 .download-platforms span.icon-windows {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -96px 0;
 }
 
 .download-platforms span.icon-apple {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -96px -96px;
 }
 
 .download-platforms span.icon-linux{
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -96px -48px;
 }
 
 .download-platforms span.icon-arm {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: 0 -176px;
 }
 
 .download-platforms span.icon-freebsd {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: 0 -208px;
 }
 
 .download-platforms span.icon-dragonflybsd {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: 0 -287px;
 }
 
 .download-platforms span.icon-github {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: 0 -240px;
 }
 
 .download-platforms span.icon-android {
-  background-image: url(../img/monero-spritesheet.png);
+  background-image: url(../img/byterub-spritesheet.png);
   background-position: 0 -321px;
 }
 
@@ -3939,52 +3939,52 @@ p.hangouts-social {
 }
 
 .social-icon.twitter {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -128px -48px;
 }
 
 .social-icon.twitter:hover {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -176px -47px;
 }
 
 .social-icon.reddit {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -128px -96px;
 }
 
 .social-icon.reddit:hover {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -176px -95px;
 }
 
 .social-icon.facebook {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -128px 0;
 }
 
 .social-icon.facebook:hover {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -176px 1px;
 }
 
 .social-icon.github {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -127px -144px;
 }
 
 .social-icon.github:hover {
-    background-image: url(../img/monero-spritesheet.png);
+    background-image: url(../img/byterub-spritesheet.png);
     background-position: -176px -143px;
 }
 
 .social-icon.gitlab {
-  background-image: url(../img/monero-spritesheet.png);
+  background-image: url(../img/byterub-spritesheet.png);
   background-position: -128px -190px;
 }
 
 .social-icon.gitlab:hover {
-  background-image: url(../img/monero-spritesheet.png);
+  background-image: url(../img/byterub-spritesheet.png);
   background-position: -176px -190px;
 }
 
@@ -4105,7 +4105,7 @@ p.hangouts-social {
     width: 159px;
 }
 
-.symbol-logo, .monero-symbol-logo {
+.symbol-logo, .byterub-symbol-logo {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -4122,7 +4122,7 @@ p.hangouts-social {
 
 /**************************WHAT IS MONERO*************************/
 
-.monero-vid .col-md-6 {
+.byterub-vid .col-md-6 {
     padding: 1rem 1.5rem;
 }
 
@@ -4254,14 +4254,14 @@ p.hangouts-social {
     height: 24rem;
 }
 
-.about-monero .info-block-row img.main-icon {
+.about-byterub .info-block-row img.main-icon {
     width: 100%;
 }
 
 }
 
 @media only screen and (max-width: 48rem) {
-.monero-vid .col-md-6 {
+.byterub-vid .col-md-6 {
     padding: 1rem;
 }
 
@@ -4270,11 +4270,11 @@ p.hangouts-social {
   width: 1.5rem;
 }
 
-.about-monero .info-block-row img.main-icon {
+.about-byterub .info-block-row img.main-icon {
     width: 40%;
 }
 
-.about-monero .info-block-row .col-sm-4 {
+.about-byterub .info-block-row .col-sm-4 {
     display: none;
 }
 
@@ -4312,7 +4312,7 @@ p.hangouts-social {
 }
 
 @media only screen and (max-width: 30rem) {
-.monero-vid .col-md-6 {
+.byterub-vid .col-md-6 {
     padding: 1rem 0;
 }
 

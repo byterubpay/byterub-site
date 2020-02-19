@@ -6,19 +6,19 @@
 
 #### Resource for Creating Bootable Disks:  [Linux](http://www.pendrivelinux.com/),       [Windows](https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool)
 
-#### Resource for Monero Binaries:  [Monero Binaries]({{ site.baseurl_root }}/downloads/)
+#### Resource for ByteRub Binaries:  [ByteRub Binaries]({{ site.baseurl_root }}/downloads/)
 
 - Take any computer you have lying around, even your normal workstation. You may find it easier to use an older computer that has no wifi or bluetooth if you're particularly paranoid
 
-- Create a Linux or Windows bootable disk, and make sure you have the Monero binaries on the same disk or on a second disk (for Linux make sure you have also downloaded copies of the dependencies you will need, libboost1.55 and miniupnpc for instance)
+- Create a Linux or Windows bootable disk, and make sure you have the ByteRub binaries on the same disk or on a second disk (for Linux make sure you have also downloaded copies of the dependencies you will need, libboost1.55 and miniupnpc for instance)
 
 - Disconnect the network and/or Internet cables from your computer, physically remove the wifi card or switch the wifi/bluetooth off on a laptop if possible
 
 - Boot into your bootable OS, install the dependencies if necessary
 
-- Copy the Monero binaries to a RAM disk (/dev/shm in Linux, Windows bootable ISOs normally have a Z: drive or something)
+- Copy the ByteRub binaries to a RAM disk (/dev/shm in Linux, Windows bootable ISOs normally have a Z: drive or something)
 
-- Don't run the Monero daemon. Instead, using the command line, use monero-wallet-cli to create a new Monero @account
+- Don't run the ByteRub daemon. Instead, using the command line, use monero-wallet-cli to create a new ByteRub @account
 
 - When prompted for a name, give it any name, it doesn't really matter
 

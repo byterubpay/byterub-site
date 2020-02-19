@@ -1,7 +1,7 @@
 ---
 layout: user-guide
-title: "Monero tools"
-permalink: /resources/user-guides/monero-wallet-cli.html
+title: "ByteRub tools"
+permalink: /resources/user-guides/byterub-wallet-cli.html
 mainVersion:
   - "1"
   - "1"
@@ -9,4 +9,4 @@ mainVersion:
 ---
 {% t global.lang_tag %}
 <h1>{% t user-guides.cli-wallet %}</h1>
-{% tf resources/user-guides/monero-wallet-cli.md %}
+{% tf resources/user-guides/byterub-wallet-cli.md %}

@@ -84,7 +84,7 @@
     - name: العناوين الفرعيه
       date: October, 2017
       status: completed
-    - name: Monero Research Lab Paper 6 published
+    - name: ByteRub Research Lab Paper 6 published
       date: 2017-10-03
       status: completed
     - name: 0.11.1.0 Helium Hydra released
@@ -131,7 +131,7 @@
     - name: إعاده تصميم نظام التمويل بالمنتدي
       date:
       status: ongoing
-    - name: Getmonero.org Moneropedia open for Localization
+    - name: Getmonero.org ByteRubpedia open for Localization
       date: 2018-08-03
       status: completed
     - name: Getmonero.org Localization in Arabic
@@ -155,19 +155,19 @@
     - name: 0.13.0.4 Beryllium Bullet released
       date: 2018-10-25
       status: completed
-    - name: Monero Research Lab Papers 8 and 9 published
+    - name: ByteRub Research Lab Papers 8 and 9 published
       date: 2018-11-01
       status: completed
     - name: GUI 0.13.0.4 Beryllium Bullet released
       date: 2018-11-19
       status: completed
-    - name: Monero Research Lab Paper 7 published
+    - name: ByteRub Research Lab Paper 7 published
       date: 2018-11-26
       status: completed
-    - name: Monero Research Lab Paper 10 published
+    - name: ByteRub Research Lab Paper 10 published
       date: 2018-12-04
       status: completed
-    - name: Implementation of Monero Messaging System (MMS) to automate multisig wallets information exchange
+    - name: Implementation of ByteRub Messaging System (MMS) to automate multisig wallets information exchange
       date: 2018-12-20
       status: completed
 - year: 2019

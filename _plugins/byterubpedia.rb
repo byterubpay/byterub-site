@@ -30,8 +30,8 @@ module Jekyll
   module Converters
     class Markdown < Converter
       alias base_converter convert
-      @@moneropedia = Hash.new
-      @@moneropedia_ordered = Hash.new
+      @@byterubpedia = Hash.new
+      @@byterubpedia_ordered = Hash.new
       @@language = Array.new
       @@localConfig = Hash.new
 
@@ -41,21 +41,21 @@ module Jekyll
           @@language = @config["languages"]
           @@language.each do |lang|
             # Each country code has its own hash
-            @@moneropedia[lang] = Array.new
-            @@moneropedia_ordered[lang] = Hash.new
+            @@byterubpedia[lang] = Array.new
+            @@byterubpedia_ordered[lang] = Hash.new
             @@localConfig[lang] = Hash.new
             @@localConfig[lang] = SafeYAML.load_file(File.join(@config["source"], "/_i18n/", lang + ".yml"))
           end
         end
 
         # build up index of ByteRubpedia summaries
-        if @@moneropedia["en"].empty?
+        if @@byterubpedia["en"].empty?
 
           # Loop around all languages from _i18n
           @@language.each do |lang|
             # grab all .md files in the ByteRubpedia folder, ignore index.md
-            moneropedia_path = File.join(@config["source"], "/_i18n/", lang, "/resources/moneropedia/*.md")
-            files = Dir.glob(moneropedia_path)
+            byterubpedia_path = File.join(@config["source"], "/_i18n/", lang, "/resources/byterubpedia/*.md")
+            files = Dir.glob(byterubpedia_path)
 
             # step through all the files
             files.each do |entry_file|
@@ -64,9 +64,9 @@ module Jekyll
 
               if !entry.empty?
                 baseName = File.basename(entry_file, ".*")
-                displayName = @@localConfig[lang]["moneropedia"]["entries"][baseName]
-                @@moneropedia[lang].push({ :terms => entry['terms'], :summary => entry['summary'], :file => baseName })
-                @@moneropedia_ordered[lang] = @@moneropedia_ordered[lang].merge({ displayName => baseName })
+                displayName = @@localConfig[lang]["byterubpedia"]["entries"][baseName]
+                @@byterubpedia[lang].push({ :terms => entry['terms'], :summary => entry['summary'], :file => baseName })
+                @@byterubpedia_ordered[lang] = @@byterubpedia_ordered[lang].merge({ displayName => baseName })
               end
 
             end
@@ -74,9 +74,9 @@ module Jekyll
         end
 
         # Cleaning ByteRubpedia article from Front Matter & tag
-        if content.include? '@moneropedia_article'
+        if content.include? '@byterubpedia_article'
           content = content.gsub(/<hr \/>.*—<\/p>\n/mi, "")
-          content = content.gsub(/(\@moneropedia_article\n)/i, "")
+          content = content.gsub(/(\@byterubpedia_article\n)/i, "")
         end
 
         # Getting language from tag, and cleaning it
@@ -89,25 +89,25 @@ module Jekyll
             content = content.gsub(/(\@lang_tag_\w{2}\n)/i, "")
           end
 
-          # Jekyll.logger.warn YAML::dump(@@moneropedia_ordered)
-          if content.include? '@moneropedia_index'
+          # Jekyll.logger.warn YAML::dump(@@byterubpedia_ordered)
+          if content.include? '@byterubpedia_index'
             # ByteRubpedia index, replace with a list of entries
             cur_letter = 'A'
-            replace = "<div class='col-md-4 col-sm-6 col-xs-12 moneropedia'>\n<h4 class='text-center'>A</h4>\n"
-            @@moneropedia_ordered[lang].sort.map do |entry, link|
+            replace = "<div class='col-md-4 col-sm-6 col-xs-12 byterubpedia'>\n<h4 class='text-center'>A</h4>\n"
+            @@byterubpedia_ordered[lang].sort.map do |entry, link|
               if cur_letter != entry[0]
-                replace += "</div>\n<div class='col-md-4 col-sm-6 col-xs-12 moneropedia'>\n<h4 class='text-center'>" + entry[0] + "</h4>\n"
+                replace += "</div>\n<div class='col-md-4 col-sm-6 col-xs-12 byterubpedia'>\n<h4 class='text-center'>" + entry[0] + "</h4>\n"
                 cur_letter = entry[0]
               end
               # English is default, no country code in the link
               if lang == "en"
-                replace += "<a href='/resources/moneropedia/" + link + ".html'>" + entry + "</a><br>\n"
+                replace += "<a href='/resources/byterubpedia/" + link + ".html'>" + entry + "</a><br>\n"
               else
-                replace += "<a href='/" + lang + "/resources/moneropedia/" + link + ".html'>" + entry + "</a><br>\n"
+                replace += "<a href='/" + lang + "/resources/byterubpedia/" + link + ".html'>" + entry + "</a><br>\n"
               end
             end
             replace += "</div>"
-            content = content.gsub(/(\@moneropedia_index)/i, replace)
+            content = content.gsub(/(\@byterubpedia_index)/i, replace)
           end
 
           # define which suffix could be joined to the term to lookahead for them
@@ -115,16 +115,16 @@ module Jekyll
           # replace instances of @term with tooltips of the summary
           # For all non-English pages
           if lang != "en"
-            @@moneropedia[lang].each do |entry|
+            @@byterubpedia[lang].each do |entry|
               entry[:terms].each do |term|
-                content = content.gsub(/(\@#{term})((?=-#{lookahead})|(?![\w-]))/i, '<a data-tooltip="' + entry[:summary] + '" href="/' + lang + '/resources/moneropedia/' + entry[:file] + '.html" >' + term.gsub('-',' ') + '</a>')
+                content = content.gsub(/(\@#{term})((?=-#{lookahead})|(?![\w-]))/i, '<a data-tooltip="' + entry[:summary] + '" href="/' + lang + '/resources/byterubpedia/' + entry[:file] + '.html" >' + term.gsub('-',' ') + '</a>')
               end
             end
           end
-          # For English and as a default (in case an entry has been forgotten in a non-English moneropedia folder)
-          @@moneropedia["en"].each do |entry|
+          # For English and as a default (in case an entry has been forgotten in a non-English byterubpedia folder)
+          @@byterubpedia["en"].each do |entry|
             entry[:terms].each do |term|
-              content = content.gsub(/(\@#{term})((?=-#{lookahead})|(?![\w-]))/i, '<a data-tooltip="' + entry[:summary] + '" href="/resources/moneropedia/' + entry[:file] + '.html" >' + term.gsub('-',' ') + '</a>')
+              content = content.gsub(/(\@#{term})((?=-#{lookahead})|(?![\w-]))/i, '<a data-tooltip="' + entry[:summary] + '" href="/resources/byterubpedia/' + entry[:file] + '.html" >' + term.gsub('-',' ') + '</a>')
             end
           end
         end

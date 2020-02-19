@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.garlic-encryption
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.garlic-encryption
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/garlic-encryption.md %}
+{% tf resources/byterubpedia/garlic-encryption.md %}

@@ -15,7 +15,7 @@ author: el00ruobuob / rehrar
 **\<rbrunner>**   
 **\<vtnerd\_\_>** yes  
 **\<rehrar>** well, the three of us can have a grant ol time then  
-**\<rehrar>** just pinging hyc moneromooo dsc\_ selsta and dEBRUYNE  also  
+**\<rehrar>** just pinging hyc byterubmooo dsc\_ selsta and dEBRUYNE  also  
 **\<rehrar>** maybe a luigi1111 and fluffypony in the mix too, who knows  
 **\<rehrar>** either way  
 **\<rehrar>** 2. What's been completed since last meeting?  
@@ -51,9 +51,9 @@ author: el00ruobuob / rehrar
 **\<rbrunner>** Ok, makes sense, more or less ...  
 **\<dsc\_>** The fact we package i2p-zero is a convienence feature. I'm also 'integrating' support for Tor but we wont be packaging that. That's basically running Tor and using socks proxy at :9050  
 **\<rehrar>** we GUI people are scrubs  
-**\<xmrmatterbridge> \<xmr-romine>** is there already some doc about running monerod over tor ?  
-**\<dsc\_>** https://github.com/byterubpay/monero/blob/master/ANONYMITY\_NETWORKS.md  
-**\<dEBRUYNE>** https://github.com/byterubpay/monero/blob/master/ANONYMITY\_NETWORKS.md & https://github.com/byterubpay/monero#using-tor  
+**\<xmrmatterbridge> \<xmr-romine>** is there already some doc about running byterubd over tor ?  
+**\<dsc\_>** https://github.com/byterubpay/byterub/blob/master/ANONYMITY\_NETWORKS.md  
+**\<dEBRUYNE>** https://github.com/byterubpay/byterub/blob/master/ANONYMITY\_NETWORKS.md & https://github.com/byterubpay/byterub#using-tor  
 **\<xmrmatterbridge> \<xmr-romine>** thanks guys  
 **\<rehrar>** hyc any update on randomx audit?  
 **\<rehrar>** The last one?  
@@ -85,7 +85,7 @@ author: el00ruobuob / rehrar
 **\<vtnerd\_\_>** it keeps state in a file that it might re-use, so you'd have to a cold restart  
 **\<dsc\_>** vtnerd\_\_: fair enough  
 **\<rehrar>** alright, anything else?  
-**\<dEBRUYNE>** vtnerd\_\_: I was wondering if you intend to pick this up somewhere in the future? https://github.com/byterubpay/monero/pull/2317  
+**\<dEBRUYNE>** vtnerd\_\_: I was wondering if you intend to pick this up somewhere in the future? https://github.com/byterubpay/byterub/pull/2317  
 **\<vtnerd\_\_>** see https://github.com/byterubpay/supercop/pull/2  
 **\<vtnerd\_\_>** this one and the next one after that PR is a bit rough because its x86 ASM  
 **\<rehrar>** that was a hilarious conversation to witness  
@@ -124,7 +124,7 @@ author: el00ruobuob / rehrar
 **\<vtnerd\_\_>** or maybe not, but they would have to after that hammer that was thrown  
 **\<rbrunner>** With all submodules still on GitHub, for example  
 **\<vtnerd\_\_>** the support team for the gitlab instance are probably the most relevant for this  
-**\<ErCiccione>** rbrunner: the point was to test monero-site on the self-hosted gitlab first, and then see what to do with the other repos. But has been almost an year now  
+**\<ErCiccione>** rbrunner: the point was to test byterub-site on the self-hosted gitlab first, and then see what to do with the other repos. But has been almost an year now  
 **\<hyc>** I've always favored moving to self-hosted gitlab and away from github  
 **\<rbrunner>** Yeah, I remember. But I think the site is a particularly simple case  
 **\<vtnerd\_\_>** I mean most devs should have a copy of the code and history luckily, but its the discussions that can get purged if not backed up properly  
@@ -174,7 +174,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** although that one is about moving to gitlab, I think  
 **\<rehrar>** so maybe another one can be opened for discussion on which platform?  
 **\<dsc\_>** +1 for centralized authentication service  
-**\<dsc\_>** (hosted by monero)  
+**\<dsc\_>** (hosted by byterub)  
 **\<rbrunner>** Oh the added complexity  
 **\<dsc\_>** rbrunner: for whom?  
 **\<rbrunner>** The system in general, I mean.  
@@ -182,8 +182,8 @@ author: el00ruobuob / rehrar
 **\<hyc>** not quite centralized authent. just public key based.  
 **\<rbrunner>** Something more that can go wrong  
 **\<ErCiccione>** rehrar it is yes, as hyc says for me the important is to move away from a centralized place. I think gitlab is the best choice because we have been testing it for an year, but sure let's discuss alternatives  
-**\<hyc>** we could use monero wallet addresses as our identities  
-**\<rehrar>** hyc I've been thinking of using Monero signatures as password alternatives  
+**\<hyc>** we could use byterub wallet addresses as our identities  
+**\<rehrar>** hyc I've been thinking of using ByteRub signatures as password alternatives  
 **\<dsc\_>** thats a cool idea  
 **\<rehrar>** public key as ID  
 **\<rehrar>** signature from private key as password  
@@ -194,7 +194,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** as long as there are standard ways of resetting or something  
 **\<rehrar>** it's no more annoying than losing or getting your regular password stolen  
 **\<hyc>** having a reset facility implies a centralized admin authority  
-**\<dsc\_>** Call the Monero helpdesk and provide them your miaden name, your first car brand and your date of birth  
+**\<dsc\_>** Call the ByteRub helpdesk and provide them your miaden name, your first car brand and your date of birth  
 **\<hyc>** ^  
 **\<rehrar>** enforced 2/3 MFA then  
 **\<hyc>** should we wrap up the mtg before continiung this conv?  

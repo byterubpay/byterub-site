@@ -3,16 +3,16 @@
     - name: Bitcointalk'ta faaliyete geçti
       date: 2014-04-18
       status: completed
-    - name: İsmi Bitmonero'dan Monero'ya değiştirildi
+    - name: İsmi Bitmonero'dan ByteRub'ya değiştirildi
       date: 2014-04-23
       status: completed
     - name: Bir spam saldırıyı atlattı
       date: 2014-09-04
       status: completed
-    - name: Monero Araştırma Laboratuvarı Makale 1 ve 2 yayınlandı
+    - name: ByteRub Araştırma Laboratuvarı Makale 1 ve 2 yayınlandı
       date: 2014-09-12
       status: completed
-    - name: Monero Araştırma Laboratuvarı Makale 3 yayınlandı
+    - name: ByteRub Araştırma Laboratuvarı Makale 3 yayınlandı
       date: 2014-09-25
       status: completed
     - name: 0.8.8.6 yayınlandı
@@ -20,7 +20,7 @@
       status: completed
 - year: 2015
   accomplishments:
-    - name: Monero Araştırma Laboratuvarı Makale 4 yayınlandı
+    - name: ByteRub Araştırma Laboratuvarı Makale 4 yayınlandı
       date: 2015-01-26
       status: completed
 - year: 2016
@@ -28,7 +28,7 @@
     - name: 0.9.0 Hydrogen Helix yayınlandı
       date: 2016-01-01
       status: completed
-    - name: Monero Araştırma Laboratuvarı Makale 5 yayınlandı
+    - name: ByteRub Araştırma Laboratuvarı Makale 5 yayınlandı
       date: 2016-02-10
       status: completed
     - name: Tüm işlemlerde asgari 3 halkaboyunun zorunlu kılınması için ağ yükseltildi

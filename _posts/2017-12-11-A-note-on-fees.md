@@ -16,7 +16,7 @@ Let's start by comparing ByteRub's per kB fees to the per kB fees of other (hybr
 - **Dash:** ~$0.07  
 - **ByteRub:** ~$0.24  
 
-As you can see, the per kB fee of ByteRub is fairly low. However, due to the high transaction size, the absolute default fee (in $ terms) is quite high. Note that the transaction size is this big due to ByteRub's inherent default privacy, i.e., the range proofs, which mask the amount values, make up ~12 kB of a single transaction. RingCT, however, was absolutely necessary to strengthen the privacy of the network. More specifically, there were a lot of privacy "leaks" when ByteRub didn't mask amounts yet. Fortunately, [Bulletproofs](https://getmonero.org/2017/12/07/ByteRub-Compatible-Bulletproofs.html) will reduce transaction sizes by at least 80%.  
+As you can see, the per kB fee of ByteRub is fairly low. However, due to the high transaction size, the absolute default fee (in $ terms) is quite high. Note that the transaction size is this big due to ByteRub's inherent default privacy, i.e., the range proofs, which mask the amount values, make up ~12 kB of a single transaction. RingCT, however, was absolutely necessary to strengthen the privacy of the network. More specifically, there were a lot of privacy "leaks" when ByteRub didn't mask amounts yet. Fortunately, [Bulletproofs](https://getbyterub.org/2017/12/07/ByteRub-Compatible-Bulletproofs.html) will reduce transaction sizes by at least 80%.  
 
 -----------------
 
@@ -30,7 +30,7 @@ The new reward is:
 
 Where:  
 
- -  M<sub>N</sub> is the median of the block size over the last N blocks, with N being [100](https://github.com/byterubpay/bitmonero/blob/master/src/cryptonote_config.h#L57) in ByteRub  
+ -  M<sub>N</sub> is the median of the block size over the last N blocks, with N being [100](https://github.com/byterubpay/bitbyterub/blob/master/src/cryptonote_config.h#L57) in ByteRub  
  -  BlockSize is the size of the current block  
  -  BaseReward is the reward as per the emission curve or where applicable the tail emission  
  -  NewReward is the actual reward paid to the miner  
@@ -44,7 +44,7 @@ Where:
 
  -  2 is the adjustment factor for the switch to two minute blocks  
  -  S is the initial number of atomic units is = 2<sup>64</sup> - 1  
- -  A is the current circulation, which can be found [here](https://moneroblocks.info/). In addition, the current circulation (emission) displayed on the block explorer has to be multiplied with 10<sup>12</sup> (ByteRub uses 12 decimal places) to convert it to atomic units.  
+ -  A is the current circulation, which can be found [here](https://byterubblocks.info/). In addition, the current circulation (emission) displayed on the block explorer has to be multiplied with 10<sup>12</sup> (ByteRub uses 12 decimal places) to convert it to atomic units.  
 
 Note that the minimum block size limit is 300 kB. Thus, miners are able to construct blocks up to 300 kB without incurring a penalty. In other words, aforementioned penalty function only "kicks in" for blocks bigger than 300 kB.  
 
@@ -116,8 +116,8 @@ In conclusion, whilst fees are currently too high, they, most likely, won't be a
 
 2. A more in depth analysis (by ArticMine) of the penalty function can be found [here](https://bitcointalk.org/index.php?topic=753252.msg13591241#msg13591241).  
 
-3. The penalty function in the original [CryptoNote whitepaper](cryptonote.org/whitepaper.pdf) is somewhat different. More information can be found [here](https://monero.stackexchange.com/questions/1067/block-reward-penalties-and-dynamic-block-size).  
+3. The penalty function in the original [CryptoNote whitepaper](cryptonote.org/whitepaper.pdf) is somewhat different. More information can be found [here](https://byterub.stackexchange.com/questions/1067/block-reward-penalties-and-dynamic-block-size).  
 
-4. Code details and the actual implementation of the dynamic block size algorithm can be found [here](https://github.com/byterubpay/monero/blob/master/src/cryptonote_basic/cryptonote_basic_impl.cpp).  
+4. Code details and the actual implementation of the dynamic block size algorithm can be found [here](https://github.com/byterubpay/byterub/blob/master/src/cryptonote_basic/cryptonote_basic_impl.cpp).  
 
-5. Code details and the actual implementation of the dynamic fee algorithm can be found [here](https://github.com/byterubpay/monero/commit/82dbba10d467e28e56929e2e7f3b1f04d4635da4).  
+5. Code details and the actual implementation of the dynamic fee algorithm can be found [here](https://github.com/byterubpay/byterub/commit/82dbba10d467e28e56929e2e7f3b1f04d4635da4).  

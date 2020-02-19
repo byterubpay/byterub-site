@@ -1,6 +1,6 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-Es muy fácil minar en solitario en la GUI oficial. Si no lo has hecho aún, ve a <a href="{{site.baseurl}}/downloads/">Monero downloads page</a> y descarga la GUI oficial para tu sistema operativo. Después, ejecuta el programa y espera a que Monero se sincronice con la red. Deberás ver que se muestre "Conectado" en la esquina inferior izquierda.
+Es muy fácil minar en solitario en la GUI oficial. Si no lo has hecho aún, ve a <a href="{{site.baseurl}}/downloads/">ByteRub downloads page</a> y descarga la GUI oficial para tu sistema operativo. Después, ejecuta el programa y espera a que ByteRub se sincronice con la red. Deberás ver que se muestre "Conectado" en la esquina inferior izquierda.
 
 <img src="png/solo_mine_GUI/01.PNG" style="width: 600px;"/>
 
@@ -12,6 +12,6 @@ Ahora tendrás la opción para empezar a minar. Opcionalmente, puedes cambiar el
 
 <img src="png/solo_mine_GUI/03.PNG" style="width: 600px;"/>
 
-Ahora estás minando con la red, como puedes ver al fondo de la imagen. En este ejemplo, el ordenador está contribuyendo con 23 H/s a la red de Monero. Minar ayuda a mantener la red segura, y podrías tener suerte y recibir una recompensa por proteger a la red.
+Ahora estás minando con la red, como puedes ver al fondo de la imagen. En este ejemplo, el ordenador está contribuyendo con 23 H/s a la red de ByteRub. Minar ayuda a mantener la red segura, y podrías tener suerte y recibir una recompensa por proteger a la red.
 
 Para detener el minado, simplemente presiona el botón de "Stop mining".

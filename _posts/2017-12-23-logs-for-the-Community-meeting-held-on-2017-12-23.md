@@ -17,7 +17,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** hi ya  
 **\<rehrar>** Perfect. Let's continue.  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<sgp>** 3. FFS updates  
 **\<sgp>** There are several FFS updates.  
 **\<sgp>** a. RFC-HWALLET-1 project progress  
@@ -25,7 +25,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** i have some from the localization group  
 **\<sgp>** Ok great, let's get to that in one sec  
 **\<sgp>** Ok, well we can cover these if anyone from the hardware wallet team is present  
-**\<sgp>** Their Taiga page is here: https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
+**\<sgp>** Their Taiga page is here: https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
 **\<sgp>** b. localization  
 **\<sgp>** Go ahead, ErCiccione  
 **\<ErCiccione>** ok, thanks sgp  
@@ -34,7 +34,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Anything else you would like to add?  
 **\<ErCiccione>** we got many translations for the meetup kit and i'm happy to say we have almost completely filled the page containing the translations of the gui :)  
 **\<ErCiccione>** just contacts:  
-**\<ErCiccione>** any update can be found on our taiga project: https://taiga.getmonero.org/project/erciccione-monero-localization/ and #monero-translations is our support channel  
+**\<ErCiccione>** any update can be found on our taiga project: https://taiga.getbyterub.org/project/erciccione-byterub-localization/ and #byterub-translations is our support channel  
 **\<ErCiccione>** if anybody have any question, i'm happy to answer  
 **\<ErCiccione>** that's it from me  
 **\<sgp>** Suppose I wanted to add language 'x'. How much time would it typically take one person to translate the website, and how much time for the GUI?  
@@ -46,8 +46,8 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Does anyone else have a FFS update?  
 **\<ErCiccione>** that also shouldn't take long, i usually review and test the same day or the one after  
 **\<sgp>** 4. Malware Response Workgroup  
-**\<sgp>** I have taken on the initiative of organizing the Malware Response Workgroup. If you are interested, please go to #monero-malware-respon  
-**\<sgp>** I have updated the Taiga wiki project with several help guides for web mining, system mining, and ransomware https://taiga.getmonero.org/project/sgp-monero-malware-response-workgroup/wiki/home  
+**\<sgp>** I have taken on the initiative of organizing the Malware Response Workgroup. If you are interested, please go to #byterub-malware-respon  
+**\<sgp>** I have updated the Taiga wiki project with several help guides for web mining, system mining, and ransomware https://taiga.getbyterub.org/project/sgp-byterub-malware-response-workgroup/wiki/home  
 **\<sgp>** These are still drafts, but it shows the general idea  
 **\<sgp>** The goals of this project are to help those with compromised machines and to show others that many ByteRub community members discourage and help limit malware.  
 **\<sgp>** We can use volunteers now to help review these documents, and later to help people  
@@ -98,7 +98,7 @@ author: dEBRUYNE / fluffypony
 **\<netg>** dont need to be mainstream coin , who has to offer to m mainstream  
 **\<netg>** no, now about the project  
 **\<netg>** i mean its the same question  
-**\<netg>** if u go for the general public and usage of monero by non technical people  
+**\<netg>** if u go for the general public and usage of byterub by non technical people  
 **\<netg>** you have to do alot of work in your malware group  
 **\<netg>** and before that in educating potential users and the community  
 **\<netg>** its a question where the project is gonna heading to  
@@ -117,12 +117,12 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I agree. It will be a lot of work. And it is work well invested in my opinion. And should nobody else want to do this work, I will. :)  
 **\<rehrar>** But there are more. ;) No worries.  
 **\<rehrar>** Bitcoin started out as something quite idealistic too.  
-**\<netg>** yeah fuck , i mean monero historically always choosed the  best approach and design  
+**\<netg>** yeah fuck , i mean byterub historically always choosed the  best approach and design  
 **\<netg>** even if it was alot of work  
 **\<netg>** maybe we should stay in that tradition  
 **\<rehrar>** I see ByteRub as carrying on the touch Bitcoin dropped.  
 **\<ErCiccione>** i agree it will worth it, even just for the public image of ByteRub  
-**\<netg>** rehrar: obvious, thats the reason why alot of old school bitcoin supporters switched to monero , instantly after reading about it  
+**\<netg>** rehrar: obvious, thats the reason why alot of old school bitcoin supporters switched to byterub , instantly after reading about it  
 **\<sgp>** Any other questions?  
 **\<netg>** When will ByteRub been moon? :)  
 **\<netg>** \-en  
@@ -144,4 +144,4 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Ok, let's plan for the next meeting to be two weeks from today on 6 January at 17:00 UTC  
 **\<ErCiccione>** agreed  
 **\<sgp>** 7. Conclusion  
-**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-05-21
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-05-21
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -67,12 +67,12 @@ author: el00ruobuob / surae
 **\<suraeNoether>** okay, so here's the list of stuff on my general MRL "todo" list:  
 **\<suraeNoether>** 1. BP fee models.  
 **\<suraeNoether>** 2. Transaction graph python library (see sneurlax[m]1 comment above)  
-**\<suraeNoether>** 3. Sarang and I would both like a full technical report on "what happens if PRNG is terrible in Monero? Failure model and effects analysis sort of deal.  
-**\<suraeNoether>** 4. Codifying Monero's best practices guidelines into a nice infographic. I believe sgp and rehrar have put some effort into this so far.  
-**\<suraeNoether>** 5. Monero Standards in general. We have lots of source material to start gathering these together, and I would like to get MOST of this done before next month; describing the current state of monero before BPs go live is probably going to be valuable later on.  
+**\<suraeNoether>** 3. Sarang and I would both like a full technical report on "what happens if PRNG is terrible in ByteRub? Failure model and effects analysis sort of deal.  
+**\<suraeNoether>** 4. Codifying ByteRub's best practices guidelines into a nice infographic. I believe sgp and rehrar have put some effort into this so far.  
+**\<suraeNoether>** 5. ByteRub Standards in general. We have lots of source material to start gathering these together, and I would like to get MOST of this done before next month; describing the current state of byterub before BPs go live is probably going to be valuable later on.  
 **\<sarang>** 6. Payment channel infrastructure and prereqs  
 **\<endogenic>** ^  
-**\<moneromooo>** Ooooh yes please :)  
+**\<byterubmooo>** Ooooh yes please :)  
 **\<sarang>** We have some good work on 6 so far, but no definite path forward atm  
 **\<suraeNoether>** 7. network simulation library for testing things like consensus algorithms and difficulty metrics. (I am off-and-on working with a friend at University of New Mexico on using population-ecology models to look at mining incentives, etc)  
 **\<sarang>** There's more work on the actual channel implementation that's being worked on w/ Purdue folks, but those drafts aren't released yet  
@@ -83,7 +83,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** 10. Churn analysis (ties with 9)  
 **\<sarang>** (and with 2)  
 **\<sarang>** Having the library will give really useful data into the churn models  
-**\<suraeNoether>** 11. I have written here "curve optimizations," but I feel like the ones we intend to use should be included in the monero standards... but it could be helpful for other projects for us to make a technical note about them  
+**\<suraeNoether>** 11. I have written here "curve optimizations," but I feel like the ones we intend to use should be included in the byterub standards... but it could be helpful for other projects for us to make a technical note about them  
 **\<suraeNoether>** in particular, seeing where we can cram them in elsewhere seems like a good idea  
 **\<sarang>** good ideas all around  
 **\<suraeNoether>** 12. General literature reviews (this is an ongoing thing, but since Sarang and I are constantly reading, we may as well start compiling our thoughts into common documents!). This ranges from zero knowledge proofs, to hash-based signatures, to reviews on pairings-based approaches  
@@ -114,7 +114,7 @@ author: el00ruobuob / surae
 **\<sarang>** lol  
 **\<sarang>** fiat, those fools  
 **\<sarang>** I'll assign groups to each of our MRL goals secretly =p  
-**\<suraeNoether>** this huge list, is varying in urgency depending on items. i think BP fees, churn analysis + txn graph modeling, and the monero standards are the most important in my mind. almost everything else on the list would be great to tick off the list before another year is up  
+**\<suraeNoether>** this huge list, is varying in urgency depending on items. i think BP fees, churn analysis + txn graph modeling, and the byterub standards are the most important in my mind. almost everything else on the list would be great to tick off the list before another year is up  
 **\<suraeNoether>** but these are \*broad MRL goals.\*  
 **\<rehrar>** \*applause\*  
 **\<suraeNoether>** not a checklist of things I personally feel responsible for and need to get done (which is why multisig wasn't included on this list.) it's a roadmap list  
@@ -125,7 +125,7 @@ author: el00ruobuob / surae
 **\<UkoeHB>** speaking of that  
 **\<UkoeHB>** tadah new chapter  
 **\<sarang>** go on...  
-**\<UkoeHB>** https://www.pdf-archive.com/2018/05/21/zero-to-monero-first-edition-v0-14/zero-to-monero-first-edition-v0-14.pdf  
+**\<UkoeHB>** https://www.pdf-archive.com/2018/05/21/zero-to-byterub-first-edition-v0-14/zero-to-byterub-first-edition-v0-14.pdf  
 **\<suraeNoether>** good! i will read that today too  
 **\<sarang>** multisig!  
 **\<sarang>** excellent UkoeHB  
@@ -139,7 +139,7 @@ author: el00ruobuob / surae
 **\<UkoeHB>** some conventions  
 **\<suraeNoether>** endogenic: it's very loosely ordered by the order that sarang and I thought of them after meeting philkode at green man in london. :D  
 **\<rehrar>** I think we're excited about BPs as an on-chain optimization, and we're looking for off-chain optimizations, but I think keeping a casual look at other opportunities for on-chain optimization is quite important. Not the least reason for doing so is to help quell the BTC/BCH debate from within our halls.  
-**\<UkoeHB>** and a walkthrough of all implications for monero transactions  
+**\<UkoeHB>** and a walkthrough of all implications for byterub transactions  
 **\<endogenic>** suraeNoether: kk  
 **\<sarang>** rehrar: totally, but optimizations to the level people \_really\_ want are not immediately forthcoming  
 **\<suraeNoether>** rehrar: one of the items on my list is "sublinear ring signatures," but because of this: we need to write a technical note to the community on why we don't intend on pursuing \*that route\* of on-chain optimizations.  
@@ -162,17 +162,17 @@ author: el00ruobuob / surae
 **\<sarang>** MRL: ruining everything since 20xx  
 **\<rehrar>** "a social/technical/something else attack"  
 **\<rehrar>** that's going on the t shrit  
-**\<suraeNoether>** UkoeHB: what page should i read that on, and are you comfortable with us using a lot of your document for the monero standards? (i've asked before but I want to verify)  
+**\<suraeNoether>** UkoeHB: what page should i read that on, and are you comfortable with us using a lot of your document for the byterub standards? (i've asked before but I want to verify)  
 **\<rehrar>** suraeNoether and/or sarang can these MRL roadmap goals be sent to me ASAP. I'd like to make a little simple graphic to share with the community.  
 **\<sarang>** Sure we'll work them up into something more formal on GitHub  
 **\<rehrar>** as well, anything that has been completed in the past year should go on the roadmap section of the website  
 **\<sarang>** agreed  
 **\<rehrar>** which desperately needs updating :P  
-**\<rehrar>** https://getmonero.org/resources/roadmap/  
+**\<rehrar>** https://getbyterub.org/resources/roadmap/  
 **\<sarang>** I'll need to run in about 5-10 min, btw  
 **\<rehrar>** we still in 2017  
 **\<sarang>** suraeNoether: can we talk formal roadmap in about an hour?  
-**\<suraeNoether>** okay, so now that the roadmap discussion is out of the way: I plan on reading about BIP47 today for endogenic, reading sarang's dual output paper with the purdue guys, and reading zero to monero again... and then after I've done those three finite tasks, I'll start reading the criticisms of the musig proof and continuing with multisig. and hten I'm going to write up my FFS for June-July-August because, like  
+**\<suraeNoether>** okay, so now that the roadmap discussion is out of the way: I plan on reading about BIP47 today for endogenic, reading sarang's dual output paper with the purdue guys, and reading zero to byterub again... and then after I've done those three finite tasks, I'll start reading the criticisms of the musig proof and continuing with multisig. and hten I'm going to write up my FFS for June-July-August because, like  
 **\<suraeNoether>** an idiot, i'm off the usual fiscal year again :(   
 **\<suraeNoether>** suraeNoether:   
 **\<suraeNoether>** yes  
@@ -200,14 +200,14 @@ author: el00ruobuob / surae
 **\<rehrar>** ArticMine: by later I mean the profile shots  
 **\<ArticMine>** but one question that came up is verification times  
 **\<ArticMine>** This was a very valid point raised by smooth  
-**\<moneromooo>** performance\_tests show you verification times for various cases. The only thing that I know will change it is Pippenger, if it gets coded.  
+**\<byterubmooo>** performance\_tests show you verification times for various cases. The only thing that I know will change it is Pippenger, if it gets coded.  
 **\<suraeNoether>** ArticMine: yeah, i wanted to do fees proportional to both expected ver time and space, but i feel like someone shot me down when i suggested ms-kB metric  
 **\<suraeNoether>** but i don't recall  
 **\<ArticMine>** It more an understanding on what verification times will be with current tech  
 **\<UkoeHB>** surae the table of contents should have everything. i don't recall you asking, but sure do whatever you want with it :)  
 **\<suraeNoether>** ah, yeah, we'll have to estimate, and it's hardware dependent but the info-theoretic lower bound on the number of operations isn't, and we can use that instead  
 **\<ArticMine>** and this will require the optimizations  
-**\<suraeNoether>** UkoeHB: if you seek peer review publication, we'll have to probably make sure that rights are reserved or blah blah so the monero project doesn't get sued by the publication company for copy-pasting a document you helped write while volunteering at MRL. :P  
+**\<suraeNoether>** UkoeHB: if you seek peer review publication, we'll have to probably make sure that rights are reserved or blah blah so the byterub project doesn't get sued by the publication company for copy-pasting a document you helped write while volunteering at MRL. :P  
 **\<ArticMine>** That is where copy left comes in  
 **\<suraeNoether>** ArticMine: well, the lower bound will be impelmentation-independent. like, "we know we have to check \*at least\* this many group elements, and therefore... " sort of argument  
 **\<UkoeHB>** is there any benefit to getting it peer reviewed?  
@@ -229,7 +229,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** right now it's our attorney calling all his CPA friends and getting shot down it looks like. :P but we will see  
 **\<UkoeHB>** It's to be educational more than anything  
 **\<scoobybejesus>** i snoop around the lounge, so i'll at least be sure to put in my two cents when appropriate  
-**\<UkoeHB>** Learning crypto and monero is haphazard and frustrating with no formal approach  
+**\<UkoeHB>** Learning crypto and byterub is haphazard and frustrating with no formal approach  
 **\<rehrar>** UkoeHB: people can only teach you about "hodling" nowadays  
 **\<suraeNoether>** cool thanks scoobybejesus   
 **\<suraeNoether>** UkoeHB: agreed, and you and me and sarang should chat about textbooks.  

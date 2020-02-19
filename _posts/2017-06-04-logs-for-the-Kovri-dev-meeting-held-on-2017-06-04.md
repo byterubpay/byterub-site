@@ -16,7 +16,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 6. Confirm next meeting date/time  
 **\<anonimal>** Hi  
 **\<moroccanmalinois>** Hi  
-**\<anonimal>** Many crickets today, fluffypony moved monero meeting to next week. Maybe everyone thought kovri meeting was moved too.  
+**\<anonimal>** Many crickets today, fluffypony moved byterub meeting to next week. Maybe everyone thought kovri meeting was moved too.  
 **\<anonimal>** Hi moroccanmalinois  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<anonimal>** RouterInfo, NetDb, I2NP (WIP in fork), cryptopp, HTTP, Reseed and docs work.  
@@ -32,8 +32,8 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** Ok, moving on  
 **\<anonimal>** 3. Status of [96boards.org OpenHours showcase for Kovri / ByteRub](https://github.com/byterubpay/meta/issues/46)  
 **\<rehrar>** Typing  
-**\<rehrar>** Redesigned the getmonero.org custom framework, have semi-started a translation campaign, made a document on how to add and edit pages and translate them, and have done intermittent testing since then, and added a few more languages upon request.  
-**\<anonimal>** Cool cool. How's the monero site coming along so we know when you can do a kovri FFS?  
+**\<rehrar>** Redesigned the getbyterub.org custom framework, have semi-started a translation campaign, made a document on how to add and edit pages and translate them, and have done intermittent testing since then, and added a few more languages upon request.  
+**\<anonimal>** Cool cool. How's the byterub site coming along so we know when you can do a kovri FFS?  
 **\<rehrar>** Leaving Russia tomorrow. Will be a 40 hour process getting home and the past week was spending time with wife's family since don't know when I'll be back.   But pages are being made, and I hope to have it done in less than three weeks.  
 **\<anonimal>** Ok, sounds great. Safe travels.  
 **\<rehrar>** For the Kovri FFS I would like a full list of things desired from me so I can put it in all at once. It'd be best so as not to have "oh wait this too" after funded and started.  
@@ -123,7 +123,7 @@ author: dEBRUYNE / fluffypony
 **\<danielesesta>** our idea was to create a medium with a simple user-friendly UI/UX blogging platform for anyone to use without a big knowledge on how to be aninimous in the web  
 **\<danielesesta>** that can protect them but still deliver  
 **\<anonimal>** Ah, ok, great idea. Sorry, you did say that earlier but now I see what you mean.  
-**\<serhack>** if you wanna help, please contact me, I am a web dev.. I'm building integrations for monero  
+**\<serhack>** if you wanna help, please contact me, I am a web dev.. I'm building integrations for byterub  
 **\<rehrar>** Serhack, I was going to out you in touch with Daniel.  
 **\<rehrar>** I will be making a slack channel soon for web devs.  
 **\<rehrar>** So we can discuss ByteRub/Kovri needs.  
@@ -146,15 +146,15 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** Given that the tasks for Kovri are more varied than just web work, as discussed above, what do you think of me opening a FFS of not necessarily web work and have it be objective based, but an hourly based sort of FFS that I can do a bunch of various tasks (Reddit, Web, Outreach campaign, etc). Whatever Kovri needs basically.  
 **\<anonimal>** danielesesta: otherwise, if someone wants my input, they'll have to keep me apprised because I'm pretty busy. Just an FYI.  
 **\<anonimal>** rehrar: I would advise two separate FFS' then: one for strictly website and one for the other.  
-**\<anonimal>** But then again I'd also ask for fluffy's or luigi's or any monero-dev's input too.  
+**\<anonimal>** But then again I'd also ask for fluffy's or luigi's or any byterub-dev's input too.  
 **\<anonimal>** A general staffer sounds good but I have no idea what everyone else thinks.  
 **\<anonimal>** Ok, we're out of meeting time. Any last thoughts on additional meeting items?  
 **\<rehrar>** Ok. If they're on board with the "general staffer" as you put it, then I'd love to give it a go. There's lots of house keeping to do. :)  
 **\<rehrar>** Nope  
 **\<anonimal>** Ok. 6. Confirm next meeting date/time  
-**\<anonimal>** So, monero's is next week.  
+**\<anonimal>** So, byterub's is next week.  
 **\<anonimal>** But we usually two ours every two weeks.  
-**\<anonimal>** Maybe we'll have a mini-meeting next week after monero's?  
+**\<anonimal>** Maybe we'll have a mini-meeting next week after byterub's?  
 **\<anonimal>** \*do ours  
 **\<anonimal>** Any objections to a meeting next week?  
 **\<moroccanmalinois>** no objection  

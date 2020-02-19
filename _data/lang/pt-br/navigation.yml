@@ -1,6 +1,6 @@
 - title: Início
   subfolderitems:
-  - page: O que é o Monero?
+  - page: O que é o ByteRub?
     url: get-started/what-is-monero
   - page: Usando
     url: get-started/using
@@ -42,7 +42,7 @@
     url: resources/roadmap
   - page: Laboratório de Pesquisa
     url: resources/research-lab
-  - page: Moneropédia
+  - page: ByteRubpédia
     url: resources/moneropedia
   - page: Guias do Usuário
     url: resources/user-guides

@@ -14,11 +14,11 @@ author: dEBRUYNE / fluffypony
 **\<parasew[m]>** hey all! (travelling, so only online for 10more minutes!)  
 **\<nevvton>** Hi all  
 **\<sgp>** 2. Community highlights  
-**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://monero-observer.com/  
-**\<sgp>** I think we will just refer to the Observer from now on, since it covers this section nicely. Make sure to contribute to the FFS https://forum.getmonero.org/8/funding-required/88453/monero-observer-weekly-recap-for-all-things-monero-weekly-newsletter  
+**\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
+**\<sgp>** I think we will just refer to the Observer from now on, since it covers this section nicely. Make sure to contribute to the FFS https://forum.getbyterub.org/8/funding-required/88453/byterub-observer-weekly-recap-for-all-things-byterub-weekly-newsletter  
 **\<ArticMine>** hi  
 **\<rehrar>** Yo yo  
-**\<sgp>** In addition to the Observer, amiuhle’s FFS for Kasisto development is in funding required: https://forum.getmonero.org/8/funding-required/88633/amiuhle-part-time-november-december-kasisto-development-monero-developer-documentation  
+**\<sgp>** In addition to the Observer, amiuhle’s FFS for Kasisto development is in funding required: https://forum.getbyterub.org/8/funding-required/88633/amiuhle-part-time-november-december-kasisto-development-byterub-developer-documentation  
 **\<sgp>** 3. FFS updates  
 **\<serhack>** Oh community meeting! Hi everyone  
 **\<sgp>** (the part about Kasisto was supposed to be under item 3)  
@@ -31,15 +31,15 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Last Saturday, we hosted the first ByteRub Coffee Chat. I want to speak for a few minutes about how it went.  
 **\<sgp>** You can see the GitHub issue here: https://github.com/byterubpay/meta/issues/123  
 **\<sgp>** You can see the video here: https://www.youtube.com/watch?v=EcKgnjqSXpA  
-**\<monerobux>** [ ByteRub Coffee Chat - 2017.10.07 - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ ByteRub Coffee Chat - 2017.10.07 - YouTube ] - www.youtube.com  
 **\<sgp>** The livestreaming did not work as expected. We used Jitsi instead of Hangouts to address several privacy concerns. Jitsi is open-source and has many of the same features as Hangouts, except for some reason I could not get the livestreaming function to work properly the day of the event.  
 **\<sgp>** (before I continue, let's have serhack and msvb-lab talk about their progress if they want)  
 **\<msvb-lab>** sgp: Thanks, we've made some progress on RFC-HWALLET-1.  
 **\<msvb-lab>** Some news about that on the Taga site:  
-**\<msvb-lab>** https://taiga.getmonero.org/project/michael-rfc-hwallet-1-implementation/  
+**\<msvb-lab>** https://taiga.getbyterub.org/project/michael-rfc-hwallet-1-implementation/  
 **\<msvb-lab>** First batch of boards is back from the printer and ready for assembly.  
 **\<msvb-lab>** And I'm writing the terms of the first device preview programme right now.  
-**\<sgp>** Sweet looks awesome! https://taiga.getmonero.org/media/attachments/3/c/c/e/942f59f32ca35f050c2bc8827405a48f991b2ee1bde275fc7bdfaecaa76a/rfchwalnulbrd-1.png  
+**\<sgp>** Sweet looks awesome! https://taiga.getbyterub.org/media/attachments/3/c/c/e/942f59f32ca35f050c2bc8827405a48f991b2ee1bde275fc7bdfaecaa76a/rfchwalnulbrd-1.png  
 **\<msvb-lab>** Anyone interested in that should keep an eye on the project page and probably sign up as a Taiga user.  
 **\<serhack>** Hello guys, a little update by me. I have some news: whmcs estension released. We (I and cryptochangements) started Magento and OpenCart Extensions. I have tried to develop a custom manual payment gateway for shopify.   Thanks everyone.  My project is avaiable on Taiga too.  
 **\<sgp>** Thanks for using Tagia so people can stay updated on the progress  
@@ -68,12 +68,12 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** ...until the email problem is solved.  
 **\<msvb-lab>** Me or another admin will then add you manually, okay?  
 **\<rehrar>** pigeons1[m]: you around?  
-**\<parasew[m]>** just briefly (on plane now) we (riat) are organising a monero-month in december in vienna, including a larger monero-meetup around 13th-17th dec. nevvton will explain more. plan is also to prepare for the ccc monero-assembly in leipzig (which is confirmed!).  
+**\<parasew[m]>** just briefly (on plane now) we (riat) are organising a byterub-month in december in vienna, including a larger byterub-meetup around 13th-17th dec. nevvton will explain more. plan is also to prepare for the ccc byterub-assembly in leipzig (which is confirmed!).  
 **\<rehrar>** He handles server-side stuff for the Mattermost and Taiga. :)  
 **\<serhack>** Cool msvb  
 **\<sgp>** @parasew I have a section later for nevvton to speak a bit about this  
 **\<nevvton>** yes.. I will wait for that!! stay tuned  
-**\<msvb-lab>** https://getmonero.org/community/events/  
+**\<msvb-lab>** https://getbyterub.org/community/events/  
 **\<sgp>** @msvb-lab we can talk about how that page needs to be updated later in the meeting  
 **\<sgp>** because it definitely does  
 **\<vP11>** msvb-lab, I don't think this page receives a lot of updates  
@@ -108,7 +108,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Last Saturday, we hosted the first ByteRub Coffee Chat. I want to speak for a few minutes about how it went.  
 **\<sgp>** You can see the GitHub issue here: https://github.com/byterubpay/meta/issues/123  
 **\<sgp>** You can see the video here: https://www.youtube.com/watch?v=EcKgnjqSXpA  
-**\<monerobux>** [ ByteRub Coffee Chat - 2017.10.07 - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ ByteRub Coffee Chat - 2017.10.07 - YouTube ] - www.youtube.com  
 **\<sgp>** The livestreaming did not work as expected. We used Jitsi instead of Hangouts to address several privacy concerns. Jitsi is open-source and has many of the same features as Hangouts, except for some reason I could not get the livestreaming function to work properly the day of the event.  
 **\<sgp>** I had previously tested it earlier with just two members and it worked.  
 **\<sgp>** In desperation, I quickly set up OBS with the default settings and did a very simple screen-capture. Apparently, the default quality is around 720p, and I should have tweaked with the audio settings more if I had more time. Nevertheless, we have a recording of the event, which in my opinion is better than no recording.  
@@ -141,17 +141,17 @@ author: dEBRUYNE / fluffypony
 **\<nevvton>** hi everyone!!  
 **\<nevvton>** so yeah.. as Matthias introduced me, I am part of riat in Vienna...  
 **\<nevvton>** for those who haven't heard of me, I am working on research topics along with the institute and together with parasew organise all kinds of community meetups  
-**\<nevvton>** for which monero is one of them..  
+**\<nevvton>** for which byterub is one of them..  
 **\<nevvton>** so for our current wrap up, as we have been closely working with  
 **\<nevvton>** we are getting closer to finishing up our this years attendance at 34C3 - CCC event in leipzig  
 **\<nevvton>** so a lot of community talk to mainly their organisers took place and things went quiet well sofa, as one unofficially can announce that it seems to be happening!!  
 **\<msvb-lab>** In case anyone is interested in the 34C3 event, the first round of tickets go on sale 19 October.  
 **\<nevvton>** with regard to the CCC we worked out - as an extension to the former "crypto table" more generell version (see CCC assemblies for more detail) -- to put it in a more broader sense..  
 **\<sgp>** info about the 34c3 https://www.ccc.de/en/updates/2017/34C3-in-leipzig  
-**\<nevvton>** so we aim for a general crypto "atmosphere" which will host kind of like in a relaxed - dedicated area monero community members as well as (for now) bitcoin assembly as well..  
+**\<nevvton>** so we aim for a general crypto "atmosphere" which will host kind of like in a relaxed - dedicated area byterub community members as well as (for now) bitcoin assembly as well..  
 **\<nevvton>** the thing about CCC is, that their organisers are very politically active and thus concerned about crypto-currencies in general. for which it needs some sensible ways and communication for them to accept direct  
 **\<nevvton>** community efforts and support these kind of ideas  
-**\<nevvton>** -- but as we've been getting a hold of two of their old time initiators explaining the concept and that -- as along with the community efforts monero as a movement -- community will be representing and discussing latest efforts in the whole ecosphere of crypto related concepts.. bringing everyonee together  
+**\<nevvton>** -- but as we've been getting a hold of two of their old time initiators explaining the concept and that -- as along with the community efforts byterub as a movement -- community will be representing and discussing latest efforts in the whole ecosphere of crypto related concepts.. bringing everyonee together  
 **\<nevvton>** they found an interest (not feeling instrumntalized in that sense) as- many companies are applying -- and it is hard for them to distinguish  
 **\<nevvton>** so -- things are evolving..  parasew at some later stage will inform you a bit more about the actual things that we can make use of at the conference.  
 **\<nevvton>** but so far as I am informed. we will be given a dedicated space, also a lot of fun is pre-programmed, as we have friendly people involved in Leipzig (this years CCC location), Germany - who will help and contribute the whole thing  
@@ -159,17 +159,17 @@ author: dEBRUYNE / fluffypony
 **\<nevvton>** in means of accommodation, we are already trying to organise spaces so that we will be accommodated as well as have a separate location for a party of ourselves if needed..  
 **\<nevvton>** -- second thing is actually prior to the CCC  
 **\<nevvton>** so as RIAT has been hosting various meet ups, even samsunggalaxyplayer held one of his famous :) meet ups in our space in vienna  
-**\<nevvton>** -- we are planning a monero month in september  
+**\<nevvton>** -- we are planning a byterub month in september  
 **\<sgp>** :p  
 **\<nevvton>** -- so a bit of a historic brief.  
 **\<msvb-lab>** Whoever doesn't know what the *** this is about, CCC events are generally quite cool, like Defcon. The 34C3 is their yearly congress attracting about 10-15k folks (kids too) and takes place between the end of year holidays.  
 **\<nevvton>** http:/www.riat.at for those interested to read  
-**\<msvb-lab>** nevvton: I think you mean to write 'we are planning a monero month in December' right?  
+**\<msvb-lab>** nevvton: I think you mean to write 'we are planning a byterub month in December' right?  
 **\<nevvton>** we are running a research residency - where Riat invites various crypto related people to come to Vienna in order to have lectures,  
 **\<nevvton>** -- yes! sryy  
 **\<nevvton>** ... research residency - where people are invited along with all different kind of in depth technologies, so --\> research that work on the very heart of technology.  
-**\<nevvton>** we also care for accommodation at that time.. and parasew and I had in mind for a long time , as we're both very much in love with monero  
-**\<nevvton>** to turn the month of December into a focus month for monero..  
+**\<nevvton>** we also care for accommodation at that time.. and parasew and I had in mind for a long time , as we're both very much in love with byterub  
+**\<nevvton>** to turn the month of December into a focus month for byterub..  
 **\<nevvton>** wrapping up things that all of us took efforts upon, discuss future (upcoming) trends etc.. as to say we would like people to come to vienna  
 **\<nevvton>** and turn it into a session, from 13th to 17th - with talks, lectures, workshops...  
 **\<serhack>** We should do something in christmas  
@@ -183,16 +183,16 @@ author: dEBRUYNE / fluffypony
 **\<nevvton>** (puh' my fingers..)  
 **\<msvb-lab>** nevvton: Some folks travelling from far need a lot of time before the 13-17 meeting to decide.  
 **\<nevvton>** generally -- just for more adequate info -- of course we can help finding a cheap fare to host people here.. (we have some community run beds) so -- in order to not have expenses explode..  
-**\<msvb-lab>** Maybe we should already promote the 'ByteRub December' meeting(s) on events.getmonero.org or whatever that page is.  
+**\<msvb-lab>** Maybe we should already promote the 'ByteRub December' meeting(s) on events.getbyterub.org or whatever that page is.  
 **\<nevvton>** yes..  
 **\<nevvton>** thats what parasew also encouraged.. would be great to have an update on the event site  
 **\<msvb-lab>** I'm already planning on being there and will buy my train ticket once December comes online at the ticket office.  
 **\<msvb-lab>** 13-17 that is...  
 **\<nevvton>** -- also in means of graphics for CCC : I am already working on it..  
-**\<cryptochangement>** isnt there an events page on getmonero that could use some love anyways?  
+**\<cryptochangement>** isnt there an events page on getbyterub that could use some love anyways?  
 **\<rehrar>** scroll up  
 **\<nevvton>** if anyone would want to get earlier in December or stay longer (for instance until CCC) it is also possible...  
-**\<msvb-lab>** nevvton: Write a bug on the Github byterubpay/monero-site bug tracker to insert the text you want, like describing how to get there and so on.  
+**\<msvb-lab>** nevvton: Write a bug on the Github byterubpay/byterub-site bug tracker to insert the text you want, like describing how to get there and so on.  
 **\<nevvton>** okay.. thats a great idea!!  
 **\<msvb-lab>** Then we can see about doing a coffee table chat live on site and stuff like that...  
 **\<nevvton>** yes  
@@ -202,12 +202,12 @@ author: dEBRUYNE / fluffypony
 **\<nevvton>** (next week or so)  
 **\<sgp>** This is all very exciting. Thanks for your efforts  
 **\<sgp>** Last item: 6. ByteRub Meetup Kit  
-**\<sgp>** Just a brief update. Though my FFS has not yet moved on, I have recently purchased all the materials for the ByteRub Meetup Kit https://forum.getmonero.org/6/ideas/88374/monero-meetup-kit  
+**\<sgp>** Just a brief update. Though my FFS has not yet moved on, I have recently purchased all the materials for the ByteRub Meetup Kit https://forum.getbyterub.org/6/ideas/88374/byterub-meetup-kit  
 **\<sgp>** Each kit will include 100 ByteRub logo stickers, 50 webcam covers with the ByteRub logo, about 2 each of various other community-designed stickers, 50 flyers, and $20 in activity paper wallets.  
 **\<sgp>** The webcam covers are the most expensive part of the kit, but I think they are worth the cost. Here is how they will look: https://i.imgur.com/zu0rDE2.png  
 **\<sgp>** I will create an application for groups who would like a free kit. Expect this around the end of this month, when the webcam covers come in. To simplify things, I prefer to only ship in the US. I can do something later if this is a success  
 **\<ErCiccione>** very nice!  
-**\<cryptochangement>** personally i love the idea of monero webcam covers. it really highlights that monero is about PRIVACY  
+**\<cryptochangement>** personally i love the idea of byterub webcam covers. it really highlights that byterub is about PRIVACY  
 **\<sgp>** Jumping to #8 so we can let people on a tight schedule go:  
 **\<sgp>** 8. Confirm next meeting date/time  
 **\<sgp>** The next meeting will two weeks from today on 28 October at 17:00 UTC. It will be the Saturday before the dev meetings. This meeting time seems to work out for most people.  
@@ -220,7 +220,7 @@ author: dEBRUYNE / fluffypony
 **\<ErCiccione>** it started again the 'hacktoberfest'. This project aim to get people to contribute to open source projects in the month of October.  
 **\<ErCiccione>** more info:https://hacktoberfest.digitalocean.com/  
 **\<ErCiccione>** Basically it's enough to put the label 'hacktoberfest' to issues in github, and they will be listed on the website, where developers from all over the world can see them and contribute.  
-**\<ErCiccione>** This can be very useful for monero, especially for easy/not important issues that might catch somebody's interest. It's enough to put the label on some issues and we might see some developers working on it.Is this interesting? should we propose it to our developers?  
+**\<ErCiccione>** This can be very useful for byterub, especially for easy/not important issues that might catch somebody's interest. It's enough to put the label on some issues and we might see some developers working on it.Is this interesting? should we propose it to our developers?  
 **\<sgp>** I will have to take a look at this  
 **\<sgp>** We should take advantage of it if we can  
 **\<cryptochangement>** more devs getting involved is always good  
@@ -242,7 +242,7 @@ author: dEBRUYNE / fluffypony
 **\<nevvton>** I think it might be a good idea to come up with a doodle or smthg. if more people could come right before we could find out what dates suites best..  
 **\<nevvton>** :)  
 **\<msvb-lab>** serhack: Are you planning to come to Vienna in December?  
-**\<ErCiccione>** msvb-lab: that's a good idea, i will write about this in #monero-dev let's see what they think about it, but we should definitely save the date for next year  
+**\<ErCiccione>** msvb-lab: that's a good idea, i will write about this in #byterub-dev let's see what they think about it, but we should definitely save the date for next year  
 **\<msvb-lab>** We should have this kind of calendar to be onboard Google Summer of Code too, without forgetting and passing it up.  
 **\<sgp>** @rehrar will enough people be ok giving away their addresses?  
 **\<rehrar>** even if it's just you and me sgp \<3  
@@ -261,7 +261,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** serhack: Would be great to hang and hack, don't forget that Austrian christmas markets are really enjoyable and Vienna is a great city.  
 **\<msvb-lab>** Excellent hackerspace there as well, and I'm sure nevvton and parasew are nice hosts.  
 **\<selsta>** msvb-lab: what’s in Vienna?  
-**\<msvb-lab>** selsta: The official announcement will appear on getmonero.org/community/events/  
+**\<msvb-lab>** selsta: The official announcement will appear on getbyterub.org/community/events/  
 **\<msvb-lab>** It is a event being put on by users nevvton and parasew and hosted by RIAT.  
 **\<selsta>** msvb-lab: I live there :p  
 **\<msvb-lab>** Kind of a 'ByteRub December' month long focus session.  

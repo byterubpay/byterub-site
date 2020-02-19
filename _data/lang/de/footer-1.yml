@@ -1,8 +1,8 @@
 - title: Ressourcen
   subfolderitems:
-  - name: Über Monero
+  - name: Über ByteRub
     url: resources/about/
-  - name: Moneropedia
+  - name: ByteRubpedia
     url: resources/moneropedia/
   - name: Anleitungen für Entwickler
     url: resources/developer-guides/
@@ -40,13 +40,13 @@
     url: https://mattermost.getmonero.org/
   - name: Telegram-Chat
     url: https://telegram.me/bitmonero
-- title: Das Monero-Projekt
+- title: Das ByteRub-Projekt
   subfolderitems:
   - name: OpenAlias
     url: https://openalias.org/
   - name: Kovri
     url: https://kovri.io/
-  - name: Monero Research Lab
+  - name: ByteRub Research Lab
     url: resources/research-lab/
-  - name: Monero-Presseunterlagen
+  - name: ByteRub-Presseunterlagen
     url: press-kit

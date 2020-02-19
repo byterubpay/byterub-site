@@ -24,7 +24,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** 9. Any additional meeting items  
 **\<meeting-bot> [anonimal]** 10. Confirm next meeting date/time  
 **\<meeting-bot> [anonimal]** btw, twinget, you are \*all\* relevant to the meeting and you \*ALL\* should be interested.  
-**\<meeting-bot> [anonimal]** Its that kind of attitude that is preventable advancing kovri development within monero.  
+**\<meeting-bot> [anonimal]** Its that kind of attitude that is preventable advancing kovri development within byterub.  
 **\<fluffypony>>** +100  
 **\<meeting-bot> [anonimal]** 1. Greetings  
 **\<meeting-bot> [anonimal]** Hi, I'm here.  
@@ -62,8 +62,8 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** nothing more on 2  
 **\<meeting-bot> [anonimal]** Before 3., did solmar want to formally introduce themself?  
 **\<meeting-bot> [solmar]** sure i can quickly introduce  
-**\<meeting-bot> [solmar]** you guys may have seen me kicking around the various monero-related channels in the past few weeks. monero has peaked great interest in me and moving forward will be quite powerful  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Welcome :)  
+**\<meeting-bot> [solmar]** you guys may have seen me kicking around the various byterub-related channels in the past few weeks. byterub has peaked great interest in me and moving forward will be quite powerful  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Welcome :)  
 **\<meeting-bot> [solmar]** i am switching focus to kovri because of how unmanned the team is but in the next week i would gladly help test ringct code on the testnet  
 **\<meeting-bot> [fluffypony]** +1  
 **\<tewinget>** s/peaked/piqued/ <-- fuck English sometimes  
@@ -77,21 +77,21 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** some of the design decisions in Kovri were influenced by ByteRub, so no getting away from it, ByteRub devs ;)  
 **\<meeting-bot> [anonimal]** Question: WHEN WILL MONERO DEVS START TAKING KOVRI SERIOUSLY?  
 **\<meeting-bot> [anonimal]** 10 months in now since our november 1st meeting,  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Define "taking seriously" ? Send patches ?  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Define "taking seriously" ? Send patches ?  
 **\<tewinget>** anonimal: I take it just as seriously as, say, RingCT, I just haven't had/taken the time to dig into either yet :)  
-**\<meeting-bot> [anonimal]** As a whole, if I could quantify contributions, I'd say kovri is getting ~5% attention to what bitmonero and ecosystem is getting.  
-**\<meeting-bot> [anonimal]** moneromooo: anything.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** OK, fair enough. A new codebase appearing like that is going to be not so easy to jump back and forth for coders. But I hear your point.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** I will try to get into kovri a bit once rct is all done.  
+**\<meeting-bot> [anonimal]** As a whole, if I could quantify contributions, I'd say kovri is getting ~5% attention to what bitbyterub and ecosystem is getting.  
+**\<meeting-bot> [anonimal]** byterubmooo: anything.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** OK, fair enough. A new codebase appearing like that is going to be not so easy to jump back and forth for coders. But I hear your point.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** I will try to get into kovri a bit once rct is all done.  
 **\<meeting-bot> [anonimal]** I understand all the arguments, and I know what sacrifices would need to be made, so I question when and if they will be made.  
-**\<meeting-bot> [anonimal]** Thanks moneromooo.  
+**\<meeting-bot> [anonimal]** Thanks byterubmooo.  
 **\<meeting-bot> [fluffypony]** the easiest way to get hyc involved it for us to use LMDB for storage of something :-P  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** (and feel free to remind me of it if I don't :P)  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Nah, use liblber for network.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** (and feel free to remind me of it if I don't :P)  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Nah, use liblber for network.  
 **\<meeting-bot> [anonimal]** fluffypony: this goes for you too, as we'll see with the remaining agenda items.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Make us fast and secure comms!  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Make us fast and secure comms!  
 **\<tewinget>** fluffypony: in the same way as with hyc, the easiest way to get me involved is something needing refactored >\_>  
-**\<meeting-bot> [anonimal]** Anyone else over there have a response beside moneromooo and tewinget?  
+**\<meeting-bot> [anonimal]** Anyone else over there have a response beside byterubmooo and tewinget?  
 **\<meeting-bot> [anonimal]** If not, we should move onto other Q & A.  
 **\<meeting-bot> [fluffypony]** is this still the ticket discussion part?  
 **\<meeting-bot> [anonimal]** Point 3.  
@@ -103,35 +103,35 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** kk  
 **\<meeting-bot> [anonimal]** 4. Discuss #282  
 **\<meeting-bot> [fluffypony]** ok so  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** There was a designer guy asking whether help was wanted. He seemed to be after paid work though.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** There was a designer guy asking whether help was wanted. He seemed to be after paid work though.  
 **\<meeting-bot> [fluffypony]** with the ByteRub logo we used 99designs  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** eherdesign in #monero  
-**\<meeting-bot> [fluffypony]** moneromooo: I looked at his stuff, it wasn't mind-blowing  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** eherdesign in #byterub  
+**\<meeting-bot> [fluffypony]** byterubmooo: I looked at his stuff, it wasn't mind-blowing  
 **\<meeting-bot> [fluffypony]** I'd like to move to use 99designs again  
-**\<meeting-bot> [fluffypony]** ref: https://99designs.com/logo-design/contests/monero-mro-cryptocurrency-logo-design-contest-382486  
+**\<meeting-bot> [fluffypony]** ref: https://99designs.com/logo-design/contests/byterub-mro-cryptocurrency-logo-design-contest-382486  
 **\<meeting-bot> [fluffypony]** I'm happy to put the $500 up for that, and then use the FFS to get it back  
 **\<meeting-bot> [fluffypony]** unless anyone feel we must go for a higher 99designs reward  
 **\<othe>** i would also sponsor that  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** * hopes it won't be some shady looking concept  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** * hopes it won't be some shady looking concept  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** It worked very well for ByteRub so I say yeas with the same package  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** yes  
 **\<meeting-bot> [solmar]** maidsafe also appears to be having success with 99designs so i think it is a good idea  
 **\<meeting-bot> [fluffypony]** ok - I'll set that up now - do we have any ideas as to what we want to convey?  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** Well I have to leave now  
 **\<meeting-bot> [fluffypony]** do we want it to be inspired by the ByteRub logo, like the MRL logo is?  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** The essential qualities of garlic.  
-**\<meeting-bot> [fluffypony]** (ref: https://lab.getmonero.org/logo.png)  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** ^ great logo  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** The essential qualities of garlic.  
+**\<meeting-bot> [fluffypony]** (ref: https://lab.getbyterub.org/logo.png)  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** ^ great logo  
 **\<groeg>** (noob here ...) A podcast I follow have a promo code för 99designs. Interesting?  
 **\<meeting-bot> [fluffypony]** groeg: yes plz, can you PM it to me?  
 **\<cjd>** you'll want to pm it to fluffypony, not to the bot  
 **\<cjd>** he's in this irc  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Actually... you could rotate the ByteRub logo 90% clockwise and arrange colors a bit so it looks like a K. With kind of a hidden M.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Actually... you could rotate the ByteRub logo 90% clockwise and arrange colors a bit so it looks like a K. With kind of a hidden M.  
 **\<groeg>** newbie using IRC, looking up how to pm ...  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** groeg: /query NICKHERE  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** groeg: /query NICKHERE  
 **\<meeting-bot> [fluffypony]** thanks groeg, got it  
 **\<meeting-bot> [solmar]** conveying a "veil"-ish esque style to it could be interesting, since kovri means veil in esperanto afaik  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** 90 degrees, not %, of course -\_-  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** 90 degrees, not %, of course -\_-  
 **\<meeting-bot> [fluffypony]** solmar that's pretty much what I was thinking, something along the lines of a network, but it's private  
 **\<meeting-bot> [fluffypony]** or something  
 **\<meeting-bot> [fluffypony]** doesn't have to be a "veil" in the literal sense  
@@ -140,7 +140,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [solmar]** ya exactly  
 **\<meeting-bot> [anonimal]** Sorry, unexpected AFK emergency, unavoidable.  
 **\<meeting-bot> * anonimal** reading  
-**\<meeting-bot> [anonimal]** moneromooo: cool idea, maybe someone can run with that.  
+**\<meeting-bot> [anonimal]** byterubmooo: cool idea, maybe someone can run with that.  
 **\<meeting-bot> [fluffypony]** anonimal: the rotated K thing?  
 **\<meeting-bot> [fluffypony]** I can suggest that in the 99designs description  
 **\<meeting-bot> [anonimal]** Yeah, but maybe not literally, just an artistic motive I guess.  
@@ -184,7 +184,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** I've registered the channels and am idling.  
 **\<meeting-bot> [fluffypony]** ok so  
 **\<meeting-bot> [fluffypony]** are we happy running this under the core relay and not the community relay?  
-**\<meeting-bot> [anonimal]** By community you mean the one in #monero/#monero-dev?  
+**\<meeting-bot> [anonimal]** By community you mean the one in #byterub/#byterub-dev?  
 **\<meeting-bot> [fluffypony]** the community one is the one that needmoney90 runs, to Slack / Telegram etc.  
 **\<meeting-bot> [fluffypony]** the core one is i2p-relay  
 **\<meeting-bot> [fluffypony]** anonimal: is there a #tahoe-lafs on OFTC?  
@@ -197,14 +197,14 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** So this would be for i2p-relay?  
 **\<meeting-bot> * anonimal** so many relays, so confused  
 **\<meeting-bot> [fluffypony]** lol  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** What's #tahoe-lafs relation with kovri btw ?  
-**\<meeting-bot> [anonimal]** moneromooo: Nothing really aside from an i2p plugin available to use with tahoe-lafs, AFAIK  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** What's #tahoe-lafs relation with kovri btw ?  
+**\<meeting-bot> [anonimal]** byterubmooo: Nothing really aside from an i2p plugin available to use with tahoe-lafs, AFAIK  
 **\<meeting-bot> [anonimal]** fluffypony: if you're doing it right now, I'll wait.  
-**\<meeting-bot> [fluffypony]** moneromooo: they asked me to run a relay, as their relay has disappeared  
+**\<meeting-bot> [fluffypony]** byterubmooo: they asked me to run a relay, as their relay has disappeared  
 **\<meeting-bot> [anonimal]** Damn, it's been an hour. Do we continue?  
 **\<meeting-bot> [fluffypony]** yes - we started late  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** I think it's mostly up to you, the main kovri person.  
-**\<meeting-bot> * anonimal** didn't want to stop on necessary bitmonero business  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** I think it's mostly up to you, the main kovri person.  
+**\<meeting-bot> * anonimal** didn't want to stop on necessary bitbyterub business  
 **\<meeting-bot> [anonimal]** fluffypony: do you have to restart the relay? Is #226 resolved?  
 **\<meeting-bot> [fluffypony]** the bouncer is connected  
 **\<meeting-bot> [fluffypony]** sec  
@@ -222,25 +222,25 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Hmm, tricky.  
 **\<meeting-bot> [fluffypony]** sorry internet is slow  
 **\<meeting-bot> [fluffypony]** ok so  
-**\<meeting-bot> [fluffypony]** the moneroworld instance is up  
-**\<meeting-bot> [anonimal]** https://social.moneroworld.com went online but admin has not responded to anything in a month  
+**\<meeting-bot> [fluffypony]** the byterubworld instance is up  
+**\<meeting-bot> [anonimal]** https://social.byterubworld.com went online but admin has not responded to anything in a month  
 **\<meeting-bot> [fluffypony]** hmmm  
 **\<meeting-bot> [anonimal]** There were multiple issues, probably still are, that would need to be resolved before we go officially public.  
 **\<meeting-bot> [fluffypony]** ok then I think leave it open  
 **\<meeting-bot> [anonimal]** But it's not kovri-related.  
 **\<meeting-bot> [anonimal]** That's what annoys me. We have a forum post open for it.  
-**\<meeting-bot> [anonimal]** And there's also that /bitmonero ticket open  
+**\<meeting-bot> [anonimal]** And there's also that /bitbyterub ticket open  
 **\<meeting-bot> * anonimal** fetches  
 **\<meeting-bot> [anonimal]** #903  
 **\<DaveyJones>** gingeropolous aint that your site?  
 **\<meeting-bot> [fluffypony]** anonimal: do we want a common gnu-social for the two?  
 **\<meeting-bot> [fluffypony]** or separate?  
 **\<gingeropolous>** wut?  
-**\<meeting-bot> [anonimal]** I thought it would be an umbrella instance, more of a 'pro-decentralization' initiative not specific to kovri or bitmonero.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** https://social.moneroworld.com  <-  your site ?  
+**\<meeting-bot> [anonimal]** I thought it would be an umbrella instance, more of a 'pro-decentralization' initiative not specific to kovri or bitbyterub.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** https://social.byterubworld.com  <-  your site ?  
 **\<gingeropolous>** oh, DaveyJones , no... i just pay for the domain name and put it on afraid.org so anyone can create subdomains for free  
 **\<meeting-bot> [anonimal]** I've already signed up for @kovri and @anonimal at quitter.se in case this issue was never resolved.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Oh, that's nice idea.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Oh, that's nice idea.  
 **\<meeting-bot> [fluffypony]** ok  
 **\<meeting-bot> [fluffypony]** let's leave it open and prod the guy again  
 **\<meeting-bot> [fluffypony]** if we hear nothing by next dev meeting we re-host from scratch  

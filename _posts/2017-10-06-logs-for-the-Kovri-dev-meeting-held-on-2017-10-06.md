@@ -46,7 +46,7 @@ author: dEBRUYNE / fluffypony
 **\<erciccione\_[m]>** @rehrar i'm gonna make the italian translation of the article as soon as i get my stuff back (moving home)  
 **\<anonimal>** rehrar: Yes, I just mentioned woodyjon. He's also working on the few bits in kovri-site?  
 **\<anonimal>** erciccione\_[m]: great  
-**\<rehrar>** There was a second article featuring anonimal from BTC Manager a bit ago, and anyone is free to translate it. There is a repo set up at https://GitHub.com/rehrar/monero-translations  
+**\<rehrar>** There was a second article featuring anonimal from BTC Manager a bit ago, and anyone is free to translate it. There is a repo set up at https://GitHub.com/rehrar/byterub-translations  
 **\<anonimal>** 3. Contributor FFS check-in / status  
 **\<rehrar>** Yeah. Woodyjon is making quick work of the site.  
 **\<MoroccanMalinois>** Nothing new for me  

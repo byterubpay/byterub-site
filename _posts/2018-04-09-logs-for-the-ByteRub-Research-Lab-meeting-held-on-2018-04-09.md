@@ -57,7 +57,7 @@ author: el00ruobuob / surae
 **\<sarang>** sexcellent  
 **\<suraeNoether>** oh, also, the first board meeting of MAGIC is being held at the end of this month, April 27 in denver. the board members (minus one) are all going to be there: me, sarang, my wife, rehrar, and sgp. if anyone happens to be in the area, feel free to lmk and we can all go out to lunch or whatever  
 **\<sarang>** looking forward to it  
-**\<koe>** btw, I finished rewriting that monero report. would anyone mind reviewing it? https://github.com/UkoeHB/ByteRub-RCT-report  
+**\<koe>** btw, I finished rewriting that byterub report. would anyone mind reviewing it? https://github.com/UkoeHB/ByteRub-RCT-report  
 **\<rehrar>** creepy  
 **\<suraeNoether>** koe great, i will try to read through it this week  
 **\<koe>** cool thanks suraeNoether :)  
@@ -71,7 +71,7 @@ author: el00ruobuob / surae
 **\<koe>** there were some theoretical errors, i reworked the notation scheme, added subaddresses and a summary chapter, and generally revamped everything to communicate better  
 **\<sarang>** nice!  
 **\<koe>** er summary section not chapter  
-**\<sarang>** Funding is open for IEEE workshop later this month: https://forum.getmonero.org/8/funding-required/90165/noether-brothers-ieee-workshop  
+**\<sarang>** Funding is open for IEEE workshop later this month: https://forum.getbyterub.org/8/funding-required/90165/noether-brothers-ieee-workshop  
 **\<rehrar>** sarang were you planning on funding for Defcon?  
 **\<koe>** and about 30-40 footnotes trying to explain eveyrthing to laymen  
 **\<sarang>** rehrar: I wasn't sure what the overall funding plan for DEF CON was  
@@ -109,9 +109,9 @@ author: el00ruobuob / surae
 **\<sarang>** we now use either bos-coster or straus  
 **\<sarang>** these operations are also really only relevant if you bring a new node up and need to process the whole chain going forward  
 **\<sarang>** the nice part is they're general and not BP specific  
-**\<moneromooo>** Aggregated verification is relevant for keeping up with new blocks too.  
-**\<sarang>** moneromooo: true, but less of a bottleneck  
-**\<sarang>** also thanks to moneromooo for doing the codebase integrations for the optimizations so far  
+**\<byterubmooo>** Aggregated verification is relevant for keeping up with new blocks too.  
+**\<sarang>** byterubmooo: true, but less of a bottleneck  
+**\<sarang>** also thanks to byterubmooo for doing the codebase integrations for the optimizations so far  
 **\<suraeNoether>** sarang for sure i will real soon  
 **\<suraeNoether>** so this is really interesting  
 **\<suraeNoether>** so, the PMF for these distributions is highly unimodal and very ... spikey. low variance, heavy tails. it's like there's a step function at a critical depth in a tree. before the step, poison outputs are rare, and after the step, poison outputs are super common. very very helpful property  
@@ -134,7 +134,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** UkoeHB: the maximum anonymity set is trivial: keep churning forever and don't stop  
 **\<suraeNoether>** who knows if that'll happen any time soon, though  
 **\<gingeropolous>** ok, so in the absence of mathemagic , is there a proposal for a fixed ringsize for v8 fork?  
-**\<suraeNoether>** there are more clever statistical tricks that could be used to link monero transactions, though, this is simply an eyeball metric  
+**\<suraeNoether>** there are more clever statistical tricks that could be used to link byterub transactions, though, this is simply an eyeball metric  
 **\<UkoeHB>** maybe: 'makes a churner indistinguishable from most unrelated people'?  
 **\<suraeNoether>** gingeropolous: to fix ring size? i always advocate it. a formal proposal? not really, not yet  
 **\<suraeNoether>** UkoeHB: well, i don't necessarily think that's a good description either. i said what I meant: if you churn this amount, the attacker is more likely to see a decoy poison output appear in the transaction history before the true spender. whether that translates into indistinguishability from an innocent spender is a very different animal...  

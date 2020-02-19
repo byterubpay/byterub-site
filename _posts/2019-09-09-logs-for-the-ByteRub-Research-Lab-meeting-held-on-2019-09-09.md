@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-09-09
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-09-09
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -13,7 +13,7 @@ author: el00ruobuob / sarang
 **\<ArticMine>** Hi  
 **\<xmrmatterbridge> \<worriedrise>** Hello  
 **\<sarang>** For our ROUNDTABLE, I can go first  
-**\<sarang>** A meta-note is that my next funding request needs feedback to determine if/when it should be opened: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/96  
+**\<sarang>** A meta-note is that my next funding request needs feedback to determine if/when it should be opened: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/96  
 **\<sarang>** Aside from that, I've been working on inner-product proofs from IACR 944, which I know kenshamir[m] has also been working on  
 **\<sarang>** Some neat efficiency things going on with those: https://github.com/SarangNoether/skunkworks/tree/944-ipa-nozk/ipa-nozk  
 **\<sarang>** I've received plenty of edits/feedback to get the CLSAG paper submitted by its deadline  
@@ -35,9 +35,9 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** that's pretty much it so far; i have a stack of papers i've annihilated in the past few weeks, ranging from BOLT to bilinear pairings papers, but a lot of it has been background reading  
 **\<sarang>** All right, we can also do QUESTIONS now  
 **\<sarang>** suraeNoether: sounded from earlier like the PoKoS would likely require pairing operations?  
-**\<mikerah>** I have a question. A few weeks back, I came on here asking about minimal smart contracts. I'm still doing some thinking about this. It doesn't seem like monero has any form of storage. Is this correct?  
+**\<mikerah>** I have a question. A few weeks back, I came on here asking about minimal smart contracts. I'm still doing some thinking about this. It doesn't seem like byterub has any form of storage. Is this correct?  
 **\<sarang>** What do you mean by storage?  
-**\<suraeNoether>** yeah, all the foundational stuff i've found ranges from "easy" to "moderate" in the pairings setting, but has zero solutions at all for the DL setting. so i'm looking sort of into how to solve some of these problems in the DL setting. If i make progress on that front, it'd be of independent interest to the larger research community \*AND\* it would allow for some weeeeird stuff in Monero  
+**\<suraeNoether>** yeah, all the foundational stuff i've found ranges from "easy" to "moderate" in the pairings setting, but has zero solutions at all for the DL setting. so i'm looking sort of into how to solve some of these problems in the DL setting. If i make progress on that front, it'd be of independent interest to the larger research community \*AND\* it would allow for some weeeeird stuff in ByteRub  
 **\<kenshamir[m]>** suraeNoether: I was reading the bulletin and saw this issue: "Tech note/MRL bulletin on placing STARKs inside bulletproofs"  
 **\<kenshamir[m]>** Is there anymore information regarding this?  
 **\<kenshamir[m]>** Issue: 43  
@@ -80,7 +80,7 @@ author: el00ruobuob / sarang
 **\<kenshamir[m]>** For the record, I think previously I mentioned 944 modifying bulletproofs inner product proof�, but bulletproofs is an inner product argument� also  
 **\<kenshamir[m]>** Oh right  
 **\<sarang>** ?  
-**\<kenshamir[m]>** \<sarang "?"> In case I said it in a previous monero meeting, not sure  
+**\<kenshamir[m]>** \<sarang "?"> In case I said it in a previous byterub meeting, not sure  
 **\<sarang>** Yeah, I was playing around with the algebra needed to get the 944 IPA playing nicely with the optimized verification in BP  
 **\<sarang>** righto  
 **\<sarang>** It sounds like the 944 authors did implementations of the BP range proofs with both inner product arguments, and claimed a fairly substantial speedup, if I'm reading correctly  

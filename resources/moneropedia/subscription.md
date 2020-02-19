@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.subscription
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.subscription
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/subscription.md %}
+{% tf resources/byterubpedia/subscription.md %}

@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 Binaries verifiëren Windows (beginner)
 
-Voordat je de Monero-software uitpakt, installeert en gebruikt, moet je de binaire bestanden van Monero verifiëren. Dit is de enige manier om er zeker van te zijn dat je de officiële Monero-binaries gebruikt. Als je een onecht binair bestand ontvangt (bijvoorbeeld via phishing of een *man-in-the-middle attack*), voorkomt deze methode dat je er gebruik van maakt.
+Voordat je de ByteRub-software uitpakt, installeert en gebruikt, moet je de binaire bestanden van ByteRub verifiëren. Dit is de enige manier om er zeker van te zijn dat je de officiële ByteRub-binaries gebruikt. Als je een onecht binair bestand ontvangt (bijvoorbeeld via phishing of een *man-in-the-middle attack*), voorkomt deze methode dat je er gebruik van maakt.
 
-Het Monero-team stelt een cryptografisch ondertekende lijst beschikbaar met alle [SHA256](https://en.wikipedia.org/wiki/SHA-2)-hashes, om de integriteit van de binaries te garanderen. Als er met het gedownloade binaire bestand is geknoeid, levert het een [andere hash](https://nl.wikipedia.org/wiki/Hashfunctie) op dan in de lijst.
+Het ByteRub-team stelt een cryptografisch ondertekende lijst beschikbaar met alle [SHA256](https://en.wikipedia.org/wiki/SHA-2)-hashes, om de integriteit van de binaries te garanderen. Als er met het gedownloade binaire bestand is geknoeid, levert het een [andere hash](https://nl.wikipedia.org/wiki/Hashfunctie) op dan in de lijst.
 
 Dit is een handleiding voor beginners die Windows als besturingssysteem gebruiken. Bijna alle gebruikte software heeft een grafische interface. We leggen stap voor stap uit hoe je de vereiste software installeert, de ondertekeningssleutel importeert, de benodigde bestanden downloadt en uiteindelijk verifieert dat je binaire bestand authentiek is.
 
@@ -92,13 +92,13 @@ Klik op `Finish`.
 
 ![gpg4win installatie voltooien](png/verify_binary_windows_beginner/verify-win_gpg4win-install-finish.png)
 
-## 2. Monero-ondertekeningssleutel
+## 2. ByteRub-ondertekeningssleutel
 
-In dit gedeelte leggen we uit hoe je de Monero-ondertekeningssleutel downloadt, verifieert dat de sleutel correct is en de sleutel importeert in je sleutelring. Het hashbestand wordt gebruikt om te verifiëren dat je binaire bestand cryptografisch is ondertekend met de Monero-ondertekeningssleutel. Om de geldigheid van dit hashbestand te controleren heb je de openbare versie van de ondertekeningssleutel nodig.
+In dit gedeelte leggen we uit hoe je de ByteRub-ondertekeningssleutel downloadt, verifieert dat de sleutel correct is en de sleutel importeert in je sleutelring. Het hashbestand wordt gebruikt om te verifiëren dat je binaire bestand cryptografisch is ondertekend met de ByteRub-ondertekeningssleutel. Om de geldigheid van dit hashbestand te controleren heb je de openbare versie van de ondertekeningssleutel nodig.
 
 ### 2.1. Ondertekeningssleutel downloaden
 
-Ga in een browser naar de [de GPG-sleutel van Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de Monero-binaries ondertekent. Klik met de rechtermuisknop op de pagina en klik vervolgens op `Pagina opslaan als`.
+Ga in een browser naar de [de GPG-sleutel van Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de ByteRub-binaries ondertekent. Klik met de rechtermuisknop op de pagina en klik vervolgens op `Pagina opslaan als`.
 
 ![sleutel ophalen contextmenu](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 
@@ -212,7 +212,7 @@ Als je een **GELDIGE** ondertekening hebt ontvangen, klik je op `Discard` en ga 
 
 ## 4. Binair bestand verifiëren
 
-In dit gedeelte leggen we uit hoe je de Monero-binary downloadt en de authenticiteit verifieert.
+In dit gedeelte leggen we uit hoe je de ByteRub-binary downloadt en de authenticiteit verifieert.
 
 ### 4.1. Binary downloaden
 
@@ -242,7 +242,7 @@ Ga naar de map `Downloads` met de opdracht: `cd Downloads`.
 
 ![binary cmd cd](png/verify_binary_windows_beginner/verify-win_binary-cmd-cd.png)
 
-Bereken de hash van de Monero-binary met de opdracht: `certUtil -hashfile monero-gui-win-x64-v0.11.1.0.zip SHA256` (of vervang `monero-gui-win-x64-v0.11.1.0.zip` door een andere bestandsnaam als je de opdrachtregelversie hebt gedownload).
+Bereken de hash van de ByteRub-binary met de opdracht: `certUtil -hashfile monero-gui-win-x64-v0.11.1.0.zip SHA256` (of vervang `monero-gui-win-x64-v0.11.1.0.zip` door een andere bestandsnaam als je de opdrachtregelversie hebt gedownload).
 
 ![binary cmd certutil](png/verify_binary_windows_beginner/verify-win_binary-cmd-certutil.png)
 
@@ -250,6 +250,6 @@ Vergelijk de hash in de opdrachtregel met de hash in het hashbestand. De hashes 
 
 ![binary hashes vergelijken](png/verify_binary_windows_beginner/verify-win_binary-word-cmd-compare.png)
 
-Als de hash **WEL** overeenkomt, ben je klaar met de verificatie! Dan ben je er zeker van dat de Monero-bestanden die je hebt ontvangen authentiek zijn. Je kunt de bestanden verder op de normale manier uitpakken, installeren en gebruiken.
+Als de hash **WEL** overeenkomt, ben je klaar met de verificatie! Dan ben je er zeker van dat de ByteRub-bestanden die je hebt ontvangen authentiek zijn. Je kunt de bestanden verder op de normale manier uitpakken, installeren en gebruiken.
 
-**GA NIET VERDER** als de hash **NIET** overeenkomt. Verwijder dan de Monero-binary uit de map `Downloads` en ga terug naar [paragraaf 4.1](#41-download-binary).
+**GA NIET VERDER** als de hash **NIET** overeenkomt. Verwijder dan de ByteRub-binary uit de map `Downloads` en ga terug naar [paragraaf 4.1](#41-download-binary).

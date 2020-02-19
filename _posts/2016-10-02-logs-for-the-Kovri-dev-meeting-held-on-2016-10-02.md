@@ -8,7 +8,7 @@ author: dEBRUYNE / fluffypony
 
 ### Overview
 
-An overview [can be found on Hello ByteRub](https://hellomonero.com/article/monero-and-kovri-dev-meeting-note-highlights-2016-10-02)
+An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byterub-and-kovri-dev-meeting-note-highlights-2016-10-02)
 
 ### Logs
 
@@ -19,12 +19,12 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<meeting-bot> [anonimal]** 4. "Kovri Garlic Router Project" + logo  
 **\<meeting-bot> [anonimal]** 5. #46  
 **\<meeting-bot> [anonimal]** 6. #337 https://geti2p.net/en/docs/naming  
-**\<meeting-bot> [anonimal]** 7. API discussion with `#monero-dev` (#350 #351)  
+**\<meeting-bot> [anonimal]** 7. API discussion with `#byterub-dev` (#350 #351)  
 **\<meeting-bot> [anonimal]** 8. Code + ticket discussion / Q & A  
 **\<meeting-bot> [anonimal]** 9. Any additional meeting items  
 **\<meeting-bot> [anonimal]** 10. Confirm next meeting date/time  
 **\<meeting-bot> [anonimal]** 1. Greetings  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** UDP meeting  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** UDP meeting  
 **\<meeting-bot> [anonimal]** Hi  
 **\<meeting-bot> [EinMByte]** Hi  
 **\<meeting-bot> [anonimal]** 2. Brief review of what's been completed since the previous meeting  
@@ -167,15 +167,15 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<meeting-bot> [anonimal]** pero: why does a6 look so fat?  
 **\<pero>** shouldn't be that difficult to throw up exo2 versions of lato variants in the future  
 **\<pero>** in case that's still up for debatable  
-**\<meeting-bot> [anonimal]** EinMByte that's up to moneromooo because I really don't think anyone else there is interested in API chat (afaict)  
+**\<meeting-bot> [anonimal]** EinMByte that's up to byterubmooo because I really don't think anyone else there is interested in API chat (afaict)  
 **\<pero>** because it is fat :P  
 **\<patthehuman>** yb  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** I have to leave  
 **\<patthehuman> im interested in api cha  
-**\<endogenic>** maybe we should have a #monero-design? :)  
+**\<endogenic>** maybe we should have a #byterub-design? :)  
 **\<meeting-bot> [anonimal]** EinMByte if we don't decide soon, website doesn't get done  
 **\<pero>** i went with a heavier weight for that variant arbitrarily  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** I have no particular wish about that, don't mind me.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** I have no particular wish about that, don't mind me.  
 **\<fluffypony>** let's move ahead  
 **\<fluffypony>** the logo already took up the entire last meeting  
 **\<meeting-bot> [anonimal]** 3 minutes  
@@ -209,7 +209,7 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<patthehuman> ok  
 **\<fluffypony>** some of it was non-obvious until we had a new dep and composer wrecked everything  
 **\<patthehuman>** ill be around if you need help  
-**\<meeting-bot> [EinMByte]** Let's not discuss the monero forum here  
+**\<meeting-bot> [EinMByte]** Let's not discuss the byterub forum here  
 **\<patthehuman>** php7 wrecked a lot of my shit at work so ive been down this path  
 **\<patthehuman>** sure  
 **\<meeting-bot> [anonimal]** fluffypony: should EinMByte and I not ask for ETA for website?  
@@ -277,117 +277,117 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<fluffypony>** I think it's all been addressed  
 **\<meeting-bot> [EinMByte]** Can you create the issue? If so, let's move on to 7  
 **\<meeting-bot> [anonimal]** Done, #385  
-**\<meeting-bot> [anonimal]** 7. API discussion with #monero-dev (#350 #351)  
+**\<meeting-bot> [anonimal]** 7. API discussion with #byterub-dev (#350 #351)  
 **\<meeting-bot> [EinMByte]** ByteRub developers here?  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Yes  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Yes  
 **\<meeting-bot> [EinMByte]** What I mainly want is a clear set of requirements for the API  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Oh I see. Oh. Hmm.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Oh I see. Oh. Hmm.  
 **\<fluffypony>** yes  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Well, I'm not very much acquainted with the way CN P2P works in the first place...  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Well, I'm not very much acquainted with the way CN P2P works in the first place...  
 **\<meeting-bot> [EinMByte]** e.g. do you want to use streaming, I2NP directly, datagrams...?  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** It's all TCP, with a simple HTTP server at hte moment.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** It's all TCP, with a simple HTTP server at hte moment.  
 **\<meeting-bot> [Zenified]** LMDB is the the real deal  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Doesn't mean it has to stay that way though.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Doesn't mean it has to stay that way though.  
 **\<meeting-bot> [EinMByte]** So you need connections? Probably streaming then  
-**\<meeting-bot> [anonimal]** Question: how is monero-core currently talking with monerod?  
+**\<meeting-bot> [anonimal]** Question: how is byterub-core currently talking with byterubd?  
 **\<meeting-bot> [EinMByte]** The main question to ask is whether you need 1) reliability 2) connections  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** fluffypony: did you intend to replace the P2P stuff with 0MQ ?  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** fluffypony: did you intend to replace the P2P stuff with 0MQ ?  
 **\<meeting-bot> [anonimal]** EinMByte I thought we discussed not doing network-based API  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** anonimal: JSON RPC AFAIK.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** anonimal: JSON RPC AFAIK.  
 **\<fluffypony>** anonimal: JSON RPC API, but we're replacing that with 0MQ  
 **\<fluffypony>** but Kovri will serve the p2p layer  
 **\<fluffypony>** not the RPC layer  
-**\<fluffypony>** moneromooo: yes with ZMTP  
+**\<fluffypony>** byterubmooo: yes with ZMTP  
 **\<fluffypony>** http://zmtp.org  
 **\<fluffypony>** maybe we bundle the ZMTP change and Kovri integration together ?  
 **\<meeting-bot> [EinMByte]** anonimal: No, but we need to know what aspects of the API are most important  
 **\<meeting-bot> [EinMByte]** e.g. do we need to focus on making I2NP accessible, or on making streaming accessible  
-**\<meeting-bot> [EinMByte]** Or does monero want to be able to create tunnels, etc.  
-**\<meeting-bot> [anonimal]** I think monero wants something as simple as a SOCKS proxy  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** We need to be able to find peers without knowing their address in advance.  
+**\<meeting-bot> [EinMByte]** Or does byterub want to be able to create tunnels, etc.  
+**\<meeting-bot> [anonimal]** I think byterub wants something as simple as a SOCKS proxy  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** We need to be able to find peers without knowing their address in advance.  
 **\<meeting-bot> [anonimal]** If connection isn't made, tough luck and try again later  
 **\<meeting-bot> [anonimal]** Oh, nevermind then  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** At the moment, this is done by bootstrapping from a seed server.  
-**\<fluffypony>** moneromooo: DNS seeds  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** At the moment, this is done by bootstrapping from a seed server.  
+**\<fluffypony>** byterubmooo: DNS seeds  
 **\<meeting-bot> [EinMByte]** So 0MQ would be TCP-based, so would use streaming  
 **\<fluffypony>** yeah so we can do the same  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** That... might be DNS ? I'm not sure.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** That... might be DNS ? I'm not sure.  
 **\<fluffypony>** we get seed nodes from DNS seeds with hardcoded fallbacks  
 **\<fluffypony>** and then we connect to their .i2p address on the appropriate port  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** And all the DNSSEC or DNScrypt that fluffypony knows about.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** And all the DNSSEC or DNScrypt that fluffypony knows about.  
 **\<fluffypony>** and request peers  
 **\<fluffypony>** and we get a list of .i2p addresses and ports  
 **\<meeting-bot> [EinMByte]** Do you want to create a tunnel and then connect to that, or do you want to have a C++ API to also send messages?  
-**\<meeting-bot> [anonimal]** Has monero-side drawn up any diagrams for these ideas?  
+**\<meeting-bot> [anonimal]** Has byterub-side drawn up any diagrams for these ideas?  
 **\<fluffypony>** anonimal: that's how it currently works, not ideas  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Is there a concept of "multicast", where we could send a query to "whomever it may concern" ?  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Is there a concept of "multicast", where we could send a query to "whomever it may concern" ?  
 **\<meeting-bot> [anonimal]** fluffypony: you currently get a list of .i2p address and ports?  
 **\<fluffypony>** EinMByte: we can do either  
-**\<meeting-bot> [EinMByte]** moneromooo: No, don't think so  
+**\<meeting-bot> [EinMByte]** byterubmooo: No, don't think so  
 **\<fluffypony>** anonimal: we currently get ipv4 addresses, but we'd perform exactly the same function to get i2p-based peers  
-**\<meeting-bot> [EinMByte]** moneromooo: But I can think about multicast in future I2P and even get a proposal going, but it would take years before we actually get it  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** The intent, in this case, would be to request replies from peers that run monero.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** (without having to rely on centralized seeds)  
+**\<meeting-bot> [EinMByte]** byterubmooo: But I can think about multicast in future I2P and even get a proposal going, but it would take years before we actually get it  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** The intent, in this case, would be to request replies from peers that run byterub.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** (without having to rely on centralized seeds)  
 **\<meeting-bot> [EinMByte]** So for DNS, you could use repliable datagrams or streaming.  
-**\<meeting-bot> [anonimal]** EinMByte moneromooo: multicast is mentioned in future work https://geti2p.net/en/docs/how/garlic-routing  
+**\<meeting-bot> [anonimal]** EinMByte byterubmooo: multicast is mentioned in future work https://geti2p.net/en/docs/how/garlic-routing  
 **\<fluffypony>** DNS seed nodes work, I really don't think we need to replace that  
 **\<fluffypony>** but what we would do on first sync is get both ipv4 *and* i2p peers  
 **\<meeting-bot> [EinMByte]** anonimal: Yes, but there's no decent proposal right now. I also need to check out the LS2 proposal, it somewhat relates  
 **\<meeting-bot> [EinMByte]** fluffypony: Ok, assuming you can store I2P addresses in DNS records  
-**\<meeting-bot> [anonimal]** moneromooo: proposals also sit there for years so I wouldn't expect anything to happen anytime soon  
+**\<meeting-bot> [anonimal]** byterubmooo: proposals also sit there for years so I wouldn't expect anything to happen anytime soon  
 **\<fluffypony>** after that a node maintains its own white / black / gray lists, and gets a peerlist every time it connects to a new peer  
 **\<fluffypony>** EinMByte: TXT records :)  
 **\<meeting-bot> [EinMByte]** fluffypony: Ok.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** It's something that seems fairly self contained anyway, so could be changed at a later date.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** It's something that seems fairly self contained anyway, so could be changed at a later date.  
 **\<meeting-bot> [EinMByte]** So you need to decide between 1) use I2P direcly with a C++ API 2) create tunnels using a C++ API and then connect to them with SOCKS or so  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** I don't know the difference between these options.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** I don't know the difference between these options.  
 **\<meeting-bot> [anonimal]** I don't think they need to care about creating tunnels  
 **\<meeting-bot> [EinMByte]** In any case kovri wants to provide the API to do 1  
 **\<fluffypony>** yes - and I'd probably lean towards the C++ API  
 **\<meeting-bot> [anonimal]** They need to know if they can get through or not, that's a given though.  
-**\<meeting-bot> [EinMByte]** So it looks like monero would be using esentially use the streaming API?  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** I'd imagine something that looks like a socket API, just using I2P addresses instead of IP:port :)  
+**\<meeting-bot> [EinMByte]** So it looks like byterub would be using esentially use the streaming API?  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** I'd imagine something that looks like a socket API, just using I2P addresses instead of IP:port :)  
 **\<meeting-bot> [EinMByte]** s/use//  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** By streaming, do you mean TCP ?  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** By streaming, do you mean TCP ?  
 **\<meeting-bot> [EinMByte]** But maybe for DNS you'd also want repliable datagrams  
 **\<meeting-bot> [anonimal]** I can't answer for them until one of them sits down and reads the spec  
-**\<meeting-bot> [EinMByte]** moneromooo: streaming is something that looks a lot like TCP but over I2P  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Then that's what we'd use in a straight port, modulo the seed stuff.  
+**\<meeting-bot> [EinMByte]** byterubmooo: streaming is something that looks a lot like TCP but over I2P  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Then that's what we'd use in a straight port, modulo the seed stuff.  
 **\<meeting-bot> [EinMByte]** Most applications use streaming one way or another  
 **\<meeting-bot> [EinMByte]** I don't know your architecture, but it may be simpler to create a tunnel if you want to route everything to I2P  
 **\<meeting-bot> [EinMByte]** \*through  
-**\<meeting-bot> [anonimal]** fluffypony moneromooo: what were the arugments against using SOCKS proxy?  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** By creating a tunnel, do you mean selecting the hoops directly ?  
+**\<meeting-bot> [anonimal]** fluffypony byterubmooo: what were the arugments against using SOCKS proxy?  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** By creating a tunnel, do you mean selecting the hoops directly ?  
 **\<fluffypony>** no arguments - we have no idea what you'd recommend :)  
 **\<meeting-bot> [anonimal]** EinMByte: KISS  
-**\<meeting-bot> [EinMByte]** moneromooo: using tunnel in the client-like context here, like a local SOCKS proxy which delivers to a dedicated I2P endpoint  
-**\<meeting-bot> [anonimal]** monero: we have to meet half-way somehow. I'll try to dig into more monero if you guys can dig into more kovri.  
+**\<meeting-bot> [EinMByte]** byterubmooo: using tunnel in the client-like context here, like a local SOCKS proxy which delivers to a dedicated I2P endpoint  
+**\<meeting-bot> [anonimal]** byterub: we have to meet half-way somehow. I'll try to dig into more byterub if you guys can dig into more kovri.  
 **\<meeting-bot> [EinMByte]** SOCKS seems overly complicaed  
 **\<meeting-bot> [EinMByte]** \*complicated  
 **\<meeting-bot> [anonimal]** IMHO, we should be more on a level playing field at least term wise by now.  
 **\<fluffypony>** anonimal: we'll implement whatever you guys recommend  
 **\<meeting-bot> [EinMByte]** If you need many connections, you can't use the "create a local SOCKS proxy" or so  
 **\<meeting-bot> [anonimal]** EinMByte: how so? In terms of providing useful feedback and control, yes.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** We need several, yes. They're fairly long term. Some will go down, and will be replaced.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** We need several, yes. They're fairly long term. Some will go down, and will be replaced.  
 **\<meeting-bot> [EinMByte]** Then it would be a lot easier to create tunnels (which use e.g. the streaming protocol) using the C++ API  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Both directions, btw. No client/server.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Both directions, btw. No client/server.  
 **\<meeting-bot> [EinMByte]** Streaming is both ways, sure  
 **\<meeting-bot> [EinMByte]** datagrams can also be (if repliable)  
 **\<meeting-bot> [anonimal]** Ok, so easiest for us is C++ API but is ZMTP worth the extra work?  
 **\<meeting-bot> [EinMByte]** anonimal: I don't think ZMTP matters to us.  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** I'd imagine ZMTP is a layer above, and kovri would be oblivious to it.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** I'd imagine ZMTP is a layer above, and kovri would be oblivious to it.  
 **\<meeting-bot> [anonimal]** Good.  
 **\<meeting-bot> [anonimal]** So streaming or datagrams or both?  
-**\<meeting-bot> [EinMByte]** Question is whether using ZMTP would actually be useful when used above I2P, but I'll leave that to monero devs  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Both, please :)  
+**\<meeting-bot> [EinMByte]** Question is whether using ZMTP would actually be useful when used above I2P, but I'll leave that to byterub devs  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Both, please :)  
 **\<meeting-bot> [EinMByte]** But let's focus on streaming  
 **\<meeting-bot> [EinMByte]** (since most I2P applications currently use streaming)  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** But streaming first, yes. We can hardcode peer ids to start with.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** But streaming first, yes. We can hardcode peer ids to start with.  
 **\<fluffypony>** I guess parts of ZMTP would be useless (eg. end-to-end encryption)  
 **\<meeting-bot> [anonimal]** Ok, C++ API for streaming. That's entirely on us then, for starters.  
-**\<meeting-bot> [anonimal]** Is this written in stone now EinMByte moneromooo fluffypony?  
+**\<meeting-bot> [anonimal]** Is this written in stone now EinMByte byterubmooo fluffypony?  
 **\<meeting-bot> [EinMByte]** Let's say it is and move to 8  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** To the extent I know of how CN uses the network... -_- :D  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** To the extent I know of how CN uses the network... -_- :D  
 **\<fluffypony>** yes  
 **\<meeting-bot> [anonimal]** Yay, big decision step done.  
 **\<yardman>** whats set in stone?  
@@ -398,13 +398,13 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<meeting-bot> [anonimal]** What homework can we all do so our next API meeting is more productive?  
 **\<meeting-bot> [anonimal]** kovri c++ API  
 **\<meeting-bot> [EinMByte]** Design it  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** Well, I have that feeling that the next month or two will be spent on rct performance from my side...  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** Well, I have that feeling that the next month or two will be spent on rct performance from my side...  
 **\<fluffypony>** anonimal: we haven't really focused on our current p2p layer because of the ZMTP plan  
-**\<meeting-bot> [anonimal]** moneromooo: you mentioned I should look at networking code?  
+**\<meeting-bot> [anonimal]** byterubmooo: you mentioned I should look at networking code?  
 **\<yardman>** thanks  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** I didn't, I think. I mentioned I should :D  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** I didn't, I think. I mentioned I should :D  
 **\<meeting-bot> [anonimal]** Oh, lol ok  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** IIRC that p2p code is also kinda new and unfinished.  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** IIRC that p2p code is also kinda new and unfinished.  
 **\<fluffypony>** so I don't know if we should waste much time on analysis of it, or rather look at i2p as a ZMTP transport  
 **\<fluffypony>** which could be a VERY nice generalised solution  
 **\<fluffypony>** that isn't ByteRub-specific  
@@ -426,17 +426,17 @@ An overview [can be found on Hello ByteRub](https://hellomonero.com/article/mone
 **\<meeting-bot> [anonimal]** EinMByte, ok I'll take a look after the meeting.  
 **\<meeting-bot> [EinMByte]** Ok, no additional meeting items from me  
 **\<meeting-bot> [anonimal]** Nor I. fluffypony?  
-**\<meeting-bot> [anonimal]** moneromooo?  
+**\<meeting-bot> [anonimal]** byterubmooo?  
 **\<fluffypony>** nope  
-**\<meeting-bot> [anonimal]** #monero-dev?  
-**\<meeting-bot> [i2p-relay] {-moneromooo}** No  
+**\<meeting-bot> [anonimal]** #byterub-dev?  
+**\<meeting-bot> [i2p-relay] {-byterubmooo}** No  
 **\<meeting-bot> [anonimal]** 10. Confirm next meeting date/time  
 **\<meeting-bot> [anonimal]** Next week or two weeks?  
 **\<meeting-bot> [EinMByte]** 2  
 **\<meeting-bot> [EinMByte]** (if we want the API on the list of topics)  
 **\<fluffypony>** 2 weeks  
 **\<fluffypony>** Oct 16  
-**\<meeting-bot> [anonimal]** Same for #monero-dev?  
+**\<meeting-bot> [anonimal]** Same for #byterub-dev?  
 **\<meeting-bot> [anonimal]** I'd like to coincide  
 **\<meeting-bot> [anonimal]** fluffypony: ^  
 **\<fluffypony>** yes  

@@ -1,6 +1,6 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-Minare con la GUI ufficiale è molto semplice. Se non l'hai ancora fatto, vai sulla <a href="{{site.baseurl}}/downloads/">pagina dei download di Monero</a> e scarica la GUI ufficiale per il tuo sistema operativo. Avvia la GUI e attendi che Monero si sincronizzi con la rete. Dovresti vedere "Connesso" nell'angolo in basso a sinistra.
+Minare con la GUI ufficiale è molto semplice. Se non l'hai ancora fatto, vai sulla <a href="{{site.baseurl}}/downloads/">pagina dei download di ByteRub</a> e scarica la GUI ufficiale per il tuo sistema operativo. Avvia la GUI e attendi che ByteRub si sincronizzi con la rete. Dovresti vedere "Connesso" nell'angolo in basso a sinistra.
 
 <img src="png/solo_mine_GUI/01.PNG" style="width: 600px;"/>
 
@@ -12,6 +12,6 @@ Adesso dovresti avere un'opzione per avviare il mining. Inoltre hai la possibili
 
 <img src="png/solo_mine_GUI/03.PNG" style="width: 600px;"/>
 
-Da come puoi vedere nella parte inferiore dell'immagine, adesso stai minando assieme al resto della rete. In questo esempio il computer sta contribuendo per 23 H/s alla rete Monero. Minare aiuta a mantenere la rete Monero sicura; inoltre con un po' di fortuna potresti ricevere una ricompensa per aver aiutato a proteggere la rete.
+Da come puoi vedere nella parte inferiore dell'immagine, adesso stai minando assieme al resto della rete. In questo esempio il computer sta contribuendo per 23 H/s alla rete ByteRub. Minare aiuta a mantenere la rete ByteRub sicura; inoltre con un po' di fortuna potresti ricevere una ricompensa per aver aiutato a proteggere la rete.
 
 Per smettere di minare è sufficiente cliccare il pulsante "Ferma mining"

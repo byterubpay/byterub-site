@@ -3,16 +3,16 @@
     - name: Gestart op Bitcointalk
       date: 2014-04-18
       status: completed
-    - name: Naam veranderd van Bitmonero in Monero
+    - name: Naam veranderd van Bitmonero in ByteRub
       date: 2014-04-23
       status: completed
     - name: Hersteld van een spamaanval
       date: 2014-09-04
       status: completed
-    - name: Papers 1 en 2 van het Monero Research Lab gepubliceerd
+    - name: Papers 1 en 2 van het ByteRub Research Lab gepubliceerd
       date: 2014-09-12
       status: completed
-    - name: Paper 3 van het Monero Research Lab gepubliceerd
+    - name: Paper 3 van het ByteRub Research Lab gepubliceerd
       date: 2014-09-25
       status: completed
     - name: Versie 0.8.8.6
@@ -20,7 +20,7 @@
       status: completed
 - year: 2015
   accomplishments:
-    - name: Paper 4 van het Monero Research Lab gepubliceerd
+    - name: Paper 4 van het ByteRub Research Lab gepubliceerd
       date: 2015-01-26
       status: completed
 - year: 2016
@@ -28,7 +28,7 @@
     - name: Versie 0.9.0 Hydrogen Helix
       date: 2016-01-01
       status: completed
-    - name: Paper 5 van het Monero Research Lab gepubliceerd
+    - name: Paper 5 van het ByteRub Research Lab gepubliceerd
       date: 2016-02-10
       status: completed
     - name: Netwerkupgrade waardoor minimale ringgrootte van 3 verplicht wordt voor alle transacties
@@ -84,7 +84,7 @@
     - name: Subadressen
       date: Oktober 2017
       status: completed
-    - name: Paper 6 van het Monero Research Lab gepubliceerd
+    - name: Paper 6 van het ByteRub Research Lab gepubliceerd
       date: 2017-10-03
       status: completed
     - name: Versie 0.11.1.0 Helium Hydra
@@ -131,7 +131,7 @@
     - name: Alfa-release van Kovri
       date: 2018-08-01
       status: completed
-    - name: Getmonero.org Moneropedia open for Localization
+    - name: Getmonero.org ByteRubpedia open for Localization
       date: 2018-08-03
       status: completed
     - name: Getmonero.org vertaald in het Arabisch
@@ -155,19 +155,19 @@
     - name: Versie 0.13.0.4 Beryllium Bullet
       date: 2018-10-25
       status: completed
-    - name: Papers 8 en 9 van het Monero Research Lab gepubliceerd
+    - name: Papers 8 en 9 van het ByteRub Research Lab gepubliceerd
       date: 2018-11-01
       status: completed
     - name: GUI Versie 0.13.0.4 Beryllium Bullet
       date: 2018-11-19
       status: completed
-    - name: Paper 7 van het Monero Research Lab gepubliceerd
+    - name: Paper 7 van het ByteRub Research Lab gepubliceerd
       date: 2018-11-26
       status: completed
-    - name: Paper 10 van het Monero Research Lab gepubliceerd
+    - name: Paper 10 van het ByteRub Research Lab gepubliceerd
       date: 2018-12-04
       status: completed
-    - name: Implementation of Monero Messaging System (MMS) to automate multisig wallets information exchange
+    - name: Implementation of ByteRub Messaging System (MMS) to automate multisig wallets information exchange
       date: 2018-12-20
       status: completed
 - year: 2019

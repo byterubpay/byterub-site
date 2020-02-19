@@ -57,7 +57,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  although luigi1111w is using some other nick  
 **\<fluffypony>**  luigi1112 I think  
 **\<luigi1114>**  4  
-**\<moneromooo>**  mario1114  
+**\<byterubmooo>**  mario1114  
 **\<fluffypony>**  lol  
 **\<fluffypony>**  about a year ago we did this using TeamSpeak  
 **\<fluffypony>**  I mean Mumble  
@@ -76,18 +76,18 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<warptangent>**  the format seems to have been working well for kovri too  
 **\<fluffypony>**  the first thing I think we should discuss is the dev branch   
 **\<fluffypony>**  we've fallen back into the habit of merging stuff to master  
-**\<moneromooo>**  That's because bugs  
+**\<byterubmooo>**  That's because bugs  
 **\<fluffypony>**  I know  
 **\<fluffypony>**  we're going to have to do a point release to fix the v1/v2 / stuck transactions bugs  
 **\<fluffypony>**  are there any bug fixes waiting in the wings, or should we do that next week?  
-**\<moneromooo>**  That last commit thing, which I'll have to think about a bit more.  
-**\<moneromooo>**  Also, possibly merging the per-tx bits in lmdb.  
+**\<byterubmooo>**  That last commit thing, which I'll have to think about a bit more.  
+**\<byterubmooo>**  Also, possibly merging the per-tx bits in lmdb.  
 **\<hyc>**  which?  
-**\<moneromooo>**  tx_{unlocks,heights,outputs}  
+**\<byterubmooo>**  tx_{unlocks,heights,outputs}  
 **\<hyc>**  ah  
-**\<moneromooo>**  And output_{keys,amounts,indices,txs}  
+**\<byterubmooo>**  And output_{keys,amounts,indices,txs}  
 **\<hyc>**  DB format change, I don't think that's a bug-fix  
-**\<moneromooo>**  Way more of htose than blocks  
+**\<byterubmooo>**  Way more of htose than blocks  
 **\<fluffypony>**  maybe we need to consider a more generalised approach to format changes   
 **\<fluffypony>**  something like Laravel's migrations  
 **\<fluffypony>**  it'll have to be per-DB-format anyway   
@@ -97,7 +97,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  ok if they're not considered crucial for 0.9.x then we can put them into dev?  
 **\<hyc>**  warptangent: since I've been working on the same thing, I guess I should take a look at your stuff  
 **\<warptangent>**  1. berkeleydb support for importer - almost ready, some argument usage cleanup  
-**\<moneromooo>**  Once I re-merged then  
+**\<byterubmooo>**  Once I re-merged then  
 **\<hyc>**  but I don't consider anything I'm looking at now as bug-fix  
 **\<fluffypony>**  (this is how we meeting http://i.imgur.com/OR5ZVoI.jpg)  
 **\<warptangent>**  2. finish hf fix for importer - mostly done, pending some cleanup with bdb  
@@ -109,12 +109,12 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<luigi1111>**  how much of a pain is it to change formats?  
 **\<hyc>**  I haven't even looked at dev. no objection from me  
 **\<fluffypony>**  luigi1111w: mostly just requires copying data to a new table and nuking the old one  
-**\<moneromooo>**  Hmm. I have a few patches to czmq, to make things build.  
-**\<moneromooo>**  Not super sure whether it was me being dumb or not though.  
-**\<fluffypony>**  ok well moneromooo, maybe post-bugfix do you want to do the merge from master to dev, and then plonk those patches on?  
+**\<byterubmooo>**  Hmm. I have a few patches to czmq, to make things build.  
+**\<byterubmooo>**  Not super sure whether it was me being dumb or not though.  
+**\<fluffypony>**  ok well byterubmooo, maybe post-bugfix do you want to do the merge from master to dev, and then plonk those patches on?  
 **\<fluffypony>**  I'll get it in the source tree the meantime, and cmake-ify all of the things  
-**\<moneromooo>**  I'll merge yes. Then you can add zmq to the cmake stuff :P Then I'll add my patches if they're still needed.  
-**\<moneromooo>**  Great, ty  
+**\<byterubmooo>**  I'll merge yes. Then you can add zmq to the cmake stuff :P Then I'll add my patches if they're still needed.  
+**\<byterubmooo>**  Great, ty  
 **\<fluffypony>**  great minds think alike  
 **\<fluffypony>**  ok next I'd like us to chat about a style guide  
 **\<fluffypony>**  we've been working on one in Kovri that we can possibly use for ByteRub  
@@ -122,10 +122,10 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<hyc>**  oh, I do have one outstanding - tweak to BlocchainLMDB::get_estimated_batch_size - change batch_safety_factor to get blockchain_import to succeed on 32bit  
 **\<fluffypony>**  not necessary to read the style guide now, just more a general sense of if everyone is comfy with *a* style guide, and if anyone has any particular preferences   
 **\<smooth>**  i have no objection to any reasonable style guide but i do object to re-styling of existing code  
-**\<moneromooo>**  Pages and pages of stuff ? :|  
-**\<moneromooo>**  I object too, if it's only restyling for the sake of it.  
+**\<byterubmooo>**  Pages and pages of stuff ? :|  
+**\<byterubmooo>**  I object too, if it's only restyling for the sake of it.  
 **\<fluffypony>**  ok so more of a restyle-as-you-go   
-**\<moneromooo>**  That massive reindent patch already caused me grief  
+**\<byterubmooo>**  That massive reindent patch already caused me grief  
 **\<fluffypony>**  which is in line with our refactor-as-you-go approach  
 **\<ArticMine>**  Apply the style guide to new code  
 **\<smooth>**  imo the best policy is keep the style on small chages to existing code and new style on new code  
@@ -133,22 +133,22 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<warptangent>**  should we assume from this point on the code is indented like the majority of the code so far - 2 spaces, not tabs, not 4 spaces.  
 **\<hyc>**  agreed  
 **\<fluffypony>**  warptangent: that's the one area where we differ from Kovri, I'd lean towards yes  
-**\<moneromooo>**  I tend to keep the style of whatever I'm hacking on. And I doubt I'll read all that google style guide thing. I'd prefer we use common sense.  
-**\<warptangent>**  moneromooo: style on the current project though, not different styles per file, right?  
-**\<moneromooo>**  Whatever code I'm modifying.  
-**\<moneromooo>**  It causes the least problems.  
-**\<fluffypony>**  moneromooo: don't worry about the Google style guide, the 16 points we've put in for Kovri are more what I was referring to  
+**\<byterubmooo>**  I tend to keep the style of whatever I'm hacking on. And I doubt I'll read all that google style guide thing. I'd prefer we use common sense.  
+**\<warptangent>**  byterubmooo: style on the current project though, not different styles per file, right?  
+**\<byterubmooo>**  Whatever code I'm modifying.  
+**\<byterubmooo>**  It causes the least problems.  
+**\<fluffypony>**  byterubmooo: don't worry about the Google style guide, the 16 points we've put in for Kovri are more what I was referring to  
 **\<warptangent>**  the majority of files are one style in the codebase, with a few that became some kind of hybrid at one point  
-**\<moneromooo>**  Oh OK.  
-**\<moneromooo>**  With that out of the way...  
+**\<byterubmooo>**  Oh OK.  
+**\<byterubmooo>**  With that out of the way...  
 **\<fluffypony>**  ok - everyone happy with that as a general starting point? I can dump those points in and then we can take pull requests on it if anyone wants to refine / change things  
 **\<warptangent>**  yes, seems good  
 **\<hyc>**  I would push harder on "code should go in a .cpp not .h"  
 **\<fluffypony>**  hyc: agreed  
 **\<fluffypony>**  I'll make it clearer  
-**\<fluffypony>**  moneromooo: did you want to raise a point, or were you saying we can move on?  
+**\<fluffypony>**  byterubmooo: did you want to raise a point, or were you saying we can move on?  
 **\<hyc>**  overall it looks sane to me  
-**\<moneromooo>**  I'm good.  
+**\<byterubmooo>**  I'm good.  
 **\<fluffypony>**  ok   
 **\<fluffypony>**  next point is also administrative in nature  
 **\<fluffypony>**  we'd like to adopt the Collective Code Construction Contract that 0MQ uses, as a guide for project administrators and for contributors  
@@ -159,15 +159,15 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  but the aim is to avoid PR-hell where everyone comments on a PR for days and weeks and it never gets merged  
 **\<fluffypony>**  because it's never "perfect"  
 **\<fluffypony>**  so merge, create issues on Github where something is lacking (eg. new feature, little or no tests - create issues for tests)  
-**\<moneromooo>**  This PR-hell problem's never happened, has it ?  
-**\<fluffypony>**  moneromooo: not in ByteRub yet, but Bitcoin is chock-full of it  
+**\<byterubmooo>**  This PR-hell problem's never happened, has it ?  
+**\<fluffypony>**  byterubmooo: not in ByteRub yet, but Bitcoin is chock-full of it  
 **\<gingeropolous>**  ^ this is for dev branch, right?  
-**\<moneromooo>**  I think common sense is again a better thing than going the opposite extreme.  
+**\<byterubmooo>**  I think common sense is again a better thing than going the opposite extreme.  
 **\<fluffypony>**  gingeropolous: this is in general  
 **\<warptangent>**  i haven't read the zeromq document thoroughly, but does it leave room for the common sense aspect?  
-**\<fluffypony>**  moneromooo: the problem is that there are lots of nuanced situations where "common sense" isn't that common :-P  
+**\<fluffypony>**  byterubmooo: the problem is that there are lots of nuanced situations where "common sense" isn't that common :-P  
 **\<smooth>**  i dont think there should be an arbitrary merge policy on master, but it is already stated by me that i dont think anything but tagged releases should go on master  
-**\<moneromooo>**  Well, if it's nuanced, fine.  
+**\<byterubmooo>**  Well, if it's nuanced, fine.  
 **\<fluffypony>**  warptangent: it does, yes  
 **\<fluffypony>**  as explained by Pieter to binaryFate and I last year  
 **\<smooth>**  if the concept of only taggest releases on master is no adopted then i would oppose going even further in the other direction  
@@ -179,12 +179,12 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  anyway what I wanted to say, is that Pieter explained that the reason that you want to merge-all-of-the-things and then revert something bad is that you have a historical record of the bad actor   
 **\<smooth>**  there needs to be a place for bug fix releases though  
 **\<binaryFate>**  I'm with you fluffypony. 0MQ founder/leader feedback on this approach was extremely valuable.  
-**\<moneromooo>**  There's also the potential thing about not being able to use the 0mq version in time for the next 6-month fork. It wasn't exactly usable yet last I hacked on it.  
+**\<byterubmooo>**  There's also the potential thing about not being able to use the 0mq version in time for the next 6-month fork. It wasn't exactly usable yet last I hacked on it.  
 **\<binaryFate>**  Common sense might work now, long term with a higher market cap we'll face same issues as btc  
 **\<binaryFate>**  Where common sense diverges and the code Base ossifies  
 **\<xmrpromotions>**  As a non programmer smooths comment seems like the safer approach. Thank you for clarifying the master vs dev branch issue fluffy. http://rfc.zeromq.org/spec:22 sounded scary as applied to PRs sent to master before dev  
 **\<fluffypony>**  smooth: it doesn't preclude it  
-**\<fluffypony>**  moneromooo: as it stands we're probably going to push the fork date out a little to see if we have enough room to work on RingCT, so that's fine  
+**\<fluffypony>**  byterubmooo: as it stands we're probably going to push the fork date out a little to see if we have enough room to work on RingCT, so that's fine  
 **\<binaryFate>**  What's the envisionned time scale for ringct?  
 **\<smooth>**  the idea of a historical record is good  
 **\<hyc>**  we have similar issues with OpenLDAP - you need 3 branches  
@@ -193,23 +193,23 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<hyc>**  particularly when dev and release are far apart  
 **\<smooth>**  im not actually proposing this because i know it would be a mess, but making a point for the future  
 **\<hyc>**  like now, where dev has 0MQ and release doesn't  
-**\<fluffypony>**  smooth: I agree - moneromooo and I will play around with it next week and make a decision   
-**\<moneromooo>**  Reverting isn't really possible.  
-**\<fluffypony>**  moneromooo: we could drop dev and re-branch  
-**\<moneromooo>**  But one could add ringCT to a new branch based on master.  
+**\<fluffypony>**  smooth: I agree - byterubmooo and I will play around with it next week and make a decision   
+**\<byterubmooo>**  Reverting isn't really possible.  
+**\<fluffypony>**  byterubmooo: we could drop dev and re-branch  
+**\<byterubmooo>**  But one could add ringCT to a new branch based on master.  
 **\<fluffypony>**  if it came to that, I mean  
-**\<moneromooo>**  That'd be a lot of pain. I'd rather not. Much better to hack on master and merge do dev again.  
+**\<byterubmooo>**  That'd be a lot of pain. I'd rather not. Much better to hack on master and merge do dev again.  
 **\<fluffypony>**  ok  
 **\<smooth>**  imo something like zeromq should be developed on a separate branch somewhere, until it is actually usable  
-**\<moneromooo>**  s/on master/on a branch based off master/  
+**\<byterubmooo>**  s/on master/on a branch based off master/  
 **\<fluffypony>**  smooth: it was usable-ish, we might have regressed some in fiddling   
-**\<moneromooo>**  Yes, that.  
+**\<byterubmooo>**  Yes, that.  
 **\<fluffypony>**  anyway - let's evaluate and figure out  
-**\<moneromooo>**  I think I added all missing RPC so it cn be used, just not by people who want it to work without problem.  
-**\<dnaleor>**  **\<fluffypony> moneromooo: as it stands we're probably going to push the fork date out a little to see if we have enough room to work on RingCT, so that's fine <= I welcome this. Just wanted to say that imho it's important to have RingCT active in the september/october hard fork. Carry on. i'm watching  
+**\<byterubmooo>**  I think I added all missing RPC so it cn be used, just not by people who want it to work without problem.  
+**\<dnaleor>**  **\<fluffypony> byterubmooo: as it stands we're probably going to push the fork date out a little to see if we have enough room to work on RingCT, so that's fine <= I welcome this. Just wanted to say that imho it's important to have RingCT active in the september/october hard fork. Carry on. i'm watching  
 **\<hyc>**  doing all new work in dev is fine, but backporting bugfixes to release will become non-trivial as more features are added to dev  
 **\<fluffypony>**  hyc: I guess it depends on the importance of a bug fix  
-**\<moneromooo>**  It looks to me like ring CT is going to need a lot of changes to bitmonerod/CN. September looks very close.  
+**\<byterubmooo>**  It looks to me like ring CT is going to need a lot of changes to bitbyterubd/CN. September looks very close.  
 **\<fluffypony>**  we'll see   
 **\<fluffypony>**  I don't think we need to create a pressure-cooker for it  
 **\<fluffypony>**  ok can I go on?  
@@ -220,7 +220,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  again depends on the nature of the bugfix   
 **\<fluffypony>**  like warptangent's work on BDB and the importer probably aren't critical enough to go into master  
 **\<warptangent>**  the importer works properly when it has the hard fork support though, and that uses the bdb support  
-**\<moneromooo>**  If someone wants to rewrite that hard fork code, btw, you're welcome. I don't like it, and I'm not sure how to improve it.  
+**\<byterubmooo>**  If someone wants to rewrite that hard fork code, btw, you're welcome. I don't like it, and I'm not sure how to improve it.  
 **\<ArticMine>**  My concern is master deviating materially from a quasi stable dev  
 **\<fluffypony>**  ArticMine: something like ringct would have to be done in both master and dev  
 **\<ArticMine>**  So a project based on master would need a major rewrite after a tagged release  
@@ -235,28 +235,28 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  we don't have enough info on the ringct effort or on the state of the dev branch right now anyway  
 **\<binaryFate>**  One thing I miss in discussion is what is master purpose? Do we want to encourage users to compile from it? How is master gonna diverge from tag release between them?  
 **\<ArticMine>**  I agree and lets carefully review the zeromq rfc in the meantime  
-**\<moneromooo>**  I think large things should go to their own branch (ie, ringct). Smaller things can share branches (to dev). Both end up being merged to master when ready.  
+**\<byterubmooo>**  I think large things should go to their own branch (ie, ringct). Smaller things can share branches (to dev). Both end up being merged to master when ready.  
 **\<fluffypony>**  binaryFate: no matter what we say people clone and build master  
 **\<gingeropolous>**  **\<- this guy  
 **\<fluffypony>**  it doesn't matter how much we encourage building a tagged release  
 **\<fluffypony>**  so we made a decision ages ago that master would be stable  
 **\<fluffypony>**  so that anyone pulling and building master doesn't get some hacky, broken branch  
 **\<binaryFate>**  Ok  
-**\<fluffypony>**  moneromooo: I don't know if we want topic branches in the main repo, but perhaps a more generalised "staging" branch, as long as anything going to that is also PRd to dev  
-**\<moneromooo>**  It can be in any repo.  
+**\<fluffypony>**  byterubmooo: I don't know if we want topic branches in the main repo, but perhaps a more generalised "staging" branch, as long as anything going to that is also PRd to dev  
+**\<byterubmooo>**  It can be in any repo.  
 **\<smooth>**  i think not in the main repo is fine  
-**\<moneromooo>**  Like I was hacking on tewinget's branch for a while.  
+**\<byterubmooo>**  Like I was hacking on tewinget's branch for a while.  
 **\<fluffypony>**  yeah that's a good point  
 **\<luigi1111>**  +1  
 **\<fluffypony>**  as long as that person is around and accepting PRs it's perfect  
 **\<warptangent>**  then one big PR to dev when it's ready?  
-**\<moneromooo>**  If we go to a dev/master setup, how does dev get merged to master anyway ?  
+**\<byterubmooo>**  If we go to a dev/master setup, how does dev get merged to master anyway ?  
 **\<warptangent>**  that has worked before, yes  
 **\<hyc>**  yeah, keep main repo relatively clean  
 **\<luigi1111>**  a new feature can get a sort of "lead dev"  
-**\<fluffypony>**  moneromooo: when we release we merge from dev to master and tag master  
+**\<fluffypony>**  byterubmooo: when we release we merge from dev to master and tag master  
 **\<luigi1111>**  and contributers can hack on his repo  
-**\<moneromooo>**  So master becomes a copy of dev at that point ?  
+**\<byterubmooo>**  So master becomes a copy of dev at that point ?  
 **\<fluffypony>**  yes  
 **\<ArticMine>**  Yes but a six month cycle could be too long  
 **\<smooth>**  thats a different issue  
@@ -267,7 +267,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  yeah both  
 **\<hyc>**  feature-based is all that makes sense to me  
 **\<ArticMine>**  The merge to master may need to be more frequent than major fork releases  
-**\<moneromooo>**  feature based, but the rolling hard fork also pulls time based I think.  
+**\<byterubmooo>**  feature based, but the rolling hard fork also pulls time based I think.  
 **\<fluffypony>**  yes  
 **\<binaryFate>**  Those Dev -> Master merges would happen with what kind of tagging? Point fix? Even more frequent?  
 **\<fluffypony>**  binaryFate: depends on how stable dev is  
@@ -281,34 +281,34 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  but I think let's make it the last time that happens  
 **\<fluffypony>**  then we avoid complication  
 **\<warptangent>**  ok  
-**\<moneromooo>**  tbh I'd be tempted to not really care about people building master. If it's said clearly to use a release if you don't know what you're doing, then it's your problem.  
+**\<byterubmooo>**  tbh I'd be tempted to not really care about people building master. If it's said clearly to use a release if you don't know what you're doing, then it's your problem.  
 **\<smooth>**  i agree with ArticMine that we can have releases sooner than 6 months  
 **\<gingeropolous>**  ah ok. so how the 0MQ happened is not how it will be in future  
-**\<binaryFate>**  Agree with moneromooo  
+**\<binaryFate>**  Agree with byterubmooo  
 **\<fluffypony>**  ok guys we're running overtime, so let's drop this for now, we can pick it up again later  
 **\<smooth>**  i think it is simply unnecessary to merge to master  
 **\<smooth>**  er sorry, commit unreleased stuff to master  
-**\<moneromooo>**  I think one of the problems with 0mq is that oranjuice kinda left  
+**\<byterubmooo>**  I think one of the problems with 0mq is that oranjuice kinda left  
 **\<smooth>**  any developer can handle getting the latest stuff from someone ele  
 **\<smooth>**  *somewhere else  
-**\<moneromooo>**  So it jsut had to be merged  
+**\<byterubmooo>**  So it jsut had to be merged  
 **\<ArticMine>**  Let get back to this question at the next meeting  
 **\<fluffypony>**  ok  
 **\<fluffypony>**  last two things   
 **\<smooth>**  yup  
 **\<fluffypony>**  the first is that we have some major efforts coming up, besides ringCT, and things like epee, the 3 (THREE!!!) different logging systems, and a bunch of unused stuff is going to get in the way  
 **\<fluffypony>**  I'd like us to decide whether we want to keep hacking around things  
-**\<moneromooo>**  Does epee really get in the way ?  
+**\<byterubmooo>**  Does epee really get in the way ?  
 **\<fluffypony>**  or if we want to spend the effort now dumping this stuff for things that are easier  
 **\<hyc>**  it makes 32bit builds murder. but if we can abandon 32bit, that problem disappears too  
-**\<moneromooo>**  epee does ?  
+**\<byterubmooo>**  epee does ?  
 **\<hyc>**  yeah  
-**\<fluffypony>**  moneromooo: yes it does; it made QoS an absolute nightmare to do  
+**\<fluffypony>**  byterubmooo: yes it does; it made QoS an absolute nightmare to do  
 **\<fluffypony>**  and it's still not done properly  
-**\<moneromooo>**  We'd have a replace a lot of stuff.  
+**\<byterubmooo>**  We'd have a replace a lot of stuff.  
 **\<ArticMine>**  32bit especially on windows is going to be around for a long time  
 **\<dEBRUYNE>**  + TAILS  
-**\<moneromooo>**  And a lot of somewhat low level stuff.  
+**\<byterubmooo>**  And a lot of somewhat low level stuff.  
 **\<warptangent>**  the multiple logging systems situation is strange, but i don't think it's interfered with current work. is there any knowledge on rfree's likelihood of returning?  
 **\<fluffypony>**  warptangent: low to impossible at the moment  
 **\<fluffypony>**  I mean, we can rip and replace the logging stuff with boost::log  
@@ -316,21 +316,21 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<smooth>**  id be more in favor of specific items like that, done on feature branch  
 **\<fluffypony>**  and the wire protocol can go ZMTP, since we have a 0MQ dep anyway  
 **\<fluffypony>**  eventually we'll get to a point where we're no longer reliant on epee  
-**\<moneromooo>**  I agree with the bit by bit approach.  
+**\<byterubmooo>**  I agree with the bit by bit approach.  
 **\<warptangent>**  that sounds manageable  
 **\<fluffypony>**  also then we'll actually have usable Doxygen docs  
 **\<smooth>**  the thing to bear in mind is this has virtually zero end user benefit, if not actually zero  
 **\<fluffypony>**  yes  
-**\<fluffypony>**  on the flip side, we can plug the GUI in via 0MQ instead of monero-as-a-library  
-**\<moneromooo>**  Well, the benefit is said to be for 32 bit users.  
+**\<fluffypony>**  on the flip side, we can plug the GUI in via 0MQ instead of byterub-as-a-library  
+**\<byterubmooo>**  Well, the benefit is said to be for 32 bit users.  
 **\<fluffypony>**  so we have a shortcut of sorts there  
 **\<fluffypony>**  (in terms of users clamouring for stuff)  
-**\<fluffypony>**  moneromooo: and long-term viability   
+**\<fluffypony>**  byterubmooo: and long-term viability   
 **\<fluffypony>**  we've had potential contributors ask for an architectural doc for the code, and get turned off when there isn't one  
 **\<fluffypony>**  so there's scope to slowly bring the codebase in line  
 **\<smooth>**  i dont believe there is anything about the current code that precludes a GUI. After all, BBR has one with basically the same code.  
 **\<hyc>**  huh.. contributors that are turned off so easily ... I wouldn't expect much use out of them if they stayed  
-**\<moneromooo>**  I was kinda thinking that too...  
+**\<byterubmooo>**  I was kinda thinking that too...  
 **\<fluffypony>**  I guess, but tbh it does make the project seem significantly less mature  
 **\<fluffypony>**  which I guess is fair, it's not even 2 years old  
 **\<gingeropolous>**  less hurdles, more good  

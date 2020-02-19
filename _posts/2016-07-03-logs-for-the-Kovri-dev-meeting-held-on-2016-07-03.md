@@ -21,7 +21,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** 8. Confirm next meeting date/time  
 **\<meeting-bot> [anonimal]** -- 1. Greetings  
 **\<meeting-bot> [anonimal]** Hi  
-**\<moneromooo>** hi  
+**\<byterubmooo>** hi  
 **\<fluffypony>** hi  
 **\<meeting-bot> [anonimal]** I know Ein is irc2p side waiting for me to move on :)  
 **\<meeting-bot> [anonimal]** 2. Brief review of what's been completed since the previous meeting  
@@ -51,7 +51,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Link? What kind of assistance? I'd be happy to help.  
 **\<meeting-bot> [fluffypony]** I'll have to find it and send it to you post-meeting  
 **\<meeting-bot> [anonimal]** Ok. Anything else on 2.?  
-**\<meeting-bot> [fluffypony]** oh found it, nevermind: https://www.reddit.com/r/ByteRub/comments/4qywbx/what_are_moneros_pain_points_marketing_design/d4x34p3  
+**\<meeting-bot> [fluffypony]** oh found it, nevermind: https://www.reddit.com/r/ByteRub/comments/4qywbx/what_are_byterubs_pain_points_marketing_design/d4x34p3  
 **\<meeting-bot> [fluffypony]** nein  
 **\<meeting-bot> [anonimal]** fluffypony: Thanks, I'll look into it later.  
 **\<meeting-bot> [anonimal]** Moving on,  
@@ -60,7 +60,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** EinMByte: will you allow issues tracking within your repo? It would help with this bug we're hunting.  
 **\<meeting-bot> [anonimal]** Oops, old paste, we fixed the bug,  
 **\<meeting-bot> [anonimal]** but are still dealing with related issues.  
-**\<meeting-bot> * anonimal** knows Ein is somewhere, we were chatting elsewhere during the bitmonero meeting  
+**\<meeting-bot> * anonimal** knows Ein is somewhere, we were chatting elsewhere during the bitbyterub meeting  
 **\<meeting-bot> [EinMByte]** Hi  
 **\<meeting-bot> [anonimal]** Maybe he still thinks its the previous meeting...  
 **\<meeting-bot> [anonimal]** Hi  
@@ -160,7 +160,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** hey - we managed to get most ByteRub contributors to GPG sign commits, so it is doable :)  
 **\<meeting-bot> [anonimal]** Great, done.  
 **\<meeting-bot> [anonimal]** While we're on 4., this is off-the-cuff,  
-**\<meeting-bot> [anonimal]** but bitmonero is working with only 1 branch now.  
+**\<meeting-bot> [anonimal]** but bitbyterub is working with only 1 branch now.  
 **\<meeting-bot> [anonimal]** And, C4 kind of dictates that (IIRC).  
 **\<meeting-bot> [anonimal]** So, do we scrap branch development and work solely in master?  
 **\<meeting-bot> [fluffypony]** note that we have a use-case for moving back to the dev branch setup, because people just pull and compile  

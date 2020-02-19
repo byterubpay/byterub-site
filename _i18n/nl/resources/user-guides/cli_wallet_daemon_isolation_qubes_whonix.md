@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # Portemonnee isoleren van node met Qubes en Whonix
 
-Met [Qubes](https://qubes-os.org) en [Whonix](https://whonix.org) kun je een Monero-portemonnee zonder netwerkverbinding uitvoeren op een virtueel systeem, geïsoleerd van de Monero-node, waarvan al het verkeer verplicht via [Tor](https://torproject.org) loopt.
+Met [Qubes](https://qubes-os.org) en [Whonix](https://whonix.org) kun je een ByteRub-portemonnee zonder netwerkverbinding uitvoeren op een virtueel systeem, geïsoleerd van de ByteRub-node, waarvan al het verkeer verplicht via [Tor](https://torproject.org) loopt.
 
 Qubes biedt de flexibiliteit om eenvoudig afzonderlijke virtual machines voor verschillende doeleinden te maken. Eerst maak je een Whonix-werkstation voor de portemonnee, zonder netwerkverbinding. Vervolgens maak je een ander Whonix-werkstation dat je Whonix-gateway gebruikt als NetVM. Voor communicatie tussen de portemonnee en de node kun je gebruik maken van Qubes [qrexec](https://www.qubes-os.org/doc/qrexec3/).
 
@@ -19,7 +19,7 @@ Dit is veiliger dan andere benaderingen, waarbij de RPC van de portemonnee via e
 
 ## 2. In de AppVM `monerod-ws`:
 
-+ Download, verifieer en installeer de Monero-software.
++ Download, verifieer en installeer de ByteRub-software.
 
 ```
 user@host:~$ curl -O "https://downloads.getmonero.org/cli/monero-linux-x64-v0.11.1.0.tar.bz2" -O "{{ site.baseurl }}/downloads/hashes.txt"
@@ -47,7 +47,7 @@ Plak de volgende gegevens:
 
 ```
 [Unit]
-Description=Monero Full Node
+Description=ByteRub Full Node
 After=network.target
 
 [Service]

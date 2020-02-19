@@ -1,6 +1,6 @@
 ---
 layout: user-guide
-title: "Restoring your Monero Wallet"
+title: "Restoring your ByteRub Wallet"
 permalink: /resources/user-guides/restore_account.html
 mainVersion:
   - "1"

@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.paperwallet
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.paperwallet
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/paperwallet.md %}
+{% tf resources/byterubpedia/paperwallet.md %}

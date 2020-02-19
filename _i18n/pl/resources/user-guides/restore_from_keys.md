@@ -25,7 +25,7 @@ W przypadku problemów, uruchomienie funkcji `./monero-wallet-cli --help` wyświ
 
 #### GUI
 
-Uruchom Graficzny Interfejs Użytkownika Monero. Jeśli uruchamiasz go po raz pierwszy, przejdź do następnego kroku, jeśli nie - kliknij `Anuluj`:
+Uruchom Graficzny Interfejs Użytkownika ByteRub. Jeśli uruchamiasz go po raz pierwszy, przejdź do następnego kroku, jeśli nie - kliknij `Anuluj`:
 
 ![cancel opening](png/restore_from_keys/cancel-opening.png)
 

@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Logs for the Community Meeting Held on 2018-09-15
-summary: Community highlights, Forum Funding System updates, Workgroup report, Changelly r/Monero discussion, and miscellaneous
+summary: Community highlights, Forum Funding System updates, Workgroup report, Changelly r/ByteRub discussion, and miscellaneous
 tags: [dev diaries, community, crypto]
 author: el00ruobuob / SamsungGalaxyPlayer
 ---
 
 # Logs  
 
-**\<sgp_>** Welcome to the Monero Community workgroup meeting!  
+**\<sgp_>** Welcome to the ByteRub Community workgroup meeting!  
 **\<sgp_>** https://github.com/byterubpay/meta/issues/273  
-**\<sgp_>**  Monero Community meetings are a discussion place for anything going on in the Monero Community, including other Monero workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
+**\<sgp_>**  ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp_>** 1. Greetings  
 **\<el00ruobuob_[m]>** hello  
 **\<serhack>** Hi :- )  
@@ -20,33 +20,33 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<txmr>** hi  
 **\<sgp_>** welcome all, and thanks for your patience  
 **\<sgp_>**  2. Community highlights  
-**\<sgp_>** The Monero community led the way in reporting a MEGA chrome extension, which had been compromised: https://www.reddit.com/r/Monero/comments/9cx7cc/dont_use_mega_chrome_extension_version_3394/  
-**\<monerobux>** [REDDIT] Don't use MEGA Chrome Extension version 3.39.4 (self.Monero) | 263 points (99.0%) | 98 comments | Posted by gattacus | Created at 2018-09-04 - 16:26:06  
-**\<sgp_>** Monero has seen recent increased adoption on Bisq, a decentralized exchange: https://www.reddit.com/r/Monero/comments/9evf8j/98_of_transactions_on_bisq_are_xmrbtc/  
-**\<monerobux>** [REDDIT] 98% of transactions on Bisq are XMRBTC (https://i.redd.it/0252oqlpakl11.jpg) to r/Monero | 218 points (94.0%) | 82 comments | Posted by geozdr | Created at 2018-09-11 - 07:29:42  
-**\<sgp_>** A Monero community member made another WooCommerce plugin: https://www.reddit.com/r/Monero/comments/9dkwem/i_made_an_open_source_plugin_for_accepting_monero/  
-**\<monerobux>** [REDDIT] I made an open source plugin for accepting Monero XMR on WooCommerce sites (self.Monero) | 173 points (98.0%) | 28 comments | Posted by anticassette | Created at 2018-09-06 - 17:29:44  
-**\<sgp_>** Monero was recently mentioned in a Bitcoin Magazine article: https://bitcoinmagazine.com/articles/battle-privacycoins-why-monero-hard-beat-and-hard-scale/  
+**\<sgp_>** The ByteRub community led the way in reporting a MEGA chrome extension, which had been compromised: https://www.reddit.com/r/ByteRub/comments/9cx7cc/dont_use_mega_chrome_extension_version_3394/  
+**\<byterubbux>** [REDDIT] Don't use MEGA Chrome Extension version 3.39.4 (self.ByteRub) | 263 points (99.0%) | 98 comments | Posted by gattacus | Created at 2018-09-04 - 16:26:06  
+**\<sgp_>** ByteRub has seen recent increased adoption on Bisq, a decentralized exchange: https://www.reddit.com/r/ByteRub/comments/9evf8j/98_of_transactions_on_bisq_are_xmrbtc/  
+**\<byterubbux>** [REDDIT] 98% of transactions on Bisq are XMRBTC (https://i.redd.it/0252oqlpakl11.jpg) to r/ByteRub | 218 points (94.0%) | 82 comments | Posted by geozdr | Created at 2018-09-11 - 07:29:42  
+**\<sgp_>** A ByteRub community member made another WooCommerce plugin: https://www.reddit.com/r/ByteRub/comments/9dkwem/i_made_an_open_source_plugin_for_accepting_byterub/  
+**\<byterubbux>** [REDDIT] I made an open source plugin for accepting ByteRub XMR on WooCommerce sites (self.ByteRub) | 173 points (98.0%) | 28 comments | Posted by anticassette | Created at 2018-09-06 - 17:29:44  
+**\<sgp_>** ByteRub was recently mentioned in a Bitcoin Magazine article: https://bitcoinmagazine.com/articles/battle-privacycoins-why-byterub-hard-beat-and-hard-scale/  
 **\<sgp_>**  Does anyone else have community updates to share?  
-**\<sgp_>** The Monero community is dead :/  
+**\<sgp_>** The ByteRub community is dead :/  
 **\<sgp_>** lol jk  
-**\<parasew>** the 35c3 call is out and we want to get a lot of monero related talks in the main programme, see https://events.ccc.de/2018/09/11/35c3-call-for-participation-and-submission-guidelines/  
+**\<parasew>** the 35c3 call is out and we want to get a lot of byterub related talks in the main programme, see https://events.ccc.de/2018/09/11/35c3-call-for-participation-and-submission-guidelines/  
 **\<sgp_>** ^ I knew someone would have something :)  
 **\<vp11>** .ded  
-**\<monerobux>** http://i3.kym-cdn.com/photos/images/original/000/715/140/3b2.jpg  
-**\<xmrmatterbridge> \<txmr>** https://taiga.getmonero.org/project/rehrar-35c3-2/wiki/home  
+**\<byterubbux>** http://i3.kym-cdn.com/photos/images/original/000/715/140/3b2.jpg  
+**\<xmrmatterbridge> \<txmr>** https://taiga.getbyterub.org/project/rehrar-35c3-2/wiki/home  
 **\<ErCiccione>** we finally managed to organize ho to embed the GUI guide in the binaries, from version 0.13.0, it will be included with the wallet files  
 **\<sgp_>** ty parasew txmr, I'll be sure to review these  
-**\<ErCiccione>** the guide is here: https://github.com/monero-ecosystem/monero-GUI-guide/blob/master/monero-GUI-guide.md  
+**\<ErCiccione>** the guide is here: https://github.com/byterub-ecosystem/byterub-GUI-guide/blob/master/byterub-GUI-guide.md  
 **\<vp11>** ErCiccione, do we have new files to translate?  
-**\<sgp_>** Oh, and I just finished my Monero Talk conversation: https://www.youtube.com/watch?v=lfBZsMbOAZo. Along with other talks with Felix Honigwachs and Sarang Noether this past week  
-**\<monerobux>** [ Ring Signatures and more with Justin Ehrenhofer - YouTube ] - www.youtube.com  
+**\<sgp_>** Oh, and I just finished my ByteRub Talk conversation: https://www.youtube.com/watch?v=lfBZsMbOAZo. Along with other talks with Felix Honigwachs and Sarang Noether this past week  
+**\<byterubbux>** [ Ring Signatures and more with Justin Ehrenhofer - YouTube ] - www.youtube.com  
 **\<ErCiccione>** vp11: better talk about that later in the "workgroup report" point, but yes :)  
 **\<sgp_>** yup  
 **\<sgp_>** We can move on then to 3. FFS Updates. Lots to discuss  
 **\<sgp_>** Make sure to raise your hand if you have something you want to talk about for one of these  
 **\<sgp_>** lots to get through  
-**\<sgp_>** a. ErCiccione: https://forum.getmonero.org/6/ideas/90800/erciccione-coordinator-of-the-localization-workgroup-translations-another-quarter  
+**\<sgp_>** a. ErCiccione: https://forum.getbyterub.org/6/ideas/90800/erciccione-coordinator-of-the-localization-workgroup-translations-another-quarter  
 **\<sgp_>** Does anyone have concerns/questions about this proposal?  
 **\<el00ruobuob_[m]>** fund him!  
 **\<sgp_>** look at that, unanimous approval :p  
@@ -58,7 +58,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** :P  
 **\<sgp_>** ikr  
 **\<sgp_>** hopefully we can get luigi1111 to move most/all of these after today's discussion  
-**\<sgp_>** b. Sarang: https://forum.getmonero.org/7/open-tasks/90809/sarang-funding-for-october-december-2018  
+**\<sgp_>** b. Sarang: https://forum.getbyterub.org/7/open-tasks/90809/sarang-funding-for-october-december-2018  
 **\<sgp_>** I'll take silence as a good thing  
 **\<el00ruobuob_[m]>** down to funding please, we need a strong MRL  
 **\<sgp_>** this Sarang proposal is already in funding required with 10 contributions  
@@ -67,25 +67,25 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob_[m]>** oh, i have to give then  
 **\<sgp_>** \*intermission while we all donate, brb\*  
 **\<sgp_>** jk, but only about the intermission part, since we have more to cover!  
-**\<sgp_>** c. Justin/sgp: https://forum.getmonero.org/6/ideas/90808/send-justin-to-blockchainnw  
+**\<sgp_>** c. Justin/sgp: https://forum.getbyterub.org/6/ideas/90808/send-justin-to-blockchainnw  
 **\<sgp_>** this is mine, happy to answer any questions  
-**\<sgp_>** I made sure to make good use of funds by staying in a 5 star hotel and renting a lambo. gotta make Monero look good /s  
+**\<sgp_>** I made sure to make good use of funds by staying in a 5 star hotel and renting a lambo. gotta make ByteRub look good /s  
 **\<vp11>** lol  
 **\<sgp_>** there were some comments about adding print matierals. still working with the conference on that  
 **\<vp11>** you got decent approval on the reddit thread and 3 comments on the forum, which is a lot :P so I feel like it should be moved to funding  
 **\<vp11>** and you're asking a very reasonable amount  
-**\<sgp_>** and we all knoe 3 people is basically the entire Monero community  
+**\<sgp_>** and we all knoe 3 people is basically the entire ByteRub community  
 **\<parasew>** +1  
 **\<vp11>** it's not like we need to make the whole community donate  
 **\<sgp_>** oh, and I have another conference next month in North Dakota, but the university is covering those costs  
 **\<el00ruobuob_[m]>** yes down to donate, it's unfairly cheap!  
-**\<sgp_>** d. vp11: https://forum.getmonero.org/6/ideas/90652/monero-ecosystem-translation-to-brazilian-portuguese  
+**\<sgp_>** d. vp11: https://forum.getbyterub.org/6/ideas/90652/byterub-ecosystem-translation-to-brazilian-portuguese  
 **\<vp11>** this one is mine, if you have any questions feel free to ask away  
-**\<selsta>** vp11: did you talk with endogenic about MyMonero translations?  
+**\<selsta>** vp11: did you talk with endogenic about MyByteRub translations?  
 **\<vp11>** I have to say, though, even if it doesn't get funded I will work on these translations, but in a different pace  
 **\<vp11>** yeah selsta, he will make the files available soon(tm)  
-**\<ErCiccione>** selsta: i still have to talk with endogenic about mymonero translations, we spoke about it month ago, but never resolved  
-**\<selsta>** oh okay, haven’t seen MyMonero translations yet, that’s why I asked  
+**\<ErCiccione>** selsta: i still have to talk with endogenic about mybyterub translations, we spoke about it month ago, but never resolved  
+**\<selsta>** oh okay, haven’t seen MyByteRub translations yet, that’s why I asked  
 **\<vp11>** I have to update the FFS to add the outreach material  
 **\<endogenic>** oh i didnt realize it was in my court  
 **\<endogenic>** let's sync up soon  
@@ -93,9 +93,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** anyway, I feel like the FFS didn't get a lot of support, I have no problem in trying to post it again on reddit in a few months when the market is hotter. maybe it will attract more interested parties.  
 **\<ErCiccione>** endogenic: yep, we need to talk about that when you have a sec  
 **\<selsta>** FFS feel more tough in a bear market :/  
-**\<sgp_>** e. zeagu: https://forum.getmonero.org/6/ideas/90768/xeagu-ibs-moscow-speaker  
+**\<sgp_>** e. zeagu: https://forum.getbyterub.org/6/ideas/90768/xeagu-ibs-moscow-speaker  
 **\<ErCiccione>** vp11: don't take it personal, in my experience, the community really understimate the value and importance of translations  
-**\<endogenic>** if we found a way to make it easy to purchase or exchange into monero just for the proposal it could increase our reach considerably  
+**\<endogenic>** if we found a way to make it easy to purchase or exchange into byterub just for the proposal it could increase our reach considerably  
 **\<vp11>** ErCiccione, I never take anything personal :D  
 **\<vp11>** it's all good  
 **\<endogenic>** i reached out to some of my tech networks about the noethers' proposal recently but these people probably dont have xmr laying around  
@@ -111,17 +111,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<xmrmatterbridge> \<txmr>** me neither  
 **\<parasew>** +1  
 **\<el00ruobuob_[m]>** if he's a valuable speaker  
-**\<endogenic>** it's kind of funny to put the noethers' struggling proposals next to the church of monero's proposal  
+**\<endogenic>** it's kind of funny to put the noethers' struggling proposals next to the church of byterub's proposal  
 **\<endogenic>** just my 2 millinero  
 **\<sgp_>** none have been heavily advertised yet  
-**\<sgp_>** f. moneromooo: https://forum.getmonero.org/6/ideas/90748/moneromooo-coding-october-december  
-**\<el00ruobuob_[m]>** is there any debate about moneromooo?  
-**\<vp11>** who the hell is moneromooo, no way, delete it! /s  
-**\<sgp_>** recently reduced to 234 Monero  
+**\<sgp_>** f. byterubmooo: https://forum.getbyterub.org/6/ideas/90748/byterubmooo-coding-october-december  
+**\<el00ruobuob_[m]>** is there any debate about byterubmooo?  
+**\<vp11>** who the hell is byterubmooo, no way, delete it! /s  
+**\<sgp_>** recently reduced to 234 ByteRub  
 **\<sgp_>** I assume there is no debate here, but by all means, speak up so we can fight you  
 **\<ErCiccione>** don't really think there is much to discuss about mooo's proposal :P  
 **\<sgp_>** (mostly kidding about fighting, but of course we want to know if you have any major concerns)  
-**\<sgp_>** g. rehrar: https://forum.getmonero.org/6/ideas/90717/the-rehrar-tour  
+**\<sgp_>** g. rehrar: https://forum.getbyterub.org/6/ideas/90717/the-rehrar-tour  
 **\<vp11>** rehrar is a top speaker  
 **\<vp11>** I vote to move to funding required asap  
 **\<sgp_>** yeah his recent interview was on fire  
@@ -145,7 +145,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>** 4. Workgroup report  
 **\<el00ruobuob>** sgp_ ?  
 **\<sgp_>** ErCiccione, take it away  
-**\<el00ruobuob>** https://forum.getmonero.org/6/ideas/90757/el00ruobuob-part-time-for-a-new-quarter-october-december  
+**\<el00ruobuob>** https://forum.getbyterub.org/6/ideas/90757/el00ruobuob-part-time-for-a-new-quarter-october-december  
 **\<sgp_>** damn, hold up for this one  
 **\<ErCiccione>** thanks sgp_  
 **\<sgp_>** my bad el00ruobuob  
@@ -162,10 +162,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob>** :)  
 **\<ErCiccione>** ok  
 **\<ErCiccione>** so, first of all, so sorry i lost the last two meetings. i have a couple of big updates:  
-**\<ErCiccione>** 1. we finally got pootle (the translation platform) uploaded on getmonero, you can find it on translate.getmonero.org , but please, do not subscribe, i'm still waiting to get shell access from pigeons, so that i can start the proper configuration  
+**\<ErCiccione>** 1. we finally got pootle (the translation platform) uploaded on getbyterub, you can find it on translate.getbyterub.org , but please, do not subscribe, i'm still waiting to get shell access from pigeons, so that i can start the proper configuration  
 **\<ErCiccione>** but at least it's up, thanks to pigeons for that  
 **\<vp11>** hell yeah :D  
-**\<ErCiccione>** that's the platform we will be using to manage most of the monero translations in future, it will make everything much consistent and easier. It will totally bypass GitHub (the platform will commit on the repo)  
+**\<ErCiccione>** that's the platform we will be using to manage most of the byterub translations in future, it will make everything much consistent and easier. It will totally bypass GitHub (the platform will commit on the repo)  
 **\<ErCiccione>** 2. next release of the GUI (0.13) is near, as soon as the code is frozen i will make the "call for translators" as for 0.12. This to make sure all languages of the wallet will be properly updated. I got a great response last time, i hope this time will be the same  
 **\<el00ruobuob>** count me in  
 \* shillo est maintenant connu sous le nom de shilloded  
@@ -176,21 +176,21 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** :'( ok  
 **\<ErCiccione>** that's why it's not gonna happen soon, we need to twak it to work with markdown, javascript etc  
 **\<ErCiccione>** s/twak/tweak  
-**\<monerobux>** ErCiccione meant to say: that's why it's not gonna happen soon, we need to tweak it to work with markdown, javascript etc  
+**\<byterubbux>** ErCiccione meant to say: that's why it's not gonna happen soon, we need to tweak it to work with markdown, javascript etc  
 **\<sgp_>** Any other comments? Any other workgroups with updates?  
-**\<parasew>** There will be a meeting for the CCC(C3) participation group, meeting next week Sept 22, 17:00 UTC on #monero-community. for in-between discussions we are using #monero-ccc  
-**\<el00ruobuob>** Outreach Workgroup has released their PSA: https://www.reddit.com/r/Monero/comments/9eqp12/monero_best_practices_psa_1_of_7_a_secure_wallet/  
-**\<monerobux>** [REDDIT] Monero Best Practices PSA [1 of 7]: A Secure Wallet is a Happy Wallet (Details in the comments) (https://i.redd.it/5v2g8gk9rgl11.jpg) to r/Monero | 99 points (98.0%) | 15 comments | Posted by xmrhaelan | Created at 2018-09-10 - 20:19:13  
+**\<parasew>** There will be a meeting for the CCC(C3) participation group, meeting next week Sept 22, 17:00 UTC on #byterub-community. for in-between discussions we are using #byterub-ccc  
+**\<el00ruobuob>** Outreach Workgroup has released their PSA: https://www.reddit.com/r/ByteRub/comments/9eqp12/byterub_best_practices_psa_1_of_7_a_secure_wallet/  
+**\<byterubbux>** [REDDIT] ByteRub Best Practices PSA [1 of 7]: A Secure Wallet is a Happy Wallet (Details in the comments) (https://i.redd.it/5v2g8gk9rgl11.jpg) to r/ByteRub | 99 points (98.0%) | 15 comments | Posted by xmrhaelan | Created at 2018-09-10 - 20:19:13  
 **\<oneiric_>** that's awesome work ErCiccione, good luck on the pootle tweaks  
-**\<vp11>** el00ruobuob, link with all of them compiled: https://www.monerooutreach.org/best-practices-for-monero.php  
+**\<vp11>** el00ruobuob, link with all of them compiled: https://www.byteruboutreach.org/best-practices-for-byterub.php  
 **\<ErCiccione>** thanks oneiric_ :)  
 **\<vp11>** tomorrow it's gonna be the last one  
 **\<sgp_>** great initiative  
 **\<el00ruobuob>** vp11, where are the translations on the site?  
 **\<el00ruobuob>** oh got it  
-**\<sgp_>** 5. Changelly r/Monero discussion  
-**\<sgp_>** https://www.reddit.com/r/Monero/comments/9f0qlx/changelly_has_been_removed_from_the_list_of/  
-**\<monerobux>** [REDDIT] Changelly has been removed from the list of services to avoid (self.Monero) | 22 points (66.0%) | 46 comments | Posted by needmoney90 | Created at 2018-09-11 - 19:48:13  
+**\<sgp_>** 5. Changelly r/ByteRub discussion  
+**\<sgp_>** https://www.reddit.com/r/ByteRub/comments/9f0qlx/changelly_has_been_removed_from_the_list_of/  
+**\<byterubbux>** [REDDIT] Changelly has been removed from the list of services to avoid (self.ByteRub) | 22 points (66.0%) | 46 comments | Posted by needmoney90 | Created at 2018-09-11 - 19:48:13  
 **\<needmoney90>** There will be a followup post  
 **\<sgp_>** If you have comments, feel free to mention them now  
 **\<selsta>** The ChangeNow.io Changelly proxy could be mentioned  
@@ -224,24 +224,24 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** the ultimate solution: not recommending anything. but then it's a disservice to the community because everyone has to look to solutions for themselves  
 **\<ErCiccione>** yep, that sounds good. I think it's fundamental to give the community proofs of why that service and not that one  
 **\<parasew>** ErCiccione you mean no recommended services and just a list? or nothing linked at all?  
-**\<vp11>** e.g. on the daily thread on r/monero and r/monerosupport I wrote Kraken as a recommendation to a fiat gateway to monero  
+**\<vp11>** e.g. on the daily thread on r/byterub and r/byterubsupport I wrote Kraken as a recommendation to a fiat gateway to byterub  
 **\<vp11>** you could go and say that I'm somehow affiliated to Kraken  
-**\<vp11>** but the fact is that they're one of the only old school exchanges that didn't get hacked and has monero fiat pairs  
+**\<vp11>** but the fact is that they're one of the only old school exchanges that didn't get hacked and has byterub fiat pairs  
 **\<vp11>** and they have some decent community feedback  
 **\<vp11>** which is enough to get a recommendation  
 **\<vp11>** if they somehow start becoming a bad service, the community will speak up and it will get removed  
 **\<vp11>** not because it became scammy, but because it's isn't reliable enough to become a recommendation  
 **\<ErCiccione>** parasew: no, i mean, i agree we should make a list, but with very good explanations of why we recommend that service and not another one.  
 **\<xmrmatterbridge> \<scottrepreneur>** "these services are not scams, but you still need to do your own due dilly."  
-**\<ErCiccione>** the only problem i see is that if one of the services we recommend goes rogue, who get scammed can say "the monero community suggested me to use thatr"  
+**\<ErCiccione>** the only problem i see is that if one of the services we recommend goes rogue, who get scammed can say "the byterub community suggested me to use thatr"  
 **\<needmoney90>** Sorry hey  
 **\<vp11>** something like that. "these services received generally good community feedback, but you should always do your own due diligence and read their terms of service"  
 **\<needmoney90>** OK so  
 **\<needmoney90>** Here's the issue  
-**\<vp11>** ErCiccione, yeah but you can't really avoid that. even MyMonero can go rogue if we just assume that.  
+**\<vp11>** ErCiccione, yeah but you can't really avoid that. even MyByteRub can go rogue if we just assume that.  
 **\<needmoney90>** What do they do that others don't that is a scam  
 **\<needmoney90>** And are we subject to libel laws if we say it baselessly  
-**\<ErCiccione>** vp11: IIRC mymonero don't hold private keys, even if they go rogue, the problem would be relative. endogenic correct me if i'm wrong  
+**\<ErCiccione>** vp11: IIRC mybyterub don't hold private keys, even if they go rogue, the problem would be relative. endogenic correct me if i'm wrong  
 **\<needmoney90>** They can do exactly what changelly can  
 **\<needmoney90>** Anyone using the site at a given moment can get their funds snatched  
 **\<ErCiccione>** yep, true that  
@@ -272,7 +272,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needmoney90>** Here  
 **\<binaryFate>** explain like I didn't follow the conversation?  
 **\<needmoney90>** I imagine binaryfate can just as easily freeze a transfer if he wanted, there's no mechanical difference in control between changelly and xmr.to  
-**\<vp11>** if a recommended service starts to deteriorate, people will speak up on r/monero. then we can have a discussion in a community meeting to see if we should remove it from the recommendations.  
+**\<vp11>** if a recommended service starts to deteriorate, people will speak up on r/byterub. then we can have a discussion in a community meeting to see if we should remove it from the recommendations.  
 **\<xmrmatterbridge> \<scottrepreneur>** the line is pretty clear at 'they will not directly steal from you', right? centralized or not?  
 **\<needmoney90>** I wish it was that simple  
 **\<needmoney90>** There's a few facets  
@@ -346,7 +346,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<selsta>** There is still a mention in the history section, but it is way better now.  
 **\<vp11>** selsta, I was under the impression that it wasn't fireice who added that?  
 **\<selsta>** vp11: it was fireice 2 weeks ago  
-**\<sgp_>** "After many online payment platforms shut down access to white nationalists following the Unite the Right rally in 2017, some of them, including Christopher Cantwell and Andrew Auernheimer ("weev"), starting using and promoting Monero.[13][14]"  
+**\<sgp_>** "After many online payment platforms shut down access to white nationalists following the Unite the Right rally in 2017, some of them, including Christopher Cantwell and Andrew Auernheimer ("weev"), starting using and promoting ByteRub.[13][14]"  
 **\<rehrar>** I am convinced he is just trying to make the article as small as possible. Bad info? good info? Nah, none of it.  
 **\<selsta>** rehrar: Jytdog helped us this time  
 **\<rehrar>** yeah  
@@ -359,40 +359,40 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** selsta, oh i found it  
 **\<rehrar>** Whonix wants to collaborate with us on some level.  
 **\<el00ruobuob>** go ahead  
-**\<rehrar>** https://forum.getmonero.org/6/ideas/90786/monero-whonix-anonymous-os-caught-kissing  
+**\<rehrar>** https://forum.getbyterub.org/6/ideas/90786/byterub-whonix-anonymous-os-caught-kissing  
 **\<rehrar>** this...is...massive. Whonix is one of the big guns of privacy.  
 **\<ErCiccione>** i PMd firece on reddit, his answer made me realized he is really out of his mind. totally no point to argue with him  
 **\<selsta>** rehrar: exciting!  
 **\<rehrar>** I will be following up with TNT. I'll let you guys know how it goes  
 **\<ErCiccione>** rehrar, that's cool, whonix is a very good project  
-**\<sgp_>** Sorry for going back to wikipedia, but it was obviously fireice: https://en.wikipedia.org/w/index.php?title=Monero_%28cryptocurrency%29&action=historysubmit&type=revision&diff=858303344&oldid=858299509  
+**\<sgp_>** Sorry for going back to wikipedia, but it was obviously fireice: https://en.wikipedia.org/w/index.php?title=ByteRub_%28cryptocurrency%29&action=historysubmit&type=revision&diff=858303344&oldid=858299509  
 **\<vp11>** yes it was him  
 **\<sgp_>** rehrar yes I saw that, glad to see it's still going somewhere  
 **\<selsta>** sgp_: he also claimed on Telegram that he is working on getting the article locked, so we should keep eyes on the article.  
 **\<ErCiccione>** actually, i used monro with whonix in past and worked smoothly, i should let them know  
 **\<sgp_>** selsta ugh, I may have to put other things on hold this weekend and make some necessary emergency quality edits  
 **\<sgp_>** el00ruobuob go ahead  
-**\<el00ruobuob>** i have some concerns about the move to repo.getmonero.org for monero-site. It seems the word has not been spread.  
+**\<el00ruobuob>** i have some concerns about the move to repo.getbyterub.org for byterub-site. It seems the word has not been spread.  
 **\<el00ruobuob>** Shouldn't we rewrite the Readme to point to point to the new repo?  
 **\<el00ruobuob>** it's been quite since the move  
 **\<sgp_>** there should be at least some reference, yes  
 **\<sgp_>** I think the intent is to make this the main source  
 **\<sgp_>** probably better to see what the devs want to do, then we can help them out  
 **\<selsta>** el00ruobuob: mooo himself continues working on the Github repo at the moment, as far as I can see.  
-**\<el00ruobuob>** the move only concerns monero-site  
+**\<el00ruobuob>** the move only concerns byterub-site  
 **\<el00ruobuob>** as a test  
 **\<selsta>** oh, you are right  
 **\<ErCiccione>** el00ruobuob: that's more a dev related question, and yes, the migration was planned long ago, but it happened very suddenly  
 **\<ErCiccione>** i don't think any other repo will be moved before next hard fork  
-**\<oneiric_>** Kovri is on gitlab too, not sure if there are plans to mirror to repo.getmonero.org  
-**\<el00ruobuob>** yes, it was quite a surprise when i read it live from fluffy on #monero-dev  
-**\<rehrar>** hahahaha!!! That wikipedia article says Monero is headed by luigi  
+**\<oneiric_>** Kovri is on gitlab too, not sure if there are plans to mirror to repo.getbyterub.org  
+**\<el00ruobuob>** yes, it was quite a surprise when i read it live from fluffy on #byterub-dev  
+**\<rehrar>** hahahaha!!! That wikipedia article says ByteRub is headed by luigi  
 **\<vp11>** pff everyone knows it's headed by Lord Diego.  
 **\<sgp_>** All right, unless someone has anything pressing, we can finally wrap this meeting up  
 **\<el00ruobuob>** i was sure it was headed by sgp_   
 **\<sgp_>** 7.  Confirm next meeting date/time  
-**\<sgp_>**  The next community meeting will be two weeks from today on 29 September at 17:00 UTC. When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/Monero-Meetings  
-**\<sgp_>**  7. ConclusionThat’s all! Thanks for attending this Monero Community meeting, and we hope to see you on /r/MoneroCommunity and #monero-community. Take care, and know that change starts with YOU.  
+**\<sgp_>**  The next community meeting will be two weeks from today on 29 September at 17:00 UTC. When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp_>**  7. ConclusionThat’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<sgp_>** Thanks everyone for making it through a 2 hour meeting  
 **\<el00ruobuob>** thank you guys!  
 **\<ErCiccione>** thank you for the moderation sgp_  

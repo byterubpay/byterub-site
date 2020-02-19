@@ -9,7 +9,7 @@ summary: "Opcjonalny znacznik dodawany w celu identyfikacji transakcji pomiędzy
 
 Numer identyfikacyjny płatności jest **arbitralnym** i **opcjonalnym** załącznikiem transakcji składającym się z 32 bitów (64 heksadecymalnych znaków) lub z 8 bitów (w przypadku adresów zintegrowanych).
 
-Numer identyfikacyjny płatności jest zazwyczaj używany do identyfikacji transakcji pomiędzy użytkownikami oraz na giełdzie. Ze względu na nieodłączną charakterystykę Monero polegającą na korzystaniu z pojedynczego adresu publicznego do transakcji przychodzących, numer identyfikacyjny płatności jest szczególnie użyteczny w łączeniu płatności przychodzących z kontem użytkownika.
+Numer identyfikacyjny płatności jest zazwyczaj używany do identyfikacji transakcji pomiędzy użytkownikami oraz na giełdzie. Ze względu na nieodłączną charakterystykę ByteRub polegającą na korzystaniu z pojedynczego adresu publicznego do transakcji przychodzących, numer identyfikacyjny płatności jest szczególnie użyteczny w łączeniu płatności przychodzących z kontem użytkownika.
 
 ### Kompaktowy numer identyfikacyjny płatności a adresy zintegrowane
 

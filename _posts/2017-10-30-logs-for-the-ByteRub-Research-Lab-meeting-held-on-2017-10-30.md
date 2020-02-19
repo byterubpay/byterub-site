@@ -10,7 +10,7 @@ author: dEBRUYNE / fluffypony
 
 **\<sarang>** Let's go  
 **\<suraeNoether>** Welcome everyone, to our second official (third unofficial) research meeting. fluffypony dEBRUYNE luigi1111 knaccc  
-**\<suraeNoether>** uhm... ArcticMine... uhm... who else should we ping? moneromooo  
+**\<suraeNoether>** uhm... ArcticMine... uhm... who else should we ping? byterubmooo  
 **\<luigi1111w>** official counts toward unofficial?  
 **\<suraeNoether>** endogenic  
 **\<suraeNoether>** is an official meeting also unofficial? is it a subset relation? anyway  
@@ -134,29 +134,29 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** or not fun as the case may be  
 **\<sarang>** http://nick.mtvnimages.com/nick/promos-thumbs/videos/spongebob-squarepants/spongebob-squarepants-fun-song-16x9.jpg?maxdimension=&quality=0.60  
 **\<suraeNoether>** okay  
-**\<moneromooo>** About PRNG: I ported the Bitcoin PRNG to monero, it's on github if anyone is curious.  
-**\<moneromooo>** I added a contentious patch, so that one will either go, or be modified.  
+**\<byterubmooo>** About PRNG: I ported the Bitcoin PRNG to byterub, it's on github if anyone is curious.  
+**\<byterubmooo>** I added a contentious patch, so that one will either go, or be modified.  
 **\<suraeNoether>** is the PRNG the contentious part or?  
-**\<moneromooo>** I added seeding from /dev/random at startup.  
-**\<sarang>** Can you link moneromooo ?  
+**\<byterubmooo>** I added seeding from /dev/random at startup.  
+**\<sarang>** Can you link byterubmooo ?  
 **\<suraeNoether>** oh i see heh  
-**\<moneromooo>** smooth thinks it should only be done if getrandom is not used, so I'll probably do this.  
+**\<byterubmooo>** smooth thinks it should only be done if getrandom is not used, so I'll probably do this.  
 **\<suraeNoether>** i don't know enough about the various pros and cons of that approach to have an opinion  
 **\<suraeNoether>** on an administrative level, sarang: any word on the weekend course for talented high school students thing? i'm going to contact folks at the local universities around me this week to feel out the possibilities for a 2018 1-week summer workshop for undergraduates.  
-**\<moneromooo>** https://github.com/byterubpay/monero/pull/2731  
-**\<suraeNoether>** thanks moneromooo  
+**\<byterubmooo>** https://github.com/byterubpay/byterub/pull/2731  
+**\<suraeNoether>** thanks byterubmooo  
 **\<sarang>** Ah yes, thanks for the reminder surae  
 **\<sarang>** So there has been interest expressed in two school programs  
 **\<suraeNoether>** if you want we can collab on the proposal for the springtime one  
 **\<sarang>** One would be a longer-term effort to work with North Carolina STEM students  
 **\<sarang>** A shorter but logistically-simpler one is with Duke University for a spring weekend course for gifted high schoolers  
 **\<sarang>** That's a bit tougher due to the extremely short course time  
-**\<suraeNoether>** yeah, i like the idea of spending a week or three with undergrads to teach them about crypto and maybe fork bitcoin or monero and mess with the code or something....  but i'm not so sure how much we can even do over one weekend with high school students  
+**\<suraeNoether>** yeah, i like the idea of spending a week or three with undergrads to teach them about crypto and maybe fork bitcoin or byterub and mess with the code or something....  but i'm not so sure how much we can even do over one weekend with high school students  
 **\<sarang>** So maybe it's better to nix the weekend course idea and try for the longer course?  
 **\<sarang>** I don't have a good sense of the logistics required for that  
 **\<sarang>** But I'm investigating still  
 **\<sarang>** Another option is to do a Duke summer program that's 3 weeks long  
-**\<suraeNoether>** sarang let's try to set aside a few hours this week to figure out logistics of this. i would love for the monero community to fund up some education programs. that's good PR for everyone, and starts a pipeline of education into the cryptocurrency world... but i don't want to burden the monero community unnecessarily (for one thing) and if we can get a university to devote some money to this too, it  
+**\<suraeNoether>** sarang let's try to set aside a few hours this week to figure out logistics of this. i would love for the byterub community to fund up some education programs. that's good PR for everyone, and starts a pipeline of education into the cryptocurrency world... but i don't want to burden the byterub community unnecessarily (for one thing) and if we can get a university to devote some money to this too, it  
 **\<suraeNoether>** adds legitimacy  
 **\<sarang>** The Duke summer one wouldn't require any funding from the community  
 **\<sarang>** since students are paying to go to it  

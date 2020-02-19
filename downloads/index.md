@@ -62,19 +62,19 @@ permalink: /downloads/index.html
                 <div class="row">
                   <div class="col-md-4 col-sm-4 col-xs-4 desktop-only">
                     <ul>
-                      <li class="downloads"><span class="icon-windows"></span><a class="orange" href="https://downloads.getmonero.org/gui/win64install">Windows 64-bit (Installer)</a></li>
-                     <li class="downloads"><span class="icon-windows"></span><a class="orange" href="https://downloads.getmonero.org/gui/win64">Windows 64-bit (zip)</a></li>
+                      <li class="downloads"><span class="icon-windows"></span><a class="orange" href="https://downloads.getbyterub.org/gui/win64install">Windows 64-bit (Installer)</a></li>
+                     <li class="downloads"><span class="icon-windows"></span><a class="orange" href="https://downloads.getbyterub.org/gui/win64">Windows 64-bit (zip)</a></li>
                     </ul>
                   </div>
                   <div class="col-md-4 col-sm-4 col-xs-4 desktop-only">
                     <ul>
-                      <li class="downloads"><span class="icon-linux"></span><a class="orange" href="https://downloads.getmonero.org/gui/linux64">Linux 64-bit</a></li>
-                      <li class="downloads"><span class="icon-apple"></span><a class="orange" href="https://downloads.getmonero.org/gui/mac64">Mac OS X 64-bit</a></li>
+                      <li class="downloads"><span class="icon-linux"></span><a class="orange" href="https://downloads.getbyterub.org/gui/linux64">Linux 64-bit</a></li>
+                      <li class="downloads"><span class="icon-apple"></span><a class="orange" href="https://downloads.getbyterub.org/gui/mac64">Mac OS X 64-bit</a></li>
                     </ul>
                   </div>
                   <div class="col-md-4 col-sm-4 col-xs-4 desktop-only">
                     <ul>
-                      <li class="downloads"><span class="icon-github"></span><a class="orange" href="https://github.com/byterubpay/monero-gui">{% t downloads.sourcecode %}</a></li>
+                      <li class="downloads"><span class="icon-github"></span><a class="orange" href="https://github.com/byterubpay/byterub-gui">{% t downloads.sourcecode %}</a></li>
                     </ul>
                   </div>
                   <div class="mobile-only">
@@ -105,7 +105,7 @@ permalink: /downloads/index.html
                     <p>{% t downloads.verify1 %} <i>{% t downloads.verify2 %}</i></p><br>
                     <details>
                     <summary>{% t downloads.showhash %}</summary>
-                     <p>{% t downloads.showhash1 %} <a href="https://getmonero.org/downloads/hashes.txt">getmonero.org/downloads/hashes.txt</a> {% t downloads.showhash2 %} <a href="https://github.com/byterubpay/monero/blob/master/utils/gpg_keys/fluffypony.asc">{% t downloads.showhash3 %}</a>.</p>
+                     <p>{% t downloads.showhash1 %} <a href="https://getbyterub.org/downloads/hashes.txt">getbyterub.org/downloads/hashes.txt</a> {% t downloads.showhash2 %} <a href="https://github.com/byterubpay/byterub/blob/master/utils/gpg_keys/fluffypony.asc">{% t downloads.showhash3 %}</a>.</p>
                      <p>{% t downloads.showhash4 %} <a href="{{site.baseurl}}/resources/user-guides/verification-windows-beginner.html">{% t user-guides.verify-windows %}</a> - <a href="{{site.baseurl}}/resources/user-guides/verification-allos-advanced.html">{% t user-guides.verify-allos %}</a>.</p>
                      <dl>
                     {% for entry in item.downloads %}
@@ -116,7 +116,7 @@ permalink: /downloads/index.html
                      </dl>
                   </details>
                   <h3>{% t downloads.helpsupport %}</h3>
-                  <p>{% t downloads.helpsupport1 %} <a href="https://github.com/monero-ecosystem/monero-GUI-guide/releases">{% t downloads.helpsupport2 %}</a>.</p>
+                  <p>{% t downloads.helpsupport1 %} <a href="https://github.com/byterub-ecosystem/byterub-GUI-guide/releases">{% t downloads.helpsupport2 %}</a>.</p>
                   <p>{% t downloads.gui_helpsupport %}.</p>
                   </div>
                 </div>    
@@ -151,21 +151,21 @@ permalink: /downloads/index.html
                 <div class="row">
                   <div class="col-md-4 col-sm-4 col-xs-4 desktop-only">
                     <ul>
-                      <li class="downloads"><span class="icon-windows"></span><a class="orange" href="https://downloads.getmonero.org/cli/win64">Windows 64-bit</a> | <a class="orange" href="https://downloads.getmonero.org/cli/win32">32-bit</a></li>
-                      <li class="downloads"><span class="icon-apple"></span><a class="orange" href="https://downloads.getmonero.org/cli/mac64">Mac OS X 64-bit</a></li>
-                      <li class="downloads"><span class="icon-android"></span><a class="orange" href="https://downloads.getmonero.org/cli/monero-android-armv8-v0.15.0.1.tar.bz2">Android ARMv8</a> | <a class="orange" href="https://downloads.getmonero.org/cli/monero-android-armv7-v0.15.0.1.tar.bz2">ARMv7</a></li> <!-- These will be changed to general android-armv7 link -->
+                      <li class="downloads"><span class="icon-windows"></span><a class="orange" href="https://downloads.getbyterub.org/cli/win64">Windows 64-bit</a> | <a class="orange" href="https://downloads.getbyterub.org/cli/win32">32-bit</a></li>
+                      <li class="downloads"><span class="icon-apple"></span><a class="orange" href="https://downloads.getbyterub.org/cli/mac64">Mac OS X 64-bit</a></li>
+                      <li class="downloads"><span class="icon-android"></span><a class="orange" href="https://downloads.getbyterub.org/cli/byterub-android-armv8-v0.15.0.1.tar.bz2">Android ARMv8</a> | <a class="orange" href="https://downloads.getbyterub.org/cli/byterub-android-armv7-v0.15.0.1.tar.bz2">ARMv7</a></li> <!-- These will be changed to general android-armv7 link -->
                     </ul>
                   </div>
                   <div class="col-md-4 col-sm-4 col-xs-4 desktop-only">
                     <ul>
-                      <li class="downloads"><span class="icon-linux"></span><a class="orange" href="https://downloads.getmonero.org/cli/linux64">Linux 64-bit</a> | <a class="orange" href="https://downloads.getmonero.org/cli/linux32">32-bit</a></li>
-                      <li class="downloads"><span class="icon-linux"></span><a class="orange" href="https://downloads.getmonero.org/cli/linuxarm8">Linux ARMv8</a> | <a class="orange" href="https://downloads.getmonero.org/cli/linuxarm7">Linux ARMv7</a></li>
+                      <li class="downloads"><span class="icon-linux"></span><a class="orange" href="https://downloads.getbyterub.org/cli/linux64">Linux 64-bit</a> | <a class="orange" href="https://downloads.getbyterub.org/cli/linux32">32-bit</a></li>
+                      <li class="downloads"><span class="icon-linux"></span><a class="orange" href="https://downloads.getbyterub.org/cli/linuxarm8">Linux ARMv8</a> | <a class="orange" href="https://downloads.getbyterub.org/cli/linuxarm7">Linux ARMv7</a></li>
                     </ul>
                   </div>
                   <div class="col-md-4 col-sm-4 col-xs-4 desktop-only">
                     <ul>
-                      <li class="downloads"><span class="icon-freebsd"></span><a class="orange" href="https://downloads.getmonero.org/cli/freebsd64">FreeBSD 64-bit</a></li>
-                      <li class="downloads"><span class="icon-github"></span><a class="orange" href="https://github.com/byterubpay/monero">{% t downloads.sourcecode %}</a></li>
+                      <li class="downloads"><span class="icon-freebsd"></span><a class="orange" href="https://downloads.getbyterub.org/cli/freebsd64">FreeBSD 64-bit</a></li>
+                      <li class="downloads"><span class="icon-github"></span><a class="orange" href="https://github.com/byterubpay/byterub">{% t downloads.sourcecode %}</a></li>
                     </ul>
                   </div>
                   <div class="mobile-only">
@@ -199,7 +199,7 @@ permalink: /downloads/index.html
                 <p>{% t downloads.verify1 %} <i>{% t downloads.verify2 %}</i></p><br>
                   <details>
                     <summary>{% t downloads.showhash %}</summary>
-                     <p>{% t downloads.showhash1 %} <a href="https://getmonero.org/downloads/hashes.txt">getmonero.org/downloads/hashes.txt</a> {% t downloads.showhash2 %} <a href="https://github.com/byterubpay/monero/blob/master/utils/gpg_keys/fluffypony.asc">{% t downloads.showhash3 %}</a>.</p>
+                     <p>{% t downloads.showhash1 %} <a href="https://getbyterub.org/downloads/hashes.txt">getbyterub.org/downloads/hashes.txt</a> {% t downloads.showhash2 %} <a href="https://github.com/byterubpay/byterub/blob/master/utils/gpg_keys/fluffypony.asc">{% t downloads.showhash3 %}</a>.</p>
                      <p>{% t downloads.showhash4 %} <a href="{{site.baseurl}}/resources/user-guides/verification-windows-beginner.html">{% t user-guides.verify-windows %}</a> - <a href="{{site.baseurl}}/resources/user-guides/verification-allos-advanced.html">{% t user-guides.verify-allos %}</a>.</p>
                       <dl>
                      {% for entry in item.downloads %}
@@ -225,7 +225,7 @@ permalink: /downloads/index.html
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <p>{% t downloads.blockchain1 %} {% t downloads.blockchain2 %} <a href="{{site.baseurl}}/resources/user-guides/importing_blockchain.html">"{% t downloads.blockchain3 %}"</a> {% t downloads.blockchain4 %}</p><br>
-                                <div class="center-xs"><a class="btn-link btn-auto btn-primary" href="https://downloads.getmonero.org/blockchain.raw">{% t downloads.blockchainbutton %}</a></div>
+                                <div class="center-xs"><a class="btn-link btn-auto btn-primary" href="https://downloads.getbyterub.org/blockchain.raw">{% t downloads.blockchainbutton %}</a></div>
                             </div>
                         </div>
                 </div>
@@ -235,7 +235,7 @@ permalink: /downloads/index.html
                   <h2 id="hardware">{% t downloads.hardware %}</h2>
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <p>{% t downloads.hardware1 %} <a href="https://forum.getmonero.org/9/work-in-progress/88149/dedicated-monero-hardware-wallet" target="_blank" rel="noreferrer, noopener">{% t downloads.hardware2 %}</a> {% t downloads.hardware3 %} <a href="https://github.com/LedgerHQ/blue-app-monero" target="_blank" rel="noreferrer, noopener">{% t downloads.hardware4 %}</a></p>
+                                <p>{% t downloads.hardware1 %} <a href="https://forum.getbyterub.org/9/work-in-progress/88149/dedicated-byterub-hardware-wallet" target="_blank" rel="noreferrer, noopener">{% t downloads.hardware2 %}</a> {% t downloads.hardware3 %} <a href="https://github.com/LedgerHQ/blue-app-byterub" target="_blank" rel="noreferrer, noopener">{% t downloads.hardware4 %}</a></p>
                                 <p>{% t downloads.hardware5 %}</p>
                             </div>
                         </div>
@@ -243,7 +243,7 @@ permalink: /downloads/index.html
                           <a href="https://kastelo.org"><img src="/img/kastelo.png"></a>
                         </div>
                         <div class="row mob-wallets center-xs">
-                          <a href="https://www.ledger.com/monero-wallet/"><img src="/img/ledger.png"></a>
+                          <a href="https://www.ledger.com/byterub-wallet/"><img src="/img/ledger.png"></a>
                           <a href="https://wiki.trezor.io/ByteRub_(XMR)"><img src="/img/trezor.png"></a>
                         </div>                    
                 </div>
@@ -259,7 +259,7 @@ permalink: /downloads/index.html
                         <div class="row between-xs mob-wallets">
                                 <a href="https://cakewallet.io"><img style="height: 115px;"  src="/img/cakewallet.png" alt="Cake Wallet Logo"></a>
                                 <a href="https://monerujo.io"><img style="height: 115px;" src="/img/Monerujo-wallet.png" alt="Monerujo Logo"></a>
-                                <a href="https://mymonero.com"><img src="/img/mymonero.png" alt="MyByteRub Logo"></a>
+                                <a href="https://mybyterub.com"><img src="/img/mybyterub.png" alt="MyByteRub Logo"></a>
                                 <a href="https://edge.app/"><img style="height: 115px;" src="/img/edge-wallet.png" alt="Edge Logo"></a>
                         </div>
                 </div>

@@ -35,7 +35,7 @@ author: selsta / anonimal
 **\<oneiric\_>** rahkimov improved a core data structure (Tag), and fixed a dependency in the Kovri README.  
 **\<oneiric\_>** oneiric improved tests, router key creation (w/ anonimal), core data structures (Tag/InputByteStream), and fixed build warnings.  
 **\<oneiric\_>** rehrar updated the multilingual implementation for the Kovri site, and merged a number of commits from documentation.  
-**\<oneiric\_>** monerorus is a new contributor to the kovri site, and translated the site into Russian.  
+**\<oneiric\_>** byterubrus is a new contributor to the kovri site, and translated the site into Russian.  
 **\<oneiric\_>** el00ruobuob is a new contributor to the Kovri site, and translated the site into French.  
 **\<oneiric\_>** For details see merged PRs on github:  
 **\<oneiric\_>** kovri: https://github.com/byterubpay/kovri/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+is%3Amerged  
@@ -54,7 +54,7 @@ author: selsta / anonimal
 **\<oneiric\_>** no worries :)  
 **\<anonimal>** 3. Contributor FFS check-in / status  
 **\<anonimal>** oneiric\_'s FFS has moved to funding required  
-**\<anonimal>** https://forum.getmonero.org/8/funding-required/90300/oneiric-june-august-part-time-kovri-junior-developer  
+**\<anonimal>** https://forum.getbyterub.org/8/funding-required/90300/oneiric-june-august-part-time-kovri-junior-developer  
 **\<anonimal>** Congratulations on 73.36% funding oneiric\_  
 **\<oneiric\_>** thanks anonimal, and huge thank you to everyone who has contributed!  
 **\<oneiric\_>** means a lot to me to have the community's support  
@@ -64,7 +64,7 @@ author: selsta / anonimal
 **\<oneiric\_>** that's awesome, thank you! I do know, at least partly, how much time you spend, and that's hugely appreciated on it's own  
 **\<anonimal>** I could go into detail for any lurkers or people with questions but I don't know who are around.  
 **\<anonimal>** From an outsider's perspective, I don't think they realize how far you've come oneiric\_ in such a short amount of time.  
-**\<anonimal>** Ok, not to derail my FFS, I've recently finished another milestone http://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-94875  
+**\<anonimal>** Ok, not to derail my FFS, I've recently finished another milestone http://forum.getbyterub.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-94875  
 **\<anonimal>** Continuing as scheduled.  
 **\<anonimal>** Any questions/comments on the FFS checkin?  
 **\<anonimal>** 4. Alpha release discussion  
@@ -100,10 +100,10 @@ author: selsta / anonimal
 **\<selsta>** anonimal: if I have time I’ll PR it :)  
 **\<anonimal>** k  
 **\<anonimal>** oneiric\_: I'm basically running that repo. What was the question?  
-**\<anonimal>** I'm thinking we move kovri moneropedia entires onto kovri-site btw  
+**\<anonimal>** I'm thinking we move kovri byterubpedia entires onto kovri-site btw  
 **\<anonimal>** and then from there we can add directly to the website  
 **\<oneiric\_>** Ok, would you prefer me to make a PR directly to kovri-site, or to kovri-docs, then merge that into kovri-site?  
-**\<oneiric\_>** Oh, got it, so just PR to moneropedia?  
+**\<oneiric\_>** Oh, got it, so just PR to byterubpedia?  
 **\<anonimal>** Good questions. If we had more active website development I would say just PR to the website  
 **\<anonimal>** *kovri-site  
 **\<anonimal>** What would the title of the document be?  
@@ -117,7 +117,7 @@ author: selsta / anonimal
 **\<anonimal>** Well, our volunteer PR guy who was here for 3 seconds decided to rage quit, so, here we are.  
 **\<anonimal>** Any questions/comments on point 5?  
 **\<anonimal>** We're in a time where PR doesn't require product anymore. I personally don't agree with this but the trend is being set.  
-**\<oneiric\_>** Is xmrhaelan, the Monero PR/outreach guy, available to help with Kovri?  
+**\<oneiric\_>** Is xmrhaelan, the ByteRub PR/outreach guy, available to help with Kovri?  
 **\<oneiric\_>** We're in a time where PR doesn't require product anymore. < what do you mean?  
 **\<anonimal>** We're available. We have communications channels. We have very little outreach but c'est la vie.  
 **\<anonimal>** oneiric\_: one can put vast amounts of money into a PR team and not need to have a product. See ICOs.  

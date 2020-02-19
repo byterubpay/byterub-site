@@ -49,6 +49,6 @@
 
 ![daemon settings](png/restore_from_keys/daemon-settings.png)
 
-Щёлкнуть `USE MONERO` (использовать Monero) и наслаждаться восстановленным кошельком:
+Щёлкнуть `USE MONERO` (использовать ByteRub) и наслаждаться восстановленным кошельком:
 
 ![all set up](png/restore_from_keys/all-set-up.png)

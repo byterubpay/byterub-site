@@ -21,7 +21,7 @@ d'autres noms comprennent :
   - Car le service hébergé est un site web et pas un autre type de service
 3. *Service en ail*
   - Car le service utilise la technologie de @routage-en-ail d'@I2P comme moyen de communication avec le client
-  - Car le service est propre à des services comme IRC, e-mail ou un correspondant Monero (mais peut également inclure des sites web)
+  - Car le service est propre à des services comme IRC, e-mail ou un correspondant ByteRub (mais peut également inclure des sites web)
 
 ### Remarques
 

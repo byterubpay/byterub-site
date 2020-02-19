@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-12-03
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-12-03
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -22,7 +22,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** it's like the purge, but pingier  
 **\<endogenic>** pang\*  
 **\<sarang>** I have several items on my provisional agenda today, as well as a round-the-horn to see what folks wish to share  
-**\<sarang>** First, the Lab landing page https://getmonero.org/resources/research-lab/ has been updated to add new papers  
+**\<sarang>** First, the Lab landing page https://getbyterub.org/resources/research-lab/ has been updated to add new papers  
 **\<endogenic>** very nice!  
 **\<sarang>** translations are welcome, now that we support them  
 **\<sarang>** I only added English abstracts  
@@ -82,7 +82,7 @@ author: el00ruobuob / sarang
 **\<binaryFate>** Rolling fund sounds good  
 **\<suraeNoether>** binaryFate +1 thanks for the feedback :D  
 **\<suraeNoether>** the third thing I've been working on is mapping certain discrete-log-based crypto schemes over into a module-theoretic setting and constructing examples. this is a fun hobby for me that is brand new and sarang and i are going to write a paper on it  
-**\<suraeNoether>** i've also been working on non-research stuff related to the monero konferenco, and we just got back from our monero workshop in nashville, where we met up to do some research and brainstorming face to face  
+**\<suraeNoether>** i've also been working on non-research stuff related to the byterub konferenco, and we just got back from our byterub workshop in nashville, where we met up to do some research and brainstorming face to face  
 **\<suraeNoether>** oh, and i've been making some final edits to the thring sig paper before submitting for peer review  
 **\<suraeNoether>** and that's it  
 **\<suraeNoether>** oh, i started reading silur's verifiable shuffle  
@@ -108,7 +108,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** sarang thanks for the link to SBC, i just registered :P  
 **\<h4sh3d>** I have worked on an atomic swap BTC/XMR https://github.com/GuggerJoel/XMR-BTC-atomic  
 **\<endogenic>** h4sh3d: did you see the feedback you got to that?  
-**\<moneromooo>** Worthy goal.  
+**\<byterubmooo>** Worthy goal.  
 **\<h4sh3d>** endogenic: I didn't see feedback on IRC  
 **\<sarang>** Doesn't that scheme require knowledge of the same scalar across groups?  
 **\<endogenic>** h4sh3d: "vtnerd> h4sh3d the paper still has a magic zkp step. How are these values zkp'ed ?"  
@@ -163,8 +163,8 @@ author: el00ruobuob / sarang
 **\<sarang>** But yeah, any time you're using values across groups, you have to account for how they are used  
 **\<h4sh3d>** Not sure that I understand the question about preimage on the BTC chain group-specific  
 **\<sarang>** ed25519 != secp256k1  
-**\<moneromooo>** None o that goes onto the chain though, right ?  
-**\<moneromooo>** (except the tx)  
+**\<byterubmooo>** None o that goes onto the chain though, right ?  
+**\<byterubmooo>** (except the tx)  
 **\<sarang>** That's my question  
 **\<h4sh3d>** Yea I know but the x is not used with secp256k1  
 **\<sarang>** I obviously need to do deeper diving onto the guts of hash timelocks  

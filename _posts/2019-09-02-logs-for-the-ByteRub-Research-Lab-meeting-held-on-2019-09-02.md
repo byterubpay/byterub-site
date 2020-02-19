@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-09-02
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-09-02
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -17,7 +17,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Happy Monday to all others  
 **\<sarang>** Let's do our ROUNDTABLE  
 **\<sarang>** suraeNoether: care to go first?  
-**\<suraeNoether>** sure. This past week i've been coding my economarkov chain simulating a fake Monero economy to apply matching to. this is slow-going, but steady progress. in addition to that, I started reading 3 separate papers for a new-ish idea...  
+**\<suraeNoether>** sure. This past week i've been coding my economarkov chain simulating a fake ByteRub economy to apply matching to. this is slow-going, but steady progress. in addition to that, I started reading 3 separate papers for a new-ish idea...  
 **\<suraeNoether>** https://eprint.iacr.org/2016/583.pdf , https://www.microsoft.com/en-us/research/wp-content/uploads/2008/02/tcc2008.pdf , and https://link.springer.com/chapter/10.1007/3-540-36413-7\_20  
 **\<suraeNoether>** the idea is new-ish to me but not the e-cash community, which is to demonstrate not a valid signature on a public message m, but \*knowledge of\* a valid signature on a public message m, without revealing the signature information like signer  
 **\<suraeNoether>** that 583 paper presents a trustless way of doing so with hash functions that can be described with a boolean circuit, and presents zk proofs of knowledge of RSA, DSA, and ECDSA signatures  
@@ -31,7 +31,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** but I need, probably, 2-3 additional pairs of eyes helping me out, so I'll be writing some stuff up and possibly starting a github issue for discussion on the matter  
 **\<sarang>** roger  
 **\<suraeNoether>** other than that, i've been offline with family for a reunion + a 100-years-olds birthday party :D  
-**\<sarang>** My monthly report details my recent activities, and is available now: https://repo.getmonero.org/byterubpay/ccs-proposals/merge\_requests/77#note\_7105  
+**\<sarang>** My monthly report details my recent activities, and is available now: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/77#note\_7105  
 **\<sarang>** Matching simulation review, updating papers, etc.  
 **\<sarang>** Nothing earth-shattering over the past few days  
 **\<sarang>** Very neat to hear about kenshamir[m]'s work on IACR/944  

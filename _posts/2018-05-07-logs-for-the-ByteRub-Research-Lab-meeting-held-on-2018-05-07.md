@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-05-07
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-05-07
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -13,7 +13,7 @@ author: el00ruobuob / surae
 **\<sgp\_[m]>** Hi!  
 **\<sarang>** Calling others: hyc suraeNoether anonimal endogenic binaryFate fluffypony luigi1111 luigi1113 rehrar[m] monerigo[m] gingeropolous dEBRUYNE  
 **\<sarang>** and many others no doubt  
-**\<sarang>** s/monerigo[m]/moneromooo  
+**\<sarang>** s/monerigo[m]/byterubmooo  
 **\<binaryFate>** présent  
 **\<sarang>** I suppose we can discuss recent updates and such  
 **\<sarang>** I have been focusing on noninteractive refund transactions  
@@ -39,13 +39,13 @@ author: el00ruobuob / surae
 **\<theRealSurae>** yeah, I think we are going to experience reduced returns in terms of hammering bulletproofs for improving our amount strucutres  
 **\<sarang>** theRealSurae: BPs to batch verify our current MLSAG scheme?  
 **\<silur>** oh yea the curve order question you asked  
-**\<theRealSurae>** so, i think it'd be really really helpful for both bitcoin and monero to have alternate curves  
+**\<theRealSurae>** so, i think it'd be really really helpful for both bitcoin and byterub to have alternate curves  
 **\<theRealSurae>** ohgod  
 **\<theRealSurae>** other than that and the multisig dump I made the night before yesterday, this week has been consumed by editing papers for other folks. Koe and my old advisor and another document. lots of reading this week  
 **\<sarang>** What are your thoughts on refunds?  
 **\<UkoeHB>** and thank you for that :) incredibly helpful  
 **\<sarang>** UkoeHB: any big changes to your excellent paper?  
-**\<UkoeHB>** Well we found out monero doesn't even use borromean sigs  
+**\<UkoeHB>** Well we found out byterub doesn't even use borromean sigs  
 **\<UkoeHB>** genBorromean should be genSAGs  
 **\<UkoeHB>** Or something  
 **\<sarang>** SAG?  
@@ -63,7 +63,7 @@ author: el00ruobuob / surae
 **\<UkoeHB>** I'll see what I can do  
 **\<theRealSurae>** thanks koe, i'm not in a rush on that though...  
 **\<theRealSurae>** I want to remind everyone that I'll be mostly away from the internet from tomorrow until the 19th, with some intermittent access.  
-**\<moneromooo>** luigi1111: is this (genBorromean doesn't actually generate Borromean sigs) correct ?  
+**\<byterubmooo>** luigi1111: is this (genBorromean doesn't actually generate Borromean sigs) correct ?  
 **\<UkoeHB>** yup have fun :). Vacation right?  
 **\<theRealSurae>** i'm not the sort who can really put work down, but i'm trying, briefly. i managed to write up a skeleton of the unforgeability proof for multisig and hand it off to sarang to familiarize himself with the musig approach  
 **\<binaryFate>** Zcash is also coming up with their own curve so as to speed up the particular things they need to. I find it worrying if the trend is that every project cooks up their curve to suit their particular needs.  
@@ -112,12 +112,12 @@ author: el00ruobuob / surae
 **\<sgp\_[m]>** sarang kinda, yeah. I don't have too much to mention now though  
 **\<sarang>** How does the network verify the spend of the originally-intended output?  
 **\<sarang>** sgp\_[m]: ok, keep us updated  
-**\<sneurlax>** I've contacted ehanoc re: the "transaction tree" python toolkit and we will collaborate to deliver that after I finish the scraping tool which moneromooo asked for.  mooo, I'll be sending you results this week  
+**\<sneurlax>** I've contacted ehanoc re: the "transaction tree" python toolkit and we will collaborate to deliver that after I finish the scraping tool which byterubmooo asked for.  mooo, I'll be sending you results this week  
 **\<sneurlax>** sorry to interject  
 **\<sarang>** sneurlax: excellent! That'll provide good data  
 **\<theRealSurae>** rehrar[m]: tell us?  
 **\<theRealSurae>** sneurlax: that's fantastic news  
-**\<rehrar[m]>** ZCash wants to open a grant proposal jointly with a Monero community member (that'd be me atm) to donate a considerable sum of money to some FFS proposals.  
+**\<rehrar[m]>** ZCash wants to open a grant proposal jointly with a ByteRub community member (that'd be me atm) to donate a considerable sum of money to some FFS proposals.  
 **\<sarang>** What types of FFS do they want to fund?  
 **\<theRealSurae>** how would that work? would you have discretion over donating the funds?  
 **\<rehrar[m]>** https://twitter.com/socrates1024/status/993252058923925506?s=19  
@@ -129,7 +129,7 @@ author: el00ruobuob / surae
 **\<rehrar[m]>** Perhaps we can also get subaddresses audited?  
 **\<theRealSurae>** hmm  
 **\<sarang>** Yeah, was thinking of waiting until closer to the finalization, but I suppose there's little advantage if we can coordinate w/ OSTIF quickly  
-**\<theRealSurae>** it seems like a lot of projects want to funnel their research funding through the Monero FFS  
+**\<theRealSurae>** it seems like a lot of projects want to funnel their research funding through the ByteRub FFS  
 **\<binaryFate>** the harder we criticize them the more they like us... 10k$ is not that much compared to amounts raised typically anyway  
 **\<sarang>** It's a nice gesture of community spirit though  
 **\<sgp\_[m]>** I think the best ones are the hardware wallet (which should work with Zcash iirc) and code audits  
@@ -138,10 +138,10 @@ author: el00ruobuob / surae
 **\<sarang>** The BP scope was narrow-ish  
 **\<theRealSurae>** binaryFate: yeah, it seems like a largely symbolic thing, but also: they've been really encouraging me and sarang to encourage you guys to ask for grant money.  
 **\<theRealSurae>** rehrar[m]: i should just take zooko out to a bdsm club in denver, see if they offer us six or seven figures. :P  
-**\<rehrar[m]>** In return , we can send them Monero stickers to put on their laptops.  
+**\<rehrar[m]>** In return , we can send them ByteRub stickers to put on their laptops.  
 **\<sarang>** something something meat market  
 **\<theRealSurae>** meat meat something market  
-**\<binaryFate> \<rehrar[m]>** In return , we can send them Monero stickers to put on their laptops. <-- they have one at least, we've put one on zooko's back at CCC without him noticing  
+**\<binaryFate> \<rehrar[m]>** In return , we can send them ByteRub stickers to put on their laptops. <-- they have one at least, we've put one on zooko's back at CCC without him noticing  
 **\<sarang>** I'll be interested to see how the 10K is disbursed  
 **\<theRealSurae>** sarang: Is the implication that it would totally be up to our discretion? that's sort of what i'm getting...  
 **\<rehrar[m]>** Zooko is a dude.  
@@ -153,7 +153,7 @@ author: el00ruobuob / surae
 **\<endogenic>** sorry rehar  
 **\<theRealSurae>** it'd guarantee that student would spend the rest of his time in grad school working on that sort of thing  
 **\<theRealSurae>** which I think would be a valuable thing: seed the mind-virus among as many researchers as possible  
-**\<binaryFate>** They're not even asking for doing joint work with zcash stuff at this stage apparently. Would just channel to Monero topics entirely if possible.  
+**\<binaryFate>** They're not even asking for doing joint work with zcash stuff at this stage apparently. Would just channel to ByteRub topics entirely if possible.  
 **\<pwrcycle>** Hi all.  
 **\<binaryFate>** Anyway grad student is a great idea  
 **\<theRealSurae>** binaryFate: yeah, that's the inference I made  
@@ -190,43 +190,43 @@ author: el00ruobuob / surae
 **\<sarang>** Oh, so I've been seeing random reddit postings about deep reorgs  
 **\<sarang>** But I haven't looked into it at all  
 **\<sarang>** Anyone know anything?  
-**\<selsta>** also articles are starting to come out https://www.trustnodes.com/2018/05/07/monero-allegedly-attack-claims-double-spends-orphaned-chains-21-block-deep  
-**\<moneromooo>** I think it's fixed now (no PR yet).  
+**\<selsta>** also articles are starting to come out https://www.trustnodes.com/2018/05/07/byterub-allegedly-attack-claims-double-spends-orphaned-chains-21-block-deep  
+**\<byterubmooo>** I think it's fixed now (no PR yet).  
 **\<sarang>** Do you know the cause?  
 **\<theRealSurae>** is it known what the issue was?  
 **\<sarang>** jinx  
 **\<binaryFate>** The +20-blocks fork mentioned in the post is not an actual fork, you only see that when syncing. But somebody is fiddling with decent HR  
-**\<sarang>** buy me a DietMonero  
+**\<sarang>** buy me a DietByteRub  
 **\<theRealSurae>** i thought the first few reports were possibly the OP for some reason  
-**\<binaryFate>** moneromooo link or summary?  
-**\<moneromooo>** Some init wasn't done in some cases when adding a tx.  
+**\<binaryFate>** byterubmooo link or summary?  
+**\<byterubmooo>** Some init wasn't done in some cases when adding a tx.  
 **\<sarang>** Yeah, I want to be able to give correct information  
-**\<moneromooo>** So that was causing the tx to be rejected though it is valid.  
+**\<byterubmooo>** So that was causing the tx to be rejected though it is valid.  
 **\<theRealSurae>** hrmm  
 **\<sarang>** OK, so that explains the "double spend" FUD  
 **\<sarang>** The long-chain reorgs are just related to initial sync?  
 **\<sarang>** It was noted that there wasn't any big spike in hashrate  
 **\<sarang>** so it's not outsiders coming online and futzing  
-**\<moneromooo>** If a pool doesn't accept a valid tx, it will continue mining on its own chain till it stops doing so.  
+**\<byterubmooo>** If a pool doesn't accept a valid tx, it will continue mining on its own chain till it stops doing so.  
 **\<sarang>** OK, so it's a single cause with these two effects?  
-**\<moneromooo>** What two effects ?  
+**\<byterubmooo>** What two effects ?  
 **\<sarang>** Well the reports I've seen have complained about apparent double spends (rejected tx) and long-chain reorgs  
 **\<theRealSurae>** i feel like if a selfish miner was going to release a chain in an attack, the hashrate wouldn't necessarily look different to an observer, especially if the attacker had 33%+ attack power and was clever with their timestamp choice...  
-**\<moneromooo>** I don't know anything about double spends.  
-**\<moneromooo>** Though if a merchant is only connected to that pool, you could swindle it.  
-**\<moneromooo>** The merchant would have to be only connected to that pool though, but that's not a new attack.  
+**\<byterubmooo>** I don't know anything about double spends.  
+**\<byterubmooo>** Though if a merchant is only connected to that pool, you could swindle it.  
+**\<byterubmooo>** The merchant would have to be only connected to that pool though, but that's not a new attack.  
 **\<sarang>** Yeah that's just being cavalier  
-**\<theRealSurae>** https://www.trustnodes.com/2018/05/07/monero-allegedly-attack-claims-double-spends-orphaned-chains-21-block-deep  
+**\<theRealSurae>** https://www.trustnodes.com/2018/05/07/byterub-allegedly-attack-claims-double-spends-orphaned-chains-21-block-deep  
 **\<theRealSurae>** i don't like that article for a variety of reasons, but  
 **\<sarang>** Yeah that's the article I keep getting linked to  
-**\<sarang>** it's based on some r/monero complaint posts  
+**\<sarang>** it's based on some r/byterub complaint posts  
 **\<sarang>** so naturally it will be accepted as gospel and spread widely  
 **\<theRealSurae>** it would be helpful to get more information from the specific users making this complaint  
 **\<sarang>** A random user says one thing and the devs who know things say another thing! So there's no way to know!  
 **\<binaryFate> \<sarang>** It was noted that there wasn't any big spike in hashrate <-- if someone is purposefully mining on alternative blocks rather than winning chain, we would not "see" the HR spike as it does not make blocks coming faster  
-**\<moneromooo>** You'd see a hashrate spike downwards.  
+**\<byterubmooo>** You'd see a hashrate spike downwards.  
 **\<binaryFate>** only if that miner was mining before no?  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Yes.  
 **\<theRealSurae>** not necessarily; an attacker with exactly 50% hash rate and honest timestamps will appear to be invisible. an attacker with lower hash rate could mess with timestamps slightly and appear invisible. an attacker with too low of a hash rate couldn't manipulate his timestamps enough to hide his activity  
 **\<theRealSurae>** (not necessarily re: downward spike)  
 **\<binaryFate>** Can we check how long it took them to mine a particular altchain of N blocks by checking logs on other nodes on when the last block in their chain got known to peers?  

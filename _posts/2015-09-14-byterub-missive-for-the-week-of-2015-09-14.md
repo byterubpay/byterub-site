@@ -2,16 +2,16 @@
 layout: post
 title: ByteRub Missives for the Week of 2015-09-14
 summary: An interview with the creators of ByteRubDice, a new ByteRub gaming site
-tags: [monero missives, external]
+tags: [byterub missives, external]
 author: Riccardo Spagni (fluffypony)
-forum: https://forum.getmonero.org/1/news-announcements-and-editorials/2378/monday-monero-missives-32-september-14th-2015
+forum: https://forum.getbyterub.org/1/news-announcements-and-editorials/2378/monday-byterub-missives-32-september-14th-2015
 ---
 
 <div class="text-center"><iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3798493/height/360/width/640/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" height="600" width="600" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div>
 
-To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-09-14.mp3), or [this link to the AAC/MP4](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-09-14.mp4), or [this link to the FLAC](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-09-14.flac).
+To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-09-14.mp3), or [this link to the AAC/MP4](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-09-14.mp4), or [this link to the FLAC](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-09-14.flac).
 
-In this week's episode we feature a brand new external project: [ByteRub Dice](https://monerodice.net/), and interview its founders and operators, Riccardo "fluffypony" Spagni, and rznag.
+In this week's episode we feature a brand new external project: [ByteRub Dice](https://byterubdice.net/), and interview its founders and operators, Riccardo "fluffypony" Spagni, and rznag.
 
 Until next week!
 

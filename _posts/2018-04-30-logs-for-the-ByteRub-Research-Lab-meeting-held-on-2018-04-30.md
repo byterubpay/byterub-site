@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-04-30
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-04-30
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -22,7 +22,7 @@ author: el00ruobuob / surae
 **\<sarang>** It was highly productive  
 **\<sgp\_[m]>** Hello  
 **\<sarang>** We got to meet some London meetup organizers before the event, which was great  
-**\<suraeNoether>** yes, this is where we spoke with Pedro Moren-Sanchez, who together with his student (who goes by donut in here) invented refund adresses for Monero  
+**\<suraeNoether>** yes, this is where we spoke with Pedro Moren-Sanchez, who together with his student (who goes by donut in here) invented refund adresses for ByteRub  
 **\<sarang>** I'm analyzing some preliminary material from them  
 **\<sarang>** There's some question about the applicability of hiding block heights  
 **\<sarang>** and whether this provides sufficiently better information obscurity to make it worthwhile  
@@ -59,7 +59,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** tomorrow, it's lawyer meetin' time  
 **\<sarang>** excellent  
 **\<midipoet>** nice  
-**\<sarang>** It's worth noting that donors are free to remain anonymous, in the spirit of Monero  
+**\<sarang>** It's worth noting that donors are free to remain anonymous, in the spirit of ByteRub  
 **\<sarang>** but the 501 status will allow donations to be tax-deductible in the U.S. if donors reveal themselves  
 **\<midipoet>** creating goodwill around crypto is needed. a lot of people have a very strange view of it, especially since the whole ICO thing  
 **\<sarang>** midipoet: definitely  
@@ -71,7 +71,7 @@ author: el00ruobuob / surae
 **\<sarang>** crypto = ca$hmoney  
 **\<madLyfe>** https://i.imgur.com/J2Vyl27.png  
 **\<midipoet>** pretty much sarang  
-**\<suraeNoether>** So, from sarang's research we've been looking at refund addresses. from mine, I'm struggling with signing oracles, key images, and discrete logarithms in our unforgeability proofs of multisig (ahem). from educational outreach, we have several folks from the monero research lab and the monero community participating. We even got dinner with Zooko to get ideas on including more independent folks, and I'm  
+**\<suraeNoether>** So, from sarang's research we've been looking at refund addresses. from mine, I'm struggling with signing oracles, key images, and discrete logarithms in our unforgeability proofs of multisig (ahem). from educational outreach, we have several folks from the byterub research lab and the byterub community participating. We even got dinner with Zooko to get ideas on including more independent folks, and I'm  
 **\<suraeNoether>** reaching out to two possible additional board members later today  
 **\<hyc>** ... silly politics is based on technological assessment tho  
 **\<madLyfe>** wrong channel. sorry.  
@@ -79,10 +79,10 @@ author: el00ruobuob / surae
 **\<sarang>** But for the purposes of this organization it's all silly  
 **\<sarang>** I should have clarified  
 **\<sarang>** We'll take donations where we can find them if it means helping more students and communities  
-**\<suraeNoether>** on another note, a representative from the ZCash foundation asked if we know of anyone in the Monero community who would be willing to serve on the ZCash Foundation board of directors. Because ZCash Foundation, despite the name, is independent of ZCashCo, is a non-profit focused on internet payment and privacy infrastructure also, even if one disagrees with the zcash design philosophy (which is totally fair)  
+**\<suraeNoether>** on another note, a representative from the ZCash foundation asked if we know of anyone in the ByteRub community who would be willing to serve on the ZCash Foundation board of directors. Because ZCash Foundation, despite the name, is independent of ZCashCo, is a non-profit focused on internet payment and privacy infrastructure also, even if one disagrees with the zcash design philosophy (which is totally fair)  
 **\<suraeNoether>** you could still contribute to the privacy community as a whole  
 **\<suraeNoether>** hyc maybe you should do it :D  
-**\<suraeNoether>** of course, no one from Monero \*needs\* to go and attempt that, but I think it's nice that they reached out  
+**\<suraeNoether>** of course, no one from ByteRub \*needs\* to go and attempt that, but I think it's nice that they reached out  
 **\<midipoet>** would you not lose some street cred sitting on that board?  
 **\<rehrar>** I second hyc  
 **\<rehrar>** he has the good looks and charisma necessary  
@@ -113,7 +113,7 @@ author: el00ruobuob / surae
 **\<sarang>** anyway  
 **\<midipoet>** aha  
 **\<suraeNoether>** ok, so that covers the basic research from the last week, and our educational outreach, and the various political-ish connections MRL has made with other projects  
-**\<sarang>** My monthly report details a few other things we've been doing: https://www.reddit.com/r/Monero/comments/8fzfzx/april\_monthly\_report\_from\_sarang\_noether/  
+**\<sarang>** My monthly report details a few other things we've been doing: https://www.reddit.com/r/ByteRub/comments/8fzfzx/april\_monthly\_report\_from\_sarang\_noether/  
 **\<suraeNoether>** has anyone done anything else they want to chat about? interesting simulations? I know silur has expressed some interest in getting more involved at MRL, but he is suffering under the delusion that one of us is in charge  
 **\<sarang>** The audit has begun for the two larger groups  
 **\<suraeNoether>** oh! audit! yeah!  
@@ -157,12 +157,12 @@ author: el00ruobuob / surae
 **\<nioc>** should be a dev meeting this coming Sun  
 **\<nioc>** rehrar: ^^^ ??  
 **\<rehrar>** yes nioc  
-**\<sgp\_[m]>** Was this discussed? https://github.com/moneroexamples/key\_images\_comparison  
+**\<sgp\_[m]>** Was this discussed? https://github.com/byterubexamples/key\_images\_comparison  
 **\<suraeNoether>** it has not been  
 **\<suraeNoether>** wow!  
 **\<suraeNoether>** much smaller numbers than I was expecting  
 **\<suraeNoether>** you know, endogenic earlier asked about the plausibility of long-term blackballing  
-**\<suraeNoether>** and I responded with a silly analogy, comparing the monero blockchain to a pile of radioactive material: outputs have half-lives of their anonymity as bad actors perform more and more blockchain forensics, they expose more and more old outputs...  
+**\<suraeNoether>** and I responded with a silly analogy, comparing the byterub blockchain to a pile of radioactive material: outputs have half-lives of their anonymity as bad actors perform more and more blockchain forensics, they expose more and more old outputs...  
 **\<sgp\_[m]>** Thoughts on the proportion used, and the proportion that used the tool? I actually felt that 10% of reused key images using a special tool to pair outputs was unusually high  
 **\<hyc>** lol pretty sure Zcash team has me blacklisted  
 **\<suraeNoether>** i meant the % that have at least one re-used key  

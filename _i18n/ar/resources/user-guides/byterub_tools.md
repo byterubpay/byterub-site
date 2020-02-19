@@ -16,4 +16,4 @@
 
 ### [إحصائيات شبكه مونيرو](http://moneroblocks.info/stats)
 
-### [Monero.how إحصائيات](https://www.monero.how/)
+### [ByteRub.how إحصائيات](https://www.monero.how/)

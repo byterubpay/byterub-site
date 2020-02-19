@@ -2,14 +2,14 @@
 layout: post
 title: ByteRub Missives for the Week of 2015-08-31
 summary: Contributing to, and building, the ByteRub website
-tags: [monero missives, usability]
+tags: [byterub missives, usability]
 author: Riccardo Spagni (fluffypony)
-forum: https://forum.getmonero.org/1/news-announcements-and-editorials/2368/monday-monero-missives-31-august-31st-2015
+forum: https://forum.getbyterub.org/1/news-announcements-and-editorials/2368/monday-byterub-missives-31-august-31st-2015
 ---
 
 <div class="text-center"><iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3775209/height/360/width/640/theme/standard-mini/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" height="600" width="600" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div>
 
-To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-08-31.mp3), or [this link to the AAC/MP4](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-08-31.mp4), or [this link to the FLAC](http://traffic.libsyn.com/monero/ByteRub_Missives_Podcast_for_the_week_of_2015-08-31.flac).
+To download the podcast directly please [use this link to the MP3](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-08-31.mp3), or [this link to the AAC/MP4](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-08-31.mp4), or [this link to the FLAC](http://traffic.libsyn.com/byterub/ByteRub_Missives_Podcast_for_the_week_of_2015-08-31.flac).
 
 In this week's episode we discuss the website content, and how everyone can contribute to making the ByteRub website a more complete and useful resource for newcomers.
 
@@ -83,7 +83,7 @@ Okay so the account page is basically the template of what we are looking for
 
 #### Riccardo
 
-Yes, this is what we would like things to look like. Now behind this page is not a bunch of HTML it is a markdown file. Om github you can see the account markdown file and get a good idea just by looking at the example. We will add some functionality to the site over the next week so that people can click and see and suggest changes easier. Now if you are not familiar with github and you don’t care to take the time to learn how to use git and directly contribute by making pull requests, then you can go to the right hand side of the ByteRub site github to submit a new issue. You can literally just type your suggestion in plain text into that area and suggest that. Then we can take that content, and properly format it into markdown and so on. This way people can help without having to spend time learning how to use markdown or github. The fastest way to get there is https://github.com/byterubpay/monero-site
+Yes, this is what we would like things to look like. Now behind this page is not a bunch of HTML it is a markdown file. Om github you can see the account markdown file and get a good idea just by looking at the example. We will add some functionality to the site over the next week so that people can click and see and suggest changes easier. Now if you are not familiar with github and you don’t care to take the time to learn how to use git and directly contribute by making pull requests, then you can go to the right hand side of the ByteRub site github to submit a new issue. You can literally just type your suggestion in plain text into that area and suggest that. Then we can take that content, and properly format it into markdown and so on. This way people can help without having to spend time learning how to use markdown or github. The fastest way to get there is https://github.com/byterubpay/byterub-site
 
 #### Gingeropolous
 

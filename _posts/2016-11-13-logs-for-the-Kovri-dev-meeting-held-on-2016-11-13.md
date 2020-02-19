@@ -44,7 +44,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** Note: confirmed earlier: run-time is online on ARMv8!  
 **\<i2p-relay> {-anonimal}** Anything else on point 2.?  
 **\<i2p-relay> {-olark}** Sums up the past 2 weeks well.  
-**\<i2p-relay> {-anonimal}** Side-note, JFTR: slack relay is not working and fluffypony isn't running meeting relay to #monero-dev  
+**\<i2p-relay> {-anonimal}** Side-note, JFTR: slack relay is not working and fluffypony isn't running meeting relay to #byterub-dev  
 **\<i2p-relay> {-anonimal}** Ok, moving on,  
 **\<i2p-relay> {-anonimal}** 3. Preparing for alpha release  
 **\<guzzi>** Here fyi  
@@ -95,7 +95,7 @@ author: dEBRUYNE / fluffypony
 **\<guzzi>** Ok i will read your pm when i get back  
 **\<i2p-relay> {-olark}** Keep on hacking away ;)  
 **\<guzzi>** On phone now  
-**\<i2p-relay> {-anonimal}** The difference between a Dec. 1st alpha release and Dec. 14th alpha release IMHO will be noticeable to an end-user. Neither is useful without package resolution nor more monero input/participation; so I want to wait for a final decision until fluffypony speaks up. We can talk more this coming week.  
+**\<i2p-relay> {-anonimal}** The difference between a Dec. 1st alpha release and Dec. 14th alpha release IMHO will be noticeable to an end-user. Neither is useful without package resolution nor more byterub input/participation; so I want to wait for a final decision until fluffypony speaks up. We can talk more this coming week.  
 **\<guzzi>** I agree boss.  
 **\<i2p-relay> {-anonimal}** lol guzzi  
 **\<i2p-relay> {-anonimal}** My biggest concern is that for reasons not of my doing, a release doesn't happen before 33c3, and I really hate having to change dates like this.  
@@ -108,7 +108,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** So, as this meeting has proven, no one else in ByteRub looks at the meeting agendas I prepare for every meeting :)  
 **\<i2p-relay> {-anonimal}** With the creation of byterubpay/meta, I think it would be better to not clutter the kovri repo with meeting agendas.  
 **\<guzzi>** Agree 100%  
-**\<i2p-relay> {-anonimal}** I would hope that more monero people get inolved with meeting agenda preparation and start using the meta repo too.  
+**\<i2p-relay> {-anonimal}** I would hope that more byterub people get inolved with meeting agenda preparation and start using the meta repo too.  
 **\<i2p-relay> {-anonimal}** I'd like to move agendas to meta from now on. guzzi is on board. Anyone else?  
 **\<i2p-relay> {-olark}** Sounds good to me.  
 **\<i2p-relay> {-anonimal}** Alright, I'll start doing that.  
@@ -123,7 +123,7 @@ author: dEBRUYNE / fluffypony
 **\<guzzi>** Do we care about 32  
 **\<i2p-relay> {-anonimal}** iDunk: can you paste error after the meeting?  
 **\<i2p-relay> {-iDunk}** will do  
-**\<i2p-relay> {-anonimal}** iDunk guzzi: our win32 build is working with buildbot https://build.getmonero.org/waterfall  
+**\<i2p-relay> {-anonimal}** iDunk guzzi: our win32 build is working with buildbot https://build.getbyterub.org/waterfall  
 **\<guzzi>** Ok so it is isolated  
 **\<i2p-relay> {-anonimal}** Yep, most likely, we'll see.  
 **\<i2p-relay> {-anonimal}** Anyone have any questions/comments on open/closed issues?  
@@ -164,12 +164,12 @@ author: dEBRUYNE / fluffypony
 **\<_Slack> \<nanoakron>** Slight general question about i2p - if I'm running kovri in the future, would a malicious agency be able to detect that?  
 **\<i2p-relay> {-olark}** ISPs can figure out you are using i2p.  
 **\<i2p-relay> {-anonimal}** nanoakron: that depends on the agency  
-**\<moneromooo>** A malicious one.  
-**\* moneromooo** runs  
+**\<byterubmooo>** A malicious one.  
+**\* byterubmooo** runs  
 **\<_Slack> \<nanoakron>** Lol  
 **\<i2p-relay> {-anonimal}** nanoakron: good question, I think that was one of the SE questions I bookmarked to answer  
 **\<_Slack> \<nanoakron>** Are there any loose thoughts on the step beyond kovri? Steganographic encoding within normal router traffic?  
-**\<i2p-relay> {-anonimal}** Now that moneropedia is merged, I'll answer them.  
+**\<i2p-relay> {-anonimal}** Now that byterubpedia is merged, I'll answer them.  
 **\<i2p-relay> {-olark}** I would like to explore better ways to obscure i2p traffic in with regular clearnet traffic, but that is for future research.  
 **\<_Slack> \<nanoakron>** Of course  
 **\<i2p-relay> {-olark}** SSU is pretty resistant to DPI and kovri already takes some countermeasure to hide the fact i2p is being used.  
@@ -202,7 +202,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** Spitball all you want, we have 7 minutes left :)  
 **\<_Slack> \<nanoakron>** ;)  
 **\<guzzi>** Lol. True  
-**\<_Slack> \<nanoakron>** Something for the monero research lab  
+**\<_Slack> \<nanoakron>** Something for the byterub research lab  
 **\<guzzi>** We should at least worry about packet sizes.  
 **\<guzzi>** In the future  
 **\<guzzi>** We are going to add user agent options  
@@ -210,7 +210,7 @@ author: dEBRUYNE / fluffypony
 **\<_Slack> \<nanoakron>** ?  
 **\<i2p-relay> {-olark}** Blending in with SSL traffic is the ideal scenario.  
 **\<_Slack> \<nanoakron>** Ah yes  
-**\<_Slack> \<nanoakron>** Will my little Odroid C2 node (ARMv8) be able to run kovri alongside monero in its final embodiment?  
+**\<_Slack> \<nanoakron>** Will my little Odroid C2 node (ARMv8) be able to run kovri alongside byterub in its final embodiment?  
 **\<i2p-relay> {-anonimal}** NTCP2 is addresses TCP packet length obfuscation.  
 **\<i2p-relay> {-anonimal}** olark: blending in with SSL, I don't see how that would be ideal, what do you mean?  
 **\<i2p-relay> {-olark}** To fly under the radar more.  
@@ -228,7 +228,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** TLS/SSL makes it's case but I'm not strongly in favor. We can talk more about that at the next meeting if anyone wants to, just add a note in the agenda.  
 **\<i2p-relay> {-anonimal}** Moving on,  
 **\<i2p-relay> {-anonimal}** 7. Confirm next meeting date/time  
-**\<i2p-relay> {-anonimal}** moneromooo: will next meeting be 18:00 for #monero-dev?  
+**\<i2p-relay> {-anonimal}** byterubmooo: will next meeting be 18:00 for #byterub-dev?  
 **\<i2p-relay> {-olark}** Hmmm  
 **\<i2p-relay> {-anonimal}** Or 17:00?  
 **\<i2p-relay> {-fluffypony}** oh  
@@ -236,7 +236,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-anonimal}** Thanks for understanding fluffypony.  
 **\<i2p-relay> {-fluffypony}** my apologies  
 **\<i2p-relay> {-fluffypony}** I must've misunderstood the timing discussion  
-**\<i2p-relay> {-anonimal}** fluffypony: apologies accepted! Are #monero-dev meetings now at 17:00 or 18:00  
+**\<i2p-relay> {-anonimal}** fluffypony: apologies accepted! Are #byterub-dev meetings now at 17:00 or 18:00  
 **\<i2p-relay> {-anonimal}** (fluffypony: we're idling on 7. Confirm next meeting date/time)  
 **\<i2p-relay> {-fluffypony}** anonimal: let's update after the ByteRub meeting  
 **\<i2p-relay> {-anonimal}** Alright, I'll start with 17:00  

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-06-25
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-06-25
 summary: MRL work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -21,8 +21,8 @@ author: el00ruobuob / surae
 **\<suraeNoether>** morning isthmuscrypto  and needmoney90   
 **\<suraeNoether>** Another update, Sarang will be back next week I believe  
 **\<suraeNoether>** Other than that, Sarang and I will be at defcon, and we are excited to meet up with folks  
-**\<sgp\_[m]>** They're more accessible if they are posted as a blog post on getmonero. Probably some value there  
-**\<suraeNoether>** sgp\_[m]: would I make a PR to the monero-site repo then?  
+**\<sgp\_[m]>** They're more accessible if they are posted as a blog post on getbyterub. Probably some value there  
+**\<suraeNoether>** sgp\_[m]: would I make a PR to the byterub-site repo then?  
 **\<binaryFate>** hello  
 **\<sgp\_[m]>** There are some open PRs now for the community meetings. Best to use those as a template  
 **\<suraeNoether>** so the answer is yes, and to use those as a template? I haven't done any blog posts through the repo before, so I'm not sure exactly what the procedure is. :P  
@@ -73,7 +73,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** primarily, I'm thinking it's possible we don't need to worry about the KOSK setting with only minor adjustments to our current scheme, and if that's the case, all the musig key computation and all the commit-and-reveal nonsense just goes away  
 **\<suraeNoether>** in which case the whole paper will \*AGAIN\* collapse to something smaller  
 **\<suraeNoether>** but I need some sanity checks from folks with more knowledge in the field of complexity theory  
-**\<suraeNoether>** Other than that, I recently finished advising the ZCash Foundation in giving out 250kUSD in grants, I'm working on encrypted memo fields in Monero transactions, and I've been writing up my backlog statements of work. I've already broken 160 hours this month, but I like this job a whole lot so I'm not really taking weekends until I start feeling burnt out.  
+**\<suraeNoether>** Other than that, I recently finished advising the ZCash Foundation in giving out 250kUSD in grants, I'm working on encrypted memo fields in ByteRub transactions, and I've been writing up my backlog statements of work. I've already broken 160 hours this month, but I like this job a whole lot so I'm not really taking weekends until I start feeling burnt out.  
 **\<silur>** usual cryptographer's calendar :D  
 **\<suraeNoether>** oh, earlier this week I made some commits to my PoissonGraph simulations (see here https://github.com/b-g-goodell/research-lab/tree/simple/source-code/Poisson-Graphs/new) which are \*inches\* away from successfully producing human-readable transcripts describing cryptocurrency network simulations.  
 **\<suraeNoether>** The sim suite is for testing difficulty algorithms, consensus algorithms, and dynamical properties of the network.   
@@ -124,12 +124,12 @@ author: el00ruobuob / surae
 **\<suraeNoether>** being stateless is a desirable state for a hash-based signature scheme.  
 **\<rehrar>** they should see about holding Defcon in Canada  
 **\<sgp\_[m]>** Ugh Tues-Thurs  
-**\<suraeNoether>** should we hold the monero conference in another country?  
-**\<silur>** HCPP last year had a "secret" monero meeting, I met a dev guy there  
+**\<suraeNoether>** should we hold the byterub conference in another country?  
+**\<silur>** HCPP last year had a "secret" byterub meeting, I met a dev guy there  
 **\<silur>** he was giving away SO MANY stickers  
 **\<silur>** so I guess HCPP is ideal :P  
 **\<suraeNoether>** Okay, so anyway  
 **\<suraeNoether>** :D  
-**\<oneiric\_>** hold monero conf in Liberland: http://www.liberland.org/  
+**\<oneiric\_>** hold byterub conf in Liberland: http://www.liberland.org/  
 **\<suraeNoether>** Let's call this meeting what it is: done  
 **\<suraeNoether>** \</meeting>

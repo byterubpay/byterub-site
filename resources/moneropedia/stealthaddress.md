@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.stealthaddress
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.stealthaddress
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/stealthaddress.md %}
+{% tf resources/byterubpedia/stealthaddress.md %}

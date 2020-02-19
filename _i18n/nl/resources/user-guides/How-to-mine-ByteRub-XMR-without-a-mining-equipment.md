@@ -1,9 +1,9 @@
 {% assign version = '3.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-## Monero (XMR) minen zonder miningapparatuur
+## ByteRub (XMR) minen zonder miningapparatuur
 
 Als je geen rendabele apparatuur om te minen hebt, en geen tijd of
-geen geld om te besteden aan het bouwen ervan, kun je toch Monero minen via NiceHash.
+geen geld om te besteden aan het bouwen ervan, kun je toch ByteRub minen via NiceHash.
 
 NiceHash is een marktplaats voor hashpower. Verkopers van hashpower,
 miners dus, leveren hashpower aan kopers (die het minen van
@@ -19,7 +19,7 @@ Ga naar de
 
 ### **Stap 2.** Stort een bedrag in Bitcoin op je account
 
-Je gaat Monero minen, maar je kunt hashpower bij
+Je gaat ByteRub minen, maar je kunt hashpower bij
 NiceHash alleen met Bitcoins aanschaffen. Bitcoins die je niet uitgeeft kun je later weer
 overboeken naar een Bitcoin-portemonnee.
 
@@ -32,7 +32,7 @@ is 0,01 BTC.
 Het selecteren van een pool speelt heeft een grote invloed op hoeveel
 van een cryptovaluta je uiteindelijk kunt minen. Zorg dat de pool die je hebt geselecteerd een hoge hashrate
 en veel shares kan verwerken, met name via één verbinding.
-[Hier](https://bitcointalk.org/index.php?topic=583449.0) vind je een lijst met Monero-pools.
+[Hier](https://bitcointalk.org/index.php?topic=583449.0) vind je een lijst met ByteRub-pools.
 
 Waarschijnlijk moet je bij de pool die je kiest ook een account
 registreren. De pool geeft je alle gegevens die je nodig hebt.
@@ -41,7 +41,7 @@ Je kunt je favoriete pools op [deze pagina](https://www.nicehash.com/?p=managepo
 ### **Stap 4.** Geef een nieuwe order op en begin te minen
 
 Let bij het opgeven van een [nieuwe order](https://www.nicehash.com/?p=orders&new) op dat je
-het algoritme CryptoNightR voor het minen van Monero selecteert. (De nieuwe variant van het algoritme sinds 9 maart 2019.) Als je eerst meer wilt weten over
+het algoritme CryptoNightR voor het minen van ByteRub selecteert. (De nieuwe variant van het algoritme sinds 9 maart 2019.) Als je eerst meer wilt weten over
 hoe je een order opgeeft bij NiceHash, raden we je aan [het antwoord op deze vraag](https://www.nicehash.com/?p=faq#faqb0) te lezen.
 
 Als je wilt bieden op

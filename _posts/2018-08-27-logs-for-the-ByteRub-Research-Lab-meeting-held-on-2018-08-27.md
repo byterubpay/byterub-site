@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-08-27
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-08-27
 summary: Sarang work, Surae work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / surae
@@ -58,17 +58,17 @@ author: el00ruobuob / surae
 **\<suraeNoether>** i vote fixing ring sizes at 36 and keeping them fixed for a year while we look into sublinear optimizations. :P  
 **\<endogenic>** it would be a good problem to have  
 **\<sarang>** Unfortunately the prover is still 2x slower than borromean  
-**\<moneromooo>** Oh, I bumped like 25% off the prover btw.  
+**\<byterubmooo>** Oh, I bumped like 25% off the prover btw.  
 **\<sarang>** lolwut  
 **\<sarang>** go on  
-**\<moneromooo>** Not looking at it anymore for now :)  
+**\<byterubmooo>** Not looking at it anymore for now :)  
 **\<sarang>** commit #?  
-**\<moneromooo>** I took out 128 scalarmults IIRC.  
+**\<byterubmooo>** I took out 128 scalarmults IIRC.  
 **\<suraeNoether>** jfc  
 **\<sarang>** https://gph.is/1e0T1tY  
 **\<suraeNoether>** oh, i wanted to add an item to the end of the agenda  
 **\<endogenic>** lol sarang  
-**\<moneromooo>** 81a65c30d667eaf5e4a1f0ecd1e64746b09cfdd7  
+**\<byterubmooo>** 81a65c30d667eaf5e4a1f0ecd1e64746b09cfdd7  
 **\<suraeNoether>** 4) the possibility of an FFS for QuarksLabs to just audit our whole codebase.  
 **\<sarang>** ty  
 **\<sarang>** Aso  
@@ -134,7 +134,7 @@ author: el00ruobuob / surae
 **\<sarang>** Anything else of interest to share with the class  
 **\<sarang>** Or IsthmusCrypto?  
 **\<sgp\_>** sneurlax's tool is now easy to run  
-**\<sgp\_>** I updated the blackball lists with MoneroV  
+**\<sgp\_>** I updated the blackball lists with ByteRubV  
 **\<sarang>** Excellent  
 **\<sarang>** I hope this sees use and extension by others as well  
 **\<sgp\_>** Any thoughts on making the pool lists available too? I know sneurlax was worried about releasing the code  
@@ -145,55 +145,55 @@ author: el00ruobuob / surae
 **\<sarang>** Might it influence pool behavior in a positive way?  
 **\<sgp\_>** We will need some way to have this tool check for chain reactions with the regular blackball tool in the future  
 **\<sgp\_>** sarang I already came up with an initial best practices guide for pools, but I need to refine it  
-**\<moneromooo>** The pool thing is a guess though.  
-**\<moneromooo>** Does it output some sane format (like a key per line or so) ?  
+**\<byterubmooo>** The pool thing is a guess though.  
+**\<byterubmooo>** Does it output some sane format (like a key per line or so) ?  
 **\<sgp\_>** It outputs a single output per line in a .txt file  
-**\<moneromooo>** OK, I can add reading that then.  
+**\<byterubmooo>** OK, I can add reading that then.  
 **\<sgp\_>** great! Ideally the pool tool could be run first, then the list can be added to the blackball tool as a set of bad outputs  
 **\<sarang>** Is there a regular schedule envisioned for this?  
 **\<sarang>** for the hosted version  
 **\<sgp\_>** At the moment I'm just doing it when I have time. It's all manual at the moment  
 **\<sarang>** seems a prime candidate for automation  
 **\<sgp\_>** Probably a few times a month unless it's automated, yes  
-**\<moneromooo>** I had this idea of having diffs made, then advertised in a TXT record like the release updates.  
-**\<moneromooo>** Then the wallet could automatically download/merge.  
+**\<byterubmooo>** I had this idea of having diffs made, then advertised in a TXT record like the release updates.  
+**\<byterubmooo>** Then the wallet could automatically download/merge.  
 **\<sarang>** baller  
-**\<moneromooo>** It would require the list maintainer to keep to rigid naming conventions for the diffs.  
-**\<sgp\_>** moneromooo I believe there are two big features that would help with pool outputs: 1) an easily-selectable output selection option, such as "--selection-algo public-pool", 2) a wallet option to avoid selecting coinbase outputs for decoys, enabled by default (--coinbase-decoys false)  
+**\<byterubmooo>** It would require the list maintainer to keep to rigid naming conventions for the diffs.  
+**\<sgp\_>** byterubmooo I believe there are two big features that would help with pool outputs: 1) an easily-selectable output selection option, such as "--selection-algo public-pool", 2) a wallet option to avoid selecting coinbase outputs for decoys, enabled by default (--coinbase-decoys false)  
 **\<sgp\_>** we can streamline the blackball lists significantly if the coinbase outputs are excluded automatically  
-**\<moneromooo>** I won't do that unless surae or sarang reckons it's a statistically advantageous thing to do.  
+**\<byterubmooo>** I won't do that unless surae or sarang reckons it's a statistically advantageous thing to do.  
 **\<sgp\_>** all right, but since the vast majority of coinbase outputs are mined by public pools, it's something to consider  
 **\<sarang>** So you mean perform the statistically correct output selection (fitted gamma) but with avoided decoys  
 **\<sarang>** including blackball+coinbase  
-**\<moneromooo>** That means an attacker can know whether a given tx was made by a pool or not. At first glance, it diminishes your anonymity set.  
-**\<sgp\_>** moneromooo can you expand on this reasoning? If you're referring to coinbase outputs, they know what transaction they are spent in anyway by the pool since the pool makes its transaction lists public  
-**\<moneromooo>** If your tx has only two outs, then it \*might\* be good, but that's not immediately obvious.  
-**\<moneromooo>** Oh, I forgot they do now. Dumb.  
-**\<moneromooo>** Time to kick pools out ^\_^  
+**\<byterubmooo>** That means an attacker can know whether a given tx was made by a pool or not. At first glance, it diminishes your anonymity set.  
+**\<sgp\_>** byterubmooo can you expand on this reasoning? If you're referring to coinbase outputs, they know what transaction they are spent in anyway by the pool since the pool makes its transaction lists public  
+**\<byterubmooo>** If your tx has only two outs, then it \*might\* be good, but that's not immediately obvious.  
+**\<byterubmooo>** Oh, I forgot they do now. Dumb.  
+**\<byterubmooo>** Time to kick pools out ^\_^  
 **\<sgp\_>** yeah, it's a situation where a ton of network info is public  
 **\<sarang>** Is IsthmusCrypto here?  
 **\<sgp\_>** So if you can attribute ~90% of coinbase outputs to specific transactions, we should at least consider setting the default wallet behavior to not include these outputs that will be bad ~90% of the time  
-**\<endogenic>** anyone know if exploremonero.com is open source? i was a bit surprised to see they ask for the sec view key for checking txs  
+**\<endogenic>** anyone know if explorebyterub.com is open source? i was a bit surprised to see they ask for the sec view key for checking txs  
 **\<sgp\_>** endogenic I can't find it. Only the localization: https://github.com/GBKS  
 **\<endogenic>** hmmmmm  
 **\<endogenic>** btw i -think- i've identified anycoin as one of the wallets sending with ringsize 8  
 **\<sarang>** damn off-by-one...  
 **\<sarang>** So we have ten minutes remaining  
 **\<sarang>** Does anyone else wish to share something of interest they are working on?  
-**\<sarang>** moneromooo: can you comment on the expected status of BP updates relative to our release schedule?  
-**\<moneromooo>** Do you mean "are BPs going in" ? If so, yes.  
+**\<sarang>** byterubmooo: can you comment on the expected status of BP updates relative to our release schedule?  
+**\<byterubmooo>** Do you mean "are BPs going in" ? If so, yes.  
 **\<sarang>** I know there was a cutoff for PR review purposes  
 **\<sarang>** I assume all that is going smoothly?  
-**\<moneromooo>** The PR is reviewed and ready to go. The CNv2 changes were supposed to go in too, but the author dropped a large change yesterday :/  
+**\<byterubmooo>** The PR is reviewed and ready to go. The CNv2 changes were supposed to go in too, but the author dropped a large change yesterday :/  
 **\<endogenic>** also interested. would be good to freeze at some point, if only for a good bit of testing lead time  
-**\<moneromooo>** So that might push the merge a bit.  
-**\<moneromooo>** If some of you are familiar with low level bit bashing and hashes, feel free to review ^\_^  
+**\<byterubmooo>** So that might push the merge a bit.  
+**\<byterubmooo>** If some of you are familiar with low level bit bashing and hashes, feel free to review ^\_^  
 **\<sarang>** Yeah I've been following the tweak discussion a bit  
 **\<endogenic>** how worthwhile will it be to have a final review of this code after the final cut ?  
 **\<sarang>** Updates to BPs will be a point release I suppose?  
 **\<endogenic>** i mean audit  
-**\<moneromooo>** If you mean what's not in the current PR, I dunno yet, but it is fairly likely.  
-**\<moneromooo>** Unless people want the speedups bad :)  
+**\<byterubmooo>** If you mean what's not in the current PR, I dunno yet, but it is fairly likely.  
+**\<byterubmooo>** Unless people want the speedups bad :)  
 **\<sarang>** Eh  
 **\<sarang>** Well, thanks to everyone for sharing  
 **\<sarang>** We can adjourn now and keep discussions going as desired  

@@ -11,7 +11,7 @@ author: dEBRUYNE / fluffypony
 **\<i-a>** Hello all, it is time for our firmware meeting to start. I am not sure if it is not too early to have a meeting like this, but let's see.  
 **\<i-a>** Strange, there were so many people saying they have questions about code and now nobody is here:) So I will give a quick update on our project:  
 **\<i-a>** Ok here is the quick update: USB communications is working, alse we can generate wallet by using internal random number generator (thanks god for m2049r, nice job)  
-**\<i-a>** Maybe you have some recommendation how to move from here? My questions could look silly, but thats because I am personally just learning monero.  
+**\<i-a>** Maybe you have some recommendation how to move from here? My questions could look silly, but thats because I am personally just learning byterub.  
 **\<m2049r[m]>** :)  
 **\<i-a>** On the other hand, there are other people working and maybe my questions could help also to them.  
 **\<m2049r[m]>** is there anyone here who is actually taking part in this meeting besides us two?  
@@ -53,7 +53,7 @@ author: dEBRUYNE / fluffypony
 **\<luigi1111>** I think you pretty much have to have client do the scanning  
 **\<luigi1111>** Not the hw  
 **\<hotoatmeal>** homeomorphic encryption  
-**\<dEBRUYNE>** jbdatko: It's under open PRs on the monero repository  
+**\<dEBRUYNE>** jbdatko: It's under open PRs on the byterub repository  
 **\<luigi1111>** Unless you have some hw acceleration it's just too slow  
 **\<i-a>** luigi1111: yes but is there a way how to do it?  
 **\<luigi1111>** How to do which  
@@ -68,7 +68,7 @@ author: dEBRUYNE / fluffypony
 **\<hotoatmeal>** yeah  
 **\<i-a>** :(  
 **\<hotoatmeal>** but in terms of mathematical purity / elegance... I really want that kind of solution to work :)  
-**\<hotoatmeal>** jbdatko: https://github.com/byterubpay/monero/pull/3095  
+**\<hotoatmeal>** jbdatko: https://github.com/byterubpay/byterub/pull/3095  
 **\<i-a>** Ok, another question: If device did he whole scanning. How much memory we need on the device? I think that downlink from peers is usually slower than USB, so limitations is more in memory requirement at the device.  
 **\<m2049r[m]>** how big of a problem would it be to reveal the viewkey to the client?  
 **\<luigi1111>** Not memory  
@@ -81,9 +81,9 @@ author: dEBRUYNE / fluffypony
 **\<i-a>** yes but it is fine for now I think.  
 **\<luigi1111>** You could have a remote node  
 **\<hotoatmeal>** well, yeah  
-**\<luigi1111>** All the way to mymonero  
+**\<luigi1111>** All the way to mybyterub  
 **\<m2049r[m]>** the client wallet cache - is that encrypted?  
-**\<moneromooo>** Yes.  
+**\<byterubmooo>** Yes.  
 **\<m2049r[m]>** thought so - so the device would need to do that as well.  
 **\<hotoatmeal>** is it possible to give the client an image of the view key, and then have it search the blockchain for some subset of txo's that /might/ match (as a coarse filter)?  
 **\<endogenic>** vtnerd  
@@ -99,7 +99,7 @@ author: dEBRUYNE / fluffypony
 **\<m2049r[m]>** yeah, except that.  
 **\<hotoatmeal>** heh. now it needs an fpga  
 **\<luigi1111w>** I don't really see any way around it  
-**\<luigi1111w>** mymonero as a hw client would actually be quite desirable  
+**\<luigi1111w>** mybyterub as a hw client would actually be quite desirable  
 **\<luigi1111w>** and quite an upgrade  
 **\<luigi1111w>** well it all depends on perspective :)  
 **\<endogenic>** :)  
@@ -137,7 +137,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** m2049r[m]: I can send you a nRF52840-DK if you want.  
 **\<luigi1111w>** we know the viewkey delegation works, at least  
 **\<msvb-mob>** i-a: The nRF is easy (there's a devkit for that) but to test the CEC1702 we must make the boards ourselves first.  
-**\<luigi1111w>** (mymonero and openmonero both use the exact same idea already)  
+**\<luigi1111w>** (mybyterub and openbyterub both use the exact same idea already)  
 **\<msvb-mob>** I think the MCUs are already in my lab.  
 **\<i-a>** msvb-mob: that is not a big deal, if you know the are comming, i can send you a board asap.  
 **\<i-a>** (lets say gerbers on monday/tuesday)  
@@ -259,27 +259,27 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** There have been some requests for SD cards, so it would be nice to try to put one on at least the developer edition board (since it has more space.)  
 **\<m2049r[m]>** yes - use a viewonly wallet.  
 **\<msvb-mob>** m2049r[m]: Shift devices makes quite a nice hardware wallet (Bitbox) with a SD card.  
-**\<endogenic>** do you guys suppose there's any reason why this isn't a match for the mymonero lightwallet server you run alongside the daemon?  
+**\<endogenic>** do you guys suppose there's any reason why this isn't a match for the mybyterub lightwallet server you run alongside the daemon?  
 **\<luigi1111w>** I don't  
 **\<endogenic>** i might be misunderstanding  
 **\<luigi1111w>** I think it's great  
-**\<luigi1111w>** it's also great for existing mymonero users (privacy issues notwithstanding, of course)  
+**\<luigi1111w>** it's also great for existing mybyterub users (privacy issues notwithstanding, of course)  
 **\<luigi1111w>** but I guess we're discussing the edge of what's possible  
 **\<luigi1111w>** for having a device that does basically no delegation for maximal security and privacy in all cases  
-**\<m2049r[m]>** you are saying to have the device connect to an openmonero instance?  
+**\<m2049r[m]>** you are saying to have the device connect to an openbyterub instance?  
 **\<luigi1111w>** or maybe just rainbows and unicorns  
 **\<endogenic>** m2049r[m]: no  
 **\<endogenic>** i was envisioning some sort of stripped down protocol...vtnerd and i are working on that anyway in the api overhaul  
 **\<m2049r[m]>** ok, what are you saying?  
-**\<luigi1111w>** he's talking about mymonero not openmonero  
+**\<luigi1111w>** he's talking about mybyterub not openbyterub  
 **\<endogenic>** so if you're running your own local server  
 **\<luigi1111w>** though in theory they are similar  
-**\<endogenic>** which is written in C++ and in the monero-cli repo alongside the official daemon  
+**\<endogenic>** which is written in C++ and in the byterub-cli repo alongside the official daemon  
 **\<endogenic>** it almost seems like it's more a question of protocol and transport  
 **\<endogenic>** that is  
 **\<endogenic>** if we really are talking about delegating scanning  
 **\<endogenic>** of course you have the view key disclosure tradeoff but that's why you run your own server locally  
-**\<m2049r[m]>** i thought mymonero was closed source and not for anyone to run their own?  
+**\<m2049r[m]>** i thought mybyterub was closed source and not for anyone to run their own?  
 **\<luigi1111w>** it is  
 **\<luigi1111w>** but it won't be for much longer  
 **\<luigi1111w>** supposedly :)  
@@ -289,8 +289,8 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** he hadnt been able to before  
 **\<endogenic>** too many pesky users!  
 **\<endogenic>** but anyway  
-**\<endogenic>** this idea does seem to overlap with simplewallet/monero-gui's job too  
-**\<luigi1111w>** the theory of mymonero locally vs gui/cli is pretty similar  
+**\<endogenic>** this idea does seem to overlap with simplewallet/byterub-gui's job too  
+**\<luigi1111w>** the theory of mybyterub locally vs gui/cli is pretty similar  
 **\<luigi1111w>** yes  
 **\<endogenic>** does that count as a jinx?  
 **\<luigi1111w>** slow motion  
@@ -302,7 +302,7 @@ author: dEBRUYNE / fluffypony
 **\<luigi1111w>** m2049r[m] more is better  
 **\<luigi1111w>** but it doesn't need to be "a lot" for the delegated road  
 **\<luigi1111w>** which includes basically everything that's not "do it all on device"  
-**\<luigi1111w>** whether local client or some mymonero type  
+**\<luigi1111w>** whether local client or some mybyterub type  
 **\<m2049r[m]>** signing would be on device for example - how large are the messages to be signed / verified?  
 **\<luigi1111w>** it does need to be able to hash some KBs yes  
 **\<luigi1111w>** 50 max, maybe  
@@ -325,7 +325,7 @@ author: dEBRUYNE / fluffypony
 **\<m2049r[m]>** including convesion from/to 256-bit scalars or the mult by itself?  
 **\<luigi1111w>** including  
 **\<cslashm>** m2049r[m]: hotoatmeal: Yes All secret value are passed encrypted from device to PC. When PC need perform operation with those values, there are retransmitted to the device  
-**\<luigi1111w>** https://github.com/byterubpay/monero/blob/master/src/crypto/crypto.cpp#L127  
+**\<luigi1111w>** https://github.com/byterubpay/byterub/blob/master/src/crypto/crypto.cpp#L127  
 **\<luigi1111w>** if you can match that  
 **\<m2049r[m]>** ok - like the operation need to make a public key out of a secret key (eg. viewkey)?  
 **\<luigi1111w>** yes  
@@ -334,7 +334,7 @@ author: dEBRUYNE / fluffypony
 **\<m2049r[m]>** will do that tomorrow and get back with results.  
 **\<luigi1111w>** cool  
 **\<luigi1111w>** might as well do arbitrary base too if it's not much more work  
-**\<luigi1111w>** https://github.com/byterubpay/monero/blob/master/src/crypto/crypto.cpp#L127  
+**\<luigi1111w>** https://github.com/byterubpay/byterub/blob/master/src/crypto/crypto.cpp#L127  
 **\<luigi1111w>** you can use any valid point for the pubkey param  
 **\<luigi1111w>** I can give you one in hex if you want  
 **\<luigi1111w>** or you can just gen one from the above function  

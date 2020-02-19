@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.mining
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.mining
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/mining.md %}
+{% tf resources/byterubpedia/mining.md %}

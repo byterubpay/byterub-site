@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2018-10-22
+title: Logs for the ByteRub Research Lab Meeting Held on 2018-10-22
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -48,7 +48,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** selsta: we've communicated with them about that paper, and they didn't ask for any particular confidentiality or anything. in the past, researchers have contacted us with a paper and asked for confidentiality until publication, and we've kept those promises  
 **\<suraeNoether>** netg i will read this carefully  
 **\<selsta>** suraeNoether: okay :)  
-**\<suraeNoether>** ok, i have two things i want to chat about: firstly, the churn analysis, and second, the monero konferenco  
+**\<suraeNoether>** ok, i have two things i want to chat about: firstly, the churn analysis, and second, the byterub konferenco  
 **\<sarang>** May I say one thing first?  
 **\<suraeNoether>** but i don't want to interrupt sarang's   
 **\<suraeNoether>** yep  
@@ -71,7 +71,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** in the ensuing two weeks, I've come up with some... disappointing results. and some hopeful results. sort of contradictory  
 **\<suraeNoether>** not a literal contradiction, or i wouldn't be coming to the community about it  
 **\<suraeNoether>** so, essentially, i have \*nearly\* formalized a game i'm calling the linkability game, and a specific implementation of this game could be called the fungibility game  
-**\<suraeNoether>** this quantifies the complexity an adversary faces when trying to link monero transactions  
+**\<suraeNoether>** this quantifies the complexity an adversary faces when trying to link byterub transactions  
 **\<suraeNoether>** compare this to the naive anonymity set questions we began with... "if we churn 7 times with ring size 5, does that mean we have an effective anonymity set of 5^7? who knows!"  
 **\<suraeNoether>** well, now i have a formal, quantifiable way of assessing the time required for an adversary to find a plausible transaction history that is optimal with respect to some model chosen by the adversary: that is to say, if the adversary thinks they have come up with a new heuristic, I can answer the question "how long does it take to find the most plausible transaction history, according to this heuristic?"  
 **\<sarang>** It sounds like the counter to the adversary's work is "how many other transaction histories are possible along with the true spends?"  
@@ -99,27 +99,27 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** i picked 10 and 100 ring members respectively as examples that are one order of magnitude apart, and i picked a billion (10^9) and big (10^81) essentially just to look at the behavior, at a glance  
 **\<suraeNoether>** so, this actually demonstrates a few things  
 **\<suraeNoether>** firstly: someone who is making only a few deposits, say 3, with no churn whatsoever, at a ring size of 11 is like ... dealing with 76 or so possible transaction histories  
-**\<suraeNoether>** which is unnaceptable for someone whose safety depends on Monero  
+**\<suraeNoether>** which is unnaceptable for someone whose safety depends on ByteRub  
 **\<suraeNoether>** this means people transacting with untrusted 3rd parties should be using at least one churn between transactions  
-**\<moneromooo>** What do you call "transaction history" ?  
-**\<suraeNoether>** moneromooo: a plausible transaction history is a matching between key images and one-time output keys. there is only one "true" transaction history, which corresponds to "which key was used to compute this key image?"  
+**\<byterubmooo>** What do you call "transaction history" ?  
+**\<suraeNoether>** byterubmooo: a plausible transaction history is a matching between key images and one-time output keys. there is only one "true" transaction history, which corresponds to "which key was used to compute this key image?"  
 **\<suraeNoether>** if some signatures are mutually incompatible, you end up not getting a matching  
-**\<moneromooo>** Thanks.  
+**\<byterubmooo>** Thanks.  
 **\<suraeNoether>** np  
 **\<sarang>** (e.g. from the graph representation we talked about a while ago)  
 **\<suraeNoether>** yep  
 **\<sarang>** I assume it also goes without saying that churns should follow spend timing patterns  
 **\<sarang>** but this is a separate issue from the idea of transaction matchings  
 **\<suraeNoether>** yes  
-**\<suraeNoether>** so, the second thing this demonstrates is the power of plausible deniability, which really only matters for a court-of-law sort of situation as opposed to a more nefarious type who is trying to literally hunt or track down people using the monero blockchain  
-**\<suraeNoether>** another thing: this same approach can be used to link commitments and nullifiers in zcash; the goodness of your linking is dependent upon your heuristics (like timing as people leave and enter the shielded pool, or like amount-matching with the transparent-pool trnasactions) just like in monero. the primary difference is that the total number of edges to match is much much higher in zcash, at least whenever  
+**\<suraeNoether>** so, the second thing this demonstrates is the power of plausible deniability, which really only matters for a court-of-law sort of situation as opposed to a more nefarious type who is trying to literally hunt or track down people using the byterub blockchain  
+**\<suraeNoether>** another thing: this same approach can be used to link commitments and nullifiers in zcash; the goodness of your linking is dependent upon your heuristics (like timing as people leave and enter the shielded pool, or like amount-matching with the transparent-pool trnasactions) just like in byterub. the primary difference is that the total number of edges to match is much much higher in zcash, at least whenever  
 **\<suraeNoether>** the shielded pool is big enough  
 **\<suraeNoether>** so it takes a lot longer, and there is less information to base heuristics on  
 **\<sarang>** In the interest of time, what are our next steps?  
 **\<sarang>** These are excellent results  
 **\<suraeNoether>** i think a priority of MRL should be to seek out replacements for ring signatures  
 **\<sarang>** of course  
-**\<suraeNoether>** i think writing a paper on the topic will 1) do Monero a world of good in the long run but 2) will be FUDbait in the short run  
+**\<suraeNoether>** i think writing a paper on the topic will 1) do ByteRub a world of good in the long run but 2) will be FUDbait in the short run  
 **\<suraeNoether>** sort of like my MRL-0001 paper  
 **\<sarang>** Our users want to know what churn should look like  
 **\<sarang>** And before we replace ring sigs, understanding the benefits to increasing ring size is also important  
@@ -146,11 +146,11 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** ok cool  
 **\<sarang>** and it'll be a great contribution  
 **\<sarang>** excellent work suraeNoether on this  
-**\<moneromooo>** I still hate churning though.  
-**\<suraeNoether>** moneromooo same same  
+**\<byterubmooo>** I still hate churning though.  
+**\<suraeNoether>** byterubmooo same same  
 **\<sarang>** due to bloat?  
 **\<sarang>** which it certainly does  
-**\<moneromooo>** Yes. It encourages people to shit on everyone's else resources.  
+**\<byterubmooo>** Yes. It encourages people to shit on everyone's else resources.  
 **\<sarang>** suraeNoether and I had discussed that earlier too, that we need to provide answers about reasonable threat models that minimize bloat  
 **\<sarang>** and obv different user types have different requirements for their privacy/safety  
 **\<suraeNoether>** long story short: don't use KYC/AML exchanges, and if you do, make sure you churn at least once before your deposits... and more often if you plan on making many deposits that you suspect are "marked..." and dilute your deposits with other outputs as much as possible.  
@@ -165,7 +165,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Anyway, let's move on for now  
 **\<sarang>** Any other quick news suraeNoether ?  
 **\<sarang>** (10 min officially remain)  
-**\<suraeNoether>** the second thing i wanted to talk to everyone about is the monero konferenco. in order to move forward in the funding process, please leave ANY COMMENT, positive, negative, or neutral, in this thread: https://forum.getmonero.org/6/ideas/90909/surae-noether-first-denver-monero-konferenco-spring-2019   
+**\<suraeNoether>** the second thing i wanted to talk to everyone about is the byterub konferenco. in order to move forward in the funding process, please leave ANY COMMENT, positive, negative, or neutral, in this thread: https://forum.getbyterub.org/6/ideas/90909/surae-noether-first-denver-byterub-konferenco-spring-2019   
 **\<suraeNoether>** Please keep in mind that things like booking the event  or inviting speakers... these are unlikely to happen before funding begins, and the longer we wait, the less likely it is we can get all the things we want to get   
 **\<sarang>** ^  
 **\<sarang>** There's been informal speaking interest from some top-quality folks  
@@ -186,7 +186,7 @@ author: el00ruobuob / sarang
 **\<kovri-slack1> \<rehrar>** I have been talking this whole time.  
 **\<sarang>** Action will be taken on all those links if I hear no comments or suggestions  
 **\<kovri-slack1> \<rehrar>** And thought everyone has been ignoring me cuz they hate me.  
-**\<sarang>** And of course, suraeNoether's FFS on the conference would like comments: https://forum.getmonero.org/6/ideas/90909/surae-noether-first-denver-monero-konferenco-spring-2019  
+**\<sarang>** And of course, suraeNoether's FFS on the conference would like comments: https://forum.getbyterub.org/6/ideas/90909/surae-noether-first-denver-byterub-konferenco-spring-2019  
 **\<kovri-slack1> \<rehrar>** I have many many comments on Brandon's work.  
 **\<sarang>** rehrar[m]: hullo  
 **\<sarang>** We can chat about all of this once we adjourn!  

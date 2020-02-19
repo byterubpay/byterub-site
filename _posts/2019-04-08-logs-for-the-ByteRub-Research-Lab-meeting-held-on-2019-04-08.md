@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-04-08
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-04-08
 summary: Sarang work, Surae work, Output distribution and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / sarang
@@ -32,13 +32,13 @@ author: el00ruobuob / sarang
 **\<sarang>** This means that if we take these numbers as correct, CLSAG gives us smaller \_and\_ faster signatures  
 **\<sarang>** Note that the linked branch is for example purposes only  
 **\<sarang>** There are a few new underlying functions that would need review  
-**\<suraeNoether>** a 15% gain in verification time, after a year of blockchain growth, is equivalent to a really large gain in overall download+sync time, saving future nodes the time it takes to start mining monero... and that's true even if we boost ring sizes moderately to ring size 13-14, based on sarang's numbers: we will still have an overall gain in download+sync time after a year. i'm not sure if i recommend that yet,  
+**\<suraeNoether>** a 15% gain in verification time, after a year of blockchain growth, is equivalent to a really large gain in overall download+sync time, saving future nodes the time it takes to start mining byterub... and that's true even if we boost ring sizes moderately to ring size 13-14, based on sarang's numbers: we will still have an overall gain in download+sync time after a year. i'm not sure if i recommend that yet,  
 **\<suraeNoether>** though.  
 **\<suraeNoether>** tiny changes in verification time mean huge swings in space capacity, if we count download+sync time as our metric.  
 **\<sarang>** Reminder that the space savings are 320 bytes per spent input (each spent input is a separate signature)  
 **\<ArticMine>** How does size compare?  
 **\<sarang>** ^^  
-**\<suraeNoether>** it will be delightful to see the graph of monero blockchain size over time one year from clsag implementation  
+**\<suraeNoether>** it will be delightful to see the graph of byterub blockchain size over time one year from clsag implementation  
 **\<suraeNoether>** that'll be the good nooch  
 **\<sarang>** Any questions or comments on CLSAG as it currently stands?  
 **\<sarang>** There is currently no decision to use this, nor a timeline  
@@ -92,7 +92,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** ah great thanks  
 **\<sarang>** Original D++ paper: https://arxiv.org/abs/1805.11060  
 **\<sarang>** Any questions on D++?  
-**\<sarang>** I want to see it implemented in Monero  
+**\<sarang>** I want to see it implemented in ByteRub  
 **\<suraeNoether>** i do too  
 **\<suraeNoether>** i believe the epochal approach taken by grin is the correct one, but maybe there's an argument out there for the difference  
 **\<suraeNoether>** i wonder if andytoshi or gmaxwell would chime in  
@@ -102,12 +102,12 @@ author: el00ruobuob / sarang
 **\<sarang>** all txns are routed according to that (unless the node detects a black-hole attack)  
 **\<sarang>** andytoshi: I did reach out once in -wizards to ask about the BIP, but didn't hear anything :/  
 **\<sarang>** perhaps others have discussed it elsewhere, who knows  
-**\<sarang>** The last thing I have to share is that moneromooo prepared PR 5389 (link in agenda) regarding output selection  
+**\<sarang>** The last thing I have to share is that byterubmooo prepared PR 5389 (link in agenda) regarding output selection  
 **\<sarang>** it uses the "output lineup" method we've discussed here at length  
 **\<sarang>** Review on the method/PR would be most welcome  
 **\<sarang>** That's all for me right now... suraeNoether, your report?  
 **\<suraeNoether>** great, so I have a few updates  
-**\<suraeNoether>** first things first: monero konferenco registration is now open on https://monerokon.com  
+**\<suraeNoether>** first things first: byterub konferenco registration is now open on https://byterubkon.com  
 **\<suraeNoether>** second things second: as I mentioned right before the meeting, next week I'm headed out to Clemson University to give a talk and meet with some colleagues  
 **\<suraeNoether>** I'm meeting with Gao, the lead researcher there in their blockchain group  
 **\<suraeNoether>** in addition to that, my top priority right now is my most-old project rihgt now, which is MRL-11 and my matching simulations + churn analysis  
@@ -120,8 +120,8 @@ author: el00ruobuob / sarang
 **\<sarang>** Righto  
 **\<sarang>** So yes, let's talk churn  
 **\<suraeNoether>** i have the infrastructure of matching done and the infrastructure for monte carlo simulations of a blockchain graph done  
-**\<sarang>** dotkc: you had posted in r/Monero a few things regarding a tool your group is working on; can you introduce yourself to the room?  
-**\<sarang>** and sgp\_ and dotkc have discussed it at length on r/Monero and earlier in this room  
+**\<sarang>** dotkc: you had posted in r/ByteRub a few things regarding a tool your group is working on; can you introduce yourself to the room?  
+**\<sarang>** and sgp\_ and dotkc have discussed it at length on r/ByteRub and earlier in this room  
 **\<dotkc>** i'm nobody, it's a hobby project that materialized into code and my colleagues and I talk a lot about privacy so here we are to help  
 **\<sarang>** (since dotkc is new here, a reminder that these meeting logs are made public afterward, FYI)  
 **\<dotkc>** I'm aware and thank you for pointing it out  
@@ -179,10 +179,10 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** churn is going to be difficult enough to nail down security details for without trying to model donations built into the process  
 **\<suraeNoether>** dotkc: please understand  
 **\<sarang>** Random time delays are certainly important for mitigating timing heuristics  
-**\<suraeNoether>** we are recommending against it due to the privacy properties of monero that make everyone's privacy sensitive to everyone else's choices.  
+**\<suraeNoether>** we are recommending against it due to the privacy properties of byterub that make everyone's privacy sensitive to everyone else's choices.  
 **\<sarang>** Graph-specific heuristics would depend also on transaction rates (and appearance of outputs in other decoy rings, etc.)  
 **\<suraeNoether>** if some users optionally want to donate, great, they can construct a transaction on their own to make a donation and do it normally; you are talking about inserting a step into a non-security process designed for security  
-**\<suraeNoether>** this is like trying to build auto-donations into monero's key exchanges for some reason  
+**\<suraeNoether>** this is like trying to build auto-donations into byterub's key exchanges for some reason  
 **\<sarang>** Right, let's discuss general churn without the donation idea  
 **\<suraeNoether>** or like riding a tractor on hallucinogens, or dividing by zero. you can do it, you can do a lot of things, doesn't mean you should.  
 **\<suraeNoether>** so, speaking of churn and modeling it  
@@ -272,7 +272,7 @@ author: el00ruobuob / sarang
 **\<xmrmatterbridge> \<oneiric>** :)  
 **\<sgp\_>** suraeNoether: I'll PM you at some point with a list  
 **\<suraeNoether>** ^ bingo bango  
-**\<moneromooo>** Not sure if it helps, but I have an old patch that split txes to have one input at a time, and sent them at poisson delayed intervals.  
+**\<byterubmooo>** Not sure if it helps, but I have an old patch that split txes to have one input at a time, and sent them at poisson delayed intervals.  
 **\<dotkc>** top of most search engines is a credible-looking post recommending sweep\_all. that most certainly links outputs  
 **\<sarang>** BTW dotkc are you a developer on the dots code?  
 **\<dotkc>** there is plenty of advice around the community to churn for privacy and thousands of people view that sweep\_all advice (if the page's counter is to be trusted)  
@@ -302,8 +302,8 @@ author: el00ruobuob / sarang
 **\<dotkc>** i agree with you both that sweep\_all linkages and trivial temporal linkages seem very bad  
 **\<sarang>** I consider output linking to be extremely hard to avoid, since it's an inherent part of multi-input txns  
 **\<sgp\_>** it depends on the circumstances, but yes sweep\_all is bad if you don't want these outputs associated  
-**\<moneromooo>** If you don't want them associated, use two accounts ?  
-**\<sgp\_>** moneromooo: yeah, always keep your outputs separate if you can :)  
+**\<byterubmooo>** If you don't want them associated, use two accounts ?  
+**\<sgp\_>** byterubmooo: yeah, always keep your outputs separate if you can :)  
 **\<sarang>** dotkc had included some multi-account ideas in GitHub as well, IIRC  
 **\<dotkc>** this is progress, we've nearly agreed on at least one "bad" behavior!  
 **\<sarang>** In the interest of time, let's briefly wrap up and then continue discussion afterward  

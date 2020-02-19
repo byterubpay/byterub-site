@@ -1,10 +1,10 @@
 global:
   date: '%Y/%m/%d'
-  monero: ByteRub
+  byterub: ByteRub
   getting_started: 入门
   copyright: 版权
-  monero_project: 门罗币项目
-  sitename: getmonero.org, 门罗币项目
+  byterub_project: 门罗币项目
+  sitename: getbyterub.org, 门罗币项目
   wiki: 门罗币百科
   tags: 标签
   wikimeta: meta维基
@@ -22,7 +22,7 @@ global:
 
 titles:
   index: 索引
-  whatismonero: 什么是门罗币 (XMR)?
+  whatisbyterub: 什么是门罗币 (XMR)?
   using: 使用门罗币
   accepting: 接收门罗币
   contributing: 捐献      
@@ -38,11 +38,11 @@ titles:
   about: 关于门罗币
   roadmap: 路线图
   researchlab: 门罗币研究实验室
-  moneropedia: 门罗币百科
+  byterubpedia: 门罗币百科
   userguides: 用户指南
   developerguides: 开发者指南
   technicalspecs: 技术说明   
-  themoneroproject: 门罗币项目
+  thebyterubproject: 门罗币项目
   presskit: 门罗币资料
   legal: 规则
   ffs: 论坛资金系统
@@ -59,19 +59,19 @@ index:
 
 home:
   heading2: 隐私数字货币
-  monero_is_cash: 门罗币是互联网世界的电子现金。使用门罗币交易快速，保护隐私且安全。有了门罗币，您就是自己的银行。您可以安全地进行交易，不用担心别人会看到你的余额和跟踪你的金融活动。
+  byterub_is_cash: 门罗币是互联网世界的电子现金。使用门罗币交易快速，保护隐私且安全。有了门罗币，您就是自己的银行。您可以安全地进行交易，不用担心别人会看到你的余额和跟踪你的金融活动。
   get_started: 开始
-  why_monero_is_different: 为什么门罗币与众不同
-  monero_is_secure: 门罗币是安全可靠的
-  monero_is_secure_para: 门罗币是一个去中心化的加密货币，去中心化意味着它的网络由用户运营。交易通过去中心化的共识确认，然后不可篡改地记录在区块链上。门罗币不需要任何一个第三方来保障资金安全。
-  monero_is_private: 门罗币保护隐私
-  monero_is_private_para: 门罗币使用环签名，环机密交易和隐形地址来混淆所有的交易来源，金额和接收者。门罗币具有去中心化加密货币的所有优点，在保障隐私上更是毫不逊色。
-  monero_is_untraceable: 门罗币是无法追踪的
-  monero_is_untraceable_para: 门罗币的所有交易的发送者、接收者和交易金额都是默认必须匿名的。门罗区块链上的信息无法和实体个人／特定用户对应起来。
-  monero_is_fungible: 可互换性
-  monero_is_fungible_para1: 门罗币是
-  monero_is_fungible_para2: 可互换的。
-  monero_is_fungible_para3: 因为门罗币的交易是全部匿名的，你无法追踪特定的门罗币的历史交易记录，因此门罗币不会被交易所或其他实体以可疑的历史交易记录为由拒绝接收。 
+  why_byterub_is_different: 为什么门罗币与众不同
+  byterub_is_secure: 门罗币是安全可靠的
+  byterub_is_secure_para: 门罗币是一个去中心化的加密货币，去中心化意味着它的网络由用户运营。交易通过去中心化的共识确认，然后不可篡改地记录在区块链上。门罗币不需要任何一个第三方来保障资金安全。
+  byterub_is_private: 门罗币保护隐私
+  byterub_is_private_para: 门罗币使用环签名，环机密交易和隐形地址来混淆所有的交易来源，金额和接收者。门罗币具有去中心化加密货币的所有优点，在保障隐私上更是毫不逊色。
+  byterub_is_untraceable: 门罗币是无法追踪的
+  byterub_is_untraceable_para: 门罗币的所有交易的发送者、接收者和交易金额都是默认必须匿名的。门罗区块链上的信息无法和实体个人／特定用户对应起来。
+  byterub_is_fungible: 可互换性
+  byterub_is_fungible_para1: 门罗币是
+  byterub_is_fungible_para2: 可互换的。
+  byterub_is_fungible_para3: 因为门罗币的交易是全部匿名的，你无法追踪特定的门罗币的历史交易记录，因此门罗币不会被交易所或其他实体以可疑的历史交易记录为由拒绝接收。 
   downloads: 下载
   downloads_windows: 门罗币（Windows)
   downloads_mac: 门罗币(Mac)
@@ -81,9 +81,9 @@ home:
   view_all_downloads: 点击查看所有可用下载。
   latest_news: 最新新闻
   more_news: 更多资讯
-  moneropedia: 门罗币百科
-  moneropedia_para: 想了解和门罗币相关的词汇和概念？您可以在此处找到门罗币和科维匿名网络（Kovri)相关的知识。
-  moneropedia_button: 阅读门罗百科
+  byterubpedia: 门罗币百科
+  byterubpedia_para: 想了解和门罗币相关的词汇和概念？您可以在此处找到门罗币和科维匿名网络（Kovri)相关的知识。
+  byterubpedia_button: 阅读门罗百科
   user_guides: 使用指南
   user_guides_para: 门罗币教程:包括新建钱包，门罗币挖矿甚至是本网站的编辑。
   user_guides_button: 阅读使用指南
@@ -100,25 +100,25 @@ hangouts:
   irc_channels: 
   - channel: ByteRub
     description: 这个频道用于谈论所有和门罗币相关的事宜。
-  - channel: monero-community
+  - channel: byterub-community
     description: 这个频道用于社区聚会，讨论各自的想法。
-  - channel: monero-dev
+  - channel: byterub-dev
     description: 很多代码贡献者和开发组人员在这里讨论问题。
-  - channel: monero-markets
+  - channel: byterub-markets
     description: 这个频道专门讨论门罗币价和其他币的价格。
-  - channel: monero-offtopic
+  - channel: byterub-offtopic
     description: 和门罗币社区的朋友们聊天胡侃的专用频道。
-  - channel: monero-otc
+  - channel: byterub-otc
     description: 来和你的门罗币伙伴（ByteRubn）交易门罗币。
-  - channel: monero-pools
+  - channel: byterub-pools
     description: 为挖矿问题相关提供的频道。
-  - channel: monero-research-lab
+  - channel: byterub-research-lab
     description: 研究使用加密货币的金融隐私问题。
-  - channel: monero-translations
+  - channel: byterub-translations
     description: 把门罗项目本土化成其他语言。
-  - channel: monero-hardware
+  - channel: byterub-hardware
     description: 构建硬件钱包来保障你的门罗币安全。
-  - channel: monero-site
+  - channel: byterub-site
     description: Where the development of this website is coordinated
   - channel: kovri
     description: 这个频道用于讨论所有和科维匿名网络（Kovri）相关的东西。
@@ -133,7 +133,7 @@ merchants:
     "温馨提示：这些链接仅为浏览方便而列出，仅供参考；这并不代表门罗社区对这些商家/服务的认可！门罗社区不对这些外部网站的安全性、真实性、合法性承担责任。如有疑问请您自行联系这些网站。请您在网络购物时始终保持警惕和独立思考。"
 
 sponsorships:
-  intro: 以下企业支持门罗币将金融隐私带给全世界的愿景。我们对他们的帮助和贡献感激不尽。如果您也想赞助门罗项目并被添加到此列表，请给dev@getmonero.org发送电子邮件。
+  intro: 以下企业支持门罗币将金融隐私带给全世界的愿景。我们对他们的帮助和贡献感激不尽。如果您也想赞助门罗项目并被添加到此列表，请给dev@getbyterub.org发送电子邮件。
 
 team:
   core: 核心开发组
@@ -180,8 +180,8 @@ downloads:
   helpsupport: Help and Support
   helpsupport1: "A guide with an explanation of every section of the wallet is available:"
   helpsupport2: "See latest release"
-  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #monero-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
-  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #monero or #monero-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  gui_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the GUI team at #byterub-gui, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  cli_helpsupport: "If you are experiencing issues or you need more info, feel free to reach out to the community. You can find the CLI team at #byterub or #byterub-dev, or else check out the Hangouts page for a more complete list of contacts and chatrooms"
   localremote: Local or remote node
   localremote1: Use your own copy of the blockchain or a publicly available one
   transacttor: Transactions over Tor/I2P
@@ -195,7 +195,7 @@ downloads:
   verify: Verify
   verify1: You are strongly advised to verify the hashes of the archive you downloaded. This will confirm that the files you downloaded perfectly match the files uploaded by the ByteRub development workgroup. Please don't underestimate this step, a corrupted archive could result in lost funds. Always verify your downloads!
   showhash: Show hashes to verify your download
-  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getmonero.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
+  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list of the hashes is at getbyterub.org/downloads/hashes.txt and should be treated as canonical, with the signature checked against the appropriate GPG key
   showhash2: in the source code
   showhash3: "Two guides are available to guide you through the verification process:"
   hardware1: The ByteRub community has funded a
@@ -232,20 +232,20 @@ press-kit:
   - category: 文档阅读
     publications:
     - name: "门罗币简介"
-      url_file: "http://www.monerooutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
+      url_file: "http://www.byteruboutreach.org/pubs/2018/QuickFacts/QuickFacts.pdf"
       abstract: >
         这份门罗币简介可以帮你快速了解有关门罗币的所有内容: 门罗币的历史、和其他币的关键性差异、技术基础以及正在开发的功能。<br>
-        浏览 <a target="_blank" href="https://www.monerooutreach.org/index.php">门罗币宣传组</a> 以获取更多信息。
+        浏览 <a target="_blank" href="https://www.byteruboutreach.org/index.php">门罗币宣传组</a> 以获取更多信息。
         marketing:
   marketing:
   - category: Marketing Material
     publications:
     - name: "The 'Don't buy ByteRub' sticker"
-      url_file: "https://github.com/monero-ecosystem/dont-buy-monero-sticker"
+      url_file: "https://github.com/byterub-ecosystem/dont-buy-byterub-sticker"
       abstract: >
         Spread ByteRub everywhere with the help of this sticker. Available in multiple languages and formats (vectors included).
     - name: Guerrilla Toolkit
-      url_file: "https://www.monerooutreach.org/guerrilla-toolkit.php"
+      url_file: "https://www.byteruboutreach.org/guerrilla-toolkit.php"
       abstract: >
         A document created by the ByteRub Outreach workgroup containing materials and tips for an effective guerrilla marketing campaign.
 
@@ -255,14 +255,14 @@ accepting:
   basics_para1: 门罗币的工作方式和其他@加密货币的工作方式不一样。对比特币和其他山寨币来说，商家收款时常常用一次就更换一次@地址。
   basics_para2: 因为门罗币有@隐形地址，所以你无需每用一次都换一次地址，你可以一直使用固定的一个@地址。当收款的时候，你可以给付款人提供一个“付款ID”
   basics_para3: "@付款ID是一个十六进制字符串，有64个字符长，随机地由收款人创建。付款ID的示例是:"
-  checking: 在门罗币钱包（monero-wallet-cli）中确认付款
+  checking: 在门罗币钱包（byterub-wallet-cli）中确认付款
   checking_para1: |
-    如果您想使用门罗币钱包（monero-wallet-cli）检查付款是否成功，可以使用“payments”命令，然后附上需要搜索的付款ID或直接搜索付款ID。例如:
+    如果您想使用门罗币钱包（byterub-wallet-cli）检查付款是否成功，可以使用“payments”命令，然后附上需要搜索的付款ID或直接搜索付款ID。例如:
   checking_para2: 如果您需要以编程方式检查付款，详情请参阅下一部分。
   receiving: 收款步骤
   receiving_list1: 生成一个随机的64位付款ID
   receiving_list2: 把地址和付款ID告诉付款人
-  receiving_list3: 使用门罗币钱包（monero-wallet-cli）中的“payments”命令确认付款
+  receiving_list3: 使用门罗币钱包（byterub-wallet-cli）中的“payments”命令确认付款
   program: 以编程方式确认付款
   program_para1: 要以编程方式检查付款，您可以使用get_payments或get_bulk_payments JSON RPC API。
   program_para2: 这需要具有单个付款ID的payment_id参数。
@@ -344,7 +344,7 @@ mining:
   support: 帮助
   support_para1: 请浏览
   support_para2: 社区，
-  support_para3: /r/moneromining (英文)
+  support_para3: /r/byterubmining (英文)
   support_para4: 和
   pools: 矿池
   pools_para1: 受信任的矿池请参见
@@ -389,7 +389,7 @@ using:
   transact_para1: 门罗币目前已经可以用于购买很多商品和服务。列表请参见
   transact_para2: 商家页面。
 
-what-is-monero:
+what-is-byterub:
   need-to-know: 你需要知道的：
   leading: 门罗币是加密货币匿名和抗审查领域中的先锋。
   leading_para1: 当下存在的大多数加密货币都拥有透明可查询的区块链，包括比特币和以太坊，这意味着世界上的任何人都可以查看任何一笔交易。而币的地址可以和实体世界的个人关联起来。
@@ -441,7 +441,7 @@ user-guides:
   offline-backup: 如何做好线下备份
   vps-node: 如何在VPS上架设一个全节点
   import-blockchain: 导入门罗区块链
-  monero-tools: 门罗工具
+  byterub-tools: 门罗工具
   purchasing-storing: 安全地购买和存储门罗币
   verify-allos: 在Linux，Mac，或者Windows命令行上验证二进制文件(专家)
   verify-windows: 在Windows上验证二进制文件(新手)
@@ -555,7 +555,7 @@ library:
         门罗币全面的技术和概念层面的解释。<br>
         我们在此书中将协助您从最基本的代数和简单的计算机概念学起，比如一个数字如何用比特的方式进行表达。我们还会协助您从更深和更全面的角度理解门罗币是如何运作的，同时我们也希望您能在此书中体会到加密算法的有用之处，并感受到这不仅仅是计算机技术，更是一门美妙且精确的艺术。
     - name: "精通门罗币"
-      file: "https://masteringmonero.com/free-download.html"
+      file: "https://masteringbyterub.com/free-download.html"
       abstract: >
         一本能让你在看似复杂的门罗世界里畅游无阻的指南。<br>
         其中包括:
@@ -565,7 +565,7 @@ library:
         <li>门罗币的去中心化网络、点对点结构、交易周期和安全原则的详细信息。</li>
         <li>针对开发人员，工程师，软件架构师等人的对门罗技术基础的介绍</li>
         <li>新项目介绍：防弹证明，科维，多重签名和硬件钱包</li></ul>
-        有关完整版，请参见 <a href="https://masteringmonero.com/">Mastering ByteRub</a> 网站
+        有关完整版，请参见 <a href="https://masteringbyterub.com/">Mastering ByteRub</a> 网站
   - category: 杂志
     publications:
     - name: "Revuo ByteRub 2017 冬"
@@ -579,7 +579,7 @@ library:
         门罗季刊，2017年秋<br>
         在本期中谈到了: 最新进展，门罗研究组，科维，社区，硬件和Monerujo。
 
-moneropedia:
+byterubpedia:
   add_new_button: 添加新条目
   add_new_text1: 如果有您想添加或修改的条目，请在
   add_new_link: 这个网页的GitLab存储库中开启一个新问题

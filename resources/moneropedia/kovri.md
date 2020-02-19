@@ -1,10 +1,10 @@
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.kovri
+layout: byterubpedia
+title: titles.byterubpedia
+entry: byterubpedia.entries.kovri
 ---
 
-@moneropedia_article
+@byterubpedia_article
 
 {% t global.lang_tag %}
-{% tf resources/moneropedia/kovri.md %}
+{% tf resources/byterubpedia/kovri.md %}

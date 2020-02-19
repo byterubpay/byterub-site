@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logs for the Monero Research Lab Meeting Held on 2019-10-21
+title: Logs for the ByteRub Research Lab Meeting Held on 2019-10-21
 summary: Surae work, Sarang work, and miscellaneous
 tags: [dev diaries, community, crypto, research]
 author: el00ruobuob / Sarang
@@ -39,7 +39,7 @@ author: el00ruobuob / Sarang
 **\<sarang>** There were some other modifications for efficiency too, which will need to be examined for soundness  
 **\<sarang>** Also of note is that last week, a side-channel issue with subaddresses was reported and examined  
 **\<sarang>** We discussed a fix that would essentially add a Schnorr representation proof to outputs  
-**\<sarang>** I'm told there is a blog post and corresponding Breaking Monero episode ready to go that describe this  
+**\<sarang>** I'm told there is a blog post and corresponding Breaking ByteRub episode ready to go that describe this  
 **\<sarang>** This week, I plan to continue work on Triptych proofs: correctness, soundness, zero knowledge  
 **\<sarang>** Back to you suraeNoether   
 **\<suraeNoether>** This week, my action items include posting my funding request for the next quarter, assisting sarang with the soundness proof of triptych, and to actually answer some questions about churn with some rigor  
@@ -47,9 +47,9 @@ author: el00ruobuob / Sarang
 **\<suraeNoether>** the work i've put into the infrastructure of this project has paid off, because the actual script running the tests is around 30 lines. the rest of the code is writing output to file etc  
 **\<suraeNoether>** (the library i wrote is 700 lines with 1200 lines of tests iirc but who counts lines anyway)  
 **\<sarang>** I'll be interested to see what level of support there is (or is not) for the Schnorr proof modification to avoid the subaddress side-channel attack  
-**\<mikerah>** I want to pass some ideas by you all around minimal smart contracts on monero.  
+**\<mikerah>** I want to pass some ideas by you all around minimal smart contracts on byterub.  
 **\<sarang>** ok  
-**\<mikerah>** The idea is to use FHE with a DSL to then store in the extra tx\_data field of monero transactions  
+**\<mikerah>** The idea is to use FHE with a DSL to then store in the extra tx\_data field of byterub transactions  
 **\<sarang>** DSL?  
 **\<mikerah>** The main problem with this is that there isn't any actual enforcement of the smart contract logic  
 **\<mikerah>** DSL = Domain Specific Language  
