@@ -19,7 +19,7 @@ This is an advanced guide for Linux, Mac, or Windows operating systems and will 
   + [3.1. Get Hash File](#31-get-hash-file)
   + [3.2. Verify Hash File](#32-verify-hash-file)
 ### [4. Download & Verify Binary](#4-download-and-verify-binary)
-  + [4.1. Get ByteRub Binary](#41-get-monero-binary)
+  + [4.1. Get ByteRub Binary](#41-get-byterub-binary)
   + [4.2. Binary Verification on Linux or Mac](#42-binary-verification-on-linux-or-mac)
   + [4.3. Binary Verification on Windows](#43-binary-verification-on-windows)
 
@@ -37,12 +37,12 @@ This section will cover getting the ByteRub signing key, making sure it is corre
 
 ### 2.1. Get Signing Key
 
-On Windows or Mac, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), which he uses to sign the ByteRub binaries, and save the page as `fluffypony.asc` to your home directory.
+On Windows or Mac, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc), which he uses to sign the ByteRub binaries, and save the page as `fluffypony.asc` to your home directory.
 
 On Linux, you can download Fluffypony's signing key by issuing the following command:
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Verify Signing Key
@@ -99,7 +99,7 @@ This section will cover downloading the hash file and verifying its authenticity
 
 ### 3.1. Get Hash File
 
-On Windows or Mac, go to the [hashes file on getmonero.org]({{ site.baseurl }}/downloads/hashes.txt) and save the page as `hashes.txt` to your home directory.
+On Windows or Mac, go to the [hashes file on getbyterub.org]({{ site.baseurl }}/downloads/hashes.txt) and save the page as `hashes.txt` to your home directory.
 
 On Linux, you can download the signed hashes file by issuing the following command:
 
@@ -139,47 +139,47 @@ This section will cover downloading the ByteRub binary for your operating system
 
 ### 4.1. Get ByteRub binary
 
-On Windows or Mac, go to [getmonero.org]({{ site.baseurl }}/downloads/) and download the correct file for your operating system. Save the file to your home directory. **Do not extract the files yet.**
+On Windows or Mac, go to [getbyterub.org]({{ site.baseurl }}/downloads/) and download the correct file for your operating system. Save the file to your home directory. **Do not extract the files yet.**
 
 On Linux, you can download the command line tools by issuing the following command:
 
 ```
-wget -O monero-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getmonero.org/cli/linux64
+wget -O byterub-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getbyterub.org/cli/linux64
 ```
 
 ### 4.2. Binary Verification on Linux or Mac
 
-The steps for both Linux and Mac are the same. From a terminal, get the `SHA256` hash of your downloaded ByteRub binary. As an example this guide will use the `Linux, 64bit` GUI binary. Substitute `monero-gui-linux-x64-v0.12.0.0.tar.bz2` with the name of the binary that you downloaded in [section 4.1](#41-get-monero-binary).
+The steps for both Linux and Mac are the same. From a terminal, get the `SHA256` hash of your downloaded ByteRub binary. As an example this guide will use the `Linux, 64bit` GUI binary. Substitute `byterub-gui-linux-x64-v0.12.0.0.tar.bz2` with the name of the binary that you downloaded in [section 4.1](#41-get-byterub-binary).
 
 ```
-shasum -a 256 monero-gui-linux-x64-v0.12.0.0.tar.bz2
+shasum -a 256 byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 The output will look like this, but will be different for each binary file. Your `SHA256` hash should match the one listed in the `hashes.txt` file for your binary file.
 
 ```
-fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  monero-gui-linux-x64-v0.12.0.0.tar.bz2
+fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 If your hash **DOES** match, then you are finished with the guide! You can extract the files and install.
 
-If your hash **DOES NOT** match, **DO NOT CONTINUE.** Instead delete the binary you downloaded and go back to [section 4.1](#41-get-monero-binary).
+If your hash **DOES NOT** match, **DO NOT CONTINUE.** Instead delete the binary you downloaded and go back to [section 4.1](#41-get-byterub-binary).
 
 ### 4.3. Binary Verification on Windows
 
-From a terminal, get the `SHA256` hash of your downloaded ByteRub binary. As an example this guide will use the `Windows, 64bit` GUI binary. Substitute `monero-gui-win-x64-v0.12.0.0.zip` with the name of the binary that you downloaded in [section 4.1](#41-get-monero-binary).
+From a terminal, get the `SHA256` hash of your downloaded ByteRub binary. As an example this guide will use the `Windows, 64bit` GUI binary. Substitute `byterub-gui-win-x64-v0.12.0.0.zip` with the name of the binary that you downloaded in [section 4.1](#41-get-byterub-binary).
 
 ```
-certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256
+certUtil -hashfile byterub-gui-win-x64-v0.12.0.0.zip SHA256
 ```
 The output will look like this, but will be different for each binary file. Your `SHA256` hash should match the one listed in the `hashes.txt` file for your binary file.
 
 ```
-SHA256 hash of file monero-gui-win-x64-v0.12.0.0.zip:
+SHA256 hash of file byterub-gui-win-x64-v0.12.0.0.zip:
 4b 9f 31 68 6e ca ad 97 cd b1 75 e6 57 4b f3 07 f8 d1 c4 10 42 78 25 f4 30 4c 21 da 8a ac 18 64
 CertUtil: -hashfile command completed successfully.
 ```
 
 If your hash **DOES** match, then you are finished with the guide! You can extract the files and install.
 
-If your hash **DOES NOT** match, **DO NOT CONTINUE.** Instead delete the binary you downloaded and go back to [section 4.1](#41-get-monero-binary).
+If your hash **DOES NOT** match, **DO NOT CONTINUE.** Instead delete the binary you downloaded and go back to [section 4.1](#41-get-byterub-binary).

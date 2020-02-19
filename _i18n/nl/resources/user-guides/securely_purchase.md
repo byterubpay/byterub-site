@@ -10,9 +10,9 @@ Je kunt op allerlei manieren Bitcoin kopen. Twee min of meer betrouwbare bedrijv
 
 #### Stap 2. Download en maak een papieren portemonnee (paper wallet) op een veilige computer die niet verbonden is met internet.
 
-Download de *paper wallet generator* op https://moneroaddress.org en kopieer deze naar een USB-stick. (Directe link: https://github.com/moneromooo-monero/monero-wallet-generator/archive/master.zip).
+Download de *paper wallet generator* op https://byterubaddress.org en kopieer deze naar een USB-stick. (Directe link: https://github.com/byterubmooo-byterub/byterub-wallet-generator/archive/master.zip).
 
-Pak de *paper wallet generator* uit en open deze (monero-wallet-generator.html) in een browser op een offline computer die nog nooit is gebruikt, of waarop het besturingssysteem opnieuw is geïnstalleerd.
+Pak de *paper wallet generator* uit en open deze (byterub-wallet-generator.html) in een browser op een offline computer die nog nooit is gebruikt, of waarop het besturingssysteem opnieuw is geïnstalleerd.
 
 De papieren portemonnee bestaat uit vier belangrijke onderdelen:
 

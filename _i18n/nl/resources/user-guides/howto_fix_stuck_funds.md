@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 Het kan gebeuren dat je geld vast komt te zitten. Je ByteRub wordt vergrendeld maar nooit ontgrendeld. Dat kun je op de volgende manier oplossen.
 
-- Laad je portemonnee in monero-wallet-cli.
+- Laad je portemonnee in byterub-wallet-cli.
 
 - Typ
 
@@ -10,7 +10,7 @@ Het kan gebeuren dat je geld vast komt te zitten. Je ByteRub wordt vergrendeld m
 
 op de opdrachtregel. Schrijf je hersteltekst van 25 woorden op, als je dat nog niet eerder hebt gedaan. Dit is de beste manier om ervoor te zorgen dat je over je geld kunt blijven beschikken.
 
-- Typ het volgende om monero-wallet-cli af te sluiten:
+- Typ het volgende om byterub-wallet-cli af te sluiten:
 
 > exit
 
@@ -26,7 +26,7 @@ Het is mogelijk dat je je portemonnee een naam hebt gegeven zonder de toevoeging
 
 - Verwijder portemonnee.bin
 
-- Laad monero-wallet-cli en typ daarbij de naam in van de portemonnee die je net hebt verwijderd.
+- Laad byterub-wallet-cli en typ daarbij de naam in van de portemonnee die je net hebt verwijderd.
 
 - Voer je wachtwoord in. De portemonnee wordt nu vernieuwd. Hopelijk wordt je vergrendelde geld daardoor ontgrendeld.
 

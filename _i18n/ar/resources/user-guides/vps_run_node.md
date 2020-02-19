@@ -1,8 +1,8 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# monerod
+# byterubd
 
-`monerod` هو برنامج خادم مونيرو. وهو برنامج وحده تحكم في سلسله الكتل. بينما تُدير محفظه البيتكوين كلاً من الحساب وسلسله الكتل, يقوم مونيرو بفصلهم, فالخادم `monerod` يتحكم في سلسله الكتل وواجهه سطر الأوامر `monero-wallet-cli` تتحكم في الحساب.
+`byterubd` هو برنامج خادم مونيرو. وهو برنامج وحده تحكم في سلسله الكتل. بينما تُدير محفظه البيتكوين كلاً من الحساب وسلسله الكتل, يقوم مونيرو بفصلهم, فالخادم `byterubd` يتحكم في سلسله الكتل وواجهه سطر الأوامر `byterub-wallet-cli` تتحكم في الحساب.
 
 يفترض هذا الدليل أنك قمت بإنشاء الخادم الإفتراضي (VPS) الخاص بك بالفعل وتستخدم (SSH) للإتصال بوحده تحكم الخادم.
 
@@ -16,31 +16,31 @@ Example if using `iptables`: `sudo iptables -A INPUT -p tcp --dport 18080 -j ACC
 
 ### قم بتحميل ملفات تسطيب مونيرو.
 
-    wget https://downloads.getmonero.org/linux64
+    wget https://downloads.getbyterub.org/linux64
 
 ### قم بإنشاء مجلد جديد وفك ضغط الملف.
 
-    mkdir monero
-    tar -xjvf linux64 -C monero
+    mkdir byterub
+    tar -xjvf linux64 -C byterub
 
 ### شَغِل الخادم.
 
-    cd monero
-    ./monerod
+    cd byterub
+    ./byterubd
 
 ### الخيارات:
 
 أعرض قائمه بكل الخيارات والإعدادات:
 
-    ./monerod --help
+    ./byterubd --help
 
 شَغِل الخادم بالخلفيه:
 
-    ./monerod --detach
+    ./byterubd --detach
 
-تابع مُخرجات الخادم `monerod`:
+تابع مُخرجات الخادم `byterubd`:
 
-    tail -f ~/.bitmonero/bitmonero.log
+    tail -f ~/.bitbyterub/bitbyterub.log
 
 حافظ علي أمان الخادم بتشغيل التحديثات التلقائيه:
 

@@ -18,7 +18,7 @@
 
 - Copiez les binaires ByteRub sur un disque en RAM (/dev/shm sur Linux, une ISO bootable Windows devrait normalement avoir un disque comme Z:).
 
-- Ne lancez pas le démon ByteRub. A la place, lancez monero-wallet-cli depuis un terminal en ligne de commande pour créer un nouveau @account ByteRub.
+- Ne lancez pas le démon ByteRub. A la place, lancez byterub-wallet-cli depuis un terminal en ligne de commande pour créer un nouveau @account ByteRub.
 
 - Lorsqu'un nom vous est demandé, donnez n'importe lequel, cela n'a aucune importance.
 
@@ -35,4 +35,4 @@ Le compte que vous avez créé se trouvait en mémoire vive, et les fichiers son
 
 Mérite :  Riccardo Spagni
 
-Lié : [Générateur de Compte Hors-Ligne](http://moneroaddress.org/)
+Lié : [Générateur de Compte Hors-Ligne](http://byterubaddress.org/)

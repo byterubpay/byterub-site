@@ -50,7 +50,7 @@ Your wallet has been generated!
 To start synchronizing with the daemon, use the "refresh" command.
 Use the "help" command to see the list of available commands.
 Use "help <command>" to see a command's documentation.
-Always use the "exit" command when closing monero-wallet-cli to save
+Always use the "exit" command when closing byterub-wallet-cli to save
 your current session's state. Otherwise, you might need to synchronize
 your wallet again (your wallet keys are NOT at risk in any case).
 
@@ -73,7 +73,7 @@ Comme le montre l'exemple ci-dessus, il est extrêmement important de conserver 
 
 ### Pratiquer une Bonne Sécurité
 
-Au delà de la sauvegarde de votre @phrase-mnémonique vous permettant d'avoir accès à votre compte en cas de forces majeures, de perte ou de vol, il est également important de pratiquer une *bonne sécurité*. Utilisez un mot de passe fort lorsque vous créez un compte ByteRub local (que vous n'utilisez pas sur [MyByteRub](https://mymonero.com) ou sur un autre système de compte en ligne).
+Au delà de la sauvegarde de votre @phrase-mnémonique vous permettant d'avoir accès à votre compte en cas de forces majeures, de perte ou de vol, il est également important de pratiquer une *bonne sécurité*. Utilisez un mot de passe fort lorsque vous créez un compte ByteRub local (que vous n'utilisez pas sur [MyByteRub](https://mybyterub.com) ou sur un autre système de compte en ligne).
 
 Ne divulguez jamais le mot de passe de votre compte ByteRub à quiconque dans la mesure ou cela permettrait d'accéder à vos ByteRubj sur votre ordinateur sans avoir à connaître votre @phrase-mnémonique. De la même manière, assurez-vous d'avoir un antivirus à jour en cours de fonctionnement, plus particulièrement pour un ordinateur Windows. Enfin, soyez prudent lorsque vous cliquez sur des liens dans des e-mail, ou sur des sites non-fiables, dans la mesure ou un programme malveillant pourrait s'installer et attendre que vous accédiez à votre compte ByteRub avant d'en vider les fonds.
 

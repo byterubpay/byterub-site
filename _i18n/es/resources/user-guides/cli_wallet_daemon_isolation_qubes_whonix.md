@@ -13,16 +13,16 @@ Esto es más seguro que otros enfoques que trazan el rpc del monedero a un servi
 
 + Utilizando una estación de trabajo Whonix, crea dos estaciones de trabajo como sigue:
 
-  - La primera estación de trabajo se usará para tu monedero, se referirá a ella como  `monero-wallet-ws`. Tendrás `NetVM` ajustado como `none`.
+  - La primera estación de trabajo se usará para tu monedero, se referirá a ella como  `byterub-wallet-ws`. Tendrás `NetVM` ajustado como `none`.
 
-  - La segunda estación de trabajo será para el daemon `monerod`, se referirá a ella como `monerod-ws`. Tendrás `NetVM` ajustado como la puerta Whonix `sys-whonix`.
+  - La segunda estación de trabajo será para el daemon `byterubd`, se referirá a ella como `byterubd-ws`. Tendrás `NetVM` ajustado como la puerta Whonix `sys-whonix`.
 
-## 2. En la AppVM `monerod-ws`:
+## 2. En la AppVM `byterubd-ws`:
 
 + Descarga, verifica e instala el software de ByteRub.
 
 ```
-user@host:~$ curl -O "https://downloads.getmonero.org/cli/monero-linux-x64-v0.11.1.0.tar.bz2" -O "{{ site.baseurl }}/downloads/hashes.txt"
+user@host:~$ curl -O "https://downloads.getbyterub.org/cli/byterub-linux-x64-v0.11.1.0.tar.bz2" -O "{{ site.baseurl }}/downloads/hashes.txt"
 user@host:~$ gpg --recv-keys BDA6BD7042B721C467A9759D7455C5E3C0CDCEB9
 user@host:~$ gpg --verify hashes.txt
 gpg: Signature made Wed 01 Nov 2017 10:01:41 AM UTC
@@ -32,15 +32,15 @@ gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: BDA6 BD70 42B7 21C4 67A9  759D 7455 C5E3 C0CD CEB9
      Subkey fingerprint: 94B7 38DD 3501 32F5 ACBE  EA1D 5543 2DF3 1CCD 4FCD
-user@host:~$ echo '6581506f8a030d8d50b38744ba7144f2765c9028d18d990beb316e13655ab248  monero-linux-x64-v0.11.1.0.tar.bz2' | shasum -c
-monero-linux-x64-v0.11.1.0.tar.bz2: OK
-user@host:~$ tar xf monero-linux-x64-v0.11.1.0.tar.bz2
-user@host:~$ sudo cp monero-v0.11.1.0/monerod /usr/local/bin/
+user@host:~$ echo '6581506f8a030d8d50b38744ba7144f2765c9028d18d990beb316e13655ab248  byterub-linux-x64-v0.11.1.0.tar.bz2' | shasum -c
+byterub-linux-x64-v0.11.1.0.tar.bz2: OK
+user@host:~$ tar xf byterub-linux-x64-v0.11.1.0.tar.bz2
+user@host:~$ sudo cp byterub-v0.11.1.0/byterubd /usr/local/bin/
 ```
 + Crea un archivo `systemd`.
 
 ```
-user@host:~$ sudo gedit /home/user/monerod.service
+user@host:~$ sudo gedit /home/user/byterubd.service
 ```
 
 Pega el siguiente contenido:
@@ -55,11 +55,11 @@ User=user
 Group=user
 
 Type=forking
-PIDFile=/home/user/.bitmonero/monerod.pid
+PIDFile=/home/user/.bitbyterub/byterubd.pid
 
-ExecStart=/usr/local/bin/monerod --detach --data-dir=/home/user/.bitmonero \
-    --no-igd --pidfile=/home/user/.bitmonero/monerod.pid \
-    --log-file=/home/user/.bitmonero/bitmonero.log --p2p-bind-ip=127.0.0.1
+ExecStart=/usr/local/bin/byterubd --detach --data-dir=/home/user/.bitbyterub \
+    --no-igd --pidfile=/home/user/.bitbyterub/byterubd.pid \
+    --log-file=/home/user/.bitbyterub/bitbyterub.log --p2p-bind-ip=127.0.0.1
 
 Restart=always
 PrivateTmp=true
@@ -68,13 +68,13 @@ PrivateTmp=true
 WantedBy=multi-user.target
 ```
 
-+ Copia el ejecutable `monero-wallet-cli` al VM `monero-wallet-ws`.
++ Copia el ejecutable `byterub-wallet-cli` al VM `byterub-wallet-ws`.
 
 ```
-user@host:~$ qvm-copy-to-vm monero-wallet-ws monero-v0.11.1.0/monero-wallet-cli
+user@host:~$ qvm-copy-to-vm byterub-wallet-ws byterub-v0.11.1.0/byterub-wallet-cli
 ```
 
-+ Hacer ejecutable a `monerod` en arranque editando el archivo `/rw/config/rc.local`.
++ Hacer ejecutable a `byterubd` en arranque editando el archivo `/rw/config/rc.local`.
 
 ```
 user@host:~$ sudo gedit /rw/config/rc.local
@@ -83,8 +83,8 @@ user@host:~$ sudo gedit /rw/config/rc.local
 Agrega estas líneas al final:
 
 ```
-cp /home/user/monerod.service /lib/systemd/system/
-systemctl start monerod.service
+cp /home/user/byterubd.service /lib/systemd/system/
+systemctl start byterubd.service
 ```
 
 Hacer ejecutable el archivo.
@@ -97,7 +97,7 @@ user@host:~$ sudo chmod +x /rw/config/rc.local
 
 ```
 user@host:~$ sudo mkdir /rw/usrlocal/etc/qubes-rpc
-user@host:~$ sudo gedit /rw/usrlocal/etc/qubes-rpc/user.monerod
+user@host:~$ sudo gedit /rw/usrlocal/etc/qubes-rpc/user.byterubd
 ```
 
 Agrega esta línea:
@@ -106,14 +106,14 @@ Agrega esta línea:
 socat STDIO TCP:localhost:18081
 ```
 
-+ Apaga `monerod-ws`.
++ Apaga `byterubd-ws`.
 
-## 3. En la AppVM `monero-wallet-ws`:
+## 3. En la AppVM `byterub-wallet-ws`:
 
-+ Mueve el ejecutable `monero-wallet-cli`.
++ Mueve el ejecutable `byterub-wallet-cli`.
 
 ```
-user@host:~$ sudo mv QubesIncoming/monerod-ws/monero-wallet-cli /usr/local/bin/
+user@host:~$ sudo mv QubesIncoming/byterubd-ws/byterub-wallet-cli /usr/local/bin/
 ```
 
 + Edita el archivo `/rw/config/rc.local`.
@@ -125,7 +125,7 @@ user@host:~$ sudo gedit /rw/config/rc.local
 Agrega la siguiente línea al final:
 
 ```
-socat TCP-LISTEN:18081,fork,bind=127.0.0.1 EXEC:"qrexec-client-vm monerod-ws user.monerod"
+socat TCP-LISTEN:18081,fork,bind=127.0.0.1 EXEC:"qrexec-client-vm byterubd-ws user.byterubd"
 ```
 
 Hacer ejecutable el archivo.
@@ -134,18 +134,18 @@ Hacer ejecutable el archivo.
 user@host:~$ sudo chmod +x /rw/config/rc.local
 ```
 
-+ Apaga `monero-wallet-ws`.
++ Apaga `byterub-wallet-ws`.
 
 ## 4. En `dom0`:
 
-+ Crea el archivo `/etc/qubes-rpc/policy/user.monerod`:
++ Crea el archivo `/etc/qubes-rpc/policy/user.byterubd`:
 
 ```
-[user@dom0 ~]$ sudo nano /etc/qubes-rpc/policy/user.monerod
+[user@dom0 ~]$ sudo nano /etc/qubes-rpc/policy/user.byterubd
 ```
 
 Agrega la siguiente línea:
 
 ```
-monero-wallet-ws monerod-ws allow
+byterub-wallet-ws byterubd-ws allow
 ```

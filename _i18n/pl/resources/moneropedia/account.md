@@ -49,7 +49,7 @@ view key: 4130fa26463d9451781771a8baa5d0b8085c47c4500cefe4746bab48f1d15903
 Your wallet has been generated.
 To start synchronizing with the daemon, use "refresh" command.
 Use "help" command to see the list of available commands.
-Always use "exit" command when closing monero-wallet-cli to save your
+Always use "exit" command when closing byterub-wallet-cli to save your
 current session's state. Otherwise, you might need to synchronize
 your wallet again (your wallet keys are NOT at risk in any case).
 
@@ -71,7 +71,7 @@ Jak wspomniamo w powyższym przykładzie, bardzo ważne jest przechowywanie tych
 
 ### Praktykowanie zasad bezpieczeństwa
 
-Poza stworzenie kopii twojego kodu mnemonicznego, aby mieć dostęp do konta w przypadku utraty danych, ważne jest także praktykowanie zasad bezpieczeństwa. Użyj bezpiecznego hasła przy zakładaniu lokalnego konta ByteRub (innego niż użyte na stronie [MyByteRub] (https://mymonero.com) czy innych systemach kont internetowych).
+Poza stworzenie kopii twojego kodu mnemonicznego, aby mieć dostęp do konta w przypadku utraty danych, ważne jest także praktykowanie zasad bezpieczeństwa. Użyj bezpiecznego hasła przy zakładaniu lokalnego konta ByteRub (innego niż użyte na stronie [MyByteRub] (https://mybyterub.com) czy innych systemach kont internetowych).
 
 Nie ujawniaj swojego hasła do konta ByteRub nikomu, bo może ono zostać użyte do uzyskania dostępu do ByteRub z twojego komputera bez wymagania kodu mnemonicznego. Upewnij się, że twój antywirus jest włączony i zaktualizowany, zwłaszcza na komputerze z systemem Windows. Uważaj przy otwieraniu linków z e-maili lub na nieznanych i niezaufanych stronach internetowych, ponieważ raz zainstalowane złośliwe oprogramowanie może czekać z podebraniem twoich pieniędzy aż wejdziesz na swoje konto ByteRub.
 

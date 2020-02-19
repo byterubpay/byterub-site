@@ -20,4 +20,4 @@ L'équipe cœur de ByteRub planifie une mise à jour du réseau tous les 6 mois,
 ---
 
 ##### Autres Resources
-<sub>1. *Fluffypony a donné une excellent explication du bénéfice des mises à jour réseau pour ByteRub.* ([Missive ByteRub pour la semaine du 20/06/2016](https://getmonero.org/2016/06/20/monero-missive-for-the-week-of-2016-06-20.html))</sub>
+<sub>1. *Fluffypony a donné une excellent explication du bénéfice des mises à jour réseau pour ByteRub.* ([Missive ByteRub pour la semaine du 20/06/2016](https://getbyterub.org/2016/06/20/byterub-missive-for-the-week-of-2016-06-20.html))</sub>

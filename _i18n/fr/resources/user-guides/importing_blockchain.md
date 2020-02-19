@@ -2,13 +2,13 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ### Étape 1
 
-Téléchargez l'amorce actuelle depuis https://downloads.getmonero.org/blockchain.raw ; vous pouvez sauter cette étape si vous importez la chaîne de blocs depuis une autre source.
+Téléchargez l'amorce actuelle depuis https://downloads.getbyterub.org/blockchain.raw ; vous pouvez sauter cette étape si vous importez la chaîne de blocs depuis une autre source.
 
 ### Étape 2
 
 Trouvez le répertoire de votre portefeuille ByteRub (le dossier où vous avez extrait votre portefeuille). Par exemple, le mien est :
 
-`D:\monero-gui-0.10.3.1`
+`D:\byterub-gui-0.10.3.1`
 
 Votre répertoire peut être différent en fonction de l'endroit ou vous avez décidé de télécharger votre portefeuille et de la version de portefeuille ByteRub que vous utilisez.
 
@@ -32,7 +32,7 @@ Vous devez maintenant vous déplacer dans le répertoire de votre portefeuille B
 
 Cela devrait ressembler à :
 
-`cd D:\monero-gui-0.10.3.1`
+`cd D:\byterub-gui-0.10.3.1`
 
 Si votre portefeuille ByteRub est sur un autre disque vous devez utiliser `LettreDeLecteur:` par exemple, si votre portefeuille ByteRub est sur votre disque D, vous devez taper `D:` avant d'utiliser la commande cd.
 
@@ -40,11 +40,11 @@ Si votre portefeuille ByteRub est sur un autre disque vous devez utiliser `Lettr
 
 Maintenant, dans l'invite de commande, tapez :
 
-`monero-blockchain-import --verify 1 --input-file C:\LE\REPERTOIRE\DE\LA\CHAINE\DE\BLOCS`
+`byterub-blockchain-import --verify 1 --input-file C:\LE\REPERTOIRE\DE\LA\CHAINE\DE\BLOCS`
 
 Par exemple, je taperais :
 
-`monero-blockchain-import --verify 1 --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
+`byterub-blockchain-import --verify 1 --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
 
 Si vous avez téléchargé la chaîne de blocs depuis une source fiable et réputée, vous pouvez positionner `verify 0` cela réduira le temps nécessaire à la synchronisation de la chaîne de blocs.
 

@@ -4,11 +4,11 @@
 
 - Neem je hersteltekst (zie @mnemonic-seed) erbij die je hebt opgeslagen bij het maken van je oude ByteRub-portemonnee (zie @wallet).
 
-### Software:  monero-wallet-cli
+### Software:  byterub-wallet-cli
 
-- Open een opdrachtregel en ga naar het station en de directory waar monero-wallet-cli staat
+- Open een opdrachtregel en ga naar het station en de directory waar byterub-wallet-cli staat
 
-- Typ het volgende op de opdrachtregel:  `monero-wallet-cli --restore-deterministic-wallet`
+- Typ het volgende op de opdrachtregel:  `byterub-wallet-cli --restore-deterministic-wallet`
 
 - Nadat je op Enter hebt gedrukt, wordt er gevraagd een bestandsnaam voor je portemonnee op te geven.  Geef je portemonnee een nieuwe naam. Het maakt niet uit welke naam.
 
@@ -22,9 +22,9 @@
 
 Nadat je de hersteltekst van 25 woorden hebt ingevoerd en een specifieke hoogte van de blockchain hebt opgegeven, wordt het openbare adres van je oude portemonnee gegenereerd en begint het vernieuwingsproces automatisch. (Even geduld alsjeblieft, want het vernieuwen kan een tijdje duren.)
 
-### Software:  monero-wallet-gui
+### Software:  byterub-wallet-gui
 
-Start `monero-wallet-gui`. Als dit de eerste keer is dat je het start, ga dan naar de volgende stap. Zo niet, klik dan op `Annuleren`:
+Start `byterub-wallet-gui`. Als dit de eerste keer is dat je het start, ga dan naar de volgende stap. Zo niet, klik dan op `Annuleren`:
 
 ![openen annuleren](png/restore_account/cancel-opening.png)
 

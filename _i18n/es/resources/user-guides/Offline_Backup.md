@@ -18,7 +18,7 @@
 
 - Copia los binarios de ByteRub a un disco RAM (/dev/shm en Linux, ISOs de Windows booteable normalmente tienen un disco Z: o algo similar)
 
-- No abras el daemon de ByteRub. En su lugar, utilizando la consola de comandos, utiliza monero-wallet-cli para crear una nueva cuenta de ByteRub (@account)
+- No abras el daemon de ByteRub. En su lugar, utilizando la consola de comandos, utiliza byterub-wallet-cli para crear una nueva cuenta de ByteRub (@account)
 
 - Cuando se pida por un nombre, ingresa cualquier nombre, no importa realmente
 
@@ -35,4 +35,4 @@ La cuenta que acabas de crear fue creada en la RAM, y los archivos digitales aho
 
 Créditos: Riccardo Spagni
 
-Relacionado:  [Generador de cuenta offline](http://moneroaddress.org/)
+Relacionado:  [Generador de cuenta offline](http://byterubaddress.org/)

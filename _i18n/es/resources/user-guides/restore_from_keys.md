@@ -15,17 +15,17 @@ Necesitas tener 3 piezas de información de tu monedero, o tu archivo .keys el c
 
 Ejecuta el comando de monedero:
 
-`./monero-wallet-cli --generate-from-keys New_Wallet_Name.abc`
+`./byterub-wallet-cli --generate-from-keys New_Wallet_Name.abc`
 
 A continuación, se te preguntará por la dirección, la clave de utilización y de visualización, y finalmente una nueva contraseña para el monedero restaurado.
 
 Ejecutar esto con los parámetros correctos volverá a generar tus archivos de monedero y te permitirá dar una nueva contraseña.
 
-Si te ocurre algún problema, ejecutar `./monero-wallet-cli --help` mostrará las opciones disponibles en tu monedero. Una vez dentro de tu monedero, ejecuta el comando `help` listará los comandos de ayuda disponibles para ti en tu monedero.
+Si te ocurre algún problema, ejecutar `./byterub-wallet-cli --help` mostrará las opciones disponibles en tu monedero. Una vez dentro de tu monedero, ejecuta el comando `help` listará los comandos de ayuda disponibles para ti en tu monedero.
 
 #### GUI
 
-Abre `monero-wallet-gui`. Si es la primera vez que lo abres ve al siguiente paso, de otro modo haz clic en `Cancel`:
+Abre `byterub-wallet-gui`. Si es la primera vez que lo abres ve al siguiente paso, de otro modo haz clic en `Cancel`:
 
 ![cancel opening](png/restore_from_keys/cancel-opening.png)
 

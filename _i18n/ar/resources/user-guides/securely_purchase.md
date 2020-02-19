@@ -12,9 +12,9 @@
 
 #### الخطوه 2: تحميل وإنشاء محفظه ورقيه علي جهاز كمبيوتر آمن.
 
-قم بتنزيل مولد المحفظة الورقيه من: https://moneroaddress.org وانسخه إلى USB (الرابط المباشر: https://github.com/moneromooo-monero/monero-wallet-generator/archive/master.zip).
+قم بتنزيل مولد المحفظة الورقيه من: https://byterubaddress.org وانسخه إلى USB (الرابط المباشر: https://github.com/byterubmooo-byterub/byterub-wallet-generator/archive/master.zip).
 
-قم بفك ضغط وفتح مولد المحفظة الورقيه (monero-wallet-generator.html) في مستعرض ويب علي نسخه نظام تشغيل آمنه تم تنزيلها حديثاً.
+قم بفك ضغط وفتح مولد المحفظة الورقيه (byterub-wallet-generator.html) في مستعرض ويب علي نسخه نظام تشغيل آمنه تم تنزيلها حديثاً.
 
 ستحتوي محفظتك الورقية على أربعة عناصر مهمة:
 

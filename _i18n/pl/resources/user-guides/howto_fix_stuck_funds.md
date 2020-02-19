@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 Czasami twoje fundusze utkną - część z nich zostanie zablokowana i nigdy nie odblokowana. Oto jak to naprawić:
 
-- Załaduj swój portfel w monero-wallet-cli.
+- Załaduj swój portfel w byterub-wallet-cli.
 
 - Wpisz:
 
@@ -10,7 +10,7 @@ Czasami twoje fundusze utkną - część z nich zostanie zablokowana i nigdy nie
 
 do wiersza polecenia. Wpisz swój 25-słowny kod mnemoniczny, jeśli jeszcze tego nie zrobiłeś. To najlepszy sposób na zapewnienie ciągłego dostępu do twoich funduszy.
 
-- Zamnkij monero-wallet-cli, wpisując:
+- Zamnkij byterub-wallet-cli, wpisując:
 
 > exit
 
@@ -26,6 +26,6 @@ Czasami przy zakładaniu portfela mogłeś go nazwać bez końcówki ".bin". W t
 
 - Usuń nazwaportfela.bin.
 
-- Załaduj monero-wallet-cli, wpisz nazwę portfela, który właśnie usunąłeś.
+- Załaduj byterub-wallet-cli, wpisz nazwę portfela, który właśnie usunąłeś.
 
 - Wpisz hasło. Portfel zostanie teraz zaktualizowany, a twoje zablokowane fundusze zostaną odblokowane.

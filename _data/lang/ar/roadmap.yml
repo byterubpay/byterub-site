@@ -131,10 +131,10 @@
     - name: إعاده تصميم نظام التمويل بالمنتدي
       date:
       status: ongoing
-    - name: Getmonero.org ByteRubpedia open for Localization
+    - name: Getbyterub.org ByteRubpedia open for Localization
       date: 2018-08-03
       status: completed
-    - name: Getmonero.org Localization in Arabic
+    - name: Getbyterub.org Localization in Arabic
       date: 2018-08-10
       status: completed
     - name: 0.13.0.2 Beryllium Bullet released
@@ -172,7 +172,7 @@
       status: completed
 - year: 2019
   accomplishments:
-    - name: Getmonero.org Localization in German
+    - name: Getbyterub.org Localization in German
       date: 2019-02-11
       status: completed
     - name: 0.14.0.0 Boron Butterfly released
@@ -190,7 +190,7 @@
     - name: تقنيه إثبات العمل جديده CryptoNightVR
       date: 2019-03-09
       status: completed
-    - name: Getmonero.org Localization in Brazilian-Portuguese and Dutch
+    - name: Getbyterub.org Localization in Brazilian-Portuguese and Dutch
       date: 2019-03-12
       status: completed
     - name: Trezor Hardware Wallets Support

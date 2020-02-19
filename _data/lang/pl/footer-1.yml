@@ -3,7 +3,7 @@
   - name: O ByteRub
     url: resources/about/
   - name: ByteRubpedia
-    url: resources/moneropedia/
+    url: resources/byterubpedia/
   - name: Przewodniki dla deweloperów
     url: resources/developer-guides/
   - name: Przewodniki dla użytkowników
@@ -11,35 +11,35 @@
   - name: Księgarnia
     url: library
   - name: Kanał RSS
-    url: https://getmonero.org/feed.xml
+    url: https://getbyterub.org/feed.xml
 - title: Kanały IRC
   subfolderitems:
-  - name: monero
-    url: irc://chat.freenode.net/#monero
-  - name: monero-dev
-    url: irc://chat.freenode.net/#monero-dev
-  - name: monero-markets
-    url: irc://chat.freenode.net/#monero-markets
-  - name: monero-pools
-    url: irc://chat.freenode.net/#monero-pools
-  - name: monero-community
-    url: irc://chat.freenode.net/#monero-community
-  - name: monero-translations
-    url: irc://chat.freenode.net/#monero-translations
-  - name: monero-hardware
-    url: irc://chat.freenode.net/#monero-hardware
+  - name: byterub
+    url: irc://chat.freenode.net/#byterub
+  - name: byterub-dev
+    url: irc://chat.freenode.net/#byterub-dev
+  - name: byterub-markets
+    url: irc://chat.freenode.net/#byterub-markets
+  - name: byterub-pools
+    url: irc://chat.freenode.net/#byterub-pools
+  - name: byterub-community
+    url: irc://chat.freenode.net/#byterub-community
+  - name: byterub-translations
+    url: irc://chat.freenode.net/#byterub-translations
+  - name: byterub-hardware
+    url: irc://chat.freenode.net/#byterub-hardware
 - title: Społeczność
   subfolderitems:
   - name: Reddit
-    url: https://reddit.com/r/monero
+    url: https://reddit.com/r/byterub
   - name: Stack Exchange
-    url: https://monero.stackexchange.com/
+    url: https://byterub.stackexchange.com/
   - name: BitcoinTalk Thread
     url: https://bitcointalk.org/index.php?topic=583449.0
   - name: Mattermost Chat
-    url: https://mattermost.getmonero.org/
+    url: https://mattermost.getbyterub.org/
   - name: Telegram Chat
-    url: https://telegram.me/bitmonero
+    url: https://telegram.me/bitbyterub
 - title: Projekt ByteRub
   subfolderitems:
   - name: Open Alias

@@ -16,7 +16,7 @@ Voici un guide pour débutant pour le système d'exploitation Windows qui s'appu
     + [1.1.2. Lancer Gpg4win](#112-lancer-gpg4win)
   - [1.2. Utiliser l'Installateur Gpg4win](#12-utiliser-linstallateur-gpg4win)
 
-### [2. Importer la Clef de Signature](#2-clef-de-signature-monero)
+### [2. Importer la Clef de Signature](#2-clef-de-signature-byterub)
   - [2.1. Télécharger la Clef de Signature](#21-télécharger-la-clef-de-signature)
   - [2.2. Initialiser Kleopatra](#22-initialiser-kleopatra)
     + [2.2.1. Importer une Clef de Signature](#221-importer-une-clef-de-signature)
@@ -101,7 +101,7 @@ Cette rubrique couvre le téléchargement de la clef de signature ByteRub, la v�
 
 ### 2.1. Télécharger la Clef de Signature
 
-Dans un navigateur internet, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires ByteRub. Faites un clic droit sur la page et choisissez `Enregistrer sous...`.
+Dans un navigateur internet, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires ByteRub. Faites un clic droit sur la page et choisissez `Enregistrer sous...`.
 
 ![clic droit getkey](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 
@@ -181,13 +181,13 @@ Cette rubrique couvre le téléchargement du fichier signé des hachages valides
 
 ### 3.1. Télécharger le Fichier de Hachage
 
-Dans un navigateur internet, rendez-vous sur la [page de haches getmonero.org](https://getmonero.org/fr/downloads/hashes.txt). Faites un clic droit sur la page et sélectionnez `Enregistrer sous...`.
+Dans un navigateur internet, rendez-vous sur la [page de haches getbyterub.org](https://getbyterub.org/fr/downloads/hashes.txt). Faites un clic droit sur la page et sélectionnez `Enregistrer sous...`.
 
-![clic droit hachages](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-rightclick.png)
+![clic droit hachages](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-rightclick.png)
 
 Laissez l'emplacement par défaut et cliquez sur `Enregistrer`.
 
-![enregistrer fichier hachages](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-savename.png)
+![enregistrer fichier hachages](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-savename.png)
 
 ### 3.2. Vérifier le Fichier de Hachage
 
@@ -219,17 +219,17 @@ Cette rubrique couvre le téléchargement du binaire ByteRub et la vérification
 
 ### 4.1. Télécharger le Binaire
 
-Dans un navigateur internet, rendez-vous sur la [page de téléchargement getmonero.org](https://getmonero.org/fr/downloads/#windows). Sélectionnez le binaire approprié à votre système.
+Dans un navigateur internet, rendez-vous sur la [page de téléchargement getbyterub.org](https://getbyterub.org/fr/downloads/#windows). Sélectionnez le binaire approprié à votre système.
 
-![binaire getmonero](png/verify_binary_windows_beginner/verify-win_binary-getmonero-windowsfiles.png)
+![binaire getbyterub](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-windowsfiles.png)
 
 Laissez `Enregistrer` sélectionné et cliquez sur `OK`.
 
-![enregistrer binaire getmonero](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-file.png)
+![enregistrer binaire getbyterub](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-file.png)
 
 Laissez l'emplacement par défaut et cliquez sur `Enregistrer`.
 
-![emplacement enregistrement binaire getmonero](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-location.png)
+![emplacement enregistrement binaire getbyterub](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-location.png)
 
 ### 4.2. Vérifier le Binaire
 
@@ -245,7 +245,7 @@ Allez dans le répertoire `Downloads` avec la commande : `cd Downloads`.
 
 ![cd cmd binaire](png/verify_binary_windows_beginner/verify-win_binary-cmd-cd.png)
 
-Calculez le hachage du binaire ByteRub avec la commande : `certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256` (Si vous avez téléchargé la version ligne de commande, remplacez par `monero-gui-win-x64-v0.12.0.0.zip` en conséquence).
+Calculez le hachage du binaire ByteRub avec la commande : `certUtil -hashfile byterub-gui-win-x64-v0.12.0.0.zip SHA256` (Si vous avez téléchargé la version ligne de commande, remplacez par `byterub-gui-win-x64-v0.12.0.0.zip` en conséquence).
 
 ![certutil cmd binaire](png/verify_binary_windows_beginner/verify-win_binary-cmd-certutil.png)
 

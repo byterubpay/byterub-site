@@ -11,13 +11,13 @@ Je kunt in elke bestaande portemonnee een alleen-lezen portemonnee maken.
 
 #### Opdrachtregel
 
-Open een bestaande portemonnee of maak een nieuwe met `monero-wallet-cli`. Typ in de portemonnee `address` en `viewkey` om het adres en de geheime alleen-lezen sleutel weer te geven. Typ `exit` om de portemonnee af te sluiten.
+Open een bestaande portemonnee of maak een nieuwe met `byterub-wallet-cli`. Typ in de portemonnee `address` en `viewkey` om het adres en de geheime alleen-lezen sleutel weer te geven. Typ `exit` om de portemonnee af te sluiten.
 
-Vervolgens kun je je alleen-lezen portemonnee aanmaken door het volgende te typen: `monero-wallet-cli --generate-from-view-key wallet-name`. Het laatste argument is de bestandsnaam van je nieuwe portemonnee. Het programma vraagt naar een `Standard address` (standaardadres) en `View key` (alleen-lezen sleutel). Voer het adres en de geheime alleen-lezen sleutel van je oorspronkelijke portemonnee in. Voer daarna een wachtwoord in voor je nieuwe portemonnee, en klaar is Kees.
+Vervolgens kun je je alleen-lezen portemonnee aanmaken door het volgende te typen: `byterub-wallet-cli --generate-from-view-key wallet-name`. Het laatste argument is de bestandsnaam van je nieuwe portemonnee. Het programma vraagt naar een `Standard address` (standaardadres) en `View key` (alleen-lezen sleutel). Voer het adres en de geheime alleen-lezen sleutel van je oorspronkelijke portemonnee in. Voer daarna een wachtwoord in voor je nieuwe portemonnee, en klaar is Kees.
 
 #### Grafische interface
 
-Open een bestaande portemonnee of maak een nieuwe met `monero-wallet-gui`. Ga in de portemonnee naar de pagina `Instellingen` > `Portemonnee`:
+Open een bestaande portemonnee of maak een nieuwe met `byterub-wallet-gui`. Ga in de portemonnee naar de pagina `Instellingen` > `Portemonnee`:
 
 ![settings](png/view-only/settings.png)
 

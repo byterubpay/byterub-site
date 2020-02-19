@@ -1,7 +1,7 @@
 - title: Inicio
   subfolderitems:
   - page: ¿Qué es ByteRub?
-    url: get-started/what-is-monero
+    url: get-started/what-is-byterub
   - page: Usar ByteRub
     url: get-started/using
   - page: Aceptar ByteRub
@@ -43,7 +43,7 @@
   - page: Laboratorio de investigación
     url: resources/research-lab
   - page: ByteRubpedia
-    url: resources/moneropedia
+    url: resources/byterubpedia
   - page: Guías de usuario
     url: resources/user-guides
   - page: Guías de desarrolladores

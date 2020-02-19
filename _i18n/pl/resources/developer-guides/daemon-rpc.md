@@ -2,11 +2,11 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Wprowadzenie
 
-Poniżej znajduje się lista funkcji RPC demona monerod, ich wejścia i wyników oraz przykłady.
+Poniżej znajduje się lista funkcji RPC demona byterubd, ich wejścia i wyników oraz przykłady.
 
 Wiele funkcji RPC korzysta z interfejsu demona JSON RPC, podczas gdy inne używają własnego interfejsu, jak przedstawiono poniżej.
 
-Uwaga: "jednostki atomowe (@atomic-unit)" dotyczą najmniejszego ułamka 1 XMR, zgodnie z implementacją monerod. **1 XMR = 1e12 jednostek atomowych.**
+Uwaga: "jednostki atomowe (@atomic-unit)" dotyczą najmniejszego ułamka 1 XMR, zgodnie z implementacją byterubd. **1 XMR = 1e12 jednostek atomowych.**
 
 ### [Metody JSON RPC](#json-rpc-methods):
 
@@ -38,7 +38,7 @@ Uwaga: "jednostki atomowe (@atomic-unit)" dotyczą najmniejszego ułamka 1 XMR, 
 
 ## Metody JSON RPC
 
-Większość funkcji RPC monerod korzysta z interfejsu demona `json_rpc`, aby żądać różnych informacji. Wszystkie te metody mają podobną strukturę, na przykład:
+Większość funkcji RPC byterubd korzysta z interfejsu demona `json_rpc`, aby żądać różnych informacji. Wszystkie te metody mają podobną strukturę, na przykład:
 
 ```
 IP=127.0.0.1

@@ -3,7 +3,7 @@
 # Choisir un pool
 
 Il y a de nombreux pool parmi lesquels choisir, une liste est disponible sur
-[moneropools.com](https://moneropools.com). Miner sur un grand pool signifie
+[byterubpools.com](https://byterubpools.com). Miner sur un grand pool signifie
 des paiements plus fréquent, mais miner sur un pool plus petit permet de
 maintenir la décentralisation du réseau.
 

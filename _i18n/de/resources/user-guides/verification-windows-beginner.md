@@ -15,7 +15,7 @@ This is a beginners guide for the Windows operating system and will make use of 
     + [1.1.1. Download Gpg4win](#111-download-gpg4win)
     + [1.1.2. Launch Gpg4win](#112-launch-gpg4win)
   - [1.2. Use Gpg4win Installer](#12-use-gpg4win-installer)
-### [2. Import Signing Key](#2-monero-signing-key)
+### [2. Import Signing Key](#2-byterub-signing-key)
   - [2.1. Download Signing Key](#21-download-signing-key)
   - [2.2. Initialize Kleopatra](#22-initialize-kleopatra)
     + [2.2.1. Import Signing Key](#221-import-signing-key)
@@ -98,7 +98,7 @@ This section will cover downloading the ByteRub signing key, verifying that the 
 
 ### 2.1. Download Signing Key
 
-In a web browser, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), which he uses for signing the ByteRub binaries. Right click on the page, choose `Save Page As`.
+In a web browser, go to [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc), which he uses for signing the ByteRub binaries. Right click on the page, choose `Save Page As`.
 
 ![getkey right click](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 
@@ -178,13 +178,13 @@ This section will cover downloading the signed file of known good hashes and ver
 
 ### 3.1. Download Hash File
 
-In a web browser, go to the [getmonero.org hash page]({{ site.baseurl }}/downloads/hashes.txt). Right click the page, select `Save Page As`.
+In a web browser, go to the [getbyterub.org hash page]({{ site.baseurl }}/downloads/hashes.txt). Right click the page, select `Save Page As`.
 
-![hashes right click](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-rightclick.png)
+![hashes right click](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-rightclick.png)
 
 Leave the default location, click `Save`.
 
-![hashes save file](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-savename.png)
+![hashes save file](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-savename.png)
 
 ### 3.2. Verify Hash File
 
@@ -216,17 +216,17 @@ This section will cover downloading the ByteRub binary and verifying its authent
 
 ### 4.1. Download Binary
 
-In a web browser, go to the [getmonero.org downloads page]({{ site.baseurl }}/downloads/#windows). Select the correct binary for your system.
+In a web browser, go to the [getbyterub.org downloads page]({{ site.baseurl }}/downloads/#windows). Select the correct binary for your system.
 
-![binary getmonero](png/verify_binary_windows_beginner/verify-win_binary-getmonero-windowsfiles.png)
+![binary getbyterub](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-windowsfiles.png)
 
 Leave `Save File` selected, click `OK`.
 
-![binary getmonero save](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-file.png)
+![binary getbyterub save](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-file.png)
 
 Leave the default location, click `Save`.
 
-![binary getmonero save location](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-location.png)
+![binary getbyterub save location](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-location.png)
 
 ### 4.2. Verify Binary
 
@@ -242,7 +242,7 @@ Change to the `Downloads` directory with the command: `cd Downloads`.
 
 ![binary cmd cd](png/verify_binary_windows_beginner/verify-win_binary-cmd-cd.png)
 
-Calculate the hash of the ByteRub binary with the command: `certUtil -hashfile monero-gui-win-x64-v0.11.1.0.zip SHA256` (if you downloaded a command-line only version, replace `monero-gui-win-x64-v0.11.1.0.zip` accordingly).
+Calculate the hash of the ByteRub binary with the command: `certUtil -hashfile byterub-gui-win-x64-v0.11.1.0.zip SHA256` (if you downloaded a command-line only version, replace `byterub-gui-win-x64-v0.11.1.0.zip` accordingly).
 
 ![binary cmd certutil](png/verify_binary_windows_beginner/verify-win_binary-cmd-certutil.png)
 

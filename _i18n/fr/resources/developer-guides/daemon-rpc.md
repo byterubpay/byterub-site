@@ -6,7 +6,7 @@ Voici une liste des appels de procédures distantes (RPC) du démon, leurs entr�
 
 De nombreux appels RPC utilisent l'interface JSON RPC du démon, alors que d'autres utilisent leurs propres interfaces, comme démontré plus bas.
 
-Remarque : "@unité-atomique" réfère à la plus petite fraction de 1 XMR selon l'implémentation monerod. **1 XMR = 1e12 unités atomiques**
+Remarque : "@unité-atomique" réfère à la plus petite fraction de 1 XMR selon l'implémentation byterubd. **1 XMR = 1e12 unités atomiques**
 
 Remarque 2 : Guide mis à jour à la hauteur du réseau 1562465.
 
@@ -76,7 +76,7 @@ Remarque 2 : Guide mis à jour à la hauteur du réseau 1562465.
 
 ## Méthodes JSON RPC
 
-La majorité des appels RPC de monerod utilisent l'interface `json_rpc` du démon pour demander des bribes d'information. Ces méthodes suivent toutes une structure similaire, par exemple :
+La majorité des appels RPC de byterubd utilisent l'interface `json_rpc` du démon pour demander des bribes d'information. Ces méthodes suivent toutes une structure similaire, par exemple :
 
 ```
 IP=127.0.0.1
@@ -1250,7 +1250,7 @@ La structure de données pour ces appels diffère de celle des appels JSON RPC. 
 
 Remarque : Il est recommandé d'utiliser JSON RPC lorsque l'alternative existe, plutôt que les méthodes suivantes. Par exemple, la méthode recommandée pour obtenir la hauteur d'un nœud est via la méthode JSON RPC [get_info](#getinfo) ou [get_last_block_header](#get_last_block_header), plutôt que [getheight](#getheight) ci-dessous.
 
-Pour les appels qui se terminent par **.bin**, les données sont échangées sous forme d'objets sérialisés binaire, comme définit dans le [Core RPC Server](https://github.com/byterubpay/monero/blob/master/src/rpc/core_rpc_server_commands_defs.h).
+Pour les appels qui se terminent par **.bin**, les données sont échangées sous forme d'objets sérialisés binaire, comme définit dans le [Core RPC Server](https://github.com/byterubpay/byterub/blob/master/src/rpc/core_rpc_server_commands_defs.h).
 
 
 ### **/get_height**

@@ -1,6 +1,6 @@
 ---
 terms: ["OpenAlias"]
-summary: "a standard that allows you to use an email or domain syntax to pay someone instead of an address, eg. donate@getmonero.org or donate.getmonero.org"
+summary: "a standard that allows you to use an email or domain syntax to pay someone instead of an address, eg. donate@getbyterub.org or donate.getbyterub.org"
 ---
 
 {% include untranslated.html %}
@@ -14,6 +14,6 @@ As part of the ongoing development of the ByteRub cryptocurrency project, we ask
 
 At its most basic, OpenAlias is a TXT DNS record on a FQDN (fully qualified domain name). By combining this with DNS-related technologies we have created an aliasing standard that is extensible for developers, intuitive and familiar for users, and can interoperate with both centralized and decentralized domain systems.
 
-A standard that allows you to use an email or domain syntax to pay someone instead of an address, eg. donate@getmonero.org or donate.getmonero.org.
+A standard that allows you to use an email or domain syntax to pay someone instead of an address, eg. donate@getbyterub.org or donate.getbyterub.org.
 
 More information can be found on the [OpenAlias page](/ar/the-byterubpay/) or on the [OpenAlias website](https://openalias.org)

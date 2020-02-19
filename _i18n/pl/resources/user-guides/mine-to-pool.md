@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 # Wybieranie zrzeszenia
 
-Istnieje wiele zrzeszeń do wyboru. Lista dostępna jest na stronie [moneropools.com](https://moneropools.com). Wydobywanie w większym zrzeszeniu może oznaczać częstszą wypłatę, ale to wydobywanie w mniejszej grupie pomaga utrzymać sieć zdecentralizowaną.
+Istnieje wiele zrzeszeń do wyboru. Lista dostępna jest na stronie [byterubpools.com](https://byterubpools.com). Wydobywanie w większym zrzeszeniu może oznaczać częstszą wypłatę, ale to wydobywanie w mniejszej grupie pomaga utrzymać sieć zdecentralizowaną.
 
 # Wybieranie koparki CPU
 

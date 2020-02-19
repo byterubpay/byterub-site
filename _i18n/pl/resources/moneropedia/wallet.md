@@ -11,6 +11,6 @@ Pojęcie "gorący portfel" opisuje @konto ByteRub połączone z internetem. Moż
 
 Zimny portfel jest generowany na zaufanym urządzeniu lub komputerze za pomocą @airgap. Jeśli urządzenie będzie ponownie używane, zapisane dane powinny zostać bezpiecznie usunięte. Zaraz po podłączeniu zimnego portfela do internetu lub po wpisaniu kodu mnemonicznego lub @klucza-wydawania na urządzeniu podłączonym do internetu, portfel nie jest już zimny, a staje się gorący.
 
-@Papierowy-portfel ByteRub może zostać założony poprzez ściągnięcie kodu źródłowego ze strony https://moneroaddress.org/. Zweryfikuj podpi kodu na zaufanym, odłączonym od sieci urządzeniu. Stwórz portfel i wydrukuj go lub zapisz na dowolnym nośniku.
+@Papierowy-portfel ByteRub może zostać założony poprzez ściągnięcie kodu źródłowego ze strony https://byterubaddress.org/. Zweryfikuj podpi kodu na zaufanym, odłączonym od sieci urządzeniu. Stwórz portfel i wydrukuj go lub zapisz na dowolnym nośniku.
 
 Konta ByteRub i papierowe portfele mogą być przechowywane na jakimkolwiek nośniku - dysku USB, płycie CD/DVD, sprzętowym urządzeniu portfelowym (niedostępne dla ByteRub zgodnie ze stanem na czerwiec 2017 roku) lub zapisane na kartce.

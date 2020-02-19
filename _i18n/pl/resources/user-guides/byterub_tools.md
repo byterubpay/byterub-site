@@ -8,12 +8,12 @@ Poniższe narzędzia mogą zostać użyte w celu zdobycia informacji na temat si
 
 ### [Narzędzia do tworzenia adresu ByteRub](https://xmr.llcoins.net/)
 
-### [Liczenie węzłów ByteRub](http://moneronodes.i2p.xyz/)
+### [Liczenie węzłów ByteRub](http://byterubnodes.i2p.xyz/)
 
-### [Mapa węzłów ByteRub](https://monerohash.com/nodes-distribution.html)
+### [Mapa węzłów ByteRub](https://byterubhash.com/nodes-distribution.html)
 
-### [Generator portfela ByteRub off-line](http://moneroaddress.org/)
+### [Generator portfela ByteRub off-line](http://byterubaddress.org/)
 
-### [Statystyki sieci ByteRub](http://moneroblocks.info/stats)
+### [Statystyki sieci ByteRub](http://byterubblocks.info/stats)
 
-### [Statystyki strony ByteRub.how](https://www.monero.how/)
+### [Statystyki strony ByteRub.how](https://www.byterub.how/)

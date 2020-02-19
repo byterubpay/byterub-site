@@ -14,17 +14,17 @@ Vous avez besoin de trois données pour restaurer votre portefeuille, soit vos f
 
 Lancez la commande du portefeuille :
 
-`./monero-wallet-cli --generate-from-keys Nouveau_Nom_de_Portefeuille.abc`
+`./byterub-wallet-cli --generate-from-keys Nouveau_Nom_de_Portefeuille.abc`
 
 Puis, votre adresse, vos clefs secrètes de dépense et d'audit, ainsi qu'un nouveau mot de passe pour votre portefeuille régénéré vous seront demandées.
 
 Lancer cela avec les bons paramètres va régénérer les fichiers de votre portefeuille et vous permettre de configurer un nouveau mot de passe.
 
-Si vous rencontrer des problèmes, lancer `./monero-wallet-cli --help` vous affichera les options disponible au démarrage du portefeuille. Une fois à l'intérieur du portefeuille, lancer la commande `help` listera l'aide des commandes disponible dans le portefeuille.
+Si vous rencontrer des problèmes, lancer `./byterub-wallet-cli --help` vous affichera les options disponible au démarrage du portefeuille. Une fois à l'intérieur du portefeuille, lancer la commande `help` listera l'aide des commandes disponible dans le portefeuille.
 
 #### GUI
 
-Lancez `monero-wallet-gui`. Si c'est la première fois que vous le lancez, allez directement à l'étape suivante, sinon, cliquez sur `Cancel` :
+Lancez `byterub-wallet-gui`. Si c'est la première fois que vous le lancez, allez directement à l'étape suivante, sinon, cliquez sur `Cancel` :
 
 ![cancel opening](png/restore_from_keys/cancel-opening.png)
 

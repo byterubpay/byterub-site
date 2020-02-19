@@ -22,7 +22,7 @@ ByteRub denomination names add SI prefixes after dropping the initial "mo" for e
 | centinero  | 10^-2    | 0.01              |
 | decinero   | 10^-1    | 0.1               |
 |============+==========+===================|
-| **monero** | **10^0** | **1**             |
+| **byterub** | **10^0** | **1**             |
 |============+==========+===================|
 | decanero   | 10^1     | 10                |
 | hectonero  | 10^2     | 100               |
@@ -32,8 +32,8 @@ ByteRub denomination names add SI prefixes after dropping the initial "mo" for e
 
 ### In-depth Information
 
-Support for input using SI prefixes was [added to the ByteRub codebase](https://github.com/byterubpay/monero/pull/1826) on March 3, 2017 by [ByteRubmooo](https://github.com/moneromooo-monero). The smallest unit of ByteRub (10^-12 XMR) was originally called a tacoshi in honor of user [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270), an early ByteRub contributor and was later renamed for ease of use and consistancy.
+Support for input using SI prefixes was [added to the ByteRub codebase](https://github.com/byterubpay/byterub/pull/1826) on March 3, 2017 by [ByteRubmooo](https://github.com/byterubmooo-byterub). The smallest unit of ByteRub (10^-12 XMR) was originally called a tacoshi in honor of user [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270), an early ByteRub contributor and was later renamed for ease of use and consistancy.
 
 ### ByteRubd Implementation
 
-The smallest fraction of ByteRub in the current monerod implementation is also known as the @atomic-unit, which is currently one piconero.
+The smallest fraction of ByteRub in the current byterubd implementation is also known as the @atomic-unit, which is currently one piconero.

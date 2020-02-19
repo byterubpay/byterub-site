@@ -11,6 +11,6 @@ Le terme de "portefeuille chaud" décrit un @compte ByteRub qui est connecté à
 
 Un portefeuille froid est généré sur un équipement ou un ordinateur sécurisé par @air-gap. Si l'équipement doit être réutilisé, le stockage de donnée doit être scrupuleusement effacé. Dès qu'un portefeuille froid est connecté à Internet, ou que sa phrase mnémonique ou sa @clef-de-dépense est entrée sur un équipement connecté à Internet, il n'est plus "froid" et doit être considéré comme "chaud".
 
-Un @portefeuille-papier ByteRub peut être généré en téléchargeant le code source de https://moneroaddress.org/. Vérifiez la signature du code sur un équipement digne de confiance sous air-gap. Créez le portefeuille et imprimez-le ou conservez-le sur le média de votre choix.
+Un @portefeuille-papier ByteRub peut être généré en téléchargeant le code source de https://byterubaddress.org/. Vérifiez la signature du code sur un équipement digne de confiance sous air-gap. Créez le portefeuille et imprimez-le ou conservez-le sur le média de votre choix.
 
 Les comptes ByteRub et les portefeuilles papiers peuvent être conservés sur n'importe quel média : papier, clef USB, CD/DVD, ou portefeuille matériel (Ledger supporté depuis Juin 2018).

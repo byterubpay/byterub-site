@@ -63,7 +63,7 @@ MMS communications should be **safe**: The Bitmessage system is considered safe 
 
 ## The MMS User Experience
 
-To see the "user experience" of multisig in the CLI wallet **without** MMS you can e.g. check [here](https://taiga.getmonero.org/project/rbrunner7-really-simple-multisig-transactions/wiki/22-multisig-in-cli-wallet) and [here](https://taiga.getmonero.org/project/rbrunner7-really-simple-multisig-transactions/wiki/23-multisig-in-cli-wallet).
+To see the "user experience" of multisig in the CLI wallet **without** MMS you can e.g. check [here](https://taiga.getbyterub.org/project/rbrunner7-really-simple-multisig-transactions/wiki/22-multisig-in-cli-wallet) and [here](https://taiga.getbyterub.org/project/rbrunner7-really-simple-multisig-transactions/wiki/23-multisig-in-cli-wallet).
 
 Those pages are also useful to familiarize yourself with the steps for multisig transactions in general, as the MMS will not change the order of the steps or make any of them superfluous, but will just make execution considerably easier, and the MMS will be able to tell you the next step in order automatically in most cases.
 
@@ -93,7 +93,7 @@ The MMS also manages a single list of *messages* per wallet: All messages you se
 
 ## Getting the MMS
 
-Right now, at the time of writing this manual (year-end 2018), the MMS is only available as part of the latest ByteRub code (`master` branch on ByteRub's [GitHub repository](https://github.com/byterubpay/monero)). To use it, you have to check out that source code and compile it yourself. Doing so is easiest on a Linux system.
+Right now, at the time of writing this manual (year-end 2018), the MMS is only available as part of the latest ByteRub code (`master` branch on ByteRub's [GitHub repository](https://github.com/byterubpay/byterub)). To use it, you have to check out that source code and compile it yourself. Doing so is easiest on a Linux system.
 
 With the next hardfork in Spring 2019 the MMS will become an integral standard part of the ByteRub software: You install ByteRub, you have it.
 
@@ -181,7 +181,7 @@ Beside that, you need of course either `--testnet` or `--stagenet` to connect to
 
 So a complete command line for the CLI wallet could look like this:
 
-    ./monero-wallet-cli --testnet --bitmessage-login mmstest:p4ssw0rd --log-level 0
+    ./byterub-wallet-cli --testnet --bitmessage-login mmstest:p4ssw0rd --log-level 0
 
 ### Initializing the MMS
 
@@ -234,7 +234,7 @@ So pick **one** method from the three following chapters *Manually Configuring S
 
 The command to manually enter signer info and display the list of signers is `mms signer`:
 
-	mms signer [<number> <label> [<transport_address> [<monero_address>]]]
+	mms signer [<number> <label> [<transport_address> [<byterub_address>]]]
 
 Without any argument the command displays the list of signers. With at least a number and a label you can set or change info about a particular signer. A full command to set everything about signer #2 could look like this:
 
@@ -252,7 +252,7 @@ Before you go out and start to exchange signer information over insecure channel
 
 There is also the danger that in a 2/3 multisig scenario for *escrow* signer Bob can set up a second wallet for the trusted third-party Trent beside his own and trick Alice into sending everything to that wallet instead of Trent's. After this Bob will be able to transact alone and steal coins from Alice.
 
-You find a more detailed explanation of this second danger in chapter *Security* towards the end of the manual or [here](https://taiga.getmonero.org/project/rbrunner7-really-simple-multisig-transactions/wiki/multisig-and-insecure-communication-channels). Auto-config mitigates this danger to quite some extent.
+You find a more detailed explanation of this second danger in chapter *Security* towards the end of the manual or [here](https://taiga.getbyterub.org/project/rbrunner7-really-simple-multisig-transactions/wiki/multisig-and-insecure-communication-channels). Auto-config mitigates this danger to quite some extent.
 
 Alice's complete signer list looks like this:
 
@@ -456,7 +456,7 @@ Display whether the MMS is active or not, and if yes, show the number of require
 
 ### mms signer
 
-    mms signer [<number> <label> [<transport_address> [<monero_address>]]]
+    mms signer [<number> <label> [<transport_address> [<byterub_address>]]]
 
 Examples:
 

@@ -1,6 +1,6 @@
 ---
 terms: ["OpenAlias"]
-summary: "Standard pozwalający na korzystanie z adresu e-mail lub domeny internetowej, np. donate@getmonero.org lub donate.getmonero.org,  w celu płatności, zamiast adresu numerycznego."
+summary: "Standard pozwalający na korzystanie z adresu e-mail lub domeny internetowej, np. donate@getbyterub.org lub donate.getbyterub.org,  w celu płatności, zamiast adresu numerycznego."
 ---
 
 ### Podstawy
@@ -13,6 +13,6 @@ W ramach ciągle rozwijanego projektu ByteRub, zadaliśmy sobie pytanie, jak mo�
 
 Zasadniczo OpenAlias jest zapisem TXT DNS w Pełnej, Jednoznacznej Nazwie Domenowej. Po połączeniu go z technologiami związanymi z systemem nazw domenowych, stowrzyliśmy standard aliasowania, który służy deweloperom i jest intuicyjny oraz współpracuje zarówno z scentralizowanymi, jak i zdecentralizowanymi systemami domen.
 
-Standard pozwalający na korzystanie z adresu e-mail lub domeny internetowej, np. donate@getmonero.org lub donate.getmonero.org,  w celu płatności, zamiast adresu numerycznego.
+Standard pozwalający na korzystanie z adresu e-mail lub domeny internetowej, np. donate@getbyterub.org lub donate.getbyterub.org,  w celu płatności, zamiast adresu numerycznego.
 
 Więcej informacji znajdziesz w artykule na temat [OpenAlias](/knowledge-base/openalias) lub [stronie OpenAlias](https://openalias.org).

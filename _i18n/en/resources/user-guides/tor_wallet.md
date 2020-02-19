@@ -1,7 +1,7 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
 
-Below we'll show an example configuration that allows you to run a ByteRub daemon (eg on a home server or VPS) that you can connect to from another computer running your wallet.  We do this over the Tor anonymity network to retrieve the transaction information needed by your wallet.  The benefit of this approach is that the daemon (`monerod`) can stay on all of the time sending / receiving blocks, while the wallet can connect when needed and have access to the full blockchain. [Monerujo](https://www.monerujo.io/) should also work via [Orbot](https://guardianproject.info/apps/org.torproject.android/).  Because Tor hidden services provide encryption and authentication, you can be confident that your RPC credentials will not be sent in the clear.  Tor also solves problems often seen on home servers related to port-forwarding, IP addresses changing, etc -- it just works.  This setup will also obfuscate the fact that you are connecting to a remote ByteRub node. Tested with ByteRub `v0.15.0.1` connecting a Mac laptop wallet to a remote Linux node (Ubuntu 18.04.2).
+Below we'll show an example configuration that allows you to run a ByteRub daemon (eg on a home server or VPS) that you can connect to from another computer running your wallet.  We do this over the Tor anonymity network to retrieve the transaction information needed by your wallet.  The benefit of this approach is that the daemon (`byterubd`) can stay on all of the time sending / receiving blocks, while the wallet can connect when needed and have access to the full blockchain. [Monerujo](https://www.monerujo.io/) should also work via [Orbot](https://guardianproject.info/apps/org.torproject.android/).  Because Tor hidden services provide encryption and authentication, you can be confident that your RPC credentials will not be sent in the clear.  Tor also solves problems often seen on home servers related to port-forwarding, IP addresses changing, etc -- it just works.  This setup will also obfuscate the fact that you are connecting to a remote ByteRub node. Tested with ByteRub `v0.15.0.1` connecting a Mac laptop wallet to a remote Linux node (Ubuntu 18.04.2).
 
 ## Create a Tor hidden service for RPC
 
@@ -12,7 +12,7 @@ We only need to configure the RPC server to run as a hidden service here on port
 File: `/etc/torrc`
 
 ```
-HiddenServiceDir /var/lib/tor/monero-service/
+HiddenServiceDir /var/lib/tor/byterub-service/
 HiddenServicePort 18081 127.0.0.1:18081
 ```
 Restart Tor:
@@ -27,15 +27,15 @@ sudo systemctl status tor@default.service
 
 If everything looks good, make a note of the hidden service (onion address) name:
 ```
-sudo cat /var/lib/tor/monero-service/hostname
+sudo cat /var/lib/tor/byterub-service/hostname
 ```
 It will be something like 4dcj312uxag2r6ye.onion -- use this for `HIDDEN_SERVICE` below.
 
 ### Configure Daemon to allow RPC
 
-In this example, we don't use Tor for interacting with the p2p network, just to connect to the monero node, so only RPC hidden service is needed.
+In this example, we don't use Tor for interacting with the p2p network, just to connect to the byterub node, so only RPC hidden service is needed.
 
-File: `~/.bitmonero/bitmonero.conf` (in the home directory of the ByteRub user)
+File: `~/.bitbyterub/bitbyterub.conf` (in the home directory of the ByteRub user)
 
 ```
 no-igd=1
@@ -44,11 +44,11 @@ rpc-login=USERNAME:PASSWORD
 ```
 (Make up a USERNAME and PASSWORD to use for RPC)
 
-Restart the Daemon: `monerod stop_daemon; sleep 10; monerod --detach`
+Restart the Daemon: `byterubd stop_daemon; sleep 10; byterubd --detach`
 
 Make sure the daemon started correctly:
 ```
-tail -f ~/.bitmonero/bitmonero.log
+tail -f ~/.bitbyterub/bitbyterub.log
 ```
 
 ## Connecting to your node from a local wallet
@@ -65,7 +65,7 @@ When you execute the command, you should get some info about the remote daemon i
 
 Once it is working, you can connect using your cli wallet:
 ```
-./monero-wallet-cli --proxy 127.0.0.1:9150 --daemon-host HIDDEN_SERVICE.onion --trusted-daemon --daemon-login USERNAME:PASSWORD --wallet-file ~/PATH/TO/YOUR/WALLET
+./byterub-wallet-cli --proxy 127.0.0.1:9150 --daemon-host HIDDEN_SERVICE.onion --trusted-daemon --daemon-login USERNAME:PASSWORD --wallet-file ~/PATH/TO/YOUR/WALLET
 ```
 Replace values above as needed.
 
@@ -73,7 +73,7 @@ Replace values above as needed.
 
 If you are interested in experimenting with the GUI over Tor, you can try `torsocks` (note this may leak info -- do not rely on it if your life depends on maintaining anonymity).  Here is an example on MacOS, adjust as needed for the Linux GUI:
 ```
-torsocks --port 9150 /Applications/monero-wallet-gui.app/Contents/MacOS/monero-wallet-gui
+torsocks --port 9150 /Applications/byterub-wallet-gui.app/Contents/MacOS/byterub-wallet-gui
 ```
 
 This will allow the GUI to communicate with the Tor network.  Once the GUI is open and a wallet loaded, you must configure it to connect to your Tor hidden service by adding your onion address to:  "Settings > Node > Remote node > Address".
@@ -82,5 +82,5 @@ In future versions of the GUI, we expect to add direct Tor / I2P support so that
 
 # Additional resources
 
-* [ANONYMITY_NETWORKS.md](https://github.com/byterubpay/monero/blob/master/ANONYMITY_NETWORKS.md)
-* [Using Tor](https://github.com/byterubpay/monero#using-tor) (ByteRub README)
+* [ANONYMITY_NETWORKS.md](https://github.com/byterubpay/byterub/blob/master/ANONYMITY_NETWORKS.md)
+* [Using Tor](https://github.com/byterubpay/byterub#using-tor) (ByteRub README)

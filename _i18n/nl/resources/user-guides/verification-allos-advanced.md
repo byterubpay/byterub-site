@@ -19,7 +19,7 @@ Dit is een geavanceerde handleiding voor de besturingssystemen Linux, Mac en Win
   + [3.1. Hashbestand ophalen](#31-get-hash-file)
   + [3.2. Hashbestand verifiëren](#32-verify-hash-file)
 ### [4. Binary downloaden en verifiëren](#4-download-and-verify-binary)
-  + [4.1. ByteRub-binary ophalen](#41-get-monero-binary)
+  + [4.1. ByteRub-binary ophalen](#41-get-byterub-binary)
   + [4.2. Binary verifiëren op Linux of Mac](#42-binary-verification-on-linux-or-mac)
   + [4.3. Binary verifiëren op Windows](#43-binary-verification-on-windows)
 
@@ -37,12 +37,12 @@ In dit gedeelte leggen we uit hoe je de ByteRub-ondertekeningssleutel ophaalt, c
 
 ### 2.1. Ondertekeningssleutel ophalen
 
-Op Windows of een Mac: ga naar [Fluffypony's GPG-sleutel](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de ByteRub-binaries ondertekent, en sla de pagina op als `fluffypony.asc` in je homedirectory.
+Op Windows of een Mac: ga naar [Fluffypony's GPG-sleutel](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc), waarmee hij de ByteRub-binaries ondertekent, en sla de pagina op als `fluffypony.asc` in je homedirectory.
 
 Op Linux kun je de ondertekeningssleutel van Fluffypony downloaden door de volgende opdracht op te geven:
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Ondertekeningssleutel verifiëren
@@ -99,7 +99,7 @@ In dit gedeelte leggen we uit hoe je het hashbestand downloadt en de authenticit
 
 ### 3.1. Hashbestand ophalen
 
-Op Windows of een Mac ga je naar het [hashbestand op getmonero.org]({{ site.baseurl }}/downloads/hashes.txt) en sla je de pagina op als `hashes.txt` in je homedirectory.
+Op Windows of een Mac ga je naar het [hashbestand op getbyterub.org]({{ site.baseurl }}/downloads/hashes.txt) en sla je de pagina op als `hashes.txt` in je homedirectory.
 
 Op Linux kun je het ondertekende hashbestand downloaden door de volgende opdracht op te geven:
 
@@ -139,47 +139,47 @@ In dit gedeelte leggen we uit hoe je de ByteRub-binary voor je besturingssysteem
 
 ### 4.1. ByteRub-binary ophalen
 
-Op Windows of een Mac ga je naar [getmonero.org]({{ site.baseurl }}/downloads/) en download je het juiste bestand voor je besturingssysteem. Sla het bestand op in je homedirectory. **Pak de bestanden nog niet uit.**
+Op Windows of een Mac ga je naar [getbyterub.org]({{ site.baseurl }}/downloads/) en download je het juiste bestand voor je besturingssysteem. Sla het bestand op in je homedirectory. **Pak de bestanden nog niet uit.**
 
 Op Linux kun je de opdrachtregelversie downloaden door de volgende opdracht op te geven:
 
 ```
-wget -O monero-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getmonero.org/cli/linux64
+wget -O byterub-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getbyterub.org/cli/linux64
 ```
 
 ### 4.2. Binary verifiëren op Linux of Mac
 
-De stappen op zowel Linux als Mac zijn hetzelfde. In een terminal bereken je de `SHA256`-hash van je gedownloade ByteRub-binary. Als voorbeeld gebruiken we hier het binaire bestand voor 64-bits Linux. Vervang `monero-gui-linux-x64-v0.12.0.0.tar.bz2` door de naam van het binaire bestand dat je hebt gedownload in [paragraaf 4.1](#41-get-monero-binary).
+De stappen op zowel Linux als Mac zijn hetzelfde. In een terminal bereken je de `SHA256`-hash van je gedownloade ByteRub-binary. Als voorbeeld gebruiken we hier het binaire bestand voor 64-bits Linux. Vervang `byterub-gui-linux-x64-v0.12.0.0.tar.bz2` door de naam van het binaire bestand dat je hebt gedownload in [paragraaf 4.1](#41-get-byterub-binary).
 
 ```
-shasum -a 256 monero-gui-linux-x64-v0.12.0.0.tar.bz2
+shasum -a 256 byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 De uitvoer ziet er uit als volgt, maar met verschillende details per binair bestand. Je `SHA256`-hash moet overeenkomen met de hash in het bestand `hashes.txt` van je binaire bestand.
 
 ```
-fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  monero-gui-linux-x64-v0.12.0.0.tar.bz2
+fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 Als de hash **WEL** overeenkomt, ben je klaar met deze handleiding! Dan kun je de bestanden uitpakken en installeren.
 
-**GA NIET VERDER** als de hash **NIET** overeenkomt. Verwijder dan de binary die je hebt gedowload en ga terug naar [paragraaf 4.1](#41-get-monero-binary).
+**GA NIET VERDER** als de hash **NIET** overeenkomt. Verwijder dan de binary die je hebt gedowload en ga terug naar [paragraaf 4.1](#41-get-byterub-binary).
 
 ### 4.3. Binary verifiëren op Windows
 
-In een terminal bereken je de `SHA256`-hash van je gedownloade ByteRub-binary. Als voorbeeld gebruiken we hier het binaire bestand voor de 64-bits Windows GUI. Vervang `monero-gui-win-x64-v0.12.0.0.zip` door de naam van het binaire bestand dat je hebt gedownload in [paragraaf 4.1](#41-get-monero-binary).
+In een terminal bereken je de `SHA256`-hash van je gedownloade ByteRub-binary. Als voorbeeld gebruiken we hier het binaire bestand voor de 64-bits Windows GUI. Vervang `byterub-gui-win-x64-v0.12.0.0.zip` door de naam van het binaire bestand dat je hebt gedownload in [paragraaf 4.1](#41-get-byterub-binary).
 
 ```
-certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256
+certUtil -hashfile byterub-gui-win-x64-v0.12.0.0.zip SHA256
 ```
 De uitvoer ziet er uit als volgt, maar met verschillende details per binair bestand. Je `SHA256`-hash moet overeenkomen met de hash in het bestand `hashes.txt` van je binaire bestand.
 
 ```
-SHA256 hash of file monero-gui-win-x64-v0.12.0.0.zip:
+SHA256 hash of file byterub-gui-win-x64-v0.12.0.0.zip:
 4b 9f 31 68 6e ca ad 97 cd b1 75 e6 57 4b f3 07 f8 d1 c4 10 42 78 25 f4 30 4c 21 da 8a ac 18 64
 CertUtil: -hashfile command completed successfully.
 ```
 
 Als de hash **WEL** overeenkomt, ben je klaar met deze handleiding! Dan kun je de bestanden uitpakken en installeren.
 
-**GA NIET VERDER** als de hash **NIET** overeenkomt. Verwijder dan de binary die je hebt gedowload en ga terug naar [paragraaf 4.1](#41-get-monero-binary).
+**GA NIET VERDER** als de hash **NIET** overeenkomt. Verwijder dan de binary die je hebt gedowload en ga terug naar [paragraaf 4.1](#41-get-byterub-binary).

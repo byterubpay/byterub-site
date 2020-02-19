@@ -1,11 +1,11 @@
 ---
 terms: ["node", "nodes", "full-node", "full-nodes", "węzeł", "węzła", "węzłowi", "węzły", "węzłom", "węzłami", "węzłem", "węzłów"]
-summary: "Urządzenie internetowe uruchamiające oprogramowanie ByteRub, posiadające pełną kopię łańcuchów bloków monero i aktywnie biorące udział w sieci ByteRub."
+summary: "Urządzenie internetowe uruchamiające oprogramowanie ByteRub, posiadające pełną kopię łańcuchów bloków byterub i aktywnie biorące udział w sieci ByteRub."
 ---
 
 ### Podstawy
 
-Urządzenie internetowe uruchamiające oprogramowanie ByteRub, posiadające pełną kopię łańcuchów bloków monero i aktywnie biorące udział w sieci ByteRub.
+Urządzenie internetowe uruchamiające oprogramowanie ByteRub, posiadające pełną kopię łańcuchów bloków byterub i aktywnie biorące udział w sieci ByteRub.
 
 ### Szczegółowe informacje
 
@@ -20,4 +20,4 @@ Centralny Zespół ByteRub planuje dokonywać hardforku co 6 miesięcy - we wrze
 ---
 
 ##### Inne źródła
-<sub>1. *Fluffypony dał dobry przykład tego, dlaczego obowiązkowe hardforki służą dobru ByteRub.* ([ByteRub Missives for the Week of 2016-06-20](https://getmonero.org/2016/06/20/monero-missive-for-the-week-of-2016-06-20.html))</sub>
+<sub>1. *Fluffypony dał dobry przykład tego, dlaczego obowiązkowe hardforki służą dobru ByteRub.* ([ByteRub Missives for the Week of 2016-06-20](https://getbyterub.org/2016/06/20/byterub-missive-for-the-week-of-2016-06-20.html))</sub>

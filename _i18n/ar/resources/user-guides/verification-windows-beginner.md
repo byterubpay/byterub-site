@@ -16,7 +16,7 @@
     + [1.1.1. تنزيل Gpg4win](#111-download-gpg4win)
     + [1.1.2. تشغيل Gpg4win](#112-launch-gpg4win)
   - [1.2. إستخدام مُثبت Gpg4win](#12-use-gpg4win-installer)
-### [2. إستيراد مفتاح التوقيع ](#2-monero-signing-key)
+### [2. إستيراد مفتاح التوقيع ](#2-byterub-signing-key)
   - [2.1. تنزيل مفتاح التوقيع ](#21-download-signing-key)
   - [2.2. تهيئة Kleopatra](#22-initialize-kleopatra)
     + [2.2.1. إستيراد مفتاح التوقيع](#221-import-signing-key)
@@ -99,7 +99,7 @@
 
 ### 2.1. تنزيل مفتاح التوقيع
 
-في متصفح الويب إذهب إلي [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc) لتنزيل المفتاح المُستخدم في توقيع ملفات تثبيت مونيرو. ثم قم بحفظ الصفحه عن طريق النقر بزر الفاره الأيمن وإختيار `Save Page As`.
+في متصفح الويب إذهب إلي [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc) لتنزيل المفتاح المُستخدم في توقيع ملفات تثبيت مونيرو. ثم قم بحفظ الصفحه عن طريق النقر بزر الفاره الأيمن وإختيار `Save Page As`.
 
 ![getkey right click](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 
@@ -179,13 +179,13 @@
 
 ### 3.1. تنزيل ملف الهاش
 
-في متصفح الويب ، انتقل إلى [صفحة الهاش getmonero.org] ({{ site.baseurl }}/downloads/hashes.txt). انقر بزر الماوس الأيمن على الصفحة ، وحدد `Save Page As`.
+في متصفح الويب ، انتقل إلى [صفحة الهاش getbyterub.org] ({{ site.baseurl }}/downloads/hashes.txt). انقر بزر الماوس الأيمن على الصفحة ، وحدد `Save Page As`.
 
-![hashes right click](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-rightclick.png)
+![hashes right click](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-rightclick.png)
 
 اترك الموقع الافتراضي ، انقر فوق `Save`.
 
-![hashes save file](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-savename.png)
+![hashes save file](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-savename.png)
 
 ### 3.2. تأكد من ملف الهاش
 
@@ -217,17 +217,17 @@
 
 ### 4.1. تنزيل ملف التثبيت
 
-في المتصفح إذهب إلي [getmonero.org فصحه التنزيلات ]({{ site.baseurl }}/downloads/#windows), وإختر الملف المناسب لنظام تشغيلك.
+في المتصفح إذهب إلي [getbyterub.org فصحه التنزيلات ]({{ site.baseurl }}/downloads/#windows), وإختر الملف المناسب لنظام تشغيلك.
 
-![binary getmonero](png/verify_binary_windows_beginner/verify-win_binary-getmonero-windowsfiles.png)
+![binary getbyterub](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-windowsfiles.png)
 
 إترك `Save File` مُختاره وإنقر  `OK`.
 
-![binary getmonero save](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-file.png)
+![binary getbyterub save](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-file.png)
 
 اترك الموقع الافتراضي ، انقر فوق `Save`.
 
-![binary getmonero save location](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-location.png)
+![binary getbyterub save location](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-location.png)
 
 ### 4.2. تأكد من ملف التثبيت
 
@@ -243,7 +243,7 @@
 
 ![binary cmd cd](png/verify_binary_windows_beginner/verify-win_binary-cmd-cd.png)
 
-إحسب الهاش الخاص بملف تثبيت مونيرو بالأمر التالي : `certUtil -hashfile monero-gui-win-x64-v0.11.1.0.zip SHA256`  ( إذا قمت بتنزيل واجهه سطر الأوامر قم  بتبديل `monero-gui-win-x64-v0.11.1.0.zip` وفقاً لذلك)
+إحسب الهاش الخاص بملف تثبيت مونيرو بالأمر التالي : `certUtil -hashfile byterub-gui-win-x64-v0.11.1.0.zip SHA256`  ( إذا قمت بتنزيل واجهه سطر الأوامر قم  بتبديل `byterub-gui-win-x64-v0.11.1.0.zip` وفقاً لذلك)
 
 ![binary cmd certutil](png/verify_binary_windows_beginner/verify-win_binary-cmd-certutil.png)
 

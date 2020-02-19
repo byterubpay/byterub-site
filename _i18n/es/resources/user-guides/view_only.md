@@ -11,13 +11,13 @@ Puedes crear un monedero de visualización de cualquier monedero existente.
 
 #### CLI
 
-Abre un monedero existente o crea uno nuevo usando `monero-wallet-cli`. En el monedero, escribe `address` y `viewkey` para mostrar la dirección del monedero y la clave secreta de visualización. Escribe `exit` para cerrar el monedero.
+Abre un monedero existente o crea uno nuevo usando `byterub-wallet-cli`. En el monedero, escribe `address` y `viewkey` para mostrar la dirección del monedero y la clave secreta de visualización. Escribe `exit` para cerrar el monedero.
 
-A continuación, crea tu monedero de visualización escribiendo `monero-wallet-cli --generate-from-view-key wallet-name`. El último argumento será el nuevo nombre de tu monedero. Se te preguntará por un `Standard address` y `View key` por el monedero. Pega la dirección original de tu monedero y la clave secreta de visualización. A continuación, ingresa y confirma una contraseña para tu nuevo monedero y estarás listo.
+A continuación, crea tu monedero de visualización escribiendo `byterub-wallet-cli --generate-from-view-key wallet-name`. El último argumento será el nuevo nombre de tu monedero. Se te preguntará por un `Standard address` y `View key` por el monedero. Pega la dirección original de tu monedero y la clave secreta de visualización. A continuación, ingresa y confirma una contraseña para tu nuevo monedero y estarás listo.
 
 #### GUI
 
-Abre un monedero existente o crea uno nuevo usando `monero-wallet-gui`. En el ejemplo, ve a la página de `Opciones` > `Monedero`
+Abre un monedero existente o crea uno nuevo usando `byterub-wallet-gui`. En el ejemplo, ve a la página de `Opciones` > `Monedero`
 
 ![settings](png/view-only/settings.png)
 

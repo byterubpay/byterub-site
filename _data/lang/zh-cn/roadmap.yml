@@ -3,7 +3,7 @@
     - name: Launched on Bitcointalk
       date: 2014-04-18
       status: completed
-    - name: Renamed from Bitmonero to ByteRub
+    - name: Renamed from Bitbyterub to ByteRub
       date: 2014-04-23
       status: completed
     - name: Recovered from a spam attack
@@ -92,7 +92,7 @@
     - name: Network upgrade to increase minimal ringsize to 7, integrate multisig, subaddresses, and change PoW algo
       date: 2018-04-06
       status: completed
-    - name: Getmonero.org Localization in French and Polish
+    - name: Getbyterub.org Localization in French and Polish
       date: 2018-04-24
       status: completed
     - name: Ledger Hardware Wallets Support

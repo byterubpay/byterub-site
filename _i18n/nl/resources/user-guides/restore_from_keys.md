@@ -15,17 +15,17 @@ Wat je nodig hebt zijn ofwel 3 gegevens uit je portemonnee, ofwel het bestand me
 
 Voer vervolgens deze opdracht uit:
 
-`./monero-wallet-cli --generate-from-keys Nieuwe_Portemonnee.abc`
+`./byterub-wallet-cli --generate-from-keys Nieuwe_Portemonnee.abc`
 
 Vervolgens wordt er gevraagd gegevens in te voeren: het adres, de bestedingssleutel, de alleen-lezen sleutel en het nieuwe wachtwoord voor de opnieuw gegenereerde portemonnee.
 
 Als je dit uitvoert met de juiste parameters, worden je portemonneebestanden opnieuw voor je gegenereerd en kun je een nieuw wachtwoord instellen.
 
-Als je problemen tegenkomt, kun je `./monero-wallet-cli --help` uitvoeren om te zien welke opties beschikbaar zijn bij het starten van een portemonnee. Nadat je de portemonnee hebt geopend, kun je de opdracht `help` uitvoeren om de opdrachten weer te geven die beschikbaar zijn in de portemonnee.
+Als je problemen tegenkomt, kun je `./byterub-wallet-cli --help` uitvoeren om te zien welke opties beschikbaar zijn bij het starten van een portemonnee. Nadat je de portemonnee hebt geopend, kun je de opdracht `help` uitvoeren om de opdrachten weer te geven die beschikbaar zijn in de portemonnee.
 
 #### Grafische interface
 
-Start `monero-wallet-gui`. Als dit de eerste keer is dat je het start, ga dan naar de volgende stap. Zo niet, klik dan op `Annuleren`:
+Start `byterub-wallet-gui`. Als dit de eerste keer is dat je het start, ga dan naar de volgende stap. Zo niet, klik dan op `Annuleren`:
 
 ![openen annuleren](png/restore_from_keys/cancel-opening.png)
 

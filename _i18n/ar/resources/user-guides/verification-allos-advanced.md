@@ -19,7 +19,7 @@
   + [3.1. إحصل علي ملف الهاش ](#31-get-hash-file)
   + [3.2. تأكد من ملف الهاش ](#32-verify-hash-file)
 ### [4. تحميل & تأكد من ملفات التسطيب ](#4-download-and-verify-binary)
-  + [4.1. الحصول علي ملفات التسطيب](#41-get-monero-binary)
+  + [4.1. الحصول علي ملفات التسطيب](#41-get-byterub-binary)
   + [4.2. تأكد من الملفات علي ليُنكس اوماك ](#42-binary-verification-on-linux-or-mac)
   + [4.3. تأكد من الملفات علي ويندوز](#43-binary-verification-on-windows)
 
@@ -37,12 +37,12 @@
 
 ### 2.1. إحصل علي مفتاح التوقيع
 
-علي ويندوز أو ماك إذهب إلي [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc) لتحميل المُفتاح المُستخدم في توقيع الملفات وقم بحفظه بإسم `fluffypony.asc` في مجلدك الرئيسي.
+علي ويندوز أو ماك إذهب إلي [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc) لتحميل المُفتاح المُستخدم في توقيع الملفات وقم بحفظه بإسم `fluffypony.asc` في مجلدك الرئيسي.
 
 في ليُنكس يمكنك تحميل ملف مفتاح التوقيع من خلال الأمر التالي :
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. تأكد من مفتاح التوقيع
@@ -99,7 +99,7 @@ gpg:              unchanged: 1
 
 ### 3.1. إحصل علي ملف الهاش
 
-على نظام ويندوز أو ماك انتقل إلى [ملف الهاشات على getmonero.org] ({{ site.baseurl }}/downloads/hashes.txt) واحفظ الصفحة كـ `hashes.txt` إلى مجلدك الرئيسي.
+على نظام ويندوز أو ماك انتقل إلى [ملف الهاشات على getbyterub.org] ({{ site.baseurl }}/downloads/hashes.txt) واحفظ الصفحة كـ `hashes.txt` إلى مجلدك الرئيسي.
 
 في ليُنكس يمكنك تنزيل ملف الهاشات الموقّع عن طريق إصدار الأمر التالي:
 
@@ -139,47 +139,47 @@ Primary key fingerprint: BDA6 BD70 42B7 21C4 67A9  759D 7455 C5E3 C0CD CEB9
 
 ### 4.1. الحصول علي ملفات التسطيب
 
-علي ويندوز أو ماك توجه إلي [getmonero.org]({{ site.baseurl }}/downloads/) وقم بتنزيل الملف الخاص بنظام التشغيل الخاص بك. قم بحفظ الملف لمجلدك الرئيسي. **لا تقم بفك الضغط **
+علي ويندوز أو ماك توجه إلي [getbyterub.org]({{ site.baseurl }}/downloads/) وقم بتنزيل الملف الخاص بنظام التشغيل الخاص بك. قم بحفظ الملف لمجلدك الرئيسي. **لا تقم بفك الضغط **
 
 في Linux ، يمكنك تنزيل واجهه سطر الأوامر عن طريق إصدار الأمر التالي:
 
 ```
-wget -O monero-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getmonero.org/cli/linux64
+wget -O byterub-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getbyterub.org/cli/linux64
 ```
 
 ### 4.2. تأكد من الملفات علي ليُنكس اوماك
 
-هذه الخطوات لنظامي تشغيل لينُكس وماك. من سطر الأوامر إحصل علي هاش  `SHA256` لملف التثبيت. كمثال سيستخدم هذا الدليل واجهه المستخدم الرسوميه علي ليُنكس , إستبدل `monero-gui-linux-x64-v0.12.0.0.tar.bz2` بإسم ملف التثبيت الذي قمت بتنزيله في [الفصل 4.1](#41-get-monero-binary).
+هذه الخطوات لنظامي تشغيل لينُكس وماك. من سطر الأوامر إحصل علي هاش  `SHA256` لملف التثبيت. كمثال سيستخدم هذا الدليل واجهه المستخدم الرسوميه علي ليُنكس , إستبدل `byterub-gui-linux-x64-v0.12.0.0.tar.bz2` بإسم ملف التثبيت الذي قمت بتنزيله في [الفصل 4.1](#41-get-byterub-binary).
 
 ```
-shasum -a 256 monero-gui-linux-x64-v0.12.0.0.tar.bz2
+shasum -a 256 byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 سيبدو الناتج كهذا ، ولكن سيكون مختلفًا لكل ملف. يجب أن يتطابق هاش `SHA256` الخاصة بك مع الهاش في القائمة المدرجة في ملف` hashes.txt` لملف التثبيت.
 
 ```
-fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  monero-gui-linux-x64-v0.12.0.0.tar.bz2
+fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 إذا كان الهاش **مُتطابق** يمكنك الأن فك الضفط والتثبيت.
 
-إذا كان الهاش **غير مُتطابق** , ** لا تُكمل ** بل إحذف ملف التثبيت وإرجع إلي [القسم 4.1](#41-get-monero-binary).
+إذا كان الهاش **غير مُتطابق** , ** لا تُكمل ** بل إحذف ملف التثبيت وإرجع إلي [القسم 4.1](#41-get-byterub-binary).
 
 ### 4.3. تأكد من الملفات علي ويندوز
 
-من سطر الأوامر احصل على هاش `SHA256` من ملف التثبيت الذي تم تنزيله. على سبيل المثال ، سيستخدم هذا الدليل ثنائي واجهة المستخدم الرسومية لنظام ويندوز ، 64 بت. استبدل `monero-gui-win-x64-v0.12.0.0.zip` باسم الملف الذي قمت بتنزيله في [القسم 4.1](#41-get-monero-binary).
+من سطر الأوامر احصل على هاش `SHA256` من ملف التثبيت الذي تم تنزيله. على سبيل المثال ، سيستخدم هذا الدليل ثنائي واجهة المستخدم الرسومية لنظام ويندوز ، 64 بت. استبدل `byterub-gui-win-x64-v0.12.0.0.zip` باسم الملف الذي قمت بتنزيله في [القسم 4.1](#41-get-byterub-binary).
 
 ```
-certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256
+certUtil -hashfile byterub-gui-win-x64-v0.12.0.0.zip SHA256
 ```
 سيبدو الناتج كهذا ، ولكن سيكون مختلفًا لكل ملف. يجب أن يتطابق هاش `SHA256` الخاصة بك مع الهاش في القائمة المدرجة في ملف` hashes.txt` لملف التثبيت.
 
 ```
-SHA256 hash of file monero-gui-win-x64-v0.12.0.0.zip:
+SHA256 hash of file byterub-gui-win-x64-v0.12.0.0.zip:
 4b 9f 31 68 6e ca ad 97 cd b1 75 e6 57 4b f3 07 f8 d1 c4 10 42 78 25 f4 30 4c 21 da 8a ac 18 64
 CertUtil: -hashfile command completed successfully.
 ```
 
 إذا كان الهاش **مُتطابق** يمكنك الأن فك الضفط والتثبيت.
 
-إذا كان الهاش **غير مُتطابق** , ** لا تُكمل ** بل إحذف ملف التثبيت وإرجع إلي [القسم 4.1](#41-get-monero-binary).
+إذا كان الهاش **غير مُتطابق** , ** لا تُكمل ** بل إحذف ملف التثبيت وإرجع إلي [القسم 4.1](#41-get-byterub-binary).

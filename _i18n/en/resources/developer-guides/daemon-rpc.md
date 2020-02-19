@@ -2,11 +2,11 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Introduction
 
-This is a list of the monerod daemon RPC calls, their inputs and outputs, and examples of each.
+This is a list of the byterubd daemon RPC calls, their inputs and outputs, and examples of each.
 
 Many RPC calls use the daemon's JSON RPC interface while others use their own interfaces, as demonstrated below.
 
-Note: "@atomic-units" refer to the smallest fraction of 1 XMR according to the monerod implementation. **1 XMR = 1e12 @atomic-units.**
+Note: "@atomic-units" refer to the smallest fraction of 1 XMR according to the byterubd implementation. **1 XMR = 1e12 @atomic-units.**
 
 Note2: Guide updated as of network height of 1,562,465.
 
@@ -76,7 +76,7 @@ Note2: Guide updated as of network height of 1,562,465.
 
 ## JSON RPC Methods
 
-The majority of monerod RPC calls use the daemon's `json_rpc` interface to request various bits of information. These methods all follow a similar structure, for example:
+The majority of byterubd RPC calls use the daemon's `json_rpc` interface to request various bits of information. These methods all follow a similar structure, for example:
 
 ```
 IP=127.0.0.1
@@ -240,8 +240,8 @@ Outputs:
   * *difficulty* - unsigned int; The strength of the ByteRub network based on mining power.
   * *hash* - string; The hash of this block.
   * *height* - unsigned int; The number of blocks preceding this block on the blockchain.
-  * *major_version* - unsigned int; The major version of the monero protocol at this block height.
-  * *minor_version* - unsigned int; The minor version of the monero protocol at this block height.
+  * *major_version* - unsigned int; The major version of the byterub protocol at this block height.
+  * *minor_version* - unsigned int; The minor version of the byterub protocol at this block height.
   * *nonce* - unsigned int; a cryptographic random one-time number used in mining a ByteRub block.
   * *num_txes* - unsigned int; Number of transactions in the block, not counting the coinbase tx.
   * *orphan_status* - boolean; Usually `false`. If `true`, this block is not part of the longest chain.
@@ -1250,7 +1250,7 @@ The data structure for these calls is different than the JSON RPC calls. Whereas
 
 Note: It is recommended to use JSON RPC where such alternatives exist, rather than the following methods. For example, the recommended way to get a node's height is via the JSON RPC methods [get_info](#getinfo) or [get_last_block_header](#get_last_block_header), rather than [getheight](#getheight) below.
 
-For calls that end with **.bin**, the data is exchanged in the form of binary, serialized objects, as defined in the [Core RPC Server](https://github.com/byterubpay/monero/blob/master/src/rpc/core_rpc_server_commands_defs.h).
+For calls that end with **.bin**, the data is exchanged in the form of binary, serialized objects, as defined in the [Core RPC Server](https://github.com/byterubpay/byterub/blob/master/src/rpc/core_rpc_server_commands_defs.h).
 
 
 ### **/get_height**
@@ -1755,7 +1755,7 @@ Outputs:
   * *id* - string; Peer id
   * *ip* - unsigned int; IP address in integer format
   * *last_seen* - unsigned int; unix time at which the peer has been seen for the last time
-  * *port* - unsigned int; TCP port the peer is using to connect to monero network.
+  * *port* - unsigned int; TCP port the peer is using to connect to byterub network.
 * *status* - string; General RPC error code. "OK" means everything looks good. Any other value means that something went wrong.
 * *white_list* - array of online *peer* structure, as above.
 

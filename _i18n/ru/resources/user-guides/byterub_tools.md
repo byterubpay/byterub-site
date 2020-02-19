@@ -8,12 +8,12 @@
 
 ### [Инструменты для генерации адреса ByteRub](https://xmr.llcoins.net/)
 
-### [Счётчик узлов ByteRub](http://moneronodes.i2p.xyz/)
+### [Счётчик узлов ByteRub](http://byterubnodes.i2p.xyz/)
 
-### [Карта узлов ByteRub](https://monerohash.com/nodes-distribution.html)
+### [Карта узлов ByteRub](https://byterubhash.com/nodes-distribution.html)
 
-### [Оффлайн генератор кошелька ByteRub](http://moneroaddress.org/)
+### [Оффлайн генератор кошелька ByteRub](http://byterubaddress.org/)
 
-### [Статистика сети ByteRub](http://moneroblocks.info/stats)
+### [Статистика сети ByteRub](http://byterubblocks.info/stats)
 
-### [Статистика ByteRub.how](https://www.monero.how/)
+### [Статистика ByteRub.how](https://www.byterub.how/)

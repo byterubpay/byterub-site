@@ -18,7 +18,7 @@
 
 - Skopiuj pliki binarne ByteRub na dysk RAM (/dev/shm w Linuxie, pliki binarne Windowsa normalnie mają dysk Z: lub coś w tym stylu).
 
-- Nie uruchamiaj daemona ByteRub. Zamiast tego, za pomocą polecenia wiersza, użyj funkcji monero-wallet-cli, żeby stworzyć nowe konto ByteRub.
+- Nie uruchamiaj daemona ByteRub. Zamiast tego, za pomocą polecenia wiersza, użyj funkcji byterub-wallet-cli, żeby stworzyć nowe konto ByteRub.
 
 - Jeśli zostaniesz poproszony o nadanie nazwy swojemu kontu, nazwij je jakkolwiek, to nie ma dużego znaczenia.
 
@@ -35,4 +35,4 @@
 
 Zasługa:  Riccardo Spagni
 
-Powiązane:  [Generator Konta Offline](http://moneroaddress.org/)
+Powiązane:  [Generator Konta Offline](http://byterubaddress.org/)

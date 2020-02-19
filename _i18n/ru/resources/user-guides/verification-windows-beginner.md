@@ -15,7 +15,7 @@
     + [1.1.1. Загрузка Gpg4win](#111-download-gpg4win)
     + [1.1.2. Запуск Gpg4win](#112-launch-gpg4win)
   - [1.2. Работа с программой установки Gpg4win](#12-use-gpg4win-installer)
-### [2. Импорт ключа подписи](#2-monero-signing-key)
+### [2. Импорт ключа подписи](#2-byterub-signing-key)
   - [2.1. Загрузка ключа подписи](#21-download-signing-key)
   - [2.2. Запуск утилиты Kleopatra](#22-initialize-kleopatra)
     + [2.2.1. Импорт ключа подписи](#221-import-signing-key)
@@ -98,7 +98,7 @@
 
 ### 2.1. Загрузка ключа подписи
 
-Используя веб-браузер, необходимо открыть [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), который используется для подписи двоичных файлов ByteRub, а затем правой кнопкой мыши щелкнуть по странице и выбрать `Save Page As` [Сохранить страницу как].
+Используя веб-браузер, необходимо открыть [Fluffypony's GPG key](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc), который используется для подписи двоичных файлов ByteRub, а затем правой кнопкой мыши щелкнуть по странице и выбрать `Save Page As` [Сохранить страницу как].
 
 ![getkey right click](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 
@@ -178,13 +178,13 @@
 
 ### 3.1. Загрузка хеш-файла
 
-Используя веб-браузер, открыть [страницу хеш-файлов на getmonero.org](https://getmonero.org/downloads/hashes.txt). Нажатием правой кнопки мыши на странице выбрать `Save Page As` [Сохранить страницу как].
+Используя веб-браузер, открыть [страницу хеш-файлов на getbyterub.org](https://getbyterub.org/downloads/hashes.txt). Нажатием правой кнопки мыши на странице выбрать `Save Page As` [Сохранить страницу как].
 
-![hashes right click](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-rightclick.png)
+![hashes right click](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-rightclick.png)
 
 Оставьте путь сохранения, используемый по умолчанию, и нажмите `Save` [Сохранить].
 
-![hashes save file](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-savename.png)
+![hashes save file](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-savename.png)
 
 ### 3.2. Верификация хеш-файла
 
@@ -216,17 +216,17 @@ Kleopatra должна сообщить, является ли подпись ф
 
 ### 4.1. Загрузка двоичного файла
 
-Используя веб-браузер, перейти на [страницу загрузок getmonero.org](https://getmonero.org/downloads/#windows) и выбрать подходящий для вашей системы двоичный файл.
+Используя веб-браузер, перейти на [страницу загрузок getbyterub.org](https://getbyterub.org/downloads/#windows) и выбрать подходящий для вашей системы двоичный файл.
 
-![binary getmonero](png/verify_binary_windows_beginner/verify-win_binary-getmonero-windowsfiles.png)
+![binary getbyterub](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-windowsfiles.png)
 
 Выбрать `Save File` [Сохранить файл] и нажать `OK`.
 
-![binary getmonero save](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-file.png)
+![binary getbyterub save](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-file.png)
 
 Оставить без изменений путь для сохранения, используемый по умолчанию, и нажать `Save` [Сохранить].
 
-![binary getmonero save location](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-location.png)
+![binary getbyterub save location](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-location.png)
 
 ### 4.2. Проверка бинарного файла
 
@@ -242,7 +242,7 @@ Kleopatra должна сообщить, является ли подпись ф
 
 ![binary cmd cd](png/verify_binary_windows_beginner/verify-win_binary-cmd-cd.png)
 
-Вычислить хеш двоичного файла ByteRub, используя команду `certUtil -hashfile monero-gui-win-x64-v0.11.1.0.zip SHA256` (при этом, если вы загрузили версию, поддерживающую только командную строку, замените также и `monero-gui-win-x64-v0.11.1.0.zip`).
+Вычислить хеш двоичного файла ByteRub, используя команду `certUtil -hashfile byterub-gui-win-x64-v0.11.1.0.zip SHA256` (при этом, если вы загрузили версию, поддерживающую только командную строку, замените также и `byterub-gui-win-x64-v0.11.1.0.zip`).
 
 ![binary cmd certutil](png/verify_binary_windows_beginner/verify-win_binary-cmd-certutil.png)
 

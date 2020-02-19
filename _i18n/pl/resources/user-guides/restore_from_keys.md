@@ -15,13 +15,13 @@ Potrzebujesz trzech różnych informacji z twojego portfela lub plików .keys, k
 
 Następnie uruchom funkcję portfela:
 
-`./monero-wallet-cli --generate-from-keys New_Wallet_Name.abc`
+`./byterub-wallet-cli --generate-from-keys New_Wallet_Name.abc`
 
 Zostaniesz poproszony o adres, klucz do wydawania, klucz widoczności i na końcu o nowe hasło do odwtorzonego portfela.
 
 Ukończenie tego z poprawnymi parametrami odtworzy pliki twojego portfela i pozwoli na ustalenie nowego hasła.
 
-W przypadku problemów, uruchomienie funkcji `./monero-wallet-cli --help` wyświetli dostępne opcje. Uruchomienie funkcji `help` wewnątrz portfela wyświetli pomoc dotyczącą funkcji dostępnych wewnątrz portfela.
+W przypadku problemów, uruchomienie funkcji `./byterub-wallet-cli --help` wyświetli dostępne opcje. Uruchomienie funkcji `help` wewnątrz portfela wyświetli pomoc dotyczącą funkcji dostępnych wewnątrz portfela.
 
 #### GUI
 

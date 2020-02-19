@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Wprowadzenie
 
-Poniżej znajduje się lista funkcji monero-wallet-rpc, ich wejścia i wyniki oraz przykłady. Oprogramowanie monero-wallet-rpc zamieniło interfejs rpc, które znajdowało się w simplewallet, a później w monero-wallet-cli.
+Poniżej znajduje się lista funkcji byterub-wallet-rpc, ich wejścia i wyniki oraz przykłady. Oprogramowanie byterub-wallet-rpc zamieniło interfejs rpc, które znajdowało się w simplewallet, a później w byterub-wallet-cli.
 
-Wszystkie metody monero-wallet-rpc korzystają z tego samego interfejsu JSON RPC. Przykład:
+Wszystkie metody byterub-wallet-rpc korzystają z tego samego interfejsu JSON RPC. Przykład:
 
 ```
 IP=127.0.0.1
@@ -17,7 +17,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Jeśli funkcja monero-wallet-rpc została zastosowana z argumentem `--rpc-login` jako `username:password`, postępuj zgodnie z przykładem poniżej:
+Jeśli funkcja byterub-wallet-rpc została zastosowana z argumentem `--rpc-login` jako `username:password`, postępuj zgodnie z przykładem poniżej:
 
 ```
 IP=127.0.0.1
@@ -31,7 +31,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Zauważ, że jednostki atomowe (@atomic-unit) są najmniejszą częścią 1 XMR, zgodnie z implementacją monerod. **1 XMR = 1e12 jednostek atomowych.**
+Zauważ, że jednostki atomowe (@atomic-unit) są najmniejszą częścią 1 XMR, zgodnie z implementacją byterubd. **1 XMR = 1e12 jednostek atomowych.**
 
 ### Lista metod JSON RPC:
 
@@ -83,7 +83,7 @@ Wejście: *brak*.
 
 Wynik:
 
-* *balance* - niepodpisana liczba całkowita; całkowite saldo aktualnego monero-wallet-rpc w sesji.
+* *balance* - niepodpisana liczba całkowita; całkowite saldo aktualnego byterub-wallet-rpc w sesji.
 * *unlocked_balance* - niepodpisana liczba całkowita; odblokowane środki to środki znajdujące się wystarczająco głęboko w łańcuchu bloków, aby mogły być bezpiecznie wydane.
 
 Przykład:
@@ -110,7 +110,7 @@ Wejście: *brak*.
 
 Wynik:
 
-* *address* - ciąg; 95-znakowy heksadecymalny ciąg zawierający adres monero-wallet-rpc w sesji.
+* *address* - ciąg; 95-znakowy heksadecymalny ciąg zawierający adres byterub-wallet-rpc w sesji.
 
 Przykład:
 
@@ -135,7 +135,7 @@ Wejście: *brak*.
 
 Wynik:
 
-* *height* - niepodpisana liczba całkowita; aktualna wysokość łańcucha bloków dla monero-wallet-rpc. Jeśli portfel był off-ine przez dłuższy czas, możliwe, że będzie on potrzebował zaktualizować demona.
+* *height* - niepodpisana liczba całkowita; aktualna wysokość łańcucha bloków dla byterub-wallet-rpc. Jeśli portfel był off-ine przez dłuższy czas, możliwe, że będzie on potrzebował zaktualizować demona.
 
 Przykład:
 
@@ -740,7 +740,7 @@ $ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
   "id": 0,
   "jsonrpc": "2.0",
   "result": {
-    "uri": "monero:44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A?tx_payment_id=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&tx_amount=0.000000000010&recipient_name=ByteRub%20Project%20donation%20address&tx_description=Testing%20out%20the%20make_uri%20function."
+    "uri": "byterub:44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A?tx_payment_id=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&tx_amount=0.000000000010&recipient_name=ByteRub%20Project%20donation%20address&tx_description=Testing%20out%20the%20make_uri%20function."
   }
 }
 ```
@@ -766,7 +766,7 @@ Wynik:
 Przykład:
 
 ```
-$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"monero:44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A?tx_payment_id=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&tx_amount=0.000000000010&recipient_name=ByteRub%20Project%20donation%20address&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
+$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"byterub:44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A?tx_payment_id=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&tx_amount=0.000000000010&recipient_name=ByteRub%20Project%20donation%20address&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
 
 {
   "id": 0,
@@ -1168,7 +1168,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **create_wallet**
 
-Tworzy nowy portfel.Create a new wallet. Argument "--wallet-dir" musi zostać ustawiony przy uruchamianiu monero-wallet-rpc, aby funkcja zadziałała.
+Tworzy nowy portfel.Create a new wallet. Argument "--wallet-dir" musi zostać ustawiony przy uruchamianiu byterub-wallet-rpc, aby funkcja zadziałała.
 
 Wejście:
 
@@ -1194,7 +1194,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **open_wallet**
 
-Otwiera portfel. Argument "--wallet-dir" musi zostać ustawiony przy uruchamianiu monero-wallet-rpc, aby funkcja zadziałała.
+Otwiera portfel. Argument "--wallet-dir" musi zostać ustawiony przy uruchamianiu byterub-wallet-rpc, aby funkcja zadziałała.
 
 Wejście:
 

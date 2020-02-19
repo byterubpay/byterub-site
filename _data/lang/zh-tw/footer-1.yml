@@ -3,7 +3,7 @@
   - name: 關於門羅幣
     url: resources/about/
   - name: 門羅幣百科
-    url: resources/moneropedia/
+    url: resources/byterubpedia/
   - name: 開發者指引
     url: resources/developer-guides/
   - name: 使用者指引
@@ -11,35 +11,35 @@
   - name: 圖書出版品
     url: library
   - name: RSS 摘要
-    url: https://getmonero.org/feed.xml
+    url: https://getbyterub.org/feed.xml
 - title: IRC 頻道
   subfolderitems:
-  - name: monero
-    url: irc://chat.freenode.net/#monero
-  - name: monero-dev
-    url: irc://chat.freenode.net/#monero-dev
-  - name: monero-markets
-    url: irc://chat.freenode.net/#monero-markets
-  - name: monero-pools
-    url: irc://chat.freenode.net/#monero-pools
-  - name: monero-community
-    url: irc://chat.freenode.net/#monero-community
-  - name: monero-translations
-    url: irc://chat.freenode.net/#monero-translations
-  - name: monero-hardware
-    url: irc://chat.freenode.net/#monero-hardware
+  - name: byterub
+    url: irc://chat.freenode.net/#byterub
+  - name: byterub-dev
+    url: irc://chat.freenode.net/#byterub-dev
+  - name: byterub-markets
+    url: irc://chat.freenode.net/#byterub-markets
+  - name: byterub-pools
+    url: irc://chat.freenode.net/#byterub-pools
+  - name: byterub-community
+    url: irc://chat.freenode.net/#byterub-community
+  - name: byterub-translations
+    url: irc://chat.freenode.net/#byterub-translations
+  - name: byterub-hardware
+    url: irc://chat.freenode.net/#byterub-hardware
 - title: 社群平台
   subfolderitems:
   - name: Reddit
-    url: https://reddit.com/r/monero
+    url: https://reddit.com/r/byterub
   - name: Stack Exchange
-    url: https://monero.stackexchange.com/
+    url: https://byterub.stackexchange.com/
   - name: BitcoinTalk 討論串
     url: https://bitcointalk.org/index.php?topic=583449.0
   - name: Mattermost 聊天室
-    url: https://mattermost.getmonero.org/
+    url: https://mattermost.getbyterub.org/
   - name: Telegram 聊天室
-    url: https://telegram.me/bitmonero
+    url: https://telegram.me/bitbyterub
 - title: 門羅幣專案
   subfolderitems:
   - name: Open Alias

@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 Sometimes, your funds will become stuck - you will have some locked funds that never become unlocked. This is how you fix it.
 
-- Load your wallet in monero-wallet-cli.
+- Load your wallet in byterub-wallet-cli.
 
 - Type
 
@@ -10,7 +10,7 @@ Sometimes, your funds will become stuck - you will have some locked funds that n
 
 into the command prompt. Write down your 25 word seed, if you haven't already. This is the best way to make sure you don't loose access to your funds.
 
-- Close monero-wallet-cli by typing
+- Close byterub-wallet-cli by typing
 
 > exit
 
@@ -26,7 +26,7 @@ Sometimes, when creating your wallet, you might have named it something without 
 
 - Delete yourwallet.bin
 
-- Load monero-wallet-cli, type in the name of the wallet you just deleted
+- Load byterub-wallet-cli, type in the name of the wallet you just deleted
 
 - Enter password. The wallet will now refresh and hopefully your locked funds will now become unlocked.
 

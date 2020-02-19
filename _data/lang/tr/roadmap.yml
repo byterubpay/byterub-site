@@ -3,7 +3,7 @@
     - name: Bitcointalk'ta faaliyete geçti
       date: 2014-04-18
       status: completed
-    - name: İsmi Bitmonero'dan ByteRub'ya değiştirildi
+    - name: İsmi Bitbyterub'dan ByteRub'ya değiştirildi
       date: 2014-04-23
       status: completed
     - name: Bir spam saldırıyı atlattı
@@ -92,7 +92,7 @@
     - name: Asgari halka boyutunun 7'ye yükseltilmesi, çoklu-imzaların, altadreslerin entegre edilmesi ve PoW algoritmasını değiştirilmesi için ağ yükseltildi
       date: 2018-04-06
       status: completed
-    - name: Getmonero.org'un Fransızca ve Polonyacaya yerelleştirilmesi
+    - name: Getbyterub.org'un Fransızca ve Polonyacaya yerelleştirilmesi
       date: 2018-04-24
       status: completed
     - name: Ledger Donanım Cüzdanları Desteği

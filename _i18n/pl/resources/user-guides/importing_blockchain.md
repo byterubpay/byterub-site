@@ -2,13 +2,13 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ### Krok 1
 
-Ściągnij aktualny bootrstap ze strony https://downloads.getmonero.org/blockchain.raw. Możesz pominąć ten krok, jeśli importujesz łańcuch bloków z innego źródła.
+Ściągnij aktualny bootrstap ze strony https://downloads.getbyterub.org/blockchain.raw. Możesz pominąć ten krok, jeśli importujesz łańcuch bloków z innego źródła.
 
 ### Krok 2
 
 Znajdź ścieżkę swojego portfela ByteRub (folder, do którego wypakowałeś swój portfel). Na przykład moja to:
 
-`D:\monero-gui-0.10.3.1`
+`D:\byterub-gui-0.10.3.1`
 
 Twoja ścieżka może być inna, w zależności od tego, gdzie zdecydowałeś się ściągnąć swój portfel i od twojej wersji portfela ByteRub.
 
@@ -32,7 +32,7 @@ Używając okienka CMD, przejdź do lokalizacji twojego portfela ByteRub. Możes
 
 Powinno to wyglądać mniej więcej tak:
 
-`cd D:\monero-gui-0.10.3.1`
+`cd D:\byterub-gui-0.10.3.1`
 
 Jeśli twój portfel ByteRub znajduje się na innym dysku, użyj `DriveLetter:`. Na przykład, jeśli twój portfel znajduje się na dysku D, przed użyciem funkcji cd, wpisz `D:`.
 
@@ -40,11 +40,11 @@ Jeśli twój portfel ByteRub znajduje się na innym dysku, użyj `DriveLetter:`.
 
 Wpisz w oknie wiersza poleceń:
 
-`monero-blockchain-import --verify 1 --input-file C:\YOUR\BLOCKCHAIN\FILE\PATH\HERE`
+`byterub-blockchain-import --verify 1 --input-file C:\YOUR\BLOCKCHAIN\FILE\PATH\HERE`
 
 Na przykład:
 
-`monero-blockchain-import --verify 1 --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
+`byterub-blockchain-import --verify 1 --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
 
 Jeśli ściągnąłeś łańcuch bloków z zaufanego, renomowanego źródła, możesz ustawić `verify 0`. To zmniejszy czas synchronizacji łańcucha.
 

@@ -1,13 +1,13 @@
 ---
 terms: ["address", "addresses", "adres", "adresu", "adresie"]
-summary: "Alias nazwy adresu, np. donate.getmonero.org lub zestaw 95 znaków zaczynający się od 4"
+summary: "Alias nazwy adresu, np. donate.getbyterub.org lub zestaw 95 znaków zaczynający się od 4"
 ---
 
 ### Podstawy
 
 Gdy wysyłasz do kogoś ByteRub, potrzebujesz jedynie jednej informacji, a jest nią adres ByteRub tej osoby. Jest to ciąg 95 znaków zaczynający się od "4". Przykładowo adres darowizn ByteRub to <span class="long-term">44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A</span>.
 
-Ponieważ adresy są długie i skomplikowane, często zamiast niego spotkasz adres @OpenAlias, na przykład darowizny ByteRub mogą być wysyłane na adres <span class="long-term">donate@getmonero.org</span> or <span class="long-term">donate.getmonero.org</span>.
+Ponieważ adresy są długie i skomplikowane, często zamiast niego spotkasz adres @OpenAlias, na przykład darowizny ByteRub mogą być wysyłane na adres <span class="long-term">donate@getbyterub.org</span> or <span class="long-term">donate.getbyterub.org</span>.
 
 Jeśli chcesz stworzyć swój adres OpenAlias, znajdziesz więcej informacji na [stronie OpenAlias](/knowledge-base/openalias).
 

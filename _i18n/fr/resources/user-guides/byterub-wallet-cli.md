@@ -1,21 +1,21 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# monero-wallet-cli
+# byterub-wallet-cli
 
-`monero-wallet-cli` est une application de portefeuille qui est incluse dans la suite ByteRub. C'est un
+`byterub-wallet-cli` est une application de portefeuille qui est incluse dans la suite ByteRub. C'est un
 programme en ligne de commandes qui permet de gérer un compte. Tandis que le portefeuille Bitcoin
-gère à la fois un compte et la chaîne de bloc, ByteRub sépare ces deux composants : `monerod`
-s'occupe de la chaîne de blocs, et `monero-wallet-cli` gère le compte.
+gère à la fois un compte et la chaîne de bloc, ByteRub sépare ces deux composants : `byterubd`
+s'occupe de la chaîne de blocs, et `byterub-wallet-cli` gère le compte.
 
-Ce guide montrera comment effectuer diverses opération depuis l'interface de `monero-wallet-cli`. Ce guide suppose que vous utilisiez la version la plus récenter de ByteRub et que vous ayez déjà créé un compte comme exposé dans l'autre guide.
+Ce guide montrera comment effectuer diverses opération depuis l'interface de `byterub-wallet-cli`. Ce guide suppose que vous utilisiez la version la plus récenter de ByteRub et que vous ayez déjà créé un compte comme exposé dans l'autre guide.
 
 
 ## Vérifier votre solde
 
 Dans la mesure ou la gestion de la chaîne de blocs et le portefeuille sont des applications séparées,
-de nombreux usages de `monero-wallet-cli` implique de fonctionner avec le démon. Incluant la
-vérifications des transactions entrantes sur votre adresse. Une fois que `monero-wallet-cli` et
-`monerod` sont tous deux en cours d'exécution, entrez `balance`.
+de nombreux usages de `byterub-wallet-cli` implique de fonctionner avec le démon. Incluant la
+vérifications des transactions entrantes sur votre adresse. Une fois que `byterub-wallet-cli` et
+`byterubd` sont tous deux en cours d'exécution, entrez `balance`.
 
 Exemple :
 
@@ -56,7 +56,7 @@ Dans ce cas, l'ID de paiement est implicitement inclus dans l'adresse intégrée
 Remplacez `RINGSIZE` avec le nombre de sorties que vous souhaitez utiliser. **S'il n'est pas spécifié, la valeur par défaut est 11.** C'est une bonne idée d'utiliser la valeur par défaut, mais vous pouvez augmenter celle-ci pour inclure plus de sorties. Plus grand est le nombre, plus grosse sera la transaction, nécessitant des frais plus importants.
 
 
-## Recevoir des moneroj
+## Recevoir des byterubj
 
 Si vous avez votre propre adresse ByteRub, vous devez simplement communiquer à quelqu'un votre adresse standard.
 
@@ -89,7 +89,7 @@ avoir besoin de prouver à un tiers que vous avez bien envoyé les fonds (ou mê
 s'il s'agit d'une erreur honnête). ByteRub est confidentiel, de sorte que vous ne pouvez pas
 simplement indiquer votre transaction dans la chaîne de blocs, dans la mesure où vous ne pouvez ni
 dire qui l'a envoyé, ni qui l'a reçu. Cependant, en fournissant la clef privée propre à la
-transaction à un tiers, celui-ci peut dire si la transaction à envoyé des moneroj à cette adresse
+transaction à un tiers, celui-ci peut dire si la transaction à envoyé des byterubj à cette adresse
 particulière. Notez que la conservation des clefs privées propres aux transactions est désactivé
 par défaut, et que vous aurez à l'activer avant l'envoie, si vous pensez que vous pourriez en avoir
 besoin :
@@ -108,13 +108,13 @@ fonds. Notez que ce tiers, s'il connaît votre propre adresse, sera également e
 quelle quantité de monnaie vous aurait été rendue.
 
 Si vous êtes le tiers (c'est à dire que quelqu'un veut vous prouver qu'il a effectivement envoyé
-des moneroj à une adresse), vous pouvez le vérifier comme suit :
+des byterubj à une adresse), vous pouvez le vérifier comme suit :
 
     check_tx_key IDTX CLEFTX ADRESSE
 
 Remplacez `IDTX`, `CLEFTX` et `ADRESSE` respectivement par l'ID de transaction, la clef propre
-à la transaction et l'adresse de destination qui vous ont été communiqués. monero-wallet-cli va
-vérifier cette transaction et vous indiquera combien de moneroj ont été payés à l'adresse fournie.
+à la transaction et l'adresse de destination qui vous ont été communiqués. byterub-wallet-cli va
+vérifier cette transaction et vous indiquera combien de byterubj ont été payés à l'adresse fournie.
 
 
 ## Pouvoir confirmer ou annuler des paiements

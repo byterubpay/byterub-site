@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Introduction
 
-Voici une liste des appels de monero-wallet-rpc, leurs entrées et sorties, et des exemples pour chacun d'eux. Le logiciel monero-wallet-rpc remplace l'interface rpc qui était présenter dans simplewallet puis monero-wallet-cli.
+Voici une liste des appels de byterub-wallet-rpc, leurs entrées et sorties, et des exemples pour chacun d'eux. Le logiciel byterub-wallet-rpc remplace l'interface rpc qui était présenter dans simplewallet puis byterub-wallet-cli.
 
-Toutes les méthodes monero-wallet-rpc utilisent la même interface JSON RPC. Par exemple :
+Toutes les méthodes byterub-wallet-rpc utilisent la même interface JSON RPC. Par exemple :
 
 ```
 IP=127.0.0.1
@@ -17,7 +17,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Si monero-wallet-rpc était exécuté avec l'option `--rpc-login` configuré à `username:password`, alors suivez cet exemple :
+Si byterub-wallet-rpc était exécuté avec l'option `--rpc-login` configuré à `username:password`, alors suivez cet exemple :
 
 ```
 IP=127.0.0.1
@@ -31,7 +31,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Remarque : "@atomic-units" réfère à la plus petite fraction de 1 XMR selon l'implémentation monerod. **1 XMR = 1e12 unités atomiques**
+Remarque : "@atomic-units" réfère à la plus petite fraction de 1 XMR selon l'implémentation byterubd. **1 XMR = 1e12 unités atomiques**
 
 Cette liste à été mise à jour sur un code gelé le 14/09/2018 après la fusion du commit bb30a7236725e456138f055f96a634c75ce2b491 (version Wallet RPC 1.3), et à la hauteur de bloc 1643308.
 
@@ -128,7 +128,7 @@ Entrées :
 
 Sorties :
 
-* *balance* - entier non signé; Le solde total du monero-wallet-rpc actuellement en session.
+* *balance* - entier non signé; Le solde total du byterub-wallet-rpc actuellement en session.
 * *unlocked_balance* - entier non signé; Les fonds débloqués sont ces fonds qui sont suffisamment profonds sur la chaîne de bloc ByteRub pour être considérés sûres à dépenser.
 * *multisig_import_needed* - booléen; `True` si l'import de données de multisignatures est nécessaire pour retourner le solde correct.
 * *per_subaddress* - liste d'informations `subaddress`; Informations de solde pour chaque sous-adresses du compte.
@@ -2073,7 +2073,7 @@ $ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "uri": "monero:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."
+    "uri": "byterub:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."
   }
 }
 ```
@@ -2101,7 +2101,7 @@ Sorties :
 Exemple :
 
 ```
-$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"monero:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
+$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"byterub:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
 {
   "id": "0",
   "jsonrpc": "2.0",
@@ -2347,7 +2347,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **create_wallet**
 
-Créer un nouveau portefeuille. Vous devez avoir utiliser l'option "--wallet-dir" lors du lancement de monero-wallet-rpc pour que cela fonctionne.
+Créer un nouveau portefeuille. Vous devez avoir utiliser l'option "--wallet-dir" lors du lancement de byterub-wallet-rpc pour que cela fonctionne.
 
 Alias : *Aucun*.
 
@@ -2374,7 +2374,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **open_wallet**
 
-Ouvrir un portefeuille. Vous devez avoir utiliser l'option "--wallet-dir" lors du lancement de monero-wallet-rpc pour que cela fonctionne.
+Ouvrir un portefeuille. Vous devez avoir utiliser l'option "--wallet-dir" lors du lancement de byterub-wallet-rpc pour que cela fonctionne.
 
 Alias : *Aucun*.
 

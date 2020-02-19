@@ -20,14 +20,14 @@ Cuando Alicia hizo la transacción, una llave de un solo uso fue automáticament
 
 #### CLI
 
-Alicia puede consultarlo así en monero-wallet-cli (nuevo nombre para la vieja simplewallet):
+Alicia puede consultarlo así en byterub-wallet-cli (nuevo nombre para la vieja simplewallet):
 
 > get_tx_key TXID
 
 Alicia pondría su actual ID de transacción en lugar del marcador TXID. Si todo va bien, la llave de un solo uso
 será mostrada.
 
-Tenga en cuenta que esto sólo funcionará si monero-wallet-cli está configurado para guardar llaves de transacción. Para volver a revisar:
+Tenga en cuenta que esto sólo funcionará si byterub-wallet-cli está configurado para guardar llaves de transacción. Para volver a revisar:
 
 > set
 
@@ -37,7 +37,7 @@ Si set es 0, cámbialo a 1:
 
 #### GUI
 
-Alicia puede abrir monero-wallet-gui e ir al historial para ver los detalles de su transacción:
+Alicia puede abrir byterub-wallet-gui e ir al historial para ver los detalles de su transacción:
 
 ![Historial](png/prove-payment/history.png)
 
@@ -60,17 +60,17 @@ actualizada,
 
 #### CLI
 
-Charlie escribe en monero-wallet-cli:
+Charlie escribe en byterub-wallet-cli:
 
 > check_tx_key TXID TXKEY ADDRESS
 
-La información provista por Alicia se coloca limpiamente en lugar de los marcadores. monero-wallet-cli usará la llave de transacción
+La información provista por Alicia se coloca limpiamente en lugar de los marcadores. byterub-wallet-cli usará la llave de transacción
 para decodificar la transacción, y mostrar cuánto envió la transacción a la dirección. Obviamente,
 Charlie querrá volver a revisar con Bob que la dirección es realmente de él - al igual que con Bitcoin.
 
 #### GUI
 
-Charlie abrirá su monero-wallet-gui e irá a la página en Avanzado > Probar/verificar para llenar la sección Comprobar con la información provista por Alicia:
+Charlie abrirá su byterub-wallet-gui e irá a la página en Avanzado > Probar/verificar para llenar la sección Comprobar con la información provista por Alicia:
 
 ![Prueba de pago](png/prove-payment/check-payment.png)
 

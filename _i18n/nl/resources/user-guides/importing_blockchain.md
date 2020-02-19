@@ -2,13 +2,13 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ### Stap 1
 
-Download het huidige bootstrap-bestand van https://downloads.getmonero.org/blockchain.raw. Deze stap kun je overslaan als je de blockchain uit een andere bron importeert.
+Download het huidige bootstrap-bestand van https://downloads.getbyterub.org/blockchain.raw. Deze stap kun je overslaan als je de blockchain uit een andere bron importeert.
 
 ### Stap 2
 
 Zoek het pad van je ByteRub-portemonnee op (de map waar je de ByteRub-software hebt uitgepakt). Mijn pad is bijvoorbeeld:
 
-`D:\monero-gui-0.10.3.1`
+`D:\byterub-gui-0.10.3.1`
 
 Je kunt een ander pad hebben, afhankelijk van waar je de portemonnee hebt gedownload en welke versie van de ByteRub-portemonnee je gebruikt.
 
@@ -32,7 +32,7 @@ Nu moet je in het CMD-venster naar het pad van je ByteRub-portemonnee navigeren.
 
 Bijvoorbeeld zoiets:
 
-`cd D:\monero-gui-0.10.3.1`
+`cd D:\byterub-gui-0.10.3.1`
 
 Als je ByteRub-portemonnee op een ander station staat, gebruik je `Stationsletter:`. Bijvoorbeeld: als je portemonnee op station D staat, voer je `D:` in voordat je de `cd`-opdracht gebruikt.
 
@@ -40,11 +40,11 @@ Als je ByteRub-portemonnee op een ander station staat, gebruik je `Stationslette
 
 Typ nu het volgende in het opdrachtregelvenster:
 
-`monero-blockchain-import --input-file C:\HIER\HET\BESTANDSPAD\VAN\JE\BLOCKCHAIN`
+`byterub-blockchain-import --input-file C:\HIER\HET\BESTANDSPAD\VAN\JE\BLOCKCHAIN`
 
 Ik zou bijvoorbeeld het volgende typen:
 
-`monero-blockchain-import --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
+`byterub-blockchain-import --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
 
 Als je de blockchain hebt gedownload van een bron die je vertrouwt, kun je de instelling `verify 0` opgeven. Hiermee wordt de blockchain sneller gesynchroniseerd.  
 

@@ -20,14 +20,14 @@ Toen Alice de transactie uitvoerde, is er automatisch een sleutel speciaal voor 
 
 #### Opdrachtregel
 
-Alice kan deze sleutel als volgt opvragen in monero-wallet-cli (voorheen simplewallet):
+Alice kan deze sleutel als volgt opvragen in byterub-wallet-cli (voorheen simplewallet):
 
 > get_tx_key TXID
 
 Daarbij voert Alice haar transactie-ID in in plaats van TXID. Als het goed is, wordt de eenmalige transactiesleutel
 weergegeven.
 
-Dit werkt alleen als monero-wallet-cli is ingesteld op het bewaren van transactiesleutels. Controleer dit als volgt:
+Dit werkt alleen als byterub-wallet-cli is ingesteld op het bewaren van transactiesleutels. Controleer dit als volgt:
 
 > set
 
@@ -37,7 +37,7 @@ Stel het in op 1 als de instelling 0 is:
 
 #### Grafische interface
 
-Alice kan haar monero-wallet-gui openen en haar transactiedetails bekijken op de pagina Geschiedenis:
+Alice kan haar byterub-wallet-gui openen en haar transactiedetails bekijken op de pagina Geschiedenis:
 
 ![Geschiedenis](png/prove-payment/history.png)
 
@@ -60,17 +60,17 @@ blockchain nodig.
 
 #### Opdrachtregel
 
-Charlie typt het volgende in monero-wallet-cli:
+Charlie typt het volgende in byterub-wallet-cli:
 
 > check_tx_key TXID SLEUTEL ADRES
 
-Daarbij vult hij de door Alice verstrekte gegevens in plaats van de variabelen in. monero-wallet-cli gebruikt de transactiesleutel
+Daarbij vult hij de door Alice verstrekte gegevens in plaats van de variabelen in. byterub-wallet-cli gebruikt de transactiesleutel
 om de transactie te ontsleutelen en geeft weer hoeveel in deze transactie naar dit adres is verzonden. Uiteraard
 zal Charlie bij Bob willen navragen of het adres inderdaad van hem is, net als bij Bitcoin.
 
 #### Grafische interface
 
-Charlie opent monero-wallet-gui en gaat naar de pagina Geavanceerd > Bewijzen/controleren om de gegevens van Alice in te vullen in het gedeelte Transactie controleren.
+Charlie opent byterub-wallet-gui en gaat naar de pagina Geavanceerd > Bewijzen/controleren om de gegevens van Alice in te vullen in het gedeelte Transactie controleren.
 
 ![Check payment](png/prove-payment/check-payment.png)
 

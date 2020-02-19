@@ -20,5 +20,5 @@ The ByteRub Core Team plans for a network upgrade every 6 months, to occur in Oc
 ---
 
 ##### Other Resources
-<sub>1. *Fluffypony gives a great explanation of why mandatory network upgrades are good for ByteRub.* ([ByteRub Missives for the Week of 2016-06-20](https://getmonero.org/2016/06/20/monero-missive-for-the-week-of-2016-06-20.html))</sub>
+<sub>1. *Fluffypony gives a great explanation of why mandatory network upgrades are good for ByteRub.* ([ByteRub Missives for the Week of 2016-06-20](https://getbyterub.org/2016/06/20/byterub-missive-for-the-week-of-2016-06-20.html))</sub>
 

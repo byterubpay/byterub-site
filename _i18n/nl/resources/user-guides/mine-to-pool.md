@@ -3,7 +3,7 @@
 # Een pool selecteren
 
 Je kunt uit allerlei pools kiezen. Er staat een lijst op
-[moneropools.com](https://moneropools.com). Als je bij een grotere pool minet, kun je
+[byterubpools.com](https://byterubpools.com). Als je bij een grotere pool minet, kun je
 vaker betaald worden, maar als je bij een kleinere pool minet, help je het netwerk
 gedecentraliseerd te houden.
 

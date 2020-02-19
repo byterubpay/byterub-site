@@ -3,7 +3,7 @@
     - name: Gestart op Bitcointalk
       date: 2014-04-18
       status: completed
-    - name: Naam veranderd van Bitmonero in ByteRub
+    - name: Naam veranderd van Bitbyterub in ByteRub
       date: 2014-04-23
       status: completed
     - name: Hersteld van een spamaanval
@@ -110,7 +110,7 @@
     - name: "Netwerkupgrade: minimale ringgrootte verhogen naar 7, multisig integreren, subadressen, PoW-algoritme wijzigen"
       date: 2018-04-06
       status: completed
-    - name: Getmonero.org vertaald in het Frans en Pools
+    - name: Getbyterub.org vertaald in het Frans en Pools
       date: 2018-04-24
       status: completed
     - name: Versie 0.12.1.0 Lithium Luna
@@ -131,10 +131,10 @@
     - name: Alfa-release van Kovri
       date: 2018-08-01
       status: completed
-    - name: Getmonero.org ByteRubpedia open for Localization
+    - name: Getbyterub.org ByteRubpedia open for Localization
       date: 2018-08-03
       status: completed
-    - name: Getmonero.org vertaald in het Arabisch
+    - name: Getbyterub.org vertaald in het Arabisch
       date: 2018-08-10
       status: completed
     - name: Versie 0.13.0.2 Beryllium Bullet
@@ -172,7 +172,7 @@
       status: completed
 - year: 2019
   accomplishments:
-    - name: Getmonero.org vertaald in het Duitser
+    - name: Getbyterub.org vertaald in het Duitser
       date: 2019-02-11
       status: completed
     - name: Versie 0.14.0.0 Boron Butterfly
@@ -190,7 +190,7 @@
     - name: Nieuw proof-of-work algoritme CryptoNightR
       date: 2019-03-09
       status: completed
-    - name: Getmonero.org vertaald in het Braziliaans-Portugees en Nederlands
+    - name: Getbyterub.org vertaald in het Braziliaans-Portugees en Nederlands
       date: 2019-03-12
       status: completed
     - name: Ondersteuning van de hardwarewallet Trezor

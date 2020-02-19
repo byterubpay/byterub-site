@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 Algunas veces, tus fondos estarán estancados - tendrás fondos bloqueados que nunca se podrán desbloquear. Esta es la forma de arreglarlo.
 
-- Carga tu monedero en monero-wallet-cli.
+- Carga tu monedero en byterub-wallet-cli.
 
 - Escribe
 
@@ -10,7 +10,7 @@ Algunas veces, tus fondos estarán estancados - tendrás fondos bloqueados que n
 
 en la consola. Escribe tu semilla de 25 palabras si aún no lo has hecho. Esta es la mejor forma de asegurar que no pierdas acceso a tus fondos.
 
-- Cierra monero-wallet-cli escribiendo
+- Cierra byterub-wallet-cli escribiendo
 
 > exit
 
@@ -26,7 +26,7 @@ Algunas veces, cuando creas un monedero, la pudiste haber llamado de alguna form
 
 - Elimina tumonedero.bin
 
-- Abre monero-wallet-cli, escribe el nombre del monedero que acabas de eliminar.
+- Abre byterub-wallet-cli, escribe el nombre del monedero que acabas de eliminar.
 
 - Ingresa la contraseña. El monedero se actualizará y posiblemente tus fondos bloqueados estarán ahora desbloqueados.
 

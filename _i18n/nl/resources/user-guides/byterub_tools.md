@@ -8,12 +8,12 @@ Met deze hulpmiddelen kun je informatie vinden over het ByteRub-netwerk of over 
 
 ### [Tools voor het genereren van ByteRub-adressen](https://xmr.llcoins.net/)
 
-### [Het aantal ByteRub-nodes](http://moneronodes.i2p.xyz/)
+### [Het aantal ByteRub-nodes](http://byterubnodes.i2p.xyz/)
 
-### [Kaart van ByteRub-nodes](https://monerohash.com/nodes-distribution.html)
+### [Kaart van ByteRub-nodes](https://byterubhash.com/nodes-distribution.html)
 
-### [Offline generator van ByteRub-portemonnees](http://moneroaddress.org/)
+### [Offline generator van ByteRub-portemonnees](http://byterubaddress.org/)
 
-### [ByteRub-netwerkstatistieken](http://moneroblocks.info/stats)
+### [ByteRub-netwerkstatistieken](http://byterubblocks.info/stats)
 
-### [Statistieken van ByteRub.how](https://www.monero.how/)
+### [Statistieken van ByteRub.how](https://www.byterub.how/)

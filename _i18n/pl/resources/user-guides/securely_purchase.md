@@ -10,9 +10,9 @@ Istnieje wiele sposobów na zakupo Bitcoina. Dwie na wpół niezawodne organizac
 
 #### Krok 2: Ściągnij i utwórz papierowy portfel na bezpiecznym i odłączonym od sieci komputerze.
 
-Ściągnij generator papierowego portfela ze strony https://moneroaddress.org i skopiuj go na USB (bezpośredni link: https://github.com/moneromooo-monero/monero-wallet-generator/archive/master.zip).
+Ściągnij generator papierowego portfela ze strony https://byterubaddress.org i skopiuj go na USB (bezpośredni link: https://github.com/byterubmooo-byterub/byterub-wallet-generator/archive/master.zip).
 
-Rozpakuj i otwórz generator papierowego portfela (monero-wallet-generator.html) w przeglądarce na odłączonym od sieci komputerze, który nie był wcześniej używany lub posiada świeżo zainstalowany system operacyjny.
+Rozpakuj i otwórz generator papierowego portfela (byterub-wallet-generator.html) w przeglądarce na odłączonym od sieci komputerze, który nie był wcześniej używany lub posiada świeżo zainstalowany system operacyjny.
 
 Twój papierowy portfel posiada cztery ważne informacje:
 

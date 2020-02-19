@@ -3,7 +3,7 @@
 # Selecting a pool
 
 There are many pools to choose from, a list is available at
-[moneropools.com](https://moneropools.com). Mining on a larger pool could mean
+[byterubpools.com](https://byterubpools.com). Mining on a larger pool could mean
 more frequent payouts, but mining on a smaller pool helps to keep the network
 decentralized.
 

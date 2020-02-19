@@ -3,7 +3,7 @@
     - name: Annuncio su Bitcointalk
       date: 18-04-2014
       status: completed
-    - name: Rinominato da Bitmonero a ByteRub
+    - name: Rinominato da Bitbyterub a ByteRub
       date: 23-04-2014
       status: completed
     - name: Recupero dopo un attacco spam
@@ -110,7 +110,7 @@
     - name: Aggiornamento della rete per portare il ringsize minimo a 7, integrare multifirma, sottoindirizzi e modificare l'algoritmo PoW
       date: 06-04-2018
       status: completed
-    - name: Localizzazione Getmonero.org in Francese e Polacco
+    - name: Localizzazione Getbyterub.org in Francese e Polacco
       date: 24-04-2018
       status: completed
     - name: 0.12.1.0 Lithium Luna rilasciata
@@ -131,10 +131,10 @@
     - name: Versione alpha di Kovri rilasciata
       date: 01-08-2018
       status: completed
-    - name: Getmonero.org ByteRubpedia pronta per localizzazione
+    - name: Getbyterub.org ByteRubpedia pronta per localizzazione
       date: 03-08-2018
       status: completed
-    - name: Localizzazione Getmonero.org in Arabo
+    - name: Localizzazione Getbyterub.org in Arabo
       date: 10-08-2018
       status: completed
     - name: 0.13.0.2 Beryllium Bullet rilasciata
@@ -172,7 +172,7 @@
       status: completed
 - year: 2019
   accomplishments:
-    - name: Localizzazione Getmonero.org in Tedesco
+    - name: Localizzazione Getbyterub.org in Tedesco
       date: 11-02-2019
       status: completed
     - name: 0.14.0.0 Boron Butterfly rilasciata
@@ -190,7 +190,7 @@
     - name: Nuovo Proof of Work CryptoNightR
       date: 09-03-2019
       status: completed
-    - name: Localizzazion Getmonero.org in Portoghese Brasiliano e Olandese
+    - name: Localizzazion Getbyterub.org in Portoghese Brasiliano e Olandese
       date: 12-03-2019
       status: completed
     - name: Supporto per portafoglio hardware Trezor

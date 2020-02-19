@@ -3,41 +3,41 @@
   - name: عن مونيرو
     url: resources/about/
   - name: مونيروبيديا
-    url: resources/moneropedia/
+    url: resources/byterubpedia/
   - name: دليل المُطور
     url: resources/developer-guides/
   - name: دليل المستخدم
     url: resources/user-guides/
   - name: RSS Feed
-    url: https://getmonero.org/feed.xml
+    url: https://getbyterub.org/feed.xml
 - title: IRC قنوات الدردشة
   subfolderitems:
   - name: مونيرو
-    url: irc://chat.freenode.net/#monero
+    url: irc://chat.freenode.net/#byterub
   - name: مطور مونيرو
-    url: irc://chat.freenode.net/#monero-dev
+    url: irc://chat.freenode.net/#byterub-dev
   - name: أسواق مونيرو
-    url: irc://chat.freenode.net/#monero-markets
+    url: irc://chat.freenode.net/#byterub-markets
   - name: تعدين مونيرو
-    url: irc://chat.freenode.net/#monero-pools
+    url: irc://chat.freenode.net/#byterub-pools
   - name: مجتمع مونيرو
-    url: irc://chat.freenode.net/#monero-community
+    url: irc://chat.freenode.net/#byterub-community
   - name: ترجمات مونيرو
-    url: irc://chat.freenode.net/#monero-translations
+    url: irc://chat.freenode.net/#byterub-translations
   - name: مُعدات مونيرو
-    url: irc://chat.freenode.net/#monero-hardware
+    url: irc://chat.freenode.net/#byterub-hardware
 - title: المجتمع
   subfolderitems:
   - name: Reddit
-    url: https://reddit.com/r/monero
+    url: https://reddit.com/r/byterub
   - name: Stack Exchange
-    url: https://monero.stackexchange.com/
+    url: https://byterub.stackexchange.com/
   - name: BitcoinTalk Thread
     url: https://bitcointalk.org/index.php?topic=583449.0
   - name: Mattermost Chat
-    url: https://mattermost.getmonero.org/
+    url: https://mattermost.getbyterub.org/
   - name: Telegram Chat
-    url: https://telegram.me/bitmonero
+    url: https://telegram.me/bitbyterub
 - title: مشروع مونيرو
   subfolderitems:
   - name: Open Alias

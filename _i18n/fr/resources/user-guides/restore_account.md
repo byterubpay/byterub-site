@@ -4,11 +4,11 @@
 
 - Récupérez votre @mnemonic-seed de 25 mots que vous avez sauvegardé lorsque vous avez créé votre ancien @wallet ByteRub ;
 
-### Application de comptabilité :  monero-wallet-cli
+### Application de comptabilité :  byterub-wallet-cli
 
-- Ouvrez une invite de commande et naviguez sur le disque et dans le répertoire contenant monero-wallet-cli ;
+- Ouvrez une invite de commande et naviguez sur le disque et dans le répertoire contenant byterub-wallet-cli ;
 
-- Dans l'invite de commande, tapez :  `monero-wallet-cli --restore-deterministic-wallet` ;
+- Dans l'invite de commande, tapez :  `byterub-wallet-cli --restore-deterministic-wallet` ;
 
 - Une fois que vous aurez appuyé sur la touche Entrée, un nom de portefeuille vous sera demandé. Donnez le nom de votre choix au portefeuille ;
 
@@ -20,11 +20,11 @@
 
 - On vous demandera alors la hauteur de bloc de restauration "Restore from specific blockchain height (optional, default 0):" La valeur par défaut lancera le processus de restauration à partir du début de la chaîne de blocs. Si vous ne connaissez pas la hauteur de bloc spécifique, appuyez simplement sur la touche Entrée. (Spécifier une hauteur de bloc lancera le processus de restauration à partir de cette hauteur spécifique. Cela évitera un peut de temps d'analyse si vous savez à partir de quelle hauteur de bloc vos fonds initiaux ont été transféré pour ce compte)
 
-Après avoir saisit les 25 mots de la phrase mnémonique et avoir choisit la hauteur de bloc, monero-wallet-cli va généré la même adresse publique et clef d'audit que pour votre ancien portefeuille et commencera le processus de rafraîchissement automatiquement. (Soyez patient car le processus de rafraichissement peut être long)
+Après avoir saisit les 25 mots de la phrase mnémonique et avoir choisit la hauteur de bloc, byterub-wallet-cli va généré la même adresse publique et clef d'audit que pour votre ancien portefeuille et commencera le processus de rafraîchissement automatiquement. (Soyez patient car le processus de rafraichissement peut être long)
 
-### Application de comptabilité :  monero-wallet-gui
+### Application de comptabilité :  byterub-wallet-gui
 
-Lancez `monero-wallet-gui`. Si c'est la première fois que vous le lancez, allez directement à l'étape suivante, sinon, cliquez sur `Cancel` :
+Lancez `byterub-wallet-gui`. Si c'est la première fois que vous le lancez, allez directement à l'étape suivante, sinon, cliquez sur `Cancel` :
 
 ![cancel opening](png/restore_from_keys/cancel-opening.png)
 

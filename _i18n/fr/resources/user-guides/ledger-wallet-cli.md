@@ -1,6 +1,6 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-## Comment générer un portefeuille ByteRub Ledger avec la CLI (monero-wallet-cli)
+## Comment générer un portefeuille ByteRub Ledger avec la CLI (byterub-wallet-cli)
 
 ### Table des Matières
 
@@ -17,29 +17,29 @@ Nous devons nous assurer d'être suffisamment préparé. Cela implique ce qui su
 
 2. Vous devez lancer / utiliser la CLI v0.12.2.0, qui peut être récupérée <a href="{{site.baseurl}}/downloads/">ici</a>.
 
-3. Vous avez besoin d'installer et de configurer l'application de portefeuille ByteRub de Ledger. Vous trouverez les instructions [ici](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 et 3.2.3 en particulier). De plus, assurez-vous de configurer le réseau sur `Mainnet`.
+3. Vous avez besoin d'installer et de configurer l'application de portefeuille ByteRub de Ledger. Vous trouverez les instructions [ici](https://github.com/LedgerHQ/blue-app-byterub/blob/master/doc/user/bolos-app-byterub.pdf) (sections 3.1.1 et 3.2.3 en particulier). De plus, assurez-vous de configurer le réseau sur `Mainnet`.
 
 4. Votre Ledger doit être connecté et l'application ByteRub de Ledger en cours d'exécution.
 
-5. Vous devez soit avoir votre démon (`monerod.exe`) lancé et de préférence totalement synchronisé, soit vous connecter à un nœud distant.
+5. Vous devez soit avoir votre démon (`byterubd.exe`) lancé et de préférence totalement synchronisé, soit vous connecter à un nœud distant.
 
 Maintenant que nous sommes suffisamment préparé, commençons !
 
-1. Allez dans le répertoire / dossier où sont situés monerod.exe et monero-wallet-cli.exe.
+1. Allez dans le répertoire / dossier où sont situés byterubd.exe et byterub-wallet-cli.exe.
 
 2. Ouvrez une nouvelle invite de commande / fenêtre powershell. Vous pouvez faire cela en vous assurant que votre curseur n'est pas positionné sur un fichier, puis en faisant consécutivement SHUFT + Click Droit. Une nouvelle option "Ouvrir une fenêtre de commande ici" vous sera proposée. Si vous utilisez Windows 10 en dernière version, l'option sera "Ouvrir la fenêtre PowerShell ici".
 
 3. Saisissez maintenant :
 
-`monero-wallet-cli.exe --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200` (Win 7 + 8)
+`byterub-wallet-cli.exe --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200` (Win 7 + 8)
 
-`.\monero-wallet-cli.exe --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200` (Win 10)
+`.\byterub-wallet-cli.exe --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200` (Win 10)
 
 Remarquez qu'il s'agit simplement d'un emplacement pour le nom effectif du portefeuille. Si vous vouliez, par exemple, nommer votre portefeuille `ByteRubWallet`, la commande serait la suivante :
 
-`monero-wallet-cli.exe --generate-from-device ByteRubWallet --subaddress-lookahead 3:200` (Win 7 + 8)
+`byterub-wallet-cli.exe --generate-from-device ByteRubWallet --subaddress-lookahead 3:200` (Win 7 + 8)
 
-`.\monero-wallet-cli.exe --generate-from-device ByteRubWallet --subaddress-lookahead 3:200` (Win 10)
+`.\byterub-wallet-cli.exe --generate-from-device ByteRubWallet --subaddress-lookahead 3:200` (Win 10)
 
 4. Après avoir exécutée la commande susmentionnée, la CLI va vous demander de saisir un mot de passe. Assurez-vous de saisir un mot de passe robuste, puis confirmez-le.
 
@@ -49,7 +49,7 @@ Remarquez qu'il s'agit simplement d'un emplacement pour le nom effectif du porte
 
 7. Votre portefeuille ByteRub Ledger va maintenant être généré. Notez que cela pourrait prendre de 5 à 10 minutes. De plus, il n'y aura pas de retour immédiat, ni sur la CLI ni sur Ledger.
 
-8. `monero-wallet-cli` va se réactualiser. Patientez jusqu'à la fin de cette opération.
+8. `byterub-wallet-cli` va se réactualiser. Patientez jusqu'à la fin de cette opération.
 
 Félicitations, vous pouvez maintenant utiliser votre portefeuille ByteRub Ledger conjointement avec la CLI.
 
@@ -61,23 +61,23 @@ Nous devons nous assurer d'être suffisamment préparé. Cela implique ce qui su
 
 2. Vous devez lancer / utiliser la CLI v0.12.2.0, qui peut être récupérée <a href="{{site.baseurl}}/downloads/">ici</a>.
 
-3. Vous avez besoin d'installer et de configurer l'application de portefeuille ByteRub de Ledger. Vous trouverez les instructions [ici](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 et 3.2.2 en particulier). De plus, assurez-vous de configurer le réseau sur `Mainnet`.
+3. Vous avez besoin d'installer et de configurer l'application de portefeuille ByteRub de Ledger. Vous trouverez les instructions [ici](https://github.com/LedgerHQ/blue-app-byterub/blob/master/doc/user/bolos-app-byterub.pdf) (sections 3.1.1 et 3.2.2 en particulier). De plus, assurez-vous de configurer le réseau sur `Mainnet`.
 
-4. Remarquez que les instructions pour la configuration du système (section 3.2.2) sur Mac OS X sont assez compliquées et peuvent être perçues comme quelque peu alambiqués. Par chance, tficharmers a écrit un guide [ici](https://monero.stackexchange.com/questions/8438/how-do-i-make-my-macos-detect-my-ledger-nano-s-when-plugged-in) que vous pouvez utiliser pour vous aider.
+4. Remarquez que les instructions pour la configuration du système (section 3.2.2) sur Mac OS X sont assez compliquées et peuvent être perçues comme quelque peu alambiqués. Par chance, tficharmers a écrit un guide [ici](https://byterub.stackexchange.com/questions/8438/how-do-i-make-my-macos-detect-my-ledger-nano-s-when-plugged-in) que vous pouvez utiliser pour vous aider.
 
 5. Votre Ledger doit être connecté et l'application ByteRub de Ledger en cours d'exécution.
 
-6. Vous devez soit avoir votre démon (`monerod`) lancé et de préférence totalement synchronisé, soit vous connecter à un nœud distant.
+6. Vous devez soit avoir votre démon (`byterubd`) lancé et de préférence totalement synchronisé, soit vous connecter à un nœud distant.
 
 Maintenant que nous sommes suffisamment préparé, commençons !
 
-1. Utilisez Finder pour naviguer dans le répertoire / dossier où se situe `monero-wallet-cli` (CLI v0.12.2.0).
+1. Utilisez Finder pour naviguer dans le répertoire / dossier où se situe `byterub-wallet-cli` (CLI v0.12.2.0).
 
 2. Allez sur votre bureau.
 
 3. Ouvrez un nouveau terminal (Si vous ne savez pas comment ouvrir un terminal, allez voir [ici](https://apple.stackexchange.com/a/256263)).
 
-4. Glissez-déposez `monero-wallet-cli` dans le terminal. Cela devrait ajouter le chemin complet au terminal. N'appuyez pas sur la touche Entrée.
+4. Glissez-déposez `byterub-wallet-cli` dans le terminal. Cela devrait ajouter le chemin complet au terminal. N'appuyez pas sur la touche Entrée.
 
 5. Saisissez maintenant :
 
@@ -87,9 +87,9 @@ Remarquez qu'il s'agit simplement d'un emplacement pour le nom effectif du porte
 
 `--generate-from-device ByteRubWallet --subaddress-lookahead 3:200`
 
-Remarquez que le texte susmentionné sera ajouté au chemin de `monero-wallet-cli`. Donc, avant que vous n'appuyez sur la touche Entrée, votre terminal devrait ressembler à cela :
+Remarquez que le texte susmentionné sera ajouté au chemin de `byterub-wallet-cli`. Donc, avant que vous n'appuyez sur la touche Entrée, votre terminal devrait ressembler à cela :
 
-`/chemin/complet/vers/monero-wallet-cli --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200`
+`/chemin/complet/vers/byterub-wallet-cli --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200`
 
 Où le chemin complet est, comme son nom l'indique, le chemin actuel sur votre Mac OS X.
 
@@ -101,7 +101,7 @@ Où le chemin complet est, comme son nom l'indique, le chemin actuel sur votre M
 
 10. Votre portefeuille ByteRub Ledger va maintenant être généré. Notez que cela pourrait prendre de 5 à 10 minutes. De plus, il n'y aura pas de retour immédiat, ni sur la CLI ni sur Ledger.
 
-11. `monero-wallet-cli` va se réactualiser. Patientez jusqu'à la fin de cette opération.
+11. `byterub-wallet-cli` va se réactualiser. Patientez jusqu'à la fin de cette opération.
 
 12. Félicitations, vous pouvez maintenant utiliser votre portefeuille ByteRub Ledger conjointement avec la CLI.
 
@@ -113,25 +113,25 @@ Nous devons nous assurer d'être suffisamment préparé. Cela implique ce qui su
 
 2. Vous devez lancer / utiliser la CLI v0.12.2.0, qui peut être récupérée <a href="{{site.baseurl}}/downloads/">ici</a>.
 
-3. Vous avez besoin d'installer et de configurer l'application de portefeuille ByteRub de Ledger. Vous trouverez les instructions [ici](https://github.com/LedgerHQ/blue-app-monero/blob/master/doc/user/bolos-app-monero.pdf) (sections 3.1.1 et 3.2.1 en particulier). De plus, assurez-vous de configurer le réseau sur `Mainnet`.
+3. Vous avez besoin d'installer et de configurer l'application de portefeuille ByteRub de Ledger. Vous trouverez les instructions [ici](https://github.com/LedgerHQ/blue-app-byterub/blob/master/doc/user/bolos-app-byterub.pdf) (sections 3.1.1 et 3.2.1 en particulier). De plus, assurez-vous de configurer le réseau sur `Mainnet`.
 
 4. Votre Ledger doit être connecté et l'application ByteRub de Ledger en cours d'exécution.
 
-5. Vous devez soit avoir votre démon (`monerod`) lancé et de préférence totalement synchronisé, soit vous connecter à un nœud distant.
+5. Vous devez soit avoir votre démon (`byterubd`) lancé et de préférence totalement synchronisé, soit vous connecter à un nœud distant.
 
 Maintenant que nous sommes suffisamment préparé, commençons !
 
-1. Allez dans le répertoire / dossier où sont situés monero-wallet-cli et monerod.
+1. Allez dans le répertoire / dossier où sont situés byterub-wallet-cli et byterubd.
 
 2. Ouvrir un nouveau terminal
 
 3. Saisissez maintenant :
 
-`./monero-wallet-cli --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200`
+`./byterub-wallet-cli --generate-from-device <new-wallet-name> --subaddress-lookahead 3:200`
 
 Remarquez qu'il s'agit simplement d'un emplacement pour le nom effectif du portefeuille. Si vous vouliez, par exemple, nommer votre portefeuille `ByteRubWallet`, la commande serait la suivante :
 
-`./monero-wallet-cli --generate-from-device ByteRubWallet --subaddress-lookahead 3:200`
+`./byterub-wallet-cli --generate-from-device ByteRubWallet --subaddress-lookahead 3:200`
 
 4. Après avoir exécutée la commande susmentionnée, la CLI va vous demander de saisir un mot de passe. Assurez-vous de saisir un mot de passe robuste, puis confirmez-le.
 
@@ -141,13 +141,13 @@ Remarquez qu'il s'agit simplement d'un emplacement pour le nom effectif du porte
 
 7. Votre portefeuille ByteRub Ledger va maintenant être généré. Notez que cela pourrait prendre de 5 à 10 minutes. De plus, il n'y aura pas de retour immédiat, ni sur la CLI ni sur Ledger.
 
-8. `monero-wallet-cli` va se réactualiser. Patientez jusqu'à la fin de cette opération.
+8. `byterub-wallet-cli` va se réactualiser. Patientez jusqu'à la fin de cette opération.
 
 Félicitations, vous pouvez maintenant utiliser votre portefeuille ByteRub Ledger conjointement avec la CLI.
 
 ### 4. Quelques remarques finales
 
-1. Nous vous recommandons fortement de d'abord tester la totalité du processus. C'est à dire, envoyer un petit montant au portefeuille et le restaurer consécutivement (en utilisant le guide susmentionné) pour vérifier que vous pouvez récupérer le portefeuille. Remarquez que, lors de la recréation / restauration d'un portefeuille, vous devez ajouter l'option `--restore-height` (avec la hauteur de bloc de la première transaction de ce portefeuille) à la commande de l'étape 3 (Windows), l'étape 5 (Mac OS X) ou l'étape 3 (Linux). Vous trouverez plus d'information concernant la hauteur de restauration et la manière de l'estimer [ici](https://monero.stackexchange.com/questions/7581/what-is-the-relevance-of-the-restore-height).
+1. Nous vous recommandons fortement de d'abord tester la totalité du processus. C'est à dire, envoyer un petit montant au portefeuille et le restaurer consécutivement (en utilisant le guide susmentionné) pour vérifier que vous pouvez récupérer le portefeuille. Remarquez que, lors de la recréation / restauration d'un portefeuille, vous devez ajouter l'option `--restore-height` (avec la hauteur de bloc de la première transaction de ce portefeuille) à la commande de l'étape 3 (Windows), l'étape 5 (Mac OS X) ou l'étape 3 (Linux). Vous trouverez plus d'information concernant la hauteur de restauration et la manière de l'estimer [ici](https://byterub.stackexchange.com/questions/7581/what-is-the-relevance-of-the-restore-height).
 
 2. Si vous utilisez un nœud distant, ajoutez l'option `--daemon-address host:port` à la commande de l'étape 3 (Windows), l'étape 5 (Mac OS X) ou l'étape 3 (Linux).
 
@@ -155,13 +155,13 @@ Félicitations, vous pouvez maintenant utiliser votre portefeuille ByteRub Ledge
 
 4. Vous n'avez à utiliser l'option `--generate-from-device` qu'une seule fois (c-à-d lors de la création du portefeuille). Ultérieurement vous l'utiliserez d'une façon similaire à la CLI habituelle, c'est à dire :
    1. Vous assurer que votre Ledge est connecté et que l'application Monro est démarrée ;
-   2. Ouvrir `monero-wallet-cli`.
+   2. Ouvrir `byterub-wallet-cli`.
    3. Entrer le nom de votre portefeuille ByteRub Ledger ;
    4. Entrer le mot de passe pour ouvrir le portefeuille.
 
-   Si les fichiers du portefeuille Ledger ne sont pas dans le même répertoire que `monero-wallet-cli`, vous devez ouvrir `monero-wallet-cli` avec l'option `--wallet-file /chemin/vers/fichier/clefs.portefeuille`. Sinon, vous pouvez copier les fichiers du portefeuille Ledger dans le même répertoire que `monero-wallet-cli`.
+   Si les fichiers du portefeuille Ledger ne sont pas dans le même répertoire que `byterub-wallet-cli`, vous devez ouvrir `byterub-wallet-cli` avec l'option `--wallet-file /chemin/vers/fichier/clefs.portefeuille`. Sinon, vous pouvez copier les fichiers du portefeuille Ledger dans le même répertoire que `byterub-wallet-cli`.
 
-5. Si vous avez des questions, ou besoin d'aide, ajoutez un commentaire sur l'article d'origine sur [StackExchange](https://monero.stackexchange.com/questions/8503/how-do-i-generate-a-ledger-monero-wallet-with-the-cli-monero-wallet-cli).
+5. Si vous avez des questions, ou besoin d'aide, ajoutez un commentaire sur l'article d'origine sur [StackExchange](https://byterub.stackexchange.com/questions/8503/how-do-i-generate-a-ledger-byterub-wallet-with-the-cli-byterub-wallet-cli).
 
 Auteur: dEBRUYNE
 Transcripteur secondaire: el00ruobuob

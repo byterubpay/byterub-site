@@ -18,13 +18,13 @@ Gdy Ewa dokonywała transakcji, jendorazowy klucz został wygenerowany tylko dla
 
 #### CLI
 
-Ewa może więc odnaleźć go w monero-wallet-cli (nowa nazwa dawnego simplewallet):
+Ewa może więc odnaleźć go w byterub-wallet-cli (nowa nazwa dawnego simplewallet):
 
 > get_tx_key TXID
 
 Ewa zamieni TXID na swój numer identyfikacyjny transakcji. W wyniku tego, wyświetlony zostanie jednorazowy klucz transakcji.
 
-Zauważ, że to zadziała tylko wtedy, gdy monero-wallet-cli zostanie ustawiony na zapisywanie kluczy transakcji. Aby się upewnić, że tak jest, wpisz:
+Zauważ, że to zadziała tylko wtedy, gdy byterub-wallet-cli zostanie ustawiony na zapisywanie kluczy transakcji. Aby się upewnić, że tak jest, wpisz:
 
 > set
 
@@ -60,7 +60,7 @@ Paweł wpisuje w wierszu poleceń:
 
 > check_tx_key TXID TXKEY ADDRESS
 
-Paweł zamienił symbole na informacje dostarczone przez Ewę. monero-wallet-cli użyje klucza transakcji do odszyfrowania jej i wyświetli kwotę przesłaną na ten konkretny adres.
+Paweł zamienił symbole na informacje dostarczone przez Ewę. byterub-wallet-cli użyje klucza transakcji do odszyfrowania jej i wyświetli kwotę przesłaną na ten konkretny adres.
 
 #### GUI
 

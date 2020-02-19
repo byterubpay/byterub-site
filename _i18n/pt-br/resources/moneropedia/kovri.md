@@ -20,7 +20,7 @@ Kovri will protect you and ByteRub from:
 
 ...and much more.
 
-Read [anonimal's FFS proposal](https://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread) for more details and for reasoning behind the project. Also read the FAQ and User Guide in the [Kovri repository](https://gitlab.com/kovri-project/kovri/).
+Read [anonimal's FFS proposal](https://forum.getbyterub.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread) for more details and for reasoning behind the project. Also read the FAQ and User Guide in the [Kovri repository](https://gitlab.com/kovri-project/kovri/).
 
 ### @Kovri / @I2P Terminology
 

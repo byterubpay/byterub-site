@@ -1,15 +1,15 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# monero-wallet-cli
+# byterub-wallet-cli
 
-`monero-wallet-cli` jest oprogramowaniem, które współpracuje z ByteRub. To program konsoli zarządzający kontem. Podczas gdy portfel Bitcoina zarządza zarówno kontem, jak i łańcuchem bloków, ByteRub rozdzielił je, aby `monerod`operował łańcuchem, a `monero-wallet-cli` kontem.
+`byterub-wallet-cli` jest oprogramowaniem, które współpracuje z ByteRub. To program konsoli zarządzający kontem. Podczas gdy portfel Bitcoina zarządza zarówno kontem, jak i łańcuchem bloków, ByteRub rozdzielił je, aby `byterubd`operował łańcuchem, a `byterub-wallet-cli` kontem.
 
-Ten przewodnik pokaże, jak wykonywać różne operacje w interfejsie `monero-wallet-cli`. Przewodnik zakłada, że używasz najnowszej wersji ByteRub i założyłeś już swoje konto zgodnie z instrukcjami.
+Ten przewodnik pokaże, jak wykonywać różne operacje w interfejsie `byterub-wallet-cli`. Przewodnik zakłada, że używasz najnowszej wersji ByteRub i założyłeś już swoje konto zgodnie z instrukcjami.
 
 
 ## Sprawdzanie salda
 
-Ponieważ zarządzanie łańcuchem bloków i portfelem odbywa się za pomocą różnych programów, wielokrotnie użycie `monero-wallet-cli` wymaga współpracy z daemonem. Obejmuje to również sprawdzanie płatności przychodzących na twój adres. Uruchamiając równocześnie `monero-wallet-cli` i `monerod`, wpisz `balance`.
+Ponieważ zarządzanie łańcuchem bloków i portfelem odbywa się za pomocą różnych programów, wielokrotnie użycie `byterub-wallet-cli` wymaga współpracy z daemonem. Obejmuje to również sprawdzanie płatności przychodzących na twój adres. Uruchamiając równocześnie `byterub-wallet-cli` i `byterubd`, wpisz `balance`.
 
 Przykład:
 
@@ -21,7 +21,7 @@ Przyciągnie to bloki z daemona, których portfel jeszcze nie widział oraz zakt
 
 W tym przypadku, `Balance` jest twoim saldem całkowitym. `unlocked balance` jest kwotą aktualnie dostępną do wydania. Nowe transakcje przychodzące wymagają 10 potwierdzeń zanim zostaną odblokowane. `unlocked dust` to bardzo mała liczba niewydanych wyników, które mogły się nagromadzić na twoim koncie.
 
-## Wysyłanie monero
+## Wysyłanie byterub
 
 Będziesz potrzebował standardowego adresu, na który chcesz przesłać środki (długi ciąg zaczynający się na "4") oraz możliwe, że także numer identyfikacyjny odbiorcy, jeśli ten go wymaga. W takim przypadku, odbiorca może przekazać ci adres zintegrowany, który składa się z numeru identyfikacyjnego oraz adresu standardowego.
 
@@ -78,7 +78,7 @@ Jeżeli to ty jesteś stroną trzecią (to znaczy ktoś chce ci udowodnić, że 
 
     check_tx_key TXID TXKEY ADDRESS
 
-Zamień `TXID`, `TXKEY` i `ADDRESS` na, odpowiednio, numer identyfikacyjny transakcji, klucz transakcji oraz przekazany ci adres odbiorcy. monero-wallet-cli sprawdzi tę transakcję i poinformuje cię, ile ByteRub zostało przesłane na dany adres.
+Zamień `TXID`, `TXKEY` i `ADDRESS` na, odpowiednio, numer identyfikacyjny transakcji, klucz transakcji oraz przekazany ci adres odbiorcy. byterub-wallet-cli sprawdzi tę transakcję i poinformuje cię, ile ByteRub zostało przesłane na dany adres.
 
 
 ## Uzyskiwanie szansy na potwierdzenie lub anulowanie płatności:

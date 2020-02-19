@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 Parfois, vos fonds pourraient être bloqués, ou vous auriez des fonds bloqués qui ne se débloqueraient jamais. Voici comment solutionner ce problème.
 
-- Chargez votre portefeuille dans monero-wallet-cli.
+- Chargez votre portefeuille dans byterub-wallet-cli.
 
 - Tapez
 
@@ -10,7 +10,7 @@ Parfois, vos fonds pourraient être bloqués, ou vous auriez des fonds bloqués 
 
 Dans l'invite de commande. Notez votre phrase mnémonique de 25 mots, si vous ne l'avez pas déjà fait. C'est la meilleure façon de vous assurer que vous ne perdez pas l'accès à vos fonds.
 
-- Fermez monero-wallet-cli en tapant
+- Fermez byterub-wallet-cli en tapant
 
 > exit
 
@@ -26,7 +26,7 @@ Parfois, lors de la création de votre portefeuille, vous pourriez lui avoir don
 
 - Supprimez nomdevotreportefeuille.bin
 
-- Lancez monero-wallet-cli, et tapez le nom de votre portefeuille que vous venez de supprimer.
+- Lancez byterub-wallet-cli, et tapez le nom de votre portefeuille que vous venez de supprimer.
 
 - Entrez votre mot de passe. Votre portefeuille sera alors mis à jour et avec un peu de chance vos fonds bloqués seront alors débloqués.
 

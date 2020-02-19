@@ -15,7 +15,7 @@ Dit is een handleiding voor beginners die Windows als besturingssysteem gebruike
     + [1.1.1. Gpg4win downloaden](#111-download-gpg4win)
     + [1.1.2. Gpg4win starten](#112-launch-gpg4win)
   - [1.2. Gpg4win-installatieprogramma gebruiken](#12-use-gpg4win-installer)
-### [2. Ondertekeningssleutel importeren](#2-monero-signing-key)
+### [2. Ondertekeningssleutel importeren](#2-byterub-signing-key)
   - [2.1. Ondertekeningssleutel downloaden](#21-download-signing-key)
   - [2.2. Kleopatra initialiseren](#22-initialize-kleopatra)
     + [2.2.1. Ondertekeningssleutel importeren](#221-import-signing-key)
@@ -98,7 +98,7 @@ In dit gedeelte leggen we uit hoe je de ByteRub-ondertekeningssleutel downloadt,
 
 ### 2.1. Ondertekeningssleutel downloaden
 
-Ga in een browser naar de [de GPG-sleutel van Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), waarmee hij de ByteRub-binaries ondertekent. Klik met de rechtermuisknop op de pagina en klik vervolgens op `Pagina opslaan als`.
+Ga in een browser naar de [de GPG-sleutel van Fluffypony](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc), waarmee hij de ByteRub-binaries ondertekent. Klik met de rechtermuisknop op de pagina en klik vervolgens op `Pagina opslaan als`.
 
 ![sleutel ophalen contextmenu](png/verify_binary_windows_beginner/verify-win_getkey-rightclick.png)
 
@@ -178,13 +178,13 @@ In dit gedeelte leggen we uit hoe je het ondertekende bestand met bekende goede 
 
 ### 3.1. Hashbestand downloaden
 
-Ga in een browser naar de [hashpagina op getmonero.org]({{ site.baseurl }}/downloads/hashes.txt). Klik met de rechtermuisknop op de pagina en klik vervolgens op `Pagina opslaan als`.
+Ga in een browser naar de [hashpagina op getbyterub.org]({{ site.baseurl }}/downloads/hashes.txt). Klik met de rechtermuisknop op de pagina en klik vervolgens op `Pagina opslaan als`.
 
-![hashes contextmenu](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-rightclick.png)
+![hashes contextmenu](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-rightclick.png)
 
 Laat de standaardlocatie staan en klik op `Opslaan`.
 
-![hashes bestand opslaan](png/verify_binary_windows_beginner/verify-win_hashes-getmonero-savename.png)
+![hashes bestand opslaan](png/verify_binary_windows_beginner/verify-win_hashes-getbyterub-savename.png)
 
 ### 3.2. Hashbestand verifiëren
 
@@ -216,17 +216,17 @@ In dit gedeelte leggen we uit hoe je de ByteRub-binary downloadt en de authentic
 
 ### 4.1. Binary downloaden
 
-Ga in een browser naar de [downloadpagina op getmonero.org]({{ site.baseurl }}/downloads/#windows). Selecteer het juiste binaire bestand voor je systeem.
+Ga in een browser naar de [downloadpagina op getbyterub.org]({{ site.baseurl }}/downloads/#windows). Selecteer het juiste binaire bestand voor je systeem.
 
-![binary getmonero](png/verify_binary_windows_beginner/verify-win_binary-getmonero-windowsfiles.png)
+![binary getbyterub](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-windowsfiles.png)
 
 Laat `Bestand opslaan` ingeschakeld en klik op `OK`.
 
-![binary getmonero opslaan](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-file.png)
+![binary getbyterub opslaan](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-file.png)
 
 Laat de standaardlocatie staan en klik op `Opslaan`.
 
-![binary getmonero opslaan locatie](png/verify_binary_windows_beginner/verify-win_binary-getmonero-save-location.png)
+![binary getbyterub opslaan locatie](png/verify_binary_windows_beginner/verify-win_binary-getbyterub-save-location.png)
 
 ### 4.2. Binary verifiëren
 
@@ -242,7 +242,7 @@ Ga naar de map `Downloads` met de opdracht: `cd Downloads`.
 
 ![binary cmd cd](png/verify_binary_windows_beginner/verify-win_binary-cmd-cd.png)
 
-Bereken de hash van de ByteRub-binary met de opdracht: `certUtil -hashfile monero-gui-win-x64-v0.11.1.0.zip SHA256` (of vervang `monero-gui-win-x64-v0.11.1.0.zip` door een andere bestandsnaam als je de opdrachtregelversie hebt gedownload).
+Bereken de hash van de ByteRub-binary met de opdracht: `certUtil -hashfile byterub-gui-win-x64-v0.11.1.0.zip SHA256` (of vervang `byterub-gui-win-x64-v0.11.1.0.zip` door een andere bestandsnaam als je de opdrachtregelversie hebt gedownload).
 
 ![binary cmd certutil](png/verify_binary_windows_beginner/verify-win_binary-cmd-certutil.png)
 

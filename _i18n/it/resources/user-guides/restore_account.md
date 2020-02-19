@@ -4,11 +4,11 @@
 
 - Retrieve your 25 word @mnemonic-seed that you saved when creating your old ByteRub @wallet
 
-### Account Software:  monero-wallet-cli
+### Account Software:  byterub-wallet-cli
 
-- Open a command prompt and navigate to the drive and directory that contains monero-wallet-cli
+- Open a command prompt and navigate to the drive and directory that contains byterub-wallet-cli
 
-- At the command prompt type:  `monero-wallet-cli --restore-deterministic-wallet`
+- At the command prompt type:  `byterub-wallet-cli --restore-deterministic-wallet`
 
 - Once you press enter you will be prompted for a wallet file name.  Give your wallet a new name, any name will do
 
@@ -20,11 +20,11 @@
 
 -  You will then be prompted with "Restore from specific blockchain height (optional, default 0):" Default will start the restore process from the beginning of the ByteRub blockchain. If you don't know the specific blockchain height, just hit enter. (Specifying a specific blockchain height will start the restore process from that specific height. This will save a bit of time in scanning, if you know what starting blockchain height your initial funds were transacted for this specific account.)
 
-After you have entered the 25 word mnemonic seed and have chosen your specific blockchain height, monero-wallet-cli will generate the same public address and view key as your old wallet and begin the refresh process automatically. (Please be patient as the refresh process may take a while.)
+After you have entered the 25 word mnemonic seed and have chosen your specific blockchain height, byterub-wallet-cli will generate the same public address and view key as your old wallet and begin the refresh process automatically. (Please be patient as the refresh process may take a while.)
 
-### Account Software:  monero-wallet-gui
+### Account Software:  byterub-wallet-gui
 
-Lauch `monero-wallet-gui`. If this is the first time you launched it go to the next step, otherwise click `Cancel`:
+Lauch `byterub-wallet-gui`. If this is the first time you launched it go to the next step, otherwise click `Cancel`:
 
 ![cancel opening](png/restore_account/cancel-opening.png)
 

@@ -18,7 +18,7 @@
 
 - Kopieer de ByteRub-binaries naar een RAM-schijf (/dev/shm in Linux, in Windows meestal een station Z: of zoiets op een opstartbare ISO).
 
-- Voer de ByteRub-daemon niet uit. Gebruik in plaats daarvan monero-wallet-cli in een opdrachtregelvenster om een nieuw ByteRub-@account aan te maken.
+- Voer de ByteRub-daemon niet uit. Gebruik in plaats daarvan byterub-wallet-cli in een opdrachtregelvenster om een nieuw ByteRub-@account aan te maken.
 
 - Geef een naam uit wanneer daarom gevraagd wordt. Het maakt niet uit wat voor naam.
 
@@ -35,4 +35,4 @@ Je nieuwe account is in RAM gemaakt en de digitale bestanden zijn nu verdwenen. 
 
 Geschreven door:  Riccardo Spagni
 
-Gerelateerd:  [Offline account-generator](http://moneroaddress.org/)
+Gerelateerd:  [Offline account-generator](http://byterubaddress.org/)

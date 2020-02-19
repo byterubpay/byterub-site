@@ -3,7 +3,7 @@
     - name: Создание раздела на Bitcointalk
       date: 2014-04-18
       status: completed
-    - name: Переименование из Bitmonero в ByteRub
+    - name: Переименование из Bitbyterub в ByteRub
       date: 2014-04-23
       status: completed
     - name: Восстановление после спам-атаки
@@ -60,7 +60,7 @@
     - name: Обновление сети для настройки минимального размера блока и динамического алгоритма сборов
       date: 2017-04-15
       status: completed
-    - name: Изменение внешнего вида веб-сайта getmonero.org
+    - name: Изменение внешнего вида веб-сайта getbyterub.org
       date: 2017-07-04
       status: completed
     - name: Выпуск версии 0.11.0.0
@@ -110,7 +110,7 @@
     - name: Обновление сети, изменен минимально допустимый размера кольца "ringsize" от 7 и более, интегрированы мультиподписи (multisig) и субадреса, изменен алгоритм доказательства работы "PoW"
       date: 2018-04-06
       status: completed
-    - name: Перевод getmonero.org на французский и польский язык
+    - name: Перевод getbyterub.org на французский и польский язык
       date: 2018-04-24
       status: completed
     - name: Выпуск версии 0.12.1.0 Lithium Luna
@@ -131,10 +131,10 @@
     - name: Выпуск alpha версии Kovri
       date: 2018-08-01
       status: completed
-    - name: Getmonero.org ByteRubpedia open for Localization
+    - name: Getbyterub.org ByteRubpedia open for Localization
       date: 2018-08-03
       status: completed
-    - name: Перевод getmonero.org на арабский язык
+    - name: Перевод getbyterub.org на арабский язык
       date: 2018-08-10
       status: completed
     - name: Выпуск версии 0.13.0.2 Beryllium Bullet
@@ -172,7 +172,7 @@
       status: completed
 - year: 2019
   accomplishments:
-    - name: Перевод getmonero.org на немецкий язык
+    - name: Перевод getbyterub.org на немецкий язык
       date: 2019-02-11
       status: completed
     - name: Выпуск версии 0.14.0.0 Boron Butterfly
@@ -190,7 +190,7 @@
     - name: Переход на новый алгоритм доказательства работы "PoW" CryptoNightR
       date: 2019-03-09
       status: completed
-    - name: Перевод getmonero.org на португальско-бразильский и русский язык
+    - name: Перевод getbyterub.org на португальско-бразильский и русский язык
       date: 2019-03-12
       status: completed
     - name: Поддержка аппаратных кошельков Trezor

@@ -49,7 +49,7 @@ view key: 4130fa26463d9451781771a8baa5d0b8085c47c4500cefe4746bab48f1d15903
 Your wallet has been generated.
 To start synchronizing with the daemon, use "refresh" command.
 Use "help" command to see the list of available commands.
-Always use "exit" command when closing monero-wallet-cli to save your
+Always use "exit" command when closing byterub-wallet-cli to save your
 current session's state. Otherwise, you might need to synchronize
 your wallet again (your wallet keys are NOT at risk in any case).
 
@@ -71,7 +71,7 @@ As the example above indicates, it is incredibly important to store these words 
 
 ### Practicing Good Security
 
-Over and above backing up your @mnemonic-seed so that you have access to your account in the event of critical data loss, it is also important to practice good security. Use a secure password when creating a local ByteRub account (not used on [MyByteRub](https://mymonero.com) or other web-based account systems).
+Over and above backing up your @mnemonic-seed so that you have access to your account in the event of critical data loss, it is also important to practice good security. Use a secure password when creating a local ByteRub account (not used on [MyByteRub](https://mybyterub.com) or other web-based account systems).
 
 Don't ever give your ByteRub account password to anyone, as this can be used to access the ByteRub on your computer without knowing your @mnemonic-seed. Similarly, make sure you have running and up-to-date antivirus, especially on Windows computers. Finally, be careful when clicking links in emails or on unknown and untrusted websites, as malware installed on your computer can sit and wait for you to access your ByteRub account before taking the funds from it.
 

@@ -2,13 +2,13 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ### Step 1
 
-Download the Current bootstrap from https://downloads.getmonero.org/blockchain.raw; you can skip this step if you are importing the Blockchain from another source.
+Download the Current bootstrap from https://downloads.getbyterub.org/blockchain.raw; you can skip this step if you are importing the Blockchain from another source.
 
 ### Step 2
 
 Find the path of your ByteRub wallet (the folder where you extracted your wallet). For example mine is:
 
-`D:\monero-gui-0.10.3.1`
+`D:\byterub-gui-0.10.3.1`
 
 Your path may be different depending on where you decided to download your wallet and what version of the ByteRub wallet you have.
 
@@ -32,7 +32,7 @@ Now you need to navigate using the CMD window to the path of your ByteRub wallet
 
 It should look something like:
 
-`cd D:\monero-gui-0.10.3.1`
+`cd D:\byterub-gui-0.10.3.1`
 
 If your ByteRub wallet is on another drive you can use `DriveLetter:` for example if your ByteRub wallet was on your D drive then before using the cd command you would do `D:`
 
@@ -40,11 +40,11 @@ If your ByteRub wallet is on another drive you can use `DriveLetter:` for exampl
 
 Now type in your command prompt window:
 
-`monero-blockchain-import --input-file C:\YOUR\BLOCKCHAIN\FILE\PATH\HERE`
+`byterub-blockchain-import --input-file C:\YOUR\BLOCKCHAIN\FILE\PATH\HERE`
 
 For example I would type :
 
-`monero-blockchain-import --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
+`byterub-blockchain-import --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
 
 If you downloaded the Blockchain from a trusted, reputable source you may set `verify 0` this will reduce the amount of time to sync the Blockchain.  
 

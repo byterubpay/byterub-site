@@ -8,12 +8,12 @@
 
 ### [أدوات إنشاء حساب مونيرو](https://xmr.llcoins.net/)
 
-### [عدد خوادم مونيرو](http://moneronodes.i2p.xyz/)
+### [عدد خوادم مونيرو](http://byterubnodes.i2p.xyz/)
 
-### [خريطه خوادم مونيرو](https://monerohash.com/nodes-distribution.html)
+### [خريطه خوادم مونيرو](https://byterubhash.com/nodes-distribution.html)
 
-### [مُنشيء حساب مونيرو بِدون إتصال بالإنترنت](http://moneroaddress.org/)
+### [مُنشيء حساب مونيرو بِدون إتصال بالإنترنت](http://byterubaddress.org/)
 
-### [إحصائيات شبكه مونيرو](http://moneroblocks.info/stats)
+### [إحصائيات شبكه مونيرو](http://byterubblocks.info/stats)
 
-### [ByteRub.how إحصائيات](https://www.monero.how/)
+### [ByteRub.how إحصائيات](https://www.byterub.how/)

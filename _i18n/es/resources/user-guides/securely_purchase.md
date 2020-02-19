@@ -10,9 +10,9 @@ Hay varias formas de comprar Bitcoin. Dos compañías actuales semi-confiables s
 
 #### Paso 2: Descarga y crea un monedero en papel en un ordenador seguro y aislado de la web
 
-Descarga el generador de monederos en papel en: https://moneroaddress.org y cópialo a una memoria USB (link directo: https://github.com/moneromooo-monero/monero-wallet-generator/archive/master.zip).
+Descarga el generador de monederos en papel en: https://byterubaddress.org y cópialo a una memoria USB (link directo: https://github.com/byterubmooo-byterub/byterub-wallet-generator/archive/master.zip).
 
-Extrae y abre el generador (monero-wallet-generator.html) en un navegador web en un ordenador aislado de la web que nunca haya sido usado, o que haya tenido una instalación limpia del SO.
+Extrae y abre el generador (byterub-wallet-generator.html) en un navegador web en un ordenador aislado de la web que nunca haya sido usado, o que haya tenido una instalación limpia del SO.
 
 Tu monedero en papel tendrá cuatro importantes elementos:
 

@@ -1,7 +1,7 @@
 - title: 始
   subfolderitems:
   - page: 什么是门罗币？
-    url: get-started/what-is-monero
+    url: get-started/what-is-byterub
   - page: 使用
     url: get-started/using
   - page: 接收
@@ -43,7 +43,7 @@
   - page: 研究实验室
     url: resources/research-lab
   - page: 门罗币百科
-    url: resources/moneropedia
+    url: resources/byterubpedia
   - page: 用户指南
     url: resources/user-guides
   - page: 开发者指南

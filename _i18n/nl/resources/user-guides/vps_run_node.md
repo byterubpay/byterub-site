@@ -1,46 +1,46 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# monerod
+# byterubd
 
-`monerod` is de daemon-software die onderdeel uitmaakt van de ByteRub-code. Het is een console-programma waarmee de blockchain wordt beheerd. Terwijl een Bitcoin-portemonnee zowel een account als de blockchain beheert, worden deze functies in ByteRub gescheiden: `monerod` beheert de blockchain en `monero-wallet-cli` beheert het account.
+`byterubd` is de daemon-software die onderdeel uitmaakt van de ByteRub-code. Het is een console-programma waarmee de blockchain wordt beheerd. Terwijl een Bitcoin-portemonnee zowel een account als de blockchain beheert, worden deze functies in ByteRub gescheiden: `byterubd` beheert de blockchain en `byterub-wallet-cli` beheert het account.
 
 Deze handleiding gaat ervan uit dat je al een VPS-account hebt ingesteld en SSH gebruikt als tunnel om te communiceren met de serverconsole.
 
 ## Linux, 64-bits (Ubuntu 16.04 LTS)
 
 ### Zorg dat poort 18080 open staat
-`monerod` gebruikt deze poort om te communiceren met andere nodes op het ByteRub-netwerk.
+`byterubd` gebruikt deze poort om te communiceren met andere nodes op het ByteRub-netwerk.
 
 Voorbeeld als je `ufw` gebruikt: `sudo ufw allow 18080`
 Voorbeeld als je `iptables` gebruikt: `sudo iptables -A INPUT -p tcp --dport 18080 -j ACCEPT`
 
 ### Download de huidige ByteRub Core-binaries
 
-    wget https://downloads.getmonero.org/linux64
+    wget https://downloads.getbyterub.org/linux64
 
 ### Maak een directory aan en pak de bestanden uit.
 
-    mkdir monero
-    tar -xjvf linux64 -C monero
+    mkdir byterub
+    tar -xjvf linux64 -C byterub
 
 ### Start de daemon
 
-    cd monero
-    ./monerod
+    cd byterub
+    ./byterubd
 
 ### Opties:
 
 Een lijst met alle opties en instellingen weergeven:
 
-    ./monerod --help
+    ./byterubd --help
 
 De daemon starten als een achtergrondproces:
 
-    ./monerod --detach
+    ./byterubd --detach
 
-De uitvoer van `monerod` als achtergrondproces loggen:
+De uitvoer van `byterubd` als achtergrondproces loggen:
 
-    tail -f ~/.bitmonero/bitmonero.log
+    tail -f ~/.bitbyterub/bitbyterub.log
 
 De VPS beveiligen met automatische updates:
 

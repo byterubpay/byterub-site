@@ -18,7 +18,7 @@
 
 - Copy the ByteRub binaries to a RAM disk (/dev/shm in Linux, Windows bootable ISOs normally have a Z: drive or something)
 
-- Don't run the ByteRub daemon. Instead, using the command line, use monero-wallet-cli to create a new ByteRub @account
+- Don't run the ByteRub daemon. Instead, using the command line, use byterub-wallet-cli to create a new ByteRub @account
 
 - When prompted for a name, give it any name, it doesn't really matter
 
@@ -35,4 +35,4 @@ The account you've created was created in RAM, and the digital files are now ina
 
 Credit:  Riccardo Spagni
 
-Related:  [Offline Account Generator](http://moneroaddress.org/)
+Related:  [Offline Account Generator](http://byterubaddress.org/)

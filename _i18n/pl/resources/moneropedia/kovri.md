@@ -19,7 +19,7 @@ Kovri będzie chronił ciebie i ByteRub przed:
 
 ... i wiele więcej.
 
-Przeczytaj [anonimową propozycję FFS](https://forum.getmonero.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread), aby dowiedzieć się więcej szczegółów oraz na temat argumentacji projektu. Przeczytaj również FAQ i Przewodniki dla Użytkowników w [folderze Kovri](https://gitlab.com/kovri-project/kovri/).
+Przeczytaj [anonimową propozycję FFS](https://forum.getbyterub.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread), aby dowiedzieć się więcej szczegółów oraz na temat argumentacji projektu. Przeczytaj również FAQ i Przewodniki dla Użytkowników w [folderze Kovri](https://gitlab.com/kovri-project/kovri/).
 
 ### Terminologia @Kovri / @I2P
 

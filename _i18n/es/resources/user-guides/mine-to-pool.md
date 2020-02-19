@@ -3,7 +3,7 @@
 # Seleccionando una pool
 
 Hay muchas pools para escoger, una lista está disponible en
-[moneropools.com](https://moneropools.com). Minar en una pool grande puede significar
+[byterubpools.com](https://byterubpools.com). Minar en una pool grande puede significar
 pagos más frecuentes, pero minar en una pequeña ayuda a mantener la red
 descentralizada.
 

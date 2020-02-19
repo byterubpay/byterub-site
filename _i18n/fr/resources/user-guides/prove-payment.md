@@ -18,14 +18,14 @@ Lorsqu'Alice a réalisé la transaction, une clef à usage unique a été automa
 
 #### CLI
 
-Alice peut la demander dans monero-wallet-cli (nouveau nom de l'ancien simplewallet) :
+Alice peut la demander dans byterub-wallet-cli (nouveau nom de l'ancien simplewallet) :
 
 > get_tx_key IDTX
 
 Alice va indiquer son ID de transaction en lieu et place de ce IDTX. Une fois fait, la clef de transaction à usage unique
 sera affichée.
 
-Notez que cela ne fonctionnera que si monero-wallet-cli est configuré pour sauvegarder les clefs de transaction. Pour le vérifier :
+Notez que cela ne fonctionnera que si byterub-wallet-cli est configuré pour sauvegarder les clefs de transaction. Pour le vérifier :
 
 > set
 
@@ -35,7 +35,7 @@ Si la valeur est fixée à 0, positionnez-la à 1 :
 
 #### GUI
 
-Alice peut ouvrir son monero-wallet-gui et aller à la page historique pour voir les détails de la transaction :
+Alice peut ouvrir son byterub-wallet-gui et aller à la page historique pour voir les détails de la transaction :
 
 ![History](png/prove-payment/history.png)
 
@@ -58,17 +58,17 @@ jour,
 
 #### CLI
 
-Charlie entre dans monero-wallet-cli :
+Charlie entre dans byterub-wallet-cli :
 
 > check_tx_key IDTX CLEFTX ADRESSE
 
-Les données fournies par Alice entrées en lieux et place de leurs identifiants respectifs. monero-wallet-clu va se servir
+Les données fournies par Alice entrées en lieux et place de leurs identifiants respectifs. byterub-wallet-clu va se servir
 de la clef de transaction pour décoder la transaction et afficher quel montant a été envoyé à cette adresse pour cette
 transaction spécifique.
 
 #### GUI
 
-Charlie ouvre son monero-wallet-gui et va à la page Avancé > Prouver/vérifier afin de remplir la section Vérifier avec les éléments transmis par Alice :
+Charlie ouvre son byterub-wallet-gui et va à la page Avancé > Prouver/vérifier afin de remplir la section Vérifier avec les éléments transmis par Alice :
 
 ![Check payment](png/prove-payment/check-payment.png)
 

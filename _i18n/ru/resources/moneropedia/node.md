@@ -20,4 +20,4 @@ ByteRub Core Team планирует обновлять сеть каждые 6 
 ---
 
 ##### Другие источники
-<sub>1. *Fluffypony в официальной еженедельной публикации ByteRub приводит превосходное объяснение, почему обязательное обновление сети только на пользу этой криптовалюте* ([ByteRub Missives for the Week of 2016-06-20](https://getmonero.org/2016/06/20/monero-missive-for-the-week-of-2016-06-20.html))</sub>
+<sub>1. *Fluffypony в официальной еженедельной публикации ByteRub приводит превосходное объяснение, почему обязательное обновление сети только на пользу этой криптовалюте* ([ByteRub Missives for the Week of 2016-06-20](https://getbyterub.org/2016/06/20/byterub-missive-for-the-week-of-2016-06-20.html))</sub>

@@ -8,9 +8,9 @@ There are many ways to buy Bitcoin. Two semi-reliable companies at this time are
 
 #### Step 2: Download and create a Paper Wallet on a secure and air-gapped computer.
 
-Download the paper wallet generator at: https://moneroaddress.org and copy it to a USB stick (Direct link: https://github.com/moneromooo-monero/monero-wallet-generator/archive/master.zip).
+Download the paper wallet generator at: https://byterubaddress.org and copy it to a USB stick (Direct link: https://github.com/byterubmooo-byterub/byterub-wallet-generator/archive/master.zip).
 
-Unzip and open the paper wallet generator (monero-wallet-generator.html) into a web browser on an air-gapped computer that hasn't been used before, or has had a clean installation of the OS.
+Unzip and open the paper wallet generator (byterub-wallet-generator.html) into a web browser on an air-gapped computer that hasn't been used before, or has had a clean installation of the OS.
 
 Your paper wallet will have four important items:
 

@@ -10,9 +10,9 @@ Il y a plusieurs façon d'acheter des Bitcoins. Deux sociétés à peu près fia
 
 #### Étape 2 : Télécharger et créer un portefeuille papier sur un ordinateur sécurisé et isolé
 
-Téléchargez le générateur de portefeuille papier sur https://moneroaddress.org et copiez-le sur une clef USB (lien direct : https://github.com/moneromooo-monero/monero-wallet-generator/archive/master.zip).
+Téléchargez le générateur de portefeuille papier sur https://byterubaddress.org et copiez-le sur une clef USB (lien direct : https://github.com/byterubmooo-byterub/byterub-wallet-generator/archive/master.zip).
 
-Décompressez et ouvrer le générateur de portefeuille papier (monero-wallet-generator.html) dans le navigateur d'un ordinateur isolé (sans connexions d'aucune sorte) qui n'a jamais été utilisé avant, ou qui dispose d'un système d'exploitation fraichement installé.
+Décompressez et ouvrer le générateur de portefeuille papier (byterub-wallet-generator.html) dans le navigateur d'un ordinateur isolé (sans connexions d'aucune sorte) qui n'a jamais été utilisé avant, ou qui dispose d'un système d'exploitation fraichement installé.
 
 Votre portefeuille papier aura quatre éléments importants :
 

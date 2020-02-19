@@ -2,9 +2,9 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ## Introduction
 
-This is a list of the monero-wallet-rpc calls, their inputs and outputs, and examples of each. The program monero-wallet-rpc replaced the rpc interface that was in simplewallet and then monero-wallet-cli.
+This is a list of the byterub-wallet-rpc calls, their inputs and outputs, and examples of each. The program byterub-wallet-rpc replaced the rpc interface that was in simplewallet and then byterub-wallet-cli.
 
-All monero-wallet-rpc methods use the same JSON RPC interface. For example:
+All byterub-wallet-rpc methods use the same JSON RPC interface. For example:
 
 ```
 IP=127.0.0.1
@@ -17,7 +17,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-If the monero-wallet-rpc was executed with the `--rpc-login` argument as `username:password`, then follow this example:
+If the byterub-wallet-rpc was executed with the `--rpc-login` argument as `username:password`, then follow this example:
 
 ```
 IP=127.0.0.1
@@ -31,7 +31,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Note: "@atomic-units" refer to the smallest fraction of 1 XMR according to the monerod implementation. **1 XMR = 1e12 @atomic-units.**
+Note: "@atomic-units" refer to the smallest fraction of 1 XMR according to the byterubd implementation. **1 XMR = 1e12 @atomic-units.**
 
 This list has been updated on a frozen code on 2018-09-14 after merged commit bb30a7236725e456138f055f96a634c75ce2b491 (Wallet RPC version 1.3), and at block height 1643308.
 
@@ -132,7 +132,7 @@ Inputs:
 
 Outputs:
 
-* *balance* - unsigned int; The total balance of the current monero-wallet-rpc in session.
+* *balance* - unsigned int; The total balance of the current byterub-wallet-rpc in session.
 * *unlocked_balance* - unsigned int; Unlocked funds are those funds that are sufficiently deep enough in the ByteRub blockchain to be considered safe to spend.
 * *multisig_import_needed* - boolean; True if importing multisig data is needed for returning a correct balance.
 * *per_subaddress* - array of subaddress information; Balance information for each subaddress in an account.
@@ -187,7 +187,7 @@ Inputs:
 
 Outputs:
 
-* *address* - string; The 95-character hex address string of the monero-wallet-rpc in session.
+* *address* - string; The 95-character hex address string of the byterub-wallet-rpc in session.
 * *addresses* array of addresses informations
   * *address* string; The 95-character hex (sub)address string.
   * *label* string; Label of the (sub)address
@@ -549,7 +549,7 @@ Inputs: *None*.
 
 Outputs:
 
-* *height* - unsigned int; The current monero-wallet-rpc's blockchain height. If the wallet has been offline for a long time, it may need to catch up with the daemon.
+* *height* - unsigned int; The current byterub-wallet-rpc's blockchain height. If the wallet has been offline for a long time, it may need to catch up with the daemon.
 
 Example:
 
@@ -567,7 +567,7 @@ $ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **transfer**
 
-Send monero to a number of recipients.
+Send byterub to a number of recipients.
 
 Alias: *None*.
 
@@ -581,9 +581,9 @@ Inputs:
 * *priority* - unsigned int; Set a priority for the transaction. Accepted Values are: 0-3 for: default, unimportant, normal, elevated, priority.
 * *mixin* - unsigned int; Number of outputs from the blockchain to mix with (0 means no mixing).
 * *ring_size* - unsigned int; Number of outputs to mix in the transaction (this output + N decoys from the blockchain).
-* *unlock_time* - unsigned int; Number of blocks before the monero can be spent (0 to not add a lock).
+* *unlock_time* - unsigned int; Number of blocks before the byterub can be spent (0 to not add a lock).
 * *get_tx_key* - boolean; (Optional) Return the transaction key after sending.
-* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the monero network. (Defaults to false)
+* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the byterub network. (Defaults to false)
 * *get_tx_hex* - boolean; Return the transaction as hex string after sending (Defaults to false)
 * *get_tx_metadata* - boolean; Return the metadata needed to relay the transaction. (Defaults to false)
 
@@ -635,10 +635,10 @@ Inputs:
 * *subaddr_indices* - array of unsigned int; (Optional) Transfer from this set of subaddresses. (Defaults to empty - all indices)
 * *mixin* - unsigned int; Number of outputs from the blockchain to mix with (0 means no mixing).
 * *ring_size* - unsigned int; Sets ringsize to n (mixin + 1).
-* *unlock_time* - unsigned int; Number of blocks before the monero can be spent (0 to not add a lock).
+* *unlock_time* - unsigned int; Number of blocks before the byterub can be spent (0 to not add a lock).
 * *get_tx_keys* - boolean; (Optional) Return the transaction keys after sending.
 * *priority* - unsigned int; Set a priority for the transactions. Accepted Values are: 0-3 for: default, unimportant, normal, elevated, priority.
-* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the monero network. (Defaults to false)
+* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the byterub network. (Defaults to false)
 * *get_tx_hex* - boolean; Return the transactions as hex string after sending
 * *new_algorithm* - boolean; True to use the new transaction construction algorithm, defaults to false.
 * *get_tx_metadata* - boolean; Return list of transaction metadata needed to relay the transfer later.
@@ -760,7 +760,7 @@ Alias: *sweep_unmixable*.
 Inputs:
 
 * *get_tx_keys* - boolean; (Optional) Return the transaction keys after sending.
-* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the monero network. (Defaults to false)
+* *do_not_relay* - boolean; (Optional) If true, the newly created transaction will not be relayed to the byterub network. (Defaults to false)
 * *get_tx_hex* - boolean; (Optional) Return the transactions as hex string after sending. (Defaults to false)
 * *get_tx_metadata* - boolean; (Optional) Return list of transaction metadata needed to relay the transfer later. (Defaults to false)
 
@@ -805,7 +805,7 @@ Inputs:
 * *priority* - unsigned int; (Optional) Priority for sending the sweep transfer, partially determines fee.
 * *mixin* - unsigned int; Number of outputs from the blockchain to mix with (0 means no mixing).
 * *ring_size* - unsigned int; Sets ringsize to n (mixin + 1).
-* *unlock_time* - unsigned int; Number of blocks before the monero can be spent (0 to not add a lock).
+* *unlock_time* - unsigned int; Number of blocks before the byterub can be spent (0 to not add a lock).
 * *get_tx_keys* - boolean; (Optional) Return the transaction keys after sending.
 * *below_amount* - unsigned int; (Optional) Include outputs below this amount.
 * *do_not_relay* - boolean; (Optional) If true, do not relay this sweep transfer. (Defaults to false)
@@ -856,7 +856,7 @@ Inputs:
 * *priority* - unsigned int; (Optional) Priority for sending the sweep transfer, partially determines fee.
 * *mixin* - unsigned int; Number of outputs from the blockchain to mix with (0 means no mixing).
 * *ring_size* - unsigned int; Sets ringsize to n (mixin + 1).
-* *unlock_time* - unsigned int; Number of blocks before the monero can be spent (0 to not add a lock).
+* *unlock_time* - unsigned int; Number of blocks before the byterub can be spent (0 to not add a lock).
 * *get_tx_keys* - boolean; (Optional) Return the transaction keys after sending.
 * *key_image* - string; Key image of specific output to sweep.
 * *below_amount* - unsigned int; (Optional) Include outputs below this amount.
@@ -1897,7 +1897,7 @@ Outputs:
   * *fee* - unsigned int; The fee charged for the transaction in @atomic units.
   * *payment_id* - string; payment ID for this transfer (empty if not provided.
   * *ring_size* - unsigned int; The number of inputs in the ring (1 real output + the number of decoys from the blockchain).
-  * *unlock_time* - unsigned int; The number of blocks before the monero can be spent (0 for no lock).
+  * *unlock_time* - unsigned int; The number of blocks before the byterub can be spent (0 for no lock).
   * *dummy_outputs* - unsigned int; The number of fake outputs added to single-output transactions.  Fake outputs have 0 amount and are sent to a random address.
   * *extra* - string; Arbitrary transaction data in hexadecimal format.
   
@@ -2136,7 +2136,7 @@ $ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "uri": "monero:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."
+    "uri": "byterub:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."
   }
 }
 ```
@@ -2164,7 +2164,7 @@ Outputs:
 Example:
 
 ```
-$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"monero:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
+$ curl -X POST http://127.0.0.1:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"parse_uri","params":{"uri":"byterub:55LTR8KniP4LQGJSPtbYDacR7dz8RBFnsfAKMaMuwUNYX6aQbBcovzDPyrQF9KXF9tVU6Xk3K8no1BywnJX6GvZX8yJsXvt?tx_payment_id=420fa29b2d9a49f5&tx_amount=0.000000000010&recipient_name=el00ruobuob%20Stagenet%20wallet&tx_description=Testing%20out%20the%20make_uri%20function."}}' -H 'Content-Type: application/json'
 {
   "id": "0",
   "jsonrpc": "2.0",
@@ -2465,7 +2465,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **create_wallet**
 
-Create a new wallet. You need to have set the argument "--wallet-dir" when launching monero-wallet-rpc to make this work.
+Create a new wallet. You need to have set the argument "--wallet-dir" when launching byterub-wallet-rpc to make this work.
 
 Alias: *None*.
 
@@ -2492,7 +2492,7 @@ $ curl -X POST http://localhost:18082/json_rpc -d '{"jsonrpc":"2.0","id":"0","me
 
 ### **open_wallet**
 
-Open a wallet. You need to have set the argument "--wallet-dir" when launching monero-wallet-rpc to make this work.
+Open a wallet. You need to have set the argument "--wallet-dir" when launching byterub-wallet-rpc to make this work.
 
 Alias: *None*.
 

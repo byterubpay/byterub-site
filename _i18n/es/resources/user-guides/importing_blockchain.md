@@ -2,13 +2,13 @@
 {% include disclaimer.html translated="true" version=page.version %}
 ### Paso 1
 
-Descarga la blockchain actual de https://downloads.getmonero.org/blockchain.raw; puedes saltar este paso si estás importando la blockchain de otra fuente.
+Descarga la blockchain actual de https://downloads.getbyterub.org/blockchain.raw; puedes saltar este paso si estás importando la blockchain de otra fuente.
 
 ### Paso 2
 
 Busca la dirección de tu monedero de ByteRub (la carpeta donde has extraído tu monedero). Por ejemplo:
 
-`D:\monero-gui-0.10.3.1`
+`D:\byterub-gui-0.10.3.1`
 
 Tu dirección puede ser distinta dependiendo en dónde decidiste descargar tu monedero y con qué versión de monedero cuentas.
 
@@ -32,7 +32,7 @@ Ahora necesitas ir desde la consola a la dirección de tu monedero de ByteRub. P
 
 Se debería ver como:
 
-`cd D:\monero-gui-0.10.3.1`
+`cd D:\byterub-gui-0.10.3.1`
 
 Si tu monedero de ByteRub está en otro disco, puedes utilizar `DriveLetter:`. Por ejemplo, si tu monedero está en el disco D, entones antes de utilizar el comando `cd` debes escribir `D:`.
 
@@ -40,11 +40,11 @@ Si tu monedero de ByteRub está en otro disco, puedes utilizar `DriveLetter:`. P
 
 Ahora escribe en la consola:
 
-`monero-blockchain-import --verify 1 --input-file C:\DIRECCIÓN\DEL\ARCHIVO\DE\TU\BLOCKCHAIN`
+`byterub-blockchain-import --verify 1 --input-file C:\DIRECCIÓN\DEL\ARCHIVO\DE\TU\BLOCKCHAIN`
 
 Por ejemplo:
 
-`monero-blockchain-import --verify 1 --input-file C:\Usuarios\KeeJef\Descargas\blockchain.raw`
+`byterub-blockchain-import --verify 1 --input-file C:\Usuarios\KeeJef\Descargas\blockchain.raw`
 
 Si descargaste la blockchain de una fuente confiable y de reputación, puedes configurar el comando a `verify 0`. Esto reducirá la cantidad de tiempo de sincronización de la blockchain.
 

@@ -15,17 +15,17 @@ You need to have 3 pieces of data from your wallet, or your .keys file which hol
 
 Then run the wallet command:
 
-`./monero-wallet-cli --generate-from-keys New_Wallet_Name.abc`
+`./byterub-wallet-cli --generate-from-keys New_Wallet_Name.abc`
 
 Next, you'll be asked for the Address, the spendkey, the viewkey, and finally the new password for the re-generated wallet.
 
 Running this with the correct parameters will re-generate your wallet files for you and allow you to set a new password.
 
-If you run into any trouble, running `./monero-wallet-cli --help` will show you the options available to you at wallet startup. Once you're inside your wallet, running the `help` command will list the help for the commands available to you within the wallet.
+If you run into any trouble, running `./byterub-wallet-cli --help` will show you the options available to you at wallet startup. Once you're inside your wallet, running the `help` command will list the help for the commands available to you within the wallet.
 
 #### GUI
 
-Launch `monero-wallet-gui`. If this is the first time you launched it go to the next step, otherwise click `Cancel`:
+Launch `byterub-wallet-gui`. If this is the first time you launched it go to the next step, otherwise click `Cancel`:
 
 ![cancel opening](png/restore_from_keys/cancel-opening.png)
 

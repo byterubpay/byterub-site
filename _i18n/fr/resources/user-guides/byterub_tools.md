@@ -8,12 +8,12 @@ Ces outils peuvent être utilisés pour obtenir des informations concernant le r
 
 ### [Outils de génération d'adresse ByteRub](https://xmr.llcoins.net/)
 
-### [Compteur de nœuds ByteRub](http://moneronodes.i2p.xyz/)
+### [Compteur de nœuds ByteRub](http://byterubnodes.i2p.xyz/)
 
-### [Carte des nœuds ByteRub](https://monerohash.com/nodes-distribution.html)
+### [Carte des nœuds ByteRub](https://byterubhash.com/nodes-distribution.html)
 
-### [Générateur de portefeuille ByteRub hors-ligne](http://moneroaddress.org/)
+### [Générateur de portefeuille ByteRub hors-ligne](http://byterubaddress.org/)
 
-### [Statistiques du réseau ByteRub](http://moneroblocks.info/stats)
+### [Statistiques du réseau ByteRub](http://byterubblocks.info/stats)
 
-### [Statistiques ByteRub.how](https://www.monero.how/)
+### [Statistiques ByteRub.how](https://www.byterub.how/)

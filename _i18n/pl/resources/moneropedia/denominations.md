@@ -21,7 +21,7 @@ Nominał jest prawidłowym opisem ilości waluty. Często jest on podjednostką 
 | centinero  | 10^-2    | 0.01              |
 | decinero   | 10^-1    | 0.1               |
 |============+==========+===================|
-| **monero** | **10^0** | **1**             |
+| **byterub** | **10^0** | **1**             |
 |============+==========+===================|
 | decanero   | 10^1     | 10                |
 | hectonero  | 10^2     | 100               |
@@ -31,4 +31,4 @@ Nominał jest prawidłowym opisem ilości waluty. Często jest on podjednostką 
 
 ### Szczegółowe informacje
 
-Pomoc w zakresie wkładów z użyciem przedrostków SI została [dodana do bazy kodów ByteRub](https://github.com/byterubpay/monero/pull/1826) 3 marca 2017 roku przez [ByteRubmooo](https://github.com/moneromooo-monero). Najmniejsza jednostka ByteRub (10^-12 XMR) została pierwotnie nazwana tacoshi na cześć użytkownika [Tacotime] (https://bitcointalk.org/index.php?action=profile;u=19270), współautora ByteRub we wczesnej fazie, i następnie przemianowana dla łatwiejszego użycia i konsekwencji.
+Pomoc w zakresie wkładów z użyciem przedrostków SI została [dodana do bazy kodów ByteRub](https://github.com/byterubpay/byterub/pull/1826) 3 marca 2017 roku przez [ByteRubmooo](https://github.com/byterubmooo-byterub). Najmniejsza jednostka ByteRub (10^-12 XMR) została pierwotnie nazwana tacoshi na cześć użytkownika [Tacotime] (https://bitcointalk.org/index.php?action=profile;u=19270), współautora ByteRub we wczesnej fazie, i następnie przemianowana dla łatwiejszego użycia i konsekwencji.

@@ -19,7 +19,7 @@
   + [3.1. Получение хеш-файла](#31-get-hash-file)
   + [3.2. Верификация хеш-файла](#32-verify-hash-file)
 ### [4. Download & Verify Binary](#4-download-and-verify-binary)
-  + [4.1. Получение двоичного файла ByteRub](#41-get-monero-binary)
+  + [4.1. Получение двоичного файла ByteRub](#41-get-byterub-binary)
   + [4.2. Верификация двоичного файла под Linux и Mac](#42-binary-verification-on-linux-or-mac)
   + [4.3. Верификация двоичного файла под Windows](#43-binary-verification-on-windows)
 
@@ -37,12 +37,12 @@
 
 ### 2.1. Получение ключа подписи
 
-Для Windows или Mac можно взять [GPG ключ Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), оторый он использует для подписи двоичных файлов ByteRub, и сохранить страницу как `fluffypony.asc` в вашей исходной, «домашней» директории.
+Для Windows или Mac можно взять [GPG ключ Fluffypony](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc), оторый он использует для подписи двоичных файлов ByteRub, и сохранить страницу как `fluffypony.asc` в вашей исходной, «домашней» директории.
 
 Для Linux можно загрузить ключ подписи Fluffypony, используя следующую команду:
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Верификация ключа подписи
@@ -99,12 +99,12 @@ gpg:              unchanged: 1
 
 ### 3.1. Получение хеш-файла
 
-В том случае, если установлена операционная система Windows или Mac, следует перейти на страницу [хеш-файлов на getmonero.org](https://getmonero.org/downloads/hashes.txt) и сохранить её в своей домашней директории как `hashes.txt`.
+В том случае, если установлена операционная система Windows или Mac, следует перейти на страницу [хеш-файлов на getbyterub.org](https://getbyterub.org/downloads/hashes.txt) и сохранить её в своей домашней директории как `hashes.txt`.
 
 В том случае, если используется Linux, можно загрузить подписанный хеш-файл, используя следующую команду:
 
 ```
-wget -O hashes.txt https://getmonero.org/downloads/hashes.txt
+wget -O hashes.txt https://getbyterub.org/downloads/hashes.txt
 ```
 
 ### 3.2. Верификация хеш-файла
@@ -139,47 +139,47 @@ Primary key fingerprint: BDA6 BD70 42B7 21C4 67A9  759D 7455 C5E3 C0CD CEB9
 
 ### 4.1. Получение двоичного файла ByteRub
 
-Если установлена операционная система Windows или Mac, необходимо перейти на [getmonero.org](https://getmonero.org/downloads/) и загрузить соответствующий используемой операционной системе файл, после чего сохранить его в домашней директории. **На данном этапе файлы извлекать не следует.**
+Если установлена операционная система Windows или Mac, необходимо перейти на [getbyterub.org](https://getbyterub.org/downloads/) и загрузить соответствующий используемой операционной системе файл, после чего сохранить его в домашней директории. **На данном этапе файлы извлекать не следует.**
 
 Для Linux можно загрузить инструменты командной строки, используя следующую команду:
 
 ```
-wget -O monero-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getmonero.org/cli/linux64
+wget -O byterub-linux-x64-v0.12.0.0.tar.bz2 https://downloads.getbyterub.org/cli/linux64
 ```
 
 ### 4.2. Верификация двоичного файла под Linux и Mac
 
-Этапы проверки для Linux и Mac ничем не отличаются. Используя консоль, необходимо получить хеш `SHA256` загруженного двоичного файла ByteRub. Для примера в этом руководстве взят двоичный файл для `Linux 64-bit` GUI. Следует заменить `monero-gui-linux-x64-v0.12.0.0.tar.bz2` на имя двоичного файла, загруженного в соответствии с [пунктом 4.1](#41-get-monero-binary).
+Этапы проверки для Linux и Mac ничем не отличаются. Используя консоль, необходимо получить хеш `SHA256` загруженного двоичного файла ByteRub. Для примера в этом руководстве взят двоичный файл для `Linux 64-bit` GUI. Следует заменить `byterub-gui-linux-x64-v0.12.0.0.tar.bz2` на имя двоичного файла, загруженного в соответствии с [пунктом 4.1](#41-get-byterub-binary).
 
 ```
-shasum -a 256 monero-gui-linux-x64-v0.12.0.0.tar.bz2
+shasum -a 256 byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 Выход должен выглядеть так, как показано, но при этом он будет отличаться в случае с каждым двоичным файлом. Хеш SHA256 должен соответствовать указанному в файле hashes.txt двоичного файла.
 
 ```
-fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  monero-gui-linux-x64-v0.12.0.0.tar.bz2
+fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 При **СОВПАДЕНИИ** хеша можно завершить работу с настоящим руководством! Теперь файлы можно извлечь и установить.
 
-В случае **НЕСОВПАДЕНИЯ** хеша, **ПРОДОЛЖАТЬ НЕ СЛЕДУЕТ.** Необходимо удалить загруженный двоичный файл и вернуться к [пункту 4.1](#41-get-monero-binary).
+В случае **НЕСОВПАДЕНИЯ** хеша, **ПРОДОЛЖАТЬ НЕ СЛЕДУЕТ.** Необходимо удалить загруженный двоичный файл и вернуться к [пункту 4.1](#41-get-byterub-binary).
 
 ### 4.3. Верификация двоичного файла под Windows
 
-Используя терминал, необходимо получить хеш `SHA256` загруженного двоичного файла ByteRub. Для примера в этом руководстве взят двоичный файл для `Windows, 64bit` GUI. Следует заменить `monero-gui-win-x64-v0.12.0.0.zip` на имя двоичного файла, загруженного в соответствии с [пунктом 4.1](#41-get-monero-binary).
+Используя терминал, необходимо получить хеш `SHA256` загруженного двоичного файла ByteRub. Для примера в этом руководстве взят двоичный файл для `Windows, 64bit` GUI. Следует заменить `byterub-gui-win-x64-v0.12.0.0.zip` на имя двоичного файла, загруженного в соответствии с [пунктом 4.1](#41-get-byterub-binary).
 
 ```
-certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256
+certUtil -hashfile byterub-gui-win-x64-v0.12.0.0.zip SHA256
 ```
 Выход должен выглядеть так, как показано, но при этом он будет отличаться в случае с каждым двоичным файлом. Хеш `SHA256` должен соответствовать указанному в файле `hashes.txt` двоичного файла.
 
 ```
-SHA256 hash of file monero-gui-win-x64-v0.12.0.0.zip:
+SHA256 hash of file byterub-gui-win-x64-v0.12.0.0.zip:
 4b 9f 31 68 6e ca ad 97 cd b1 75 e6 57 4b f3 07 f8 d1 c4 10 42 78 25 f4 30 4c 21 da 8a ac 18 64
 CertUtil: -hashfile command completed successfully.
 ```
 
 При **СОВПАДЕНИИ** хеша можно завершить работу с настоящим руководством! Теперь файлы можно извлечь и установить.
 
-В случае **НЕСОВПАДЕНИЯ** хеша, **ПРОДОЛЖАТЬ НЕ СЛЕДУЕТ.** Необходимо удалить загруженный двоичный файл и вернуться к [пункту 4.1](#41-get-monero-binary).
+В случае **НЕСОВПАДЕНИЯ** хеша, **ПРОДОЛЖАТЬ НЕ СЛЕДУЕТ.** Необходимо удалить загруженный двоичный файл и вернуться к [пункту 4.1](#41-get-byterub-binary).

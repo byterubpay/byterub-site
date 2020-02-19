@@ -1,19 +1,19 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# monero-wallet-cli
+# byterub-wallet-cli
 
-`monero-wallet-cli` is the wallet software that ships with the ByteRub tree. It is a console program,
+`byterub-wallet-cli` is the wallet software that ships with the ByteRub tree. It is a console program,
 and manages an account. While a bitcoin wallet manages both an account and the blockchain,
-ByteRub separates these: `monerod` handles the blockchain, and `monero-wallet-cli` handles the account.
+ByteRub separates these: `byterubd` handles the blockchain, and `byterub-wallet-cli` handles the account.
 
-This guide will show how to perform various operations from the `monero-wallet-cli` UI. The guide assumes you are using the most recent version of ByteRub and have already created an account according to the other guides.
+This guide will show how to perform various operations from the `byterub-wallet-cli` UI. The guide assumes you are using the most recent version of ByteRub and have already created an account according to the other guides.
 
 
 ## Checking your balance
 
-Since the blockchain handling and the wallet are separate programs, many uses of `monero-wallet-cli`
+Since the blockchain handling and the wallet are separate programs, many uses of `byterub-wallet-cli`
 need to work with the daemon. This includes looking for incoming transactions to your address.
-Once you are running both `monero-wallet-cli` and `monerod`, enter `balance`.
+Once you are running both `byterub-wallet-cli` and `byterubd`, enter `balance`.
 
 Example:
 
@@ -26,7 +26,7 @@ balance without refreshing:
 
 In this example, `Balance` is your total balance. The `unlocked balance` is the amount currently available to spend. Newly received transactions require 10 confirmations on the blockchain before being unlocked. `unlocked dust` refers to very small amounts of unspent outputs that may have accumulated in your account.
 
-## Sending monero
+## Sending byterub
 
 You will need the standard address you want to send to (a long string starting with '4'), and
 possibly a payment ID, if the receiving party requires one. In that latter case, that party
@@ -36,7 +36,7 @@ may instead give you an integrated address, which is both of these packed into a
 
     transfer ADDRESS AMOUNT PAYMENTID
 
-Replace `ADDRESS` with the address you want to send to, `AMOUNT` with how many monero you want to send,
+Replace `ADDRESS` with the address you want to send to, `AMOUNT` with how many byterub you want to send,
 and `PAYMENTID` with the payment ID you were given. Payment ID's are optional. If the receiving party doesn't need one, just
 omit it.
 
@@ -53,7 +53,7 @@ The payment ID is implicit in the integrated address in that case.
 Replace `RINGSIZE` with the number of outputs you wish to use. **If not specified, the default is 11.** It's a good idea to use the default, but you can increase the number if you want to include more outputs. The higher the number, the larger the transaction, and higher fees are needed.
 
 
-## Receiving monero
+## Receiving byterub
 
 If you have your own ByteRub address, you just need to give your standard address to someone.
 
@@ -83,7 +83,7 @@ If you pay a merchant, and the merchant claims to not have received the funds, y
 to prove to a third party you did send the funds - or even to the merchant, if it is a honest
 mistake. ByteRub is private, so you can't just point to your transaction in the blockchain,
 as you can't tell who sent it, and who received it. However, by supplying the per-transaction
-private key to a party, that party can tell whether that transaction sent monero to that
+private key to a party, that party can tell whether that transaction sent byterub to that
 particular address. Note that storing these per-transaction keys is disabled by default, and
 you will have to enable it before sending, if you think you may need it:
 
@@ -99,14 +99,14 @@ or these keys, to whoever you want to provide proof of your transaction, along w
 transaction id and the address you sent to. Note that this third party, if knowing your
 own address, will be able to see how much change was returned to you as well.
 
-If you are the third party (that is, someone wants to prove to you that they sent monero
+If you are the third party (that is, someone wants to prove to you that they sent byterub
 to an address), then you can check this way:
 
     check_tx_key TXID TXKEY ADDRESS
 
 Replace `TXID`, `TXKEY` and `ADDRESS` with the transaction ID, per-transaction key, and destination
-address which were supplied to you, respectively. monero-wallet-cli will check that transaction
-and let you know how much monero this transaction paid to the given address.
+address which were supplied to you, respectively. byterub-wallet-cli will check that transaction
+and let you know how much byterub this transaction paid to the given address.
 
 
 ## Getting a chance to confirm/cancel payments

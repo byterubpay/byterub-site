@@ -1,46 +1,46 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# monerod
+# byterubd
 
-`monerod` jest oprogramowaniem daemona, które współpracuje z ByteRub. To program konsoli zarządzający łańcuchem bloków. Podczas gdy portfel Bitcoina zarządza zarówno kontem, jak i łańcuchem bloków, ByteRub rozdzielił je, aby `monerod` operował łańcuchem, a `monero-wallet-cli` kontem.
+`byterubd` jest oprogramowaniem daemona, które współpracuje z ByteRub. To program konsoli zarządzający łańcuchem bloków. Podczas gdy portfel Bitcoina zarządza zarówno kontem, jak i łańcuchem bloków, ByteRub rozdzielił je, aby `byterubd` operował łańcuchem, a `byterub-wallet-cli` kontem.
 
 Ten przewodnik zakłada, że już założyłeś swoje konto VPS i używasz SSH do tunelowania do konsoli serwerowej.
 
 ## Linux, 64-bit (Ubuntu 16.04 LTS)
 
 ### Upewnij się, że port 18080 jest otwarty
-`monerod` korzysta z tego portu do komunikacji z innymi węzłami w sieci ByteRub.
+`byterubd` korzysta z tego portu do komunikacji z innymi węzłami w sieci ByteRub.
 
 Przykład przy użyciu `ufw`: `sudo ufw allow 18080`
 Przykład przy użyciu `iptables`: `sudo iptables -A INPUT -p tcp --dport 18080 -j ACCEPT`
 
 ### Ściągnij aktualne pliki binarne Centrum ByteRub
 
-    wget https://downloads.getmonero.org/linux64
+    wget https://downloads.getbyterub.org/linux64
 
 ### Załóż folder i wypakuj pliki
 
-    mkdir monero
-    tar -xjvf linux64 -C monero
+    mkdir byterub
+    tar -xjvf linux64 -C byterub
 
 ### Uruchom daemona
 
-    cd monero
-    ./monerod
+    cd byterub
+    ./byterubd
 
 ### Opcje:
 
 Pokaż całą listę opcji i ustawień:
 
-    ./monerod --help
+    ./byterubd --help
 
 Uruchom daemona w tle:
 
-    ./monerod --detach
+    ./byterubd --detach
 
-Monitoruj rezultaty `monerod`, jeśli daemon jest uruchomiony:
+Monitoruj rezultaty `byterubd`, jeśli daemon jest uruchomiony:
 
-    tail -f ~/.bitmonero/bitmonero.log
+    tail -f ~/.bitbyterub/bitbyterub.log
 
 Utrzymuj VPS w bezpieczeństwie, korzystając z autoaktualizacji:
 

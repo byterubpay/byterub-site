@@ -1,7 +1,7 @@
 - title: إبدأ
   subfolderitems:
   - page: ما هو مونيرو ؟
-    url: get-started/what-is-monero
+    url: get-started/what-is-byterub
   - page: الإستخدام
     url: get-started/using
   - page: القبول
@@ -43,7 +43,7 @@
   - page: مختبر البحث
     url: resources/research-lab
   - page: مونيروبيديا
-    url: resources/moneropedia
+    url: resources/byterubpedia
   - page: دليل المستخدم
     url: resources/user-guides
   - page: دليل المُطور

@@ -20,14 +20,14 @@ When Alice made the transaction, a one time key was automatically generated just
 
 #### CLI
 
-Alice can query it thus in monero-wallet-cli (new name for the old simplewallet):
+Alice can query it thus in byterub-wallet-cli (new name for the old simplewallet):
 
 > get_tx_key TXID
 
 Alice would plug in her actual transaction ID instead of this TXID placeholder. All being well, the one time transaction key
 will be displayed.
 
-Note that this will only work if monero-wallet-cli is set to save transaction keys. To double check:
+Note that this will only work if byterub-wallet-cli is set to save transaction keys. To double check:
 
 > set
 
@@ -37,7 +37,7 @@ If it's set to 0, set it to 1:
 
 #### GUI
 
-Alice can open her monero-wallet-gui and go to the history page to see her transaction detail:
+Alice can open her byterub-wallet-gui and go to the history page to see her transaction detail:
 
 ![History](png/prove-payment/history.png)
 
@@ -60,17 +60,17 @@ blockchain,
 
 #### CLI
 
-Charlie types in monero-wallet-cli:
+Charlie types in byterub-wallet-cli:
 
 > check_tx_key TXID TXKEY ADDRESS
 
-The information supplied by Alice plugs neatly instead of the placeholders. monero-wallet-cli will use the transaction
+The information supplied by Alice plugs neatly instead of the placeholders. byterub-wallet-cli will use the transaction
 key to decode the transaction, and display how much this particular transaction sent to this address. Obviously,
 Charlie will want to double check with Bob the address is really his - same as with Bitcoin.
 
 #### GUI
 
-Charlie will open his monero-wallet-gui and go to the Advanced > Prove/Check page to fill the Check section with the informations provided by Alice:
+Charlie will open his byterub-wallet-gui and go to the Advanced > Prove/Check page to fill the Check section with the informations provided by Alice:
 
 ![Check payment](png/prove-payment/check-payment.png)
 

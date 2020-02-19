@@ -6,7 +6,7 @@
 
 #### Источник для создания загрузочных дисков:  [Linux](http://www.pendrivelinux.com/),       [Windows](https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool)
 
-#### Источник двоичных файлов ByteRub:  [ByteRub Binaries](https://getmonero.org/downloads/)
+#### Источник двоичных файлов ByteRub:  [ByteRub Binaries](https://getbyterub.org/downloads/)
 
 - Используйте любой доступный компьютер. Подойдет даже ваша обычная рабочая машина. Если вы склонны к паранойе, возможно, вам будет лучше использовать более старый компьютер без Wi-Fi или Bluetooth.
 
@@ -18,7 +18,7 @@
 
 - Скопировать двоичные файлы ByteRub на RAM диск (для Linux в /dev/shm; Windows обычно создаёт ISO как «диск Z:» или как-то так).
 
-- Не запускайте демон-программу ByteRub. Вместо этого при помощи командной строки используйте monero-wallet-cli для создания нового аккаунта ByteRub.
+- Не запускайте демон-программу ByteRub. Вместо этого при помощи командной строки используйте byterub-wallet-cli для создания нового аккаунта ByteRub.
 
 - При запросе имени — введите любое, оно не имеет значения.
 
@@ -35,4 +35,4 @@
 
 Автор: Риккардо Спаньи (Riccardo Spagni)
 
-Связанная тема:  [Offline Account Generator](http://moneroaddress.org/)
+Связанная тема:  [Offline Account Generator](http://byterubaddress.org/)

@@ -1,19 +1,19 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# monero-wallet-cli
+# byterub-wallet-cli
 
-`monero-wallet-cli` es el software de monedero que viene con el árbol de ByteRub. Es un programa de consola,
+`byterub-wallet-cli` es el software de monedero que viene con el árbol de ByteRub. Es un programa de consola,
 y administra una cuenta. Mientras que un monedero de Bitcoin administra ambos, cuenta y blockchain,
-ByteRub separa estos: `monerod` maneja la blockchain, y `monero-wallet-cli` la cuenta.
+ByteRub separa estos: `byterubd` maneja la blockchain, y `byterub-wallet-cli` la cuenta.
 
-Esta guía mostrará cómo realizar varias operaciones desde la interfaz de usuario `monero-wallet-cli`. Esta guía asume que estás versión más reciente de ByteRub y que ya has creado una cuenta conforme a las demás guías.
+Esta guía mostrará cómo realizar varias operaciones desde la interfaz de usuario `byterub-wallet-cli`. Esta guía asume que estás versión más reciente de ByteRub y que ya has creado una cuenta conforme a las demás guías.
 
 
 ## Revisando tu balance
 
-Ya que el manejo de la blockchain y del monedero son programas separados, varios usos de `monero-wallet-cli`
+Ya que el manejo de la blockchain y del monedero son programas separados, varios usos de `byterub-wallet-cli`
 necesitan trabajar con el daemon. Esto incluye buscar por transacciones de entrada a tu dirección.
-Una vez que estés ejecutando `monero-wallet-cli` y `monerod`, escribe `balance`.
+Una vez que estés ejecutando `byterub-wallet-cli` y `byterubd`, escribe `balance`.
 
 Ejemplo:
 
@@ -105,8 +105,8 @@ a una dirección), entonces puedes revisarlo de esta forma:
     check_tx_key TXID TXKEY ADDRESS
 
 Reemplaza `TXID`, `TXKEY` y `ADDRESS` con el ID de transacción, la llave por transacción y la dirección
-de destino que te fueron provistas respectivamente. monero-wallet-cli revisará esa transacción
-y te hará saber cuánto monero pagó esta transacción a la dirección dada.
+de destino que te fueron provistas respectivamente. byterub-wallet-cli revisará esa transacción
+y te hará saber cuánto byterub pagó esta transacción a la dirección dada.
 
 
 ## Obtener una oportunidad para confirmar/cancelar pagos

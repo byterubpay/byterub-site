@@ -1,19 +1,19 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-# monero-wallet-cli
+# byterub-wallet-cli
 
-`monero-wallet-cli` is de portemonnee-software die onderdeel uitmaakt van de ByteRub-code. Het is een consoleprogramma
+`byterub-wallet-cli` is de portemonnee-software die onderdeel uitmaakt van de ByteRub-code. Het is een consoleprogramma
 waarmee je een account beheert. Terwijl een Bitcoin-portemonnee zowel een account als de blockchain beheert,
-worden deze functies in ByteRub gescheiden: `monerod` beheert de blockchain en `monero-wallet-cli` beheert het account.
+worden deze functies in ByteRub gescheiden: `byterubd` beheert de blockchain en `byterub-wallet-cli` beheert het account.
 
-In deze handleiding wordt uitgelegd hoe je verschillende bewerking uitvoert met de interface van `monero-wallet-cli`. We nemen aan dat je de nieuwste versie van ByteRub gebruikt en al een account hebt gemaakt met behulp van andere handleidingen.
+In deze handleiding wordt uitgelegd hoe je verschillende bewerking uitvoert met de interface van `byterub-wallet-cli`. We nemen aan dat je de nieuwste versie van ByteRub gebruikt en al een account hebt gemaakt met behulp van andere handleidingen.
 
 
 ## Je saldo bekijken
 
-Omdat we een ander programma dan de portemonnee gebruiken om met de blockchain te werken, moet `monero-wallet-cli` voor veel toepassingen
+Omdat we een ander programma dan de portemonnee gebruiken om met de blockchain te werken, moet `byterub-wallet-cli` voor veel toepassingen
 samenwerken met de node. Dit is bijvoorbeeld nodig om binnenkomende transacties voor je adres op te zoeken.
-Wanneer `monero-wallet-cli` en `monerod` beide worden uitgevoerd, voer je `balance` in.
+Wanneer `byterub-wallet-cli` en `byterubd` beide worden uitgevoerd, voer je `balance` in.
 
 Voorbeeld:
 
@@ -105,7 +105,7 @@ adres heeft verzonden), kun je dat op deze manier controleren:
     check_tx_key TXID SLEUTEL ADRES
 
 Vervang `TXID` door de transactie-ID, `SLEUTEL` door de transactiesleutel en `ADRES` door het doeladres
-dat je hebt ontvangen. Vervolgens controleert monero-wallet-cli die transactie
+dat je hebt ontvangen. Vervolgens controleert byterub-wallet-cli die transactie
 en laat het weten hoeveel door deze transactie aan het opgegeven adres is betaald.
 
 

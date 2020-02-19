@@ -21,7 +21,7 @@ Voici un guide avancé pour les systèmes d'exploitation Linux, Mac et Windows q
   + [3.2. Vérifier le Fichier de Hachage](#32-vérifier-le-fichier-de-hachage)
 
 ### [4.Télécharger & Vérifier les binaires](#4-télécharger-et-vérifier-les-binaires)
-  + [4.1. Télécharger les binaires ByteRub](#41-télécharger-les-binaires-monero)
+  + [4.1. Télécharger les binaires ByteRub](#41-télécharger-les-binaires-byterub)
   + [4.2. Vérifier les binaires sur Linux et Mac](#42-vérifier-les-binaires-sur-linux-et-mac)
   + [4.3. Vérifier les binaires sur Windows](#43-vérifier-les-binaires-sur-windows)
 
@@ -39,12 +39,12 @@ Cette rubrique couvre le téléchargement de la clef de signature ByteRub, la v�
 
 ### 2.1. Obtenir la Clef de Signature
 
-Sur Windows et Mac, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires ByteRub et sauvegardez la page sous `fluffypony.asc` dans votre répertoire utilisateur.
+Sur Windows et Mac, rendez-vous sur [la clef GPG de Fluffypony](https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc), qu'il utilise pour signer les binaires ByteRub et sauvegardez la page sous `fluffypony.asc` dans votre répertoire utilisateur.
 
 Sur Linux, vous pouvez télécharger la clef de signature de Fluffypony en tapant la commande suivante :
 
 ```
-wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/monero/master/utils/gpg_keys/fluffypony.asc
+wget -O fluffypony.asc https://raw.githubusercontent.com/byterubpay/byterub/master/utils/gpg_keys/fluffypony.asc
 ```
 
 ### 2.2. Vérifier la Clef de Signature
@@ -101,7 +101,7 @@ Cette rubrique couvre le téléchargement du fichier signé des hachages valides
 
 ### 3.1. Télécharger le Fichier de Hachage
 
-Sur Windows et Mac, rendez-vous sur sur la [page de haches getmonero.org](https://getmonero.org/fr/downloads/hashes.txt) et sauvegardez la page sous `hashes.txt` dans votre répertoire utilisateur.
+Sur Windows et Mac, rendez-vous sur sur la [page de haches getbyterub.org](https://getbyterub.org/fr/downloads/hashes.txt) et sauvegardez la page sous `hashes.txt` dans votre répertoire utilisateur.
 
 Sur Linux, vous pouvez télécharger le fichier de hachage en tapant la commande suivante :
 
@@ -141,48 +141,48 @@ Cette rubrique couvre le téléchargement du binaire ByteRub pour votre système
 
 ### 4.1. Télécharger les binaires ByteRub
 
-Sur Windows et Mac, rendez-vous sur [getmonero.org](https://getmonero.org/fr/downloads/) et téléchargez le fichier correspondant à votre système d'exploitation. enregistrez ce fichier dans votre répertoire utilisateur. **N'extrayez pas les fichiers pour le moment.**
+Sur Windows et Mac, rendez-vous sur [getbyterub.org](https://getbyterub.org/fr/downloads/) et téléchargez le fichier correspondant à votre système d'exploitation. enregistrez ce fichier dans votre répertoire utilisateur. **N'extrayez pas les fichiers pour le moment.**
 
 Sur Linux, vous pouvez télécharger les outils ligne de commande avec la commande suivante :
 
 ```
-wget -O monero-linux-x64-v0.12.2.0.tar.bz2 https://downloads.getmonero.org/cli/linux64
+wget -O byterub-linux-x64-v0.12.2.0.tar.bz2 https://downloads.getbyterub.org/cli/linux64
 ```
 
 ### 4.2. Vérifier les binaires sur Linux et Mac
 
-Les étapes pour Linux et Mac sont les mêmes. Depuis un terminal, récupérez le hachage `SHA256` du binaire ByteRub téléchargé. A titre d'exemple, ce guide utilisera le binaire GUI `Linux, 64bit`. Remplacez `monero-gui-linux-x64-v0.12.0.0.tar.bz2` par le nom du binaire que vous aurez téléchargé dans la [rubrique 4.1](#41-télécharger-les-binaires-monero).
+Les étapes pour Linux et Mac sont les mêmes. Depuis un terminal, récupérez le hachage `SHA256` du binaire ByteRub téléchargé. A titre d'exemple, ce guide utilisera le binaire GUI `Linux, 64bit`. Remplacez `byterub-gui-linux-x64-v0.12.0.0.tar.bz2` par le nom du binaire que vous aurez téléchargé dans la [rubrique 4.1](#41-télécharger-les-binaires-byterub).
 
 ```
-shasum -a 256 monero-gui-linux-x64-v0.12.0.0.tar.bz2
+shasum -a 256 byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 La sortie ressemblera à ceci, mais sera différente pour chaque binaire. Votre hachage `SHA256` deoit correspondre à celui indiqué dans le fichier `hashes.txt` pour votre binaire.
 
 ```
-fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  monero-gui-linux-x64-v0.12.0.0.tar.bz2
+fb0f43387b31202f381c918660d9bc32a3d28a4733d391b1625a0e15737c5388  byterub-gui-linux-x64-v0.12.0.0.tar.bz2
 ```
 
 Si votre hachage **EST** identique vous en avez terminé avec la vérification ! Vous pouvez extraire et installer les fichiers.
 
-Si votre hachage **N'EST PAS** identique, **NE POURSUIVEZ PAS.** Au lieu de cela, supprimez le binaire que vous avez téléchargé et retournez à la [rubrique 4.1](#41-télécharger-les-binaires-monero).
+Si votre hachage **N'EST PAS** identique, **NE POURSUIVEZ PAS.** Au lieu de cela, supprimez le binaire que vous avez téléchargé et retournez à la [rubrique 4.1](#41-télécharger-les-binaires-byterub).
 
 ### 4.3. Vérifier les binaires sur Windows
 
-Depuis un terminal, récupérez le hachage `SHA256` du binaire ByteRub téléchargé. A titre d'exemple, ce guide utilisera le binaire GUI `Windows, 64bit`. Remplacez `monero-gui-win-x64-v0.12.0.0.zip` par le nom du binaire que vous aurez téléchargé dans la [rubrique 4.1](#41-télécharger-les-binaires-monero).
+Depuis un terminal, récupérez le hachage `SHA256` du binaire ByteRub téléchargé. A titre d'exemple, ce guide utilisera le binaire GUI `Windows, 64bit`. Remplacez `byterub-gui-win-x64-v0.12.0.0.zip` par le nom du binaire que vous aurez téléchargé dans la [rubrique 4.1](#41-télécharger-les-binaires-byterub).
 
 ```
-certUtil -hashfile monero-gui-win-x64-v0.12.0.0.zip SHA256
+certUtil -hashfile byterub-gui-win-x64-v0.12.0.0.zip SHA256
 ```
 
 La sortie ressemblera à ceci, mais sera différente pour chaque binaire. Votre hachage `SHA256` deoit correspondre à celui indiqué dans le fichier `hashes.txt` pour votre binaire.
 
 ```
-SHA256 hash of file monero-gui-win-x64-v0.12.0.0.zip:
+SHA256 hash of file byterub-gui-win-x64-v0.12.0.0.zip:
 4b 9f 31 68 6e ca ad 97 cd b1 75 e6 57 4b f3 07 f8 d1 c4 10 42 78 25 f4 30 4c 21 da 8a ac 18 64
 CertUtil: -hashfile command completed successfully.
 ```
 
 Si votre hachage **EST** identique vous en avez terminé avec la vérification ! Vous pouvez extraire et installer les fichiers.
 
-Si votre hachage **N'EST PAS** identique, **NE POURSUIVEZ PAS.** Au lieu de cela, supprimez le binaire que vous avez téléchargé et retournez à la [rubrique 4.1](#41-télécharger-les-binaires-monero).
+Si votre hachage **N'EST PAS** identique, **NE POURSUIVEZ PAS.** Au lieu de cela, supprimez le binaire que vous avez téléchargé et retournez à la [rubrique 4.1](#41-télécharger-les-binaires-byterub).

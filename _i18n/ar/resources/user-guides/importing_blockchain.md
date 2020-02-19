@@ -3,13 +3,13 @@
 
 ### الخطوه 1
 
-قم بتحميل الملف الحالي من https://downloads.getmonero.org/blockchain.raw; يُمكنك تخطي هذه الخُطوه إذا كنت تستورد سلسله الكتل من مصدر آخر.
+قم بتحميل الملف الحالي من https://downloads.getbyterub.org/blockchain.raw; يُمكنك تخطي هذه الخُطوه إذا كنت تستورد سلسله الكتل من مصدر آخر.
 
 ### الخطوه 2
 
 ابحث عن مسار محفظة مونيرو (المجلد حيث قمت باستخراج محفظتك فيه). على سبيل المثال :
 
-`D:\monero-gui-0.10.3.1`
+`D:\byterub-gui-0.10.3.1`
 
 قد يكون مسارك مختلفًا بُناءً على المكان الذي قررت فيه تنزيل محفظتك وإصدار نسخة المحفظه.
 
@@ -33,7 +33,7 @@
 
 يجب أن يبدو مثل:
 
-`cd D:\monero-gui-0.10.3.1`
+`cd D:\byterub-gui-0.10.3.1`
 
 إذا كانت محفظة مونيرو الخاصة بك موجودة على محرك أقراص آخر ، يمكنك استخدام `DriveLetter:` على سبيل المثال إذا كانت محفظة مونيرو الخاصة بك موجودة على محرك الأقراص D ، قم بإستخدام الأمر `D:` قبل أمر cd
 
@@ -41,11 +41,11 @@
 
 الآن اكتب في نافذة موجه الأوامر :
 
-`monero-blockchain-import --input-file C:\YOUR\BLOCKCHAIN\FILE\PATH\HERE`
+`byterub-blockchain-import --input-file C:\YOUR\BLOCKCHAIN\FILE\PATH\HERE`
 
 علي سبيل المثال:
 
-`monero-blockchain-import --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
+`byterub-blockchain-import --input-file C:\Users\KeeJef\Downloads\blockchain.raw`
 
 إذا قمت بتنزيل سلسله الكتل من مصدر موثوق به فيمكنك تعيين `verify 0` مما يقلل من الوقت اللازم للمزامنة.
 

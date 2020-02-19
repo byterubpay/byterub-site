@@ -2,7 +2,7 @@
 {% include disclaimer.html translated="true" version=page.version %}
 في بعض الأحيان سوف تتعلق أموالك - سيكون لديك بعض الأموال المغلقه. هذه هي طريقة إصلاحها.
 
-- شغل محفظتك في واجهه سطر الأوامر (monero-wallet-cli)
+- شغل محفظتك في واجهه سطر الأوامر (byterub-wallet-cli)
 
 - إكتب
 

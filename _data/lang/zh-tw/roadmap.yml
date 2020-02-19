@@ -3,7 +3,7 @@
     - name: 在 Bitcointalk 上公開
       date: 2014-04-18
       status: completed
-    - name: 從 Bitmonero 更名為 ByteRub
+    - name: 從 Bitbyterub 更名為 ByteRub
       date: 2014-04-23
       status: completed
     - name: 從垃圾交易攻擊中恢復
@@ -92,7 +92,7 @@
     - name: 交易網路升級以提升最低環狀簽名大小至 7 、加入多重簽名、子地址和 PoW 演算法微調
       date: 2018-04-06
       status: completed
-    - name: Getmonero.org 網站加入法文及波蘭文語言翻譯
+    - name: Getbyterub.org 網站加入法文及波蘭文語言翻譯
       date: 2018-04-24
       status: completed
     - name: Ledger 硬體錢包支援

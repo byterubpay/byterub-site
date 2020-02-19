@@ -11,13 +11,13 @@ You can create a view-only wallet from any existing wallet.
 
 #### CLI
 
-Open an existing wallet or create a new one using `monero-wallet-cli`. In the wallet, type `address` and `viewkey` to display the wallet's address and secret viewkey. Type `exit` to close the wallet.
+Open an existing wallet or create a new one using `byterub-wallet-cli`. In the wallet, type `address` and `viewkey` to display the wallet's address and secret viewkey. Type `exit` to close the wallet.
 
-Next, create your view-only wallet by typing `monero-wallet-cli --generate-from-view-key wallet-name`. The last argument will be your new wallet's file name. You will be prompted for `Standard address` and `View key` by the wallet. Paste in your original wallet's address and secret view key. Next, enter and confirm a password for your new wallet and you're done.
+Next, create your view-only wallet by typing `byterub-wallet-cli --generate-from-view-key wallet-name`. The last argument will be your new wallet's file name. You will be prompted for `Standard address` and `View key` by the wallet. Paste in your original wallet's address and secret view key. Next, enter and confirm a password for your new wallet and you're done.
 
 #### GUI
 
-Open an existing wallet or create a new one using `monero-wallet-gui`. In the wallet, go to the `Impostazioni` > `Portafoglio` page:
+Open an existing wallet or create a new one using `byterub-wallet-gui`. In the wallet, go to the `Impostazioni` > `Portafoglio` page:
 
 ![settings](png/view-only/settings.png)
 
