@@ -49,6 +49,6 @@ Specify your daemon settings and click the `Right` arrow:
 
 ![daemon settings](png/restore_from_keys/daemon-settings.png)
 
-Click on `USE MONERO` to enjoy your restored wallet:
+Click on `USE BYTERUB` to enjoy your restored wallet:
 
 ![all set up](png/restore_from_keys/all-set-up.png)

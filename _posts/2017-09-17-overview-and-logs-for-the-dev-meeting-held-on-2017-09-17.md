@@ -49,9 +49,9 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<fluffypony>** a release or something  
 **\<fluffypony>** nothing major  
 **\<surae>** heh  
-**\<hyc>** I heard we spawned XMRclassic  
+**\<hyc>** I heard we spawned BTRclassic  
 **\<fluffypony>** ByteRub ABC  
-**\<surae>** i used XMRcash at a coffee shop, but my card was declined :(  
+**\<surae>** i used BTRcash at a coffee shop, but my card was declined :(  
 **\<fluffypony>** inb4 XCash  
 **\<fluffypony>** on the topic of the release, and now is as good a time to talk about it as any  
 **\<hyc>** oooo, I like that one  

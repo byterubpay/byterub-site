@@ -11,7 +11,7 @@ Hello, and welcome to our third ByteRub Missive.
 **Major Updates**
 
 1. We've been stalling this week's Missive on purpose, because we were hoping it would happen...and it happened! We got to number 1 on the MintPal voting list in a week - which is quite an achievement. There was quite a stack of paid-for votes (more than normal for a cryptocurrency on the MintPal voting list), which is surprising, but it definitely helped catapult us up front.  
-An [interesting graph on CryptVote](http://cryptvote.com) shows the meteoric climb (XMR is the blue line):  
+An [interesting graph on CryptVote](http://cryptvote.com) shows the meteoric climb (BTR is the blue line):  
 ![](http://i.imgur.com/GfQ67Tz.jpg){: .center-image }
 
 2. We are immensely grateful for the work the CryptoNote developers have put into the protocol, but their whitepaper is unfortunately lacking in peer reviews. To that end, we have taken it upon ourselves to peer review the whitepaper, and to release the peer review as an annotated whitepaper.  

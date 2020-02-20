@@ -127,7 +127,7 @@ author: el00ruobuob / sarang
 **\<equim[m]>** Yes that's my point  
 **\<suraeNoether>** equim[m] I'm not understanding your question  
 **\<suraeNoether>** would you mind clarifying?  
-**\<sgp\_>** a user could verify the first two by running XMR, XMO, XMV nodes locally  
+**\<sgp\_>** a user could verify the first two by running BTR, XMO, XMV nodes locally  
 **\<equim[m]>** Okay, I think I need to read up more first.  
 **\<sarang>** equim[m]: if you generate N identical rings of N outputs with valid sigs, it means you controlled all N of them  
 **\<sgp\_>** fwiw I don't recommend a user should use a blackball list. I think we should use the findings of the blackball list to pursue other options to mitigate the data that would need to potentially be stored there  

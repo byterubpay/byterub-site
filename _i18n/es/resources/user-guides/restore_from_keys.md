@@ -49,6 +49,6 @@ Especifica las configuraciones del daemon y haz clic en la flecha de `Siguiente`
 
 ![daemon settings](png/restore_from_keys/daemon-settings.png)
 
-Haz clic en `USAR MONERO` para disfrutar de tu monedero restaurado:
+Haz clic en `USAR BYTERUB` para disfrutar de tu monedero restaurado:
 
 ![all set up](png/restore_from_keys/all-set-up.png)

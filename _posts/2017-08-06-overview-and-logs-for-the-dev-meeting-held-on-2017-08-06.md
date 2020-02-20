@@ -15,8 +15,8 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<rehrar>** The usual: https://github.com/byterubpay/meta/issues/99  
 **\<rehrar>** Btw, pony has asked me to make the meeting issues from now on cuz he forget. :)  
 **\<hyc>** ok cool  
-**\<Fymiywtfbtcxmr>** 1st Issue should be min ring size  
-**\<Fymiywtfbtcxmr>** Time to decide before code freeze  
+**\<Fymiywtfbtcbtr>** 1st Issue should be min ring size  
+**\<Fymiywtfbtcbtr>** Time to decide before code freeze  
 **\<gingeropolous>** From my viewpoint, the issue stands at this: there's consensus to move it to ringsize 5, and there's some support to make it more than that. But I don't think there's any scientific reason for any particular number greater than 5  
 **\<hyc>** right.  
 **\<johnalan>** yes 5 is optimal  
@@ -42,13 +42,13 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<hyc>** endogenic: have you also changed output selection algo?  
 **\<endogenic>** in what way?  
 **\<ArticMine>** We have to raise min blocksize if we go over 15k tx size  
-**\<Fymiywtfbtcxmr>** Ring size 10 for uniformity  
-**\<Fymiywtfbtcxmr>** All apps and wallets just like mybyterub  
+**\<Fymiywtfbtcbtr>** Ring size 10 for uniformity  
+**\<Fymiywtfbtcbtr>** All apps and wallets just like mybyterub  
 **\<endogenic>** personally i would love to hear Surae's input on this as well regarding whether we should do this now before making confirmations  
-**\<Fymiywtfbtcxmr>** Tx size not that much larger  
+**\<Fymiywtfbtcbtr>** Tx size not that much larger  
 **\<endogenic>** heck it would be nice to hear from Sarang as well :P  
 **\<rehrar>** Well friends, in the interest of the meeting, can we go to item 2? :) Brief review of what's been completed since the previous meeting.  
-**\<Fymiywtfbtcxmr>** Range proof reductions coming  
+**\<Fymiywtfbtcbtr>** Range proof reductions coming  
 **\<rehrar>** Oops. After this discussion is done.  
 **\<endogenic>** hyc feel free to ping me later  
 **\<vtnerd>** hyc endogenic : mybyterub does not use the wallet selection algo currently  
@@ -73,7 +73,7 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<endogenic>** kk  
 **\<knaccc>** byterubmooo I'm fine with 5 until further research is done  
 **\<vtnerd>** other than I recall at least 4 being useful, based on the way research paper I saw  
-**\<Fymiywtfbtcxmr>** Pony drinking wine  
+**\<Fymiywtfbtcbtr>** Pony drinking wine  
 **\<luigi1111>** I vote 5 because reasons  
 **\<byterubmooo>** And that guy has 1111 votes ^  
 **\<hyc>** I vote 8 because we need drama and dissent.  
@@ -216,7 +216,7 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<serhack>** +1 endogenic, scam users will try to scam us with their fucking apps  
 **\<endogenic>** but then again do we listen to them? :P  
 **\<Jaquee>** these are also "easy" merges #2254 #2247 #2233 #2138  
-**\<rehrar>** Post #25 this week: Hey so I downloaded freewallet and put all my XMR on there. It's gone. Help?  
+**\<rehrar>** Post #25 this week: Hey so I downloaded freewallet and put all my BTR on there. It's gone. Help?  
 **\<Jaquee>** endogenic: lol. i wouldn't trust jaxx on that information  
 **\<endogenic>** Jaquee: well /you/ know that… :)  
 **\<Jaquee>** :D  

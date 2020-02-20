@@ -29,8 +29,8 @@ title: titles.userguides
                             <h2>{% t user-guides.mining %}</h2>
                             <p><a href="{{site.baseurl}}/resources/user-guides/mine-to-pool.html">{% t user-guides.mine-on-pool %}</a></p>
                             <p><a href="{{site.baseurl}}/resources/user-guides/solo_mine_GUI.html">{% t user-guides.solo-mine %}</a></p>
-                            <p><a href="{{site.baseurl}}/resources/user-guides/mining_with_xmrig_and_docker.html">{% t user-guides.mine-docker %}</a></p>
-                            <p><a href="{{site.baseurl}}/resources/user-guides/How-to-mine-ByteRub-XMR-without-a-mining-equipment.html">{% t user-guides.nicehash %}</a></p>
+                            <p><a href="{{site.baseurl}}/resources/user-guides/mining_with_btrig_and_docker.html">{% t user-guides.mine-docker %}</a></p>
+                            <p><a href="{{site.baseurl}}/resources/user-guides/How-to-mine-ByteRub-BTR-without-a-mining-equipment.html">{% t user-guides.nicehash %}</a></p>
                         </div>
                     </div>
                 </div>

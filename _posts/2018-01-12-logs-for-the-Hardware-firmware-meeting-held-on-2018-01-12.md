@@ -16,7 +16,7 @@ author: dEBRUYNE / fluffypony
 **\<i-a>** On the other hand, there are other people working and maybe my questions could help also to them.  
 **\<m2049r[m]>** is there anyone here who is actually taking part in this meeting besides us two?  
 **\<hotoatmeal>** is the plan to use the same strategy that the ledger guy came up with, where private keys are sent (encrypted) from the device to the wallet?  
-**\<qqitty>** CS noob looking to study xmr code this weekend. any design books/web guides to read like Huang's dissecting BTC?  
+**\<qqitty>** CS noob looking to study btr code this weekend. any design books/web guides to read like Huang's dissecting BTC?  
 **\<hotoatmeal>** m2049r[m]: I'm mostly passively participating, until that question  
 **\<dEBRUYNE>** m2049r[m]: Most people will probably just read until they want to say something :p  
 **\<i-a>** hotoatmeal: We are here to speak about the plan.. I think if we want to do all the signing stuff in the device, we would need more memory.In case we need more memory, we will just setup a new device with bigger mcu.  

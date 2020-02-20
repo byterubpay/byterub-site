@@ -45,14 +45,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** Hi  
 **\<needbyterub90>** hi  
 **\<sgp\_>** not sure about Bitfinex either  
-**\<sgp\_>** maybe a thread on r/xmrtrader is best for this honestly  
+**\<sgp\_>** maybe a thread on r/btrtrader is best for this honestly  
 **\<needbyterub90>** I heard the mods there are really strict  
 **\<needbyterub90>** (I'll make a post)  
 **\<sgp\_>** like ~~we~~ others do a thread for mining pools on r/byterubmining  
 **\<OsrsNeedsF2P>** ^\_^  
-**\<needbyterub90>** Ok, on to osrs's question. I'll make an exchange post on xmrtrader today.  
+**\<needbyterub90>** Ok, on to osrs's question. I'll make an exchange post on btrtrader today.  
 **\<sgp\_>** yeah I think that's best  
-**\<mooman12>** Snipa: does supportxmr still have anyone mining to an address with payment id?  
+**\<mooman12>** Snipa: does supportbtr still have anyone mining to an address with payment id?  
 **\<sgp\_>** oh that's a good question  
 **\<sgp\_>** could email them and tell them to stop if they are registered  
 **\<rottensox>** sgp\_: https://imgur.com/cLtds0r.png  
@@ -73,7 +73,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I can send a quick message to Morph to make sure they know  
 **\<sgp\_>** endogenic: is MyByteRub pulling payment ID support in the wallet? (he can answer later if not here)  
 **\<sgp\_>** Anything else on this topic?  
-**\<sgp\_>** summary: check r/xmrtrader for a list soon^TM  
+**\<sgp\_>** summary: check r/btrtrader for a list soon^TM  
 **\<Snipa>** If there's anything else we can do on the pool side, let me know.  
 **\<sgp\_>** thanks Snipa, great to see you around here :)  
 **\<Snipa>** RandomX is throwing some bigger wrenches into the original pool designs, so everyone's sort of working things out still, but notifications are something we can sort-of do.  
@@ -136,14 +136,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** I'll give it a look  
 **\<rehrar>** in terms of spacing and stuff  
 **\<Mochi101>** private and obfuscated transactions  
-**\<rottensox>** https://twitter.com/xmranon/status/1179771671303065600  
-**\<byterubbux>** [ xmranon on Twitter: ""Bitcoin is so much easier to use than #ByteRub" is such a bullshit argument. ios.cake android.monerujo web.mybyterub" ] - twitter.com  
+**\<rottensox>** https://twitter.com/btranon/status/1179771671303065600  
+**\<byterubbux>** [ btranon on Twitter: ""Bitcoin is so much easier to use than #ByteRub" is such a bullshit argument. ios.cake android.monerujo web.mybyterub" ] - twitter.com  
 **\<sgp\_>** imo, obfuscated means nothing to non-cryptrocurrency-focused people  
 **\<rehrar>** in other news, I am almost done with a ByteRub pumpkin picture that sarang requested  
 **\<sarang>** That's fantastic rehrar !  
 **\<el00ruobuob>** rehrar, it looks bad with the video that large.  
 **\<sgp\_>** what about the ByteRub pumpkin carving?  
-**\<rehrar>** it will be available for purchase for recurring payment of 0.1 XMR for monthly licensing  
+**\<rehrar>** it will be available for purchase for recurring payment of 0.1 BTR for monthly licensing  
 **\<sgp\_>** for the sake of time, we should move on from this specific topic. Thanks for mentioning it ErCiccione[m]  
 **\<sgp\_>** Do you have anything else to talk about related to the website?  
 **\<rehrar>** el00ruobuob: opinions need to be justified  

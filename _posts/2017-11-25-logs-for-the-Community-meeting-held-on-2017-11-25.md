@@ -76,7 +76,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-lab>** Which of these technologies resembles Bitpay most?  
 **\<msvb-lab>** There are ten repositories besides magento.  
 **\<serhack>** I think we should mark a thing  
-**\<msvb-lab>** So if I'm a vendor who wants to be able to 'Bitpay' with XMR, which github should I look at?  
+**\<msvb-lab>** So if I'm a vendor who wants to be able to 'Bitpay' with BTR, which github should I look at?  
 **\<serhack>** no offense to you msvb lab  
 **\<cryptochangement>** msvb-lab: they all have the same design/setup they are just for different cms  
 **\<serhack>** The goal of ByteRub integrations is removing the middleman  
@@ -150,14 +150,14 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I think we need to add something onto the goals, specifically regarding the FFS  
 **\<rehrar>** The community workgroup needs to brainstorm ways that we can increase FFS giving involvement, and rely less on individuals that donate large sums.  
 **\<rehrar>** There was a large push on Surae's FFS, and it was awesome to see. It's slowed down a bit, which is totally fine, and I'm sure one final Reddit post would finish it up.  
-**\<rehrar>** We need to aim for getting community involvement with the FFS. Something like 0.1 XMR per person.  
+**\<rehrar>** We need to aim for getting community involvement with the FFS. Something like 0.1 BTR per person.  
 **\<rehrar>** We can find ways to incentivize if we'd like, but that's not the only way.  
 **\<rehrar>** We can discuss this in open ideas time, but building a culture of generosity and giving within the community should be a large priority, since the project relies on donations.  
 **\<rehrar>** end  
 **\<sgp>** Thanks rehrar  
 **\<endogenic>** what is the cause that sarang's proposal was quickly funded while surae's was not?  
 **\<rehrar>** a large donation  
-**\<cryptochangement>** 0.1 XMR per person would be a dream  
+**\<cryptochangement>** 0.1 BTR per person would be a dream  
 **\<sgp>** I can make discussion groups for the hackathon and FFS projects in Mattermost  
 **\<endogenic>** rehrar: not quite my question  
 **\<endogenic>** why sarang and not surae?  
@@ -202,7 +202,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** why should we spend efforts on websites when the default password is admin ?  
 **\<sgp>** It's good to at least have something serhack. Some of these attacks are more complex, or from an internal employee  
 **\<ErCiccione>** Honestly i don't like the idea of the page on the website, i prefer the idea of the team  
-**\<mattcode>** rehrar: the positive is that byterub has a high network hashrate that doesn't dip when the price dips. i don't have any numbers but when ETN became (briefly) more profitable to mine than XMR, the XMR net hash barely dropped  
+**\<mattcode>** rehrar: the positive is that byterub has a high network hashrate that doesn't dip when the price dips. i don't have any numbers but when ETN became (briefly) more profitable to mine than BTR, the BTR net hash barely dropped  
 **\<serhack>** yep, we should setup a tutorial/website  
 **\<rehrar>** I mean turning the third-party server getting hacked into a positive for the administrator. I mean obviously it's not a positive thing...  
 **\<rehrar>** but through education and stuff  
@@ -300,7 +300,7 @@ author: dEBRUYNE / fluffypony
 **\<byterubbux>** ErCiccione meant to say: mattcode: yes, sgp pointed that early, but with a pool you move that choice directly to whom is willing to donate (i mean to send the money directly to fund community's FFS)  
 **\<ErCiccione>** so nice of you byterubbux  
 **\<ErCiccione>** :)  
-**\<rehrar>** Sorry, out of the house atm. But we need to remember two factors. One, some people like to choose which proposals their XMR goes to. This ensures that ByteRub evolves in the way they desire.  
+**\<rehrar>** Sorry, out of the house atm. But we need to remember two factors. One, some people like to choose which proposals their BTR goes to. This ensures that ByteRub evolves in the way they desire.  
 **\<rehrar>** These people will not like the General Fund option, as the General Fund is managed by the Core Team to spend on whatever they see fit that benefits ByteRub (obviously coming to consensus within themselves)  
 **\<rehrar>** There are some people who prefer to choose things themselves, and not trust anyone, even the Core Team. And that's fine.  
 **\<rehrar>** We're not trying to get everyone to donate to EVERY proposal.  

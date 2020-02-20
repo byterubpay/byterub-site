@@ -10,7 +10,7 @@ A l'issue de ce guide vous pourrez dormir tranquille en sachant que si le mineur
 
 [Docker](https://www.docker.com/) sera utilisé car il est le plus connu et a le plus de chances d'être déjà installé.
 
-J'utilise le conteneur [alpine-xmrig](https://hub.docker.com/r/bitnn/alpine-xmrig/). Comme son nom l'indique, il est basé sur l'image [Alpine Linux](https://www.alpinelinux.org/).
+J'utilise le conteneur [alpine-btrig](https://hub.docker.com/r/bitnn/alpine-btrig/). Comme son nom l'indique, il est basé sur l'image [Alpine Linux](https://www.alpinelinux.org/).
 
 Si vous souahitez savoir comment débuter avec Docker, voici quelques bonnes références de départ.
 * [Page Docker](https://wiki.archlinux.org/index.php/Docker) du Wiki Arch Linux
@@ -19,20 +19,20 @@ Si vous souahitez savoir comment débuter avec Docker, voici quelques bonnes ré
 
 Pour une installation sur une distribution spécifique, merci de vous référer au site web des [Docs Docker](https://docs.docker.com/engine/installation/).
 
-### pourquoi XMRig
+### pourquoi BTRig
 
-[XMRig](https://github.com/xmrig/xmrig) est simplement un bon mineur à mon sens. De bons affichage et statistiques, pas de dépendances ou de web-ui tape-à-l'oeil. Le conteneur XMRig ne fait qu'environ 4Mo, ce qui le rend extrêmement portable.
+[BTRig](https://github.com/btrig/btrig) est simplement un bon mineur à mon sens. De bons affichage et statistiques, pas de dépendances ou de web-ui tape-à-l'oeil. Le conteneur BTRig ne fait qu'environ 4Mo, ce qui le rend extrêmement portable.
 
-#### Étape 1 : Miner avec XMRig
+#### Étape 1 : Miner avec BTRig
 
 Lancez les commandes suivante
 
 ```bash
-# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o POOL01 -o POOL02 -u WALLET -p PASSWORD -k
-# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o pool.supportxmr.com:7777 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p docker:secret -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-btrig -o POOL01 -o POOL02 -u WALLET -p PASSWORD -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-btrig -o pool.supportbtr.com:7777 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p docker:secret -k
 ```
 
 #### Étape 2 : Il n'y a pas d'étape 2
 
-Vous avez déjà fait tout ce dont vous aviez besoin. Vous minez maintenant avec un conteneur Docker XMRig. Utilisez `ctrl+c` pour quitter le mineur ou ajoutez `-d` juste après `docker run` pour lancer le mineur en tâche de fond.
+Vous avez déjà fait tout ce dont vous aviez besoin. Vous minez maintenant avec un conteneur Docker BTRig. Utilisez `ctrl+c` pour quitter le mineur ou ajoutez `-d` juste après `docker run` pour lancer le mineur en tâche de fond.
 

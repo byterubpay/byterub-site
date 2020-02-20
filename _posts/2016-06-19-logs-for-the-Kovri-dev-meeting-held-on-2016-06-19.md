@@ -143,7 +143,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** will wrap that up soon, it's on my short list  
 **\<meeting-bot> [anominal]** Ok, good to know.  
 **\<meeting-bot> [anominal]** I don't have an opionion so far. If I do I'll be sure to chip in.  
-**\<meeting-bot> [anominal]** Is xmrpromotions there? re: #105  
+**\<meeting-bot> [anominal]** Is btrpromotions there? re: #105  
 **\<fluffypony>** no not online atm  
 **\<fluffypony>** I'll prod them for that when I see them next  
 **\<meeting-bot> [anominal]** K.  

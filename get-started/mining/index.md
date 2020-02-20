@@ -68,16 +68,16 @@ permalink: /get-started/mining/index.html
                        <p>{% t mining.software_para %}</p>
                     </div>
                     <div class="row center-xs">
-                        <p><a href="https://github.com/fireice-uk/xmr-stak" target="_blank" rel="noreferrer noopener">XMR Stak</a></p>
+                        <p><a href="https://github.com/fireice-uk/btr-stak" target="_blank" rel="noreferrer noopener">BTR Stak</a></p>
                     </div>
                     <div class="row center-xs">
-                        <p><a href="https://github.com/xmrig/xmrig" target="_blank" rel="noreferrer noopener">XMRig</a></p>
+                        <p><a href="https://github.com/btrig/btrig" target="_blank" rel="noreferrer noopener">BTRig</a></p>
                     </div>
                     <div class="row center-xs">
-                        <p><a href="https://github.com/xmrig/xmrig-amd" target="_blank" rel="noreferrer noopener">XMRig AMD</a></p>
+                        <p><a href="https://github.com/btrig/btrig-amd" target="_blank" rel="noreferrer noopener">BTRig AMD</a></p>
                     </div>
                     <div class="row center-xs">
-                        <p><a href="https://github.com/xmrig/xmrig-nvidia" target="_blank" rel="noreferrer noopener">XMRig NVIDIA</a></p>
+                        <p><a href="https://github.com/btrig/btrig-nvidia" target="_blank" rel="noreferrer noopener">BTRig NVIDIA</a></p>
                     </div>
                 </div>
             </div>

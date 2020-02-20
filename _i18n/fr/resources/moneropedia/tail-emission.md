@@ -5,7 +5,7 @@ summary: "la récompense de bloc à l'issue de la courbe d'émission"
 
 ### Les Bases
 
-La récompense de bloc de ByteRub ne tombera jamais à zéro. La récompense de bloc va diminuer graduellement jusqu'à ce que l'émission résiduelle commence à la fin May 2022. A ce moment-là, la récompense sera fixée à 0,6 XMR par bloc.
+La récompense de bloc de ByteRub ne tombera jamais à zéro. La récompense de bloc va diminuer graduellement jusqu'à ce que l'émission résiduelle commence à la fin May 2022. A ce moment-là, la récompense sera fixée à 0,6 BTR par bloc.
 
 ### Pourquoi ?
 

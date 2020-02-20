@@ -95,7 +95,7 @@ author: el00ruobuob / surae
 **\<sarang>** Yeah, it's a big time investment but fortunately I work remotely anyway, amirite?  
 **\<suraeNoether>** will you be needing financial support for it, or would those organizers be compensating you?  
 **\<nioc>** https://forum.getbyterub.org/7/open-tasks/90857/sarang-re-present-at-kyiv-hackathon  
-**\<sarang>** They're compensating flight and some hotel. With local transportation, M&IE, and hotel, it'd run about 9 XMR community funding  
+**\<sarang>** They're compensating flight and some hotel. With local transportation, M&IE, and hotel, it'd run about 9 BTR community funding  
 **\<nioc>** cheap  
 **\<suraeNoether>** oh hehe  
 **\<sarang>** Would be nice to reach out to that part of the world, getting technical folks thinking about and hacking on ByteRub  
@@ -187,7 +187,7 @@ author: el00ruobuob / surae
 **\<sarang>** and is a statement about our intent to do honest work  
 **\<suraeNoether>** so my question to the community is simple: what do we want to see in our ethics policy?  
 **\<sarang>** I think the biggest thing is disclosure of funding specifically tailored around research/dev for ByteRub  
-**\<sarang>** e.g. "Sarang Noether receives ByteRub community funding, paid in XMR, to do full-time R&D for the ByteRub Research Lab, a workgroup of the ByteRub Project"  
+**\<sarang>** e.g. "Sarang Noether receives ByteRub community funding, paid in BTR, to do full-time R&D for the ByteRub Research Lab, a workgroup of the ByteRub Project"  
 **\<suraeNoether>** i think MRL researchers should not go off and start their own coins while working at MRL, even if they do so fairly  
 **\<sarang>** ehhhhh  
 **\<sarang>** should it be that broad?  

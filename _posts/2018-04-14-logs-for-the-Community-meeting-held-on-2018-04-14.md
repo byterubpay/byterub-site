@@ -17,8 +17,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** haiguiz  
-**\<xmrscott[m]>** Hello  
-**\<xmrmatterbridge> \<baltsar777>** Häj  
+**\<btrscott[m]>** Hello  
+**\<btrmatterbridge> \<baltsar777>** Häj  
 **\<Slack\_4> \<sean>** Hello  
 **\<anhdres>** hello  
 **\<serhack>** Hey  
@@ -26,7 +26,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** ByteRub had a scheduled protocol upgrade (hardfork) last Friday. Since the difficulty lowered dramatically, the block times were longer than normal for about a day. The network is back to normal, and the upgrade was successful.  
 **\<sgp\_>** Selsta and KifeOfPi2 made the first known network Ledger-to-Ledger transaction with ByteRub. https://www.reddit.com/r/ByteRub/comments/8bjvpe/selsta\_and\_i\_just\_completed\_the\_first/  
-**\<byterubbux>** [REDDIT] Selsta and I just completed the first Ledger-to-Ledger mainnet transactions ever. He sent me 0.1 XMR and I sent 0.4 XMR back. (https://imgur.com/a/OzgUl) to r/ByteRub | 470 points (98.0%) | 106 comments | Posted by KnifeOfPi2 | Created at 2018-04-11 - 19:32:03  
+**\<byterubbux>** [REDDIT] Selsta and I just completed the first Ledger-to-Ledger mainnet transactions ever. He sent me 0.1 BTR and I sent 0.4 BTR back. (https://imgur.com/a/OzgUl) to r/ByteRub | 470 points (98.0%) | 106 comments | Posted by KnifeOfPi2 | Created at 2018-04-11 - 19:32:03  
 **\<sgp\_>** ByteRub received significant news coverage for changing its PoW algorithm during the upgrade. It is the largest cryptocurrency to take a significant direct action against ASIC miners.   
 **\<sgp\_>** Monerujo, a popular open-source android client, was added to F-Droid https://f-droid.monerujo.io/  
 **\<sgp\_>** Watch the April Coffee Chat recorded last Saturday: https://www.youtube.com/watch?v=nPTF0jYAecU&t=191s  
@@ -38,7 +38,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** the ByteRub Ecosystem project is growing  
 **\<ErCiccione>** https://github.com/byterub-ecosystem  
 **\<sgp\_>** Oh yeah, I remember seeing the notifications for those on Github  
-**\<xmrmatterbridge> \<baltsar777>** Mastering ByteRub Twitter account is suspended.  
+**\<btrmatterbridge> \<baltsar777>** Mastering ByteRub Twitter account is suspended.  
 **\<ErCiccione>** we have ten projects in there now  
 **\<sgp\_>** ErCiccione I saw this and was blown away by the GUI guide. A lot of effort went into this  
 **\<rehrar>** Oh yeah! On the website, Google Analytics is now replaced with the open source, self-hosted website analytics Matomo  
@@ -46,14 +46,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** sgp\_ yes, thanks a lot to qubenix who finalized and added a lot of stuff, he dedicated a lot of time to that guide  
 **\<sgp\_>** baltsar777 serhack did you ever hear about the suspension reason from Twitter?  
 **\<serhack>** I would like to have a community input about the first chapter of Mastering ByteRub on github. If anyone wants to help, https://github.com/byterubbook/byterubbook/pull/17 . Naturally I didn't upload all chapters yet  
-**\<xmrmatterbridge> \<baltsar777>** Maybe next week. @sgp  
+**\<btrmatterbridge> \<baltsar777>** Maybe next week. @sgp  
 **\<serhack>** sgp\_ At the moment no, I think Twitter Team is working on it  
 **\<sgp\_>** all right  
-**\<xmrmatterbridge> \<baltsar777>** Mastering ByteRub has a Mastadon account atm  
-**\<xmrmatterbridge> \<baltsar777>** If anyone using Mastadon 🐘  
+**\<btrmatterbridge> \<baltsar777>** Mastering ByteRub has a Mastadon account atm  
+**\<btrmatterbridge> \<baltsar777>** If anyone using Mastadon 🐘  
 **\<sgp\_>** Does anyone else have any community updates before we proceed?  
 **\<sgp\_>** 3. FFS updates  
-**\<xmrmatterbridge> \<baltsar777>** If anyone using Mastadon 🐘 https://mastodon.social/@masteringbyterub  
+**\<btrmatterbridge> \<baltsar777>** If anyone using Mastadon 🐘 https://mastodon.social/@masteringbyterub  
 **\<sgp\_>** There are several Forum Funding System updates. Unfortunately, https://forum.getbyterub.org is down at the moment.  
 **\<sgp\_>** m2049r has opened a proposal to raise funds to work on Monerujo: https://forum.getbyterub.org/6/ideas/90038/m2049r-part-time-for-3-months  
 **\<sgp\_>** dsc\_\_ has opened a proposal to continue working on the GUI: https://forum.getbyterub.org/6/ideas/90174/more-gui-coding  

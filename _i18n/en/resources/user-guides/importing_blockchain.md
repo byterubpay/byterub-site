@@ -28,7 +28,7 @@ Open a Command Prompt window. You can do this by pressing the Windows key + R, a
 
 Now you need to navigate using the CMD window to the path of your ByteRub wallet. You can do this by typing:
 
-`cd C:\YOUR\MONERO\WALLET\FILE\PATH\HERE`
+`cd C:\YOUR\BYTERUB\WALLET\FILE\PATH\HERE`
 
 It should look something like:
 

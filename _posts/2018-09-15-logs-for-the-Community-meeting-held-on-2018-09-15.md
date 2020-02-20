@@ -10,22 +10,22 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp_>** Welcome to the ByteRub Community workgroup meeting!  
 **\<sgp_>** https://github.com/byterubpay/meta/issues/273  
-**\<sgp_>**  ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp_>**  ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp_>** 1. Greetings  
 **\<el00ruobuob_[m]>** hello  
 **\<serhack>** Hi :- )  
 **\<parasew>** hi  
 **\<ErCiccione>** Hola  
 **\<vp11>** allo!  
-**\<xmrmatterbridge> \<txmr>** hi  
+**\<btrmatterbridge> \<tbtr>** hi  
 **\<sgp_>** welcome all, and thanks for your patience  
 **\<sgp_>**  2. Community highlights  
 **\<sgp_>** The ByteRub community led the way in reporting a MEGA chrome extension, which had been compromised: https://www.reddit.com/r/ByteRub/comments/9cx7cc/dont_use_mega_chrome_extension_version_3394/  
 **\<byterubbux>** [REDDIT] Don't use MEGA Chrome Extension version 3.39.4 (self.ByteRub) | 263 points (99.0%) | 98 comments | Posted by gattacus | Created at 2018-09-04 - 16:26:06  
-**\<sgp_>** ByteRub has seen recent increased adoption on Bisq, a decentralized exchange: https://www.reddit.com/r/ByteRub/comments/9evf8j/98_of_transactions_on_bisq_are_xmrbtc/  
-**\<byterubbux>** [REDDIT] 98% of transactions on Bisq are XMRBTC (https://i.redd.it/0252oqlpakl11.jpg) to r/ByteRub | 218 points (94.0%) | 82 comments | Posted by geozdr | Created at 2018-09-11 - 07:29:42  
+**\<sgp_>** ByteRub has seen recent increased adoption on Bisq, a decentralized exchange: https://www.reddit.com/r/ByteRub/comments/9evf8j/98_of_transactions_on_bisq_are_btrbtc/  
+**\<byterubbux>** [REDDIT] 98% of transactions on Bisq are BTRBTC (https://i.redd.it/0252oqlpakl11.jpg) to r/ByteRub | 218 points (94.0%) | 82 comments | Posted by geozdr | Created at 2018-09-11 - 07:29:42  
 **\<sgp_>** A ByteRub community member made another WooCommerce plugin: https://www.reddit.com/r/ByteRub/comments/9dkwem/i_made_an_open_source_plugin_for_accepting_byterub/  
-**\<byterubbux>** [REDDIT] I made an open source plugin for accepting ByteRub XMR on WooCommerce sites (self.ByteRub) | 173 points (98.0%) | 28 comments | Posted by anticassette | Created at 2018-09-06 - 17:29:44  
+**\<byterubbux>** [REDDIT] I made an open source plugin for accepting ByteRub BTR on WooCommerce sites (self.ByteRub) | 173 points (98.0%) | 28 comments | Posted by anticassette | Created at 2018-09-06 - 17:29:44  
 **\<sgp_>** ByteRub was recently mentioned in a Bitcoin Magazine article: https://bitcoinmagazine.com/articles/battle-privacycoins-why-byterub-hard-beat-and-hard-scale/  
 **\<sgp_>**  Does anyone else have community updates to share?  
 **\<sgp_>** The ByteRub community is dead :/  
@@ -34,9 +34,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>** ^ I knew someone would have something :)  
 **\<vp11>** .ded  
 **\<byterubbux>** http://i3.kym-cdn.com/photos/images/original/000/715/140/3b2.jpg  
-**\<xmrmatterbridge> \<txmr>** https://taiga.getbyterub.org/project/rehrar-35c3-2/wiki/home  
+**\<btrmatterbridge> \<tbtr>** https://taiga.getbyterub.org/project/rehrar-35c3-2/wiki/home  
 **\<ErCiccione>** we finally managed to organize ho to embed the GUI guide in the binaries, from version 0.13.0, it will be included with the wallet files  
-**\<sgp_>** ty parasew txmr, I'll be sure to review these  
+**\<sgp_>** ty parasew tbtr, I'll be sure to review these  
 **\<ErCiccione>** the guide is here: https://github.com/byterub-ecosystem/byterub-GUI-guide/blob/master/byterub-GUI-guide.md  
 **\<vp11>** ErCiccione, do we have new files to translate?  
 **\<sgp_>** Oh, and I just finished my ByteRub Talk conversation: https://www.youtube.com/watch?v=lfBZsMbOAZo. Along with other talks with Felix Honigwachs and Sarang Noether this past week  
@@ -98,9 +98,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<endogenic>** if we found a way to make it easy to purchase or exchange into byterub just for the proposal it could increase our reach considerably  
 **\<vp11>** ErCiccione, I never take anything personal :D  
 **\<vp11>** it's all good  
-**\<endogenic>** i reached out to some of my tech networks about the noethers' proposal recently but these people probably dont have xmr laying around  
+**\<endogenic>** i reached out to some of my tech networks about the noethers' proposal recently but these people probably dont have btr laying around  
 **\<ErCiccione>** vp11: i meant the fact that feels like not many people supported your proposal  
-**\<vp11>** endogenic, that's something we could ask binaryFate. some kind of integration with xmr.to  
+**\<vp11>** endogenic, that's something we could ask binaryFate. some kind of integration with btr.to  
 **\<sgp_>** look at endogenic shilling for GloBee to be added to the forum :p  
 **\<parasew>** would be actually a good feature imo  
 **\<vp11>** ErCiccione, oh yeah, no worries though. I just thought it could be a good moment since danish and arabic translations went to funding required and were funded  
@@ -108,7 +108,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>** anything on xeagu's request?  
 **\<sgp_>** anyone in favor of it?  
 **\<el00ruobuob_[m]>** i don't see why it should not go to funding required  
-**\<xmrmatterbridge> \<txmr>** me neither  
+**\<btrmatterbridge> \<tbtr>** me neither  
 **\<parasew>** +1  
 **\<el00ruobuob_[m]>** if he's a valuable speaker  
 **\<endogenic>** it's kind of funny to put the noethers' struggling proposals next to the church of byterub's proposal  
@@ -132,15 +132,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>** all right, so all proposals generally get favorable comments here. luigi1111, move them all please! :D  
 **\<sgp_>** any other FFS proposals I did not mention?  
 **\<sgp_>** or any last-minute comments about any of these proposals?  
-**\<xmrmatterbridge> \<txmr>** we are thinking to do an FFS for CCC presence  
-**\<xmrmatterbridge> \<txmr>** for transportation costs  
-**\<xmrmatterbridge> \<txmr>** but this is just in ideation phase  
-**\<xmrmatterbridge> \<txmr>** and should be discussed in another meeting   
+**\<btrmatterbridge> \<tbtr>** we are thinking to do an FFS for CCC presence  
+**\<btrmatterbridge> \<tbtr>** for transportation costs  
+**\<btrmatterbridge> \<tbtr>** but this is just in ideation phase  
+**\<btrmatterbridge> \<tbtr>** and should be discussed in another meeting   
 **\<sgp_>** is most of this documented in the Taiga link you shared earlier?  
-**\<xmrmatterbridge> \<txmr>** not at all  
+**\<btrmatterbridge> \<tbtr>** not at all  
 **\<el00ruobuob>** Sorry i just got disconnected after my previous message  
-**\<xmrmatterbridge> \<txmr>** yet  
-**\<xmrmatterbridge> \<txmr>** soon tm  
+**\<btrmatterbridge> \<tbtr>** yet  
+**\<btrmatterbridge> \<tbtr>** soon tm  
 **\<sgp_>** all right, let me know when you're ready so we can reserve some meeting time here  
 **\<sgp_>** 4. Workgroup report  
 **\<el00ruobuob>** sgp_ ?  
@@ -180,7 +180,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>** Any other comments? Any other workgroups with updates?  
 **\<parasew>** There will be a meeting for the CCC(C3) participation group, meeting next week Sept 22, 17:00 UTC on #byterub-community. for in-between discussions we are using #byterub-ccc  
 **\<el00ruobuob>** Outreach Workgroup has released their PSA: https://www.reddit.com/r/ByteRub/comments/9eqp12/byterub_best_practices_psa_1_of_7_a_secure_wallet/  
-**\<byterubbux>** [REDDIT] ByteRub Best Practices PSA [1 of 7]: A Secure Wallet is a Happy Wallet (Details in the comments) (https://i.redd.it/5v2g8gk9rgl11.jpg) to r/ByteRub | 99 points (98.0%) | 15 comments | Posted by xmrhaelan | Created at 2018-09-10 - 20:19:13  
+**\<byterubbux>** [REDDIT] ByteRub Best Practices PSA [1 of 7]: A Secure Wallet is a Happy Wallet (Details in the comments) (https://i.redd.it/5v2g8gk9rgl11.jpg) to r/ByteRub | 99 points (98.0%) | 15 comments | Posted by btrhaelan | Created at 2018-09-10 - 20:19:13  
 **\<oneiric_>** that's awesome work ErCiccione, good luck on the pootle tweaks  
 **\<vp11>** el00ruobuob, link with all of them compiled: https://www.byteruboutreach.org/best-practices-for-byterub.php  
 **\<ErCiccione>** thanks oneiric_ :)  
@@ -232,7 +232,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** if they somehow start becoming a bad service, the community will speak up and it will get removed  
 **\<vp11>** not because it became scammy, but because it's isn't reliable enough to become a recommendation  
 **\<ErCiccione>** parasew: no, i mean, i agree we should make a list, but with very good explanations of why we recommend that service and not another one.  
-**\<xmrmatterbridge> \<scottrepreneur>** "these services are not scams, but you still need to do your own due dilly."  
+**\<btrmatterbridge> \<scottrepreneur>** "these services are not scams, but you still need to do your own due dilly."  
 **\<ErCiccione>** the only problem i see is that if one of the services we recommend goes rogue, who get scammed can say "the byterub community suggested me to use thatr"  
 **\<needmoney90>** Sorry hey  
 **\<vp11>** something like that. "these services received generally good community feedback, but you should always do your own due diligence and read their terms of service"  
@@ -258,29 +258,29 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needmoney90>** It is  
 **\<sgp_>** And "recommended avoid" can be for reasons as simple as "it's a centralized exchange, and our community prioritizes decentralization"  
 **\<needmoney90>** In this case it's not clear imo  
-**\<needmoney90>** Ehhh, then we need to also implicate xmr.to  
+**\<needmoney90>** Ehhh, then we need to also implicate btr.to  
 **\<vp11>** yeah, I think we would need to give solid reasons for both cases of positive and negative recommendations.  
 **\<binaryFate>** wut?  
-**\<needmoney90>** Hm. Doesn't xmr.to carry the same risks as changelly?  
+**\<needmoney90>** Hm. Doesn't btr.to carry the same risks as changelly?  
 **\<needmoney90>** In theory  
 **\<needmoney90>** I know in practice not  
 **\<vp11>** let's say it does, but then in the equation you have a variable called "community feedback"  
 **\<needmoney90>** Changelly has accounts, but it's not verified, no emails are sent etc  
-**\<vp11>** which is absolutely amazing for xmr.to and horrible for changelly  
+**\<vp11>** which is absolutely amazing for btr.to and horrible for changelly  
 **\<needmoney90>** Yeah  
 **\<needmoney90>** I think leaning on community consensus is fuzzy enough to work hete  
 **\<needmoney90>** Here  
 **\<binaryFate>** explain like I didn't follow the conversation?  
-**\<needmoney90>** I imagine binaryfate can just as easily freeze a transfer if he wanted, there's no mechanical difference in control between changelly and xmr.to  
+**\<needmoney90>** I imagine binaryfate can just as easily freeze a transfer if he wanted, there's no mechanical difference in control between changelly and btr.to  
 **\<vp11>** if a recommended service starts to deteriorate, people will speak up on r/byterub. then we can have a discussion in a community meeting to see if we should remove it from the recommendations.  
-**\<xmrmatterbridge> \<scottrepreneur>** the line is pretty clear at 'they will not directly steal from you', right? centralized or not?  
+**\<btrmatterbridge> \<scottrepreneur>** the line is pretty clear at 'they will not directly steal from you', right? centralized or not?  
 **\<needmoney90>** I wish it was that simple  
 **\<needmoney90>** There's a few facets  
-**\<xmrmatterbridge> \<scottrepreneur>** obviously we can have our opinions about bisq being the best exchange, but on this kind of all encompassing yes/no list. there has to be a clear determinant  
+**\<btrmatterbridge> \<scottrepreneur>** obviously we can have our opinions about bisq being the best exchange, but on this kind of all encompassing yes/no list. there has to be a clear determinant  
 **\<vp11>** I mean, let's see freewallet for a moment. I actually think a custodial wallet is the right choice for some people, but we label them as scam because they have some affiliation with the bytecoin team and they're shady as fuck.  
 **\<vp11>** AND the community posted so many times bad things about them that I can't even count  
 **\<vp11>** the "community feedback" is the key thing. if we have good feedback and people talking good things about a service, we as a community could (should?) recommend it to the new users looking for similar services.  
-**\<xmrmatterbridge> \<scottrepreneur>** yep  
+**\<btrmatterbridge> \<scottrepreneur>** yep  
 **\<parasew>** changelly has also a weak reputation on "web of trust", see https://www.mywot.com/scorecard/changelly.com  
 **\<vp11>** creating a list of positive and negative recommendations is not necessarily easy, but we will come up with the good formula after some trial & error.  
 **\<vp11>** probably to get a service listed it should be on the market for a X amount of time, maybe the developer should come up in a meeting and talk about the service to create an open channel for communication (which increases trust), et al  
@@ -291,10 +291,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needmoney90>** It's ongoing  
 **\<rehrar>** Giving our presentations at Discover Blockchains tomorrow  
 **\<rehrar>** oh sorry sorry sorry  
-**\<xmrmatterbridge> \<txmr>** what about "recommended" "neutral" "scamy" something like that?  
+**\<btrmatterbridge> \<tbtr>** what about "recommended" "neutral" "scamy" something like that?  
 **\<sgp_>** longer than meeting than normal and was delayed  
 **\<vp11>** you also don't want a truckload of work in keeping the list updated with ALL the services out there.  
-**\<parasew>** txmr: "scammy" might be a problem, as @needmoney90 pointed out  
+**\<parasew>** tbtr: "scammy" might be a problem, as @needmoney90 pointed out  
 **\<vp11>** you need a small, concise list of proven services that the community uses for a long time and that we have some kind of communication with the owners/developers/something (preferably)  
 **\<ErCiccione>** agree with vp11, let's not overcomplicate it  
 **\<vp11>** and another concise list with the services that the community said are trash over and over  
@@ -391,11 +391,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>** All right, unless someone has anything pressing, we can finally wrap this meeting up  
 **\<el00ruobuob>** i was sure it was headed by sgp_   
 **\<sgp_>** 7.  Confirm next meeting date/time  
-**\<sgp_>**  The next community meeting will be two weeks from today on 29 September at 17:00 UTC. When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp_>**  The next community meeting will be two weeks from today on 29 September at 17:00 UTC. When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp_>**  7. ConclusionThat’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<sgp_>** Thanks everyone for making it through a 2 hour meeting  
 **\<el00ruobuob>** thank you guys!  
 **\<ErCiccione>** thank you for the moderation sgp_  
-**\<xmrmatterbridge> \<scottrepreneur>** thanks! have a good one. great show today sgp :-) excited to see rehar tomorrow  
+**\<btrmatterbridge> \<scottrepreneur>** thanks! have a good one. great show today sgp :-) excited to see rehar tomorrow  
 **\<vp11>** thanks all  
 **\<vp11>** much love  

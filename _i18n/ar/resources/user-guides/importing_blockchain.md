@@ -29,7 +29,7 @@
 
 الآن تحتاج إلى التنقل باستخدام نافذة CMD إلى مسار محفظة مونيرو. يمكنك القيام بذلك عن طريق كتابة:
 
-`cd C:\YOUR\MONERO\WALLET\FILE\PATH\HERE`
+`cd C:\YOUR\BYTERUB\WALLET\FILE\PATH\HERE`
 
 يجب أن يبدو مثل:
 

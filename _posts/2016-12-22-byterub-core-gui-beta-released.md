@@ -52,9 +52,9 @@ This release was the direct result of 32 people who worked, largely unpaid and a
 - ferretinjapan
 - medusa
 - Guillaume Le Vaillant
-- xmrdc
+- btrdc
 - dEBRUYNE
-- xmr-eric
+- btr-eric
 - Christoph Mayerhofer
 - Howard "hyc" Chu
 - githubrsys

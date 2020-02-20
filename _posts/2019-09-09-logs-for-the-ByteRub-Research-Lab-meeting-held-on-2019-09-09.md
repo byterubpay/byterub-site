@@ -11,7 +11,7 @@ author: el00ruobuob / sarang
 **\<sarang>** GREETINGS  
 **\<suraeNoether>** howdy!  
 **\<ArticMine>** Hi  
-**\<xmrmatterbridge> \<worriedrise>** Hello  
+**\<btrmatterbridge> \<worriedrise>** Hello  
 **\<sarang>** For our ROUNDTABLE, I can go first  
 **\<sarang>** A meta-note is that my next funding request needs feedback to determine if/when it should be opened: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/96  
 **\<sarang>** Aside from that, I've been working on inner-product proofs from IACR 944, which I know kenshamir[m] has also been working on  
@@ -65,11 +65,11 @@ author: el00ruobuob / sarang
 **\<ArticMine>** This begs the question how does one enforce encryption for tx\_extra?  
 **\<sarang>** should != must  
 **\<Inge->** What is the length limitation of tx\_extra?  
-**\<xmrmatterbridge> \<worriedrise>** Have you looked into dual outputs for Lelantus? Maybe if instead using the hash of the signing key, it took the hash of two signing keys S = Hs(P||Q), then also perhaps the commitments for the timelock could be stored in triple commitment? I haven't thought much about it though.  
+**\<btrmatterbridge> \<worriedrise>** Have you looked into dual outputs for Lelantus? Maybe if instead using the hash of the signing key, it took the hash of two signing keys S = Hs(P||Q), then also perhaps the commitments for the timelock could be stored in triple commitment? I haven't thought much about it though.  
 **\<sarang>** Inge-: AFAIK there is no hard cap (aside from any block-specific limits etc.)  
 **\<sarang>** worriedrise: interesting, but why a triple commitment?  
 **\<sarang>** That commitment could be stored as a standard Pedersen commitment along with the new outputs, could it not?  
-**\<xmrmatterbridge> \<worriedrise>** It could indeed. It would be one more point to store is all  
+**\<btrmatterbridge> \<worriedrise>** It could indeed. It would be one more point to store is all  
 **\<suraeNoether>** "This begs the question how does one enforce encryption for tx\_extra?" \<-- add a tx\_extra\_valid field, change tx\_extra to a pair of group elements, use switch commitments in tx\_extra and in tx\_extra\_valid store a proof of knowledge of the opener of the commitment. if you stash plaintext in tx\_extra, you won't be able to open it as a commitment... that'd be one way. but i don't think enforcing it is  
 **\<suraeNoether>** necessarily a good idea...  
 **\<suraeNoether>** ArticMine: ^  

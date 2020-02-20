@@ -60,7 +60,7 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<gingeropolous>** is that supplanting Jaquee 's thing?  
 **\<medusa>** PR is allready here hyc https://github.com/byterubpay/byterub-gui/pull/1091  
 **\<medusa>** gingeropolous:as far as i understand it, yes  
-**\<rehrar>** I'll repaste xmrscott[m]'s message so people who don't want to click don't have to  
+**\<rehrar>** I'll repaste btrscott[m]'s message so people who don't want to click don't have to  
 **\<rehrar>** David Mirza Ahmad, president of Subgraph OS, has put together a byte-for-byte matching Debian package and is requesting comment on some final pieces: "There some decisions to make for us, like: where does the blockchain data go? Do we start the daemon with systemd by default (feeling like no, as it can be started in GUI)? Appreciate thoughts on this." No one has provided comments on these matters so if anyone here could do so it woul  
 **\<rehrar>** d be appreciated. https://github.com/byterubpay/byterub/issues/2395  
 **\<rehrar>** \^  
@@ -68,11 +68,11 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<msvb-lab>** rehrar: Byte for byte matching, you mean as in reproducible build? Gitian?  
 **\* rehrar** applauds the GUI people for their consistent quality work  
 **\<pigeons>** I looked at his repo and i didnt see the debian control files to reproduce  
-**\<rehrar>** xmrscott[m] \^ msvb-lab's question  
+**\<rehrar>** btrscott[m] \^ msvb-lab's question  
 **\<ArticMine>** Any idea on timeline from an update at out end to the repo?  
-**\<xmrscott[m]>** I believe so. I'm not familliar with build terminoogy,  
-**\<xmrscott[m]>** The sha256 sums match: d5b0295d55f9951a6995e2ecc1516898799b22686ed81ca07b05b493175f2f66  
-**\<xmrscott[m]>** (THis is shown on the comments in the GitHub issue)  
+**\<btrscott[m]>** I believe so. I'm not familliar with build terminoogy,  
+**\<btrscott[m]>** The sha256 sums match: d5b0295d55f9951a6995e2ecc1516898799b22686ed81ca07b05b493175f2f66  
+**\<btrscott[m]>** (THis is shown on the comments in the GitHub issue)  
 **\<rehrar>** Any answer for ArticMine's question?  
 **\<hyc>** unknowable  
 **\<rehrar>** bam  
@@ -141,7 +141,7 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<pebx>** dEBU  
 **\<pebx>** is it not about price when it comes to fees?  
 **\<smooth>** other than that the low level seems aalmost comletely arbitrary to me  
-**\<dEBRUYNE>** Price surely influence fees (as they are denominated in XMR). I was just saying that we should leave *price* prediction out of it  
+**\<dEBRUYNE>** Price surely influence fees (as they are denominated in BTR). I was just saying that we should leave *price* prediction out of it  
 **\<rehrar>** Well if we want a code freeze "soon", we should try to decide this "soon" too, no? Or would this not be affected really by the freeze?  
 **\<dEBRUYNE>** *prediction*  
 **\<ArticMine>** I mean how low on the min fee do people want to go?  

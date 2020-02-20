@@ -146,7 +146,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** and was gracious enough to work through the design with some other contributors a couple months ago  
 **\<hyc>** via plugin?  
 **\<endogenic>** i got around to implementing that in the iOS (Swift) app and am in the process of building it out on the JS side  
-**\<endogenic>** i just tentatively grabbed the xmr exchange rates from cryptocompare.com  
+**\<endogenic>** i just tentatively grabbed the btr exchange rates from cryptocompare.com  
 **\<endogenic>** via client side polling while i wait for server to provide rates matrix  
 **\<endogenic>** i've been daydreaming about the idea of transpiling some of my Swift strictly View code to JS  
 **\<endogenic>** since we do have View.web, StackedNavigationView.web, etc…  

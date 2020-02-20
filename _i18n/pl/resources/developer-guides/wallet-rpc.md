@@ -31,7 +31,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Zauważ, że jednostki atomowe (@atomic-unit) są najmniejszą częścią 1 XMR, zgodnie z implementacją byterubd. **1 XMR = 1e12 jednostek atomowych.**
+Zauważ, że jednostki atomowe (@atomic-unit) są najmniejszą częścią 1 BTR, zgodnie z implementacją byterubd. **1 BTR = 1e12 jednostek atomowych.**
 
 ### Lista metod JSON RPC:
 
@@ -158,7 +158,7 @@ Wysyła ByteRub do wielu odbiorców.
 
 Wejście:
 
-* *destinations* - szereg odbiorców XMR:
+* *destinations* - szereg odbiorców BTR:
   * *amount* - niepodpisana liczba całkowita; kwota do wysłania każdemu z odbiorców w jednostkach atomowych.
   * *address* - ciąg; adres publiczny odbiorcy.
 * *fee* - niepodpisana liczba całkowita; kwota opłaty, gdy zignorowana, zostanie obliczona automatycznie.
@@ -202,7 +202,7 @@ Funkcja podobna do "transfer", ale potrafi podzielić płatności na więcej ni�
 
 Wejście:
 
-* *destinations* - szereg odbiorców XMR:
+* *destinations* - szereg odbiorców BTR:
   * *amount* - niepodpisana liczba całkowita; kwota do wysłania każdemu z odbiorców w jednostkach atomowych.
   * *address* - ciąg; adres publiczny odbiorcy.
 * *fee* - niepodpisana liczba całkowita; kwota opłaty, gdy zignorowana, zostanie obliczona automatycznie.

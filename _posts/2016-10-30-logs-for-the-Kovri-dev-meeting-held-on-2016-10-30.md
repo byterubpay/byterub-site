@@ -94,7 +94,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** We've moved on sornros.  
 **\<meeting-bot> [anonimal]** EinMByte: since I haven't spent any time researching webextensions, can we *for sure* do what we want to achieve with XUL/XPCOM?  
 **\<meeting-bot> [anonimal]** I'm thinking we consider brushing aside the deprecation issue for now and someone can pick it up in the future?  
-**\<PowerFlower>** hi sorry for being late -_- I hope its not too late. Simple question: Will be the GUI released before the next XMR core release in ?Januaray?  
+**\<PowerFlower>** hi sorry for being late -_- I hope its not too late. Simple question: Will be the GUI released before the next BTR core release in ?Januaray?  
 **\<meeting-bot> [EinMByte]** It depends what exactly we want to achieve  
 **\<meeting-bot> [anonimal]** If we *can* do that now, we could move it into byterubpay and it will gain more attention.  
 **\<fluffypony>** PowerFlower: this is the Kovri meeting, you'll have to hold that question for later  

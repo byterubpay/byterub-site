@@ -19,25 +19,25 @@ author: el00ruobuob / rehrar
 **\<midipoet>** Hey  
 **\<el00ruobuob\_[m]>** lo  
 **\<ErCiccione[m]>** o/  
-**\<xmrscott[m]>** Hola  
+**\<btrscott[m]>** Hola  
 **\<rehrar>** Looks like the gang's all here.  
 **\<rehrar>** 2. Community highlights  
 **\<rehrar>** We got added to Exodus Wallet  
 **\<rehrar>** that's fun  
-**\<xmrmatterbridge> \<serhack>** Hi!  
+**\<btrmatterbridge> \<serhack>** Hi!  
 **\<needmoney90>** Oh, I'm here  
 **\<rehrar>** the new FFS is completely done and ready. We're just waiting on fluffypony to not be traveling to he can put it up on the server. All back and front end coding are done.  
 **\<sarang>** NICE  
 **\<oneiric\_>** very legit!  
 **\<needmoney90>** I believe it's just the MFS now  
 **\<needmoney90>** No more forum  
-**\<xmrmatterbridge> \<learninandlurkin>** I, too, am here.  
+**\<btrmatterbridge> \<learninandlurkin>** I, too, am here.  
 **\<rehrar>** there is a name change, yes  
 **\<rehrar>** and it will be announced when it is live  
 **\<needmoney90>** About time  
 **\<needmoney90>** It took far too long, FFS  
-**\<rehrar>** but if someone slips me a couple XMR it might be leaked  
-**\<xmrmatterbridge> \<learninandlurkin>** So we can't confuse people with the acronym anymore? FFS  
+**\<rehrar>** but if someone slips me a couple BTR it might be leaked  
+**\<btrmatterbridge> \<learninandlurkin>** So we can't confuse people with the acronym anymore? FFS  
 **\<sarang>** Uses subaddresses, right?  
 **\<sarang>** and QR?  
 **\<sarang>** and Slick Fancy Design?  
@@ -60,19 +60,19 @@ author: el00ruobuob / rehrar
 **\<needmoney90>** Thanks Xiphon, it looks amazing  
 **\<rehrar>** tilt your neckbeard fedoras  
 **\<el00ruobuob\_[m]>** thanks to both of you!  
-**\<xmrmatterbridge> \<learninandlurkin>** But I'd just got together enough XMR to fund the boner pill proposal :(  
+**\<btrmatterbridge> \<learninandlurkin>** But I'd just got together enough BTR to fund the boner pill proposal :(  
 **\<oneiric\_>** great work xiphon  
 **\<rehrar>** Alright, anything else interesting this past couple weeks?  
 **\<rehrar>** We had another impromptu meeting yesterday about PIDs  
 **\<rehrar>** you can look over the logs for that  
 **\<rehrar>** #byterub-research-lab is now relayed to Mattermost, so there's no reason why you all shouldn't be there  
 **\<needmoney90>** I will be uploading a Year In Review dEBRUYNE and I wrote/edited to github some time in the next day or two.  
-**\<xmrmatterbridge> \<learninandlurkin>** Yeah thanks for that, rehrar  
+**\<btrmatterbridge> \<learninandlurkin>** Yeah thanks for that, rehrar  
 **\<needmoney90>** So, preannouncement  
 **\<rehrar>** Oh, that's fun.  
 **\<rehrar>** sgp is off giving a presentation in NYC tonight  
 **\<rehrar>** and I and midipoet will be going to Tabconf this month for another presentation and stuffs  
-**\<needmoney90>** I'm also open sourcing the /r/ByteRub and /r/xmrtrader subreddits, TBD. Having some gitlab Auth issues, or it would be done already.  
+**\<needmoney90>** I'm also open sourcing the /r/ByteRub and /r/btrtrader subreddits, TBD. Having some gitlab Auth issues, or it would be done already.  
 **\<rehrar>** Alright, we done with this one.  
 **\<rehrar>** needmoney90: did you sign in with Github on our Gitlab?  
 **\<sarang>** Regarding -lab, please note that while we like to enjoy ourselves, I ask that participants keep discussion there relevant to ByteRub research  
@@ -181,15 +181,15 @@ author: el00ruobuob / rehrar
 **\<oneiric\_>** have gitlab too, but active one is github for now  
 **\<oneiric\_>** thanks for the time, if anyone has any questions  
 **\<rehrar>** any questions for Mr. Oneiric the Third?  
-**\<xmrmatterbridge> \<learninandlurkin>** I saw some stuff about a pretty sweet GUI for I2p-zero. Is the goal to have something similar for tini2p?  
+**\<btrmatterbridge> \<learninandlurkin>** I saw some stuff about a pretty sweet GUI for I2p-zero. Is the goal to have something similar for tini2p?  
 **\<oneiric\_>** so far away from a GUI right now lol  
 **\<oneiric\_>** if one was built, it would be part of the client family of modules  
 **\<rehrar>** alright, we're running short on time. We have to move on because there's a big discussion coming up  
-**\<xmrmatterbridge> \<learninandlurkin>** I only ask because I don't know if the whole "baked in" i2p concept makes sense with a separate GUI  
+**\<btrmatterbridge> \<learninandlurkin>** I only ask because I don't know if the whole "baked in" i2p concept makes sense with a separate GUI  
 **\<rehrar>** That ok oneiric\_?  
 **\<oneiric\_>** the design is to be as modular as possible, so things can be developed in parallel independently  
 **\<oneiric\_>** rehrar, yeah that's great  
-**\<xmrmatterbridge> \<learninandlurkin>** Very cool.  
+**\<btrmatterbridge> \<learninandlurkin>** Very cool.  
 **\<rehrar>** ok, we're on 5. Code of Conduct now  
 **\<rehrar>** here's the dealio everyone  
 **\<rehrar>** recently, there has been an individual who has been very abrasive and has sent messages (public and private) with the intention of inflicting harm  
@@ -277,7 +277,7 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** It wasn't discussed  
 **\<oneiric\_>** encourage people to mute/disregard them  
 **\<dEBRUYNE>** It was swiftly adopted  
-**\<xmrmatterbridge> \<learninandlurkin>** A channel can't exist without mods. Mods can ban people. A CoC seems somewhat like a useless abstraction. If people don't like what's happening, they will leave a community regardless of whether what happens is justified by a codified Coc.  
+**\<btrmatterbridge> \<learninandlurkin>** A channel can't exist without mods. Mods can ban people. A CoC seems somewhat like a useless abstraction. If people don't like what's happening, they will leave a community regardless of whether what happens is justified by a codified Coc.  
 **\<midipoet>** personal control over muting is one method  
 **\<oneiric\_>** freedom of speech is not freedom to force me to listen  
 **\<el00ruobuob\_[m]>** quoting the reddit post "We are still discussing how to handle appeals."  
@@ -313,7 +313,7 @@ author: el00ruobuob / rehrar
 **\<needmoney90>** Exactly what I'm suggesting, but only for on platform stuff  
 **\<rehrar>** So here's the other question. If byterub community workgroup adopted a COC, and people disagreed, wouldn't they be able to make their own workgroup that does a similar thing that doesn't have one?  
 **\<midipoet>** sarang: but this isn't my house, nor yours. It's ours, and it's public  
-**\<xmrmatterbridge> \<learninandlurkin>** It's not like a code of conduct would be trustless. Whether there is/isn't one you still fundamentally have to decide whether you trust the people who have the banhammer.  
+**\<btrmatterbridge> \<learninandlurkin>** It's not like a code of conduct would be trustless. Whether there is/isn't one you still fundamentally have to decide whether you trust the people who have the banhammer.  
 **\<sarang>** You can't do anything you want in public spaces  
 **\<sarang>** That's the point of balancing of rights  
 **\<ErCiccione>** midipoet: it might happen more if it was part of a code of conduct <-- i don't really think so, humans don't work like that  
@@ -351,7 +351,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** if we have a CoC that says you can only be banned for on-platform nonsense, then that prevents that from happening  
 **\<oneiric\_>** rehrar it prevents from being justified by a document  
 **\<midipoet>** right. Ok  
-**\<xmrmatterbridge> \<learninandlurkin>** Can mue/silence be done on a timed basis whereby the user is notified? That is if you have ignored a warning or two you get a message "You have been muted for 24 hours"  
+**\<btrmatterbridge> \<learninandlurkin>** Can mue/silence be done on a timed basis whereby the user is notified? That is if you have ignored a warning or two you get a message "You have been muted for 24 hours"  
 **\<rehrar>** It's important to remember that this is a deep, nuanced, and potentially heated discussion where people hold different opinions. It's ok to disagree, and important that we navigate these discussions well.  
 **\<rehrar>** Even if you're "disgusted" by one side or the other's viewpoints, ultimately we are all talking about how to make the ByteRub community workgroup (and in general) better  
 **\<oneiric\_>** why build all this liberating tech if the community behind it becomes tyrannical?  
@@ -373,7 +373,7 @@ author: el00ruobuob / rehrar
 **\<sarang>** What a way to DoS a room  
 **\<rehrar>** Perhaps the compromise of needmoney90 of a CoC that is very restrictive, particularly to only on-platform conduct, is noted for consequence, could be a thing  
 **\<oneiric\_>** what i'm arguing is how severe the consequences are, and who has the authority to dole them out  
-**\<xmrmatterbridge> \<learninandlurkin>** Well people aren't going to wait for 100% voter turnout before they ban a spammer  
+**\<btrmatterbridge> \<learninandlurkin>** Well people aren't going to wait for 100% voter turnout before they ban a spammer  
 **\<midipoet>** I just don't like the idea of a formalised COC panel, and a formalised COC review board, and process, etc.  
 **\<midipoet>** ByteRub was supposed to move away from that formalisation, command and control. IMO  
 **\<rehrar>** Goodness gracious, you people.  
@@ -381,7 +381,7 @@ author: el00ruobuob / rehrar
 **\<needmoney90>** Midipoet it's not a panel or board  
 **\<needmoney90>** It's just the rules the admins enforce  
 **\<rehrar>** an workgroup is doing something different  
-**\<xmrmatterbridge> \<learninandlurkin>** I don't understand how there would be a "panel" or "process" when the reality is there are just two dudes doing the modding  
+**\<btrmatterbridge> \<learninandlurkin>** I don't understand how there would be a "panel" or "process" when the reality is there are just two dudes doing the modding  
 **\<needmoney90>** Codified for people in the rooms  
 **\<midipoet>** ok. So what if someone wants to appeal?  
 **\<midipoet>** What do they do?  
@@ -396,13 +396,13 @@ author: el00ruobuob / rehrar
 **\<el00ruobuob\_[m]>** "One person's freedom ends where another's begins." Anyone is free to not been insulted or harassed. So any form of formalizing this is ok to me.  
 **\<ErCiccione>** I think we are discussin a problem that doesn't exist  
 **\<oneiric\_>** one is not free to not be insulted  
-**\<xmrmatterbridge> \<learninandlurkin>** The CoC would in reality only serve as a justification, not as an actual mechanism  
+**\<btrmatterbridge> \<learninandlurkin>** The CoC would in reality only serve as a justification, not as an actual mechanism  
 **\<rehrar>** ErCiccione: it obviously does exist. Just because you weren't the one insulted, doesn't mean it's not real  
 **\<midipoet>** so mods across platforms make decisions regarding a coc on one distinct platform?  
 **\<needmoney90>** https://en.m.wikipedia.org/wiki/Paradox\_of\_tolerance  
 **\<needmoney90>** Just as some light reading material to think about.  
 **\<dEBRUYNE> \<midipoet>** I just don't like the idea of a formalised COC panel, and a formalised COC review board, and process, etc. <= Me neither. We don't need a coc to moderate a room  
-**\<xmrmatterbridge> \<learninandlurkin>** And if the mods do something that the community feels needs justification, they can do it with their own arguments without a CoC  
+**\<btrmatterbridge> \<learninandlurkin>** And if the mods do something that the community feels needs justification, they can do it with their own arguments without a CoC  
 **\<ErCiccione>** rehrar: you misunderstood, i'm talking about the "burocratization" of byterub.  
 **\<sarang>** FWIW if another anonimal or notmike situation happened here, and there was not some kind of definite action, I will not hesitate to leave this room and say good riddance  
 **\<sarang>** I wouldn't choose to be part of such a community that allows its members to be treated that way  
@@ -421,7 +421,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** OK, so let's say we don't adopt a CoC  
 **\<rehrar>** and then someone is being disruptive, and the mods ban  
 **\<ErCiccione>** dEBRUYNE: +1  
-**\<xmrmatterbridge> \<learninandlurkin>** If people kick up a fuss and make some post somewhere about being "censored" in the ByteRub community, the readers of that post (and the OPs) will not care whether there was a CoC in place  
+**\<btrmatterbridge> \<learninandlurkin>** If people kick up a fuss and make some post somewhere about being "censored" in the ByteRub community, the readers of that post (and the OPs) will not care whether there was a CoC in place  
 **\<rehrar>** then people will be upset that they were singled out and have no process for coming back  
 **\<rehrar>** that's EXACTLY WHAT HAPPENED this past time  
 **\<dEBRUYNE>** Yeah because sgp banned him indefinintely  
@@ -451,8 +451,8 @@ author: el00ruobuob / rehrar
 **\<rehrar>** thank you all for taking part in this discussion  
 **\<oneiric\_>** appealing to the coc of an org you feel wronged you may only win in the court of public opinion  
 **\<rehrar>** I know for sure that I am not perfect. Far from it. And I don't always have the best ideas.  
-**\<xmrmatterbridge> \<learninandlurkin>** Yeah the backlash would probs never be "You didn't follow the CoC!". It would be "In my opinion, you guys have been jerks".  
-**\<xmrmatterbridge> \<learninandlurkin>** But ruder  
+**\<btrmatterbridge> \<learninandlurkin>** Yeah the backlash would probs never be "You didn't follow the CoC!". It would be "In my opinion, you guys have been jerks".  
+**\<btrmatterbridge> \<learninandlurkin>** But ruder  
 **\<rehrar>** So we'll review all of this discussion and the different viewpoints, and see what the next step is.  
 **\<oneiric\_>** if they violated the coc, why care about appeals?  
 **\<midipoet>** can I be on the appeal board  
@@ -477,7 +477,7 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** Sure, but it's pretty apparent a lot of people are of the opinion no coc is needed at all  
 **\<needmoney90>** Yes, I am happy to discuss the merits and drawbacks of any proposed coc  
 **\<rehrar>** understood  
-**\<xmrmatterbridge> \<learninandlurkin>** How about: anyone who is banned gets made the mod of a automatically generated channel "byterub-community(n)" and that community can exist on its own merit  
+**\<btrmatterbridge> \<learninandlurkin>** How about: anyone who is banned gets made the mod of a automatically generated channel "byterub-community(n)" and that community can exist on its own merit  
 **\<needmoney90>** The sidebar on /r/ByteRub is a coc  
 **\<needmoney90>** For example  
 **\<rehrar>** and it's also apparent that a lot of people are of the opposite opinion dEBRUYNE  

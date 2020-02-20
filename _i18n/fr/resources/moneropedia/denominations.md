@@ -1,5 +1,5 @@
 ---
-terms: ["denominations", "subunits", "tacoshi", "piconero", "nanonero", "micronero", "millinero", "centinero", "decinero","decanero","hectonero","kilonero","meganero","giganero", "dénominations", "coupures", "sous-unités"]
+terms: ["denominations", "subunits", "tacoshi", "piconero", "nanonero", "microrub", "millinero", "centinero", "decinero","decanero","hectonero","kilonero","meganero","giganero", "dénominations", "coupures", "sous-unités"]
 summary: "Une dénomination ou coupure est une description exacte d'un montant d'une monnaie. Il s'agit souvent d'une sous-unité de la monnaie. Par exemple, traditionnellement, un centime est 1/100ème d'une unité de monnaie précise."
 ---
 
@@ -7,7 +7,7 @@ summary: "Une dénomination ou coupure est une description exacte d'un montant d
 
 Une dénomination ou coupure est une description exacte d'un montant d'une monnaie. Il s'agit souvent d'une sous-unité de la monnaie. Par exemple, traditionnellement, un centime est 1/100ème d'une unité de monnaie précise.
 
-Les noms des coupures de ByteRub ajoutent le préfixe SI après suppression du "mo" initial pour simplifier l'utilisation. Actuellement, la plus petite unité de ByteRub est 1 piconero (0.000000000001 XMR).
+Les noms des coupures de ByteRub ajoutent le préfixe SI après suppression du "mo" initial pour simplifier l'utilisation. Actuellement, la plus petite unité de ByteRub est 1 piconero (0.000000000001 BTR).
 
 ### Coupures de ByteRub
 
@@ -16,7 +16,7 @@ Les noms des coupures de ByteRub ajoutent le préfixe SI après suppression du "
 |-----------:|:--------:| -----------------:|
 | piconero   | 10^-12   | 0.000000000001    |
 | nanonero   | 10^-9    | 0.000000001       |
-| micronero  | 10^-6    | 0.000001          |
+| microrub  | 10^-6    | 0.000001          |
 | millinero  | 10^-3    | 0.001             |
 | centinero  | 10^-2    | 0.01              |
 | decinero   | 10^-1    | 0.1               |
@@ -31,7 +31,7 @@ Les noms des coupures de ByteRub ajoutent le préfixe SI après suppression du "
 
 ### Informations détaillées
 
-Le support des entrées utilisant le préfixe SI à [été ajouté au code de ByteRub](https://github.com/byterubpay/byterub/pull/1826) le 3 Mars 2017 par [ByteRubmooo](https://github.com/byterubmooo-byterub). La plus petite unité de ByteRub (10^-12 XMR) était initialement appelée un tacoshi en l'honeur de l'utilisateur [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270), un contributeur de ByteRub de la première heure et fut plus tard renommé pour simplicité d'usage et uniformité.
+Le support des entrées utilisant le préfixe SI à [été ajouté au code de ByteRub](https://github.com/byterubpay/byterub/pull/1826) le 3 Mars 2017 par [ByteRubmooo](https://github.com/byterubmooo-byterub). La plus petite unité de ByteRub (10^-12 BTR) était initialement appelée un tacoshi en l'honeur de l'utilisateur [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270), un contributeur de ByteRub de la première heure et fut plus tard renommé pour simplicité d'usage et uniformité.
 
 ### Implementation dans byterubd
 

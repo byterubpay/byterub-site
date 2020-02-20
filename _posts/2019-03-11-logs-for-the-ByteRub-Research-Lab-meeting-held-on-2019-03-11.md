@@ -19,7 +19,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Kudos to everyone for a successful first upgrade  
 **\<sarang>** I don't recall when the second was slated to occur, since block arrival was stunted  
 **\<sarang>** Any thoughts on the upgrade after the fact?  
-**\<xmrmatterbridge> \<rehrar>** Hi  
+**\<btrmatterbridge> \<rehrar>** Hi  
 **\<sarang>** I believe it was dEBRUYNE who wanted an upcoming meeting specifically to talk more deeply about the future of PoW  
 **\<parasew[m]>** anyone monitored the "old chain"? if there have been this large amount of asics on there, and not turned off it should be visible  
 **\<sarang>** I believe sgp\_ ran some blackball numbers on it  
@@ -49,7 +49,7 @@ author: el00ruobuob / sarang
 **\<sarang>** We should have a formal recommendation before whatever date is set for the point release code freeze  
 **\<sarang>** Anything else relating to the point upgrade that ought to be discussed?  
 **\<sarang>** ping byterubmooo perhaps  
-**\<xmrmatterbridge> \<rehrar>** I just want timelines. Nothing to say on content.  
+**\<btrmatterbridge> \<rehrar>** I just want timelines. Nothing to say on content.  
 **\<byterubmooo>** hi  
 **\<byterubmooo>** What's the question ? :)  
 **\<byterubmooo>** I don't know about any date. Depends when we get all the stuff on master ready really.  
@@ -79,7 +79,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** that's all i have today, thanks!  
 **\<sarang>** Righto  
 **\<sarang>** I have a few things  
-**\<xmrmatterbridge> \<learninandlurkin>** The line up is looking great btw! Fantastic effort for a first konferenco  
+**\<btrmatterbridge> \<learninandlurkin>** The line up is looking great btw! Fantastic effort for a first konferenco  
 **\<suraeNoether>** catching up on lots of reaidng in algebraic geometry :D  
 **\<sarang>** First, my next FFS/CCS will be posted soon  
 **\<sarang>** As was discussed here, in -community, and elsewhere, the request will be for immediate payout  
@@ -121,7 +121,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Well that's the thing... there's really nothing to write formally  
 **\<sarang>** You can probably solve all the theoretical woes by having all players commit to their proof elements before multicasting them  
 **\<sarang>** then an honest prover is guaranteed uniform F-S challenges  
-**\<xmrmatterbridge> \<learninandlurkin>** Sorry but I'm a little out of the loop here. What exactly are BP MPC for? something to do with multisig with BP?  
+**\<btrmatterbridge> \<learninandlurkin>** Sorry but I'm a little out of the loop here. What exactly are BP MPC for? something to do with multisig with BP?  
 **\<suraeNoether>** it's nice to think about collectively computing BP range proofs, but I'm still v curious about the coinjoin approach that we are considering on the larger scale.  
 **\<sarang>** Ideally, untrusted parties could generate single BPs for outputs  
 **\<suraeNoether>**  after all, it's hard to even think about threat models unless we know how these things will be used in practice  
@@ -131,7 +131,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Finally, suraeNoether had shown me this a while back: https://lelantus.io/lelantus.pdf  
 **\<suraeNoether>** agreed on the commit-and-reveal; expensive but usually does the trick to ensure participants can't be rewound inappropriately  
 **\<sarang>** An interesting application of some of the fundamentals behind Bulletproofs and the old StringCT scheme  
-**\<xmrmatterbridge> \<learninandlurkin>** So... allowing multi-input transactions where each user doesn't know the amounts of the other inputs? Sounds useful  
+**\<btrmatterbridge> \<learninandlurkin>** So... allowing multi-input transactions where each user doesn't know the amounts of the other inputs? Sounds useful  
 **\<suraeNoether>** learninandlurkin hence our interest in nailing down threat models \*nod\*  
 **\<sarang>** I've been playing around with some of the math in that paper to see what nuggets could be extracted  
 **\<suraeNoether>** oh i had a brief thing to point out: isthmus and n3ptune at noncesense-research-lab answered one of my requests and we now have a complete empirical distribution of number of inputs and outputs per transaction  
@@ -140,7 +140,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** https://github.com/noncesense-research-lab/tx\_in\_out\_distribution  
 **\<suraeNoether>** the data surprised me  
 **\<dEBRUYNE> \<sarang>** I prefer the first, but am open to discussion <= I'd be OK with the first, but perhaps it would be most convenient to use a rounded number  
-**\<dEBRUYNE>** e.g. if 211 XMR is funded, pay out 200  
+**\<dEBRUYNE>** e.g. if 211 BTR is funded, pay out 200  
 **\<sarang>** You won't believe what's in tx\_distribution\_in.csv!  
 **\<dEBRUYNE>** Mebbe malware  
 **\<dEBRUYNE>** :P  
@@ -149,7 +149,7 @@ author: el00ruobuob / sarang
 **\<binaryFate> \<sarang>** I prefer the first, but am open to discussion <-- donors will have no incentive to fund in time, it will drag till the end of the period  
 **\<sarang>** binaryFate: how would you do it?  
 **\<binaryFate>** I like the incentive to donors of you proposing something and getting to work on it only if funded  
-**\<xmrmatterbridge> \<learninandlurkin>** I imagine coinjoining going on would really complicate output selection. Or is there some idea where they work off each other to get rid of heuristics?  
+**\<btrmatterbridge> \<learninandlurkin>** I imagine coinjoining going on would really complicate output selection. Or is there some idea where they work off each other to get rid of heuristics?  
 **\<sarang>** Depends on how timely it is  
 **\<suraeNoether>** learningandlurkin coinjoin brings a whole new nightmare to the party. does everyone bring their own mix-ins? certainly nothing is to stop a malicious party from coinjoining with a bunch of badly selected mix-ins  
 **\<byterubmooo>** A ring is one person only. Fake output selection is untouched.  
@@ -159,20 +159,20 @@ author: el00ruobuob / sarang
 **\<sarang>** The benefit is breaking the assumption of one-party control of outputs and the link to the input rings  
 **\<binaryFate>** What about simple attack of using the same 10 decoys as one of the other participants?  
 **\<suraeNoether>** ^  
-**\<msvb-mob>** Is parasew, nevvton, or txmr in the channel?  
+**\<msvb-mob>** Is parasew, nevvton, or tbtr in the channel?  
 **\<binaryFate>** mmm you don't know which are decoys, nevermind ^^  
 **\<sarang>** If this moves forward, hopefully we can determine the necessary practical security for BPs  
 **\<sarang>** If we can't aggregate, they'd have to be separate for each output  
 **\<suraeNoether>** my beard is getting very thoroughly stroked this morning. much to think about...  
 **\<sarang>** I believe we'd get practical security without player commitments, but not provable  
 **\<sarang>** Anyway: does anyone else wish to share interesting research before we close?  
-**\<xmrmatterbridge> \<learninandlurkin>** Yes it sounds like the interplay between coinjoin and ringsigs will require some diagrams for me to ever understand. Could get complicated.  
+**\<btrmatterbridge> \<learninandlurkin>** Yes it sounds like the interplay between coinjoin and ringsigs will require some diagrams for me to ever understand. Could get complicated.  
 **\<suraeNoether>** i think you would want a commit-and-reveal stage for everyone to see the ring members to prevent malicious ring intersection in the coinjoin  
 **\<sarang>** ByteRubCoinJoin: an easy 14-round process!  
 **\<suraeNoether>** isthmus and i have been chatting about methods of extracting the true spend-time distribution from the byterub blockchain without knowing exactly which outputs have been spent  
 **\<suraeNoether>** that's a very nascent conversation, though I think it'll end up being a very straightforward project  
 **\<sarang>** Discussions in #noncesense-research-lab I presume?  
-**\<xmrmatterbridge> \<learninandlurkin>** so, truish spend-time distribution  
+**\<btrmatterbridge> \<learninandlurkin>** so, truish spend-time distribution  
 **\<binaryFate>** Are there regular meetings on this or just continuous discussion? I had been working on this at some point and have some code around aiming to graphically show the real spend distribution  
 **\<sarang>** I've seen a few informal conversations in #noncesense-research-lab but didn't know if suraeNoether had something more formal  
 **\<suraeNoether>** binaryFate: ah, no, this has been a casual conversation by side channel, but there is clearly interest  
@@ -185,12 +185,12 @@ author: el00ruobuob / sarang
 **\<sarang>** excellent  
 **\<suraeNoether>** also casual github maintenance  
 **\<sarang>** Any final questions or remarks before we adjourn?  
-**\<xmrmatterbridge> \<learninandlurkin>** once you guys have made a recommendation for output selection  
-**\<xmrmatterbridge> \<learninandlurkin>** and it gets implemented, what's the next big focus?  
+**\<btrmatterbridge> \<learninandlurkin>** once you guys have made a recommendation for output selection  
+**\<btrmatterbridge> \<learninandlurkin>** and it gets implemented, what's the next big focus?  
 **\<sarang>** There will be much to consider in the realm of refund and payment channels  
-**\<xmrmatterbridge> \<learninandlurkin>** Ooh yes the refund ideas from a while back were really interesting  
+**\<btrmatterbridge> \<learninandlurkin>** Ooh yes the refund ideas from a while back were really interesting  
 **\<sarang>** and some aspects of output selection, like linking spends across rings in txns, is not solved yet  
-**\<xmrmatterbridge> \<learninandlurkin>** Seems like a logical next area of research  
+**\<btrmatterbridge> \<learninandlurkin>** Seems like a logical next area of research  
 **\<sarang>** and if coinjoin works out, there will be a lot to consider with that  
 **\<sarang>** Also transaction relay and network-level anonymity stuff that's still in progress  
 **\<sarang>** To quote the Simpsons: "like the cleaning of a house... IT NEVER ENDS"  

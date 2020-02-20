@@ -11,14 +11,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/318  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<oneiric\_>** o/  
 **\<el00ruobuob\_[m]>** Hello everyone  
 **\<midipoet>** hey hey  
 **\<ErCiccione[m]>** HI  
 **\<parasew[m]>** hello!  
-**\<xmrscott[m]>** Hola  
+**\<btrscott[m]>** Hola  
 **\<Xeagu\_\_>** Hey hey hey!  
 **\<ArticMine>** Hi  
 **\<dsc\_>** d=  
@@ -70,7 +70,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** Hi Xeagu\_\_ Sorry for being late.  
 **\<pwrcycle>** Is there a Defcon meeting this morning  
 **\<kinghat>** wasnt all the stuffs ready it just needed to be tested properly? and we are just waiting because of "update fatigue"?  
-**\<xmrscott[m]>** pwrcycle: No, April 6th  
+**\<btrscott[m]>** pwrcycle: No, April 6th  
 **\<sgp\_>** pwrcycle: this is a community meeting; we can discuss your proposal in a few mins. Defcon-specific meeting is later  
 **\<pwrcycle>** k, yeah.  just checking.  
 **\<sgp\_>** kinghat: I recommend checking in #byterub-dev, I want to keep the meeting moving  
@@ -119,13 +119,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** can all this be discussed during the defcon meeting?  
 **\<midipoet>** what time is the defcon meeting?  
 **\<nevvton[m]>**  ErCiccione: true +1  
-**\<xmrscott[m]>** April 6, 17UTC  
+**\<btrscott[m]>** April 6, 17UTC  
 **\<midipoet>** thanks  
 **\<sgp\_>** Xeagu\_\_: this one is better for talking. More discussion areas  
 **\<sgp\_>** Any comments on whether this should be moved or not?  
 **\<sgp\_>** ErCiccione[m]: is right, we mostly just need to get a yay or nay  
 **\<Xeagu\_\_>** Okay cool sgp\_  
-**\<xmrscott[m]>** Check meta to post agenda topics on the defcoon meeting issue  
+**\<btrscott[m]>** Check meta to post agenda topics on the defcoon meeting issue  
 **\<ErCiccione[m]>** yay from me  
 **\<el00ruobuob\_[m]>** yay here too  
 **\<Xeagu\_\_>** yay  
@@ -186,7 +186,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione[m]>** useless man, i agree  
 **\<sgp\_>** not enough marketing  
 **\<midipoet>** needs more cowbell  
-**\<xmrscott[m]>** Would say yes for baaa's proposal  
+**\<btrscott[m]>** Would say yes for baaa's proposal  
 **\<oneiric\_>** ^needs a new joke  
 **\<ErCiccione[m]>** midipoet: you really love cowbell man :P  
 **\<midipoet>** joke of the week, and its only Saturday.  
@@ -260,7 +260,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** for the sake of time, I will switch 6 and 5  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 30 March at 17:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<ErCiccione[m]>** but... but...  
 **\<sgp\_>** I'm working to get all the other meetings on this calendar too  
 **\<ErCiccione[m]>** sgp\_ you skipped my report.  

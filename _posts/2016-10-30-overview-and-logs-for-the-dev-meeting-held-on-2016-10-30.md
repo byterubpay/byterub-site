@@ -66,7 +66,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<byterubmooo>** ok  
 **\<Slack> \<nanoakron>** lol  
 **\<Slack> \<malmen>** How is 0qm work?  
-**\<byterubmooo>** proxmr: you'll know in ~30 min when anonimal's around for the kovri meeting.  
+**\<byterubmooo>** probtr: you'll know in ~30 min when anonimal's around for the kovri meeting.  
 **\<byterubmooo>** tewinget: around ?  
 **\<Slack> \<nanoakron>** So the big themes I see in current development are: ZMQ, GUI, final touches to RingCT (?), changing the crypto library, changing the logging system and fluffy blocks. Any others?  
 **\<Slack> \<malmen>** What is fluffy blocks? I am missing something here  
@@ -195,7 +195,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<byterubmooo>** BTW, syncing from scratch uses a different set of messages, right ?  
 **\<revler1082>** yes i believe so  
 **\<byterubmooo>** A possible optimization would be to always include txes with too low fee, since these would have been mined by the local host.  
-**\<realsony>** So men i read everything, didnt understand 97% :) convinces me that XMR has the best alt dev team :)  
+**\<realsony>** So men i read everything, didnt understand 97% :) convinces me that BTR has the best alt dev team :)  
 **\<byterubmooo>** But that's really not needed now.  
 **\<revler1082>** yea, there's a few tweaks we can make, i like your send tx index instead of hash for missing  
 **\<byterubmooo>** Yes, it sounds like a no brainer, so I'm suspicious that bitcoin is not doing it for non obvious reasons...  

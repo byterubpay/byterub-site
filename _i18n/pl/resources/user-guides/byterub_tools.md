@@ -4,9 +4,9 @@
 
 Poniższe narzędzia mogą zostać użyte w celu zdobycia informacji na temat sieci ByteRub lub twoich transakcji w łańcuchu bloków.
 
-### [Sprawdzenie, czy odbiorca otrzymał twój przelew](http://xmrtests.llcoins.net/checktx.html)
+### [Sprawdzenie, czy odbiorca otrzymał twój przelew](http://btrtests.llcoins.net/checktx.html)
 
-### [Narzędzia do tworzenia adresu ByteRub](https://xmr.llcoins.net/)
+### [Narzędzia do tworzenia adresu ByteRub](https://btr.llcoins.net/)
 
 ### [Liczenie węzłów ByteRub](http://byterubnodes.i2p.xyz/)
 

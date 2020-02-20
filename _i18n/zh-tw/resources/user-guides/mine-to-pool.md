@@ -12,23 +12,23 @@ decentralized.
 Just like pools, there are a lot of miners to choose from. The one that you
 should pick depends on the hardware you want to mine on. This guide will only
 use a CPU miner, and will be using
-[xmr-stak-cpu](https://github.com/fireice-uk/xmr-stak-cpu). Alternatives include
+[btr-stak-cpu](https://github.com/fireice-uk/btr-stak-cpu). Alternatives include
 [wolf's CPUMiner](https://github.com/wolf9466/cpuminer-multi) and
 [sgminer-gm](https://github.com/genesismining/sgminer-gm). However, their
 configuration is slightly different and will not be covered in this guide.
 
 ## For Windows Systems
 
-If you are using a Windows system, the developer of xmr-stak-cpu provides
+If you are using a Windows system, the developer of btr-stak-cpu provides
 binaries to download on the
-[GitHub release page](https://github.com/fireice-uk/xmr-stak-cpu/releases).
+[GitHub release page](https://github.com/fireice-uk/btr-stak-cpu/releases).
 
-Download `xmr-stak-cpu-win64.zip` and extract it somewhere you'll be able to
+Download `btr-stak-cpu-win64.zip` and extract it somewhere you'll be able to
 find it again.
 
 ## For Other Operating Systems
 
-If you're not using Windows, you will have to compile xmr-stak-cpu for yourself,
+If you're not using Windows, you will have to compile btr-stak-cpu for yourself,
 luckily this isn't as hard as it sounds. Before you can compile the miner, you
 will need to install some of its prerequisites.
 
@@ -96,7 +96,7 @@ Firstly stop the miner (if it's running), run the following commands to enable
 large pages and then start the miner as root:
 
 	sudo sysctl -w vm.nr_hugepages=128
-	sudo ./xmr-stak-cpu
+	sudo ./btr-stak-cpu
 
 ## Large pages on Windows
 

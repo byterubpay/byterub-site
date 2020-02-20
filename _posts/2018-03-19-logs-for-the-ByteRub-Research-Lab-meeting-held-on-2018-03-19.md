@@ -125,8 +125,8 @@ author: el00ruobuob / surae
 **\<luigi1111w>** prunable hashes should be like a few hundred MB  
 **\<madLyfe>** thanks guys!  
 **\<suraeNoether>** it allows a user to act like a "depositor" and specify a finite number of "banks" and execute transfers between these banks and prove it is all correct without revealing any information about that. at first i was like "ehhhh seems like a very fixed set-up that requires a trusted third party, etc etc." then i realized this allows a user to (1) declare and issue an asset, (2) declare a finite set of accounts  
-**\<suraeNoether>** through which this asset will be be transferred, and (3) issue assets and transfer them around between these accounts with zkledger. use case: a large store wishes to issue gift cards. they act like a depositor, depositing XMR into a gift card zkledger,  declaring a finite set of banks/accounts, say one for each brick and mortar store, and updates the zkledger offchain with gift card transactions. later, they  
-**\<suraeNoether>** can close the transaction by auditing the ledger and proving no XMR was created or destroyed.  
+**\<suraeNoether>** through which this asset will be be transferred, and (3) issue assets and transfer them around between these accounts with zkledger. use case: a large store wishes to issue gift cards. they act like a depositor, depositing BTR into a gift card zkledger,  declaring a finite set of banks/accounts, say one for each brick and mortar store, and updates the zkledger offchain with gift card transactions. later, they  
+**\<suraeNoether>** can close the transaction by auditing the ledger and proving no BTR was created or destroyed.  
 **\<madLyfe>** byterubmooo: so you are saying the chain could be pruned to 17%ish of its current size?  
 **\<byterubmooo>** I am saying mdb\_stat is getting me weird results.  
 **\<suraeNoether>** madLyfe: the take-away is that we have some pruning available if we had some folks carefully thinking about how to do it. :P  

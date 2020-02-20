@@ -49,6 +49,6 @@ Sprecyzuj ustawienia swojego demona i kliknij w strzałkę w `prawo`:
 
 ![daemon settings](png/restore_from_keys/daemon-settings.png)
 
-Kliknij w `UŻYJ MONERO`, aby skorzystać ze swojego przywróconego portfela:
+Kliknij w `UŻYJ BYTERUB`, aby skorzystać ze swojego przywróconego portfela:
 
 ![all set up](png/restore_from_keys/all-set-up.png)

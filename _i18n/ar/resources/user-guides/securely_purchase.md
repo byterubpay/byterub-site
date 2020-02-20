@@ -38,7 +38,7 @@ ByteRub Private View Key
 
 #### ملحوظه
 خيار لتشفير كلمات الإستعاده الخاصه بك:
-https://xmr.llcoins.net/
+https://btr.llcoins.net/
 قم بتحميل صفحه الـHTML ووضعها علي جهاز عير متصل بالإنترنت. قم بإختيار "Encrypt/Decrypt Mnemonic Seed" وتأكد من إستخدام "CN Add" مع كلمه سر جيّده.
 
 

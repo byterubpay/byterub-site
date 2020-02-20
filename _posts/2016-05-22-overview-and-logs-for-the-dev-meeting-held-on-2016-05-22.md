@@ -12,14 +12,14 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** das meeting  
 **\<ArticMine>** has started  
 **\<fluffypony>** heh heh  
-**\<xmrpromotions>** let the fun begin  
+**\<btrpromotions>** let the fun begin  
 **\<fluffypony>** hyc, smooth, byterubmooo, dEBRUYNE, gingeropolous, luigi1112, luigi1114, anyone I've missed  
 **\<fluffypony>** hokay so  
 **\<fluffypony>** first up: for those that haven't done so, please commit to the StackExchange proposal: http://area51.stackexchange.com/proposals/98617/byterub  
 **\<gingeropolous>** oooh i get pinged for dev meetings? :)  
-**\<xmrpromotions>** and earn rep: https://forum.getbyterub.org/20/general-discussion/2542/stack-exchange-commitment-requirements  
+**\<btrpromotions>** and earn rep: https://forum.getbyterub.org/20/general-discussion/2542/stack-exchange-commitment-requirements  
 **\<fluffypony>** you're basically just committing to asking / answering a total of 10 questions over 3 months  
-**\<fluffypony>** also it would be advantageous if you have over 200 rep on another StackExchange site, as xmrpromotions said  
+**\<fluffypony>** also it would be advantageous if you have over 200 rep on another StackExchange site, as btrpromotions said  
 **\<fluffypony>** I earned over 200 rep on bitcoin.stackexchange by answering like 4 questions, so it's not hard  
 **\<fluffypony>** ok maybe like 6 questions, but still, not hard  
 **\<fluffypony>** I think getting 200 committers in total will be easy, but having 100 committers with sufficient rep might be a little harder  
@@ -57,15 +57,15 @@ author: dEBRUYNE / fluffypony
 **\<byterubmooo>** How will you know it's an integrated address of yours in the first place ?  
 **\<fluffypony>** and there will be several other ByteRub-er-ains there as well  
 **\<fluffypony>** including some devs, most notably hyc  
-**\<xmrpromotions>** a few ppl told me they want to meet you there:)  
+**\<btrpromotions>** a few ppl told me they want to meet you there:)  
 **\<saddam>** oh it's the meeting, sorry. I'll wait to discuss that later byterubmooo  
 **\<fluffypony>** if anyone else is going to be there please let me know, we can do a ByteRub supper on the Saturday or something  
 **\<fluffypony>** next up is a chat about documentation  
 **\<fluffypony>** wallet42 has raised the idea of opening up the wiki on Github  
-**\<xmrpromotions>** https://twitter.com/Falkvinge/status/731833882102910977 wants to meet you too  
+**\<btrpromotions>** https://twitter.com/Falkvinge/status/731833882102910977 wants to meet you too  
 **\<fluffypony>** the advantages of this is that it keeps the documentation close to the code  
 **\<fluffypony>** and you can PR to the wiki or (I think) edit it inline  
-**\<fluffypony>** xmrpromotions: oh neat  
+**\<fluffypony>** btrpromotions: oh neat  
 **\<fluffypony>** in fact, the wiki creates a .wiki.git project that's invisible-ish  
 **\<fluffypony>** so it makes syncing to GitLab easy (setting up a GitLab mirror is on the list of things to do)  
 **\<fluffypony>** downside is that you can't edit it anonymously, although creating a GH account is trivial  
@@ -87,7 +87,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** It is actually really needed We have info all over the place  
 **\<fluffypony>** (we discussed this here a few days ago as well, and everyone generally seemed in favour of it)  
 **\<fluffypony>** ArticMine: agreed  
-**\<xmrpromotions>** I like the idea. Consolidation and simplification should hopefully encourage more people to contribute to it  
+**\<btrpromotions>** I like the idea. Consolidation and simplification should hopefully encourage more people to contribute to it  
 **\<fluffypony>** that's it from my side - next meeting will be on the 5th of May, same time  
 **\<fluffypony>** if anyone has anything they want to discuss, or any other points they want to bring up, now's the time  
 **\<fluffypony>** we have 20-ish minutes till the Kovri meeting  
@@ -115,7 +115,7 @@ author: dEBRUYNE / fluffypony
 **\<gingeropolous>** hi luigi1112  
 **\<fluffypony>** dEBRUYNE: more PRs, also gives us time to see if there are issues with auto-convert  
 **\<fluffypony>** *more issues  
-**\<xmrpromotions>** hi luigi1112  
+**\<btrpromotions>** hi luigi1112  
 **\<byterubmooo>** What would I do if I wanted to try and repro that problem ? just pull, build, run ?  
 **\<dEBRUYNE>** fluffypony: all right  
 **\<gingeropolous>** im just curious... is 0mq gonna happen before ringCT? or ... or all at once?  

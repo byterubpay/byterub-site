@@ -133,7 +133,7 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-olark}** Assuming this will need to be replenished every now and then.  
 **\<i2p-relay> {-fluffypony}** I have no idea - suggestions?  
 **\<anonimal>** https://forum.getbyterub.org/6/ideas/87597/byterub-bounty-for-hackerone suggested 500 total for all projects  
-**\<anonimal>** (500 XMR)  
+**\<anonimal>** (500 BTR)  
 **\* anonimal** checks value  
 **\<i2p-relay> {-fluffypony}** olark: yes but bounties are normally denominated in USD  
 **\<i2p-relay> {-fluffypony}** so potentially it wouldn't need to be replenished, or hardly  
@@ -144,7 +144,7 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** We don't have X thought: X being how many of Y.  
 **\<anonimal>** *though  
 **\<anonimal>** If we run out of the fund, we can always open a new FFS.  
-**\<i2p-relay> {-olark}** 500 xmr seems like a good start anyway.  
+**\<i2p-relay> {-olark}** 500 btr seems like a good start anyway.  
 **\<i2p-relay> {-fluffypony}** yeah let's just stick to that and see how it goes  
 **\<anonimal>** Ok  
 **\<i2p-relay> {-olark}** Right.  

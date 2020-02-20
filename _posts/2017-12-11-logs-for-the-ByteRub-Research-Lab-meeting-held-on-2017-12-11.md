@@ -73,7 +73,7 @@ author: dEBRUYNE / fluffypony
 **\<endogenic>** may i bring up something related?  
 **\<endogenic>** but not to bulletproofs specifically  
 **\<sarang>** For better or worse, BPs have been hyped, and anything that gets them tested is a Good Thing  
-**\<suraeNoether>** we can simply dump 2\^N bulletproofs into a file and challenge the community: if you can open even one without knowing our secret masks, we'll give you such and such amount of XMR  
+**\<suraeNoether>** we can simply dump 2\^N bulletproofs into a file and challenge the community: if you can open even one without knowing our secret masks, we'll give you such and such amount of BTR  
 **\<sarang>** Well, that's not the only thing we care about  
 **\<suraeNoether>** endogenic yes, let's append that to the "other stuff people are working on"  
 **\<suraeNoether>** yeah, also the computational waste  
@@ -213,7 +213,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** point is: in 2013, if you were a 19 year old sitting around smoking pot trying to come up with a way to invent an asic resistant hash function, and all you knew about computers was that L3 functions are slow and that these handful of hash functions are considered good, this is *EXACTLY* the hash function you would come up with.  
 **\<suraeNoether>** s/L3 functions/L3 cache (oy)  
 **\<suraeNoether>** so the POW alternative thing is something that has been niggling at my mind for awhile  
-**\<suraeNoether>** and i'm thinking i'm willing to match the ByteRub community up to a certain amount in XMR for a nice, big, public contest on the matter  
+**\<suraeNoether>** and i'm thinking i'm willing to match the ByteRub community up to a certain amount in BTR for a nice, big, public contest on the matter  
 **\<luigi1111w>** the dice is at the end btw  
 **\<hyc>** L3 isn't that slow, and it's faster than main RAM. this was a pretty good approach to prevent trivial optimization (fitting into L2 or faster)  
 **\<luigi1111w>** https://github.com/byterubpay/byterub/blob/master/src/crypto/slow-hash.c#L488  
@@ -229,7 +229,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** i'm not sold that Nakamoto hash-based PoW is "the best" idea, although I know that whatever "the best" process is, it should end up being a poisson process  
 **\<suraeNoether>** i want provable security for every attacker % up to and including 50%  
 **\<suraeNoether>** etc etc  
-**\<suraeNoether>** i'm wondering if anyone else would be willing to match some XMR  
+**\<suraeNoether>** i'm wondering if anyone else would be willing to match some BTR  
 **\<sarang>** Well hash-based has the advantage of being extremely fast to verify  
 **\<sarang>** and well understood if you use an accepted hash function  
 **\<suraeNoether>** because a prize could get really hefty really fast if some folks promise matching.  
@@ -302,7 +302,7 @@ author: dEBRUYNE / fluffypony
 **\<suraeNoether>** well  
 **\<luigi1111w>** schwartz  
 **\<luigi1111w>** idk  
-**\<suraeNoether>** if i offer to match some amount of XMR, and the thing doesn't get funded... the contest doesn't go through, you know?  
+**\<suraeNoether>** if i offer to match some amount of BTR, and the thing doesn't get funded... the contest doesn't go through, you know?  
 **\<endogenic>** yeah but we'd hate to see money spent mistakenly  
 **\<endogenic>** guess ppl are just saying we need to be cautious  
 **\<ArticMine>** What are the advantages?  
@@ -353,7 +353,7 @@ author: dEBRUYNE / fluffypony
 **\<gingeropolous>** gah, sorry. this ergonomic keyboard. Re: ringsize, privacy, computation time - I have a hunch that we can extract a very useful dynamic parameter from network difficulty.  
 **\<suraeNoether>** gingeropolous: yeah, we don't even need to switch to the winner immediately. it could just be the one we put into our long-term piecemeal backup plans.  
 **\<hyc>** we know that there are Cryptonight implementations for FPGA already  
-**\<hyc>** and apparently they're profitable, now that XMR price has risen  
+**\<hyc>** and apparently they're profitable, now that BTR price has risen  
 **\<hyc>** the other aspect of using industry-standard algorithms - you can get impls of them off the shelf, and lump them together as Cryptonight uses them, without much hassle  
 **\<ArticMine>** So time may be of the essence to change the POW algorithm  
 **\<ArticMine>** In any case this POW algorithm change seems positive to me  

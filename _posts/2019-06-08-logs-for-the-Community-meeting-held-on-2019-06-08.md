@@ -14,7 +14,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** community meeting time  
 **\<rehrar>** 1. Greetings  
 **\<el00ruobuob\_[m]>** Hi  
-**\<xmrscott[m]>** Hola  
+**\<btrscott[m]>** Hola  
 **\<ErCiccione[m]>** whooo just in time. hi everybody  
 **\<msvb-mob>** Hello.  
 **\<rehrar>** So we've got quite some things to talk about. Let's get through them.  
@@ -102,13 +102,13 @@ author: el00ruobuob / rehrar
 **\<sarang>** Any need for an MRL update?  
 **\<sarang>** Or questions for me on my CCS request?  
 **\<ErCiccione[m]>** It's a pleasure lh1008 :)  
-**\<xmrscott[m]>** thunderosa: What platform is the calendar going to be based in?  
+**\<btrscott[m]>** thunderosa: What platform is the calendar going to be based in?  
 **\<thunderosa>** Home grown,...I'll be able to release the code to community, but it's a solution I've developed over the past 4-5 years for a localized event calendar  
 **\<thunderosa>** Our publishing platform has very little outside code  
 **\<rehrar>** so it will be FOSS then?  
 **\<thunderosa>** That's my long-term goal,...I was going to slice the relevant chunk for this.  
 **\<thunderosa>** It just always ends up getting to the bottom of my pile. If there's interest, I can make it more of a priority  
-**\<xmrscott[m]>** Ok cool, hopefully the events are easily to consume via api or something  
+**\<btrscott[m]>** Ok cool, hopefully the events are easily to consume via api or something  
 **\<thunderosa>** Yep  
 **\<rehrar>** alright, nice  
 **\<rehrar>** so msvb-mob has some things he wants to say  
@@ -152,7 +152,7 @@ author: el00ruobuob / rehrar
 **\<needmoney90>** I assume they'll be happy to do whatever we like  
 **\<Mochi101>** Donate it to the Church  
 **\<Mochi101>** :P  
-**\<midipoet>** to the church through locked XMR  
+**\<midipoet>** to the church through locked BTR  
 **\<ErCiccione[m]>** lol  
 **\<rehrar>** ErCiccione[m]: while I agree, we do have some massive quarterlies coming up  
 **\<midipoet>** time-locked to 2045  
@@ -163,11 +163,11 @@ author: el00ruobuob / rehrar
 **\<Mochi101>** Audit Fund  
 **\<Mochi101>** nice  
 **\<rehrar>** and the rest to GF to be used for proposals  
-**\<xmrscott[m]>** If donation, I would argue @OpenPrivacy pr something would be better as they're underfunded  
+**\<btrscott[m]>** If donation, I would argue @OpenPrivacy pr something would be better as they're underfunded  
 **\<el00ruobuob\_[m]>** i agree with 1k to OSTIF, and the rest to GF for upcomming audits  
 **\<ErCiccione[m]>** i understand rehrar, but as binaryfate says in the comment, those are usd money not in the fund. Would be cool to donate it to some project in need. It would create good links and also good PR  
-**\<nioc>** is the issue that that portion is in USD and not xmr?  therefore can't be returned to the dev fund?  
-**\<nioc>** also there was discussion about the xmr that is currently left over that has not been transfered going to future audits such as the possible CLSAG audit  
+**\<nioc>** is the issue that that portion is in USD and not btr?  therefore can't be returned to the dev fund?  
+**\<nioc>** also there was discussion about the btr that is currently left over that has not been transfered going to future audits such as the possible CLSAG audit  
 **\<rehrar>** this is true. We may say to hold off on giving anything away and use this 4k+ for CLSAG  
 **\<el00ruobuob\_[m]>** +1  
 **\<rehrar>** which, as I understand, MRL DOES want audited  
@@ -177,7 +177,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** one thing to consider here  
 **\<ErCiccione[m]>** I see, but i would really like to make people see that we support the "privacy ecosystem" and useful project. But i see your point and i'm ok to what the majority decides  
 **\<rehrar>** this money is no longer under stewardship of the core team  
-**\<rehrar>** from what I understand, core team sent the XMR in total to OSTIF, and by the time OSTIF took it out, it's much larger sum  
+**\<rehrar>** from what I understand, core team sent the BTR in total to OSTIF, and by the time OSTIF took it out, it's much larger sum  
 **\<rehrar>** this means the money is in OSTIFs hands, and it's theirs to do what they want with  
 **\<needmoney90>** OSTIF needs a recipient, they are fairly clearly the obvious choice  
 **\<rehrar>** but they are being cooperative with the community rather than profiting from it  
@@ -210,7 +210,7 @@ author: el00ruobuob / rehrar
 **\<el00ruobuob\_[m]>** Wouldn't 1k OSTIF, 1k FOSS project, and the rest to CLSAG be good to you ErCiccione[m]?  
 **\<lh1008[m]>** \<el00ruobuob\_[m] "Wouldn't 1k OSTIF, 1k FOSS proje"> +1 el00ruobuob\_[m]  
 **\<rehrar>** parasew[m]: yes, the CCS tends to receive few donations overall, and many projects rely on some whales to be very generous. And believe me, they are extremely generous and awesome. But we shouldn't overextend on that generosity  
-**\<rehrar>** in short, tragedy of the commons is rampant. Every $ or XMR counts  
+**\<rehrar>** in short, tragedy of the commons is rampant. Every $ or BTR counts  
 **\<rehrar>** I would be fine with el00ruobuob\_[m]'s proposal  
 **\<ErCiccione[m]>** el00ruobuob\_[m]: As i said, i think would be better to use those leftover funds not for a ByteRub CCS. Our general fund is not lacking of money, but beside that, i think it's more a principle inthis case.  
 **\<sarang>** It would be nice to have a more complete network of other projects that might be interested in supporting work that could benefit them too  
@@ -234,7 +234,7 @@ author: el00ruobuob / rehrar
 **\<lh1008[m]>** #2  
 **\<parasew[m]>** 2  
 **\<nioc>** 2  
-**\<xmrscott[m]>** 2  
+**\<btrscott[m]>** 2  
 **\<ErCiccione[m]>** ah ok. I ended up being the only one at the end :P  
 **\<needmoney90>** 2  
 **\<Mochi101>** 2  
@@ -297,7 +297,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** it should be noted that we will probably table the discussion here, and people can gather some thoughts, unless they had any immediate ones  
 **\<rehrar>** ^  
 **\<rehrar>** ErCiccione[m]: this was more to get an initial idea.  
-**\<xmrscott[m]>** 1) They're more privacy oriented 2) They are arguably more underfunded then other FOSS  
+**\<btrscott[m]>** 1) They're more privacy oriented 2) They are arguably more underfunded then other FOSS  
 **\<rehrar>** As an example, people who don't know about openpriv can now go read up on it and decide if they like it  
 **\<rehrar>** so if there's any other 'off-the-top-of-head' names that someone wants to throw out there, please do so  
 **\<needmoney90>** do we have build server costs too?  

@@ -99,7 +99,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** nioc yeah, but in terms of \*ticket sales\* we had like 71 or 72 or something like that  
 **\<suraeNoether>** nioc yeah but it will 4x or 5x all our expenses  
 **\<dEBRUYNE>** Playing devils advocate, but the funds could've been hedged  
-**\<dEBRUYNE>** There are plenty of markets that allow short selling of xmr  
+**\<dEBRUYNE>** There are plenty of markets that allow short selling of btr  
 **\<sarang>** There could have been more defined payouts  
 **\<sarang>** suraeNoether: anything else to discuss?  
 **\<sarang>** Or any questions for him?  
@@ -115,7 +115,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** this question occurred to me yesterday and i forgot to write it down  
 **\<dEBRUYNE>** Price moved from ~50 to ~70 (from christmas to may), so that doesn't seem right  
 **\<sarang>** Shall we move on from this topic for now?  
-**\<suraeNoether>** dEBRUYNE: i had only gains from the time that i was holding crypto. i just received 591 XMR worth $28,509 at the time, whereas when I posted the request it was for 591 XMR worth $60,100. The question is the gap in time between funding-completed and the time it hit the Konferenco wallet on Feb 2  
+**\<suraeNoether>** dEBRUYNE: i had only gains from the time that i was holding crypto. i just received 591 BTR worth $28,509 at the time, whereas when I posted the request it was for 591 BTR worth $60,100. The question is the gap in time between funding-completed and the time it hit the Konferenco wallet on Feb 2  
 **\<nioc>** there were donations till at least Dec 16  
 **\<suraeNoether>** i'm fine with waiting for specific dates from luigi or whoever can tell us  
 **\<suraeNoether>** and moving on  
@@ -187,7 +187,7 @@ author: el00ruobuob / sarang
 **\<gingeropolous>** \#1. 13 > 11  
 **\<sarang>** things like EABCD...ZE are presumably more unaffected by such a marginal change  
 **\<suraeNoether>** Does anyone have any questions for sarang about his lelantus work recently, other than stupid SAT analogies?  
-**\<ArticMine>** FloodXMR is very sensitive to ring size  
+**\<ArticMine>** FloodBTR is very sensitive to ring size  
 **\<sarang>** (or on RCT3 for that matter)  
 **\<sarang>** Yes, but we don't have correct numbers on that yet  
 **\<sarang>** in terms of cost, that is  

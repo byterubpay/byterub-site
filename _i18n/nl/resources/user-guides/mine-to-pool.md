@@ -12,23 +12,23 @@ gedecentraliseerd te houden.
 Net als pools zijn er veel miningprogramma's waaruit je kunt kiezen. Welke soort software
 je nodig hebt hangt af van de hardware waarop je wilt minen. Deze handleiding gaat over
 minen op een CPU, en daarvoor gebruiken we
-[xmr-stak-cpu](https://github.com/fireice-uk/xmr-stak-cpu). Andere mogelijkheden zijn onder meer
+[btr-stak-cpu](https://github.com/fireice-uk/btr-stak-cpu). Andere mogelijkheden zijn onder meer
 [wolf's CPUMiner](https://github.com/wolf9466/cpuminer-multi) en
 [sgminer-gm](https://github.com/genesismining/sgminer-gm). Maar de
 configuratie daarvan is net iets anders en wordt hier niet behandeld.
 
 ## Voor Windows-systemen
 
-Als je een Windows-systeem gebruikt, kun je de binaries van xmr-stak-cpu
+Als je een Windows-systeem gebruikt, kun je de binaries van btr-stak-cpu
 downloaden op de
-[release-pagina op GitHub](https://github.com/fireice-uk/xmr-stak-cpu/releases).
+[release-pagina op GitHub](https://github.com/fireice-uk/btr-stak-cpu/releases).
 
-Download `xmr-stak-cpu-win64.zip` en pak het uit op een plek waar je
+Download `btr-stak-cpu-win64.zip` en pak het uit op een plek waar je
 het kunt terugvinden.
 
 ## Voor andere besturingssystemen
 
-Als je niet Windows gebruikt, moet je zelf xmr-stak-cpu compileren.
+Als je niet Windows gebruikt, moet je zelf btr-stak-cpu compileren.
 Gelukkig is dat niet zo moeilijk als het klinkt. Voordat je het miningprogramma kunt compileren,
 moet je een paar vereiste onderdelen installeren.
 
@@ -96,7 +96,7 @@ Stop eerst het miningprogramma (als het aan staat), voer de volgende opdrachten 
 grote pagina's in te schakelen en start vervolgens het miningprogramma als root:
 
 	sudo sysctl -w vm.nr_hugepages=128
-	sudo ./xmr-stak-cpu
+	sudo ./btr-stak-cpu
 
 ## Grote pagina's in Windows
 

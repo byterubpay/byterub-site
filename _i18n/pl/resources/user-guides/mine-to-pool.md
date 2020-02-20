@@ -6,17 +6,17 @@ Istnieje wiele zrzeszeń do wyboru. Lista dostępna jest na stronie [byterubpool
 
 # Wybieranie koparki CPU
 
-Tak jak i zrzeszenia, istnieje wiele koparek do wyboru. Twój wybór powinien zależeć od sprzętu, na którym chcesz wydobywać. Ten przewodnik opisuje jedynie koparki CPU i używa [xmr-stak-cpu](https://github.com/fireice-uk/xmr-stak-cpu). Inną opcją są [wolf's CPUMiner](https://github.com/wolf9466/cpuminer-multi) oraz [sgminer-gm](https://github.com/genesismining/sgminer-gm), jednak ich ustawienia są trochę inne i nie są włączone w ten przewodnik.
+Tak jak i zrzeszenia, istnieje wiele koparek do wyboru. Twój wybór powinien zależeć od sprzętu, na którym chcesz wydobywać. Ten przewodnik opisuje jedynie koparki CPU i używa [btr-stak-cpu](https://github.com/fireice-uk/btr-stak-cpu). Inną opcją są [wolf's CPUMiner](https://github.com/wolf9466/cpuminer-multi) oraz [sgminer-gm](https://github.com/genesismining/sgminer-gm), jednak ich ustawienia są trochę inne i nie są włączone w ten przewodnik.
 
 ## Dla Windowsa
 
-Jeżeli używasz Windowsa, deweloper xmr-stak-cpu dostarcza plików binarnych do ściągnięcia na [stronie GitHuba](https://github.com/fireice-uk/xmr-stak-cpu/releases).
+Jeżeli używasz Windowsa, deweloper btr-stak-cpu dostarcza plików binarnych do ściągnięcia na [stronie GitHuba](https://github.com/fireice-uk/btr-stak-cpu/releases).
 
-Ściągnij plik `xmr-stak-cpu-win64.zip` i wypakuj do miejsca, które łatwo później odnajdziesz.
+Ściągnij plik `btr-stak-cpu-win64.zip` i wypakuj do miejsca, które łatwo później odnajdziesz.
 
 ## Pozostałe systemy operacyjne
 
-Jeśli nie korzystasz z Windowsa, będziesz musiał skompilować xmr-stak-cpu samemu. Na szczęście to nie takie trudne, jak się wydaje. Zanim skompilujesz koparkę, będziesz musiał zainstalować kilka wymaganych komponentów.
+Jeśli nie korzystasz z Windowsa, będziesz musiał skompilować btr-stak-cpu samemu. Na szczęście to nie takie trudne, jak się wydaje. Zanim skompilujesz koparkę, będziesz musiał zainstalować kilka wymaganych komponentów.
 
 Dystrybucje oparte na Debianie:
 
@@ -74,7 +74,7 @@ Oznacza to, że możesz zwiększyć swoją prędkość haszowania o około 20% p
 Najpierw zatrzymaj koparkę, jeśli jest włączona. Uruchom poniższą funkcję, aby włączyć duże strony, a następnie uruchom koparkę jako root:
 
 	sudo sysctl -w vm.nr_hugepages=128
-	sudo ./xmr-stak-cpu
+	sudo ./btr-stak-cpu
 
 ## Duże strony w Windowsie
 

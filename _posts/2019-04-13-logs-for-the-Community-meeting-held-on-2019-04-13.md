@@ -11,16 +11,16 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/328  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** What up, kids?  
 **\<dsc\_>** Konnichiwa  
 **\<el00ruobuob\_[m]>** Hi!  
 **\<parasew>** hulla  
 **\<endogenic>** o/  
-**\<xmrmatterbridge> \<learninandlurkin>** aloha  
+**\<btrmatterbridge> \<learninandlurkin>** aloha  
 **\<endogenic>** rehrar: care-uh-mell  
-**\<xmrmatterbridge> \<ErCiccione>** Hi (i'm from mobile, forgot we are one hour ahead in europe)  
+**\<btrmatterbridge> \<ErCiccione>** Hi (i'm from mobile, forgot we are one hour ahead in europe)  
 **\<sgp\_>** Welcome everyone  
 **\<rehrar>** typical ErCiccione  
 **\<sgp\_>** Most of the meeting today will revolve around the upcoming ByteRubversary  
@@ -30,13 +30,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** new issue couple days ago  
 **\<sgp\_>** And of course you shouldn’t miss the Coffee Chat from last weekend: https://www.youtube.com/watch?v=adNi17O791M  
 **\<byterubbux>** [ ByteRub Coffee Chat - 2019.04.06 - YouTube ] - www.youtube.com  
-**\<xmrmatterbridge> \<ErCiccione>** Rehrar: sadly, that's too true :P  
+**\<btrmatterbridge> \<ErCiccione>** Rehrar: sadly, that's too true :P  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
-**\<xmrmatterbridge> \<ErCiccione>** The guide for the GUI wallet is ready and built,  
-**\<xmrmatterbridge> \<ErCiccione>** Needs some minor adjustment but it's mostly ready. Https://github.com/byterub-ecosystem/byterub-GUI-guide  
+**\<btrmatterbridge> \<ErCiccione>** The guide for the GUI wallet is ready and built,  
+**\<btrmatterbridge> \<ErCiccione>** Needs some minor adjustment but it's mostly ready. Https://github.com/byterub-ecosystem/byterub-GUI-guide  
 **\<sgp\_>** ty  
-**\<xmrmatterbridge> \<ErCiccione>** Reviews and suggestions are very much appreciated  
-**\<xmrmatterbridge> \<ErCiccione>** Ah, it will be included in the next GUI release.  
+**\<btrmatterbridge> \<ErCiccione>** Reviews and suggestions are very much appreciated  
+**\<btrmatterbridge> \<ErCiccione>** Ah, it will be included in the next GUI release.  
 **\<sgp\_>** Any others?  
 **\<rehrar>** e  
 **\<rehrar>** ye  
@@ -47,7 +47,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** Most CCS proposals were funded shortly after the previous meeting.  
 **\<sgp\_>** CCS proposals still needing funding:  
-**\<sgp\_>** “ErCiccione: Coordinator of the Localization Workgroup – March” (0 / 144 XMR) https://ccs.getbyterub.org/proposals/ErCiccione-localizations.html  
+**\<sgp\_>** “ErCiccione: Coordinator of the Localization Workgroup – March” (0 / 144 BTR) https://ccs.getbyterub.org/proposals/ErCiccione-localizations.html  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
 **\<sgp\_>** “knueffelbund GUI design for Q2 2019” https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/54  
 **\<sgp\_>** “xiphon part time coding” https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/55  
@@ -55,43 +55,43 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Does anyone else have a CCS update, or comments about any of these CCS proposals?  
 **\<dEBRUYNE>** Imo we can move those proposals to funding required  
 **\<rehrar>** dEBRUYNE has spoken  
-**\<xmrmatterbridge> \<ErCiccione>** I think all current proposals should be moved to funding required.  
+**\<btrmatterbridge> \<ErCiccione>** I think all current proposals should be moved to funding required.  
 **\<rehrar>** luigi1111w ^  
 **\<nioc>** yes please  
 **\<el00ruobuob\_[m]>** yep, totally  
 **\<sgp\_>** my main concern is that some of these are quite expensive, but I understand the expertise is very valuable  
-**\<xmrmatterbridge> \<learninandlurkin>** should there be a ccs for the RandomX audits?  
+**\<btrmatterbridge> \<learninandlurkin>** should there be a ccs for the RandomX audits?  
 **\<rehrar>** when they feel it's raedy learninandlurkin, yeah  
 **\<rehrar>** there probably will be at some point  
-**\<xmrmatterbridge> \<learninandlurkin>** after code freeze I guess  
+**\<btrmatterbridge> \<learninandlurkin>** after code freeze I guess  
 **\<sgp\_>** I believe they want a code freeze at the end of the month  
 **\<rehrar>** as always, one of the key conversations to be had around the CCS is how to encourage more participation  
-**\<xmrmatterbridge> \<learninandlurkin>** In the past, what has happened to the XMR raised for the "general fund"?  
+**\<btrmatterbridge> \<learninandlurkin>** In the past, what has happened to the BTR raised for the "general fund"?  
 **\<dEBRUYNE>** sgp\_: expensive to which extent?  
 **\<rehrar>** meaning what learninandlurkin?  
-**\<el00ruobuob\_[m]>** It's only 148XMR isn't it?  
+**\<el00ruobuob\_[m]>** It's only 148BTR isn't it?  
 **\<rehrar>** General Fund money goes to things that core team deem necessary to support the project. Infrastructure, servers, and stuff.  
-**\<xmrmatterbridge> \<learninandlurkin>** what has it actually been spent on in the past? or did "general fund" not exist before ccs?  
+**\<btrmatterbridge> \<learninandlurkin>** what has it actually been spent on in the past? or did "general fund" not exist before ccs?  
 **\<rehrar>** Before PhDs were on quarterlies, they were paid out of GF  
-**\<xmrmatterbridge> \<learninandlurkin>** ah  
+**\<btrmatterbridge> \<learninandlurkin>** ah  
 **\<rehrar>** getbyterub.org servers and CDN and stuff are paid out of Gf  
 **\<nioc>** general fund existed b4 FFS  
 **\<rehrar>** every time I write gf I think girlfriend  
 **\<rehrar>** ByteRub's girlfriend pays for lots of things  
 **\<dsc\_>** Monera  
-**\<xmrmatterbridge> \<learninandlurkin>** Sounds sensible. Should this maybe be explained in the general fund post?  
+**\<btrmatterbridge> \<learninandlurkin>** Sounds sensible. Should this maybe be explained in the general fund post?  
 **\<nioc>** GF has contributed to some FFS proposals in the past  
 **\<rehrar>** that post was just a test post for the CCS, and I turned it into something that can be useful  
 **\<rehrar>** troo nioc  
 **\<rehrar>** but on the Donate page that the button takes you to  
 **\<rehrar>** perhaps yes, that info should go there  
-**\<xmrmatterbridge> \<learninandlurkin>** So people know what they're donating to  
+**\<btrmatterbridge> \<learninandlurkin>** So people know what they're donating to  
 **\<rehrar>** as well, I need to pester core team for the view keys for both gf and ccs wallet  
 **\<rehrar>** as both are "public". In quotations because they've been posted somewhere.  
 **\<rehrar>** But nobody remembers where. It's been a while. :P  
 **\<sgp\_>** dEBRUYNE: it depends on the circumstances. I just want to avoid every expert from asking for the full corporate rate if we can help it, since they get extra value working on projects they enjoy on their schedule for a cause they support. Similar rationale for working for other nonprofits, that's all  
 **\<sgp\_>** rehrar: I've never seen the CCS view key. Doesn't mean it was never shared, but I couldn't find it with a moderate search  
-**\<xmrmatterbridge> \<learninandlurkin>** It would be great if the view keys were prominently linked on the CCS frontpage when you find them  
+**\<btrmatterbridge> \<learninandlurkin>** It would be great if the view keys were prominently linked on the CCS frontpage when you find them  
 **\<dEBRUYNE>** sgp\_: As far as I can see, the rates are in line with what other contributors asked  
 **\<el00ruobuob\_[m]>** i agree with you learninandlurkin  
 **\<rehrar>** yeah but we'd also need key images for it to be super useful  
@@ -104,33 +104,33 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 4. Workgroup report  
 **\<sgp\_>** a. Localization workgroup  
 **\<sgp\_>** Take it away ErCiccione  
-**\<xmrmatterbridge> \<ErCiccione>** Thank you sgp\_. So,  
-**\<xmrmatterbridge> \<ErCiccione>** We had some issues with pootle, nothin major, but some annoying visual bug  
-**\<xmrmatterbridge> \<ErCiccione>** I contacted the pootle team on all their platforms but they never answered for months  
-**\<xmrmatterbridge> \<ErCiccione>** This made me realise that development on that side is basically stopped and the project is kinda dead. They started to revive it after my pressures, but still  
+**\<btrmatterbridge> \<ErCiccione>** Thank you sgp\_. So,  
+**\<btrmatterbridge> \<ErCiccione>** We had some issues with pootle, nothin major, but some annoying visual bug  
+**\<btrmatterbridge> \<ErCiccione>** I contacted the pootle team on all their platforms but they never answered for months  
+**\<btrmatterbridge> \<ErCiccione>** This made me realise that development on that side is basically stopped and the project is kinda dead. They started to revive it after my pressures, but still  
 **\<rehrar>** dude  
 **\<rehrar>** semi-serious idea  
 **\<rehrar>** what if we grandfathered in Pootle as a ByteRub Project thingy?  
-**\<xmrmatterbridge> \<ErCiccione>** I'm now thinking of giving weblate another shot, i will test it and see how that goes  
+**\<btrmatterbridge> \<ErCiccione>** I'm now thinking of giving weblate another shot, i will test it and see how that goes  
 **\<rehrar>** or forked it or whatever  
-**\<xmrmatterbridge> \<ErCiccione>** Rehrar: actually one of the developers kinda wanted to handle away the project, but i'm definitely not the kind of person with the expertise necessary to maintain that.  
+**\<btrmatterbridge> \<ErCiccione>** Rehrar: actually one of the developers kinda wanted to handle away the project, but i'm definitely not the kind of person with the expertise necessary to maintain that.  
 **\<rehrar>** please have him send me an email  
 **\<rehrar>** rehrar@tuta.io  
-**\<xmrmatterbridge> \<ErCiccione>** Rehrar: will do.  
+**\<btrmatterbridge> \<ErCiccione>** Rehrar: will do.  
 **\<rehrar>** and you can message me later. I'd like to hear more about that conversation.  
-**\<xmrmatterbridge> \<ErCiccione>** Btw, we will still use pootle until we switch, so no slowdowns, but i don't think we will use it for long.  
-**\<xmrmatterbridge> \<ErCiccione>** Renrar: on gitter there is a brief talk and there is also an issue on gitlab's pootle. Will send uoi everything later.  
-**\<xmrmatterbridge> \<ErCiccione>** Beside the pootle things. I was contacted by  
-**\<xmrmatterbridge> \<ErCiccione>** A group, I don't have the details on the phone now, which is making the translation of getbyterub in turkish for free  
-**\<xmrmatterbridge> \<ErCiccione>** The translation is mostly done, but it doesn't include the guides (still a massive work). They are finishing it, after that i will review the technical side. Then PR. Shouldn't take long  
-**\<xmrmatterbridge> \<ErCiccione>** Chinese is also in progress, i will upload the WIP MR in byterub-site as soon as i fet the translation.  
-**\<xmrmatterbridge> \<ErCiccione>** These are the major things gong on at the moment.  
+**\<btrmatterbridge> \<ErCiccione>** Btw, we will still use pootle until we switch, so no slowdowns, but i don't think we will use it for long.  
+**\<btrmatterbridge> \<ErCiccione>** Renrar: on gitter there is a brief talk and there is also an issue on gitlab's pootle. Will send uoi everything later.  
+**\<btrmatterbridge> \<ErCiccione>** Beside the pootle things. I was contacted by  
+**\<btrmatterbridge> \<ErCiccione>** A group, I don't have the details on the phone now, which is making the translation of getbyterub in turkish for free  
+**\<btrmatterbridge> \<ErCiccione>** The translation is mostly done, but it doesn't include the guides (still a massive work). They are finishing it, after that i will review the technical side. Then PR. Shouldn't take long  
+**\<btrmatterbridge> \<ErCiccione>** Chinese is also in progress, i will upload the WIP MR in byterub-site as soon as i fet the translation.  
+**\<btrmatterbridge> \<ErCiccione>** These are the major things gong on at the moment.  
 **\<sgp\_>** thanks for the update  
 **\<sgp\_>** anything else for/from the localization workgroup?  
 **\<sgp\_>** d. Defcon workgroup  
-**\<xmrmatterbridge> \<ErCiccione>** I'm done. For the records, we always need translators at: translate.getbyterub.org/projects  
+**\<btrmatterbridge> \<ErCiccione>** I'm done. For the records, we always need translators at: translate.getbyterub.org/projects  
 **\<sgp\_>** It’s official: ByteRub has its OWN Defcon village this year in a larger space.  
-**\<sgp\_>** I’m working with rehrar, xmrscott, msvb-lab, and the riat team to help coordinate planning. If you have any questions, please contact rehrar. He’s the glue holding this project together. You can ask us in #byterub-defcon  
+**\<sgp\_>** I’m working with rehrar, btrscott, msvb-lab, and the riat team to help coordinate planning. If you have any questions, please contact rehrar. He’s the glue holding this project together. You can ask us in #byterub-defcon  
 **\<sgp\_>** You can see the logs of the previous meeting here: https://github.com/byterubpay/meta/issues/317  
 **\<sgp\_>** c. GUI workgroup  
 **\<el00ruobuob\_[m]>** Do you need me to post those logs on the Wesite sgp\_?  
@@ -158,23 +158,23 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** Excellent idea, but as mentioned integrating GUI natively on Librem 5 would cost $X \*time\* that otherwise be spend on other areas. Which brings up the question of funding and priorities. From technical standpoint its def. doable.  
 **\<dsc\_>** I want to prevent the situation where I use community funds to make Librem 5 better.  
 **\<dsc\_>** However, if the community sees it as a good investment, it's fine of course.  
-**\<xmrmatterbridge> \<ErCiccione>** I like the idea of an easier integration, i'm not so sure about putting byterub tesources on that.  
+**\<btrmatterbridge> \<ErCiccione>** I like the idea of an easier integration, i'm not so sure about putting byterub tesources on that.  
 **\<dsc\_>** So there's that.  
 **\<parasew>** why can't purism pay for the ccs?  
 **\<parasew>** (they have some byterub :)  
 **\<dsc\_>** FYI; Librem 5 integration also has overlap with a long standing wish to migrate GUI to mobile platforms in general  
 **\<rehrar>** we can ask them if they'd be willing to contribute some resources to this for sure  
-**\<xmrmatterbridge> \<xmrscott>** I'd be willing tovthrow down money on a librem5 CCS for dsc if need be  
+**\<btrmatterbridge> \<btrscott>** I'd be willing tovthrow down money on a librem5 CCS for dsc if need be  
 **\<rehrar>** ^  
 **\<rehrar>** I'll contact Todd (CEO) and ask if they'd be down to contribut x amount of money to see this happen.  
-**\<nioc>** xmrscott  :)  
+**\<nioc>** btrscott  :)  
 **\<rehrar>** contingent on what dsc\_ estimates something like this might cost  
 **\<rehrar>** x = y/2?  
 **\<sgp\_>** dsc\_: this may be something worth having a short meeting for if you're up for planning it  
-**\<xmrmatterbridge> \<ErCiccione>** A CCS proposal would definitely be a good idea.  
+**\<btrmatterbridge> \<ErCiccione>** A CCS proposal would definitely be a good idea.  
 **\<dsc\_>** sgp\_: Sure, might be best.  
-**\<xmrmatterbridge> \<xmrscott>** Keep im mind the launch is Q3 currently, and this is something we'd out on launch date IMO  
-**\<xmrmatterbridge> \<xmrscott>** \*we'd want out  
+**\<btrmatterbridge> \<btrscott>** Keep im mind the launch is Q3 currently, and this is something we'd out on launch date IMO  
+**\<btrmatterbridge> \<btrscott>** \*we'd want out  
 **\<nioc>** what happens to those purism wallets after a hardfork  o\_O  
 **\<dsc\_>** rehrar: I can do time estimates but might be best to either have a seperate meeting or github issue about it.  
 **\<sgp\_>** I think it's probably best to have a different discussion about this, but thanks for bringing it to our attention dsc\_ rehrar  
@@ -183,7 +183,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** White theme is an overarching term for many GUI improvements from a visual standpoint  
 **\<dsc\_>** These require a newer Qt version, which GUI workgroup is currently migrating our buildbots towards  
 **\<dsc\_>** In addition I'm currently working on a cmake recipe that would replace qmake, which is somewhat of a requirement for reproducable builds  
-**\<xmrmatterbridge> \<ErCiccione>** Nice  
+**\<btrmatterbridge> \<ErCiccione>** Nice  
 **\<dsc\_>** There are more updates but just boring GUI stuff. Please do join #byterub-gui ;)  
 **\<sgp\_>** Thanks dsc\_  
 **\<sgp\_>** We're going to be over today unfortunately, but we need to have a discussion about the ByteRubversary  
@@ -208,14 +208,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew>** we were hoping that people want to join in remotely, but if there are not responses el00ruobuob\_[m]  
 **\<sgp\_>** Except the Jitsi/YouTube instructions  
 **\<parasew>** yes pls do send that through sgp\_ :)  
-**\<xmrmatterbridge> \<learninandlurkin>** Can the ByteRub cake be livestreamed into my mouth? sounds great!  
+**\<btrmatterbridge> \<learninandlurkin>** Can the ByteRub cake be livestreamed into my mouth? sounds great!  
 **\<parasew>** we have a countdown script and a large screen, so that should work. anyone who wants to join in please get in contact  
 **\<sgp\_>** parasew: will it be interactive at all with the online audience?  
 **\<parasew>** it can be, what do you think? i was more organising the cake part and we have a meeting on monday to define details.  
 **\<sgp\_>** community, how could the livestream be more interesting without being intrusive on the meetup?  
 **\<sgp\_>** maybe a game with open participation?  
-**\<xmrmatterbridge> \<learninandlurkin>** crowd-source wishes to be made while the candles are being blown out for ByteRub's birthday  
-**\<xmrmatterbridge> \<ErCiccione>** I gotta go. Have a good meeting guys.  
+**\<btrmatterbridge> \<learninandlurkin>** crowd-source wishes to be made while the candles are being blown out for ByteRub's birthday  
+**\<btrmatterbridge> \<ErCiccione>** I gotta go. Have a good meeting guys.  
 **\<parasew>** bye ErCiccione  
 **\<el00ruobuob\_[m]>** bye  
 **\<sgp\_>** parasew: will there be any activities for people to watch in the livestream?  
@@ -223,7 +223,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew>** so the workshops, talks, etc. i did not want to stream, as it changes the participation. lots of people are uncomfortable being seen on cam  
 **\<sgp\_>** yes, just referring to the countdown  
 **\<parasew>** ok, understood.  
-**\<xmrmatterbridge> \<ErCiccione>** I gotta go. Have a good meeting guys.  
+**\<btrmatterbridge> \<ErCiccione>** I gotta go. Have a good meeting guys.  
 **\<sgp\_>** eg: if binaryFate or you want to give a few words before the countdown expires  
 **\<parasew>** so the easiest would be a moderation, i will discuss with binary asap.  
 **\<parasew>** does someone want to join in or is it too early on the day?  
@@ -252,7 +252,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob\_[m]>** anyway, barolo may be the reason for boating accident  
 **\<sgp\_>** I wonder if I could get rehrar to do an event on people slowly realizing that cryptocurrency privacy is important, yet few are courageous enough to address it with the importance it deserves  
 **\<rehrar>** keep wondering  
-**\<xmrmatterbridge> \<learninandlurkin>** Birth of ByteRub -> History of upgrades + Big events/milestones  -> "State of the Union Address" -> the future  
+**\<btrmatterbridge> \<learninandlurkin>** Birth of ByteRub -> History of upgrades + Big events/milestones  -> "State of the Union Address" -> the future  
 **\<sgp\_>** anyway, it looks like participation has dropped. If you would like to have an event by yourself or with others around 21 UTC, you need to comment on Github ASAP. Please comment even if you are available and open to the idea, so I can pitch some ideas  
 **\<sgp\_>** One last point to cover: how to get press to cover the event  
 **\<rehrar>** easy  
@@ -280,7 +280,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew>** sgp\_: yes ok will take into account that there might not be a lot of participation from external other groups, so we will make sure there is moderation and cake excellence.  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 27 April at 17:00 UTC.  
 **\<sgp\_>** Be there for the ByteRubversary on 18 April: https://github.com/byterubpay/meta/issues/324  
-**\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 8. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<el00ruobuob\_[m]>** Thank you all! See ya on thursday!  

@@ -30,11 +30,11 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<fluffypony>** I'm planning on merging PRs over the next couple of days  
 **\<fluffypony>** are there any that are don't-merge-yet?  
 **\<vtnerd1112>** The one I have outstanding for bin2hex  
-**\<xmr\_eric>** Before merging the PR to name ByteRub GUI back to ByteRub Core, I thought it would be good to have a discussion here about that. But perhaps that can be saved for the end of today's meeting.  
+**\<btr\_eric>** Before merging the PR to name ByteRub GUI back to ByteRub Core, I thought it would be good to have a discussion here about that. But perhaps that can be saved for the end of today's meeting.  
 **\<byterubmooo>** Oh, I'd kinda forgot-ish about that one...  
 **\<Jaquee>** #658 and #667 obviously  
 **\<vtnerd1112>** It's currently unmergeable and I don't know if anyone looked at it recently  
-**\<fluffypony>** xmr\_eric - we can discuss it now, it's part of this section anyway  
+**\<fluffypony>** btr\_eric - we can discuss it now, it's part of this section anyway  
 **\<vtnerd1112>** monermooo I will revise and push later today  
 **\<luigi1112>** is he copying me  
 **\<vtnerd1112>** rebase, damn phone  
@@ -42,10 +42,10 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<endogenic>** lol  
 **\<fluffypony>** luigi1112: yes  
 **\<fluffypony>** /nick fluffypony1112  
-**\<xmr\_eric>** Ok, well I'd like to hear from Jaquee. But my thoughts are that we rename ByteRub GUI back to ByteRub Core. Gingeropolous originally named it back to ByteRub GUI at the time, which was a decent idea, but I think in the end the central ByteRub software that the public is going to use should be called Core  
-**\<fluffypony>** @xmr\_eric that was among the reasons for calling it Core initially  
-**\<xmr\_eric>** I spent some time yesterday trying to find a word other than Core to differentiate ourselves from Bitcoin, like ByteRub Essentials or something, but none really work as well.  
-**\<xmr\_eric>** Right. I think we should go back to that.  
+**\<btr\_eric>** Ok, well I'd like to hear from Jaquee. But my thoughts are that we rename ByteRub GUI back to ByteRub Core. Gingeropolous originally named it back to ByteRub GUI at the time, which was a decent idea, but I think in the end the central ByteRub software that the public is going to use should be called Core  
+**\<fluffypony>** @btr\_eric that was among the reasons for calling it Core initially  
+**\<btr\_eric>** I spent some time yesterday trying to find a word other than Core to differentiate ourselves from Bitcoin, like ByteRub Essentials or something, but none really work as well.  
+**\<btr\_eric>** Right. I think we should go back to that.  
 **\<fluffypony>** also because I think that the current byterub repo will become libbyterub  
 **\<pero>** and then byterub-cli?  
 **\<fluffypony>** yeah  
@@ -59,34 +59,34 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<Jaquee>** i would prefer GUI  
 **\<Jaquee>** https://github.com/byterubpay/byterub-core/issues/663  
 **\<endogenic>** how about 'official' instead of 'core'? cause it'll be specified as the official 'gui', cli etc  
-**\<xmr\_eric>** This isn't just naming the repo, this is naming the piece of software the repo produces  
+**\<btr\_eric>** This isn't just naming the repo, this is naming the piece of software the repo produces  
 **\<bigreddmachine>** As for names, I assume "ByteRub Qt" is out? That was once the standard for cryptocurrency wallets but seems to have lost favor.  
-**\<xmr\_eric>** Essentially, it is branding  
+**\<btr\_eric>** Essentially, it is branding  
 **\<pero>** if we're going to have lib and cli, and those seems like the optimal nomenclature for those, then i think the logical one for the gui is gui  
 **\<Jaquee>** +1  
 **\<endogenic>** or maybe core gui..  
-**\<xmr\_eric>** The public doesn't think in terms of CLI GUI  
-**\<xmr\_eric>** People won't know what GUI means  
+**\<btr\_eric>** The public doesn't think in terms of CLI GUI  
+**\<btr\_eric>** People won't know what GUI means  
 **\<Jaquee>** do they know what core means?  
 **\<Jaquee>** i don't :P  
 **\<pero>** yea but core is kind of confusing since core seems to be lib  
 **\<fluffypony>** pero: I was thinking more like libbyterub, byterub-tools, byterub-core  
 **\<bigreddmachine>** pero: i'd argue the optimal name for a gui should *not* have "gui" in the name. They aren't called FireFox GUI, Chrome GUI, Word GUI, etc  
 **\<gingeropolous>** just ByteRub  
-**\<xmr\_eric>** No, but the point is Core is a word that people will begin to associate with that piece of software  
+**\<btr\_eric>** No, but the point is Core is a word that people will begin to associate with that piece of software  
 **\<hrumag2>** gingeropulos I agree  
-**\<xmr\_eric>** What does Linux mean?  
+**\<btr\_eric>** What does Linux mean?  
 **\<jwinterm>** I think core does have a bit of stench to it now  
 **\<hyc>** at worst, byterub app  
 **\<hrumag2>** The application has to be the most atomic  
 **\<jwinterm>** bigreddmachine: there's no lynx like version of firefox or chrome tho  
 **\<jwinterm>** that I'm aware of  
 **\<hrumag2>** To the public I mean  
-**\<xmr\_eric>** The problem with naming it just ByteRub is that no other piece of software gets to be called ByteRub  
-**\<xmr\_eric>** Which I'm ok with  
+**\<btr\_eric>** The problem with naming it just ByteRub is that no other piece of software gets to be called ByteRub  
+**\<btr\_eric>** Which I'm ok with  
 **\<pero>** yes i can see reason in that argument bigreddmachine  
 **\<hyc>** ByteRubUser  
-**\<xmr\_eric>** But it isn't good from a nomenclature standpoint  
+**\<btr\_eric>** But it isn't good from a nomenclature standpoint  
 **\<bigreddmachine>** "ByteRub Wallet"?  
 **\<pero>** what's byterub-tools fluffypony ? the cli?  
 **\<fluffypony>** pero: yes  
@@ -96,7 +96,7 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<fluffypony>** so that seems to make some sense  
 **\<fluffypony>** ok let's table this for the next meeting, we can open a thread or discuss it further under an existing one  
 **\<fluffypony>** s/thread/issue  
-**\<xmr\_eric>** Great  
+**\<btr\_eric>** Great  
 **\<hrumag2>** At least "ByteRub node", "ByteRub wallet cli", "ByteRub wallet gui"  
 **\<gingeropolous>** byterubmooo, I like this bike shed. It can fit many bikes  
 **\<fluffypony>** and then we'll make a decision at the next meeting  
@@ -156,7 +156,7 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<rehrar>** I agree that design 2 is a bit sterilized.  
 **\<anonimal>** Old people need to be able to use this too. Old people don't like to read most of the time because fonts are too small and if they are computer illiterate they don't know how to zoom.  
 **\<anonimal>** Technical illiteracy = most of planet earth.  
-**\<xmr\_eric>** Websites are absolutely about a main goal first. That's what good design is about. Funneling people into a path that they already want to go. Eg "What is this ByteRub thing?"  
+**\<btr\_eric>** Websites are absolutely about a main goal first. That's what good design is about. Funneling people into a path that they already want to go. Eg "What is this ByteRub thing?"  
 **\<pero>** that argument is pointless anonimal  
 **\<pero>** old people that are actively using the internet have learned how to deal with those issues  
 **\<fluffypony>** anonimal: old people aren't going to use ByteRub, they'll use some L2 or L3 system on top of it  
@@ -253,18 +253,18 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<byterubmooo>** I think current min is still 2. We could go to 4 in september, and still increase later.  
 **\<sgp>** I think we should increase it >4 in September  
 **\<bigreddmachine>** -olark: is there a way to see what the distribution looks like for txs not related to mining? i'd guess a lot of the quickness in spending is from pools transfering out coins to miners, but in the future this might be a much smaller proportion  
-**\<xmr\_eric>** Are we still playing around with having a static ringsize?  
+**\<btr\_eric>** Are we still playing around with having a static ringsize?  
 **\<byterubmooo>** Pool payment txes are often with more than 2 outputs.  
-**\<sgp>** @xmr\_eric yes  
-**\<xmr\_eric>** Cool  
+**\<sgp>** @btr\_eric yes  
+**\<btr\_eric>** Cool  
 **\<fluffypony>** byterubmooo: with the new range proofs etc. it might be worthwhile just making the min based on that  
 **\<byterubmooo>** Not a guarantee of course. Especially now -\_-  
 **\<i2p-relay> {-olark}** fluffypony: Sure I can write an MRL paper once I have more of it fleshed out.  
 **\<fluffypony>** can always use like a 10 output tx as a measuring bar  
 **\<byterubmooo>** fluffypony: sounds good  
 **\<gingeropolous>** ^ interesting  
-**\<i2p-relay> {-olark}** xmr\_eric: The idea is having 3 static ringsizes for varying levels of paranoia similar to the different fee priorities we have.  
-**\<xmr\_eric>** Right  
+**\<i2p-relay> {-olark}** btr\_eric: The idea is having 3 static ringsizes for varying levels of paranoia similar to the different fee priorities we have.  
+**\<btr\_eric>** Right  
 **\<bigreddmachine>** byterubmooo: if we're just looking for a filter on pool txs, we can always use the pools' apis to get txids. my point was those txs might be 50% of all txs now, but 5% two years from now, which impacts the math.  
 **\<gingeropolous>** are disposable / one-time addresses happening? I didn't see it make the list of things not to pull in.  
 **\<byterubmooo>** That allows me to...  

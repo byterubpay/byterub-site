@@ -40,7 +40,7 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<amiuhle>** smaller sized doors basically  
 **\<gingeropolous>** drumroll  
 **\<fluffypony>** lol hyc  
-**\<btcltcxmrmaximal>** winblows sucks  
+**\<btcltcbtrmaximal>** winblows sucks  
 **\<hyc>** windows and doors in Ireland have no screens. I dunno what's with these people.  
 **\<fluffypony>** anyhoo  
 **\<fluffypony>** let's move on  
@@ -49,24 +49,24 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<fluffypony>** and fireice-uk updated the funding costs based on current pricing  
 **\<fluffypony>** obviously there are some consensus-critical aspects to it, so I think it's worth discussing  
 **\<byterubmooo>** Wasn't this a wallet thing ?  
-**\<btcltcxmrmaximal>** https://github.com/byterubpay/byterub/issues/1828  
-**\<xmreric>** Yes. Speedup on Intel/AMD processors, which is helpful considering RingCT has slowed sync down.  
+**\<btcltcbtrmaximal>** https://github.com/byterubpay/byterub/issues/1828  
+**\<btreric>** Yes. Speedup on Intel/AMD processors, which is helpful considering RingCT has slowed sync down.  
 **\<fireice-uk>** it is a wallet thing (unless you want to use it somewhere else)  
 **\<hyc>** ringCT has slowed wallet sync?  
 **\<fluffypony>** byterubmooo: if we replace SUPERCOP then it's consensus critical  
 **\<vtnerd>** I don't see how ringct slowed down wallet sync ... ?  
 **\<byterubmooo>** Then no consensus issue. And if it proves good for a while, *then* it can be used in consensus.  
-**\<pigeons>** xmreric: how has ringct slowed down sync?  
-**\<xmreric>** I thought I had heard that from others  
+**\<pigeons>** btreric: how has ringct slowed down sync?  
+**\<btreric>** I thought I had heard that from others  
 **\<vtnerd>** the additional work comes when a output match is found  
 **\<fluffypony>** so I guess wallets with thousands and thousands of ringct outputs?  
-**\<xmreric>** https://byterub.stackexchange.com/questions/3718/when-syncing-byterubs-blockchain-from-scratch-why-does-it-begin-fast-and-end-sl  
-**\<fluffypony>** xmreric: that's daemon, not wallet  
+**\<btreric>** https://byterub.stackexchange.com/questions/3718/when-syncing-byterubs-blockchain-from-scratch-why-does-it-begin-fast-and-end-sl  
+**\<fluffypony>** btreric: that's daemon, not wallet  
 **\<fluffypony>** 1828 is a proposal for a wallet change  
-**\<xmreric>** ok  
+**\<btreric>** ok  
 **\<vtnerd>** its more work on the node verifying the block, but not the wallet since its not reading it. I suppose there is some additional time for transmission/marshalling/unmarshalling, but this is smaller than any crypto  
 **\<byterubmooo>** The bottleneck's the daemon anyway.  
-**\<btcltcxmrmaximal>** daemon sync time seems a lot more important than wallet sync time (in comparison) if our primary goal was to encourage more full nodes.  
+**\<btcltcbtrmaximal>** daemon sync time seems a lot more important than wallet sync time (in comparison) if our primary goal was to encourage more full nodes.  
 **\<vertp>** Unless you're using a remote node, no?  
 **\<hyc>** this complicates the build if we want a crypto/ subtree just for wallet and one just for daemon  
 **\<byterubmooo>** Hmm, fair point.  
@@ -156,10 +156,10 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<fluffypony>** but the specifics aren't great  
 **\<fluffypony>** for eg.  
 **\<byterubmooo>** But I dunno what vtnerd is doing.  
-**\<xmreric>** Lots of GUI users want this on some level or another.  
-**\<xmreric>** I'm pretty big on emphasizing away from using remote nodes as best-practice.  
+**\<btreric>** Lots of GUI users want this on some level or another.  
+**\<btreric>** I'm pretty big on emphasizing away from using remote nodes as best-practice.  
 **\<fluffypony>** what if an unsynced daemon, when it has a wallet client requesting outputs from a certain height, picks a random peer and asks that peer for the data  
-**\<xmreric>** But for people in developing nations, etc it's a good option to offer  
+**\<btreric>** But for people in developing nations, etc it's a good option to offer  
 **\<samsunggalaxyplayer>** I know that we all want everyone to run a full node, but I imagine less than half actually will, and that percentage will only decrease over time with new, non-technical users  
 **\<fluffypony>** ie. without range proofs / sigs / etc.  
 **\<gingeropolous>** the random peer has its rpc open?  
@@ -224,11 +224,11 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<Jaquee>** #605 connects to a remote node while local node is syncing  
 **\<jacobjeweler>** I agree, fluffy. I think the real issue is people not having enough knwoledge to install nodes. An installer on windows and .deb in apt would increase full nodes immensly.  
 **\<gingeropolous>** i like it. the pre-sync idea. using the daemon. it opens up the whole network as a source of remote nodes, which decentralizes the effort  
-**\<xmreric>** What if all this work gets done, but then this audience just uses web/mobile wallets anyways  
+**\<btreric>** What if all this work gets done, but then this audience just uses web/mobile wallets anyways  
 **\<pigeons>** keep improving the ability for people to run their own node before making it easier for people to use a different model  
 **\<gingeropolous>** and because the daemon *is* running  
 **\<gingeropolous>** it will be synchronizing its own copy of the blockchain  
-**\<fluffypony>** @xmreric that's the most likely outcome  
+**\<fluffypony>** @btreric that's the most likely outcome  
 **\<hyc>** that is trickier  
 **\<fluffypony>** people *are* going to use MyByteRub / Exodus / Coinomi even if we have a magical remote node model that doesn't vampire the network  
 **\<guzzi>** It could even hold part of the chain and randomly ask for missing parts  

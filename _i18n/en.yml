@@ -22,7 +22,7 @@ global:
 
 titles:
   index: Home
-  whatisbyterub: What is ByteRub (XMR)?
+  whatisbyterub: What is ByteRub (BTR)?
   using: Using ByteRub
   accepting: Accepting ByteRub
   contributing: Improving ByteRub
@@ -106,7 +106,7 @@ hangouts:
   - channel: byterub-offtopic
     description: Chatting with other ByteRub users about things not related to ByteRub.
   - channel: byterub-otc
-    description: Over the counter ByteRub. Come here to purchase XMR from your fellow ByteRubn.
+    description: Over the counter ByteRub. Come here to purchase BTR from your fellow ByteRubn.
   - channel: byterub-pools
     description: This is the place for mining questions and discussion.
   - channel: byterub-research-lab
@@ -155,17 +155,17 @@ downloads:
   blockchainbutton: Download Blockchain
   mobilelight: Mobile & Light Wallets
   hardware: Hardware Wallets
-  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive XMR.
+  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive BTR.
   simplemode: Simple mode
-  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
+  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive BTR, done!
   advancedmode: Advanced mode
   advancedmode1: With all the advanced features you could need. Ideal for seasoned ByteRub users who prefer to have full control of their wallet and node
   merchantpage: Merchant page
-  merchantpage1: Receive XMR for your business, easily
+  merchantpage1: Receive BTR for your business, easily
   hwcompatible: Compatible with hardware wallets
   hwcompatible1: such Trezor and Ledger
   fiatconv: in-app fiat conversion
-  fiatconv1: No longer a need to check the value of your XMR online
+  fiatconv1: No longer a need to check the value of your BTR online
   pruning: Blockchain pruning
   pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
   langs: "<b>30+ languages</b> available"
@@ -256,18 +256,18 @@ accepting:
   gui2: The receive page (shown below) is explained in every detail
   guilinkguide: in the guide of the GUI.
   guiinstructions: >
-    To receive XMR you only need to provide the payer with an @address where they can send funds to. Most of the time it's easier to just share a QR code and let the payer scan it, instead of copy-pasting the alphanumeric string. 
-    With the GUI every generated address come with its QR code. Make the person scan the QR code with the ByteRub @wallet on their phone and receive your XMR in minutes. 
+    To receive BTR you only need to provide the payer with an @address where they can send funds to. Most of the time it's easier to just share a QR code and let the payer scan it, instead of copy-pasting the alphanumeric string. 
+    With the GUI every generated address come with its QR code. Make the person scan the QR code with the ByteRub @wallet on their phone and receive your BTR in minutes. 
     Remember you can generate as many addresses (subaddresses) as you want. This is useful if you want to keep funds separated for any reason.
   guimerchant: Merchants will probably find more convenient to use the 'Merchant' page (screenshot below), which is explained in detail in the 'Merchant view' section of
   guilinkguide1: the guide linked above
   guimerchant1: >
-    This is a POS-like page that merchant can easily use to set the amount of XMR to receive. If the 'Sale tracker' option is enabled, 
+    This is a POS-like page that merchant can easily use to set the amount of BTR to receive. If the 'Sale tracker' option is enabled, 
     you will see the payments while they arrive in real time in your wallet, along with the number of confirmations.
-  guisteps: "These two pages give everybody the possibility to easily receive XMR following these steps:"
+  guisteps: "These two pages give everybody the possibility to easily receive BTR following these steps:"
   guiol: "Go to the 'Receive' page and create/select the address where you want to receive your coins."
   guiol1: Share the address composed by letters and numbers to the person you want to receive coins from. You probably prefer to use the more user friendly QR code.
-  guiol2: "If you want to specify the amount to receive, got to the 'Merchant' page (after you selected in the 'Receive' page the @account that will be used to receive XMR)."
+  guiol2: "If you want to specify the amount to receive, got to the 'Merchant' page (after you selected in the 'Receive' page the @account that will be used to receive BTR)."
   guiol3: "Insert the amount to receive, then share with the payer the payment URL or the QR code. If you want to track the payment in real time, tick the 'enable sales tracker' option."
   guiol4: Wait until the payment is arrived and has enough confirmations (The more confirmations, the safer the transaction is. You need at least 10 confirmations before you can spend the funds.).
   cliinstructions: Instructions for the CLI
@@ -287,7 +287,7 @@ accepting:
     you can do so by giving your CLI this command `account switch 1`. Now you are sitting on your 'Donations' account and you can start using it right away.
   cliindex1: >
     Every account can host a virtually infinite amount of subaddresses. These work exactly like a normal address and you can create as many 
-    as you want and use them to receive XMR to the account they are linked to. To create a new subaddress for an account, use the command:
+    as you want and use them to receive BTR to the account they are linked to. To create a new subaddress for an account, use the command:
   clinotes: >
     Note that the instructions below are just the minimal necessary to create and use accounts/subaddresses. 
     The CLI offer more capillary ways to handle accounts and the wallet in general. Use the command 'help' to list all the available options.
@@ -321,8 +321,8 @@ contributing:
   donate: Donate
   donate_para1: Ongoing development is supported by donations and
   donate_para2: sponsorships.
-  donate-xmr: Donating ByteRub
-  donate-xmr_para: Donations may be sent to
+  donate-btr: Donating ByteRub
+  donate-btr_para: Donations may be sent to
   or: or
   donate-btc: Donating Bitcoin
   donate-btc_para: Donations may be sent to
@@ -468,9 +468,9 @@ user-guides:
   purchasing-storing: Securely purchasing and storing ByteRub
   verify-allos: Verify binaries on Linux, Mac, or Windows command line (advanced)
   verify-windows: Verify binaries on Windows (beginner)
-  mine-on-pool: How to mine on a pool with xmr-stak-cpu
+  mine-on-pool: How to mine on a pool with btr-stak-cpu
   solo-mine: How to solo mine with the GUI
-  mine-docker: Mining with Docker and XMRig
+  mine-docker: Mining with Docker and BTRig
   locked-funds: How to fix locked up funds
   restore-account: How to restore your account
   qubes: CLI wallet/daemon isolation with Qubes + Whonix
@@ -479,7 +479,7 @@ user-guides:
   view-only: How to make a view-only wallet
   prove-payment: How to prove payment
   restore-from-keys: Restoring wallet from keys
-  nicehash: How to mine ByteRub XMR without a mining equipment
+  nicehash: How to mine ByteRub BTR without a mining equipment
   ledger-wallet-cli: How to generate a Ledger ByteRub wallet with the CLI (byterub-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor
@@ -556,7 +556,7 @@ specs:
   block_size: dynamic, maximum of 2 * M100
   block_emission_title: Emission curve
   block_emission_main: "first, main curve: ~18.132 million coins by the end of May 2022"
-  block_emission_tail: "then, tail curve: 0.6 XMR per 2-minute block, kicks in once main emission is done, translates to <1% inflation decreasing over time"
+  block_emission_tail: "then, tail curve: 0.6 BTR per 2-minute block, kicks in once main emission is done, translates to <1% inflation decreasing over time"
   block_emission_disclaimer1: see
   block_emission_disclaimer_link: charts and details
   supply_title: Max supply

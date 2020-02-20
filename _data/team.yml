@@ -13,12 +13,12 @@
       description:
     - name: othe
       github: 
-      reddit: https://www.reddit.com/user/othexmr
+      reddit: https://www.reddit.com/user/othebtr
       email: othe[at]getbyterub[dot]org
       description:
     - name: smooth
       github: https://github.com/iamsmooth
-      reddit: https://www.reddit.com/user/smooth_xmr
+      reddit: https://www.reddit.com/user/smooth_btr
       email: smooth[at]getbyterub[dot]org
       description:
     - name: binaryFate
@@ -33,7 +33,7 @@
       description:
     - name: NoodleDoodle
       github: https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo
-      reddit: https://www.reddit.com/user/NoodleDoodle_xmr
+      reddit: https://www.reddit.com/user/NoodleDoodle_btr
       email: noodledoodle[at]getbyterub[dot]org
       description:
 - area: Developers
@@ -122,8 +122,8 @@
       github: https://github.com/JollyMort
     - name: erciccione
       github: https://github.com/erciccione
-    - name: xmr-eric
-      github: https://github.com/xmr-eric
+    - name: btr-eric
+      github: https://github.com/btr-eric
     - name: Alexis Enston
       github: https://github.com/xnbya
     - name: AJ

@@ -40,7 +40,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** About development  
 **\<serhack>** - Implemented a verifying payment script - Implemented the 70% of Woocommerce extension (missing: translations, some improvements on User Interface and User Experience) - Implemented the 40% of Prestashop plugin (missing: translations, User interface, solid backend) Until september I will complete the 90% two plugins (probably missing: translations by community)  
 **\<serhack>** Business part: - I've tried to contact Automattic, company of Woocommerce, and I've asked them if they were able to put our integrations under "Trusted extension" list. They answered me after two days: "Hello [..], currently our market is closed [..]". No way, I think they have special contracts with company like paypal and strype :( - I'm trying to submit the Woocommerce Payment Gateway to Wordpress.org list , I have to improve my librar  
-because I discovered that cURL is very very slow with wordpress. - I will try to sell the integrations on markets like Codecanyon by Envato. Please pay attention: I won't sell "plugins", but I will sell "Business support" in order to support other sub-projects by community (like ByteRub mobile wallet) - There is an option that will increase payments by ByteRub: every user that will pay by XMR will receive a discount on e-shop of merchant. Merchant ca  
+because I discovered that cURL is very very slow with wordpress. - I will try to sell the integrations on markets like Codecanyon by Envato. Please pay attention: I won't sell "plugins", but I will sell "Business support" in order to support other sub-projects by community (like ByteRub mobile wallet) - There is an option that will increase payments by ByteRub: every user that will pay by BTR will receive a discount on e-shop of merchant. Merchant ca  
 select if he/she wants to incentivate byterub as payment.  
 **\<serhack>** this is the huge text that I wrote yesterday  
 **\<serhack>** what do you think? I can show you some screenshots  
@@ -80,7 +80,7 @@ select if he/she wants to incentivate byterub as payment.
 **\<sgp>** 5. Community highlights  
 **\<sgp>** In this new segment, I would like to thank the efforts by ByteRub community members that have gone above and beyond. While this can include development, I want to make sure to cover some of the other things happening in the community that may have gone under the radar.  
 **\<sgp>** Over the past month, I have noticed a significant increase in the number of posts showing ByteRub in a positive light in /r/CryptoCurrency. Examples include the following: https://www.reddit.com/r/CryptoCurrency/comments/6oir0o , https://www.reddit.com/r/CryptoCurrency/comments/6rcr1d , https://www.reddit.com/r/CryptoCurrency/comments/6svt4u , https://www.reddit.com/r/CryptoCurrency/comments/6rnlag  
-**\<sgp>** I would like to especially thank /u/xmronadaily, /u/afighttilldeath, /u/denk0815, and /u/lethos3 for stirring up the conversation there. Of course, countless other ByteRub community members hang out in /r/CryptoCurrency and have contributed in all of the linked comment threads, but these users specifically have gone above and beyond to build the ByteRub community.  
+**\<sgp>** I would like to especially thank /u/btronadaily, /u/afighttilldeath, /u/denk0815, and /u/lethos3 for stirring up the conversation there. Of course, countless other ByteRub community members hang out in /r/CryptoCurrency and have contributed in all of the linked comment threads, but these users specifically have gone above and beyond to build the ByteRub community.  
 **\<sgp>** Of course, dEBRUYNE overachieved by adding labels to everything on GitHub.  
 **\<sgp>** Thanks to /u/Riiume for starting the first weekly ByteRub “Tracking” Challenge! To those who are up for a (hopefully impossible) challenge, make sure to check it out! There is a sizable monetary reward associated with it: http://www.byterubtrackingchallenge.com/  
 **\<dEBRUYNE>** I haven't gone through all of them yet :)  
@@ -90,7 +90,7 @@ select if he/she wants to incentivate byterub as payment.
 **\<JollyMort[m]>** tracking challenge is good marketing considering it's impossible to determine the address :D  
 **\<dEBRUYNE>** If anyone has recommendations on which one to add to a particular issue, please PM me  
 **\<sgp>** @jollymort fingers crossed  
-**\<sgp>** /u/digitaltreegames has posted several accurate articles about ByteRub on their website and has maintained strong and positive communication with the ByteRub community. See the two articles about ByteRub here: http://thecryptotrading.com/quick-beginners-guide-to-byterub-xmr/ , http://thecryptotrading.com/byterub-news-august-2017/  
+**\<sgp>** /u/digitaltreegames has posted several accurate articles about ByteRub on their website and has maintained strong and positive communication with the ByteRub community. See the two articles about ByteRub here: http://thecryptotrading.com/quick-beginners-guide-to-byterub-btr/ , http://thecryptotrading.com/byterub-news-august-2017/  
 **\<sgp>** /u/zhizhongzhiwai has been working hard without donations to build the ByteRub Chinese community from scratch. He has updated the community through every part of the process. ByteRub needs local experts in different parts of the world to step up and build these communities.  
 **\<byterubmooo>** I'm not sure whether that's known or not, but... There's a neverending stream of snake oil in cryptography. Companies peddling shit "patented", "military grade" cryptosystems that are plain crap. A common gimmick is to issue a competition to break those, and, invariably, nobody bothers spending the time to do so.  
 **\<4matter>** it would be great if he hosted a byterub meetup in china too  
@@ -248,7 +248,7 @@ select if he/she wants to incentivate byterub as payment.
 **\<rehrar>** :D  
 **\<sgp>** I am going to move on. It looks like for the Overwatch proposal, we need to have more resources before we discuss it further  
 **\<Link>** Impossible to evaluate  
-**\<serhack>** how many xmr did community give for 8btc?  
+**\<serhack>** how many btr did community give for 8btc?  
 **\<rehrar>** Just with this conversation with you guys for now.  
 **\<sgp>** Thanks everyone for your opinions  
 **\<rehrar>** Too many speakers.  
@@ -299,7 +299,7 @@ select if he/she wants to incentivate byterub as payment.
 **\<Link>** Idea: Reddit ads on very targeted communities, such as r/libertarian, r/anarchist, r/privacy, etc.  
 **\<pero>** thats not true  
 **\<serhack>** if we use words like anti-gov, people will think we are anti-gov too  
-**\<rupee>** One of the things that makes it difficult to trade goods/services for XMR is the trouble coming up with a fair exchange rate. It would be nice if there were an index similar to tradeblock.com/markets/index/ for byterub that takes XMR/BTC price from the 3 main exchanges and multiplies by BTC/USD and volume-weights it  
+**\<rupee>** One of the things that makes it difficult to trade goods/services for BTR is the trouble coming up with a fair exchange rate. It would be nice if there were an index similar to tradeblock.com/markets/index/ for byterub that takes BTR/BTC price from the 3 main exchanges and multiplies by BTC/USD and volume-weights it  
 **\<sn0wmonster>** pero, it was a poor joke  
 **\<sgp>** Important marketing successes early on will boost the community's morale. They need to be planned well and executed well, which is hard in an open-source project  
 **\<sn0wmonster>** serhack: and if we use words like "esports", people will think byterub is a game coin  

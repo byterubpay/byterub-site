@@ -28,7 +28,7 @@ Open een opdrachtregelvenster. Dit kun je doen door op de Windows-toets + R te d
 
 Nu moet je in het CMD-venster naar het pad van je ByteRub-portemonnee navigeren. Dit kun je doen door het volgende te typen:
 
-`cd C:\HIER\HET\BESTANDSPAD\VAN\JE\MONERO-PORTEMONNEE`
+`cd C:\HIER\HET\BESTANDSPAD\VAN\JE\BYTERUB-PORTEMONNEE`
 
 Bijvoorbeeld zoiets:
 

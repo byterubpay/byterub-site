@@ -65,7 +65,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<fluffypony>** does Objective-C let you also run native C / C++ code?  
 **\<endogenic>** fluffypony: yep as long as you can compile for an ARM target  
 **\<endogenic>** compile it*  
-**\<MK__>** ArticMine : A good idea and a lot of IOS devices have Jailbreak , Remember that XMR are used in the DNM as well  
+**\<MK__>** ArticMine : A good idea and a lot of IOS devices have Jailbreak , Remember that BTR are used in the DNM as well  
 **\<fluffypony>** yeah we have ARMv8 support across the board  
 **\<endogenic>** Objective-C is a strict superset of C, so any C is good, and C++ can be compiled too  
 **\<ArticMine>** Net applications Android 69.18% IOS 25.02% market share  
@@ -77,8 +77,8 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<fluffypony>** but performance testing is also immensely useful  
 **\<fluffypony>** see what cracks under pressure  
 **\<fluffypony>** we have a short window until the January hard fork, so we need to hammer testnet as much as possible  
-**\<trustedsetup>** is there a testnet faucet somewhere? or is mining or irc begging for testnet xmr recommended?  
-**\<fluffypony>** just ask me and I'll send testnet XMR your way  
+**\<trustedsetup>** is there a testnet faucet somewhere? or is mining or irc begging for testnet btr recommended?  
+**\<fluffypony>** just ask me and I'll send testnet BTR your way  
 **\<patthehuman>** are there any automation processes that can hammer on testnet?  
 **\<patthehuman>** i have access to a lot of r510 servers that i could potentially mirror some script to hammer on it  
 **\<fluffypony>** patthehuman: you could pretty much just write a bash script to send to yourself once a second  
@@ -191,22 +191,22 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<dEBRUYNE>** fluffypony: will do  
 **\<dEBRUYNE>** NoodleDoodle isn't here right?  
 **\<byterubmooo>** Who wants to volunteer to review some patches from time to time ? :)  
-**\<dEBRUYNE>** byterubmooo: Similiarly, would you be able to glance over / review the trezor XMR code?   
+**\<dEBRUYNE>** byterubmooo: Similiarly, would you be able to glance over / review the trezor BTR code?   
 **\<byterubmooo>** Where is it ?  
 **\<fluffypony>** on NoodleDoodle's computer  
 **\<dEBRUYNE>** https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo  
 **\<dEBRUYNE>** ^ byterubmooo   
-**\<dEBRUYNE>** he has some commits in his byterub repository and in trezor-xmr  
+**\<dEBRUYNE>** he has some commits in his byterub repository and in trezor-btr  
 **\<fluffypony>** :-P  
 **\<i2p-relay> {-anonimal}** byterubmooo: I review many of them but I don't spend enough time with the codebase to ack/nack  
 **\<byterubmooo>** anonimal, thanks :)  
 **\<byterubmooo>** dEBRUYNE: Do you know which one of the three repos is the right one ?  
-**\<byterubmooo>** xmr, common, mcu. xmr seems likely to be one at least.  
-**\<dEBRUYNE>** oh trezor-xmr  
+**\<byterubmooo>** btr, common, mcu. btr seems likely to be one at least.  
+**\<dEBRUYNE>** oh trezor-btr  
 **\<dEBRUYNE>** and byterub  
 **\<dEBRUYNE>** So his commits here -> https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo/byterub/commits/master?author=NoodleDoodleNoodleDoodleNoodleDoodleNoo  
 **\<byterubmooo>** OK, I'll keep that in mind then.  
-**\<dEBRUYNE>** & here -> https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo/trezor-xmr  
+**\<dEBRUYNE>** & here -> https://github.com/NoodleDoodleNoodleDoodleNoodleDoodleNoo/trezor-btr  
 **\<medusa_>** i can not review the code, but i can test specific pull requests if you guys explain me what you changed  
 **\<dEBRUYNE>** trezor-mcu / trezor-common has no commits from NoodleDoodle byterubmooo   
 **\<byterubmooo>** medusa_: 1082 and 1121 could do with some testing if you feel like it.  

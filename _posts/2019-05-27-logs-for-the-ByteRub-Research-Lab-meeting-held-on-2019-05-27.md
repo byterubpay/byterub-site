@@ -51,5 +51,5 @@ author: el00ruobuob / suraeNoether
 **\<suraeNoether>** in between now and then my action items for reserach involve working on mrl11 simulation code while compiling info about spartan, ringct3, lelantus, and comparing against CLSAG for a comparative report.  
 **\<suraeNoether>** unlike my previous papers, I think I want to use github more extensively for this comparative report, and upload updates to a document as I go so folks can sort of follow along with the development of the document  
 **\<suraeNoether>** does anyone have any requested action items from me, or does anyone have any further questions about research, or the konferenco, or does anyone want to speak up about research they've done recently to contribute to ByteRub?  
-**\<suraeNoether>** okay, i want to give a special shoutout to all the folks on the XMR outreach team who've been helping me with Konferenco promotion. Otherwise.. yeesh, it's sad here without sarang  
+**\<suraeNoether>** okay, i want to give a special shoutout to all the folks on the BTR outreach team who've been helping me with Konferenco promotion. Otherwise.. yeesh, it's sad here without sarang  
 **\<suraeNoether>** let's adjourn this meeting; see you guys here again on 3 June for our next research meeting!  

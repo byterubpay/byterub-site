@@ -11,13 +11,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Meeting time!  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/246  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<el00ruobuob\_[m]>** Hi guys!  
 **\<rehrar>** ho  
 **\<anonimal>** Hi  
-**\<xmrmatterbridge> \<xmrscott>** Hi  
-**\<xmrmatterbridge> \<xmrscott>**  
+**\<btrmatterbridge> \<btrscott>** Hi  
+**\<btrmatterbridge> \<btrscott>**  
 **\<\_Slack> \<sean>** Hey  
 **\<erciccione\_[m]>** Hello  
 **\<\_Slack> \<alexmu>** Hi  
@@ -27,13 +27,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** ByteRub was added to the Debian “unstable” repository: https://tracker.debian.org/pkg/byterub  
 **\<suraeNoether>** howdy  
 **\<sgp\_>** Vikrant Sharma talked about ByteRub and its relationship to Cake Wallet: https://www.youtube.com/watch?v=joAZQXp69Kw  
-**\<byterubbux>** [ Vikrant Sharma – Founder of the Cake Wallet for ByteRub (XMR) - YouTube ] - www.youtube.com  
+**\<byterubbux>** [ Vikrant Sharma – Founder of the Cake Wallet for ByteRub (BTR) - YouTube ] - www.youtube.com  
 **\<sgp\_>** ErCiccione (with the help of others) built an unofficial GUI for 0.12.2: https://www.reddit.com/r/ByteRub/comments/8rkwyt/unofficial\_release\_of\_gui\_wallet\_version\_0122/  
 **\<byterubbux>** [REDDIT] UNOFFICIAL release of GUI wallet version 0.12.2 - 'Impatient' (self.ByteRub) | 69 points (91.0%) | 86 comments | Posted by ErCiccione | Created at 2018-06-16 - 17:35:55  
 **\<sgp\_>** Monerujo was updated to include subaddresses: https://www.reddit.com/r/ByteRub/comments/8sz02k/update\_monerujo\_159\_maximum\_nacho/  
 **\<byterubbux>** [REDDIT] [UPDATE] Monerujo 1.5.9 "Maximum Nacho" (self.ByteRub) | 80 points (96.0%) | 42 comments | Posted by m2049r | Created at 2018-06-22 - 05:59:06  
 **\<sgp\_>** X Wallet was updated to include a fee estimator: https://www.reddit.com/r/ByteRub/comments/8qv90g/x\_wallet\_v15\_now\_available\_for\_download/  
-**\<byterubbux>** [REDDIT] X Wallet v1.5 now available for download (self.ByteRub) | 65 points (91.0%) | 6 comments | Posted by xmr-rusticbison | Created at 2018-06-13 - 19:25:44  
+**\<byterubbux>** [REDDIT] X Wallet v1.5 now available for download (self.ByteRub) | 65 points (91.0%) | 6 comments | Posted by btr-rusticbison | Created at 2018-06-13 - 19:25:44  
 **\<oneiric\_>** hi  
 **\<sgp\_>** Does anyone else have community updates to share?  
 **\<\_Slack> \<sean>** The PR&OE name change  
@@ -45,7 +45,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Anything else?  
 **\<el00ruobuob\_[m]>** rehrar idea to be honest  
 **\<sgp\_>** 3. Community workgroup developments  
-**\<sgp\_>** We have some exciting news regarding the workgroup. First, we are creating a database of all the workgroups in the ByteRub ecosystem. Here is an example for the Community workgroup: https://xmr.ncrypt.sh/index.php/s/xo3ttmqPTE93Pc3  
+**\<sgp\_>** We have some exciting news regarding the workgroup. First, we are creating a database of all the workgroups in the ByteRub ecosystem. Here is an example for the Community workgroup: https://btr.ncrypt.sh/index.php/s/xo3ttmqPTE93Pc3  
 **\<sgp\_>** We hope to work with other workgroup organizers to create more of these. We often receive feedback that new users have no idea how to find workgroups and get involved. We hope these materials will help.  
 **\<sgp\_>** Does anyone have feedback on the overall content?  
 **\<ErCiccione>** uh nice, will prepare something like that for the localizations one  
@@ -127,8 +127,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Thanks ErCiccione  
 **\<ErCiccione>** oh, forgot to remind that as always all the work of the localization workgroup can be tracked on taiga: https://taiga.getbyterub.org/project/erciccione-byterub-localization/  
 **\<sgp\_>** b. Outreach workgroup  
-**\<sgp\_>** xmrhaelan posted a recent update on the Outreach workgroup: https://www.reddit.com/r/ByteRub/comments/8t7012/introducing\_byterub\_outreach\_workgroup/  
-**\<byterubbux>** [REDDIT] Introducing: ByteRub Outreach workgroup (self.ByteRub) | 50 points (95.0%) | 8 comments | Posted by xmrhaelan | Created at 2018-06-23 - 02:48:00  
+**\<sgp\_>** btrhaelan posted a recent update on the Outreach workgroup: https://www.reddit.com/r/ByteRub/comments/8t7012/introducing\_byterub\_outreach\_workgroup/  
+**\<byterubbux>** [REDDIT] Introducing: ByteRub Outreach workgroup (self.ByteRub) | 50 points (95.0%) | 8 comments | Posted by btrhaelan | Created at 2018-06-23 - 02:48:00  
 **\<sgp\_>** Do any other workgroups have a report?  
 **\<sgp\_>** All right then, we have half the meeting for the really fun stuff  
 **\<sgp\_>** 6. Open ideas time  

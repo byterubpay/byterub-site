@@ -11,7 +11,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/323  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<parasew[m]>** hello!  
 **\<sgp\_>** huge crowd of 3 people today :p  
@@ -22,7 +22,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** oh, I'm here  
 **\<sgp\_>** OsrsNeedF2P made an on-chain ByteRub tip bot, currently only for testnet: https://www.reddit.com/r/ByteRubTipsBot/wiki/index  
 **\<rehrar>** sgp\_: just link to the revuo  
-**\<sgp\_>** ByteRub was listed on KuCoin: https://www.kucoin.com/news/en-byterub-xmr-gets-listed-on-kucoin  
+**\<sgp\_>** ByteRub was listed on KuCoin: https://www.kucoin.com/news/en-byterub-btr-gets-listed-on-kucoin  
 **\<rehrar>** it has everything you just said  
 **\<sgp\_>** oh yeah  
 **\<sgp\_>** rehrar started this initiative  
@@ -48,21 +48,21 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** geez, so far it's the rehrar show. Did any of you guys do anything this week?  
 **\<rehrar>** I jest. Relax.  
 **\<sgp\_>** CCS proposals still needing funding:  
-**\<sgp\_>** v1docq47: video creation / translations into russian (february – july) (0.29/46.8 XMR): https://ccs.getbyterub.org/proposals/v1docq47-video-creation-translations-into-russian-(february-july).html  
-**\<sgp\_>** Surae Funding for Q2 2019 (156.05/618 XMR): https://ccs.getbyterub.org/proposals/surae-mrl-research-q2-2019.html  
-**\<sgp\_>** byterubmooo coding, april 2019 (266.60/410 XMR): https://ccs.getbyterub.org/proposals/mooo-2019-04.html  
-**\<sgp\_>** Sarang: research funding for 2019 Q2 (423.93/638 XMR): https://ccs.getbyterub.org/proposals/sarang-2019-q2.html  
-**\<sgp\_>** Defcon ByteRub Party 2019 (14.29/57 XMR): https://ccs.getbyterub.org/proposals/pwrcycle-Defcon\_ByteRub\_Party\_2019.html  
-**\<sgp\_>** el00ruobuob: JANUARY TO MARCH (PART TIME FOR A NEW QUARTER) (16.66/45 XMR): https://ccs.getbyterub.org/proposals/el00ruobuob-january-to-march-part-time-for-a-new-quarter.html  
-**\<sgp\_>** Funds short for all of these: 936.98 XMR (about 45,000 USD)  
+**\<sgp\_>** v1docq47: video creation / translations into russian (february – july) (0.29/46.8 BTR): https://ccs.getbyterub.org/proposals/v1docq47-video-creation-translations-into-russian-(february-july).html  
+**\<sgp\_>** Surae Funding for Q2 2019 (156.05/618 BTR): https://ccs.getbyterub.org/proposals/surae-mrl-research-q2-2019.html  
+**\<sgp\_>** byterubmooo coding, april 2019 (266.60/410 BTR): https://ccs.getbyterub.org/proposals/mooo-2019-04.html  
+**\<sgp\_>** Sarang: research funding for 2019 Q2 (423.93/638 BTR): https://ccs.getbyterub.org/proposals/sarang-2019-q2.html  
+**\<sgp\_>** Defcon ByteRub Party 2019 (14.29/57 BTR): https://ccs.getbyterub.org/proposals/pwrcycle-Defcon\_ByteRub\_Party\_2019.html  
+**\<sgp\_>** el00ruobuob: JANUARY TO MARCH (PART TIME FOR A NEW QUARTER) (16.66/45 BTR): https://ccs.getbyterub.org/proposals/el00ruobuob-january-to-march-part-time-for-a-new-quarter.html  
+**\<sgp\_>** Funds short for all of these: 936.98 BTR (about 45,000 USD)  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** ByteRub Outreach quarterly and ongoing task funding (asking 84 XMR: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/45  
+**\<sgp\_>** ByteRub Outreach quarterly and ongoing task funding (asking 84 BTR: https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/45  
 **\<rehrar>** oh wait no  
 **\<rehrar>** that's not for discussion  
 **\<rehrar>** that belongs in WiP but something needs to be changed  
 **\<ErCiccione[m]>** I didn't have time to write my new CCS. I hope i can do it today or max tomorrow.  
 **\<sgp\_>** rehrar: good to know :)  
-**\<rehrar>** I'll ping xmrhaelan again  
+**\<rehrar>** I'll ping btrhaelan again  
 **\<sgp\_>** Not much to discuss here this week on these proposals then, just get donating!  
 **\<sgp\_>** Does anyone else have a CCS update, or comments about any of these CCS proposals?  
 **\<sgp\_>** 4. Workgroup report  
@@ -86,7 +86,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** GUI update  
 **\<dsc\_>** Currently I'm implementing a white theme for the GUI. Will take a while to complete (ETA: 2 weeks). I also finished a redesign of the history page, now called transactions. Not only does it perform well when the user has a lot of historic data, it's also an improvement to UX.  
 **\<dsc\_>** kneuffelbund, designer of the GUI, did some IRL testing with \*real\* people and made notes. He is now designing/tweaking the wizards. https://github.com/byterubpay/byterub-gui/issues/2040  
-**\<dsc\_>** Me, Selsta and rbrunner7 worked on `byterub://` URI support on Windows/Linux/OSX. Selsta is working on xmr\<->fiat conversions and xiphon is afaik. working on a decentralized node-o-matic.  
+**\<dsc\_>** Me, Selsta and rbrunner7 worked on `byterub://` URI support on Windows/Linux/OSX. Selsta is working on btr\<->fiat conversions and xiphon is afaik. working on a decentralized node-o-matic.  
 **\<dsc\_>** Currently we are investigating a migration to Qt 5.9.7, which should give \*some\* extra performance and allow us to use newer Qt features.  
 **\<dsc\_>** After next point release, I will most likely focus on either i2p/tor integrations or android support.  
 **\<sgp\_>** since when is "a while" in ByteRub "two weeks?" :p  
@@ -100,7 +100,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Any other questions or other workgroup updates?  
 **\<parasew[m]>** vienna/austria byterub is planning a larger meetup and event for "5 years of byterub"  
 **\<sgp\_>** Wow, that is coming up  
-**\<parasew[m]>** also a few peeps are meeting regularly from now on to work, but more as a closed group rather than as a meetup. m2049r, parasew, nevvton, txmr have been meeting about this yesterday.  
+**\<parasew[m]>** also a few peeps are meeting regularly from now on to work, but more as a closed group rather than as a meetup. m2049r, parasew, nevvton, tbtr have been meeting about this yesterday.  
 **\<ErCiccione[m]>** Would be cool to organize some kind of online event for the 5 years  
 **\<jwinterm>** what is actual birthday?  
 **\<parasew[m]>** definitely!!!  
@@ -142,7 +142,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** oops not that  
 **\<sgp\_>** 5. Open ideas time  
-**\<dsc\_>** I have VMs available for any ByteRub contributor/workgroup. Currently I'm offering hosting services for a couple of XMR workgroups. Hit me up if interested.  
+**\<dsc\_>** I have VMs available for any ByteRub contributor/workgroup. Currently I'm offering hosting services for a couple of BTR workgroups. Hit me up if interested.  
 **\<sgp\_>** It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
 **\<sgp\_>** Any ideas to talk about, or are we all thinking about the birthday party  
 **\<jwinterm>** did anyone watch the italian guy byterubtalk episode?  
@@ -178,7 +178,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 13 April at 17:00 UTC.  
 **\<sgp\_>** There is a Coffee Chat next week on 6 April at 16:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 7. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<ErCiccione[m]>** Thank you everybody  

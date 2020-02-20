@@ -95,7 +95,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<sgp\_>** https://forum.getbyterub.org/8/funding-required/87734/byterub-integrations-with-web-apps (edited)  
 **\<serhack>** :slightly_smiling_face:  
 **\<sgp\_>** https://forum.getbyterub.org/8/funding-required/87757/funding-for-a-byterub-subforum-on-the-largest-chinese-btc-forum-8btc  
-**\<vdo>** I arrived late one more time! what happens with the overfunded xmr?  
+**\<vdo>** I arrived late one more time! what happens with the overfunded btr?  
 **\<serhack>** thanks community  
 **\<Diffusive>** it's awesome that people are fully into ByteRub, supporting initiatives  
 **\<rbrunner>** 你好  
@@ -122,7 +122,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<sgp\_>** I want to discuss some local activity going on with ByteRub in June and July. It is important that local communities exist to discuss ByteRub. These groups make it easier for new members to learn about ByteRub in a more personal setting.  
 **\<sgp\_>** There should be a meeting next week in Edinburgh, UK on June 22 or 23. The meetup is approaching quickly, and I still need to plan the last details. If anyone knows someone from this area, please let me know after the meeting. There were some logistical issues when trying to coordinate with their local Bitcoin group that only became apparent after I had committed to going there :/  
 **\<bgmrkbtc>** what do you envision from local meetups? just sit and discuss? or presentations?  
-**\<dEBRUYNE>** Imo it'd be prudent to sent back overfunded XMR to the core-team's donation address, such that they can contribute in future proposals as well  
+**\<dEBRUYNE>** Imo it'd be prudent to sent back overfunded BTR to the core-team's donation address, such that they can contribute in future proposals as well  
 **\<sgp\_>** There will be a meetup in Dublin, Ireland on June 26. I am still choosing the location https://www.meetup.com/Bitcoin-Dublin/events/240152422/ (edited)  
 **\<sgp\_>** There will be a meetup in Barcelona, Spain on July 10.  
 **\<sgp\_>** There will be a meetup in Brussels, Belgium on July 12 https://www.meetup.com/Blockchain-Brussels/events/240786181/ (edited)  
@@ -184,7 +184,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<Diffusive>** pumppp i hope with that FFS of the 8BTC will be more in Asia  
 **\<sgp\_>** @cryptochangements no idea, sorry  
 **\<sgp\_>** 4. The Kovri Opportunity  
-**\<pumppp>** @cryptochangements, It will enable XMR to get launched in many Chinese exchanges I hope so  
+**\<pumppp>** @cryptochangements, It will enable BTR to get launched in many Chinese exchanges I hope so  
 **\<Diffusive>** i can't do something like this in Venezuela because it's kinda ilegal  
 **\<bgmrkbtc>** @diffusive safety first  
 **\<sgp\_>** ^ +1  
@@ -239,7 +239,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<rehrar>** Kovri is unlike anything I've encountered in the cryptospace, because it's the only semi-alturistic offering I've ever seen from a crypto project  
 **\<rehrar>** Anyone will be able to use the Kovri router, regardless of ByteRub usage  
 **\<Diffusive>** Remember that when you use this kind of software you're redirecting the traffic to SOCKS, you can control just an app like Firefox, to work with it and the other with your normal network  
-**\<pumppp>** @rehrar, Anyone apart from XMR community working on kovri?  
+**\<pumppp>** @rehrar, Anyone apart from BTR community working on kovri?  
 **\<rehrar>** and given enough time, a browser bundle and more is not out of the question  
 **\<Beispielhaft>** sounds awesome!  
 **\<rehrar>** it has the potential to strengthen the I2P network, and give another Privacy option for people who have no voice across the world  
@@ -286,7 +286,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<rehrar>** Because Kovri is being offered not just as a ByteRub thing, any coin can take it and implement it  
 **\<joelsolo99>** My opinion is that if Kovri isn't mandatory then using it would seem suspicious  
 **\<rehrar>** it's actually made to be quite light-weight, and so is good to build applications on top of  
-**\<pumppp>** @rehrar, I will only accept XMR as completely private when it makes me invisible when I log into the wallet  
+**\<pumppp>** @rehrar, I will only accept BTR as completely private when it makes me invisible when I log into the wallet  
 **\<rehrar>** I2P has a LOT of things that go in it, and Kovri strips it all down to the barebones  
 **\<rehrar>** making sure to keep the privacy without all the addons  
 **\<gethhh APP>** @fluffypony i guess i did more than once , still i think origin anonymisation is nice but should be optional, but that just my opinion  
@@ -430,7 +430,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<Diffusive>** FFS to fund a VPS to have the Mm on  
 **\<rbrunner>** dEBRUYNE: Cool, thanks  
 **\<serhack>** yeah, diffusive, I can setup it  
-**\<pumppp>** Good to see XMR finally concentrating community side of things  
+**\<pumppp>** Good to see BTR finally concentrating community side of things  
 **\<Diffusive>** We will need general guidelines  
 **\<pumppp>** Creation of New Bagholders begins  
 **\<Diffusive>** As we're getting into serious Community organized  
@@ -449,8 +449,8 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<pumppp>** And the best marketing is Word of Mouth  
 **\<rehrar>** the community IRC is already up  
 **\<rehrar>** if people want to explore the mansion  
-**\<pumppp>** Hi XMR foundation  
-**\<vdo>** we need a theymoxmr  
+**\<pumppp>** Hi BTR foundation  
+**\<vdo>** we need a theymobtr  
 **\<sgp\_>** Yeah get in on the ground level!  
 **\<pumppp>** Gj*  
 **\<Diffusive>** The byterub foundation  
@@ -516,7 +516,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<Diffusive>** yep  
 **\<rehrar>** trying to sell it pero?  
 **\<antw081>** a lot of the questions are like newbies wanting to mine, struggling with the wallet "why not syncing" etc.  
-**\<rehrar>** 1000 XMR?  
+**\<rehrar>** 1000 BTR?  
 **\<pero>** implement a rule to redirect tech support there  
 **\<Diffusive>** The newcomers sticky isn't helping  
 **\<bgmrkbtc>** what about having a dedicated place for people to ask the same question over and over again?  
@@ -547,7 +547,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<Diffusive>** And create a Telegram bot with the FAQ  
 **\<antw081>** community should help "socialise the knowledge" so that devs dont get bugged on stupid questions and waste time  
 **\<rbrunner>** Did anyone check already how groups with even more newbies are coping and solving that problem? Bitcoin, Ethereum?  
-**\<Diffusive>** Ask this guy first. @xmrfaqbot  
+**\<Diffusive>** Ask this guy first. @btrfaqbot  
 **\<bgmrkbtc>** Iota has been flushed with newbies  
 **\<rehrar>** the hangouts page will also help, there's a section for Stack Exchange  
 **\<bgmrkbtc>** on their slack  
@@ -591,7 +591,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<rehrar>** alright, let's rein this in a bit  
 **\<pero>** however you guys want to deal with that fine  
 **\<pero>** but lets declutter the subreddit a little  
-**\<Diffusive>** how about that guy who accept XMR for VPs?  
+**\<Diffusive>** how about that guy who accept BTR for VPs?  
 **\<pero>** tech support is easy low hanging fruit to get rid of  
 **\<Diffusive>** Maybe he can donate space  
 **\<bgmrkbtc>** I still think tags is the best option for now  
@@ -639,7 +639,7 @@ Location Freenode | OFTC | Slack | Irc2P #byterub Time Use this timezone calcula
 **\<cryptochangements>** Already subbed a couple days ago, does that make me an OG member??? Lmao  
 **\<serhack>** thanks  
 **\<Diffusive>** VIP  
-**\<pumppp>** Thanks XMR foundation  
+**\<pumppp>** Thanks BTR foundation  
 **\<antw081>** lol  
 **\<pumppp>** You guys rock  
 **\<bgmrkbtc>** I think hacing community ambassadors with their own tag in subreddit would help as well  

@@ -109,7 +109,7 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<byterubmooo>** Kinda peripheral, but I've finished my last ffs milestone yesterday (thanks to all).  
 **\<johnalan>** Congrats and well done  
 **\<dternyak>** woo! byterubmooo congrats  
-**\<xmr-eric>** Thanks mooo  
+**\<btr-eric>** Thanks mooo  
 **\<fluffypony>** well done mooo  
 **\<byterubmooo>** And I'm hacking on multisig yes, from luigi1113's docs and help. Not working yet though.  
 **\<fluffypony>** byterubmooo: are you going to do another FFS ?  
@@ -177,8 +177,8 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<johnalan>** so on gui/mybyterub mobile - any updates?  
 **\<fluffypony>** Jaquee ^^  
 **\<fluffypony>** or MoroccanMalinois maybe?  
-**\<xmr-eric>** I still think we need to decide on a name for the GUI. https://github.com/byterubpay/byterub-core/issues/674  
-**\<xmr-eric>** ByteRub Kerna still seems fun  
+**\<btr-eric>** I still think we need to decide on a name for the GUI. https://github.com/byterubpay/byterub-core/issues/674  
+**\<btr-eric>** ByteRub Kerna still seems fun  
 **\<johnalan>** you can call it Mary if you like, I just want it  
 **\<johnalan>** :)  
 **\<endogenic>** not a huge fan of that  
@@ -189,7 +189,7 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<byterubmooo>** :)  
 **\<Jaquee>** i have more time now over summer  
 **\<johnalan>** well done Jaquee  
-**\<xmr-eric>** :+1:  
+**\<btr-eric>** :+1:  
 **\<endogenic>** anonimal: sounds… kinky  
 **\<dternyak>** 👍  
 **\<anonimal>** lol endogenic  

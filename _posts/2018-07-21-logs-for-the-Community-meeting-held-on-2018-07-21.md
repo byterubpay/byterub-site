@@ -13,13 +13,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/262  
 **\<ArticMine>** Hi  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** lul from one to the next  
 **\<msvb-lab>** Hello.  
 **\<oneiric\_>** onwards, heeeeelllo  
 **\<pwrcycle>** hi all  
-**\<xmrscott\_>** Hola  
+**\<btrscott\_>** Hola  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** "Kudelski Security completed their [bulletproof] report. They found only a few minor issues that are trivial to correct, and no major issues." Overall, a huge win for ByteRub, bulletproofs, and privacy. Full report will be published soon. https://www.reddit.com/r/ByteRub/comments/8yvts5/kudelski\_security\_completed\_their\_bulletproof/  
 **\<byterubbux>** [REDDIT] "Kudelski Security completed their [bulletproof] report. They found only a few minor issues that are trivial to correct, and no major issues." Overall, a huge win for ByteRub, bulletproofs, and privacy. Full report will be published soon. (https://www.youtube.com/watch?v=CxXtvMTDEuY&t=13m24s) to r/ByteRub | 339 points (97.0%) | 101 comments | Posted by SamsungGalaxyPlayer | Created at 2018-07-14 - 19:37:02  
@@ -50,7 +50,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** msvb-lab, no that was mostly before my time actually  
 **\<sgp\_>** ArticMine sure, we can add it to later discussions. Good topic  
 **\<cinnamonflower>** We launched the Defcon ByteRub Party promotion on social media yesterday, please RT to get the word out if you have not done so already ---> https://twitter.com/cinnamonflower/status/1020532762237734913  
-**\<byterubbux>** [ cinnamonflower on Twitter: "#ByteRub #XMR #defconparties community: Remember that kickass party from last year? Back by popular demand, M.E.A. invites you to this year's #Defcon 26 #DefconByteRubParty l ] - twitter.com  
+**\<byterubbux>** [ cinnamonflower on Twitter: "#ByteRub #BTR #defconparties community: Remember that kickass party from last year? Back by popular demand, M.E.A. invites you to this year's #Defcon 26 #DefconByteRubParty l ] - twitter.com  
 **\<cinnamonflower>** I think that our ByteRub Party Dude graphic will catch everyone's attention.  
 **\<sgp\_>** retweeted  
 **\<sgp\_>** Anythign else before we move on to FFS updates?  
@@ -122,15 +122,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ArticMine>** But also deals with flawed concepts such as the use of "blockchain analytics" as a means of AML / KNC  
 **\<oneiric\_>** link not tor friendly, are they only talking about banning specific cryptos?  
 **\<ArticMine>** It is way more complex than that  
-**\<xmrscott\_>** One that highlights some comments are as naive as saying we should allow for backdoors into encrypted devices. In particular this comment on page 82 is amusing (currently jumping through the paper looking for XMR references): The question arises whether some aspects relating to some cryptocurrencies should not just be banned and criminally sanctioned. To mind come the mixing process attached to Dash's feature  
-**\<xmrscott\_>** PrivateSend and ByteRub's RingCT, stealth addresses and Kovri-project. In essence, these features are designed to make cryptocurrency users untraceable. But why is such degree of anonymity truly necessary? Would allowing this not veer too far towards criminals? Imposing a ban for such aspects surrounding cryptocurrencies that are aimed at making it impossible to verify their users and criminally  
-**\<xmrscott\_>** sanctioning these aspects seems to be in line with the Council's conclusions of April 2018  
+**\<btrscott\_>** One that highlights some comments are as naive as saying we should allow for backdoors into encrypted devices. In particular this comment on page 82 is amusing (currently jumping through the paper looking for BTR references): The question arises whether some aspects relating to some cryptocurrencies should not just be banned and criminally sanctioned. To mind come the mixing process attached to Dash's feature  
+**\<btrscott\_>** PrivateSend and ByteRub's RingCT, stealth addresses and Kovri-project. In essence, these features are designed to make cryptocurrency users untraceable. But why is such degree of anonymity truly necessary? Would allowing this not veer too far towards criminals? Imposing a ban for such aspects surrounding cryptocurrencies that are aimed at making it impossible to verify their users and criminally  
+**\<btrscott\_>** sanctioning these aspects seems to be in line with the Council's conclusions of April 2018  
 **\<sgp\_>** oneiric\_ let me get you a mirror on Nextcloud  
 **\<ArticMine>** for example the completely overlook ZCash which in it self is a very strong argument against a selective ban  
 **\<ArticMine>** Then there is the issue of the Data protection laws in the EU  
-**\<sgp\_>** oneiric\_: https://xmr.ncrypt.sh/index.php/s/g5LMnEJBDeX3fyM  
+**\<sgp\_>** oneiric\_: https://btr.ncrypt.sh/index.php/s/g5LMnEJBDeX3fyM  
 **\<oneiric\_>** Sounds like a similar tack to the crypto export bans of the 90's  
-**\<xmrscott\_>** They might as well ban encryption and Tor  
+**\<btrscott\_>** They might as well ban encryption and Tor  
 **\<ArticMine>** and mandating the release of the very private information that is protected by privacy laws on a public block chain  
 **\<ArticMine>** It raise the very same issue  
 **\<ArticMine>** issues  
@@ -143,22 +143,22 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<pwrcycle>** instead of pointing out how the ban is in-effective, I think it would more useful to talk about why privacy is important.  
 **\<ArticMine>** protracted  
 **\<ArticMine>** Yes but we must address how the proposal impact privacy  
-**\<xmrscott\_>** Do politicians care about why privacy is important though? Don't they want effective policy?  
+**\<btrscott\_>** Do politicians care about why privacy is important though? Don't they want effective policy?  
 **\<sgp\_>** "One US academic study estimates that approximately 25 % of all ByteRub activity as illicit." uh, this is false. I should ask ByteRubLink authors to complain  
-**\<xmrscott\_>** (I guess though we're talking about the EU, no the US)  
-**\<oneiric\_>** They will when it's their privacy xmrscott\_  
+**\<btrscott\_>** (I guess though we're talking about the EU, no the US)  
+**\<oneiric\_>** They will when it's their privacy btrscott\_  
 **\<ArticMine>** they passed the GDPR  
 **\<ArticMine>** So that is a starting point  
 **\<ArticMine>** In fact demonstrating how the propoed ban violated the GDPR is a good startng point  
 **\<ArticMine>** starting  
 **\<pwrcycle>** Privacy is important, so that you are not the target of criminals.  
 **\<ArticMine>** We know that so does the EU  
-**\<xmrscott\_>** I agree. We might want to also pull in an org like EFF to help protest if anyone has any connections  
-**\<xmrscott\_>** Or Free Software Foundation  
+**\<btrscott\_>** I agree. We might want to also pull in an org like EFF to help protest if anyone has any connections  
+**\<btrscott\_>** Or Free Software Foundation  
 **\<sgp\_>** Potentially controversial opinion: working with Zcash to address this  
 **\<msvb-lab>** pwrcycle: Privacy is guaranteed as well by the declaration of human rights paragraph 12 (legal document.)  
 **\<ArticMine>** Yes, and even go as far as an FFS for a lobbying firm in Brussels  
-**\<pwrcycle>** xmrscott\_: I don't know any orgs, but you will find friends in CCC (Chaos Computer Congress)  
+**\<pwrcycle>** btrscott\_: I don't know any orgs, but you will find friends in CCC (Chaos Computer Congress)  
 **\<oneiric\_>** Agree, this sounds like something inline with EFF & FSF goals  
 **\<pwrcycle>** CCC is the Defcon of Europe.  
 **\<ArticMine>** We have to mobilize significant opposition  
@@ -178,7 +178,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** ArticMine: but it will only be won if we do something :)  
 **\<rehrar>** complacency is not an option here  
 **\<sgp\_>** So how about this: ArticMine, can you create a new IRC channel for this that isn't ByteRub-specific, and I can reach out to my contacts in Europe, Coin Center, Zcash, and the EFF?  
-**\<xmrscott\_>** Agreed, so whoever is heading this project I would like to help in whatever way I can  
+**\<btrscott\_>** Agreed, so whoever is heading this project I would like to help in whatever way I can  
 **\<oneiric\_>** I'd like to help as well, crucially important fight  
 **\<ArticMine>** One must keep in mind that the attack at this point is ByteRub and Dash specific  
 **\<ArticMine>** Ironically that is one of the major weaknesses  
@@ -209,13 +209,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** vp11 agree  
 **\<rehrar>** vp11: is correct. Taking the lead can be as simple as using what resources we do have (not all of them are money) to the fullest  
 **\<rehrar>** and leading the charge so to speak. Rallying other groups.  
-**\<xmrscott\_>** ArticMine: Do they have much, if any lobbying power given their startup nature?  
+**\<btrscott\_>** ArticMine: Do they have much, if any lobbying power given their startup nature?  
 **\<ArticMine>** They have already done a lot of damage  
 **\<ArticMine>** By getting the EU fixated on chain analytics  
 **\<ArticMine>** rather than KNC  
 **\<ArticMine>** That is why they are proposing this ban  
-**\<xmrscott\_>** Ah, so there's some potential well researched point about how this isn't really about criminal privacy but money losage  
-**\<xmrscott\_>** \*revenue lose  
+**\<btrscott\_>** Ah, so there's some potential well researched point about how this isn't really about criminal privacy but money losage  
+**\<btrscott\_>** \*revenue lose  
 **\<ArticMine>** A basic issue that if the information on a public blockchain can be used for AML then it also violates privacy  
 **\<rehrar>** right, which goes against their most recent privacy law that data must be able to be deleted upon request  
 **\<ArticMine>** SO one cannot depend on blockchain analytics for AML without destroying privacy  
@@ -240,14 +240,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** Defcon meetings, kovri, mrl, dev, community, it can be a lot sometimes :D  
 **\<oneiric\_>** ^ second this idea  
 **\<rehrar>** I'm just noticing involvement in many meetings dropping off a bit  
-**\<xmrscott\_>** Yeah, probably a good idea  
+**\<btrscott\_>** Yeah, probably a good idea  
 **\<rehrar>** and I'm getting the sense it's the fatigue  
 **\<oneiric\_>** love you all, fuse is burning short  
 **\<sgp\_>** We currently have meetings on Aug 18 and Sept 1. Do you want to skip both?  
 **\<rehrar>** that would be my suggestion, yes  
-**\<xmrscott\_>** ArticMine: What is the channel?  
+**\<btrscott\_>** ArticMine: What is the channel?  
 **\<sgp\_>** What about skipping Sept 4 and Sept 18 actually? The one before and after Defcon  
-**\<xmrscott\_>** DefCon is Aug 8-12  
+**\<btrscott\_>** DefCon is Aug 8-12  
 **\<sgp\_>** I meant Aug 4 and Aug 18, my bad  
 **\<oneiric\_>** sounds good to me  
 **\<ArticMine>** So reconvene on August 25?  
@@ -258,7 +258,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Any objections for scheduling the next community meeting for Sept 1 (skipping Aug 4 and 18)?  
 **\<vp11>** nope, I think it's very reasonable.  
 **\<sgp\_>** 7. Confirm next meeting date/time  
-**\<sgp\_>** The next community meeting will be two weeks from today on the 1 September at 17:00 UTC. When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** The next community meeting will be two weeks from today on the 1 September at 17:00 UTC. When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** \*not two weeks from today  
 **\<sgp\_>** 8. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

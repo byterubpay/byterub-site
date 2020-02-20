@@ -46,9 +46,9 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<endogenic>** +1  
 **\<suraeNoether>** which has included, for a second time, Jonathan Bootle  
 **\<sarang>** rehrar set up an FFS for it  
-**\<sarang>** 0.2 XMR  
+**\<sarang>** 0.2 BTR  
 **\<suraeNoether>** and for the N^th time, greg maxwell  
-**\<rehrar>** 100 XMR requested  
+**\<rehrar>** 100 BTR requested  
 **\<rehrar>** biggest fruit basket ever  
 **\<sarang>** Anyhoo, that's the big news from MRL right now, I suppose  
 **\<rehrar>** awesome. Thanks so much.  

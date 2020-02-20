@@ -24,16 +24,16 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** 2. Community highlights  
 **\<sgp>** I’m going to take a few minutes to show the enormous growth of the ByteRub community since the last community meeting. If you are new here, welcome!  
 **\<sgp>** The /r/ByteRub subreddit traffic nearly doubled from 817k pageviews in July to 1.553m pageviews in August. On a single day in August, over 700 people subscribed. See some charts by violentlypeaceful here: https://imgur.com/a/umPvj  
-**\<sgp>** I would like to add here as a reminder that several other ByteRub communities are available, including /r/xmrtrader for price discussion, /r/ByteRubMining for mining, /r/ByteRubMarket for buying/selling, /r/ByteRubCommunity (which I hope you know about :p), and /r/kovri for Kovri (the next step in extra privacy)  
+**\<sgp>** I would like to add here as a reminder that several other ByteRub communities are available, including /r/btrtrader for price discussion, /r/ByteRubMining for mining, /r/ByteRubMarket for buying/selling, /r/ByteRubCommunity (which I hope you know about :p), and /r/kovri for Kovri (the next step in extra privacy)  
 **\<serhack>** Wow impressive  
 **\<sgp>** Now, time to talk about some contributions by ByteRub community members that went above and beyond! So much happened that I worry I missed some things, but here are a few that I noticed.  
 **\<sn0wmonster>** (I also have independent proof of the subs increase as i tracked this thread for 2 days and 900+ users subscribed: https://www.reddit.com/r/ByteRub/comments/6v4f70/celebrating_20000_subscribers_lambo_giveaway/)  
 **\<sgp>** Cool!  
-**\<sgp>** /u/lafudoci wrote a post today about how they built: https://xmr-tw.org/. Their translations to Chinese (Taiwan) have really built a strong foundation of knowledge. https://www.reddit.com/r/ByteRubCommunity/comments/6xk7ao/my_experiences_in_promoting_byterub_and_some/  
+**\<sgp>** /u/lafudoci wrote a post today about how they built: https://btr-tw.org/. Their translations to Chinese (Taiwan) have really built a strong foundation of knowledge. https://www.reddit.com/r/ByteRubCommunity/comments/6xk7ao/my_experiences_in_promoting_byterub_and_some/  
 **\<sgp>** A community member who later deleted their account posted this defense of privacy that quickly became one of the top posts of the ByteRub subreddit. It was linked in several other communities and is well worth the read: https://www.reddit.com/r/ByteRub/comments/6uldp2/byterub_privacy_is_not_a_crime_or_something_to/  
 **\<sgp>** I added cryptocurrencies, including ByteRub, to the /r/privacy subreddit wiki. You can view it here and let me know your thoughts: https://np.reddit.com/r/privacy/wiki/cryptocurrency  
-**\<sgp>** MONERO NOW HAS AN ANDROID MOBILE WALLET! You will need to connect it to a remote node https://github.com/m2049r/xmrwallet/releases  
-**\<sgp>** VUALIFI launched, which allows anyone to make payment from ByteRub to most cryptocurrencies other than Bitcoin. This service compliments XMR.TO, https://vuali.fi/. They also have tor and I2P addresses available: https://www.reddit.com/r/ByteRub/comments/6wh131/announcing_vualifi_anonymous_payments_for/  
+**\<sgp>** BYTERUB NOW HAS AN ANDROID MOBILE WALLET! You will need to connect it to a remote node https://github.com/m2049r/btrwallet/releases  
+**\<sgp>** VUALIFI launched, which allows anyone to make payment from ByteRub to most cryptocurrencies other than Bitcoin. This service compliments BTR.TO, https://vuali.fi/. They also have tor and I2P addresses available: https://www.reddit.com/r/ByteRub/comments/6wh131/announcing_vualifi_anonymous_payments_for/  
 **\<sgp>** /u/ByteRuboby\_Doo started a weekly ByteRub newsletter at http://www.byterub-observer.com/. The second issue has now been published.  
 **\<sgp>** And finally, rehrar and sky redesigned the ByteRub subreddit, with more wiki goodness to come!  
 **\<sgp>** I am sure that I have forgotten something. If you have an example of a community member going above and beyond, please let us know now!  
@@ -96,7 +96,7 @@ author: dEBRUYNE / fluffypony
 **\<sn0wmonster>** vP11, that's not the worst case actually. i've lived through the worst case.  
 **\<sn0wmonster>** paying for it and having it fail because of X millions of reasons.  
 **\<msvb-lab>** The argument against creating a dedicated wallet is that hoping others will implement into their existing designs will work well enough.  
-**\<msvb-lab>** And not cost another year of no possible XMR in a hw wallet problem, too.  
+**\<msvb-lab>** And not cost another year of no possible BTR in a hw wallet problem, too.  
 **\<pablonero[m]>** I would prefer when ByteRub has it "own" hardware wallet and not depend on a company  
 **\<sgp>** @msvb-lab have you tried working with Ledger or Trezor? Maybe an alternative approach could be to use your talent to make an integration with them easier  
 **\<floam412>** Wouldn't it be a better idea to have someone continue NoodleDoodle's work on the Tezero software?  
@@ -107,7 +107,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** An I have mixed feelings about this  
 **\<msvb-lab>** It's proposal 88160:  
 **\<msvb-lab>** https://forum.getbyterub.org/7/open-tasks/88160/byterub-firmware-for-ledger-wallet/  
-**\<sn0wmonster>** there's also the added benefit that when a consumer orders a wallet from a third party service, it doesn't necessarily connect them to MONERO currency  
+**\<sn0wmonster>** there's also the added benefit that when a consumer orders a wallet from a third party service, it doesn't necessarily connect them to BYTERUB currency  
 **\<endogenic>** All your opinion  
 **\<endogenic>** ?  
 **\<serhack>** We shouldn't depend from thirdy company  
@@ -120,9 +120,9 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** @msb-lab I appreciate your thoughts for both of your proposals  
 **\<endogenic>** I would generally ask the one who has seen the actual process with his own eyes to advise me of how herculean the task it  
 **\<sn0wmonster>** i fully support (even financially) the software necessary to get it working on Trezor and Ledger  
-**\<msvb-lab>** ArticMine: It's likely that if any other wallet maker implements XMR, that they would do so regardless of a dedicated wallet project.  
+**\<msvb-lab>** ArticMine: It's likely that if any other wallet maker implements BTR, that they would do so regardless of a dedicated wallet project.  
 **\<vP11>** I'm not even sure what we're discussing here. Why is this related to the community? It doesn't matter if the proposal for the funding is made, the community won't necessarily "market" the project anyway.  
-**\<serhack>** Ask for some xmrs in order to make a prototype, and then if everyone likes it, we should find it  
+**\<serhack>** Ask for some btrs in order to make a prototype, and then if everyone likes it, we should find it  
 **\<dEBRUYNE>** I am not sure how beneficial 88160 would be if Ledger is already working on an implementation themselves  
 **\<sgp>** I'm going to start moving on to the next point. Thanks everyone for your opinions  
 **\<vP11>** good idea sgp :)  

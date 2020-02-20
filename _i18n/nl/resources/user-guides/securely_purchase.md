@@ -35,8 +35,8 @@ Welke methode je ook kiest, zorg ervoor dat er geen exemplaar van de ByteRub-por
 *Als je de toegang tot je papieren ByteRub-portemonnee kwijtraakt, ben je de ByteRub die erop staan voorgoed kwijt.  Niemand kan je helpen om ze terug te krijgen!*
 
 #### Kanttekening
-Je kunt een XMR-hersteltekst versleutelen met:
-https://xmr.llcoins.net/
+Je kunt een BTR-hersteltekst versleutelen met:
+https://btr.llcoins.net/
 Download de html-pagina en breng die naar je offline computer. Vink de optie "Encrypt/Decrypt Mnemonic Seed" aan en gebruik "CN Add" met een degelijk wachtwoord. Met dank aan manicminer5.
 
 
@@ -67,7 +67,7 @@ Ga naar je Xapo- of Circle-account en zoek de knop Transfer of Send op. Plak het
 
 Nadat het verzenden is gestart door Xapo/Coinbase, moet je wachten terwijl de transactie op de Bitcoin-blockchain wordt vastgelegd en bevestigd.  Dit kan minuten of uren duren.  Je kunt controleren of de betaling is verzonden door het stortingsadres bij Shapeshift.io op te zoeken op blockchain.info.  Daar wordt je transactie naar Shapeshift.io weergegeven.
 
-Nadat je Bitcoin-transactie is bevestigd, begint Shapeshift.io met het omwisselen van Bitcoin (BTC) voor ByteRub (XMR) op een van de exchanges. Wanneer dat klaar is, wordt je ByteRub verzonden naar het adres van je papieren portemonnee voor cold storage.  Dit kan minuten tot uren duren.  Neem contact op met Shapeshift.io als er een probleem is.  Hun ondersteuning is goed.
+Nadat je Bitcoin-transactie is bevestigd, begint Shapeshift.io met het omwisselen van Bitcoin (BTC) voor ByteRub (BTR) op een van de exchanges. Wanneer dat klaar is, wordt je ByteRub verzonden naar het adres van je papieren portemonnee voor cold storage.  Dit kan minuten tot uren duren.  Neem contact op met Shapeshift.io als er een probleem is.  Hun ondersteuning is goed.
 
 Wanneer de transactie volgens de webpagina van Shapeshift.io is voltooid, zou je ByteRub in je papieren portemonnee moeten hebben.
 

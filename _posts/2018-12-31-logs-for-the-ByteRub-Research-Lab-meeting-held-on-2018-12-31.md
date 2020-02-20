@@ -166,7 +166,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** sarang: yeah exctly.. when he's done sleeping and recovering from the past month of work. :P  
 **\<sarang>** OK, for the sake of this discussion, let's work up a proposal for combining options 1 and 3 from suraeNoether's list above  
 **\<sarang>** (not right now, but I mean as an initial proposal)  
-**\<spaced0ut>** sarang, i agree. its probably the safest option for XMR's longevity really. that won't be fun to explain so that most people understand though  
+**\<spaced0ut>** sarang, i agree. its probably the safest option for BTR's longevity really. that won't be fun to explain so that most people understand though  
 **\<sarang>** that will make the attack slow and expensive, and bring block size back down after such an attack  
 **\<suraeNoether>** yep. let's shoot for end of week for our proposal  
 **\<sarang>** spaced0ut: it's easy if you say "the consequence of leaving it is TB blocks"  
@@ -195,7 +195,7 @@ author: el00ruobuob / surae
 **\<hyc>** yes ^  
 **\<sarang>** heh yes to which  
 **\<suraeNoether>** on the other hand, we could just recognize the dynamic block size flexibility to be a long-term flexibility instead of somethign designed to handle short-term volume spikes  
-**\<hyc>** fundamentally, the reason bloating the chain is cheap is because fees are cheap and XMR/fiat is cheap  
+**\<hyc>** fundamentally, the reason bloating the chain is cheap is because fees are cheap and BTR/fiat is cheap  
 **\<suraeNoether>** hyc yes  
 **\<spaced0ut>** Just throwing an incomplete idea out there. Has anyone thought about increasing fee's as block size increases then decreasing fees based on some median tx count?  
 **\<suraeNoether>** spaced0ut: the idea of blocksize-dependent fees is one that is very interesting to me, but i haven't dived into the idea  

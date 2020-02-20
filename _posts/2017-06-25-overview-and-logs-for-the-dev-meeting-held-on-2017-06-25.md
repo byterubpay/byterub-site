@@ -154,7 +154,7 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<byterubmooo>** 15% means \~30% once we have the smaller range proofs.  
 **\<knaccc>** byterubmooo true. it's the price to get privacy in the E-\>A-\>B-\>E scenario unfortunately, in my opinion.  
 **\<iDunk>** Why don't we just ban Eve and be done with it?  
-**\<knaccc>** because it's how users make purchases while avoiding XMR/local currency exchange rate risk  
+**\<knaccc>** because it's how users make purchases while avoiding BTR/local currency exchange rate risk  
 **\<knaccc>** which according to a particular vendor that posted on reddit was the almost exclusive pattern of behaviour of his clients  
 **\<knaccc>** what i posted above btw was surae's comment, not my comment to surae  
 **\<iDunk>** Which you probably solicited?  

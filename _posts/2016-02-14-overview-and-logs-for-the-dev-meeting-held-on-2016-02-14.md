@@ -144,8 +144,8 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<byterubmooo>** Alright then.  
 **\<fluffypony>** ArticMine: you mean in terms of functional tests or automated tests?  
 **\<ArticMine>** both  
-**\<xmrpromotions>** what is the minumum time allowable between freeze date and fork date? I know the desire is 6 months but what is the margin of error?  
-**\<fluffypony>** xmrpromotions: for planned forks, given how small ByteRub is, we could probably get away with a month or two  
+**\<btrpromotions>** what is the minumum time allowable between freeze date and fork date? I know the desire is 6 months but what is the margin of error?  
+**\<fluffypony>** btrpromotions: for planned forks, given how small ByteRub is, we could probably get away with a month or two  
 **\<fluffypony>** but likely for the last time  
 **\<dEBRUYNE>** \<fluffypony> byterubmooo: I know - if we need to we can push the fork date <= I am in favor of this as well  
 **\<fluffypony>** it'll become harder and harder to do stuff like that, so if we're making an exception on a planned fork let's make it the last time  
@@ -277,6 +277,6 @@ The next fork (RingCT) will be the last time any modifications of the hardfork s
 **\<byterubmooo>** I was going to do that, but...  
 **\<fluffypony>** byterubmooo: yes, please  
 **\<byterubmooo>** kk  
-**\<xmrpromotions>** will someone publish the meeting minutes like last time?  
+**\<btrpromotions>** will someone publish the meeting minutes like last time?  
 **\<fluffypony>** yes  
-**\<xmrpromotions>** Thank you  
+**\<btrpromotions>** Thank you  

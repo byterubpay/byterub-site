@@ -15,9 +15,9 @@ This is our first Missive for 2015, after a 2 week break over the end of Decembe
 
 As an open-source project, ByteRub is built on the back of volunteers, contributors, and donations. So let's start with a financial report.
 
-For donations received over the year: we received 21 636.40655 XMR spread over 4343 transactions, and 8.04559 BTC spread over 25 transactions. Thus our average XMR donation is around 5 XMR, and our average BTC donation is around 0.32 BTC. As most of our costs are BTC based, XMR donations were traded into BTC where necessary (typically through OTC trades and not on-market), giving us a rough total of all receipts of 39.536205689 BTC (in XMR donations) + 8.04559 BTC (in BTC donations) = 47.581795689 BTC.
+For donations received over the year: we received 21 636.40655 BTR spread over 4343 transactions, and 8.04559 BTC spread over 25 transactions. Thus our average BTR donation is around 5 BTR, and our average BTC donation is around 0.32 BTC. As most of our costs are BTC based, BTR donations were traded into BTC where necessary (typically through OTC trades and not on-market), giving us a rough total of all receipts of 39.536205689 BTC (in BTR donations) + 8.04559 BTC (in BTC donations) = 47.581795689 BTC.
 
-Expenditure for the year comprised of 3 totals as some costs could not be settled in BTC or were preferably settled in XMR. Our expenditure was 190.513492 BTC + 1 891.31 XMR + US $5 732.80, which is around the 212 BTC mark. Thus the shortfall of 164.5 BTC was paid out of the Core Team's own pockets in the hopes of recovering the funds later on (ie. just in case anyone was wondering, not only do the core team not get paid at all, but we've put a significant amount of funds into ByteRub).
+Expenditure for the year comprised of 3 totals as some costs could not be settled in BTC or were preferably settled in BTR. Our expenditure was 190.513492 BTC + 1 891.31 BTR + US $5 732.80, which is around the 212 BTC mark. Thus the shortfall of 164.5 BTC was paid out of the Core Team's own pockets in the hopes of recovering the funds later on (ie. just in case anyone was wondering, not only do the core team not get paid at all, but we've put a significant amount of funds into ByteRub).
 
 So, what did our ~212 BTC get spent on over the year? Or, in other words, what did we accomplish? Here's a bit of a taste before we dig into the nitty-gritty:
 
@@ -179,7 +179,7 @@ And just for fun, this Missive took several days to put together (not all day, e
 
 *Other Core Team Projects*
 
-The two other projects the Core Team released in the year are the ByteRub DNS seeder (xmr-seeder), and URS, a Unique Ring Signature signing tool written in Go. Both of them are active contributions to the ByteRub infrastructure, and continue to be useful and fundamental on a daily basis.
+The two other projects the Core Team released in the year are the ByteRub DNS seeder (btr-seeder), and URS, a Unique Ring Signature signing tool written in Go. Both of them are active contributions to the ByteRub infrastructure, and continue to be useful and fundamental on a daily basis.
 
 **External Projects: 2014**
 
@@ -228,7 +228,7 @@ We have a lot in the pipeline for 2015. A few things that we'd like to highlight
 
 And, undoubtedly, much more both for ByteRub core and related external projects.
 
-Of course, none of this would be possible without donations from our users, and we are most appreciative and grateful to those that have donated thus far. We hope that over the next year you will continue to help and assist us - and don't forget our donation addresses are powered by OpenAlias, both XMR and BTC donation addresses are on donate.getbyterub.org
+Of course, none of this would be possible without donations from our users, and we are most appreciative and grateful to those that have donated thus far. We hope that over the next year you will continue to help and assist us - and don't forget our donation addresses are powered by OpenAlias, both BTR and BTC donation addresses are on donate.getbyterub.org
 
 Thank you for a great 2014, and here's to a great 2015!
 

@@ -80,9 +80,9 @@ author: el00ruobuob / sarang
 **\<sarang>** right  
 **\<suraeNoether>** sgp\_: here's my problem, as i see it  
 **\<suraeNoether>** another problem anyway  
-**\<suraeNoether>** let's say i am a pool and i have 3 xmr and i want to send 1xmr each to: (1) miner alice and (2) miner bob and (3) myself as change  
+**\<suraeNoether>** let's say i am a pool and i have 3 btr and i want to send 1btr each to: (1) miner alice and (2) miner bob and (3) myself as change  
 **\<suraeNoether>** er... 3 outputs  
-**\<suraeNoether>** assume each output is 1xmr  
+**\<suraeNoether>** assume each output is 1btr  
 **\<sgp\_>** got it :)  
 **\<suraeNoether>** under your proposal, i construct 3 separate ring signatues, all of which contain all 3 of these outputs  
 **\<suraeNoether>** moreover, i'm a public pool  
@@ -92,7 +92,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** if i want to send all 3, this guarantees anyone can see they have been spent  
 **\<sgp\_>** this input selection algorithm proposal is meant to handle the change outputs, not the source (eg: coinbase). Those require another more aggressive change  
 **\<sgp\_>** I'm slightly confused by how you are handling these outputs  
-**\<sgp\_>** If you have 3 XMR in output A, you create a transaction to Alice, Bob, yourself with outputs B, C, D  
+**\<sgp\_>** If you have 3 BTR in output A, you create a transaction to Alice, Bob, yourself with outputs B, C, D  
 **\<sgp\_>** Then you create your next transaction with ring {B, C, D}  
 **\<sgp\_>** to make unclear which of B,C,D is the change output  
 **\<suraeNoether>** no, that's not what i mean, i misspoke, let me try again really quick  

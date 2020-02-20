@@ -124,7 +124,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE> \<dsc\_>** GUI update  
 **\<dEBRUYNE> \<dsc\_>** Currently I'm implementing a white theme for the GUI. Will take a while to complete (ETA: 2 weeks). I also finished a redesign of the history page, now called transactions. Not only does it perform well when the user has a lot of historic data, it's also an improvement to UX.  
 **\<dEBRUYNE> \<dsc\_>** kneuffelbund, designer of the GUI, did some IRL testing with \*real\* people and made notes. He is now designing/tweaking the wizards. https://github.com/byterubpay/byterub-gui/issues/2040  
-**\<dEBRUYNE> \<dsc\_>** Me, Selsta and rbrunner7 worked on `byterub://` URI support on Windows/Linux/OSX. Selsta is working on xmr\<->fiat conversions and xiphon is afaik. working on a decentralized node-o-matic.  
+**\<dEBRUYNE> \<dsc\_>** Me, Selsta and rbrunner7 worked on `byterub://` URI support on Windows/Linux/OSX. Selsta is working on btr\<->fiat conversions and xiphon is afaik. working on a decentralized node-o-matic.  
 **\<dEBRUYNE> \<dsc\_>** Currently we are investigating a migration to Qt 5.9.7, which should give \*some\* extra performance and allow us to use newer Qt features.  
 **\<dEBRUYNE> \<dsc\_>** After next point release, I will most likely focus on either i2p/tor integrations or android support.  
 **\<sgp\_>** On top of this, I've begun chatting with the gui team on how to approach the networking UI for Tor/i2p/dandelion. Still in early stages, but I have some design examples  

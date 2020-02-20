@@ -9,69 +9,69 @@ author: el00ruobuob / rehrar
 # Logs  
 
 
-**\<xmrmatterbridge> \<rehrar>** Let's get ready to rumble!!!  
-**\<xmrmatterbridge> \<rehrar>** Meeting time!!!  
-**\<xmrmatterbridge> \<rehrar>** More exclamation marks are always helpful.  
-**\<xmrmatterbridge> \<rehrar>** 1. Greetings  
-**\<xmrmatterbridge> \<rehrar>** Which of you lamewads are here today?  
+**\<btrmatterbridge> \<rehrar>** Let's get ready to rumble!!!  
+**\<btrmatterbridge> \<rehrar>** Meeting time!!!  
+**\<btrmatterbridge> \<rehrar>** More exclamation marks are always helpful.  
+**\<btrmatterbridge> \<rehrar>** 1. Greetings  
+**\<btrmatterbridge> \<rehrar>** Which of you lamewads are here today?  
 **\<ErCiccione>** Hi  
 **\<sarang>** Yo  
-**\<xmrmatterbridge> \<rehrar>** Even if it's just us three, I couldn't ask for a better group. :')  
+**\<btrmatterbridge> \<rehrar>** Even if it's just us three, I couldn't ask for a better group. :')  
 **\<ErCiccione>** \<3  
 **\<el00ruobuob\_[m]>** Hi  
-**\<xmrmatterbridge> \<rehrar>** Well, others can trickle in as they are able.  
-**\<xmrmatterbridge> \<rehrar>** 2. CCS Stuffs.  
-**\<xmrmatterbridge> \<rehrar>** Well, before that, as always, rehrar does an incredible, impeccable, unreplaceable, and astounding job with the Revuo which has a lot of community updates.  
-**\<xmrmatterbridge> \<rehrar>** Latest is here. https://revuo-byterub.com/issue-9.html  
-**\<xmrmatterbridge> \<rehrar>** I assume that's why community updates were removed, anyways.  
-**\<xmrmatterbridge> \<rehrar>** Ok, CCS Stuffs.  
-**\<xmrmatterbridge> \<rehrar>** So...first and foremost, we're in a bit of an awkward situation.  
+**\<btrmatterbridge> \<rehrar>** Well, others can trickle in as they are able.  
+**\<btrmatterbridge> \<rehrar>** 2. CCS Stuffs.  
+**\<btrmatterbridge> \<rehrar>** Well, before that, as always, rehrar does an incredible, impeccable, unreplaceable, and astounding job with the Revuo which has a lot of community updates.  
+**\<btrmatterbridge> \<rehrar>** Latest is here. https://revuo-byterub.com/issue-9.html  
+**\<btrmatterbridge> \<rehrar>** I assume that's why community updates were removed, anyways.  
+**\<btrmatterbridge> \<rehrar>** Ok, CCS Stuffs.  
+**\<btrmatterbridge> \<rehrar>** So...first and foremost, we're in a bit of an awkward situation.  
 **\<\_Slack> \<intj440>** hello  
-**\<xmrmatterbridge> \<rehrar>** The proposal for RandomX audits is fully funded.  
+**\<btrmatterbridge> \<rehrar>** The proposal for RandomX audits is fully funded.  
 **\<el00ruobuob\_[m]>** that's good news!  
-**\<xmrmatterbridge> \<rehrar>** Despite many (even a perceived majority) in the community thinking a fourth audit has diminishing returns, and shouldn't be done.  
-**\<xmrmatterbridge> \<rehrar>** But those who donated, did so under the assumption that the randomX audit would be what their donation will be used for.  
+**\<btrmatterbridge> \<rehrar>** Despite many (even a perceived majority) in the community thinking a fourth audit has diminishing returns, and shouldn't be done.  
+**\<btrmatterbridge> \<rehrar>** But those who donated, did so under the assumption that the randomX audit would be what their donation will be used for.  
 **\<sarang>** Yes  
 **\<sarang>** If there was a desire to reduce the number, it is too late  
-**\<xmrmatterbridge> \<rehrar>** Unless some people are willing to deanonymize their donation and state that they are ok with this money going to other proposals or audits in the future.  
-**\<xmrmatterbridge> \<rehrar>** As I recall, nioc said something like that? Or was it someone else.  
+**\<btrmatterbridge> \<rehrar>** Unless some people are willing to deanonymize their donation and state that they are ok with this money going to other proposals or audits in the future.  
+**\<btrmatterbridge> \<rehrar>** As I recall, nioc said something like that? Or was it someone else.  
 **\<ErCiccione>** I saw in -pow somebody proposing to start the last 2 audits after the first 2 are completed. So to avoid reduntant resutls. That sounds like a good idea to me  
-**\<xmrmatterbridge> \<rehrar>** I wonder how I could add "stretch goal" functionality to the CCS.  
+**\<btrmatterbridge> \<rehrar>** I wonder how I could add "stretch goal" functionality to the CCS.  
 **\<ErCiccione>** at least would make the last audit "less useless", since they could audit eventual fixes proposed by the other 2 auditors  
-**\<xmrmatterbridge> \<rehrar>** So we can have it "fully funded" at one point, but it can go further for more points.  
-**\<xmrmatterbridge> \<rehrar>** The problem is we have some incredibly generous whales who don't follow the day to day. They just assume if something has been merged, it's worth funding and there is consensus in the community.  
-**\<xmrmatterbridge> \<rehrar>** And so they saw it not completely filled, and they filled it.  
+**\<btrmatterbridge> \<rehrar>** So we can have it "fully funded" at one point, but it can go further for more points.  
+**\<btrmatterbridge> \<rehrar>** The problem is we have some incredibly generous whales who don't follow the day to day. They just assume if something has been merged, it's worth funding and there is consensus in the community.  
+**\<btrmatterbridge> \<rehrar>** And so they saw it not completely filled, and they filled it.  
 **\<sarang>** Since we must use the funds on this, I agree with staggering  
 **\<sarang>** Otherwise you could get necessary fixes to that are never audited  
-**\<xmrmatterbridge> \<rehrar>** Do you think I should make a Reddit post outlining what happened, and give people an opportunity to "withdraw" funds?  
+**\<btrmatterbridge> \<rehrar>** Do you think I should make a Reddit post outlining what happened, and give people an opportunity to "withdraw" funds?  
 **\<sarang>** Is this a precedent you want to set for future CCS?  
-**\<xmrmatterbridge> \<rehrar>** But if staggering is the correct approach, then I'm all for it.  
-**\<xmrmatterbridge> \<rehrar>** No. Not at all.  
-**\<xmrmatterbridge> \<rehrar>** But RandomX can be a notable exception.  
+**\<btrmatterbridge> \<rehrar>** But if staggering is the correct approach, then I'm all for it.  
+**\<btrmatterbridge> \<rehrar>** No. Not at all.  
+**\<btrmatterbridge> \<rehrar>** But RandomX can be a notable exception.  
 **\<ErCiccione>** rehrar: i don't think that's a good idea, better just learn from the issue and discuss how to avoid it next time  
 **\<sarang>** Are you prepared to justify the exception?  
-**\<xmrmatterbridge> \<rehrar>** Regardless, I'll speak with Luigi to get his insight, but it's looking fairly set in stone.  
+**\<btrmatterbridge> \<rehrar>** Regardless, I'll speak with Luigi to get his insight, but it's looking fairly set in stone.  
 **\<sarang>** And address how to avoid it in the future?  
-**\<xmrscott[m]>** It can, I think it's worth highlighting the precedent it \*may\* set however  
+**\<btrscott[m]>** It can, I think it's worth highlighting the precedent it \*may\* set however  
 **\<sarang>** Fwiw I was not in favor of 4 audits for this  
 **\<\_Slack> \<intj440>** I am not convinced there is a "cliff of waste" that kicks in at 3.5 audits.  I would vote for maximizing bang-for-the-buck with already pledged funds  
 **\<sarang>** But I am also funded by CCS  
 **\<el00ruobuob\_[m]>** Just one thing, the proposal is talking about 3 audits, not 4. Did i miss-read?  
-**\<xmrmatterbridge> \<rehrar>** Well, I think we can move on for the time being. At the moment, the default is to use funds in the manner in which they were given for.  
+**\<btrmatterbridge> \<rehrar>** Well, I think we can move on for the time being. At the moment, the default is to use funds in the manner in which they were given for.  
 **\<el00ruobuob\_[m]>** oh yes i missread  
-**\<needmoney90>** A single donor made a 1000xmr donation.  
+**\<needmoney90>** A single donor made a 1000btr donation.  
 **\<needmoney90>** I believe we can probably reach out to them  
-**\<xmrmatterbridge> \<rehrar>** Defcon CCS proposals are up for discussion. I just posted something to the Reddit right now. Please comment and/or emoji the proposals somehow.  
+**\<btrmatterbridge> \<rehrar>** Defcon CCS proposals are up for discussion. I just posted something to the Reddit right now. Please comment and/or emoji the proposals somehow.  
 **\<needmoney90>** That makes it easy to remove a chunk of funds from the proposal from a donor  
 **\<needmoney90>** There is already precedent for donors getting refunded and stuff by proving they sent txes  
 **\<ErCiccione>** needmoney90: removing funds from a proposal is a very serious precedent. I think a discussion with the core team would e necessary before taking it in consideration (adn fwiw, i don;t think it's a good idea)  
-**\<el00ruobuob\_[m]>** Well, the 1400XMR is for 3 audits, not 4. I don't understand...  
+**\<el00ruobuob\_[m]>** Well, the 1400BTR is for 3 audits, not 4. I don't understand...  
 **\<needmoney90>** From memory it's happened before  
 **\<needmoney90>** el00ruobuob\_[m]: arweave is funding trailofbits  
 **\<needmoney90>** So we have one extra audit  
 **\<needmoney90>** By funding 3 we bring the total to 4  
 **\<needmoney90>** The proposal covers 3 independent of arweave  
-**\<xmrscott[m]>** Yes, but I believe that was for a FFS that was floundering in exec if mem serves  
+**\<btrscott[m]>** Yes, but I believe that was for a FFS that was floundering in exec if mem serves  
 **\<el00ruobuob\_[m]>** ok, i didn't know about this  
 **\<needmoney90>** ErCiccione: I believe there is already precedent for refunds from FFS proposals  
 **\<needmoney90>** From memory  
@@ -85,7 +85,7 @@ author: el00ruobuob / rehrar
 **\<needmoney90>** Anyways, carry on. Fluffy can respond at his leisure.  
 **\<rehrar>** refunds are incredibly rare  
 **\<rehrar>** what there is precedent for is that someone gave a good amount of money toward a proposal, in this case it was the ByteRub Challenge  
-**\<rehrar>** he topped it up, and it was over 100 XMR or something like that  
+**\<rehrar>** he topped it up, and it was over 100 BTR or something like that  
 **\<rehrar>** but that proposal was already defunct  
 **\<rehrar>** he was present enough in the community, to see the thread that was made about that and made himself known, and said he was comfortable with that going to the general fund  
 **\<ErCiccione>** In that case i guess it makes sense  
@@ -174,7 +174,7 @@ author: el00ruobuob / rehrar
 **\<msvb-mob>** The trunk has no firmware, so it's impossible to answer. But logically (estimation) it will do all revstm (STM32L476RET6) can do but better.  
 **\<rehrar>** fascinating.  
 **\<rehrar>** Anyone else have questions?  
-**\<msvb-mob>** The revstm branch constructs XMR wallets in it's early firmware (not yet released but online.)  
+**\<msvb-mob>** The revstm branch constructs BTR wallets in it's early firmware (not yet released but online.)  
 **\<msvb-mob>** Aside from wallets, we need help with firmware development for badges. The problem is that not many details may be revealed about them.  
 **\<ErCiccione>** (about the survery, i forgot to enable XHR for that page on umatrix. Working fine now)  
 **\<msvb-mob>** I want to convince the most secretive people that we open up information for Konferenco and do a firmware workshop.  

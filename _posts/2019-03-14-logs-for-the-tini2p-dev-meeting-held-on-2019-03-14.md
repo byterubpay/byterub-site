@@ -29,7 +29,7 @@ author: el00ruobuob / oneiric
 **\<oneiric\_>** any questions/comments?  
 **\<kinghat>** there were i2p dev meetings? were they public?  
 **\<crim->** will this have an FFS/ICO ?  
-**\<kinghat>** whoops. not i2p xmr related dev meetings.  
+**\<kinghat>** whoops. not i2p btr related dev meetings.  
 **\<oneiric\_>** yep, every week for #ls2 meetings discussing new leaseset2/netdb specs  
 **\<oneiric\_>** lol the greatest ICO crim-  
 **\<oneiric\_>** with all the premines  

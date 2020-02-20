@@ -35,7 +35,7 @@ This release was the direct result of 50 people who worked, largely unpaid and a
 - maitscha
 - hundehausen
 - byterubj
-- xmr-eric
+- btr-eric
 - signo88
 - HugTime
 - marcin
@@ -63,7 +63,7 @@ This release was the direct result of 50 people who worked, largely unpaid and a
 - sbialy
 - Christoph Schnerch
 - githubrsys
-- xmrdc
+- btrdc
 - Gingeropolous
 - NanoAkron
 - kenshi84

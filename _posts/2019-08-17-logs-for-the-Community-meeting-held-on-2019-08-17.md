@@ -24,7 +24,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** ByteRub just concluded its Defcon village. More details on that later.  
 **\<sgp\_>** I need a Blockfolio banner. What should it be? I need an announcement and a link.  
 **\<sgp\_>** At the moment, it points to byterubvillage.org. not great  
-**\<xmrmatterbridge> \<el00ruobuob>** Hi  
+**\<btrmatterbridge> \<el00ruobuob>** Hi  
 **\<JOhNKmus>** Point to getbyterub.org?  
 **\<sgp\_>** Sure, but with what text?  
 **\<JOhNKmus>** Maybe something about the upgrade to let people know too?  
@@ -51,9 +51,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I'll take that as none  
 **\<sgp\_>** please comment on gitlab and reopen the discussions if you are interested in making these proposals come to fruition  
 **\<sgp\_>** Ideas in funding required:  
-**\<sgp\_>** v1docq47: video creation / translations into russian (august - january) (1.33/37.8 XMR) https://ccs.getbyterub.org/proposals/v1docq47-video-creation-translations-into-russian-(august-january).html  
-**\<sgp\_>** Continued funding for Surae for another quarter, Aug Sep Nov 2019 (252.42/357 XMR) https://ccs.getbyterub.org/proposals/surae-mrl-research-q3-2019.html  
-**\<sgp\_>** World Crypto Con for rehrar and Sarang (28.73/30 XMR) https://ccs.getbyterub.org/proposals/rehrar-sarang-2019-wcc.html  
+**\<sgp\_>** v1docq47: video creation / translations into russian (august - january) (1.33/37.8 BTR) https://ccs.getbyterub.org/proposals/v1docq47-video-creation-translations-into-russian-(august-january).html  
+**\<sgp\_>** Continued funding for Surae for another quarter, Aug Sep Nov 2019 (252.42/357 BTR) https://ccs.getbyterub.org/proposals/surae-mrl-research-q3-2019.html  
+**\<sgp\_>** World Crypto Con for rehrar and Sarang (28.73/30 BTR) https://ccs.getbyterub.org/proposals/rehrar-sarang-2019-wcc.html  
 **\<sgp\_>** Does anyone else have a CCS update, or comments about any of these CCS proposals?  
 **\<rehrar>** there is one that is not showing on the website  
 **\<rehrar>** due to being incorrectly formatted  
@@ -80,12 +80,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<\_hahsun\_>** ok. and do I have to update it on the open proposal?  
 **\<sgp\_>** I would probably comment or something, yes  
 **\<\_hahsun\_>** alright will do  
-**\<xmrmatterbridge> \<el00ruobuob>** Btw, didn't we approve the telegram tipbot already?  
+**\<btrmatterbridge> \<el00ruobuob>** Btw, didn't we approve the telegram tipbot already?  
 **\<sgp\_>** el00ruobuob: I think custody was/is still an open question    
-**\<xmrmatterbridge> \<el00ruobuob>** Ah ok.  
+**\<btrmatterbridge> \<el00ruobuob>** Ah ok.  
 **\<\_hahsun\_>** yes. I am awaiting a response from fluffy. will update as soon as I get it  
-**\<xmrmatterbridge> \<el00ruobuob>** Great.  
-**\<xmrmatterbridge> \<el00ruobuob>** I still approve it, as a few weeks ago.  
+**\<btrmatterbridge> \<el00ruobuob>** Great.  
+**\<btrmatterbridge> \<el00ruobuob>** I still approve it, as a few weeks ago.  
 **\<\_hahsun\_>** I got a great response from the communit,.thats why I made a plan B if custody is not taken care by the byterub team  
 **\<\_hahsun\_>** I see an increase of users by average of 25 users per day. amazing feedback from people with feature requests. I am happy.  
 **\<sgp\_>** I'm glad this is proceeding even as you wait for a response  
@@ -105,7 +105,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** https://i2pforum.net/viewtopic.php?f=18&t=875&sid=088751cca1b2e6560a01a2e960671eb7  
 **\<lh1008[m]>** \<sgp\_ "https://i2pforum.net/viewtopic.p"> Nice!  
 **\<sgp\_>** any localization updates? chime in or I'll proceed to the gui updates  
-**\<xmrscott[m]>** I think we're largely still waiting for WebLate to be enabled  
+**\<btrscott[m]>** I think we're largely still waiting for WebLate to be enabled  
 **\<dsc\_>** no GUI updates from me  
 **\<sgp\_>** GUI has a few other design updates. It's nice to have a group of people consistently participating and politely discussing different options  
 **\<sgp\_>** dsc\_ has been slacking indeed   
@@ -131,10 +131,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<byterubbux>** [ ByteRub Talk - YouTube ] - www.youtube.com  
 **\<sgp\_>** There are many areas for improvement, but I think it was overall an improvement compared to last year. We still need more people to sit at the front tables and answer the "what is ByteRub" question 10,000 times  
 **\<landude>** rehrar's report was great!  
-**\<xmrmatterbridge> \<el00ruobuob>** Where could we find the byterubpoly? I need one.  
+**\<btrmatterbridge> \<el00ruobuob>** Where could we find the byterubpoly? I need one.  
 **\<sgp\_>** el00ruobuob: these were limited first-edition releases. None left. However, CypherMarket will have the second version at some point  
-**\<xmrmatterbridge> \<el00ruobuob>** \\o/  
-**\<xmrscott[m]>** Which will be arguably better as they will have custom house/hotel pieces  
+**\<btrmatterbridge> \<el00ruobuob>** \\o/  
+**\<btrscott[m]>** Which will be arguably better as they will have custom house/hotel pieces  
 **\<sgp\_>** btw rehrar alleges the typical ByteRubpoly game takes 30 minutes..... more like 3+ hours  
 **\<rehrar>** 30-40 if played quickly and by correct rules   
 **\<sgp\_>** no way   
@@ -154,7 +154,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** \<== also filmmaker  
 **\<sgp\_>** person of many talents  
 **\<dsc\_>** Adverts are tricky though. Just wondering what the community thinks.  
-**\<xmrscott[m]>** Nice! I'd be down to throw in some money to the CCS or whatever  
+**\<btrscott[m]>** Nice! I'd be down to throw in some money to the CCS or whatever  
 **\<lh1008[m]>** \<dsc\_ "I'd like to discuss the possibil"> Nice idea  
 **\<sgp\_>** I haven't thought of a video series, but I will tell of one ad campaign we are slowly working on for Mastering ByteRub  
 **\<sgp\_>** We are going to be advertising "Using Bitcoin isn't safe", "using x isn't safe" with links to pages outlining why the privacy protections are terrible, then recommending ByteRub  
@@ -169,25 +169,25 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** "ByteRub: no surprises"  
 **\<dsc\_>** Yeah. Ill make sure it doesn't get cheesy  I can provide some stills from a thing I shot recently.  
 **\<dsc\_>** Anyway, just wanted to present the idea.  
-**\<xmrscott[m]>** Out of curiosity on the note of advertising, are there any billboard designs people have already?  
-**\<xmrscott[m]>** A ~$2K billboard in PHX (roughly 5 mil people) nets roughly 3mil impressions over a month, allegedly  
+**\<btrscott[m]>** Out of curiosity on the note of advertising, are there any billboard designs people have already?  
+**\<btrscott[m]>** A ~$2K billboard in PHX (roughly 5 mil people) nets roughly 3mil impressions over a month, allegedly  
 **\<dsc\_>** Regardless of this video idea I think ByteRub could currently use some proffesional marketing. Our software is currently stable enough for the masses, good ecosystem all-around (better than during 2017 bubble).  
 **\<sgp\_>** Mastering ByteRub info from Amazon: https://usercontent.irccloud-cdn.com/file/tq2doUtJ/amazon%20advertising  
 **\<dsc\_>** But I can also understand if we don't do any marketing since we're a grassroots community. So it's fine eitherway   
 **\<JOhNKmus>** If we do marketing maybe it would be a good idea to target areas with privacy conscious people/culture. Not sure how to determine that though...  
 **\<sgp\_>** dsc\_: if you advertise Mastering ByteRub, we may be able to pay for a budget  
 **\<dsc\_>** Interesting.  
-**\<xmrscott[m]>** I think the video would be worthwhile. While organic word of mouth growth is great, if we want to accelerate adoption the word needs to get out to more people  
+**\<btrscott[m]>** I think the video would be worthwhile. While organic word of mouth growth is great, if we want to accelerate adoption the word needs to get out to more people  
 **\<sgp\_>** Yes, I think marketing is fine  
 **\<sgp\_>** as long as it isn't predatory  
 **\<sgp\_>** any final comments before we wrap up? thanks dsc\_ for introducing the topic and offering your skills  
 **\<sarang>** Any MRL questions?  
 **\<sgp\_>** when auto churn?   
-**\<xmrscott[m]>** We should probably have a semi-formal postmortem for DEFCON in the next month or so after folk have had a chance to rest, but before people forget too much  
+**\<btrscott[m]>** We should probably have a semi-formal postmortem for DEFCON in the next month or so after folk have had a chance to rest, but before people forget too much  
 **\<sgp\_>** kidding  
 **\<sarang>** I'm on mobile but can type slowly   
-**\<sgp\_>** xmrscott[m]: indeed, would be good  
-**\<xmrscott[m]>** I'll post the info here after polling folk for a good time in -defcon  
+**\<sgp\_>** btrscott[m]: indeed, would be good  
+**\<btrscott[m]>** I'll post the info here after polling folk for a good time in -defcon  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 7 September at 17:00 UTC. The next Coffee Chat will be on 24 August at 16 UTC.  
 **\<sgp\_>** 7. Conclusion  

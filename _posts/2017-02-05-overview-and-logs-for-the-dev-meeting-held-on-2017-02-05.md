@@ -27,7 +27,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<Snipa>** Morning.  
 **\<DaveyJones>** ArcticMine, luigi1111, luigi1114, luigi1112,  othe, hyc, smooth, jaquee, m5M400, medusa, tewinget, zone117x, dEBRUYNE, byterubmooo  
 **\<i2p-relay> {-olark}** greetings  
-**\<Slack> [xmr-eric]** hullo  
+**\<Slack> [btr-eric]** hullo  
 **\<Jaquee>** hey  
 **\<DaveyJones>** one question... is there free margeritas?  
 **\<anonimal>** Present in Q state.  
@@ -264,7 +264,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<Slack> [jollymort]** but just wanted to see your thoughts  
 **\<ArticMine>** The relevant question is the change in RingCT Tx size and further optimizations  
 **\<Slack> [nanoakron]** I’m not averse to the idea, so long as it can be justified with a nice model of the expected behaviour and consideration of the potential attack surface  
-**\<Slack> [xmr-eric]** I have a question. When should the GUI come out of beta status? Because things are feeling pretty stable and the featureset seems complete to me.  
+**\<Slack> [btr-eric]** I have a question. When should the GUI come out of beta status? Because things are feeling pretty stable and the featureset seems complete to me.  
 **\<ArticMine>** Since this influences blocksize and consequently fee paid  
 **\<hyc>** It should be perpetually beta. It gets lonely around here without the reassuring lull of "where's the GUI" in the background  
 **\<Slack> [jollymort]** i was thinking of: increase baseline block size x5 and reduce F0 with x0.2  
@@ -303,21 +303,21 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<i2p-relay> {-olark}** I opened an issue to start discussing alternatives to the ringsize increase in September 2017 that negates a lot of possible attack vectors on ring signatures and still ensure a 'true' strength of ringsize 4 at minimum for all transactions. It is here https://github.com/byterubpay/byterub/issues/1673 I think it requires serious consideration moving forward. I won't go too much into it and  
 **\<i2p-relay> {-olark}** just let everyone read the writeup :p  
 **\<Slack> [nanoakron]** @olark I’d like knaccc to contribute too with his modelling of churn  
-**\<Slack> [xmr-eric]** I like the idea of a static ringsize  
+**\<Slack> [btr-eric]** I like the idea of a static ringsize  
 **\<Slack> [jollymort]** i like the "static" proposal  
-**\<Slack> [xmr-eric]** ^^  
+**\<Slack> [btr-eric]** ^^  
 **\<Slack> [jollymort]** and yes, also churn  
 **\<fluffypony>** DaveyJones: sounds good - I've got to step out for a little bit  
-**\<Slack> [xmr-eric]** No thoughts on getting GUI out of beta status, everybody  
+**\<Slack> [btr-eric]** No thoughts on getting GUI out of beta status, everybody  
 **\<i2p-relay> {-olark}** because the current situation is... undesirable to say the least  
 **\<byterubmooo>** What is beta status ?  
-**\<hyc>** xmr-eric: sounds like not yet.  
-**\<Jaquee>** xmr-eric: i think we need one more beta release at least.  
+**\<hyc>** btr-eric: sounds like not yet.  
+**\<Jaquee>** btr-eric: i think we need one more beta release at least.  
 **\<knaccc>** nanoakron kenshi84 blew some big holes in my churn suggestion btw, so my model isn't good yet.  
 **\<Slack> [nanoakron]** @knaccc Ah…well, all discussion is good  
-**\<Slack> [xmr-eric]** Cool  
+**\<Slack> [btr-eric]** Cool  
 **\<hyc>** knaccc: cool, is that written anywhere?  
-**\<Slack> [nanoakron]** @xmr-eric and if you see bugs, please bring them up on github  
+**\<Slack> [nanoakron]** @btr-eric and if you see bugs, please bring them up on github  
 **\<fluffypony>** ok anonimal the floor is yours  
 **\<Slack> [jollymort]** also, opened discussion on multiple PID / TX : ) https://github.com/byterubpay/byterub/issues/1659  
 **\<knaccc>** hyc only in my IRC logs. Summary is that the churn only works if you're churning with pure ringct trees, doesn't work if there are non-ringCT transactions mixed in  

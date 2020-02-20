@@ -94,11 +94,11 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** DaveyJones pointed this out https://99designs.de/logo-design/contests/byterub-mro-cryptocurrency-logo-design-contest-382486  
 **\<anonimal>** needmoney90: could that url get any longer?...  
 **\<anonimal>** Ah, I see. Interesting idea needmoney90  
-**\<anonimal>** Maybe we should hold a contest and reward the winner with XMR?  
+**\<anonimal>** Maybe we should hold a contest and reward the winner with BTR?  
 **\<i2p-relay> {-needmoney90}** Sorry about the URL length, I copypasta’d without minifying  
 **\<anonimal>** Np.  
 **\<anonimal>** Where would be a good place to host a Kovri logo contest?  
-**\<anonimal>** (XMR friendly place)  
+**\<anonimal>** (BTR friendly place)  
 **\<anonimal>** I'll open a ticket and we can deal with it later  
 **\<anonimal>** Points 4-8 are all fluffypony   
 **\<anonimal>** 9. Any addition meeting items  

@@ -15,7 +15,7 @@ author: erciccione
 **\<ErCiccione>** Hi everybody!  
 **\<dsc_>** hi  
 **\<lafudoci[m]>** Hi  
-**\<xmrscott[m]>** Hola (on mobile)  
+**\<btrscott[m]>** Hola (on mobile)  
 **\<ErCiccione>** alright, not really crowded atm, let's hope somebody else will join soon. Some more copy-pasted stuff:  
 **\<kico>** yellow  
 **\<ErCiccione>** So, the two main questions we should answer during this meeting are: How to improve the workflow of our localization system? What's the role of Pootle in all this?  
@@ -41,22 +41,22 @@ author: erciccione
 **\<ErCiccione>** (end of first copy-pasted chunk of text about point 1)  
 **\<selsta>** Who set up the current GUI translation system?  
 **\<ErCiccione>** selsta: i did  
-**\<xmrscott[m]>** Could maybe the uploads be automated via a python script or something allowing for higher frequency?  
+**\<btrscott[m]>** Could maybe the uploads be automated via a python script or something allowing for higher frequency?  
 **\<ErCiccione>** wait, if you mean QT itself, that was already there when i arrived  
 **\<selsta>** Can you try running lupdate with `-locations none`?  
 **\<selsta>** (after the meeting)  
 **\<selsta>** I think it should solve the problem you described above.  
-**\<ErCiccione>** xmrscott: they could, yes, but it's not going to be a big improvement, since i would have to manually commit anyway  
+**\<ErCiccione>** btrscott: they could, yes, but it's not going to be a big improvement, since i would have to manually commit anyway  
 **\<ErCiccione>** selsta: i will try locally after the meeting, sure, but el00ruobuob had soum doubts about that method, did you read his answer on the issue?  
 **\<selsta>** I guess the same strings don’t have multiple translations?  
 **\<selsta>** I don’t really understand el00ruobuob’s comment.  
 **\<ErCiccione>** selsta: you mean for the same language? they don't.  
-**\<xmrscott[m]>** ErCiccione: Would it be possible to run it on a cron job though and have a bot account or whatever handle the commiting?  
+**\<btrscott[m]>** ErCiccione: Would it be possible to run it on a cron job though and have a bot account or whatever handle the commiting?  
 **\<selsta>** I think running lupdate manually is fine.  
-**\<ErCiccione>** xmrscott: I thought about it, but i really don't feel to confident in giving access to my GPG key to a bot (maybe i'm paranoid tho), and i would prefer review to review and test translations anyway before committing (again, could be just paranoy)  
+**\<ErCiccione>** btrscott: I thought about it, but i really don't feel to confident in giving access to my GPG key to a bot (maybe i'm paranoid tho), and i would prefer review to review and test translations anyway before committing (again, could be just paranoy)  
 **\<selsta>** We could also add lupdate to the build script meaning that every commit would also include the translation changes, not sure if we want that though.  
-**\<xmrscott[m]>** I'm probably more focused on #1 since that seems to be the larger issue, the refresh cadence  
-**\<xmrscott[m]>** Not so much the commiting back to master  
+**\<btrscott[m]>** I'm probably more focused on #1 since that seems to be the larger issue, the refresh cadence  
+**\<btrscott[m]>** Not so much the commiting back to master  
 **\<ErCiccione>** selsta: yes, thank you, thjat's something i forgot to mention:  
 **\<ErCiccione>** the problem of syncing strings would be eaily resolvable if the cmake script would run lupdate before every build  
 **\<ErCiccione>** right now it only runs lrelease  
@@ -103,20 +103,20 @@ author: erciccione
 **\<ErCiccione>** if we decide to try another platform (as said, i would try weblate, but other suggestions are welcome), i would have to dedicate time to that, which will obviously slow down some other things.  
 **\<ErCiccione>** Anyway, in case, i'm confident i could manage to have a working new platform before the end of my CCS (beginning of June), since i already tested weblate in past and i already have access to the translate.getbyterub server.  
 **\<ErCiccione>** In the meantime, we would keep using Pootle until the new platform is ready. Thoughts?   
-**\<xmrscott[m]>** My vote is to transition to Weblate. Notable features for more casual users  
+**\<btrscott[m]>** My vote is to transition to Weblate. Notable features for more casual users  
 **\<ErCiccione>** yes, weblate has some nice feature would be nice to have (like a better commenting system for every string)   
-**\<xmrscott[m]>** Namely, ability to get emails when new strings are added; not everyone monitors #byterub-translations or r/byterub like a hack for new strngs announcements  
-**\<xmrscott[m]>** https://docs.weblate.org/en/latest/admin/continuous.html  
+**\<btrscott[m]>** Namely, ability to get emails when new strings are added; not everyone monitors #byterub-translations or r/byterub like a hack for new strngs announcements  
+**\<btrscott[m]>** https://docs.weblate.org/en/latest/admin/continuous.html  
 **\<dsc_>** I think that ultimately you are the person to make such decision  
 **\<dsc_>** as authority on all things translations  
-**\<xmrscott[m]>** *like a hawk  
+**\<btrscott[m]>** *like a hawk  
 **\<dsc_>** I doubt anyone has better insight in such systems :P  
-**\<ErCiccione>** xmrscott: true. Just FYI, the first choice at the time was weblate, we went for pootle because me, serhack and rehrar had all problems with making weblate's webserver work properly, but that was about a year ago and now we have many more developers who could take a look at it.  
+**\<ErCiccione>** btrscott: true. Just FYI, the first choice at the time was weblate, we went for pootle because me, serhack and rehrar had all problems with making weblate's webserver work properly, but that was about a year ago and now we have many more developers who could take a look at it.  
 **\<ErCiccione>** dsc_: thank you for your trust :) but i thought that since there is my CCS involved, more opinions on this would be really appreciated  
 **\<ErCiccione>** (i wrote an year ago, but it's actually less, six months maybe? or something like that)  
 **\<ErCiccione>** don;t really remember i should check the backlogs  
 **\<ErCiccione>** There seem to be no strong opinions on this point, so i think i will just try weblate locally or in a vps, then will keep you all updated about it, without spending too much time on it at first. Sounds good?  
-**\<xmrscott[m]>** Yep yep!  
+**\<btrscott[m]>** Yep yep!  
 **\<lafudoci[m]>** yes  
 **\<ErCiccione>** Alright, if somebody has questions/ideas/random thoughts, please go ahead, otherwise we can just end the meeting.  
 **\<ErCiccione>** Let's wrap it up then. Thank you all for coming, especially if it's morning in your country and you are at work :P. Have a good day and see you around!  

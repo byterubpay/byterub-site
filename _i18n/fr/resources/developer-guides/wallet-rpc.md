@@ -31,7 +31,7 @@ curl \
     -H 'Content-Type: application/json'
 ```
 
-Remarque : "@atomic-units" réfère à la plus petite fraction de 1 XMR selon l'implémentation byterubd. **1 XMR = 1e12 unités atomiques**
+Remarque : "@atomic-units" réfère à la plus petite fraction de 1 BTR selon l'implémentation byterubd. **1 BTR = 1e12 unités atomiques**
 
 Cette liste à été mise à jour sur un code gelé le 14/09/2018 après la fusion du commit bb30a7236725e456138f055f96a634c75ce2b491 (version Wallet RPC 1.3), et à la hauteur de bloc 1643308.
 
@@ -569,7 +569,7 @@ Alias : *Aucun*.
 
 Entrées :
 
-* *destinations* - liste de destinations devant recevoir des XMR :
+* *destinations* - liste de destinations devant recevoir des BTR :
   * *amount* - entier non signé; Montant à envoyer à chaque destination, en @unités-atomiques.
   * *address* - chaîne de caractères; Adresse publique de destination.
 * *account_index* - entier non signé; (Optionnel) Transférer depuis cet index de compte. (0 par défaut)
@@ -624,7 +624,7 @@ Alias : *Aucun*.
 
 Entrées :
 
-* *destinations* - liste de destinations devant recevoir des XMR :
+* *destinations* - liste de destinations devant recevoir des BTR :
   * *amount* - entier non signé; Montant à envoyer à chaque destination, en @unités-atomiques.
   * *address* - chaîne de caractères; Adresse publique de destination.
 * *account_index* - entier non signé; (Optionnel) Transférer depuis cet index de compte. (0 par défaut)

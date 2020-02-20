@@ -208,10 +208,10 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** First: Mattermost  
 **\<rehrar>** You can access Mattermost at https://mattermost.getbyterub.org at any  time. You can think of it as an open-sourced, self-hosted Slack  alternative. And while we do have a slack, we would like to encourage  the community to sign up here and begin using it over slack. This way,  The ByteRub Project has control over the data and conversations, and not  some third-party. We want to distance ourselves from using proprietary  software  
 **\<rehrar>**  as much as possible. Of course, it is relayed to IRC.  
-**\<xmrmatterbridge> \<sgp>** Hey everyone! (from Mattermost)  
+**\<btrmatterbridge> \<sgp>** Hey everyone! (from Mattermost)  
 **\<rehrar>** In the same way, we are also unveiling the ByteRub Taiga instance,  which can be accessed at https://taiga.getbyterub.org. Taiga is an  open-sourced, self-hosted agile development environment. Put simply, it  can be used like GitHub for non-coders to make projects, make goals for  those projects, assign people to teams and to fulfill tasks, and more.  It's a great resource, and will even integrate with Mattermost soon.  
 **\<ArticMine>** This all sounds great  
-**\<xmrmatterbridge> \<serhack>** hey  
+**\<btrmatterbridge> \<serhack>** hey  
 **\<rehrar>** You'll find the Monerujo (android mobile wallet) already on there, as well as Revuo ByteRub and Kovri  
 **\<Xil3>** very nice  
 **\<cryptochangement>** great  
@@ -324,8 +324,8 @@ author: dEBRUYNE / fluffypony
 **\<smauginjapan>** you'd need to persistently ferry users to the new sub, and have some regulars dedicate to answering questions.  
 **\<dEBRUYNE>** pigeons, hyc: Yeah that's what I meant. Reference existing SE Q&A / guides to them, but ensure they don't open new questions (if not warranted) to avoid the SE getting cluttered  
 **\<hyc>** yeah  
-**\<smauginjapan>** similar to how r/xmrtrader has been rolled out.  
-**\<hyc>** xmrtrader has enough general interest to be self-sufficient  
+**\<smauginjapan>** similar to how r/btrtrader has been rolled out.  
+**\<hyc>** btrtrader has enough general interest to be self-sufficient  
 **\<dEBRUYNE>** I honestly doubt our community is currently big enough to warrant a seperate sub  
 **\<hyc>** I personally have little desire to frequent a support form  
 **\<dEBRUYNE>** Also support can be tricky from time to time  
@@ -402,7 +402,7 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE>** There's more guarantee of success if the sub is bigger fwiw. Why would we suddenly start now?  
 **\<pero>** well i suggested this like 6 months ago  
 **\<pero>** so it's more of a question of why arent we doing it already for me  
-**\<xmrmatterbridge> \<sgp>** We kinda need to just start it I suppose. I'm not sure what prep is necessary. StackExchange already has a wealth of info  
+**\<btrmatterbridge> \<sgp>** We kinda need to just start it I suppose. I'm not sure what prep is necessary. StackExchange already has a wealth of info  
 **\<pero>** the main sub is way past 'large enough' imo  
 **\* pero** vanishes  
 **\<dEBRUYNE>** I personally think it's not a good idea at this point. I'll leave it at that for now  

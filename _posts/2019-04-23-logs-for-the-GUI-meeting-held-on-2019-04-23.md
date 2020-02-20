@@ -29,7 +29,7 @@ author: el00ruobuob / dsc
 **\<dsc\_>** Yes that one is tricky. We already have enough on our plate  
 **\<dsc\_>** lets summon luigi while we're at it  
 **\<dsc\_>** .summon  
-**\<xmr-pr>** luigi1111 luigi1111w luigi1113 luigi1112 luigi1114 ༼つ ◕\_◕ ༽つ  
+**\<btr-pr>** luigi1111 luigi1111w luigi1113 luigi1112 luigi1114 ༼つ ◕\_◕ ༽つ  
 **\<dsc\_>** Could you merge current list, soon? Thanks  
 **\<dEBRUYNE>** selsta: What kind of buildbot changes does 1816 require?  
 **\<selsta>** dEBRUYNE: zbar library has to get installed and to get 1816 to build on macOS seems hacky.  
@@ -174,7 +174,7 @@ author: el00ruobuob / dsc
 **\<dsc\_>** Ill prioritize it  
 **\<dsc\_>** Next agenda point, before people fall asleep  
 **\<dsc\_>** - Discuss developments past week  
-**\<dsc\_>** Past week I've been working 1) a CMake recipe (I'm stuck) 2) Support for database pruning 3) Updating `qml-xmr` to work with our latest changes 4) Kneuffelbund's new seed page for in the wizard (Japenese layout).  
+**\<dsc\_>** Past week I've been working 1) a CMake recipe (I'm stuck) 2) Support for database pruning 3) Updating `qml-btr` to work with our latest changes 4) Kneuffelbund's new seed page for in the wizard (Japenese layout).  
 **\<dsc\_>** Anyone have an update what he/she has been working on?  
 **\<ErCiccione>** all translations for the GUI are reviewed and merged on Pootle. I'm waiting for the next big round of merges, then i will make a call for translators  
 **\<ErCiccione>** as i said before, would be great to have the mergeable merged asap, so to have time to review/submit translations and update the guide  
@@ -207,11 +207,11 @@ author: el00ruobuob / dsc
 **\<dsc\_>** Would this be something you could pick up or would you rather have someone else research those addresses and implement it?  
 **\<dsc\_>** In any case, feel free to create an issue  
 **\<xiphon>** Which services still use long payment ids? Bittrex, binance, and other?  
-**\<dsc\_>** xmr.to I think/  
+**\<dsc\_>** btr.to I think/  
 **\<xiphon>** "would you rather have someone else research those addresses" \<- at least this  
 **\<xiphon>** i'm fine with implementing it  
 **\<byterubmooo>** Tippero :D  
-**\<selsta>** xmr.to uses integrated or subaddress  
+**\<selsta>** btr.to uses integrated or subaddress  
 **\<ErCiccione>** is Tippero still alive?  
 **\<dsc\_>** selsta: Ha! busted.  
 **\<dsc\_>** Why are you selling ByteRub?  

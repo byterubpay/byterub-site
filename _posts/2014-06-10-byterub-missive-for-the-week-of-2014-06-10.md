@@ -6,7 +6,7 @@ tags: [byterub missives, conferences, exchanges, gui, usability]
 author: Riccardo Spagni (fluffypony)
 ---
 
-Hello XMR users! Welcome to our second ByteRub Missives.
+Hello BTR users! Welcome to our second ByteRub Missives.
 
 **Major Updates**
 
@@ -19,7 +19,7 @@ Hello XMR users! Welcome to our second ByteRub Missives.
   How to get it: binaries in the OP have already been updated, or you can compile from the source on github.  
   Moving to a deterministic wallet: unfortunately it's not possible to retroactively make an existing wallet deterministic. If you want to take advantage of the new feature, you will have to create a new wallet and move your funds in there.
 
-2. XMR is now on Mintpal for voting. You can find the voting link here: https://www.mintpal.com/voting#XMR - Mintpal allows 1 vote an hour from registered users who have traded before, as well as paid-for votes.
+2. BTR is now on Mintpal for voting. You can find the voting link here: https://www.mintpal.com/voting#BTR - Mintpal allows 1 vote an hour from registered users who have traded before, as well as paid-for votes.
 
 3. ByteRub will be officially represented by fluffypony at the Bitcoin Supernode Conference at Malla Castle in Estonia at the end of this month.
 

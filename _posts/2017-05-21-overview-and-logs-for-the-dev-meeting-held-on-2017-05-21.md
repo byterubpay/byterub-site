@@ -105,7 +105,7 @@ An overview [can be found on ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<luigi1112>** that would be cool. maybe :-)  
 **\<Jaquee>** yeah. if i have a full wallet on my desktop and want to use the same wallet on my mobile. I could convert my full wallet to lightwallet by sending my inputs/outputs to mybyterub/openbyterub backend. And then login as usual on my phone  
 **\<Jaquee>** with seed  
-**\<Jaquee>** without paying the 1 xmr rescan fee  
+**\<Jaquee>** without paying the 1 btr rescan fee  
 **\<Jaquee>** that was my idea  
 **\<Jaquee>** so the magic happens in desktop wallet.  
 **\<Jaquee>** on mobile you only login as usual  

@@ -4,9 +4,9 @@
 
 Ces outils peuvent être utilisés pour obtenir des informations concernant le réseau ByteRub ou les données de vos transactions dans la chaîne de blocs.
 
-### [Vérifier qu'un destinataire à reçu vos fonds](http://xmrtests.llcoins.net/checktx.html)
+### [Vérifier qu'un destinataire à reçu vos fonds](http://btrtests.llcoins.net/checktx.html)
 
-### [Outils de génération d'adresse ByteRub](https://xmr.llcoins.net/)
+### [Outils de génération d'adresse ByteRub](https://btr.llcoins.net/)
 
 ### [Compteur de nœuds ByteRub](http://byterubnodes.i2p.xyz/)
 

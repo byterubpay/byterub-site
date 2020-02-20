@@ -34,7 +34,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<byterubbux>** [ ByteRub Coffee Chat - 2019.07.27 - YouTube ] - www.youtube.com  
 **\<sgp\_>** Ecosystem related: I’m hosting a Zcash community conversation on the future of the block reward Sunday (tomorrow): https://forum.zcashcommunity.com/t/livestream-discussion-future-of-zcash-block-reward/34247  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
-**\<OsrsNeedsF2P>** I was impressed by XMR.RU's report  
+**\<OsrsNeedsF2P>** I was impressed by BTR.RU's report  
 **\<needbyterub90>** Kinda, what are the sections again?  
 **\<sgp\_>** yes, they do a lot of great work  
 **\<needbyterub90>** I want to talk in the right place  
@@ -66,9 +66,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needbyterub90>** My bad it was suraeNoether  
 **\<needbyterub90>** I didn't yet, I just thought it would be appropriate to broach the subject here  
 **\<needbyterub90>** Because $40k is significant  
-**\<xmrmatterbridge> \<rehrar>** It should be noted that he would only be like 4k on the hole if the market had shifted so drastically.  
+**\<btrmatterbridge> \<rehrar>** It should be noted that he would only be like 4k on the hole if the market had shifted so drastically.  
 **\<sgp\_>** needbyterub90: if you want to champion this, I recommend talking to scooby so you have a full picture of the finances  
-**\<xmrmatterbridge> \<rehrar>** Market shift accounts for literally like 85% of his loss. So not "bad planning" or anything.  
+**\<btrmatterbridge> \<rehrar>** Market shift accounts for literally like 85% of his loss. So not "bad planning" or anything.  
 **\<needbyterub90>** I can do that, sure.  
 **\<thunderosa>** Thanks for bringing it up, I wasn't quite sure the best way to mention it. I've been thinking of some possible fundraising ideas though. I'm willing to volunteer for the effort.  
 **\<dsc\_>** apart from trying to recover the funds, is this something that can be avoided in the future? 1) Allow for dynamic/moving CSS targets 2) release funds ASAP  
@@ -81,7 +81,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needbyterub90>** I just wanted to make this a topic of discussion and explain where I think things stand  
 **\<needbyterub90>** I'm minorly advocating a new CCS for the shortfall, but I'm not too particular about where we go with it  
 **\<needbyterub90>** Just wanted the subject up for discussion  
-**\<xmrmatterbridge> \<rehrar>** If we're being real, that conference will be the highlight of ByteRub's year, just in quality. Talks freely available on YouTube as a resource for years to come.  
+**\<btrmatterbridge> \<rehrar>** If we're being real, that conference will be the highlight of ByteRub's year, just in quality. Talks freely available on YouTube as a resource for years to come.  
 **\<sgp\_>** All right, please keep going with the initiative and let us know how it goes. Might be best to open a Reddit discussion too  
 **\<sgp\_>** yes, the recordings are very valuable  
 **\<sgp\_>** I will keep going with the meeting, but we can cover this topic again during open ideas if people have other comments  
@@ -91,13 +91,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
 **\<lh1008[m]>** I suggest to ciber this shortfall with a CCS for it, but start on planning and funding earlier for future events (konferenco, defcon, etc.) Be better prepared for this type of things. Have a bigger budget.  
-**\<sgp\_>** “Telegram bot for ByteRub-Jobs group” (3 XMR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/91  
+**\<sgp\_>** “Telegram bot for ByteRub-Jobs group” (3 BTR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/91  
 **\<lh1008[m]>** Ciber \*cover  
 **\<sgp\_>** Does anyone have comments on this proposal?  
 **\<dsc\_>** looks good to me  
 **\<OsrsNeedsF2P>** Generally speaking I'm strict with proposals I support, but this definitely has mine  
-**\<sgp\_>** 3 XMR looks reasonable  
-**\<dsc\_>** 3 XMR is too reasonable  
+**\<sgp\_>** 3 BTR looks reasonable  
+**\<dsc\_>** 3 BTR is too reasonable  
 **\<sgp\_>** lol  
 **\<needbyterub90>** Yeah  
 **\<dsc\_>**   
@@ -110,11 +110,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<OsrsNeedsF2P>** >Something like "What would you like to do?" and then there would be three buttons that the user could press: "Request Work", "Offer Work" and "Create Proposal"  
 **\<OsrsNeedsF2P>** We need this for IRC and Reddit too. I know the outreach team wanted to do something like this  
 **\<OsrsNeedsF2P>** This is super useful  
-**\<sgp\_>** “A ByteRub Tip Bot for Telegram” (13 XMR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/86  
-**\<lh1008[m]>** The 3XMR was what he estimated for his work. He's actually really enthusiastic about it. We will have to see how he delivers of course.  
+**\<sgp\_>** “A ByteRub Tip Bot for Telegram” (13 BTR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/86  
+**\<lh1008[m]>** The 3BTR was what he estimated for his work. He's actually really enthusiastic about it. We will have to see how he delivers of course.  
 **\<sgp\_>** We discussed this similar proposal last week, but I wanted a last call for comments  
 **\<sgp\_>** \*last meeting  
-**\<dsc\_>** I honestly feel kind of bad for that 3XMR maybe we should advise him to double it  
+**\<dsc\_>** I honestly feel kind of bad for that 3BTR maybe we should advise him to double it  
 **\<lh1008[m]>** OsrsNeedsF2P the bot will be open source so I guess we all would benefit :).  
 **\<dsc\_>** I'd be happy to fund that extra 3..  
 **\<OsrsNeedsF2P>** I provided my insights on that thread, but I still think the Telegram tip bot is asking for too much  
@@ -133,16 +133,16 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<lh1008[m]>** I like the tip bot. That sure will also help.  
 **\<OsrsNeedsF2P>** Keeping wallet synced is a b\*\*  
 **\<OsrsNeedsF2P>** I like the tip bot as well. I think getting it out no Telegram is worth it. But his funding points directly:  
-**\<OsrsNeedsF2P>** >>Collect Feature Requests and Prototype the Telegram bot: 1 XMR  
+**\<OsrsNeedsF2P>** >>Collect Feature Requests and Prototype the Telegram bot: 1 BTR  
 **\<OsrsNeedsF2P>** Thoughts?  
 **\<sgp\_>** tbf it's \<$100  
 **\<needbyterub90>** Prototyping is an essential part of any project  
-**\<xmrmatterbridge> \<rehrar>** I think the hope was the core team would indeed host it.   
-**\<xmrmatterbridge> \<rehrar>** I can ask them what their thoughts are for doing that.   
+**\<btrmatterbridge> \<rehrar>** I think the hope was the core team would indeed host it.   
+**\<btrmatterbridge> \<rehrar>** I can ask them what their thoughts are for doing that.   
 **\<lh1008[m]>** Endogen suggested once he worked the byterubjobs.bot and be.working he wil add a multisig wallet for it.  
 **\<OsrsNeedsF2P>** If there's an integratable telegram tip bot though, that would be much easier  
 **\<lh1008[m]>** Yep  
-**\<OsrsNeedsF2P>** >Implement Features: 5 XMR  
+**\<OsrsNeedsF2P>** >Implement Features: 5 BTR  
 **\<needbyterub90>** OsrsNeedsF2P: you reminded me  
 **\<needbyterub90>** There is  
 **\<needbyterub90>** Briar patch has a SPICE token tipbot  
@@ -152,12 +152,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<OsrsNeedsF2P>** Honestly, you guys overestimate how hard it is to make a tip bot  
 **\<OsrsNeedsF2P>** All the APIs already exist  
 **\<OsrsNeedsF2P>** The only reason the Reddit Tip Bot took so long to perfect the UX was soley because I was keeping everyone's wallets separate. Knowing as little as I did (no RPC, hardly Python), that would have still been a 1 day job  
-**\<xmrmatterbridge> \<rehrar>** #makeitthenlol  
+**\<btrmatterbridge> \<rehrar>** #makeitthenlol  
 **\<lh1008[m]>** What would be a reasonable price OsrsNeedsF2P? Just give your thoughts.  
-**\<OsrsNeedsF2P>** I think 5 XMR to implement it is reasonable. I don't think any of his other requests are;  
-**\<OsrsNeedsF2P>** >>Intensive Testing of Bot on Stagenet Within one or more ByteRub Telegram groups / Bug Fixing: 4 XMR  
-**\<OsrsNeedsF2P>** >>Maintenance and Support: 3 XMR (one time fee)  
-**\<OsrsNeedsF2P>** The prototype is certainly worth 1 XMR if there is really a solid prototype goal he's following, but unlike Endogen's request for instance, it's not nearly as clear or laid out  
+**\<OsrsNeedsF2P>** I think 5 BTR to implement it is reasonable. I don't think any of his other requests are;  
+**\<OsrsNeedsF2P>** >>Intensive Testing of Bot on Stagenet Within one or more ByteRub Telegram groups / Bug Fixing: 4 BTR  
+**\<OsrsNeedsF2P>** >>Maintenance and Support: 3 BTR (one time fee)  
+**\<OsrsNeedsF2P>** The prototype is certainly worth 1 BTR if there is really a solid prototype goal he's following, but unlike Endogen's request for instance, it's not nearly as clear or laid out  
 **\<lh1008[m]>** What does everyone else think? I'm no coder so for me is quite hard to know more.  
 **\<lh1008[m]>** But if OsrsNeedsF2P says it is because he knows. Those are my thoughts.  
 **\<OsrsNeedsF2P>** The only thing I can't really comment on is the bot would likely be written in Javascript, and I'm very poor at estimating the difficulties in that  
@@ -167,9 +167,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<lh1008[m]>** I've heard javascript is terrible so I wouldn't like something written in javascript. But again, I'm no coder so is like...mmm  
 **\<sgp\_>** To summarize, OsrsNeedsF2P feels the cost is about twice as much as it should be, and hosting still needs to be resolved. Overall, the benefits are generally understood as valuable  
 **\<OsrsNeedsF2P>** Very valuable I might add; also, the condition Luigi set was already on the hosting.  
-**\<lh1008[m]>** We could tell him that the community supports a 5XMR proposal and wait and see his response.  
+**\<lh1008[m]>** We could tell him that the community supports a 5BTR proposal and wait and see his response.  
 **\<sgp\_>** Perhaps the course of action should be first to figure out hosting, and then try to negotiate slightly better rates. But in the absence of others willing to code, we may not have other rate options  
-**\<OsrsNeedsF2P>** I would even donate if it was only 5 XMR. 5/6/7, depending on what he offers.  
+**\<OsrsNeedsF2P>** I would even donate if it was only 5 BTR. 5/6/7, depending on what he offers.  
 **\<sgp\_>** OsrsNeedsF2P: please add your comments again after this meeting in the thread, along with anyone else who has an opinion  
 **\<OsrsNeedsF2P>** Will do.  
 **\<sgp\_>** Any final comments on this matter?  
@@ -184,15 +184,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** thanks dsc  
 **\<maxfp>** I know I’m coming into this late. Talking bout hosting. What about using Tari .org  
 **\<maxfp>** Are we talking container deployments?  
-**\<xmrmatterbridge> \<rehrar>** Sorry. Got busy for a bit.   
+**\<btrmatterbridge> \<rehrar>** Sorry. Got busy for a bit.   
 **\<sgp\_>** now is a good time to ask if there are localization workgroup updates too, or else we can skip that section  
 **\<needbyterub90>** Do we have a pirate localization workgroup yet  
-**\<xmrmatterbridge> \<rehrar>** We talked about Gitlab/GitHub stuff and people have opinions.   
+**\<btrmatterbridge> \<rehrar>** We talked about Gitlab/GitHub stuff and people have opinions.   
 **\<lh1008[m]>** I will give a small summary from outreach  
 **\<sgp\_>** needbyterub90: there was for one old version at least iirc  
-**\<xmrmatterbridge> \<rehrar>** Did anything else of interest pop up?  
+**\<btrmatterbridge> \<rehrar>** Did anything else of interest pop up?  
 **\<sgp\_>** sure lh1008[m], we can do that for e)  
-**\<xmrmatterbridge> \<rehrar>** Not to my mind. But I may just be forgetting something  
+**\<btrmatterbridge> \<rehrar>** Not to my mind. But I may just be forgetting something  
 **\<sgp\_>** rehrar thanks  
 **\<sgp\_>** I can give an update for d) Defcon workgroup  
 **\<sgp\_>** Please check https://byterubvillage.org for the livestream links (will be posted soon) and schedule (posted now). We will unfortunately only learn around 9:30am MT on Friday whether the events will be livestreamed. It's dependent on Defcon staff, but we'll keep you updated  
@@ -203,7 +203,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** - All Breaking ByteRub transcriptions done.  
 **\<sgp\_>** - ByteRubKon from 26/12 already finished. 7 merged and 5 in review process.  
 **\<sgp\_>** https://github.com/byterub-ecosystem/outreach-docs/tree/master/byterub-outreach-docs/en/transcriptions  
-**\<sgp\_>** https://taiga.getbyterub.org/project/xmrhaelan-byterub-public-relations/epic/198  
+**\<sgp\_>** https://taiga.getbyterub.org/project/btrhaelan-byterub-public-relations/epic/198  
 **\<sgp\_>** thanks lh1008[m], anything else? we look forward to your help for Defcon  
 **\<lh1008[m]>** Thank you sgp\_  
 **\<sgp\_>** 5. Open ideas time  
@@ -230,7 +230,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** We're running out of time, but think about hashtags and comment here if you have good ideas. Of course this channel is always open for discussions after the meeting  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 17 August at 17:00 UTC. The next Coffee Chat will be on 24 August at 16 UTC. Thanks rehrar for handling the last one.  
-**\<xmrmatterbridge> \<rehrar>** Ye  
+**\<btrmatterbridge> \<rehrar>** Ye  
 **\<sgp\_>** 7. Conclusion  
-**\<xmrmatterbridge> \<rehrar>** Question on those.     
+**\<btrmatterbridge> \<rehrar>** Question on those.     
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

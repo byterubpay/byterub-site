@@ -64,8 +64,8 @@ permalink: /get-started/contributing/index.html
                     </div>
                     <div class="row start-xs">
                         <div class="col-xs-12">
-                            <h3>{% t contributing.donate-xmr %}</h3>
-                            <p>{% t contributing.donate-xmr_para %} donate.getbyterub.org {% t contributing.or %} 44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A</p>
+                            <h3>{% t contributing.donate-btr %}</h3>
+                            <p>{% t contributing.donate-btr_para %} donate.getbyterub.org {% t contributing.or %} 44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A</p>
                         </div>
                     </div>
                     <div class="row start-xs">

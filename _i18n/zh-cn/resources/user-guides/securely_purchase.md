@@ -35,8 +35,8 @@ Whichever method you chose, be sure there's no copy of the ByteRub wallet left o
 *If you lose access to your ByteRub paper wallet the ByteRub will not be available to you or anyone else, ever.  You wont be able to recover them!
 
 #### Side Note
-Option to encrypt an XMR mnemonic seed:
-https://xmr.llcoins.net/
+Option to encrypt an BTR mnemonic seed:
+https://btr.llcoins.net/
 Download the html page and place it on your airgapped computer. Check the part "Encrypt/Decrypt Mnemonic Seed" and make sure you use "CN Add" with a decent password. Thanks manicminer5.
 
 
@@ -67,7 +67,7 @@ Go to your Xapo or Circle account, and find a Transfer or Send button. Paste the
 
 Once the send has been initiated by Xapo/Coinbase there will be a delay while the transaction enters the Bitcoin blockchain and awaits confirmation.  This may be minutes or hours.  You can check if the payment has been sent by looking up the Shapeshift.io Deposit address at blockchain.info.  Your transaction to Shapeshift.io will show up there.
 
-When your Bitcoin transaction has been confirmed, Shapeshift.io will then begin exchanging Bitcoin (BTC) for ByteRub (XMR) at one of the exchanges and when it's complete, send the ByteRub to the address of your Cold Storage Paper Wallet!  This can take minutes to hours.  If there's an issue, contact Shapeshift.io.  They have good support.
+When your Bitcoin transaction has been confirmed, Shapeshift.io will then begin exchanging Bitcoin (BTC) for ByteRub (BTR) at one of the exchanges and when it's complete, send the ByteRub to the address of your Cold Storage Paper Wallet!  This can take minutes to hours.  If there's an issue, contact Shapeshift.io.  They have good support.
 
 When the Shapehift.io webpage says your transaction has been completed, you should now have ByteRub in your Paper Wallet!
 

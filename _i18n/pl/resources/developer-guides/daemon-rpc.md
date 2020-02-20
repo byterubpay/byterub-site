@@ -6,7 +6,7 @@ Poniżej znajduje się lista funkcji RPC demona byterubd, ich wejścia i wynikó
 
 Wiele funkcji RPC korzysta z interfejsu demona JSON RPC, podczas gdy inne używają własnego interfejsu, jak przedstawiono poniżej.
 
-Uwaga: "jednostki atomowe (@atomic-unit)" dotyczą najmniejszego ułamka 1 XMR, zgodnie z implementacją byterubd. **1 XMR = 1e12 jednostek atomowych.**
+Uwaga: "jednostki atomowe (@atomic-unit)" dotyczą najmniejszego ułamka 1 BTR, zgodnie z implementacją byterubd. **1 BTR = 1e12 jednostek atomowych.**
 
 ### [Metody JSON RPC](#json-rpc-methods):
 
@@ -172,7 +172,7 @@ Wynik:
   * *nonce* - niepodpisana liczba całkowita; losowy i jednorazowy numer kryptograficzny użyty do wydobycia bloku ByteRub.
   * *orphan_status* - logiczny typ danych; zazwyczaj `false`. Jeśli `true`, dany blok nie jest częścią najdłuższego łańcucha.
   * *prev_hash* - ciąg; hasz bloku bezpośrednio poprzedzającego dany blok w łańcuchu.
-  * *reward* - niepodpisana liczba całkowita; liczba nowych jednostek atomowych wytworzonych w danym bloku i przyznanych górnikowi. 	Zauważ: 1 XMR = 1e12 jednostek atomowych.
+  * *reward* - niepodpisana liczba całkowita; liczba nowych jednostek atomowych wytworzonych w danym bloku i przyznanych górnikowi. 	Zauważ: 1 BTR = 1e12 jednostek atomowych.
   * *timestamp* - niepodpisana liczba całkowita; czas, kiedy blok został zapisany w łańcuchu.
 * *status* - ciąg; kod generalnego błędu RPC. "OK" oznacza, że wszystko jest w porządku.
 

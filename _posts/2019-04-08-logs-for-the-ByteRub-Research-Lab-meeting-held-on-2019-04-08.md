@@ -166,14 +166,14 @@ author: el00ruobuob / sarang
 **\<dEBRUYNE>** sarang: That would be a concern yeah  
 **\<sgp\_>** It was an example of some observable donation behavior someone else attempted that had similar privacy consequences  
 **\<dotkc>** our "donate" is like this 1. sweep\_single 2. spend (donate) 3. sweep the change  
-**\<dotkc>** which, IF, and that's a big if, churn has benefits then this technique would be the safest way to spend XMR  
+**\<dotkc>** which, IF, and that's a big if, churn has benefits then this technique would be the safest way to spend BTR  
 **\<dotkc>** since we do a pre-spend churn, then spend, then churn the change  
 **\<sarang>** I question the kinds of fingerprints this could leave in the transaction graph  
 **\<sarang>** and need to think about it more  
 **\<sgp\_>** dotkc: for the reasons I mentioned yesterday, including donated outputs in any step of the process is incrementally worse for privacy. It would be better to churn those 3 times without donation. I think the pressure to include this donation feature is getting us started on the wrong foot  
 **\<dotkc>** totally agree  
 **\<suraeNoether>** i'm in complete agreement with sgp\_  
-**\<xmrmatterbridge> \<oneiric>** random time delays b/w pre-spend -> spend -> change-churn ?  
+**\<btrmatterbridge> \<oneiric>** random time delays b/w pre-spend -> spend -> change-churn ?  
 **\<sarang>** Good point; we can certainly talk about general churn strategies independently of donation  
 **\<dotkc>** please remember that it's OPTIONAL and in a very clearly defined test & research tool that is recommended for testnet  
 **\<suraeNoether>** churn is going to be difficult enough to nail down security details for without trying to model donations built into the process  
@@ -198,7 +198,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** why would you send money to someone who you suspect will lose their wallet password?  
 **\<suraeNoether>** or give it to a malicious party?  
 **\<sgp\_>** dotkc: yes, but you are suggesting a donation as a PART of the churn PROCESS, not as a payment after you already churn your funds  
-**\<xmrmatterbridge> \<oneiric>** people should be cautious of who they donate to, research required  
+**\<btrmatterbridge> \<oneiric>** people should be cautious of who they donate to, research required  
 **\<suraeNoether>** okay check it, i want to have some discussion about formal statistical modeling, and i want to stop talking about donations  
 **\<sarang>** yes please  
 **\<suraeNoether>** dotkc: let's chat more about this after the research meeting  
@@ -206,7 +206,7 @@ author: el00ruobuob / sarang
 **\<sgp\_>** I really think we should put discussion about donations aside, since it seems like we are going to keep talking in circles. We can come back to it outside of meeting time  
 **\<sarang>** ^  
 **\<suraeNoether>** i'm simulating a ledger where every output is born in a coinbase transaction or a regular transaction. Coinbase transactions have a fixed probability p of being sent to some "marked" party.  
-**\<xmrmatterbridge> \<oneiric>** routing out all the fakes in crypto would be a great research tool  
+**\<btrmatterbridge> \<oneiric>** routing out all the fakes in crypto would be a great research tool  
 **\<dotkc>** in either case, we want to be able to spend to someone without our privacy depending on them keeping their wallet private  
 **\<suraeNoether>** all other transactions either take all marked inputs or all not marked inputs  
 **\<suraeNoether>** a transaction with non-marked inputs has a fixed probability of q of being sent to the same marked party  
@@ -229,18 +229,18 @@ author: el00ruobuob / sarang
 **\<sarang>** Some are timing-based, which can be avoided by proper delay times  
 **\<suraeNoether>** but the problem is the adversary can use any heuristic they like to construct a model.  
 **\<sarang>** Others are purely graph-based, and depend heavily on outputs' use in decoys and the links between true/fake-change outputs in the graph  
-**\<xmrmatterbridge> \<oneiric>** is this spend problem, at least partially, addressed by Dandelion++?  
+**\<btrmatterbridge> \<oneiric>** is this spend problem, at least partially, addressed by Dandelion++?  
 **\<suraeNoether>** BUT! this idea that if the churner is using the background distribution is one side of the coin. I claim this in addition: as the model Y diverges from the wallet spend-time distribution, the quality of the results will become more robust against variations in the choice of X, i.e.\\ as long as you aren't too far off from the spend-time distribution, you are mostly indistinguishable, but if your behavior is  
 **\<suraeNoether>** very far off, you are an easy target.  
 **\<sarang>** D++ only affects how the relay process works  
 **\<suraeNoether>** oneiric nah, this has everything to do with the ledger and totally ignores the minnig network  
 **\<sarang>** it does introduce slight delays, sure  
 **\<sarang>** but these are very minor  
-**\<xmrmatterbridge> \<oneiric>** re: obfuscating true spend time + origin  
+**\<btrmatterbridge> \<oneiric>** re: obfuscating true spend time + origin  
 **\<suraeNoether>** oneiric this is essentially ledger forensics in the environment of ring signatures. :P  
 **\<sarang>** D++ helps against network-wide observation, not targeted observation  
 **\<midipoet>** am i understanding this simulation correctly, in that outputs are in perpetual motion (churned)?  
-**\<xmrmatterbridge> \<oneiric>** ah, think i understand, thanks. has to be dealt with at sig level  
+**\<btrmatterbridge> \<oneiric>** ah, think i understand, thanks. has to be dealt with at sig level  
 **\<dotkc>** i propose naming such behavior maintenance churn  
 **\<midipoet>** we'll end up with butter  
 **\<suraeNoether>** midipoet: in my model, yeah, that's how i'm modeling the economy to generate a fake blockchain  
@@ -249,7 +249,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** either way, the way i have this experiment set up, it is \*necessarily\* true that the case in which the churner matches the wallet distribution for N churns in a row will enjoy indistinguishability and the probability of any one edge being traced is R^-N, so we can think of this as an idealized model anyway  
 **\<dotkc>** this does still neglect many real-world considerations  
 **\<suraeNoether>** Using a birthday attack argument, a churn with length > 23 is "sufficient." but that's huge, and I suspect we will have, in practice much lower bounds.  
-**\<xmrmatterbridge> \<oneiric>** is it safe to neglect for now, and gradually ramp up to more real-world-like conditions?  
+**\<btrmatterbridge> \<oneiric>** is it safe to neglect for now, and gradually ramp up to more real-world-like conditions?  
 **\<suraeNoether>** dotkc: we can model various heuristics using my above approach under the "model X" component of my little rant  
 **\<sarang>** To what extent have we established a set of candidate heuristics?  
 **\<suraeNoether>** so the best help i can get for this is ^  
@@ -263,13 +263,13 @@ author: el00ruobuob / sarang
 **\<sarang>** and I do agree with sgp\_ (and others) that getting this nailed down should be considered a priority  
 **\<suraeNoether>** right now i'm testing 1) periodic non-random spends, like a magazine subscription, 2) a single exponential wait time, like an impatient churner, but which has some of the statistical characteristics of our wallet spend-time distribution 3) gamma distribution, but tweaking expected wait time up and down smoothly to see the sensitivity of the confusion table to the difference between expected wait times  
 **\<sarang>** I appreciate your interest and willingness to bring this up dotkc  
-**\<xmrmatterbridge> \<oneiric>** maybe 4) uniform-random over some given range?  
+**\<btrmatterbridge> \<oneiric>** maybe 4) uniform-random over some given range?  
 **\<suraeNoether>** 3) also corresponds to an impatient (or paranoid!) churner, but in a way that seems more apples-to-apples  
 **\<dotkc>** might i propose a few small wins the community might enjoy while the more comprehensive research continues?  
 **\<suraeNoether>** oneiric cool, i'll throw 4) uniform on there  
 **\<sgp\_>** oneiric yes that's a nice simple one to test  
 **\<sarang>** What do you mean dotkc ?  
-**\<xmrmatterbridge> \<oneiric>** :)  
+**\<btrmatterbridge> \<oneiric>** :)  
 **\<sgp\_>** suraeNoether: I'll PM you at some point with a list  
 **\<suraeNoether>** ^ bingo bango  
 **\<byterubmooo>** Not sure if it helps, but I have an old patch that split txes to have one input at a time, and sent them at poisson delayed intervals.  

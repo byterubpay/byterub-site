@@ -11,7 +11,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/297  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** ye  
 **\<msvb-mob>** Hello.  
@@ -52,7 +52,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** cool wallet handouts nevvton[m]!  
 **\<parasew[m]>** we could also test the "frab" system and other tools for organising conferences, i will give an overview another time.  
 **\<sgp\_>** Great to hear 35c3 went so well. Make sure to let us know when the vidoes are posted  
-**\<ajs\_xmr>** congratulations serhack  
+**\<ajs\_btr>** congratulations serhack  
 **\<nevvton[m]>** msvb-mob: made great batches for the conference  
 **\<msvb-mob>** You mean 'badges.'  
 **\<sgp\_>** We'll hear your update in a bit, I'm excited :)  
@@ -415,7 +415,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<endogenic>** rehrar: to be honest i don't agree  
 **\<rehrar>** we don't necessarily set precedent by our learning experiences from early proposals  
 **\<endogenic>** it takes a lot of experience and also discipline to write a library  
-**\<dEBRUYNE>** Perhaps diverting the funds to working is okay conditional on him not receiving payment until there is integration with XMR  
+**\<dEBRUYNE>** Perhaps diverting the funds to working is okay conditional on him not receiving payment until there is integration with BTR  
 **\<rehrar>** endogenic: alright, that's ok. Just my thoughts.  
 **\<sgp\_>** I'm going to end the meeting now. Thanks for the discussion. Skipping open ideas time (\#6)  
 **\<sgp\_>** 7. Confirm next meeting date/time  
@@ -423,6 +423,6 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** kthanksbai <3  
 **\<sgp\_>** The next ByteRub Coffee Chat will take place NEXT SATURDAY on 12 January at 17:00 UTC.  
 **\<\_Slack> \<sean>** Thanks sgp\_  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 8. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

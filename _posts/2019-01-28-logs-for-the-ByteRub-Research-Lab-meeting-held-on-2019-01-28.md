@@ -295,7 +295,7 @@ author: el00ruobuob / surae
 **\<silur>**	main focus on zk stuff now  
 **\<sarang>**	I am looking forward to ArticMine's sim code updates to reflect rational miner costs, which will allow us to assess our options for next upgrade  
 **\<suraeNoether>**	my action items are: matching simulations and hypothesis testing, and my alternatives-to-ring-signatures-aren't-much-better technical note  
-**\<learninandlurkin>**	I'll look forward to that suraeNoether. With ringsigs being our main weakness and also the main missing component of Grin (as compared to XMR) I think this are of research will have big implications.  
+**\<learninandlurkin>**	I'll look forward to that suraeNoether. With ringsigs being our main weakness and also the main missing component of Grin (as compared to BTR) I think this are of research will have big implications.  
 **\<silur>**	ringsigs are our main weakness?  
 **\<silur>**	what happenned with RTRS?  
 **\<sarang>**	It remains an option, but one that requires a lot of overhauling for still being ring sigs :.  

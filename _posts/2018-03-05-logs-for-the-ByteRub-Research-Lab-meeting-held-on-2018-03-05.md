@@ -20,12 +20,12 @@ author: el00ruobuob / surae
 **\<sarang>** Sure  
 **\<sarang>** The BP audit fundraising FFS is ready and in Open Tasks, waiting for an admin to move to Funding Required  
 **\<sarang>** We're setting a stretch goal of 3 auditors, and will fund as many as we raise funds for  
-**\<sarang>** Kudelski is pushing back on payment in XMR, but I'm trying to get them to work with OSTIF  
-**\<sarang>** If they do, we can pay OSTIF in XMR and they'll convert to USD and pay the auditor  
+**\<sarang>** Kudelski is pushing back on payment in BTR, but I'm trying to get them to work with OSTIF  
+**\<sarang>** If they do, we can pay OSTIF in BTR and they'll convert to USD and pay the auditor  
 **\<fluffypony>** FFS has been moved  
 **\<sarang>** Thanks fluffypony  
 **\<sarang>** Otherwise we have to ensure that we can legally do the exchange to USD and pay them ourselves  
-**\<sarang>** As soon as we have enough XMR for Bunz, we'll hire him  
+**\<sarang>** As soon as we have enough BTR for Bunz, we'll hire him  
 **\<sarang>** then QuarksLab, then Kudelski  
 **\<sarang>** If we can't reach an arrangement with Kudelski, we can replace them with X41, which will work with OSTIF for payment  
 **\<sarang>** Other than that, working on some Pippenger stuff for fast multiexponentiation, reviewed a few papers regarding RingCT  
@@ -77,7 +77,7 @@ author: el00ruobuob / surae
 **\<andytoshi>** i think i can get a bit more by combining generators at some levels  
 **\<sarang>** We did basically zero optimizations to the prover, since that's done once  
 **\<sarang>** suraeNoether: auditing the implementation would be key  
-**\<suraeNoether>** if we have money left over from the BP audit, I would be happy sitting on the leftover XMR for a month to see if we can get an audit of multi-ringCT out of a single funding round  
+**\<suraeNoether>** if we have money left over from the BP audit, I would be happy sitting on the leftover BTR for a month to see if we can get an audit of multi-ringCT out of a single funding round  
 **\<sarang>** I very much doubt we'd have enough to fund another complete audit  
 **\<sarang>** Might depend on price movement  
 **\<suraeNoether>** eh, who knows where the market will be in a month  

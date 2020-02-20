@@ -8,8 +8,8 @@ author: el00ruobuob / rehrar
 
 # Logs  
 
-**\<xmrmatterbridge> \<rehrar>** 1. Greetings  
-**\<xmrmatterbridge> \<rehrar>** Who all is out there?  
+**\<btrmatterbridge> \<rehrar>** 1. Greetings  
+**\<btrmatterbridge> \<rehrar>** Who all is out there?  
 **\<rbrunner>** Hoy zäme  
 **\<ErCiccione[m]>** Hi  
 **\<sarang>** Here, partially (in two meetings at once)  

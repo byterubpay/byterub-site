@@ -245,7 +245,7 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<endogenic>** msvb-lab: no need to post-pone. maybe bring it up in #ByteRub ?  
 **\<dEBRUYNE>** rehrar, endogenic: If there's room left, why not give msvb-lab the floor for a few minutes?  
 **\<byterubmooo>** It may not be code per se, but it's tech. I think it's fine here. Still 10 minutes.  
-**\<othe>** I'll just sponsor it, its hilarious that there's no secure way to store xmr.  
+**\<othe>** I'll just sponsor it, its hilarious that there's no secure way to store btr.  
 **\<endogenic>** kk  
 **\<fluffypony>** msvb-lab: a dedicated wallet would be cool  
 **\<rehrar>** well that's decided then isn't it?  

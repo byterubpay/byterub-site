@@ -12,7 +12,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/293  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** what up, scrubs?  
 **\<el00ruobuob\_[m]>** Hi!  
@@ -21,7 +21,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<i\_a>** it looks like I wisely attended golden edition:P  
 **\<sgp\_>** every community meeting is a golden edition:)  
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** ByteRub was recently added to cryptocurrency ATMs in Switzerland: https://blog.bity.com/2018/12/04/buy-xmr-with-cash-crypto-atms/  
+**\<sgp\_>** ByteRub was recently added to cryptocurrency ATMs in Switzerland: https://blog.bity.com/2018/12/04/buy-btr-with-cash-crypto-atms/  
 **\<ErCiccione[m]>** Hi  
 **\<sgp\_>** u/cheesebaron wrote about their expereince using one of these ATMs here: https://www.reddit.com/r/ByteRub/comments/a3fusi/just\_used\_bity\_byterub\_atm\_in\_switzerland/  
 **\<byterubbux>** [REDDIT] Just used BITY ByteRub ATM in Switzerland (self.ByteRub) | 100 points (96.0%) | 25 comments | Posted by Cheesebaron | Created at 2018-12-05 - 19:51:26  
@@ -54,19 +54,19 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 3. FFS updates  
 **\<sgp\_>** Lots of activity here. Hold on to your hats  
 **\<sgp\_>** Recently funded FFS proposals:  
-**\<sgp\_>** Funding for development of Reproducible Builds (13 / 9 XMR) https://forum.getbyterub.org/8/funding-required/91098/funding-for-development-of-reproducible-builds  
+**\<sgp\_>** Funding for development of Reproducible Builds (13 / 9 BTR) https://forum.getbyterub.org/8/funding-required/91098/funding-for-development-of-reproducible-builds  
 **\<sgp\_>** FFS proposals still needing funding:  
-**\<sgp\_>** Surae Noether: First Denver ByteRub Konferenco, Spring 2019 (112.76 / 591 XMR) https://forum.getbyterub.org/8/funding-required/90909/surae-noether-first-denver-byterub-konferenco-spring-2019  
-**\<sgp\_>** ByteRub Outreach: Round 2 (23.97 / 84 XMR) https://forum.getbyterub.org/8/funding-required/91054/byterub-outreach-round-2  
-**\<sgp\_>** Team Monerujo: Part-Time December-February (75.53 / 220 XMR) https://forum.getbyterub.org/8/funding-required/91137/team-monerujo-part-time-december-february  
-**\<sgp\_>** Sarang: funding for January-March 2019 (77.48 / 533 XMR) https://forum.getbyterub.org/8/funding-required/91242/sarang-funding-for-january-march-2019  
-**\<sgp\_>** byterubmooo: january – march coding (107.47 / 368 XMR) https://forum.getbyterub.org/8/funding-required/91206/byterubmooo-january-march-coding  
-**\<sgp\_>** Surae: Dec 2018 – Mar 2019 (78.33 / 620 XMR) https://forum.getbyterub.org/8/funding-required/91251/surae-dec-2018-mar-2019  
+**\<sgp\_>** Surae Noether: First Denver ByteRub Konferenco, Spring 2019 (112.76 / 591 BTR) https://forum.getbyterub.org/8/funding-required/90909/surae-noether-first-denver-byterub-konferenco-spring-2019  
+**\<sgp\_>** ByteRub Outreach: Round 2 (23.97 / 84 BTR) https://forum.getbyterub.org/8/funding-required/91054/byterub-outreach-round-2  
+**\<sgp\_>** Team Monerujo: Part-Time December-February (75.53 / 220 BTR) https://forum.getbyterub.org/8/funding-required/91137/team-monerujo-part-time-december-february  
+**\<sgp\_>** Sarang: funding for January-March 2019 (77.48 / 533 BTR) https://forum.getbyterub.org/8/funding-required/91242/sarang-funding-for-january-march-2019  
+**\<sgp\_>** byterubmooo: january – march coding (107.47 / 368 BTR) https://forum.getbyterub.org/8/funding-required/91206/byterubmooo-january-march-coding  
+**\<sgp\_>** Surae: Dec 2018 – Mar 2019 (78.33 / 620 BTR) https://forum.getbyterub.org/8/funding-required/91251/surae-dec-2018-mar-2019  
 **\<sgp\_>** Proposals in ideas:  
 **\<rehrar>** I'll put mine up to go to C3 soon  
-**\<sgp\_>** oneiric: Full-time Kovri developer December to February (391.78 XMR) https://forum.getbyterub.org/6/ideas/91264/oneiric-full-time-kovri-developer-december-to-february  
-**\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup (159 XMR) https://forum.getbyterub.org/6/ideas/91261/erciccione-coordinator-of-the-localization-workgroup  
-**\<sgp\_>** ByteRub Integrations Update (7.5 XMR) https://forum.getbyterub.org/6/ideas/91259/byterub-integrations-update  
+**\<sgp\_>** oneiric: Full-time Kovri developer December to February (391.78 BTR) https://forum.getbyterub.org/6/ideas/91264/oneiric-full-time-kovri-developer-december-to-february  
+**\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup (159 BTR) https://forum.getbyterub.org/6/ideas/91261/erciccione-coordinator-of-the-localization-workgroup  
+**\<sgp\_>** ByteRub Integrations Update (7.5 BTR) https://forum.getbyterub.org/6/ideas/91259/byterub-integrations-update  
 **\<sgp\_>** ping serhack cryptochangements  
 **\<sgp\_>** Lots to unpack here  
 **\<parasew[m]>** hey everyone, sorry for coming late (irc troubles)  
@@ -232,7 +232,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob>** of course, hangout may be discuss on the gitlab issue  
 **\<sgp\_>** We are considering making a "Breaking ByteRub" video series where we discuss a specific ByteRub limitation and for ~15 mins  
 **\<SlyFerret>** i need to start christmas shopping.  
-**\<SlyFerret>** gonna see if i can buy all with xmr  
+**\<SlyFerret>** gonna see if i can buy all with btr  
 **\<midipoet>** sgp: cool idea  
 **\<oneiric\_>** rehrar: love monono  
 **\<sgp\_>** then we would have a clearer resource for people who don't idle around in #byterub-research-lab all day  
@@ -245,7 +245,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on Saturday December 22 at 17:00 UTC.  
 **\<sgp\_>** The next ByteRub Coffee Chat will take place next week on Saturday December 15 at 17:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 7. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<el00ruobuob>** thank you!  

@@ -67,7 +67,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  binaryFate: no we did a couple of actual dev meetings   
 **\<fluffypony>**  but it's tough to sustain  
 **\<binaryFate>**  Oh ok  
-**\<xmrpromotions>**  I think typing is fine too.  
+**\<btrpromotions>**  I think typing is fine too.  
 **\<ArticMine>**  This is fine  
 **\<fluffypony>**  agreed  
 **\<fluffypony>**  plus there are people working on ByteRub that would prefer not to have to use a voice changer just to participate :-P  
@@ -182,7 +182,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<byterubmooo>**  There's also the potential thing about not being able to use the 0mq version in time for the next 6-month fork. It wasn't exactly usable yet last I hacked on it.  
 **\<binaryFate>**  Common sense might work now, long term with a higher market cap we'll face same issues as btc  
 **\<binaryFate>**  Where common sense diverges and the code Base ossifies  
-**\<xmrpromotions>**  As a non programmer smooths comment seems like the safer approach. Thank you for clarifying the master vs dev branch issue fluffy. http://rfc.zeromq.org/spec:22 sounded scary as applied to PRs sent to master before dev  
+**\<btrpromotions>**  As a non programmer smooths comment seems like the safer approach. Thank you for clarifying the master vs dev branch issue fluffy. http://rfc.zeromq.org/spec:22 sounded scary as applied to PRs sent to master before dev  
 **\<fluffypony>**  smooth: it doesn't preclude it  
 **\<fluffypony>**  byterubmooo: as it stands we're probably going to push the fork date out a little to see if we have enough room to work on RingCT, so that's fine  
 **\<binaryFate>**  What's the envisionned time scale for ringct?  
@@ -214,8 +214,8 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  I don't think we need to create a pressure-cooker for it  
 **\<fluffypony>**  ok can I go on?  
 **\<ArticMine>**  There are trade offs here. I see problems if dev and master deviate materially  
-**\<xmrpromotions>**  it seems like 3 branches as smooth mentioned would be easiest for everyone in long run even if it requires more effort now. 1.dev 3. release and bug fixes  
-**\<fluffypony>**  xmrpromotions: otoh we can backport fixes straight into master to allow for immediate testing by affected parties  
+**\<btrpromotions>**  it seems like 3 branches as smooth mentioned would be easiest for everyone in long run even if it requires more effort now. 1.dev 3. release and bug fixes  
+**\<fluffypony>**  btrpromotions: otoh we can backport fixes straight into master to allow for immediate testing by affected parties  
 **\<ArticMine>**  With bug fixes as a transition from dev to master  
 **\<fluffypony>**  again depends on the nature of the bugfix   
 **\<fluffypony>**  like warptangent's work on BDB and the importer probably aren't critical enough to go into master  
@@ -343,7 +343,7 @@ fluffypony extends his gratitude to all contributors, and everyone makes their w
 **\<fluffypony>**  so here's to an amazing 2016  
 **\<gingeropolous>**  hear hear! thank you fluffypony for herding the cats so good  
 **\<Bassica>**  hear hear!  
-**\<xmrpromotions>**  thank you!  
+**\<btrpromotions>**  thank you!  
 **\<ArticMine>**  Thanks for all the good work  
 **\<fluffypony>**  thus concludes the first meeting, next one in two weeks  
 **\<warptangent>**  thanks fluffypony  

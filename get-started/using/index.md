@@ -47,7 +47,7 @@ permalink: /get-started/using/index.html
                     <div class="row middle-xs">
                        <div class="col-lg-7 col-md-6 col-sm-8 col-xs-8  why-text">
                             <h2>{% t using.generate %}</h2>
-                            <p>{% t using.generate_para1 %} <a href="{{site.baseurl}}/downloads/">{% t using.generate_para2 %}</a> {% t using.generate_para3 %}</p><p>{% t using.generate_para4 %} <a href="https://interserver.net/dock/vps-231552.html">InterServer.net</a> {% t using.generate_para5 %} 'MONERO' {% t using.generate_para6 %} <a href="https://interserver.net/dock/vps-231552.html">{% t using.generate_para7 %}</a> {% t using.generate_para8 %}</p>
+                            <p>{% t using.generate_para1 %} <a href="{{site.baseurl}}/downloads/">{% t using.generate_para2 %}</a> {% t using.generate_para3 %}</p><p>{% t using.generate_para4 %} <a href="https://interserver.net/dock/vps-231552.html">InterServer.net</a> {% t using.generate_para5 %} 'BYTERUB' {% t using.generate_para6 %} <a href="https://interserver.net/dock/vps-231552.html">{% t using.generate_para7 %}</a> {% t using.generate_para8 %}</p>
                         </div>
                         <div class="col-lg-5 col-md-6 col-sm-4 col-xs-4 center-xs">
                             <img src="/img/create-wallet.png" alt="Learn online, read or talk to people" class="main-icon">

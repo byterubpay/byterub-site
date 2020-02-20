@@ -1,7 +1,7 @@
 ---
 layout: post
 title: External Projects for the Week of 2015-03-09
-summary: MyByteRub adds wallet importing, and an interview with the xmr.to team
+summary: MyByteRub adds wallet importing, and an interview with the btr.to team
 tags: [byterub missives, external, usability, mybyterub, accounts]
 author: Riccardo Spagni (fluffypony)
 forum: https://forum.getbyterub.org/1/news-announcements-and-editorials/206/monday-byterub-missives-25-march-9th-2015
@@ -13,11 +13,11 @@ To download the podcast directly please [use this link to the MP3](http://traffi
 
 A brief summary of the points discussed follows, a full transcription of the podcast is below that and was kindly transcribed by goin2mars. You can donate to him for his transcription efforts: 4AzncXEK71uEtNtSKJjaX845XnJr9s7onXYNSBPTB2AGNnPbTjaN5W72qo8YgSSYsLGcr5pTBQkjnE7ADn6XbbHG2CTvvU1
 
-In this week's podcast we cover external projects, with an interview with the [xmr.to](http://xmr.to) team.
+In this week's podcast we cover external projects, with an interview with the [btr.to](http://btr.to) team.
 
-1. [MyByteRub](https://mybyterub.com) has added existing wallet import functionality. Just use your 25 word mnemonic from simplewallet when logging in, and after paying the 10 XMR once-off fee your wallet will be available in MyByteRub.
+1. [MyByteRub](https://mybyterub.com) has added existing wallet import functionality. Just use your 25 word mnemonic from simplewallet when logging in, and after paying the 10 BTR once-off fee your wallet will be available in MyByteRub.
 
-2. An interview with two members of the xmr.to team, binaryFate and Krongle, discussing some of the system's inner workings and challenges they've faced.
+2. An interview with two members of the btr.to team, binaryFate and Krongle, discussing some of the system's inner workings and challenges they've faced.
 
 Until next week!
 
@@ -75,9 +75,9 @@ Oh cool, so you just log in to check like how much you have in your account, to 
 
 Ja, and its not in a manner that can be exploited, because we wont have your spend key, and even if we try to change the JavaScript we still wouldn't have your spend key.
 
-Ok so pretty much since we last did external projects there's a newcomer on the scene that's kinda exciting: xmr.to. And that's why today we have Krongle and binaryFate who are both from xmr.to, they're part of the team.
+Ok so pretty much since we last did external projects there's a newcomer on the scene that's kinda exciting: btr.to. And that's why today we have Krongle and binaryFate who are both from btr.to, they're part of the team.
 
-So to start off why don't you guys tell us a little bit about what xmr.to is, either of you?
+So to start off why don't you guys tell us a little bit about what btr.to is, either of you?
 
 #### Krongle
 
@@ -89,15 +89,15 @@ So the idea was quite a simple one...just try and enable people to spend ByteRub
 
 #### Riccardo
 
-binaryFate, can you tell us a little bit about how xmr.to works from a user's perspective?
+binaryFate, can you tell us a little bit about how btr.to works from a user's perspective?
 
 #### binaryFate
 
 From the user perspective, it's quite simple in fact. Basically you have a friend you want to send to Bitcoin to, or you have a BitPay bill to purchase something online, you are given a Bitcoin address and you send a Bitcoin amount.
 
-What xmr.to is doing is to be an automatic gateway to pay these bill in Bitcoin for you, and for you sending us some XMR. So in the end it boils down to the ability for the user to purchase anything with Bitcoin, while only spending ByteRubs.
+What btr.to is doing is to be an automatic gateway to pay these bill in Bitcoin for you, and for you sending us some BTR. So in the end it boils down to the ability for the user to purchase anything with Bitcoin, while only spending ByteRubs.
 
-So xmr.to gives the possibility to the end user, basically, to send Bitcoin - so to purchase any kind of goods online with Bitcoin that is now probably accepted unlike ByteRubs for the moment - so the user can purchase stuff with Bitcoin by only paying ByteRub.
+So btr.to gives the possibility to the end user, basically, to send Bitcoin - so to purchase any kind of goods online with Bitcoin that is now probably accepted unlike ByteRubs for the moment - so the user can purchase stuff with Bitcoin by only paying ByteRub.
 
 #### Gingeropolous
 
@@ -137,7 +137,7 @@ mhm
 
 #### binaryFate
 
-because ByteRub is not traceable back so we can really the only information that we know about you is your ip address but if you reach xmr.to through some um anonymous networks like tor i2p then there is not much that we can do even if we were some really bad guys we would like to we couldn't do anything basically which is very nice
+because ByteRub is not traceable back so we can really the only information that we know about you is your ip address but if you reach btr.to through some um anonymous networks like tor i2p then there is not much that we can do even if we were some really bad guys we would like to we couldn't do anything basically which is very nice
 
 Gingeropolus
 yeah
@@ -197,7 +197,7 @@ if in the future this becomes an issue say bitpay suddenly decides to change thi
 
 
 Gingeropolus
-now if i could ask just one other question. i don't know this one that you probably might not want to answer but I'm curious how does this work on the back end. like can you give any sort of like brief synopsis of that. because I'm curious like do you take the xmr and then go and buy the bitcoin like where does the bitcoin come from in this i guess is the question.
+now if i could ask just one other question. i don't know this one that you probably might not want to answer but I'm curious how does this work on the back end. like can you give any sort of like brief synopsis of that. because I'm curious like do you take the btr and then go and buy the bitcoin like where does the bitcoin come from in this i guess is the question.
 
 #### Krongle
 

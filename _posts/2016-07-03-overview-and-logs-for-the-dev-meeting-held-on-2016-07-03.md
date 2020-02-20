@@ -122,7 +122,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<fluffypony>** ok I think that brings the meeting to a close - Kovri meeting is only in 23 minutes, so feel free to add / discuss new things and it'll be in the log  
 **\<hyc>** i got nothing, catch y'all next time  
 **\<gingah>** any new thoughts on the auto fee thing?  
-**\<rg>** id like to bring up the most imporant issue, fluffypony -- free XMR for me  
+**\<rg>** id like to bring up the most imporant issue, fluffypony -- free BTR for me  
 **\<fluffypony>** gingah: auto fee?  
 **\<byterubmooo>** The thing ArticMine was looking at - scaling fees based on... stuff.  
 **\<ArticMine>** Setting fees based on the blocksize  

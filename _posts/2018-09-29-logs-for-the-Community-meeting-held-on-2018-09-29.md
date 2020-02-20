@@ -13,17 +13,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>**  0. Introduction  
 **\<sgp_>**  We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp_>**  Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/280  
-**\<sgp_>**  ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp_>**  ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp_>**  1. Greetings  
 **\<el00ruobuob_[m]>** Hello!  
 **\<ErCiccione>** Hi  
 **\<midipoet>** Greets  
-**\<xmrmatterbridge> \<txmr>** Hi  
+**\<btrmatterbridge> \<tbtr>** Hi  
 **\<rehrar>** hi  
 **\<lafudoci>** Hi  
 **\<sgp_>** welcome everyone  
 **\<sgp_>**  2. Community highlights  
-**\<xmrmatterbridge> \<serhack>** Hi  
+**\<btrmatterbridge> \<serhack>** Hi  
 **\<sgp_>**  UNICEF France now accepts payment in cryptocurrencies, including ByteRub: https://blockmanity.com/news/cryptocurrency-good-unicef-france-now-accepts-donations-cryptocurrencies/  
 **\<sgp_>**  Diego gave a great speech about ByteRub on the “New Kids on the Blockchain” channel: https://www.youtube.com/watch?v=3G2G8VOE5ks  
 **\<byterubbux>** [ 🔥ByteRub - Privacy Coin Crypto News! 🔥 blockchain technology - YouTube ] - www.youtube.com  
@@ -77,7 +77,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp_>**  Does anyone else have a FFS update, or comments about any of these FFS proposals?  
 **\<el00ruobuob_[m]>** m2046r's FFS needs to be moved down to funding  
 **\<ErCiccione>** ^ +1  
-**\<xmrmatterbridge> \<txmr>** +1  
+**\<btrmatterbridge> \<tbtr>** +1  
 **\<rehrar>** will ping luigi about it  
 **\<sgp_>** thanks  
 **\<sgp_>**  4. Workgroup report  
@@ -135,11 +135,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** some days ago i made a call for translators for monerujo. It has some new strings and would be great to have people work on them. You can find the tasks marked as 'needed' on our Taiga backlog https://taiga.getbyterub.org/project/erciccione-byterub-localization/backlog  
 **\<ErCiccione>** on the 'Monerujo' sprint  
 **\<ErCiccione>** that's all for the news, but i need feedback from the community about a minor thing  
-**\<ErCiccione>** i recently got a complete translation for the GUI in ... pirate language, from xmraargh, or whatever he is called  
+**\<ErCiccione>** i recently got a complete translation for the GUI in ... pirate language, from btraargh, or whatever he is called  
 **\<sgp_>** lmao  
 **\<m2049r>** excellent  
 **\<ErCiccione>** i mean, it's obviously not a serious translation, but it's complete and with its own flag. i would PR it and include it just for the lols, but i don't know how the community feels about it  
-**\<xmrmatterbridge> \<txmr>** +1.  =)  
+**\<btrmatterbridge> \<tbtr>** +1.  =)  
 **\<ErCiccione>** you can find it here: https://github.com/erciccione/byterub-core/tree/pirate-lang  
 **\<midipoet>** I think the ByteRub community, on the whole, are quite receptive to jokes.  
 **\<ErCiccione>** and the flag displayed would be https://github.com/erciccione/byterub-core/blob/pirate-lang/lang/flags/pirate.png  
@@ -185,26 +185,26 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<midipoet>** Also, Mastering ByteRub should be close....at least the authors were saying that recently...maybe send a pre publishing version?  
 **\<sgp_>** I wonder if this is something serhack can handle with the Integrations workgroup  
 **\<m2049r>** it may be good if more people reviewed ",mastering byterub"  
-**\<xmrmatterbridge> \<serhack>** I have already contacted the Openbazaar team for ByteRub :)  
+**\<btrmatterbridge> \<serhack>** I have already contacted the Openbazaar team for ByteRub :)  
 **\<sgp_>** this was a while ago, right?  
-**\<xmrmatterbridge> \<serhack>** Regarding Mastering ByteRub, we are so close to releasing :) I'm improving the final details.  
-**\<xmrmatterbridge> \<serhack>** Yes, it was a while ago. But I'm re- contacting them to discuss about ByteRub.  
+**\<btrmatterbridge> \<serhack>** Regarding Mastering ByteRub, we are so close to releasing :) I'm improving the final details.  
+**\<btrmatterbridge> \<serhack>** Yes, it was a while ago. But I'm re- contacting them to discuss about ByteRub.  
 **\<sgp_>** do you remember what they said last time?  
-**\<xmrmatterbridge> \<serhack>** They were waiting for a detailed multisig explaination.  
+**\<btrmatterbridge> \<serhack>** They were waiting for a detailed multisig explaination.  
 **\<sgp_>** ah, I remember that now  
 **\<midipoet>** I actually can't wait for Mastering ByteRub. :-)  
 **\<sgp_>** it looks like they still need a lot of help understanding ByteRub better  
-**\<xmrmatterbridge> \<serhack>** I forward the paper and then we are discussing how we could integrate ByteRub.  
+**\<btrmatterbridge> \<serhack>** I forward the paper and then we are discussing how we could integrate ByteRub.  
 **\<midipoet>** sgp_: doesn't everyone!  
-**\<xmrmatterbridge> \<serhack>** Since OpenBazaar has a "multi-wallet" API, it's important to think firstly to protect privacy via ByteRub via OB.  
+**\<btrmatterbridge> \<serhack>** Since OpenBazaar has a "multi-wallet" API, it's important to think firstly to protect privacy via ByteRub via OB.  
 **\<sgp_>** serhack can you ping rehrar a few times to learn more about Exodus needs?  
-**\<xmrmatterbridge> \<rehrar>** K  
-**\<xmrmatterbridge> \<serhack>** Sure :)  
+**\<btrmatterbridge> \<rehrar>** K  
+**\<btrmatterbridge> \<serhack>** Sure :)  
 **\<sgp_>** Any other thoughts?  
 **\<sgp_>** I had one idea for the VRP. I recommended to fluffypony that the VRP workgroup has a quarterly meeting to receive community feedback on the VRP process  
 **\<sgp_>** if everyone is ready to call it quits for today, we can wrap up this meeting. thanks for coming!  
 **\<sgp_>**  6. Confirm next meeting date/time  
-**\<sgp_>**  The next community meeting will be two weeks from today on 13 October at 17:00 UTC. When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp_>**  The next community meeting will be two weeks from today on 13 October at 17:00 UTC. When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp_>**  The next Coffee Chat will be on the 20 October at 16:00 UTC. Right after the protocol upgrade :)  
 **\<sgp_>**  7. Conclusion  
 **\<sgp_>**  That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  

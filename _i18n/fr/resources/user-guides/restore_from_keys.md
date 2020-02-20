@@ -48,6 +48,6 @@ Indiquez vos paramètres de démon, et cliquez sur la flèche `Droite` :
 
 ![daemon settings](png/restore_from_keys/daemon-settings.png)
 
-Cliquez sur `UTILISER MONERO` pour profiter de votre portefeuille restauré :
+Cliquez sur `UTILISER BYTERUB` pour profiter de votre portefeuille restauré :
 
 ![all set up](png/restore_from_keys/all-set-up.png)

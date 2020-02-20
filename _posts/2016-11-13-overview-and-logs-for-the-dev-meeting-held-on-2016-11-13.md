@@ -192,7 +192,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<gingeropolous>** would the dev branch approach be a way to get around the merge "bottleneck" ? i assume its still complicated b/c of zeromq..  
 **\<gingeropolous>** or are u talking about core. (i will shut up now)  
 **\<_Slack> \<nanoakron>** What's the plan if something horrible happens to you FP, like going on holiday for a month without internet access?  
-**\<proxmr>** Hello guys  
+**\<probtr>** Hello guys  
 **\<@fluffypony>** gingeropolous: no, you still can't have fine-grained collaborators on a per-branch basis  
 **\<endogenic>** nanoakron: dead pony switch?  
 **\<_Slack> \<nanoakron>** Lol. Yeah :) (also :( )  
@@ -206,15 +206,15 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<Jaquee>** imo we can leave this subject for now.  
 **\<Jaquee>** any more questions regarding the gui?  
 **\<asdef>** irc logs anywhere? for people who came too late  
-**\<proxmr>** Is the gui coming in 2 days ?  
+**\<probtr>** Is the gui coming in 2 days ?  
 **\<maitscha>** Jaquee: how can I start the GUI under MacOS and get the console output?  
-**\<@fluffypony>** proxmr: no, that's not how software development works  
+**\<@fluffypony>** probtr: no, that's not how software development works  
 **\<Jaquee>** maitscha: one sec  
 **\<maitscha>** Jaquee: that would help debugging ...  
 **\<Jaquee>** maitscha: build/release/bin/byterub-core.app/Contents/MacOS/byterub-core  
 **\<asdef>** any screenshots already existing? so we can see an be happy?  
 **\<Jaquee>** in byterub-core dir  
-**\<proxmr>** Sorry, some guy just told me on some forum, so i came to check. i appologize  
+**\<probtr>** Sorry, some guy just told me on some forum, so i came to check. i appologize  
 **\<maitscha>** ah ok  
 **\<iDunk>** maitscha: doesn't it give outout when started from the command line like on linux?  
 **\<medusa_>** asdef: check reddit  

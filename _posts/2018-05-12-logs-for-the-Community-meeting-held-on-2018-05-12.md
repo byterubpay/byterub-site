@@ -17,26 +17,26 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ArticMine>** Hi  
 **\<rehrar>** What up?  
 **\<ErCiccione>** Buonasera  
-**\<xmrscott[m]>** Hey hey hey  
+**\<btrscott[m]>** Hey hey hey  
 **\<sgp\_>** Welcome all  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** Watch the Coffee Chat from last week: https://www.youtube.com/watch?v=8-CXKJetI-o  
 **\<byterubbux>** [ ByteRub Coffee Chat - 2018.05.05 - YouTube ] - www.youtube.com  
 **\<sgp\_>** A Vienna Italian restaurant accepts ByteRub: https://www.reddit.com/r/ByteRub/comments/8flevq/my\_family\_runs\_an\_authentic\_italian\_restaurant\_in/  
 **\<byterubbux>** [REDDIT] My family runs an authentic Italian restaurant in Vienna, Austria . After talking about it and explaining them what byterub is and why it is better than other crypto coins we decided to accept byterub payments starting next week! (https://i.redd.it/c6g3aj35rou01.jpg) to r/ByteRub | 682 points (95.0%) | 110 comments | Posted by Katsura9000 | Created at 2018-04-28 - 17:37:18  
-**\<sgp\_>** NordVPN now accepts ByteRub payments: https://www.reddit.com/r/ByteRub/comments/8gr8lf/nordvpn\_now\_accepting\_xmr\_payments/  
-**\<byterubbux>** [REDDIT] NordVPN Now Accepting XMR payments (self.ByteRub) | 370 points (98.0%) | 58 comments | Posted by thegreenbonsai | Created at 2018-05-03 - 15:31:39  
+**\<sgp\_>** NordVPN now accepts ByteRub payments: https://www.reddit.com/r/ByteRub/comments/8gr8lf/nordvpn\_now\_accepting\_btr\_payments/  
+**\<byterubbux>** [REDDIT] NordVPN Now Accepting BTR payments (self.ByteRub) | 370 points (98.0%) | 58 comments | Posted by thegreenbonsai | Created at 2018-05-03 - 15:31:39  
 **\<sgp\_>** Circle added ByteRub: https://blog.circle.com/2018/05/07/circle-invest-welcomes-byterub/  
-**\<sgp\_>** M5M400, the admin of supportXMR, sponsored the race car driver Niklas Makschin. He will include the ByteRub logo prominently on his car: https://www.reddit.com/r/ByteRub/comments/8gqsd7/i\_really\_liked\_fluffys\_yacht\_sail\_sponsoring\_but/  
+**\<sgp\_>** M5M400, the admin of supportBTR, sponsored the race car driver Niklas Makschin. He will include the ByteRub logo prominently on his car: https://www.reddit.com/r/ByteRub/comments/8gqsd7/i\_really\_liked\_fluffys\_yacht\_sail\_sponsoring\_but/  
 **\<byterubbux>** [REDDIT] I really liked fluffy's yacht sail sponsoring, but I am more into racecars... (self.ByteRub) | 68 points (93.0%) | 28 comments | Posted by M5M400 | Created at 2018-05-03 - 14:30:43  
 **\<sgp\_>** I introduced a GitHub issue to deprecate standalone payment IDs: https://github.com/byterubpay/byterub/issues/3772  
 **\<sgp\_>** Does anyone else have community updates to share?  
 **\<ErCiccione>** GUI frozen and being translated. Soon out  
 **\<rehrar>** point release soon then?  
 **\<ErCiccione>** as soon as we finish the translations  
-**\<xmrscott[m]>** Within the next week I believe is the target  
+**\<btrscott[m]>** Within the next week I believe is the target  
 **\<sgp\_>** ping endogenic, respond if you have MyByteRub updates  
-**\<xmrscott[m]>** I know at least 6 or so languages have been updated within the first 24 hours or so of the freeze  
+**\<btrscott[m]>** I know at least 6 or so languages have been updated within the first 24 hours or so of the freeze  
 **\<rafficer>** I will finish another one today, and then contacting reviewers  
 **\<\_Slack> \<serhack>** Hi :)  
 **\<rafficer>** Will see when I will create the PR. Is there some date I should create the PR before?  
@@ -58,9 +58,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** The Kastelo hardware wallet moved to funding required, and it is sitting at about 20% funded: https://forum.getbyterub.org/8/funding-required/90126/advancing-byterub-hardware-wallet  
 **\<sgp\_>** SerHack can't be present in this meeting but he really will appreciate if the community could give some feedbacks about Mastering ByteRub draft on Github. (https://github.com/byterubbook/byterubbook/pulls). Let's improve this community again!  
 **\<sgp\_>** rehrar mentioned that the bulletproof audits need more funding  
-**\<sgp\_>** xmrhaelan announced their intent to work on ByteRub public relations. You can see community discussion in several threads including this one: https://www.reddit.com/r/ByteRub/comments/8hcq7u/byterub\_public\_relations\_plan/  
-**\<byterubbux>** [REDDIT] MONERO PUBLIC RELATIONS PLAN (self.ByteRub) | 144 points (94.0%) | 59 comments | Posted by xmrhaelan | Created at 2018-05-06 - 03:51:26  
-**\<sgp\_>** They have already started work on Taiga: https://taiga.getbyterub.org/project/xmrhaelan-byterub-public-relations/  
+**\<sgp\_>** btrhaelan announced their intent to work on ByteRub public relations. You can see community discussion in several threads including this one: https://www.reddit.com/r/ByteRub/comments/8hcq7u/byterub\_public\_relations\_plan/  
+**\<byterubbux>** [REDDIT] BYTERUB PUBLIC RELATIONS PLAN (self.ByteRub) | 144 points (94.0%) | 59 comments | Posted by btrhaelan | Created at 2018-05-06 - 03:51:26  
+**\<sgp\_>** They have already started work on Taiga: https://taiga.getbyterub.org/project/btrhaelan-byterub-public-relations/  
 **\<sgp\_>** Since this is a large and relevant proposal, I would like to open discussion here regarding this public relations proposal.  
 **\<vp11>** can we oficially change the name from Public Release to Education & Overeach or something like that?  
 **\<sgp\_>** I am in favor of the tasks they have laid out. Making a press kit, and easier point of communication for press, and overall refining ByteRub's message  
@@ -76,7 +76,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Well, if there's no further discussion on this, we can move on  
 **\<vp11>** I don't think it's a bad idea, even more if the community participate  
 **\<vp11>** a lot of people fear that pr equals "marketing" and quickly jump the gun thinking that ByteRub will become Dash 2.0  
-**\<sgp\_>** I'll stay in communication with xmrhaelan to get the most out of their ideas  
+**\<sgp\_>** I'll stay in communication with btrhaelan to get the most out of their ideas  
 **\<vp11>** community involvement is key  
 **\<ArticMine>** Yes I agree  
 **\<sgp\_>** Yeah, we don't need to make "Dash... Dash... Dash..." videos. But many things are beneficial without being shilly or cringeworthy  
@@ -118,14 +118,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** if you go to the 'Funding Required' you'll see the tracking challenge still there  
 **\<rehrar>** to my knowledge, none of the issues with the challenge have been resolved (trust)  
 **\<rehrar>** and it doesn't look like they will be  
-**\<rehrar>** there's a lot of XMR sitting there  
-**\<rehrar>** what would it look like to put that XMR toward the hardware wallet?  
+**\<rehrar>** there's a lot of BTR sitting there  
+**\<rehrar>** what would it look like to put that BTR toward the hardware wallet?  
 **\<vp11>** it's not a bad idea, but... why not bulletproofs? or any other project? it would be hard to get everyone in board to donate to the same project, unless it goes directly to the dev fund.  
 **\<cryptochange>** I think it should either go to the hackerone bounty or the hardware wallet  
 **\<rehrar>** vp11: the reason is actually quite simple  
 **\<rehrar>** people have much more incentive to donate to bulletproofs  
 **\<rehrar>** not as much to hardware  
-**\<rehrar>** just trying to maximize the amount of XMR that can be donated  
+**\<rehrar>** just trying to maximize the amount of BTR that can be donated  
 **\<vp11>** onboard* (geez I'm bad today at English)  
 **\<vp11>** rehrar, I agree with you, I was just playing devil's advocate.  
 **\<rehrar>** binaryFate fluffypony  
@@ -133,10 +133,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** smooth too  
 **\<ArticMine>** I do recognize it is a very delicate issue  
 **\<rehrar>** ArticMine, ok, so if I could drum up some consensus within the community, core team could apply the money there?  
-**\<rehrar>** I'd just hate to see that XMR sit there indefinitely when there are other good projects that could get started on their stuff ASAP  
+**\<rehrar>** I'd just hate to see that BTR sit there indefinitely when there are other good projects that could get started on their stuff ASAP  
 **\<ArticMine>** True but the best indication is where the community sends the money  
-**\<rehrar>** heck, elr00noob or however you spell his name is asking for freaking 6 XMR!!!  
-**\<cryptochange>** I think most people would agree the XMR should get moved and not left to rot in a failed FFS  
+**\<rehrar>** heck, elr00noob or however you spell his name is asking for freaking 6 BTR!!!  
+**\<cryptochange>** I think most people would agree the BTR should get moved and not left to rot in a failed FFS  
 **\<rehrar>** and he's been more active than all of us scrubs  
 **\<TheoStorm>** on the HW wallet, I really like the project, but I think the model that Trezor used was better: just do pre orders  
 **\<TheoStorm>** at a premium price  
@@ -264,7 +264,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** done  
 **\<cryptochangement>** done  
 **\<sgp\_>** All right. Any last thoughts before we conclude the meeting?  
-**\<vp11>** #USEXMR  
+**\<vp11>** #USEBTR  
 **\<sgp\_>** 5. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be two weeks from today on 26 May.  
 **\<sgp\_>** 6. Conclusion  

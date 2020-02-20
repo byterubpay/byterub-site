@@ -20,7 +20,7 @@ author: el00ruobuob / rehrar
 **\<el00ruobuob\_[m]>** Hi  
 **\<sarang>** Hi  
 **\<rehrar>** oyo boyo  
-**\<xmrscott[m]>** Yo yo yk  
+**\<btrscott[m]>** Yo yo yk  
 **\<kinghat>** hey  
 **\<rehrar>** Yo yo yk  
 **\<parasew[m]>** hello!  
@@ -30,7 +30,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** CCS proposals in ideas to be discussed (one by one):  
-**\<sgp\_>** “v1docq47: video creation / translations into russian (august – january)” (37.8 XMR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/84  
+**\<sgp\_>** “v1docq47: video creation / translations into russian (august – january)” (37.8 BTR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/84  
 **\<rehrar>** sure  
 **\<sgp\_>** lh1008 indicated support on Gitlab, I also support  
 **\<el00ruobuob\_[m]>** v1docq47 seems to have done a huge amount of work on his previous FFS, i vote for.  
@@ -39,7 +39,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** ne  
 **\<pwrcycle>** I just read the FSS, but seems good to me. I vote yes.  
 **\<sgp\_>** great  
-**\<sgp\_>** second one: “A ByteRub Tip Bot for Telegram” (13 XMR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/86  
+**\<sgp\_>** second one: “A ByteRub Tip Bot for Telegram” (13 BTR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/86  
 **\<rehrar>** he updated prices  
 **\<rehrar>** seems more reasonable now  
 **\<rehrar>** I say sure  
@@ -47,7 +47,7 @@ author: el00ruobuob / rehrar
 **\<jwinterm>** $1k for forking a repo and running bot seem kinda pricey to me  
 **\<jwinterm>** but my dumbass does it for free  
 **\<parasew[m]>** is this the tipping bot which is at use in the byterub-germany tg group?  
-**\<el00ruobuob\_[m]>** i didn't see he updated price. For 13XMR, sounds good to me  
+**\<el00ruobuob\_[m]>** i didn't see he updated price. For 13BTR, sounds good to me  
 **\<pwrcycle>** I don't see the use in a app specifit, channel specific bot. And I think there are other bots that can do this already.  
 **\<pwrcycle>** FFS says: "This bot is the first of its kind..."   I do not agree with that.  
 **\<el00ruobuob\_[m]>** wait, there is a tg tipping bot on byterub-germany parasew[m]?  
@@ -63,13 +63,13 @@ author: el00ruobuob / rehrar
 **\<rehrar>** thx  
 **\<el00ruobuob\_[m]>** not reinventing the wheel could be great here. If there is a bot already, i don't see the benefit of a new one.  
 **\<rehrar>** yep  
-**\<xmrscott[m]>** Agreed, work smarter, not harder as they say  
+**\<btrscott[m]>** Agreed, work smarter, not harder as they say  
 **\<rehrar>** so the prereq of my support is no good bot existing  
 **\<rehrar>** next?  
 **\<sgp\_>** any final comments? seems like this is a reasonable question to address first  
 **\<parasew[m]>** bot might be the same that is the one of the CCS in question. i asked in byterub germany tg  
 **\<sgp\_>** please comment on gitlab when you get more info  
-**\<sgp\_>** third idea: “rehrar-sarang WCC” (30 XMR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/87  
+**\<sgp\_>** third idea: “rehrar-sarang WCC” (30 BTR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/87  
 **\<parasew[m]>** yes sure  
 **\<rehrar>** I vote yes  
 **\<rehrar>** er  
@@ -148,7 +148,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** someone mentioned the @ByteRubTipBot existing Telegram bot and wanted to confirm that it wouldn't be redundant  
 **\<sarang>** (it's not on the agenda but I'm also happy to answer any relevant MRL questions during workgroup Q&A)  
 **\<hahsun>** sgp\_: no it is not redundant. I can confirm.  
-**\<sgp\_>** parasew[m] rehrar pwrcycle jwinterm el00ruobuob\_[m] xmrscott[m] had comments before, any questions?  
+**\<sgp\_>** parasew[m] rehrar pwrcycle jwinterm el00ruobuob\_[m] btrscott[m] had comments before, any questions?  
 **\<pwrcycle>** hahsun: FFS says: "This bot is the first of its kind..." but there seem to be many other tip bots and Telegram bots.  
 **\<el00ruobuob\_[m]>** How is it not redundant with the one mentioned by parasew[m] https://imgur.com/a/S7k3oa2 ?  
 **\<msvb-mob>** No questions from me, thanks.  
@@ -160,7 +160,7 @@ author: el00ruobuob / rehrar
 **\<hahsun>** exactly  
 **\<el00ruobuob\_[m]>** dEBRUYNE, yes, i've been busy on other things, and have to catch back. Will do it soon, i swear  
 **\<dEBRUYNE>** All right, thanks  
-**\<pwrcycle>** How would funds tipped from one user to another be handled? Is the bot wallet in custody of XMR during tipping?  
+**\<pwrcycle>** How would funds tipped from one user to another be handled? Is the bot wallet in custody of BTR during tipping?  
 **\<hahsun>** we are currently testing the bot in various groups with the help of many people to be able to deliver the bot on time. it is very alpha stage right now and bug fixing is ongoing.  
 **\<el00ruobuob\_[m]>** thanks hahsun, so i'm back on my "ok for me" opinion then  
 **\<hahsun>** pwrcycle: the bot wallet is a byterub-wallet-rpc daemon running with the wallet file open on a VPS.  

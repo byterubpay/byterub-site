@@ -51,10 +51,10 @@ author: el00ruobuob / rehrar
 **\<rbrunner>** Ok, makes sense, more or less ...  
 **\<dsc\_>** The fact we package i2p-zero is a convienence feature. I'm also 'integrating' support for Tor but we wont be packaging that. That's basically running Tor and using socks proxy at :9050  
 **\<rehrar>** we GUI people are scrubs  
-**\<xmrmatterbridge> \<xmr-romine>** is there already some doc about running byterubd over tor ?  
+**\<btrmatterbridge> \<btr-romine>** is there already some doc about running byterubd over tor ?  
 **\<dsc\_>** https://github.com/byterubpay/byterub/blob/master/ANONYMITY\_NETWORKS.md  
 **\<dEBRUYNE>** https://github.com/byterubpay/byterub/blob/master/ANONYMITY\_NETWORKS.md & https://github.com/byterubpay/byterub#using-tor  
-**\<xmrmatterbridge> \<xmr-romine>** thanks guys  
+**\<btrmatterbridge> \<btr-romine>** thanks guys  
 **\<rehrar>** hyc any update on randomx audit?  
 **\<rehrar>** The last one?  
 **\<dsc\_>** One more thing regarding i2p-zero.. It can take up to 1-2 minute(s) for the local socks proxy to become 'active' which means, if the user has i2p-zero enabled and starts up the GUI to create a quick tx ... might have to wait a minute or two  

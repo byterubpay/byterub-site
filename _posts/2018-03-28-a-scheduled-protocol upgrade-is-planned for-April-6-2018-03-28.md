@@ -96,6 +96,6 @@ It's in our best interest that the upcoming scheduled network upgrade transits a
 
 https://coinmarketcap.com/currencies/byterub/#markets  
 
-In addition, services that have integrated ByteRub are, for example, XMR.to, Evercoin, Shapeshift, and Changelly.  
+In addition, services that have integrated ByteRub are, for example, BTR.to, Evercoin, Shapeshift, and Changelly.  
 
 Lastly, if you have any questions or need any assistance with upgrading, please leave a comment in this thread and the community and I will help you out.  

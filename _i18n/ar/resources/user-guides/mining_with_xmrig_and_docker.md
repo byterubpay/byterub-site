@@ -10,7 +10,7 @@
 
 [Docker](https://www.docker.com/) يتم استخدامه حيث أنه الأكثر شهرة وغالباً ستجده مُثبت بالفعل.
 
-الكونتينر المُستخدم هو [alpine-xmrig](https://hub.docker.com/r/bitnn/alpine-xmrig/) كما هو مُسمي هو مبني علي صوره [Alpine Linux](https://www.alpinelinux.org/) .
+الكونتينر المُستخدم هو [alpine-btrig](https://hub.docker.com/r/bitnn/alpine-btrig/) كما هو مُسمي هو مبني علي صوره [Alpine Linux](https://www.alpinelinux.org/) .
 
 إذا كنت مهتمًا ببدء استخدام Docker ، فإليك بعض مراجع البدء الجيدة .
 * Arch Linux Wiki [Docker Page](https://wiki.archlinux.org/index.php/Docker)
@@ -19,17 +19,17 @@
 
 للتثبيت الخاص بتوزيعه معينه يرجعي الرجوع إلي موقع  [Docker Docs](https://docs.docker.com/engine/installation/) .
 
-### لماذا XMRig
+### لماذا BTRig
 
-[XMRig](https://github.com/xmrig/xmrig) هو برنامج تعدين قوي. نواتج وإحصائيات سلسه, لا يحتاج إلي تبعيات وحجمه هو حوالي ~4MB مما يجعله سهل التشغيل.
+[BTRig](https://github.com/btrig/btrig) هو برنامج تعدين قوي. نواتج وإحصائيات سلسه, لا يحتاج إلي تبعيات وحجمه هو حوالي ~4MB مما يجعله سهل التشغيل.
 
-#### الخطوه 1: التعدين بواسطه XMRig
+#### الخطوه 1: التعدين بواسطه BTRig
 
 شَغِل التالي:
 
 ```bash
-# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o POOL01 -o POOL02 -u WALLET -p PASSWORD -k
-# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o pool.supportxmr.com:7777 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p docker:secret -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-btrig -o POOL01 -o POOL02 -u WALLET -p PASSWORD -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-btrig -o pool.supportbtr.com:7777 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p docker:secret -k
 ```
 
 #### الخطوه 2: لا يوجد خطوه أخري

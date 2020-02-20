@@ -9,34 +9,34 @@ author: el00ruobuob / rehrar
 # Logs  
 
 **\<dEBRUYNE>** Guess we can start, anyone else here?  ping byterubmooo, rbrunner, selsta, dsc\_, vtnerd, woodser, hyc, jtgrassie, fluffypony, luigi1111, smooth  
-**\<xmrmatterbridge> \<rehrar>** Yes meeting. IRC problems. Sec.  
+**\<btrmatterbridge> \<rehrar>** Yes meeting. IRC problems. Sec.  
 **\<dEBRUYNE>** probably forgot some people  
 **\<fluffypony>** here  
 **\<dEBRUYNE>** sarang and suraeNoether of course  
 **\<byterubmooo>** I am.  
 **\<rbrunner>** Here of course, where else   
-**\<xmrmatterbridge> \<rehrar>** Tor rejecting my login attempts.   
-**\<xmrmatterbridge> \<rehrar>** But present.   
+**\<btrmatterbridge> \<rehrar>** Tor rejecting my login attempts.   
+**\<btrmatterbridge> \<rehrar>** But present.   
 **\<dEBRUYNE>** rehrar, you may lead   
 **\<byterubmooo>** If ypu have a "tor account", that was some phishing site ^\_^  
 **\<italocoin>** :))  
-**\<xmrmatterbridge> \<rehrar>** byterubmooo, it's my SASL. Broken for some reason. Will fix later.   
-**\<xmrmatterbridge> \<rehrar>** Anyways. Greetings is done.   
-**\<xmrmatterbridge> \<rehrar>** So 2. What's been completed since previous meeting.   
+**\<btrmatterbridge> \<rehrar>** byterubmooo, it's my SASL. Broken for some reason. Will fix later.   
+**\<btrmatterbridge> \<rehrar>** Anyways. Greetings is done.   
+**\<btrmatterbridge> \<rehrar>** So 2. What's been completed since previous meeting.   
 **\<jtgrassie>** woodser: inc/exc PR byterubmooo mentioned https://github.com/byterubpay/byterub/pull/5598  
-**\<xmrmatterbridge> \<rehrar>** Anyone have an update? CLI stuff? GUI stuff?  
+**\<btrmatterbridge> \<rehrar>** Anyone have an update? CLI stuff? GUI stuff?  
 **\<dsc\_>** This week ill work closely with Selsta on things concerning GUI  
 **\<byterubmooo>** More work on share-rpc. More work on banning subnets. Mostly.  
 **\<rbrunner>** I had a little success today, with making Windows GUI installer builds reproducible, with several people confirming the same hash: https://old.reddit.com/r/ByteRub/comments/cd0snl/help\_test\_reproducible\_windows\_gui\_installer/  
-**\<xmrmatterbridge> \<rehrar>** dsc\_ as opposed to other weeks when you don't work closely with selsta on things concerning GUI?  
+**\<btrmatterbridge> \<rehrar>** dsc\_ as opposed to other weeks when you don't work closely with selsta on things concerning GUI?  
 **\<dEBRUYNE>** To add to the GUI, dsc\_ opened a few pull request to improve Tails support  
 **\<italocoin>** dsc\_ i've tested GUI and works well, any known bugs?  
-**\<xmrmatterbridge> \<rehrar>** rbrunner what's the time frame you want for that? I can put it in the next Revuo as a volunteer opportunity, but they come out on Thursdays.   
+**\<btrmatterbridge> \<rehrar>** rbrunner what's the time frame you want for that? I can put it in the next Revuo as a volunteer opportunity, but they come out on Thursdays.   
 **\<dEBRUYNE>** xiphon made a pull request to properly store the integrated address (previously it was stored as plain address + short encrypted payment ID)  
 **\<rbrunner>** Not sure what you mean about volunteers. I think confirmation is already here, see the posts in that thread  
 **\<dsc\_>** italocoin: There are always some bugs but must say latest release was a solid one. For problems best to visit our issue tracker.  
 **\<dsc\_>** rehrar: Yes, exactly  
-**\<xmrmatterbridge> \<rehrar>** rbrunner, noted. Thanks for the info.   
+**\<btrmatterbridge> \<rehrar>** rbrunner, noted. Thanks for the info.   
 **\<italocoin>** dsc\_ one thing that i think we should worok on, is that when you send yourself a payment, it should be a small note there that was sent to yourself, if not you get sent 0  
 **\<dsc\_>** italocoin: this has been reported by kico earlier, I believe  
 **\<italocoin>** that confuses some people  
@@ -48,8 +48,8 @@ author: el00ruobuob / rehrar
 **\<italocoin>** for regular people it is confusing for sure, my idea would be just to add a note that was sent to yourself and just show the fee or someting like that  
 **\<byterubmooo>** Though... stoffu made some change to the derivations when he introduced subaddresses, and it might be that they can be distinguished nowadays...  
 **\<italocoin>** byterubmooo: if its sent to subaddress i think you are right, but if the wallet gets rescaned or created again, the 0 its unavoidable i think  
-**\<xmrmatterbridge> \<rehrar>** Alright nothing else?  
-**\<xmrmatterbridge> \<rehrar>** Oops. Stupid delay.   
+**\<btrmatterbridge> \<rehrar>** Alright nothing else?  
+**\<btrmatterbridge> \<rehrar>** Oops. Stupid delay.   
 **\<rehrar>** from the ashes I rise  
 **\<rehrar>** ok, next topic  
 **\<fluffypony>** release?  

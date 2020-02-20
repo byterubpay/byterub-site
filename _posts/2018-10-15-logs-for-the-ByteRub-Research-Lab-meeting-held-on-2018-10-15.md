@@ -22,11 +22,11 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** Good question, hyc! Right now it's looking to be one of the weekends between April 27 and June 15 in Denver, Colorado. invited speakers will be reimbursed for their travel costs  
 **\<suraeNoether>** assuming the community decides to fund my proposal, that is  
 **\<hyc>** cool  
-**\<sarang>** Can reimbursement be in XMR?  
+**\<sarang>** Can reimbursement be in BTR?  
 **\<suraeNoether>** I'm leaning toward April 27, personally  
 **\<sarang>** Or are there weird legally things with that  
 **\<kovri-slack> \<oneiric>** I could do one, or defer to anonimal if he wanted to do one  
-**\<suraeNoether>** yes, reimbursement can be done in XMR, it just makes accounting moderately more annoying, but no legal issues  
+**\<suraeNoether>** yes, reimbursement can be done in BTR, it just makes accounting moderately more annoying, but no legal issues  
 **\<sarang>** cool  
 **\<suraeNoether>** and i'm happy to do that  
 **\<sarang>** Because fiat reimbursement is always a baffling and lengthy ordeal  
@@ -177,7 +177,7 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** rehrar: ruffct as-is requires an additional user key, which would bring us to either 3 group elements as your public key, or 4, depending on how you interpret the ruffct paper, and so we may end up doubling our key length (which doubles verification time from loading keys!)  
 **\<suraeNoether>** sgp\_: any ideas? or does anyone want to help sgp\_ out with the pool tool?  
 **\<gmaxwell>** suraeNoether: you can change the constants in the curve equation and get a tiny group with basically no other changes in the code, there are tests in libsecp256k1 that work that way.  
-**\<sgp\_>** https://github.com/sneurlax/xmreuse  
+**\<sgp\_>** https://github.com/sneurlax/btreuse  
 **\<suraeNoether>** gmaxwell: delightful :)  
 **\<kovri-slack> \<oneiric>** yeah, having a public node over tor would be nice. even a hybrid of p2p over tor, rpc over i2p would be sweet  
 **\<sarang>** gmaxwell: you are referring to a cofactor-1 curve?  

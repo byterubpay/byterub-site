@@ -33,9 +33,9 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** gingeropolous: Definintely more in my opinion  
 **\<fluffypony>** byterubmooo: fair - I don't have strong feelings on RandomX  
 **\<hyc>** re: ASIC miners taking over the network - are we relying on miners to self-report?  
-**\<hyc>** "Hey, my profitability sucks, I'm abandoning XMR and mining something else now"  
+**\<hyc>** "Hey, my profitability sucks, I'm abandoning BTR and mining something else now"  
 **\<dEBRUYNE>** I don't think we should absolutely rely on that, but we can certainly take it into account as a factor  
-**\<el00ruobuob\_[m]>** hyc, https://minexmr.com/pools.html should give a good idea of how profitable for random miner it is.  
+**\<el00ruobuob\_[m]>** hyc, https://minebtr.com/pools.html should give a good idea of how profitable for random miner it is.  
 **\<endogenic>** can we examine the question of whether randomx has as much flexibility in being tweaked as the existing algo?  
 **\<sech1>** steep increase in hashrate (and profitability drop) without price changing is a strong indicator of more efficient hardware (ASICs)  
 **\<ArticMine>** I see the reason behind tweaks as key here. Making a hard fork to improve the algorithm makes sense. Changing the algorithm for the sole purpose of breaking ASICs with no improvement is a no no  
@@ -120,7 +120,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** Which is one of the simplest algorithms  
 **\<oneiric\_>** can you give some details?  
 **\<needmoney90>** I realize they aren't even really  commoditized yet, which makes it more concerning  
-**\<xmrmatterbridge> \<learninandlurkin>** Surely that heuristic could could be games easily. If the ASIC Dev knew we would switch to their preferred algorithm the moment there is a spike in HR, it would be in their interest to cause such a spike for delayed profits.  
+**\<btrmatterbridge> \<learninandlurkin>** Surely that heuristic could could be games easily. If the ASIC Dev knew we would switch to their preferred algorithm the moment there is a spike in HR, it would be in their interest to cause such a spike for delayed profits.  
 **\<oneiric\_>** saw hyc's softcore post, is it for those reasons?  
 **\<tevador>** dEBRUYNE: FPGAs cannot run RandomX at anywhere near CPU efficiency  
 **\<sech1>** oneiric\_ yes  
@@ -162,7 +162,7 @@ author: el00ruobuob / dEBRUYNE
 **\<gingeropolous>** honestly, i can't get the argument, so i just gotta watch this from afar. good luck everyone!  
 **\<fluffypony>** midipoet: even if they do, they will be out-competed by manufacturers spinning up boards with 36x embedded GPUs or whatever  
 **\<fluffypony>** at ~some high marketcap it becomes feasible to do so  
-**\<xmrmatterbridge> \<learninandlurkin>** In the interest of adding some structure to the debate/meeting, might it be a good idea if the RandomX folks can describe the state of RandomX, their own detailed opinions, maybe how close to audit-ready it is. Then everyone else can comment upon that and work from there?  
+**\<btrmatterbridge> \<learninandlurkin>** In the interest of adding some structure to the debate/meeting, might it be a good idea if the RandomX folks can describe the state of RandomX, their own detailed opinions, maybe how close to audit-ready it is. Then everyone else can comment upon that and work from there?  
 **\<ArticMine>** fluffypony At a high enough marketcap ASIC become competitive with RandomX I agree with that. the real question is by how much  
 **\<rbrunner>** Yes, a state summary would be really nice  
 **\<hyc>** tevador?  
@@ -173,7 +173,7 @@ author: el00ruobuob / dEBRUYNE
 **\<sgp\_>** Can someone link the chart I made? It's a good overview  
 **\<fluffypony>** ArticMine: it's not ASICs necessarily, could just be large custom boards with embedded GPUs suspended in oil, mining on "free" renewable energy in sub-zero climates, which leads to either (1) hashrate is dominated by a single entity, or (2) if commercialised it completely crowds out home miners  
 **\<hyc>** I've been rustling the bushes of CPU/hardware design forums looking for reviewers/auditors  
-**\<xmrmatterbridge> \<learninandlurkin>** But maybe for people who haven't poked their heads into #byterub-pow in a while, what's recently been going on? I saw there were some interesting test results from many people  
+**\<btrmatterbridge> \<learninandlurkin>** But maybe for people who haven't poked their heads into #byterub-pow in a while, what's recently been going on? I saw there were some interesting test results from many people  
 **\<dEBRUYNE>** Would it be preferable if the community hired an audit firm to perform an audit of randomx? We could ask either kudelski or quarkslab  
 **\<tevador>** code includes: reference interpreter (portable, but slow), x86 JIT compiler for fast verification and mining  
 **\<dEBRUYNE>** Additionally, I think wownere is set to implement RandomX on their mainnet, which should yield some test data as well  
@@ -185,7 +185,7 @@ author: el00ruobuob / dEBRUYNE
 **\<hyc>** ^ good suggestion but I wonder about their incentive to be forthright / honest  
 **\<dEBRUYNE>** 2. We need to review the algorithm with a view of how asic resistant it is  
 **\<fluffypony>** hyc: true  
-**\<xmrmatterbridge> \<learninandlurkin>** I think hardware experts would be needed as well as traditional code auditors, for sure  
+**\<btrmatterbridge> \<learninandlurkin>** I think hardware experts would be needed as well as traditional code auditors, for sure  
 **\<dEBRUYNE>** fluffypony: I think Tim Olsen wanted to provide a free review of RandomX  
 **\<oneiric\_>** a prof crypto consulting firm with pow specialists would be good  
 **\<tevador>** Tim Olson promised a free review, but hasn't delivered yet  
@@ -203,7 +203,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** Adam Back is about the closest you'll get to a PoW expert :-P  
 **\<oneiric\_>** if that's accurate, we should get him  
 **\<dEBRUYNE>** Btw, we also have to think about what course of action to take if we get a report from an expert that clearly states the algorithm wouldn't hold  
-**\<xmrmatterbridge> \<learninandlurkin>** Surely that depends on the nature of the failure  
+**\<btrmatterbridge> \<learninandlurkin>** Surely that depends on the nature of the failure  
 **\<jtgrassie>** I dont think we need a PoW expert, rather a hardware expert.  
 **\<tevador>** depends on what you mean by wouldn't hold  
 **\<sech1>** This expert should also propose ways to improve RandomX  
@@ -217,11 +217,11 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** jtgrassie: a hardware designer, someone who's actually built ASICs from algorithms  
 **\<oneiric\_>** also would prefer outside the byterub-sphere  
 **\<oneiric\_>** someone known independent from the community  
-**\<ArticMine>** x5 means a 20% rebate on my heating bill in XMR  
+**\<ArticMine>** x5 means a 20% rebate on my heating bill in BTR  
 **\<dEBRUYNE>** fluffypony: The problem is to find someone reliable though :-P  
 **\<jtgrassie>** oneiric\_: this is about efficiency to perform a hash though on certain hardware rather than consensus.  
 **\<fluffypony>** I know that OhGodAGirl / Kristy-Leigh Minehan has glanced at it  
-**\<xmrmatterbridge> \<learninandlurkin>** six figures? can the CCS take that in a bear market? might take longer than october lol  
+**\<btrmatterbridge> \<learninandlurkin>** six figures? can the CCS take that in a bear market? might take longer than october lol  
 **\<fluffypony>** and I can ask her how much she'd charge to give it a thorough look  
 **\<oneiric\_>** its also about the cryptographic strength of a new hashing algo jtgrassie  
 **\<fluffypony>** oneiric\_: cryptographically it's fine  
@@ -236,7 +236,7 @@ author: el00ruobuob / dEBRUYNE
 **\<oneiric\_>** my point is, until an outside professional looks at it, would just be taking your word. no offense  
 **\<fluffypony>** the contention isn't whether it correctly uses Blake2b, but whether it'll survive first passes by ASIC designers  
 **\<hyc>** any auditor can do the bug review  
-**\<xmrmatterbridge> \<learninandlurkin>** with hardware/ASIC/PoW "experts" being needed for the spec review?  
+**\<btrmatterbridge> \<learninandlurkin>** with hardware/ASIC/PoW "experts" being needed for the spec review?  
 **\<midipoet>** and also a review by an ASIC designer, no?  
 **\<dEBRUYNE>** tevador: I fear a specification review will still be somewhat subjective  
 **\<fluffypony>** oneiric\_: there are enough people in this room that can confirm that, we don't need to waste time on that  
@@ -266,7 +266,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** it's just to get a feel on how it would perform  
 **\<dEBRUYNE>** hyc: Even that would be quite costly I think  
 **\<hyc>** yes, but probably under $1M  
-**\<xmrmatterbridge> \<learninandlurkin>** So could we maybe get Tim Olson & Kristy-Leigh Minehan and whoever else people know into a meeting to talk about the practicalities of a spec review and/or ASIC commissioning?  
+**\<btrmatterbridge> \<learninandlurkin>** So could we maybe get Tim Olson & Kristy-Leigh Minehan and whoever else people know into a meeting to talk about the practicalities of a spec review and/or ASIC commissioning?  
 **\<dEBRUYNE>** I don't think the community would be able to fund $500k at the moment though  
 **\<dEBRUYNE>** Especially given that we have a lot of other proposals seeking funding as well  
 **\<hyc>** Tim has declined the project for pay  
@@ -279,10 +279,10 @@ author: el00ruobuob / dEBRUYNE
 **\<oneiric\_>** or you're paying the wrong firm  
 **\<tevador>** the problem is finding those experts  
 **\<oneiric\_>** agreed, doesn't seem easy  
-**\<xmrmatterbridge> \<learninandlurkin>** what have those casual responses been like? any valuable and constructive suggestions so far? and negative responses?  
+**\<btrmatterbridge> \<learninandlurkin>** what have those casual responses been like? any valuable and constructive suggestions so far? and negative responses?  
 **\<tevador>** Linzhi already refused to make any comments about RandomX because they clearly don't want it adopted  
 **\<rbrunner>** :)  
-**\<xmrmatterbridge> \<learninandlurkin>** Just "we can 10x this, I swear", right?  
+**\<btrmatterbridge> \<learninandlurkin>** Just "we can 10x this, I swear", right?  
 **\<hyc>** right  
 **\<oneiric\_>** mebbe they can  
 **\<tevador>** causal responses from Tim Olson were "you are on the right track"  
@@ -293,16 +293,16 @@ author: el00ruobuob / dEBRUYNE
 **\<ArticMine>** or if they are hones refuse to comment  
 **\<ArticMine>** honest  
 **\<kovri-slack> \<woodser>** Just voicing my support for RandomX, being the best known asic resistant option we have.  If it fails an audit or in practice, and nothing better has come along, then I’d support throwing in the towel with an asic friendly algorithm.  
-**\<xmrmatterbridge> \<learninandlurkin>** link? I doubt I'll understand it but could be valuable for the logs  
-**\<xmrmatterbridge> \<learninandlurkin>** to the hardware forum discussion I mean  
+**\<btrmatterbridge> \<learninandlurkin>** link? I doubt I'll understand it but could be valuable for the logs  
+**\<btrmatterbridge> \<learninandlurkin>** to the hardware forum discussion I mean  
 **\<endogenic>** how about gmaxwell's criticisms of algos like randomx?  
 **\<fluffypony>** woodser: ProgPoW has good pedigree too, so I would say it's among the best  
 **\<dEBRUYNE>** fluffypony: There is some speculation ProgPow is finetuned for Nvidia though  
 **\<tevador>** https://www.realworldtech.com/forum/?threadid=183905  
 **\<kovri-slack> \<woodser>** @endogenic can you reference or elaborate on gmaxwell’s criticisms of algos like randomx?  
-**\<xmrmatterbridge> \<learninandlurkin>** If we just wait for the inevitable collapse of ETH, we would have the option of switching to ProgPow without being minority chain! lol  
+**\<btrmatterbridge> \<learninandlurkin>** If we just wait for the inevitable collapse of ETH, we would have the option of switching to ProgPow without being minority chain! lol  
 **\<tevador>** take those responses with a grain of salt, though  
-**\<xmrmatterbridge> \<learninandlurkin>** thanks I'll bookmark for reading  
+**\<btrmatterbridge> \<learninandlurkin>** thanks I'll bookmark for reading  
 **\<tevador>** the only valuable thing was their criticism of the lack of branches in RandomX, which we have since fixed  
 **\<hyc>** right, most of those responses are hand-waving. the devil is in the details, and none of them will account for the details.  
 **\<rbrunner>** Hah, in 10 years we will have a Spectre-like bug in RandomX  
@@ -322,7 +322,7 @@ author: el00ruobuob / dEBRUYNE
 **\<hyc>**  ... due to the controversy around progpow I would prefer to avoid hiring Kristy-Leigh for this  
 **\<vp11>** But then we need a very clear definition of “failure”  
 **\<dEBRUYNE>** As far as I can see, the path of least resistance in the (Dev) community is either:  
-**\<xmrmatterbridge> \<learninandlurkin>** Touching on a point dEBRUYNE brought up, if getting proper reviews/audits stalls and the network is rekt before October, could CN-R be tweaked as a stopgap?  
+**\<btrmatterbridge> \<learninandlurkin>** Touching on a point dEBRUYNE brought up, if getting proper reviews/audits stalls and the network is rekt before October, could CN-R be tweaked as a stopgap?  
 **\<vp11>** Because you don’t want people saying “oh well I don’t consider this as a failure” and divide the community.  
 **\<jtgrassie>** ^ hyc ditto  
 **\<dEBRUYNE>** - Implement RandomX, switch to SHA3 in case RandomX fails, do not precommit to a set date  
@@ -336,7 +336,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** rbrunner: We have to be proactive, not reactive imo  
 **\<dEBRUYNE>** fluffypony explained why in the Github issue (#316)  
 **\<oneiric\_>** rbrunner: gpu miners probably realize their concerns will be ignored anyway  
-**\<xmrmatterbridge> \<learninandlurkin>** the second option seems like a contradiction because how can you only switch in the case of failure, yet also have a predetermined date to switch?  
+**\<btrmatterbridge> \<learninandlurkin>** the second option seems like a contradiction because how can you only switch in the case of failure, yet also have a predetermined date to switch?  
 **\<ferretinjapan>** proactive can't predicct the future is the problem there.  
 **\<tevador>** it would be better to say there will be no reactive tweaks anymore, so we can at least see the ASIC being offered publicly...  
 **\<fluffypony>** ferretinjapan: and reactive is centralised  
@@ -376,7 +376,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** with non-PoW consensus changes we can plan them well in advance  
 **\<vp11>** Yes dEBRUYNE  
 **\<ArticMine>** fluffypony I agree which is why a hard fork change has to be justified by overall improvement in the algo  
-**\<xmrmatterbridge> \<learninandlurkin>** surely these centralisation risks of forks would be somewhat mitigated by reproducible builds? Maybe that should be kicked up in the list of priorities  
+**\<btrmatterbridge> \<learninandlurkin>** surely these centralisation risks of forks would be somewhat mitigated by reproducible builds? Maybe that should be kicked up in the list of priorities  
 **\<fluffypony>** learninandlurkin: nope, builds don't even factor into it  
 **\<el00ruobuob\_[m]>** couldn't we: Implement randomX and precommit to a SHA3 ASIC, without a clearly defined date first? And set the date later?  
 **\<vp11>** I think Tim Olson commented something about it in the github issue  
@@ -384,7 +384,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** Though that doesn't render any 'design' invalid  
 **\<el00ruobuob\_[m]>** by later, i mean, in a 6 month to 1 year window  
 **\<rbrunner>** I don't understand why people already want to set a fixed successor for RandomX. What if none is needed?  
-**\<xmrmatterbridge> \<learninandlurkin>** fluffypony: could you explalin why not? Surely it lessens the fundamental reliance on "lead" maintainers and devs, and hence lowers the risks you were talking about?  
+**\<btrmatterbridge> \<learninandlurkin>** fluffypony: could you explalin why not? Surely it lessens the fundamental reliance on "lead" maintainers and devs, and hence lowers the risks you were talking about?  
 **\<kovri-slack> \<woodser>** wouldn’t SHA3 be unecessary if RandomX delivers all our hopes and dreams?  
 **\<byterubmooo>** I believe one of the "legal" tests for a decentralized cryptocurrency is that anyone has a chance at mining. Arguably, not trying to fix a party having >> 50% means we stop being such.  
 **\<dEBRUYNE>** rbrunner: Again, in order to be proactive  
@@ -438,7 +438,7 @@ author: el00ruobuob / dEBRUYNE
 **\<tevador>** and we could still make annual PoW upgrade as new CPUs are introduced  
 **\<byterubmooo>** I'm not asking to start now :)  
 **\<dEBRUYNE>** I'd be strongly opposed to an "annual PoW upgrade"  
-**\<ArticMine>** a 2x ASIC is not a RandomX failure Would you accept a 50% rebate payable in XMR on your heating cost by running a peice of software on our computer? 30% 10% 5% 1% .1% This becomes the question  
+**\<ArticMine>** a 2x ASIC is not a RandomX failure Would you accept a 50% rebate payable in BTR on your heating cost by running a peice of software on our computer? 30% 10% 5% 1% .1% This becomes the question  
 **\<dEBRUYNE>** ArticMine: You also have to factor in that not everyone uses their miner for heating  
 **\<ferretinjapan>** annual POW would probably be too late.  
 **\<fluffypony>** dEBRUYNE: as would I  
@@ -448,7 +448,7 @@ author: el00ruobuob / dEBRUYNE
 **\<needmoney90>** we can maybe get one more off  
 **\<dEBRUYNE>** tevador: Yes, no changes  
 **\<dEBRUYNE>** Reintroducing tweaks reintroduces the same risks smooth described here -> https://github.com/byterubpay/byterub/issues/3387#issue-304296870  
-**\<xmrmatterbridge> \<learninandlurkin>** I think it is clear that even a perfect CPU favouring algorithm would eventually need to be changed, because CPUs will eventually change  
+**\<btrmatterbridge> \<learninandlurkin>** I think it is clear that even a perfect CPU favouring algorithm would eventually need to be changed, because CPUs will eventually change  
 **\<dEBRUYNE>** Which we're trying to get away from with a long-term algorithm  
 **\<ArticMine>** This is an example why 2x or even 10x may not be a failure. 100x Yes that is a failure  
 **\<dEBRUYNE>** 10x will invariable drive out all other miners  
@@ -465,10 +465,10 @@ author: el00ruobuob / dEBRUYNE
 **\<ferretinjapan>** that kind if thinking eradicate all future innovateions ever.  
 **\<dEBRUYNE>** sech1: Sure, but at some point they only own a negligible amount of the hashrate  
 **\<dEBRUYNE>** In the last 3 months leading up to the hard fork, they were probably still mining, but probably owned only like 5-10%  
-**\<xmrmatterbridge> \<learninandlurkin>** If newer generation widespread CPUs perform better than older simpler ones, then older simpler ones become a form of ASIC, right?  
+**\<btrmatterbridge> \<learninandlurkin>** If newer generation widespread CPUs perform better than older simpler ones, then older simpler ones become a form of ASIC, right?  
 **\<dEBRUYNE> \<ferretinjapan>** that kind if thinking eradicate all future innovateions ever. \<= That seems more like wishful thinking imo  
 **\<ferretinjapan>** needmoney90, you didn't understand what I said. I said taking all options off the table forever is naieve.  
-**\<xmrmatterbridge> \<learninandlurkin>** but yeah looking that far ahead is kinda pointless right now  
+**\<btrmatterbridge> \<learninandlurkin>** but yeah looking that far ahead is kinda pointless right now  
 **\<needmoney90>** The ecosystem size and market cap are taking the options off the table, my dude  
 **\<needmoney90>** we cant keep forking like this  
 **\<ferretinjapan>** Dead2, Ring CT is wishful thinking?  
@@ -490,11 +490,11 @@ author: el00ruobuob / dEBRUYNE
 **\<ArticMine>** The difference is an improvement POW is no different in this respect. Endless tweaks with no improvement in POW is very different  
 **\<needmoney90>** And we can't do the latter  
 **\<ferretinjapan>** needmoney90, you're cutting off your nose to spite your face. You could very well box the entire network into a corner.  
-**\<xmrmatterbridge> \<learninandlurkin>** A future where we have annual protocol upgrades which occasionally also involve a PoW upgrade to better reflect innovations in the CPU market sounds pretty good to me  
+**\<btrmatterbridge> \<learninandlurkin>** A future where we have annual protocol upgrades which occasionally also involve a PoW upgrade to better reflect innovations in the CPU market sounds pretty good to me  
 **\<dEBRUYNE>** ArticMine: sure, but imo we don't need to tweak if a new generation of CPUs simply outclasses the old generation of CPUs  
 **\<needmoney90>** What are you even suggesting ferret?  
 **\<dEBRUYNE>** Isn't that basically natural evolvement  
-**\<xmrmatterbridge> \<learninandlurkin>** at a FIXED date  
+**\<btrmatterbridge> \<learninandlurkin>** at a FIXED date  
 **\<needmoney90>** You keep saying "no, reality sucks, choose a different reality"  
 **\<needmoney90>** theres only one reality  
 **\<hyc>** dEBRUYNE: yeah I basically agree with this  
@@ -524,7 +524,7 @@ author: el00ruobuob / dEBRUYNE
 **\<byterubmooo>** It is, if the ASICs were, or were threating to be, at > 50% of the network hash rate.  
 **\<dEBRUYNE>** We also have to weigh off the risks involved with a tweak against the risks of switching to SHA3 at that point  
 **\<byterubmooo>** It is a short term fix, but it is one nonetheless.  
-**\<xmrmatterbridge> \<learninandlurkin>** MONERO 2039 NETWORK UPGRADE CHANGELOG: 1) Changed to QuantumX to lower the advantage of Quantum ASIC advantage, and slow the encroachment of the Terminator hoards.  
+**\<btrmatterbridge> \<learninandlurkin>** BYTERUB 2039 NETWORK UPGRADE CHANGELOG: 1) Changed to QuantumX to lower the advantage of Quantum ASIC advantage, and slow the encroachment of the Terminator hoards.  
 **\<fluffypony>** LOL  
 **\<ArticMine>** byterubmooo then one tweak followed by SHA-3  
 **\<dEBRUYNE>** At that point it may be better to just introduce SHA3 in a few months  
@@ -541,7 +541,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** Don't disagree either, but I think it's a better option than trying to apply band-aid to RandomX in case it fails  
 **\<hyc>** agreed. that's why I've opposed any plan that unconditionally says "we shift to SHA3"  
 **\<dEBRUYNE>** To kind of conclude this subject, I think most are in favor of "- Implement RandomX, switch to SHA3 in case RandomX fails, do not precommit to a set date" right?  
-**\<xmrmatterbridge> \<learninandlurkin>** It really really depends on the nature of the failure and the band-aid. Audits, audits, audits....  
+**\<btrmatterbridge> \<learninandlurkin>** It really really depends on the nature of the failure and the band-aid. Audits, audits, audits....  
 **\<oneiric\_>** maybe, but maybe the market matures enough in the next 1-2 years that asic-friendliness makes sense. maybe it doesn't. agree with flexible algo for asic-friendly  
 **\<midipoet>** unless we manfacture SHA-3 ASICS. but am not sure how that worked for SIA.  
 **\<dEBRUYNE>** Band-aids are per definition tweaks, which we're arguably trying to get away from  
@@ -567,7 +567,7 @@ author: el00ruobuob / dEBRUYNE
 **\<needmoney90>** statement retracted its all garbage  
 **\<fluffypony>** needmoney90: was about to say  
 **\<fluffypony>** lol  
-**\<xmrmatterbridge> \<learninandlurkin>** Not really a tweak if it's something like "Made the Randomness of RandomX more Random"  
+**\<btrmatterbridge> \<learninandlurkin>** Not really a tweak if it's something like "Made the Randomness of RandomX more Random"  
 **\<ArticMine>** fluffypony A few months is all manufactures need. Pre commit makes no sense if RandomX is working  
 **\<dEBRUYNE>** I thikn a lot of people are underestimating the risks involved with a tweak  
 **\<needmoney90>** ^^^^^^^^^  
@@ -597,7 +597,7 @@ author: el00ruobuob / dEBRUYNE
 **\<fluffypony>** tevador: if RandomX is broken and someone manufacturers a 10x ASIC then it will be a panic-switch and NOBODY will be ready on the manufacturing side  
 **\<fluffypony>** then it'll be the Bitcoin ASIC arms race all over again  
 **\<needmoney90>** Vp11: it's a process, this is Signalling  
-**\<xmrmatterbridge> \<learninandlurkin>** I'm general afraid of commitment, so I vote against committing to a date  
+**\<btrmatterbridge> \<learninandlurkin>** I'm general afraid of commitment, so I vote against committing to a date  
 **\<el00ruobuob\_[m]>** vp11 +1  
 **\<dEBRUYNE>** sgp\_: "Improvements" are still tweaks, same risks involved. Besides, who can objectively determine they are actually improvements?  
 **\<needmoney90>** If it's not in the consensus layer, this is the best we can do  
@@ -637,10 +637,10 @@ author: el00ruobuob / dEBRUYNE
 **\<ArticMine>** Out of the frying pan 10x into the fire 100x  
 **\<dEBRUYNE>** It's vastly different  
 **\<oneiric\_>** if asic manufacturers can already do \<6 mo design on something as complicated as cryptonight, dont see sha3 asic taking more than a couple weeks  
-**\<xmrmatterbridge> \<learninandlurkin>** Any announcement of a switch date relies on (SHA-3 ASICs produced to sell freely)>>(SHA-3 ASICs produced to mine fore profit at the moment of the fork)  
+**\<btrmatterbridge> \<learninandlurkin>** Any announcement of a switch date relies on (SHA-3 ASICs produced to sell freely)>>(SHA-3 ASICs produced to mine fore profit at the moment of the fork)  
 **\<fluffypony>** vp11: the argument being made is that RandomX is the be-all and end-all of ASICs  
 **\<dEBRUYNE>** There's no way you can compare improvements in the protocol to "improvements" in the PoW algorithm  
-**\<xmrmatterbridge> \<learninandlurkin>** so the a fair market emerging is quite an assumption, especially immediately  
+**\<btrmatterbridge> \<learninandlurkin>** so the a fair market emerging is quite an assumption, especially immediately  
 **\<fluffypony>** sorry of ASIC resistance  
 **\<vp11>** I just did :)  
 **\<ArticMine>** fluffypony RandomX is not the be-all and end all of all ASICs far from it  
@@ -695,10 +695,10 @@ author: el00ruobuob / dEBRUYNE
 **\<needmoney90>** Articmine is it possible that the pos fork / difficulty bomb have delayed investment in asics  
 **\<needmoney90>** Due to fears of their longevity on the network  
 **\<dr-mike>** Current ETH ASICs available on the market are only 2.3x more efficient  
-**\<xmrmatterbridge> \<learninandlurkin>** yes ubiquity is a powerful force in stopping a 51% attack. Maybe it's controversial but I'm actually in favour of botnets if they decentalize things with common hardware  
+**\<btrmatterbridge> \<learninandlurkin>** yes ubiquity is a powerful force in stopping a 51% attack. Maybe it's controversial but I'm actually in favour of botnets if they decentalize things with common hardware  
 **\<ArticMine>** It did not. What is happening in ETH is the advantage is low 2x -4x  
 **\<ArticMine>** Also while this is going on the CPU do not stay static  
-**\<xmrmatterbridge> \<learninandlurkin>** The barrier to entry for building a botnet is potentially much lower than the one to build an ASIC farm  
+**\<btrmatterbridge> \<learninandlurkin>** The barrier to entry for building a botnet is potentially much lower than the one to build an ASIC farm  
 **\<byterubmooo>** Is Ethereum mining feasible on CPU ?  
 **\<dr-mike>** no.  
 **\<sgp\_>** If you don't mind, would it be all right if I focus the discussion more into a few main topics? We can more reliably debate about the pros and cons under different scenarios and help predict actions. Otherwise this conversation can go on forever.  
@@ -707,7 +707,7 @@ author: el00ruobuob / dEBRUYNE
 **\<dEBRUYNE>** I think only practice can tell what kind of efficiency advantage will drive out other miners  
 **\<ArticMine>** So you ave co existence GPU / ASIC which also leads to competition between ASIC manufactures. The very thing SHA-3 is trying to engineer  
 **\<ArticMine>** have  
-**\<xmrmatterbridge> \<learninandlurkin>** I think from reading this discussion that longer term plans are pretty much pointless until we've had some audits/reviews/testing of RandomX especially because people are against hard-coding failure by adding a date for SHA-3  
+**\<btrmatterbridge> \<learninandlurkin>** I think from reading this discussion that longer term plans are pretty much pointless until we've had some audits/reviews/testing of RandomX especially because people are against hard-coding failure by adding a date for SHA-3  
 **\<byterubmooo>** Then maybe if RandomX fails (to have small enough of a CPU-to-ASIC efficiciency gap), then switching to Ethereum's hash might be better than SHA-3. We lose a lot of ease of access, but it's still a lot better than ASIC or nohting.  
 **\<byterubmooo>** (once Ethereum is PoS, which it apparetnly is not yet)  
 **\<dr-mike>** Sounds reasonable.  
@@ -719,14 +719,14 @@ author: el00ruobuob / dEBRUYNE
 **\<tevador>** ETH ASIC with HBM will be 6x-10x more efficient than a GPU  
 **\<hyc>** There are still a lot of factors. Even if ASICs can be 2-3x more efficient, they aren't produced in volumes that can challenge GPUs  
 **\<sgp\_>** I think it will unfortunately become less reasonable over time, but it's an option. Ethereum also needs to actually make the switch of course  
-**\<xmrmatterbridge> \<learninandlurkin>** (or if ETH just collapses)  
+**\<btrmatterbridge> \<learninandlurkin>** (or if ETH just collapses)  
 **\<hyc>** the ASIC companies are lower priority, don't get the same access to chip fabs as the bigger players  
 **\<sgp\_>** hyc: plus the extra purposes of GPU/CPU and more stable market have added value that's hard to calculate  
 **\<byterubmooo>** Do you need a GPU to (feasibly) sync the Ethereum blockchain ?  
 **\<ferretinjapan>** almost seem more rational to do a mashup of multiple POWs as a stopgap to ensure decentralisation if RandomX fails, :P  
 **\<byterubmooo>** Or, rather, anyone knows how much verifying a hash on CPU costs ?  
 **\<smooth>** byterubmooo: GPU is of no benefit to syncing ETH  
-**\<xmrmatterbridge> \<learninandlurkin>** you need a time machine to feasibly syn the ETH blockchain  
+**\<btrmatterbridge> \<learninandlurkin>** you need a time machine to feasibly syn the ETH blockchain  
 **\<oneiric\_>** lol  
 **\<tevador>** byterubmooo: no, but you need a quad core CPU, 32 GB of RAM and an SSD  
 **\<dEBRUYNE>** ^ Even then syncing will be quite difficilt  
@@ -741,12 +741,12 @@ author: el00ruobuob / dEBRUYNE
 **\<byterubmooo>** Since ethereum has probably way more blocks than us, if 15 seconds.  
 **\<tevador>** I think CPU verification of ethash is roughly 4 ms or so  
 **\<byterubmooo>** What's CN on a similar CPU ?  
-**\<xmrmatterbridge> \<learninandlurkin>** to be clear, are we discussing ETHs current hash or ProgPow?  
+**\<btrmatterbridge> \<learninandlurkin>** to be clear, are we discussing ETHs current hash or ProgPow?  
 **\<jwinterm>** ethhash  
 **\<tevador>** CN is 12-15 ms on similar CPU  
 **\<byterubmooo>** Thanks.  
 **\<dr-mike>** Why is ProgPow not an option for byterub?  
-**\<xmrmatterbridge> \<learninandlurkin>** although feasibly we could steal either as a back up plan once they go PoS  
+**\<btrmatterbridge> \<learninandlurkin>** although feasibly we could steal either as a back up plan once they go PoS  
 **\<byterubmooo>** It could be, if randomx fails.  
 **\<hyc>** dr-mike: GPU-centric  
 **\<oneiric\_>** not-invented-here  
@@ -761,7 +761,7 @@ author: el00ruobuob / dEBRUYNE
 **\<rbrunner>** Why should RandomX fail and ProgPoW \*not\*?  
 **\<rbrunner>** Isn't the basic approach the same?  
 **\<hyc>** rbrunner yes  
-**\<xmrmatterbridge> \<learninandlurkin>** No reason at all, but it's nice to know there are other PoW that can be stolen if RandomX fails and a stopgap is needed  
+**\<btrmatterbridge> \<learninandlurkin>** No reason at all, but it's nice to know there are other PoW that can be stolen if RandomX fails and a stopgap is needed  
 **\<dEBRUYNE>** If randomx fails, isn't progpow likely to fail as well?  
 **\<byterubmooo>** Progpow targets an arch that's already optimized to be massively parallel.  
 **\<sgp\_>** learninandlurkin I think that's a good way of looking at it, a stopgap  
@@ -778,7 +778,7 @@ author: el00ruobuob / dEBRUYNE
 **\<oneiric\_>** if feasible randomx + progpow seems to solve a lot of controversy. though i don't know the technical consequence of something like that  
 **\<dEBRUYNE>** First, does the randomx team think RandomX can be viably implemented in October?  
 **\<dEBRUYNE>** And if so, would people prefer RandomX over another tweak?  
-**\<xmrmatterbridge> \<learninandlurkin>** Linzhi already has one ready to go apparently  
+**\<btrmatterbridge> \<learninandlurkin>** Linzhi already has one ready to go apparently  
 **\<ArticMine>** tevador?  
 **\<sgp\_>** dEBRUYNE: if it can be done, I prefer it over another tweak  
 **\<hyc>** Pretty sure rnadomX will be ready codewise  
@@ -792,7 +792,7 @@ author: el00ruobuob / dEBRUYNE
 **\<byterubmooo>** Unless randomx is 100% ready.  
 **\<byterubmooo>** Yes, sounds plausible.  
 **\<dr-mike>** RandomX must be ready before October.  
-**\<xmrmatterbridge> \<learninandlurkin>** Can we maybe get Outreach to bomb the whole internet with links to RandomX docs, just to get more eyes on it?  
+**\<btrmatterbridge> \<learninandlurkin>** Can we maybe get Outreach to bomb the whole internet with links to RandomX docs, just to get more eyes on it?  
 **\<tevador>** daemon integration will be a bit more work than CNv4  
 **\<dEBRUYNE>** byterubmooo: Then it seems imperative for the community to ensure RandomX is 100% ready in october  
 **\<sgp\_>** dEBRUYNE: yes, everything would need to be a go  
@@ -801,7 +801,7 @@ author: el00ruobuob / dEBRUYNE
 **\<jtgrassie>** learninandlurkin: I'd be highly suprosed if the Outreach team would find qualified reviewers.  
 **\<jtgrassie>** \*supprised  
 **\<tevador>** also we need to prepare: pool software and a reference miner  
-**\<xmrmatterbridge> \<learninandlurkin>** Also maybe retitle the General Fund on CCS to "Desprately needed RandomX audit fund"  
+**\<btrmatterbridge> \<learninandlurkin>** Also maybe retitle the General Fund on CCS to "Desprately needed RandomX audit fund"  
 **\<oneiric\_>** ^  
 **\<dr-mike>** We should hite the same auditors ethereum hires for progpow.  
 **\<dr-mike>** \*hire  
@@ -817,10 +817,10 @@ author: el00ruobuob / dEBRUYNE
 **\<oneiric\_>** has the auditor already been selected? if so, who?  
 **\<tevador>** btw is there a need to rewrite RandomX into C for review?  
 **\<tevador>** currently C++  
-**\<xmrmatterbridge> \<learninandlurkin>** or 4-5 months of looking for reviewers and failing to raise the funds for it :( it's a possibility  
+**\<btrmatterbridge> \<learninandlurkin>** or 4-5 months of looking for reviewers and failing to raise the funds for it :( it's a possibility  
 **\<dr-mike>** No, but it was given a GO, core devs will hire the auditors in the next 2-3 weeks and will notify the community.  
 **\<ferretinjapan>** what would be the estimated cost to hire someone/some firm to do an independent review?  
-**\<xmrmatterbridge> \<learninandlurkin>** Are the auditors for ProgPow just Nvidia?  
+**\<btrmatterbridge> \<learninandlurkin>** Are the auditors for ProgPow just Nvidia?  
 **\<oneiric\_>** thanks, look forward to seeing who they select, and reading the audit when it's finished  
 **\<hyc>** tevador: probably not needed. that was just a personal preference of mine  
 **\<dEBRUYNE> \<byterubmooo>** Did it not add loops like a week ago ? That seems like a large change for it to be ready yet. \<= tevador, any comment on this?  
@@ -911,10 +911,10 @@ author: el00ruobuob / dEBRUYNE
 **\<ErCiccione[m]>** 1  
 **\<byterubmooo>** And yes, ethhash maybe instead.  
 **\<sgp\_>** Again, I think the failure is up for some discussion, especially the nature of it. I'm for switching to SHA3 if RandomX catastrophically fails for sure  
-**\<xmrmatterbridge> \<learninandlurkin>** I vote for hyc's last comment  
+**\<btrmatterbridge> \<learninandlurkin>** I vote for hyc's last comment  
 **\<dEBRUYNE>** My personal preference is option 1 fwiw  
 **\<ferretinjapan>** I think the consensus is theres not enough of a plan to have a consensus :P  
-**\<xmrmatterbridge> \<learninandlurkin>** actually I vote for this -> \<byterubmooo> RandomX, and then (1) if we have another contender ready, switch to that, or (2) if the apparently ASICs seem to be barely getting to 50%, then a tweak, or (3) SHA-3.  
+**\<btrmatterbridge> \<learninandlurkin>** actually I vote for this -> \<byterubmooo> RandomX, and then (1) if we have another contender ready, switch to that, or (2) if the apparently ASICs seem to be barely getting to 50%, then a tweak, or (3) SHA-3.  
 **\<vtnerd\_\_\_>** Fwiw -> Sha3 precommit (2)  
 **\<ArticMine>** There is a very strong consensus to proceed with RandomX at this point.  
 **\<sgp\_>** Adding to this, there is about a 3 month turnaround time between when a failure is determined and ByteRub can move to SHA3, if that's the desired action. ByteRub can generally either use a stopgap for those months or wait it out  
@@ -923,7 +923,7 @@ author: el00ruobuob / dEBRUYNE
 **\<vtnerd\_\_\_>** Randomx by October seems aggressive if daemon integration is complicated. And an x86 only optimized version is unfortunate  
 **\<sgp\_>** ASICs at 20%, proven advantage and growing? Maybe wait it out  
 **\<dEBRUYNE>** tevador: Would you be able to integrate randomx with the daemon as well?  
-**\<xmrmatterbridge> \<learninandlurkin>** The nature of theoretical failures is the big limitation to planning beyond auditing RandomX REALLY REALLY well  
+**\<btrmatterbridge> \<learninandlurkin>** The nature of theoretical failures is the big limitation to planning beyond auditing RandomX REALLY REALLY well  
 **\<hyc>** vtnerd\_\_\_: shouldn't take long to get an ARMv8 version going  
 **\<byterubmooo>** And then if we switch to SHA-3 and we end up with a laughing > 50% ASIC manufcaturer, what do we do ? Go home ? Resurrect Cryptonite and ask MRL to find how to make it private ?  
 **\<vtnerd\_\_\_>** Eh, not April yet so might be doable  

@@ -8,14 +8,14 @@ author: el00ruobuob / rehrar
 
 # Logs  
 
-**\<xmrmatterbridge> \<rehrar>** Meeting!!  
+**\<btrmatterbridge> \<rehrar>** Meeting!!  
 **\<ferretinjapan>** rehrar, o/  
 **\<byterubmooo>** rehrar: btw, did you get any new info from purism ?  
 **\<jwinterm>** \\o  
-**\<xmrmatterbridge> \<rehrar>** Yes. Will update. Did update in -community  
+**\<btrmatterbridge> \<rehrar>** Yes. Will update. Did update in -community  
 **\<hyc>** time  
-**\<xmrmatterbridge> \<rehrar>** Hello guys. Let's start the meeting.  
-**\<xmrmatterbridge> \<rehrar>** 1. Greetings  
+**\<btrmatterbridge> \<rehrar>** Hello guys. Let's start the meeting.  
+**\<btrmatterbridge> \<rehrar>** 1. Greetings  
 **\<ErCiccione>** Hi  
 **\<rbrunner>** Hi  
 **\<vtnerd>** hi  

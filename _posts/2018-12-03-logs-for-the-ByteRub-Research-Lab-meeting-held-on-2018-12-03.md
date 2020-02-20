@@ -51,7 +51,7 @@ author: el00ruobuob / sarang
 **\<sarang>** It might encourage donors to delay donations  
 **\<sarang>** until they know the actual value being dispersed  
 **\<suraeNoether>** that may actually work out to everyone's benefit  
-**\<suraeNoether>** people see their XMR hit our account at much closer to their desired exchange rate  
+**\<suraeNoether>** people see their BTR hit our account at much closer to their desired exchange rate  
 **\<suraeNoether>** or rather, we gain control over it at a more reasonable rate  
 **\<sarang>** Any big opposition to investigating this further? We'd need a decision very quickly  
 **\<suraeNoether>** so people's money isn't wasted on volatility and we get what we need to pay rent, etc  
@@ -106,7 +106,7 @@ author: el00ruobuob / sarang
 **\<sarang>** Hopefully at least one of us is accepted, to offset those costs. It's an exceptionally worthwhile event  
 **\<sarang>** Does anyone else have work of interest to share with the group?  
 **\<suraeNoether>** sarang thanks for the link to SBC, i just registered :P  
-**\<h4sh3d>** I have worked on an atomic swap BTC/XMR https://github.com/GuggerJoel/XMR-BTC-atomic  
+**\<h4sh3d>** I have worked on an atomic swap BTC/BTR https://github.com/GuggerJoel/BTR-BTC-atomic  
 **\<endogenic>** h4sh3d: did you see the feedback you got to that?  
 **\<byterubmooo>** Worthy goal.  
 **\<h4sh3d>** endogenic: I didn't see feedback on IRC  
@@ -127,28 +127,28 @@ author: el00ruobuob / sarang
 **\<endogenic>** see you  
 **\<h4sh3d>** I started to write a proposal to work on that scheme, what do you think?  
 **\<sarang>** h4sh3d: I need to re-read your paper to remind myself of a few details, but does the sender on one chain guarantee return of funds if the protocol fails?  
-**\<h4sh3d>** sarang: yes if it fails Alice (XMR) get her XMR back and Bob (BTC) get his BTC baCK  
+**\<h4sh3d>** sarang: yes if it fails Alice (BTR) get her BTR back and Bob (BTC) get his BTC baCK  
 **\<h4sh3d>** If Bob disappears Alice gains the BTC  
-**\<sarang>** High level: why does Alice get her XMR back?  
+**\<sarang>** High level: why does Alice get her BTR back?  
 **\<sarang>** Delayed signing and posting by Bob?  
 **\<h4sh3d>** Ok, what do you mean by "fail"? The zkp or after the firsts transactions on-chain?  
 **\<sarang>** why not either  
 **\<sarang>** Under whatever circumstances Alice is not guaranteed the BTC  
-**\<h4sh3d>** If after locking the BTC/XMR on-chain Bob does not follow the protocol anymore  
+**\<h4sh3d>** If after locking the BTC/BTR on-chain Bob does not follow the protocol anymore  
 **\<h4sh3d>** can be because Bob disappear or act malicious  
-**\<sarang>** So what transaction is posted to the XMR chain, and why can Alice get her funds back if it's posted and Bob disappears or pulls other shenanigans?  
+**\<sarang>** So what transaction is posted to the BTR chain, and why can Alice get her funds back if it's posted and Bob disappears or pulls other shenanigans?  
 **\<sarang>** Proposals around refund transactions can take advantage of that new construction, but not with this proposal  
-**\<h4sh3d>** In this scheme the first XMR transaction move funds into the address controlled w/ (a,x) private key, where x is half controlled by Alice and half by Bob  
+**\<h4sh3d>** In this scheme the first BTR transaction move funds into the address controlled w/ (a,x) private key, where x is half controlled by Alice and half by Bob  
 **\<sarang>** OK, if Bob disappears, Alice can recover the key?  
 **\<h4sh3d>** no, but she can get the BTC  
-**\<sarang>** Does she wait until Bob has posted the BTC transaction before posting the XMR transaction?  
+**\<sarang>** Does she wait until Bob has posted the BTC transaction before posting the BTR transaction?  
 **\<h4sh3d>** so if Bob disappears, Bob loose  
 **\<sarang>** (I'm being purposefully socratic to help me understand better)  
 **\<h4sh3d>** np  
-**\<h4sh3d>** https://github.com/GuggerJoel/XMR-BTC-atomic/blob/master/whitepaper/xmr-btc.pdf  
+**\<h4sh3d>** https://github.com/GuggerJoel/BTR-BTC-atomic/blob/master/whitepaper/btr-btc.pdf  
 **\<h4sh3d>** page 4  
 **\<sarang>** Yep, I read that. I want to ensure I understand the nature of protocol failure by asking you that question  
-**\<h4sh3d>** Yes, Alice waits enough conf before sending XMR tx  
+**\<h4sh3d>** Yes, Alice waits enough conf before sending BTR tx  
 **\<sarang>** OK, and Bob takes advantage of BTC timelock in case of Alice's disappearance  
 **\<h4sh3d>** In fact we can say that Alice or Bob will "sell" half of the key in the Bitcoin tx  
 **\<h4sh3d>** Yes, exactly  

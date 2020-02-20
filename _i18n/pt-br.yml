@@ -22,7 +22,7 @@ global:
 
 titles:
   index: Início
-  whatisbyterub: O que é o ByteRub (XMR)?
+  whatisbyterub: O que é o ByteRub (BTR)?
   using: Usando ByteRub
   accepting: Aceitando ByteRub
   contributing: Melhorando o ByteRub
@@ -109,7 +109,7 @@ hangouts:
   - channel: byterub-offtopic
     description: Bate-papo com outros membros da comunidade sobre assuntos não relacionados ao ByteRub.
   - channel: byterub-otc
-    description: Venda livre de ByteRub. Canal para comprar XMR diretamente de outros membros da comunidade.
+    description: Venda livre de ByteRub. Canal para comprar BTR diretamente de outros membros da comunidade.
   - channel: byterub-pools
     description: Canal para perguntas e discussões sobre mineração.
   - channel: byterub-research-lab
@@ -155,17 +155,17 @@ downloads:
   blockchainbutton: Download Blockchain
   mobilelight: Mobile & Light Wallets
   hardware: Hardware Wallets
-  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive XMR.
+  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive BTR.
   simplemode: Simple mode
-  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
+  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive BTR, done!
   advancedmode: Advanced mode
   advancedmode1: With all the advanced features you could need. Ideal for seasoned ByteRub users who prefer to have full control of their wallet and node
   merchantpage: Merchant page
-  merchantpage1: Receive XMR for your business, easily
+  merchantpage1: Receive BTR for your business, easily
   hwcompatible: Compatible with hardware wallets
   hwcompatible1: such Trezor and Ledger
   fiatconv: in-app fiat conversion
-  fiatconv1: No longer a need to check the value of your XMR online
+  fiatconv1: No longer a need to check the value of your BTR online
   pruning: Blockchain pruning
   pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
   langs: "<b>30+ languages</b> available"
@@ -296,8 +296,8 @@ contributing:
   donate: Faça uma Doação
   donate_para1: O desenvolvimento contínuo é suportado por doações e
   donate_para2: patrocínios.
-  donate-xmr: Doe ByteRub
-  donate-xmr_para: Envie sua doação para
+  donate-btr: Doe ByteRub
+  donate-btr_para: Envie sua doação para
   or: ou
   donate-btc: Doe Bitcoin
   donate-btc_para: Envie sua doação para
@@ -445,9 +445,9 @@ user-guides:
   purchasing-storing: Comprando e guardando ByteRub de forma segura
   verify-allos: Verifique os binários no Linux, Mac ou Windows via linha de comando (avançado)
   verify-windows: Verifique os binários no Windows (iniciante)
-  mine-on-pool: Como minerar numa pool usando o XMR-Stak-CPU
+  mine-on-pool: Como minerar numa pool usando o BTR-Stak-CPU
   solo-mine: Como minerar solo usando a carteira GUI
-  mine-docker: Minerando com o Docker e XMRig
+  mine-docker: Minerando com o Docker e BTRig
   locked-funds: Como corrigir um saldo bloqueado/travado
   restore-account: Como recuperar sua carteira
   qubes: Isolação da carteira/daemon CLI usando Qubes + Whonix
@@ -456,7 +456,7 @@ user-guides:
   view-only: Como fazer uma carteira somente leitura
   prove-payment: Como provar que um pagamento foi feito
   restore-from-keys: Restaurando uma carteira através das chaves privadas
-  nicehash: Como minerar ByteRub XMR sem equipamento de mineração
+  nicehash: Como minerar ByteRub BTR sem equipamento de mineração
   ledger-wallet-cli: Como criar uma carteira ByteRub na Ledger usando o CLI (byterub-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor
@@ -533,7 +533,7 @@ specs:
   block_size: dinâico, máximo de 2 * M100
   block_emission_title: Curva de emissão
   block_emission_main: "primeiro, curva principal: ~18.132 milhões de moedas até o final de maio de 2022"
-  block_emission_tail: "em seguida, curva em cauda: 0.6 XMR cada bloco de 2 minutos, é ativada quando a primeira emissão finalizar, se traduz numa inflação menor que 1% decrescente ao longo do tempo"
+  block_emission_tail: "em seguida, curva em cauda: 0.6 BTR cada bloco de 2 minutos, é ativada quando a primeira emissão finalizar, se traduz numa inflação menor que 1% decrescente ao longo do tempo"
   block_emission_disclaimer1: veja os
   block_emission_disclaimer_link: gráficos e detalhes
   block_emission_disclaimer2: ""

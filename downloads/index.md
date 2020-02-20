@@ -244,7 +244,7 @@ permalink: /downloads/index.html
                         </div>
                         <div class="row mob-wallets center-xs">
                           <a href="https://www.ledger.com/byterub-wallet/"><img src="/img/ledger.png"></a>
-                          <a href="https://wiki.trezor.io/ByteRub_(XMR)"><img src="/img/trezor.png"></a>
+                          <a href="https://wiki.trezor.io/ByteRub_(BTR)"><img src="/img/trezor.png"></a>
                         </div>                    
                 </div>
             </section>

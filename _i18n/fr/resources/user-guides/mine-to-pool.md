@@ -12,23 +12,23 @@ maintenir la décentralisation du réseau.
 Tout comme pour les pools, il y a de nombreuses applications d'extraction minière parmi lesquelles
 choisir. Celle que vous sélectionnerez dépendra du matériel sur lequel vous aller
 miner. Ce guide va se concentrer sur un mineur pour CPU, et utilisera
-[xmr-stak-cpu](https://github.com/fireice-uk/xmr-stak-cpu). Alternativement, vous
+[btr-stak-cpu](https://github.com/fireice-uk/btr-stak-cpu). Alternativement, vous
 pouvez utiliser [wolf's CPUMiner](https://github.com/wolf9466/cpuminer-multi) ou
 [sgminer-gm](https://github.com/genesismining/sgminer-gm). Cependant, leurs
 configurations sont légèrement différentes et ne seront pas abordés dans ce guide.
 
 ## Pour Windows
 
-Si vous utilisez Windows, le développeur de xmr-stak-cpu fournit des binaires à
+Si vous utilisez Windows, le développeur de btr-stak-cpu fournit des binaires à
 télécharger sur page
-[GitHub Version](https://github.com/fireice-uk/xmr-stak-cpu/releases).
+[GitHub Version](https://github.com/fireice-uk/btr-stak-cpu/releases).
 
-Téléchargez et décompressez `xmr-stak-cpu-win64.zip` à un endroit où vous pourrez
+Téléchargez et décompressez `btr-stak-cpu-win64.zip` à un endroit où vous pourrez
 le retrouver.
 
 ## Pour d'autres systèmes d'exploitation
 
-Si vous n'utilisez pas windows, vous devrez compiler xmr-stak-cpu vous-même,
+Si vous n'utilisez pas windows, vous devrez compiler btr-stak-cpu vous-même,
 heureusement ce n'est pas si difficile qu'il n'y parait. Avant de pouvoir compiler
 le mineur, vous devez installer certains de ses prérequis.
 
@@ -101,7 +101,7 @@ commande suivante pour activer les pages larges puis redémarrez l'application
 d'extraction minière en tant que root :
 
 	sudo sysctl -w vm.nr_hugepages=128
-	sudo ./xmr-stak-cpu
+	sudo ./btr-stak-cpu
 
 ## Pages larges sur Windows
 

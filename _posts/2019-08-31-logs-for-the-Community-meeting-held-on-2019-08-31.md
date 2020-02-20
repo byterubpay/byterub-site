@@ -15,7 +15,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp\_>** 1. Greetings  
 **\<ErCiccione[m]>** Hi folks  
-**\<xmrscott[m]>** Hola  
+**\<btrscott[m]>** Hola  
 **\<sgp\_>** thanks for joining  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** See ByteRub weekly highlights at https://revuo-byterub.com/  
@@ -132,7 +132,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needbyterub90>** Anyways  
 **\<needbyterub90>** Uhm what else  
 **\<sgp\_>** midipoet: here is an example for the US: https://medium.com/michiganfintech/the-15-us-student-organizations-leading-fintech-movements-at-their-universities-fa2543cdcbd8  
-**\<needbyterub90>** Oh, xmrtrader had a rule change too  
+**\<needbyterub90>** Oh, btrtrader had a rule change too  
 **\<midipoet>** sgp\_: yes, i think that a Uni might be a good idea. i don't think finding a host would be difficult, but i don't want to give go ahead for planning, if RIAT are serious about hosting, as they have their own venue  
 **\<needbyterub90>** Altcoin talk is no longer entirely banned  
 **\<needbyterub90>** You can speak about the top 20 now, just keep opinion out of it. Which has really been nice  

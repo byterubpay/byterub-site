@@ -5,7 +5,7 @@ summary: "Wynagrodzenie za blok na końcu krzywej emitowania."
 
 ### Podstawy
 
-Wynagrodzenie za blok ByteRub nigdy nie spadną do zera, ale będą stopniowo spadać aż do końca maja 2022 roku, kiedy rozpocznie się emisja według krzywej z długim ogonem. W tym momencie wynagrodzenie zostanie ustalone jako 0,6 XMR za blok.
+Wynagrodzenie za blok ByteRub nigdy nie spadną do zera, ale będą stopniowo spadać aż do końca maja 2022 roku, kiedy rozpocznie się emisja według krzywej z długim ogonem. W tym momencie wynagrodzenie zostanie ustalone jako 0,6 BTR za blok.
 
 ### Przyczyny
 

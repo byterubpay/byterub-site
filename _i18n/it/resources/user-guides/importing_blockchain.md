@@ -28,7 +28,7 @@ Apri la finestra del Prompt dei comandi. Per farlo premi il tasto Windows + R, p
 
 Adesso dovrai navigare nella schermata di Prompt dei comandi fino al percorso dove si trova il tuo portafoglio ByteRub. Puoi farlo digitando :
 
-`cd C:\IL\TUO\PERCORSO\DEL\PORTAFOGLIO\MONERO\QUI` 
+`cd C:\IL\TUO\PERCORSO\DEL\PORTAFOGLIO\BYTERUB\QUI` 
 
 Nel mio caso :
 
@@ -40,7 +40,7 @@ Se il tuo portafoglio ByteRub è in un'altra partizione, puoi cambiarla digitand
 
 Adesso digita nella finestra del Prompt dei comandi:
 
-`byterub-blockchain-import --verify 1 --input-file C:\IL\TUO\PERCORSO\DEL\PORTAFOGLIO\MONERO\QUI`
+`byterub-blockchain-import --verify 1 --input-file C:\IL\TUO\PERCORSO\DEL\PORTAFOGLIO\BYTERUB\QUI`
 
 Nel mio caso :
 

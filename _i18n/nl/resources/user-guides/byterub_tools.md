@@ -4,9 +4,9 @@
 
 Met deze hulpmiddelen kun je informatie vinden over het ByteRub-netwerk of over je transactiegegevens op de blockchain.
 
-### [Controleren of een geadresseerde je geld heeft ontvangen](http://xmrtests.llcoins.net/checktx.html)
+### [Controleren of een geadresseerde je geld heeft ontvangen](http://btrtests.llcoins.net/checktx.html)
 
-### [Tools voor het genereren van ByteRub-adressen](https://xmr.llcoins.net/)
+### [Tools voor het genereren van ByteRub-adressen](https://btr.llcoins.net/)
 
 ### [Het aantal ByteRub-nodes](http://byterubnodes.i2p.xyz/)
 

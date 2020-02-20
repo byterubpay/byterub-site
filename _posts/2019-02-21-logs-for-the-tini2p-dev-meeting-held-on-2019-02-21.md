@@ -62,7 +62,7 @@ author: el00ruobuob / oneiric
 **\<oneiric\_>** when the router is able to communicate with other routers, i will get more serious about fundraising  
 **\<oneiric\_>** comments/questions?  
 **\<Corklander>** What coins are you planning to accept?  
-**\<oneiric\_>** xmr for now, and grin once i set up a wallet  
+**\<oneiric\_>** btr for now, and grin once i set up a wallet  
 **\<oneiric\_>** wownero  
 **\<oneiric\_>** ;)  
 **\<oneiric\_>** 5. Confirm next meeting time  

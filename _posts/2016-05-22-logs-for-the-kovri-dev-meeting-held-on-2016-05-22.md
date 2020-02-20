@@ -25,31 +25,31 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** ok 107  
 **\<fluffypony>** I asked dEBRUYNE and the rest of the social media guys about that in January last  
 **\<fluffypony>** dEBRUYNE: have you guys looked at that at all ?  
-**\<dEBRUYNE>** I think xmrpromotions was handling that  
+**\<dEBRUYNE>** I think btrpromotions was handling that  
 **\<meeting-bot> [anonimal]** JFTR: s/107/105/  
 **\<dEBRUYNE>** I honestly cannot remember you asking me :-P  
 **\* fluffypony** has the IRC logs to prove it :-P  
-**\<dEBRUYNE>** regardless, I think xmrpromotions was handling most of that :-P  
-**\<fluffypony>** ok - xmrpromotions, did you have a chance to look at GNU Social ?  
+**\<dEBRUYNE>** regardless, I think btrpromotions was handling most of that :-P  
+**\<fluffypony>** ok - btrpromotions, did you have a chance to look at GNU Social ?  
 **\<ArticMine>** I am looking at GNU social right now  
-**\<xmrpromotions>** I am sorry but I have not  
+**\<btrpromotions>** I am sorry but I have not  
 **\<meeting-bot> [anonimal]** Can I ask everone, candidly, what they think of the idea?  
 **\<meeting-bot> [anonimal]** Is it something worth pursuing?  
 **\<ArticMine>** My initial instinct is yes  
 **\<fluffypony>** tbh I had hardly heard about GNU Social till you brought it up  
-**\<xmrpromotions>** Are there more details I can read about it? https://github.com/byterubpay/kovri/issues/105  
+**\<btrpromotions>** Are there more details I can read about it? https://github.com/byterubpay/kovri/issues/105  
 **\<fluffypony>** but I think in terms of providing a more freedom-friendly social presence it's advantageous  
 **\<fluffypony>** plus if we can spend the energy maintaining a Facebook page we can definitely justify this... :-P  
 **\<ArticMine>** Way better than a Facebook page  
 **\<ArticMine>** There are many who dislike the corporate centralization of Facebook in social media  
-**\<meeting-bot> [anonimal]** xmrpromotions: A great example of a working instance is https://quitter.se/  
+**\<meeting-bot> [anonimal]** btrpromotions: A great example of a working instance is https://quitter.se/  
 **\<__uguu__>** facebook is currently actively banning users that talk about the censorship too so...  
-**\<meeting-bot> [anonimal]** xmrpromortions: For technical details, https://gnu.io/social/  
+**\<meeting-bot> [anonimal]** btrpromortions: For technical details, https://gnu.io/social/  
 **\<meeting-bot> [anonimal]** lol, sorry, not auto-completion here  
 **\<meeting-bot> [anonimal]** Yes, recent news items re: censorship just get crazier and crazier.  
-**\<xmrpromotions>** Thank you I will read the details and be ready to comment later. It is too early for me to commit to anything quite yet  
+**\<btrpromotions>** Thank you I will read the details and be ready to comment later. It is too early for me to commit to anything quite yet  
 **\<meeting-bot> [anonimal]** And the social monopolies are finally showing their true colors.  
-**\<meeting-bot> [anonimal]** Ok, so #105 is on hold pending xmrpromotions' review?  
+**\<meeting-bot> [anonimal]** Ok, so #105 is on hold pending btrpromotions' review?  
 **\<fluffypony>** yup  
 **\<meeting-bot> [anonimal]** Ok, next ticket.  
 **\<fluffypony>** ok  
@@ -68,32 +68,32 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** and forward the kovri site through to it  
 **\<fluffypony>** if we feel the need later on we can create a separate site on its own  
 **\<meeting-bot> [anonimal]** Ok, sounds good to me. Anyone else?  
-**\<xmrpromotions>** Of the three options mentioned a separate site that matches the ByteRub site's look and feel may help draw a wider audience than a page on the ByteRub site while at the same time anyone who visits the Kovri page knows that ByteRub is associated with it  
-**\<xmrpromotions>** It seems like a judgement call to me. Either plan sounds reasonable  
+**\<btrpromotions>** Of the three options mentioned a separate site that matches the ByteRub site's look and feel may help draw a wider audience than a page on the ByteRub site while at the same time anyone who visits the Kovri page knows that ByteRub is associated with it  
+**\<btrpromotions>** It seems like a judgement call to me. Either plan sounds reasonable  
 **\<fluffypony>** restarting meeting bot  
 **\<fluffypony>** in fact, if you want to write up some content for me I'll do it on the plane on Tuesday  
 **\<fluffypony>** in fact, I can probably take most of it from the readme  
 **\<fluffypony>** in fact, if I say in fact again I'll summon the in-fact-bot  
 **\<meeting-bot> [anonimal]** Ok, ideas for content? I can blabber but ideas are welcome.  
 **\<meeting-bot> [anonimal]** ping in-fact-bot  
-**\<xmrpromotions>** Any thoughts on creating a stackexchange proposal for I2P? Tor has a page now https://area51.stackexchange.com/proposals/56447/tor and we should be able to reach the commitment stage quickly with the same supporters behind the ByteRub proposal?  
-**\<fluffypony>** xmrpromotions: we'd have to run it past zzz, at the very least  
+**\<btrpromotions>** Any thoughts on creating a stackexchange proposal for I2P? Tor has a page now https://area51.stackexchange.com/proposals/56447/tor and we should be able to reach the commitment stage quickly with the same supporters behind the ByteRub proposal?  
+**\<fluffypony>** btrpromotions: we'd have to run it past zzz, at the very least  
 **\<meeting-bot> [fluffypony]** zzz ^^  
-**\<xmrpromotions>** sorry for off topic idea. I can table it for later if appropriate  
+**\<btrpromotions>** sorry for off topic idea. I can table it for later if appropriate  
 **\<fluffypony> no I think it's an excellent idea, if the i2p community at large is interested then now is definitely the time  
 **\<meeting-bot> [anonimal]** From what I've seen, alot of great ideas come and go through #i2p-dev but it always comes down to resources.  
 **\<meeting-bot> [anonimal]** I think we'd all love that but someone will have to take the initiative.  
-**\<xmrpromotions>** I will take the initiative on that  
+**\<btrpromotions>** I will take the initiative on that  
 **\<meeting-bot> [anonimal]** AFAICT all i2p-related dev (including Kovri) is in a bit of a dry spell so, priorities.  
 **\<meeting-bot> [anonimal]** I like the idea though.  
 **\<fluffypony>** anonimal: the advantage is that we can basically get everyone who's committed to the ByteRub proposal to also back an i2p proposal  
 **\<fluffypony>** but now is the time to do so  
 **\<fluffypony>** whilst everyone's excited  
 **\<meeting-bot> [anonimal]** Ok, so what's the next step?  
-**\<xmrpromotions>** If the I2P communty supports it. As fluffypony said now is the time as the synergy will help both I2P and ByteRub proposals pass faster for REP related reasons  
+**\<btrpromotions>** If the I2P communty supports it. As fluffypony said now is the time as the synergy will help both I2P and ByteRub proposals pass faster for REP related reasons  
 **\<fluffypony>** so basically next step on the website is let's get a bit of content and I'll put it together on the plane on Tuesday  
 **\<fluffypony>** next step on the StackExchange proposal is to wait for feedback from zzz  
-**\<xmrpromotions>** sounds good. I wont act until I hear confirmation that zzz is ready to proceed  
+**\<btrpromotions>** sounds good. I wont act until I hear confirmation that zzz is ready to proceed  
 **\<meeting-bot> [anonimal]** I dropped a line in #i2p-dev.  
 **\<meeting-bot> [anonimal]** We'll see who bites.  
 **\<meeting-bot> [anonimal]** Ok, so #46: 1) create content 2) On Tuesday, fluffypony will put something together 3) ETA after that?  
@@ -162,39 +162,39 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Re: StackExchange, what tl;dr can I give to #i2p-dev?  
 **\<meeting-bot> [anonimal]** Aside from pointing a link to the meeting log.  
 **\<meeting-bot> [anonimal]** (I've been out of the loop re: the initiative)  
-**\<xmrpromotions>** Just say that we are willing to cross promote it to XMR community and expect it to reach the commitment stage fairly fasy  
-**\<xmrpromotions>** fast  
+**\<btrpromotions>** Just say that we are willing to cross promote it to BTR community and expect it to reach the commitment stage fairly fasy  
+**\<btrpromotions>** fast  
 **\<meeting-bot> [fluffypony]** just that it's a proposal to have an i2p-specific StackExchange area  
 **\<meeting-bot> [anonimal]** So, what should we expect from them?  
-**\<xmrpromotions>** from there the I2P and XMR communities can help each other ensure both site reach beta  
-**\<xmrpromotions>** Hard for me to make an ETA on that. End result would be an I2P site similar to what Tor has now  
+**\<btrpromotions>** from there the I2P and BTR communities can help each other ensure both site reach beta  
+**\<btrpromotions>** Hard for me to make an ETA on that. End result would be an I2P site similar to what Tor has now  
 **\<meeting-bot> [anonimal]** fluffypony: should we end meeting?  
 **\<meeting-bot> [anonimal]** (or has it ended?)  
 **\<meeting-bot> [fluffypony]** yes I think so  
 **\<meeting-bot> [fluffypony]** I'll take the bot down  
-**\<xmrpromotions>** We need I2P experts to appear during the proposal stage once created to ask good questions  
-**\<xmrpromotions>** early questions attract a lot more votes and rise to the top, so quality matters  
+**\<btrpromotions>** We need I2P experts to appear during the proposal stage once created to ask good questions  
+**\<btrpromotions>** early questions attract a lot more votes and rise to the top, so quality matters  
 **\<meeting-bot> [anonimal]** Ok, I'll chat in #byterub-dev.  
 **\<i2p-relay> {-anonimal}** * thinking  
-**\<i2p-relay> {-anonimal}** xmrpromotions: I can commit to both pages. How many I2P 'experts' would need to commit?  
-**\<xmrpromotions>** well we need 40 good questions. each person can only ask 5  
+**\<i2p-relay> {-anonimal}** btrpromotions: I can commit to both pages. How many I2P 'experts' would need to commit?  
+**\<btrpromotions>** well we need 40 good questions. each person can only ask 5  
 **\<fluffypony>** well before commitment it's just the voting section  
-**\<xmrpromotions>** Our initial 40 questions will help with SEO after launch  
+**\<btrpromotions>** Our initial 40 questions will help with SEO after launch  
 **\<fluffypony>** where we need not only good questions asked, but also good questions have to get 10 votes each  
-**\<xmrpromotions>** Yes I mean we need to create quality questions to vote on  
-**\<xmrpromotions>** If someone wants to create a list of 40 great questions that would be perfect  
+**\<btrpromotions>** Yes I mean we need to create quality questions to vote on  
+**\<btrpromotions>** If someone wants to create a list of 40 great questions that would be perfect  
 **\<i2p-relay> {-anonimal}** 40 great I2P questions, I could do that.  
 **\<fluffypony>** they still have to post them though  
-**\<xmrpromotions>** then we can divide it up and ask 5 each to make sure no silly questions gain a lot of votes early in the process  
-**\<xmrpromotions>** we can find 8 people to post 5 questions each easily  
+**\<btrpromotions>** then we can divide it up and ask 5 each to make sure no silly questions gain a lot of votes early in the process  
+**\<btrpromotions>** we can find 8 people to post 5 questions each easily  
 **\<fluffypony>** yup  
 **\<fluffypony>** yeah, then we need a bunch of people to upvote :)  
-**\<xmrpromotions>** I dont think voting will be a problem either. XMR users with no rep can be assigned to ask the questions... that will give them 5x10x5 rep (250 each)  
-**\<xmrpromotions>** which will give them more than enough for the 200 rep area 51 cutoff for the SE 100 rep account association bonus  
+**\<btrpromotions>** I dont think voting will be a problem either. BTR users with no rep can be assigned to ask the questions... that will give them 5x10x5 rep (250 each)  
+**\<btrpromotions>** which will give them more than enough for the 200 rep area 51 cutoff for the SE 100 rep account association bonus  
 **\<fluffypony>** strategyyyy  
-**\<xmrpromotions>** 5q with 10 votes each will earn 5 rep per vote  
+**\<btrpromotions>** 5q with 10 votes each will earn 5 rep per vote  
 **\<i2p-relay> {-anonimal}** Ok, sounds great. Right now, I need to finish post-meeting wrap-up, take a break, get my brain in order and bbl.  
 **\<fluffypony>** ok cool  
-**\<xmrpromotions>** I will make a post in the getbyterub forums. Maybe we can create and agree on a list of 40 questions there before we start  
-**\<xmrpromotions>** thanks everyone. have a great weekend  
+**\<btrpromotions>** I will make a post in the getbyterub forums. Maybe we can create and agree on a list of 40 questions there before we start  
+**\<btrpromotions>** thanks everyone. have a great weekend  
 **\<fluffypony>** cheers

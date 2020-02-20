@@ -117,12 +117,12 @@ author: selsta / anonimal
 **\<anonimal>** Well, our volunteer PR guy who was here for 3 seconds decided to rage quit, so, here we are.  
 **\<anonimal>** Any questions/comments on point 5?  
 **\<anonimal>** We're in a time where PR doesn't require product anymore. I personally don't agree with this but the trend is being set.  
-**\<oneiric\_>** Is xmrhaelan, the ByteRub PR/outreach guy, available to help with Kovri?  
+**\<oneiric\_>** Is btrhaelan, the ByteRub PR/outreach guy, available to help with Kovri?  
 **\<oneiric\_>** We're in a time where PR doesn't require product anymore. < what do you mean?  
 **\<anonimal>** We're available. We have communications channels. We have very little outreach but c'est la vie.  
 **\<anonimal>** oneiric\_: one can put vast amounts of money into a PR team and not need to have a product. See ICOs.  
 **\<oneiric\_>** Oh, yeah vaporware is king there  
-**\<anonimal>** I don't know if xmrhaelan is around. I keep thinking of Van Halen everytime I read his name.  
+**\<anonimal>** I don't know if btrhaelan is around. I keep thinking of Van Halen everytime I read his name.  
 **\<oneiric\_>** lol  
 **\<anonimal>** "Got it baaddd, got it baaad, got it baaadd, got hots for teacher"  
 **\<anonimal>** Anything else on point 5.?  

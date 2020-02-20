@@ -307,7 +307,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** You are all released from servitude. Have a great rest of your day.  
 **\<msvb-lab>** Not sure what others think. Should we just meet when there's a lot to talk about or regularly?  
 **\<rehrar>** We can try for next month?  
-**\<rehrar>** Regular XMR meetings happen once every two weeks. Think that's too much?  
+**\<rehrar>** Regular BTR meetings happen once every two weeks. Think that's too much?  
 **\<anhdres>** nice talk eveybody!  
 **\<msvb-lab>** rehrar: Yes, we'll do that. But unlike sgp's flow it is not part of this meeting to decide the next.  
 **\<rehrar>** it might help there not be so many topics and discussions to crunch into one meeting if it was regular  

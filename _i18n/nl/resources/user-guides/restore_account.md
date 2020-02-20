@@ -48,6 +48,6 @@ Geef de instellingen voor je node op en klik op de pijl naar rechts:
 
 ![instellingen node](png/restore_account/daemon-settings.png)
 
-Klik op `GEBRUIK MONERO` om je herstelde portemonnee te gebruiken:
+Klik op `GEBRUIK BYTERUB` om je herstelde portemonnee te gebruiken:
 
 ![klaar is kees](png/restore_account/all-set-up.png)

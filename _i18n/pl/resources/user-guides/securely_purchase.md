@@ -35,7 +35,7 @@ Jakąkolwiek metodę wybierzesz, upewnij się, że żadna kopia twojego portfela
 *Jeśli stracisz dostęp do swojego papierowego portfela, twoje ByteRub nigdy nie będzie dostępne ani dla ciebie, ani dla nikogo innego. Nie będziesz mógł ich odzyskać!
 
 #### Adnotacja
-Opcją zaszyfrowania kodu mnemonicznego ByteRub jest https://xmr.llcoins.net/. Ściągnij stronę html i otwórz ją na odłączonym od sieci komputerze. Sprawdź część "Encrypt/Decrypt Mnemonic Seed" i upewnij się, że używasz "CN Add" z mocnym hasłem. Dzięki, manicminer5.
+Opcją zaszyfrowania kodu mnemonicznego ByteRub jest https://btr.llcoins.net/. Ściągnij stronę html i otwórz ją na odłączonym od sieci komputerze. Sprawdź część "Encrypt/Decrypt Mnemonic Seed" i upewnij się, że używasz "CN Add" z mocnym hasłem. Dzięki, manicminer5.
 
 
 
@@ -65,7 +65,7 @@ Przejdź do swojego konta Xapo lub Circle i znajdź przycisk Transfer lub Send. 
 
 Kiedy wysyłka zostanie zainicjowana przez Xapo lub Coinbase, pojawi się pewne opóźnienie przy wejściu transakcji do łańcucha bloków Bitcoina i oczekiwaniu na potwierdzenie. Może ono zająć kilka minut lub godzin. Możesz sprawdzić, czy płatność została wysłana, wyszukując adres wpłat Shapeshift.io na stronie blockchain.info. Pojawi się tam twoja transakcja do Shapeshift.io.
 
-Po potwierdzeniu twojej wpłaty Bitcoinów, Shapeshift.io rozpocznie wymianę Bitcoinów (BTC) na ByteRub (XMR) na jednej z giełd, a gdy ją zakończy, wyśle ByteRub na adres twojego zimnego papierowego portfela. Zajmie to kilka minut lub godzin. W przypadku problemów, skontaktuj się z ekipą Shapeshift.io, jest ona bardzo pomocna.
+Po potwierdzeniu twojej wpłaty Bitcoinów, Shapeshift.io rozpocznie wymianę Bitcoinów (BTC) na ByteRub (BTR) na jednej z giełd, a gdy ją zakończy, wyśle ByteRub na adres twojego zimnego papierowego portfela. Zajmie to kilka minut lub godzin. W przypadku problemów, skontaktuj się z ekipą Shapeshift.io, jest ona bardzo pomocna.
 
 Gdy Shapeshift.io poinformuje o ukończeniu twojej transakcji, powinieneś już mieć swoje ByteRub w papierowym portfelu!
 

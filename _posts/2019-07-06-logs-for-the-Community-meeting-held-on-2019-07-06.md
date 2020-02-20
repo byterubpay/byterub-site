@@ -19,7 +19,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** boyo  
 **\<msvb-mob>** Hello.  
 **\<ErCiccione[m]>** hi  
-**\<xmrscott[m]>** Yo~  
+**\<btrscott[m]>** Yo~  
 **\<sgp\_>** welcome all, special thanks to those in their second meeting  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** See ByteRub weekly highlights at https://revuo-byterub.com/  
@@ -33,7 +33,7 @@ author: el00ruobuob / rehrar
 **\<ErCiccione[m]>** very nice repo, you can use it to create personalized byterub addresses  
 **\<ErCiccione[m]>** didn't have time to announce it yet  
 **\<sgp\_>** very cool  
-**\<rehrar>** I used it and have a shiny new XMR address  
+**\<rehrar>** I used it and have a shiny new BTR address  
 **\<rehrar>** is has "diego" in it  
 **\<sgp\_>** Breaking ByteRub Episode 99: Using vanity addresses with your name in it isn't great for opsec :p  
 **\<sgp\_>** Any other updates?  
@@ -42,7 +42,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** CCS proposals still needing funding:  
 **\<sgp\_>** NONE! (btw rehrar the page looks weird with 0 proposals)  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** “Increase the Adoption of ByteRub at Avantpay|19 Conference” (250 XMR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/81  
+**\<sgp\_>** “Increase the Adoption of ByteRub at Avantpay|19 Conference” (250 BTR) https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/81  
 **\<rehrar>** I'll add it again to my mountain of stuff  
 **\<sgp\_>** low priority :)  
 **\<dEBRUYNE>** I guess Surae's proposal is coming soon  
@@ -62,10 +62,10 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** Thanks to everyone who attended and watched online. It was a great event, and we luckily have another great event scheduled in early August.  
 **\<sgp\_>** Is there anything we should improve for future years?  
 **\<dEBRUYNE>** May want to consider hosting one in Europe  
-**\<xmrscott[m]>** Perhaps a more formal photography policy  
+**\<btrscott[m]>** Perhaps a more formal photography policy  
 **\<dEBRUYNE>** e.g. each other year in Europe, each other year in US  
 **\<dEBRUYNE>** sgp\_: I think there were some remarks about the food  
-**\<xmrscott[m]>** (I noticed on Twitter some folk posted pics of audience's faces)  
+**\<btrscott[m]>** (I noticed on Twitter some folk posted pics of audience's faces)  
 **\<dEBRUYNE>** i.e. that it was mostly sweets etc.  
 **\<midipoet>** i second dEBRUYNE's idea  
 **\<rehrar>** Mexico is the best bet imo  
@@ -92,7 +92,7 @@ author: el00ruobuob / rehrar
 **\<midipoet>** Europeans are weighing in heavy here. i feel a changing of the tide  
 **\<el00ruobuob\_[m]>** There's good food in Paris  
 **\<dsc\_>** Beware you need to fill in Github/Twitter/Facebook/Instagram/Linkedin account when you want to travel to the US  
-**\<xmrscott[m]>** Somewhere near Riat perhaps?  
+**\<btrscott[m]>** Somewhere near Riat perhaps?  
 **\<dEBRUYNE>** sgp\_: Preferably somewhere near a well connected airport  
 **\<selsta>** Riat is Vienna :P  
 **\<rehrar>** el00ruobuob\_[m]: not Mexican food though  
@@ -186,7 +186,7 @@ author: el00ruobuob / rehrar
 **\<sgp\_>** https://www.reddit.com/r/ByteRub/comments/c06vuw/my\_last\_proposal\_as\_coordinator\_of\_the/  
 **\<byterubbux>** [REDDIT] My last proposal as coordinator of the Localization Workgroup has ended. A recap, some updates, plans for the future of the internationalization of ByteRub and a huge thanks (self.ByteRub) | 77 points (94.0%) | 22 comments | Posted by ErCiccione | Created at 2019-06-13 - 15:01:35  
 **\<ErCiccione[m]>** it's installed on the server and i'm just configuring it. It will be ready soon.  
-**\<xmrscott[m]>** Woot woot  
+**\<btrscott[m]>** Woot woot  
 **\<sgp\_>** very nice  
 **\<el00ruobuob\_[m]>** cool!  
 **\<rehrar>** bye ErCiccione[m]. You will be missed.  

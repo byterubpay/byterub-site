@@ -4,9 +4,9 @@
 
 هذه الأدوات يُمكن إستخدامها لجمع المعلومات حول شبكه مونيرو أو بيانات مُعاملاتك في سلسله الكتل.
 
-### [تحقق من إستلام المُستلم للأموال](http://xmrtests.llcoins.net/checktx.html)
+### [تحقق من إستلام المُستلم للأموال](http://btrtests.llcoins.net/checktx.html)
 
-### [أدوات إنشاء حساب مونيرو](https://xmr.llcoins.net/)
+### [أدوات إنشاء حساب مونيرو](https://btr.llcoins.net/)
 
 ### [عدد خوادم مونيرو](http://byterubnodes.i2p.xyz/)
 

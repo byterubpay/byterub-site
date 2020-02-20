@@ -13,7 +13,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Workgroup Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/337  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** hi guiz  
 **\<Xeagu\_\_>** Beep boop loading xeagu.exe  
@@ -37,10 +37,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<Xeagu\_\_>** 14 people came to the Church of ByteRub Mass 34  
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** CCS proposals still needing funding:  
-**\<sgp\_>** GUI UX coding (3 months) (97.48 / 282 XMR) https://ccs.getbyterub.org/proposals/dsc-2019-q2.html  
-**\<sgp\_>** xiphon part time coding (3 months) (16.28 / 110 XMR) https://ccs.getbyterub.org/proposals/xiphon-part-time.html  
-**\<sgp\_>** knueffelbund GUI design for Q2 2019 (24.87 / 37 XMR) https://ccs.getbyterub.org/proposals/knueffelbund-gui-design-for-q2-2019.html  
-**\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup – March (20.03 / 144 XMR) https://ccs.getbyterub.org/proposals/ErCiccione-localizations.html  
+**\<sgp\_>** GUI UX coding (3 months) (97.48 / 282 BTR) https://ccs.getbyterub.org/proposals/dsc-2019-q2.html  
+**\<sgp\_>** xiphon part time coding (3 months) (16.28 / 110 BTR) https://ccs.getbyterub.org/proposals/xiphon-part-time.html  
+**\<sgp\_>** knueffelbund GUI design for Q2 2019 (24.87 / 37 BTR) https://ccs.getbyterub.org/proposals/knueffelbund-gui-design-for-q2-2019.html  
+**\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup – March (20.03 / 144 BTR) https://ccs.getbyterub.org/proposals/ErCiccione-localizations.html  
 **\<sgp\_>** CCS proposals in ideas to be discussed one at a time:  
 **\<rehrar>** most of those are actually funded more than they are shown  
 **\<rehrar>** someone made a donation that donated to several proposals in one transaction, and we didn't anticipate that, so it only shows up on one.  
@@ -71,7 +71,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** \*moved in the first place  
 **\<rehrar>** almost every CCS has seen the proposer do some amount of volunteer work  
 **\<Xeagu\_\_>** Rehrar no they want me to bow to their command and I bow to no authority but God. It will be accepted by merit alone or it won't be accepted at all.  
-**\<rehrar>** even other people who request money for translations typically have some XMR volunteer trnaslation under their belt  
+**\<rehrar>** even other people who request money for translations typically have some BTR volunteer trnaslation under their belt  
 **\<sgp\_>** Xeagu\_\_: this argument can be trivially extrapolated to "move anything, only pay out what they want" which isn't the real situation. There is still an initial vetting process before moving to funding required  
 **\<rehrar>** Xeagu\_\_: dude, stop being a dork  
 **\<rehrar>** I don't know which "they" you're talking about  
@@ -260,7 +260,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** rehrar, you wanted to start talking about the Revuo  
 **\<kinghat>** ya i know its on there.  
 **\<dsc\_>** ByteRubversary puzzle by needmoney90 was cool. I'm creating one of my own. If anyone has cool puzzle ideas, please pm me.  
-**\<xmrmatterbridge> \<rehrar>** Yes  
+**\<btrmatterbridge> \<rehrar>** Yes  
 **\<kinghat>** dsc\_: make it take place in a dungeon. with dragooons.  
 **\<sgp\_>** dsc\_: cool  
 **\<kinghat>** and make them have large talons.  
@@ -303,15 +303,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** exactly, something like that  
 **\<needmoney90>** Otherwise we could get a situation where someone hires out to fiverrr etc  
 **\<sarang>** Xeagu\_\_: yes we are updating decoy selection at the next point update  
-**\<xmrmatterbridge> \<learninandlurkin>** Rather than guidelines you could just call them "Tips for successful applications"  
+**\<btrmatterbridge> \<learninandlurkin>** Rather than guidelines you could just call them "Tips for successful applications"  
 **\<sgp\_>** yes, that's basically what they are  
 **\<rehrar>** we have that  
 **\<nioc>** needmoney90: +1  
-**\<xmrmatterbridge> \<learninandlurkin>** Also I think the featured merchant section on revuo is great. And it should definitely have donation type things  
+**\<btrmatterbridge> \<learninandlurkin>** Also I think the featured merchant section on revuo is great. And it should definitely have donation type things  
 **\<sgp\_>** rehrar: I think we mean just adding a few "extra pointers" to this list: https://ccs.getbyterub.org/what-is-ccs/  
 **\<rehrar>** ok  
-**\<xmrmatterbridge> \<learninandlurkin>** That's a sensible rule  
-**\<xmrmatterbridge> \<learninandlurkin>** a minimal level of engagement across platforms is a good idea  
+**\<btrmatterbridge> \<learninandlurkin>** That's a sensible rule  
+**\<btrmatterbridge> \<learninandlurkin>** a minimal level of engagement across platforms is a good idea  
 **\<rehrar>** and what might those be?  
 **\<sgp\_>** eg: "the community prefers known proposers with a history of good work"  
 **\<rehrar>** So there seems to be some confusion  
@@ -335,7 +335,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Obviously this workgroup doesn't make the final decision, but we need to not pretend that the decisions are often based on the discussions here  
 **\<rehrar>** but they run the CCS  
 **\<rehrar>** I wouldn't use the term steward for the CCS  
-**\<xmrmatterbridge> \<learninandlurkin>** I think a tip to attend meeting (community workgroup or otherwise) is a good one  
+**\<btrmatterbridge> \<learninandlurkin>** I think a tip to attend meeting (community workgroup or otherwise) is a good one  
 **\<rehrar>** correct sgp\_  
 **\<el00ruobuob\_[m]>** +1 learninandlurkin  
 **\<sgp\_>** so we shoudl provide guidelines on how to approach these meetings, etc. to best support their proposal  
@@ -351,7 +351,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** and makes recommendation to the core team based off of it  
 **\<sgp\_>** ErCiccione: of course  
 **\<el00ruobuob\_[m]>** Xeagu\_\_, you can browse the meeting logs on the repo/website to track people attendance  
-**\<xmrmatterbridge> \<learninandlurkin>** ErCiccione : will the ecosystem channel be relayed to mattermost?  
+**\<btrmatterbridge> \<learninandlurkin>** ErCiccione : will the ecosystem channel be relayed to mattermost?  
 **\<sgp\_>** I'm speaking on the experience of others discussing at the meetings first per core team recommendation, though it can be anything else too  
 **\<Xeagu\_\_>** Sure but why would you want to burden the core team with that additional task of reading?  
 **\<sgp\_>** Xeagu\_\_: they aren't required to read it  
@@ -412,7 +412,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** The next community meeting will be in 2 weeks on 11 May at 17:00 UTC.  
 **\<sgp\_>** The next Coffee Chat is next Saturday 4 May at 16:00 UTC (before the Defcon meeting).  
 **\<Xeagu\_\_>** selsta: there are no established rules for CCS format and some proposals get approved or denied without clear reasons why  
-**\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar. It now has several people adding meetings, so it’s a great resource: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 7. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<needmoney90>** Thanks Justin  

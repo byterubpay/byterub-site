@@ -4,9 +4,9 @@
 
 Для сбора информации о сети ByteRub или данных ваших транзакций в блокчейне можно использовать следующие инструменты.
 
-### [Проверка получения средств адресатом](http://xmrtests.llcoins.net/checktx.html)
+### [Проверка получения средств адресатом](http://btrtests.llcoins.net/checktx.html)
 
-### [Инструменты для генерации адреса ByteRub](https://xmr.llcoins.net/)
+### [Инструменты для генерации адреса ByteRub](https://btr.llcoins.net/)
 
 ### [Счётчик узлов ByteRub](http://byterubnodes.i2p.xyz/)
 

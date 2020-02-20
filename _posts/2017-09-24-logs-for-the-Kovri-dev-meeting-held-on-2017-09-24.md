@@ -17,18 +17,18 @@ author: dEBRUYNE / fluffypony
 **\<anonimal>** 7. Any additional meeting items  
 **\<anonimal>** 8. Confirm next meeting date/time  
 **\<anonimal>** Hello  
-**\<xmrmatterbridge> \<ajs>** hi  
+**\<btrmatterbridge> \<ajs>** hi  
 **\<MoroccanMalinois>** Hi  
 **\<ErCiccione>** Hi folks  
-**\<xmrmatterbridge> \<sgp>** Hi  
+**\<btrmatterbridge> \<sgp>** Hi  
 **\<anonimal>** 2. Brief review of what's been completed since the previous meeting  
 **\<anonimal>** What's covered in here https://forum.getbyterub.org/9/work-in-progress/86967/anonimal-s-kovri-full-time-development-funding-thread?page=&noscroll=1#post-92168 which was submitted last week.  
 **\<anonimal>** For this week, continuation of what was covered in that link. I also happened to make an appearance in a BTC manager interview the other day. Jaime at BTC manager interviewed Michael and I re: the hardware wall  
 **\<anonimal>** etc.  
 **\<anonimal>** \*wallet  
-**\<xmrmatterbridge> \<sgp>** Is that released yet?  
+**\<btrmatterbridge> \<sgp>** Is that released yet?  
 **\<anonimal>** The hardware wallet?  
-**\<xmrmatterbridge> \<sgp>** Nop the interview  
+**\<btrmatterbridge> \<sgp>** Nop the interview  
 **\<anonimal>** Oh, I don't know, I haven't checked.  
 **\* anonimal** wasn't given a release date either  
 **\<anonimal>** Anything else on point 2? I know everyone's been busy with kovri-related work so speak up if you'd like!  

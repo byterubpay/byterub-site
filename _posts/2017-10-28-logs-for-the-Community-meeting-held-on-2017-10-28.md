@@ -16,7 +16,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** 1. Greetings  
 **\<vp11>** hey there lovely people  
 **\<erciccione>** hi  
-**\<xmrscott[m]>** Salutations  
+**\<btrscott[m]>** Salutations  
 **\<endogenic>** o/  
 **\<sgp>** 2. Community highlights  
 **\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
@@ -95,7 +95,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** -dev is the best place to ask  
 **\<nioc>** msvb-lab: I just remember it being disclosed in -dev  
 **\<msvb-lab>** nioc: Cool, thanks again.  
-**\<dEBRUYNE>** msvb-lab: https://github.com/prusnak/trezor-xmr/commits/master  
+**\<dEBRUYNE>** msvb-lab: https://github.com/prusnak/trezor-btr/commits/master  
 **\<dEBRUYNE>** This is part of it  
 **\<nioc>** it might not be a dev but an long time community member  
 **\<msvb-lab>** dEBRUYNE: Interesting, that looks very good. Might be what we're after.  
@@ -116,12 +116,12 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** There will be a ByteRub Meetup in LA on November 7th: https://www.meetup.com/preview/ByteRub-Los-Angeles/events/242968913  
 **\<sgp>** Does anyone know of other events coming up?  
 **\<serhack>** A secret project is cooming soon  
-**\<dEBRUYNE>** msvb-lab: there's these two too: https://github.com/jedigras/noodledoodle_xmr_trezor/commits/master & https://github.com/jedigras/trezor-xmr/commits/master  
+**\<dEBRUYNE>** msvb-lab: there's these two too: https://github.com/jedigras/noodledoodle_btr_trezor/commits/master & https://github.com/jedigras/trezor-btr/commits/master  
 **\<vp11>** ohhhh these secret projects!!  
 **\<serhack>** Expect a b ... ops :)  
 **\<sgp>** I'll let serhack discuss it when he's ready, but it will require many volunteers  
 **\<sgp>** 5. Community Survey  
-**\<sgp>** xmr\_eric posted the results from his third survey, with over 500 responses: https://www.reddit.com/r/ByteRub/comments/794v43/byterub_community_survey_3_results_over_500/  
+**\<sgp>** btr\_eric posted the results from his third survey, with over 500 responses: https://www.reddit.com/r/ByteRub/comments/794v43/byterub_community_survey_3_results_over_500/  
 **\<sgp>** I want to take a few minutes and discuss the results.  
 **\<serhack>** Yeah @sgp.  Not now  
 **\<serhack>** ByteRub community is awesome  
@@ -151,7 +151,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** It may be. I don't think it makes sense for anything requiring a payment ID  
 **\<vp11>** indeed  
 **\<sgp>** Anyone else have any thoughts?  
-**\<sgp>** Thanks xmr\_eric for making the survey, and thanks everyone who took the time to respond  
+**\<sgp>** Thanks btr\_eric for making the survey, and thanks everyone who took the time to respond  
 **\<sgp>** 6. Open ideas time  
 **\<sgp>** It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
 **\<msvb-lab>** I really like the byterub.how site, didn't know it existed until today.  
@@ -169,7 +169,7 @@ author: dEBRUYNE / fluffypony
 **\<vp11>** I'll use another domain for the brazilian community initiative  
 **\<sgp>** @vp11 keeping yourself accountable :P  
 **\<sgp>** I can't wait until the website is localized. Lots of work being done  
-**\<sgp>** Can anyone make a plush ByteRub cat? I would totally buy one https://www.reddit.com/r/xmrtrader/comments/791w4r/daily_discussion_friday_october_27th/doystjw/  
+**\<sgp>** Can anyone make a plush ByteRub cat? I would totally buy one https://www.reddit.com/r/btrtrader/comments/791w4r/daily_discussion_friday_october_27th/doystjw/  
 **\<sgp>** Also a ByteRub sweater  
 **\<msvb-lab>** We don't really have a mascot do we? Maybe it should be a cat.  
 **\<vp11>** msvb-lab, we kinda have  

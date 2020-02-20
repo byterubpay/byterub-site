@@ -34,12 +34,12 @@ author: dEBRUYNE / fluffypony
 **\<JonathanD_>** hi  
 **\<hyc>** hola  
 **\<smooth>** bonjour  
-**\<xmrpromotions>** bonjour  
+**\<btrpromotions>** bonjour  
 **\<fluffypony>** Comment allez-vous ?  
 **\<fluffypony>** la réunion d'aujourd'hui aura lieu en français  
 **\<bigreddmachine>** laissez les bon temps rouler  
 **\<fluffypony>** lol  
-**\<xmrpromotions>** Konnichiwa  
+**\<btrpromotions>** Konnichiwa  
 **\<fluffypony>** ok so  
 **\<fluffypony>** welcome to the dev meeting  
 **\<fluffypony>** after a brief intermission we're back on every 2 weeks  
@@ -58,10 +58,10 @@ author: dEBRUYNE / fluffypony
 **\* DaveyJones**: quotes deBRUYNE from yesterday : dEBRUYNE pages othe, NoodleDoodle, smooth, tewinget, binaryFate  
 **\<fluffypony>** so then the pool code is bad, right ?  
 **\<hyc>** yeah, in my perspective anyway  
-**\<xmrpromotions>** No comment on the code for https://github.com/byterubpay/bitbyterub/pull/794 but is there some way we can reach out to the family of warptangent to let them know we are very greatful for his contributions?  
+**\<btrpromotions>** No comment on the code for https://github.com/byterubpay/bitbyterub/pull/794 but is there some way we can reach out to the family of warptangent to let them know we are very greatful for his contributions?  
 **\<smooth>** i added a comment to 810  
 **\<dEBRUYNE>** ^ His dad commented in the thread  
-**\<fluffypony>** xmrpromotions: they're already speaking to us, and we've let them know  
+**\<fluffypony>** btrpromotions: they're already speaking to us, and we've let them know  
 **\<dEBRUYNE>** but let's stick to -dev decisions for now  
 **\<smooth>** 818 i think needs review by a cryptographer before we release that feature  
 **\<fluffypony>** agreed  
@@ -171,7 +171,7 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE>** oh and fluffypony, perhaps a bit about the 0MQ stuff as well?  
 **\<fluffypony>** hyc is better suited to update us on RingCT  
 **\<smooth>** 0mq is kind of a big issue i think, maybe leave for the next meeting  
-**\<xmrpromotions>** Is omq the only/primary reason why work is still being done on master instead of dev branch?  
+**\<btrpromotions>** Is omq the only/primary reason why work is still being done on master instead of dev branch?  
 **\<smooth>** thats part of the whole issue of how the repo is organized and the workflow  
 **\<fluffypony>** yeah I think that's a discussion we can have at the next meeting  
 **\<hyc>** sorry I've got very little intelligent to say about ringct  
@@ -189,7 +189,7 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE_>** hyc, byterubmooo: Perhaps the two of you could collaborate with NobleSir on it  
 **\<bigreddmachine>** Once the meeting is adjourned, can i hijack everyone/someone's attention for 2 mins to ask a question? it's not an official dev question, but still related i guess.  
 **\<othe>** just throw it out  
-**\<xmrpromotions>** can I ask about multi sig? Am I right that ring ct will be a prerequisit for it? I ask because it sounds like it will be needed for bitsquare (at least to be used as intended)  
+**\<btrpromotions>** can I ask about multi sig? Am I right that ring ct will be a prerequisit for it? I ask because it sounds like it will be needed for bitsquare (at least to be used as intended)  
 **\<othe>** no ringct is no prerequesite for multisig  
 **\<othe>** and no bitshares doesnt need it  
 **\<othe>** bitsquare  
@@ -199,8 +199,8 @@ author: dEBRUYNE / fluffypony
 **\<othe>** and then they need support for the spendkey stuff to proof a payment, thats it  
 **\<byterubmooo>** Multisig happens as a byproduct of ringct withou much extra work though AIUI.  
 **\<fluffypony>** yeah  
-**\<xmrpromotions>** ok thank you. maybe I read about dev priorities and misinterpreted a comment about ringct coming before multi sig  
-**\<bigreddmachine>** Can I get someone's opinion on something? The "incoming\_transfers" simplewallet method with "all" as the type returns a list of all transfers with in XMR coming into the wallet, including change from outgoing txs. For the wallet i've been working on, I have introduced a way to track outgoing transactions locally and store them using IndexedDB, since there’s not a good way to do that over rpc. I’d like  
+**\<btrpromotions>** ok thank you. maybe I read about dev priorities and misinterpreted a comment about ringct coming before multi sig  
+**\<bigreddmachine>** Can I get someone's opinion on something? The "incoming\_transfers" simplewallet method with "all" as the type returns a list of all transfers with in BTR coming into the wallet, including change from outgoing txs. For the wallet i've been working on, I have introduced a way to track outgoing transactions locally and store them using IndexedDB, since there’s not a good way to do that over rpc. I’d like  
 **\<bigreddmachine>**  to present users with a "pseudo-ledger" so-to-speak that showed incoming txs and outgoing txs, and should add up to the balance for a wallet. Would it be correct/good/valid for me to check the returns from "incoming\_transfers" to see if any tx\_ids match those from the outgoing transfers database, and if they do match, don't display them? That would result in the displayed "incoming transfers" to only be  
 **\<bigreddmachine>** transfers from another source.  
 **\<byterubmooo>** incoming\_transfers shows the raw outputs. So you need to subtract those coming back from the ones leaving with the same txid.  
@@ -210,7 +210,7 @@ author: dEBRUYNE / fluffypony
 **\<byterubmooo>** RPC for getting the same info that show\_transfers displays.  
 **\<binaryFate>** ok  
 **\<bigreddmachine>** ^that would solve all my issues and i'd love you forever. in a manly way.  
-**\<dEBRUYNE_>** othe: afaik Bitsquare needs it if you want XMR/fiat markets  
+**\<dEBRUYNE_>** othe: afaik Bitsquare needs it if you want BTR/fiat markets  
 **\<othe>** altcoins are the fiat markets in bitsquares atm i think  
 **\<bigreddmachine>** dEBRUYNE_: that's correct. but based on the interview on daily decrypt, i don't think he plans to have fiat markets other than BTC anytime soon. he kind of alluded to that.  
 **\<bigreddmachine>** he said in the interview that if you wanted to trade an altcoin for fiat, you'd have to go through bitcoin because that's what has the best liquidity and what multisig is implemented in the market  

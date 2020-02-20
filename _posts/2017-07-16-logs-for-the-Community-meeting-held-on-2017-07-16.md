@@ -217,7 +217,7 @@ author: dEBRUYNE / fluffypony
 **\<reybyterub>** Yeah what is wrong with that?  
 **\<shillosopher>** \o/  
 **\<reybyterub>** "secure, private, untraceable" seems to fit the bill perfect  
-**\<shillosopher>** rehrar you can send the 100 XMR prize to me via tippero  
+**\<shillosopher>** rehrar you can send the 100 BTR prize to me via tippero  
 **\<pero>** well i think secure is redundant within that  
 **\<jonathancross>** Do we want a slogan that appeals to *us* or to potential new users?  
 **\<pero>** and private and untraceable are basically synonyms  
@@ -394,7 +394,7 @@ author: dEBRUYNE / fluffypony
 **\<reybyterub>** Great!  
 **\<rehrar>** anyone have anything to discuss? Make your voice heard.  
 **\<jonathancross>** As far as the name of the GUI... I'd like to suggest that for most people, the GUI == ByteRub Wallet.  
-**\<mugatu>** I heard XMR is ded  
+**\<mugatu>** I heard BTR is ded  
 **\<mugatu>** is this true?  
 **\<reybyterub>** yes  
 **\<rehrar>** mugatu we can neither confirm nor deny  
@@ -413,7 +413,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** he's in slack as sgp  
 **\<rehrar>** cool, thanks nm  
 **\<rbrunner>** Just a little one-shot reminder: On reddit, /r/ByteRub-Community still is not mentioned on /r/byterub, in the "RELATED SUBREDDITS" sidebar section  
-**\<needmultisig90>** Ill add it to xmrtrader too  
+**\<needmultisig90>** Ill add it to btrtrader too  
 **\<rehrar>** alright kids, if there's nothing else:   10. Confirm next meeting date/time  
 **\<rehrar>** The next meeting will happen in two weeks on 16 July. Same time (18:30 UTC). Look for another meta issue about it on GitHub. It will not be delayed another week.  
 **\<rehrar>** 11. Conclusion  

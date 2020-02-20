@@ -28,8 +28,8 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** uses each of those pieces to define a parameter of a seashell  
 **\<suraeNoether>** and then plot it  
 **\<suraeNoether>** so if we could get something going client-side with each transaction, with a javascript renderer, it would work like this  
-**\<suraeNoether>** i want to send xmr to a bitcoin address using xmr.to  
-**\<suraeNoether>** i fire up my xmr wallet and copy-paste my xmr.to address into it, and a seashell appears. i compare it to the seashell on the xmr.to website. they look the same, and the characters seem to mostly match, so i send the transaction  
+**\<suraeNoether>** i want to send btr to a bitcoin address using btr.to  
+**\<suraeNoether>** i fire up my btr wallet and copy-paste my btr.to address into it, and a seashell appears. i compare it to the seashell on the btr.to website. they look the same, and the characters seem to mostly match, so i send the transaction  
 **\<suraeNoether>** (same thing for firing up my bitcoin wallet to  verify i'm sending to myself appropriately)  
 **\<sarang>** So you effectively treat the shell as a fingerprint  
 **\<suraeNoether>** yeah, pretty much  

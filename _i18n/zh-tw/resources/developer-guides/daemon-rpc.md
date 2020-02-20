@@ -6,7 +6,7 @@ This is a list of the byterubd daemon RPC calls, their inputs and outputs, and e
 
 Many RPC calls use the daemon's JSON RPC interface while others use their own interfaces, as demonstrated below.
 
-Note: "@atomic-units" refer to the smallest fraction of 1 XMR according to the byterubd implementation. **1 XMR = 1e12 @atomic-units.**
+Note: "@atomic-units" refer to the smallest fraction of 1 BTR according to the byterubd implementation. **1 BTR = 1e12 @atomic-units.**
 
 Note2: Guide updated as of network height of 1,562,465.
 
@@ -246,7 +246,7 @@ Outputs:
   * *num_txes* - unsigned int; Number of transactions in the block, not counting the coinbase tx.
   * *orphan_status* - boolean; Usually `false`. If `true`, this block is not part of the longest chain.
   * *prev_hash* - string; The hash of the block immediately preceding this block in the chain.
-  * *reward* - unsigned int; The amount of new @atomic-units generated in this block and rewarded to the miner. Note: 1 XMR = 1e12 @atomic-units.
+  * *reward* - unsigned int; The amount of new @atomic-units generated in this block and rewarded to the miner. Note: 1 BTR = 1e12 @atomic-units.
   * *timestamp* - unsigned int; The unix time at which the block was recorded into the blockchain.
 * *status* - string; General RPC error code. "OK" means everything looks good.
 * *untrusted* - boolean; States if the result is obtained using the bootstrap mode, and is therefore not trusted (`true`), or when the daemon is fully synced (`false`).

@@ -25,7 +25,7 @@ author: el00ruobuob / rehrar
 **\<dsc\_>** I'm working on better tails integration  
 **\<dEBRUYNE>** GUI v0.14.1.0 is around the corner   
 **\<rbrunner>** Ah, that corner?   
-**\<dsc\_>** I've updated https://autonode.xmr.pm/ to show more remote nodes  
+**\<dsc\_>** I've updated https://autonode.btr.pm/ to show more remote nodes  
 **\<byterubmooo>** I did some more work on share-rpc, seeing someone's started reviewing.  
 **\<byterubmooo>** It would be nice if more people reviewed, and if someone did something with it   
 **\<sarang>** byterubmooo: do you consider the CLSAG implementation branch suitable for PR/review (not to merge yet, just for review)  

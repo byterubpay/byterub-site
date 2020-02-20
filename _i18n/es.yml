@@ -22,7 +22,7 @@ global:
 
 titles:
   index: Inicio
-  whatisbyterub: ¿Qué es ByteRub (XMR)?
+  whatisbyterub: ¿Qué es ByteRub (BTR)?
   using: Usar ByteRub
   accepting: Aceptar ByteRub
   contributing: Mejorar ByteRub
@@ -109,7 +109,7 @@ hangouts:
   - channel: byterub-offtopic
     description: Para hablar con otros usuarios acerca de cosas no relacionadas a ByteRub.
   - channel: byterub-otc
-    description: ByteRub sobre la mesa (Over The Counter). Entra aquí para comprar XMR de tu compañeros de ByteRub.
+    description: ByteRub sobre la mesa (Over The Counter). Entra aquí para comprar BTR de tu compañeros de ByteRub.
   - channel: byterub-pools
     description: Lugar para preguntas y discusiones de minado.
   - channel: byterub-research-lab
@@ -155,17 +155,17 @@ downloads:
   blockchainbutton: Download Blockchain
   mobilelight: Mobile & Light Wallets
   hardware: Hardware Wallets
-  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive XMR.
+  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive BTR.
   simplemode: Simple mode
-  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
+  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive BTR, done!
   advancedmode: Advanced mode
   advancedmode1: With all the advanced features you could need. Ideal for seasoned ByteRub users who prefer to have full control of their wallet and node
   merchantpage: Merchant page
-  merchantpage1: Receive XMR for your business, easily
+  merchantpage1: Receive BTR for your business, easily
   hwcompatible: Compatible with hardware wallets
   hwcompatible1: such Trezor and Ledger
   fiatconv: in-app fiat conversion
-  fiatconv1: No longer a need to check the value of your XMR online
+  fiatconv1: No longer a need to check the value of your BTR online
   pruning: Blockchain pruning
   pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
   langs: "<b>30+ languages</b> available"
@@ -296,8 +296,8 @@ contributing:
   donate: Donar
   donate_para1: El desarrollo en curso está apoyado por donaciones y
   donate_para2: patrocinadores.
-  donate-xmr: Donar ByteRub
-  donate-xmr_para: Donaciones pueden ser enviadas a
+  donate-btr: Donar ByteRub
+  donate-btr_para: Donaciones pueden ser enviadas a
   or: o
   donate-btc: Donar Bitcoin
   donate-btc_para: Donaciones pueden ser enviadas a
@@ -415,7 +415,7 @@ about:
   history_para1: Bitbyterub (BMR) fue lanzado en abril del 2014. Fue un lanzamiento justo y con anuncios previos del código de referencia CryptoNote. No hubo pre-minado o minado instantáneo, y ninguna porción de la recompensa de bloque se dirigía al desarrollo de Bitbyterub. Ve el post original de Bitcointalk
   history_para2: aquí.
   history_para3: El fundador, thankful_for_today, propuso algunos cambios controversiales que no fueron bien recibidos por la comunidad. Le siguió una gran caída, y el Equipo Central de Bitbyterub bifurcó el proyecto con la comunidad siguiendo al nuevo equipo central. El Equipo Central actual ha estado en vigilancia desde entonces.
-  history_para4: ByteRub (XMR) ha hecho considerables mejoras a larga escala desde su lanzamiento. La blockchain ha migrado a una estructura de base de datos distinta para proveer mejor eficiencia y flexibilidad, el tamaño mínimo de las firmas circulares fue establecido por mandato para que todas las transacciones fueran privadas, y se implementó RingCT para esconder la cantidad de las transacciones. La mayoría de estas implementaciones han logrado mejoras a la seguridad y privacidad, o han facilitado el uso de ByteRub. ByteRub sigue en desarrollo con metas de privacidad y seguridad principalmente, y eficiencia y facilidad de uso en segundo lugar.
+  history_para4: ByteRub (BTR) ha hecho considerables mejoras a larga escala desde su lanzamiento. La blockchain ha migrado a una estructura de base de datos distinta para proveer mejor eficiencia y flexibilidad, el tamaño mínimo de las firmas circulares fue establecido por mandato para que todas las transacciones fueran privadas, y se implementó RingCT para esconder la cantidad de las transacciones. La mayoría de estas implementaciones han logrado mejoras a la seguridad y privacidad, o han facilitado el uso de ByteRub. ByteRub sigue en desarrollo con metas de privacidad y seguridad principalmente, y eficiencia y facilidad de uso en segundo lugar.
   values: Nuestros valores
   values_para: ByteRub es más que sólo una tecnología. Es más bien el significado de tecnología. A continuación se muestran algunas de las filosofías guía más importantes.
   security: Seguridad
@@ -445,9 +445,9 @@ user-guides:
   purchasing-storing: Comprar y almacenar ByteRub de forma segura
   verify-allos: Verificar binarios en Linux, Mac o Windows en Consola de Comandos (avanzado)
   verify-windows: Verificar binarios en Windows (principiante)
-  mine-on-pool: Cómo minar en una pool con xmr-stak-cpu
+  mine-on-pool: Cómo minar en una pool con btr-stak-cpu
   solo-mine: Cómo hacer minado en modo solo con la interfaz gráfica de usuario (GUI)
-  mine-docker: Minar con Docker y XMRig
+  mine-docker: Minar con Docker y BTRig
   locked-funds: Cómo recuperar/reparar fondos bloqueados
   restore-account: Cómo restablecer tu cuenta
   qubes: Aislamiento de monedero de Consola de Comandos con Qubes + Whonix
@@ -456,7 +456,7 @@ user-guides:
   view-only: Cómo hacer un monedero de visualización únicamente
   prove-payment: Cómo comprobar un pago
   restore-from-keys: Restaurar monedero desde claves
-  nicehash: Cómo minar ByteRub XMR sin un equipo de minado
+  nicehash: Cómo minar ByteRub BTR sin un equipo de minado
   ledger-wallet-cli: Cómo generar un monedero Ledger ByteRub con la consola de comandos (byterub-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor
@@ -533,7 +533,7 @@ specs:
   block_size: dinámico, con un máximo de 2 * M100
   block_emission_title: Curva de emisión
   block_emission_main: "primero, curva principal: ~18.132 millones de monedas para el final de mayo del 2022"
-  block_emission_tail: "después, cola de curva: 0.6 XMR por cada bloque (2 minutos), y comienza una vez se realiza la emisión principal, que se traduce en un <1% de reducción de inflación a través del tiempo"
+  block_emission_tail: "después, cola de curva: 0.6 BTR por cada bloque (2 minutos), y comienza una vez se realiza la emisión principal, que se traduce en un <1% de reducción de inflación a través del tiempo"
   block_emission_disclaimer1: Ver las
   block_emission_disclaimer_link: gráficas y detalles
   supply_title: Suministro Máximo

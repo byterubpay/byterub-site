@@ -19,8 +19,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ArticMine>** Hi  
 **\<ErCiccione>** Hola  
 **\<cryptochangement>** hola amigos de privacidad  
-**\<xmrmatterbridge> \<hrumag>** Buonasera a tutti!  
-**\<xmrscott[m]>** Salutations  
+**\<btrmatterbridge> \<hrumag>** Buonasera a tutti!  
+**\<btrscott[m]>** Salutations  
 **\<freelikeinfreedo>** Hello 🙂  
 **\<parasew[m]>** hello!  
 **\<sgp\_>** looks like we have a good crowd today  
@@ -30,15 +30,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** dsc\_\_ shared a preview of the GUI black theme: https://www.reddit.com/r/ByteRub/comments/86l3km/gui\_black\_theme\_preview/  
 **\<byterubbux>** [REDDIT] GUI - Black theme preview (self.ByteRub) | 104 points (98.0%) | 29 comments | Posted by dsc\_\_ | Created at 2018-03-23 - 14:36:17  
 **\<sgp\_>** Does anyone else have community updates to share?  
-**\<xmrscott[m]>** DefCon workgroup created  
+**\<btrscott[m]>** DefCon workgroup created  
 **\<serhack>** Mastering ByteRub released a preview of the first chapter. If you want to contribute, https://github.com/byterubbook/byterubbook  
-**\<xmrscott[m]>** First meeting a Saturday from now  
+**\<btrscott[m]>** First meeting a Saturday from now  
 **\<serhack>** The preview of the first chapter is available on https://masteringbyterub.com  
 **\<KnifeOfPi\_>** hello!  
 **\<ErCiccione>** The GUI is basically ready, binaries will be probably built within the weekend  
 **\<KnifeOfPi\_>** we’re working on getting cakewallet ready  
-**\<sgp\_>** ah yes xmrscott, link to the thread about DefCon here: https://www.reddit.com/r/ByteRub/comments/87uy99/the\_byterub\_project\_defcon\_26\_aug\_912\_in\_las\_vegas/  
-**\<byterubbux>** [REDDIT] The ByteRub Project @ DefCon 26 (Aug 9-12 in Las Vegas)! Looking for volunteers! First DefCon workgroup meeting 4/7! (self.ByteRub) | 15 points (74.0%) | 11 comments | Posted by xmrscott | Created at 2018-03-28 - 19:50:11  
+**\<sgp\_>** ah yes btrscott, link to the thread about DefCon here: https://www.reddit.com/r/ByteRub/comments/87uy99/the\_byterub\_project\_defcon\_26\_aug\_912\_in\_las\_vegas/  
+**\<byterubbux>** [REDDIT] The ByteRub Project @ DefCon 26 (Aug 9-12 in Las Vegas)! Looking for volunteers! First DefCon workgroup meeting 4/7! (self.ByteRub) | 15 points (74.0%) | 11 comments | Posted by btrscott | Created at 2018-03-28 - 19:50:11  
 **\<sgp\_>** serhack I should have time to review the book this weekend  
 **\<serhack>** A lot of updates today! Nice!  
 **\<m2049r[m]>** monerujo beta is 0.12 ready (and on play store & github)  
@@ -59,7 +59,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<m2049r[m]>** if a pool doesnt update, they are effectively mining byterub0?  
 **\<ErCiccione>** true. we can create a workgroup on taiga  
 **\<dEBRUYNE>** m2049r[m]: yes  
-**\<xmrmatterbridge> \<hrumag>** ErCiccione: +1  
+**\<btrmatterbridge> \<hrumag>** ErCiccione: +1  
 **\<ArticMine>** if a pool doesnt update, they are effectively mining byterub0? <--- If they do not change the seed nodes I suspect not  
 **\<sgp\_>** ErCiccione would you mind creating that then and adding me as a contributor? I would like to get the pool list in r/ByteRubMining  
 **\<dEBRUYNE>** ArticMine: Seed nodes are only relevant for the initial connection  
@@ -72,7 +72,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dEBRUYNE>** I'll PM you the markup  
 **\<sgp\_>** I should be able to view the source  
 **\<sgp\_>** Just verified, can view. No PM for that necessary  
-**\<xmrmatterbridge> \<hrumag>** * CLI v0.12.0.0 or GUI v.0.12.0.0  
+**\<btrmatterbridge> \<hrumag>** * CLI v0.12.0.0 or GUI v.0.12.0.0  
 **\<sgp\_>** All right, I think we should move on to the next section. If there are still discussions, we can have them during open ideas time  
 **\<sgp\_>** 3. FFS updates  
 **\<sgp\_>** There are several Forum Funding System updates.  
@@ -91,26 +91,26 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** We should also talk about that ByteRubCat series proposal :D  
 **\<ErCiccione>** thanks a lot folks!  
 **\<rehrar>** the dev team's opinion shouldn't matter in any special way in this matter  
-**\<xmrmatterbridge> \<cryptochangements>** I want to see it  
-**\<xmrmatterbridge> \<cryptochangements>** More for education purposes than anything  
+**\<btrmatterbridge> \<cryptochangements>** I want to see it  
+**\<btrmatterbridge> \<cryptochangements>** More for education purposes than anything  
 **\<rehrar>** alternative implementations have been discussed before, and the only thing that they generally say is something to the effect of: "Make sure they know the amount of work involved"  
-**\<xmrmatterbridge> \<cryptochangements>** Like that guy that implemented cryptonight in Pythob  
+**\<btrmatterbridge> \<cryptochangements>** Like that guy that implemented cryptonight in Pythob  
 **\<rehrar>** wrappers ultimately fall back on the work of the C++ dev team, so not a ton of extra work involved.  
 **\<rehrar>** But an alternative implementation must keep pace with C++ development (which has many contributors)  
 **\<rehrar>** so if it's just one person, they'd be doing the job of byterubmooo plus everyone else contributing  
-**\<xmrmatterbridge> \<cryptochangements>** Even a wrapper has to be maintained to a degree. I just don't want to see the FFS for this gut funded, payed out, then never maintained  
+**\<btrmatterbridge> \<cryptochangements>** Even a wrapper has to be maintained to a degree. I just don't want to see the FFS for this gut funded, payed out, then never maintained  
 **\<rehrar>** this is the biggest issue for the community, yes  
 **\<rehrar>** the amount of maintenance for another implementation is orders of magnitude higher, so the odds of it not being maintained really skyrocket  
 **\<rehrar>** I may be speaking like a downer here, but if you read my comment on the thread, I really do think it's incredibly necessary to have stuff like this  
 **\<sgp\_>** All right, glad we could re-open discussion on other implementations  
 **\<parasew[m]>** there is an existing gem, but the original dev stopped communicating a while ago.  
 **\<m2049r[m]>** plus: maintenance is boring  
-**\<xmrmatterbridge> \<cryptochangements>** I still think it would nice to have for educational purposes. It also opens doors to get integrated with other things so if somebody picks it up for that use they could be motivated to help maintain it  
+**\<btrmatterbridge> \<cryptochangements>** I still think it would nice to have for educational purposes. It also opens doors to get integrated with other things so if somebody picks it up for that use they could be motivated to help maintain it  
 **\<rehrar>** this is admittedly one weakness in the FFS  
 **\<sgp\_>** Do we know of any services that would want to use a Ruby implementation? If we know of groups, it has the highest chance of being maintained  
 **\<rehrar>** if a person begins the project for money, but then money dries out, they are more likely to leave as well  
 **\<rehrar>** whereas if there are passion projects of alternative implementations, the money is nice (if funded), but they're more likely to continue  
-**\<xmrmatterbridge> \<cryptochangements>** Somebody mentioned shopify  
+**\<btrmatterbridge> \<cryptochangements>** Somebody mentioned shopify  
 **\<parasew[m]>** there are parallel efforts on this gem, the meetup organiser of the ruby meetup in vienna was also expressing interest. i guess it needs somebody to coordinate this, so the FFS proposal is needed, but it needs multiple devs/oversight imho  
 **\<rehrar>** agreed parasew[m]  
 **\<rehrar>** the take away for this (for me) is: this is a great idea, and I support it whole heartedly  
@@ -119,9 +119,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Or can we discuss ByteRubCat: https://forum.getbyterub.org/6/ideas/89764/i-d-like-to-develop-a-new-webcomic-series-starring-byterubcat-and-the-justice-league-of-crypto  
 **\<rehrar>** move it, fund it  
 **\<parasew[m]>** move it?  
-**\<xmrmatterbridge> \<cryptochangements>** Tbh I think another issue with thr fork schedule is that forking 6 months not only bricks ASICs but alternative implementations too :/ thats a discussion for another time tho  
+**\<btrmatterbridge> \<cryptochangements>** Tbh I think another issue with thr fork schedule is that forking 6 months not only bricks ASICs but alternative implementations too :/ thats a discussion for another time tho  
 **\<sgp\_>** All right, thanks for the discussion on these everyone  
-**\<xmrmatterbridge> \<cryptochangements>** IIRC the XMR figure for that was put together when the market price was significantly higher. Is 150 XMR stilo enough for ByteRub Cat?  
+**\<btrmatterbridge> \<cryptochangements>** IIRC the BTR figure for that was put together when the market price was significantly higher. Is 150 BTR stilo enough for ByteRub Cat?  
 **\<rehrar>** move the ByteRub Cat proposal I mean parasew[m]  
 **\<sgp\_>** cryptochangements we can sort that out with the author  
 **\<sgp\_>** a. RFC-HWALLET-1 project progress  
@@ -160,7 +160,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** erciccione, you've done great work.  
 **\<m2049r[m]>** yes, we have english & spanish for now  
 **\<ErCiccione>** thanks rehrar :)  
-**\<xmrmatterbridge> \<hrumag>** bravo!  
+**\<btrmatterbridge> \<hrumag>** bravo!  
 **\<serhack>** Great idea m2049r :)  
 **\<serhack>** Good job erciccione  
 **\<ErCiccione>** great, so let's talk about that after the meeting, i'm honestly not familiar with monerujo's codebase, i need to check it out  
@@ -176,7 +176,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** RIAT?  
 **\<parasew[m]>** The ByteRub Workgroup at RIAT has been working since 2017, we organised community workshops in dec 2017 and also hosted the team of the byterub hardware wallet in vienna. We are mixed from ByteRub Austria meetup and have connections to other meetups as well. A meetup in Hongkong is currently also discussed.  
 **\<sgp\_>** rehrar https://riat.at/  
-**\<parasew[m]>** Some involved people are around here in the irc i guess, @m2049r, @nevvton\_, FreeAsInFreedom (txmr) and ofc others (you know who you are) :)  
+**\<parasew[m]>** Some involved people are around here in the irc i guess, @m2049r, @nevvton\_, FreeAsInFreedom (tbtr) and ofc others (you know who you are) :)  
 **\<msvb-lab>** Hong Kong.  
 **\<parasew[m]>** We also helped organise the assembly at the 34c3 in leipzig and we are looking forward to help spread the word with events throughout 2018. Especially now focusing on Defcon and starting with early planning on 35c3.  
 **\<parasew[m]>** yes, thats us  
@@ -210,12 +210,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<m2049r[m]>** managed to set up f-droid environment yesterday ...  
 **\<m2049r[m]>** and we have a huge backlog of cool functions on taiga :)  
 **\<m2049r[m]>** but i will be going for the CRAZYpass next  
-**\<xmrmatterbridge> \<hrumag>** @erciccione when you're done you can come to mattermost. i've got updates and a question  
+**\<btrmatterbridge> \<hrumag>** @erciccione when you're done you can come to mattermost. i've got updates and a question  
 **\<m2049r[m]>** (generating secure passwords with RSA as in my published paper)  
 **\<freelikeinfreedo>** > managed to set up f-droid environment yesterday ...  
 **\<freelikeinfreedo>** nice! 😃  
 **\<ErCiccione>** @hrumag coming!  
-**\<parasew[m]>** so the workgroup will be helping in growing the userbase of monerujo , FreeAsInFreedom (txmr) had the idea for a workshop with lineage+monerujo for legacy android devices  
+**\<parasew[m]>** so the workgroup will be helping in growing the userbase of monerujo , FreeAsInFreedom (tbtr) had the idea for a workshop with lineage+monerujo for legacy android devices  
 **\<rehrar>** woot!  
 **\<rehrar>** copperhead > lineage though  
 **\<rehrar>** (don't kill me)  

@@ -1,6 +1,6 @@
 {% assign version = '3.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-## Comment miner ByteRub (XMR) sans matériel d'extraction minière ?
+## Comment miner ByteRub (BTR) sans matériel d'extraction minière ?
 
 Si vous ne disposez pas d'un matériel d'extraction minière rentable, ni de temps ou
 d'argent à y investir, vous pouvez tout de même miner ByteRub avec NiceHash.

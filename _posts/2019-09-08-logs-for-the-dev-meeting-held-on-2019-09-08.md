@@ -57,7 +57,7 @@ author: el00ruobuob / byterubmooo / rehrar
 **\<rehrar>** dEBRUYNE: are they though?  
 **\<byterubmooo>** Nobody expects a byterub fork.  
 **\<hyc>** we could always release with daemon mining disabled, and fix it up in a point release if we need to  
-**\<hyc>** since xmrig is already available  
+**\<hyc>** since btrig is already available  
 **\<rehrar>** I realize we don't have to go Verge vaporware extreme where we push back indefinitely, but I think people are used to some "delays" if it means code that works from the get go (hopefully)  
 **\<rehrar>** especially if it's just a couple of weeks  
 **\<hyc>** but I'm pretty sure I can get a new patch ready in the next couple days  
@@ -80,7 +80,7 @@ author: el00ruobuob / byterubmooo / rehrar
 **\<hyc>** ok then should be no problem  
 **\<dEBRUYNE>** rbrunner: Yes I tend to agree. I'd prefer to release v0.15.0.0 with full functionality  
 **\<rehrar>** selsta: what's the state of the GUI as we march toward this fork?  
-**\<tevador>** yeah, we should make sure daemon mining is working, especially since there is not much difference in hashrate between xmrig and byterubd  
+**\<tevador>** yeah, we should make sure daemon mining is working, especially since there is not much difference in hashrate between btrig and byterubd  
 **\<dEBRUYNE>** With respect to branching, I guess we just keep merging stuff into master until the RandomX pull request is ready?  
 **\<byterubmooo>** There's certainly more stuff to be merged atm.  
 **\<rbrunner>** Pragmatic approach :)  

@@ -22,7 +22,7 @@ global:
 
 titles:
   index: الرئيسيه
-  whatisbyterub: ما هو مونيرو (XMR)?
+  whatisbyterub: ما هو مونيرو (BTR)?
   using: إستخدام مونيرو
   accepting: قبول مونيرو
   contributing: تطوير مونيرو
@@ -109,7 +109,7 @@ hangouts:
   - channel: byterub-offtopic
     description: Chatting with other ByteRub users about things not related to ByteRub.
   - channel: byterub-otc
-    description: Over the counter ByteRub. Come here to purchase XMR from your fellow ByteRubn.
+    description: Over the counter ByteRub. Come here to purchase BTR from your fellow ByteRubn.
   - channel: byterub-pools
     description: This is the place for mining questions and discussion.
   - channel: byterub-research-lab
@@ -155,17 +155,17 @@ downloads:
   blockchainbutton: Download Blockchain
   mobilelight: Mobile & Light Wallets
   hardware: Hardware Wallets
-  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive XMR.
+  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive BTR.
   simplemode: Simple mode
-  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
+  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive BTR, done!
   advancedmode: Advanced mode
   advancedmode1: With all the advanced features you could need. Ideal for seasoned ByteRub users who prefer to have full control of their wallet and node
   merchantpage: Merchant page
-  merchantpage1: Receive XMR for your business, easily
+  merchantpage1: Receive BTR for your business, easily
   hwcompatible: Compatible with hardware wallets
   hwcompatible1: such Trezor and Ledger
   fiatconv: in-app fiat conversion
-  fiatconv1: No longer a need to check the value of your XMR online
+  fiatconv1: No longer a need to check the value of your BTR online
   pruning: Blockchain pruning
   pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
   langs: "<b>30+ languages</b> available"
@@ -296,8 +296,8 @@ contributing:
   donate: تبرّع
   donate_para1: التطويرات القائمه مدعومه من قبل التبرعات و
   donate_para2: الرعاه.
-  donate-xmr: التبرع بالمونيرو
-  donate-xmr_para: يُمكن إرسال التبرعات علي
+  donate-btr: التبرع بالمونيرو
+  donate-btr_para: يُمكن إرسال التبرعات علي
   or: أو
   donate-btc: التبرع بالبتكوين
   donate-btc_para: يُمكن إرسال التبرعات علي
@@ -444,9 +444,9 @@ user-guides:
   purchasing-storing: شراء وتخزين مونيرو بأمان
   verify-allos: تحقق من ملفات التثبيت علي ويندوز ولينُكس (متقدم)
   verify-windows: تحقق من الملفات علي ويندوز (للمبتدئين)
-  mine-on-pool: كيفيه التعدين في حقل (تجمّع للتعدين) مع برنامج xmr-stak-cpu
+  mine-on-pool: كيفيه التعدين في حقل (تجمّع للتعدين) مع برنامج btr-stak-cpu
   solo-mine: كيفيه التعدين منفرداً بالواجهه الرسوميه
-  mine-docker: التعدين بواسطه  Docker و XMRig
+  mine-docker: التعدين بواسطه  Docker و BTRig
   locked-funds: كيفيه إصلاح مشكله الاموال المُعلّقه
   restore-account: كيفيه إسترجاع حسابك
   qubes: عزل واجهه سطر الأوامر / الخادم مع نظام Qubes + Whonix
@@ -455,7 +455,7 @@ user-guides:
   view-only: كيفيه عمل محفظه رؤيه فقط
   prove-payment: كيفيه إثبات إتمام معامله
   restore-from-keys: إستعاده محفظه من المفاتيح
-  nicehash: How to mine ByteRub XMR without a mining equipment
+  nicehash: How to mine ByteRub BTR without a mining equipment
   ledger-wallet-cli: How to generate a Ledger ByteRub wallet with the CLI (byterub-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor

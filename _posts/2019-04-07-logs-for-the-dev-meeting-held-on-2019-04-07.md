@@ -110,9 +110,9 @@ author: el00ruobuob / rehrar
 **\<rehrar>** anything else from anyone?  
 **\<rehrar>** I said we could keep it short. :)  
 **\<hyc>** let's call it  
-**\<xmrmatterbridge> \<rehrar>** Cool. Two weeks from now. Same time. See you all then.  
-**\<xmrmatterbridge> \<rehrar>** Oh, those who have used the new CCS. How was it?  
-**\<xmrmatterbridge> \<rehrar>** To donate or to put up a proposal?  
+**\<btrmatterbridge> \<rehrar>** Cool. Two weeks from now. Same time. See you all then.  
+**\<btrmatterbridge> \<rehrar>** Oh, those who have used the new CCS. How was it?  
+**\<btrmatterbridge> \<rehrar>** To donate or to put up a proposal?  
 **\<ErCiccione[m]>** just quickly:  
 **\<ErCiccione[m]>** The guide for the GUI is completed, thanks to el00ruobuob, it only needs to be built and translated, but it can be included with next release :)  
 **\<ErCiccione[m]>** https://github.com/byterub-ecosystem/byterub-GUI-guide  

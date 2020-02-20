@@ -1,15 +1,15 @@
 <?php
 date_default_timezone_set('Africa/Johannesburg');
-if (isset($_COOKIE["MONERO_LANG"]))
+if (isset($_COOKIE["BYTERUB_LANG"]))
 {
-	if ($_COOKIE["MONERO_LANG"] == "en")
+	if ($_COOKIE["BYTERUB_LANG"] == "en")
 	{
 		header('Location: /home');
 		die();
 	}
 	else
 	{
-		header('Location: /'.$_COOKIE["MONERO_LANG"]);
+		header('Location: /'.$_COOKIE["BYTERUB_LANG"]);
 		die();
 	}
 }
@@ -23,7 +23,7 @@ if (isset($_COOKIE["MONERO_LANG"]))
 
     <title>ByteRub - secure, private, and untraceable</title>
 	<meta name="description" content="ByteRub is a digital currency that is secure, private, and untraceable.">
-	<meta name="keywords" content="byterub, xmr, bitbyterub, cryptocurrency">
+	<meta name="keywords" content="byterub, btr, bitbyterub, cryptocurrency">
 
     <meta property="og:title" content="ByteRub - secure, private, untraceable"/>
     <meta property="og:description" content="ByteRub is a digital currency that is secure, private, and untraceable.">

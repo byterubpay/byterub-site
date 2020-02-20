@@ -9,14 +9,14 @@ author: dEBRUYNE / fluffypony
 # Logs  
 
 **\<sgp>** All right, meeting time :)  
-**\<sgp>** xmrscott rehrar ErCiccione serhack cryptochangement msvb-mob  
+**\<sgp>** btrscott rehrar ErCiccione serhack cryptochangement msvb-mob  
 **\<serhack>** Hello!  
 **\<sgp>** 0. Introduction  
 **\<cryptochangements>** Estoy aquì  
 **\<sgp>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/178  
 **\<msvb-mob>** Hello.  
-**\<xmrscott[m]>** Salutations  
+**\<btrscott[m]>** Salutations  
 **\<cryptochangements>** Hey everyone  
 **\<ErCiccione>** Hi!  
 **\<sgp>** Whoops, wrong link  
@@ -32,7 +32,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** For a great weekly summary, please read the ByteRub Observer: http://byterub-observer.com/  
 **\<sgp>** It seems like they are behind by a few weeks. Anyone have any large updates?  
 **\<rehrar>** I'm working on a big super secret project that is taking up basically 100% of my non-free time  
-**\<xmrscott[m]>** You'd want to ping byterubobydoo  
+**\<btrscott[m]>** You'd want to ping byterubobydoo  
 **\<rehrar>** consider this a preannouncement  
 **\<sgp>** Thanks for the pre-announcement rehrar lol  
 **\<cryptochangements>** PUMP on the way  
@@ -64,7 +64,7 @@ author: dEBRUYNE / fluffypony
 **\<msvb-mob>** By the way, I created a project landing page for Vegas 2018:  
 **\<msvb-mob>** https://taiga.getbyterub.org/project/michael-vegas-august-2018/  
 **\<msvb-mob>** ...in case we need to organize for events there this year.  
-**\<xmrscott[m]>** Cool. I'll probably be at Vegas for Defcon again this year. If you need any help from me, ping me  
+**\<btrscott[m]>** Cool. I'll probably be at Vegas for Defcon again this year. If you need any help from me, ping me  
 **\<sgp>** @msvb-mob what is the timeline for the video? When do you hope to have it out by?  
 **\<msvb-mob>** Am I still connected?  
 **\<sgp>** I got the "am I still connected" message  
@@ -132,7 +132,7 @@ author: dEBRUYNE / fluffypony
 **\<Dhjucjnejrfjf>** Speaking of byterubv would it be appropriate to plan to add any exchange that supports it to the byterub wiki avoid list since they are in essence helping to enable a privacy attack on byterub?  
 **\<muchso>** that's ridiculous. just don't feed them  
 **\<ArticMine>** ByteRubV should be a separate topic from out HF  
-**\<xmrscott[m]>** I would be in favor of that  
+**\<btrscott[m]>** I would be in favor of that  
 **\<sgp>** Yeah, ByteRubV will be up in a sec  
 **\<snorlax>** It's not ridiculous, but I have no opinion on it (sorry for spam.)  
 **\<sgp>** Looks like we're ready to move on to that section though. One last chance to ask a question about the ByteRub scheduled hardfork  
@@ -200,12 +200,12 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** since this is basically a free attack technologically (not socially)  
 **\<sgp>** @ArticMine Higher ringsizes reduce the risk of transactions having all decoys invalidated  
 **\<ArticMine>** The economics are very problematic. If people do not spend their ByteRubV they are in effect propping up the value  
-**\<xmrscott[m]>** Hopefully MRL prioritizes it though given the chain split happens in roughly a month. This could all be averted if ByteRubV created their own chain from avnew genisis  instead of splitting  
+**\<btrscott[m]>** Hopefully MRL prioritizes it though given the chain split happens in roughly a month. This could all be averted if ByteRubV created their own chain from avnew genisis  instead of splitting  
 **\<ArticMine>** sgp yes but with after split inputs  
 **\<sgp>** Yes ArticMine  
-**\<cryptochangements>** xmrscott: But the 10x airdrop is the basis of their scam lol  
+**\<cryptochangements>** btrscott: But the 10x airdrop is the basis of their scam lol  
 **\<muchso>** most people are speculators they simply don't care  
-**\<rehrar>** xmrscott[m] we can never hope that people will act in good faith. In fact, when individuals are presented evidence of potential harm, and they choose to move forward anyways, we must assume bad faith  
+**\<rehrar>** btrscott[m] we can never hope that people will act in good faith. In fact, when individuals are presented evidence of potential harm, and they choose to move forward anyways, we must assume bad faith  
 **\<snorlax>** I've seen several very good solutions that ByteRubV could implement in order to maintain both our and their privacy.  Perhaps extending those suggestions to them in a semi-official manner could mitigate the damage?  
 **\<snorlax>** Well, not solutions, but mitigations  
 **\<sgp>** @snorlax we need to assume they won't do anything to help out. In fact, we should assume they are attackers, since an attacker could try the same thing  
@@ -237,7 +237,7 @@ author: dEBRUYNE / fluffypony
 **\<snorlax>** @sgp no they don't, they just need to entice users to reuse their key images.  Or am I mistaken there?  
 **\<pca>** I dont think social intervention is the answer. (convincing exchanges, etc to not support it)  
 **\<sgp>** @snorlax yes, but they need to entice a large portion of the outputs  
-**\<snorlax>** I was alluding to the point above that previously, attacks cost tx fees (and/or XMR itself, in order to control/know outputs.)  Now they're enticing users to reveal themselves  
+**\<snorlax>** I was alluding to the point above that previously, attacks cost tx fees (and/or BTR itself, in order to control/know outputs.)  Now they're enticing users to reveal themselves  
 **\<muchso>** yeah that's not good. you seem to try to prevent users from getting their shitcoins  
 **\<snorlax>** @sgp I think we're on the same page, sorry  
 **\<rehrar>** pca while this is true, the whole point of ByteRub and crypto in general is that we should not need to rely on social answers, but rather replace these elements with potential for weakness in human corruption with provable cryptography, so as to be truly trustless  

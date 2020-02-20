@@ -79,7 +79,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** ok, well  
 **\<ArticMine>** are all the audits going through ostif?  
 **\<sarang>** Two of them are  
-**\<sarang>** Benedikt will be paid directly in XMR  
+**\<sarang>** Benedikt will be paid directly in BTR  
 **\<suraeNoether>** ArticMine: I believe Buenz is independent  
 **\<suraeNoether>** ^  
 **\<sarang>** OSTIF's role is just to handle the payment  
@@ -153,12 +153,12 @@ author: el00ruobuob / surae
 **\<suraeNoether>** sarang ^ yep  
 **\<suraeNoether>** i kind of want the schoalrships nearly strings-free  
 **\<sarang>** However, the devil's in the details  
-**\<suraeNoether>** as far as funding goes, though, i'm matching up to 5% of donations up to 50 XMR for this venture. If we manage to get 1000 XMR, I donate 50 XMR to the cause and we'll have 1050 XMR for the first year  
+**\<suraeNoether>** as far as funding goes, though, i'm matching up to 5% of donations up to 50 BTR for this venture. If we manage to get 1000 BTR, I donate 50 BTR to the cause and we'll have 1050 BTR for the first year  
 **\<sgp\_[m]>** suraeNoether a little late to chime in, but I would love to help you with the EAE paper if there's any way I can  
 **\<suraeNoether>** sgp\_[m]: PM me  
-**\<suraeNoether>** and if we can manage that much XMR the first year, we can pay for like 5 scholarships for undergrads, 2 grad student grants, fix up a school or two in ZA, and host the first byterub conference (with no entry fee)  
+**\<suraeNoether>** and if we can manage that much BTR the first year, we can pay for like 5 scholarships for undergrads, 2 grad student grants, fix up a school or two in ZA, and host the first byterub conference (with no entry fee)  
 **\<sarang>** This is an interesting pilot project that could take many different directions  
-**\<suraeNoether>** and still have some XMR leftover for the next year  
+**\<suraeNoether>** and still have some BTR leftover for the next year  
 **\<sarang>** I think it'll important to keep the scope balanced between too narrow and too broad  
 **\<suraeNoether>** my primary concern right now is determining criteria for handing out scholarships  
 **\<sarang>** An established mission is gonna be essential to establishing and maintaining this direction  

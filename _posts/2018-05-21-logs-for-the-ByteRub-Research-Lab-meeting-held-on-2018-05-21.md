@@ -46,7 +46,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** before i get to my big list: has anyone else been working on anything interesting? I don't want to downplay the contributions of other folks  
 **\<endogenic>** well vtnerd has, a little  
 **\<suraeNoether>** oh?  
-**\<endogenic>** he was looking into xmr <> btc swaps  
+**\<endogenic>** he was looking into btr <> btc swaps  
 **\<sarang>** UkoeHB worked up a great draft of his tech explanation of transactions  
 **\<endogenic>** he came up with a funny method by which you'd have to burn your btc priv key :P  
 **\<sarang>** endogenic: there were all sorts of curve issues tho  

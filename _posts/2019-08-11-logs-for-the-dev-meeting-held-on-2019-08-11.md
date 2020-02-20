@@ -49,7 +49,7 @@ author: el00ruobuob / dEBRUYNE
 **\<jtgrassie>** it would be nice to have testnet fork a little earlier to randomx imo  
 **\<sarang>** There was some issue with another project's switch to RandomX, right?  
 **\<sarang>** Was that an issue with a miner implementation?  
-**\<hyc>** Loki. xmrig bug  
+**\<hyc>** Loki. btrig bug  
 **\<hyc>** there are no issues with the byterubd integration  
 **\<dEBRUYNE>** What was the effect of the bug?  
 **\<dEBRUYNE>** (in the miner that is)  

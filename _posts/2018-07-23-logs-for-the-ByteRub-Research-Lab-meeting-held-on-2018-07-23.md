@@ -122,7 +122,7 @@ author: el00ruobuob / surae
 **\<sarang>** in that we rely on key images and known decoy sets  
 **\<sarang>** It just uses a more general language to prove the underlying statements  
 **\<suraeNoether>** fair enough  
-**\<sarang>** I look forward to the shitty newzsites: MONERO TO GET RID OF BULLETPROOFS  
+**\<sarang>** I look forward to the shitty newzsites: BYTERUB TO GET RID OF BULLETPROOFS  
 **\<sarang>** Anyway, I plan to continue working with the Ruffing scheme  
 **\<suraeNoether>** heh  
 **\<sarang>** ArticMine had much to say about fees  
@@ -238,7 +238,7 @@ author: el00ruobuob / surae
 **\<tnsepta>** isn't there a balance between privacy and prices?  
 **\<ArticMine>** Yes  
 **\<suraeNoether>** tnsepta: there is, the question is whether the balance will be on the side of privacy or prices. :P  
-**\<isthmuscrypto>** @xmrhaelan et al over in ByteRub Outreach could do some preemptive education about "ringsize > default ---> LESS privacy, not more"  
+**\<isthmuscrypto>** @btrhaelan et al over in ByteRub Outreach could do some preemptive education about "ringsize > default ---> LESS privacy, not more"  
 **\<dEBRUYNE>** tnsepta: Price as in fee price or?  
 **\<hyc>** but it's misguided to believe "I want greater privacy than the average byterub user so whatever ringsize they use, I'm going to use a bigger one"  
 **\<ArticMine>** A increase over 11 will require a modification of the fees.  

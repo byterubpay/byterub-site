@@ -1,6 +1,6 @@
 {% assign version = '1.1.0' | split: '.' %}
 {% include disclaimer.html translated="false" version=page.version %}
-## How to mine ByteRub (XMR) without a mining equipment?
+## How to mine ByteRub (BTR) without a mining equipment?
 
 If you don’t have a profitable mining equipment, nor time or
 money to invest into building it, you can still mine ByteRub with NiceHash.

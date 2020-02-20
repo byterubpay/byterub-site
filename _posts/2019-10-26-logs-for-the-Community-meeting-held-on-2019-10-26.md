@@ -16,7 +16,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Fun fact: you are awesome :)  
 **\<sgp\_>** 1. Greetings  
 **\<el00ruobuob\_[m]>** Hello!  
-**\<sgp\_>** ping dEBRUYNE rehrar ErCiccione[m] xmrscott[m]  
+**\<sgp\_>** ping dEBRUYNE rehrar ErCiccione[m] btrscott[m]  
 **\<ErCiccione[m]>** Hi all. Thanks for the ping sgp\_  
 **\<sgp\_>** needbyterub90 dsc\_ gingeropolous sarang  
 **\<gingeropolous>** yo  
@@ -34,17 +34,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** Hello.  
 **\<needbyterub90>** I expect you're going to link your poll soon enough, so I'll hold off  
 **\<sgp\_>** yup :)  
-**\<sgp\_>** needbyterub90: can you create that update thread for exchanges in r/xmrtrader?  
+**\<sgp\_>** needbyterub90: can you create that update thread for exchanges in r/btrtrader?  
 **\<needbyterub90>** Will do during this meeting.  
 **\<sgp\_>** excellent  
 **\<thunderosa>** I guess it's a community update. The new ByteRub Pool UI is coming out in the next few days. Half the size, twice the speed, new features etc.  
 **\<sgp\_>** did someone else volunteer for the mining pool list for r/byterubmining? I don't recall if I signed up for that  
-**\<xmrmatterbridge> \<rehrar>** Hey. I'm in Mexico right now.  
-**\<xmrmatterbridge> \<rehrar>** Won't be back home for a few hours.  
+**\<btrmatterbridge> \<rehrar>** Hey. I'm in Mexico right now.  
+**\<btrmatterbridge> \<rehrar>** Won't be back home for a few hours.  
 **\<needbyterub90>** Okay amigo  
 **\<sgp\_>** thunderosa: very cool  
 **\<rottensox>** what i miss.  
-**\<xmrmatterbridge> \<rehrar>** Left a comment on the meta issue of the meeting.  
+**\<btrmatterbridge> \<rehrar>** Left a comment on the meta issue of the meeting.  
 **\<sgp\_>** rehrar: yes, I added a section to discuss :)  
 **\<sgp\_>** let's proceed  
 **\<sgp\_>** 3. CCS updates  
@@ -54,8 +54,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Ziphon’s request was overfunded! https://ccs.getbyterub.org/proposals/xiphon-part-time-2.html  
 **\<sgp\_>** \*xiphon  
 **\<sgp\_>** Ideas (to be discussed):  
-**\<sgp\_>** WIP: Norwegian translation (3 XMR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/102, and  
-**\<sgp\_>** byterubmooo, from November 2019 (395 XMR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/103  
+**\<sgp\_>** WIP: Norwegian translation (3 BTR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/102, and  
+**\<sgp\_>** byterubmooo, from November 2019 (395 BTR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/103  
 **\<needbyterub90>** Xiphon\*  
 **\<needbyterub90>** Oh you corrected my nad  
 **\<needbyterub90>** Bad  
@@ -91,7 +91,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** if there are no new strings we can start a bit earlier  
 **\<needbyterub90>** im curious when the deadlines are for translation work  
 **\<ErCiccione>** the deadline was yesterday for CLI and today for GUI  
-**\<xmrscott[m]>** They've both come to pass  
+**\<btrscott[m]>** They've both come to pass  
 **\<needbyterub90>** ah, so no translations in this release  
 **\<needbyterub90>** no more\*  
 **\<sgp\_>** there were two weblate PRs I think  
@@ -114,15 +114,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** As far as i can see, they seem to love it  
 **\<ErCiccione>** and i agree  
 **\<ErCiccione>** after the release we will use it for the website as well, i don't know if i already said that  
-**\<xmrscott[m]>** Very much so  
+**\<btrscott[m]>** Very much so  
 **\<sgp\_>** thanks  
-**\<xmrscott[m]>** Grammatical checks and similar strings os incredibly powerful, and you don't need to find your own locally run client for those features, all browser based  
+**\<btrscott[m]>** Grammatical checks and similar strings os incredibly powerful, and you don't need to find your own locally run client for those features, all browser based  
 **\<sgp\_>** I'm glad people like the system. It will help make translations more approachable to people who want to help  
-**\<xmrscott[m]>** We should add MyByteRub app at some point too  
-**\<ErCiccione>** xmrscott: today i added some more QT specific checks, should be even more accurate now  
-**\<xmrscott[m]>** And as an aside to highlight how amazing it is, when I got the OpenWrt to start using it they described it as very addictive :)  
+**\<btrscott[m]>** We should add MyByteRub app at some point too  
+**\<ErCiccione>** btrscott: today i added some more QT specific checks, should be even more accurate now  
+**\<btrscott[m]>** And as an aside to highlight how amazing it is, when I got the OpenWrt to start using it they described it as very addictive :)  
 **\<ErCiccione>** about the workflow: i'm roughly using the "continuous translations" system weblate suggests https://docs.weblate.org/en/weblate-2.8/admin/continuous.html  
-**\<xmrscott[m]>** My person favorite feature is the ability to get new emails when new strings are added  
+**\<btrscott[m]>** My person favorite feature is the ability to get new emails when new strings are added  
 **\<ErCiccione>** yeah the notification system can be personalized a lot  
 **\<sgp\_>** Any other localization comments?  
 **\<el00ruobuob\_[m]>** i just saw that, that's great!  
@@ -135,7 +135,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<needbyterub90>** I believe there was some discussion on renaming the GUI?  
 **\<needbyterub90>** idk where that went  
 **\<needbyterub90>** some people thought "ByteRub GUI" was too clinical/technical, and wanted something "warmer" for new users (my words)  
-**\<sgp\_>** needbyterub90: I'm going to table that discussion for this meeting, but here is the relevant naming discussion that xmrscott[m] is championing: https://github.com/byterubpay/meta/issues/384  
+**\<sgp\_>** needbyterub90: I'm going to table that discussion for this meeting, but here is the relevant naming discussion that btrscott[m] is championing: https://github.com/byterubpay/meta/issues/384  
 **\<thunderosa>** I'll just chime in with wanting to banish anything "graphical interface" because the public has never seen a non-graphical interface.  
 **\<needbyterub90>** wasn't trying to discuss it, just find the discussion point :)  
 **\<thunderosa>** It's inside reality vs outside reality.  
@@ -259,7 +259,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rottensox>** a tournament of byterubpoly? :-)  
 **\<sgp\_>** but I wonder how much appeal that has  
 **\<el00ruobuob\_[m]>** i'm in for a byterubpolly tournament  
-**\<rottensox>** a set of cards whose arts are xmr-related?  
+**\<rottensox>** a set of cards whose arts are btr-related?  
 **\<thunderosa>** monopoly actually kinda words online,..more than most other games at least  
 **\<rottensox>** see? there we go. interest spiking.  
 **\<needbyterub90>** hyc: corporations aren't collected together because of golf, but its still a fantastic excuse to do something outside of a business context in a more casual situation  

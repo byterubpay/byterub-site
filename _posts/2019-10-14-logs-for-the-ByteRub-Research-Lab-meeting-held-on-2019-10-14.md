@@ -18,7 +18,7 @@ author: el00ruobuob / sarang
 **\<sarang>** First is getting caught up with the usual literature review  
 **\<sarang>** Second was finalizing things for World Crypto Conference and some background research associated to that  
 **\<sarang>** Third was getting balance proofs working in Triptych, which is now successful  
-**\<xmrmatterbridge> \<serhack>** hello  
+**\<btrmatterbridge> \<serhack>** hello  
 **\<sarang>** This means that Triptych now supports a single proof showing all spends, correct key image construction, and balance  
 **\<suraeNoether>** nice!  
 **\<sarang>** How about you, suraeNoether?  

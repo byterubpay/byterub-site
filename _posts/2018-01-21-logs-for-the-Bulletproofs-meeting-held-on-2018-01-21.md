@@ -64,7 +64,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** I'm having them check with their attorneys on exactly what we could share  
 **\<sarang>** OSTIF works with a lot of different groups, and has been in contact with several, quotes pending  
 **\<sarang>** OSTIF's policy is only to work with groups that allow public disclosure  
-**\<sarang>** They are also willing to accept XMR (which they transfer to the groups in their currency of choice) and has agreed not to take a cut  
+**\<sarang>** They are also willing to accept BTR (which they transfer to the groups in their currency of choice) and has agreed not to take a cut  
 **\<sarang>** Any questions from the group on this wall of info?  
 **\<suraeNoether>** were we also not contacted in a cold-call situation?  
 **\<sarang>** Yes, one pro group did a cold-call. Turns out OSTIF was in contact with them too, so I'm lumping them in with OSTIF  
@@ -581,7 +581,7 @@ author: dEBRUYNE / fluffypony
 **\<pebx>** however, why are we talking in fiat?  
 **\<dEBRUYNE>** rehrar: something like that  
 **\<sarang>** pebx because The Man has taught me to think in fiat  
-**\<rehrar>** wonder how many of these reviewers would accept XMR directly  
+**\<rehrar>** wonder how many of these reviewers would accept BTR directly  
 **\<suraeNoether>** the OSTIF accepts crypto apparently  
 **\<suraeNoether>** but they pay the groups in fiat  
 **\<sarang>** OSTIF will do the exchange for us fee-free  
@@ -589,7 +589,7 @@ author: dEBRUYNE / fluffypony
 **\<sarang>** and OSTIF agreed to take no cut themselves if we credit them  
 **\<rehrar>** they want the Monrus  
 **\<sarang>** they want to drum up publicity for a larger upcoming audit  
-**\<pebx>** 727 XMR would be a prime number ;)  
+**\<pebx>** 727 BTR would be a prime number ;)  
 **\<rehrar>** alright friends, Imma kick rocks. Catch you all later.  
 **\<manifest>** there probably isnt a tool for byterub where you could monitor and control multiple wallets easily for testing purposes  
 **\<fluffypony>** pebx: I was arguing with a BCash shill, and it was at a time when we were more confident about March  

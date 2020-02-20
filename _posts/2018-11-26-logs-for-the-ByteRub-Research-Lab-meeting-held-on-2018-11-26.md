@@ -125,7 +125,7 @@ author: el00ruobuob / surae
 **\<rehrar>** and even if there was a reliable one, it would probably not be a decentralized one  
 **\<ArticMine>** There were spam attacks in Bitcoin to drive up fees. This works if hte block are full since most of the spam ts are not mined  
 **\<ArticMine>** But they cost andwith to the nodes  
-**\<gingeropolous>** to me it seems there is a small list of useful information needed to address the issue: 1) cost of attack, in XMR, to get to 3 GB / block in one day per Isthmus "\<Isthmus> 00:44 By the end of the 1st day: 3 goddamn GB per block"  
+**\<gingeropolous>** to me it seems there is a small list of useful information needed to address the issue: 1) cost of attack, in BTR, to get to 3 GB / block in one day per Isthmus "\<Isthmus> 00:44 By the end of the 1st day: 3 goddamn GB per block"  
 **\<ArticMine>** bandwith  
 **\<suraeNoether>** let's just do some back of the napkin calculations today and see what we see. then we can talk about it more. :P  
 **\<suraeNoether>** why 3 GB/block?  
@@ -238,7 +238,7 @@ author: el00ruobuob / surae
 **\<suraeNoether>** increasing sample size for the median over 100 blocks will make such a drift attack slower (and therefore cost a lot more, because you have to do it over more and more blocks) but linearly slower. and is a rigid sort of decision, as ArticMine mentions re: December. Adding a nonlinear term to our fees seems sensible to me.  
 **\<evenlessmoney>** forcing average users to sync against remote nodes due to bandwidth constraints is dangerous  
 **\<sarang>** Yes evenlessmoney that's the whole point of Isthmus's posting  
-**\<spaced0ut>** if anyone needs to be secure against nation states it's XMR  
+**\<spaced0ut>** if anyone needs to be secure against nation states it's BTR  
 **\<gingeropolous>** im interested to see what Isthmus 's multistate memory thing is  
 **\<rehrar>** but...and I hate to say it like this, hasn't this already been kinda known for a while?  
 **\<ArticMine>** Yes ut how do you enforce non linear fees?  

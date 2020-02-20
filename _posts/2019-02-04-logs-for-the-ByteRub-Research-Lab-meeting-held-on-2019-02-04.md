@@ -17,7 +17,7 @@ author: el00ruobuob / sarang
 **\<chron0>** oi  
 **\<sarang>** a special ping to byterubmooo as well, since he has a PR that I wish to discuss  
 **\<sarang>** Since it approaches, let's discuss 2. NETWORK UPGRADE REVIEW  
-**\<xmrmatterbridge> \<serhack>** Hi!  
+**\<btrmatterbridge> \<serhack>** Hi!  
 **\<sgp\_>** we know the topic is important since it's in ALL CAPS  
 **\<suraeNoether>** hi guys!  
 **\<sarang>** As linked in the agenda, the current plan for payment IDs has been subject to much discussion, so please read through the notes at that link  
@@ -110,7 +110,7 @@ author: el00ruobuob / sarang
 **\<byterubmooo>** The fees were just dropped to ~nothing recently though.  
 **\<oneiric\_>** is there any indication that 160GB is near?  
 **\<suraeNoether>** "the attack hasn't happened yet" != "the attack will not happen or is not incentivized to happen"  
-**\<xmrmatterbridge> \<serhack>** ArticMine: Yes, but that does not mean that could work for the next years.  
+**\<btrmatterbridge> \<serhack>** ArticMine: Yes, but that does not mean that could work for the next years.  
 **\<byterubmooo>** Actually I take that back. It was still the same penalty.  
 **\<suraeNoether>** since any change we make in this fork can be undone in the next fork, your argument about long term scaling and the social contract doesn't hold up  
 **\<ArticMine>** This is a theoretical attack that is more expensive than a 51% attack  
@@ -119,8 +119,8 @@ author: el00ruobuob / sarang
 **\<suraeNoether>** xeagu no, we have no data on adoption rate into new markets, although we could ballpark some estimates of what we think are reasonable, we are still just hand-tuning our approach  
 **\<ArticMine>** a 515 attack include the cost of hardware  
 **\<ArticMine>** 51%  
-**\<suraeNoether>** ArticMine: in order to pull off a 51% attack, i need i) the money and ii) some miners willing to take my bribe at the cost of the value of their xmr  
-**\<suraeNoether>** in order to do a bloat attack, i just need a bunch of xmr outputs  
+**\<suraeNoether>** ArticMine: in order to pull off a 51% attack, i need i) the money and ii) some miners willing to take my bribe at the cost of the value of their btr  
+**\<suraeNoether>** in order to do a bloat attack, i just need a bunch of btr outputs  
 **\<ArticMine>** You have to pay for both  
 **\<suraeNoether>** so the cost may be equivalent in terms of USD, but the social friction to one attack is much lower compared to the other  
 **\<Xeagu>** One is permissionless  

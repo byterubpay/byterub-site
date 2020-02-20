@@ -188,10 +188,10 @@ author: el00ruobuob / surae
 **\<sarang>** Now we have more irons in the fire  
 **\<ArticMine>** One thing to keep in mined is that this is a very fluid situation  
 **\<sarang>** ArticMine: how so  
-**\<ArticMine>** A significant change in XMR/USD  
+**\<ArticMine>** A significant change in BTR/USD  
 **\<suraeNoether>** yeah, if the market bottoms out further over the next six months, buttholes will get progressively tighter  
 **\<sarang>** true  
-**\<suraeNoether>** or vice versa, we'll go full goatse at 12,000 USD/XMR  
+**\<suraeNoether>** or vice versa, we'll go full goatse at 12,000 USD/BTR  
 **\<antw081>** true  
 **\<ArticMine>** ... and there is also the flipside  
 **\<sgp\_[m]>** As an non-researcher, I think the "best" way forward is to balance both. I think the project will demand that it becomes more formalized  
@@ -219,10 +219,10 @@ author: el00ruobuob / surae
 **\<rehrar>** can't just fall back on all the work done on bitcoin...again  
 **\<sarang>** Maybe this also speaks to the need for suraeNoether and I to devote less time to new broad ideas and more to existing fiddly problems  
 **\<rehrar>** with a fraction of the third party interest  
-**\<suraeNoether>** fwiw i am willing to throw some xmr at m2049r[m] but that's aside the point.  
+**\<suraeNoether>** fwiw i am willing to throw some btr at m2049r[m] but that's aside the point.  
 **\<rehrar>** he really is quite amazing, isn't he? Did alone what nobody did.  
 **\<rehrar>** popped out of nowhere :D  
-**\<Inge->** I feel a lot mor comfortable using XMR with monerujo than I do using bitcoin.  
+**\<Inge->** I feel a lot mor comfortable using BTR with monerujo than I do using bitcoin.  
 **\<rehrar>** clock is ticking, our time is limited boiz  
 **\<suraeNoether>** allrighty, let's conclude with this  
 **\<rehrar>** (in regards to FFS)  

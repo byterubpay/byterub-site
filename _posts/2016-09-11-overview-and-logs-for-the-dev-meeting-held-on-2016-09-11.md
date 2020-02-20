@@ -162,7 +162,7 @@ author: dEBRUYNE / fluffypony
 **\<iDunk>** and v4 is... ?  
 **\<iDunk>** 802000 or so iirc ?  
 **\<byterubmooo>** 801220  
-**\<jjiia>** XMR up or down  
+**\<jjiia>** BTR up or down  
 **\<iDunk>** ah, k  
 **\<fluffypony>** I think my miner is off atm  
 **\<fluffypony>** it had that hiccup and I never fixed it coz stuff  

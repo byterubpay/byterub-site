@@ -6,7 +6,7 @@ Voici une liste des appels de procédures distantes (RPC) du démon, leurs entr�
 
 De nombreux appels RPC utilisent l'interface JSON RPC du démon, alors que d'autres utilisent leurs propres interfaces, comme démontré plus bas.
 
-Remarque : "@unité-atomique" réfère à la plus petite fraction de 1 XMR selon l'implémentation byterubd. **1 XMR = 1e12 unités atomiques**
+Remarque : "@unité-atomique" réfère à la plus petite fraction de 1 BTR selon l'implémentation byterubd. **1 BTR = 1e12 unités atomiques**
 
 Remarque 2 : Guide mis à jour à la hauteur du réseau 1562465.
 
@@ -246,7 +246,7 @@ Sorties :
   * *num_txes* - entier non signé; Nombre de transactions dans le bloc, sans compter la transaction de la base de la pièce.
   * *orphan_status* - booléen; Habituellement `false`. Si `true`, ce bloc ne fait pas partie de la chaîne la plus longue.
   * *prev_hash* - chaîne de caractères; Le hachage du bloc précédent immédiatement ce bloc dans la chaîne de blocs.
-  * *reward* - entier non signé; Le montant de nouvelles @unités-atomiques généré dans ce bloc et fournies en récompense au mineur. Remarque : 1 XMR = 1e12 @unités-atomiques.
+  * *reward* - entier non signé; Le montant de nouvelles @unités-atomiques généré dans ce bloc et fournies en récompense au mineur. Remarque : 1 BTR = 1e12 @unités-atomiques.
   * *timestamp* - entier non signé; Le temps Unix auquel ce bloc à été enregistré dans la chaîne de blocs.
 * *status* - chaîne de caractères; Code erreur général RPC. "OK" signifie que tout va bien.
 * *untrusted* - booléen; Indique si le résultat est obtenu en utilisant un nœud d'amorce, auquel il ne faudrait pas faire confiance (`true`), ou si le démon est totalement synchronisé (`false`).

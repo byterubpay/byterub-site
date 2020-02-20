@@ -219,7 +219,7 @@ author: dEBRUYNE / fluffypony
 **\<byterubdesigns>** @keledoro I think it's a good idea  
 **\<emesik>** keledoro: Merchants are precious now, we should take care to promote them  
 **\<byterubdesigns>** @michal I agree!  
-**\<vdo>** is something like xmr.to with LN support planned?  
+**\<vdo>** is something like btr.to with LN support planned?  
 **\<emesik>** btw, do you think we should mention darknet markets accepting byterub on the official project pages?  
 **\<rehrar>** no  
 **\<amiuhle>** no  

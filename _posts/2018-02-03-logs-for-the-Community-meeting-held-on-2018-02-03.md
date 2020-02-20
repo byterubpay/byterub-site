@@ -14,7 +14,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/170  
 **\<sgp>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community. We use meetings to encourage the community to share ideas and provide support.  
 **\<sgp>** 1. Greetings  
-**\<xmrscott[m]>** Salutations  
+**\<btrscott[m]>** Salutations  
 **\<ErCiccione>** Hi  
 **\<rehrar>** This guy  
 **\<sgp>** @pigeons the mattermost relay is down  

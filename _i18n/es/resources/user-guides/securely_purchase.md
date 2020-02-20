@@ -36,7 +36,7 @@ Cualquiera que sea el método que elijas, asegúrate que no haya ninguna copia d
 
 #### Nota adicional
 Opción para encriptar una semilla mnemónica de ByteRub:
-https://xmr.llcoins.net/
+https://btr.llcoins.net/
 Descarga la página hmtl y colócala en tu computadora aislada. Revisa la parte "Encrypt/Decrypt Mnemonic Seed" y asegúrate de utilizar "CN Add" con una contraseña decente. Agradecimientos a manicminer5.
 
 
@@ -67,7 +67,7 @@ Ve a tu cuenta de Xapo o Circle, y busca un botón para Transferir o Enviar. Peg
 
 Una vez la transacción haya sido enviada por Xapo/Coinbase habrá un retardo mientras que la transacción entra a la blockchain de Bitcoin y espere confirmación. Esto puede ser minutos u horas. Puedes revisar si el pago ha sido enviado consultando la dirección de depósito de Shapeshift.io en blockchain.info. Tu transacción con Shapeshift.io se mostrará ahí.
 
-Cuando tu transacción de Bitcoin haya sido confirmada, Shapeshift.io comenzará entonces a convertir Bitcoin (BTC) a ByteRub (XMR) en algún sitio de compra/venta de criptomonedas y cuando se complete, ¡enviará el ByteRub a la dirección de tu monedero en papel de almacenamiento en frío! Esto puede tomar desde minutos a horas. Si hay algún problema, contacta a Shapeshift.io. Cuentan con un buen soporte.
+Cuando tu transacción de Bitcoin haya sido confirmada, Shapeshift.io comenzará entonces a convertir Bitcoin (BTC) a ByteRub (BTR) en algún sitio de compra/venta de criptomonedas y cuando se complete, ¡enviará el ByteRub a la dirección de tu monedero en papel de almacenamiento en frío! Esto puede tomar desde minutos a horas. Si hay algún problema, contacta a Shapeshift.io. Cuentan con un buen soporte.
 
 Cuando la página de Shapehift.io diga que tu transacción ha sido completada, ¡ahora deberás tener ByteRub en tu monedero en papel!
 

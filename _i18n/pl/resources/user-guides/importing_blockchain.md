@@ -28,7 +28,7 @@ Otwórz okno wiersza polecenia. Możesz tego dokonać, klikając w przycisk Wind
 
 Używając okienka CMD, przejdź do lokalizacji twojego portfela ByteRub. Możesz tego dokonać, wpisując:
 
-`cd C:\YOUR\MONERO\WALLET\FILE\PATH\HERE`
+`cd C:\YOUR\BYTERUB\WALLET\FILE\PATH\HERE`
 
 Powinno to wyglądać mniej więcej tak:
 

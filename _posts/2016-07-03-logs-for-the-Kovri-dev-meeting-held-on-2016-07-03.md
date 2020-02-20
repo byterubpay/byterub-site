@@ -42,7 +42,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [fluffypony]** yes we did  
 **\<meeting-bot> [_trump2016]** OTF will make kovri great again!  
 **\<meeting-bot> [anonimal]** Confirmation, good.  
-**\<meeting-bot> [anonimal]** Anyone freenode-side? Is xmrpromotions there?  
+**\<meeting-bot> [anonimal]** Anyone freenode-side? Is btrpromotions there?  
 **\<meeting-bot> [fluffypony]** so if we receive a pass we have to prepare an actual proposal  
 **\<meeting-bot> [fluffypony]** but let's see when we get there  
 **\<meeting-bot> [fluffypony]** (if)  

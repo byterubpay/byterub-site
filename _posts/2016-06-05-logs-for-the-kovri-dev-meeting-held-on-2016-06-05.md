@@ -36,18 +36,18 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** but pick ONE StackExchange, as the rep isn't cumulative across Stacks  
 **\<meeting-bot> [anonimal]** Ok, anything else for point 1?  
 **\<fluffypony>** yes just a small thing  
-**\<xmrpromotions>** How do you feel about reaching out to leaders in the Tor community to request support? Some may be curious about I2P and active Tor SE users will really help us with activity requirements after launch  
+**\<btrpromotions>** How do you feel about reaching out to leaders in the Tor community to request support? Some may be curious about I2P and active Tor SE users will really help us with activity requirements after launch  
 **\<fluffypony>** the deep web StackExchange proposal has failed due to lack of follow-through on commitments, so the i2p one is more necessary than before  
 **\<meeting-bot> [anonimal]** Hmm, tricky.  
-**\<fluffypony>** xmrpromotions: that's certainly a possibility, but the Tor community is going through a bit of a difficult time at the moment, it may be prudent for us to wait it out  
+**\<fluffypony>** btrpromotions: that's certainly a possibility, but the Tor community is going through a bit of a difficult time at the moment, it may be prudent for us to wait it out  
 **\<meeting-bot> [anonimal]** How do I say this quickly,  
 **\<fluffypony>** anonimal: by typing fast? :-P  
 **\<meeting-bot> [anonimal]** I have a strong impression that Tor does not care about I2P.  
 **\<meeting-bot> [anonimal]** Nothing personal, just different technologies.  
-**\<xmrpromotions>** If you are talking about the applebaum allegation I agree the timing is not great. I plan to largely ignore that news for now since the evidence is not even public  
+**\<btrpromotions>** If you are talking about the applebaum allegation I agree the timing is not great. I plan to largely ignore that news for now since the evidence is not even public  
 **\<meeting-bot> [anonimal]** I agree with fluffypony for now.  
 **\<meeting-bot> [anonimal]** I'd like to come back to that idea though in the future.  
-**\<xmrpromotions>** Okay. I wont make any aggressive outreach efforts to the Tor community at this time  
+**\<btrpromotions>** Okay. I wont make any aggressive outreach efforts to the Tor community at this time  
 **\<meeting-bot> [anonimal]** Ok, anything else on 1.?  
 **\<fluffypony>** nothing from my side  
 **\<meeting-bot> [anonimal]** 2. fluffypony, last meeting we talked about website content,  
@@ -58,14 +58,14 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** oh yeah definitely, plus you can always PR changes to the site, we merge everything there :-P  
 **\<meeting-bot> [anonimal]** lol  
 **\<meeting-bot> [anonimal]** Ok, anything else on 2.?  
-**\<xmrpromotions>** does 2 include gnu social or just the website?  
+**\<btrpromotions>** does 2 include gnu social or just the website?  
 **\<meeting-bot> [anonimal]** Free-for-all.  
-**\<meeting-bot> [anonimal]** xmrpromotions: any updates on gnu social?  
-**\<xmrpromotions>** Well I read up on GNU Social and really like the idea (I had not heard of it before) but I am worried about the time commitment it will involve to do well  
+**\<meeting-bot> [anonimal]** btrpromotions: any updates on gnu social?  
+**\<btrpromotions>** Well I read up on GNU Social and really like the idea (I had not heard of it before) but I am worried about the time commitment it will involve to do well  
 **\<meeting-bot> [anonimal]** Could it be done 'good enough'?  
-**\<xmrpromotions>** Any suggestions for volunteers eager to help with that sort of thing that have extra free time right now  
+**\<btrpromotions>** Any suggestions for volunteers eager to help with that sort of thing that have extra free time right now  
 **\<meeting-bot> [anonimal]** I can help when the time comes.  
-**\<xmrpromotions>** I guess it depends what good enough means. I have never used GNU software but assume it will require many contributors providing good content in order to attract many users  
+**\<btrpromotions>** I guess it depends what good enough means. I have never used GNU software but assume it will require many contributors providing good content in order to attract many users  
 **\<meeting-bot> [anonimal]** I've ran an instance in the past (personal, not public).  
 **\<fluffypony>** dEBRUYNE: is anyone on the social media team available to assist ?  
 **\<merkaba>** what is it about? I have some free time but I am not sure what this is  
@@ -73,26 +73,26 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** merkaba: oh I have a special job for you if you want to flex your Ruby skills ;)  
 **\<merkaba>** btw I am stefioan from reddit  
 **\<merkaba>** cool  
-**\<dEBRUYNE>** fluffypony: I am running out of free time currently, so hopefully someone else could pick it up (e.g. xmrpromotions and/or merkaba)  
+**\<dEBRUYNE>** fluffypony: I am running out of free time currently, so hopefully someone else could pick it up (e.g. btrpromotions and/or merkaba)  
 **\<nobbynoob>** what exactly is needed as help in the gnu social thing?  
 **\<meeting-bot> * anonimal** was just about to ask that  
-**\<xmrpromotions>** People to provide quality content and invite users is needed the most IMHO  
-**\<xmrpromotions>** I am not an expert and had not heard of it until 2 weeks ago  
-**\<nobbynoob>** so no coding or stuff, but posting content about xmr, its development etc?  
-**\<xmrpromotions>** here is the example someone gave me: https://quitter.se/social details here: https://gnu.io/social/about/  
+**\<btrpromotions>** People to provide quality content and invite users is needed the most IMHO  
+**\<btrpromotions>** I am not an expert and had not heard of it until 2 weeks ago  
+**\<nobbynoob>** so no coding or stuff, but posting content about btr, its development etc?  
+**\<btrpromotions>** here is the example someone gave me: https://quitter.se/social details here: https://gnu.io/social/about/  
 **\<meeting-bot> [anonimal]** Can twitter posts be cross-posted?  
-**\<xmrpromotions>** we are talking about Kovri now but yes we could use it for ByteRub too  
+**\<btrpromotions>** we are talking about Kovri now but yes we could use it for ByteRub too  
 **\<fluffypony>** maybe not automatically, anonimal, but certainly manually  
 **\<meeting-bot> [anonimal]** "If you build it, they will come".  
 **\<meeting-bot> [anonimal]** Why not baby steps for now: get it up and running, and we'll get on it and start using it?  
 **\<fluffypony>** agreed  
-**\<meeting-bot> [anonimal]** xmrpromotions: ETA on when it can be physically online?  
-**\<fluffypony>** xmrpromotions: shout if you need me to host it on one of the ByteRub infrastructure servers  
+**\<meeting-bot> [anonimal]** btrpromotions: ETA on when it can be physically online?  
+**\<fluffypony>** btrpromotions: shout if you need me to host it on one of the ByteRub infrastructure servers  
 **\<meeting-bot> * anonimal** side-channels fluffypony for preparations of 3. https://scan.coverity.com/projects/byterubpay-kovri?tab=overview  
-**\<xmrpromotions>** I have not made any efforts to do that yet but my impression is pretty quick. All I did since last meeting was read the basic description of it and look at a few examples of how it has been deployed  
+**\<btrpromotions>** I have not made any efforts to do that yet but my impression is pretty quick. All I did since last meeting was read the basic description of it and look at a few examples of how it has been deployed  
 **\<meeting-bot> [anonimal]** Can it be up by next meeting?  
-**\<xmrpromotions>** I think that is realistic.  
-**\<xmrpromotions>** It sounds like others will be willing to help provide content.  
+**\<btrpromotions>** I think that is realistic.  
+**\<btrpromotions>** It sounds like others will be willing to help provide content.  
 **\<meeting-bot> [anonimal]** Excellent.  
 **\<meeting-bot> [anonimal]** I'll start using it once its up.  
 **\<meeting-bot> [anonimal]** Anything else on point 2.?  
@@ -100,9 +100,9 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Ok moving on to 3.  
 **\<meeting-bot> [anonimal]** "No builds were successfully analyzed yet."  
 **\<meeting-bot> [anonimal]** So, it looks like more Coverity setup issues.  
-**\<xmrpromotions>** thank you. I just dont want to spread myself too thin. The Deep web SE shutting down concerned me. We need to learn from that and ensure I2P and ByteRub SE metrics are all continually high enough during private beta  
+**\<btrpromotions>** thank you. I just dont want to spread myself too thin. The Deep web SE shutting down concerned me. We need to learn from that and ensure I2P and ByteRub SE metrics are all continually high enough during private beta  
 **\<fluffypony>** anonimal: argh. it's like they're trying to irritate me.  
-**\<meeting-bot> [anonimal]** xmrpromotions: good point, I will work on my rep.  
+**\<meeting-bot> [anonimal]** btrpromotions: good point, I will work on my rep.  
 **\<meeting-bot> [anonimal]** fluffypony: seriously, I have no idea why its so problematic.  
 **\<fluffypony>** anonimal did you see the hello world example ?  
 **\<meeting-bot> [anonimal]** Directions were followed to the T.  
@@ -154,12 +154,12 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** anonimal: I think let's try including a build_command_prepend, failing that I'll have to try reach out to Coverity  
 **\<fluffypony>** seeing as how they were so helpful last time  
 **\<fluffypony>** :-P  
-**\<xmrpromotions>** thanks merkaba. lets talk more about gnu social later  
+**\<btrpromotions>** thanks merkaba. lets talk more about gnu social later  
 **\<meeting-bot> [anonimal]** merkaba:  
 **\<meeting-bot> [anonimal]** Isn't diaspora written in ruby?  
 **\<meeting-bot> * anonimal** checks  
 **\<fluffypony>** anonimal: he already left unfortunately  
-**\<meeting-bot> [anonimal]** xmrpromotions: if you see them again, https://github.com/diaspora/diaspora  
+**\<meeting-bot> [anonimal]** btrpromotions: if you see them again, https://github.com/diaspora/diaspora  
 **\<meeting-bot> [anonimal]** Ok fluffypony, I'll make the change and we'll see what happens.  
 **\<meeting-bot> [anonimal]** Anything else on 3.?  
 **\<fluffypony>** nope  
@@ -172,13 +172,13 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** lol @ 191  
 **\<fluffypony>** "but that is not the real problem"  
 **\<meeting-bot> [anonimal]** lol  
-**\<xmrpromotions>** https://diasporafoundation.org/ looks interesting! Should we consider that as an alternative to GNU social?  
-**\<xmrpromotions>** In some ways it sounds better, but does a lack of Windows support hurt us significantly? https://wiki.diasporafoundation.org/Installation  
-**\<meeting-bot> [anonimal]** xmrpromotions: I personally wouldn't as its harder to maintain and I don't believe it is anonymity friendly (if we host a pod)  
+**\<btrpromotions>** https://diasporafoundation.org/ looks interesting! Should we consider that as an alternative to GNU social?  
+**\<btrpromotions>** In some ways it sounds better, but does a lack of Windows support hurt us significantly? https://wiki.diasporafoundation.org/Installation  
+**\<meeting-bot> [anonimal]** btrpromotions: I personally wouldn't as its harder to maintain and I don't believe it is anonymity friendly (if we host a pod)  
 **\<meeting-bot> [anonimal]** Diaspora simply crossed my mind since that ruby dev popped in.  
 **\<meeting-bot> [anonimal]** Anyway, re: 4.,  
-**\<xmrpromotions>** okay. fair enough. I will keeped focused on gu social then  
-**\<xmrpromotions>** gnu  
+**\<btrpromotions>** okay. fair enough. I will keeped focused on gu social then  
+**\<btrpromotions>** gnu  
 **\<meeting-bot> [anonimal]** fluffypony: I can't see who is on that side. Are any c++ devs online?  
 **\<fluffypony>** hmmm  
 **\<fluffypony>** not sure if any of them are in front of their keyboards atm, let's leave that open-ended  
@@ -230,10 +230,10 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** Ok, sounds great.  
 **\<meeting-bot> [anonimal]** So point 6.,  
 **\<meeting-bot> [anonimal]** June 19th? 17:00 UTC?  
-**\<xmrpromotions>** Do you think many people in this group would be interested in I2P or kovri? http://area51.stackexchange.com/proposals/82234/open-source  
+**\<btrpromotions>** Do you think many people in this group would be interested in I2P or kovri? http://area51.stackexchange.com/proposals/82234/open-source  
 **\<fluffypony>** anonimal: yup  
 **\<tewinget>** anonimal: if there's anything specific you can point to as far as C++ goes you can ping me  
-**\<fluffypony>** xmrpromotions: hard to canvas on an SE propsal  
-**\<xmrpromotions>** they could use more activity right now in public beta. If we encourage byterub and i2p users to participate in their open beta maybe some of them will support us  
-**\<xmrpromotions>** they lack of ability to direct message makes it harder but some leaders use their real names  
+**\<fluffypony>** btrpromotions: hard to canvas on an SE propsal  
+**\<btrpromotions>** they could use more activity right now in public beta. If we encourage byterub and i2p users to participate in their open beta maybe some of them will support us  
+**\<btrpromotions>** they lack of ability to direct message makes it harder but some leaders use their real names  
 **\<fluffypony>** ok meeting is over, killing meeting-bot  

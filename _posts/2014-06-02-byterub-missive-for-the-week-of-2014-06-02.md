@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ByteRub Missive for the Week of 2014-06-02
-summary: Our first Missive! New logo, pool software completed and bounty awarded, ticker symbol changed to XMR
+summary: Our first Missive! New logo, pool software completed and bounty awarded, ticker symbol changed to BTR
 tags: [byterub missives, branding, mining, compliance]
 author: Riccardo Spagni (fluffypony)
 ---
@@ -19,7 +19,7 @@ Also an important note on updates: Our policy is to only provide announcements o
 
 3. The pool bounty has now closed, and was awarded to zone117x and LucasJones for their excellent work on the Node CryptoNote pool. You can see the results of their hard work on [their github repo here](https://github.com/zone117x/node-cryptonote-pool) or, you know, just use pretty much any of the ByteRub mining pools:)
 
-4. In order to maintain ISO 4217 compliance, we are changing our ticker symbol from MRO to XMR effective immediately. This change primarily effects exchanges at this early stage, as we are sure that MRO will continue to be used colloquially and in general discussion. We are aware that this may cause a little confusion, but we feel it necessary to make this change early on rather than later when ByteRub is more widely spread.
+4. In order to maintain ISO 4217 compliance, we are changing our ticker symbol from MRO to BTR effective immediately. This change primarily effects exchanges at this early stage, as we are sure that MRO will continue to be used colloquially and in general discussion. We are aware that this may cause a little confusion, but we feel it necessary to make this change early on rather than later when ByteRub is more widely spread.
 
 We'd also like to take the time to introduce you to our core team (in no particular order) - tacotime, eizh, smooth, fluffypony, othe, davidlatapie, NoodleDoodle
 

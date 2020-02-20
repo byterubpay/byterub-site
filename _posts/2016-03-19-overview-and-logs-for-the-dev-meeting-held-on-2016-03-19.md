@@ -58,7 +58,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** including on -bit and ARM  
 **\<fluffypony>** BDB will remain supported for the moment, primarily as a mechanism for contributors to understand how to build out DB support  
 **\<fluffypony>** krongle)  
-**\<fluffypony>** shew we have the entire xmr.to team here today, that's awesome  
+**\<fluffypony>** shew we have the entire btr.to team here today, that's awesome  
 **\<binaryFate>** fluffypony good memory P  
 **\<fluffypony>** we shared a podcast together, binaryFate -P  
 **\<krongle>** yes - impressive nick-name recollection  
@@ -67,15 +67,15 @@ author: dEBRUYNE / fluffypony
 **\<binaryFate>** we're doing many cool things, but nothing we can talk about at this stage  
 **\<fluffypony>** hah hah  
 **\<fluffypony>** it does lead to an interesting point of conversation  
-**\<binaryFate>** seriously considering btc -> xmr direction  
+**\<binaryFate>** seriously considering btc -> btr direction  
 **\<fluffypony>** plugins  
-**\<iam6yearsold>** If NobleSir or xmr.to team could talk more about xmr.to integration at MiniNero that would be great.... also are 2 way conversions coming to xmr.to soon?  
+**\<iam6yearsold>** If NobleSir or btr.to team could talk more about btr.to integration at MiniNero that would be great.... also are 2 way conversions coming to btr.to soon?  
 **\<fluffypony>** iam6yearsold Shen's offline at the moment, I'll ask him to update the Reddit thread with some info )  
 **\<fluffypony>** re plugins, we've spoken briefly about options for the GUI  
 **\<dEBRUYNE>** iam6yearsold There is a bit of info here -> https//imgur.com/a/HZL7k  
-**\<binaryFate>** iam6yearsold for MiniNero integration you'd have to see with NobleSir. The API doc is at http//xmrto-api.readthedocs.org/en/latest/  
+**\<binaryFate>** iam6yearsold for MiniNero integration you'd have to see with NobleSir. The API doc is at http//btrto-api.readthedocs.org/en/latest/  
 **\<fluffypony>** but I guess we could have "plugins", of a sort, that add functionality  
-**\<fluffypony>** like xmr.to or shapeshift integration right in wallet2 / wallet2\_api  
+**\<fluffypony>** like btr.to or shapeshift integration right in wallet2 / wallet2\_api  
 **\<dEBRUYNE>** I think we should be fairly strict on which plugins to allow  
 **\<binaryFate>** fluffypony we wanted to discuss that plugin integration soon in fact )  
 **\<arnuschky>** we're quite interested to all secondary  questions related to plugins  
@@ -142,7 +142,7 @@ author: dEBRUYNE / fluffypony
 **\<aerbax>** Would these plugins allow for interpreted languages like Lua or Python?  
 **\<arnuschky>** :)  
 **\<fluffypony>** aerbax I don't see why not, individual CMake files in each plugin folder that allow it to produce a library fix everything  
-**\<binaryFate>** We could financially support development of plugin architecture if xmr.to is the first instanciation of those plugins.  
+**\<binaryFate>** We could financially support development of plugin architecture if btr.to is the first instanciation of those plugins.  
 **\<fluffypony>** if it spits out a .so / .a / .dll with the right hooks then it's fine  
 **\<tewinget>** fluffypony> tewinget I mean we can't secure it in the path from random-site-on-the-web down to random-download-folder and eventually into secure-disk-location  <-- and yet, we provide binary downloads...so "random site on the web" could be managed the same as said binary downloads  
 **\<tewinget>** just like any random site on the web can offer binaries for download and we can't secure that either  

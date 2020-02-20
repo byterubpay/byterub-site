@@ -79,7 +79,7 @@ Zie de coinbase-transactie in het [laatste blok](https://byterubblocks.info/) vo
 
 <div markdown="1">
 * Eerst de gewone curve: ~18.132 miljoen coins eind mei 2022
-* Daarna de blijvende uitgifte: 0,6 XMR per blok om de 2 minuten, nadat de gewone uitgifte klaar is, wat een steeds verder dalende inflatie van < 1% oplevert
+* Daarna de blijvende uitgifte: 0,6 BTR per blok om de 2 minuten, nadat de gewone uitgifte klaar is, wat een steeds verder dalende inflatie van < 1% oplevert
 * Zie [grafieken en details](https://www.reddit.com/r/ByteRub/comments/512kwh/useful_for_learning_about_byterub_coin_emission/)
 </div>
 

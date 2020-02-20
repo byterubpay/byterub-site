@@ -17,8 +17,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 1. Greetings  
 **\<cryptochangement>** hey everyone  
 **\<oneiric\_>** hi  
-**\<xmrscott>** Hola  
-**\<xmrmatterbridge> \<anonimal>** hi  
+**\<btrscott>** Hola  
+**\<btrmatterbridge> \<anonimal>** hi  
 **\<sgp\_>** welcome all  
 **\<sgp\_>** 2. Community workgroup meeting purpose  
 **\<sgp\_>** Since we first began the ByteRub Marketing Workgroup, and eventually the ByteRub Community Workgroup, the community has evolved. New workgroups began and flourished. Workgroups now perform some of the most important ByteRub-related development, activism, support, and research.  
@@ -57,7 +57,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<endogenic>** mybyterub android is being written  
 **\<endogenic>** contributors welcome  
 **\<endogenic>** come talk to me in #mybyterub  
-**\<xmrmatterbridge> \<anonimal>** sgp\_, oneiric\_ has an ffs open  
+**\<btrmatterbridge> \<anonimal>** sgp\_, oneiric\_ has an ffs open  
 **\<msvb-lab>** endogenic: Care to give a three line explanation of the advantage or disadvantage leading to Monerujo and Mybyterub occupying the same platform?  
 **\<sgp\_>** endogenic that's meant for the "workgroup report" now :)  
 **\<ErCiccione>** hello everybody (sorry, a bit late)  
@@ -65,17 +65,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** anonimal have the link handy, or should I grab it?  
 **\<endogenic>** we never done an ffs or anything  
 **\<msvb-lab>** endogenic: Okay, never mind. I thought there were similarities.  
-**\<xmrmatterbridge> \<anonimal>** https://forum.getbyterub.org/6/ideas/90300/oneiric-june-august-part-time-kovri-junior-developer  
+**\<btrmatterbridge> \<anonimal>** https://forum.getbyterub.org/6/ideas/90300/oneiric-june-august-part-time-kovri-junior-developer  
 **\<sgp\_>** thanks anonimal  
 **\<rottensalty07>** sgp\_: Yes - I'll provide a laptop. Sorry for my absence. Got caught up with something else.  
-**\<xmrmatterbridge> \<anonimal>** np  
+**\<btrmatterbridge> \<anonimal>** np  
 **\<msvb-lab>** m2049r[m]  
 **\<sgp\_>** Any other FFS discussion? Let's fund all the things!  
 **\<sgp\_>** 5. New community meeting/event calendar  
 **\<ErCiccione>** if somebody have questions about localizations. here to answer  
 **\<m2049r[m]>** Here!  
 **\<oneiric\_>** thanks anonimal :)  
-**\<sgp\_>** I previously shared a link from my personal calendar to community events. I will be maintaining a new calendar on NextCloud which I will use for all events going forward. You can subscribe and add it to your personal calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** I previously shared a link from my personal calendar to community events. I will be maintaining a new calendar on NextCloud which I will use for all events going forward. You can subscribe and add it to your personal calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** (that's all on this item)  
 **\<sgp\_>** I'll make a post about it later. If you represent a workgroup and want your events listed, let me know  
 **\<sgp\_>** 6. Workgroup report  
@@ -90,7 +90,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** https://www.reddit.com/r/ByteRub/comments/8o7py0/byterub\_translations\_there\_is\_work\_to\_do\_and\_you/  
 **\<byterubbux>** [REDDIT] ByteRub Translations - There is work to do and you can help! (Kovri and Monerujo) (self.ByteRub) | 42 points (92.0%) | 10 comments | Posted by ErCiccione | Created at 2018-06-03 - 10:30:27  
 **\<ErCiccione>** if somevody wish to help please contact me.  
-**\<xmrmatterbridge> \<anonimal>** erciccione is the biggest issue now not having enough translators?  
+**\<btrmatterbridge> \<anonimal>** erciccione is the biggest issue now not having enough translators?  
 **\<msvb-lab>** Of which language in particular are there not enough translators?  
 **\<ErCiccione>** anonimal: it's usually not. i mean. the GUI got 6 translations in the first 48 hours  
 **\<rottensalty07>** I can do Spanish if there's no help for Spanish.  
@@ -112,9 +112,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<endogenic>** anybody want to help translate mybyterub?  
 **\<rottensalty07>** Okay, I'll join there - I just need to head out for an hour or so. Will catch up with you there later on.  
 **\<ErCiccione>** i'm still making some tests with the different projects we use m2049r, but as soon as that is done we should try out that plugin we thought about  
-**\<xmrmatterbridge> \<rehrar>** Oy, another meeting.  
+**\<btrmatterbridge> \<rehrar>** Oy, another meeting.  
 **\<ErCiccione>** rottensalty07: perfect, thanks a lot. we can talk about this in -translations  
-**\<xmrmatterbridge> \<anonimal>** ❤️ for rotten's comment  
+**\<btrmatterbridge> \<anonimal>** ❤️ for rotten's comment  
 **\<cryptochangement>** endogenic: sure!  
 **\<ErCiccione>** rottensalty07: no problem, see you there :)  
 **\<m2049r[m]>** ErCiccione: sure!  
@@ -122,24 +122,24 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Anything else on this topic?  
 **\<msvb-lab>** Is rehrar here or is he not here?  
 **\<ErCiccione>** this week is a bit problematic for me since i'm travelling, but from next week i'll be around stable as always  
-**\<xmrmatterbridge> \<rehrar>** I am here for a time.  
+**\<btrmatterbridge> \<rehrar>** I am here for a time.  
 **\<sgp\_>** b. PR, O&E workgroup  
 **\<msvb-lab>** rehrar: I see, switch to #byterub so that we're not plugging the meeting channel.  
 **\<ErCiccione>** i'm done. if nobody have any other question we can go on sgp\_  
-**\<sgp\_>** xmrhaelan could not make it, but he asked me to share some updates:  
+**\<sgp\_>** btrhaelan could not make it, but he asked me to share some updates:  
 **\<sgp\_>** 1) Nextcloud is up and we’re beginning to build documents to support the effort.  
 **\<sgp\_>** 2) Taiga tutorial is updated to reflect changes and has a link to the Telegram group.  
-**\<sgp\_>** 3) We’re now pushing content to Blockfolio’s 560,000 users who have XMR on their watch lists or portfolios  
+**\<sgp\_>** 3) We’re now pushing content to Blockfolio’s 560,000 users who have BTR on their watch lists or portfolios  
 **\<sgp\_>** I can do my best to answer questions if people have them  
-**\<xmrmatterbridge> \<anonimal>** what sort of content?  
+**\<btrmatterbridge> \<anonimal>** what sort of content?  
 **\<sgp\_>** anonimal it is currently going to be limited to content that makes its way on the getbyterub website iirc  
 **\<sgp\_>** We are still dscussing the best way to use the platform, who has access, etc  
 **\<sgp\_>** I recommend joining the Telegram and/or Wire groups if you are interested in participating in the conversation  
 **\<sgp\_>** Any other questions?  
-**\<xmrmatterbridge> \<rehrar>** I think we all know about Telegram though....  
+**\<btrmatterbridge> \<rehrar>** I think we all know about Telegram though....  
 **\<sgp\_>** c. Malware response workgroup  
 **\<sgp\_>** The malware response workgroup is still active, and we hope to have a portion of the getbyterub site up soon.  
-**\<xmrmatterbridge> \<anonimal>** limiting content to getbyterub creates project centralization. i won't get into that though because i already opened a meta issue. it's still good to see awareness being raised though.  
+**\<btrmatterbridge> \<anonimal>** limiting content to getbyterub creates project centralization. i won't get into that though because i already opened a meta issue. it's still good to see awareness being raised though.  
 **\<sgp\_>** I have written basic overview materials on in-broswer mining, system mining, and ransomware  
 **\<sgp\_>** We hope to incorporate a simple support system and reach out to other security influencers to help us write more specific, helpful guides  
 **\<sgp\_>** Any questions?  
@@ -153,96 +153,96 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 7. Meeting date/time discussion  
 **\<sgp\_>** anonimal asked that I open a discussion on possibly selecting a different meeting time.  
 **\<sgp\_>** anonimal since you're here, do you want to discuss this?  
-**\<xmrmatterbridge> \<anonimal>** yes  
-**\<xmrmatterbridge> \<anonimal>** hard to do on this mobile though. can you please talk about what we discussed?  
+**\<btrmatterbridge> \<anonimal>** yes  
+**\<btrmatterbridge> \<anonimal>** hard to do on this mobile though. can you please talk about what we discussed?  
 **\<sgp\_>** Sure  
-**\<xmrmatterbridge> \<anonimal>** ty  
+**\<btrmatterbridge> \<anonimal>** ty  
 **\<CorkLander>** Hey all. (Slack integration = bad)  
 **\<sgp\_>** anonimal would like to see some more coordinated meeting schedules. He had an idea where we could make all the major meetings in a row  
-**\<xmrmatterbridge> \<anonimal>** a block of time, single date, and potentially held in #byterub-meetings  
-**\<xmrmatterbridge> \<cryptochangements>** Interesting. I remember last time this was discussed people wanted it on a different day from the dev meetings because they didn't want to go to both meetings in a row  
-**\<xmrmatterbridge> \<anonimal>** with more frequently needed meetings running at their own pace of course  
-**\<xmrmatterbridge> \<anonimal>** when was this and who is they?  
+**\<btrmatterbridge> \<anonimal>** a block of time, single date, and potentially held in #byterub-meetings  
+**\<btrmatterbridge> \<cryptochangements>** Interesting. I remember last time this was discussed people wanted it on a different day from the dev meetings because they didn't want to go to both meetings in a row  
+**\<btrmatterbridge> \<anonimal>** with more frequently needed meetings running at their own pace of course  
+**\<btrmatterbridge> \<anonimal>** when was this and who is they?  
 **\<sgp\_>** anonimal have you discussed this with the ByteRub development team?  
-**\<xmrmatterbridge> \<cryptochangements>** To be fair, it was probably almost a year ago  
-**\<xmrmatterbridge> \<anonimal>** no. we would work on top of their schedule anyway.  
-**\<xmrmatterbridge> \<rehrar>** I don't think this would be easily doable. Especially since some meetings might run long depending on the amount of stuff there is to discuss.  
-**\<xmrmatterbridge> \<anonimal>** hypothetically  
+**\<btrmatterbridge> \<cryptochangements>** To be fair, it was probably almost a year ago  
+**\<btrmatterbridge> \<anonimal>** no. we would work on top of their schedule anyway.  
+**\<btrmatterbridge> \<rehrar>** I don't think this would be easily doable. Especially since some meetings might run long depending on the amount of stuff there is to discuss.  
+**\<btrmatterbridge> \<anonimal>** hypothetically  
 **\<ErCiccione>** is #byterub-meetings really necessary? why not just #byterub-community anonimal? at the end this channel is usually not very busy  
-**\<xmrmatterbridge> \<rehrar>** Like this past Defcon meeting.  
-**\<xmrmatterbridge> \<cryptochangements>** I think it was mostly ArticMine who didn't want both on the same day  
-**\<xmrmatterbridge> \<cryptochangements>** or same week  
-**\<xmrmatterbridge> \<rehrar>** As well, we should not plan the other workgroup meetings around the dev meetings, I disagree.  
-**\<xmrmatterbridge> \<anonimal>** erciccione yes because meetings can go long and can spill over to community, rehrar  
-**\<xmrmatterbridge> \<cryptochangements>** Yea I agree there would need to be buffer time in case of long running meetings  
+**\<btrmatterbridge> \<rehrar>** Like this past Defcon meeting.  
+**\<btrmatterbridge> \<cryptochangements>** I think it was mostly ArticMine who didn't want both on the same day  
+**\<btrmatterbridge> \<cryptochangements>** or same week  
+**\<btrmatterbridge> \<rehrar>** As well, we should not plan the other workgroup meetings around the dev meetings, I disagree.  
+**\<btrmatterbridge> \<anonimal>** erciccione yes because meetings can go long and can spill over to community, rehrar  
+**\<btrmatterbridge> \<cryptochangements>** Yea I agree there would need to be buffer time in case of long running meetings  
 **\<ErCiccione>** got it  
-**\<xmrmatterbridge> \<anonimal>** i said hypothetically work on top of their schedule, rehrar  
+**\<btrmatterbridge> \<anonimal>** i said hypothetically work on top of their schedule, rehrar  
 **\<sgp\_>** hyc said nearly a year ago that "too many meetings in one day would kill me"  
-**\<xmrmatterbridge> \<rehrar>** I am willing to give up a few hours scattered across various weekends. But not sure about a ton of hours every other week. Just me though.  
+**\<btrmatterbridge> \<rehrar>** I am willing to give up a few hours scattered across various weekends. But not sure about a ton of hours every other week. Just me though.  
 **\<sgp\_>** https://www.reddit.com/r/ByteRubCommunity/wiki/82-2017-07-02  
-**\<xmrmatterbridge> \<anonimal>** but is hyc attending all meetings sgp? i cant remember the last time i saw him in kovri or a kovri meeting  
+**\<btrmatterbridge> \<anonimal>** but is hyc attending all meetings sgp? i cant remember the last time i saw him in kovri or a kovri meeting  
 **\<sgp\_>** I don't have that info easily available  
-**\<xmrmatterbridge> \<rehrar>** We are becoming just shells of our former selves.  
-**\<xmrmatterbridge> \<anonimal>** if anyone happens to be silently lurking then that doesn't count  
-**\<xmrmatterbridge> \<rehrar>** Can we have a hypothetical example of how this might look? :)  
+**\<btrmatterbridge> \<rehrar>** We are becoming just shells of our former selves.  
+**\<btrmatterbridge> \<anonimal>** if anyone happens to be silently lurking then that doesn't count  
+**\<btrmatterbridge> \<rehrar>** Can we have a hypothetical example of how this might look? :)  
 **\<sgp\_>** I am open to changing the day and time of these meetings, we just need to make sure that 1) someone can moderate them, and 2) a general high availability of people  
-**\<xmrmatterbridge> \<rehrar>** Sgp as this is open source and most people have day jobs, a weekend day will usually always be the best.  
+**\<btrmatterbridge> \<rehrar>** Sgp as this is open source and most people have day jobs, a weekend day will usually always be the best.  
 **\<sgp\_>** That's my suspicion, but I'm okay asking for comments again to assess general availability  
-**\<xmrmatterbridge> \<rehrar>** Maybe a poll then for general availability?  
+**\<btrmatterbridge> \<rehrar>** Maybe a poll then for general availability?  
 **\<ErCiccione>** the byterub-hardware workgroup used a good system to decide dates of the meeting  
 **\<sgp\_>** can you elaborate ErCiccione?  
-**\<xmrmatterbridge> \<anonimal>** rehrar you seem to be available whenever you say you're available so that makes you flexible  
-**\<xmrmatterbridge> \<anonimal>** \*unavailable  
-**\<xmrmatterbridge> \<rehrar>** :P  
-**\<xmrmatterbridge> \<rehrar>** I'm eating atm. Then to the beach!  
-**\<xmrmatterbridge> \<rehrar>** Thought I'd check in while my burrito is being consumed.  
+**\<btrmatterbridge> \<anonimal>** rehrar you seem to be available whenever you say you're available so that makes you flexible  
+**\<btrmatterbridge> \<anonimal>** \*unavailable  
+**\<btrmatterbridge> \<rehrar>** :P  
+**\<btrmatterbridge> \<rehrar>** I'm eating atm. Then to the beach!  
+**\<btrmatterbridge> \<rehrar>** Thought I'd check in while my burrito is being consumed.  
 **\<ErCiccione>** don't remember what website they used, but you just had to thick the hours more suitable for you (for the meeting), so that the time chosen was good for everyone. Sorry that wasn't really clear, going to check the emails  
-**\<xmrmatterbridge> \<anonimal>** that's right, i forgot about that  
+**\<btrmatterbridge> \<anonimal>** that's right, i forgot about that  
 **\<sgp\_>** We could do something like that to assess the best date/time  
 **\<ErCiccione>** sgp\_ it was doodle.com . the calendar feature  
 **\<sgp\_>** anonimal if you want to have all meetings on the same day, I suspect Saturday is the only option that *might* work  
-**\<xmrmatterbridge> \<anonimal>** but that is equal to simply asking; albeit more organized  
-**\<xmrmatterbridge> \<anonimal>** everyone seems to show up saturday too  
+**\<btrmatterbridge> \<anonimal>** but that is equal to simply asking; albeit more organized  
+**\<btrmatterbridge> \<anonimal>** everyone seems to show up saturday too  
 **\<sgp\_>** I will also want to reach out to the other workgroup reps to see what days are best for them. Ultimately, we need these people to come so that the meeting has content  
-**\<xmrmatterbridge> \<anonimal>** before we run out of time, thoughts on this current timeslot?  
+**\<btrmatterbridge> \<anonimal>** before we run out of time, thoughts on this current timeslot?  
 **\<ErCiccione>** anomimal: kinda, but you can select a timeframe there, not just a single hour. I think it would be very useful  
 **\<sgp\_>** I think this timeslot is relatively good for most people. We use 17:00 UTC for these meetings and 16:00 UTC for the Coffee Chats. If I could chose, I prefer 16:00 UTC  
-**\<xmrmatterbridge> \<anonimal>** that sounds nice. sometimes hard and fast timeframes are more reliable though.  
-**\<xmrmatterbridge> \<anonimal>** re: erciccione ^  
-**\<xmrmatterbridge> \<anonimal>** sgp you want earlier?!  
+**\<btrmatterbridge> \<anonimal>** that sounds nice. sometimes hard and fast timeframes are more reliable though.  
+**\<btrmatterbridge> \<anonimal>** re: erciccione ^  
+**\<btrmatterbridge> \<anonimal>** sgp you want earlier?!  
 **\<sgp\_>** It would make things easier for people out east  
-**\<xmrmatterbridge> \<anonimal>** there's a west too  
+**\<btrmatterbridge> \<anonimal>** there's a west too  
 **\<sgp\_>** Yeah, it's hard to balance. See the difficulty of balancing time: https://www.timeanddate.com/worldclock/converter.html?iso=20180609T170000&p1=tz\_et&p2=28&p3=111&p4=49&p5=179&p6=70&p7=224&p8=48&p9=136  
-**\<xmrmatterbridge> \<anonimal>** 18:00 won't kill them  
-**\<xmrmatterbridge> \<cryptochangements>** spg\_: personally I prefer a little later at 17 UTC than 16 UTC  
+**\<btrmatterbridge> \<anonimal>** 18:00 won't kill them  
+**\<btrmatterbridge> \<cryptochangements>** spg\_: personally I prefer a little later at 17 UTC than 16 UTC  
 **\<sgp\_>** The world doesn't end at Europe. We also have Australia and Asia. Hard to balance  
-**\<xmrmatterbridge> \<anonimal>** 15:00 will kill people who can only get 5 hours of sleep if they want to attend a volunteer meeting  
-**\<xmrmatterbridge> \<anonimal>** who the hell here is honestly in those areas and who aren't lurking. be real now.  
+**\<btrmatterbridge> \<anonimal>** 15:00 will kill people who can only get 5 hours of sleep if they want to attend a volunteer meeting  
+**\<btrmatterbridge> \<anonimal>** who the hell here is honestly in those areas and who aren't lurking. be real now.  
 **\<sgp\_>** Anyway, I think we should open this up for consideration to see where most people are, especially the workgroup leads  
-**\<xmrmatterbridge> \<cryptochangements>** Do we really have a lot of people from Asia?  
-**\<xmrmatterbridge> \<anonimal>** russia yes but they aren't here.  
-**\<xmrmatterbridge> \<cryptochangements>** 16/17/18 UTC is already late af for them anyways  
+**\<btrmatterbridge> \<cryptochangements>** Do we really have a lot of people from Asia?  
+**\<btrmatterbridge> \<anonimal>** russia yes but they aren't here.  
+**\<btrmatterbridge> \<cryptochangements>** 16/17/18 UTC is already late af for them anyways  
 **\<sgp\_>** We likely do not have many people from Asia, but people from Australia have commented about the meeting time in the past  
-**\<xmrmatterbridge> \<anonimal>** are they here now  
-**\<xmrmatterbridge> \<anonimal>** speak up aussies or forever hold your peace  
+**\<btrmatterbridge> \<anonimal>** are they here now  
+**\<btrmatterbridge> \<anonimal>** speak up aussies or forever hold your peace  
 **\<sgp\_>** Well, part of that is self-selecting anonimal  
 **\<sgp\_>** If we select to have a meeting start at midnight their time, it's unlikely they will be in attendance  
-**\<xmrmatterbridge> \<anonimal>** you need to prioritize sgp. you can't make everyone happy. the work doesn't work that way.  
+**\<btrmatterbridge> \<anonimal>** you need to prioritize sgp. you can't make everyone happy. the work doesn't work that way.  
 **\<sgp\_>** So for actionable items, I will create a poll in the next week using Doodle (or similar) to get community feedback for the best meeting times  
-**\<xmrmatterbridge> \<anonimal>** hypothetical people get least priority.  
+**\<btrmatterbridge> \<anonimal>** hypothetical people get least priority.  
 **\<sgp\_>** Priority will be given to members who are highly active in workgroups  
 **\<serhack>** +1 for anonimal. ByteRub is being used by the entire world (I hope!), making everyone happy is almost impossible  
 **\<ErCiccione>** that sound reasonable  
 **\<sgp\_>** All right. We do not have time for "open ideas time" today, but people can always discuss after the meeting  
-**\<xmrmatterbridge> \<anonimal>** i'll follow the workgroups' time decision.  
+**\<btrmatterbridge> \<anonimal>** i'll follow the workgroups' time decision.  
 **\<sgp\_>** 9. Confirm next meeting date/time  
-**\<xmrmatterbridge> \<cryptochangements>** TBD?  
+**\<btrmatterbridge> \<cryptochangements>** TBD?  
 **\<sgp\_>** The next community meeting will tentatively be two weeks from today on 23 June.  
 **\<sgp\_>** 10. Conclusion  
-**\<xmrmatterbridge> \<cryptochangements>** Ok  
-**\<xmrmatterbridge> \<cryptochangements>** Bye all  
+**\<btrmatterbridge> \<cryptochangements>** Ok  
+**\<btrmatterbridge> \<cryptochangements>** Bye all  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
-**\<xmrmatterbridge> \<anonimal>** thanks all  
+**\<btrmatterbridge> \<anonimal>** thanks all  
 **\<serhack>** Bye!  
 **\<oneiric\_>** bye  
 **\<ErCiccione>** thank you all. thanks sgp\_ for moderating  

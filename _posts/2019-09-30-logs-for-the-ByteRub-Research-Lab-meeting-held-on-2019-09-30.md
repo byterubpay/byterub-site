@@ -48,18 +48,18 @@ author: el00ruobuob / sarang
 **\<sarang>** The preprints on the MRL archive and on IACR are updated  
 **\<sarang>** Or rather, IACR has been updated and an MR exists for the MRL archive  
 **\<sarang>** The DLSAG paper was also updated and submitted to the same conference  
-**\<xmrmatterbridge> \<sgp\_>** https://eprint.iacr.org/2019/654  
+**\<btrmatterbridge> \<sgp\_>** https://eprint.iacr.org/2019/654  
 **\<sarang>** Second, I'm still working with the author of Lelantus on some modifications to avoid its linking problem  
 **\<sarang>** We'll have a short writeup soon about one possible way, but it doesn't work cleanly with one-time addresses in the way you might want it to  
 **\<sarang>** There are some techniques involving Schnorr proofs that we still want to investigate  
 **\<sarang>** Third, I am finalizing proof-of-concept code and spacetime analysis for the updated RCT3 preprint, which has interesting tradeoffs from the earlier version  
-**\<xmrmatterbridge> \<rehrar>** exciting!  
+**\<btrmatterbridge> \<rehrar>** exciting!  
 **\<silur>** is the PoC code available somewhere?  
 **\<sarang>** Besides fixing a big flaw, it aggregates proofs together... this means very small proofs at the expense of some verification  
 **\<sarang>** Code (danger: not for production) is here: https://github.com/SarangNoether/skunkworks/tree/rct3/rct3  
 **\<silur>** thanks  
 **\<sarang>** I'll also run numbers on doing non-aggregated proofs, since that would effectively reverse the spacetime tradeoff  
-**\<hyc>** ^ bets on which xmr fork deploys it first ...  
+**\<hyc>** ^ bets on which btr fork deploys it first ...  
 **\<sgp\_>** What is "some verification"?  
 **\<sarang>** My initial estimates suggest a drop in size from 3.1 kB to perhaps 2.3 kB (2-in-2-out)  
 **\<sarang>** Verification numbers TBD, but not too bad... considering the original 2-2 single verification estimate was 39 ms on a test machine, batched down to 13 ms  
@@ -73,54 +73,54 @@ author: el00ruobuob / sarang
 **\<sarang>** Fifth, I'll be joining rehrar and Daniel Kim to speak at World Crypto Conference later this month  
 **\<sarang>** My talk is about the history of cryptographic constructions toward privacy-preserving transactions, and future research directions  
 **\<sarang>** I'm starting it early to meet their particular deadlines  
-**\<xmrmatterbridge> \<rehrar>** woot!  
-**\<xmrmatterbridge> \<rehrar>** WCC represent  
+**\<btrmatterbridge> \<rehrar>** woot!  
+**\<btrmatterbridge> \<rehrar>** WCC represent  
 **\<sarang>** I'm trying to think of some good analogies for why terms like "privacy coin" set the wrong baseline  
 **\<sarang>** For example, you wouldn't visit someone's house and say "oh, you have one of those bathrooms with a door"  
 **\<mikerah>** Try to frame it in terms of cash  
 **\<sarang>** It should be the default!  
-**\<xmrmatterbridge> \<sgp\_>** "This is a safe car"?  
+**\<btrmatterbridge> \<sgp\_>** "This is a safe car"?  
 **\<mikerah>** Cash is anonymous, debit/credit cards are tracked by your bank  
-**\<xmrmatterbridge> \<rehrar>** the bathroom door is spot on  
+**\<btrmatterbridge> \<rehrar>** the bathroom door is spot on  
 **\<sarang>** Anyway, the talk is mainly about cryptography, but I like setting the stage briefly to give motivation for the cryptography  
 **\<sarang>** And I'm a terrible designer, so I always take longer than expected to make presentations look not-too-horrible :/  
-**\<xmrmatterbridge> \<rehrar>** sarang, bro just send to me?  
+**\<btrmatterbridge> \<rehrar>** sarang, bro just send to me?  
 **\<sarang>** in all its TeX goodness :)  
-**\<xmrmatterbridge> \<sgp\_>** your plain presentations are ok imo  
-**\<xmrmatterbridge> \<rehrar>** test, is MM working in this room?  
+**\<btrmatterbridge> \<sgp\_>** your plain presentations are ok imo  
+**\<btrmatterbridge> \<rehrar>** test, is MM working in this room?  
 **\<sarang>** hi rehrar  
-**\<xmrmatterbridge> \<rehrar>** bloof  
+**\<btrmatterbridge> \<rehrar>** bloof  
 **\<sarang>** So yeah, that's what I've been working on  
 **\<sarang>** Any particular questions on those items?  
-**\<xmrmatterbridge> \<serhack>** In my opinion, this should depend on audience sarang  
-**\<xmrmatterbridge> \<rehrar>** nah  
+**\<btrmatterbridge> \<serhack>** In my opinion, this should depend on audience sarang  
+**\<btrmatterbridge> \<rehrar>** nah  
 **\<sarang>** serhack: how so?  
 **\<sarang>** It's an audience of developers  
-**\<xmrmatterbridge> \<rehrar>** though I have a Research Request (tm) for MRL as a whole  
+**\<btrmatterbridge> \<rehrar>** though I have a Research Request (tm) for MRL as a whole  
 **\<silur>** I'm so missing an audience of developers :D  
 **\<sarang>** rehrar: go on  
-**\<xmrmatterbridge> \<sgp\_>** I have a point to mention after  
+**\<btrmatterbridge> \<sgp\_>** I have a point to mention after  
 **\<sarang>** ok  
-**\<xmrmatterbridge> \<rehrar>** It's be asked before with varying degrees of intensity, but I'd like some research done on the 10 confirmation unlock time.  
-**\<xmrmatterbridge> \<rehrar>** 10 confs was kinda chosen arbitrarily? Or did it have reasoning? Research on if this is the ideal number.  
+**\<btrmatterbridge> \<rehrar>** It's be asked before with varying degrees of intensity, but I'd like some research done on the 10 confirmation unlock time.  
+**\<btrmatterbridge> \<rehrar>** 10 confs was kinda chosen arbitrarily? Or did it have reasoning? Research on if this is the ideal number.  
 **\<dEBRUYNE>** sarang: Have there been any noteworthy developments regarding the CLSAG audits?  
 **\<sarang>** I see that as really being a question of network topology and propagation, as it relates to reorgs  
-**\<xmrmatterbridge> \<rehrar>** Obviously the hope is to get the conf time down for spendable funds, but if research shows 10 is good (or even increase), well at least we have numbers to back it up  
+**\<btrmatterbridge> \<rehrar>** Obviously the hope is to get the conf time down for spendable funds, but if research shows 10 is good (or even increase), well at least we have numbers to back it up  
 **\<sarang>** I don't have particular data on this... best candidates for that are the noncesense folks  
 **\<sarang>** dEBRUYNE: OSTIF is working to get the first code audit number (24750 USD) down  
 **\<sarang>** the math audit number is currently 7200 USD  
 **\<dEBRUYNE>** OK  
 **\<dEBRUYNE>** Do we have only one offer for a code audit btw?  
-**\<xmrmatterbridge> \<serhack>** sarang: probably you know this suggestion but I will never tire of repeating it. You have to capture attention of people, in any possible way. So, if you think the presentation graphic could be changed to improve the readability, go for it. If you think you have to remove text and to add more images, go for it.  
+**\<btrmatterbridge> \<serhack>** sarang: probably you know this suggestion but I will never tire of repeating it. You have to capture attention of people, in any possible way. So, if you think the presentation graphic could be changed to improve the readability, go for it. If you think you have to remove text and to add more images, go for it.  
 **\<nioc>** rehrar if you reduce the time to 5 minutes won't you just get questions like,  why I need to wait 5 minutes?  
 **\<sarang>** AFAIK there is only the single code audit offer right now, but OSTIF is working on this  
 **\<sarang>** Both to allow the possibility of multiple reviews (if desired) and to promote competition that could reduce the cost of each review  
-**\<xmrmatterbridge> \<sgp\_>** This isn't high priority, but I'd like to see an analysis of the number of coinbase outputs in rings on average over time  
+**\<btrmatterbridge> \<sgp\_>** This isn't high priority, but I'd like to see an analysis of the number of coinbase outputs in rings on average over time  
 **\<sarang>** Ah, over the different selection algorithms?  
 **\<sarang>** I agree that it would be interesting. I ran some numbers on super small datasets and it was a spread that maxed at 1-in-11 IIRC  
 **\<sarang>** There is always the question of whether a consensus rule of "any ring w/ coinbase must be all coinbase" would be a net benefit  
 **\<sarang>** I still hold that it shifts the resulting heuristic down the transaction graph one hop, but overall it's probably not a bad idea  
-**\<xmrmatterbridge> \<sgp\_>** You know my view is that it's a net positive, but most people don't agree yet  
+**\<btrmatterbridge> \<sgp\_>** You know my view is that it's a net positive, but most people don't agree yet  
 **\<silur>** I don't get the assumptions itself, aren't coinbases in rings can be used as inputs to any other tx?  
 **\<silur>** won't making "any ring with coinbase must be all coinbase" that property nonexistent?  
 **\<sarang>** One claim is that coinbase can be excluded as the true spend for "average transactiosn"  

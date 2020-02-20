@@ -28,7 +28,7 @@ Ouvrez une invite de commande. Vous pouvez le faire en tapant les touches Window
 
 Vous devez maintenant vous déplacer dans le répertoire de votre portefeuille ByteRub depuis l'invite de commande (la fenêtre CMD). Pour cela tapez :
 
-`cd C:\LE\REPERTOIRE\DE\VOTRE\PORTEFEUILLE\MONERO`
+`cd C:\LE\REPERTOIRE\DE\VOTRE\PORTEFEUILLE\BYTERUB`
 
 Cela devrait ressembler à :
 

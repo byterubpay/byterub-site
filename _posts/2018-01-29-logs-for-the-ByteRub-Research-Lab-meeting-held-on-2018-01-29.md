@@ -165,7 +165,7 @@ author: dEBRUYNE / fluffypony
 **\<ferretinjapan>** yeah, LTC is actually a good one, had a similar mining start to byterub.  
 **\<suraeNoether>** even if we had a good estimate of true velocity of money, it changes over time so we would need something like a bayesian updating. https://en.wikipedia.org/wiki/Velocity_of_money  
 **\<suraeNoether>** sarang, do you have anything else you want to chat about?  
-**\<ferretinjapan>** suraeNoether, true, but I'd wager that LTC and XMR's normal distribution after a year is probably very similar. It's probably clsest you'd get without cracking open byterub proper and looking inside.  
+**\<ferretinjapan>** suraeNoether, true, but I'd wager that LTC and BTR's normal distribution after a year is probably very similar. It's probably clsest you'd get without cracking open byterub proper and looking inside.  
 **\<sarang>** Assembling the formal audit materials as they become available  
 **\<sarang>** I still wish we had a more concrete guideline for if/when/how we'll do such things in the future  
 **\<sarang>** But for now this is a Good Thing  

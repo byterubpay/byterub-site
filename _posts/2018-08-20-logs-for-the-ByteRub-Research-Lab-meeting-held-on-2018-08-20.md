@@ -19,13 +19,13 @@ author: el00ruobuob / surae
 **\<sarang>** due to all the recent spam  
 **\<scoobybejesus>** hi  
 **\<suraeNoether>** hi everyone  
-**\<sneurlax>** Hey, I have the code to provide mining-pool-reused outputs in the format byterubmooo requested up at github.com/sneurlax/xmreuse. I don't know if or how there's a way to add to the blackball database from GET/HTTP calls but that's what I was asked for. I need to update the outputs, I think, and add more pools over the next few days, but it's pretty straightforward...  
+**\<sneurlax>** Hey, I have the code to provide mining-pool-reused outputs in the format byterubmooo requested up at github.com/sneurlax/btreuse. I don't know if or how there's a way to add to the blackball database from GET/HTTP calls but that's what I was asked for. I need to update the outputs, I think, and add more pools over the next few days, but it's pretty straightforward...  
 **\<sneurlax>** The repo is private at the moment if I recall correctly. Drop github names to invite or I'll make it public whenever y'all say to  
 **\<MoroccanMalinois>** hi  
 **\<suraeNoether>** Welcome to the first post-defcon MRL research meeting. Agenda today is simple. 1) Greetings (done!) 2) Does anyone have any items they want to add to the agenda? 3) Let's catch up on what everyone is doing.   
 **\<sneurlax>** Sorry to dump and I have to have an afk meeting now but I'll catch up on what I missed after.  
 **\<suraeNoether>** sneurlax: great, thanks!  
-**\<sgp\_1>** sneurlax I would like to be invited if possible. I'm added to xmreuse-firebase but not xmreuse  
+**\<sgp\_1>** sneurlax I would like to be invited if possible. I'm added to btreuse-firebase but not btreuse  
 **\<suraeNoether>** okay, as far as stuff \*i\* am doing/want to do: depending on contact from one person, we'll be putting multisig up on IACR. in the meantime we can publish it as MRL-7 or whatever we like as a technical note, or as an author version or something like that...  
 **\<suraeNoether>** but that depends on whether the journal we decide upon is greedy and has a concurrent publication policy  
 **\<sneurlax>** Absolutely. Anyone that wants to can be, or just let me know to flip it public. Later tho  

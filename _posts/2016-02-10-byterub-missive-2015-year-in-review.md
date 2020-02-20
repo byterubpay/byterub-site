@@ -70,15 +70,15 @@ As mentioned in 2014's Year in Review, the founding members of the Core Team all
 
 Some [highlights of the FFS over the year](https://forum.getbyterub.org/9/work-in-progress) include:
 
-- [tewinget's Documentation and Cleanup of Source Code](https://forum.getbyterub.org/9/work-in-progress/2373/documentation-and-cleanup-of-source-code): raised 3600 XMR in 23 contributions; completed 3/4 milestones.
-- [byterubmoo's initial fundraiser for 6 months of work](https://forum.getbyterub.org/22/completed-tasks/334/fund-a-developer-byterubmoo-will-work-part-time-on-byterub-for-260-hours-over-approx-6-months): raised over its target of 7800 XMR in 45 contributions; completed all 6 milestones.
-- [byterubmoo's second fundraiser for for about 10 additional months of work](https://forum.getbyterub.org/9/work-in-progress/2410/a-continuation-for-all-purpose-programming-of-what-needs-to-get-done-in-byterub): raised 18000 XMR in 21 contributions; completed 3/10 milestones thus far.
-- [Shen Noether's translation of some of the website content into Chinese](https://forum.getbyterub.org/9/work-in-progress/329/translation-of-content-on-getbyterub-org-into-chinese): raised 950 XMR from a target of 600 XMR in 9 contributions; completed its milestone.
-- [Shen Noether's fundraiser to complete the C++ implementation of RingCT](https://forum.getbyterub.org/9/work-in-progress/2450/ring-ct-c-crypto): raised 3150 XMR in 13 contributions; has very nearly reached completion of all 7 of its milestones.
-- [Wolf0's very efficient AMD miner](https://forum.getbyterub.org/9/work-in-progress/2400/open-source-amd-miner-by-wolf0): raised 7750 XMR in 20 contributions; completed 6/7 milestones.
-- (just sneaking a 2016 one in:) - [Ilya Kitaev's initial funding to complete the ByteRub Core GUI](https://forum.getbyterub.org/9/work-in-progress/2476/the-official-qt-gui-project): raised just over its 14000 XMR target in a matter of hours; work has just begun.
+- [tewinget's Documentation and Cleanup of Source Code](https://forum.getbyterub.org/9/work-in-progress/2373/documentation-and-cleanup-of-source-code): raised 3600 BTR in 23 contributions; completed 3/4 milestones.
+- [byterubmoo's initial fundraiser for 6 months of work](https://forum.getbyterub.org/22/completed-tasks/334/fund-a-developer-byterubmoo-will-work-part-time-on-byterub-for-260-hours-over-approx-6-months): raised over its target of 7800 BTR in 45 contributions; completed all 6 milestones.
+- [byterubmoo's second fundraiser for for about 10 additional months of work](https://forum.getbyterub.org/9/work-in-progress/2410/a-continuation-for-all-purpose-programming-of-what-needs-to-get-done-in-byterub): raised 18000 BTR in 21 contributions; completed 3/10 milestones thus far.
+- [Shen Noether's translation of some of the website content into Chinese](https://forum.getbyterub.org/9/work-in-progress/329/translation-of-content-on-getbyterub-org-into-chinese): raised 950 BTR from a target of 600 BTR in 9 contributions; completed its milestone.
+- [Shen Noether's fundraiser to complete the C++ implementation of RingCT](https://forum.getbyterub.org/9/work-in-progress/2450/ring-ct-c-crypto): raised 3150 BTR in 13 contributions; has very nearly reached completion of all 7 of its milestones.
+- [Wolf0's very efficient AMD miner](https://forum.getbyterub.org/9/work-in-progress/2400/open-source-amd-miner-by-wolf0): raised 7750 BTR in 20 contributions; completed 6/7 milestones.
+- (just sneaking a 2016 one in:) - [Ilya Kitaev's initial funding to complete the ByteRub Core GUI](https://forum.getbyterub.org/9/work-in-progress/2476/the-official-qt-gui-project): raised just over its 14000 BTR target in a matter of hours; work has just begun.
 
-In total, excluding the GUI fundraiser, the FFS raised just over 48260 XMR over the course of 2015. Virtually all of the fundraisers were for direct open-source code development, and no payouts were made until a milestone had been met, and the community had reviewed the code and confirmed that the milestone had been achieved.
+In total, excluding the GUI fundraiser, the FFS raised just over 48260 BTR over the course of 2015. Virtually all of the fundraisers were for direct open-source code development, and no payouts were made until a milestone had been met, and the community had reviewed the code and confirmed that the milestone had been achieved.
 
 We can safely say that the FFS has been a fantastic success thus far, and we hope to see more projects being funded of a development nature, as well as of a promotional and educational nature (such as community members covering their costs if they go speak at a conference).
 

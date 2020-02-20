@@ -13,7 +13,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/288  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<rehrar>** yo yo  
 **\<el00ruobuob>** Hi!  
@@ -56,7 +56,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** FFS proposals still needing funding:  
 **\<rehrar>** all the things were funded  
 **\<rehrar>** except some  
-**\<sgp\_>** Surae Noether: First Denver ByteRub Konferenco, Spring 2019 (asking 591 XMR) https://forum.getbyterub.org/8/funding-required/90909/surae-noether-first-denver-byterub-konferenco-spring-2019  
+**\<sgp\_>** Surae Noether: First Denver ByteRub Konferenco, Spring 2019 (asking 591 BTR) https://forum.getbyterub.org/8/funding-required/90909/surae-noether-first-denver-byterub-konferenco-spring-2019  
 **\<sgp\_>** Everything else has been funded!  
 **\<sarang>** Hooray! Thanks to all for the support  
 **\<sgp\_>** (except the HackerOne bounty, which is forever ongoing)  
@@ -74,8 +74,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** it's up parasew[m]  
 **\<sgp\_>** parasew HackerOne has been up for a while, but the proposal is always open  
 **\<sgp\_>** Proposals in ideas:  
-**\<sgp\_>** ByteRub Outreach: Round 2 (asking 84 XMR) https://forum.getbyterub.org/6/ideas/91054/byterub-outreach-round-2  
-**\<sgp\_>** ByteRub Integrations Update (asking 5 XMR) https://forum.getbyterub.org/6/ideas/91045/byterub-integrations-update  
+**\<sgp\_>** ByteRub Outreach: Round 2 (asking 84 BTR) https://forum.getbyterub.org/6/ideas/91054/byterub-outreach-round-2  
+**\<sgp\_>** ByteRub Integrations Update (asking 5 BTR) https://forum.getbyterub.org/6/ideas/91045/byterub-integrations-update  
 **\<sgp\_>** ping serhack cryptochangements ^  
 **\<sarang>** Also lots of ideas for making my skin look better  
 **\<rehrar>** should be researched thoroughly and funded immediately imo  
@@ -90,7 +90,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** the gateway is unusable at the moment  
 **\<sgp\_>** serhack this is my first time seeing this user  
 **\<el00ruobuob>** sarang, for outreach report: https://www.reddit.com/r/ByteRub/comments/9m6m6o/byterub\_outreach\_final\_ffs\_report\_julyseptember/  
-**\<byterubbux>** [REDDIT] [ByteRub Outreach] Final FFS Report (July-September) (self.ByteRub) | 19 points (100.0%) | 3 comments | Posted by xmrhaelan | Created at 2018-10-07 - 16:59:14  
+**\<byterubbux>** [REDDIT] [ByteRub Outreach] Final FFS Report (July-September) (self.ByteRub) | 19 points (100.0%) | 3 comments | Posted by btrhaelan | Created at 2018-10-07 - 16:59:14  
 **\<sarang>** ty  
 **\<sgp\_>** I hope they add Blockfolio Signal and Coingecko Beam to their scope. I've been handling these for the past few weeks and they could do a much better job  
 **\<sgp\_>** I wonder if johnfoss is interested in helping here. I can reach out  
@@ -115,7 +115,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** yeah, I'd like to see them make a Reddit post, appear here, and/or update with previous work  
 **\<rehrar>** ErCiccione: it sets a precedent of working volunteer first  
 **\<rehrar>** not just in it for the cash  
-**\<rehrar>** we asked the same of xmrhaelan and he worked for free for a month  
+**\<rehrar>** we asked the same of btrhaelan and he worked for free for a month  
 **\<rehrar>** the same was asked of me about the website redesign  
 **\<rehrar>** it's ingrained in the culture, and I don't think it's a bad thing  
 **\<el00ruobuob>** i can't disagree with you rehrar   
@@ -180,7 +180,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** Try 'doner', which means turkish sandwich.  
 **\<sgp\_>** Doni Platform sounds good but it also has a bad acronym  
 **\<rehrar>** "Doni" doesn't need an acronym at that point  
-**\<xmrmatterbridge> \<blacklotus64>** Why change it... agree with sgp\_  
+**\<btrmatterbridge> \<blacklotus64>** Why change it... agree with sgp\_  
 **\<rehrar>** FFS was used because of how anoying it was to type out "forum funding system" each time  
 **\<rehrar>** blacklotus, because it's an awful, long, non-memorable name  
 **\<rehrar>** the FFS is something that needs good branding and good UXX  
@@ -201,7 +201,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** vp11: no  
 **\<sarang>** The current one offers zero information to people about what it is or does  
 **\<vp11>** in this case I agree to change  
-**\<xmrmatterbridge> \<blacklotus64>** To change the term, well, yes, is not big deal and yes, a poll is always good  
+**\<btrmatterbridge> \<blacklotus64>** To change the term, well, yes, is not big deal and yes, a poll is always good  
 **\<parasew[m]>** there was "community fund" as a name also, no?  
 **\<rehrar>** ok, with a general consensus achieved here, I will make a reddit post thing  
 **\<nioc>** byterub funding  
@@ -217,7 +217,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<vp11>** "Community Funding System"  
 **\<\_Slack> \<intj440>** https://www.reddit.com/r/ByteRub/comments/74pn84/proposal\_to\_change\_the\_name\_and\_abbreviation\_of/  
 **\<byterubbux>** [REDDIT] Proposal to change the name and abbreviation of the FFS (self.ByteRub) | 31 points (93.0%) | 41 comments | Posted by garlicgambit | Created at 2017-10-06 - 18:42:24  
-**\<xmrmatterbridge> \<blacklotus64>** So we are looking for something shorter but more descriptive  
+**\<btrmatterbridge> \<blacklotus64>** So we are looking for something shorter but more descriptive  
 **\<rehrar>** things on the opposite end of the spectrum eh blacklotus64? :D  
 **\<rehrar>** ByteRubStarter  
 **\<rehrar>** ByteRubGoGo  
@@ -246,7 +246,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob>** i will soon  
 **\<ErCiccione>** pootle it's on translate.getbyterub.org  
 **\<ErCiccione>** you can make an account and suggest new strings  
-**\<xmrmatterbridge> \<blacklotus64>** I've already used for the gui and it makes everything easier  
+**\<btrmatterbridge> \<blacklotus64>** I've already used for the gui and it makes everything easier  
 **\<ErCiccione>** after some testing i will change all the documentation about how to translate the gui everywhere and will post on reddit  
 **\<rehrar>** woohoo!  
 **\<rehrar>** great work!  
@@ -271,14 +271,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** I'd say whole translation or nothing  
 **\<sgp\_>** are there any metrics in Pootle to help you measure this?  
 **\<rehrar>** from an accounting and micro managing perspective, it becomes too nightmarish  
-**\<xmrmatterbridge> \<blacklotus64>** Pootle has a log of contributions  
+**\<btrmatterbridge> \<blacklotus64>** Pootle has a log of contributions  
 **\<ErCiccione>** sgp\_: the problem is that i don't want to encourage to make a lot of poor quality translations. Yes, pootle log contributes  
 **\<ErCiccione>** and some strings are longer then others  
 **\<sgp\_>** ErCiccione you would need to include some review process when paying people, yes  
 **\<rehrar>** so only release money after reviews are done  
 **\<rehrar>** this ensures quality  
 **\<ErCiccione>** yes yes, that's in the plans  
-**\<xmrmatterbridge> \<blacklotus64>** Yes that will be better  
+**\<btrmatterbridge> \<blacklotus64>** Yes that will be better  
 **\<rehrar>** mo mos are held in reserve for them  
 **\<ErCiccione>** no reward if somebody else don't give it a look first  
 **\<rehrar>** but won't be released until reviews  
@@ -297,11 +297,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** yee  
 **\<el00ruobuob>** sure  
 **\<sgp\_>** ErCiccione you could do that  
-**\<xmrmatterbridge> \<blacklotus64>** Yes that's OK too  
+**\<btrmatterbridge> \<blacklotus64>** Yes that's OK too  
 **\<vp11>** yea, that sounds alright. brainstorm the details a little bit more  
 **\<vp11>** people are open to that idea  
 **\<ErCiccione>** ok, agreed then. If somebody has proposals or ideas about this, just ping me or come chat on #byterub-translations  
-**\<xmrmatterbridge> \<blacklotus64>** Sure ErCiccione  
+**\<btrmatterbridge> \<blacklotus64>** Sure ErCiccione  
 **\<el00ruobuob>** will do  
 **\<sgp\_>** Moving on, is anyone here able to talk about the Outreach or Hardware workgroups?  
 **\<sgp\_>** msvb-lab msvb-mob  
@@ -320,7 +320,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** Other tools are not worth mentioning.  
 **\<msvb-mob>** That's all.  
 **\<sgp\_>** Thanks msvb-mob. It's been a while since we've had you here during a meeting  
-**\<xmrmatterbridge> \<lh1008>** Hi guys, I'm from the outreach team  
+**\<btrmatterbridge> \<lh1008>** Hi guys, I'm from the outreach team  
 **\<sgp\_>** Does anyone have any questions for Michael?  
 **\<sgp\_>** than we can discuss Outreach  
 **\<msvb-mob>** sgp\_: You're welcome, I'm often in read only mode.  
@@ -350,38 +350,38 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** thanks msvb-mob  
 **\<parasew[m]>** msvb-mob: as paralelni polis will be 35c3 with the coffee, there could be a modified HCPP badge to pay with byterub for coffee :)  
 **\<sgp\_>** lh1008 we spent a large portion of this meeting discussing the Outreach team and its FFS proposal. Do you have any additional updates from the workgroup we should know about?  
-**\<xmrmatterbridge> \<lh1008>** bye  
+**\<btrmatterbridge> \<lh1008>** bye  
 **\<sgp\_>** no, come back :p  
-**\<xmrmatterbridge> \<lh1008>** sorry, I was just saying good bye to msvb-mob 🙈  
+**\<btrmatterbridge> \<lh1008>** sorry, I was just saying good bye to msvb-mob 🙈  
 **\<BlackLotus64>** xD  
 **\<BlackLotus64>** There's some new material coming to Outreach  
-**\<xmrmatterbridge> \<lh1008>** OK, the proposal covers most of what we have been working since last FFS proposal, so we are just adding some deadlines to the work that we have been working on.  
+**\<btrmatterbridge> \<lh1008>** OK, the proposal covers most of what we have been working since last FFS proposal, so we are just adding some deadlines to the work that we have been working on.  
 **\<rehrar>** gotta split guys, keep going  
 **\<rehrar>** <3  
 **\<el00ruobuob>** bye rehrar   
 **\<parasew[m]>** bye rehrar!  
-**\<xmrmatterbridge> \<lh1008>** It has been quite a journey, we have learned a lot from the community and are really greatful with everythi the community has given us.  
-**\<xmrmatterbridge> \<lh1008>** bye rehrar  
+**\<btrmatterbridge> \<lh1008>** It has been quite a journey, we have learned a lot from the community and are really greatful with everythi the community has given us.  
+**\<btrmatterbridge> \<lh1008>** bye rehrar  
 **\<BlackLotus64>** See you around rehar  
 **\<parasew[m]>** i can also give a super quick update on 35c3 if there is someone here who wants some info  
 **\<sgp\_>** one sec parasew  
 **\<sgp\_>** Does anyone have any questions for lh1008? I recommend you read the logs to see what we were saying earlier  
-**\<xmrmatterbridge> \<lh1008>** It has also been quite challenging because the Outreach workgroup is an independent group following decentralized ByteRub FOSS ethos. So we are looking to work in a nature where most of the contributors feel comfortable with.  
+**\<btrmatterbridge> \<lh1008>** It has also been quite challenging because the Outreach workgroup is an independent group following decentralized ByteRub FOSS ethos. So we are looking to work in a nature where most of the contributors feel comfortable with.  
 **\<sgp\_>** all right, if there are no questions or further comments, we can move on  
 **\<BlackLotus64>** Do you guys think you will be releasing a magazine soon?  
 **\<BlackLotus64>** About Outreach  
-**\<xmrmatterbridge> \<lh1008>** Just to share with you guys, we are trying to build a payment for new contributors, so we are working out the best options we have. And in this new proposals we are adventuring ourselves to new posibilities.  
+**\<btrmatterbridge> \<lh1008>** Just to share with you guys, we are trying to build a payment for new contributors, so we are working out the best options we have. And in this new proposals we are adventuring ourselves to new posibilities.  
 **\<parasew[m]>** lh1008 can you explain this a bit?  
-**\<xmrmatterbridge> \<lh1008>** @blacklotus64 the magazine has been spoken inside the team and we are looking to make the magazine at some point. So yes, a magazine could be one of our mid term goals.  
+**\<btrmatterbridge> \<lh1008>** @blacklotus64 the magazine has been spoken inside the team and we are looking to make the magazine at some point. So yes, a magazine could be one of our mid term goals.  
 **\<parasew[m]>** lh1008 this sounds very interesting, i am not sure if you are aware that we (riat) are producing a crypto-newspaper, maybe you guys wanna participate in this as well  
 **\<BlackLotus64>** Good an it will be like a short page magazine or large (e.g. 50+)  
-**\<xmrmatterbridge> \<lh1008>** Sure >parasew,...work inside the community most of it has been on a volunteering basis. So we acknowledged that payments were an incentive contributors could receive and get involved with the community.  
-**\<xmrmatterbridge> \<lh1008>** So we are working in some basic payments to reach those contributors that have been doing a lot for the community but not always receiving any type or reward.  
-**\<xmrmatterbridge> \<lh1008>** That would be great >parasew, I will sure get in touch with you.  
+**\<btrmatterbridge> \<lh1008>** Sure >parasew,...work inside the community most of it has been on a volunteering basis. So we acknowledged that payments were an incentive contributors could receive and get involved with the community.  
+**\<btrmatterbridge> \<lh1008>** So we are working in some basic payments to reach those contributors that have been doing a lot for the community but not always receiving any type or reward.  
+**\<btrmatterbridge> \<lh1008>** That would be great >parasew, I will sure get in touch with you.  
 **\<sgp\_>** have you been working with rehrar's ByteRub Games initiative?  
 **\<sgp\_>** After this question we should move on  
 **\<el00ruobuob>** is it a general question, or a contribution's question to lh1008 sgp\_ ?  
-**\<xmrmatterbridge> \<lh1008>** No we haven' t reached rehrar yet. I first read about rehrar's initiative two weeks ago. And the payments were something that we were discussing since the first proposal the outreach made.  
+**\<btrmatterbridge> \<lh1008>** No we haven' t reached rehrar yet. I first read about rehrar's initiative two weeks ago. And the payments were something that we were discussing since the first proposal the outreach made.  
 **\<sgp\_>** all right, thanks  
 **\<sgp\_>** parasew, what short update do you have?  
 **\<parasew[m]>** we are currently finishing the architectural plans for the stage which will be ca. 20m2 and will have 50 seats. the stage will have a led/projector (we will know final details on monday) and the talks will be managed with a submission system. we will be sharing with open hardware talks and related content, as i am not sure if we will fill up all the slots with byterub content.  
@@ -389,12 +389,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<parasew[m]>** also, tomorrow will be the second wave for ticket sales, 12:00 CET  
 **\<sgp\_>** thanks for the link to the taiga page  
 **\<sgp\_>** any other questions/updates?  
-**\<xmrmatterbridge> \<lh1008>** thank you all for the opportunity to share more about the outreach team. if anyone wants to join and help us out you are all welcome. this is the telegram chat link https://t.me/joinchat/DM8-zUXYPy2QPEkH5hW3FA  
+**\<btrmatterbridge> \<lh1008>** thank you all for the opportunity to share more about the outreach team. if anyone wants to join and help us out you are all welcome. this is the telegram chat link https://t.me/joinchat/DM8-zUXYPy2QPEkH5hW3FA  
 **\<sgp\_>** for the sake of time, we will skip the open ideas time. you are always welcome to add your ideas in #byterub-community (here) outside of meeting time  
 **\<sgp\_>** 6. Confirm next meeting date/time  
 **\<sgp\_>** We will be off next community meeting for US Thanksgiving weekend. The next community meeting therefore will be in 4 weeks on December 8 at 17:00 UTC.  
 **\<sgp\_>** The next ByteRub Coffee Chat will take place next week on November 17 at 17:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** Is everyone cool with taking the next meeting off?  
 **\<ErCiccione>** can we just move it to another day?  
 **\<sgp\_>** perhaps the following Tuesday?  

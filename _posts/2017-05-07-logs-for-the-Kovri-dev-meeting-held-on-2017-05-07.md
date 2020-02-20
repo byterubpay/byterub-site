@@ -81,13 +81,13 @@ author: dEBRUYNE / fluffypony
 **\<i2p-relay> {-fluffypony}** pa@spagni.net  
 **\<anonimal>** Alright, anything else on this point before moving on?  
 **\<anonimal>** 4. Status (again) of [ByteRub HackerOne umbrella and bounty](https://github.com/byterubpay/meta/issues/39). [hackerone.com/byterub](https://hackerone.com/byterub) is online but we need to resolve FFS funding before inviting researchers. VRP status for all projects + bounty status  
-**\<anonimal>** I've sent a VRP to byterub, it's been merged. I believe we're funded at ~500 XMR, which is great.  
+**\<anonimal>** I've sent a VRP to byterub, it's been merged. I believe we're funded at ~500 BTR, which is great.  
 **\<anonimal>** Any questions?  
 **\<anonimal>** We just need to launch after submitting VRP to the GUI (and site?)  
 **\<anonimal>** Sound good?  
-**\<bigreddmachine>** Is the bounty held in xmr or something else?  
+**\<bigreddmachine>** Is the bounty held in btr or something else?  
 **\<anonimal>** Yes. Link to FFS in the meta issue.  
-**\<ArticMine>** https://forum.getbyterub.org/8/funding-required/87597/byterub-bounty-for-hackerone It was funded to 500 XMR and then increased to 1000 XMR for further funding  
+**\<ArticMine>** https://forum.getbyterub.org/8/funding-required/87597/byterub-bounty-for-hackerone It was funded to 500 BTR and then increased to 1000 BTR for further funding  
 **\<bigreddmachine>** ty  
 **\<anonimal>** I think we can start now before funding is at 1000.  
 **\<anonimal>** (it won't mean we'll find researchers immediately anyway)  

@@ -1,6 +1,6 @@
 ---
 layout: user-guide
-title: How to mine on a pool with xmr-stak-cpu
+title: How to mine on a pool with btr-stak-cpu
 permalink: /resources/user-guides/mine-to-pool.html
 mainVersion:
   - "1"

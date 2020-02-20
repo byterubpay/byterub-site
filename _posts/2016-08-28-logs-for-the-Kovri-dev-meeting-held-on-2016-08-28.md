@@ -75,7 +75,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [anonimal]** 3. Code + ticket discussion / Q & A  
 **\<meeting-bot> [anonimal]** I'll open  
 **\<meeting-bot> [fluffypony]** some of the design decisions in Kovri were influenced by ByteRub, so no getting away from it, ByteRub devs ;)  
-**\<meeting-bot> [anonimal]** Question: WHEN WILL MONERO DEVS START TAKING KOVRI SERIOUSLY?  
+**\<meeting-bot> [anonimal]** Question: WHEN WILL BYTERUB DEVS START TAKING KOVRI SERIOUSLY?  
 **\<meeting-bot> [anonimal]** 10 months in now since our november 1st meeting,  
 **\<meeting-bot> [i2p-relay] {-byterubmooo}** Define "taking seriously" ? Send patches ?  
 **\<tewinget>** anonimal: I take it just as seriously as, say, RingCT, I just haven't had/taken the time to dig into either yet :)  

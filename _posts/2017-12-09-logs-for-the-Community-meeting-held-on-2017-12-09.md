@@ -30,7 +30,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** hi  
 **\<fluffypony>** ola  
 **\<msvb-fab>** Oh okay.  
-**\<xmr\_eric>** Hullo  
+**\<btr\_eric>** Hullo  
 **\<msvb-fab>** Hardware wallet.  
 **\<msvb-fab>** Dozens of parts have arrived including panelized PCBs, and some unplanned holiday goodies.  
 **\<msvb-fab>** We'll be assembling in the next week, in order to deliver a end of year dividend to anybody who has contributed in even the smallest way.  
@@ -107,7 +107,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** fluffypony: what do you mean by malicious miners? Coinhive could be a malicious miner.  
 **\<ArticMine>** Yes this is the problem the gray area  
 **\<fluffypony>** serhack: yes absolutely, as is botnet malware  
-**\<xmr\_eric>** The solution doesn't need to be comprehensive. It just needs to address the basics.  
+**\<btr\_eric>** The solution doesn't need to be comprehensive. It just needs to address the basics.  
 **\<msvb-fab>** fluffypony: Is part of the problem that the affected click on 'vulnerability response' and send email to you and Luigi?  
 **\<msvb-fab>** ...thus overwhelming just a couple security officers?  
 **\<fluffypony>** msvb-fab: nope, not at all  
@@ -160,7 +160,7 @@ author: dEBRUYNE / fluffypony
 **\<fluffypony>** dEBRUYNE: yep I know  
 **\<cryptochangements>** not allowing people to talk about something!= helping (more or less effectivly) people stop something  
 **\<netg>** i mean having such a group and educating our own community is by itself positive  
-**\<netg>** people getting ripped of their xmr by malware are mostly lost for the project  
+**\<netg>** people getting ripped of their btr by malware are mostly lost for the project  
 **\<fluffypony>** netg: agreed  
 **\<ErCiccione>** QuickBASIC and ArticMine have both good points, how can we provide some kind of assistance (at least minimal) but always "at distance"? The group could be the point of contact, but shouldn't give practical solutions (to avoid responsabilities of eventual mistakes) They can provide documentation and other kind of support (like suggesting who to speak with, more info about ByteRub's technology)  
 **\<fluffypony>** ErCiccione: we write guides, and we make those guides available  

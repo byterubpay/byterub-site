@@ -49,7 +49,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<fluffypony>** @NanoAkron also fixed some errant armv8 things  
 **\<fluffypony>** and then on the ByteRub Core side tons of fixes, small and large, primarily by byterubmooo and Jaquee  
 **\<fluffypony>** abrkn also had their first PR merged to ByteRub Core, so welcome to a new contributor  
-**\<fluffypony>** xmr-eric also had a pair of PRs, so he's almost at 5 PRs which is excellent  
+**\<fluffypony>** btr-eric also had a pair of PRs, so he's almost at 5 PRs which is excellent  
 **\<fluffypony>** as it stands right now there is a weird segfault occurring occasionally, at least on macOS  
 **\<fluffypony>** and possibly other operating systems  
 **\<fluffypony>** this is a blocker to the next tagged release  

@@ -8,7 +8,7 @@ author: el00ruobuob / rehrar
 
 # Logs  
 
-**\<xmrmatterbridge> \<rehrar>** Meeting?  
+**\<btrmatterbridge> \<rehrar>** Meeting?  
 **\<rbrunner>** It would be time for one, yes  
 **\<rehrar>** 1. Meetings Greetings  
 **\<rehrar>** h'lo  
@@ -64,7 +64,7 @@ author: el00ruobuob / rehrar
 **\<hyc>** we have 2 review proposals and a 3rd team isprepping one  
 **\<hyc>** I have a preliminary randomx integration with byterubd in my github repo  
 **\<hyc>** tevador is still playing with cpu optimizations  
-**\<rehrar>** the review proposals will require XMR, yes?  
+**\<rehrar>** the review proposals will require BTR, yes?  
 **\<rehrar>** via CCS?  
 **\<hyc>** sech1 has nearly finished a CUDAversion  
 **\<hyc>** yes  

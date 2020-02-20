@@ -130,7 +130,7 @@ author: el00ruobuob / sarang
 **\<sarang>** If anyone has the link, I'd like to refresh my understanding of it  
 **\<ArticMine>** This if I recall came up last year over AML / KNC  
 **\<sarang>** yes  
-**\<suraeNoether>** i had this idea the other day: SBMB could publish an accumulator that contains his key images, in a way that allows the auditor to check if a given key image is in the accumulator, but the auditor has to trust that the accumulator was constructed faithfully (unless some protocol is used to prove fairness).  that plus the view key of the wallet allows the auditor to determine 1) all incoming XMR to that wallet  
+**\<suraeNoether>** i had this idea the other day: SBMB could publish an accumulator that contains his key images, in a way that allows the auditor to check if a given key image is in the accumulator, but the auditor has to trust that the accumulator was constructed faithfully (unless some protocol is used to prove fairness).  that plus the view key of the wallet allows the auditor to determine 1) all incoming BTR to that wallet  
 **\<suraeNoether>** and 2) any outgoing viewkeys included, allowing the auditor to determine anupper bound remaining in the wallet  
 **\<rehrar>** this would (imo) single-handedly would shoot ByteRub's real world use up incredibly  
 **\<byterubmooo>** https://github.com/byterubpay/byterub/issues/1070  

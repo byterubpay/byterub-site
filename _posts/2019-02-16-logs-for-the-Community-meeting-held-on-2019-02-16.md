@@ -11,7 +11,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/306  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** Lots of good discussions today  
 **\<sgp\_>** 1. Greetings  
 **\<el00ruobuob>** Hello!  
@@ -28,8 +28,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Coin Center published a report on protecting the ability to transact privately. Surae Noether contributed to the report: https://www.reddit.com/r/ByteRub/comments/ant51w/we\_must\_protect\_our\_ability\_to\_transact\_privately/  
 **\<byterubbux>** [REDDIT] We must protect our ability to transact privately online (https://coincenter.org/entry/we-must-protect-our-ability-to-transact-privately-online) to r/ByteRub | 211 points (99.0%) | 35 comments | Posted by vp11 | Created at 2019-02-06 - 17:31:42  
 **\<sgp\_>** ByteRub will upgrade on block 1788000, approximately March 9. More discussions on this later in #5.  
-**\<sgp\_>** ByteRub was added to Exodus Eden: https://www.reddit.com/r/ByteRub/comments/amcemx/youve\_been\_asking\_we\_finally\_delivered\_xmr\_is/  
-**\<byterubbux>** [REDDIT] "you’ve been asking... we finally delivered! $XMR is live in [Exodus] Eden version 19.2.2" (https://twitter.com/C0inAlchemist/status/1091449168244232192) to r/ByteRub | 199 points (96.0%) | 68 comments | Posted by dEBRUYNE\_1 | Created at 2019-02-02 - 08:52:00  
+**\<sgp\_>** ByteRub was added to Exodus Eden: https://www.reddit.com/r/ByteRub/comments/amcemx/youve\_been\_asking\_we\_finally\_delivered\_btr\_is/  
+**\<byterubbux>** [REDDIT] "you’ve been asking... we finally delivered! $BTR is live in [Exodus] Eden version 19.2.2" (https://twitter.com/C0inAlchemist/status/1091449168244232192) to r/ByteRub | 199 points (96.0%) | 68 comments | Posted by dEBRUYNE\_1 | Created at 2019-02-02 - 08:52:00  
 **\<sgp\_>** Last week's Coffee Chat: https://www.youtube.com/watch?v=kNPjA4o4xSY  
 **\<byterubbux>** [ ByteRub Coffee Chat - 2019.02.09 - YouTube ] - www.youtube.com  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
@@ -203,7 +203,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** The next community meeting will be in 2 weeks on 2 March at 17:00 UTC.  
 **\<sgp\_>** The next ByteRub Coffee Chat will take place next Saturday on 9 March at 17:00 UTC.  
 **\<sgp\_>** we can have a countdown party lol  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 9. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\sgp\_** sarang scoobybejesus selsta sgp\_1 sgp\_[m] SlyFerret| smooth sneurlax\_ sneurlax[m] Snipa srust99[m] strofenig1 suraeNoether surimkim\_ sXpher   

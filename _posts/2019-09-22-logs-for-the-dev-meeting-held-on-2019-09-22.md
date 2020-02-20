@@ -14,7 +14,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** who all is here?  
 **\<sgp\_>** hello :)  
 **\<needbyterub90>** Hi  
-**\<xmrscott[m]>** Hey hey hey  
+**\<btrscott[m]>** Hey hey hey  
 **\<rbrunner>** Hi  
 **\<tevador>** hey  
 **\<sech1>** \\o/  
@@ -225,9 +225,9 @@ author: el00ruobuob / rehrar
 **\<vtnerd\_\_>** yeah, unfortunately  
 **\<M5M400>** are we aware of any GPU miner in the works for randX that will be ready in time for spork?  
 **\<byterubmooo>** That's what I did for the sync-from-pruned :)  
-**\<hyc>** M5M400: xmrig is ready  
+**\<hyc>** M5M400: btrig is ready  
 **\<luigi1111>** 24th and 31st targets are good with me for 30th fork  
-**\<sech1>** M5M400 xmrig 4.0 is combined CPU + OpenCL miner  
+**\<sech1>** M5M400 btrig 4.0 is combined CPU + OpenCL miner  
 **\<vtnerd\_\_>** if thats worth a reject, then I can go back and try again, but its a little dicey otherwise (it requires a slightly larger refactor and possibly a second lmdb database)  
 **\<luigi1111>** mostly afk now  
 **\<rehrar>** vtnerd\_\_: if this does make it in this time, it can be iterated on in the future no?  

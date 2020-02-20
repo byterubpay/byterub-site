@@ -13,7 +13,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** ink to agenda on GitHub: https://github.com/byterubpay/meta/issues/286  
 **\<rehrar>** \*Link  
 **\<rehrar>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar:  
-**<rehrar>** https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**<rehrar>** https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<rehrar>** 1. Greetings  
 **\<rehrar>** heyo  
 **\<serhack>** Hi!  
@@ -26,7 +26,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** doing some ByteRub representation or whatever.  
 **\<vp11>** cool  
 **\<midipoet>** bigging up the m to the o  
-**\<xmrmatterbridge> \<xmrscott>** Hola  
+**\<btrmatterbridge> \<btrscott>** Hola  
 **\<rehrar>** 2. Community highlights  
 **\<rehrar>** You can now read the ByteRub Moon, a curated weekly newsletter regarding all things ByteRub. Here is the latest issue which covers October 16-22: https://medium.com/@johnfoss/the-byterub-moon-issue-7-b44cf6afd655  
 **\<rehrar>** Does anyone else have community updates to share?  
@@ -71,7 +71,7 @@ author: el00ruobuob / rehrar
 **\<ErCiccione>** don't remember the PR now, it was a couple fo months ago IIRC  
 **\<ErCiccione>** el00ruobuob_ ^  
 **\<el00ruobuob_[m]>** yeah it is finished  
-**\<xmrmatterbridge> \<msvb-lab>** Testing relay.  
+**\<btrmatterbridge> \<msvb-lab>** Testing relay.  
 **\<el00ruobuob_[m]>** it just had a glitch introduced that i fixed by adding the articles manes to the yml language files  
 **\<rehrar>** it's up msvb-lab  
 **\<el00ruobuob_[m]>** So in any case, if there is anything going wrong with byterubpedia translation, let me know  
@@ -168,7 +168,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** find me a synonym  
 **\<el00ruobuob_[m]>** or perhaps does it need a refresh to be more readable  
 **\<ErCiccione>** (for who don't know what the ByteRub Ecosystem Project is: https://github.com/byterub-ecosystem)  
-**\<dog\\>** Maybe even remove it from the website, to a new home where people can easily contribute and share places accepting / using XMR. I don't know, I'm just throwing ideas.  
+**\<dog\\>** Maybe even remove it from the website, to a new home where people can easily contribute and share places accepting / using BTR. I don't know, I'm just throwing ideas.  
 **\<dog\\>** it's open ideas time anywya  
 **\<rehrar>** true  
 **\<rehrar>** I've always thought the on-site directory will eventually be pretty unsustainable  
@@ -225,7 +225,7 @@ author: el00ruobuob / rehrar
 **\<ErCiccione>** i like that, we should definitely talk about it in the next meeting. In the meantime we can check the best options to make it real dog\\  
 **\<rehrar>** 6. Confirm next meeting date/time  
 **\<dog\\>** yep  
-**\<rehrar>** The next community meeting will be two weeks from today on 10 November at 17:00 UTC. When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<rehrar>** The next community meeting will be two weeks from today on 10 November at 17:00 UTC. When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<rehrar>** 7. Conclusion  
 **\<rehrar>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<el00ruobuob_[m]>** thank you all for being awesome!  

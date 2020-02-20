@@ -18,38 +18,38 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. The calendar functionality will unfortunately be shut down soon, so I’m working on another calendar option.  
 **\<sgp\_>** 1. Greetings  
 **\<Guest19860>** Ciao  
-**\<xmrscott[m]>** おす  
+**\<btrscott[m]>** おす  
 **\<el00ruobuob>** Hi  
-**\<xmrmatterbridge> \<rehrar>** Yo bro  
+**\<btrmatterbridge> \<rehrar>** Yo bro  
 **\<sgp\_>** 2. Community highlights  
 **\<sgp\_>** rehrar now maintains news highlights at https://revuo-byterub.com/. The most recent article is from 2 days ago.  
 **\<sgp\_>** The MCC livestream is currently live, so multitask if you can! https://www.youtube.com/watch?v=CyieujRFk3g  
 **\<byterubbux>** [ #MCC2019 Day 1 - Magical Crypto Conference - Lightning Network & Bitcoin Without Internet - YouTube ] - www.youtube.com  
 **\<sgp\_>** A recent research paper preprint was uploaded, and it caused a small stir on social media. The paper sought to quantify an important component (cost of generating many outputs), but many of its assumptions were extremely incorrect. Hopefully the authors will correct and speak with MRL before publishing more work.  
 **\<\_Slack> \<intj440>** hello  
-**\<sgp\_>** I mention this only because I want to steer the community tone to being accepting of new research, but to nevertheless politely call out fatal flaws if necessary. Reddit discussion: https://www.reddit.com/r/ByteRub/comments/bn046q/floodxmr\_lowcost\_transaction\_flooding\_attack\_with/  
-**\<byterubbux>** [REDDIT] FloodXMR: Low-cost transaction flooding attack with ByteRub’s bulletproof protocol⋆ (https://eprint.iacr.org/2019/455.pdf) to r/ByteRub | 54 points (82.0%) | 46 comments | Posted by McDongger | Created at 2019-05-10 - 16:05:45  
+**\<sgp\_>** I mention this only because I want to steer the community tone to being accepting of new research, but to nevertheless politely call out fatal flaws if necessary. Reddit discussion: https://www.reddit.com/r/ByteRub/comments/bn046q/floodbtr\_lowcost\_transaction\_flooding\_attack\_with/  
+**\<byterubbux>** [REDDIT] FloodBTR: Low-cost transaction flooding attack with ByteRub’s bulletproof protocol⋆ (https://eprint.iacr.org/2019/455.pdf) to r/ByteRub | 54 points (82.0%) | 46 comments | Posted by McDongger | Created at 2019-05-10 - 16:05:45  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
 **\<sgp\_>** 3. CCS updates  
 **\<sgp\_>** CCS proposals still needing funding:  
-**\<sgp\_>** GUI UX coding (3 months) (161.10/282 XMR): https://ccs.getbyterub.org/proposals/dsc-2019-q2.html  
-**\<sgp\_>** xiphon part time coding (3 months) (74.18/111 XMR): https://ccs.getbyterub.org/proposals/xiphon-part-time.html  
-**\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup – March (51.50/144 XMR): https://ccs.getbyterub.org/proposals/ErCiccione-localizations.html  
+**\<sgp\_>** GUI UX coding (3 months) (161.10/282 BTR): https://ccs.getbyterub.org/proposals/dsc-2019-q2.html  
+**\<sgp\_>** xiphon part time coding (3 months) (74.18/111 BTR): https://ccs.getbyterub.org/proposals/xiphon-part-time.html  
+**\<sgp\_>** ErCiccione: Coordinator of the Localization Workgroup – March (51.50/144 BTR): https://ccs.getbyterub.org/proposals/ErCiccione-localizations.html  
 **\<sgp\_>** CCS Proposals in ideas that were previously discussed:  
-**\<sgp\_>** ByteRub currency and blockchain statistics hub (20 XMR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/58  
+**\<sgp\_>** ByteRub currency and blockchain statistics hub (20 BTR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/58  
 **\<sgp\_>** CCS proposals in ideas to be discussed:  
-**\<sgp\_>** BtcPayServer ByteRub Integration (180 XMR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/63  
-**\<sgp\_>** Funding To Produce, Write And Record An Entirely Original Rap/Hip-Hop Anthem Exclusively For ByteRub (18 XMR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/65  
+**\<sgp\_>** BtcPayServer ByteRub Integration (180 BTR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/63  
+**\<sgp\_>** Funding To Produce, Write And Record An Entirely Original Rap/Hip-Hop Anthem Exclusively For ByteRub (18 BTR): https://repo.getbyterub.org/byterubpay/ccs-proposals/merge\_requests/65  
 **\<sgp\_>** Let's start with the BtcPay one  
 **\<sgp\_>** Any comments?  
 **\<el00ruobuob>** I like the idea, but has the guy ever contribute?  
-**\<serhack>** I'm curious. I'd like to know why 180 xmr as a bounty.  
+**\<serhack>** I'm curious. I'd like to know why 180 btr as a bounty.  
 **\<Guest19860>** (not to ByteRub)  
 **\<Guest19860>** I don't think so, but his track of contributions is very good  
 **\<sgp\_>** I think this is one of their first times working on ByteRub. They previously did a lot of other work for Bitcoin  
-**\<serhack>** I just want to highlight 180 XMR = 13,363 USD at the moment. Does integrating ByteRub into the software require so much work?  
-**\<xmrscott[m]>** Yeah, basically addin ByteRub tl their existinf BTC service, I think they should be plenty fine  
-**\<dEBRUYNE>** serhack: I think the 180 XMR was based on the price before the rise  
+**\<serhack>** I just want to highlight 180 BTR = 13,363 USD at the moment. Does integrating ByteRub into the software require so much work?  
+**\<btrscott[m]>** Yeah, basically addin ByteRub tl their existinf BTC service, I think they should be plenty fine  
+**\<dEBRUYNE>** serhack: I think the 180 BTR was based on the price before the rise  
 **\<dEBRUYNE>** So it probably has to be adjusted downwards  
 **\<Guest19860>** I think the "show us your love for byterub first" kind of mentality works well for unknown people, but i think when the contributor can prove his/her experience, it's not strictly necessary  
 **\<sarang>** sgp\_: I have a note on that paper, at some point  
@@ -71,8 +71,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<ErCiccione>** +1 from me as well. I will also try to get that new library he plans to create into the Ecosystem :P  
 **\<sgp\_>** All right, onto the next one: the original rap/hip-hop anthem  
 **\<sgp\_>** This already received mostly negative feedback on Reddit  
-**\<xmrmatterbridge> \<rehrar>** Lol  
-**\<xmrmatterbridge> \<rehrar>** Bubblegum pop is the way to go, honestly.  
+**\<btrmatterbridge> \<rehrar>** Lol  
+**\<btrmatterbridge> \<rehrar>** Bubblegum pop is the way to go, honestly.  
 **\<ErCiccione>** i can only think of "Dash! Dash! Dash!" when i read about that proposal.  
 **\<sgp\_>** yes that was a disaster  
 **\<el00ruobuob>** as long at it's not a k-pop cover, i say no ;)  
@@ -87,10 +87,10 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** as I mentioned before, I'd like some better understanding of requirements  
 **\<ErCiccione>** yes i agree, as i said i hope to see him here, because some folks seem interested in that proposal, and i admit i'm curious about it  
 **\<sgp\_>** Anything else before we move on?  
-**\<xmrmatterbridge> \<rehrar>** Nah.  
+**\<btrmatterbridge> \<rehrar>** Nah.  
 **\<midipoet>** My CCS got funded, so thanks to everyone that donated/supported. I know there were some concerns...  
-**\<xmrmatterbridge> \<rehrar>** Someone can comment the Reddit rap thread on the proposal.  
-**\<xmrmatterbridge> \<rehrar>** Cuz it's not there atm.  
+**\<btrmatterbridge> \<rehrar>** Someone can comment the Reddit rap thread on the proposal.  
+**\<btrmatterbridge> \<rehrar>** Cuz it's not there atm.  
 **\<sgp\_>** We can move on then  
 **\<midipoet>** I have yet to hear officially back from the researchers/academics. When I do, I will share.  
 **\<sgp\_>** 4. Workgroup report  
@@ -114,12 +114,12 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob>** :(  
 **\<ErCiccione>** check the logs of the localization workgroup meeting for more info about that specific thing  
 **\<ErCiccione>** but it will make everything easier nonetheless  
-**\<xmrmatterbridge> \<rehrar>** K  
+**\<btrmatterbridge> \<rehrar>** K  
 **\<ErCiccione>** Also, small announcement,  
 **\<ErCiccione>** After the integration of weblate, i plan to reduce my work with the localization workgroup of at least half the time  
 **\<ErCiccione>** That's one reason why during this month i will try to make everything as automatic as possible. The reason of this choice are various and i will explain them better in a dedicated thread  
 **\<ErCiccione>** but the main reason is: i want to spend more time on learn stuff i'm more interested in.  
-**\<xmrmatterbridge> \<rehrar>** Ohnoez  
+**\<btrmatterbridge> \<rehrar>** Ohnoez  
 **\<ErCiccione>** obviously this doesn't mean that i will abandon the localization workgroup, but just that my involvement in it will decrease  
 **\<ErCiccione>** especially the part of the support to translators (that's why i'm planning to have everything based on weblate)  
 **\<sgp\_>** Thanks ErCiccione, let us know what if anything we can do to help you  

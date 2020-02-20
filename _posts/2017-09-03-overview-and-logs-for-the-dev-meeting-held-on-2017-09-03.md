@@ -54,7 +54,7 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<byterubmooo>** Or mybyterub related things.  
 **\<vtnerd>** um, not sure what to report because I don't think I have any hidden patches pending core  
 **\<vtnerd>** the focus of mybyterub is improving the perf of that poor guy, the DB is getting killed on the current design  
-**\<vtnerd>** so hopefully finally less complaints about "where is mybyterub XMR?"  
+**\<vtnerd>** so hopefully finally less complaints about "where is mybyterub BTR?"  
 **\<hyc>** is that still using mySQL?  
 **\<vtnerd>** yeah for the time being  
 **\<serhack>** Vtnerd: Can I ask you any question about mybyterub?  

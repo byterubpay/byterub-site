@@ -27,7 +27,7 @@ author: dEBRUYNE / fluffypony
 **\<quickbasic>** Yes?  
 **\<erg1>** hi.  is that an introduction?  
 **\<rehrar>** it's basically a role call :P  
-**\<xmrscott>** Howdy howdy  
+**\<btrscott>** Howdy howdy  
 **\<tficharmers>** exciting! more rooms :D  
 **\<quickbasic>** It was a dark and stormy night.  
 **\<CryptoSiD>** is this channel a safe space for liberals  
@@ -60,7 +60,7 @@ author: dEBRUYNE / fluffypony
 **\<rbrunner>** Only a very small thing: The "drop-down" triangles e.g. to the right of "Get Started" are rather small  
 **\<rehrar>** knaccc's suggested content has been placed here: http://45.32.161.183/get-started/what-is-byterub/  
 **\<tficharmers>** I think it's a great. Much improvements. I'd say just get it out there and people will say words and things will get done.  
-**\<xmrscott>** One quick note on translations before they get started....would it be possible to use Transifex?  
+**\<btrscott>** One quick note on translations before they get started....would it be possible to use Transifex?  
 **\<pero>** yea that page is pretty solid now  
 **\<rehrar>** the other issue that ArticMine had brought up is the lack of tech talk so to speak on the site  
 **\<ArticMine>** The process for contributing content has been created and document. This is a lot of hard work and huge improvement  
@@ -129,7 +129,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** about merchant guidelines?  
 **\<pero>** the site will have lots of organic links to it  
 **\<erg1>** I like dark themes too, but I think they are mostly for sites where users will be staring at the screen for hours (to reduce eye strain)  
-**\<netg>** i own xmr.biz byterub.pro xmr.su byterub.su  
+**\<netg>** i own btr.biz byterub.pro btr.su byterub.su  
 **\<serhack>** yeah rehrar  
 **\<netg>** e.g.  
 **\<rehrar>** not sure it's super necessary at this point. We can hit it if we have to, but I don't see a need atm.  
@@ -205,7 +205,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<rehrar>** I am a privacy advocate, so all of my personal marketing efforts will be educational and privacy oriented  
 **\<serhack>** good rehrar  
 **\<ArticMine>** Focus on customer service / support  
-**\<xmrscott>** Not to detract, but would here be a good place to also highlight the byterub-support channel with all this multi channel discussion?  
+**\<btrscott>** Not to detract, but would here be a good place to also highlight the byterub-support channel with all this multi channel discussion?  
 **\<netg>** dont accept people with their own agendas (pushing their private sites, their ego whatever)  
 **\<sgp>** Based on the discussion, it seems like ByteRub Marketing will currently stay a part of ByteRub Community unless there is an active movement and community to separate it. If someone wants to do this, let us know by PM, in byterub-community or byterub, and /r/ByteRubCommunty or /r/ByteRub  
 **\<hyc>** sounds fine  
@@ -236,7 +236,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<floam412>** maybe it was because I was using the default safari, but it came up in two small columns  
 **\<floam412>** the text that is  
 **\<cryptochangement>** rehrar it is purely a formatting issue that can be discussed after the meeting if thats easier  
-**\<pigeons>** xmrscott: yes good point support is and important community aspect  
+**\<pigeons>** btrscott: yes good point support is and important community aspect  
 **\<sgp>** 5. ByteRub slogan  
 **\<sgp>** The ByteRub slogan is “secure private untraceable fungible”. I don’t think this is extremely effective, and there has been a lot of discussion in the community to change this slogan of sorts. I want this to be a quick brainstorming session to come up with a new one.  
 **\<ArticMine>** Facebook can be used to promote ByteRub but ByteRub should not be used to promote Facebook  
@@ -272,7 +272,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<cryptochangement>** hyc ^ this  
 **\<rbrunner>** Yes  
 **\<erg1>** Got privacy?  
-**\<XMRenthusiast>** I agree with Pigeons. Until we can reach a new consensus, no change to slogan is a good option  
+**\<BTRenthusiast>** I agree with Pigeons. Until we can reach a new consensus, no change to slogan is a good option  
 **\<quickbasic>** Agreed. We don't need a slogan necessarily.  
 **\<netg>** there can be multiple slogans  
 **\<rehrar>** we're not trying to make every change this minute, but starting conversations is always a good thing to do  
@@ -349,7 +349,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<dEBRUYNE>** \<hyc> What's the difference btw @byterubcurrency and @byterubalert \<= Former is the official account  
 **\<hyc>** OK I have a Q  
 **\<sgp>** @hyc you have the floor, ask away!  
-**\<XMRenthusiast>** It is hard to choose one slogan that is applicable to all users. Based on the data I collected 1+ years ago, I think simple is usually better https://forum.getbyterub.org/6/ideas/2536/marketing-research-proposal  
+**\<BTRenthusiast>** It is hard to choose one slogan that is applicable to all users. Based on the data I collected 1+ years ago, I think simple is usually better https://forum.getbyterub.org/6/ideas/2536/marketing-research-proposal  
 **\<hyc>** Do we have plans for getting Android/iOS packages into their app stores yet?  
 **\<sgp>** @hyc afaik, no work has been done there  
 **\<sgp>** But the goal should be to get in the app stores  
@@ -358,9 +358,9 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<tficharmers>** Do you have to reserve names for app store apps?  
 **\<sgp>** @tficharmers no idea  
 **\<cryptochangement>** i heard that a native ios mybyterub app was being worked on, is the source on github?  
-**\<XMRenthusiast>** I think the native ios app is in a private repo.... but that is the specialty of endogenic  
+**\<BTRenthusiast>** I think the native ios app is in a private repo.... but that is the specialty of endogenic  
 **\<sgp>** Ok, moving on to the next one  
-**\<cryptochangement>** XMRenthusiast ok thanks :)  
+**\<cryptochangement>** BTRenthusiast ok thanks :)  
 **\<rehrar>** next time you see endogenic, call him Shap Shap  
 **\<sgp>** Thanks for bearing with us as we try new organizational things  
 **\<sgp>** b. Kovri  
@@ -374,7 +374,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<serhack>** 4  
 **\<ArticMine>** 9  
 **\<floam412>** 7  
-**\<XMRenthusiast>** 8  
+**\<BTRenthusiast>** 8  
 **\<rbrunner>** 5  
 **\<byterubmooo>** 4  
 **\<hyc>** 7  
@@ -383,7 +383,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** 8  
 **\<knaccc>** 8  
 **\<cryptochangement>** 7  
-**\<xmrscott>** 7  
+**\<btrscott>** 7  
 **\<rehrar>** awesome! thank you so much. This will help me as I work on Kovri education stuff. :)  
 **\<sgp>** Any other questions?  
 **\* byterubmooo** scratches head  
@@ -411,7 +411,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<byterubmooo>** At some point, yes.  
 **\<floam412>** like could/would it possibly be used to be a sort of "browser"?  
 **\<sgp>** That way the client can push the transaction broadcast out to other nodes with I2P  
-**\<XMRenthusiast>** Esperanto help offered today: https://www.reddit.com/r/ByteRub/comments/6ksny0/question_how_do_i_contribute_to_the_guis/  
+**\<BTRenthusiast>** Esperanto help offered today: https://www.reddit.com/r/ByteRub/comments/6ksny0/question_how_do_i_contribute_to_the_guis/  
 **\<rehrar>** The official idea is to route all ByteRub traffic (at least that comes from official wallets?) through the I2P network using Kovri  
 **\<ArticMine>** Transactions via I2P Blocks via IPv4 by default  
 **\<netg>** stupid idea  
@@ -424,7 +424,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<rehrar>** right, good clarification pigeons  
 **\<ArticMine>** User can also choose all I2P or all IPv4  
 **\<sgp>** @cryptochangement exactly  
-**\<XMRenthusiast>** https://byterub.stackexchange.com/questions/16/why-was-i2p-chosen-over-tor-for-native-byterub-integration  
+**\<BTRenthusiast>** https://byterub.stackexchange.com/questions/16/why-was-i2p-chosen-over-tor-for-native-byterub-integration  
 **\<netg>** tor, i2p, zeronet,hyperboria  
 **\<floam412>** ohh ok.. I think that makes a little bit more sense.  So it's not like you can view an eepsite through the GUI or something like that  
 **\<pigeons>** well arcticmine said it too i see :0  
@@ -446,7 +446,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** Anyone have a question?  
 **\<hyc>** sounds like not  
 **\<sgp>** Ok, moving on  
-**\<XMRenthusiast>** Recent developments.... What can the community do to help drive traffic to the new 8btc forum?  
+**\<BTRenthusiast>** Recent developments.... What can the community do to help drive traffic to the new 8btc forum?  
 **\<rehrar>** learn Chinese?  
 **\<sgp>** Documentation imo  
 **\<netg>** what do we need  
@@ -457,9 +457,9 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<netg>** lol  
 **\<cryptochangement>** netg nice nice lol  
 **\<rehrar>** netg, I may be in touch with you soon then, when I get translations up and running later  
-**\<XMRenthusiast>** we have this as a good starting point: https://lafudoci.gitbooks.io/byterub-xmr/content/  
+**\<BTRenthusiast>** we have this as a good starting point: https://lafudoci.gitbooks.io/byterub-btr/content/  
 **\<hyc>** great  
-**\<xmrscott>** Agrees, ByteRub isn't overly useful if the official docs aren't in Chinese  
+**\<btrscott>** Agrees, ByteRub isn't overly useful if the official docs aren't in Chinese  
 **\<hyc>** that's traditional Chinese, not Simplified  
 **\<sgp>** @hyc thanks  
 **\<hyc>** still a good starting point  
@@ -475,7 +475,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<sgp>** @floan412, go ahead  
 **\<floam412>** Is the FFS opened sourced or planned to be?  What is the likely hood of potentially getting charities and/or privacy advocates such as Wikileaks, ACLU, etc. to use byterub as a source of donation?  
 **\<hyc>** those sound like 2 completely unrelated questions  
-**\<XMRenthusiast>** I think it will be easier for privacy advocates to accept byterub donations once paybee/globee has launced  
+**\<BTRenthusiast>** I think it will be easier for privacy advocates to accept byterub donations once paybee/globee has launced  
 **\<floam412>** hyc, I guess your right... paybee might be what I was looking for  
 **\<floam412>** just an easy way to accept byterub  
 **\<sgp>** Not sure if the FFS is open-source, but any group can have a similar system for their charity on their own website  
@@ -486,7 +486,7 @@ interest below. If it is strong enough, we may develop both communities simultan
 **\<hyc>** excellent  
 **\<knaccc>** hyc nice work!  
 **\<floam412>** ooh, that's awesome hyc.. didn't know they changed that  
-**\<XMRenthusiast>** great news hyc! the SDC mention was annoying since it was already abandoned by its devs  
+**\<BTRenthusiast>** great news hyc! the SDC mention was annoying since it was already abandoned by its devs  
 **\<floam412>** yeah, the more I think of it, FFS would only work for charities... but I was thinking of getting byterub to go toward a better good than just speculation  
 **\<hyc>** yep. and yes, I'd like to see zcash and dash descriptions tweaked too  
 **\<sgp>** https://github.com/privacytoolsIO/privacytools.io/pull/241  

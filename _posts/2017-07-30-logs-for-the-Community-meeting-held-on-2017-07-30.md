@@ -64,7 +64,7 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<ArticMine>** If anything  
 **\<serhack>** sgp: very good!  
 **\<sgp>** @ArcticMine I did not get to speak in Edinburgh despite getting initial contact with the organizer there and planning a trip :/  
-**\<keledoro>** Did any of the audience members mention that they thought XMR would only be a DNM currency or the like?  
+**\<keledoro>** Did any of the audience members mention that they thought BTR would only be a DNM currency or the like?  
 **\<sgp>** My first speech in Valencia is not very good. I gave a very wrong answer for the total coin supply, for example. Knowing basic coin fundamentals is important too, and I didn't think to review this info right before speaking and was caught off-guard  
 **\<sgp>** @keledoro definitely  
 **\<sgp>** I talked about how the ByteRub community needs to encourage legitimate use, and having a large userbase will reduce the chance that it will only be used by criminals and DNM users  
@@ -154,8 +154,8 @@ with many of these Meetup groups. For instance, someone from Bucharest, Romania 
 **\<serhack>** with a game!  
 **\<sgp>** There may be a better casual game than mining  
 **\<serhack>** yes  
-**\<keledoro>** I was thinking about a collaborative effort to longlist NGOs that could benefit from anonymous donations and then politely reach out to them to inform them about XMR. Also, setting up a XMR wallet address wouldn't be as hard as with integrating it within payment systems of shops.  
-**\<serhack>** setting a xmr wallet is so simple :)  
+**\<keledoro>** I was thinking about a collaborative effort to longlist NGOs that could benefit from anonymous donations and then politely reach out to them to inform them about BTR. Also, setting up a BTR wallet address wouldn't be as hard as with integrating it within payment systems of shops.  
+**\<serhack>** setting a btr wallet is so simple :)  
 **\<sgp>** @keledoro that sounds like a fantastic idea  
 **\<sgp>** We just need an email that doesn't sound too spammy :)  
 **\<keledoro>** Yep, maybe even a @getbyterub mail address  

@@ -4,9 +4,9 @@
 
 Estas herramientas pueden ser utilizadas para obtener información acerca de la red de ByteRub o datos de tu transacción en la blockchain.
 
-### [Revisar que un receptor ha recibido tus fondos](http://xmrtests.llcoins.net/checktx.html)
+### [Revisar que un receptor ha recibido tus fondos](http://btrtests.llcoins.net/checktx.html)
 
-### [Herramientas para generar una dirección de ByteRub](https://xmr.llcoins.net/)
+### [Herramientas para generar una dirección de ByteRub](https://btr.llcoins.net/)
 
 ### [Cuenta de nodos de ByteRub](http://byterubnodes.i2p.xyz/)
 

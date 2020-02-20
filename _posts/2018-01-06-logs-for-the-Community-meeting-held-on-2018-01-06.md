@@ -16,7 +16,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** oy  
 **\<ErCiccione>** Hi folks  
 **\<ordtrogen>** yo  
-**\<xmrscott[m]>** Salutations  
+**\<btrscott[m]>** Salutations  
 **\<Xil3>** hello  
 **\<sarang>** yo  
 **\<msvb-lab>** Oops, I was on the wrong channel. Hi folks.  
@@ -276,9 +276,9 @@ comes with the installation, such as a man file for unix and maybe some other fo
 **\<sgp>** Since the next one is on the 20, how should I promote it differently to attract more viewers?  
 **\<cryptochangements>** sgp: the coffechat seems like something r/cryptocurrency would go nuts over  
 **\<Guest93332>** you should use all officials account with social media  
-**\<sarang>** Remind me, are they advertised on places like r/byterub or r/xmrtrader?  
+**\<sarang>** Remind me, are they advertised on places like r/byterub or r/btrtrader?  
 **\<sgp>** I typically post on /r/byterub yes  
-**\<sgp>** I haven't posted about it in /r/xmrtrader before  
+**\<sgp>** I haven't posted about it in /r/btrtrader before  
 **\<ErCiccione>** sgp: i think it needs some more scheduled advertising, like 24 hours earlier and then a couple of hours before starting. And a massive use of social accounts a couple of hours before the chat  
 **\<cryptochangements>** Personally, i think the coffechats are something that should be advertised everywhere  
 **\<rehrar>** sarang: you should join up on this one  

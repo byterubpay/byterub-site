@@ -36,13 +36,13 @@ author: selsta / anonimal
 **\<\_4matter>** :P  
 **\<anonimal>** Great post, \_4matter  
 **\<\_4matter>** Thanks.  
-**\<anonimal>** I didn't even know xmrhaelan had a taiga thing  
+**\<anonimal>** I didn't even know btrhaelan had a taiga thing  
 **\<rehrar>** yaeh, he's really killing it actually  
 **\<rehrar>** doing a lot of wor  
 **\<rehrar>** \*work  
 **\<anonimal>** Or, that there was that taiga thing  
 **\<\_4matter>** Yeah. I want to make an addition point re: what ByteRub PR is doing, though.  
-**\<anonimal>** JFTR, for any meeting log: https://taiga.getbyterub.org/project/xmrhaelan-byterub-public-relations/  
+**\<anonimal>** JFTR, for any meeting log: https://taiga.getbyterub.org/project/btrhaelan-byterub-public-relations/  
 **\<\_4matter>** While I appreciate the most recent PR effort for ByteRub, I find that (at least initially) it is overengineered. The initial time/energy/amount of words written, specifically to get the effort off the ground (or at least get some buy-in from the community), has been greater than the initial product that has been generated -- a very basic, and poorly formatted, overview that could have been copied and pasted in 30 minutes.  
 **\<\_4matter>** This is my opinion, not gospel.  
 **\<\_4matter>** I do not like being critical, but taking a more simplified approach, at least in the beginning, is (to me) the right way. Then, from there, we can refine it and build upon our successes -- while learning from our failures.  

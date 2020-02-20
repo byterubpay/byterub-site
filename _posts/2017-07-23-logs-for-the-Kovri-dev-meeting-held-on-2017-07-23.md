@@ -76,7 +76,7 @@ author: dEBRUYNE / fluffypony
 **\* byterubmooo** listens  
 **\<anonimal>** This is tricky and requires auth from the core dev team. I don't think we have this written anywhere though we should.  
 **\<anonimal>** Whoever has the kovri privkeys to the irc server, rules the universe.  
-**\<ajs>** Got a test server up and running... Current open issues are here: https://github.com/alvinjoelsantos/ircxmr/issues  
+**\<ajs>** Got a test server up and running... Current open issues are here: https://github.com/alvinjoelsantos/ircbtr/issues  
 **\<ajs>** It would be best if one of the core members runs the server  
 **\<anonimal>** pigeons is running the i2p instance of getkovri, but I wonder if he's up for hosting an irc server too.  
 **\<byterubmooo>** What are the reasons one might want to host the IRC server elsewhere ?  
@@ -112,7 +112,7 @@ author: dEBRUYNE / fluffypony
 **\<byterubmooo>** Oooh, OSS gods. I'll fork my own and play.  
 **\<ajs>** Got it  
 **\<anonimal>** That's great news. They will be pleased.  
-**\<anonimal>** ajs: btw, https://github.com/alvinjoelsantos/ircxmr/blob/master/README.md says "freenet" but that is an actual project/technology. I think you meant "clearnet" instead.  
+**\<anonimal>** ajs: btw, https://github.com/alvinjoelsantos/ircbtr/blob/master/README.md says "freenet" but that is an actual project/technology. I think you meant "clearnet" instead.  
 **\<anonimal>** Anyway, we can chat more about that after the meeting.  
 **\<anonimal>** Anything else on 4. and the irc2p issue?  
 **\<ajs>** Oops will correct  

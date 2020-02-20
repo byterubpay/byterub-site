@@ -142,7 +142,7 @@ author: dEBRUYNE / fluffypony
 **\<serhack>** @rehrar is our hero  
 **\<rehrar>** We'll be in contact.  
 **\<serhack>** I vote for rehrar  
-**\<msvb-mob>** rehrar: By the way, you made an excellent mention of the hardware wallet project in your coffee table chat, and thank you so much for telling people that ByteRub is not just about XMR but also about Kovir and a bunch of other stuff.  
+**\<msvb-mob>** rehrar: By the way, you made an excellent mention of the hardware wallet project in your coffee table chat, and thank you so much for telling people that ByteRub is not just about BTR but also about Kovir and a bunch of other stuff.  
 **\<msvb-mob>** Right on there.  
 **\<vp11>** the hero we don't deserve, but the one we need.  
 **\<sgp>** Since no one is here to discuss the Vienna events, we will proceed to #5. We can come back if they show up later  
@@ -219,7 +219,7 @@ author: dEBRUYNE / fluffypony
 **\<vp11>** otherwise, a quarterly workshop really is a great opportunity for people who wants to get "deep" into ByteRub  
 **\<sgp>** I would like to see these thoughts outlined in Taiga  
 **\<serhack>** What are the Official projects?  
-**\<rehrar>** dude, we should have a fun ByteRub ARG with like, ten XMR at the end of it  
+**\<rehrar>** dude, we should have a fun ByteRub ARG with like, ten BTR at the end of it  
 **\<msvb-mob>** vp11: Some have had complaints about Taiga being nonintuitive, but it might just be a learning curve of Agile.  
 **\<serhack>** Anyway we should share Taiga everywhere  
 **\<vp11>** rehrar I would fund this idea, not even joking  

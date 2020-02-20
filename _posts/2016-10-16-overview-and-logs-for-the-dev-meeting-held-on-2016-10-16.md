@@ -98,7 +98,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<TedTheFicus>** If documentation is going to make it easier to attract API + other users than I think we need it up to date always  
 **\<endogenic>** byterubmooo: documentation should be done by particularly able people IMHO  
 **\<gingeropolous>** so, not accepting a pull request because of poor documentation?  
-**\<xmrcoma>** tewinget practice of documenting while coding is a best practice  
+**\<btrcoma>** tewinget practice of documenting while coding is a best practice  
 **\<endogenic>** and it can degrade in quality if an owner or class of developer is not designated  
 **\<imans>** I do agree with that. good documentation can seemlessly help new devs get involved easily  
 **\<_Slack> \<nanoakron>** @gingeropoulos I mean something like ‘I’ve written this new function to calculate X but haven’t given any documentation’ and then 2 months later someone new comes along, never realised that function existed because there was no documentation, and then just trying to rewrite their own version.  
@@ -195,7 +195,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<dEBRUYNE>** luigi and Articmine are going to test this tomorrow when Fluffypony returns  
 **\<byterubmooo>** Cool, thanks all :)  
 **\<+hyc>** sheesh, it's a wallet nota videogame. what acceleration does it want...  
-**\<xmrcoma>** lets waive a magic want that will cause all windows users worldwide to swtich to linux overnight. issue solved  
+**\<btrcoma>** lets waive a magic want that will cause all windows users worldwide to swtich to linux overnight. issue solved  
 **\<byterubmooo>** It's using OpenGL for its widget set apparently.  
 **\<dEBRUYNE>** It's fairly trivial to enable too on windows systems  
 **\<byterubmooo>** Got had by this when I tried it a few days back.  
@@ -241,12 +241,12 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<pero>** o/  
 **\<jaquee>** so it has ot wait until next release  
 **\<imans>** It won't be an issue  
-**\<xmrcoma>** no neeed to finish today jaquee. thanks for your hard work. From a strategic point of view GUI release before Oct 28 (zcash release) would be helpful  
+**\<btrcoma>** no neeed to finish today jaquee. thanks for your hard work. From a strategic point of view GUI release before Oct 28 (zcash release) would be helpful  
 **\<jaquee>** if the windows binaries gets built tomorrow  
 **\<jaquee>** and after that i'm gonna work on whatever the commuity feels most prioritized  
 **\<byterubmooo>** That's cool, thanks jaquee.  
 **\<jaquee>** like the plugin system or better integration with daemon  
-**\<TedTheFicus>** Can anyone in the know comment on (xmrcomas) statement?  
+**\<TedTheFicus>** Can anyone in the know comment on (btrcomas) statement?  
 **\<byterubmooo>** If we're going to have binaries flying around, I think things like validation, avoiding user being dumb, etc, are a good thing to focus on.  
 **\<jaquee>** yes. we could improve the ux with better validation  
 **\<byterubmooo>** About what ? Wanting binaries before 28 ?  
@@ -305,12 +305,12 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<tompole>** 2018  
 **\<@ArticMine>** hiall A possibility Yes; Promises: No  
 **\<gingeropolous>** now the probability of that possibility is a different story  
-**\<xmrcoma>** 2018 sounds like fud. I say 2017 at the latest  
+**\<btrcoma>** 2018 sounds like fud. I say 2017 at the latest  
 **\<TedTheFicus>** Thanks for all your hard work everyone!  
 **\<byterubmooo>** For people wanting to read the kovri meeting 1 a minute, that'll be on #kovri-dev  
 **\<byterubmooo>** Thanks all  
 **\<tompole>** ByteRub doesn't need to be concerned with tending to deadlines that relate to other projects.  
-**\<gingeropolous>** ONWARD MONERO!  
+**\<gingeropolous>** ONWARD BYTERUB!  
 **\<kali_>** Thanks guys!  
 **\<+hyc>** bye all  
 **\<@ArticMine>** I am going there now.  
@@ -321,10 +321,10 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<sdgsdug9sd>** why?  
 **\<gingeropolous>** because development  
 **\<notyomomma>** byterub should be concerned with the needs of the user - which is the gui.  I think the questions on timing are relevant  
-**\<_Slack> \<xmr_eric>** lol  
-**\<xmrcoma>** gui will be done when it is done. not 1 day before or after  
+**\<_Slack> \<btr_eric>** lol  
+**\<btrcoma>** gui will be done when it is done. not 1 day before or after  
 **\<byterubmooo>** sdgsdug9sd: apparently tomorrow  
-**\<xmrcoma>** soon. tm  
+**\<btrcoma>** soon. tm  
 **\<byterubmooo>** (or so I read above)  
 **\<gingeropolous>** well, its been 2.5 years  
 **\<pero>** before the documentary  
@@ -334,13 +334,13 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<dEBRUYNE>** if there is no issue there, I see no reason to not put the beta release out  
 **\<endogenic>** exciting  
 **\<dEBRUYNE>** there can be a subsequent release when the linux path issue, wallet choosing issue, are fixed  
-**\<xmrcoma>** I saw forget windows. just release for linux and make everyone convert:)  
+**\<btrcoma>** I saw forget windows. just release for linux and make everyone convert:)  
 **\<sdgsdug9sd>** hmmm, not sure im getting this clear. so, its expected to be released tomorrow but no later than oct 28?  
-**\<xmrcoma>** f miscrosoft  
+**\<btrcoma>** f miscrosoft  
 **\<byterubmooo>** Unless tomorrow forgets to end, I guess.  
-**\<xmrcoma>** sdg 2017 at the latest  
+**\<btrcoma>** sdg 2017 at the latest  
 **\<pero>** the reason behind the prioritizing the file paths is that we'll see an influx of 'noobs' asking if this or that directory can be safely deleted  
-**\<xmrcoma>** but maybe tomorrow:)  
+**\<btrcoma>** but maybe tomorrow:)  
 **\<gingeropolous>** byterubmooo, lulz  
 **\<dEBRUYNE>** No testing is tomorrow, if that is fine the bins can be put out  
 **\<dEBRUYNE>** but that isn't necesarily tomorrow too  
@@ -351,7 +351,7 @@ An overview [can be found on Hello ByteRub](https://hellobyterub.com/article/byt
 **\<byterubmooo>** Later, yes. Not yet.  
 **\<sdgsdug9sd>** alrighty, what about kovri release? shouldnt it be december 2016?  
 **\<dEBRUYNE>** byterubmooo: you could put your GUI wallet address in the daemon though  
-**\<xmrcoma>** can someone comment on this? https://www.youtube.com/watch?v=dQw4w9WgXcQ  
+**\<btrcoma>** can someone comment on this? https://www.youtube.com/watch?v=dQw4w9WgXcQ  
 **\<byterubmooo>** dEBRUYNE: what do you mean ?  
 **\<_Slack> \<dadude>** rickrooool!  
 **\<dEBRUYNE>** byterubmooo: just start_mining in the daemon  

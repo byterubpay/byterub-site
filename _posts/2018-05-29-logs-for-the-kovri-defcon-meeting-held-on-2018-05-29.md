@@ -13,35 +13,35 @@ author: selsta / anonimal
 **\<anonimal>** 3. Presentation discussion  
 **\<anonimal>** 4. Change Kovri logo to include pug puppy  
 **\<anonimal>** Salutations  
-**\<xmrmatterbridge> \<rehrar>** Hi  
+**\<btrmatterbridge> \<rehrar>** Hi  
 **\<anonimal>** So many meetings  
-**\<xmrmatterbridge> \<rehrar>** We prolly shoulda merged.  
-**\<xmrmatterbridge> \<rehrar>** Maybe ping msvb-lab xmrscott?  
+**\<btrmatterbridge> \<rehrar>** We prolly shoulda merged.  
+**\<btrmatterbridge> \<rehrar>** Maybe ping msvb-lab btrscott?  
 **\<anonimal>** I don't know how we could've tacked on more onto that 2 hour meeting  
-**\<xmrmatterbridge> \<rehrar>** They're working on Defcon stuff too.  
-**\<xmrmatterbridge> \<rehrar>** With willpower  
+**\<btrmatterbridge> \<rehrar>** They're working on Defcon stuff too.  
+**\<btrmatterbridge> \<rehrar>** With willpower  
 **\<anonimal>** msvb is almost never here  
 **\<anonimal>** in this channel  
-**\<xmrmatterbridge> \<rehrar>** Let me message.  
-**\<xmrmatterbridge> \<rehrar>** I pinged the plebs.  
-**\<xmrmatterbridge> \<rehrar>** Let's get started.  
+**\<btrmatterbridge> \<rehrar>** Let me message.  
+**\<btrmatterbridge> \<rehrar>** I pinged the plebs.  
+**\<btrmatterbridge> \<rehrar>** Let's get started.  
 **\<anonimal>** 2. Table & Materials discussion  
 **\<anonimal>** Lead the way, rehrar  
-**\<xmrmatterbridge> \<rehrar>** Yay. Ok, so we will need to assume (unless told otherwise, which might not happen, even up until the day of) that we will have two tables.  
-**\<xmrmatterbridge> \<rehrar>** Those tables can be split into time slots (like morning and afternoon), and they can also be split in half.  
-**\<xmrmatterbridge> \<rehrar>** Meaning half the table for one ByteRub project, and have the table for another.  
-**\<xmrmatterbridge> \<rehrar>** One thing to note, Kovri does not have to have a table.  
-**\<xmrmatterbridge> \<rehrar>** But if we want one, we should put our intention of having one (and for what preferred times) we want them.  
+**\<btrmatterbridge> \<rehrar>** Yay. Ok, so we will need to assume (unless told otherwise, which might not happen, even up until the day of) that we will have two tables.  
+**\<btrmatterbridge> \<rehrar>** Those tables can be split into time slots (like morning and afternoon), and they can also be split in half.  
+**\<btrmatterbridge> \<rehrar>** Meaning half the table for one ByteRub project, and have the table for another.  
+**\<btrmatterbridge> \<rehrar>** One thing to note, Kovri does not have to have a table.  
+**\<btrmatterbridge> \<rehrar>** But if we want one, we should put our intention of having one (and for what preferred times) we want them.  
 **\<anonimal>** "have to have a table" as in it's own table or shared table?  
-**\<xmrmatterbridge> \<rehrar>** If we want one, we can decide the format. Just answering questions? A high school style diorama poster board thingy? Etc.  
-**\<xmrmatterbridge> \<rehrar>** Meaning if we don't want to designate the manpower to having someone man the table, we are obviously not obligated to have a Kovri presence on the tables period.  
-**\<xmrmatterbridge> \<rehrar>** Maybe a presentation is enough.  
+**\<btrmatterbridge> \<rehrar>** If we want one, we can decide the format. Just answering questions? A high school style diorama poster board thingy? Etc.  
+**\<btrmatterbridge> \<rehrar>** Meaning if we don't want to designate the manpower to having someone man the table, we are obviously not obligated to have a Kovri presence on the tables period.  
+**\<btrmatterbridge> \<rehrar>** Maybe a presentation is enough.  
 **\<anonimal>** Hmm  
 **\<msvb-lab>** anonimal: At this Saturday's DefCon meeting (on #byterub-community) we'll likely decide if tables will be shared time or space wise.  
 **\<anonimal>** msvb-lab: ok  
-**\<xmrmatterbridge> \<rehrar>** Realistically, the Kovri reps will be anonimal and myself.  
+**\<btrmatterbridge> \<rehrar>** Realistically, the Kovri reps will be anonimal and myself.  
 **\<anonimal>** Have BCOS been responsive regarding table decisions or is that entirely on us?  
-**\<xmrmatterbridge> \<rehrar>** They haven't said anything about anything. :D  
+**\<btrmatterbridge> \<rehrar>** They haven't said anything about anything. :D  
 **\<msvb-lab>** They have not been responsive, and it's our responsibility to respect that.  
 **\<anonimal>** ok  
 **\<anonimal>** So we'll just do our own thing?  
@@ -49,36 +49,36 @@ author: selsta / anonimal
 **\<msvb-lab>** Best for Kovri is to have a table time slot that doesn't overwhelm the sadly few people staffing it.  
 **\<msvb-lab>** Please do at least 2 hours on two different days, since Kovri is important and people need the chance to check it out.  
 **\<msvb-lab>** Whether half the table is consumed or the whole table is probably insignificant.  
-**\<xmrmatterbridge> \<rehrar>** Ye.  
+**\<btrmatterbridge> \<rehrar>** Ye.  
 **\<anonimal>** Ok, so is that the best case or worst case scenario?  
 **\<anonimal>** No matter what, we'll have some sort of table usage?  
-**\<xmrmatterbridge> \<rehrar>** I can switch off with you anonimal on the table.  
-**\<xmrmatterbridge> \<rehrar>** Yes.  
-**\<xmrmatterbridge> \<rehrar>** As one of the lead managers for Defcon for ByteRub, I have a strong Kovri bias. ;)  
+**\<btrmatterbridge> \<rehrar>** I can switch off with you anonimal on the table.  
+**\<btrmatterbridge> \<rehrar>** Yes.  
+**\<btrmatterbridge> \<rehrar>** As one of the lead managers for Defcon for ByteRub, I have a strong Kovri bias. ;)  
 **\<msvb-lab>** anonimal: Define best and worst, like for you the table staff seeing hundreds is boring and stressful for you but good for the project.  
 **\<anonimal>** For only 2 hours on 2 different days? Or is there the potential for more time than that? Sorry if I'm not following.  
-**\<xmrmatterbridge> \<rehrar>** There is potential for more. That's a requested minimum.  
+**\<btrmatterbridge> \<rehrar>** There is potential for more. That's a requested minimum.  
 **\<msvb-lab>** rehrar: Yes, I'm requesting that Kovri is at least accessible to people wanting to learn about it (by having a table.)  
 **\<anonimal>** msvb-lab: good point, I was thinking about that. Worst being worst for the project e.g., not enough table time.  
 **\<msvb-lab>** Minimum 2 hours on two days, but if you like (and we can afford the space) then you should do full time on all three days.  
 **\<msvb-lab>** anonimal: We've got invitations out to several groups and only one rejection. So there may be a few others with table duty.  
-**\<xmrmatterbridge> \<rehrar>** I would argue that Kovri is important enough that if they want a permanent residence at a table (half or otherwise) they should get it.  
-**\<xmrmatterbridge> \<rehrar>** If ByteRub has four half tables to work with, one should be devoted to Kovri.  
+**\<btrmatterbridge> \<rehrar>** I would argue that Kovri is important enough that if they want a permanent residence at a table (half or otherwise) they should get it.  
+**\<btrmatterbridge> \<rehrar>** If ByteRub has four half tables to work with, one should be devoted to Kovri.  
 **\<msvb-lab>** rehrar: Yes, it's very tempting to decide like that. I like the idea, but still think we should try to cancel some variables and at least give others the chance to codecide?  
-**\<xmrmatterbridge> \<rehrar>** Followed by the questions:  
+**\<btrmatterbridge> \<rehrar>** Followed by the questions:  
 **\<anonimal>** If I'm fulltime table duty for those 3 days, then that gives me no time to see talks right?  
-**\<xmrmatterbridge> \<rehrar>** 1. What would we do at said Kovri table?  
+**\<btrmatterbridge> \<rehrar>** 1. What would we do at said Kovri table?  
 **\<msvb-lab>** Variables like if we get three of the four tables, for example.  
-**\<xmrmatterbridge> \<rehrar>** 2. What materials do we need to do it?  
+**\<btrmatterbridge> \<rehrar>** 2. What materials do we need to do it?  
 **\<msvb-lab>** anonimal: That's what you need to decide, fulltime at a table is a horrible life to live.  
-**\<xmrmatterbridge> \<rehrar>** Are you interested in ByteRub talks or Defcon talks?  
+**\<btrmatterbridge> \<rehrar>** Are you interested in ByteRub talks or Defcon talks?  
 **\<msvb-lab>** I dont' recommend it.  
 **\<msvb-lab>** Isn't there at least one other person on site that can do Kovri?  
 **\<anonimal>** I'm assuming the community will fund me to do fulltime at the table? I would hope to be funded because, as I've mentioned in passing, defcon is pretty much my only vacation time in a year.  
 **\<anonimal>** msvb-lab: if we can get a 3rd person interested, I think that'd be great  
 **\<msvb-lab>** anonimal: Good question, my choice would be to make sure you have fun and not feel obliged to inform and educate and just work.  
 **\<msvb-lab>** There are 74 people in this channel, who will be at DefCon and can help staff the Kovri table?  
-**\<xmrmatterbridge> \<rehrar>** Anonimal, would you consider anyone qualified?  
+**\<btrmatterbridge> \<rehrar>** Anonimal, would you consider anyone qualified?  
 **\<\_Slack> \<sean>** I'm planning on adding Kovri to a project later this year, so I have the tech knowledge at least.  
 **\<\_Slack> \<sean>** (Plus manning the walkie-talkies probably isn't going to be full-time.)  
 **\<anonimal>** rehrar: fluffypony, MoroccanMalinois, selsta if he's happened to have time to lurk while keeping his busy schedule, oneiric but he's not around, some others possibly if they're interested  
@@ -92,7 +92,7 @@ author: selsta / anonimal
 **\<anonimal>** But if rehrar and sean are there too, then amazing.  
 **\<anonimal>** Would 2 or more people at a table be too much?  
 **\<anonimal>** Me + rehrar, me + sean, for example?  
-**\<xmrmatterbridge> \<rehrar>** I'd say we are stretched a bit thin right now  
+**\<btrmatterbridge> \<rehrar>** I'd say we are stretched a bit thin right now  
 **\<msvb-lab>** anonimal: rehrar's floor plan specifies two chairs per table, and it's possible the tables will be shared. But we add two more chairs (crammed together) and that should work.  
 **\<anonimal>** ok great  
 **\<msvb-lab>** The couches are not far (if we get them) so there is a place for overflow.  

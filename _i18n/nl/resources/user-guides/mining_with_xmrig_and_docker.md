@@ -10,7 +10,7 @@ Aan het eind van deze handleiding kun je er gerust op zijn dat je besturingssyst
 
 Hierbij gebruiken we [Docker](https://www.docker.com/), want dat is de bekendste containertechnologie, met de grootste kans dat het al is geïnstalleerd.
 
-De container die ik gebruik is [alpine-xmrig](https://hub.docker.com/r/bitnn/alpine-xmrig/). Zoals de naam aangeeft, is deze gebaseerd op de distributie [Alpine Linux](https://www.alpinelinux.org/).
+De container die ik gebruik is [alpine-btrig](https://hub.docker.com/r/bitnn/alpine-btrig/). Zoals de naam aangeeft, is deze gebaseerd op de distributie [Alpine Linux](https://www.alpinelinux.org/).
 
 Hier zijn een paar goede informatiebronnen als je met Docker wilt leren werken:
 * [Arch Linux Wiki over Docker](https://wiki.archlinux.org/index.php/Docker)
@@ -19,20 +19,20 @@ Hier zijn een paar goede informatiebronnen als je met Docker wilt leren werken:
 
 Zie de [Docker-documentatie](https://docs.docker.com/engine/installation/)-website voor de installatie op specifieke distributies.
 
-### Waarom XMRig?
+### Waarom BTRig?
 
-[XMRig](https://github.com/xmrig/xmrig) is gewoon een degelijk miningprogramma. Prima uitvoer en statistieken, geen flitsende webinterface of afhankelijkheden. De XMRig-container is slechts ~4 MB, zodat hij op allerlei hardware kan worden gebruikt.
+[BTRig](https://github.com/btrig/btrig) is gewoon een degelijk miningprogramma. Prima uitvoer en statistieken, geen flitsende webinterface of afhankelijkheden. De BTRig-container is slechts ~4 MB, zodat hij op allerlei hardware kan worden gebruikt.
 
-#### Stap 1. Minen met XMRig
+#### Stap 1. Minen met BTRig
 
 Voer het volgende uit:
 
 ```bash
-# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o POOL01 -o POOL02 -u PORTEMONNEE -p WACHTWOORD -k
-# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o pool.supportxmr.com:7777 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p docker:secret -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-btrig -o POOL01 -o POOL02 -u PORTEMONNEE -p WACHTWOORD -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-btrig -o pool.supportbtr.com:7777 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p docker:secret -k
 ```
 
 #### Stap 2. Er is geen stap 2.
 
-Je hebt alles wat je moet doen al gedaan. Je bent nu aan het minen in een Docker-container met XMRig. Typ `Ctrl+C` om XMRig af te sluiten of voeg `-d` direct na `docker run` toe om het miningprogramma in de achtergrond uit te voeren.
+Je hebt alles wat je moet doen al gedaan. Je bent nu aan het minen in een Docker-container met BTRig. Typ `Ctrl+C` om BTRig af te sluiten of voeg `-d` direct na `docker run` toe om het miningprogramma in de achtergrond uit te voeren.
 

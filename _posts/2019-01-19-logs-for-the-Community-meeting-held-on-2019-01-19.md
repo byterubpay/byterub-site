@@ -11,14 +11,14 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** 0. Introduction  
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/298  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<rehrar>** HI GUIZ  
 **\<sgp\_>** This will probably be a relatively long meeting, so hang in there!  
 **\<sgp\_>** 1. Greetings  
 **\<ArticMine>** Hi  
 **\<midipoet>** Hello.  
 **\<el00ruobuob\_[m]>** hi!  
-**\<xmrscott[m]>** Hola  
+**\<btrscott[m]>** Hola  
 **\<nevvton[m]>** hi  
 **\<msvb-mob>** Helo.  
 **\<msvb-mob>** +l  
@@ -134,7 +134,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<msvb-mob>** https://forum.getbyterub.org/9/work-in-progress/90126/advancing-byterub-hardware-wallet?page=&noscroll=1#post-96728  
 **\<midipoet>** Colour should be Vantablack  
 **\<midipoet>** https://media.wired.com/photos/594b097127a2330247114d0e/master/w\_3110,c\_limit/dsc00268jpg\_galleryLarge.jpg  
-**\<msvb-mob>** Quick explanation, the budget is detailed and most items are neither payable in XMR nor negotiable (main part is plastics engineering we must subcontract for.)  
+**\<msvb-mob>** Quick explanation, the budget is detailed and most items are neither payable in BTR nor negotiable (main part is plastics engineering we must subcontract for.)  
 **\<msvb-mob>** So instead of waiting two years, I'll forego all time compensation and plug the otherwise budget lack hole.  
 **\<msvb-mob>** That's the short explanation, it's rather important to understand however.  
 **\<msvb-mob>** Does everybody understand or have questions?  
@@ -143,7 +143,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Or EUR  
 **\<msvb-mob>** There are eight budget areas, which one do you mean?  
 **\<msvb-mob>** The subcontracting, services, and other quotes are in EUR by the way. If I ever write a number, you know.  
-**\<sgp\_>** You originally allocated 195 XMR for worktime and 8 XMR for travel, right?  
+**\<sgp\_>** You originally allocated 195 BTR for worktime and 8 BTR for travel, right?  
 **\<msvb-mob>** sgp\_: Yes.  
 **\<msvb-mob>** Those are the two entries which will be defunded, to plug the other holes.  
 **\<msvb-mob>** ...however it's complicated, because to take advantage of the cheapest quotes a trip to Shenzhen is possibly needed. Each EUR spent on the trip saves 3 or 4 in costs, for example.  
@@ -165,7 +165,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** so michael, don't feel bad, ashamed, or any other negative emotion for opening an FFS for your time  
 **\<msvb-mob>** It would be nice if a few of us would make comments in that subthread 'defunding' to voice support or not? Thanks if you do.  
 **\<msvb-mob>** https://forum.getbyterub.org/9/work-in-progress/90126/advancing-byterub-hardware-wallet?page=&noscroll=1#post-96728  
-**\<sgp\_>** Seriously though, we're not going to complain if you meet these requirements. But of course, you should consider asking for more XMR if you need it, and volatility circumstances threatened your support of the project  
+**\<sgp\_>** Seriously though, we're not going to complain if you meet these requirements. But of course, you should consider asking for more BTR if you need it, and volatility circumstances threatened your support of the project  
 **\<sgp\_>** Sure, we can add some comments  
 **\<msvb-mob>** sgp\_: Okay, then as long as a few add comments we can close the topic and move to the next, thanks.  
 **\<sgp\_>** We already did 6. survey  
@@ -240,7 +240,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** We will have a discussion on the future of payment IDs on 25 Friday at 17:00 UTC. Please be present if you would like to take place in this discussion. We would like to make a decision during this meeting, so please prepare your arguments ahead of time or include them in the GitHub issue: https://github.com/byterubpay/meta/issues/299  
 **\<rehrar>** sure  
 **\<sgp\_>** ErCiccione is planning a meeting on Kovri and the state of ByteRub network privacy. Please participate in knaccc’s GitHub comment here: https://github.com/byterubpay/byterub/issues/5070. Furthermore, please fill out ErCiccione’s Doodle to schedule the meeting time ASAP: https://doodle.com/poll/a5592wfdsc6yretv  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 10. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.  
 **\<sgp\_>** Thanks rehrar  

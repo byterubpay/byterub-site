@@ -36,6 +36,6 @@ Additionally, we believe there is specific value in employing someone for this r
 
 We would like to institute more transparency going forward for the General Fund. We will publish regular reports, probably quarterly. We will include donations that have been received, how much and how the funds have been allocated, and what is the state of the “reserves”. You can expect the first such report soon.
 
-As of December 2019, the amounts (including XMR and BTC) in the General Fund account to roughly $180,000.
+As of December 2019, the amounts (including BTR and BTC) in the General Fund account to roughly $180,000.
 
 We hope this information will shed some light for everyone contributing to ByteRub on how funds are allocated, and motivate more donations to the GF. Thanks to everyone who is part of this incredible, world-changing community!

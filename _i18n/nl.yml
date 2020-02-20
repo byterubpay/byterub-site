@@ -22,7 +22,7 @@ global:
 
 titles:
   index: Start
-  whatisbyterub: Wat is ByteRub (XMR)?
+  whatisbyterub: Wat is ByteRub (BTR)?
   using: ByteRub gebruiken
   accepting: ByteRub accepteren
   contributing: ByteRub verbeteren
@@ -109,7 +109,7 @@ hangouts:
   - channel: byterub-offtopic
     description: Hier kun je met andere ByteRub-gebruikers chatten over dingen die niet met ByteRub te maken hebben.
   - channel: byterub-otc
-    description: OTC = over the counter. Hier kun je onderhands XMR kopen of verkopen.
+    description: OTC = over the counter. Hier kun je onderhands BTR kopen of verkopen.
   - channel: byterub-pools
     description: Dit is de plek voor vragen en discussie over minen.
   - channel: byterub-research-lab
@@ -155,17 +155,17 @@ downloads:
   blockchainbutton: Download Blockchain
   mobilelight: Mobile & Light Wallets
   hardware: Hardware Wallets
-  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive XMR.
+  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive BTR.
   simplemode: Simple mode
-  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
+  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive BTR, done!
   advancedmode: Advanced mode
   advancedmode1: With all the advanced features you could need. Ideal for seasoned ByteRub users who prefer to have full control of their wallet and node
   merchantpage: Merchant page
-  merchantpage1: Receive XMR for your business, easily
+  merchantpage1: Receive BTR for your business, easily
   hwcompatible: Compatible with hardware wallets
   hwcompatible1: such Trezor and Ledger
   fiatconv: in-app fiat conversion
-  fiatconv1: No longer a need to check the value of your XMR online
+  fiatconv1: No longer a need to check the value of your BTR online
   pruning: Blockchain pruning
   pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
   langs: "<b>30+ languages</b> available"
@@ -297,8 +297,8 @@ contributing:
   donate: Doneren
   donate_para1: Het ontwikkelen van ByteRub wordt ondersteund door giften en
   donate_para2: sponsoring.
-  donate-xmr: ByteRub doneren
-  donate-xmr_para: Giften kun je verzenden naar
+  donate-btr: ByteRub doneren
+  donate-btr_para: Giften kun je verzenden naar
   or: of
   donate-btc: Bitcoin doneren
   donate-btc_para: Giften kun je verzenden naar
@@ -330,7 +330,7 @@ faq:
   a10: Kovri is I2P-router die in C++ is geschreven. I2P is een verborgen netwerk, net als Tor, maar met een aantal technische verschillen. Kovri is een zelfstandig project, maar werkt samen met ByteRub en andere projecten. Kovri verbergt het verspreiden van transacties, zodat andere nodes niet kunnen zien wie een transactie heeft gecreëerd. In vijandige omstandigheden kan Kovri worden gebruikt om al het ByteRub-verkeer via I2P te leiden, zodat anderen niet kunnen zien dat ByteRub wordt gebruikt. Kovri is momenteel in alfa en is nog niet volledig geïntegreerd met ByteRub. Lees meer over Kovri op de <a href="https://kovri.io">website van het project.</a>
   q11: Wat is inwisselbaarheid en waarom is het belangrijk?
   a11: Inwisselbaarheid (fungibiliteit) is een basiseigenschap van geld, namelijk dat er geen verschil is tussen twee hoeveelheden met dezelfde waarde. Als je een tientje voor twee vijfjes ruilt, dan is dat een gelijke ruil. Maar stel dat iedereen weet dat het tientje eerder is gebruikt om mensen af te persen met ransomware. Zal de ander dan nog steeds willen ruilen? Waarschijnlijk niet, zelfs niet als de eigenaar van het tientje zelf niet bij de ransomware was betrokken. Dit is een probleem, want wie geld ontvangt, zou voortdurend moeten controleren of het ontvangen geld niet besmet is. ByteRub is inwisselbaar, zodat gebruikers zich hier geen zorgen over hoeven te maken.
-  q12: Als ByteRub zo vertrouwelijk is, hoe weten we dan dat er niet ongezien XMR bijgemaakt wordt?
+  q12: Als ByteRub zo vertrouwelijk is, hoe weten we dan dat er niet ongezien BTR bijgemaakt wordt?
   a12-1: In ByteRub is elke transactie-output gekoppeld aan een unieke key image die alleen door de houder van die output kan worden gegenereerd. Key images die meer dan één keer worden gebruikt, worden als dubbele uitgaven geweigerd door de miners en kunnen niet worden toegevoegd aan een geldig blok. Wanneer een nieuwe transactie wordt ontvangen, verifiëren de miners dat de key image niet al bestaat voor een eerdere transactie, om dubbele uitgaven te voorkomen.
   a12-2: We weten ook dat transactiebedragen geldig zijn, ook al is de waarde van de inputs die je besteedt en de waarde van de outputs die je verzendt versleuteld. (Deze waarden worden verborgen voor iedereen behalve de ontvanger.) De bedragen zijn versleuteld met *Pedersen commitments*. Dit betekent dat waarnemers de bedragen van inputs en outputs niet kunnen zien, maar wel berekeningen met de Pedersen commitments kunnen uitvoeren om vast te stellen dat er geen ByteRub uit het niets is gemaakt.
   a12-3: Als de versleutelde output-bedragen die je creëert gelijk zijn aan de som van de inputs die je uitgeeft (inclusief een output voor de ontvanger, een output met wisselgeld voor jezelf en de niet-versleutelde transactiekosten), heb je een geldige transactie en weten we dat er geen ByteRub uit het niets wordt gemaakt. Met Pedersen commitments kan worden geverifieerd dat deze sommen gelijk zijn, maar de waarde in ByteRub van de beide sommen en van de afzonderlijke inputs en outputs kunnen niet worden bepaald.
@@ -446,9 +446,9 @@ user-guides:
   purchasing-storing: ByteRub kopen en veilig opslaan
   verify-allos: Binaries verifiëren op een opdrachtregel in Linux, Mac of Windows (geavanceerd)
   verify-windows: Binaries verifiëren in Windows (voor beginners)
-  mine-on-pool: Minen via een pool met xmr-stak-cpu
+  mine-on-pool: Minen via een pool met btr-stak-cpu
   solo-mine: Solo minen met de grafische interface (GUI)
-  mine-docker: Minen met Docker en XMRig
+  mine-docker: Minen met Docker en BTRig
   locked-funds: Vergrendeld geld ontgrendelen
   restore-account: Je account herstellen
   qubes: CLI-portemonnee isoleren van node met Qubes en Whonix
@@ -457,7 +457,7 @@ user-guides:
   view-only: Een alleen-lezen portemonnee maken
   prove-payment: Betalingen bewijzen
   restore-from-keys: Portemonnee herstellen met sleutels
-  nicehash: ByteRub (XMR) minen zonder miningapparatuur
+  nicehash: ByteRub (BTR) minen zonder miningapparatuur
   ledger-wallet-cli: Een ByteRub-portemonnee op een Ledger maken met de opdrachtregel (byterub-wallet-cli)
   multisig-messaging-system: Multisig transactions with MMS and CLI wallet
   tor_wallet: Connecting your local wallet to your own daemon over Tor
@@ -534,7 +534,7 @@ specs:
   block_size: Dynamisch, maximaal 2 * M100
   block_emission_title: Uitgiftecurve
   block_emission_main: "Eerst de gewone curve: ~18.132 miljoen coins eind mei 2022"
-  block_emission_tail: "Daarna de blijvende uitgifte: 0,6 XMR per blok om de 2 minuten, nadat de gewone uitgifte klaar is, wat een steeds verder dalende inflatie van < 1% oplevert."
+  block_emission_tail: "Daarna de blijvende uitgifte: 0,6 BTR per blok om de 2 minuten, nadat de gewone uitgifte klaar is, wat een steeds verder dalende inflatie van < 1% oplevert."
   block_emission_disclaimer1: Zie
   block_emission_disclaimer_link: grafieken en details
   supply_title: Maximale geldhoeveelheid

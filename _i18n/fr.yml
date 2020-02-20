@@ -157,17 +157,17 @@ downloads:
   blockchainbutton: Download Blockchain
   mobilelight: Mobile & Light Wallets
   hardware: Hardware Wallets
-  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive XMR.
+  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive BTR.
   simplemode: Simple mode
-  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
+  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive BTR, done!
   advancedmode: Advanced mode
   advancedmode1: With all the advanced features you could need. Ideal for seasoned ByteRub users who prefer to have full control of their wallet and node
   merchantpage: Merchant page
-  merchantpage1: Receive XMR for your business, easily
+  merchantpage1: Receive BTR for your business, easily
   hwcompatible: Compatible with hardware wallets
   hwcompatible1: such Trezor and Ledger
   fiatconv: in-app fiat conversion
-  fiatconv1: No longer a need to check the value of your XMR online
+  fiatconv1: No longer a need to check the value of your BTR online
   pruning: Blockchain pruning
   pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
   langs: "<b>30+ languages</b> available"
@@ -298,8 +298,8 @@ contributing:
   donate: Faire un don
   donate_para1: Le développement en cours est soutenu par des dons et des
   donate_para2: partenariats.
-  donate-xmr: Faire un don en ByteRub
-  donate-xmr_para: Les dons peuvent être envoyées à
+  donate-btr: Faire un don en ByteRub
+  donate-btr_para: Les dons peuvent être envoyées à
   or: ou
   donate-btc: Faire un don en Bitcoin
   donate-btc_para: Les dons peuvent être envoyées à
@@ -447,9 +447,9 @@ user-guides:
   purchasing-storing: Acheter et Conserver ByteRub en toute sécurité
   verify-allos: Vérifier des binaires sur Linux, Mac ou Windows en ligne de commande (avancé)
   verify-windows: Vérifier des binaires sur Windows (Débutant)
-  mine-on-pool: Comment miner sur un pool avec xmr-stak-cpu
+  mine-on-pool: Comment miner sur un pool avec btr-stak-cpu
   solo-mine: Comment miner en solo avec la GUI
-  mine-docker: Miner avec Docker et XMRig
+  mine-docker: Miner avec Docker et BTRig
   locked-funds: Comment corriger un blocage de fonds
   restore-account: Comment restaurer votre compte
   qubes: Isolation du Portefeuille CLI et du Démon avec Qubes et Whonix
@@ -534,7 +534,7 @@ specs:
   block_size: dynamique, avec un maximum de 2 * M100 (deux fois la taille médiane des 100 derniers blocs)
   block_emission_title: Courbe d'émission
   block_emission_main: "d'abord, courbe principale : ~18,132 million de pièces de monnaie d'ici fin mai 2022"
-  block_emission_tail: "puis, courbe résiduelle : une émission de 0,6 XMR par bloc de 2 minutes entre en vigueur une fois l'émission principale terminée, se traduisant par une inflation <1%, décroissant au fil du temps"
+  block_emission_tail: "puis, courbe résiduelle : une émission de 0,6 BTR par bloc de 2 minutes entre en vigueur une fois l'émission principale terminée, se traduisant par une inflation <1%, décroissant au fil du temps"
   block_emission_disclaimer1: voir les
   block_emission_disclaimer_link: graphiques et détails
   supply_title: Émission maximale

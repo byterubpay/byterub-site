@@ -21,7 +21,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** 1. Greetings  
 **\<ArticMine>** hi  
 **\<cryptochangement>** wazzup errybody  
-**\<xmrscott[m]>** Salutaions  
+**\<btrscott[m]>** Salutaions  
 **\<erciccione\_[m]>** hi"  
 **\<\_Slack> \<sean>** Hey  
 **\<Caesarion>** heya.  
@@ -30,7 +30,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** So...stuff has happened in the community.  
 **\<rehrar>** sgp usually has stuff prepared, but he's dead to us for the next day or so  
 **\<rehrar>** and he asked me last night so I didn't have much time to prepare, I apologize.  
-**\<xmrscott[m]>** Thanks to rehrar and pigeons our Taiga instance is upgraded to 3.3 This introduces two noteworthy features: being able to assign multiple members to a task and tasks having Due Dates to help priortize tasks. Hopefully both should be useful to whatever workgroup(s) you find yourself in. More release notes can be found here: https://blog.taiga.io/taiga-picea-mariana-release-330.html  
+**\<btrscott[m]>** Thanks to rehrar and pigeons our Taiga instance is upgraded to 3.3 This introduces two noteworthy features: being able to assign multiple members to a task and tasks having Due Dates to help priortize tasks. Hopefully both should be useful to whatever workgroup(s) you find yourself in. More release notes can be found here: https://blog.taiga.io/taiga-picea-mariana-release-330.html  
 **\<rehrar>** let's do it this way: "Have you done anything exciting recently for Moenro?"  
 **\<cryptochangement>** *crickets*  
 **\<cryptochangement>** endogenic and MyByteRub team has their dope MyByteRub app in pre-release  
@@ -56,7 +56,7 @@ author: el00ruobuob / rehrar
 **\<rehrar>** ok, let's get down to the nitty gritty  
 **\<rehrar>** We'll jump to 4. Core Team FFS funds reallocation discussion - when/how should funds be reallocated to other projects?  
 **\<rehrar>** pinging fluffypony ArticMine luigi1111w binaryFate smooth NoodleDoodle othe  
-**\<rehrar>** For those who may or may not know, there was some discussion last meeting about reallocating XMR to the hardware fund  
+**\<rehrar>** For those who may or may not know, there was some discussion last meeting about reallocating BTR to the hardware fund  
 **\<rehrar>** specifically from the seemingly failed Tracking Challenge  
 **\<rehrar>** the Tracking challenge did not just not reach funding goals (and expired), it also had some pretty bit problems that as of yet have not been reconciled regarding proving authenticity of someone winning the challenge  
 **\<rehrar>** i.e. people thought it was too easy to game. take the money for themselves, since there is a good amount of trust involved in the set up  
@@ -65,7 +65,7 @@ author: el00ruobuob / rehrar
 **\<dEBRUYNE>** If you reallocate funds to a specific proposal you automatically presume the donors are okay with that particular proposal  
 **\<dEBRUYNE>** Which they may not be  
 **\<rehrar>** it would seem so ArticMine  
-**\<rehrar>** dEBRUYNE: but if a proposal expires, doesn't the XMR go to the general fund anyways?  
+**\<rehrar>** dEBRUYNE: but if a proposal expires, doesn't the BTR go to the general fund anyways?  
 **\<pwrcycle>** If it didn't reach the goal in time, re-allocating seems resonable, aside from any other issues with a proposal.  
 **\<dEBRUYNE>** Yes, which is the preferred option in my opinion  
 **\<fluffypony>** rehrar: yes, but we've never had a proposal expire because they didn't have due dates  
@@ -80,7 +80,7 @@ author: el00ruobuob / rehrar
 **\<parasew[m]>** +1 for open hw wallet, the guys are rly doing a great job, but need more funds to proceed  
 **\<dEBRUYNE>** Their proposal is fully funded already fwiw  
 **\<rehrar>** dEBRUYNE: proposal was also made before the crash  
-**\<xmrmatterbridge> \<michael>** Yes, funds are enough.  
+**\<btrmatterbridge> \<michael>** Yes, funds are enough.  
 **\<luigi1111w>** as the administrator, I just buy an occasional lambo. I figure it equals out.  
 **\<fluffypony>** LOL  
 **\<cryptochangement>** I kinda feel like the FFS terms (which I think is in an unmerged PR to the meta repo) should be worked into the FFS so it is easier to find  
@@ -286,29 +286,29 @@ author: el00ruobuob / rehrar
 **\<rehrar>** thanks for your discussion on this by the way. It's been great. :)  
 **\<rehrar>** not just talking to you erciccione\_[m], there will be people reading these logs later ;)  
 **\<rehrar>** and the public definitely has misconceptions  
-**\<xmrmatterbridge> \<cryptochangements>** Do logs for these still get posted?  
-**\<xmrmatterbridge> \<cryptochangements>** They used to but I haven't seen them in a while  
+**\<btrmatterbridge> \<cryptochangements>** Do logs for these still get posted?  
+**\<btrmatterbridge> \<cryptochangements>** They used to but I haven't seen them in a while  
 **\<rehrar>** 1. I've asked for the website to be frozen while I finish the multilingual reimplementation  
 **\<rehrar>** 2. dEBRUYNE? :D  
 **\<erciccione\_[m]>** you have to understand the process erciccione\_[m], the flow of money given via ffs is the following: <-- i pointed that out because this is what you wrote  
 **\<erciccione\_[m]>** rehrar ^  
 **\<rehrar>** ah, I see. Apologies then erciccione\_[m].  
 **\<erciccione\_[m]>** cryptochangements: i don't think anybody is posting those actually  
-**\<xmrmatterbridge> \<cryptochangements>** Maybe I'll post them somewhere if somebody else doesn't do it :p  
+**\<btrmatterbridge> \<cryptochangements>** Maybe I'll post them somewhere if somebody else doesn't do it :p  
 **\<erciccione\_[m]>** rehrar: np :)  
 **\<rehrar>** you can start formatting them for submission to the website cryptochangements  
 **\<rehrar>** alright, end of meetig  
 **\<rehrar>** \*meeting  
 **\<rehrar>** kthanksbai two weeks next meeting  
 **\<erciccione\_[m]>** no other points for the meeting?  
-**\<xmrmatterbridge> \<cryptochangements>** Same time?  
+**\<btrmatterbridge> \<cryptochangements>** Same time?  
 **\<rehrar>** oh, we can keep going I guess.  
-**\<xmrmatterbridge> \<cryptochangements>** (Sgp wouldn't have forgotten to mention the time :p)  
+**\<btrmatterbridge> \<cryptochangements>** (Sgp wouldn't have forgotten to mention the time :p)  
 **\<rehrar>** it's just been an hour  
 **\<rehrar>** as we all well know, I'm not sgp  
 **\<rehrar>** I can only aspire :'(  
-**\<xmrmatterbridge> \<cryptochangements>** It's ok we <3 rehrar too  
-**\<xmrmatterbridge> \<michael>** Defcon meeting is in 1 week in case anyone is interested.  
+**\<btrmatterbridge> \<cryptochangements>** It's ok we <3 rehrar too  
+**\<btrmatterbridge> \<michael>** Defcon meeting is in 1 week in case anyone is interested.  
 **\<erciccione\_[m]>** that's something i pointed out before, we shouldn't cut meetings just before the hour is gone. i mean, today there shouldn't be too much to talk about, but we shouldn't get use to it  
 **\<rehrar>** ok  
 **\<rehrar>** 5. Open ideas time  
@@ -332,14 +332,14 @@ author: el00ruobuob / rehrar
 **\<erciccione\_[m]>** tht's true, but if we use it for the standard workflow, it could mess thing up  
 **\<rehrar>** ye  
 **\<erciccione\_[m]>** i mean, weblate works correctly from that point of view  
-**\<xmrmatterbridge> \<cryptochangements>** Can't we just list translators in a translator section in release notes?  
+**\<btrmatterbridge> \<cryptochangements>** Can't we just list translators in a translator section in release notes?  
 **\<erciccione\_[m]>** will make further tests and keep you updated  
-**\<xmrmatterbridge> \<cryptochangements>** So we can say we <3 you without crediting the git commit  
+**\<btrmatterbridge> \<cryptochangements>** So we can say we <3 you without crediting the git commit  
 **\<erciccione\_[m]>** we could cryptochangements, i mean. i could just keep a list updated, but if we can avoid it, i would prefer it  
-**\<xmrmatterbridge> \<cryptochangements>** True  
+**\<btrmatterbridge> \<cryptochangements>** True  
 **\<rehrar>** alright, anything else?  
 **\<rehrar>** updates from anyone? topics to discuss?  
-**\<xmrmatterbridge> \<cryptochangements>** I think we're good now  
+**\<btrmatterbridge> \<cryptochangements>** I think we're good now  
 **\<rehrar>** alrighty  
 **\<rehrar>** 6. Confirm next meeting date/time  
 **\<rehrar>** 9th of June, 17 UTC  

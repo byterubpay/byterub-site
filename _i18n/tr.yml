@@ -22,7 +22,7 @@ global:
 
 titles:
   index: Ana Sayfa
-  whatisbyterub: ByteRub (XMR) Nedir?
+  whatisbyterub: ByteRub (BTR) Nedir?
   using: ByteRub Kullanımı
   accepting: ByteRub Kabulü
   contributing: ByteRub'ya Katkıda Bulunulması
@@ -109,7 +109,7 @@ hangouts:
   - channel: byterub-offtopic
     description: ByteRub'ya ilişkin olmayan şeyler hakkında diğer ByteRub kullanıcıyla sohbet.
   - channel: byterub-otc
-    description: Borsa dışı ByteRub. Akran ByteRubdaşlarınızdan XMR almak için buraya gelin.
+    description: Borsa dışı ByteRub. Akran ByteRubdaşlarınızdan BTR almak için buraya gelin.
   - channel: byterub-pools
     description: Madencilik sorularının ve tartışmalarının yeri burasıdır.
   - channel: byterub-research-lab
@@ -155,17 +155,17 @@ downloads:
   blockchainbutton: Download Blockchain
   mobilelight: Mobile & Light Wallets
   hardware: Hardware Wallets
-  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive XMR.
+  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds of users, but it is especially recommended for less technical people who want to quickly send and receive BTR.
   simplemode: Simple mode
-  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive XMR, done!
+  simplemode1: Created for less technical users who only want to use ByteRub in the easiest and quickest way possible. Open the wallet, automatically connect to a remote node, send/receive BTR, done!
   advancedmode: Advanced mode
   advancedmode1: With all the advanced features you could need. Ideal for seasoned ByteRub users who prefer to have full control of their wallet and node
   merchantpage: Merchant page
-  merchantpage1: Receive XMR for your business, easily
+  merchantpage1: Receive BTR for your business, easily
   hwcompatible: Compatible with hardware wallets
   hwcompatible1: such Trezor and Ledger
   fiatconv: in-app fiat conversion
-  fiatconv1: No longer a need to check the value of your XMR online
+  fiatconv1: No longer a need to check the value of your BTR online
   pruning: Blockchain pruning
   pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
   langs: "<b>30+ languages</b> available"
@@ -296,8 +296,8 @@ contributing:
   donate: Bağışla
   donate_para1: Mevcut gelişimi destekleme araçları bağışlar ve
   donate_para2: sponsorluklar.
-  donate-xmr: ByteRub Bağışlama
-  donate-xmr_para: "Bağış gönderebileceğiniz adresler şunlardır:"
+  donate-btr: ByteRub Bağışlama
+  donate-btr_para: "Bağış gönderebileceğiniz adresler şunlardır:"
   or: ve
   donate-btc: Bitcoin Bağışlama
   donate-btc_para: "Bağış gönderebileceğiniz adresler şunlardır:"
@@ -445,9 +445,9 @@ user-guides:
   purchasing-storing: Güvenli şekilde ByteRub alımı ve depolaması
   verify-allos: İkilileri Linux, Mac veya Windows komut satırında doğrulayın (ileri düzey)
   verify-windows: İkilileri Windows'da doğrulayın (başlangıç seviyesi)
-  mine-on-pool: xmr-stak-cpu ile bir havuzda madencilik yapımı
+  mine-on-pool: btr-stak-cpu ile bir havuzda madencilik yapımı
   solo-mine: GUI ile tek başına madencilik yapımı
-  mine-docker: Docker ve XMRig ile madencilik
+  mine-docker: Docker ve BTRig ile madencilik
   locked-funds: Kilitlenmiş fonlar düzeltilmesi
   restore-account: Hesabınızın geri alımı
   qubes: CLI cüzdan/daemon’ın Qubes + Whonix ile izolasyonu
@@ -456,7 +456,7 @@ user-guides:
   view-only: Sadece görüntülenir bir cüzdan yapımı
   prove-payment: Ödeme kanıtlanması
   restore-from-keys: Anahtarlardan cüzdanın geri alınması
-  nicehash: Madencilik ekipmanı olmadan ByteRub XMR madenciliği yapımı
+  nicehash: Madencilik ekipmanı olmadan ByteRub BTR madenciliği yapımı
   ledger-wallet-cli: CLI (byterub-wallet-cli) ile Ledger ByteRub cüzdanı üretimi
   multisig-messaging-system: MMS ve CLI cüzdanla çoklu-imza işlemleri
   tor_wallet: Connecting your local wallet to your own daemon over Tor
@@ -533,7 +533,7 @@ specs:
   block_size: dinamik, en fazla 2 * M100
   block_emission_title: Salınım eğrisi
   block_emission_main: "önce, ana eğri: Mayıs 2022 sonuna kadar ~18.132 milyon para"
-  block_emission_tail: "sonra, uç eğrisi: 2 dakikalık blok başına 0.6 XMR, ana salınım bittiğinde geçerli, zamanla azalan <%1 enflasyona çevrilir"
+  block_emission_tail: "sonra, uç eğrisi: 2 dakikalık blok başına 0.6 BTR, ana salınım bittiğinde geçerli, zamanla azalan <%1 enflasyona çevrilir"
   block_emission_disclaimer1: "Görüntüleyin:"
   block_emission_disclaimer_link: çizelgeler ve detaylar
   supply_title: Azami arz

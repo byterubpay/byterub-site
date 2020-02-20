@@ -184,7 +184,7 @@ author: el00ruobuob / surae
 **\<sarang>** outreach?  
 **\<suraeNoether>** I strongly support this FFS project, and I think it would be a nice security gain for ByteRub  
 **\<sarang>** These have been desired for a while  
-**\<sarang>** So the whole request is for 6 XMR?  
+**\<sarang>** So the whole request is for 6 BTR?  
 **\<suraeNoether>** yep, and i don't think it's out of line with endogenic's recent efforts to encourage reworking/refactoring ByteRub (i'm almost certainly mischaracterizing Endo's goals)  
 **\<suraeNoether>** it appears he's only asking us to pay for his VPS  
 **\<sarang>** I don't know the details of repro build complexity, but that seems like a great deal  

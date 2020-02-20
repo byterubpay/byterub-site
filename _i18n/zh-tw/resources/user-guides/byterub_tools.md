@@ -4,9 +4,9 @@
 
 These tools can be used to gain information about the ByteRub network or your transaction data in the blockchain.
 
-### [Check that a recipient has received your funds](http://xmrtests.llcoins.net/checktx.html)
+### [Check that a recipient has received your funds](http://btrtests.llcoins.net/checktx.html)
 
-### [Tools for byterub address generation](https://xmr.llcoins.net/)
+### [Tools for byterub address generation](https://btr.llcoins.net/)
 
 ### [ByteRub node count](http://byterubnodes.i2p.xyz/)
 

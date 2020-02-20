@@ -79,7 +79,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** It is on the low end  
 **\<endogenic>** well ErCiccione do keep in mind we benefit from addtl reviewers  
 **\<endogenic>** so frugality is useful there  
-**\<rehrar>** 20 XMR bam  
+**\<rehrar>** 20 BTR bam  
 **\<sarang>** So I'll do a combined FFS once we've confirmed the OSTIF rate and Benedikt's rate  
 **\<endogenic>** thanks sarang :)  
 **\<sarang>** Separarely, I've been working with suraeNoether on some multisig developments from BPASE  

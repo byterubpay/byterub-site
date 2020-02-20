@@ -30,7 +30,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<nasawelder>** hi (QR GUI guy)  
 **\<gingeropolous>** hi  
 **\<onodera>** hello  
-**\<xmrscott[m]>** Hello  
+**\<btrscott[m]>** Hello  
 **\<onodera>** can anyone tell me what kind of stuff gets discussed here?  
 **\<midipoet>** hi everyone  
 **\<ErCiccione>** onodera: agenda on GitHub: https://github.com/byterubpay/meta/issues/214  
@@ -301,7 +301,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<midipoet>** endogenic: it is semi structured interviews, in an explorative study  
 **\<midipoet>** mainly using ByteRub as a sort of 'index case'  
 **\<midipoet>** or the ByteRub community, i should say  
-**\<xmrmatterbridge> \<cypherperro>** I would also love to contribute  
+**\<btrmatterbridge> \<cypherperro>** I would also love to contribute  
 **\<midipoet>** Personally i think it is important that we negotiate the ideological aspects of privacy as a community, together. Especially as legislation and regulation is bound to appear in the future (and has started to already).  
 **\<ErCiccione>** ^^ +1  
 **\<serhack>** Privacy is fundamental.  

@@ -13,14 +13,14 @@ author: rehrar / SamsungGalaxyPlayer
 **\<rehrar>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<rehrar>** Link to agenda on Github: https://github.com/byterubpay/meta/issues/283  
 **\<rehrar>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support.  
-**\<xmrmatterbridge> \<txmr>** hi  
+**\<btrmatterbridge> \<tbtr>** hi  
 **\<rehrar>** Stay up to date with the latest events by subscribing to this calendar (just a sec)  
-**\<rehrar>** https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<rehrar>** https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<rehrar>** 1. Greetings  
 **\<ErCiccione>** o/  
 **\<parasew[m]>** hello!  
 **\<sgp_>** sorta hi  
-**\<xmrmatterbridge> \<txmr>** hey  
+**\<btrmatterbridge> \<tbtr>** hey  
 **\<rehrar>** 2. Community highlights  
 **\<rehrar>** You can now read the ByteRub Moon, a curated weekly newsletter regarding all things ByteRub. Here is the latest issue which covers October 2-8: https://medium.com/@johnfoss/the-byterub-moon-issue-5-a475d0568071  
 **\<rehrar>** The previous issue from September 25-October 1: https://medium.com/@johnfoss/the-byterub-moon-issue-4-cbaa5488a4ee  
@@ -28,7 +28,7 @@ author: rehrar / SamsungGalaxyPlayer
 **\<rehrar>** Coindesk published a piece regarding hyc’s RandomJS proposal, still a work-in-progress: https://www.coindesk.com/one-musicians-creative-solution-to-drive-asics-off-byterub/  
 **\<rehrar>** Watch Howard talk about it here in LA: https://www.youtube.com/watch?v=y3RDdWuYqmQ  
 **\<byterubbux>** [ Howard Chu at ByteRub Los Angeles discusing ByteRub's Proof of Work - YouTube ] - www.youtube.com  
-**\<rehrar>** sgp gave an interview with Blokt: https://blokt.com/news/byterub-xmr-interview-privacy-is-a-basic-human-right-justin-ehrenhofer-talks-of-the-importance-of-byterub-exclusive  
+**\<rehrar>** sgp gave an interview with Blokt: https://blokt.com/news/byterub-btr-interview-privacy-is-a-basic-human-right-justin-ehrenhofer-talks-of-the-importance-of-byterub-exclusive  
 **\<rehrar>** m2049r spoke about Monerujo at Paralelni Polis: https://www.youtube.com/watch?v=Nl2SpPFgATY  
 **\<byterubbux>** [ Institute: USER X VS UX (DESIGNING IN DARKNESS) with Dimi "m2049r" Divak - YouTube ] - www.youtube.com  
 **\<rehrar>** binaryFate spoke about fungibility on a panel with others at Paralelni Polis: https://www.youtube.com/watch?v=IMq2jm6ljD8  
@@ -64,7 +64,7 @@ author: rehrar / SamsungGalaxyPlayer
 **\<selsta>** I actually suggested that johnfoss continues the old ByteRub Observer FFS  
 **\<selsta>** would anyone have a problem with that?  
 **\<ErCiccione>** about my funding proposal, i just wanted to point out that byterub is my only source of income at the moment, i really hope to get funded soon, because otherwise, i think i will have to find another job :(  
-**\<rehrar>** selsta: I do not. And I had spoken with the original Observer FFS proposer and he said it was fine to pass the remainder of his XMR along to the next person  
+**\<rehrar>** selsta: I do not. And I had spoken with the original Observer FFS proposer and he said it was fine to pass the remainder of his BTR along to the next person  
 **\<selsta>** because a new proposal wouldn’t be smart with the current funding situation  
 **\<rehrar>** so this is indeed an elephant in the room type of thing that both ErCiccione and selsta are alluding to  
 **\<rehrar>** the fact that funding the big proposals (MRL and mooo) usually tires people out from funding for a while  
@@ -76,7 +76,7 @@ author: rehrar / SamsungGalaxyPlayer
 **\<rehrar>** we need more community involvement  
 **\<rehrar>** this is my purpose behind starting the ByteRub Games  
 **\<rehrar>** did you guys take a look at that?  
-**\<ErCiccione>** it's not about being their job or not, they manage the funds donated by the community. And there are some xmr laying there from the tracking challenge at the moment that could help the remaining FFS to get funded, at least for this round  
+**\<ErCiccione>** it's not about being their job or not, they manage the funds donated by the community. And there are some btr laying there from the tracking challenge at the moment that could help the remaining FFS to get funded, at least for this round  
 **\<selsta>** I think the ByteRub games is a great idea, but the current problem with the FFS is the price. People how are involved with the project for a longer time are starting to get drained out while newer people don’t have enough to donate a lot.  
 **\<selsta>** an updated FFS interface would be great too but you are working on that  
 **\<ErCiccione>** rehrar: i think that's a cool idea, but it was sad to see that the community basically didn't care at all. And in any case, it doesn't fix the main problem with FFS: people don't like to spend money. But i have no solution for that  
@@ -149,7 +149,7 @@ author: rehrar / SamsungGalaxyPlayer
 **\<ErCiccione>** don't remember if i said that last meeting, but i finally got shell access for translate.getbyterub.org  
 **\<rehrar>** woot  
 **\<el00ruobuob_[m]>** great  
-**\<xmrmatterbridge> \<serhack>** Fantastic :)  
+**\<btrmatterbridge> \<serhack>** Fantastic :)  
 **\<ErCiccione>** which host pootle, the localization platform. Will start to work it after 0.13 is out, because now all my time is dedicated on that  
 **\<ErCiccione>** \*on the release  
 **\<ErCiccione>** so yes, that will make translations much easier and less stressful for everybody  
@@ -176,7 +176,7 @@ author: rehrar / SamsungGalaxyPlayer
 **\<rehrar>** I'm looking forward to it too  
 **\<thrmo>** is there anyone keeping tracks if pools are patched for the next fork? and if yes, where to check it  
 **\<rehrar>** oy, good question.  
-**\<el00ruobuob_[m]>** thrmo, supportxmr has a new banner, warning users, so they must be  
+**\<el00ruobuob_[m]>** thrmo, supportbtr has a new banner, warning users, so they must be  
 **\<vp11>** did the hour change? god I came in late  
 **\<vp11>** my bad guys, gonna read the log  
 **\<el00ruobuob_[m]>** don't worry vp11, same for me.  
@@ -185,11 +185,11 @@ author: rehrar / SamsungGalaxyPlayer
 **\<rehrar>** so let's move along  
 **\<rehrar>** 6. Open ideas time  
 **\<rehrar>** It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
-**\<rehrar>** Ideas are as scarce as FFS funding XMR. Ba dum tsh  
+**\<rehrar>** Ideas are as scarce as FFS funding BTR. Ba dum tsh  
 **\<rehrar>** Too soon?  
 **\<el00ruobuob_[m]>** I'm having mail notification issue on repo.getbyterub.org. Are you guys seeing it too?  
 **\<rehrar>** Alright. 7. Confirm next meeting date/time  
-**\<rehrar>** The next community meeting will be two weeks from today on 27 October at 17:00 UTC. When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<rehrar>** The next community meeting will be two weeks from today on 27 October at 17:00 UTC. When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<rehrar>** (no el00ruobuob_[m], we'll get to the bottom of it)  
 **\<rehrar>** The next Coffee Chat will be on the 20 October at 16:00 UTC. Right after the protocol upgrade :)  
 **\<rehrar>** 8. Conclusion  

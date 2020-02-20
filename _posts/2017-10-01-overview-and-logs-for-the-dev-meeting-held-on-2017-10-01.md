@@ -36,7 +36,7 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<moneo>** hey guys, I started developing a small byterub client, and stumbled upon a problem: trying to manually fetch some jobs with the getjob method, I only get empty jobs as a respond  
 **\<surae>** MRL put out our 2nd quarter roadmap, Sarang and I are working in person together for the next few days. we are nearing completion on multisig paper, subaddress paper  
 **\<surae>** sarang has been working on a new format for the MRL bulletin  
-**\<moneo>** I'm querying xmrpool.net, an implementation from Snipa  
+**\<moneo>** I'm querying btrpool.net, an implementation from Snipa  
 **\<rehrar>** moneo: we're in a dev meeting right now man, you're welcome to join. It ends in about an hour.  
 **\<john\_alan>** \@surae sounds impressive, is that ruffCT multisig?  
 **\<serhack>** byterub integrations are going well  
@@ -138,7 +138,7 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<rehrar>** for those who don't know, https://puri.sm is a company that sells open source laptops (hardware and software) and is currently doing a crowdfunding campaign for mobile phones also  
 **\<rehrar>** a member of the Reddit community contacted them asking if they would accept ByteRub for their goods (they accept BTC now)  
 **\<rehrar>** and they were pretty enthusiastic about the idea. I followed up with them, and spoke with the founder and CEO, Todd, and had a video conference with him  
-**\<xmrmatterbridge> \<sgp>** Awesome!  
+**\<btrmatterbridge> \<sgp>** Awesome!  
 **\<rehrar>** he is not only interested in accepting ByteRub for their laptops and phones, but also integrating ByteRub into their Debian based operating system (PureOS) by default  
 **\<endogenic>** nice  
 **\<rehrar>** we spoke at length about different cryptos, and he believes that ByteRub aligns the closest with Purism beliefs of digital privacy rights  
@@ -182,13 +182,13 @@ An overview can be found on [ByteRubBase](https://byterubbase.com/wiki/DevMeetin
 **\<msvb-lab>** bigreddmachine: Monerujo is available on the Google Play Store, since this week I think.  
 **\<bigreddmachine>** msvb-lab, yes, I know  
 **\<msvb-lab>** That's probably why you're asking. I have the same curiosity in any case.  
-**\<xmrmatterbridge> \<sgp>** Can we have all the IRC channels relayed to Mattermost? Only a handful are  
+**\<btrmatterbridge> \<sgp>** Can we have all the IRC channels relayed to Mattermost? Only a handful are  
 **\<rehrar>** What other channels do you want?  
 **\<dEBRUYNE>** \<rehrar> But that's for Android, right? \<= iOS too and we can probably make it work with other operating systems.  
 **\<rehrar>** Awesome dEBRUYNE! Thanks. :)  
 **\<rehrar>** Alright we need to wrap up.  
 **\<rehrar>** 6. Confirm next meeting date/time  
-**\<xmrmatterbridge> \<sgp>** @rehrar I made a list on Taiga. Can't remember on the top of my head  
+**\<btrmatterbridge> \<sgp>** @rehrar I made a list on Taiga. Can't remember on the top of my head  
 **\<rehrar>** October 15th, same time?  
 **\<rehrar>** ok, thanks sgp  
 **\<rehrar>** Ok. That's it guys. Thanks so much! :) Have a good weekend. No Kovri meeting (they're moving to Fridays)  

@@ -1,6 +1,6 @@
 {% assign version = '3.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-## ByteRub (XMR) minen zonder miningapparatuur
+## ByteRub (BTR) minen zonder miningapparatuur
 
 Als je geen rendabele apparatuur om te minen hebt, en geen tijd of
 geen geld om te besteden aan het bouwen ervan, kun je toch ByteRub minen via NiceHash.

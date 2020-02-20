@@ -35,7 +35,7 @@ author: dEBRUYNE / fluffypony
 **\<MalMen>** lo  
 **\<MalMen>** please continue :D  
 **\<hyc>** I think the stylized Ks are more preofessional  
-**\<Kermit_>** As a designer 146 it also brand recognition with xmr  
+**\<Kermit_>** As a designer 146 it also brand recognition with btr  
 **\<fluffypony>** #146 is more in the spirit of the ByteRub logo, I'll definitely agree with that  
 **\<fluffypony>** and yeah, the brand recognition aspect is +1  
 **\<i2p-relay> {-guzzi}** #239  
@@ -110,7 +110,7 @@ author: dEBRUYNE / fluffypony
 **\<ferretinjapan>** yeah i think the garlic just looks confusing.  
 **\<meeting-bot> [anonimal]** So should we do a vote of "anything \*not* 239"?  
 **\<hyc>** yeah. it's close enough. several of the others leave me wondering WTH they are.  
-**\<\_Slack> <xmr\_eric>** The one option I'm not seeing is a direct copy of the ByteRub (M). I did a quick mockup: https://i.imgur.com/8wIh8Hb.png  
+**\<\_Slack> <btr\_eric>** The one option I'm not seeing is a direct copy of the ByteRub (M). I did a quick mockup: https://i.imgur.com/8wIh8Hb.png  
 **\<meeting-bot> [anonimal]** Strong opinions on \*not* 239?  
 **\<meeting-bot> [i2p-relay] {-byterubmooo}** Well... "I use kovri, that's a privacy program for that onion type thing"  
 **\<meeting-bot> [anonimal]** How can we improve #239?  
@@ -118,9 +118,9 @@ author: dEBRUYNE / fluffypony
 **\<medusa_>** personally i also like 245, the green symbols strong roots  
 **\<pero>** 239 needs a different font and some kerning  
 **\<MalMen>** we can allways tell "we use garlic instead of union to keep vampires away from the network"  
-**\<fluffypony>** xmr\_eric: there were a bunch of those, like hundreds of them, we rejected them in favour of #239  
+**\<fluffypony>** btr\_eric: there were a bunch of those, like hundreds of them, we rejected them in favour of #239  
 **\<meeting-bot> [i2p-relay] {-ArticMine}** 239 Possible confusion with Tor. Could be dicey from a trademark perspective  
-**\<\_Slack> <xmr\_eric>** cool  
+**\<\_Slack> <btr\_eric>** cool  
 **\<meeting-bot> [EinMByte]** #239 looks nice  
 **\<meeting-bot> [EinMByte]** Don't think there would be trademark issues  
 **\<meeting-bot> [anonimal]** medusa_ I like the logo but not so much the colour.  
@@ -138,7 +138,7 @@ author: dEBRUYNE / fluffypony
 **\<meeting-bot> [i2p-relay] {-byterubmooo}** Then... we could superimpose: 239 with added arms on top of the byterub M, trying to hide it :D  
 **\<pero>** i think my the minimal pacmans from 88 and 81 arent bad either  
 **\<fluffypony>** anonimal: what are your thoughts on the "connection to ByteRub" thing - do we want it to be more tightly coupled or not?  
-**\<hyc>** then xmr\_eric's would be fine  
+**\<hyc>** then btr\_eric's would be fine  
 **\<meeting-bot> [anonimal]** fluffypony ferretinjapan lurker: if the artists can somehow come up with a better idea other than slapping a big K in the style of byterub onto the garlic, then I'm open to new ideas  
 **\<meeting-bot> [guzzi]** fluffypony i agree if there needs to be aconnection to byterub that is important to discussion on 239  
 **\<hyc>** or at least a starting point. maybe turn the circle background into the garlic  

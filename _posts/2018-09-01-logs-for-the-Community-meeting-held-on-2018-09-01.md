@@ -12,18 +12,18 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<sgp\_1>**  0. Introduction  
 **\<sgp\_1>**  We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_1>**  Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/271  
-**\<sgp\_1>**  ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_1>**  ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_1>**  1. Greetings  
-**\<xmrmatterbridge> \<cryptochangements>** Hey everyone  
+**\<btrmatterbridge> \<cryptochangements>** Hey everyone  
 **\<el00ruobuob\_[m]>** Hi there!  
 **\<midipoet>** halo  
-**\<xmrmatterbridge> \<ordtrogen>** Greetings earthlings we come in peace  
+**\<btrmatterbridge> \<ordtrogen>** Greetings earthlings we come in peace  
 **\<sgp\_1>** Is rehrar here?  
-**\<xmrmatterbridge> \<ordtrogen>** He was, 45 mins ago  
+**\<btrmatterbridge> \<ordtrogen>** He was, 45 mins ago  
 **\<sgp\_1>** ty  
-**\<xmrmatterbridge> \<ordtrogen>** (maybe still is, idk)  
+**\<btrmatterbridge> \<ordtrogen>** (maybe still is, idk)  
 **\<el00ruobuob\_[m]>** he might be trying to change a scammer's mind  
-**\<\_Slack> \<xmrscott>** Hola  
+**\<\_Slack> \<btrscott>** Hola  
 **\<sgp\_1>** hopefully he hops on later  
 **\<sgp\_1>**  2. Community highlights  
 **\<sgp\_1>**  anhdres gave a talk about ByteRub in Spanish at Bitcoin Argentina: https://www.reddit.com/r/ByteRubCommunity/comments/9b92t2/i\_gave\_an\_introduction\_to\_byterub\_talk\_last\_friday/  
@@ -47,16 +47,16 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<el00ruobuob\_[m]>** about byterub-integrations integration to the user-guides  
 **\<el00ruobuob\_[m]>** any votes here are welcome  
 **\<el00ruobuob\_[m]>** https://github.com/byterubpay/byterub-site/issues/852  
-**\<xmrmatterbridge> \<cryptochangements>** I vote 100% in favor  
+**\<btrmatterbridge> \<cryptochangements>** I vote 100% in favor  
 **\<midipoet>** has that Rasberry Pi code been community vetted?  
-**\<xmrmatterbridge> \<cryptochangements>** I'll comment on github, even if I may be a little biased lol  
+**\<btrmatterbridge> \<cryptochangements>** I'll comment on github, even if I may be a little biased lol  
 **\<sgp\_1>** midipoet not that I know of but it's open source  
 **\<hyc>** oooo. new workgroup. review other software in the ecosystem  
 **\<hyc>** give a "byterub community reviewed" stamp  
 **\<midipoet>** thats actually a nice idea for a workgroup  
 **\<sgp\_1>** agreed  
 **\<el00ruobuob\_[m]>** agreed too  
-**\<xmrmatterbridge> \<ordtrogen>** yup  
+**\<btrmatterbridge> \<ordtrogen>** yup  
 **\<sarang>** Hi, just joined  
 **\<sgp\_1>**  3. FFS updates  
 **\<sgp\_1>**  There are several Forum Funding System (FFS) updates. Workgroup reports now have their own section.  
@@ -76,42 +76,42 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<sgp\_1>**  a. ByteRub Malware Response Workgroup  
 **\<sgp\_1>**  The Malware Response workgroup site will be up very soon at mrw.getbyterub.org.  
 **\<sgp\_1>** rehrar isn't here so he can't share the latest version, but you'll see it soon enough  
-**\<xmrmatterbridge> \<rehrar>** Watchoo want?  
+**\<btrmatterbridge> \<rehrar>** Watchoo want?  
 **\<sgp\_1>** awesome  
 **\<sgp\_1>** link to malware response test site  
-**\<xmrmatterbridge> \<rehrar>** Ok. Hopping on IRC.  
-**\<xmrmatterbridge> \<rehrar>** Till then continue with others.  
+**\<btrmatterbridge> \<rehrar>** Ok. Hopping on IRC.  
+**\<btrmatterbridge> \<rehrar>** Till then continue with others.  
 **\<sgp\_1>**  Do any workgroups have a report?  
 **\<el00ruobuob\_[m]>** is ErCiccione around?  
 \* ChanServ a donné l'état d'opérateur de canal à rehrar  
 **\<el00ruobuob\_[m]>** there was a call for translaters by outreach workgroup, for their quick facts sheet  
 **\<el00ruobuob\_[m]>** French is done, i don't know for other languages  
-**\<xmrmatterbridge> \<cryptochangements>** <3  
+**\<btrmatterbridge> \<cryptochangements>** <3  
 **\<sgp\_1>** If he shows up he can join in :)  
 **\<sgp\_1>** welcome cryptochangements  
 **\<rehrar>** 8.9.37.130  
 **\<rehrar>** http://8.9.37.130  
 **\<sgp\_1>** thanks rehrar!  
-**\<xmrmatterbridge> \<cryptochangements>** Thnx sgp I've been here the whole time lol  
+**\<btrmatterbridge> \<cryptochangements>** Thnx sgp I've been here the whole time lol  
 **\<sgp\_1>** Can we have your feedback for the website?  
 **\<el00ruobuob\_[m]>** nice website!  
-**\<xmrmatterbridge> \<cryptochangements>** Whoever did the graphic in the corner, it's great  
+**\<btrmatterbridge> \<cryptochangements>** Whoever did the graphic in the corner, it's great  
 **\<midipoet>** looks good. some info on what malware is might be helpful for some users/visitors  
 **\<rehrar>** all work is mine  
 **\<camthegeek>** nice indeed  
 **\<sgp\_1>** midipoet nice, I didn't really think of that  
 **\<rehrar>** copyright rehrar, license is if you look at it you owe me royalties  
-**\<xmrmatterbridge> \<cryptochangements>** It looks super helpful. Well organized with good info  
+**\<btrmatterbridge> \<cryptochangements>** It looks super helpful. Well organized with good info  
 **\<el00ruobuob\_[m]>** ransomware-response link has a glitch, but still great overall  
 **\<sgp\_1>** but we tried to focus on the impact it has on users directly  
-**\<xmrmatterbridge> \<cryptochangements>** Ah of course it was our hero rehrar!  
+**\<btrmatterbridge> \<cryptochangements>** Ah of course it was our hero rehrar!  
 **\<el00ruobuob\_[m]>** great job!  
 **\<rehrar>** no javascript for anything, animations done in CSS  
 **\<sgp\_1>** Well, that's all I had planned for this meeting :)  
 **\<sgp\_1>**  5. Open ideas time  
 **\<sgp\_1>**  It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
 **\<rehrar>** best meeting ever  
-**\<xmrmatterbridge> \<ordtrogen>** Too little time to provide a review, but I thinks there's a theme missing and thats's ByteRub is actually making it harder for malware in the long run. Malware piggybacking on ByteRub forces IT security etc to harden their systems.  
+**\<btrmatterbridge> \<ordtrogen>** Too little time to provide a review, but I thinks there's a theme missing and thats's ByteRub is actually making it harder for malware in the long run. Malware piggybacking on ByteRub forces IT security etc to harden their systems.  
 **\<rehrar>** Here's an idea, buy all of the cypher market shirts to support FOSS  
 **\<rehrar>** I've become the very thing I've sworn to destroy: a shill  
 **\<hyc>** lol  
@@ -126,7 +126,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<rehrar>** the goal of the coffee chat should be to make the people, community, and tech accessible  
 **\<hyc>** next time I'll read 200 lines from a randomly chosen source file  
 **\<rehrar>** doesn't get more accessible than hyc himself walking you through the code base  
-**\<xmrmatterbridge> \<ordtrogen>** "a la recherche du bug perdu"  
+**\<btrmatterbridge> \<ordtrogen>** "a la recherche du bug perdu"  
 **\<hyc>** ;)  
 **\<el00ruobuob\_[m]>** some month ago, we discuss the refactoring of the hangout wabsite page, we have an issue open on this, but no new ideas for a while  
 **\<el00ruobuob\_[m]>** i believe this is something we should work on, especialy when Telegram chats are so active  
@@ -134,16 +134,16 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<rehrar>** I've been hanging on the telegrams for a while. I'm shocked at how little they know about the happenings of ByteRub. Really.  
 **\<midipoet>** lol  
 **\<rehrar>** No clue about RandomJS, questions about what bulletproofs is, etc.  
-**\<xmrmatterbridge> \<ordtrogen>** you mean the ByteRub telegrams?  
+**\<btrmatterbridge> \<ordtrogen>** you mean the ByteRub telegrams?  
 **\<rehrar>** yes ordtrogen  
 **\<el00ruobuob\_[m]>** yep  
 **\<rehrar>** Telegram is for scrubs  
-**\<xmrmatterbridge> \<cryptochangements>** I havent been on there since the bridge got axed like over a year ago  
+**\<btrmatterbridge> \<cryptochangements>** I havent been on there since the bridge got axed like over a year ago  
 **\<parasew>** hi!  
-**\<xmrmatterbridge> \<cryptochangements>** Is there still a spam problem?  
+**\<btrmatterbridge> \<cryptochangements>** Is there still a spam problem?  
 **\<rehrar>** yes  
 **\<rehrar>** in the groups themselves, as well as spammers PMing you  
-**\<xmrmatterbridge> \<cryptochangements>** :(  
+**\<btrmatterbridge> \<cryptochangements>** :(  
 **\<rehrar>** I hired a spammer that did that  
 **\<rehrar>** no joke  
 **\<rehrar>** he messaged me and I gave him a job for cash, he took me up on it  
@@ -162,7 +162,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<rehrar>** hyc there was talk of a Pootle instance which is a translation thingy that would help the translators keep track of strings to be translated and stuff  
 **\<rehrar>** the name of the one used by almost everyone escapes me at the moment  
 **\<sgp\_1>** lists?  
-**\<xmrmatterbridge> \<ordtrogen>** transifex  
+**\<btrmatterbridge> \<ordtrogen>** transifex  
 **\<rehrar>** THAT'S the one, yes  
 **\<rehrar>** Pootle is an open source alternative to that, and there are a few others like Weblate  
 **\<sgp\_1>** well, unless someone else offers to host it, I prefer to have a core team-hosted solution than nothing  
@@ -199,7 +199,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<rehrar>** that was it for me. Just wanted to get a bit of conversation going on this subject.  
 **\<sgp\_1>** each workgroup should own all non-getbyterub.org domains. For example, I own byterubblackball.com and byterub.coffee  
 **\<Inge->** A number of community-hosted mirrors could be useful  
-**\<rehrar>** let's apply for a .xmr TLD  
+**\<rehrar>** let's apply for a .btr TLD  
 **\<rehrar>** semi serious here, what would it take I wonder?  
 **\<binaryFate>** Looks to me that it would be more productive to define a bit better the threat model (people going rogue? going dark and leaving the project? censorship resistance if people are pressured? etc), rather than a vague "we need to decentralize"  
 **\<Inge->** still that would be more centralized - and is expensive  
@@ -278,7 +278,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<rehrar>** if they're convinced that is :P  
 **\<binaryFate>** ssshhhh  
 **\<hyc>** not quite square 1. there'd be nod Fed Resv controlling supply.  
-**\<xmrmatterbridge> \<ordtrogen>** Ccc's the thing in prague?  
+**\<btrmatterbridge> \<ordtrogen>** Ccc's the thing in prague?  
 **\<midipoet>** are there any cryptos that have the ability to control supply dynamically (so in effect have a monetary policy they could enact when needed)  
 **\<hyc>** ripple  
 **\<midipoet>** oh that a good point  
@@ -288,7 +288,7 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<binaryFate>** as per the status of the foundation in Switzerland, they could change supply any time. They're doing it now btw.  
 **\<midipoet>** but ethereum isnt strictly a currency?  
 **\<rehrar>** Post meeting meeting  
-**\<xmrmatterbridge> \<ordtrogen>** Re: this "shifting of perspective", which in our case relates to tptb, I invite you to listen to this TED presentation on youtube "Rory Sutherland: Perspective is everything". If we take the principles he presents and adapt them to our situation ...  
+**\<btrmatterbridge> \<ordtrogen>** Re: this "shifting of perspective", which in our case relates to tptb, I invite you to listen to this TED presentation on youtube "Rory Sutherland: Perspective is everything". If we take the principles he presents and adapt them to our situation ...  
 **\<midipoet>** this is what i read today, if you havent seen it  
 **\<midipoet>** https://www.homeaffairs.gov.au/about/national-security/five-country-ministerial-2018/access-evidence-encryption  
 **\<midipoet>** about encryption backdoora  
@@ -326,8 +326,8 @@ author: el00ruobuob / SamsungGalaxyPlayer / rehrar
 **\<midipoet>** anyway. i am signing off  
 **\<midipoet>** dinner!  
 **\<ErCiccione>** sorry guys, didn't know there was a meeting today. Was the issue opened in meta?  
-**\<xmrmatterbridge> \<ordtrogen>** yup  
-**\<xmrmatterbridge> \<ordtrogen>** #271  
+**\<btrmatterbridge> \<ordtrogen>** yup  
+**\<btrmatterbridge> \<ordtrogen>** #271  
 **\<Inge->** endogenic: also, while I might want to give the taxman a correct assessment of my wealth,  I don't want to expose what I  used my personal funds on  
 **\<ErCiccione>** ok, yes. opened 14 hours ago, didn't see it. sorry folks  
 **\<endogenic>** Inge-: you might also want to share a proof but not share forward (ongoing) access to updated values  

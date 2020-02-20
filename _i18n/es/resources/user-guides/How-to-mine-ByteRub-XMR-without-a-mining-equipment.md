@@ -1,6 +1,6 @@
 {% assign version = '3.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-## Cómo minar ByteRub (XMR) sin un equipo de minado?
+## Cómo minar ByteRub (BTR) sin un equipo de minado?
 
 Si no cuentas con un equipo de minado rentable, tiempo o
 dinero para invertir en construirlo, puedes minar ByteRub con NiceHash.

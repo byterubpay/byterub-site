@@ -10,23 +10,23 @@ author: el00ruobuob / SamsungGalaxyPlayer
 
 **\<sgp\_>** We would like to welcome everyone to this ByteRub Community Meeting!  
 **\<sgp\_>** Link to agenda on GitHub: https://github.com/byterubpay/meta/issues/308  
-**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** ByteRub Community meetings are a discussion place for anything going on in the ByteRub Community, including other ByteRub workgroups. We use meetings to encourage the community to share ideas and provide support. Stay up to date with the latest events by subscribing to this calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 1. Greetings  
 **\<msvb-mob>** Hello.  
 **\<needmoney90>** waves  
-**\<xmrmatterbridge> \<rehrar>** oyo  
+**\<btrmatterbridge> \<rehrar>** oyo  
 **\<sgp\_>** hello the 3 of you, hopefully more stumble in :)  
 **\<sgp\_>** 2. Community highlights  
-**\<xmrmatterbridge> \<rehrar>** I was going to ask if the bridge died  
+**\<btrmatterbridge> \<rehrar>** I was going to ask if the bridge died  
 **\<sgp\_>** no, I can see you  
 **\<sgp\_>** ByteRub Talk released episodes on ByteRubBox and the forthcoming update: https://www.byterubtalk.live  
 **\<sgp\_>** ErCiccione opened this thread on the Church of ByteRub: https://www.reddit.com/r/ByteRub/comments/asqrbu/church\_of\_byterub\_enough\_is\_enough\_how\_the\_leader/  
 **\<byterubbux>** [REDDIT] Church Of ByteRub: Enough is enough - How the leader of the Church tried to fool the community to make look like the Church is organizing the ByteRub Konferenco and even adding his own ByteRub address on the flyer (self.ByteRub) | 160 points (95.0%) | 253 comments | Posted by ErCiccione | Created at 2019-02-20 - 17:05:34  
 **\<sgp\_>** Thunderosa from ByteRub Outreach make this “Boron Butterfly” image: https://www.reddit.com/r/ByteRub/comments/aw7nv9/graphic\_idea\_for\_boron\_butterfly\_release\_courtesy/  
-**\<byterubbux>** [REDDIT] Graphic idea for Boron Butterfly release, courtesy of ByteRub Outreach (https://i.redd.it/ugq2afnfqjj21.jpg) to r/ByteRub | 157 points (97.0%) | 36 comments | Posted by xmrhaelan | Created at 2019-03-01 - 17:56:10  
+**\<byterubbux>** [REDDIT] Graphic idea for Boron Butterfly release, courtesy of ByteRub Outreach (https://i.redd.it/ugq2afnfqjj21.jpg) to r/ByteRub | 157 points (97.0%) | 36 comments | Posted by btrhaelan | Created at 2019-03-01 - 17:56:10  
 **\<sgp\_>** Trust Wallet announced their intent to add ByteRub: https://github.com/TrustWallet/wallet-core/issues/21  
-**\<sgp\_>** Coinomi added ByteRub: https://www.reddit.com/r/ByteRub/comments/atqqzy/coinomi\_wallet\_for\_android\_added\_xmr\_today\_mods/  
-**\<byterubbux>** [REDDIT] Coinomi wallet for Android added XMR today! Mods: remember to update the sidebar list (https://play.google.com/store/apps/details?id=com.coinomi.wallet) to r/ByteRub | 66 points (91.0%) | 28 comments | Posted by hamiltoncycles | Created at 2019-02-23 - 03:26:42  
+**\<sgp\_>** Coinomi added ByteRub: https://www.reddit.com/r/ByteRub/comments/atqqzy/coinomi\_wallet\_for\_android\_added\_btr\_today\_mods/  
+**\<byterubbux>** [REDDIT] Coinomi wallet for Android added BTR today! Mods: remember to update the sidebar list (https://play.google.com/store/apps/details?id=com.coinomi.wallet) to r/ByteRub | 66 points (91.0%) | 28 comments | Posted by hamiltoncycles | Created at 2019-02-23 - 03:26:42  
 **\<sgp\_>** Dr. Daniel Kim was interviewed following his talk about ByteRub at Anarchapulco: https://www.youtube.com/watch?v=fO8\_N7L2sR0  
 **\<byterubbux>** [ ByteRub EXPLAINED! - Dr. Daniel Kim (Founder Of Sweetwater Digital Consulting - Anarchapulco 2019) - YouTube ] - www.youtube.com  
 **\<sgp\_>** Listen to an audio recording and slides of midipoet’s talk at TABConf: https://www.youtube.com/watch?v=6JIz\_H8irAQ  
@@ -44,17 +44,17 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dEBRUYNE>** Daniel Kim talk was apparently well received. HOpefully the vid of the talk will be online as well  
 **\<sgp\_>** yes, I really want to see it  
 **\<sgp\_>** Does anyone else have community (non-workgroup) updates to share?  
-**\<xmrmatterbridge> \<rehrar>** the CCS will happen one day  
-**\<xmrmatterbridge> \<rehrar>** you can go to ccs.getbyterub.org to see the initial deployment, and people can go ahead and open Ideas proposals there  
-**\<xmrmatterbridge> \<midipoet>** Sorry am late. Hello people.  
-**\<xmrmatterbridge> \<rehrar>** but there's an issue with getting the donation pages to generate correctly (which were not present across all of our tests). So waiting on fp to have some time to debug that.  
-**\<xmrmatterbridge> \<rehrar>** And...you know how it is getting some of his time.  
+**\<btrmatterbridge> \<rehrar>** the CCS will happen one day  
+**\<btrmatterbridge> \<rehrar>** you can go to ccs.getbyterub.org to see the initial deployment, and people can go ahead and open Ideas proposals there  
+**\<btrmatterbridge> \<midipoet>** Sorry am late. Hello people.  
+**\<btrmatterbridge> \<rehrar>** but there's an issue with getting the donation pages to generate correctly (which were not present across all of our tests). So waiting on fp to have some time to debug that.  
+**\<btrmatterbridge> \<rehrar>** And...you know how it is getting some of his time.  
 **\<needmoney90>** The Year In Review is finally finished with edits and stuff (one left this mornkng and its good to go)  
 **\<needmoney90>** s/mornkng/morning  
 **\<byterubbux>** needmoney90 meant to say: The Year In Review is finally finished with edits and stuff (one left this morning and its good to go)  
 **\<sgp\_>** rehrar when ByteRub Revuo? :p  
-**\<xmrmatterbridge> \<rehrar>** oof  
-**\<xmrmatterbridge> \<rehrar>** 2mrw  
+**\<btrmatterbridge> \<rehrar>** oof  
+**\<btrmatterbridge> \<rehrar>** 2mrw  
 **\<sgp\_>** 3. FFS / CCS updates  
 **\<sgp\_>** rehrar already commented on the state of the CCS  
 **\<sgp\_>** FFS proposals still needing funding:  
@@ -63,25 +63,25 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<el00ruobuob\_[m]>** Hi, sorry i'm late  
 **\<sgp\_>** Are there are proposals in ideas that I missed?  
 **\<needmoney90>** It's 9:00 on a Saturday. The regular crowd shuffles in.  
-**\<xmrmatterbridge> \<rehrar>** it's ok el00ruobuob, just make sure it never happens again  
+**\<btrmatterbridge> \<rehrar>** it's ok el00ruobuob, just make sure it never happens again  
 **\<needmoney90>** ^  
 **\<sgp\_>** lol  
 **\<el00ruobuob\_[m]>** sure ;)  
-**\<xmrmatterbridge> \<midipoet>** @needmoney90 don't be so geo-presumptious ;-)  
+**\<btrmatterbridge> \<midipoet>** @needmoney90 don't be so geo-presumptious ;-)  
 **\<sgp\_>** Does anyone else have a FFS / CCS update, or comments about any of these FFS proposals?  
 **\<needmoney90>** But it flows well to the tune of Pianoman :(  
 **\<sgp\_>** yes it did  
-**\<xmrmatterbridge> \<midipoet>** Ha  
+**\<btrmatterbridge> \<midipoet>** Ha  
 **\<dEBRUYNE>** It is kind of unfortunate el00ruobuob\_[m]'s proposal is hidden :/  
 **\<dEBRUYNE>** He has done great work in the past  
 **\<sgp\_>** I sang that song in class once for some magic/music show. Total disaster  
-**\<xmrmatterbridge> \<rehrar>** el00ruobuob, go ahead and remake it in the current ccs. At least it will show up in the Ideas section. And it will be merged as soon as it's debugged.  
+**\<btrmatterbridge> \<rehrar>** el00ruobuob, go ahead and remake it in the current ccs. At least it will show up in the Ideas section. And it will be merged as soon as it's debugged.  
 **\<el00ruobuob\_[m]>** thanks dEBRUYNE, but don't worry too much about that  
 **\<sgp\_>** we need to keep spamming it on Reddit  
-**\<xmrmatterbridge> \<rehrar>** http://ccs.getbyterub.org/how-to-css/  
+**\<btrmatterbridge> \<rehrar>** http://ccs.getbyterub.org/how-to-css/  
 **\<el00ruobuob\_[m]>** ok, thanks rehara  
 **\<el00ruobuob\_[m]>** \*rehrar  
-**\<xmrmatterbridge> \<midipoet>** "how to cuss"  
+**\<btrmatterbridge> \<midipoet>** "how to cuss"  
 **\<sgp\_>** 4. Workgroup report  
 **\<sgp\_>** ErCiccione[m]: you probably have a lot  
 **\<ErCiccione[m]>** I do :)  
@@ -122,7 +122,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Besides the hasty circumstances, is there anything you wish went better?  
 **\<Xeagu\_\_>** Oh hi I'm late  
 **\<ErCiccione[m]>** yes, definitely. I've been ranting about having a proper code freeze for ages. Not having one before a release make my job 10x harder  
-**\<xmrmatterbridge> \<rehrar>** maybe someday  
+**\<btrmatterbridge> \<rehrar>** maybe someday  
 **\<ErCiccione[m]>** the main problem is that translators work hard to have their language 100% translated, but if some other stuff get merged  
 **\<ErCiccione[m]>** after the my PR with the sync and the translations, the result will be a language missing some strings (which will show in english) even if they were completed when submitted  
 **\ErCiccione[m**]> and this release this happened as well, so the GUI will actually not be 100% translated in any language, but few strings will be in english. Not a big deal maybe, but still annoying  
@@ -135,15 +135,15 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** or does anyone else have questions about translations?  
 **\<ErCiccione[m]>** there are some minor updates, but i think i took enough time. If nobody have questions we can go on for me.  
 **\<sgp\_>** Does anyone else have a workgroup update?  
-**\<xmrmatterbridge> \<rehrar>** I've been semi AWOL this past month  
-**\<xmrmatterbridge> \<rehrar>** been needing some down time to avoid burn out  
-**\<xmrmatterbridge> \<rehrar>** but I'm back for March  
+**\<btrmatterbridge> \<rehrar>** I've been semi AWOL this past month  
+**\<btrmatterbridge> \<rehrar>** been needing some down time to avoid burn out  
+**\<btrmatterbridge> \<rehrar>** but I'm back for March  
 **\<Xeagu\_\_>** I see we are trying to have some art made for the update  
 **\<Xeagu\_\_>** It's difficult to organize art production in my experience  
 **\<sgp\_>** msvb-mob: do you have any updates for us?  
 **\<ErCiccione[m]>** rehrar: hang in there dude!  
-**\<xmrmatterbridge> \<rehrar>** it's hard when all my colleagues suck  
-**\<xmrmatterbridge> \<rehrar>** jk, love you guys  
+**\<btrmatterbridge> \<rehrar>** it's hard when all my colleagues suck  
+**\<btrmatterbridge> \<rehrar>** jk, love you guys  
 **\<sgp\_>** Xeagu\_\_: having multiple people work on art sounds difficult  
 **\<Xeagu\_\_>** It's so subjective. One man's trash is another man's treasure.  
 **\<sgp\_>** 5. Upgrade timeline discussion  
@@ -154,32 +154,32 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I reserved some time for community questions. Are there any?  
 **\<Xeagu\_\_>** Does ByteRub have reproducible builds?  
 **\<sgp\_>** Xeagu\_\_: not yet, but devs have been working on them for a long time  
-**\<xmrscott[m]>** There is an issue for that you can sub on github  
-**\<xmrscott[m]>** I did get us add to the repo builds website a while back as well  
+**\<btrscott[m]>** There is an issue for that you can sub on github  
+**\<btrscott[m]>** I did get us add to the repo builds website a while back as well  
 **\<Xeagu\_\_>** Ah I wasn't sure. I assumed most people compile from source.  
-**\<xmrscott[m]>** So if anyone needs to talk to the pople doing repo builds for debian, etc, I suggest joining the mailing list for that multi foss website/project  
+**\<btrscott[m]>** So if anyone needs to talk to the pople doing repo builds for debian, etc, I suggest joining the mailing list for that multi foss website/project  
 **\<sgp\_>** Any other questions?  
-**\<xmrscott[m]>** Do we want to do anything for Call For Party for defcon?  
+**\<btrscott[m]>** Do we want to do anything for Call For Party for defcon?  
 **\<Xeagu\_\_>** When is next coffee chat?  
-**\<xmrscott[m]>** Reg closes end of April  
-**\<xmrmatterbridge> \<rehrar>** I say nah. The last party we had wasn't official, but it was good.  
-**\<xmrmatterbridge> \<rehrar>** No?  
+**\<btrscott[m]>** Reg closes end of April  
+**\<btrmatterbridge> \<rehrar>** I say nah. The last party we had wasn't official, but it was good.  
+**\<btrmatterbridge> \<rehrar>** No?  
 **\<Xeagu\_\_>** I support unofficial parties.  
-**\<xmrmatterbridge> \<midipoet>** DJs were questionable. IMO  
-**\<xmrmatterbridge> \<midipoet>** But I am European  
-**\<xmrmatterbridge> \<midipoet>** :-p  
+**\<btrmatterbridge> \<midipoet>** DJs were questionable. IMO  
+**\<btrmatterbridge> \<midipoet>** But I am European  
+**\<btrmatterbridge> \<midipoet>** :-p  
 **\<Xeagu\_\_>** True music could be better  
-**\<xmrmatterbridge> \<rehrar>** I'll DJ  
+**\<btrmatterbridge> \<rehrar>** I'll DJ  
 **\<Xeagu\_\_>** Techno / House is my vote  
 **\<sgp\_>** hyc playing the violin all night  
-**\<xmrmatterbridge> \<midipoet>** Americans don't get techno  
-**\<xmrmatterbridge> \<midipoet>** Techno and violins would work  
-**\<sgp\_>** xmrscott[m]: looks like we need to revive #byterub-defcon  
+**\<btrmatterbridge> \<midipoet>** Americans don't get techno  
+**\<btrmatterbridge> \<midipoet>** Techno and violins would work  
+**\<sgp\_>** btrscott[m]: looks like we need to revive #byterub-defcon  
 **\<Xeagu\_\_>** 35C3 was awesome  
-**\<xmrscott[m]>** midipoet, as a raver I understand. EU has all the best hardcore raves/DJ's :(  
+**\<btrscott[m]>** midipoet, as a raver I understand. EU has all the best hardcore raves/DJ's :(  
 **\<sgp\_>** Since this is off-topic from the upgrade discussion anyway, we will move to 6. Open ideas time  
-**\<xmrscott[m]>** sgp\_: Is tbere anything we need to discuss at thisvtime? Last year we started talks Apr 7th  
-**\<sgp\_>** xmrscott[m]: no idea, but it would be good to get the channel active for these sorts of questions  
+**\<btrscott[m]>** sgp\_: Is tbere anything we need to discuss at thisvtime? Last year we started talks Apr 7th  
+**\<sgp\_>** btrscott[m]: no idea, but it would be good to get the channel active for these sorts of questions  
 **\<sgp\_>** here is fine too outside of the meetings  
 **\<sgp\_>** I had an idea earlier this week  
 **\<el00ruobuob\_[m]>** i believe most of us are well prepared for the upgrade.  
@@ -187,34 +187,34 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** I think it would be interesting to have a tool where people could write a few bullet points on what they did that day to keep others informed  
 **\<sgp\_>** Github sorta works for this, but it doesn't work well with MRL and other non-code stuff  
 **\<sgp\_>** I found an open-source tool Kimai that kinda does this, but it's a little too time tracking-focused: https://www.kimai.org/  
-**\<xmrmatterbridge> \<midipoet>** Jira?  
-**\<xmrmatterbridge> \<midipoet>** Trello?  
+**\<btrmatterbridge> \<midipoet>** Jira?  
+**\<btrmatterbridge> \<midipoet>** Trello?  
 **\<sgp\_>** Those track project progress. I had a Twitter for updates in mind  
 **\<el00ruobuob\_[m]>** Jira is not free, don't know about trello  
 **\<ErCiccione[m]>** isn't Taiga good for that?  
-**\<xmrscott[m]>** You'd probably need a custom script to toot/tweet PR's and translation contrib, etc  
+**\<btrscott[m]>** You'd probably need a custom script to toot/tweet PR's and translation contrib, etc  
 **\<sgp\_>** yes, that's what Taiga is for  
 **\<el00ruobuob\_[m]>** Trello seems great btw midipoet  
-**\<xmrmatterbridge> \<rehrar>** psh  
-**\<xmrmatterbridge> \<rehrar>** after all that work to put up Taiga you guys want to Trello  
-**\<xmrmatterbridge> \<rehrar>** I say nay  
+**\<btrmatterbridge> \<rehrar>** psh  
+**\<btrmatterbridge> \<rehrar>** after all that work to put up Taiga you guys want to Trello  
+**\<btrmatterbridge> \<rehrar>** I say nay  
 **\<el00ruobuob\_[m]>** rehrar, we need both and you to create a bridge between them ;)  
 **\<msvb-mob>** Taiga has really few defects, maybe that user messaging is not supported. There are not many reasons to ignore taiga.getbyterub.org.  
 **\<ErCiccione[m]>** I agree Taiga would work well enough. Epics coould be topics and if there is a timeline you can use the sprints  
-**\<xmrmatterbridge> \<rehrar>** right, but on the day to day that sgp is talking about, his thing might not be bad  
-**\<xmrmatterbridge> \<rehrar>** Taiga is good to know who is working on what overarching stuff, and planning, you know?  
-**\<xmrmatterbridge> \<rehrar>** day to day (if that's wanted) would require another tool for that, unless someone makes extensive use of the commenting system  
-**\<xmrmatterbridge> \<rehrar>** but it was just an idea, no Justin?  
+**\<btrmatterbridge> \<rehrar>** right, but on the day to day that sgp is talking about, his thing might not be bad  
+**\<btrmatterbridge> \<rehrar>** Taiga is good to know who is working on what overarching stuff, and planning, you know?  
+**\<btrmatterbridge> \<rehrar>** day to day (if that's wanted) would require another tool for that, unless someone makes extensive use of the commenting system  
+**\<btrmatterbridge> \<rehrar>** but it was just an idea, no Justin?  
 **\<sgp\_>** I'll look further into other systems, but would anyone else find a daily update tool useful?  
 **\<sgp\_>** yes, it's just an idea  
 **\<el00ruobuob\_[m]>** it could be usefull if used correctly  
 **\<el00ruobuob\_[m]>** or even just used  
-**\<xmrscott[m]>** Yes, should someone pickup writing a weekly newsletter again or whatever and use it as a source  
+**\<btrscott[m]>** Yes, should someone pickup writing a weekly newsletter again or whatever and use it as a source  
 **\<sgp\_>** I think it would provide better coverage of non-code stuff  
 **\<sgp\_>** any other ideas before we wrap up?  
 **\<sgp\_>** 7. Confirm next meeting date/time  
 **\<sgp\_>** The next community meeting will be in 2 weeks on 16 March at 17:00 UTC.  
 **\<sgp\_>** The next ByteRub Coffee Chat will take place next Saturday on 9 March at 17:00 UTC.  
-**\<sgp\_>** When in doubt, use the calendar: https://xmr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
+**\<sgp\_>** When in doubt, use the calendar: https://btr.ncrypt.sh/index.php/apps/calendar/p/8dP6z6XQDnkPREo4/ByteRub-Meetings  
 **\<sgp\_>** 8. Conclusion  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.    

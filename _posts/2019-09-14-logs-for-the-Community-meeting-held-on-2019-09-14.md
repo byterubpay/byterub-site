@@ -43,11 +43,11 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** none live yet, but work is ongoing :)  
 **\<dginovker>** Just used btcpayserver for the first time today. It's very good :O  
 **\<sgp\_>** i was going to use it to make a donation from monerujo, but I'm in the US so you know how that turned out....  
-**\<sgp\_>** can't use xmr.to  
+**\<sgp\_>** can't use btr.to  
 **\<sgp\_>** anyway, other CCS stuff  
 **\<sgp\_>** Funding required:  
-**\<sgp\_>** New Localization platform: Weblate (6.5/11 XMR): https://ccs.getbyterub.org/proposals/ErCiccione-weblate.html  
-**\<sgp\_>** Sarang: research funding for 2019 Q4 (4.05/417 XMR): https://ccs.getbyterub.org/proposals/sarang-2019-q4.html  
+**\<sgp\_>** New Localization platform: Weblate (6.5/11 BTR): https://ccs.getbyterub.org/proposals/ErCiccione-weblate.html  
+**\<sgp\_>** Sarang: research funding for 2019 Q4 (4.05/417 BTR): https://ccs.getbyterub.org/proposals/sarang-2019-q4.html  
 **\<sgp\_>** Does anyone else have a CCS update, or comments about any of these CCS proposals?  
 **\<rehrar>** fund!  
 **\<rehrar>** next  
@@ -99,8 +99,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<kinghat>** tbh i dont know why more ppl arent talking about it. its kind of a bottleneck.  
 **\<dsc\_>** I'm most interested in a release right now because of the Tails support I've coded  
 **\<dsc\_>** granted, people who really want that feature will compile themselves  
-**\<xmrscott[m]>** I agree, so long as it's repducible, it shouldn't be an issue if it's signed by someone on the core team  
-**\<xmrscott[m]>** We really shouldn't have single points of failure anyways to begin with  
+**\<btrscott[m]>** I agree, so long as it's repducible, it shouldn't be an issue if it's signed by someone on the core team  
+**\<btrscott[m]>** We really shouldn't have single points of failure anyways to begin with  
 **\<el00ruobuob\_[m]>** +1  
 **\<dsc\_>** the nature of ByteRub is such that you can decide to make your own GUI releases  
 **\<dsc\_>** pack them, distribute them  
@@ -108,13 +108,13 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dsc\_>** Just mentioning it as an option  
 **\<dginovker>** I'  
 **\<dginovker>** I'd rather keep it simple and have it be on getbyterub.org/downloads  
-**\<xmrscott[m]>** Yes, but exchanges, etc may not download unless it's signed by someone from core  
-**\<sgp\_>** xmrscott[m]: doesn't really apply to the GUI  
-**\<xmrscott[m]>** Ah, trues  
+**\<btrscott[m]>** Yes, but exchanges, etc may not download unless it's signed by someone from core  
+**\<sgp\_>** btrscott[m]: doesn't really apply to the GUI  
+**\<btrscott[m]>** Ah, trues  
 **\<sgp\_>** that's a horrifying thought though :)  
 **\<sgp\_>** but indeed, waiting 2 months for builds isn't ideal  
-**\<kinghat>** still sucks. ppl complain about usability of xmr, we get crackerjack gooey team together and we cant even get releases out.  
-**\<xmrscott[m]>** Agreed, releases really shouldn't be held because out on vacation, etc by a single person, however awesome they may be  
+**\<kinghat>** still sucks. ppl complain about usability of btr, we get crackerjack gooey team together and we cant even get releases out.  
+**\<btrscott[m]>** Agreed, releases really shouldn't be held because out on vacation, etc by a single person, however awesome they may be  
 **\<dEBRUYNE>** Lol, it's not due to vacation  
 **\<sgp\_>** There are many things related to releases that need improving. Would it be useful to schedule a meeting related to just this? Or this + planning?  
 **\<kinghat>** anyways ill step off the milk crate.  
@@ -147,9 +147,9 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<dEBRUYNE>** for the CLI there is no build issue, as those are already built deterministically  
 **\<rehrar>** is deterministic builds a one and done?  
 **\<sgp\_>** we'll see how this new upgrade goes  
-**\<xmrscott[m]>** Out of curiosity how close is the GUI to getting deterministic builds?  
+**\<btrscott[m]>** Out of curiosity how close is the GUI to getting deterministic builds?  
 **\<kinghat>** until you add extras like i2pz and such.  
-**\<dEBRUYNE>** xmrscott[m]: Probably still quite some time out  
+**\<dEBRUYNE>** btrscott[m]: Probably still quite some time out  
 **\<sgp\_>** i2p-zero has reproduceable builds luckily (experimental)  
 **\<sgp\_>** let me get part d) of updates out, then we can be in open ideas  
 **\<sgp\_>** d. ByteRub Research Lab  
@@ -158,30 +158,30 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** with any luck, another episode of breaking byterub if we get our acts together  
 **\<sgp\_>** 5. Open ideas time  
 **\<sgp\_>** It’s open ideas time! Feel free to propose your ideas to this discussion group, and feel free to comment on others’ ideas. If you disagree with the idea, please reply with constructive criticism. Thank you!  
-**\<xmrscott[m]>** Rebranding of "GUI" to something else: https://github.com/byterubpay/meta/issues/384  
+**\<btrscott[m]>** Rebranding of "GUI" to something else: https://github.com/byterubpay/meta/issues/384  
 **\<rehrar>** yes  
-**\<xmrscott[m]>** This was discussed for about an hour roughly a month ago, the issue contains a rough form of going about making that happen  
+**\<btrscott[m]>** This was discussed for about an hour roughly a month ago, the issue contains a rough form of going about making that happen  
 **\<sgp\_>** blockfolio could be used for unofficial polling, but we need a selection of names first for people to choose from  
 **\<msvb-mob>** Does anyone have questions about ByteRub Hardware activities?  
 **\<msvb-mob>** I missed putting the section in the agenda.  
 **\<sgp\_>** msvb-mob: I have a million questions but not much time. Would you consider making a Reddit update explaining what you did for Defcon and what your next steps are?  
 **\<msvb-mob>** There are no reddit posts to update, but I'm hoping to clean up the repositories, merge code, and make the already published sources more accessible.  
-**\<dginovker>** xmrscott, I would rather tuck away the CLI tools more and just call the GUI "The" official wallet  
+**\<dginovker>** btrscott, I would rather tuck away the CLI tools more and just call the GUI "The" official wallet  
 **\<msvb-mob>** Let's try for a real section in the next meeting.  
 **\<msvb-mob>** sgp: I'll put the time for distributing more information into the location pointed to by the QR code of the Defcon village badges.  
 **\<sgp\_>** I can't think of any good names. Maybe start with Twitter and Reddit open comments?  
 **\<el00ruobuob\_[m]>** biletujo  
 **\<el00ruobuob\_[m]>** esperanto for wallet  
-**\<xmrscott[m]>** Well the thing is I want to make sure the process is largely sound, and people are in agreement here, so I don't get any backlash if I move on process  
+**\<btrscott[m]>** Well the thing is I want to make sure the process is largely sound, and people are in agreement here, so I don't get any backlash if I move on process  
 **\<sgp\_>** el00ruobuob\_[m]: I kindly disagree with that name, too hard to spell :)  
 **\<nioc>** please no esperanto as nobody can pronounce those words  
-**\<msvb-mob>** xmrscott: Good luck with choosing a good name, that's quite difficult.  
+**\<msvb-mob>** btrscott: Good luck with choosing a good name, that's quite difficult.  
 **\<el00ruobuob\_[m]>** :(  
-**\<sgp\_>** xmrscott[m]: thanks for sharing again, I also think esperanto needs to be considered extremely carefully  
-**\<xmrscott[m]>** Honestly, I'll probably have to highlight it in a -dev meeting as well as that's where a good number of stakeholders are that don't attend -community meetings  
+**\<sgp\_>** btrscott[m]: thanks for sharing again, I also think esperanto needs to be considered extremely carefully  
+**\<btrscott[m]>** Honestly, I'll probably have to highlight it in a -dev meeting as well as that's where a good number of stakeholders are that don't attend -community meetings  
 **\<sgp\_>** at some point yes, but I still think an open poll for ideas is useful now  
 **\<sgp\_>** thanks for keeping this initiative alive  
-**\<xmrscott[m]>** Sure  
+**\<btrscott[m]>** Sure  
 **\<dginovker>** This might be more suitable for a research meeting, but I was talking to an IOTA guy and they were saying they had QC resistance through Lamport signatures. Does anyone have thoughts on this? https://crypto.stackexchange.com/questions/8931/quantum-resistance-of-lamport-signatures  
 **\<sgp\_>** definitely seems like an MRL open ideas question dginovker :)  
 **\<sgp\_>** this was merged during the meeting btw: https://github.com/byterubpay/byterub-gui/pull/2370  

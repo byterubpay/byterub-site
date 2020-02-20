@@ -8,7 +8,7 @@ Ten przewodnik jest dwojaki: opisuje łatwość użycia do wydobycia w dystrybuc
 
 [Docker](https://www.docker.com/) jest używany ze względu na to, że jest najbardziej znaną platformą i istnieje szansa, że został już zainstalowany.
 
-Kontener, którego używam, to [alpine-xmrig](https://hub.docker.com/r/bitnn/alpine-xmrig/) i, jak sama nazwa wskazuje, został zbudowany na wzór [Alpine Linux](https://www.alpinelinux.org/).
+Kontener, którego używam, to [alpine-btrig](https://hub.docker.com/r/bitnn/alpine-btrig/) i, jak sama nazwa wskazuje, został zbudowany na wzór [Alpine Linux](https://www.alpinelinux.org/).
 
 Jeśli jesteś zainteresowany rozpoczęciem wydobywania z Dockerem, znajdziesz tu kilka dobrych referencji na początek.
 * Arch Linux Wiki [strona Dockera](https://wiki.archlinux.org/index.php/Docker)
@@ -17,19 +17,19 @@ Jeśli jesteś zainteresowany rozpoczęciem wydobywania z Dockerem, znajdziesz t
 
 Aby zainstalować na konkretną dystrybucję, przejdź do strony [dokumentów Dockera](https://docs.docker.com/engine/installation/).
 
-### Dlaczego XMRig?
+### Dlaczego BTRig?
 
-[XMRig](https://github.com/xmrig/xmrig) według mnie jest porządną koparką. Posiada niezłą wydajność i statystyki i nie ma krzykliwego interfejsu i zależności. Kontener XMRig ma tylko ~4MB, co czyni go bardzo portatywnym.
+[BTRig](https://github.com/btrig/btrig) według mnie jest porządną koparką. Posiada niezłą wydajność i statystyki i nie ma krzykliwego interfejsu i zależności. Kontener BTRig ma tylko ~4MB, co czyni go bardzo portatywnym.
 
-#### Krok 1: Wydobywanie z XMRig
+#### Krok 1: Wydobywanie z BTRig
 
 Uruchom następującą komendę:
 
 ```bash
-# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o POOL01 -o POOL02 -u WALLET -p PASSWORD -k
-# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o pool.supportxmr.com:7777 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p docker:secret -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-btrig -o POOL01 -o POOL02 -u WALLET -p PASSWORD -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-btrig -o pool.supportbtr.com:7777 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p docker:secret -k
 ```
 
 #### Krok 2: Nie istnieje krok 2
 
-Zrobiłeś już wszystko, co trzeba. Zacząłeś właśnie wydobywanie w kontenerze Dockera przy użyciu XMRig. Wpisz `ctrl+c`, aby wyjść z koparki lub dodaj `-d` zaraz po `docker run`, aby uruchomić wydobywanie w tle.
+Zrobiłeś już wszystko, co trzeba. Zacząłeś właśnie wydobywanie w kontenerze Dockera przy użyciu BTRig. Wpisz `ctrl+c`, aby wyjść z koparki lub dodaj `-d` zaraz po `docker run`, aby uruchomić wydobywanie w tle.

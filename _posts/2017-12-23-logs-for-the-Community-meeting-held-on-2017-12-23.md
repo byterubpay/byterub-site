@@ -53,7 +53,7 @@ author: dEBRUYNE / fluffypony
 **\<sgp>** We can use volunteers now to help review these documents, and later to help people  
 **\<sgp>** Any questions?  
 **\<ErCiccione>** looks quite today. (pinging: @serhack @needmoney90 dEBRUYNE gingeropulous)  
-**\<ErCiccione>** (@pablonero mattcode xmrscott)  
+**\<ErCiccione>** (@pablonero mattcode btrscott)  
 **\<sgp>** It's close to a major holiday  
 **\<sgp>** Well, that's all for the formal part of the meeting  
 **\<sgp>** 5. Open ideas time  

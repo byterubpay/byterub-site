@@ -37,7 +37,7 @@ Quelque soit la méthode que vous aurez choisit, assurez-vous qu'il ne reste auc
 
 #### Remarque
 Option pour chiffrer une phrase mnémonique :
-https://xmr.llcoins.net/
+https://btr.llcoins.net/
 Téléchargez la page html et déposez là sur l'ordinateur isolé. Consultez la section "chiffrer/déchiffrer une phrase mnémonique" (Encrypt/Decrypt Mnemonic Seed) et assurez-vous d'utiliser "CN Add" avec un mot de passe convenable. Merci à manicminer5.
 
 
@@ -68,7 +68,7 @@ Allez sur votre compte Xapo ou Circle et trouvez le bouton Envoyer ("Transfer" o
 
 Une fois l'envoie initialisé par Xapo ou Coinbase il y aura délai le temps que la transaction entre sur la chaîne de blocs Bitcoin et soit confirmée.  Cela peut prendre de quelques minutes à plusieurs heures.  Vous pouvez vérifier si le paiement a été envoyé en recherchant l'adresse de dépôt Shapeshift.io sur blockchain.info.  Votre transaction vers Shapeshift.io y sera visible.
 
-Lorsque votre transaction Bitcoin sera confirmée, Shapeshift.io lancera le change entre Bitcoin (BTC) et ByteRub (XMR) sur une bourse et lorsqu'il sera terminé, enverra les ByteRubj à l'adresse de votre portefeuille papier !  Cela peut prendre de quelques minutes à plusieurs heures.  S'il y a un soucis, contactez Shapeshift.io.  Ils disposent d'une bonne assistance.
+Lorsque votre transaction Bitcoin sera confirmée, Shapeshift.io lancera le change entre Bitcoin (BTC) et ByteRub (BTR) sur une bourse et lorsqu'il sera terminé, enverra les ByteRubj à l'adresse de votre portefeuille papier !  Cela peut prendre de quelques minutes à plusieurs heures.  S'il y a un soucis, contactez Shapeshift.io.  Ils disposent d'une bonne assistance.
 
 Lorsque la page we de Shapehift.io indique que votre transaction est terminée, vous devriez maintenant disposer de vos ByteRubj dans votre portefeuille papier !
 

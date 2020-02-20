@@ -1,6 +1,6 @@
 {% assign version = '3.1.0' | split: '.' %}
 {% include disclaimer.html translated="true" version=page.version %}
-## Jak wydobywać ByteRub (XMR) bez sprzętu wydobywczego?
+## Jak wydobywać ByteRub (BTR) bez sprzętu wydobywczego?
 
 Jeżeli nie posiadasz opłacalnego sprzętu wydobywczego ani czasu lub pieniędzy na zainwestowanie w niego, nadal możesz wydobywać ByteRub z NiceHash.
 

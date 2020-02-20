@@ -322,7 +322,7 @@ There is no overview for this week.
 **\<serhack>** Then  
 **\<byterubmooo>** np, go ahead :)  
 **\<serhack>** My progress are: wordpress plugin is almost completed, I'm developing the verifying (if transaction is okay), I'm also starting the development of Prestashop plugins  
-**\<serhack>** After that, I will write another FFS (I will request like 40 xmr or less)  
+**\<serhack>** After that, I will write another FFS (I will request like 40 btr or less)  
 **\<serhack>** I would create some stickers based on https://m.imgur.com/QcdyyWn  
 **\<serhack>** I will publish plugins on codecanyon.com, every funds will be helpful for ByteRub Project  
 **\<serhack>** What do you think byterubmoo?  

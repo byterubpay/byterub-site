@@ -20,7 +20,7 @@ author: dEBRUYNE / fluffypony
 **\<ArticMine>** Hi  
 **\<erciccione\_[m]>** hola  
 **\<needmultisig90>** Hey  
-**\<xmrmatterbridge> \<sgp>** On mobile with a congested connection  
+**\<btrmatterbridge> \<sgp>** On mobile with a congested connection  
 **\<rehrar>** boo  
 **\<serhack>** hi  
 **\<rehrar>** 2. Community highlights  
@@ -29,7 +29,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I can't link to it because the getbyterub forum is down. I have nothing to do with the forum, so unfortunately I can't do anything about it. :/  
 **\<rehrar>** Ledger has been making integration progress:  https://www.reddit.com/r/ByteRub/comments/72rh39/ledger_hardware_wallet_byterub_integration_some/  
 **\<rehrar>** ByteRub was featured on the IBTimes  http://www.ibtimes.com/byterub-rises-dark-web-why-cryptocurrency-users-want-more-privacy-2584390  
-**\<rehrar>** The Monerujo android wallet made it to the Google Play Store:  https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet  
+**\<rehrar>** The Monerujo android wallet made it to the Google Play Store:  https://play.google.com/store/apps/details?id=com.m2049r.btrwallet  
 **\<rehrar>** CoinHive took the world by storm. CoinHive is an in-browser  JavaScript miner that was deployed on ThePirateBay and Showtime, among  other sites https://coinhive.com/blog/status-report  
 **\<rehrar>** Mike posted the latest episode of the ByteRub Monitor featuring John  Tromp on Cuckoo Cycle and John McAfee on ByteRub  https://byterubmonitor.com/episodes/2017-09-26-Episode-014.html  
 **\<rehrar>** Does anyone else have a highlight to share?  
@@ -77,7 +77,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** official forum = official reddit  
 **\<needmultisig90>** I think in the first few weeks of the sub, we should have all new threads linked into byterub  
 **\<needmultisig90>** Gets exposure to the people who can respond, and would in theory mean no one needs to actively watch it  
-**\<cryptochangement>** i for one think that people should be directed to byterub support similarly to how they are directed to xmrtrader for speculation  
+**\<cryptochangement>** i for one think that people should be directed to byterub support similarly to how they are directed to btrtrader for speculation  
 **\<needmultisig90>** I do too  
 **\<needmultisig90>** Have for a while  
 **\<pero>** well that was a critical tenet behind the idea  
@@ -93,7 +93,7 @@ author: dEBRUYNE / fluffypony
 **\<pero>** if there isnt buy in from the mods in rbyterub then it's just a waste of effort imo  
 **\<vP11>** in the angle that people will keep going to r/ByteRub to ask questions because it's the biggest sub?  
 **\<needmultisig90>** There is buy in from myself and debruyne, if the rule got passed at a community level  
-**\<xmrmatterbridge> \<sgp>** for /r/byterub: "the GUI needs to be easier to use. here's why" for /r/ByteRubsupport "I need help connecting to a remote node"  
+**\<btrmatterbridge> \<sgp>** for /r/byterub: "the GUI needs to be easier to use. here's why" for /r/ByteRubsupport "I need help connecting to a remote node"  
 **\<needmultisig90>** I can pull up logs if needed  
 **\<dEBRUYNE>** Buy in somewhere in the future that is, fwiw  
 **\<needmultisig90>** Yes  
@@ -108,7 +108,7 @@ author: dEBRUYNE / fluffypony
 **\<dEBRUYNE> \<pero>** pretty sure debruyne told me he isnt down \<= To clarify. I said i'd be down for it somewhere in the future, when r/byterub is bigger  
 **\<rehrar>** 1. I think we should move forward with the Support initiative now (move most support questions to /r/byterubsupport)  
 **\<needmultisig90>** half o/  
-**\<xmrmatterbridge> \<sgp>** o/  
+**\<btrmatterbridge> \<sgp>** o/  
 **\<vP11>** o\> (half)  
 **\<cryptochangement>** o/  
 **\<rehrar>** 2. I don't think ByteRub Support is necessary  
@@ -194,7 +194,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** 8. Open ideas time  
 **\<rehrar>** It’s open ideas time! Feel free to propose your ideas to this  discussion group, and feel free to comment on others’ ideas. If you  disagree with the idea, please reply with constructive criticism. Thank  you!  
 **\<msvb-lab>** Taiga is quite excellent. Does anybody know about a mobile application that lets you browse, monitor, or get notifications from projects?  
-**\<xmrmatterbridge> \<sgp>** I like the conference idea, and it's probably easiest to host at a university. Work with a student group there  
+**\<btrmatterbridge> \<sgp>** I like the conference idea, and it's probably easiest to host at a university. Work with a student group there  
 **\<needmultisig90>** I would like to open discussion on the current inclusion of /r/aeon on the /r/byterub sidebar. /u/bigreddmachine has brought up that we show preference towards it and not other cryptonote projects, and I think we should come to a clear consensus on whether it should be included or not.  
 **\<rehrar>** msvb-lab they have an app, but it's very limited unless you pay (ironically)  
 **\<needmultisig90>** Im personally biased towards inclusion for financial reasons, and will refrain from participating  
@@ -213,7 +213,7 @@ author: dEBRUYNE / fluffypony
 **\<bigreddmachine>** But everything else - including Aeon - should be treated the same. If aeon makes the cut, I can think of a dozen other coins more deserving of making the cut.  
 **\<rehrar>** ^  
 **\<rehrar>** It would be a different matter if Aeon was under the ByteRub Project umbrella, but it's not  
-**\<xmrmatterbridge> \<sgp>** This also extends to the ByteRub StackExchange  
+**\<btrmatterbridge> \<sgp>** This also extends to the ByteRub StackExchange  
 **\<xeagu>** I make the claim that we decide what coins can be added to the sidebar based on their community and not necessarily technical similarities  
 **\<ErCiccione>** I think the most important thing now is decide the criterias of that sidebar. Make no sense to me refuse /r/aeon but leave /r/BTC  
 **\<ArticMine>** There has to be some kind of objective criteria  
@@ -283,6 +283,6 @@ author: dEBRUYNE / fluffypony
 **\<parasew[m]>** ErCiccione: detail configure i mean.  
 **\<ErCiccione>** ok, but don't worry too much about details, we need to know if it's 100% compatible with all our needings. if it is we can think about the configuration later  
 **\<ErCiccione>** also if everything is going fine i don't need to take a look now, we can do everything when is configuration time :)  
-**\<ErCiccione>** also, i gave the credential of 1 vps of mine to xmrscott, who wanted to give Weblate another shot. if that failed we can just focus on pootle for good  
+**\<ErCiccione>** also, i gave the credential of 1 vps of mine to btrscott, who wanted to give Weblate another shot. if that failed we can just focus on pootle for good  
 **\<parasew[m]>** ok cool, will pm you tomorrow  
 **\<ErCiccione>** great, thanks!  

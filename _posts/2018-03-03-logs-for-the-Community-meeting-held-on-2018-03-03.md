@@ -17,8 +17,8 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<erciccione\_[m]>** Hi  
 **\<msvb-loc>** Hello  
 **\<sgp\_>** 2. Community highlights  
-**\<sgp\_>** XMR.RU has translated many important articles into Russian: https://www.reddit.com/r/ByteRub/comments/81owe8/xmrrureport_february/   
-**\<byterubbux>** [REDDIT] XMR.RU-report (February) (self.ByteRub) | 8 points (91.0%) | 4 comments | Posted by TheFuzzStone | Created at 2018-03-03 - 09:06:46  
+**\<sgp\_>** BTR.RU has translated many important articles into Russian: https://www.reddit.com/r/ByteRub/comments/81owe8/btrrureport_february/   
+**\<byterubbux>** [REDDIT] BTR.RU-report (February) (self.ByteRub) | 8 points (91.0%) | 4 comments | Posted by TheFuzzStone | Created at 2018-03-03 - 09:06:46  
 **\<sgp\_>** The Ledger team posted their latest update a little over a week ago: https://www.reddit.com/r/ByteRub/comments/7zez0g/ledger_hardware_wallet_byterub_integration_some/   
 **\<byterubbux>** [REDDIT] Ledger Hardware Wallet - ByteRub integration : some news #7 (self.ByteRub) | 368 points (96.0%) | 56 comments | Posted by cslashm | Created at 2018-02-22 - 13:45:50  
 **\<sgp\_>** There is an important Core Team announcement. binaryFate will replace tacotime as a Core Team member: https://getbyterub.org/2018/03/01/core-team-announcement.html   
@@ -49,7 +49,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<sgp\_>** Go ahead rehrar  
 **\<rehrar>** For those who don't know, I've been working on a thingy to teach the community about open source, with the goal being that the open source vision really sets the stage for the ByteRub vision  
 **\<rehrar>** and it's hard to 'get' one without understanding the other  
-**\<rehrar>** The past week or so I've directed anyone who would listen to this pad: https://public.etherpad-mozilla.org/p/thegoodxmrpad  
+**\<rehrar>** The past week or so I've directed anyone who would listen to this pad: https://public.etherpad-mozilla.org/p/thegoodbtrpad  
 **\<rehrar>** where they can share their favorite open source projects  
 **\<rehrar>** A good list has been compiled so far, although it's only scratched the surface.  
 **\<rehrar>** I'm ready to do a launch on the initiative, and will be making a post today.  
@@ -57,7 +57,7 @@ author: el00ruobuob / SamsungGalaxyPlayer
 **\<rehrar>** I'll probably be holding a livestreamed mini-conference before the weekend is over for anyone who wants to come  
 **\<rehrar>** just talk about open source and chill  
 **\<sgp\_>** We mentioned earlier when you first introduced this initiative that it's important for people to understand the merits of open-source  
-**\<xmrmatterbridge> \<cryptochangements>** I'd be sure to watch it ;)  
+**\<btrmatterbridge> \<cryptochangements>** I'd be sure to watch it ;)  
 **\<sgp\_>** All right, post it in r/ByteRubCommunity and I'll hop on  
 **\<rehrar>** that's it for me  
 **\<sgp\_>** All right, time to move to FFS updates! If anyone has other items, we can get to them later  
@@ -141,24 +141,24 @@ xwerter6 left the room (quit: Ping timeout: 260 seconds).
 **\<ArticMine>** We will need to provide the users with options and the long term effects  
 **\<sgp\_>** @Randolf it is most likely just someone trying to get rich quick, but who knows?  
 **\<Randolf>** sgp_: As seems to be the case with many forks.  
-**\<xmrmatterbridge> \<cryptochangements>** Your video on it I think helped a lot... but most people are too lazy to watch a 20 minute video smh  
+**\<btrmatterbridge> \<cryptochangements>** Your video on it I think helped a lot... but most people are too lazy to watch a 20 minute video smh  
 **\<Randolf>** Is this the first time that ByteRub has been forked?  
 **\<ArticMine>** I do not think ByteRubV was deliberately designed to hurt ByteRub  
 **\<Randolf>** That's good, at least.  
 **\<ArticMine>** It is the first time we have an "air drop"  
 **\<serhack>** If sgp agreed with me , I could try to reach some users by writing a solid article in my blog.  
-**\<xmrmatterbridge> \<cryptochangements>** No, it's just the first time people are trying to participate in a scammy airdrop  
+**\<btrmatterbridge> \<cryptochangements>** No, it's just the first time people are trying to participate in a scammy airdrop  
 **\<sgp\_>** serhack sure, the more exposure the better  
 **\<erciccione\_[m]>** guys i have to go. Will catch you tomorrow  
 **\<serhack>** bye erciccione_[m]  
 **\<Randolf>** So, referring to it as "yet another fork" could be helpful.  
 **\<Randolf>** That way it keeps ByteRub in the "driver's seat" so-to-speak.  
-**\<xmrmatterbridge> \<cryptochangements>** Perhaps we could put something about it in the daily discussion thread on reddit? Yesterday I spent way too much time explaining to people that it's a scam and bad for their own privacy  
-**\<sgp\_>** I recommend writing a comprehensive guide on /r/xmrtrader that is stickied. But I would still like some feedback regarding what to include to best get the message across to those who think this is just another opportunity to make money  
-**\<ArticMine>** Yes but will that be enough? I mean XMR at 100,000 USD and scammy XMV at 0.5% market cap or 50 USD x10?  
+**\<btrmatterbridge> \<cryptochangements>** Perhaps we could put something about it in the daily discussion thread on reddit? Yesterday I spent way too much time explaining to people that it's a scam and bad for their own privacy  
+**\<sgp\_>** I recommend writing a comprehensive guide on /r/btrtrader that is stickied. But I would still like some feedback regarding what to include to best get the message across to those who think this is just another opportunity to make money  
+**\<ArticMine>** Yes but will that be enough? I mean BTR at 100,000 USD and scammy XMV at 0.5% market cap or 50 USD x10?  
 **\<ArticMine>** That would put ByteRubV at a larger market cap than ByteRub today  
 **\<ArticMine>** This is the kind of long term risk that I have to be concerned about  
-**\<xmrmatterbridge> \<cryptochangements>** I wanna know who is actually going to be buying these coins tho... literally everyone I have spoken to about it just wants to dump them  
+**\<btrmatterbridge> \<cryptochangements>** I wanna know who is actually going to be buying these coins tho... literally everyone I have spoken to about it just wants to dump them  
 **\<sgp\_>** I think over 95% of people see this as an opportunity to dump  
 **\<msvb-loc>** sgp_: Dump what?  
 **\<ArticMine>** So I am in the camp of safely splitting of the XMV by using the same mixing on both chains  
@@ -229,13 +229,13 @@ xwerter6 left the room (quit: Ping timeout: 260 seconds).
 **\<rehrar>** Happy Valentine's Day!  
 **\<sgp\_>** The next community meeting will be two weeks from today on 17 March. The Coffee Chat will be next Saturday on 10 March.   
 **\<sgp\_>** 8. Conclusion   
-**\<xmrmatterbridge> \<cryptochangements>** No open ideas?  
+**\<btrmatterbridge> \<cryptochangements>** No open ideas?  
 **\<sgp\_>** That’s all! Thanks for attending this ByteRub Community meeting, and we hope to see you on /r/ByteRubCommunity and #byterub-community. Take care, and know that change starts with YOU.   
 **\<rehrar>** meeting 'officially' over  
 **\<rehrar>** but 'unofficial' open ideas time starts now  
 **\<sgp\_>** @cryptochangements we ran out of time, but I'm happy to still discuss them here  
-**\<xmrmatterbridge> \<cryptochangements>** Ok cool  
-**\<xmrmatterbridge> \<cryptochangements>** Someone mentioned on reddit the other day doing an AMA on r/IAmA to answer questions that people who might not really know that much about cryptocurrency might have. It could also be a chance to promote why we need financial privacy. Good idea? Bad idea?  
+**\<btrmatterbridge> \<cryptochangements>** Ok cool  
+**\<btrmatterbridge> \<cryptochangements>** Someone mentioned on reddit the other day doing an AMA on r/IAmA to answer questions that people who might not really know that much about cryptocurrency might have. It could also be a chance to promote why we need financial privacy. Good idea? Bad idea?  
 **\<sgp\_>** Good idea imo  
 **\<sgp\_>** But we need to convince those at AMA why  
 **\<phx[m]>** I don't feel like Reddit is the right platform tbh  
