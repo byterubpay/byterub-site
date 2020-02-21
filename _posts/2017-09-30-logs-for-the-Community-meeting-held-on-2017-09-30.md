@@ -233,7 +233,7 @@ author: dEBRUYNE / fluffypony
 **\<rehrar>** I'll probably throw together a draft myself  
 **\<cryptochangement>** bigreddmachine: then r/btc should probably be removed since those guys are pretty much all about BCH now (which is fine, but its not the "original bitcoin")  
 **\<rehrar>** they would say differently :P  
-**\<needmultisig90>** Xmrtrader independently voted to allow aeon discussion, but I could follow the result out of this  
+**\<needmultisig90>** Btrtrader independently voted to allow aeon discussion, but I could follow the result out of this  
 **\<ErCiccione>** agree with rehrar.a 3d in meta is the best way  
 **\<needmultisig90>** Whatever gets applied to /r/byterub should be uniform  
 **\<rehrar>** I am in favor of removing bitcoin and btc fwiw  

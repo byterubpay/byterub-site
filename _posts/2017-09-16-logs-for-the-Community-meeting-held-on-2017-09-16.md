@@ -90,7 +90,7 @@ author: dEBRUYNE / fluffypony
 **\<tlehman101>** My bad  
 **\<serhack>** So the first news is http://byterubintegrations.com hits +500 views  
 **\<serhack>** Almost 100 views/a day  
-**\<serhack>** Xmr requested for ffs: 49  
+**\<serhack>** Btr requested for ffs: 49  
 **\<serhack>** There will be three extension: whmcs, opencart and magento  
 **\<serhack>** Any questions?  
 **\<serhack>** cryptochangements ping  
